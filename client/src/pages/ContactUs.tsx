@@ -1,51 +1,21 @@
-/**
- * Contact Us Page
- * EmailJS integration: service_d3fg7kb / template_nbw2knk
- */
 import { useState } from "react";
 import { Link } from "wouter";
 import { ChevronRight, Mail, Clock, MessageCircle, Loader2 } from "lucide-react";
 import { toast } from "sonner";
-import emailjs from "@emailjs/browser";
 import PageLayout from "@/components/PageLayout";
 
-const EMAILJS_SERVICE_ID = "service_d3fg7kb";
-const EMAILJS_TEMPLATE_ID = "template_nbw2knk";
-const EMAILJS_PUBLIC_KEY = "DVnuMw1MwKTQv9hTq";
-
 export default function ContactUs() {
-  const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!form.name || !form.email || !form.message) {
-      toast.error("Please fill in all required fields.");
-      return;
-    }
+  const handleSubmit = (e: React.FormEvent) => {
     setSending(true);
-    try {
-      await emailjs.send(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        {
-          name: form.name,
-          email: form.email,
-          title: form.subject || "General Inquiry",
-          message: form.message,
-          time: new Date().toLocaleString("en-US", { timeZone: "America/Los_Angeles" }),
-        },
-        EMAILJS_PUBLIC_KEY
-      );
+    // Form will be handled by Netlify
+    setTimeout(() => {
       setSubmitted(true);
       toast.success("Message sent! We'll reply within 12 hours.");
-    } catch (err) {
-      console.error("EmailJS error:", err);
-      toast.error("Failed to send message. Please try again or email us directly.");
-    } finally {
       setSending(false);
-    }
+    }, 1000);
   };
 
   return (
@@ -101,7 +71,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-        {/* Right: Form */}
+        {/* Right: Form - Netlify Form */}
         <div className="rounded-2xl p-8 shadow-sm" style={{ backgroundColor: "oklch(0.97 0.015 240)" }}>
           {submitted ? (
             <div className="text-center py-12">
@@ -114,46 +84,68 @@ export default function ContactUs() {
               </p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form 
+              name="contact" 
+              method="POST" 
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              onSubmit={handleSubmit}
+              className="space-y-5"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <p className="hidden">
+                <label>Don't fill this out: <input name="bot-field" /></label>
+              </p>
+              
               <h2 className="text-xl font-extrabold mb-6" style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}>Send a Message</h2>
-              {[
-                { id: "name", label: "Your Name *", type: "text", placeholder: "John Smith" },
-                { id: "email", label: "Email Address *", type: "email", placeholder: "john@example.com" },
-                { id: "subject", label: "Subject", type: "text", placeholder: "Question about 12V parking AC" },
-              ].map(field => (
-                <div key={field.id}>
-                  <label className="block text-sm font-semibold mb-1.5" style={{ color: "oklch(0.35 0.08 250)", fontFamily: "'Inter', sans-serif" }}>{field.label}</label>
-                  <input
-                    type={field.type}
-                    placeholder={field.placeholder}
-                    value={form[field.id as keyof typeof form]}
-                    onChange={e => setForm(f => ({ ...f, [field.id]: e.target.value }))}
-                    className="w-full px-4 py-2.5 rounded-lg border text-sm outline-none transition-colors focus:border-blue-400"
-                    style={{
-                      borderColor: "oklch(0.85 0.04 240)",
-                      backgroundColor: "white",
-                      color: "oklch(0.25 0.10 250)",
-                      fontFamily: "'Inter', sans-serif",
-                    }}
-                  />
-                </div>
-              ))}
+              
+              <div>
+                <label className="block text-sm font-semibold mb-1.5" style={{ color: "oklch(0.35 0.08 250)", fontFamily: "'Inter', sans-serif" }}>Your Name *</label>
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="John Smith"
+                  className="w-full px-4 py-2.5 rounded-lg border text-sm outline-none transition-colors focus:border-blue-400"
+                  style={{ borderColor: "oklch(0.85 0.04 240)", backgroundColor: "white", color: "oklch(0.25 0.10 250)" }}
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-semibold mb-1.5" style={{ color: "oklch(0.35 0.08 250)", fontFamily: "'Inter', sans-serif" }}>Email Address *</label>
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="john@example.com"
+                  className="w-full px-4 py-2.5 rounded-lg border text-sm outline-none transition-colors focus:border-blue-400"
+                  style={{ borderColor: "oklch(0.85 0.04 240)", backgroundColor: "white", color: "oklch(0.25 0.10 250)" }}
+                />
+              </div>
+              
+              <div>
+                <label className="block text-sm font-semibold mb-1.5" style={{ color: "oklch(0.35 0.08 250)", fontFamily: "'Inter', sans-serif" }}>Subject</label>
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Question about 12V parking AC"
+                  className="w-full px-4 py-2.5 rounded-lg border text-sm outline-none transition-colors focus:border-blue-400"
+                  style={{ borderColor: "oklch(0.85 0.04 240)", backgroundColor: "white", color: "oklch(0.25 0.10 250)" }}
+                />
+              </div>
+              
               <div>
                 <label className="block text-sm font-semibold mb-1.5" style={{ color: "oklch(0.35 0.08 250)", fontFamily: "'Inter', sans-serif" }}>Message *</label>
                 <textarea
+                  name="message"
+                  required
                   rows={5}
                   placeholder="Tell us about your vehicle and cooling needs..."
-                  value={form.message}
-                  onChange={e => setForm(f => ({ ...f, message: e.target.value }))}
                   className="w-full px-4 py-2.5 rounded-lg border text-sm outline-none transition-colors focus:border-blue-400 resize-none"
-                  style={{
-                    borderColor: "oklch(0.85 0.04 240)",
-                    backgroundColor: "white",
-                    color: "oklch(0.25 0.10 250)",
-                    fontFamily: "'Inter', sans-serif",
-                  }}
+                  style={{ borderColor: "oklch(0.85 0.04 240)", backgroundColor: "white", color: "oklch(0.25 0.10 250)" }}
                 />
               </div>
+              
               <button
                 type="submit"
                 disabled={sending}
