@@ -277,6 +277,54 @@ const Footer = () => (
           </ul>
         </div>
       </div>
+
+      {/* Netlify Contact Form */}
+      <div className="bg-gray-800 rounded-lg p-6 mb-8">
+        <h4 className="text-white text-lg font-semibold mb-4">Get a Quote</h4>
+        <form name="contact" method="POST" data-netlify="true" className="space-y-4">
+          <input type="hidden" name="form-name" value="contact" />
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-sm mb-1">Name *</label>
+              <input 
+                type="text" 
+                name="name" 
+                required 
+                className="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:border-primary-500 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label className="block text-sm mb-1">Email *</label>
+              <input 
+                type="email" 
+                name="email" 
+                required 
+                className="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:border-primary-500 focus:outline-none"
+              />
+            </div>
+          </div>
+          <div>
+            <label className="block text-sm mb-1">Phone</label>
+            <input 
+              type="tel" 
+              name="phone" 
+              className="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:border-primary-500 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label className="block text-sm mb-1">Message *</label>
+            <textarea 
+              name="message" 
+              rows={4} 
+              required 
+              className="w-full px-4 py-2 rounded bg-gray-700 text-white border border-gray-600 focus:border-primary-500 focus:outline-none"
+            ></textarea>
+          </div>
+          <button type="submit" className="btn-primary w-full md:w-auto">
+            Send Message
+          </button>
+        </form>
+      </div>
       
       <div className="border-t border-gray-800 pt-8 text-center text-sm">
         <p>&copy; 2024 CoolDrivePro. All rights reserved.</p>
