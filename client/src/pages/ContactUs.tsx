@@ -7,15 +7,42 @@ import PageLayout from "@/components/PageLayout";
 export default function ContactUs() {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
     setSending(true);
-    // Form will be handled by Netlify
-    setTimeout(() => {
-      setSubmitted(true);
-      toast.success("Message sent! We'll reply within 12 hours.");
+    
+    try {
+      // Submit to Netlify Function
+      const response = await fetch('/.netlify/functions/form-submission', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams(formData).toString(),
+      });
+      
+      if (response.ok) {
+        setSubmitted(true);
+        toast.success("Message sent! We'll reply within 12 hours.");
+      } else {
+        throw new Error('Failed to send');
+      }
+    } catch (error) {
+      toast.error("Failed to send message. Please try again.");
+    } finally {
       setSending(false);
-    }, 1000);
+    }
   };
 
   return (
@@ -71,7 +98,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-        {/* Right: Form - Netlify Form */}
+        {/* Right: Form - Submit to Netlify Function */}
         <div className="rounded-2xl p-8 shadow-sm" style={{ backgroundColor: "oklch(0.97 0.015 240)" }}>
           {submitted ? (
             <div className="text-center py-12">
@@ -85,18 +112,9 @@ export default function ContactUs() {
             </div>
           ) : (
             <form 
-              name="contact" 
-              method="POST" 
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
               onSubmit={handleSubmit}
               className="space-y-5"
             >
-              <input type="hidden" name="form-name" value="contact" />
-              <p className="hidden">
-                <label>Don't fill this out: <input name="bot-field" /></label>
-              </p>
-              
               <h2 className="text-xl font-extrabold mb-6" style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}>Send a Message</h2>
               
               <div>
@@ -104,6 +122,8 @@ export default function ContactUs() {
                 <input
                   type="text"
                   name="name"
+                  value={formData.name}
+                  onChange={handleChange}
                   required
                   placeholder="John Smith"
                   className="w-full px-4 py-2.5 rounded-lg border text-sm outline-none transition-colors focus:border-blue-400"
@@ -116,6 +136,8 @@ export default function ContactUs() {
                 <input
                   type="email"
                   name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                   placeholder="john@example.com"
                   className="w-full px-4 py-2.5 rounded-lg border text-sm outline-none transition-colors focus:border-blue-400"
@@ -128,6 +150,8 @@ export default function ContactUs() {
                 <input
                   type="text"
                   name="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
                   placeholder="Question about 12V parking AC"
                   className="w-full px-4 py-2.5 rounded-lg border text-sm outline-none transition-colors focus:border-blue-400"
                   style={{ borderColor: "oklch(0.85 0.04 240)", backgroundColor: "white", color: "oklch(0.25 0.10 250)" }}
@@ -138,6 +162,8 @@ export default function ContactUs() {
                 <label className="block text-sm font-semibold mb-1.5" style={{ color: "oklch(0.35 0.08 250)", fontFamily: "'Inter', sans-serif" }}>Message *</label>
                 <textarea
                   name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                   required
                   rows={5}
                   placeholder="Tell us about your vehicle and cooling needs..."
