@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "topMountedAC": "顶置式空调",
+    "miniSplitAC": "迷你分体空调",
+    "heatingCoolingAC": "冷暖空调",
+    "allProducts": "全部产品",
+    "forum": "论坛",
+    "blog": "博客",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "search": "搜索",
+    "cart": "购物车",
+    "account": "账户",
+    "new": "新品",
+    "admin": "管理员",
+    "customer": "客户",
+    "ticketManagement": "工单管理",
+    "customerManagement": "客户管理",
+    "supportPortal": "我的支持中心",
+    "logout": "退出登录",
+    "login": "登录"
+  },
+  "hero": {
+    "title": "驻车空调——离网生活与移动舒适的完美选择",
+    "subtitle": "为卡车、房车和Vanlife设计的12V直流供电冷却方案。无需怠速即可保持凉爽。",
+    "ctaPrimary": "浏览产品",
+    "ctaSecondary": "了解更多",
+    "badge": "新品上市",
+    "trustedBy": "全球10,000+司机信赖之选"
+  },
+  "products": {
+    "title": "我们的产品",
+    "subtitle": "专为各类车型设计的专业级驻车空调",
+    "viewDetails": "查看详情",
+    "addToCart": "加入购物车",
+    "specs": "规格参数",
+    "features": "产品特点",
+    "reviews": "客户评价",
+    "warranty": "质保",
+    "freeShipping": "免费配送",
+    "support": "全天候支持",
+    "learnMore": "了解更多",
+    "topMounted": {
+      "title": "12V顶置式驻车空调",
+      "description": "专为半挂卡车和重型车辆设计。车顶安装简便，制冷强劲。",
+      "btu": "8,000 BTU",
+      "voltage": "12V/24V 直流",
+      "coverage": "制冷面积达80平方英尺"
+    },
+    "miniSplit": {
+      "title": "12V迷你分体驻车空调",
+      "description": "紧凑分体式设计，适合房车、露营车和小型卡车。超静音运行。",
+      "btu": "6,000 BTU",
+      "voltage": "12V 直流",
+      "coverage": "制冷面积达60平方英尺"
+    },
+    "heatingCooling": {
+      "title": "冷暖一体空调",
+      "description": "四季舒适，制冷制热双功能。全年使用的理想选择。",
+      "btu": "8,000 BTU",
+      "voltage": "12V/24V 直流",
+      "coverage": "四季舒适体验"
+    }
+  },
+  "features": {
+    "title": "为什么选择CoolDrivePro",
+    "subtitle": "专为严苛环境打造的可靠高效产品",
+    "batteryProtection": {
+      "title": "智能电池保护",
+      "description": "自动低压断电保护，防止车辆电池深度放电。"
+    },
+    "noIdle": {
+      "title": "无需发动机怠速",
+      "description": "节省燃油，减少排放。无需启动发动机即可享受舒适睡眠。"
+    },
+    "easyInstall": {
+      "title": "安装简便",
+      "description": "完整的DIY套件，附详细安装说明。多数安装仅需2-4小时。"
+    },
+    "quietOperation": {
+      "title": "静音运行",
+      "description": "先进的降噪技术。仅在45-55分贝下安静运行，让您安睡无忧。"
+    }
+  },
+  "useCases": {
+    "title": "适用于",
+    "subtitle": "深受多个行业司机信赖",
+    "semiTrucks": "半挂卡车",
+    "rvs": "房车和旅居车",
+    "vans": "露营车",
+    "construction": "工程车辆"
+  },
+  "shopWithUs": {
+    "title": "放心购物",
+    "warranty": {
+      "title": "2年质保",
+      "description": "所有零部件和人工费用全面覆盖"
+    },
+    "returns": {
+      "title": "30天退换",
+      "description": "不满意可无理由退货"
+    },
+    "shipping": {
+      "title": "免费配送",
+      "description": "美国本土订单满500美元免运费"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "任何问题我们都乐意为您解答",
+    "getInTouch": "取得联系",
+    "form": {
+      "name": "您的姓名",
+      "email": "电子邮箱",
+      "subject": "主题",
+      "message": "留言内容",
+      "send": "发送消息",
+      "sending": "发送中...",
+      "success": "消息已发送！我们将在12小时内回复。",
+      "required": "必填项"
+    },
+    "emailSupport": {
+      "title": "邮件支持",
+      "hours": "周一至周五：上午9点-下午6点（太平洋时间）"
+    },
+    "supportHours": {
+      "title": "支持时间",
+      "weekday": "周一至周五：上午9点-下午6点（太平洋时间）",
+      "weekend": "周六：上午10点-下午4点（太平洋时间）"
+    },
+    "liveChat": {
+      "title": "在线客服",
+      "hours": "周一至周五，上午9点-下午5点（太平洋时间）"
+    }
+  },
+  "footer": {
+    "products": "产品",
+    "support": "支持",
+    "company": "公司",
+    "legal": "法律条款",
+    "warranty": "质保政策",
+    "returns": "退换政策",
+    "shipping": "配送政策",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "newsletter": {
+      "title": "订阅更新",
+      "placeholder": "输入您的邮箱",
+      "subscribe": "订阅"
+    },
+    "rights": "版权所有。",
+    "language": "语言"
+  },
+  "blog": {
+    "title": "最新文章",
+    "subtitle": "技巧、指南和行业资讯",
+    "readMore": "阅读更多",
+    "categories": "分类",
+    "publishedOn": "发布于"
+  },
+  "forum": {
+    "title": "社区论坛",
+    "subtitle": "与其他驻车空调用户交流",
+    "newPost": "发布新帖",
+    "topics": "话题",
+    "replies": "回复",
+    "views": "浏览",
+    "lastPost": "最后回复"
+  },
+  "seo": {
+    "defaultTitle": "CoolDrivePro - 卡车和房车驻车空调",
+    "defaultDescription": "为卡车、房车和Vanlife设计的12V直流驻车空调。无需发动机怠速的节能制冷方案。选购顶置式和分体式空调。",
+    "homeTitle": "驻车空调——离网生活与移动舒适 | CoolDrivePro",
+    "productsTitle": "12V驻车空调 - 选购顶置式和分体式机组",
+    "contactTitle": "联系我们 - CoolDrivePro客户支持",
+    "blogTitle": "博客 - 驻车空调系统技巧与指南",
+    "forumTitle": "社区论坛 - 驻车空调交流讨论"
+  },
+  "errors": {
+    "404": {
+      "title": "页面未找到",
+      "message": "您查找的页面不存在。",
+      "backHome": "返回首页"
+    },
+    "generic": "出错了，请重试。"
+  },
+  "common": {
+    "loading": "加载中...",
+    "readMore": "阅读更多",
+    "viewAll": "查看全部",
+    "close": "关闭",
+    "search": "搜索",
+    "noResults": "未找到结果",
+    "comingSoon": "即将推出"
+  }
+}

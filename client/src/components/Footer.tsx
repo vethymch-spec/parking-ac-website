@@ -4,8 +4,10 @@
  * All links point to real routes
  */
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { Link } from "wouter";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const infoLinks = [
   { label: "About Us", href: "/about" },
@@ -43,7 +45,35 @@ const bottomLinks = [
 const paymentIcons = ["VISA", "MC", "AMEX", "PayPal", "Discover", "Apple Pay"];
 
 export default function Footer() {
+  const { t } = useTranslation();
   const [email, setEmail] = useState("");
+
+  // Navigation links with translation
+  const infoLinks = [
+    { label: t('nav.about'), href: "/about" },
+    { label: t('nav.contact'), href: "/contact" },
+    { label: t('nav.topMountedAC'), href: "/products/top-mounted-ac" },
+    { label: t('nav.miniSplitAC'), href: "/products/mini-split-ac" },
+    { label: t('nav.heatingCoolingAC'), href: "/products/heating-cooling-ac" },
+    { label: t('nav.contact'), href: "/contact", placeholder: false },
+    { label: "Brand Knowledge", href: "/brand-knowledge", placeholder: false },
+  ];
+
+  const serviceLinks = [
+    { label: t('footer.warranty'), href: "/warranty" },
+    { label: t('footer.returns'), href: "/return-policy" },
+    { label: t('footer.shipping'), href: "/shipping-policy" },
+    { label: t('footer.privacy'), href: "/privacy-policy" },
+    { label: t('footer.terms'), href: "/privacy-policy" },
+    { label: "Payment Method", href: "#", placeholder: true },
+    { label: "Billing Terms", href: "#", placeholder: true },
+  ];
+
+  const customerLinks = [
+    { label: t('nav.forum'), href: "/forum", placeholder: false },
+    { label: "Track Order", href: "#", placeholder: true },
+    { label: t('nav.account'), href: "#", placeholder: true },
+  ];
 
   const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
@@ -69,7 +99,7 @@ export default function Footer() {
               className="text-xs font-bold uppercase tracking-widest mb-4"
               style={{ color: "oklch(0.65 0.06 240)", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Info
+              {t('footer.company')}
             </h4>
             <ul className="space-y-2">
               {infoLinks.map((link) => (
@@ -103,7 +133,7 @@ export default function Footer() {
               className="text-xs font-bold uppercase tracking-widest mb-4"
               style={{ color: "oklch(0.65 0.06 240)", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Service
+              {t('footer.support')}
             </h4>
             <ul className="space-y-2">
               {serviceLinks.map((link) => (
@@ -137,7 +167,7 @@ export default function Footer() {
               className="text-xs font-bold uppercase tracking-widest mb-4"
               style={{ color: "oklch(0.65 0.06 240)", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Customer
+              {t('footer.support')}
             </h4>
             <ul className="space-y-2">
               {customerLinks.map((link) => (
@@ -161,13 +191,13 @@ export default function Footer() {
               className="text-xs font-bold uppercase tracking-widest mb-4"
               style={{ color: "oklch(0.65 0.06 240)", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Get in Touch
+              {t('contact.getInTouch')}
             </h4>
             <p
               className="text-sm mb-1"
               style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
             >
-              Customer Service:
+              {t('contact.emailSupport.title')}:
             </p>
             <a
               href="mailto:support@cooldrivepro.com"
@@ -191,7 +221,7 @@ export default function Footer() {
             className="text-center text-sm font-semibold mb-4"
             style={{ color: "oklch(0.80 0.04 240)", fontFamily: "'Montserrat', sans-serif" }}
           >
-            Subscribe to our email list
+            {t('footer.newsletter.title')}
           </p>
           <form
             onSubmit={handleSubscribe}
@@ -201,7 +231,7 @@ export default function Footer() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Email"
+              placeholder={t('footer.newsletter.placeholder')}
               className="flex-1 px-4 py-2.5 text-sm rounded-l-lg outline-none border border-white/20 focus:border-blue-400 transition-colors"
               style={{
                 backgroundColor: "oklch(0.30 0.08 248)",
@@ -217,9 +247,14 @@ export default function Footer() {
                 fontFamily: "'Montserrat', sans-serif",
               }}
             >
-              →
+              {t('footer.newsletter.subscribe')}
             </button>
           </form>
+        </div>
+
+        {/* Language Switcher */}
+        <div className="border-t border-white/10 pt-6 pb-4 flex justify-center">
+          <LanguageSwitcher variant="footer" />
         </div>
       </div>
 
@@ -233,7 +268,7 @@ export default function Footer() {
             className="text-xs"
             style={{ color: "oklch(0.60 0.04 240)", fontFamily: "'Inter', sans-serif" }}
           >
-            © 2025, CoolDrivePro. All rights reserved.
+            © 2025, CoolDrivePro. {t('footer.rights')}
           </p>
 
           {/* Payment Icons */}

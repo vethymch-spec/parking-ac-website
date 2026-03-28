@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "products": "製品",
+    "topMountedAC": "天井置き型エアコン",
+    "miniSplitAC": "ミニスプリットエアコン",
+    "heatingCoolingAC": "冷暖房エアコン",
+    "allProducts": "全製品",
+    "forum": "フォーラム",
+    "blog": "ブログ",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "search": "検索",
+    "cart": "カート",
+    "account": "アカウント",
+    "new": "新製品",
+    "admin": "管理者",
+    "customer": "お客様",
+    "ticketManagement": "チケット管理",
+    "customerManagement": "顧客管理",
+    "supportPortal": "サポートポータル",
+    "logout": "ログアウト",
+    "login": "ログイン"
+  },
+  "hero": {
+    "title": "オフグリッド生活とモバイル快適性のための駐車エアコン",
+    "subtitle": "トラック、RV、バンライフ向けの12V DC電源冷却ソリューション。エンジンをアイドリングさせずに涼しく過ごせます。",
+    "ctaPrimary": "製品を見る",
+    "ctaSecondary": "詳細を見る",
+    "badge": "新登場",
+    "trustedBy": "世界中の10,000人以上のドライバーに信頼されています"
+  },
+  "products": {
+    "title": "当社の製品",
+    "subtitle": "さまざまな車種向けに設計されたプロ仕様の駐車エアコン",
+    "viewDetails": "詳細を見る",
+    "addToCart": "カートに追加",
+    "specs": "仕様",
+    "features": "特徴",
+    "reviews": "カスタマーレビュー",
+    "warranty": "保証",
+    "freeShipping": "送料無料",
+    "support": "24時間サポート",
+    "learnMore": "詳細を見る",
+    "topMounted": {
+      "title": "12V天井置き型駐車エアコン",
+      "description": "セミトラックや大型車両に最適。屋根への簡単設置で強力な冷却。",
+      "btu": "8,000 BTU",
+      "voltage": "12V/24V DC",
+      "coverage": "最大80平方フィートを冷却"
+    },
+    "miniSplit": {
+      "title": "12Vミニスプリット駐車エアコン",
+      "description": "RV、キャンピングカー、小型トラックに最適なコンパクトな分離型システム。静かな動作。",
+      "btu": "6,000 BTU",
+      "voltage": "12V DC",
+      "coverage": "最大60平方フィートを冷却"
+    },
+    "heatingCooling": {
+      "title": "冷暖房ユニット",
+      "description": "冷暖房両方の機能を備えたオールシーズン快適性。年中使用に最適。",
+      "btu": "8,000 BTU",
+      "voltage": "12V/24V DC",
+      "coverage": "オールシーズン快適"
+    }
+  },
+  "features": {
+    "title": "なぜCoolDriveProを選ぶのか",
+    "subtitle": "厳しい条件下で信頼性と効率性を追求して設計",
+    "batteryProtection": {
+      "title": "スマートバッテリー保護",
+      "description": "自動低電圧カットオフで車両バッテリーの過放電を防ぎます。"
+    },
+    "noIdle": {
+      "title": "エンジンアイドリング不要",
+      "description": "燃料を節約し、排出ガスを削減。エンジンをかけずに快適に眠れます。"
+    },
+    "easyInstall": {
+      "title": "簡単設置",
+      "description": "詳細な説明書付きの完全なDIYキット。ほとんどの設置は2〜4時間で完了。"
+    },
+    "quietOperation": {
+      "title": "静かな動作",
+      "description": "先進的な騒音低減技術。わずか45〜55dBで静かに眠れます。"
+    }
+  },
+  "useCases": {
+    "title": "最適な用途",
+    "subtitle": "複数の業界のドライバーから信頼されています",
+    "semiTrucks": "セミトラック",
+    "rvs": "RV＆モーターホーム",
+    "vans": "キャンピングカー",
+    "construction": "建設車両"
+  },
+  "shopWithUs": {
+    "title": "安心してお買い物",
+    "warranty": {
+      "title": "2年保証",
+      "description": "すべての部品と労務費を完全カバー"
+    },
+    "returns": {
+      "title": "30日間返品",
+      "description": "満足できない場合は手間なく返品可能"
+    },
+    "shipping": {
+      "title": "送料無料",
+      "description": "アメリカ本土への$500以上の注文"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご質問があれば喜んでお答えします",
+    "getInTouch": "連絡する",
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "subject": "件名",
+      "message": "メッセージ",
+      "send": "メッセージを送信",
+      "sending": "送信中...",
+      "success": "メッセージを送信しました！12時間以内に返信します。",
+      "required": "必須項目"
+    },
+    "emailSupport": {
+      "title": "メールサポート",
+      "hours": "月曜日〜金曜日：午前9時〜午後6時（太平洋時間）"
+    },
+    "supportHours": {
+      "title": "サポート時間",
+      "weekday": "月曜日〜金曜日：午前9時〜午後6時（太平洋時間）",
+      "weekend": "土曜日：午前10時〜午後4時（太平洋時間）"
+    },
+    "liveChat": {
+      "title": "ライブチャット",
+      "hours": "月〜金、午前9時〜午後5時（太平洋時間）"
+    }
+  },
+  "footer": {
+    "products": "製品",
+    "support": "サポート",
+    "company": "会社",
+    "legal": "法的事項",
+    "warranty": "保証",
+    "returns": "返品ポリシー",
+    "shipping": "配送ポリシー",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "newsletter": {
+      "title": "最新情報を受け取る",
+      "placeholder": "メールアドレスを入力",
+      "subscribe": "購読"
+    },
+    "rights": "全著作権所有。",
+    "language": "言語"
+  },
+  "blog": {
+    "title": "最新記事",
+    "subtitle": "ヒント、ガイド、業界ニュース",
+    "readMore": "続きを読む",
+    "categories": "カテゴリー",
+    "publishedOn": "公開日"
+  },
+  "forum": {
+    "title": "コミュニティフォーラム",
+    "subtitle": "他の駐車エアコン所有者とつながる",
+    "newPost": "新規投稿",
+    "topics": "トピック",
+    "replies": "返信",
+    "views": "閲覧数",
+    "lastPost": "最新投稿"
+  },
+  "seo": {
+    "defaultTitle": "CoolDrivePro - トラックとRV用駐車エアコン",
+    "defaultDescription": "トラック、RV、バンライフ向けの12V DC駐車エアコン。エンジンアイドリング不要の省エネ冷却。天井置き型とスプリット型エアコンを購入。",
+    "homeTitle": "駐車エアコン - オフグリッド生活とモバイル快適性 | CoolDrivePro",
+    "productsTitle": "12V駐車エアコン - 天井置き型とスプリット型ユニットを購入",
+    "contactTitle": "お問い合わせ - CoolDriveProサポート",
+    "blogTitle": "ブログ - 駐車エアコンシステムのヒントとガイド",
+    "forumTitle": "コミュニティフォーラム - 駐車エアコンについての議論"
+  },
+  "errors": {
+    "404": {
+      "title": "ページが見つかりません",
+      "message": "お探しのページは存在しません。",
+      "backHome": "ホームに戻る"
+    },
+    "generic": "エラーが発生しました。もう一度お試しください。"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "readMore": "続きを読む",
+    "viewAll": "すべて表示",
+    "close": "閉じる",
+    "search": "検索",
+    "noResults": "結果が見つかりません",
+    "comingSoon": "近日公開"
+  }
+}

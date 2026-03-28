@@ -1,16 +1,15 @@
+functionsDirectory = "/tmp/parking-ac-website-original/netlify/functions"
+functionsDirectoryOrigin = "default"
 redirectsOrigin = "config"
 plugins = []
 headers = []
-
-[functions]
-
-[functions."*"]
 
 [build]
 publish = "/tmp/parking-ac-website-original/dist/client"
 publishOrigin = "config"
 commandOrigin = "config"
 command = "npm install --legacy-peer-deps && npm run build"
+functions = "/tmp/parking-ac-website-original/netlify/functions"
 
 [build.environment]
 
@@ -25,6 +24,10 @@ command = "npm install --legacy-peer-deps && npm run build"
 [build.processing.js]
 
 [build.services]
+
+[functions]
+
+[functions."*"]
 
 [[redirects]]
 from = "/*"

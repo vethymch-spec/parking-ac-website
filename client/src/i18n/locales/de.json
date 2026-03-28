@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "topMountedAC": "Dachmontierte Klimaanlage",
+    "miniSplitAC": "Mini-Split Klimaanlage",
+    "heatingCoolingAC": "Heiz- und Kühlgerät",
+    "allProducts": "Alle Produkte",
+    "forum": "Forum",
+    "blog": "Blog",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "search": "Suche",
+    "cart": "Warenkorb",
+    "account": "Konto",
+    "new": "NEU",
+    "admin": "Admin",
+    "customer": "Kunde",
+    "ticketManagement": "Ticket-Verwaltung",
+    "customerManagement": "Kundenverwaltung",
+    "supportPortal": "Mein Support-Portal",
+    "logout": "Abmelden",
+    "login": "Anmelden"
+  },
+  "hero": {
+    "title": "Standklimaanlage für Off-Grid-Leben und mobilen Komfort",
+    "subtitle": "12V DC-gestützte Kühlungslösungen für Lkw, Wohnmobile und Vanlife. Bleiben Sie cool, ohne den Motor laufen zu lassen.",
+    "ctaPrimary": "Produkte kaufen",
+    "ctaSecondary": "Mehr erfahren",
+    "badge": "Neu eingetroffen",
+    "trustedBy": "Von über 10.000 Fahrern weltweit vertraut"
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "subtitle": "Professionelle Standklimaanlagen für verschiedene Fahrzeugtypen",
+    "viewDetails": "Details anzeigen",
+    "addToCart": "In den Warenkorb",
+    "specs": "Spezifikationen",
+    "features": "Merkmale",
+    "reviews": "Kundenbewertungen",
+    "warranty": "Garantie",
+    "freeShipping": "Kostenloser Versand",
+    "support": "24/7 Support",
+    "learnMore": "Mehr erfahren",
+    "topMounted": {
+      "title": "12V Dachmontierte Standklimaanlage",
+      "description": "Perfekt für Sattelzüge und Nutzfahrzeuge. Einfache Dachmontage mit leistungsstarker Kühlung.",
+      "btu": "8.000 BTU",
+      "voltage": "12V/24V DC",
+      "coverage": "Kühlt bis zu 80 sq ft"
+    },
+    "miniSplit": {
+      "title": "12V Mini-Split Standklimaanlage",
+      "description": "Kompaktes Split-System ideal für Wohnmobile, Campervans und kleine Lkw. Flüsterleiser Betrieb.",
+      "btu": "6.000 BTU",
+      "voltage": "12V DC",
+      "coverage": "Kühlt bis zu 60 sq ft"
+    },
+    "heatingCooling": {
+      "title": "Heiz- und Kühlgerät",
+      "description": "Ganzjähriger Komfort mit Heiz- und Kühlfunktion. Perfekt für den ganzjährigen Gebrauch.",
+      "btu": "8.000 BTU",
+      "voltage": "12V/24V DC",
+      "coverage": "Ganzjähriger Komfort"
+    }
+  },
+  "features": {
+    "title": "Warum CoolDrivePro wählen",
+    "subtitle": "Für Zuverlässigkeit und Effizienz unter anspruchsvollen Bedingungen entwickelt",
+    "batteryProtection": {
+      "title": "Intelligenter Batterieschutz",
+      "description": "Automatische Unterspannungsabschaltung schützt Ihre Fahrzeugbatterie vor Tiefentladung."
+    },
+    "noIdle": {
+      "title": "Kein Motorleerlauf",
+      "description": "Sparen Sie Kraftstoff und reduzieren Sie Emissionen. Schlafen Sie bequem, ohne den Motor laufen zu lassen."
+    },
+    "easyInstall": {
+      "title": "Einfache Installation",
+      "description": "Komplette DIY-Kits mit detaillierten Anleitungen. Die meisten Installationen dauern 2-4 Stunden."
+    },
+    "quietOperation": {
+      "title": "Leiser Betrieb",
+      "description": "Fortschrittliche Geräuschreduzierungstechnologie. Schlafen Sie friedlich bei nur 45-55 dB."
+    }
+  },
+  "useCases": {
+    "title": "Perfekt für",
+    "subtitle": "Von Fahrern in verschiedenen Branchen vertraut",
+    "semiTrucks": "Sattelzüge",
+    "rvs": "Wohnmobile",
+    "vans": "Campervans",
+    "construction": "Baumaschinen"
+  },
+  "shopWithUs": {
+    "title": "Mit Vertrauen einkaufen",
+    "warranty": {
+      "title": "2-Jahres-Garantie",
+      "description": "Volle Deckung für alle Teile und Arbeitskosten"
+    },
+    "returns": {
+      "title": "30-Tage-Rückgabe",
+      "description": "Problemlose Rückgabe, wenn Sie nicht zufrieden sind"
+    },
+    "shipping": {
+      "title": "Kostenloser Versand",
+      "description": "Bei Bestellungen über 500 $ in die USA"
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir helfen Ihnen gerne bei allen Fragen",
+    "getInTouch": "Kontakt aufnehmen",
+    "form": {
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht gesendet! Wir antworten innerhalb von 12 Stunden.",
+      "required": "Pflichtfeld"
+    },
+    "emailSupport": {
+      "title": "E-Mail-Support",
+      "hours": "Montag – Freitag: 9 – 18 Uhr PT"
+    },
+    "supportHours": {
+      "title": "Support-Zeiten",
+      "weekday": "Montag – Freitag: 9 – 18 Uhr PT",
+      "weekend": "Samstag: 10 – 16 Uhr PT"
+    },
+    "liveChat": {
+      "title": "Live-Chat",
+      "hours": "Mo–Fr, 9–17 Uhr PT"
+    }
+  },
+  "footer": {
+    "products": "Produkte",
+    "support": "Support",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "warranty": "Garantie",
+    "returns": "Rückgaberichtlinie",
+    "shipping": "Versandrichtlinie",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "newsletter": {
+      "title": "Bleiben Sie informiert",
+      "placeholder": "E-Mail eingeben",
+      "subscribe": "Abonnieren"
+    },
+    "rights": "Alle Rechte vorbehalten.",
+    "language": "Sprache"
+  },
+  "blog": {
+    "title": "Neueste Artikel",
+    "subtitle": "Tipps, Anleitungen und Branchennews",
+    "readMore": "Weiterlesen",
+    "categories": "Kategorien",
+    "publishedOn": "Veröffentlicht am"
+  },
+  "forum": {
+    "title": "Community-Forum",
+    "subtitle": "Vernetzen Sie sich mit anderen Standklimaanlagen-Besitzern",
+    "newPost": "Neuer Beitrag",
+    "topics": "Themen",
+    "replies": "Antworten",
+    "views": "Aufrufe",
+    "lastPost": "Letzter Beitrag"
+  },
+  "seo": {
+    "defaultTitle": "CoolDrivePro - Standklimaanlage für Lkw und Wohnmobile",
+    "defaultDescription": "12V DC-Standklimaanlagen für Lkw, Wohnmobile und Vanlife. Energieeffiziente Kühlung ohne Motorleerlauf. Dachmontierte und Split-Klimaanlagen kaufen.",
+    "homeTitle": "Standklimaanlage für Off-Grid-Leben und mobilen Komfort | CoolDrivePro",
+    "productsTitle": "12V Standklimaanlagen - Dachmontierte und Split-Geräte kaufen",
+    "contactTitle": "Kontaktieren Sie uns - CoolDrivePro Support",
+    "blogTitle": "Blog - Tipps und Anleitungen für Standklimaanlagen",
+    "forumTitle": "Community-Forum - Diskussionen über Standklimaanlagen"
+  },
+  "errors": {
+    "404": {
+      "title": "Seite nicht gefunden",
+      "message": "Die gesuchte Seite existiert nicht.",
+      "backHome": "Zurück zur Startseite"
+    },
+    "generic": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle anzeigen",
+    "close": "Schließen",
+    "search": "Suche",
+    "noResults": "Keine Ergebnisse gefunden",
+    "comingSoon": "Demnächst verfügbar"
+  }
+}

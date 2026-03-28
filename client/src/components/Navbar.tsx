@@ -9,11 +9,13 @@
  * pulling vendor-icons chunk into critical path.
  */
 import { useState, useEffect, useRef, lazy, Suspense } from "react";
+import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { Link, useLocation } from "wouter";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { trpc } from "@/lib/trpc";
 import { getLoginUrl } from "@/const";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 const SearchOverlay = lazy(() => import("@/components/SearchOverlay"));
 
 /* ── Inline SVG Icons (avoid lucide-react in critical path) ── */
@@ -48,22 +50,8 @@ const IconHeadphones = ({ size = 16, className }: { size?: number; className?: s
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
 );
 
-const navItems = [
-  { label: "Top Mounted AC", href: "/products/top-mounted-ac" },
-  { label: "Mini Split AC", href: "/products/mini-split-ac" },
-  { label: "Heating & Cooling AC", href: "/products/heating-cooling-ac", isNew: true },
-  { label: "All Products", href: "/products" },
-  { label: "Forum", href: "/forum" },
-  { label: "Blog", href: "/blog" },
-  { label: "About Us", href: "/about" },
-  { label: "Contact Us", href: "/contact" },
-];
-
-interface NavbarProps {
-  forceScrolled?: boolean;
-}
-
 export default function Navbar({ forceScrolled = false }: NavbarProps) {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const isScrolled = forceScrolled || scrolled;
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -73,6 +61,18 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
 
   const userMenuRef = useRef<HTMLDivElement>(null);
   const [location] = useLocation();
+
+  // Navigation items with translation
+  const navItems = [
+    { label: t('nav.topMountedAC'), href: "/products/top-mounted-ac" },
+    { label: t('nav.miniSplitAC'), href: "/products/mini-split-ac" },
+    { label: t('nav.heatingCoolingAC'), href: "/products/heating-cooling-ac", isNew: true },
+    { label: t('nav.allProducts'), href: "/products" },
+    { label: t('nav.forum'), href: "/forum" },
+    { label: t('nav.blog'), href: "/blog" },
+    { label: t('nav.about'), href: "/about" },
+    { label: t('nav.contact'), href: "/contact" },
+  ];
 
   // Manus OAuth user (admin)
   const { user: adminUser, isAuthenticated, logout: adminLogout } = useAuth();
@@ -277,10 +277,13 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
             <button
               onClick={handleCartClick}
               className="p-2 rounded-full hover:bg-white/20 transition-colors relative"
-              aria-label="Cart"
+              aria-label={t('nav.cart')}
             >
               <IconShoppingCart size={18} style={{ color: iconColor }} />
             </button>
+            
+            {/* Language Switcher */}
+            <LanguageSwitcher isScrolled={isScrolled} />
             <button
               className="xl:hidden p-2 rounded-full hover:bg-gray-100 transition-colors"
               onClick={() => setMobileOpen(!mobileOpen)}

@@ -6,6 +6,8 @@ import { createRoot } from "react-dom/client";
 import superjson from "superjson";
 import App from "./App";
 import { getLoginUrl } from "./const";
+// i18n internationalization
+import "./i18n";
 // Self-hosted fonts via fontsource – latin subset only
 // Critical fonts for first paint (hero title, nav, body text)
 import "@fontsource/montserrat/latin-700.css";
