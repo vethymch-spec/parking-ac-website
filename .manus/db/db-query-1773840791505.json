@@ -1,0 +1,9 @@
+{
+  "query": "SELECT id, customerNo, companyName, contactName, email, phone, customerType, salesRep, qualificationStatus, qualificationNotes, passwordHash, passwordChanged, activationToken, activationTokenExpiresAt, status, loginFailCount, lockedUntil, productModel, orderNumber, purchaseDate, adminNotes, createdByAdminId, createdByAdminName, createdAt, updatedAt, firstLoginAt, lastLoginAt, passwordChangedAt FROM customers ORDER BY createdAt DESC LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user ooABNnnUQu5at54.1f3193c2dfb8 --database UaaDSNMGrVjrky6icy9Uv4 --execute SELECT id, customerNo, companyName, contactName, email, phone, customerType, salesRep, qualificationStatus, qualificationNotes, passwordHash, passwordChanged, activationToken, activationTokenExpiresAt, status, loginFailCount, lockedUntil, productModel, orderNumber, purchaseDate, adminNotes, createdByAdminId, createdByAdminName, createdAt, updatedAt, firstLoginAt, lastLoginAt, passwordChangedAt FROM customers ORDER BY createdAt DESC LIMIT 5;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1613
+}

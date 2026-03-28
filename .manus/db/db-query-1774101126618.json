@@ -1,0 +1,46 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user uMY17ZciekwPn21.root --database c5y7gxfLueWgEWeo3GX4pK --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "customer_logs"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "customers"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "forum_categories"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "forum_posts"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "forum_replies"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "post_likes"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "reply_likes"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "support_tickets"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "ticket_attachments"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "ticket_messages"
+    },
+    {
+      "Tables_in_c5y7gxfLueWgEWeo3GX4pK": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_c5y7gxfLueWgEWeo3GX4pK\n__drizzle_migrations\ncustomer_logs\ncustomers\nforum_categories\nforum_posts\nforum_replies\npost_likes\nreply_likes\nsupport_tickets\nticket_attachments\nticket_messages\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 50
+}

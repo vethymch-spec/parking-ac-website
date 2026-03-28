@@ -1,0 +1,87 @@
+{
+  "query": "SELECT * FROM forum_categories;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user uMY17ZciekwPn21.root --database c5y7gxfLueWgEWeo3GX4pK --execute SELECT * FROM forum_categories;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Experience & Reviews",
+      "slug": "experience-reviews",
+      "description": "Share your real-world experience with parking AC systems",
+      "icon": "star",
+      "color": "#f59e0b",
+      "sortOrder": "1",
+      "postCount": "0",
+      "createdAt": "2026-03-21 13:52:32"
+    },
+    {
+      "id": "2",
+      "name": "Installation Help",
+      "slug": "installation-help",
+      "description": "Questions and tips on installing your parking AC",
+      "icon": "wrench",
+      "color": "#3b82f6",
+      "sortOrder": "2",
+      "postCount": "0",
+      "createdAt": "2026-03-21 13:52:32"
+    },
+    {
+      "id": "3",
+      "name": "Troubleshooting",
+      "slug": "troubleshooting",
+      "description": "Get help diagnosing and fixing issues",
+      "icon": "alert-triangle",
+      "color": "#ef4444",
+      "sortOrder": "3",
+      "postCount": "0",
+      "createdAt": "2026-03-21 13:52:32"
+    },
+    {
+      "id": "4",
+      "name": "Solar & Battery Setup",
+      "slug": "solar-battery",
+      "description": "Discuss solar panels, battery banks, and power systems",
+      "icon": "zap",
+      "color": "#10b981",
+      "sortOrder": "4",
+      "postCount": "0",
+      "createdAt": "2026-03-21 13:52:32"
+    },
+    {
+      "id": "5",
+      "name": "Van Life & RV Living",
+      "slug": "van-life-rv",
+      "description": "Life on the road, van builds, and RV tips",
+      "icon": "truck",
+      "color": "#8b5cf6",
+      "sortOrder": "5",
+      "postCount": "0",
+      "createdAt": "2026-03-21 13:52:32"
+    },
+    {
+      "id": "6",
+      "name": "Product Comparison",
+      "slug": "product-comparison",
+      "description": "Compare different parking AC models and brands",
+      "icon": "bar-chart",
+      "color": "#06b6d4",
+      "sortOrder": "6",
+      "postCount": "0",
+      "createdAt": "2026-03-21 13:52:32"
+    },
+    {
+      "id": "7",
+      "name": "General Discussion",
+      "slug": "general",
+      "description": "Anything else related to parking air conditioning",
+      "icon": "message-circle",
+      "color": "#6b7280",
+      "sortOrder": "7",
+      "postCount": "0",
+      "createdAt": "2026-03-21 13:52:32"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tslug\tdescription\ticon\tcolor\tsortOrder\tpostCount\tcreatedAt\n1\tExperience & Reviews\texperience-reviews\tShare your real-world experience with parking AC systems\tstar\t#f59e0b\t1\t0\t2026-03-21 13:52:32\n2\tInstallation Help\tinstallation-help\tQuestions and tips on installing your parking AC\twrench\t#3b82f6\t2\t0\t2026-03-21 13:52:32\n3\tTroubleshooting\ttroubleshooting\tGet help diagnosing and fixing issues\talert-triangle\t#ef4444\t3\t0\t2026-03-21 13:52:32\n4\tSolar & Battery Setup\tsolar-battery\tDiscuss solar panels, battery banks, and power systems\tzap\t#10b981\t4\t0\t2026-03-21 13:52:32\n5\tVan Life & RV Living\tvan-life-rv\tLife on the road, van builds, and RV tips\ttruck\t#8b5cf6\t5\t0\t2026-03-21 13:52:32\n6\tProduct Comparison\tproduct-comparison\tCompare different parking AC models and brands\tbar-chart\t#06b6d4\t6\t0\t2026-03-21 13:52:32\n7\tGeneral Discussion\tgeneral\tAnything else related to parking air conditioning\tmessage-circle\t#6b7280\t7\t0\t2026-03-21 13:52:32\n",
+  "stderr": "",
+  "execution_time_ms": 52
+}

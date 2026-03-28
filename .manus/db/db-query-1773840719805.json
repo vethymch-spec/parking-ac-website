@@ -1,0 +1,9 @@
+{
+  "query": "\nALTER TABLE customers\n  ADD COLUMN companyName varchar(256) NULL,\n  ADD COLUMN phone varchar(64) NULL,\n  ADD COLUMN customerType enum('regular','dealer','vip','aftersales') NOT NULL DEFAULT 'aftersales',\n  ADD COLUMN salesRep varchar(128) NULL,\n  ADD COLUMN qualificationStatus enum('pending','approved','rejected') NOT NULL DEFAULT 'approved',\n  ADD COLUMN qualificationNotes text NULL,\n  ADD COLUMN activationToken varchar(128) NULL,\n  ADD COLUMN activationTokenExpiresAt timestamp NULL,\n  ADD COLUMN loginFailCount int NOT NULL DEFAULT 0,\n  ADD COLUMN lockedUntil timestamp NULL,\n  ADD COLUMN createdByAdminName varchar(128) NULL,\n  ADD COLUMN firstLoginAt timestamp NULL,\n  ADD COLUMN passwordChangedAt timestamp NULL;\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user ooABNnnUQu5at54.1f3193c2dfb8 --database UaaDSNMGrVjrky6icy9Uv4 --execute \nALTER TABLE customers\n  ADD COLUMN companyName varchar(256) NULL,\n  ADD COLUMN phone varchar(64) NULL,\n  ADD COLUMN customerType enum('regular','dealer','vip','aftersales') NOT NULL DEFAULT 'aftersales',\n  ADD COLUMN salesRep varchar(128) NULL,\n  ADD COLUMN qualificationStatus enum('pending','approved','rejected') NOT NULL DEFAULT 'approved',\n  ADD COLUMN qualificationNotes text NULL,\n  ADD COLUMN activationToken varchar(128) NULL,\n  ADD COLUMN activationTokenExpiresAt timestamp NULL,\n  ADD COLUMN loginFailCount int NOT NULL DEFAULT 0,\n  ADD COLUMN lockedUntil timestamp NULL,\n  ADD COLUMN createdByAdminName varchar(128) NULL,\n  ADD COLUMN firstLoginAt timestamp NULL,\n  ADD COLUMN passwordChangedAt timestamp NULL;\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 12554
+}

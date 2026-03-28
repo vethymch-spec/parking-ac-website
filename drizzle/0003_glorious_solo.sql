@@ -1,0 +1,21 @@
+CREATE TABLE `customers` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`customerNo` varchar(32) NOT NULL,
+	`fullName` varchar(128) NOT NULL,
+	`email` varchar(320) NOT NULL,
+	`passwordHash` varchar(256),
+	`activationToken` varchar(128),
+	`tokenExpiresAt` timestamp,
+	`status` enum('pending_activation','active','suspended') NOT NULL DEFAULT 'pending_activation',
+	`orderNumber` varchar(128),
+	`productModel` varchar(64),
+	`purchaseDate` varchar(32),
+	`adminNotes` text,
+	`createdByAdminId` int,
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	`lastLoginAt` timestamp,
+	CONSTRAINT `customers_id` PRIMARY KEY(`id`),
+	CONSTRAINT `customers_customerNo_unique` UNIQUE(`customerNo`),
+	CONSTRAINT `customers_email_unique` UNIQUE(`email`)
+);

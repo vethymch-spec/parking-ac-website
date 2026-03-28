@@ -1,0 +1,46 @@
+{
+  "query": "SELECT 'forum_categories' as tbl, COUNT(*) as cnt FROM forum_categories\nUNION ALL SELECT 'forum_posts', COUNT(*) FROM forum_posts\nUNION ALL SELECT 'forum_replies', COUNT(*) FROM forum_replies\nUNION ALL SELECT 'post_likes', COUNT(*) FROM post_likes\nUNION ALL SELECT 'reply_likes', COUNT(*) FROM reply_likes\nUNION ALL SELECT 'support_tickets', COUNT(*) FROM support_tickets\nUNION ALL SELECT 'ticket_messages', COUNT(*) FROM ticket_messages\nUNION ALL SELECT 'customers', COUNT(*) FROM customers\nUNION ALL SELECT 'customer_logs', COUNT(*) FROM customer_logs;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user uMY17ZciekwPn21.root --database c5y7gxfLueWgEWeo3GX4pK --execute SELECT 'forum_categories' as tbl, COUNT(*) as cnt FROM forum_categories\nUNION ALL SELECT 'forum_posts', COUNT(*) FROM forum_posts\nUNION ALL SELECT 'forum_replies', COUNT(*) FROM forum_replies\nUNION ALL SELECT 'post_likes', COUNT(*) FROM post_likes\nUNION ALL SELECT 'reply_likes', COUNT(*) FROM reply_likes\nUNION ALL SELECT 'support_tickets', COUNT(*) FROM support_tickets\nUNION ALL SELECT 'ticket_messages', COUNT(*) FROM ticket_messages\nUNION ALL SELECT 'customers', COUNT(*) FROM customers\nUNION ALL SELECT 'customer_logs', COUNT(*) FROM customer_logs;",
+  "rows": [
+    {
+      "tbl": "post_likes",
+      "cnt": "0"
+    },
+    {
+      "tbl": "forum_categories",
+      "cnt": "7"
+    },
+    {
+      "tbl": "reply_likes",
+      "cnt": "0"
+    },
+    {
+      "tbl": "forum_replies",
+      "cnt": "0"
+    },
+    {
+      "tbl": "forum_posts",
+      "cnt": "0"
+    },
+    {
+      "tbl": "support_tickets",
+      "cnt": "0"
+    },
+    {
+      "tbl": "customer_logs",
+      "cnt": "0"
+    },
+    {
+      "tbl": "customers",
+      "cnt": "0"
+    },
+    {
+      "tbl": "ticket_messages",
+      "cnt": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "tbl\tcnt\npost_likes\t0\nforum_categories\t7\nreply_likes\t0\nforum_replies\t0\nforum_posts\t0\nsupport_tickets\t0\ncustomer_logs\t0\ncustomers\t0\nticket_messages\t0\n",
+  "stderr": "",
+  "execution_time_ms": 79
+}

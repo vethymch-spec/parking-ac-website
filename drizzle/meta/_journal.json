@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1773632775889,
+      "tag": "0000_eminent_bug",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1773632846865,
+      "tag": "0001_spicy_cable",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1773633620458,
+      "tag": "0002_cooing_richard_fisk",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1773634195414,
+      "tag": "0003_glorious_solo",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1773634616249,
+      "tag": "0004_regular_robin_chapel",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1773635120333,
+      "tag": "0005_huge_squadron_sinister",
+      "breakpoints": true
+    }
+  ]
+}

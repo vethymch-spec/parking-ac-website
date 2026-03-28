@@ -1,0 +1,1 @@
+ALTER TABLE `support_tickets` ADD `customerNo` varchar(32);

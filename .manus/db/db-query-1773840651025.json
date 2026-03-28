@@ -1,0 +1,9 @@
+{
+  "query": "\nALTER TABLE customers\n  CHANGE COLUMN fullName contactName varchar(128) NOT NULL DEFAULT '',\n  MODIFY COLUMN status enum('pending_activation','active','suspended','locked') NOT NULL DEFAULT 'pending_activation';\n",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user ooABNnnUQu5at54.1f3193c2dfb8 --database UaaDSNMGrVjrky6icy9Uv4 --execute \nALTER TABLE customers\n  CHANGE COLUMN fullName contactName varchar(128) NOT NULL DEFAULT '',\n  MODIFY COLUMN status enum('pending_activation','active','suspended','locked') NOT NULL DEFAULT 'pending_activation';\n",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 2480
+}
