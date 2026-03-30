@@ -1,0 +1,59 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Build site
+      run: npm run build
+      
+    - name: Copy blog files to dist
+      run: |
+        mkdir -p dist/blog
+        cp -r public/blog/* dist/blog/
+        
+    # Option 1: Deploy to Netlify with custom domain
+    - name: Deploy to Netlify
+      uses: nwtgck/actions-netlify@v3.0
+      with:
+        publish-dir: './dist'
+        production-deploy: true
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        deploy-message: "Deploy from GitHub Actions"
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      
+    # Option 2: Deploy via FTP (uncomment if using traditional hosting)
+    # - name: Deploy to FTP server
+    #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+    #   with:
+    #     server: ${{ secrets.FTP_SERVER }}
+    #     username: ${{ secrets.FTP_USERNAME }}
+    #     password: ${{ secrets.FTP_PASSWORD }}
+    #     local-dir: ./dist/
+    #     server-dir: /public_html/
+    
+    # Option 3: Deploy to Shopify (uncomment if using Shopify)
+    # - name: Deploy to Shopify
+    #   uses: shopify/deploy-theme-action@v1
+    #   with:
+    #     shopify_domain: ${{ secrets.SHOPIFY_DOMAIN }}
+    #     api_key: ${{ secrets.SHOPIFY_API_KEY }}
+    #     password: ${{ secrets.SHOPIFY_PASSWORD }}
+    #     theme_id: ${{ secrets.SHOPIFY_THEME_ID }}
