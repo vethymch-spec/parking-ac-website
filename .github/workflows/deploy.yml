@@ -1,4 +1,4 @@
-name: Deploy to Production
+name: Deploy to Netlify
 
 on:
   push:
@@ -26,8 +26,8 @@ jobs:
       run: |
         mkdir -p dist/blog
         cp -r public/blog/* dist/blog/
+        ls -la dist/blog/
         
-    # Option 1: Deploy to Netlify with custom domain
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v3.0
       with:
@@ -37,23 +37,4 @@ jobs:
         deploy-message: "Deploy from GitHub Actions"
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      
-    # Option 2: Deploy via FTP (uncomment if using traditional hosting)
-    # - name: Deploy to FTP server
-    #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-    #   with:
-    #     server: ${{ secrets.FTP_SERVER }}
-    #     username: ${{ secrets.FTP_USERNAME }}
-    #     password: ${{ secrets.FTP_PASSWORD }}
-    #     local-dir: ./dist/
-    #     server-dir: /public_html/
-    
-    # Option 3: Deploy to Shopify (uncomment if using Shopify)
-    # - name: Deploy to Shopify
-    #   uses: shopify/deploy-theme-action@v1
-    #   with:
-    #     shopify_domain: ${{ secrets.SHOPIFY_DOMAIN }}
-    #     api_key: ${{ secrets.SHOPIFY_API_KEY }}
-    #     password: ${{ secrets.SHOPIFY_PASSWORD }}
-    #     theme_id: ${{ secrets.SHOPIFY_THEME_ID }}
+        NETLIFY_SITE_ID: b19e778c-7ca8-469c-aa90-afdb0b05996e
