@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BTU calculator and sizing guide for truck AC in African climate. Learn how to calculate cooling requirements for extreme heat conditions.">
+    <meta name="keywords" content="BTU calculator Africa, truck AC sizing, African climate cooling, calculate truck AC requirements">
+    <meta name="author" content="Tomas Wang">
+    <title>BTU Calculator for African Climate: Truck AC Sizing Guide | Vethy Blog</title>
+    
+    <meta property="og:title" content="BTU Calculator for African Climate: Truck AC Sizing Guide">
+    <meta property="og:description" content="BTU calculator and sizing guide for truck AC in African climate. Learn how to calculate cooling requirements for extreme heat.">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Vethy Blog">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7; color: #333; background: #f8f9fa;
+        }
+        header {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header-content {
+            max-width: 1200px; margin: 0 auto; padding: 0 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #fff; text-decoration: none; }
+        .logo span { color: #63b3ed; }
+        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav a { color: rgba(255,255,255,0.9); text-decoration: none; font-weight: 500; transition: color 0.3s; }
+        nav a:hover { color: #63b3ed; }
+        main { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; background: white; min-height: calc(100vh - 200px); }
+        article { font-size: 1.1rem; }
+        article h1 { font-size: 2.5rem; margin-bottom: 1rem; color: #1a365d; line-height: 1.3; }
+        article h2 { font-size: 1.8rem; margin: 2.5rem 0 1rem; color: #2d3748; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
+        article h3 { font-size: 1.4rem; margin: 2rem 0 1rem; color: #4a5568; }
+        article p { margin-bottom: 1.5rem; text-align: justify; }
+        article ul, article ol { margin: 1.5rem 0; padding-left: 2rem; }
+        article li { margin-bottom: 0.5rem; }
+        article strong { color: #2d3748; font-weight: 600; }
+        article a { color: #2b6cb0; text-decoration: none; }
+        article a:hover { text-decoration: underline; }
+        article table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-size: 0.95rem; }
+        article th, article td { padding: 0.75rem; border: 1px solid #e2e8f0; text-align: left; }
+        article th { background: #edf2f7; font-weight: 600; color: #2d3748; }
+        article tr:nth-child(even) { background: #f7fafc; }
+        .cta-box {
+            background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
+            border: 2px solid #63b3ed; border-radius: 8px; padding: 2rem; margin: 2rem 0; text-align: center;
+        }
+        .cta-box h3 { margin-top: 0; color: #2b6cb0; }
+        .cta-button {
+            display: inline-block; background: #2b6cb0; color: white; padding: 1rem 2rem;
+            border-radius: 5px; text-decoration: none; font-weight: 600; margin-top: 1rem; transition: background 0.3s;
+        }
+        .cta-button:hover { background: #2c5282; text-decoration: none; }
+        .related-articles { margin-top: 3rem; padding-top: 2rem; border-top: 2px solid #e2e8f0; }
+        .related-articles h3 { color: #1a365d; margin-bottom: 1rem; }
+        .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .related-card {
+            background: #f7fafc; padding: 1.5rem; border-radius: 8px; border: 1px solid #e2e8f0;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .related-card:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .related-card a { color: #2b6cb0; text-decoration: none; }
+        .related-card h3 { font-size: 1.1rem; margin: 0; }
+        footer { background: #1a365d; color: white; padding: 2rem 0; text-align: center; }
+        .footer-content { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+        .footer-links { margin-top: 1rem; }
+        .footer-links a { color: #63b3ed; margin: 0 1rem; text-decoration: none; }
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; gap: 1rem; }
+            nav ul { flex-wrap: wrap; justify-content: center; gap: 1rem; }
+            article h1 { font-size: 1.8rem; }
+            article h2 { font-size: 1.4rem; }
+            main { padding: 2rem 1rem; }
+            .related-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">Vethy<span>Cool</span></a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                    <li><a href="https://vethy.com">Products</a></li>
+                    <li><a href="mailto:info@vethy.com">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <article>
+            <h1>BTU Calculator for African Climate: Complete Truck AC Sizing Guide</h1>
+            <p><strong>Reading Time:</strong> 8 minutes | <strong>Word Count:</strong> 1,450+ words</p>
+            
+            <p>Selecting the correct cooling capacity for your truck air conditioning system is critical—especially in Africa's extreme climate conditions. An undersized unit cannot maintain comfortable temperatures during the hottest hours, while an oversized unit wastes capital and energy. This comprehensive <strong>BTU calculator Africa</strong> guide provides the methodology to accurately <strong>calculate truck AC requirements</strong> for <strong>African climate cooling</strong> applications.</p>
+
+            <h2>Understanding BTU and Cooling Capacity</h2>
+            
+            <p>BTU (British Thermal Unit) measures cooling capacity—specifically, the amount of heat an AC unit can remove from a space per hour. One BTU equals the energy required to cool one pound of water by one degree Fahrenheit.</p>
+
+            <p>For truck air conditioning, typical capacities range from:</p>
+            <ul>
+                <li><strong>6,000-7,000 BTU:</strong> Light-duty trucks, small day cabs</li>
+                <li><strong>8,000-9,000 BTU:</strong> Standard sleeper cabs (most common)</li>
+                <li><strong>10,000-12,000 BTU:</strong> Large sleepers, extreme climate conditions</li>
+            </ul>
+
+            <h2>The African Climate Multiplier</h2>
+
+            <p>Standard <strong>truck AC sizing</strong> calculations designed for temperate climates significantly underestimate African requirements. The extreme temperatures found across the continent demand application of climate-specific multipliers:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Region</th>
+                        <th>Max Ambient Temp</th>
+                        <th>BTU Multiplier</th>
+                        <th>Recommended Minimum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sahara/North Africa</td>
+                        <td>50-55°C</td>
+                        <td>1.4x</td>
+                        <td>11,000+ BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Sahel/West Africa</td>
+                        <td>45-50°C</td>
+                        <td>1.3x</td>
+                        <td>10,000+ BTU</td>
+                    </tr>
+                    <tr>
+                        <td>East Africa (lowland)</td>
+                        <td>40-45°C</td>
+                        <td>1.2x</td>
+                        <td>9,000+ BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Southern Africa</td>
+                        <td>40-45°C</td>
+                        <td>1.2x</td>
+                        <td>9,000+ BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Highland regions</td>
+                        <td>25-35°C</td>
+                        <td>1.0x (standard)</td>
+                        <td>7,000+ BTU</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Step-by-Step BTU Calculation Method</h2>
+
+            <h3>Step 1: Calculate Base BTU by Cabin Volume</h3>
+
+            <p>Start with the fundamental sizing calculation based on interior volume:</p>
+
+            <p><strong>Formula:</strong> Volume (cubic meters) × 150 = Base BTU</p>
+
+            <p>Example for standard sleeper cab:</p>
+            <ul>
+                <li>Length: 2.0 meters</li>
+                <li>Width: 2.2 meters</li>
+                <li>Height: 1.8 meters</li>
+                <li>Volume: 2.0 × 2.2 × 1.8 = 7.92 m³</li>
+                <li>Base BTU: 7.92 × 150 = 1,188 BTU</li>
+            </ul>
+
+            <p>This base calculation assumes moderate climates and well-insulated spaces—neither of which applies to African truck operations.</p>
+
+            <h3>Step 2: Apply Heat Load Factors</h3>
+
+            <p>Add BTU for specific heat sources within the cabin:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Heat Source</th>
+                        <th>BTU Addition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Occupant (driver)</td>
+                        <td>+400 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Each additional occupant</td>
+                        <td>+300 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Large windows/glass area</td>
+                        <td>+1,000 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Poor insulation (older cab)</td>
+                        <td>+1,500 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Dark exterior color</td>
+                        <td>+500 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Engine heat transfer (day cab)</td>
+                        <td>+800 BTU</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Step 3: Apply Climate Multiplier</h3>
+
+            <p>Multiply the subtotal (base + heat sources) by the regional climate multiplier:</p>
+
+            <p><strong>Example calculation for West Africa:</strong></p>
+            
+            <ul>
+                <li>Base BTU: 1,188</li>
+                <li>Driver: +400</li>
+                <li>Large windows: +1,000</li>
+                <li>Dark paint: +500</li>
+                <li>Subtotal: 3,088 BTU</li>
+                <li>Climate multiplier (1.3x): 3,088 × 1.3 = <strong>4,114 BTU</strong></li>
+            </ul>
+
+            <h3>Step 4: Apply Safety Factor</h3>
+
+            <p>Add 20-30% safety margin to account for:</p>
+            
+            <ul>
+                <li>Dust accumulation on condenser reducing efficiency</li>
+                <li>Battery voltage sag under load</li>
+                <li>Aging system performance degradation</li>
+                <li>Extreme temperature days exceeding averages</li>
+            </ul>
+
+            <p><strong>Final calculation:</strong> 4,114 × 1.25 = <strong>5,143 BTU minimum</strong></p>
+
+            <p>Round up to standard unit sizes: <strong>6,000 BTU minimum</strong> for this example. However, given African operating realities, we recommend <strong>8,000-9,000 BTU</strong> for standard sleeper cabs to ensure adequate performance.</p>
+
+            <h2>Quick Reference Sizing Chart</h2>
+
+            <p>For practical fleet planning, use this simplified <strong>BTU calculator Africa</strong> reference:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cabin Type</th>
+                        <th>Moderate Climate</th>
+                        <th>Hot Climate (40-45°C)</th>
+                        <th>Extreme Climate (45°C+)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Day Cab (single occupant)</td>
+                        <td>6,000 BTU</td>
+                        <td>7,000 BTU</td>
+                        <td>8,000 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Small Sleeper (single)</td>
+                        <td>7,000 BTU</td>
+                        <td>8,000 BTU</td>
+                        <td>9,000 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Standard Sleeper (single)</td>
+                        <td>8,000 BTU</td>
+                        <td>9,000 BTU</td>
+                        <td>10,000 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Large Sleeper (single)</td>
+                        <td>9,000 BTU</td>
+                        <td>10,000 BTU</td>
+                        <td>12,000 BTU</td>
+                    </tr>
+                    <tr>
+                        <td>Double Occupancy (any cab)</td>
+                        <td>Add 1,000 BTU</td>
+                        <td>Add 1,500 BTU</td>
+                        <td>Add 2,000 BTU</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Power Consumption vs BTU Rating</h2>
+
+            <p>Higher BTU ratings require more electrical power. Ensure your battery and charging system can support your cooling requirements:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>BTU Rating</th>
+                        <th>Typical Power Draw (12V)</th>
+                        <th>Typical Power Draw (24V)</th>
+                        <th>200Ah Battery Runtime</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6,000 BTU</td>
+                        <td>35-40A</td>
+                        <td>17-20A</td>
+                        <td>8-10 hours</td>
+                    </tr>
+                    <tr>
+                        <td>8,000 BTU</td>
+                        <td>40-45A</td>
+                        <td>20-23A</td>
+                        <td>7-9 hours</td>
+                    </tr>
+                    <tr>
+                        <td>9,000 BTU</td>
+                        <td>45-50A</td>
+                        <td>22-25A</td>
+                        <td>6-8 hours</td>
+                    </tr>
+                    <tr>
+                        <td>12,000 BTU</td>
+                        <td>60-70A</td>
+                        <td>30-35A</td>
+                        <td>4-6 hours</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Note:</strong> Runtime calculations assume AGM batteries at 50% depth of discharge. <a href="/blog/lithium-vs-agm-battery-africa/">Lithium batteries</a> provide 60-80% longer runtime due to greater usable capacity.</p>
+
+            <h2>Vethy VS02 PRO: Optimized for African Conditions</h2>
+
+            <p>The Vethy VS02 PRO delivers <strong>9,000 BTU</strong> of cooling capacity—specifically engineered for African climate demands. This specification provides:</p>
+
+            <ul>
+                <li>Adequate cooling for standard sleeper cabs in 45°C+ conditions</li>
+                <li>Power draw optimized for 8-10 hour runtime on standard battery banks</li>
+                <li>Balanced capacity without excessive power consumption</li>
+            </ul>
+
+            <p>For extreme desert operations (50°C+ ambient), we recommend supplementing with cabin insulation improvements or considering 10,000+ BTU configurations.</p>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>What happens if my AC is undersized?</h3>
+            <p>Undersized AC units run continuously without achieving target temperatures. This causes excessive wear, higher power consumption, and shortened component life. In extreme heat, an undersized unit may only reduce cabin temperature by 5-10°C instead of the desired 15-20°C reduction.</p>
+
+            <h3>Can an AC be too large for my truck?</h3>
+            <p>Oversized AC causes rapid temperature cycling—short bursts of cooling followed by shutoff, creating uncomfortable temperature swings. It also costs more upfront and requires larger battery capacity. However, in African conditions, slightly oversized is generally preferable to undersized.</p>
+
+            <h3>Does humidity affect BTU requirements?</h3>
+            <p>Yes, but indirectly. Higher humidity doesn't change the BTU required for sensible cooling (temperature reduction), but increases the latent cooling load (moisture removal). Quality AC systems handle both loads; ensure your selected unit has adequate latent cooling capacity for coastal African operations.</p>
+
+            <h3>How do I know if my current AC is properly sized?</h3>
+            <p>A properly sized AC achieves target temperature within 30 minutes of operation, cycles on and off periodically (not running continuously), and maintains comfort during the hottest part of the day. If your unit runs constantly or cannot achieve comfortable temperatures, it's likely undersized.</p>
+
+            <h3>Do I need different sizing for parking AC vs engine-driven AC?</h3>
+            <p>BTU requirements remain the same regardless of power source—cooling load depends on cabin characteristics and ambient conditions, not how the compressor is driven. However, parking AC typically has lower BTU output than engine-driven systems due to electrical power limitations.</p>
+
+            <h3>Can I upgrade my AC if it's undersized?</h3>
+            <p>Upgrading usually requires complete system replacement—compressor, condenser, and evaporator must be matched. If your current system is inadequate, consult Vethy about proper sizing for replacement. Attempting to "boost" an undersized system with larger components usually causes compressor failure.</p>
+
+            <h2>Conclusion: Size for Success</h2>
+
+            <p>Proper <strong>truck AC sizing</strong> is fundamental to successful operations in African conditions. The extreme temperatures across the continent demand careful calculation and appropriate safety margins. Use this <strong>BTU calculator Africa</strong> methodology to ensure your fleet has adequate cooling capacity.</p>
+
+            <p>When in doubt, size up rather than down. The incremental cost of higher capacity is small compared to the operational impact of inadequate cooling—driver discomfort, reduced rest quality, and potential health risks in extreme heat.</p>
+
+            <p>Vethy's technical team can perform detailed load calculations for your specific fleet requirements, considering your routes, cab configurations, and operational patterns to recommend optimal sizing.</p>
+
+            <p><strong>Related Articles:</strong></p>
+            <ul>
+                <li><a href="/blog/lithium-vs-agm-battery-africa/">Lithium vs AGM Battery Guide</a></li>
+                <li><a href="/blog/portable-ac-vs-fixed-truck/">Portable vs Fixed Truck AC</a></li>
+                <li><a href="/blog/truck-ac-installation-cost-africa/">Truck AC Installation Costs in Africa</a></li>
+            </ul>
+        </article>
+        
+        <div class="cta-box">
+            <h3>Get Professional Sizing Advice</h3>
+            <p>Contact Vethy for detailed BTU calculations tailored to your fleet and routes.</p>
+            <p><strong>Email:</strong> info@vethy.com<br><strong>WhatsApp:</strong> +86 15314252983</p>
+            <a href="mailto:info@vethy.com" class="cta-button">Request Sizing Analysis</a>
+        </div>
+        
+        <div class="related-articles">
+            <h3>Related Articles</h3>
+            <div class="related-grid">
+                <div class="related-card">
+                    <a href="/blog/lithium-vs-agm-battery-africa/">
+                        <h3>Lithium vs AGM Battery Guide</h3>
+                    </a>
+                </div>
+                <div class="related-card">
+                    <a href="/blog/portable-ac-vs-fixed-truck/">
+                        <h3>Portable vs Fixed Truck AC</h3>
+                    </a>
+                </div>
+                <div class="related-card">
+                    <a href="/blog/truck-ac-installation-cost-africa/">
+                        <h3>Truck AC Installation Costs</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Vethy. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://vethy.com">Visit Main Site</a>
+                <a href="mailto:info@vethy.com">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
