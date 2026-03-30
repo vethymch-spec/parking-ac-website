@@ -3,8 +3,6 @@ name: Build and Deploy to Netlify
 on:
   push:
     branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
 
 jobs:
   build-and-deploy:
@@ -30,8 +28,7 @@ jobs:
       run: |
         mkdir -p dist/blog
         cp -r public/blog/* dist/blog/
-        echo "✓ Blog files copied to dist/blog/"
-        ls -la dist/blog/
+        echo "✓ Blog files copied"
         
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v3.0
@@ -41,11 +38,10 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         deploy-message: "Deployed from GitHub Actions"
       env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_AUTH_TOKEN: nfp_1BLxLSwDnJqjSspsyft1MeZapFNYkPriff5c
         NETLIFY_SITE_ID: b19e778c-7ca8-469c-aa90-afdb0b05996e
         
     - name: Deployment Summary
       run: |
-        echo "✅ Deployment complete!"
-        echo "🌐 Site: https://cooldrivepro.netlify.app"
+        echo "✅ Deployed to https://cooldrivepro.netlify.app"
         echo "📚 Blog: https://cooldrivepro.netlify.app/blog/"
