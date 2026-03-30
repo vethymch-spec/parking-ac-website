@@ -19,6 +19,7 @@ const Navbar = () => (
           <a href="#products" className="text-gray-700 hover:text-primary-600">Products</a>
           <a href="#features" className="text-gray-700 hover:text-primary-600">Features</a>
           <a href="#faq" className="text-gray-700 hover:text-primary-600">FAQ</a>
+          <a href="/blog/" className="text-gray-700 hover:text-primary-600">Blog</a>
           <a href="#contact" className="text-gray-700 hover:text-primary-600">Contact</a>
         </div>
         <button className="btn-primary">Shop Now</button>
