@@ -1,12 +1,15 @@
-name: Deploy to Netlify
+name: Build and Deploy to Netlify
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -15,6 +18,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'npm'
         
     - name: Install dependencies
       run: npm ci
@@ -26,6 +30,7 @@ jobs:
       run: |
         mkdir -p dist/blog
         cp -r public/blog/* dist/blog/
+        echo "✓ Blog files copied to dist/blog/"
         ls -la dist/blog/
         
     - name: Deploy to Netlify
@@ -34,7 +39,13 @@ jobs:
         publish-dir: './dist'
         production-deploy: true
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        deploy-message: "Deploy from GitHub Actions"
+        deploy-message: "Deployed from GitHub Actions"
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: b19e778c-7ca8-469c-aa90-afdb0b05996e
+        
+    - name: Deployment Summary
+      run: |
+        echo "✅ Deployment complete!"
+        echo "🌐 Site: https://cooldrivepro.netlify.app"
+        echo "📚 Blog: https://cooldrivepro.netlify.app/blog/"
