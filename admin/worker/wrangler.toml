@@ -1,0 +1,10 @@
+name = "cooldrivepro-admin"
+main = "dist/worker.js"
+compatibility_date = "2024-03-14"
+account_id = "4f5262587982e4f825a8f56ca775edcf"
+
+[vars]
+DEFAULT_AI_PROVIDER = "openai"
+GITHUB_OWNER = "vethymch-spec"
+GITHUB_REPO = "parking-ac-website"
+CF_PAGES_PROJECT = "cooldrivepro"

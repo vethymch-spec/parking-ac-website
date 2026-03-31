@@ -1,0 +1,16 @@
+{
+  "name": "admin-chat-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "logs": "wrangler tail"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240314.0",
+    "typescript": "^5.4.2",
+    "wrangler": "^4.79.0"
+  }
+}
