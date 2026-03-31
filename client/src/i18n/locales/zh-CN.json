@@ -20,11 +20,26 @@
     "customerManagement": "客户管理",
     "supportPortal": "我的支持中心",
     "logout": "退出登录",
-    "login": "登录"
+    "login": "登录",
+    "ticketManagement": "工单管理",
+    "customerManagement": "客户管理",
+    "adminLogout": "管理员退出",
+    "customerLogout": "客户退出",
+    "mySupportPortal": "我的支持中心",
+    "adminPanel": "管理后台",
+    "search": "搜索",
+    "account": "账户",
+    "menu": "菜单",
+    "shoppingCart": "购物车",
+    "brandKnowledge": "品牌知识",
+    "paymentMethod": "支付方式",
+    "billingTerms": "账单条款",
+    "trackOrder": "追踪订单",
+    "supportAvailability": "支持时间：太平洋时间上午11点-晚上9点，我们将在1-12小时内回复您。"
   },
   "hero": {
     "title": "驻车空调——离网生活与移动舒适的完美选择",
-    "subtitle": "为卡车、房车和Vanlife设计的12V直流供电冷却方案。无需怠速即可保持凉爽。",
+    "subtitle": "为半挂卡车、房车、露营车设计的12V和24V直流驻车空调——无需怠速即可保持凉爽",
     "ctaPrimary": "浏览产品",
     "ctaSecondary": "了解更多",
     "badge": "新品上市",
@@ -32,8 +47,10 @@
   },
   "products": {
     "title": "我们的产品",
-    "subtitle": "专为各类车型设计的专业级驻车空调",
-    "viewDetails": "查看详情",
+    "subtitle": "驻车空调",
+    "mainTitle": "12V和24V直流无怠速驻车空调",
+    "description": "为半挂卡车、房车、露营车设计的电池供电驻车空调。无需怠速即可保持凉爽——节省燃油、减少排放、享受舒适。",
+    "viewDetails": "立即购买",
     "addToCart": "加入购物车",
     "specs": "规格参数",
     "features": "产品特点",
@@ -42,46 +59,125 @@
     "freeShipping": "免费配送",
     "support": "全天候支持",
     "learnMore": "了解更多",
+    "cooling": "制冷",
+    "heating": "制热",
+    "heatingCooling": "冷暖空调",
+    "specs": {
+      "coolingCapacity": "制冷能力",
+      "heatingCapacity": "制热能力",
+      "current": "电流",
+      "powerSupply": "电源",
+      "noiseLevel": "噪音水平",
+      "batteryRuntime": "电池续航",
+      "flowRate": "流量",
+      "fuelType": "燃料类型",
+      "installation": "安装",
+      "heatingSpeed": "制热速度",
+      "airOutput": "风量"
+    },
     "topMounted": {
-      "title": "12V顶置式驻车空调",
-      "description": "专为半挂卡车和重型车辆设计。车顶安装简便，制冷强劲。",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V 直流",
-      "coverage": "制冷面积达80平方英尺"
+      "title": "12000 BTU顶置式驻车空调",
+      "subtitle": "12V/24V直流无怠速房车和卡车空调",
+      "description": "专为房车、半挂卡车和露营车设计的终极R410A双转子压缩机驻车空调。这款12V/24V直流无怠速空调提供12000 BTU制冷能力——无需启动发动机即可保持驾驶室或露营车舒适。具备欠压电池保护和45分贝超静音运行。",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V 直流",
+      "coverage": "制冷面积达80平方英尺",
+      "imageAlt": "10000 BTU顶置式驻车空调爆炸图——12V/24V直流无怠速房车卡车空调"
     },
     "miniSplit": {
-      "title": "12V迷你分体驻车空调",
-      "description": "紧凑分体式设计，适合房车、露营车和小型卡车。超静音运行。",
-      "btu": "6,000 BTU",
+      "title": "12000 BTU迷你分体驻车空调",
+      "subtitle": "半挂卡车和房车用12V直流无怠速空调",
+      "description": "专为半挂卡车驾驶室、房车和厢式货车设计的大容量12V直流迷你分体驻车空调。拥有12000 BTU无怠速制冷能力，这款无管空调直接从车载电池运行——无需发电机，无需岸电。水平屋顶安装适用于大多数卡车和露营车。",
+      "btu": "12,000 BTU",
       "voltage": "12V 直流",
-      "coverage": "制冷面积达60平方英尺"
+      "runtime": "8-10小时",
+      "coverage": "制冷面积达60平方英尺",
+      "imageAlt": "半挂卡车和房车用12000 BTU迷你分体驻车空调——12V直流无怠速"
     },
-    "heatingCooling": {
-      "title": "冷暖一体空调",
-      "description": "四季舒适，制冷制热双功能。全年使用的理想选择。",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V 直流",
-      "coverage": "四季舒适体验"
+    "waterHeater": {
+      "title": "房车和卡车用65000 BTU即热式热水器",
+      "subtitle": "离网生活用丙烷即热式加热器",
+      "description": "用这款专为房车、半挂卡车和露营车设计的65,000 BTU即热式热水器完善您的离网舒适系统。提供2.9 GPM即时热水——是您驻车空调全年道路舒适的完美伴侣。",
+      "imageAlt": "房车和半挂卡车用65000 BTU即热式热水器——离网热水"
+    },
+    "heatingCoolingAC": {
+      "title": "V-TH1冷暖驻车空调",
+      "subtitle": "12V/24V直流双模式转子空调——全年舒适",
+      "description": "CoolDrivePro首款双模式驻车空调。V-TH1夏季提供高达2,000W制冷，冬季可在30分钟内将驾驶室从5°C加热到30°C。采用GMCC双转子压缩机和R134A制冷剂，这款12V/24V直流转子空调为卡车、房车、露营车和特种车辆提供全年气候控制——无需发动机怠速。",
+      "imageAlt": "V-TH1冷暖驻车空调——12V/24V直流双模式转子空调"
+    },
+    "detail": {
+      "addToCart": "加入购物车",
+      "buyNow": "立即购买",
+      "specifications": "规格参数",
+      "reviews": "客户评价",
+      "faq": "常见问题",
+      "freeShipping": "免费配送",
+      "warranty": "2年质保",
+      "returns": "30天退换",
+      "inStock": "有库存",
+      "outOfStock": "缺货",
+      "quantity": "数量",
+      "shipping": "配送",
+      "shippingDesc": "美国本土订单满500美元免运费。3-5个工作日送达。",
+      "warrantyDesc": "2年制造商质保，涵盖材料和工艺缺陷。",
+      "returnsDesc": "30天轻松退换政策。不满意全额退款。",
+      "techSpecs": "技术规格",
+      "reviewsTitle": "客户怎么说",
+      "verifiedPurchase": "已验证购买",
+      "helpful": "有用",
+      "writeReview": "写评价",
+      "loadMore": "加载更多评价",
+      "faqTitle": "常见问题",
+      "relatedProducts": "您可能还喜欢",
+      "viewDetails": "查看详情",
+      "gallery": "图片库",
+      "zoom": "点击放大",
+      "share": "分享",
+      "save": "收藏"
     }
   },
   "features": {
     "title": "为什么选择CoolDrivePro",
     "subtitle": "专为严苛环境打造的可靠高效产品",
-    "batteryProtection": {
-      "title": "智能电池保护",
-      "description": "自动低压断电保护，防止车辆电池深度放电。"
+    "mainTitle": "我们的驻车空调特点",
+    "subTitle": "专为无怠速性能打造",
+    "learnMore": "了解更多",
+    "power": {
+      "badge": "电源",
+      "title": "12V直流电池供电驻车空调",
+      "description": "我们的驻车空调直接从车辆的12V或24V电池运行——不通过发动机皮带。这种无怠速设计在停车时提供连续制冷舒适，消除燃油成本和发动机磨损。内置欠压保护确保您的驻车空调不会将电池放电至安全水平以下。",
+      "imageAlt": "配备12V驻车空调的半挂卡车——无怠速直流供电冷却"
     },
-    "noIdle": {
-      "title": "无需发动机怠速",
-      "description": "节省燃油，减少排放。无需启动发动机即可享受舒适睡眠。"
+    "efficiency": {
+      "badge": "能效",
+      "title": "高效无怠速冷暖空调",
+      "description": "迷你分体式提供12,000 BTU制冷，顶置式提供10,000 BTU制冷/4,500 BTU制热，我们的驻车空调在COP≥2.5的情况下提供强大的气候控制。变速直流涡旋压缩机技术意味着您的驻车空调只使用所需能量——最大化电池续航时间。",
+      "imageAlt": "山地露营——节能驻车空调"
     },
-    "easyInstall": {
-      "title": "安装简便",
-      "description": "完整的DIY套件，附详细安装说明。多数安装仅需2-4小时。"
+    "installation": {
+      "badge": "简易安装",
+      "title": "简易驻车空调安装",
+      "description": "每台驻车空调都配有完整的安装套件、预充制冷剂管路和分步手册。无需HVAC认证。大多数安装只需2-4小时。兼容标准14英寸房车屋顶开口和通用卡车驾驶室安装支架。",
+      "imageAlt": "在房车屋顶安装驻车空调——简易DIY安装"
     },
-    "quietOperation": {
-      "title": "静音运行",
-      "description": "先进的降噪技术。仅在45-55分贝下安静运行，让您安睡无忧。"
+    "battery": {
+      "badge": "电池保护",
+      "title": "驻车空调智能电池保护",
+      "description": "我们的驻车空调具有多级电气安全保护，包括欠压切断（8-11V）、过流保护和热关断。您的车辆电池受到保护，不会深度放电——这对整夜运行驻车空调后可靠启动发动机至关重要。",
+      "imageAlt": "半挂卡车驾驶室——带电池保护的驻车空调"
+    },
+    "durability": {
+      "badge": "耐用性",
+      "title": "为极端气候打造的驻车空调",
+      "description": "我们的驻车空调经过严格测试，可在-28°C至+50°C的环境温度下运行。无论您是在亚利桑那州的沙漠卡车停靠站还是在明尼苏达州的冬季休息区停车，您的驻车空调都能保持最佳性能。IP54级组件可防尘防潮。",
+      "imageAlt": "沙漠中的房车——适用于极端高温的驻车空调"
+    },
+    "noise": {
+      "badge": "静音运行",
+      "title": "超静音驻车空调",
+      "description": "仅40分贝，我们的驻车空调是市场上最安静的产品之一。无刷双风扇技术提供大风量且无噪音——让您在驻车空调运行时舒适入睡。非常适合住宅区和有噪音限制的露营地。",
+      "imageAlt": "夜晚的宁静营地——静音运行的驻车空调"
     }
   },
   "useCases": {
@@ -90,7 +186,25 @@
     "semiTrucks": "半挂卡车",
     "rvs": "房车和旅居车",
     "vans": "露营车",
-    "construction": "工程车辆"
+    "construction": "工程车辆",
+    "sectionLabel": "驻车空调应用场景",
+    "applications": "应用场景",
+    "mainTitle": "适用于各种车辆的驻车空调",
+    "semiTrucksKeyword": "卡车驻车空调",
+    "semiTrucksDesc": "专为8级半挂卡车驾驶室设计。我们的12V/24V驻车空调在强制休息期间为司机提供凉爽——无需怠速。符合美国所有50个州的反怠速法规。",
+    "rvsKeyword": "房车驻车空调",
+    "rvsDesc": "为A级、B级和C级房车、旅行拖车和五轮房车提供离网制冷。直接从锂电池组或太阳能系统运行驻车空调——无需岸电。",
+    "vansKeyword": "厢式货车驻车空调",
+    "vansDesc": "紧凑型12V驻车空调，完美适用于货运厢式货车改装、Sprinter货车和露营车。低轮廓设计适合标准货车车顶高度，无需改装。",
+    "noIdle": "无怠速制冷系统",
+    "noIdleKeyword": "无怠速空调",
+    "noIdleDesc": "用电池供电的无怠速驻车空调取代昂贵的发动机怠速。每小时节省高达8-12美元的燃油成本。减少发动机磨损，降低卡车停靠站和休息区的碳排放。",
+    "solar": "太阳能驻车空调",
+    "solarKeyword": "太阳能驻车空调",
+    "solarDesc": "将我们的12V驻车空调与屋顶太阳能电池板配对，实现真正的免费制冷。直流太阳能兼容性意味着您的驻车空调可以在白天持续运行。",
+    "apu": "APU替代方案",
+    "apuKeyword": "电动APU驻车冷却器",
+    "apuDesc": "柴油APU（辅助动力装置）系统的经济高效替代方案。我们的电动驻车空调以极低的安装和运营成本提供同等制冷效果。"
   },
   "shopWithUs": {
     "title": "放心购物",
@@ -106,6 +220,87 @@
       "title": "免费配送",
       "description": "美国本土订单满500美元免运费"
     }
+  },
+  "blog": {
+    "title": "最新文章",
+    "subtitle": "技巧、指南和行业资讯",
+    "readMore": "阅读更多",
+    "categories": "分类",
+    "publishedOn": "发布于",
+    "viewAll": "查看全部{{count}}篇文章",
+    "browseAll": "浏览全部{{count}}篇驻车空调文章",
+    "knowledgeBase": "驻车空调知识库",
+    "latestGuides": "最新指南和文章",
+    "searchPlaceholder": "搜索文章...",
+    "articlesFound": "找到{{count}}篇文章",
+    "articlesFoundPlural": "找到{{count}}篇文章",
+    "inCategory": "在{{category}}分类中",
+    "forSearch": "搜索\"{{query}}\"",
+    "noArticlesFound": "未找到文章",
+    "tryDifferent": "尝试不同的搜索词或分类。",
+    "prev": "上一页",
+    "next": "下一页",
+    "pageTitle": "驻车空调博客和指南",
+    "pageSubtitle": "为卡车司机、房车车主和露营车爱好者提供的12V/24V驻车空调专家指南、比较和技巧。",
+    "post": {
+      "notFound": "文章未找到",
+      "backToBlog": "← 返回博客",
+      "readyToExperience": "准备好体验无怠速制冷了吗？",
+      "exploreOur": "探索我们的12V/24V驻车空调——所有美国订单免运费。",
+      "shopTopMounted": "购买VS02 PRO顶置式空调",
+      "shopMiniSplit": "购买VX3000SP迷你分体空调"
+    }
+  },
+  "forum": {
+    "title": "社区论坛",
+    "subtitle": "与其他驻车空调用户交流",
+    "newPost": "发布新帖",
+    "topics": "话题",
+    "replies": "回复",
+    "views": "浏览",
+    "lastPost": "最后回复",
+    "community": "社区",
+    "discussions": "讨论",
+    "heroTitle": "驻车空调社区论坛",
+    "heroSubtitle": "与卡车司机、露营车爱好者和房车爱好者 worldwide 分享经验、提问和建立联系。",
+    "startDiscussion": "发起讨论",
+    "signInToPost": "登录后发帖",
+    "searchPlaceholder": "搜索讨论...",
+    "categories": "分类",
+    "allDiscussions": "全部讨论",
+    "quickLinks": "快速链接",
+    "threads": "话题",
+    "justNow": "刚刚",
+    "minutesAgo": "{{count}}分钟前",
+    "hoursAgo": "{{count}}小时前",
+    "daysAgo": "{{count}}天前",
+    "noDiscussions": "暂无讨论",
+    "beFirst": "成为第一个发起对话的人！",
+    "pinned": "置顶",
+    "closed": "已关闭",
+    "previous": "上一页",
+    "pageOf": "第{{page}}页，共{{total}}页",
+    "postNotFound": "帖子未找到",
+    "backToForum": "返回论坛",
+    "helpful": "有帮助",
+    "reply": "回复",
+    "replies": "回复",
+    "acceptedAnswer": "已采纳答案",
+    "replyBtn": "回复",
+    "noRepliesYet": "暂无回复。成为第一个回应的人！",
+    "writeReply": "写回复",
+    "joinDiscussion": "加入讨论",
+    "replyingTo": "回复评论",
+    "shareExperience": "分享您的经验或答案...",
+    "postReply": "发布回复",
+    "signInToJoin": "登录以加入讨论",
+    "signInReply": "登录后回复",
+    "threadClosed": "此话题已关闭，不再接受回复。",
+    "anonymous": "匿名用户",
+    "errorLikePost": "点赞失败",
+    "errorLikeReply": "点赞回复失败",
+    "replyPosted": "回复已发布！",
+    "errorReply": "发布回复失败"
   },
   "contact": {
     "title": "联系我们",
@@ -123,17 +318,73 @@
     },
     "emailSupport": {
       "title": "邮件支持",
-      "hours": "周一至周五：上午9点-下午6点（太平洋时间）"
+      "lines": ["support@cooldrivepro.com", "我们将在1-12小时内回复"]
     },
     "supportHours": {
       "title": "支持时间",
-      "weekday": "周一至周五：上午9点-下午6点（太平洋时间）",
-      "weekend": "周六：上午10点-下午4点（太平洋时间）"
+      "lines": ["周一至周五：上午9点-下午6点（太平洋时间）", "周六：上午10点-下午4点（太平洋时间）"]
     },
     "liveChat": {
       "title": "在线客服",
-      "hours": "周一至周五，上午9点-下午5点（太平洋时间）"
-    }
+      "lines": ["可在我们的网站上使用", "周一至周五，上午9点-下午5点（太平洋时间）"]
+    },
+    "breadcrumb": "联系我们",
+    "hereToHelp": "我们随时为您提供帮助",
+    "description": "对驻车空调有疑问？在12V顶置式空调和迷你分体式之间难以选择？我们的驻车空调专家团队随时准备为您提供帮助。",
+    "sendMessage": "发送消息",
+    "messageSent": "消息已发送！",
+    "thankYou": "感谢您的联系。我们将在12小时内回复您。"
+  },
+  "about": {
+    "title": "关于CoolDrivePro",
+    "subtitle": "驻车空调专家",
+    "story": "我们的故事",
+    "mission": "我们的使命",
+    "missionText": "让每一位卡车司机、房车车主和露营车爱好者都能获得可靠且价格合理的驻车空调。",
+    "values": "我们的价值观",
+    "quality": "质量第一",
+    "qualityText": "我们从不妥协产品质量。每台设备都经过严格测试。",
+    "customer": "客户至上",
+    "customerText": "我们致力于提供卓越的支持和服务。",
+    "innovation": "创新",
+    "innovationText": "我们不断改进产品，采用最新技术。",
+    "ourStory": "我们的故事",
+    "heroTitle": "由卡车司机打造，为卡车司机服务——以及所有在路上的人",
+    "heroDesc": "CoolDrivePro成立的使命是：让每一位卡车司机、房车车主和露营车爱好者都能获得可靠且价格合理的驻车空调。",
+    "whyStarted": "我们为何创立CoolDrivePro",
+    "story1": "2019年，我们的创始人——一位拥有15年驾龄的前长途卡车司机——坐在亚利桑那州凤凰城的一个卡车停靠站，看着温度计显示112°F（44°C）。他只有两个选择：整夜怠速，每小时8美元的燃油费，或者在驾驶室里汗流浃背地过夜。",
+    "story2": "一定有更好的办法。经过两年的研究、测试，以及与直流压缩机工程师的直接合作，CoolDrivePro于2021年推出了首款12V驻车空调。卡车司机社区的反响非常热烈。",
+    "story3": "如今，CoolDrivePro驻车空调已被全球超过15,000名卡车司机、房车车主和露营车爱好者使用。我们为客户节省了数百万美元的燃油成本——而且这个数字还在增长。",
+    "imageAlt": "CoolDrivePro团队——驻车空调专家",
+    "coreValues": "我们的核心价值观",
+    "performanceFirst": "性能至上",
+    "performanceDesc": "我们销售的每台驻车空调都必须在实际使用中超越竞争对手——而不仅仅是实验室测试。",
+    "sustainability": "可持续发展",
+    "sustainabilityDesc": "与发动机怠速相比，无怠速驻车空调技术可将卡车停靠站的柴油排放减少高达90%。",
+    "communityDriven": "社区驱动",
+    "communityDesc": "我们倾听卡车司机、房车车主和露营车爱好者的声音。每一次产品改进都来自真实的用户反馈。",
+    "honestWarranty": "诚实质保",
+    "warrantyDesc": "我们的质保就是字面上的意思——没有细则，没有麻烦。如果坏了，我们修或换。",
+    "happyCustomers": "满意客户",
+    "fuelSaved": "节省燃油成本",
+    "statesServed": "服务地区",
+    "avgRating": "平均评分",
+    "readyToStop": "准备好停止怠速了吗？",
+    "joinDrivers": "加入已转用CoolDrivePro驻车空调的15,000+司机。所有美国订单免运费。",
+    "shopTop": "购买顶置式空调",
+    "partnerNetwork": "我们的合作伙伴网络",
+    "partnerDesc": "CoolDrivePro与值得信赖的合作伙伴携手，为全球司机带来最佳的移动舒适解决方案。",
+    "officialPartner": "官方网站合作伙伴"
+  },
+  "support": {
+    "title": "售后支持",
+    "subtitle": "获取驻车空调帮助",
+    "submitTicket": "提交支持请求",
+    "trackTicket": "跟踪工单状态",
+    "commonIssues": "常见问题",
+    "installation": "安装指南",
+    "troubleshooting": "故障排除",
+    "warranty": "质保信息"
   },
   "footer": {
     "products": "产品",
@@ -153,30 +404,16 @@
     "rights": "版权所有。",
     "language": "语言"
   },
-  "blog": {
-    "title": "最新文章",
-    "subtitle": "技巧、指南和行业资讯",
-    "readMore": "阅读更多",
-    "categories": "分类",
-    "publishedOn": "发布于"
-  },
-  "forum": {
-    "title": "社区论坛",
-    "subtitle": "与其他驻车空调用户交流",
-    "newPost": "发布新帖",
-    "topics": "话题",
-    "replies": "回复",
-    "views": "浏览",
-    "lastPost": "最后回复"
-  },
   "seo": {
     "defaultTitle": "CoolDrivePro - 卡车和房车驻车空调",
-    "defaultDescription": "为卡车、房车和Vanlife设计的12V直流驻车空调。无需发动机怠速的节能制冷方案。选购顶置式和分体式空调。",
+    "defaultDescription": "为卡车、房车和露营车生活设计的12V直流驻车空调。无需发动机怠速的节能制冷。选购顶置式和分体式空调机组。",
     "homeTitle": "驻车空调——离网生活与移动舒适 | CoolDrivePro",
     "productsTitle": "12V驻车空调 - 选购顶置式和分体式机组",
     "contactTitle": "联系我们 - CoolDrivePro客户支持",
     "blogTitle": "博客 - 驻车空调系统技巧与指南",
-    "forumTitle": "社区论坛 - 驻车空调交流讨论"
+    "forumTitle": "社区论坛 - 驻车空调交流讨论",
+    "aboutTitle": "关于我们 - CoolDrivePro",
+    "supportTitle": "支持 - CoolDrivePro"
   },
   "errors": {
     "404": {
@@ -193,6 +430,12 @@
     "close": "关闭",
     "search": "搜索",
     "noResults": "未找到结果",
-    "comingSoon": "即将推出"
+    "comingSoon": "即将推出",
+    "learnMore": "了解更多",
+    "shopNow": "立即购买",
+    "buyNow": "立即购买",
+    "cancel": "取消",
+    "posting": "发布中...",
+    "model": "型号"
   }
 }

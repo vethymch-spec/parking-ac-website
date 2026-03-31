@@ -114,7 +114,7 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
   }, []);
 
   const handleCartClick = () => {
-    toast("Shopping cart — Feature coming soon!");
+    toast(t('nav.shoppingCart') + " — " + t('common.comingSoon'));
   };
   const handleSearchClick = () => {
     setSearchOpen(true);
@@ -215,7 +215,7 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
                   {isAdminLoggedIn && (
                     <>
                       <div className="px-4 py-2 border-b border-gray-100">
-                        <p className="text-xs text-gray-400 uppercase tracking-wide font-semibold">Admin</p>
+                        <p className="text-xs text-gray-400 uppercase tracking-wide font-semibold">{t('nav.admin')}</p>
                         <p className="text-sm font-medium text-gray-800 truncate">{adminUser?.name || adminUser?.email}</p>
                       </div>
                       <Link
@@ -247,7 +247,7 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
                   {isCustomerLoggedIn && (
                     <div className={isAdminLoggedIn ? "border-t border-gray-100 mt-1 pt-1" : ""}>
                       <div className="px-4 py-2">
-                        <p className="text-xs text-gray-400 uppercase tracking-wide font-semibold">Customer</p>
+                        <p className="text-xs text-gray-400 uppercase tracking-wide font-semibold">{t('nav.customer')}</p>
                         <p className="text-sm font-medium text-gray-800 truncate">{customerSession.contactName || customerSession.email}</p>
                         <p className="text-xs text-gray-400">{customerSession.customerNo}</p>
                       </div>
@@ -257,14 +257,14 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
                         onClick={() => setUserMenuOpen(false)}
                       >
                         <IconHeadphones size={16} className="text-green-500" />
-                        My Support Portal
+                        {t('nav.mySupportPortal')}
                       </Link>
                       <button
                         onClick={() => { customerLogout.mutate(); setUserMenuOpen(false); }}
                         className="w-full flex items-center gap-3 px-4 py-2.5 text-sm text-red-600 hover:bg-red-50 transition-colors"
                       >
                         <IconLogOut size={16} />
-                        Customer Logout
+                        {t('nav.customerLogout')}
                       </button>
                     </div>
                   )}
@@ -287,7 +287,7 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
             <button
               className="xl:hidden p-2 rounded-full hover:bg-gray-100 transition-colors"
               onClick={() => setMobileOpen(!mobileOpen)}
-              aria-label="Menu"
+              aria-label={t('nav.menu')}
               style={{ color: iconColor }}
             >
               {mobileOpen ? <IconX size={20} style={{ color: iconColor }} /> : <IconMenu size={20} style={{ color: iconColor }} />}
@@ -330,20 +330,20 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
                 <Link
                   href="/support/portal"
                   className="flex items-center gap-2 px-3 py-2.5 text-sm font-medium rounded-lg bg-green-50 text-green-700"
-                  onClick={() => setMobileOpen(false)}
+                  onClick={() => setUserMenuOpen(false)}
                 >
                   <IconHeadphones size={16} />
-                  My Support Portal
+                  {t('nav.mySupportPortal')}
                 </Link>
               )}
               {isAdminLoggedIn && (
                 <Link
                   href="/admin/tickets"
                   className="flex items-center gap-2 px-3 py-2.5 text-sm font-medium rounded-lg bg-gray-50 text-gray-700 mt-1"
-                  onClick={() => setMobileOpen(false)}
+                  onClick={() => setUserMenuOpen(false)}
                 >
                   <IconLayoutDashboard size={16} />
-                  Admin Panel
+                  {t('nav.adminPanel')}
                 </Link>
               )}
             </div>

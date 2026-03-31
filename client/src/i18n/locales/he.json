@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "home": "בית",
+    "products": "מוצרים",
+    "topMountedAC": "מזגן גג",
+    "miniSplitAC": "מיני ספליט מזגן",
+    "heatingCoolingAC": "מזגן חימום/קירור",
+    "allProducts": "כל המוצרים",
+    "forum": "פורום",
+    "blog": "בלוג",
+    "about": "עלינו",
+    "contact": "צור קשר",
+    "search": "חיפוש",
+    "cart": "עגלת קניות",
+    "account": "חשבון",
+    "new": "חדש",
+    "login": "התחברות",
+    "logout": "התנתקות"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "מזגן חניה לחיים ללא רשת ונוחות ניידת",
+    "subtitle": "מזגן 12V ו-24V DC ללא סרק למשאיות, RV וקראוונים — קירור ללא סרק",
+    "ctaPrimary": "קנה מוצרים",
+    "ctaSecondary": "למידע נוסף",
+    "badge": "חדש",
+    "trustedBy": "נאמנות על ידי יותר מ-10,000 נהגים ברחבי העולם"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "המוצרים שלנו",
+    "subtitle": "מזגן חניה",
+    "mainTitle": "מזגני חניה 12V ו-24V DC ללא סרק",
+    "description": "מזגני חניה מופעלים בסוללה למשאיות, RV וקראוונים. קירור ללא סרק — חיסכון בדלק, הפחתת פליטות, נוחות.",
+    "viewDetails": "קנה עכשיו",
+    "addToCart": "הוסף לעגלה",
+    "specs": "מפרט טכני",
+    "features": "תכונות",
+    "reviews": "ביקורות לקוחות",
+    "warranty": "אחריות",
+    "freeShipping": "משלוח חינם",
+    "support": "תמיכה 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "מזגן גג 12000 BTU",
+      "subtitle": "מזגן 12V/24V DC ללא סרק ל-RV ומשאיות",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "מקרר עד 80 רגל רבוע"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "מיני ספליט מזגן 12000 BTU",
+      "subtitle": "מזגן 12V DC ללא סרק למשאיות ו-RV",
+      "btu": "12,000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 שעות",
+      "coverage": "מקרר עד 60 רגל רבוע"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "הוסף לעגלה",
+      "buyNow": "קנה עכשיו",
+      "specifications": "מפרט טכני",
+      "reviews": "ביקורות לקוחות",
+      "faq": "שאלות נפוצות",
+      "freeShipping": "משלוח חינם",
+      "warranty": "אחריות שנתיים",
+      "returns": "החזרה 30 יום",
+      "inStock": "במלאי",
+      "outOfStock": "אזל מהמלאי",
+      "quantity": "כמות",
+      "techSpecs": "מפרט טכני",
+      "relatedProducts": "אולי יעניין אותך גם"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "למה CoolDrivePro",
+    "power": {
+      "badge": "מקור כוח",
+      "title": "מזגן 12V DC מופעל בסוללה",
+      "description": "מזגני החניה שלנו פועלים ישירות מסוללה 12V או 24V של הרכב — לא מרiemן המנוע. עיצוב ללא סרק זה מספק נוחות קירור רציפה בזמן חניה."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "יעילות אנרגטית",
+      "title": "קירור וחימום ביעילות גבוהה ללא סרק",
+      "description": "עם 12,000 BTU קירור (מיני ספליט) ו-10,000 BTU קירור / 4,500 BTU חימום (גג), מזגני החניה שלנו מספקים בקרת אקלים עוצמתית עם COP ≥2.5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "התקנה קלה",
+      "title": "התקנת מזגן חניה פשוטה",
+      "description": "כל מזגן חניה מגיע עם ערכת התקנה מלאה, צינורות קירור מלאים מראש ומדריך שלב אחר שלב."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "הגנת סוללה",
+      "title": "הגנת סוללה חכמה למזגן",
+      "description": "מזגני החניה שלנו כוללים הגנה בטיחותית חשמלית ברמות מרובות כולל ניתוק מתח נמוך (8-11V)."
+    },
+    "durability": {
+      "badge": "עמידות",
+      "title": "מזגן שנבנה לאקלימים קיצוניים",
+      "description": "מזגני החניה שלנו נבדקים בקפדנות מ-28°C ועד +50°C. רכיבים עם דירוג IP54 עמידים לאבק וללחות."
+    },
+    "noise": {
+      "badge": "פעולה שקטה",
+      "title": "מזגן חניה אולטרה שקט",
+      "description": "רק 40 dB — מזגני החניה שלנו נמנים עם השקטים בשוק. טכנולוגיית מאוורר כפול ללא מברשות מספקת נפח אוויר גבוה ללא רעש."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - מזגן חניה 12V למשאיות ו-RV",
+    "defaultDescription": "מזגן חניה 12V DC ללא סרק למשאיות, RV וקראוונים. חיסכון בדלק, הפחתת פליטות, קירור רציף.",
+    "homeTitle": "מזגן חניה לחיים ללא רשת ונוחות ניידת",
+    "productsTitle": "המוצרים שלנו - מזגני חניה 12V ו-24V DC",
+    "contactTitle": "צור קשר - תמיכת CoolDrivePro",
+    "blogTitle": "בלוג - טיפים וחדשות על מזגני חניה",
+    "forumTitle": "פורום - קהילת CoolDrivePro",
+    "aboutTitle": "עלינו - CoolDrivePro",
+    "supportTitle": "תמיכה - מרכז העזרה של CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "טוען...",
+    "readMore": "קרא עוד",
+    "viewAll": "הצג הכל",
+    "close": "סגור",
+    "search": "חיפוש",
+    "noResults": "אין תוצאות",
+    "comingSoon": "בקרוב",
+    "learnMore": "למידע נוסף",
+    "shopNow": "קנה עכשיו",
+    "buyNow": "קנה עכשיו",
+    "cancel": "ביטול",
+    "posting": "מפרסם...",
+    "model": "דגם"
   }
 }

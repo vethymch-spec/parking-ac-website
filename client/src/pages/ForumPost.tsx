@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "wouter";
+import { useTranslation } from "react-i18next";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
 import { getLoginUrl } from "@/const";
@@ -22,13 +23,13 @@ import {
   Pin,
 } from "lucide-react";
 
-function timeAgo(date: Date | string): string {
+function timeAgo(date: Date | string, t: any): string {
   const d = new Date(date);
   const diff = (Date.now() - d.getTime()) / 1000;
-  if (diff < 60) return "just now";
-  if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
-  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
-  if (diff < 2592000) return `${Math.floor(diff / 86400)}d ago`;
+  if (diff < 60) return t('forum.justNow');
+  if (diff < 3600) return t('forum.minutesAgo', { count: Math.floor(diff / 60) });
+  if (diff < 86400) return t('forum.hoursAgo', { count: Math.floor(diff / 3600) });
+  if (diff < 2592000) return t('forum.daysAgo', { count: Math.floor(diff / 86400) });
   return d.toLocaleDateString();
 }
 
@@ -42,6 +43,7 @@ function Avatar({ name, size = "md" }: { name?: string | null; size?: "sm" | "md
 }
 
 export default function ForumPostPage() {
+  const { t } = useTranslation();
   const { slug } = useParams<{ slug: string }>();
   const { isAuthenticated, user } = useAuth();
   const [replyContent, setReplyContent] = useState("");
@@ -61,12 +63,12 @@ export default function ForumPostPage() {
 
   const likePost = trpc.forum.likePost.useMutation({
     onSuccess: () => utils.forum.getPostBySlug.invalidate({ slug: slug ?? "" }),
-    onError: () => toast.error("Failed to like post"),
+    onError: () => toast.error(t('forum.errorLikePost', 'Failed to like post')),
   });
 
   const likeReply = trpc.forum.likeReply.useMutation({
     onSuccess: () => utils.forum.getReplies.invalidate({ postId: post?.id ?? 0 }),
-    onError: () => toast.error("Failed to like reply"),
+    onError: () => toast.error(t('forum.errorLikeReply', 'Failed to like reply')),
   });
 
   const createReply = trpc.forum.createReply.useMutation({
@@ -75,9 +77,9 @@ export default function ForumPostPage() {
       setReplyingTo(undefined);
       utils.forum.getReplies.invalidate({ postId: post?.id ?? 0 });
       utils.forum.getPostBySlug.invalidate({ slug: slug ?? "" });
-      toast.success("Reply posted!");
+      toast.success(t('forum.replyPosted', 'Reply posted!'));
     },
-    onError: (err) => toast.error(err.message || "Failed to post reply"),
+    onError: (err) => toast.error(err.message || t('forum.errorReply', 'Failed to post reply')),
   });
 
   const handleReplySubmit = (e: React.FormEvent) => {
@@ -108,8 +110,8 @@ export default function ForumPostPage() {
         <Navbar />
         <div className="flex-1 flex items-center justify-center px-4">
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-gray-800 mb-3">Post Not Found</h2>
-            <Link href="/forum"><Button>Back to Forum</Button></Link>
+            <h2 className="text-2xl font-bold text-gray-800 mb-3">{t('forum.postNotFound', 'Post Not Found')}</h2>
+            <Link href="/forum"><Button>{t('forum.backToForum', 'Back to Forum')}</Button></Link>
           </div>
         </div>
         <Footer />
@@ -125,7 +127,7 @@ export default function ForumPostPage() {
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
             <Link href="/forum" className="hover:text-blue-600 flex items-center gap-1">
-              <ArrowLeft className="w-3 h-3" /> Forum
+              <ArrowLeft className="w-3 h-3" /> {t('nav.forum')}
             </Link>
             <span>/</span>
             <span className="text-gray-700 truncate max-w-xs">{post.title}</span>
@@ -138,10 +140,10 @@ export default function ForumPostPage() {
               <div className="flex items-start gap-2 flex-wrap mb-3">
                 {post.isPinned && (
                   <span className="inline-flex items-center gap-1 text-xs text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">
-                    <Pin className="w-3 h-3" /> Pinned
+                    <Pin className="w-3 h-3" /> {t('forum.pinned')}
                   </span>
                 )}
-                {post.isClosed && <Badge variant="secondary">Closed</Badge>}
+                {post.isClosed && <Badge variant="secondary">{t('forum.closed')}</Badge>}
                 {post.vehicleType && (
                   <Badge variant="outline" className="border-blue-200 text-blue-600 text-xs">
                     <Truck className="w-3 h-3 mr-1" />{post.vehicleType}
@@ -159,10 +161,10 @@ export default function ForumPostPage() {
               <div className="flex items-center gap-3 mt-4">
                 <Avatar name={post.authorName} size="md" />
                 <div>
-                  <p className="font-semibold text-gray-700">{post.authorName ?? "Anonymous"}</p>
+                  <p className="font-semibold text-gray-700">{post.authorName ?? t('forum.anonymous', "Anonymous")}</p>
                   <div className="flex items-center gap-3 text-xs text-gray-400">
                     <span className="flex items-center gap-1">
-                      <Clock className="w-3 h-3" /> {timeAgo(post.createdAt)}
+                      <Clock className="w-3 h-3" /> {timeAgo(post.createdAt, t)}
                     </span>
                     {post.authorLocation && (
                       <span className="flex items-center gap-1">
@@ -197,7 +199,7 @@ export default function ForumPostPage() {
                 }}
               >
                 <ThumbsUp className="w-4 h-4" />
-                <span>{post.likeCount ?? 0} Helpful</span>
+                <span>{post.likeCount ?? 0} {t('forum.helpful', 'Helpful')}</span>
               </Button>
             </div>
           </div>
@@ -206,7 +208,7 @@ export default function ForumPostPage() {
           <div className="mb-4">
             <h2 className="font-semibold text-gray-700 mb-3 flex items-center gap-2">
               <MessageCircle className="w-4 h-4" />
-              {post.replyCount ?? 0} {post.replyCount === 1 ? "Reply" : "Replies"}
+              {post.replyCount ?? 0} {post.replyCount === 1 ? t('forum.reply', 'Reply') : t('forum.replies', 'Replies')}
             </h2>
 
             {repliesLoading ? (
@@ -220,7 +222,7 @@ export default function ForumPostPage() {
               </div>
             ) : replies && replies.length > 0 ? (
               <div className="space-y-3">
-                {replies.map((reply, idx) => (
+                {replies.map((reply) => (
                   <div
                     key={reply.id}
                     className={`bg-white rounded-xl border shadow-sm p-4 ${
@@ -231,7 +233,7 @@ export default function ForumPostPage() {
                       <Avatar name={reply.authorName} size="sm" />
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">
-                          <span className="font-semibold text-gray-700 text-sm">{reply.authorName ?? "Anonymous"}</span>
+                          <span className="font-semibold text-gray-700 text-sm">{reply.authorName ?? t('forum.anonymous')}</span>
                           {reply.authorVehicle && (
                             <span className="text-xs text-gray-400 bg-gray-100 px-2 py-0.5 rounded-full">
                               {reply.authorVehicle}
@@ -239,10 +241,10 @@ export default function ForumPostPage() {
                           )}
                           {reply.isAccepted && (
                             <span className="inline-flex items-center gap-1 text-xs text-green-700 bg-green-100 px-2 py-0.5 rounded-full">
-                              <CheckCircle2 className="w-3 h-3" /> Accepted Answer
+                              <CheckCircle2 className="w-3 h-3" /> {t('forum.acceptedAnswer', 'Accepted Answer')}
                             </span>
                           )}
-                          <span className="text-xs text-gray-400 ml-auto">{timeAgo(reply.createdAt)}</span>
+                          <span className="text-xs text-gray-400 ml-auto">{timeAgo(reply.createdAt, t)}</span>
                         </div>
                         <p className="text-sm text-gray-700 mt-2 whitespace-pre-wrap leading-relaxed">{reply.content}</p>
                         <div className="flex items-center gap-3 mt-2">
@@ -260,7 +262,7 @@ export default function ForumPostPage() {
                               className="text-xs text-gray-400 hover:text-blue-600 transition-colors"
                               onClick={() => setReplyingTo(reply.id)}
                             >
-                              Reply
+                              {t('forum.replyBtn', 'Reply')}
                             </button>
                           )}
                         </div>
@@ -272,7 +274,7 @@ export default function ForumPostPage() {
             ) : (
               <div className="bg-white rounded-xl border border-gray-200 p-8 text-center text-gray-400">
                 <MessageCircle className="w-8 h-8 mx-auto mb-2 opacity-40" />
-                <p className="text-sm">No replies yet. Be the first to respond!</p>
+                <p className="text-sm">{t('forum.noRepliesYet', 'No replies yet. Be the first to respond!')}</p>
               </div>
             )}
           </div>
@@ -281,11 +283,11 @@ export default function ForumPostPage() {
           {!post.isClosed && (
             <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6">
               <h3 className="font-semibold text-gray-700 mb-4">
-                {replyingTo ? "Write a Reply" : "Join the Discussion"}
+                {replyingTo ? t('forum.writeReply', 'Write a Reply') : t('forum.joinDiscussion', 'Join the Discussion')}
               </h3>
               {replyingTo && (
                 <div className="flex items-center gap-2 mb-3 text-sm text-blue-600 bg-blue-50 px-3 py-2 rounded-lg">
-                  Replying to a comment
+                  {t('forum.replyingTo', 'Replying to a comment')}
                   <button className="ml-auto text-gray-400 hover:text-gray-600" onClick={() => setReplyingTo(undefined)}>
                     ✕
                   </button>
@@ -296,7 +298,7 @@ export default function ForumPostPage() {
                   <Textarea
                     value={replyContent}
                     onChange={e => setReplyContent(e.target.value)}
-                    placeholder="Share your experience or answer..."
+                    placeholder={t('forum.shareExperience', 'Share your experience or answer...')}
                     className="min-h-[120px] resize-y"
                     required
                     minLength={5}
@@ -308,23 +310,23 @@ export default function ForumPostPage() {
                       className="gap-2"
                     >
                       {createReply.isPending ? (
-                        <><div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white" /> Posting...</>
+                        <><div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white" /> {t('common.posting', 'Posting...')}</>
                       ) : (
-                        <><Send className="w-4 h-4" /> Post Reply</>
+                        <><Send className="w-4 h-4" /> {t('forum.postReply', 'Post Reply')}</>
                       )}
                     </Button>
                     {replyingTo && (
                       <Button type="button" variant="outline" onClick={() => setReplyingTo(undefined)}>
-                        Cancel
+                        {t('common.cancel', 'Cancel')}
                       </Button>
                     )}
                   </div>
                 </form>
               ) : (
                 <div className="text-center py-6">
-                  <p className="text-gray-500 mb-4">Sign in to join the discussion</p>
+                  <p className="text-gray-500 mb-4">{t('forum.signInToJoin', 'Sign in to join the discussion')}</p>
                   <a href={getLoginUrl()}>
-                    <Button>Sign In to Reply</Button>
+                    <Button>{t('forum.signInReply', 'Sign In to Reply')}</Button>
                   </a>
                 </div>
               )}
@@ -333,7 +335,7 @@ export default function ForumPostPage() {
 
           {post.isClosed && (
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 text-center text-gray-500 text-sm">
-              This thread is closed and no longer accepting replies.
+              {t('forum.threadClosed', 'This thread is closed and no longer accepting replies.')}
             </div>
           )}
         </div>

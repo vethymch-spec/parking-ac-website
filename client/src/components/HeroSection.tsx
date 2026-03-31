@@ -8,10 +8,14 @@
  * can discover the LCP image from the HTML preload hint immediately,
  * without waiting for CSS to be parsed.
  */
+import { useTranslation } from "react-i18next";
+
 export default function HeroSection() {
+  const { t } = useTranslation();
+  
   return (
     <section
-      aria-label="Parking Air Conditioner for Trucks, RVs and Vans"
+      aria-label={t('hero.title')}
       className="relative w-full overflow-hidden"
       style={{ minHeight: "calc(100vh + 100px)" }}
     >
@@ -20,7 +24,7 @@ export default function HeroSection() {
         src="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp"
         srcSet="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-640_fe5499d6.webp 640w, https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp 1280w"
         sizes="100vw"
-        alt="Silver Airstream RV trailer at night with campfire – parking air conditioner lifestyle"
+        alt={t('hero.title')}
         className="absolute inset-0 w-full h-full object-cover"
         fetchPriority="high"
         decoding="async"
@@ -47,16 +51,16 @@ export default function HeroSection() {
               className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-4"
               style={{ fontFamily: "'Montserrat', sans-serif", textShadow: "0 2px 12px rgba(0,0,0,0.4)" }}
             >
-              Parking Air Conditioner for Off-Grid Life &amp; Mobile Comfort
+              {t('hero.title')}
             </h1>
             {/* Keyword-rich subtitle */}
             <p
               className="text-base sm:text-lg text-white/90 mb-8 font-light"
               style={{ fontFamily: "'Inter', sans-serif", textShadow: "0 1px 6px rgba(0,0,0,0.4)" }}
             >
-              12V &amp; 24V DC No-Idle Parking AC for Semi Trucks, RVs, Vans &amp; Campers — Cool Without Idling
+              {t('hero.subtitle')}
             </p>
-            <nav aria-label="Product categories" className="flex flex-wrap gap-3">
+            <nav aria-label={t('products.title')} className="flex flex-wrap gap-3">
               <a
                 href="/products/top-mounted-ac"
                 className="inline-block px-6 py-3 text-sm font-bold text-white rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
@@ -65,9 +69,9 @@ export default function HeroSection() {
                   fontFamily: "'Montserrat', sans-serif",
                   letterSpacing: "0.02em",
                 }}
-                title="Top-Mounted Parking Air Conditioner for RV"
+                title={t('products.topMounted.title')}
               >
-                Top-Mounted AC
+                {t('nav.topMountedAC')}
               </a>
               <a
                 href="/products/mini-split-ac"
@@ -77,9 +81,9 @@ export default function HeroSection() {
                   fontFamily: "'Montserrat', sans-serif",
                   letterSpacing: "0.02em",
                 }}
-                title="Mini Split Parking Air Conditioner for Truck"
+                title={t('products.miniSplit.title')}
               >
-                Mini Split AC
+                {t('nav.miniSplitAC')}
               </a>
               <a
                 href="/products/heating-cooling-ac"
@@ -89,15 +93,15 @@ export default function HeroSection() {
                   fontFamily: "'Montserrat', sans-serif",
                   letterSpacing: "0.02em",
                 }}
-                title="V-TH1 Heating & Cooling Parking Air Conditioner - NEW"
+                title={t('products.heatingCooling.title')}
               >
                 <span
                   className="absolute -top-2 -right-2 px-1.5 py-0.5 text-[10px] font-bold text-white rounded-sm leading-none"
                   style={{ backgroundColor: "oklch(0.38 0.22 25)" }}
                 >
-                  NEW
+                  {t('nav.new')}
                 </span>
-                Heating &amp; Cooling AC
+                {t('nav.heatingCoolingAC')}
               </a>
             </nav>
           </div>

@@ -1,198 +1,396 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "home": "홈",
+    "products": "제품",
+    "topMountedAC": "루프탑 에어컨",
+    "miniSplitAC": "미니 분할식 에어컨",
+    "heatingCoolingAC": "냉난방 에어컨",
+    "allProducts": "모든 제품",
+    "forum": "포럼",
+    "blog": "블로그",
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "search": "검색",
+    "cart": "장바구니",
+    "account": "계정",
+    "new": "신제품",
+    "admin": "관리자",
+    "customer": "고객",
+    "ticketManagement": "티켓 관리",
+    "customerManagement": "고객 관리",
+    "supportPortal": "내 지원 포털",
+    "logout": "로그아웃",
+    "login": "로그인",
+    "adminLogout": "관리자 로그아웃",
+    "customerLogout": "고객 로그아웃",
+    "mySupportPortal": "내 지원 포털",
+    "adminPanel": "관리자 패널",
+    "menu": "메뉴",
+    "shoppingCart": "장바구니",
+    "brandKnowledge": "브랜드 지식",
+    "paymentMethod": "결제 방법",
+    "billingTerms": "청구 조건",
+    "trackOrder": "주문 추적",
+    "supportAvailability": "지원 시간: 태평양 시간 오전 11시~오후 9시, 1~12시간 이내에 답변드립니다."
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "오프그리드 생활과 모바일 쾌적함을 위한 주차 에어컨",
+    "subtitle": "세미 트럭, RV, 밴, 캠핑카용 12V 및 24V DC 무아이들링 주차 에어컨 — 아이들링 없이 시원함",
+    "ctaPrimary": "제품 쇼핑",
+    "ctaSecondary": "더 알아보기",
+    "badge": "신제품 출시",
+    "trustedBy": "전 세계 10,000명 이상의 운전자가 신뢰"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "우리의 제품",
+    "subtitle": "주차 에어컨",
+    "mainTitle": "12V 및 24V DC 무아이들링 주차 에어컨 유닛",
+    "description": "세미 트럭, RV, 밴, 캠핑카용 배터리 구동 주차 에어컨. 아이들링 없이 시원함 — 연료 절약, 배출 감소, 쾌적함 유지.",
+    "viewDetails": "지금 쇼핑",
+    "addToCart": "장바구니에 담기",
+    "specs": "사양",
+    "features": "제품 특징",
+    "reviews": "고객 리뷰",
+    "warranty": "보증",
+    "freeShipping": "묶음 배송",
+    "support": "24/7 지원",
+    "learnMore": "더 알아보기",
+    "cooling": "냉방",
+    "heating": "난방",
+    "heatingCooling": "냉난방",
+    "specs": {
+      "coolingCapacity": "냉방 용량",
+      "heatingCapacity": "난방 용량",
+      "current": "전류",
+      "powerSupply": "전원",
+      "noiseLevel": "소음 수준",
+      "batteryRuntime": "배터리 사용 시간",
+      "flowRate": "유량",
+      "fuelType": "연료 종류",
+      "installation": "설치 방식",
+      "heatingSpeed": "난방 속도",
+      "airOutput": "풍량"
+    },
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "12000 BTU 루프탑 주차 에어컨",
+      "subtitle": "12V/24V DC 무아이들링 RV 및 트럭 에어컨",
+      "description": "RV, 세미 트럭, 밴을 위해 설계된 궁극의 R410A 이중 로터리 컴프레서 주차 에어컨. 이 12V/24V DC 무아이들링 주차 에어컨은 12000 BTU 냉방 능력을 제공 — 엔진을 켜지 않고도 캡이나 캠퍼를 쾌적하게 유지합니다. 저전압 배터리 보호 및 45dB 초저소음 작동 기능을 갖추고 있습니다.",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "최대 80제곱피트 냉방",
+      "imageAlt": "10000 BTU 루프탑 주차 에어컨 분해 도 — 12V/24V DC 무아이들링 RV 트럭 에어컨"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "12000 BTU 미니 분할식 주차 에어컨",
+      "subtitle": "세미 트럭 및 RV용 12V DC 무아이들링 에어컨",
+      "description": "세미 트럭 캡, RV, 화물 밴을 위해 설계된 대용량 12V DC 미니 분할식 주차 에어컨. 12000 BTU 무아이들링 냉방 능력으로 이 덕트리스 주차 에어컨은 차량 배터리에서 직접 작동 — 발전기나 상륙 전원이 필요 없습니다. 수평 루프탑 설치로 대부분의 트럭과 캠퍼에 적합합니다.",
+      "btu": "12,000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10시간",
+      "coverage": "최대 60제곱피트 냉방",
+      "imageAlt": "세미 트럭 및 RV용 12000 BTU 미니 분할식 주차 에어컨 — 12V DC 무아이들링"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "waterHeater": {
+      "title": "RV 및 트럭용 65000 BTU 즉석식 온수기",
+      "subtitle": "오프그리드 생활용 프로판 즉석식 히터",
+      "description": "RV, 세미 트럭, 캠핑카를 위해 특별히 설계된 이 65,000 BTU 즉석식 온수기로 오프그리드 편안함을 완성하세요. 2.9 GPM의 즉석 온수를 제공 — 1년 낂씬 도로에서 주차 에어컨과 함께 완벽한 동반자입니다.",
+      "imageAlt": "RV 및 세미 트럭용 65000 BTU 즉석식 온수기 — 오프그리드 온수"
+    },
+    "heatingCoolingAC": {
+      "title": "V-TH1 냉난방 주차 에어컨",
+      "subtitle": "12V/24V DC 듀얼 모드 로터 에어컨 — 1년 낂쾌적함",
+      "description": "CoolDrivePro의 최초 듀얼 모드 주차 에어컨. V-TH1은 여름철 최대 2,000W 냉방을 제공하고 겨울철에는 30분 이내에 캡을 5°C에서 30°C까지 가열합니다. GMCC 이중 로터리 컴프레서와 R134A 냉매를 사용하는 이 12V/24V DC 로터 에어컨은 트럭, RV, 밴, 특수 차량에 1년 낂쾌적함을 제공 — 엔진 아이들링이 필요 없습니다.",
+      "imageAlt": "V-TH1 냉난방 주차 에어컨 — 12V/24V DC 듀얼 모드 로터 에어컨"
+    },
+    "detail": {
+      "addToCart": "장바구니에 담기",
+      "buyNow": "지금 구매",
+      "specifications": "사양",
+      "reviews": "고객 리뷰",
+      "faq": "자주 묻는 질문",
+      "freeShipping": "묶음 배송",
+      "warranty": "2년 보증",
+      "returns": "30일 반품",
+      "inStock": "재고 있음",
+      "outOfStock": "재고 없음",
+      "quantity": "수량",
+      "shipping": "배송",
+      "shippingDesc": "미국 본토 $500 이상 주문 시 묶음 배송. 3-5 영업일 배달.",
+      "warrantyDesc": "재료 및 공정 결함을 커버하는 2년 제조업체 보증.",
+      "returnsDesc": "30일 간편 반품 정책. 만족하지 못하면 전액 환불.",
+      "techSpecs": "기술 사양",
+      "reviewsTitle": "고객들의 말씀",
+      "verifiedPurchase": "검증된 구매",
+      "helpful": "도움이 됨",
+      "writeReview": "리뷰 작성",
+      "loadMore": "더 많은 리뷰 불러오기",
+      "faqTitle": "일반적인 질문",
+      "relatedProducts": "이런 제품도 좋아하실 수 있습니다",
+      "viewDetails": "자세히 보기",
+      "gallery": "갤러리",
+      "zoom": "클릭하여 확대",
+      "share": "공유",
+      "save": "나중을 위해 저"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "왜 CoolDrivePro를 선택해야 하나요",
+    "subtitle": "까다로운 환경에서의 신뢰성과 효율성을 위해 설계",
+    "mainTitle": "우리 주차 에어컨의 특징",
+    "subTitle": "무아이들링 성능을 위해 제작",
+    "learnMore": "더 알아보기",
+    "power": {
+      "badge": "전원",
+      "title": "12V DC 배터리 구동 주차 에어컨",
+      "description": "우리의 주차 에어컨은 차량의 12V 또는 24V 배터리에서 직접 작동 — 엔진 벨트가 아닙니다. 이 무아이들링 설계는 주차 시 연속적인 냉방 편안함을 제공하여 연료 비용과 엔진 마모를 없앱니다. 내장 저전압 보호 기능은 주차 에어컨이 안전 수준 이하로 배터리를 방전하지 않도록 보장합니다.",
+      "imageAlt": "12V 주차 에어컨이 장착된 세미 트럭 — 무아이들링 DC 구동 냉방"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "에너지 효율",
+      "title": "고효율 무아이들링 냉난방",
+      "description": "미니 분할식은 12,000 BTU 냉방, 루프탑은 10,000 BTU 냉방/4,500 BTU 난방을 제공하며, 우리의 주차 에어컨은 COP ≥2.5에서 강력한 기후 제어를 제공합니다. 변속 DC 스크롤 컴프레서 기술은 주차 에어컨이 필요한 에너지만 사용하도록 — 배터리 사용 시간을 극대화합니다.",
+      "imageAlt": "산에서 캠핑 — 에너지 효율적인 주차 에어컨"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "쉬운 설치",
+      "title": "간단한 주차 에어컨 설치",
+      "description": "모든 주차 에어컨은 완전한 설치 키트, 예충전 냉매 라인, 단계별 매뉴얼과 함께 제공됩니다. HVAC 자격증이 필요 없습니다. 대부분의 설치는 2-4시간이 소요됩니다. 표준 14인치 RV 루프 개구부와 범용 트럭 캡 장착 브래킷과 호환됩니다.",
+      "imageAlt": "RV 루프에 주차 에어컨 설치 — 쉬운 DIY 설치"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "배터리 보호",
+      "title": "주차 에어컨 스마트 배터리 보호",
+      "description": "우리의 주차 에어컨은 저전압 차단(8-11V), 과전류 보호, 열 차단을 포함한 다중 수준의 전기 안전 보호 기능을 갖추고 있습니다. 차량 배터리가 과방전으로부터 보호 — 밤새 주차 에어컨 작동 후에도 안정적인 엔진 시동에 필수적입니다.",
+      "imageAlt": "세미 트럭 캡 — 배터리 보호가 있는 주차 에어컨"
+    },
+    "durability": {
+      "badge": "내구성",
+      "title": "극한 기후를 위해 제작된 주차 에어컨",
+      "description": "우리의 주차 에어컨은 주변 온도 -28°C에서 +50°C까지 엄격하게 테스트되었습니다. 애리조나 사막의 트럭 정류장이나 미네소타의 겨울 휴게소에 주차하든, 주차 에어컨이 최적의 성능을 유지합니다. IP54 등급 부품은 먼지와 수분을 방지합니다.",
+      "imageAlt": "사막의 RV — 극한 더위용 주차 에어컨"
+    },
+    "noise": {
+      "badge": "조용한 작동",
+      "title": "초저소음 주차 에어컨",
+      "description": "40dB에 불과한 우리의 주차 에어컨은 시장에서 가장 조용한 제품 중 하나입니다. 브러시리스 듀얼 팬 기술은 소음 없이 높은 공기량을 제공 — 주차 에어컨이 작동하는 동안 편안하게 잠을 잘 수 있습니다. 주거 지역과 소음 제한이 있는 캠핑장에 이상적입니다.",
+      "imageAlt": "밤의 평화로운 캠핑장 — 조용하게 작동하는 주차 에어컨"
     }
   },
   "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
+    "title": "적합한 용도",
+    "subtitle": "여러 산업의 운전자들이 신뢰",
+    "semiTrucks": "세미 트럭",
+    "rvs": "RV 및 모터홈",
+    "vans": "캠핑카",
+    "construction": "건설 차량",
+    "sectionLabel": "주차 에어컨 적용 분야",
+    "applications": "적용 분야",
+    "mainTitle": "모든 차량용 주차 에어컨",
+    "semiTrucksKeyword": "트럭 주차 에어컨",
+    "semiTrucksDesc": "8등급 세미 트럭 캡을 위해 설계. 우리의 12V/24V 주차 에어컨은 의무 휴식 기간 동안 운전자를 시원하게 유지 — 아이들링이 필요 없습니다. 미국 모든 50개 주의 반아이들링 규정을 준수.",
+    "rvsKeyword": "RV 주차 에어컨",
+    "rvsDesc": "A급, B급, C급 모터홈, 여행 트레일러, 5차 휠용 오프그리드 냉방. 리튬 배터리 뱅크나 태양광 시스템에서 직접 주차 에어컨을 작동 — 상륙 전원이 필요 없습니다.",
+    "vansKeyword": "밴 주차 에어컨",
+    "vansDesc": "화물 밴 개조, Sprinter 밴, 캠핑카에 완벽한 컴팩트 12V 주차 에어컨 유닛. 로우 프로파일 설계는 개조 없이 표준 밴 루프 높이에 맞습니다.",
+    "noIdle": "무아이들링 냉방 시스템",
+    "noIdleKeyword": "무아이들링 에어컨",
+    "noIdleDesc": "비용이 많이 드는 엔진 아이들링을 배터리 구동 무아이들링 주차 에어컨으로 교체하세요. 시간당 최대 $8-12의 연료 비용을 절약. 엔진 마모를 줄이고 트럭 정류장과 휴게소의 탄소 배출을 감소.",
+    "solar": "태양광 주차 에어컨",
+    "solarKeyword": "태양광 주차 에어컨",
+    "solarDesc": "우리의 12V 주차 에어컨을 루프탑 태양광 패널과 페어링하여 진정한 묶음 냉방을 실현. DC 다이렉트 태양광 호환성은 주차 에어컨이 주간에 연속적으로 작동할 수 있음을 의미.",
+    "apu": "APU 대안",
+    "apuKeyword": "전기 APU 주차 쿨러",
+    "apuDesc": "디젤 APU(보조 동력 장치) 시스템의 비용 효율적인 대안. 우리의 전기 주차 에어컨은 설치 및 운영 비용의 일부로 동등한 냉방을 제공."
   },
   "shopWithUs": {
-    "title": "Shop With Confidence",
+    "title": "안심하고 쇼핑",
     "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
+      "title": "2년 보증",
+      "description": "모든 부품 및 인건 비용 완전 커버"
     },
     "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
+      "title": "30일 반품",
+      "description": "만족하지 못하면 이유 없이 반품"
     },
     "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
+      "title": "묶음 배송",
+      "description": "미국 본토 $500 이상 주문 시"
+    }
+  },
+  "blog": {
+    "title": "최신 기사",
+    "subtitle": "팁, 가이드 및 업계 소식",
+    "readMore": "더 읽기",
+    "categories": "카테고리",
+    "publishedOn": "게시일",
+    "viewAll": "모든 {{count}}개 기사 보기",
+    "browseAll": "모든 {{count}}개 주차 에어컨 기사 보기",
+    "knowledgeBase": "주차 에어컨 지식 베이스",
+    "latestGuides": "최신 가이드 및 기사",
+    "searchPlaceholder": "기사 검색...",
+    "articlesFound": "{{count}}개 기사 찾음",
+    "articlesFoundPlural": "{{count}}개 기사 찾음",
+    "inCategory": "카테고리: {{category}}",
+    "forSearch": "검색: \"{{query}}\"",
+    "noArticlesFound": "기사를 찾을 수 없음",
+    "tryDifferent": "다른 검색어나 카테고리를 시도핳세요.",
+    "prev": "이전",
+    "next": "다음",
+    "pageTitle": "주차 에어컨 블로그 및 가이드",
+    "pageSubtitle": "트럭 운전자, RV 오너, 밴 라이퍼를 위한 12V/24V 주차 에어컨 전문 가이드, 비교 및 팁.",
+    "post": {
+      "notFound": "기사를 찾을 수 없음",
+      "backToBlog": "← 블로그로 돌아가기",
+      "readyToExperience": "무아이들링 냉방을 경험할 준비가 되셨나요?",
+      "exploreOur": "우리의 12V/24V 주차 에어컨을 둘러보세요 — 미국 주문 모두 묶음 배송.",
+      "shopTopMounted": "VS02 PRO 루프탑 에어컨 쇼핑",
+      "shopMiniSplit": "VX3000SP 미니 분할식 에어컨 쇼핑"
+    }
+  },
+  "forum": {
+    "title": "커뮤니티 포럼",
+    "subtitle": "다른 주차 에어컨 오너들과 연결",
+    "newPost": "새 글",
+    "topics": "토픽",
+    "replies": "답변",
+    "views": "조회수",
+    "lastPost": "최신 글",
+    "community": "커뮤니티",
+    "discussions": "토론",
+    "heroTitle": "주차 에어컨 커뮤니티 포럼",
+    "heroSubtitle": "전 세계 트럭 운전자, 밴 라이퍼, RV 애호가들과 경험을 공유하고 질문하고 연결하세요.",
+    "startDiscussion": "토론 시작하기",
+    "signInToPost": "글을 쓰려면 로그인",
+    "searchPlaceholder": "토론 검색...",
+    "categories": "카테고리",
+    "allDiscussions": "모든 토론",
+    "quickLinks": "빠른 링크",
+    "threads": "스레드",
+    "justNow": "방금",
+    "minutesAgo": "{{count}}분 전",
+    "hoursAgo": "{{count}}시간 전",
+    "daysAgo": "{{count}}일 전",
+    "post": {
+      "backToForum": "← 포럼으로 돌아가기",
+      "reply": "답변",
+      "writeReply": "답변 작성...",
+      "submitReply": "답변 제출",
+      "loginToReply": "로그인하여 답변",
+      "likes": "좋아요",
+      "share": "공유",
+      "report": "신고",
+      "edit": "수정",
+      "delete": "삭제",
+      "confirmDelete": "이 글을 삭제하시겠습니까?"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
+    "title": "문의하기",
+    "subtitle": "도움이 필요하시면 언제든지 연락주세요",
+    "getInTouch": "연락하기",
     "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
+      "name": "이름",
+      "namePlaceholder": "당신의 이름",
+      "email": "이메일",
+      "emailPlaceholder": "당신의 이메일 주소",
+      "subject": "제목",
+      "subjectPlaceholder": "메일 제목",
+      "message": "메시지",
+      "messagePlaceholder": "무엇을 말씀하시겠습니까...",
+      "submit": "메시지 복사",
+      "sending": "볶내는 중...",
+      "success": "연락해 주셔서 감사합니다! 곧 답변드리겠습니다.",
+      "error": "메시지를 볶내는 중 오류가 발생했습니다. 나중에 다시 시도해 주세요."
+    },
+    "info": {
+      "title": "연락처 정보",
+      "email": "이메일",
+      "phone": "전화",
+      "hours": "영업 시간",
+      "hoursValue": "월요일-금요일: 오전 9시-오후 6시 (태평양 시간)",
+      "location": "위치",
+      "locationValue": "캘리포니아 로스앤젤레스"
     },
     "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
+      "title": "이메일 지원",
+      "description": "일반 문의사항은 다음으로 이메일을 복사주세요"
     },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
+    "technicalSupport": {
+      "title": "기술 지원",
+      "description": "제품 관련 문의는 다음으로 연락하세요"
     },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
+    "sales": {
+      "title": "영업 문의",
+      "description": "도매 및 딜러 문의는 다음으로 연락하세요"
+    },
+    "warranty": {
+      "title": "보증 서비스",
+      "description": "보증 관련 문의는 다음으로 연락하세요"
     }
   },
   "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "company": "회사",
+    "support": "지원",
     "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
+      "title": "최신 소식 구독",
+      "description": "최신 제품 업데이트와 독점 혜택을 받아보세요",
+      "placeholder": "이메일 주소를 입력하세요",
+      "subscribe": "구독하기",
+      "success": "구독해 주셔서 감사합니다!"
     },
-    "rights": "All rights reserved.",
-    "language": "Language"
+    "rights": "판권 소유.",
+    "warranty": "보증",
+    "returns": "반품 정책",
+    "shipping": "배송 정책",
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 약관"
   },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
+  "about": {
+    "ourStory": "우리의 이야기",
+    "heroTitle": "오프그리드 쾌적함을 재정의하다",
+    "heroDesc": "2015년부터 CoolDrivePro는 트럭 운전자, RV 애호가, 모험가들에게 주차 에어컨 혁신을 선도해왔습니다.",
+    "whyStarted": "시작 이유",
+    "story1": "CoolDrivePro는 간단한 질문으로 시작되었습니다: 왜 트럭 운전자와 RV 오너는 주차 시 답답함을 참거나 연료를 낭비하며 아이들링을 해야 할까요?",
+    "story2": "창업자 Tomas Wang은 20년 경력의 베테랑 트럭 운전자로, 하루 8시간 주차의 어려움을 직접 경험했습니다.",
+    "story3": "2015년, 우리는 첫 번째 주차 에어컨을 출시하여 도로 편안함을 완전히 바꾸었습니다. 오늘날 우리는 전 세계 10,000명 이상의 운전자를 서비스합니다.",
+    "coreValues": "핵심 가치",
+    "readyToStop": "아이들링을 멈출 준비가 되셨나요?",
+    "joinDrivers": "CoolDrivePro 주차 에어컨으로 전환한 전 세계 10,000명 이상의 운전자들에 합류하세요.",
+    "shopTop": "루프탑 에어컨 쇼핑",
+    "shopMini": "미니 분할식 에어컨 쇼핑"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
+    "homeTitle": "주차 에어컨 | 12V 및 24V DC 무아이들링 트럭 및 RV 에어컨 | CoolDrivePro",
+    "homeDescription": "전문 주차 에어컨을 구매하세요. 세미 트럭, RV, 밴용 12V 및 24V DC 무아이들링 에어컨 유닛. 아이들링 없이 시원함 — 연료 절약, 배출 감소.",
+    "productsTitle": "주차 에어컨 제품 | 12V 및 24V DC 에어컨 유닛",
+    "productsDescription": "우리의 주차 에어컨 라인을 둘러보세요. 트럭, RV, 캠핑카용 루프탑 및 미니 분할식 12V 및 24V DC 무아이들링 에어컨.",
+    "blogTitle": "주차 에어컨 블로그 | 팁, 가이드 및 리뷰",
+    "blogDescription": "주차 에어컨에 대해 알아보세요. 12V 및 24V DC 무아이들링 트럭 및 RV 에어컨용 전문 가이드, 제품 리뷰 및 팁.",
+    "forumTitle": "주차 에어컨 포럼 | 커뮤니티 토론 및 지원",
+    "forumDescription": "우리의 주차 에어컨 커뮤니티 포럼에 가입하세요. 다른 트럭 운전자 및 RV 오너들과 연결하여 팁을 공유하고 경험을 나누며 답변을 찾으세요.",
+    "contactTitle": "문의하기 | CoolDrivePro 지원",
+    "contactDescription": "주차 에어컨에 대해 질문이 있으신가요? CoolDrivePro 지원 팀에 문의하세요. 12V 및 24V DC 무아이들링 에어컨에 대해 도움을 드립니다."
   },
   "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "404": "페이지를 찾을 수 없음",
+    "404Desc": "죄송합니다. 찾으시는 페이지가 존재하지 않습니다.",
+    "goHome": "홈으로 돌아가기",
+    "generic": "오류가 발생했습니다",
+    "tryAgain": "나중에 다시 시도해 주세요"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "로딩 중...",
+    "readMore": "더 읽기",
+    "viewAll": "모두 보기",
+    "close": "닫기",
+    "search": "검색",
+    "noResults": "결과 없음",
+    "comingSoon": "곧 출시",
+    "learnMore": "더 알아보기",
+    "shopNow": "지금 쇼핑",
+    "buyNow": "지금 구매",
+    "cancel": "취소",
+    "posting": "게시 중...",
+    "model": "모델"
   }
 }

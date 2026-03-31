@@ -1,198 +1,205 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
+    "home": "Inicio",
+    "products": "Productos",
+    "topMountedAC": "Aire acondicionado de techo",
+    "miniSplitAC": "Aire acondicionado mini split",
+    "heatingCoolingAC": "Aire acondicionado calefacción/refrigeración",
+    "allProducts": "Todos los productos",
+    "forum": "Foro",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "search": "Buscar",
+    "cart": "Carrito",
+    "account": "Cuenta",
+    "new": "NUEVO",
     "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "customer": "Cliente",
+    "ticketManagement": "Gestión de tickets",
+    "customerManagement": "Gestión de clientes",
+    "supportPortal": "Mi portal de soporte",
+    "logout": "Cerrar sesión",
+    "login": "Iniciar sesión",
+    "adminLogout": "Cerrar sesión admin",
+    "customerLogout": "Cerrar sesión cliente",
+    "mySupportPortal": "Mi portal de soporte",
+    "adminPanel": "Panel de admin",
+    "menu": "Menú",
+    "shoppingCart": "Carrito de compras",
+    "brandKnowledge": "Conocimiento de marca",
+    "paymentMethod": "Método de pago",
+    "billingTerms": "Términos de facturación",
+    "trackOrder": "Rastrear pedido",
+    "supportAvailability": "Disponibilidad de soporte: 11 AM - 9 PM Hora del Pacífico (PT), responderemos dentro de 1-12 horas."
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Aire acondicionado de estacionamiento para vida off-grid y confort móvil",
+    "subtitle": "Aire acondicionado 12V y 24V DC sin ralentí para camiones semirremolque, RV, furgonetas y autocaravanas — Fresco sin ralentí",
+    "ctaPrimary": "Comprar productos",
+    "ctaSecondary": "Más información",
+    "badge": "Nueva llegada",
+    "trustedBy": "Confiado por más de 10,000 conductores en todo el mundo"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Nuestros productos",
+    "subtitle": "Aire acondicionado de estacionamiento",
+    "mainTitle": "Unidades de aire acondicionado 12V y 24V DC sin ralentí",
+    "description": "Aires acondicionados de estacionamiento alimentados por batería para camiones semirremolque, RV, furgonetas y autocaravanas. Fresco sin ralentí — Ahorre combustible, reduzca emisiones, manténgase cómodo.",
+    "viewDetails": "Comprar ahora",
+    "addToCart": "Añadir al carrito",
+    "specs": "Especificaciones",
+    "features": "Características",
+    "reviews": "Reseñas de clientes",
+    "warranty": "Garantía",
+    "freeShipping": "Envío gratis",
+    "support": "Soporte 24/7",
+    "learnMore": "Más información",
+    "cooling": "Refrigeración",
+    "heating": "Calefacción",
+    "heatingCooling": "Calefacción y refrigeración",
+    "specs": {
+      "coolingCapacity": "Capacidad de refrigeración",
+      "heatingCapacity": "Capacidad de calefacción",
+      "current": "Corriente",
+      "powerSupply": "Fuente de alimentación",
+      "noiseLevel": "Nivel de ruido",
+      "batteryRuntime": "Duración de batería",
+      "flowRate": "Caudal",
+      "fuelType": "Tipo de combustible",
+      "installation": "Instalación",
+      "heatingSpeed": "Velocidad de calefacción",
+      "airOutput": "Salida de aire"
+    },
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Aire acondicionado de techo 12000 BTU",
+      "subtitle": "Aire acondicionado 12V/24V DC sin ralentí para RV y camiones",
+      "description": "El último aire acondicionado de estacionamiento con compresor rotativo doble R410A para RV, camiones semirremolque y furgonetas. Este aire acondicionado 12V/24V DC sin ralentí ofrece 12000 BTU de capacidad de refrigeración — mantiene su cabina o autocaravana cómoda sin hacer funcionar el motor. Con protección de batería contra bajo voltaje y funcionamiento silencioso a 45 dB.",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Refrigera hasta 80 pies cuadrados",
+      "imageAlt": "Vista explosionada aire acondicionado de techo 10000 BTU — Aire acondicionado 12V/24V DC sin ralentí para RV y camiones"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Aire acondicionado mini split 12000 BTU",
+      "subtitle": "Aire acondicionado 12V DC sin ralentí para camiones semirremolque y RV",
+      "description": "Aire acondicionado mini split 12V DC de alta capacidad para cabinas de camiones semirremolque, RV y furgonetas. Con 12000 BTU de potencia de refrigeración sin ralentí, este aire acondicionado sin ductos funciona directamente desde la batería del vehículo — no necesita generador ni conexión a tierra. Instalación horizontal en techo apta para la mayoría de camiones y autocaravanas.",
+      "btu": "12,000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 horas",
+      "coverage": "Refrigera hasta 60 pies cuadrados",
+      "imageAlt": "Aire acondicionado mini split 12000 BTU para camiones semirremolque y RV — 12V DC sin ralentí"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "waterHeater": {
+      "title": "Calentador de agua instantáneo 65000 BTU para RV y camiones",
+      "subtitle": "Calentador instantáneo de propano para vida off-grid",
+      "description": "Complete su sistema de confort off-grid con este calentador de agua instantáneo 65,000 BTU, diseñado específicamente para RV, camiones semirremolque y autocaravanas. Proporciona 2.9 GPM de agua caliente instantánea — el compañero perfecto para su aire acondicionado de estacionamiento para confort durante todo el año en la carretera.",
+      "imageAlt": "Calentador de agua instantáneo 65000 BTU para RV y camiones semirremolque — Agua caliente off-grid"
+    },
+    "heatingCoolingAC": {
+      "title": "Aire acondicionado calefacción/refrigeración V-TH1",
+      "subtitle": "Aire acondicionado rotativo 12V/24V DC modo dual — Confort durante todo el año",
+      "description": "El primer aire acondicionado de estacionamiento modo dual de CoolDrivePro. El V-TH1 ofrece hasta 2,000W de refrigeración en verano y calienta su cabina de 5°C a 30°C en solo 30 minutos en invierno. Con compresor rotativo doble GMCC y refrigerante R134A, este aire acondicionado rotativo 12V/24V DC proporciona control climático durante todo el año para camiones, RV, furgonetas y vehículos especiales — sin necesidad de ralentí del motor.",
+      "imageAlt": "Aire acondicionado calefacción/refrigeración V-TH1 — Aire acondicionado rotativo 12V/24V DC modo dual"
+    },
+    "detail": {
+      "addToCart": "Añadir al carrito",
+      "buyNow": "Comprar ahora",
+      "specifications": "Especificaciones",
+      "reviews": "Reseñas de clientes",
+      "faq": "Preguntas frecuentes",
+      "freeShipping": "Envío gratis",
+      "warranty": "Garantía 2 años",
+      "returns": "Devoluciones 30 días",
+      "inStock": "En stock",
+      "outOfStock": "Agotado",
+      "quantity": "Cantidad",
+      "shipping": "Envío",
+      "shippingDesc": "Envío gratis en pedidos superiores a $500 a Estados Unidos continental. Entrega en 3-5 días hábiles.",
+      "warrantyDesc": "Garantía del fabricante de 2 años que cubre defectos de materiales y mano de obra.",
+      "returnsDesc": "Política de devolución fácil de 30 días. Reembolso completo si no está satisfecho.",
+      "techSpecs": "Especificaciones técnicas",
+      "reviewsTitle": "Lo que dicen nuestros clientes",
+      "verifiedPurchase": "Compra verificada",
+      "helpful": "Útil",
+      "writeReview": "Escribir reseña",
+      "loadMore": "Cargar más reseñas",
+      "faqTitle": "Preguntas comunes",
+      "relatedProducts": "También te puede gustar",
+      "viewDetails": "Ver detalles",
+      "gallery": "Galería",
+      "zoom": "Hacer clic para zoom",
+      "share": "Compartir",
+      "save": "Guardar para más tarde"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Por qué elegir CoolDrivePro",
+    "subtitle": "Diseñado para fiabilidad y eficiencia en condiciones exigentes",
+    "mainTitle": "Por qué nuestro aire acondicionado de estacionamiento",
+    "subTitle": "Construido para rendimiento sin ralentí",
+    "learnMore": "Más información sobre",
+    "power": {
+      "badge": "Fuente de energía",
+      "title": "Aire acondicionado de estacionamiento 12V DC alimentado por batería",
+      "description": "Nuestros aires acondicionados de estacionamiento funcionan directamente desde la batería 12V o 24V del vehículo — no de la correa del motor. Este diseño sin ralentí proporciona confort de refrigeración continuo al estacionar, eliminando costos de combustible y desgaste del motor. La protección integrada contra bajo voltaje asegura que su aire acondicionado nunca descargue la batería por debajo de niveles seguros.",
+      "imageAlt": "Camión semirremolque con aire acondicionado 12V — Refrigeración DC sin ralentí"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Eficiencia energética",
+      "title": "Calefacción y refrigeración de alta eficiencia sin ralentí",
+      "description": "Con 12,000 BTU de refrigeración (mini split) y 10,000 BTU de refrigeración / 4,500 BTU de calefacción (montaje en techo), nuestros aires acondicionados de estacionamiento ofrecen potente control climático con COP ≥2.5. La tecnología de compresor rotativo de velocidad variable significa que su aire acondicionado usa solo la energía necesaria — maximizando la duración de la batería.",
+      "imageAlt": "Campamento en montañas — Aire acondicionado eficiente energéticamente"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Instalación fácil",
+      "title": "Instalación simple de aire acondicionado de estacionamiento",
+      "description": "Cada aire acondicionado de estacionamiento se envía con un kit de instalación completo, líneas de refrigerante precargadas y un manual paso a paso. No se requiere certificación HVAC. La mayoría de las instalaciones toman 2–4 horas. Compatible con aberturas de techo RV estándar de 14 pulgadas y soportes de montaje universales para cabinas de camiones.",
+      "imageAlt": "Instalación de aire acondicionado en techo de RV — Instalación DIY fácil"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Protección de batería",
+      "title": "Protección inteligente de batería para aire acondicionado",
+      "description": "Nuestros aires acondicionados de estacionamiento cuentan con protección de seguridad eléctrica multinivel que incluye corte por bajo voltaje (8–11V), protección contra sobrecorriente y apagado térmico. Su batería de vehículo está protegida contra descarga profunda — esencial para arranque confiable del motor después de una noche completa de funcionamiento del aire acondicionado.",
+      "imageAlt": "Cabina de camión semirremolque — Aire acondicionado con protección de batería"
+    },
+    "durability": {
+      "badge": "Durabilidad",
+      "title": "Aire acondicionado construido para climas extremos",
+      "description": "Nuestros aires acondicionados de estacionamiento se prueban rigurosamente desde -28°C hasta +50°C de temperatura ambiente. Ya sea que esté estacionado en una parada de camiones desértica en Arizona o un área de descanso invernal en Minnesota, su aire acondicionado mantiene un rendimiento óptimo. Los componentes clasificados IP54 resisten polvo y humedad.",
+      "imageAlt": "RV en el desierto — Aire acondicionado para calor extremo"
+    },
+    "noise": {
+      "badge": "Operación silenciosa",
+      "title": "Aire acondicionado de estacionamiento ultra silencioso",
+      "description": "Con solo 40 dB, nuestros aires acondicionados de estacionamiento están entre los más silenciosos del mercado. La tecnología de doble ventilador sin escobillas proporciona alto volumen de aire sin ruido — para que pueda dormir cómodamente mientras su aire acondicionado funciona. Ideal para vecindarios residenciales y campamentos con restricciones de ruido.",
+      "imageAlt": "Campamento tranquilo por la noche — Aire acondicionado funcionando silenciosamente"
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Aire Acondicionado de Estacionamiento para Camiones y RV",
+    "defaultDescription": "Aires acondicionados de estacionamiento 12V DC para camiones, RV y vida en furgoneta. Refrigeración eficiente sin ralentí del motor. Compre unidades montadas en techo y mini split.",
+    "homeTitle": "Aire Acondicionado de Estacionamiento para Vida Off-Grid y Confort Móvil | CoolDrivePro",
+    "productsTitle": "Aires Acondicionados 12V - Compre Unidades Montadas en Techo y Mini Split",
+    "contactTitle": "Contáctenos - Soporte CoolDrivePro",
+    "blogTitle": "Blog - Consejos y Guías para Sistemas de AC de Estacionamiento",
+    "forumTitle": "Foro Comunitario - Discusiones sobre AC de Estacionamiento",
+    "aboutTitle": "Sobre Nosotros - CoolDrivePro",
+    "supportTitle": "Soporte - CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Cargando...",
+    "readMore": "Leer más",
+    "viewAll": "Ver todo",
+    "close": "Cerrar",
+    "search": "Buscar",
+    "noResults": "No se encontraron resultados",
+    "comingSoon": "Próximamente",
+    "learnMore": "Más información",
+    "shopNow": "Comprar ahora",
+    "buyNow": "Comprar ahora",
+    "cancel": "Cancelar",
+    "posting": "Publicando...",
+    "model": "Modelo"
   }
 }

@@ -1,198 +1,205 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "home": "होम",
+    "products": "उत्पाद",
+    "topMountedAC": "टॉप-माउंटेड एसी",
+    "miniSplitAC": "मिनी स्प्लिट एसी",
+    "heatingCoolingAC": "हीटिंग और कूलिंग एसी",
+    "allProducts": "सभी उत्पाद",
+    "forum": "फोरम",
+    "blog": "ब्लॉग",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें",
+    "search": "खोजें",
+    "cart": "कार्ट",
+    "account": "खाता",
+    "new": "नया",
+    "admin": "एडमिन",
+    "customer": "ग्राहक",
+    "ticketManagement": "टिकट प्रबंधन",
+    "customerManagement": "ग्राहक प्रबंधन",
+    "supportPortal": "मेरा सपोर्ट पोर्टल",
+    "logout": "लॉगआउट",
+    "login": "लॉगिन",
+    "adminLogout": "एडमिन लॉगआउट",
+    "customerLogout": "ग्राहक लॉगआउट",
+    "mySupportPortal": "मेरा सपोर्ट पोर्टल",
+    "adminPanel": "एडमिन पैनल",
+    "menu": "मेनू",
+    "shoppingCart": "शॉपिंग कार्ट",
+    "brandKnowledge": "ब्रांड नॉलेज",
+    "paymentMethod": "भुगतान का तरीका",
+    "billingTerms": "बिलिंग शर्तें",
+    "trackOrder": "ऑर्डर ट्रैक करें",
+    "supportAvailability": "सपोर्ट उपलब्धता: प्रशांत समय (PT) सुबह 11 बजे - रात 9 बजे, हम 1-12 घंटे के भीतर आपको जवाब देंगे।"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "ऑफ-ग्रिड जीवन और मोबाइल आराम के लिए पार्किंग एयर कंडीशनर",
+    "subtitle": "सेमी ट्रक, RV, वैन और कैंपर के लिए 12V और 24V DC नो-आइडल पार्किंग एसी — बिना आइडलिंग के ठंडक",
+    "ctaPrimary": "उत्पाद खरीदें",
+    "ctaSecondary": "और जानें",
+    "badge": "नई आगमन",
+    "trustedBy": "दुनिया भर में 10,000+ ड्राइवरों द्वारा भरोसा किया जाता है"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "हमारे उत्पाद",
+    "subtitle": "पार्किंग एयर कंडीशनर",
+    "mainTitle": "12V और 24V DC नो-आइडल पार्किंग एसी यूनिट",
+    "description": "सेमी ट्रक, RV, वैन और कैंपर के लिए बैटरी से चलने वाले पार्किंग एयर कंडीशनर। बिना आइडलिंग के ठंडक — ईंधन बचाएं, उत्सर्जन कम करें, आरामदायक रहें।",
+    "viewDetails": "अभी खरीदें",
+    "addToCart": "कार्ट में जोड़ें",
+    "specs": "विशेषताएं",
+    "features": "फीचर्स",
+    "reviews": "ग्राहक समीक्षा",
+    "warranty": "वारंटी",
+    "freeShipping": "मुफ्त शिपिंग",
+    "support": "24/7 सपोर्ट",
+    "learnMore": "और जानें",
+    "cooling": "कूलिंग",
+    "heating": "हीटिंग",
+    "heatingCooling": "हीटिंग और कूलिंग",
+    "specs": {
+      "coolingCapacity": "कूलिंग क्षमता",
+      "heatingCapacity": "हीटिंग क्षमता",
+      "current": "करंट",
+      "powerSupply": "पावर सप्लाई",
+      "noiseLevel": "शोर स्तर",
+      "batteryRuntime": "बैटरी रनटाइम",
+      "flowRate": "फ्लो रेट",
+      "fuelType": "ईंधन प्रकार",
+      "installation": "इंस्टालेशन",
+      "heatingSpeed": "हीटिंग स्पीड",
+      "airOutput": "एयर आउटपुट"
+    },
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "12000 BTU टॉप-माउंटेड पार्किंग एयर कंडीशनर",
+      "subtitle": "RV और ट्रक के लिए 12V/24V DC नो-आइडल एसी",
+      "description": "RV, सेमी ट्रक और वैन के लिए अंतिम R410A ड्यूल रोटरी कंप्रेसर पार्किंग एयर कंडीशनर। यह 12V/24V DC नो-आइडल पार्किंग एसी 12000 BTU कूलिंग प्रदान करता है — इंजन बिना चलाए आपके केबिन या कैंपर को आरामदायक रखता है। अंडरवोल्टेज बैटरी प्रोटेक्शन और 45 dB शांत ऑपरेशन के साथ।",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "80 वर्ग फीट तक ठंडा करता है",
+      "imageAlt": "10000 BTU टॉप-माउंटेड पार्किंग एयर कंडीशनर एक्सप्लोडेड व्यू — RV और ट्रक के लिए 12V/24V DC नो-आइडल एसी"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "12000 BTU मिनी स्प्लिट पार्किंग एयर कंडीशनर",
+      "subtitle": "सेमी ट्रक और RV के लिए 12V DC नो-आइडल एसी",
+      "description": "सेमी ट्रक केबिन, RV और कार्गो वैन के लिए डिज़ाइन किया गया हाई-कैपेसिटी 12V DC मिनी स्प्लिट पार्किंग एयर कंडीशनर। 12000 BTU नो-आइडल कूलिंग पावर के साथ, यह डक्टलेस पार्किंग एसी सीधे आपकी वाहन बैटरी से चलता है — कोई जनरेटर नहीं, कोई शोर पावर नहीं चाहिए।",
+      "btu": "12,000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 घंटे",
+      "coverage": "60 वर्ग फीट तक ठंडा करता है",
+      "imageAlt": "सेमी ट्रक और RV के लिए 12000 BTU मिनी स्प्लिट पार्किंग एयर कंडीशनर — 12V DC नो-आइडल"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "waterHeater": {
+      "title": "RV और ट्रक के लिए 65000 BTU टैंकलेस वॉटर हीटर",
+      "subtitle": "ऑफ-ग्रिड लिविंग के लिए ऑन-डिमांड प्रोपेन हीटर",
+      "description": "RV, सेमी ट्रक और कैंपर के लिए विशेष रूप से डिज़ाइन किए गए इस 65,000 BTU टैंकलेस वॉटर हीटर के साथ अपने ऑफ-ग्रिड कम्फर्ट सिस्टम को पूरा करें। 2.9 GPM इंस्टेंट हॉट वाटर प्रदान करता है — आपके पार्किंग एयर कंडीशनर का परफेक्ट कंपेनियन।",
+      "imageAlt": "RV और सेमी ट्रक के लिए 65000 BTU टैंकलेस वॉटर हीटर — ऑफ-ग्रिड हॉट वाटर"
+    },
+    "heatingCoolingAC": {
+      "title": "V-TH1 हीटिंग और कूलिंग पार्किंग एयर कंडीशनर",
+      "subtitle": "12V/24V DC डुअल-मोड रोटर एसी — ऑल-सीज़न कम्फर्ट",
+      "description": "CoolDrivePro का पहला डुअल-मोड पार्किंग एयर कंडीशनर। V-TH1 गर्मियों में 2000W तक कूलिंग देता है और सर्दियों में 30 मिनट में 5°C से 30°C तक गर्म करता है। GMCC ड्यूल रोटरी कंप्रेसर और R134A रेफ्रिजरेंट के साथ।",
+      "imageAlt": "V-TH1 हीटिंग और कूलिंग पार्किंग एयर कंडीशनर — 12V/24V DC डुअल-मोड रोटर एसी"
+    },
+    "detail": {
+      "addToCart": "कार्ट में जोड़ें",
+      "buyNow": "अभी खरीदें",
+      "specifications": "विशेषताएं",
+      "reviews": "ग्राहक समीक्षा",
+      "faq": "अक्सर पूछे जाने वाले प्रश्न",
+      "freeShipping": "मुफ्त शिपिंग",
+      "warranty": "2 साल की वारंटी",
+      "returns": "30 दिन की वापसी",
+      "inStock": "स्टॉक में",
+      "outOfStock": "स्टॉक खत्म",
+      "quantity": "मात्रा",
+      "shipping": "शिपिंग",
+      "shippingDesc": "$500 से अधिक के ऑर्डर पर मुफ्त शिपिंग। 3-5 व्यावसायिक दिनों में डिलीवरी।",
+      "warrantyDesc": "2 साल की मैन्युफैक्चरर वारंटी।",
+      "returnsDesc": "30 दिन की आसान वापसी नीति।",
+      "techSpecs": "तकनीकी विशेषताएं",
+      "reviewsTitle": "हमारे ग्राहक क्या कहते हैं",
+      "verifiedPurchase": "सत्यापित खरीद",
+      "helpful": "सहायक",
+      "writeReview": "समीक्षा लिखें",
+      "loadMore": "और समीक्षाएं लोड करें",
+      "faqTitle": "सामान्य प्रश्न",
+      "relatedProducts": "आपको यह भी पसंद आ सकता है",
+      "viewDetails": "विवरण देखें",
+      "gallery": "गैलरी",
+      "zoom": "ज़ूम के लिए क्लिक करें",
+      "share": "साझा करें",
+      "save": "बाद के लिए सेव करें"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "CoolDrivePro क्यों चुनें",
+    "subtitle": "कठिन परिस्थितियों में विश्वसनीयता और दक्षता के लिए डिज़ाइन किया गया",
+    "mainTitle": "हमारा पार्किंग एसी क्यों",
+    "subTitle": "नो-आइडल प्रदर्शन के लिए बनाया गया",
+    "learnMore": "के बारे में और जानें",
+    "power": {
+      "badge": "पावर सोर्स",
+      "title": "12V DC बैटरी-संचालित पार्किंग एसी",
+      "description": "हमारे पार्किंग एयर कंडीशनर सीधे आपके वाहन की 12V या 24V बैटरी से चलते हैं — इंजन बेल्ट से नहीं। यह नो-आइडल डिज़ाइन पार्किंग के दौरान लगातार कूलिंग कम्फर्ट देता है, ईंधन की लागत और इंजन के घisाव को खत्म करता है।",
+      "imageAlt": "12V पार्किंग एसी के साथ सेमी ट्रक — नो-आइडल DC पावर्ड कूलिंग"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "ऊर्जा दक्षता",
+      "title": "हाई-एफिशिएंसी नो-आइडल कूलिंग और हीटिंग",
+      "description": "12000 BTU कूलिंग (मिनी स्प्लिट) और 10000 BTU कूलिंग / 4500 BTU हीटिंग (टॉप-माउंटेड) के साथ, हमारे पार्किंग एयर कंडीशनर COP ≥2.5 पर शक्तिशाली क्लाइमेट कंट्रोल देते हैं।",
+      "imageAlt": "पहाड़ों में कैंपिंग — ऊर्जा कुशल पार्किंग एसी"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "आसान इंस्टालेशन",
+      "title": "सरल पार्किंग एसी इंस्टालेशन",
+      "description": "हर पार्किंग एयर कंडीशनर पूरे इंस्टालेशन किट, प्री-चार्ज्ड रेफ्रिजरेंट लाइनों और स्टेप-बाई-स्टेप मैनुअल के साथ आता है। अधिकांश इंस्टालेशन 2-4 घंटे लेते हैं।",
+      "imageAlt": "RV छत पर पार्किंग एसी इंस्टाल करना — आसान DIY इंस्टालेशन"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "बैटरी प्रोटेक्शन",
+      "title": "स्मार्ट बैटरी प्रोटेक्शन फॉर पार्किंग एसी",
+      "description": "हमारे पार्किंग एयर कंडीशनर में मल्टी-लेवल इलेक्ट्रिकल सेफ्टी प्रोटेक्शन है, जिसमें अंडरवोल्टेज कटऑफ (8-11V), ओवरकरंट प्रोटेक्शन और थर्मल शटडाउन शामिल है।",
+      "imageAlt": "सेमी ट्रक केबिन — बैटरी प्रोटेक्शन के साथ पार्किंग एसी"
+    },
+    "durability": {
+      "badge": "ड्यूरेबिलिटी",
+      "title": "एक्सट्रीम क्लाइमेट के लिए बना पार्किंग एसी",
+      "description": "हमारे पार्किंग एयर कंडीशनर को -28°C से +50°C तक के तापमान में कड़ी टेस्टिंग से गुजरना पड़ता है। IP54-रेटेड कंपोनेंट्स धूल और नमी का सामना करते हैं।",
+      "imageAlt": "रेगिस्तान में RV — एक्सट्रीम गर्मी के लिए पार्किंग एसी"
+    },
+    "noise": {
+      "badge": "शांत ऑपरेशन",
+      "title": "विस्पर-क्वाइट पार्किंग एयर कंडीशनर",
+      "description": "केवल 40 dB पर, हमारे पार्किंग एयर कंडीशनर बाजार में सबसे शांत में से हैं। ब्रशलेस ड्यूल-फैन तकनीक बिना शोर के हाई एयर वॉल्यूम देती है।",
+      "imageAlt": "रात में शांत कैंपसाइट — शांति से काम करता हुआ पार्किंग एसी"
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - 12V पार्किंग एयर कंडीशनर ट्रकों और RV के लिए",
+    "defaultDescription": "सेमी ट्रक, RV, वैन और कैंपर के लिए 12V DC नो-आइडल पार्किंग एयर कंडीशनर। ईंधत बचाएं, उत्सर्जन कम करें, लगातार ठंडक।",
+    "homeTitle": "ऑफ-ग्रिड जीवन और मोबाइल आराम के लिए पार्किंग एयर कंडीशनर",
+    "productsTitle": "हमारे उत्पाद - 12V और 24V DC पार्किंग एयर कंडीशनर",
+    "contactTitle": "संपर्क करें - CoolDrivePro सहायता",
+    "blogTitle": "ब्लॉग - पार्किंग एयर कंडीशनर के लिए टिप्स और समाचार",
+    "forumTitle": "फोरम - CoolDrivePro समुदाय",
+    "aboutTitle": "हमारे बारे में - CoolDrivePro",
+    "supportTitle": "सहायता - CoolDrivePro सहायता केंद्र"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "लोड हो रहा है...",
+    "readMore": "और पढ़ें",
+    "viewAll": "सभी देखें",
+    "close": "बंद करें",
+    "search": "खोजें",
+    "noResults": "कोई परिणाम नहीं मिला",
+    "comingSoon": "जल्द ही आ रहा है",
+    "learnMore": "और जानें",
+    "shopNow": "अभी खरीदें",
+    "buyNow": "अभी खरीदें",
+    "cancel": "रद्द करें",
+    "posting": "पोस्ट कर रहा है...",
+    "model": "मॉडल"
   }
 }

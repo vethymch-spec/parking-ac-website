@@ -1,198 +1,396 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "home": "Accueil",
+    "products": "Produits",
+    "topMountedAC": "Climatisation de toit",
+    "miniSplitAC": "Climatisation mini-split",
+    "heatingCoolingAC": "Climatisation chaud/froid",
+    "allProducts": "Tous les produits",
     "forum": "Forum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
+    "about": "À propos",
+    "contact": "Contact",
+    "search": "Rechercher",
+    "cart": "Panier",
+    "account": "Compte",
+    "new": "NOUVEAU",
     "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "customer": "Client",
+    "ticketManagement": "Gestion des tickets",
+    "customerManagement": "Gestion des clients",
+    "supportPortal": "Mon portail support",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "adminLogout": "Déconnexion admin",
+    "customerLogout": "Déconnexion client",
+    "mySupportPortal": "Mon portail support",
+    "adminPanel": "Panneau admin",
+    "menu": "Menu",
+    "shoppingCart": "Panier",
+    "brandKnowledge": "Connaissance de la marque",
+    "paymentMethod": "Méthode de paiement",
+    "billingTerms": "Conditions de facturation",
+    "trackOrder": "Suivi de commande",
+    "supportAvailability": "Disponibilité du support : 11h-21h heure du Pacifique (PT), nous vous répondrons dans les 1-12 heures."
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Climatisation de stationnement pour vie hors réseau et confort mobile",
+    "subtitle": "Climatisation 12V et 24V DC sans ralenti pour camions semi-remorques, VR, fourgons et camping-cars — Refroidissement sans ralenti",
+    "ctaPrimary": "Acheter des produits",
+    "ctaSecondary": "En savoir plus",
+    "badge": "Nouvelle arrivée",
+    "trustedBy": "Fait confiance par plus de 10 000 conducteurs dans le monde"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Nos produits",
+    "subtitle": "Climatisation de stationnement",
+    "mainTitle": "Unités de climatisation 12V et 24V DC sans ralenti",
+    "description": "Climatisation de stationnement alimentée par batterie pour camions semi-remorques, VR, fourgons et camping-cars. Refroidissement sans ralenti — Économisez du carburant, réduisez les émissions, restez confortable.",
+    "viewDetails": "Acheter maintenant",
+    "addToCart": "Ajouter au panier",
+    "specs": "Spécifications",
+    "features": "Caractéristiques",
+    "reviews": "Avis clients",
+    "warranty": "Garantie",
+    "freeShipping": "Livraison gratuite",
+    "support": "Support 24/7",
+    "learnMore": "En savoir plus",
+    "cooling": "Refroidissement",
+    "heating": "Chauffage",
+    "heatingCooling": "Chaud et froid",
+    "specs": {
+      "coolingCapacity": "Capacité de refroidissement",
+      "heatingCapacity": "Capacité de chauffage",
+      "current": "Courant",
+      "powerSupply": "Alimentation",
+      "noiseLevel": "Niveau sonore",
+      "batteryRuntime": "Autonomie batterie",
+      "flowRate": "Débit",
+      "fuelType": "Type de carburant",
+      "installation": "Installation",
+      "heatingSpeed": "Vitesse de chauffage",
+      "airOutput": "Débit d'air"
+    },
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Climatisation de toit 12000 BTU",
+      "subtitle": "Climatisation 12V/24V DC sans ralenti pour VR et camions",
+      "description": "L'ultime climatisation de stationnement à compresseur rotatif double R410A pour VR, camions semi-remorques et fourgons. Cette climatisation 12V/24V DC sans ralenti offre 12000 BTU de capacité de refroidissement — maintient votre cabine ou camping-car confortable sans faire tourner le moteur. Avec protection de batterie sous-tension et fonctionnement silencieux à 45 dB.",
+      "btu": "12 000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Refroidit jusqu'à 80 pieds carrés",
+      "imageAlt": "Vue éclatée climatisation de toit 10000 BTU — Climatisation 12V/24V DC sans ralenti pour VR et camions"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Climatisation mini-split 12000 BTU",
+      "subtitle": "Climatisation 12V DC sans ralenti pour camions semi-remorques et VR",
+      "description": "Climatisation mini-split 12V DC haute capacité pour cabines de camions semi-remorques, VR et fourgons. Avec 12000 BTU de puissance de refroidissement sans ralenti, cette climatisation sans conduit fonctionne directement sur la batterie du véhicule — pas de générateur, pas de branchement électrique nécessaire. Installation horizontale sur toit adaptée à la plupart des camions et camping-cars.",
+      "btu": "12 000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 heures",
+      "coverage": "Refroidit jusqu'à 60 pieds carrés",
+      "imageAlt": "Climatisation mini-split 12000 BTU pour camions semi-remorques et VR — 12V DC sans ralenti"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "waterHeater": {
+      "title": "Chauffe-eau instantané 65000 BTU pour VR et camions",
+      "subtitle": "Chauffe-eau instantané au propane pour vie hors réseau",
+      "description": "Complétez votre système de confort hors réseau avec ce chauffe-eau instantané 65 000 BTU, spécialement conçu pour les VR, camions semi-remorques et camping-cars. Fournit 2,9 GPM d'eau chaude instantanée — le compagnon parfait de votre climatisation de stationnement pour un confort toute l'année sur la route.",
+      "imageAlt": "Chauffe-eau instantané 65000 BTU pour VR et camions semi-remorques — Eau chaude hors réseau"
+    },
+    "heatingCoolingAC": {
+      "title": "Climatisation chaud/froid V-TH1",
+      "subtitle": "Climatisation rotative 12V/24V DC double mode — Confort toute l'année",
+      "description": "La première climatisation de stationnement double mode de CoolDrivePro. La V-TH1 offre jusqu'à 2 000W de refroidissement en été et chauffe votre cabine de 5°C à 30°C en seulement 30 minutes en hiver. Avec compresseur rotatif double GMCC et réfrigérant R134A, cette climatisation rotative 12V/24V DC offre un contrôle climatique toute l'année pour camions, VR, fourgons et véhicules spéciaux — sans ralenti du moteur.",
+      "imageAlt": "Climatisation chaud/froid V-TH1 — Climatisation rotative 12V/24V DC double mode"
+    },
+    "detail": {
+      "addToCart": "Ajouter au panier",
+      "buyNow": "Acheter maintenant",
+      "specifications": "Spécifications",
+      "reviews": "Avis clients",
+      "faq": "Questions fréquentes",
+      "freeShipping": "Livraison gratuite",
+      "warranty": "Garantie 2 ans",
+      "returns": "Retours 30 jours",
+      "inStock": "En stock",
+      "outOfStock": "Rupture de stock",
+      "quantity": "Quantité",
+      "shipping": "Expédition",
+      "shippingDesc": "Livraison gratuite pour les commandes de plus de 500 $ aux États-Unis continentaux. Livraison en 3-5 jours ouvrables.",
+      "warrantyDesc": "Garantie constructeur de 2 ans couvrant les défauts de matériaux et de fabrication.",
+      "returnsDesc": "Politique de retour facile de 30 jours. Remboursement complet si insatisfait.",
+      "techSpecs": "Spécifications techniques",
+      "reviewsTitle": "Ce que disent nos clients",
+      "verifiedPurchase": "Achat vérifié",
+      "helpful": "Utile",
+      "writeReview": "Écrire un avis",
+      "loadMore": "Charger plus d'avis",
+      "faqTitle": "Questions courantes",
+      "relatedProducts": "Vous aimerez peut-être aussi",
+      "viewDetails": "Voir les détails",
+      "gallery": "Galerie",
+      "zoom": "Cliquer pour zoomer",
+      "share": "Partager",
+      "save": "Sauvegarder pour plus tard"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Pourquoi choisir CoolDrivePro",
+    "subtitle": "Conçu pour la fiabilité et l'efficacité dans des conditions exigeantes",
+    "mainTitle": "Pourquoi notre climatisation de stationnement",
+    "subTitle": "Conçue pour des performances sans ralenti",
+    "learnMore": "En savoir plus sur",
+    "power": {
+      "badge": "Source d'alimentation",
+      "title": "Climatisation de stationnement 12V DC alimentée par batterie",
+      "description": "Nos climatisations de stationnement fonctionnent directement sur la batterie 12V ou 24V du véhicule — pas sur la courroie du moteur. Cette conception sans ralenti offre un confort de refroidissement continu à l'arrêt, éliminant les coûts de carburant et l'usure du moteur. La protection intégrée contre les sous-tensions garantit que votre climatisation ne décharge jamais la batterie sous des niveaux sûrs.",
+      "imageAlt": "Camion semi-remorque avec climatisation 12V — Refroidissement DC sans ralenti"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Efficacité énergétique",
+      "title": "Refroidissement et chauffage sans ralenti haute efficacité",
+      "description": "Avec 12 000 BTU de refroidissement (mini-split) et 10 000 BTU de refroidissement / 4 500 BTU de chauffage (montage sur toit), nos climatisations de stationnement offrent un contrôle climatique puissant avec un COP ≥2,5. La technologie de compresseur rotatif à vitesse variable signifie que votre climatisation utilise uniquement l'énergie nécessaire — maximisant l'autonomie de la batterie.",
+      "imageAlt": "Camping en montagne — Climatisation économe en énergie"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Installation facile",
+      "title": "Installation simple de la climatisation de stationnement",
+      "description": "Chaque climatisation de stationnement est livrée avec un kit d'installation complet, des lignes de réfrigérant préchargées et un manuel étape par étape. Aucune certification HVAC requise. La plupart des installations prennent 2 à 4 heures. Compatible avec les ouvertures de toit VR standard de 14 pouces et les supports de montage universels pour cabines de camions.",
+      "imageAlt": "Installation de climatisation sur toit de VR — Installation DIY facile"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Protection batterie",
+      "title": "Protection intelligente de la batterie pour climatisation",
+      "description": "Nos climatisations de stationnement disposent d'une protection électrique de sécurité multiniveau incluant une coupure de sous-tension (8–11V), une protection contre les surintensités et un arrêt thermique. Votre batterie de véhicule est protégée contre la décharge profonde — essentiel pour un démarrage fiable du moteur après une nuit complète de fonctionnement de la climatisation.",
+      "imageAlt": "Cabine de camion semi-remorque — Climatisation avec protection batterie"
+    },
+    "durability": {
+      "badge": "Durabilité",
+      "title": "Climatisation conçue pour les climats extrêmes",
+      "description": "Nos climatisations de stationnement sont rigoureusement testées de -28°C à +50°C de température ambiante. Que vous stationniez dans une aire de camions désertique en Arizona ou une aire de repos hivernale au Minnesota, votre climatisation maintient des performances optimales. Les composants certifiés IP54 résistent à la poussière et à l'humidité.",
+      "imageAlt": "VR dans le désert — Climatisation pour chaleur extrême"
+    },
+    "noise": {
+      "badge": "Fonctionnement silencieux",
+      "title": "Climatisation de stationnement ultra-silencieuse",
+      "description": "Avec seulement 40 dB, nos climatisations de stationnement sont parmi les plus silencieuses du marché. La technologie de double ventilateur sans balais fournit un grand volume d'air sans bruit — pour que vous puissiez dormir confortablement pendant que votre climatisation fonctionne. Idéale pour les quartiers résidentiels et les terrains de camping avec restrictions de bruit.",
+      "imageAlt": "Camping paisible la nuit — Climatisation fonctionnant silencieusement"
     }
   },
   "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
+    "title": "Parfait pour",
+    "subtitle": "Fait confiance par des conducteurs de plusieurs industries",
+    "semiTrucks": "Camions semi-remorques",
+    "rvs": "VR et camping-cars",
+    "vans": "Fourgons aménagés",
+    "construction": "Véhicules de construction",
+    "sectionLabel": "Applications de climatisation de stationnement",
+    "applications": "Applications",
+    "mainTitle": "Climatisation de stationnement pour chaque véhicule",
+    "semiTrucksKeyword": "Climatisation de stationnement pour camions",
+    "semiTrucksDesc": "Conçue pour les cabines de camions semi-remorques de classe 8. Notre climatisation 12V/24V maintient les conducteurs au frais pendant les périodes de repos obligatoires — aucun ralenti nécessaire. Conforme aux réglementations anti-ralenti dans les 50 états américains.",
+    "rvsKeyword": "Climatisation de stationnement pour VR",
+    "rvsDesc": "Refroidissement hors réseau pour camping-cars de classe A, B et C, caravanes et fifth wheels. Faites fonctionner votre climatisation directement depuis votre parc de batteries au lithium ou système solaire — pas de branchement électrique nécessaire.",
+    "vansKeyword": "Climatisation de stationnement pour fourgons",
+    "vansDesc": "Unités de climatisation compactes 12V parfaites pour des conversions de fourgons de marchandises, fourgons Sprinter et camping-cars. Le design bas de profil s'adapte aux hauteurs de toit standard sans modification.",
+    "noIdle": "Système de refroidissement sans ralenti",
+    "noIdleKeyword": "Climatisation sans ralenti",
+    "noIdleDesc": "Remplacez le ralenti coûteux du moteur par une climatisation sans ralenti alimentée par batterie. Économisez jusqu'à 8 à 12 $ par heure de carburant. Réduisez l'usure du moteur et diminuez les émissions de carbone dans les aires de camions et de repos.",
+    "solar": "Climatisation solaire de stationnement",
+    "solarKeyword": "Climatisation solaire de stationnement",
+    "solarDesc": "Associez notre climatisation 12V avec des panneaux solaires sur toit pour un refroidissement vraiment gratuit. La compatibilité solaire DC direct signifie que votre climatisation peut fonctionner continuellement pendant les heures de jour.",
+    "apu": "Alternative APU",
+    "apuKeyword": "Refroidisseur de stationnement électrique APU",
+    "apuDesc": "Une alternative rentable aux systèmes APU (unité de puissance auxiliaire) diesel. Notre climatisation électrique de stationnement offre un refroidissement équivalent à une fraction des coûts d'installation et d'exploitation."
   },
   "shopWithUs": {
-    "title": "Shop With Confidence",
+    "title": "Achetez en confiance",
     "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
+      "title": "Garantie 2 ans",
+      "description": "Couverture complète de toutes les pièces et main-d'œuvre"
     },
     "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
+      "title": "Retours 30 jours",
+      "description": "Retour facile sans questions si insatisfait"
     },
     "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
+      "title": "Livraison gratuite",
+      "description": "Gratuite pour les commandes de plus de 500 $ aux États-Unis"
+    }
+  },
+  "blog": {
+    "title": "Articles récents",
+    "subtitle": "Conseils, guides et actualités de l'industrie",
+    "readMore": "Lire la suite",
+    "categories": "Catégories",
+    "publishedOn": "Publié le",
+    "viewAll": "Voir les {{count}} articles",
+    "browseAll": "Parcourir les {{count}} articles sur la climatisation de stationnement",
+    "knowledgeBase": "Base de connaissances sur la climatisation de stationnement",
+    "latestGuides": "Derniers guides et articles",
+    "searchPlaceholder": "Rechercher des articles...",
+    "articlesFound": "{{count}} article trouvé",
+    "articlesFoundPlural": "{{count}} articles trouvés",
+    "inCategory": "Dans la catégorie {{category}}",
+    "forSearch": "Recherche de \"{{query}}\"",
+    "noArticlesFound": "Aucun article trouvé",
+    "tryDifferent": "Essayez un autre terme de recherche ou une autre catégorie.",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "pageTitle": "Blog et guides sur la climatisation de stationnement",
+    "pageSubtitle": "Guides d'experts, comparaisons et conseils sur les climatisations 12V/24V DC sans ralenti pour conducteurs de camions, propriétaires de VR et vanlifers.",
+    "post": {
+      "notFound": "Article non trouvé",
+      "backToBlog": "← Retour au blog",
+      "readyToExperience": "Prêt à découvrir le refroidissement sans ralenti ?",
+      "exploreOur": "Découvrez nos climatisations 12V/24V — Livraison gratuite pour toutes les commandes aux États-Unis.",
+      "shopTopMounted": "Acheter la climatisation VS02 PRO de toit",
+      "shopMiniSplit": "Acheter la climatisation VX3000SP mini-split"
+    }
+  },
+  "forum": {
+    "title": "Forum communautaire",
+    "subtitle": "Connectez-vous avec d'autres propriétaires de climatisation",
+    "newPost": "Nouveau message",
+    "topics": "Sujets",
+    "replies": "Réponses",
+    "views": "Vues",
+    "lastPost": "Dernier message",
+    "community": "Communauté",
+    "discussions": "Discussions",
+    "heroTitle": "Forum communautaire sur la climatisation de stationnement",
+    "heroSubtitle": "Partagez des expériences, posez des questions et connectez-vous avec des conducteurs de camions et des propriétaires de VR du monde entier.",
+    "startDiscussion": "Démarrer une discussion",
+    "signInToPost": "Connectez-vous pour publier",
+    "searchPlaceholder": "Rechercher des discussions...",
+    "categories": "Catégories",
+    "allDiscussions": "Toutes les discussions",
+    "quickLinks": "Liens rapides",
+    "threads": "Fil de discussion",
+    "justNow": "À l'instant",
+    "minutesAgo": "Il y a {{count}} minutes",
+    "hoursAgo": "Il y a {{count}} heures",
+    "daysAgo": "Il y a {{count}} jours",
+    "post": {
+      "backToForum": "← Retour au forum",
+      "reply": "Répondre",
+      "writeReply": "Écrire une réponse...",
+      "submitReply": "Soumettre la réponse",
+      "loginToReply": "Connectez-vous pour répondre",
+      "likes": "J'aime",
+      "share": "Partager",
+      "report": "Signaler",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce message ?"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
+    "title": "Contact",
+    "subtitle": "Nous sommes là pour vous aider",
+    "getInTouch": "Contactez-nous",
     "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "E-mail",
+      "emailPlaceholder": "Votre adresse e-mail",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sujet du message",
       "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
+      "messagePlaceholder": "Que souhaitez-vous nous dire...",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Merci de nous avoir contactés ! Nous vous répondrons bientôt.",
+      "error": "Erreur lors de l'envoi du message. Veuillez réessayer plus tard."
+    },
+    "info": {
+      "title": "Informations de contact",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "hours": "Heures de service",
+      "hoursValue": "Lun-Ven : 9h-18h (heure du Pacifique)",
+      "location": "Emplacement",
+      "locationValue": "Los Angeles, Californie"
     },
     "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
+      "title": "Support par e-mail",
+      "description": "Pour les questions générales, envoyez un e-mail à"
     },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
+    "technicalSupport": {
+      "title": "Support technique",
+      "description": "Pour les questions sur les produits, contactez"
     },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
+    "sales": {
+      "title": "Demandes de vente",
+      "description": "Pour les demandes de vente en gros et de concessionnaires, contactez"
+    },
+    "warranty": {
+      "title": "Service de garantie",
+      "description": "Pour les questions de garantie, contactez"
     }
   },
   "footer": {
-    "products": "Products",
+    "company": "Entreprise",
     "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
     "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
+      "title": "Abonnez-vous aux offres",
+      "description": "Recevez les dernières mises à jour produits et offres exclusives",
+      "placeholder": "Entrez votre adresse e-mail",
+      "subscribe": "S'abonner",
+      "success": "Merci de votre abonnement !"
     },
-    "rights": "All rights reserved.",
-    "language": "Language"
+    "rights": "Tous droits réservés.",
+    "warranty": "Garantie",
+    "returns": "Politique de retour",
+    "shipping": "Politique d'expédition",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
   },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
+  "about": {
+    "ourStory": "Notre histoire",
+    "heroTitle": "Redéfinir le confort hors réseau",
+    "heroDesc": "Depuis 2015, CoolDrivePro est à la pointe de l'innovation en climatisation de stationnement pour conducteurs de camions, passionnés de VR et aventuriers.",
+    "whyStarted": "Pourquoi nous avons commencé",
+    "story1": "CoolDrivePro a commencé avec une question simple : Pourquoi les conducteurs de camions et les propriétaires de VR doivent-ils supporter la chaleur ou gaspiller du carburant au ralenti lorsqu'ils sont garés ?",
+    "story2": "Notre fondateur Tomas Wang, un vétéran avec 20 ans d'expérience de conduite de camions, a vécu personnellement les défis du stationnement de 8 heures par jour.",
+    "story3": "En 2015, nous avons lancé notre première climatisation de stationnement, changeant complètement le confort sur la route. Aujourd'hui, nous servons plus de 10 000 conducteurs dans le monde.",
+    "coreValues": "Valeurs fondamentales",
+    "readyToStop": "Prêt à arrêter le ralenti ?",
+    "joinDrivers": "Rejoignez plus de 10 000 conducteurs dans le monde qui sont passés aux climatisations CoolDrivePro.",
+    "shopTop": "Acheter une climatisation de toit",
+    "shopMini": "Acheter une climatisation mini-split"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
+    "homeTitle": "Climatisation de stationnement | Climatisation 12V et 24V DC sans ralenti pour camions et VR | CoolDrivePro",
+    "homeDescription": "Achetez des climatisations de stationnement professionnelles. Unités 12V et 24V DC sans ralenti pour camions semi-remorques, VR et fourgons. Refroidissement sans ralenti — Économisez du carburant, réduisez les émissions.",
+    "productsTitle": "Produits de climatisation de stationnement | Unités 12V et 24V DC",
+    "productsDescription": "Découvrez notre gamme de climatisations de stationnement. Climatisations 12V et 24V DC sans ralenti de toit et mini-split pour camions, VR et camping-cars.",
+    "blogTitle": "Blog sur la climatisation de stationnement | Conseils, guides et avis",
+    "blogDescription": "Apprenez-en plus sur les climatisations de stationnement. Guides d'experts, avis produits et conseils pour les climatisations 12V et 24V DC sans ralenti pour camions et VR.",
+    "forumTitle": "Forum sur la climatisation de stationnement | Discussions communautaires et support",
+    "forumDescription": "Rejoignez notre forum communautaire sur la climatisation de stationnement. Connectez-vous avec d'autres conducteurs de camions et propriétaires de VR, partagez des conseils, échangez des expériences et trouvez des réponses.",
+    "contactTitle": "Contact | Support CoolDrivePro",
+    "contactDescription": "Des questions sur la climatisation de stationnement ? Contactez l'équipe de support CoolDrivePro. Nous aidons avec les climatisations 12V et 24V DC sans ralenti."
   },
   "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "404": "Page non trouvée",
+    "404Desc": "Désolé, la page que vous recherchez n'existe pas.",
+    "goHome": "Retour à l'accueil",
+    "generic": "Une erreur s'est produite",
+    "tryAgain": "Veuillez réessayer plus tard"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Chargement...",
+    "readMore": "Lire la suite",
+    "viewAll": "Tout voir",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "noResults": "Aucun résultat trouvé",
+    "comingSoon": "Bientôt disponible",
+    "learnMore": "En savoir plus",
+    "shopNow": "Acheter maintenant",
+    "buyNow": "Acheter maintenant",
+    "cancel": "Annuler",
+    "posting": "Publication...",
+    "model": "Modèle"
   }
 }

@@ -1,198 +1,396 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "home": "首頁",
+    "products": "產品",
+    "topMountedAC": "頂置式空調",
+    "miniSplitAC": "迷你分體式空調",
+    "heatingCoolingAC": "冷暖空調",
+    "allProducts": "全部產品",
+    "forum": "論壇",
+    "blog": "部落格",
+    "about": "關於我們",
+    "contact": "聯絡我們",
+    "search": "搜尋",
+    "cart": "購物車",
+    "account": "帳戶",
+    "new": "新品",
+    "admin": "管理員",
+    "customer": "客戶",
+    "ticketManagement": "工單管理",
+    "customerManagement": "客戶管理",
+    "supportPortal": "我的支援中心",
+    "logout": "登出",
+    "login": "登入",
+    "adminLogout": "管理員登出",
+    "customerLogout": "客戶登出",
+    "mySupportPortal": "我的支援中心",
+    "adminPanel": "管理後台",
+    "menu": "選單",
+    "shoppingCart": "購物車",
+    "brandKnowledge": "品牌知識",
+    "paymentMethod": "付款方式",
+    "billingTerms": "帳單條款",
+    "trackOrder": "追蹤訂單",
+    "supportAvailability": "支援時間：太平洋時間上午11點-晚上9點，我們將在1-12小時內回覆您。"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "離網生活與行動舒適的駐車空調",
+    "subtitle": "12V與24V直流無怠速駐車空調，適用於半掛卡車、房車、廂式貨車與露營車——無需怠速即可涼爽",
+    "ctaPrimary": "選購產品",
+    "ctaSecondary": "了解更多",
+    "badge": "新品上市",
+    "trustedBy": "深受全球10,000+車主信賴"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "我們的產品",
+    "subtitle": "駐車空調",
+    "mainTitle": "12V與24V直流無怠速駐車空調機組",
+    "description": "電池供電的駐車空調，適用於半掛卡車、房車、廂式貨車與露營車。無需怠速即可涼爽——節省燃料、減少排放、保持舒適。",
+    "viewDetails": "立即選購",
+    "addToCart": "加入購物車",
+    "specs": "規格參數",
+    "features": "產品特色",
+    "reviews": "客戶評價",
+    "warranty": "保固",
+    "freeShipping": "免運費",
+    "support": "24/7支援",
+    "learnMore": "了解更多",
+    "cooling": "製冷",
+    "heating": "製熱",
+    "heatingCooling": "冷暖雙效",
+    "specs": {
+      "coolingCapacity": "製冷能力",
+      "heatingCapacity": "製熱能力",
+      "current": "電流",
+      "powerSupply": "電源",
+      "noiseLevel": "噪音等級",
+      "batteryRuntime": "電池續航",
+      "flowRate": "流量",
+      "fuelType": "燃料類型",
+      "installation": "安裝方式",
+      "heatingSpeed": "製熱速度",
+      "airOutput": "風量"
+    },
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "12000 BTU頂置式駐車空調",
+      "subtitle": "12V/24V直流無怠速房車與卡車空調",
+      "description": "專為房車、半掛卡車和廂式貨車設計的終極R410A雙轉子壓縮機駐車空調。這款12V/24V直流無怠速駐車空調提供12000 BTU製冷能力——無需啟動發動機即可保持駕駛室或露營車舒適。具備欠壓電池保護和45分貝超靜音運轉。",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V 直流",
+      "coverage": "製冷面積達80平方英尺",
+      "imageAlt": "10000 BTU頂置式駐車空調分解圖——12V/24V直流無怠速房車卡車空調"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
-      "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "title": "12000 BTU迷你分體式駐車空調",
+      "subtitle": "半掛卡車與房車用12V直流無怠速空調",
+      "description": "專為半掛卡車駕駛室、房車和貨運廂式貨車設計的大容量12V直流迷你分體式駐車空調。擁有12000 BTU無怠速製冷能力，這款無管駐車空調直接從車載電池運行——無需發電機，無需岸電。水平屋頂安裝適用於大多數卡車和露營車。",
+      "btu": "12,000 BTU",
+      "voltage": "12V 直流",
+      "runtime": "8–10小時",
+      "coverage": "製冷面積達60平方英尺",
+      "imageAlt": "半掛卡車和房車用12000 BTU迷你分體式駐車空調——12V直流無怠速"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "waterHeater": {
+      "title": "房車與卡車用65000 BTU即熱式熱水器",
+      "subtitle": "離網生活用丙烷即熱式加熱器",
+      "description": "用這款專為房車、半掛卡車和露營車設計的65,000 BTU即熱式熱水器完善您的離網舒適系統。提供2.9 GPM即時熱水——是您駐車空調全年道路舒適的完美夥伴。",
+      "imageAlt": "房車和半掛卡車用65000 BTU即熱式熱水器——離網熱水"
+    },
+    "heatingCoolingAC": {
+      "title": "V-TH1冷暖駐車空調",
+      "subtitle": "12V/24V直流雙模式轉子空調——全年舒適",
+      "description": "CoolDrivePro首款雙模式駐車空調。V-TH1夏季提供高達2,000W製冷，冬季可在30分鐘內將駕駛室從5°C加熱到30°C。採用GMCC雙轉子壓縮機和R134A冷媒，這款12V/24V直流转子空調為卡車、房車、廂式貨車和特種車輛提供全年氣候控制——無需發動機怠速。",
+      "imageAlt": "V-TH1冷暖駐車空調——12V/24V直流雙模式轉子空調"
+    },
+    "detail": {
+      "addToCart": "加入購物車",
+      "buyNow": "立即購買",
+      "specifications": "規格參數",
+      "reviews": "客戶評價",
+      "faq": "常見問題",
+      "freeShipping": "免運費",
+      "warranty": "2年保固",
+      "returns": "30天退換",
+      "inStock": "現貨",
+      "outOfStock": "缺貨",
+      "quantity": "數量",
+      "shipping": "配送",
+      "shippingDesc": "美國本土訂單滿500美元免運費。3-5個工作日送達。",
+      "warrantyDesc": "2年製造商保固，涵蓋材料和工藝缺陷。",
+      "returnsDesc": "30天輕鬆退換政策。不滿意全額退款。",
+      "techSpecs": "技術規格",
+      "reviewsTitle": "客戶怎麼說",
+      "verifiedPurchase": "已驗證購買",
+      "helpful": "有用",
+      "writeReview": "撰寫評價",
+      "loadMore": "載入更多評價",
+      "faqTitle": "常見問題",
+      "relatedProducts": "您可能也喜歡",
+      "viewDetails": "查看詳情",
+      "gallery": "圖片庫",
+      "zoom": "點擊放大",
+      "share": "分享",
+      "save": "稍後儲存"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "為何選擇CoolDrivePro",
+    "subtitle": "為嚴苛環境打造的可靠高效產品",
+    "mainTitle": "我們的駐車空調特色",
+    "subTitle": "專為無怠速性能打造",
+    "learnMore": "了解更多關於",
+    "power": {
+      "badge": "電源",
+      "title": "12V直流電池供電駐車空調",
+      "description": "我們的駐車空調直接從車輛的12V或24V電池運行——不通過發動機皮帶。這種無怠速設計在停車時提供連續製冷舒適，消除燃料成本和發動機磨損。內建欠壓保護確保您的駐車空調不會將電池放電至安全水平以下。",
+      "imageAlt": "配備12V駐車空調的半掛卡車——無怠速直流供電冷卻"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "能源效率",
+      "title": "高效無怠速冷暖空調",
+      "description": "迷你分體式提供12,000 BTU製冷，頂置式提供10,000 BTU製冷/4,500 BTU製熱，我們的駐車空調在COP≥2.5的情況下提供強大的氣候控制。變速直流渦旋壓縮機技術意味著您的駐車空調只使用所需能量——最大化電池續航時間。",
+      "imageAlt": "山地露營——節能駐車空調"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "簡易安裝",
+      "title": "簡單駐車空調安裝",
+      "description": "每台駐車空調都配有完整的安裝套件、預充冷媒管路和分步手冊。無需HVAC認證。大多數安裝只需2-4小時。兼容標準14英吋房車屋頂開口和通用卡車駕駛室安裝支架。",
+      "imageAlt": "在房車屋頂安裝駐車空調——簡易DIY安裝"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "電池保護",
+      "title": "駐車空調智能電池保護",
+      "description": "我們的駐車空調具有多級電氣安全保護，包括欠壓切斷（8-11V）、過流保護和熱關斷。您的車輛電池受到保護，不會深度放電——這對整夜運行駐車空調後可靠啟動發動機至關重要。",
+      "imageAlt": "半掛卡車駕駛室——帶電池保護的駐車空調"
+    },
+    "durability": {
+      "badge": "耐用性",
+      "title": "為極端氣候打造的駐車空調",
+      "description": "我們的駐車空調經過嚴格測試，可在-28°C至+50°C的環境溫度下運行。無論您是在亞利桑那州的沙漠卡車停靠站還是在明尼蘇達州的冬季休息區停車，您的駐車空調都能保持最佳性能。IP54級組件可防塵防潮。",
+      "imageAlt": "沙漠中的房車——適用於極端高溫的駐車空調"
+    },
+    "noise": {
+      "badge": "靜音運轉",
+      "title": "超靜音駐車空調",
+      "description": "僅40分貝，我們的駐車空調是市場上最安靜的產品之一。無刷雙風扇技術提供大風量且無噪音——讓您在駐車空調運行時舒適入睡。非常適合住宅區和有噪音限制的露營地。",
+      "imageAlt": "夜晚的寧靜營地——靜音運轉的駐車空調"
     }
   },
   "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
+    "title": "適用於",
+    "subtitle": "深受多個行業車主信賴",
+    "semiTrucks": "半掛卡車",
+    "rvs": "房車與旅居車",
+    "vans": "露營車",
+    "construction": "工程車輛",
+    "sectionLabel": "駐車空調應用場景",
+    "applications": "應用場景",
+    "mainTitle": "適用於各種車輛的駐車空調",
+    "semiTrucksKeyword": "卡車駐車空調",
+    "semiTrucksDesc": "專為8級半掛卡車駕駛室設計。我們的12V/24V駐車空調在強制休息期間為司機提供涼爽——無需怠速。符合美國所有50個州的反怠速法規。",
+    "rvsKeyword": "房車駐車空調",
+    "rvsDesc": "為A級、B級和C級房車、旅行拖車和五輪房車提供離網製冷。直接從鋰電池組或太陽能系統運行駐車空調——無需岸電。",
+    "vansKeyword": "廂式貨車駐車空調",
+    "vansDesc": "緊湊型12V駐車空調，完美適用於貨運廂式貨車改裝、Sprinter廂式貨車和露營車。低輪廓設計適合標準廂式貨車屋頂高度，無需改裝。",
+    "noIdle": "無怠速製冷系統",
+    "noIdleKeyword": "無怠速空調",
+    "noIdleDesc": "用電池供電的無怠速駐車空調取代昂貴的發動機怠速。每小時節省高達8-12美元的燃料成本。減少發動機磨損，降低卡車停靠站和休息區的碳排放。",
+    "solar": "太陽能駐車空調",
+    "solarKeyword": "太陽能駐車空調",
+    "solarDesc": "將我們的12V駐車空調與屋頂太陽能電池板配對，實現真正的免費製冷。直流太陽能兼容性意味著您的駐車空調可以在白天持續運行。",
+    "apu": "APU替代方案",
+    "apuKeyword": "電動APU駐車冷卻器",
+    "apuDesc": "柴油APU（輔助動力裝置）系統的經濟高效替代方案。我們的電動駐車空調以極低的安裝和運營成本提供同等製冷效果。"
   },
   "shopWithUs": {
-    "title": "Shop With Confidence",
+    "title": "放心購物",
     "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
+      "title": "2年保固",
+      "description": "所有零部件和人工費用全面覆蓋"
     },
     "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
+      "title": "30天退換",
+      "description": "不滿意可無理由退貨"
     },
     "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
+      "title": "免運費",
+      "description": "美國本土訂單滿500美元免運費"
+    }
+  },
+  "blog": {
+    "title": "最新文章",
+    "subtitle": "技巧、指南和行業資訊",
+    "readMore": "閱讀更多",
+    "categories": "分類",
+    "publishedOn": "發佈於",
+    "viewAll": "查看全部{{count}}篇文章",
+    "browseAll": "瀏覽全部{{count}}篇駐車空調文章",
+    "knowledgeBase": "駐車空調知識庫",
+    "latestGuides": "最新指南和文章",
+    "searchPlaceholder": "搜尋文章...",
+    "articlesFound": "找到{{count}}篇文章",
+    "articlesFoundPlural": "找到{{count}}篇文章",
+    "inCategory": "在{{category}}分類中",
+    "forSearch": "搜尋「{{query}}」",
+    "noArticlesFound": "未找到文章",
+    "tryDifferent": "嘗試不同的搜尋詞或分類。",
+    "prev": "上一頁",
+    "next": "下一頁",
+    "pageTitle": "駐車空調部落格和指南",
+    "pageSubtitle": "為卡車司機、房車車主和露營車愛好者提供的12V/24V駐車空調專家指南、比較和技巧。",
+    "post": {
+      "notFound": "文章未找到",
+      "backToBlog": "← 返回部落格",
+      "readyToExperience": "準備好體驗無怠速製冷了嗎？",
+      "exploreOur": "探索我們的12V/24V駐車空調——所有美國訂單免運費。",
+      "shopTopMounted": "購買VS02 PRO頂置式空調",
+      "shopMiniSplit": "購買VX3000SP迷你分體式空調"
+    }
+  },
+  "forum": {
+    "title": "社群論壇",
+    "subtitle": "與其他駐車空調車主交流",
+    "newPost": "新文章",
+    "topics": "主題",
+    "replies": "回覆",
+    "views": "瀏覽數",
+    "lastPost": "最新文章",
+    "community": "社群",
+    "discussions": "討論",
+    "heroTitle": "駐車空調社群論壇",
+    "heroSubtitle": "與全球卡車司機、廂式貨車生活者和房車愛好者分享經驗、提問和交流。",
+    "startDiscussion": "開始討論",
+    "signInToPost": "登入後發文",
+    "searchPlaceholder": "搜尋討論...",
+    "categories": "分類",
+    "allDiscussions": "全部討論",
+    "quickLinks": "快速連結",
+    "threads": "主題串",
+    "justNow": "剛剛",
+    "minutesAgo": "{{count}}分鐘前",
+    "hoursAgo": "{{count}}小時前",
+    "daysAgo": "{{count}}天前",
+    "post": {
+      "backToForum": "← 返回論壇",
+      "reply": "回覆",
+      "writeReply": "撰寫回覆...",
+      "submitReply": "提交回覆",
+      "loginToReply": "登入後回覆",
+      "likes": "讚",
+      "share": "分享",
+      "report": "檢舉",
+      "edit": "編輯",
+      "delete": "刪除",
+      "confirmDelete": "確定要刪除這篇文章嗎？"
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
+    "title": "聯絡我們",
+    "subtitle": "我們隨時為您提供協助",
+    "getInTouch": "聯絡我們",
     "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "email": "電子郵件",
+      "emailPlaceholder": "您的電子郵件地址",
+      "subject": "主旨",
+      "subjectPlaceholder": "郵件主旨",
+      "message": "訊息",
+      "messagePlaceholder": "您想說什麼...",
+      "submit": "發送訊息",
+      "sending": "發送中...",
+      "success": "感謝您的聯絡！我們會盡快回覆您。",
+      "error": "發送訊息時發生錯誤。請稍後再試。"
+    },
+    "info": {
+      "title": "聯絡資訊",
+      "email": "電子郵件",
+      "phone": "電話",
+      "hours": "服務時間",
+      "hoursValue": "週一至週五：上午9點-下午6點（太平洋時間）",
+      "location": "地址",
+      "locationValue": "加州洛杉磯"
     },
     "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
+      "title": "電子郵件支援",
+      "description": "一般問題請發送電子郵件至"
     },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
+    "technicalSupport": {
+      "title": "技術支援",
+      "description": "產品問題請聯絡"
     },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
+    "sales": {
+      "title": "銷售諮詢",
+      "description": "批發和經銷商請聯絡"
+    },
+    "warranty": {
+      "title": "保固服務",
+      "description": "保固問題請聯絡"
     }
   },
   "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "company": "公司",
+    "support": "支援",
     "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
+      "title": "訂閱最新優惠",
+      "description": "獲取最新產品資訊和獨家優惠",
+      "placeholder": "輸入您的電子郵件地址",
+      "subscribe": "立即訂閱",
+      "success": "感謝您的訂閱！"
     },
-    "rights": "All rights reserved.",
-    "language": "Language"
+    "rights": "版權所有。",
+    "warranty": "保固",
+    "returns": "退換政策",
+    "shipping": "配送政策",
+    "privacy": "隱私政策",
+    "terms": "服務條款"
   },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
+  "about": {
+    "ourStory": "我們的故事",
+    "heroTitle": "重新定義離網舒適",
+    "heroDesc": "自2015年以來，CoolDrivePro一直引領駐車空調創新，為卡車司機、房車愛好者和冒險家提供服務。",
+    "whyStarted": "為何創立",
+    "story1": "CoolDrivePro始於一個簡單的問題：為什麼卡車司機和房車車主在停車時必須忍受悶熱或浪費燃料怠速？",
+    "story2": "我們的創始人Tomas Wang是一位擁有20年卡車駕駛經驗的老司機，親身經歷了每天停車8小時的挑戰。",
+    "story3": "2015年，我們推出了首款駐車空調，徹底改變了道路舒適性。今天，我們已服務全球10,000+車主。",
+    "coreValues": "核心價值觀",
+    "readyToStop": "準備好停止怠速了嗎？",
+    "joinDrivers": "加入全球10,000+車主的行列，已改用CoolDrivePro駐車空調。",
+    "shopTop": "選購頂置式空調",
+    "shopMini": "選購迷你分體式空調"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
+    "homeTitle": "駐車空調 | 12V與24V直流無怠速卡車和房車空調 | CoolDrivePro",
+    "homeDescription": "購買專業駐車空調。12V與24V直流無怠速空調機組，適用於半掛卡車、房車和廂式貨車。無需怠速即可涼爽——節省燃料、減少排放。",
+    "productsTitle": "駐車空調產品 | 12V與24V直流空調機組",
+    "productsDescription": "探索我們的駐車空調系列。頂置式和迷你分體式12V與24V直流無怠速空調，適用於卡車、房車和露營車。",
+    "blogTitle": "駐車空調部落格 | 技巧、指南和評測",
+    "blogDescription": "了解駐車空調。專家指南、產品評測和技巧，適用於12V與24V直流無怠速卡車和房車空調。",
+    "forumTitle": "駐車空調論壇 | 社群討論和支援",
+    "forumDescription": "加入我們的駐車空調社群論壇。與其他卡車司機和房車車主連繫，獲取技巧、分享經驗並找到問題的答案。",
+    "contactTitle": "聯絡我們 | CoolDrivePro支援",
+    "contactDescription": "有關於駐車空調的問題？聯絡CoolDrivePro支援團隊。我們隨時為您提供12V與24V直流無怠速空調的協助。"
   },
   "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "404": "頁面未找到",
+    "404Desc": "抱歉，您尋找的頁面不存在。",
+    "goHome": "返回首頁",
+    "generic": "發生錯誤",
+    "tryAgain": "請稍後再試"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "載入中...",
+    "readMore": "閱讀更多",
+    "viewAll": "查看全部",
+    "close": "關閉",
+    "search": "搜尋",
+    "noResults": "未找到結果",
+    "comingSoon": "即將推出",
+    "learnMore": "了解更多",
+    "shopNow": "立即選購",
+    "buyNow": "立即購買",
+    "cancel": "取消",
+    "posting": "發文中...",
+    "model": "型號"
   }
 }

@@ -1,198 +1,124 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "topMountedAC": "مكيف السقف",
+    "miniSplitAC": "مكيف ميني سبليت",
+    "heatingCoolingAC": "مكيف تبريد/تدفئة",
+    "allProducts": "جميع المنتجات",
+    "forum": "المنتدى",
+    "blog": "المدونة",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "search": "بحث",
+    "cart": "سلة التسوق",
+    "account": "الحساب",
+    "new": "جديد",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "مكيفات وقوف السيارات للحياة خارج الشبكة والراحة المتنقلة",
+    "subtitle": "مكيف 12V و24V DC بدون دوران للشاحنات والمنازل المتنقلة والفانات — تبريد بدون محرك",
+    "ctaPrimary": "تسوق",
+    "ctaSecondary": "اعرف المزيد",
+    "badge": "جديد",
+    "trustedBy": "موثوق به من أكثر من 10,000 سائق حول العالم"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "منتجاتنا",
+    "mainTitle": "مكيفات وقوف السيارات 12V و24V DC بدون دوران",
+    "viewDetails": "اشتري الآن",
+    "addToCart": "أضف إلى السلة",
+    "specs": "المواصفات",
+    "features": "المميزات",
+    "learnMore": "اعرف المزيد",
+    "cooling": "تبريد",
+    "heating": "تدفئة",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "مكيف سقف 12000 BTU",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "يبرد حتى 80 قدم مربع"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "مكيف ميني سبليت 12000 BTU",
+      "btu": "12,000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
-    },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+      "runtime": "8-10 ساعات",
+      "coverage": "يبرد حتى 60 قدم مربع"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "لماذا تختار CoolDrivePro",
+    "mainTitle": "لماذا مكيف وقوف السيارات لدينا",
+    "subTitle": "مصمم للأداء بدون دوران",
+    "learnMore": "اعرف المزيد عن",
+    "power": {
+      "badge": "مصدر الطاقة",
+      "title": "مكيف وقوف السيارات يعمل بالبطارية 12V DC",
+      "description": "تعمل مكيفات وقوف السيارات لدينا مباشرة من بطارية السيارة 12V أو 24V."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
-    },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
-    },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "حماية البطارية",
+      "title": "حماية ذكية للبطارية",
+      "description": "تتمتع مكيفات وقوف السيارات لدينا بحماية كهربائية متعددة المستويات."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
   },
   "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
+    "title": "أحدث المقالات",
+    "readMore": "اقرأ المزيد",
+    "searchPlaceholder": "البحث في المقالات...",
+    "articlesFound": "{{count}} مقالة موجودة",
+    "noArticlesFound": "لا توجد مقالات",
+    "prev": "السابق",
+    "next": "التالي"
   },
   "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
+    "title": "منتدى المجتمع",
+    "startDiscussion": "بدء نقاش",
+    "signInToPost": "سجل الدخول للنشر",
+    "searchPlaceholder": "البحث في النقاشات...",
+    "allDiscussions": "جميع النقاشات",
+    "threads": "مواضيع",
+    "noDiscussions": "لا توجد نقاشات بعد",
+    "pinned": "مثبت",
+    "closed": "مغلق"
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "form": {
+      "name": "اسمك",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      "send": "إرسال",
+      "sending": "جاري الإرسال...",
+      "success": "تم إرسال الرسالة! نرد خلال 12 ساعة."
+    },
+    "messageSent": "تم إرسال الرسالة!",
+    "thankYou": "شكراً على تواصلك. سنتواصل خلال 12 ساعة."
+  },
+  "footer": {
+    "products": "المنتجات",
+    "support": "الدعم",
+    "company": "الشركة",
+    "legal": "قانوني",
+    "rights": "جميع الحقوق محفوظة."
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
+    "defaultTitle": "CoolDrivePro - مكيفات وقوف السيارات للشاحنات والمنازل المتنقلة",
+    "homeTitle": "مكيفات وقوف السيارات للحياة خارج الشبكة | CoolDrivePro"
   },
   "errors": {
     "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+      "title": "الصفحة غير موجودة",
+      "backHome": "العودة للرئيسية"
+    }
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "جاري التحميل...",
+    "search": "بحث",
+    "close": "إغلاق"
   }
 }

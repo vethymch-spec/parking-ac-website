@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "topMountedAC": "Điều hòa gắn mái",
+    "miniSplitAC": "Điều hòa mini split",
+    "heatingCoolingAC": "Điều hòa nóng/lạnh",
+    "allProducts": "Tất cả sản phẩm",
+    "forum": "Diễn đàn",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ",
+    "search": "Tìm kiếm",
+    "cart": "Giỏ hàng",
+    "account": "Tài khoản",
+    "new": "MỚI",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Điều hòa đỗ xe cho cuộc sống off-grid và thoải mái di động",
+    "subtitle": "Điều hòa 12V và 24V DC không nổ máy cho xe tải đầu kéo, RV, xe van và xe cắm trại — Mát mẻ không cần nổ máy",
+    "ctaPrimary": "Mua sản phẩm",
+    "ctaSecondary": "Tìm hiểu thêm",
+    "badge": "Hàng mới về",
+    "trustedBy": "Được tin cậy bởi hơn 10.000 tài xế trên toàn thế giới"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Sản phẩm của chúng tôi",
+    "subtitle": "Điều hòa đỗ xe",
+    "mainTitle": "Điều hòa 12V và 24V DC không nổ máy",
+    "description": "Điều hòa đỗ xe chạy bằng pin cho xe tải đầu kéo, RV, xe van và xe cắm trại. Mát mẻ không cần nổ máy — Tiết kiệm nhiên liệu, giảm khí thải, thoải mái.",
+    "viewDetails": "Mua ngay",
+    "addToCart": "Thêm vào giỏ",
+    "specs": "Thông số kỹ thuật",
+    "features": "Tính năng",
+    "reviews": "Đánh giá khách hàng",
+    "warranty": "Bảo hành",
+    "freeShipping": "Miễn phí vận chuyển",
+    "support": "Hỗ trợ 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Điều hòa gắn mái 12000 BTU",
+      "subtitle": "Điều hòa 12V/24V DC không nổ máy cho RV và xe tải",
+      "btu": "12.000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Làm mát tới 80 feet vuông"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Điều hòa mini split 12000 BTU",
+      "subtitle": "Điều hòa 12V DC không nổ máy cho xe tải đầu kéo và RV",
+      "btu": "12.000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 giờ",
+      "coverage": "Làm mát tới 60 feet vuông"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Thêm vào giỏ",
+      "buyNow": "Mua ngay",
+      "specifications": "Thông số kỹ thuật",
+      "reviews": "Đánh giá khách hàng",
+      "faq": "Câu hỏi thường gặp",
+      "freeShipping": "Miễn phí vận chuyển",
+      "warranty": "Bảo hành 2 năm",
+      "returns": "Đổi trả 30 ngày",
+      "inStock": "Còn hàng",
+      "outOfStock": "Hết hàng",
+      "quantity": "Số lượng",
+      "techSpecs": "Thông số kỹ thuật",
+      "relatedProducts": "Có thể bạn cũng thích"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Tại sao chọn CoolDrivePro",
+    "power": {
+      "badge": "Nguồn điện",
+      "title": "Điều hòa 12V DC chạy bằng pin",
+      "description": "Điều hòa đỗ xe của chúng tôi chạy trực tiếp từ pin 12V hoặc 24V của xe — không phải từ dây curoa động cơ. Thiết kế không nổ máy này cung cấp sự thoải mái làm mát liên tục khi đỗ xe, loại bỏ chi phí nhiên liệu và hao mòn động cơ."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Hiệu quả năng lượng",
+      "title": "Làm mát và sưởi ấm hiệu quả cao không nổ máy",
+      "description": "Với 12.000 BTU làm mát (mini split) và 10.000 BTU làm mát / 4.500 BTU sưởi ấm (gắn mái), điều hòa đỗ xe của chúng tôi cung cấp khả năng kiểm soát khí hậu mạnh mẽ với COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Lắp đặt dễ dàng",
+      "title": "Lắp đặt điều hòa đỗ xe đơn giản",
+      "description": "Mỗi điều hòa đỗ xe đi kèm với bộ lắp đặt đầy đủ, đường ống làm lạnh được nạp sẵn và hướng dẫn từng bước. Không cần chứng chỉ HVAC. Hầu hết các lắp đặt mất 2-4 giờ."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Bảo vệ pin",
+      "title": "Bảo vệ pin thông minh cho điều hòa",
+      "description": "Điều hòa đỗ xe của chúng tôi có bảo vệ an toàn điện đa cấp bao gồm cắt điện áp thấp (8-11V), bảo vệ quá dòng và tắt nhiệt."
+    },
+    "durability": {
+      "badge": "Độ bền",
+      "title": "Điều hòa được xây dựng cho khí hậu khắc nghiệt",
+      "description": "Điều hòa đỗ xe của chúng tôi được thử nghiệm nghiêm ngặt từ -28°C đến +50°C nhiệt độ môi trường. Các thành phần IP54 chống bụi và ẩm."
+    },
+    "noise": {
+      "badge": "Vận hành yên tĩnh",
+      "title": "Điều hòa đỗ xe siêu yên tĩnh",
+      "description": "Chỉ 40 dB, điều hòa đỗ xe của chúng tôi là một trong những loại yên tĩnh nhất trên thị trường. Công nghệ quạt đôi không chổi than cung cấp luồng khí lớn mà không có tiếng ồn."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Điều Hòa Đỗ Xe 12V cho Xe Tải và RV",
+    "defaultDescription": "Điều hòa đỗ xe 12V DC không nổ máy cho xe tải đầu kéo, RV, xe van và xe cắm trại. Tiết kiệm nhiên liệu, giảm khí thải, làm mát liên tục.",
+    "homeTitle": "Điều Hòa Đỗ Xe cho Cuộc Sống Off-Grid và Thoải Mái Di Động",
+    "productsTitle": "Sản Phẩm Củа Chúng Tôi - Điều Hòa 12V và 24V DC",
+    "contactTitle": "Liên Hệ Với Chúng Tôi - Hỗ Trợ CoolDrivePro",
+    "blogTitle": "Blog - Mẹo và Tin Tức về Điều Hòa Đỗ Xe",
+    "forumTitle": "Diễn Đàn - Cộng Đồng CoolDrivePro",
+    "aboutTitle": "Về Chúng Tôi - CoolDrivePro",
+    "supportTitle": "Hỗ Trợ - Trung Tâm Trợ Giúp CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Đang tải...",
+    "readMore": "Đọc thêm",
+    "viewAll": "Xem tất cả",
+    "close": "Đóng",
+    "search": "Tìm kiếm",
+    "noResults": "Không tìm thấy kết quả",
+    "comingSoon": "Sắp ra mắt",
+    "learnMore": "Tìm hiểu thêm",
+    "shopNow": "Mua ngay",
+    "buyNow": "Mua ngay",
+    "cancel": "Hủy",
+    "posting": "Đang đăng...",
+    "model": "Mẫu"
   }
 }

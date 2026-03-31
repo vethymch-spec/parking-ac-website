@@ -1,198 +1,131 @@
 {
   "nav": {
     "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "products": "Producten",
+    "topMountedAC": "Dak-airco",
+    "miniSplitAC": "Mini split airco",
+    "heatingCoolingAC": "Verwarmings-/koelairco",
+    "allProducts": "Alle producten",
     "forum": "Forum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
+    "about": "Over ons",
+    "contact": "Contact",
+    "search": "Zoeken",
+    "cart": "Winkelwagen",
     "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "new": "NIEUW",
+    "login": "Inloggen",
+    "logout": "Uitloggen"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Parkeerairconditioning voor off-grid leven en mobiel comfort",
+    "subtitle": "12V en 24V DC airconditioning zonder stationair draaien voor vrachtwagens, campers en bestelbussen — Koel zonder stationair draaien",
+    "ctaPrimary": "Producten kopen",
+    "ctaSecondary": "Meer informatie",
+    "badge": "Nieuw binnen",
+    "trustedBy": "Vertrouwd door meer dan 10.000 chauffeurs wereldwijd"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Onze producten",
+    "subtitle": "Parkeerairconditioning",
+    "mainTitle": "12V en 24V DC parkeerairconditioning zonder stationair draaien",
+    "description": "Op batterijen werkende parkeerairconditioning voor vrachtwagens, campers en bestelbussen. Koel zonder stationair draaien — Brandstof besparen, minder uitstoot, comfort.",
+    "viewDetails": "Nu kopen",
+    "addToCart": "In winkelwagen",
+    "specs": "Specificaties",
+    "features": "Functies",
+    "reviews": "Klantbeoordelingen",
+    "warranty": "Garantie",
+    "freeShipping": "Gratis verzending",
+    "support": "Ondersteuning 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Dak-airco 12000 BTU",
+      "subtitle": "12V/24V DC airconditioning zonder stationair draaien voor campers en vrachtwagens",
+      "btu": "12.000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Koelt tot 80 vierkante voet"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Mini split airco 12000 BTU",
+      "subtitle": "12V DC airconditioning zonder stationair draaien voor vrachtwagens en campers",
+      "btu": "12.000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 uur",
+      "coverage": "Koelt tot 60 vierkante voet"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "In winkelwagen",
+      "buyNow": "Nu kopen",
+      "specifications": "Specificaties",
+      "reviews": "Klantbeoordelingen",
+      "faq": "Veelgestelde vragen",
+      "freeShipping": "Gratis verzending",
+      "warranty": "Garantie 2 jaar",
+      "returns": "Retourneren 30 dagen",
+      "inStock": "Op voorraad",
+      "outOfStock": "Niet op voorraad",
+      "quantity": "Aantal",
+      "techSpecs": "Technische specificaties",
+      "relatedProducts": "Misschien vindt u dit ook leuk"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Waarom CoolDrivePro",
+    "power": {
+      "badge": "Energiebron",
+      "title": "12V DC op batterijen werkende airco",
+      "description": "Onze parkeerairconditioners werken direct op de 12V of 24V batterij van het voertuig — niet op de motorriem. Dit ontwerp zonder stationair draaien biedt continu koelcomfort tijdens het parkeren."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Energie-efficiëntie",
+      "title": "Hoog rendement koeling en verwarming zonder stationair draaien",
+      "description": "Met 12.000 BTU koeling (mini split) en 10.000 BTU koeling / 4.500 BTU verwarming (dak) bieden onze parkeerairconditioners krachtige klimaatregeling bij COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Eenvoudige installatie",
+      "title": "Eenvoudige installatie parkeerairconditioning",
+      "description": "Elke parkeerairconditioner wordt geleverd met een complete installatieset, vooraf gevulde koelleidingen en een stap-voor-stap handleiding."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Batterijbescherming",
+      "title": "Slimme batterijbescherming voor airco",
+      "description": "Onze parkeerairconditioners hebben meervoudige elektrische veiligheidsbescherming, inclusief lage-spanningsafsluiting (8-11V)."
+    },
+    "durability": {
+      "badge": "Duurzaamheid",
+      "title": "Airco gebouwd voor extreme klimaten",
+      "description": "Onze parkeerairconditioners worden rigoureus getest van -28°C tot +50°C. IP54-geclassificeerde componenten zijn bestand tegen stof en vocht."
+    },
+    "noise": {
+      "badge": "Stille werking",
+      "title": "Ultra-stille parkeerairconditioning",
+      "description": "Met slechts 40 dB behoren onze parkeerairconditioners tot de stilste op de markt. Borstelloze dubbele ventilatortechnologie levert een hoog luchtvolume zonder geluid."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Parkeerairconditioning voor Vrachtwagens en Campers",
+    "defaultDescription": "Parkeerairconditioners 12V DC voor vrachtwagens, campers en vanlife. Efficiënte koeling zonder stationair draaien. Koop dakgemonteerde en mini split units.",
+    "homeTitle": "Parkeerairconditioning voor Off-Grid Leven en Mobiel Comfort | CoolDrivePro",
+    "productsTitle": "Airconditioners 12V - Koop Dakgemonteerde en Mini Split Units",
+    "contactTitle": "Contact - CoolDrivePro Ondersteuning",
+    "blogTitle": "Blog - Tips en Gidsen voor ParkeerAC Systemen",
+    "forumTitle": "Community Forum - ParkeerAC Discussies",
+    "aboutTitle": "Over Ons - CoolDrivePro",
+    "supportTitle": "Ondersteuning - CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Laden...",
+    "readMore": "Lees meer",
+    "viewAll": "Bekijk alles",
+    "close": "Sluiten",
+    "search": "Zoeken",
+    "noResults": "Geen resultaten",
+    "comingSoon": "Binnenkort",
+    "learnMore": "Meer informatie",
+    "shopNow": "Nu kopen",
+    "buyNow": "Nu kopen",
+    "cancel": "Annuleren",
+    "posting": "Plaatsen...",
+    "model": "Model"
   }
 }

@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "home": "Hem",
+    "products": "Produkter",
+    "topMountedAC": "Takmonterad AC",
+    "miniSplitAC": "Mini split AC",
+    "heatingCoolingAC": "Uppvärmning/kylning AC",
+    "allProducts": "Alla produkter",
     "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "blog": "Blogg",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "search": "Sök",
+    "cart": "Kundvagn",
+    "account": "Konto",
+    "new": "NY",
+    "login": "Logga in",
+    "logout": "Logga ut"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Parkeringsklimatanläggning för off-grid-liv och mobilt komfort",
+    "subtitle": "12V och 24V DC klimatanläggning utan tomgång för lastbilar, husbilar och skåpbilar — Svalka utan tomgång",
+    "ctaPrimary": "Köp produkter",
+    "ctaSecondary": "Läs mer",
+    "badge": "Nyhet",
+    "trustedBy": "Betrodd av över 10 000 förare världen över"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Våra produkter",
+    "subtitle": "Parkeringsklimatanläggning",
+    "mainTitle": "12V och 24V DC parkeringsklimatanläggning utan tomgång",
+    "description": "Batteridrivna parkeringsklimatanläggningar för lastbilar, husbilar och skåpbilar. Svalka utan tomgång — Spara bränsle, minska utsläpp, bekvämt.",
+    "viewDetails": "Köp nu",
+    "addToCart": "Lägg i kundvagn",
+    "specs": "Specifikationer",
+    "features": "Funktioner",
+    "reviews": "Kundrecensioner",
+    "warranty": "Garanti",
+    "freeShipping": "Gratis frakt",
+    "support": "Support 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Takmonterad klimatanläggning 12000 BTU",
+      "subtitle": "12V/24V DC klimatanläggning utan tomgång för husbilar och lastbilar",
+      "btu": "12 000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Kyler upp till 80 kvadratfot"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Mini split klimatanläggning 12000 BTU",
+      "subtitle": "12V DC klimatanläggning utan tomgång för lastbilar och husbilar",
+      "btu": "12 000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 timmar",
+      "coverage": "Kyler upp till 60 kvadratfot"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Lägg i kundvagn",
+      "buyNow": "Köp nu",
+      "specifications": "Specifikationer",
+      "reviews": "Kundrecensioner",
+      "faq": "Vanliga frågor",
+      "freeShipping": "Gratis frakt",
+      "warranty": "Garanti 2 år",
+      "returns": "Retur 30 dagar",
+      "inStock": "I lager",
+      "outOfStock": "Slut i lager",
+      "quantity": "Antal",
+      "techSpecs": "Tekniska specifikationer",
+      "relatedProducts": "Du kanske också gillar"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Varför CoolDrivePro",
+    "power": {
+      "badge": "Strömkälla",
+      "title": "12V DC batteridriven klimatanläggning",
+      "description": "Våra parkeringsklimatanläggningar drivs direkt från fordonets 12V eller 24V batteri — inte från motorremmen. Denna design utan tomgång ger kontinuerlig kylkomfort vid parkering."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Energieffektivitet",
+      "title": "Högeffektiv kylning och uppvärmning utan tomgång",
+      "description": "Med 12 000 BTU kylning (mini split) och 10 000 BTU kylning / 4 500 BTU uppvärmning (takmonterad) ger våra parkeringsklimatanläggningar kraftfull klimatkontroll med COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Enkel installation",
+      "title": "Enkel installation av parkeringsklimatanläggning",
+      "description": "Varje parkeringsklimatanläggning levereras med komplett installationssats, förifyllda kylledningar och steg-för-steg manual."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Batteriskydd",
+      "title": "Intelligent batteriskydd för klimatanläggning",
+      "description": "Våra parkeringsklimatanläggningar har flernivås elektrisk säkerhetsreglering inklusive lågspänningsskydd (8-11V)."
+    },
+    "durability": {
+      "badge": "Hållbarhet",
+      "title": "Klimatanläggning byggd för extrema klimat",
+      "description": "Våra parkeringsklimatanläggningar testas rigoröst från -28°C till +50°C. IP54-klassade komponenter motstår damm och fukt."
+    },
+    "noise": {
+      "badge": "Tyst drift",
+      "title": "Ultra-tyst parkeringsklimatanläggning",
+      "description": "Bara 40 dB — våra parkeringsklimatanläggningar är bland de tystaste på marknaden. Borstlös dubbelfläktteknologi ger hög luftvolym utan ljud."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Parkeringsklimatanläggning för Lastbilar och Husbilar",
+    "defaultDescription": "Parkeringsklimatanläggningar 12V DC för lastbilar, husbilar och vanlife. Effektiv kylning utan tomgång. Köp takmonterade och mini split enheter.",
+    "homeTitle": "Parkeringsklimatanläggning för Off-Grid Liv och Mobilt Komfort | CoolDrivePro",
+    "productsTitle": "Klimatanläggningar 12V - Köp Takmonterade och Mini Split Enheter",
+    "contactTitle": "Kontakta Oss - CoolDrivePro Support",
+    "blogTitle": "Blogg - Tips och Guider för ParkeringsAC System",
+    "forumTitle": "Community Forum - ParkeringsAC Diskussioner",
+    "aboutTitle": "Om Oss - CoolDrivePro",
+    "supportTitle": "Support - CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Laddar...",
+    "readMore": "Läs mer",
+    "viewAll": "Visa alla",
+    "close": "Stäng",
+    "search": "Sök",
+    "noResults": "Inga resultat",
+    "comingSoon": "Kommer snart",
+    "learnMore": "Läs mer",
+    "shopNow": "Köp nu",
+    "buyNow": "Köp nu",
+    "cancel": "Avbryt",
+    "posting": "Postar...",
+    "model": "Modell"
   }
 }

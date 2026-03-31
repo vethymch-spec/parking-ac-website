@@ -1,198 +1,151 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "home": "หน้าหลัก",
+    "products": "ผลิตภัณฑ์",
+    "topMountedAC": "เครื่องปรับอากาศติดหลังคา",
+    "miniSplitAC": "เครื่องปรับอากาศมินิสปลิต",
+    "heatingCoolingAC": "เครื่องปรับอากาศร้อน/เย็น",
+    "allProducts": "ผลิตภัณฑ์ทั้งหมด",
+    "forum": "ฟอรั่ม",
+    "blog": "บล็อก",
+    "about": "เกี่ยวกับเรา",
+    "contact": "ติดต่อ",
+    "search": "ค้นหา",
+    "cart": "ตะกร้า",
+    "account": "บัญชี",
+    "new": "ใหม่",
+    "admin": "ผู้ดูแลระบบ",
+    "customer": "ลูกค้า",
+    "ticketManagement": "การจัดการตั๋ว",
+    "customerManagement": "การจัดการลูกค้า",
+    "supportPortal": "พอร์ทัลการสนับสนุนของฉัน",
+    "logout": "ออกจากระบบ",
+    "login": "เข้าสู่ระบบ",
+    "adminLogout": "ออกจากระบบผู้ดูแล",
+    "customerLogout": "ออกจากระบบลูกค้า",
+    "mySupportPortal": "พอร์ทัลการสนับสนุนของฉัน",
+    "adminPanel": "แผงผู้ดูแลระบบ",
+    "menu": "เมนู",
+    "shoppingCart": "ตะกร้าสินค้า",
+    "brandKnowledge": "ความรู้เกี่ยวกับแบรนด์",
+    "paymentMethod": "วิธีการชำระเงิน",
+    "billingTerms": "เงื่อนไขการเรียกเก็บเงิน",
+    "trackOrder": "ติดตามคำสั่งซื้อ",
+    "supportAvailability": "เวลาสนับสนุน: 11:00 - 21:00 น. เวลาแปซิฟิก (PT) เราจะตอบกลับภายใน 1-12 ชั่วโมง"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "เครื่องปรับอากาศที่จอดรถสำหรับชีวิตออฟกริดและความสะดวกสบายเคลื่อนที่",
+    "subtitle": "เครื่องปรับอากาศ 12V และ 24V DC ไม่สูญเสียเชื้อเพลิงสำหรับรถบรรทุกเทรลเลอร์, รถบ้าน, รถตู้และแคมเปอร์ — เย็นสบายโดยไม่ต้องสูญเสียเชื้อเพลิง",
+    "ctaPrimary": "ช้อปสินค้า",
+    "ctaSecondary": "เรียนรู้เพิ่มเติม",
+    "badge": "สินค้าใหม่",
+    "trustedBy": "ได้รับความไว้วางใจจากผู้ขับขี่กว่า 10,000 คนทั่วโลก"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "ผลิตภัณฑ์ของเรา",
+    "subtitle": "เครื่องปรับอากาศที่จอดรถ",
+    "mainTitle": "เครื่องปรับอากาศ 12V และ 24V DC ไม่สูญเสียเชื้อเพลิง",
+    "description": "เครื่องปรับอากาศที่จอดรถขับเคลื่อนด้วยแบตเตอรี่สำหรับรถบรรทุกเทรลเลอร์, รถบ้าน, รถตู้และแคมเปอร์ เย็นสบายโดยไม่ต้องสูญเสียเชื้อเพลิง — ประหยัดน้ำมัน ลดมลพิษ ความสะดวกสบาย",
+    "viewDetails": "ซื้อเลย",
+    "addToCart": "เพิ่มลงตะกร้า",
+    "specs": "ข้อมูลจำเพาะ",
+    "features": "คุณสมบัติ",
+    "reviews": "รีวิวลูกค้า",
+    "warranty": "การรับประกัน",
+    "freeShipping": "จัดส่งฟรี",
+    "support": "สนับสนุน 24/7",
+    "learnMore": "เรียนรู้เพิ่มเติม",
+    "cooling": "ทำความเย็น",
+    "heating": "ทำความร้อน",
+    "heatingCooling": "ร้อนและเย็น",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "เครื่องปรับอากาศติดหลังคา 12000 BTU",
+      "subtitle": "เครื่องปรับอากาศ 12V/24V DC ไม่สูญเสียเชื้อเพลิงสำหรับรถบ้านและรถบรรทุก",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "ทำความเย็นพื้นที่ 80 ตารางฟุต"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "เครื่องปรับอากาศมินิสปลิต 12000 BTU",
+      "subtitle": "เครื่องปรับอากาศ 12V DC ไม่สูญเสียเชื้อเพลิงสำหรับรถบรรทุกเทรลเลอร์และรถบ้าน",
+      "btu": "12,000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 ชั่วโมง",
+      "coverage": "ทำความเย็นพื้นที่ 60 ตารางฟุต"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "เพิ่มลงตะกร้า",
+      "buyNow": "ซื้อเลย",
+      "specifications": "ข้อมูลจำเพาะ",
+      "reviews": "รีวิวลูกค้า",
+      "faq": "คำถามที่พบบ่อย",
+      "freeShipping": "จัดส่งฟรี",
+      "warranty": "รับประกัน 2 ปี",
+      "returns": "คืนสินค้า 30 วัน",
+      "inStock": "มีสินค้า",
+      "outOfStock": "สินค้าหมด",
+      "quantity": "จำนวน",
+      "techSpecs": "ข้อมูลจำเพาะทางเทคนิค",
+      "relatedProducts": "สินค้าที่คุณอาจชอบ"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "ทำไมต้องเลือก CoolDrivePro",
+    "power": {
+      "badge": "แหล่งพลังงาน",
+      "title": "เครื่องปรับอากาศ 12V DC ขับเคลื่อนด้วยแบตเตอรี่",
+      "description": "เครื่องปรับอากาศที่จอดรถของเราทำงานโดยตรงจากแบตเตอรี่ 12V หรือ 24V ของยานพาหนะ — ไม่ใช่จากสายพานเครื่องยนต์ การออกแบบไม่สูญเสียเชื้อเพลิงนี้ให้ความเย็นสบายอย่างต่อเนื่องขณะจอดรถ ลดค่าใช้จ่ายน้ำมันและการสึกหรอของเครื่องยนต์"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "ประสิทธิภาพพลังงาน",
+      "title": "ระบบทำความเย็นและความร้อนประสิทธิภาพสูงไม่สูญเสียเชื้อเพลิง",
+      "description": "ด้วยความสามารถทำความเย็น 12,000 BTU (มินิสปลิต) และ 10,000 BTU ทำความเย็น / 4,500 BTU ทำความร้อน (ติดหลังคา) เครื่องปรับอากาศที่จอดรถของเรามอบการควบคุมสภาพอากาศที่ทรงพลังที่ COP ≥2.5"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "ติดตั้งง่าย",
+      "title": "การติดตั้งเครื่องปรับอากาศที่จอดรถอย่างง่าย",
+      "description": "ทุกเครื่องปรับอากาศที่จอดรถมาพร้อมกับชุดติดตั้งที่สมบูรณ์ ท่อน้ำยาทำความเย็นที่เติมล่วงหน้า และคู่มือทีละขั้นตอน ไม่ต้องมีใบรับรอง HVAC การติดตั้งส่วนใหญ่ใช้เวลา 2-4 ชั่วโมง"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "การป้องกันแบตเตอรี่",
+      "title": "การป้องกันแบตเตอรี่อัจฉริยะสำหรับเครื่องปรับอากาศ",
+      "description": "เครื่องปรับอากาศที่จอดรถของเรามีการป้องกันไฟฟ้าหลายระดับรวมถึงการตัดไฟต่ำ (8-11V) การป้องกันกระแสเกิน และการปิดระบบความร้อน"
+    },
+    "durability": {
+      "badge": "ความทนทาน",
+      "title": "เครื่องปรับอากาศที่สร้างมาสำหรับสภาพอากาศสุดขั้ว",
+      "description": "เครื่องปรับอากาศที่จอดรถของเราผ่านการทดสอบอย่างเข้มงวดจากอุณหภูมิ -28°C ถึง +50°C ไม่ว่าคุณจะจอดรถที่จุดพักรถบรรทุกในทะเลทรายแอริโซน่าหรือพื้นที่พักผ่อนฤดูหนาวในมินนิโซตา"
+    },
+    "noise": {
+      "badge": "การทำงานเงียบ",
+      "title": "เครื่องปรับอากาศที่จอดรถเสียงกระซิบ",
+      "description": "ที่เพียง 40 dB เครื่องปรับอากาศที่จอดรถของเราอยู่ในกลุ่มที่เงียบที่สุดในตลาด เทคโนโลยีพัดลมคู่แบบไร้แปรงถ่ายมอบปริมาณอากาศสูงโดยไม่มีเสียงรบกวน"
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - เครื่องปรับอากาศที่จอดรถ 12V สำหรับรถบรรทุกและรถบ้าน",
+    "defaultDescription": "เครื่องปรับอากาศที่จอดรถ 12V DC ไม่สูญเสียเชื้อเพลิงสำหรับรถบรรทุกเทรลเลอร์ รถบ้าน รถตู้และแคมเปอร์ ประหยัดน้ำมัน ลดมลพิษ ความเย็นต่อเนื่อง",
+    "homeTitle": "เครื่องปรับอากาศที่จอดรถสำหรับชีวิตออฟกริดและความสะดวกสบายเคลื่อนที่",
+    "productsTitle": "ผลิตภัณฑ์ของเรา - เครื่องปรับอากาศ 12V และ 24V DC",
+    "contactTitle": "ติดต่อเรา - สนับสนุน CoolDrivePro",
+    "blogTitle": "บล็อก - เคล็ดลับและข่าวสารเกี่ยวกับเครื่องปรับอากาศที่จอดรถ",
+    "forumTitle": "ฟอรั่ม - ชุมชน CoolDrivePro",
+    "aboutTitle": "เกี่ยวกับเรา - CoolDrivePro",
+    "supportTitle": "สนับสนุน - ศูนย์ช่วยเหลือ CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "กำลังโหลด...",
+    "readMore": "อ่านเพิ่มเติม",
+    "viewAll": "ดูทั้งหมด",
+    "close": "ปิด",
+    "search": "ค้นหา",
+    "noResults": "ไม่พบผลลัพธ์",
+    "comingSoon": "เร็วๆ นี้",
+    "learnMore": "เรียนรู้เพิ่มเติม",
+    "shopNow": "ช้อปเลย",
+    "buyNow": "ซื้อเลย",
+    "cancel": "ยกเลิก",
+    "posting": "กำลังโพสต์...",
+    "model": "รุ่น"
   }
 }

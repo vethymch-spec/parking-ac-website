@@ -1,198 +1,205 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
+    "home": "Início",
+    "products": "Produtos",
+    "topMountedAC": "Ar condicionado de teto",
+    "miniSplitAC": "Ar condicionado mini split",
+    "heatingCoolingAC": "Ar condicionado aquecimento/resfriamento",
+    "allProducts": "Todos os produtos",
+    "forum": "Fórum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
+    "about": "Sobre nós",
+    "contact": "Contato",
+    "search": "Buscar",
+    "cart": "Carrinho",
+    "account": "Conta",
+    "new": "NOVO",
     "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "customer": "Cliente",
+    "ticketManagement": "Gerenciamento de tickets",
+    "customerManagement": "Gerenciamento de clientes",
+    "supportPortal": "Meu portal de suporte",
+    "logout": "Sair",
+    "login": "Entrar",
+    "adminLogout": "Sair admin",
+    "customerLogout": "Sair cliente",
+    "mySupportPortal": "Meu portal de suporte",
+    "adminPanel": "Painel admin",
+    "menu": "Menu",
+    "shoppingCart": "Carrinho de compras",
+    "brandKnowledge": "Conhecimento da marca",
+    "paymentMethod": "Método de pagamento",
+    "billingTerms": "Termos de faturamento",
+    "trackOrder": "Rastrear pedido",
+    "supportAvailability": "Disponibilidade de suporte: 11h-21h Horário do Pacífico (PT), responderemos em 1-12 horas."
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Ar condicionado de estacionamento para vida off-grid e conforto móvel",
+    "subtitle": "Ar condicionado 12V e 24V DC sem marcha lenta para caminhões semirreboque, RVs, vans e campistas — Refrigeração sem marcha lenta",
+    "ctaPrimary": "Comprar produtos",
+    "ctaSecondary": "Saiba mais",
+    "badge": "Nova chegada",
+    "trustedBy": "Confiado por mais de 10.000 motoristas em todo o mundo"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Nossos produtos",
+    "subtitle": "Ar condicionado de estacionamento",
+    "mainTitle": "Unidades de ar condicionado 12V e 24V DC sem marcha lenta",
+    "description": "Ar condicionados de estacionamento alimentados por bateria para caminhões semirreboque, RVs, vans e campistas. Refrigeração sem marcha lenta — Economize combustível, reduza emissões, mantenha-se confortável.",
+    "viewDetails": "Comprar agora",
+    "addToCart": "Adicionar ao carrinho",
+    "specs": "Especificações",
+    "features": "Características",
+    "reviews": "Avaliações de clientes",
+    "warranty": "Garantia",
+    "freeShipping": "Frete grátis",
+    "support": "Suporte 24/7",
+    "learnMore": "Saiba mais",
+    "cooling": "Resfriamento",
+    "heating": "Aquecimento",
+    "heatingCooling": "Aquecimento e resfriamento",
+    "specs": {
+      "coolingCapacity": "Capacidade de resfriamento",
+      "heatingCapacity": "Capacidade de aquecimento",
+      "current": "Corrente",
+      "powerSupply": "Fonte de alimentação",
+      "noiseLevel": "Nível de ruído",
+      "batteryRuntime": "Duração da bateria",
+      "flowRate": "Taxa de fluxo",
+      "fuelType": "Tipo de combustível",
+      "installation": "Instalação",
+      "heatingSpeed": "Velocidade de aquecimento",
+      "airOutput": "Saída de ar"
+    },
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Ar condicionado de teto 12000 BTU",
+      "subtitle": "Ar condicionado 12V/24V DC sem marcha lenta para RVs e caminhões",
+      "description": "O último ar condicionado de estacionamento com compressor rotativo duplo R410A para RVs, caminhões semirreboque e vans. Este ar condicionado 12V/24V DC sem marcha lenta oferece 12000 BTU de capacidade de resfriamento — mantém sua cabine ou campista confortável sem ligar o motor. Com proteção de bateria sub-tensão e operação silenciosa a 45 dB.",
+      "btu": "12.000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Resfria até 80 pés quadrados",
+      "imageAlt": "Vista explodida ar condicionado de teto 10000 BTU — Ar condicionado 12V/24V DC sem marcha lenta para RVs e caminhões"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Ar condicionado mini split 12000 BTU",
+      "subtitle": "Ar condicionado 12V DC sem marcha lenta para caminhões semirreboque e RVs",
+      "description": "Ar condicionado mini split 12V DC de alta capacidade para cabines de caminhões semirreboque, RVs e vans. Com 12000 BTU de potência de resfriamento sem marcha lenta, este ar condicionado sem dutos funciona diretamente da bateria do veículo — sem gerador, sem energia da rede necessária. Instalação horizontal no teto adequada para a maioria dos caminhões e campistas.",
+      "btu": "12.000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 horas",
+      "coverage": "Resfria até 60 pés quadrados",
+      "imageAlt": "Ar condicionado mini split 12000 BTU para caminhões semirreboque e RVs — 12V DC sem marcha lenta"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "waterHeater": {
+      "title": "Aquecedor de água instantâneo 65000 BTU para RVs e caminhões",
+      "subtitle": "Aquecedor instantâneo a propano para vida off-grid",
+      "description": "Complete seu sistema de conforto off-grid com este aquecedor de água instantâneo 65.000 BTU, projetado especificamente para RVs, caminhões semirreboque e campistas. Fornece 2.9 GPM de água quente instantânea — o companheiro perfeito para seu ar condicionado de estacionamento para conforto durante todo o ano na estrada.",
+      "imageAlt": "Aquecedor de água instantâneo 65000 BTU para RVs e caminhões semirreboque — Água quente off-grid"
+    },
+    "heatingCoolingAC": {
+      "title": "Ar condicionado aquecimento/resfriamento V-TH1",
+      "subtitle": "Ar condicionado rotativo 12V/24V DC modo duplo — Conforto durante todo o ano",
+      "description": "O primeiro ar condicionado de estacionamento modo duplo da CoolDrivePro. O V-TH1 oferece até 2.000W de resfriamento no verão e aquece sua cabine de 5°C a 30°C em apenas 30 minutos no inverno. Com compressor rotativo duplo GMCC e refrigerante R134A, este ar condicionado rotativo 12V/24V DC fornece controle climático durante todo o ano para caminhões, RVs, vans e veículos especiais — sem marcha lenta do motor.",
+      "imageAlt": "Ar condicionado aquecimento/resfriamento V-TH1 — Ar condicionado rotativo 12V/24V DC modo duplo"
+    },
+    "detail": {
+      "addToCart": "Adicionar ao carrinho",
+      "buyNow": "Comprar agora",
+      "specifications": "Especificações",
+      "reviews": "Avaliações de clientes",
+      "faq": "Perguntas frequentes",
+      "freeShipping": "Frete grátis",
+      "warranty": "Garantia 2 anos",
+      "returns": "Devoluções 30 dias",
+      "inStock": "Em estoque",
+      "outOfStock": "Fora de estoque",
+      "quantity": "Quantidade",
+      "shipping": "Envio",
+      "shippingDesc": "Frete grátis em pedidos acima de $500 para Estados Unidos continental. Entrega em 3-5 dias úteis.",
+      "warrantyDesc": "Garantia do fabricante de 2 anos cobrindo defeitos de materiais e mão de obra.",
+      "returnsDesc": "Política de devolução fácil de 30 dias. Reembolso completo se não satisfeito.",
+      "techSpecs": "Especificações técnicas",
+      "reviewsTitle": "O que nossos clientes dizem",
+      "verifiedPurchase": "Compra verificada",
+      "helpful": "Útil",
+      "writeReview": "Escrever avaliação",
+      "loadMore": "Carregar mais avaliações",
+      "faqTitle": "Perguntas comuns",
+      "relatedProducts": "Você também pode gostar",
+      "viewDetails": "Ver detalhes",
+      "gallery": "Galeria",
+      "zoom": "Clique para ampliar",
+      "share": "Compartilhar",
+      "save": "Salvar para depois"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Por que escolher a CoolDrivePro",
+    "subtitle": "Projetado para confiabilidade e eficiência em condições exigentes",
+    "mainTitle": "Por que nosso ar condicionado de estacionamento",
+    "subTitle": "Construído para desempenho sem marcha lenta",
+    "learnMore": "Saiba mais sobre",
+    "power": {
+      "badge": "Fonte de energia",
+      "title": "Ar condicionado de estacionamento 12V DC alimentado por bateria",
+      "description": "Nossos ar condicionados de estacionamento funcionam diretamente da bateria 12V ou 24V do veículo — não da correia do motor. Este design sem marcha lenta fornece conforto de resfriamento contínuo quando estacionado, eliminando custos de combustível e desgaste do motor. A proteção integrada contra sub-tensão garante que seu ar condicionado nunca descarregue a bateria abaixo de níveis seguros.",
+      "imageAlt": "Caminhão semirreboque com ar condicionado 12V — Resfriamento DC sem marcha lenta"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Eficiência energética",
+      "title": "Aquecimento e resfriamento de alta eficiência sem marcha lenta",
+      "description": "Com 12.000 BTU de resfriamento (mini split) e 10.000 BTU de resfriamento / 4.500 BTU de aquecimento (montagem no teto), nossos ar condicionados de estacionamento oferecem poderoso controle climático com COP ≥2,5. A tecnologia de compressor rotativo de velocidade variável significa que seu ar condicionado usa apenas a energia necessária — maximizando a duração da bateria.",
+      "imageAlt": "Acampamento nas montanhas — Ar condicionado eficiente energeticamente"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Instalação fácil",
+      "title": "Instalação simples de ar condicionado de estacionamento",
+      "description": "Cada ar condicionado de estacionamento é enviado com um kit de instalação completo, linhas de refrigerante pré-carregadas e um manual passo a passo. Nenhuma certificação HVAC necessária. A maioria das instalações leva 2–4 horas. Compatível com aberturas de teto RV padrão de 14 polegadas e suportes de montagem universais para cabines de caminhões.",
+      "imageAlt": "Instalação de ar condicionado no teto do RV — Instalação DIY fácil"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Proteção de bateria",
+      "title": "Proteção inteligente de bateria para ar condicionado",
+      "description": "Nossos ar condicionados de estacionamento possuem proteção de segurança elétrica de múltiplos níveis incluindo corte de sub-tensão (8–11V), proteção contra sobrecorrente e desligamento térmico. A bateria do seu veículo está protegida contra descarga profunda — essencial para partida confiável do motor após uma noite completa de funcionamento do ar condicionado.",
+      "imageAlt": "Cabine de caminhão semirreboque — Ar condicionado com proteção de bateria"
+    },
+    "durability": {
+      "badge": "Durabilidade",
+      "title": "Ar condicionado construído para climas extremos",
+      "description": "Nossos ar condicionados de estacionamento são rigorosamente testados de -28°C a +50°C de temperatura ambiente. Esteja você estacionado em uma parada de caminhões no deserto do Arizona ou uma área de descanso de inverno em Minnesota, seu ar condicionado mantém desempenho ótimo. Componentes classificados IP54 resistem a poeira e umidade.",
+      "imageAlt": "RV no deserto — Ar condicionado para calor extremo"
+    },
+    "noise": {
+      "badge": "Operação silenciosa",
+      "title": "Ar condicionado de estacionamento ultra silencioso",
+      "description": "Com apenas 40 dB, nossos ar condicionados de estacionamento estão entre os mais silenciosos do mercado. A tecnologia de ventilador duplo sem escovas fornece alto volume de ar sem ruído — para que você possa dormir confortavelmente enquanto seu ar condicionado funciona. Ideal para bairros residenciais e acampamentos com restrições de ruído.",
+      "imageAlt": "Acampamento tranquilo à noite — Ar condicionado funcionando silenciosamente"
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Ar Condicionado de Estacionamento para Caminhões e RVs",
+    "defaultDescription": "Ar condicionados de estacionamento 12V DC para caminhões, RVs e vida em van. Resfriamento eficiente sem marcha lenta do motor. Compre unidades montadas no teto e mini split.",
+    "homeTitle": "Ar Condicionado de Estacionamento para Vida Off-Grid e Conforto Móvel | CoolDrivePro",
+    "productsTitle": "Ar Condicionados 12V - Compre Unidades Montadas no Teto e Mini Split",
+    "contactTitle": "Fale Conosco - Suporte CoolDrivePro",
+    "blogTitle": "Blog - Dicas e Guias para Sistemas de AC de Estacionamento",
+    "forumTitle": "Fórum da Comunidade - Discussões sobre AC de Estacionamento",
+    "aboutTitle": "Sobre Nós - CoolDrivePro",
+    "supportTitle": "Suporte - CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Carregando...",
+    "readMore": "Leia mais",
+    "viewAll": "Ver tudo",
+    "close": "Fechar",
+    "search": "Buscar",
+    "noResults": "Nenhum resultado encontrado",
+    "comingSoon": "Em breve",
+    "learnMore": "Saiba mais",
+    "shopNow": "Comprar agora",
+    "buyNow": "Comprar agora",
+    "cancel": "Cancelar",
+    "posting": "Postando...",
+    "model": "Modelo"
   }
 }

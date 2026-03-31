@@ -56,7 +56,7 @@ export default function Footer() {
     { label: t('nav.miniSplitAC'), href: "/products/mini-split-ac" },
     { label: t('nav.heatingCoolingAC'), href: "/products/heating-cooling-ac" },
     { label: t('nav.contact'), href: "/contact", placeholder: false },
-    { label: "Brand Knowledge", href: "/brand-knowledge", placeholder: false },
+    { label: t('nav.brandKnowledge'), href: "/brand-knowledge", placeholder: false },
   ];
 
   const serviceLinks = [
@@ -65,13 +65,13 @@ export default function Footer() {
     { label: t('footer.shipping'), href: "/shipping-policy" },
     { label: t('footer.privacy'), href: "/privacy-policy" },
     { label: t('footer.terms'), href: "/privacy-policy" },
-    { label: "Payment Method", href: "#", placeholder: true },
-    { label: "Billing Terms", href: "#", placeholder: true },
+    { label: t('nav.paymentMethod'), href: "#", placeholder: true },
+    { label: t('nav.billingTerms'), href: "#", placeholder: true },
   ];
 
   const customerLinks = [
     { label: t('nav.forum'), href: "/forum", placeholder: false },
-    { label: "Track Order", href: "#", placeholder: true },
+    { label: t('nav.trackOrder'), href: "#", placeholder: true },
     { label: t('nav.account'), href: "#", placeholder: true },
   ];
 
@@ -210,7 +210,7 @@ export default function Footer() {
               className="text-sm leading-relaxed"
               style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
             >
-              Support Availability: 11 AM - 9 PM Pacific Time (PT), we will reply to you within 1-12 hours.
+              {t('nav.supportAvailability')}
             </p>
           </div>
         </div>

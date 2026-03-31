@@ -6,6 +6,7 @@
  * Content loaded from /data/blog/list.json to keep JS bundle small
  */
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
 import { ChevronRight, Tag, Calendar, Search, Loader2 } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
@@ -22,6 +23,7 @@ interface BlogListItem {
 const POSTS_PER_PAGE = 12;
 
 export default function BlogList() {
+  const { t } = useTranslation();
   const [allPosts, setAllPosts] = useState<BlogListItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -59,26 +61,40 @@ export default function BlogList() {
     setCurrentPage(1);
   };
 
+  const getResultsText = () => {
+    let text = filtered.length === 1 
+      ? t('blog.articlesFound', { count: filtered.length })
+      : t('blog.articlesFoundPlural', { count: filtered.length });
+    
+    if (selectedCategory !== "All") {
+      text += ` ${t('blog.inCategory', { category: selectedCategory })}`;
+    }
+    if (searchQuery) {
+      text += ` ${t('blog.forSearch', { query: searchQuery })}`;
+    }
+    return text;
+  };
+
   return (
     <PageLayout>
       {/* Breadcrumb */}
       <nav className="max-w-[1280px] mx-auto px-4 lg:px-8 py-3 flex items-center gap-1.5 text-sm" style={{ color: "oklch(0.55 0.05 250)", fontFamily: "'Inter', sans-serif" }}>
-        <Link href="/" className="hover:underline">Home</Link>
+        <Link href="/" className="hover:underline">{t('nav.home')}</Link>
         <ChevronRight size={14} />
-        <span style={{ color: "oklch(0.35 0.10 250)" }}>Blog</span>
+        <span style={{ color: "oklch(0.35 0.10 250)" }}>{t('nav.blog')}</span>
       </nav>
 
       <div className="max-w-[1280px] mx-auto px-4 lg:px-8 py-10">
         {/* Header */}
         <div className="text-center mb-10">
           <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "oklch(0.50 0.12 255)", fontFamily: "'Montserrat', sans-serif" }}>
-            Parking Air Conditioner Knowledge Base
+            {t('blog.knowledgeBase')}
           </p>
           <h1 className="text-3xl lg:text-4xl font-extrabold mb-3" style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}>
-            Parking AC Blog & Guides
+            {t('blog.pageTitle')}
           </h1>
           <p className="text-base max-w-2xl mx-auto" style={{ color: "oklch(0.50 0.05 250)", fontFamily: "'Inter', sans-serif" }}>
-            Expert guides, comparisons, and tips for 12V/24V parking air conditioners — for truck drivers, RV owners, and van lifers.
+            {t('blog.pageSubtitle')}
           </p>
         </div>
 
@@ -95,7 +111,7 @@ export default function BlogList() {
                 <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2" style={{ color: "oklch(0.60 0.05 250)" }} />
                 <input
                   type="text"
-                  placeholder="Search articles..."
+                  placeholder={t('blog.searchPlaceholder')}
                   value={searchQuery}
                   onChange={e => handleSearch(e.target.value)}
                   className="w-full pl-9 pr-4 py-2.5 rounded-lg border text-sm outline-none focus:ring-2"
@@ -121,7 +137,7 @@ export default function BlogList() {
                       fontFamily: "'Montserrat', sans-serif",
                     }}
                   >
-                    {cat}
+                    {cat === "All" ? t('common.viewAll') : cat}
                   </button>
                 ))}
               </div>
@@ -129,9 +145,7 @@ export default function BlogList() {
 
             {/* Results count */}
             <p className="text-sm mb-6" style={{ color: "oklch(0.55 0.05 250)", fontFamily: "'Inter', sans-serif" }}>
-              {filtered.length} article{filtered.length !== 1 ? "s" : ""} found
-              {selectedCategory !== "All" && ` in ${selectedCategory}`}
-              {searchQuery && ` for "${searchQuery}"`}
+              {getResultsText()}
             </p>
 
             {/* Grid */}
@@ -176,7 +190,7 @@ export default function BlogList() {
                         className="text-sm font-semibold flex items-center gap-1 transition-all hover:gap-2"
                         style={{ color: "oklch(0.45 0.18 255)", fontFamily: "'Inter', sans-serif" }}
                       >
-                        Read More <span>→</span>
+                        {t('blog.readMore')} <span>→</span>
                       </Link>
                     </div>
                   </article>
@@ -184,8 +198,8 @@ export default function BlogList() {
               </div>
             ) : (
               <div className="text-center py-16">
-                <p className="text-lg font-semibold mb-2" style={{ color: "oklch(0.40 0.08 250)", fontFamily: "'Montserrat', sans-serif" }}>No articles found</p>
-                <p className="text-sm" style={{ color: "oklch(0.60 0.04 250)", fontFamily: "'Inter', sans-serif" }}>Try a different search term or category.</p>
+                <p className="text-lg font-semibold mb-2" style={{ color: "oklch(0.40 0.08 250)", fontFamily: "'Montserrat', sans-serif" }}>{t('blog.noArticlesFound')}</p>
+                <p className="text-sm" style={{ color: "oklch(0.60 0.04 250)", fontFamily: "'Inter', sans-serif" }}>{t('blog.tryDifferent')}</p>
               </div>
             )}
 
@@ -198,7 +212,7 @@ export default function BlogList() {
                   className="px-4 py-2 rounded-lg text-sm font-semibold transition-all disabled:opacity-40"
                   style={{ backgroundColor: "oklch(0.92 0.03 240)", color: "oklch(0.35 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  ← Prev
+                  ← {t('blog.prev')}
                 </button>
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
                   <button
@@ -220,7 +234,7 @@ export default function BlogList() {
                   className="px-4 py-2 rounded-lg text-sm font-semibold transition-all disabled:opacity-40"
                   style={{ backgroundColor: "oklch(0.92 0.03 240)", color: "oklch(0.35 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  Next →
+                  {t('blog.next')} →
                 </button>
               </div>
             )}

@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "home": "Strona główna",
+    "products": "Produkty",
+    "topMountedAC": "Klimatyzacja dachowa",
+    "miniSplitAC": "Klimatyzacja mini split",
+    "heatingCoolingAC": "Klimatyzacja grzewczo-chłodnicza",
+    "allProducts": "Wszystkie produkty",
     "forum": "Forum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "about": "O nas",
+    "contact": "Kontakt",
+    "search": "Szukaj",
+    "cart": "Koszyk",
+    "account": "Konto",
+    "new": "NOWOŚĆ",
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Klimatyzacja postojowa dla życia off-grid i mobilnego komfortu",
+    "subtitle": "Klimatyzacja 12V i 24V DC bez biegu jałowego dla ciężarówek, kamperów i vanów — Chłód bez biegu jałowego",
+    "ctaPrimary": "Kup produkty",
+    "ctaSecondary": "Dowiedz się więcej",
+    "badge": "Nowość",
+    "trustedBy": "Zaufało nam ponad 10 000 kierowców na całym świecie"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Nasze produkty",
+    "subtitle": "Klimatyzacja postojowa",
+    "mainTitle": "Klimatyzacje postojowe 12V i 24V DC bez biegu jałowego",
+    "description": "Klimatyzacje postojowe zasilane bateryjnie dla ciężarówek, kamperów i vanów. Chłód bez biegu jałowego — Oszczędność paliwa, mniej emisji, komfort.",
+    "viewDetails": "Kup teraz",
+    "addToCart": "Dodaj do koszyka",
+    "specs": "Specyfikacja",
+    "features": "Funkcje",
+    "reviews": "Opinie klientów",
+    "warranty": "Gwarancja",
+    "freeShipping": "Darmowa dostawa",
+    "support": "Wsparcie 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Klimatyzacja dachowa 12000 BTU",
+      "subtitle": "Klimatyzacja 12V/24V DC bez biegu jałowego dla kamperów i ciężarówek",
+      "btu": "12 000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Chłodzi do 80 stóp kwadratowych"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Klimatyzacja mini split 12000 BTU",
+      "subtitle": "Klimatyzacja 12V DC bez biegu jałowego dla ciężarówek i kamperów",
+      "btu": "12 000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 godzin",
+      "coverage": "Chłodzi do 60 stóp kwadratowych"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Dodaj do koszyka",
+      "buyNow": "Kup teraz",
+      "specifications": "Specyfikacja",
+      "reviews": "Opinie klientów",
+      "faq": "FAQ",
+      "freeShipping": "Darmowa dostawa",
+      "warranty": "Gwarancja 2 lata",
+      "returns": "Zwrot do 30 dni",
+      "inStock": "Dostępny",
+      "outOfStock": "Niedostępny",
+      "quantity": "Ilość",
+      "techSpecs": "Specyfikacja techniczna",
+      "relatedProducts": "Może Ci się spodobać również"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Dlaczego CoolDrivePro",
+    "power": {
+      "badge": "Źródło zasilania",
+      "title": "Klimatyzacja 12V DC zasilana bateryjnie",
+      "description": "Nasze klimatyzacje postojowe działają bezpośrednio z 12V lub 24V baterii pojazdu — nie z paska silnika. Ten projekt bez biegu jałowego zapewnia ciągły komfort chłodzenia podczas postoju."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Efektywność energetyczna",
+      "title": "Wysokowydajne chłodzenie i grzanie bez biegu jałowego",
+      "description": "Z 12 000 BTU chłodzenia (mini split) i 10 000 BTU chłodzenia / 4 500 BTU grzania (dachowa) nasze klimatyzacje postojowe zapewniają potężną kontrolę klimatu przy COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Łatwa instalacja",
+      "title": "Prosta instalacja klimatyzacji postojowej",
+      "description": "Każda klimatyzacja postojowa jest dostarczana z kompletnym zestawem instalacyjnym, wstępnie naładowanymi przewodami chłodniczymi i instrukcją krok po kroku."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Ochrona baterii",
+      "title": "Inteligentna ochrona baterii dla klimatyzacji",
+      "description": "Nasze klimatyzacje postojowe mają wielopoziomową ochronę bezpieczeństwa elektrycznego, w tym odcięcie przy niskim napięciu (8-11V)."
+    },
+    "durability": {
+      "badge": "Trwałość",
+      "title": "Klimatyzacja zbudowana dla ekstremalnych klimatów",
+      "description": "Nasze klimatyzacje postojowe są rygorystycznie testowane od -28°C do +50°C. Komponenty z klasyfikacją IP54 są odporne na kurz i wilgoć."
+    },
+    "noise": {
+      "badge": "Cicha praca",
+      "title": "Ultra cicha klimatyzacja postojowa",
+      "description": "Zaledwie 40 dB — nasze klimatyzacje postojowe należą do najcichszych na rynku. Bezszczotkowa technologia podwójnych wentylatorów zapewnia dużą objętość powietrza bez hałasu."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Klimatyzacja Postojowa dla Ciężarówek i Kamperów",
+    "defaultDescription": "Klimatyzacje postojowe 12V DC dla ciężarówek, kamperów i życia w vanie. Wydajne chłodzenie bez biegu jałowego silnika. Kup jednostki montowane na dachu i mini split.",
+    "homeTitle": "Klimatyzacja Postojowa dla Życia Off-Grid i Mobilnego Komfortu | CoolDrivePro",
+    "productsTitle": "Klimatyzacje 12V - Kup Jednostki Montowane na Dachu i Mini Split",
+    "contactTitle": "Kontakt - Wsparcie CoolDrivePro",
+    "blogTitle": "Blog - Wskazówki i Poradniki dla Systemów Klimatyzacji Postojowej",
+    "forumTitle": "Forum Społeczności - Dyskusje o Klimatyzacji Postojowej",
+    "aboutTitle": "O Nas - CoolDrivePro",
+    "supportTitle": "Wsparcie - CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Ładowanie...",
+    "readMore": "Czytaj więcej",
+    "viewAll": "Zobacz wszystkie",
+    "close": "Zamknij",
+    "search": "Szukaj",
+    "noResults": "Brak wyników",
+    "comingSoon": "Wkrótce",
+    "learnMore": "Dowiedz się więcej",
+    "shopNow": "Kup teraz",
+    "buyNow": "Kup teraz",
+    "cancel": "Anuluj",
+    "posting": "Wysyłanie...",
+    "model": "Model"
   }
 }

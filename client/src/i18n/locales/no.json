@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "home": "Hjem",
+    "products": "Produkter",
+    "topMountedAC": "Takmontert AC",
+    "miniSplitAC": "Mini split AC",
+    "heatingCoolingAC": "Varming/kjøling AC",
+    "allProducts": "Alle produkter",
     "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "blog": "Blogg",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "search": "Søk",
+    "cart": "Handlekurv",
+    "account": "Konto",
+    "new": "NY",
+    "login": "Logg inn",
+    "logout": "Logg ut"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Parkering klimaanlegg for off-grid liv og mobil komfort",
+    "subtitle": "12V og 24V DC klimaanlegg uten tomgang for semitrailere, bobiler og varebiler — Kjøling uten tomgang",
+    "ctaPrimary": "Kjøp produkter",
+    "ctaSecondary": "Lær mer",
+    "badge": "Nyhet",
+    "trustedBy": "Stolt av over 10 000 sjåfører verden over"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Våre produkter",
+    "subtitle": "Parkering klimaanlegg",
+    "mainTitle": "12V og 24V DC parkering klimaanlegg uten tomgang",
+    "description": "Batteridrevne parkering klimaanlegg for semitrailere, bobiler og varebiler. Kjøling uten tomgang — Spar drivstoff, reduser utslipp, komfort.",
+    "viewDetails": "Kjøp nå",
+    "addToCart": "Legg i handlekurv",
+    "specs": "Spesifikasjoner",
+    "features": "Funksjoner",
+    "reviews": "Kundeanmeldelser",
+    "warranty": "Garanti",
+    "freeShipping": "Gratis frakt",
+    "support": "Støtte 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Takmontert klimaanlegg 12000 BTU",
+      "subtitle": "12V/24V DC klimaanlegg uten tomgang for bobiler og lastebiler",
+      "btu": "12 000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Kjøler opptil 80 kvadratfot"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Mini split klimaanlegg 12000 BTU",
+      "subtitle": "12V DC klimaanlegg uten tomgang for semitrailere og bobiler",
+      "btu": "12 000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 timer",
+      "coverage": "Kjøler opptil 60 kvadratfot"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Legg i handlekurv",
+      "buyNow": "Kjøp nå",
+      "specifications": "Spesifikasjoner",
+      "reviews": "Kundeanmeldelser",
+      "faq": "FAQ",
+      "freeShipping": "Gratis frakt",
+      "warranty": "Garanti 2 år",
+      "returns": "Retur 30 dager",
+      "inStock": "På lager",
+      "outOfStock": "Utsolgt",
+      "quantity": "Antall",
+      "techSpecs": "Tekniske spesifikasjoner",
+      "relatedProducts": "Du liker kanskje også"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Hvorfor CoolDrivePro",
+    "power": {
+      "badge": "Strømkilde",
+      "title": "12V DC batteridrevet klimaanlegg",
+      "description": "Våre parkering klimaanlegg opererer direkte fra kjøretøyets 12V eller 24V batteri — ikke fra motorremmen. Dette designet uten tomgang gir kontinuerlig kjølekomfort under parkering."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Energieffektivitet",
+      "title": "Høyeffektiv kjøling og oppvarming uten tomgang",
+      "description": "Med 12 000 BTU kjøling (mini split) og 10 000 BTU kjøling / 4 500 BTU oppvarming (takmontert) gir våre parkering klimaanlegg kraftig klimakontroll med COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Enkel installasjon",
+      "title": "Enkel installasjon av parkering klimaanlegg",
+      "description": "Hvert parkering klimaanlegg leveres med komplett installasjonssett, forhåndsfylte kjøleledninger og trinnvis manual."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Batteribeskyttelse",
+      "title": "Intelligent batteribeskyttelse for klimaanlegg",
+      "description": "Våre parkering klimaanlegg har flernivås elektrisk sikkerhetsbeskyttelse inkludert lavspenningskutt (8-11V)."
+    },
+    "durability": {
+      "badge": "Holdbarhet",
+      "title": "Klimaanlegg bygget for ekstreme klimaer",
+      "description": "Våre parkering klimaanlegg testes grundig fra -28°C til +50°C. IP54-klassifiserte komponenter motstår støv og fuktighet."
+    },
+    "noise": {
+      "badge": "Stille drift",
+      "title": "Ultra-stille parkering klimaanlegg",
+      "description": "Kun 40 dB — våre parkering klimaanlegg er blant de stilleste på markedet. Børsteløs dobbeltvifte-teknologi gir høy luftvolum uten lyd."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - 12V Parkering Klimaanlegg for Lastebiler og Bobiler",
+    "defaultDescription": "12V DC parkering klimaanlegg uten tomgang for semitrailere, bobiler og varebiler. Spar drivstoff, reduser utslipp, kontinuerlig kjøling.",
+    "homeTitle": "Parkering Klimaanlegg for Off-Grid Liv og Mobil Komfort",
+    "productsTitle": "Våre Produkter - 12V og 24V DC Parkering Klimaanlegg",
+    "contactTitle": "Kontakt Oss - CoolDrivePro Støtte",
+    "blogTitle": "Blogg - Tips og Nyheter om Parkering Klimaanlegg",
+    "forumTitle": "Forum - CoolDrivePro Fellesskap",
+    "aboutTitle": "Om Oss - CoolDrivePro",
+    "supportTitle": "Støtte - CoolDrivePro Hjelpesenter"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Laster...",
+    "readMore": "Les mer",
+    "viewAll": "Vis alle",
+    "close": "Lukk",
+    "search": "Søk",
+    "noResults": "Ingen resultater",
+    "comingSoon": "Kommer snart",
+    "learnMore": "Lær mer",
+    "shopNow": "Kjøp nå",
+    "buyNow": "Kjøp nå",
+    "cancel": "Avbryt",
+    "posting": "Poster...",
+    "model": "Modell"
   }
 }

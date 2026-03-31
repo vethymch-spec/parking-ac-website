@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "home": "Laman Utama",
+    "products": "Produk",
+    "topMountedAC": "Penghawa Dingin Bumbung",
+    "miniSplitAC": "Penghawa Dingin Mini Split",
+    "heatingCoolingAC": "Penghawa Dingin Pemanasan/Pendinginan",
+    "allProducts": "Semua Produk",
     "forum": "Forum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "about": "Tentang Kami",
+    "contact": "Hubungi",
+    "search": "Cari",
+    "cart": "Troli",
+    "account": "Akaun",
+    "new": "BARU",
+    "login": "Log Masuk",
+    "logout": "Log Keluar"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Penghawa Dingin Tempat Letak Kereta untuk Kehidupan Off-Grid dan Selesa Bergerak",
+    "subtitle": "Penghawa Dingin 12V dan 24V DC tanpa idle untuk treler semi, RV, van dan khemah — Sejuk tanpa idle",
+    "ctaPrimary": "Beli Produk",
+    "ctaSecondary": "Ketahui Lebih Lanjut",
+    "badge": "Ketibaan Baru",
+    "trustedBy": "Dipercayai oleh lebih 10,000 pemandu di seluruh dunia"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Produk Kami",
+    "subtitle": "Penghawa Dingin Tempat Letak Kereta",
+    "mainTitle": "Unit Penghawa Dingin 12V dan 24V DC tanpa idle",
+    "description": "Penghawa dingin tempat letak kereta bateri untuk treler semi, RV, van dan khemah. Sejuk tanpa idle — Jimat bahan api, kurangkan pelepasan, selesa.",
+    "viewDetails": "Beli Sekarang",
+    "addToCart": "Tambah ke Troli",
+    "specs": "Spesifikasi",
+    "features": "Ciri-ciri",
+    "reviews": "Ulasan Pelanggan",
+    "warranty": "Waranti",
+    "freeShipping": "Penghantaran Percuma",
+    "support": "Sokongan 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Penghawa Dingin Bumbung 12000 BTU",
+      "subtitle": "Penghawa Dingin 12V/24V DC tanpa idle untuk RV dan lori",
+      "btu": "12,000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Menyejukkan sehingga 80 kaki persegi"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Penghawa Dingin Mini Split 12000 BTU",
+      "subtitle": "Penghawa Dingin 12V DC tanpa idle untuk treler semi dan RV",
+      "btu": "12,000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 jam",
+      "coverage": "Menyejukkan sehingga 60 kaki persegi"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Tambah ke Troli",
+      "buyNow": "Beli Sekarang",
+      "specifications": "Spesifikasi",
+      "reviews": "Ulasan Pelanggan",
+      "faq": "Soalan Lazim",
+      "freeShipping": "Penghantaran Percuma",
+      "warranty": "Waranti 2 Tahun",
+      "returns": "Pulangan 30 Hari",
+      "inStock": "Dalam Stok",
+      "outOfStock": "Habis Stok",
+      "quantity": "Kuantiti",
+      "techSpecs": "Spesifikasi Teknikal",
+      "relatedProducts": "Anda Mungkin Juga Suka"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Mengapa CoolDrivePro",
+    "power": {
+      "badge": "Sumber Kuasa",
+      "title": "Penghawa Dingin 12V DC Bateri",
+      "description": "Penghawa dingin tempat letak kereta kami beroperasi terus dari bateri 12V atau 24V kenderaan — bukan dari tali sawat enjin. Rekaan tanpa idle ini memberikan keselesaan penyejukan berterusan semasa meletak kereta."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Kecekapan Tenaga",
+      "title": "Penyejukan dan Pemanasan Kecekapan Tinggi Tanpa Idle",
+      "description": "Dengan 12,000 BTU penyejukan (mini split) dan 10,000 BTU penyejukan / 4,500 BTU pemanasan (bumbung), penghawa dingin tempat letak kereta kami menyediakan kawalan iklim berkuasa dengan COP ≥2.5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Pemasangan Mudah",
+      "title": "Pemasangan Penghawa Dingin Tempat Letak Kereta Mudah",
+      "description": "Setiap penghawa dingin tempat letak kereta datang dengan kit pemasangan lengkap, saluran penyejuk pra-isi dan manual langkah demi langkah."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Perlindungan Bateri",
+      "title": "Perlindungan Bateri Pintar untuk Penghawa Dingin",
+      "description": "Penghawa dingin tempat letak kereta kami mempunyai perlindungan keselamatan elektrik berbilang tahap termasuk pemotongan voltan rendah (8-11V)."
+    },
+    "durability": {
+      "badge": "Ketahanan",
+      "title": "Penghawa Dingin Dibina untuk Iklim Ekstrem",
+      "description": "Penghawa dingin tempat letak kereta kami diuji secara menyeluruh dari -28°C hingga +50°C. Komponen berpenarafan IP54 tahan habuk dan kelembapan."
+    },
+    "noise": {
+      "badge": "Operasi Senyap",
+      "title": "Penghawa Dingin Tempat Letak Kereta Ultra Senyap",
+      "description": "Hanya 40 dB — penghawa dingin tempat letak kereta kami antara yang paling senyap di pasaran. Teknologi kipas dual tanpa berus menyediakan kelantangan udara tinggi tanpa bunyi."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Penghawa Dingin Tempat Letak Kereta 12V untuk Lori dan RV",
+    "defaultDescription": "Penghawa dingin tempat letak kereta 12V DC tanpa idle untuk treler semi, RV, van dan khemah. Jimat bahan api, kurangkan pelepasan, penyejukan berterusan.",
+    "homeTitle": "Penghawa Dingin Tempat Letak Kereta untuk Kehidupan Off-Grid dan Selesa Bergerak",
+    "productsTitle": "Produk Kami - Penghawa Dingin 12V dan 24V DC",
+    "contactTitle": "Hubungi Kami - Sokongan CoolDrivePro",
+    "blogTitle": "Blog - Tips dan Berita tentang Penghawa Dingin Tempat Letak Kereta",
+    "forumTitle": "Forum - Komuniti CoolDrivePro",
+    "aboutTitle": "Tentang Kami - CoolDrivePro",
+    "supportTitle": "Sokongan - Pusat Bantuan CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Memuatkan...",
+    "readMore": "Baca Lagi",
+    "viewAll": "Lihat Semua",
+    "close": "Tutup",
+    "search": "Cari",
+    "noResults": "Tiada Keputusan",
+    "comingSoon": "Akan Datang",
+    "learnMore": "Ketahui Lebih Lanjut",
+    "shopNow": "Beli Sekarang",
+    "buyNow": "Beli Sekarang",
+    "cancel": "Batal",
+    "posting": "Menyiarkan...",
+    "model": "Model"
   }
 }

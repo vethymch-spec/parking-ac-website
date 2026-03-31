@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "home": "Beranda",
+    "products": "Produk",
+    "topMountedAC": "AC Mounted Atas",
+    "miniSplitAC": "AC Mini Split",
+    "heatingCoolingAC": "AC Pemanas/Pendingin",
+    "allProducts": "Semua Produk",
     "forum": "Forum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "search": "Cari",
+    "cart": "Keranjang",
+    "account": "Akun",
+    "new": "BARU",
+    "login": "Masuk",
+    "logout": "Keluar"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "AC Parkir untuk Hidup Off-Grid dan Kenyamanan Mobile",
+    "subtitle": "AC Parkir 12V dan 24V DC tanpa idle untuk truk semi, RV, van, dan camper — Sejuk tanpa idle",
+    "ctaPrimary": "Beli Produk",
+    "ctaSecondary": "Pelajari Lebih Lanjut",
+    "badge": "Produk Baru",
+    "trustedBy": "Dipercaya oleh lebih dari 10.000 pengemudi di seluruh dunia"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Produk Kami",
+    "subtitle": "AC Parkir",
+    "mainTitle": "Unit AC Parkir 12V dan 24V DC tanpa idle",
+    "description": "AC parkir bertenaga baterai untuk truk semi, RV, van, dan camper. Sejuk tanpa idle — Hemat bahan bakar, kurangi emisi, tetap nyaman.",
+    "viewDetails": "Beli Sekarang",
+    "addToCart": "Tambah ke Keranjang",
+    "specs": "Spesifikasi",
+    "features": "Fitur",
+    "reviews": "Ulasan Pelanggan",
+    "warranty": "Garansi",
+    "freeShipping": "Gratis Ongkir",
+    "support": "Dukungan 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "AC Mounted Atas 12000 BTU",
+      "subtitle": "AC 12V/24V DC tanpa idle untuk RV dan truk",
+      "btu": "12.000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Mendinginkan hingga 80 kaki persegi"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "AC Mini Split 12000 BTU",
+      "subtitle": "AC 12V DC tanpa idle untuk truk semi dan RV",
+      "btu": "12.000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 jam",
+      "coverage": "Mendinginkan hingga 60 kaki persegi"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Tambah ke Keranjang",
+      "buyNow": "Beli Sekarang",
+      "specifications": "Spesifikasi",
+      "reviews": "Ulasan Pelanggan",
+      "faq": "FAQ",
+      "freeShipping": "Gratis Ongkir",
+      "warranty": "Garansi 2 Tahun",
+      "returns": "Pengembalian 30 Hari",
+      "inStock": "Tersedia",
+      "outOfStock": "Habis",
+      "quantity": "Jumlah",
+      "techSpecs": "Spesifikasi Teknis",
+      "relatedProducts": "Anda Mungkin Juga Suka"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Mengapa Memilih CoolDrivePro",
+    "power": {
+      "badge": "Sumber Daya",
+      "title": "AC Parkir 12V DC Bertenaga Baterai",
+      "description": "AC parkir kami beroperasi langsung dari baterai 12V atau 24V kendaraan — bukan dari sabuk mesin. Desain tanpa idle ini memberikan kenyamanan pendinginan berkelanjutan saat parkir."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Efisiensi Energi",
+      "title": "Pendinginan dan Pemanasan Efisiensi Tinggi Tanpa Idle",
+      "description": "Dengan 12.000 BTU pendinginan (mini split) dan 10.000 BTU pendinginan / 4.500 BTU pemanasan (mounted atas), AC parkir kami memberikan kontrol iklim yang kuat dengan COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Instalasi Mudah",
+      "title": "Instalasi AC Parkir Sederhana",
+      "description": "Setiap AC parkir dilengkapi dengan kit instalasi lengkap, saluran refrigeran yang sudah diisi, dan manual langkah demi langkah."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Proteksi Baterai",
+      "title": "Proteksi Baterai Cerdas untuk AC",
+      "description": "AC parkir kami memiliki proteksi keselamatan listrik multi-level termasuk pemotongan tegangan rendah (8-11V), proteksi arus berlebih, dan pematian termal."
+    },
+    "durability": {
+      "badge": "Ketahanan",
+      "title": "AC Dibangun untuk Iklim Ekstrem",
+      "description": "AC parkir kami diuji secara ketat dari -28°C hingga +50°C suhu lingkungan. Komponen IP54 tahan terhadap debu dan kelembaban."
+    },
+    "noise": {
+      "badge": "Operasi Senyap",
+      "title": "AC Parkir Ultra Senyap",
+      "description": "Hanya 40 dB, AC parkir kami termasuk yang paling senyap di pasaran. Teknologi kipas ganda tanpa sikat memberikan volume udara tinggi tanpa suara."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - AC Parkir 12V untuk Truk dan RV",
+    "defaultDescription": "AC parkir 12V DC tanpa idle untuk truk semi, RV, van, dan camper. Hemat bahan bakar, kurangi emisi, pendinginan berkelanjutan.",
+    "homeTitle": "AC Parkir untuk Hidup Off-Grid dan Kenyamanan Mobile",
+    "productsTitle": "Produk Kami - AC Parkir 12V dan 24V DC",
+    "contactTitle": "Hubungi Kami - Dukungan CoolDrivePro",
+    "blogTitle": "Blog - Tips dan Berita tentang AC Parkir",
+    "forumTitle": "Forum - Komunitas CoolDrivePro",
+    "aboutTitle": "Tentang Kami - CoolDrivePro",
+    "supportTitle": "Dukungan - Pusat Bantuan CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Memuat...",
+    "readMore": "Baca Selengkapnya",
+    "viewAll": "Lihat Semua",
+    "close": "Tutup",
+    "search": "Cari",
+    "noResults": "Tidak ada hasil",
+    "comingSoon": "Segera Hadir",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "shopNow": "Beli Sekarang",
+    "buyNow": "Beli Sekarang",
+    "cancel": "Batal",
+    "posting": "Mengirim...",
+    "model": "Model"
   }
 }

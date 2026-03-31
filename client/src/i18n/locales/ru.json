@@ -1,198 +1,205 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "home": "Главная",
+    "products": "Продукты",
+    "topMountedAC": "Крышный кондиционер",
+    "miniSplitAC": "Мини-сплит кондиционер",
+    "heatingCoolingAC": "Кондиционер обогрев/охлаждение",
+    "allProducts": "Все продукты",
+    "forum": "Форум",
+    "blog": "Блог",
+    "about": "О нас",
+    "contact": "Контакты",
+    "search": "Поиск",
+    "cart": "Корзина",
+    "account": "Аккаунт",
+    "new": "НОВИНКА",
+    "admin": "Админ",
+    "customer": "Клиент",
+    "ticketManagement": "Управление тикетами",
+    "customerManagement": "Управление клиентами",
+    "supportPortal": "Мой портал поддержки",
+    "logout": "Выйти",
+    "login": "Войти",
+    "adminLogout": "Выход администратора",
+    "customerLogout": "Выход клиента",
+    "mySupportPortal": "Мой портал поддержки",
+    "adminPanel": "Панель администратора",
+    "menu": "Меню",
+    "shoppingCart": "Корзина",
+    "brandKnowledge": "Знания о бренде",
+    "paymentMethod": "Способ оплаты",
+    "billingTerms": "Условия биллинга",
+    "trackOrder": "Отследить заказ",
+    "supportAvailability": "Поддержка доступна: с 11:00 до 21:00 по тихоокеанскому времени (PT), ответим в течение 1-12 часов."
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Кондиционер для стоянки для автономной жизни и мобильного комфорта",
+    "subtitle": "12V и 24V DC кондиционер без холостого хода для полуприцепов, автодомов, фургонов и кемперов — Прохлада без холостого хода",
+    "ctaPrimary": "Купить продукты",
+    "ctaSecondary": "Узнать больше",
+    "badge": "Новое поступление",
+    "trustedBy": "Нам доверяют более 10 000 водителей по всему миру"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Наши продукты",
+    "subtitle": "Кондиционер для стоянки",
+    "mainTitle": "12V и 24V DC кондиционеры без холостого хода",
+    "description": "Кондиционеры для стоянки на батареях для полуприцепов, автодомов, фургонов и кемперов. Прохлада без холостого хода — Экономьте топливо, снижайте выбросы, оставайтесь в комфорте.",
+    "viewDetails": "Купить сейчас",
+    "addToCart": "Добавить в корзину",
+    "specs": "Характеристики",
+    "features": "Особенности",
+    "reviews": "Отзывы клиентов",
+    "warranty": "Гарантия",
+    "freeShipping": "Бесплатная доставка",
+    "support": "Поддержка 24/7",
+    "learnMore": "Узнать больше",
+    "cooling": "Охлаждение",
+    "heating": "Обогрев",
+    "heatingCooling": "Обогрев и охлаждение",
+    "specs": {
+      "coolingCapacity": "Охлаждающая способность",
+      "heatingCapacity": "Мощность обогрева",
+      "current": "Ток",
+      "powerSupply": "Источник питания",
+      "noiseLevel": "Уровень шума",
+      "batteryRuntime": "Время работы от батареи",
+      "flowRate": "Расход",
+      "fuelType": "Тип топлива",
+      "installation": "Установка",
+      "heatingSpeed": "Скорость обогрева",
+      "airOutput": "Воздушный поток"
+    },
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Крышный кондиционер 12000 BTU",
+      "subtitle": "12V/24V DC кондиционер без холостого хода для автодомов и грузовиков",
+      "description": "Высококачественный крышный кондиционер с двойным роторным компрессором R410A для автодомов, полуприцепов и фургонов. Этот 12V/24V DC кондиционер без холостого хода обеспечивает 12000 BTU охлаждения — поддерживает комфорт в кабине или автодоме без запуска двигателя. С защитой батареи от пониженного напряжения и тихой работой на уровне 45 дБ.",
+      "btu": "12 000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Охлаждает до 80 квадратных футов",
+      "imageAlt": "Разборочный вид крышного кондиционера 10000 BTU — 12V/24V DC кондиционер без холостого хода для автодомов и грузовиков"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Мини-сплит кондиционер 12000 BTU",
+      "subtitle": "12V DC кондиционер без холостого хода для полуприцепов и автодомов",
+      "description": "Высокопроизводительный 12V DC мини-сплит кондиционер для кабин полуприцепов, автодомов и фургонов. С 12000 BTU мощности охлаждения без холостого хода, этот бесканальный кондиционер работает напрямую от батареи транспортного средства — без генератора, без внешнего питания. Горизонтальная установка на крышу подходит для большинства грузовиков и автодомов.",
+      "btu": "12 000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 часов",
+      "coverage": "Охлаждает до 60 квадратных футов",
+      "imageAlt": "Мини-сплит кондиционер 12000 BTU для полуприцепов и автодомов — 12V DC без холостого хода"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "waterHeater": {
+      "title": "Проточный водонагреватель 65000 BTU для автодомов и грузовиков",
+      "subtitle": "Проточный нагреватель на пропане для автономной жизни",
+      "description": "Дополните свою автономную систему комфорта этим проточным водонагревателем 65 000 BTU, специально разработанным для автодомов, полуприцепов и кемперов. Обеспечивает 2.9 GPM мгновенной горячей воды — идеальный компаньон для вашего кондиционера для стоянки для комфорта круглый год на дороге.",
+      "imageAlt": "Проточный водонагреватель 65000 BTU для автодомов и полуприцепов — Горячая вода в автономном режиме"
+    },
+    "heatingCoolingAC": {
+      "title": "Кондиционер обогрев/охлаждение V-TH1",
+      "subtitle": "12V/24V DC роторный кондиционер двойного режима — Комфорт круглый год",
+      "description": "Первый кондиционер для стоянки двойного режима от CoolDrivePro. V-TH1 обеспечивает до 2000Вт охлаждения летом и нагревает кабину с 5°C до 30°C всего за 30 минут зимой. С двойным роторным компрессором GMCC и хладагентом R134A, этот 12V/24V DC роторный кондиционер обеспечивает климат-контроль круглый год для грузовиков, автодомов, фургонов и специальных транспортных средств — без холостого хода двигателя.",
+      "imageAlt": "Кондиционер обогрев/охлаждение V-TH1 — 12V/24V DC роторный кондиционер двойного режима"
+    },
+    "detail": {
+      "addToCart": "Добавить в корзину",
+      "buyNow": "Купить сейчас",
+      "specifications": "Характеристики",
+      "reviews": "Отзывы клиентов",
+      "faq": "Часто задаваемые вопросы",
+      "freeShipping": "Бесплатная доставка",
+      "warranty": "Гарантия 2 года",
+      "returns": "Возврат 30 дней",
+      "inStock": "В наличии",
+      "outOfStock": "Нет в наличии",
+      "quantity": "Количество",
+      "shipping": "Доставка",
+      "shippingDesc": "Бесплатная доставка при заказе свыше $500 в континентальную часть США. Доставка за 3-5 рабочих дней.",
+      "warrantyDesc": "2-летняя гарантия производителя, покрывающая дефекты материалов и изготовления.",
+      "returnsDesc": "Простая политика возврата в течение 30 дней. Полный возврат средств при неудовлетворенности.",
+      "techSpecs": "Технические характеристики",
+      "reviewsTitle": "Что говорят наши клиенты",
+      "verifiedPurchase": "Подтвержденная покупка",
+      "helpful": "Полезно",
+      "writeReview": "Написать отзыв",
+      "loadMore": "Загрузить больше отзывов",
+      "faqTitle": "Общие вопросы",
+      "relatedProducts": "Вам также может понравиться",
+      "viewDetails": "Посмотреть детали",
+      "gallery": "Галерея",
+      "zoom": "Нажмите для увеличения",
+      "share": "Поделиться",
+      "save": "Сохранить на потом"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Почему выбирают CoolDrivePro",
+    "subtitle": "Разработано для надежности и эффективности в сложных условиях",
+    "mainTitle": "Почему наш кондиционер для стоянки",
+    "subTitle": "Создано для работы без холостого хода",
+    "learnMore": "Узнать больше о",
+    "power": {
+      "badge": "Источник питания",
+      "title": "12V DC кондиционер на батарейках",
+      "description": "Наши кондиционеры для стоянки работают напрямую от батареи транспортного средства 12V или 24V — не от ремня двигателя. Этот дизайн без холостого хода обеспечивает непрерывный комфорт охлаждения при стоянке, устраняя расходы на топливо и износ двигателя. Встроенная защита от пониженного напряжения гарантирует, что кондиционер никогда не разрядит батарею ниже безопасного уровня.",
+      "imageAlt": "Полуприцеп с 12V кондиционером — DC охлаждение без холостого хода"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Энергоэффективность",
+      "title": "Высокоэффективное охлаждение и обогрев без холостого хода",
+      "description": "С 12 000 BTU охлаждения (мини-сплит) и 10 000 BTU охлаждения / 4 500 BTU обогрева (крышный), наши кондиционеры для стоянки обеспечивают мощный климат-контроль при COP ≥2,5. Технология компрессора с переменной скоростью означает, что кондиционер использует только необходимую энергию — максимизируя время работы от батареи.",
+      "imageAlt": "Кемпинг в горах — Энергоэффективный кондиционер"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Простая установка",
+      "title": "Простая установка кондиционера для стоянки",
+      "description": "Каждый кондиционер для стоянки поставляется с полным комплектом установки, предварительно заправленными линиями хладагента и пошаговым руководством. Сертификация HVAC не требуется. Большинство установок занимают 2–4 часа. Совместим со стандартными крышными отверстиями автодомов 14 дюймов и универсальными креплениями для кабин грузовиков.",
+      "imageAlt": "Установка кондиционера на крышу автодома — Простая самостоятельная установка"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Защита батареи",
+      "title": "Умная защита батареи для кондиционера",
+      "description": "Наши кондиционеры для стоянки имеют многоуровневую электрическую защиту безопасности, включая отключение при пониженном напряжении (8–11V), защиту от перегрузки по току и тепловое отключение. Батарея вашего транспортного средства защищена от глубокого разряда — критически важно для надежного запуска двигателя после полной ночи работы кондиционера.",
+      "imageAlt": "Кабина полуприцепа — Кондиционер с защитой батареи"
+    },
+    "durability": {
+      "badge": "Долговечность",
+      "title": "Кондиционер, созданный для экстремальных климатов",
+      "description": "Наши кондиционеры для стоянки проходят строгие испытания при температуре окружающей среды от -28°C до +50°C. Независимо от того, припаркованы ли вы на пустынной стоянке грузовиков в Аризоне или зимней зоне отдыха в Миннесоте, ваш кондиционер поддерживает оптимальную производительность. Компоненты с рейтингом IP54 устойчивы к пыли и влаге.",
+      "imageAlt": "Автодом в пустыне — Кондиционер для экстремальной жары"
+    },
+    "noise": {
+      "badge": "Тихая работа",
+      "title": "Сверхтихий кондиционер для стоянки",
+      "description": "Всего 40 дБ — наши кондиционеры для стоянки среди самых тихих на рынке. Бесщеточная технология двойного вентилятора обеспечивает высокий объем воздуха без шума — так что вы можете спать комфортно, пока кондиционер работает. Идеально для жилых районов и кемпингов с ограничениями по шуму.",
+      "imageAlt": "Тихий кемпинг ночью — Кондиционер, работающий тихо"
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Кондиционер для Стоянки для Грузовиков и Автодомов",
+    "defaultDescription": "Кондиционеры для стоянки 12V DC для грузовиков, автодомов и жизни в фургоне. Эффективное охлаждение без холостого хода двигателя. Купите крышные и мини-сплит установки.",
+    "homeTitle": "Кондиционер для Стоянки для Автономной Жизни и Мобильного Комфорта | CoolDrivePro",
+    "productsTitle": "Кондиционеры 12V - Купите Крышные и Мини-Сплит Установки",
+    "contactTitle": "Свяжитесь с Нами - Поддержка CoolDrivePro",
+    "blogTitle": "Блог - Советы и Руководства по Системам Кондиционирования",
+    "forumTitle": "Форум Сообщества - Обсуждения Кондиционеров",
+    "aboutTitle": "О Нас - CoolDrivePro",
+    "supportTitle": "Поддержка - CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Загрузка...",
+    "readMore": "Читать далее",
+    "viewAll": "Смотреть все",
+    "close": "Закрыть",
+    "search": "Поиск",
+    "noResults": "Результатов не найдено",
+    "comingSoon": "Скоро",
+    "learnMore": "Узнать больше",
+    "shopNow": "Купить сейчас",
+    "buyNow": "Купить сейчас",
+    "cancel": "Отмена",
+    "posting": "Публикация...",
+    "model": "Модель"
   }
 }

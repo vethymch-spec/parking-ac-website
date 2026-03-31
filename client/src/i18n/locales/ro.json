@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "home": "Acasă",
+    "products": "Produse",
+    "topMountedAC": "Aer condiționat pe acoperiș",
+    "miniSplitAC": "Aer condiționat mini split",
+    "heatingCoolingAC": "Aer condiționat încălzire/răcire",
+    "allProducts": "Toate produsele",
     "forum": "Forum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "about": "Despre noi",
+    "contact": "Contact",
+    "search": "Căutare",
+    "cart": "Coș",
+    "account": "Cont",
+    "new": "NOU",
+    "login": "Autentificare",
+    "logout": "Deconectare"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Aer condiționat de parcare pentru viață off-grid și confort mobil",
+    "subtitle": "Aer condiționat 12V și 24V DC fără ralanti pentru camioane, rulote și autoutilitare — Răcoare fără ralanti",
+    "ctaPrimary": "Cumpără produse",
+    "ctaSecondary": "Află mai multe",
+    "badge": "Nou",
+    "trustedBy": "Încredere din partea a peste 10.000 de șoferi din întreaga lume"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Produsele noastre",
+    "subtitle": "Aer condiționat de parcare",
+    "mainTitle": "Aer condiționat 12V și 24V DC fără ralanti",
+    "description": "Aer condiționat de parcare alimentat cu baterie pentru camioane, rulote și autoutilitare. Răcoare fără ralanti — Economie de combustibil, reducerea emisiilor, confort.",
+    "viewDetails": "Cumpără acum",
+    "addToCart": "Adaugă în coș",
+    "specs": "Specificații",
+    "features": "Caracteristici",
+    "reviews": "Recenzii clienți",
+    "warranty": "Garanție",
+    "freeShipping": "Livrare gratuită",
+    "support": "Suport 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Aer condiționat pe acoperiș 12000 BTU",
+      "subtitle": "Aer condiționat 12V/24V DC fără ralanti pentru rulote și camioane",
+      "btu": "12.000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Răcește până la 80 de picioare pătrate"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Aer condiționat mini split 12000 BTU",
+      "subtitle": "Aer condiționat 12V DC fără ralanti pentru camioane și rulote",
+      "btu": "12.000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 ore",
+      "coverage": "Răcește până la 60 de picioare pătrate"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Adaugă în coș",
+      "buyNow": "Cumpără acum",
+      "specifications": "Specificații",
+      "reviews": "Recenzii clienți",
+      "faq": "Întrebări frecvente",
+      "freeShipping": "Livrare gratuită",
+      "warranty": "Garanție 2 ani",
+      "returns": "Returnare 30 zile",
+      "inStock": "În stoc",
+      "outOfStock": "Stoc epuizat",
+      "quantity": "Cantitate",
+      "techSpecs": "Specificații tehnice",
+      "relatedProducts": "S-ar putea să-ți placă și"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "De ce CoolDrivePro",
+    "power": {
+      "badge": "Sursă de alimentare",
+      "title": "Aer condiționat 12V DC alimentat cu baterie",
+      "description": "Aer condiționat de parcare funcționează direct de la bateria de 12V sau 24V a vehiculului — nu de la curea motorului. Acest design fără ralanti oferă confort de răcire continuu la parcare."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Eficiență energetică",
+      "title": "Răcire și încălzire de înaltă eficiență fără ralanti",
+      "description": "Cu 12.000 BTU răcire (mini split) și 10.000 BTU răcire / 4.500 BTU încălzire (pe acoperiș), aer condiționat de parcare oferă control climatic puternic cu COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Instalare ușoară",
+      "title": "Instalare simplă aer condiționat de parcare",
+      "description": "Fiecare aer condiționat de parcare vine cu kit complet de instalare, conducte de refrigerant preîncărcate și manual pas cu pas."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Protecție baterie",
+      "title": "Protecție inteligentă a bateriei pentru aer condiționat",
+      "description": "Aer condiționat de parcare are protecție electrică de siguranță multi-nivel, inclusiv deconectare la sub-tensiune (8-11V)."
+    },
+    "durability": {
+      "badge": "Durabilitate",
+      "title": "Aer condiționat construit pentru climate extreme",
+      "description": "Aer condiționat de parcare este testat riguros de la -28°C la +50°C. Componentele cu clasificare IP54 rezistă la praf și umiditate."
+    },
+    "noise": {
+      "badge": "Funcționare silențioasă",
+      "title": "Aer condiționat de parcare ultra-silențios",
+      "description": "Doar 40 dB — aer condiționat de parcare se numără printre cele mai silențioase de pe piață. Tehnologia ventilatorului dual fără perii oferă volum mare de aer fără zgomot."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Aer Condiționat de Parcare 12V pentru Camioane și Rulote",
+    "defaultDescription": "Aer condiționat de parcare 12V DC fără ralanti pentru camioane, rulote și autoutilitare. Economie de combustibil, reducerea emisiilor, răcire continuă.",
+    "homeTitle": "Aer Condiționat de Parcare pentru Viață Off-Grid și Confort Mobil",
+    "productsTitle": "Produsele Noastre - Aer Condiționat 12V și 24V DC",
+    "contactTitle": "Contactați-Ne - Suport CoolDrivePro",
+    "blogTitle": "Blog - Sfaturi și Știri despre Aerul Condiționat de Parcare",
+    "forumTitle": "Forum - Comunitatea CoolDrivePro",
+    "aboutTitle": "Despre Noi - CoolDrivePro",
+    "supportTitle": "Suport - Centrul de Ajutor CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Se încarcă...",
+    "readMore": "Citește mai mult",
+    "viewAll": "Vezi toate",
+    "close": "Închide",
+    "search": "Căutare",
+    "noResults": "Niciun rezultat",
+    "comingSoon": "În curând",
+    "learnMore": "Află mai multe",
+    "shopNow": "Cumpără acum",
+    "buyNow": "Cumpără acum",
+    "cancel": "Anulează",
+    "posting": "Se postează...",
+    "model": "Model"
   }
 }

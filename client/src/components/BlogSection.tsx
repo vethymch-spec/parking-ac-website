@@ -4,6 +4,7 @@
  * Shows latest 6 posts with "View All 50 Articles" CTA
  */
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
 
 const posts = [
@@ -58,6 +59,7 @@ const posts = [
 ];
 
 export default function BlogSection() {
+  const { t } = useTranslation();
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -84,13 +86,13 @@ export default function BlogSection() {
               className="text-xs font-bold uppercase tracking-widest mb-2"
               style={{ color: "oklch(0.50 0.12 255)", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Parking AC Knowledge Base
+              {t('blog.knowledgeBase')}
             </p>
             <h2
               className="text-2xl sm:text-3xl font-extrabold"
               style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Latest Guides & Articles
+              {t('blog.latestGuides')}
             </h2>
           </div>
           <Link
@@ -102,7 +104,7 @@ export default function BlogSection() {
               fontFamily: "'Montserrat', sans-serif",
             }}
           >
-            View All 50 Articles →
+            {t('blog.viewAll', { count: 50 })} →
           </Link>
         </div>
 
@@ -156,7 +158,7 @@ export default function BlogSection() {
                   className="text-sm font-semibold flex items-center gap-1 transition-all hover:gap-2"
                   style={{ color: "oklch(0.45 0.18 255)", fontFamily: "'Inter', sans-serif" }}
                 >
-                  Read More <span>→</span>
+                  {t('blog.readMore')} <span>→</span>
                 </Link>
               </div>
             </article>
@@ -169,7 +171,7 @@ export default function BlogSection() {
             className="inline-block px-8 py-3 rounded-lg font-bold text-white text-sm transition-all hover:opacity-90"
             style={{ backgroundColor: "oklch(0.45 0.18 255)", fontFamily: "'Montserrat', sans-serif" }}
           >
-            Browse All 50 Parking AC Articles →
+            {t('blog.browseAll', { count: 50 })} →
           </Link>
         </div>
       </div>

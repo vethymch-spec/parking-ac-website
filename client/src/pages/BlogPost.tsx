@@ -9,6 +9,7 @@
 import { useState, useEffect } from "react";
 import { Link, useParams } from "wouter";
 import { ChevronRight, Calendar, Tag, Loader2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 
 interface BlogPostData {
@@ -22,6 +23,7 @@ interface BlogPostData {
 }
 
 export default function BlogPost() {
+  const { t } = useTranslation();
   const params = useParams<{ slug: string }>();
   const slug = params.slug || "";
   const [post, setPost] = useState<BlogPostData | null>(null);
@@ -66,10 +68,10 @@ export default function BlogPost() {
       <PageLayout>
         <div className="max-w-[800px] mx-auto px-4 lg:px-8 py-20 text-center">
           <h1 className="text-2xl font-extrabold mb-4" style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}>
-            Article Not Found
+            {t('blog.post.notFound', 'Article Not Found')}
           </h1>
           <Link href="/blog" className="text-sm font-semibold" style={{ color: "oklch(0.45 0.18 255)" }}>
-            ← Back to Blog
+            {t('blog.post.backToBlog', '← Back to Blog')}
           </Link>
         </div>
       </PageLayout>
@@ -80,9 +82,9 @@ export default function BlogPost() {
     <PageLayout>
       {/* Breadcrumb */}
       <nav className="max-w-[1280px] mx-auto px-4 lg:px-8 py-3 flex items-center gap-1.5 text-sm" style={{ color: "oklch(0.55 0.05 250)", fontFamily: "'Inter', sans-serif" }}>
-        <Link href="/" className="hover:underline">Home</Link>
+        <Link href="/" className="hover:underline">{t('nav.home')}</Link>
         <ChevronRight size={14} />
-        <Link href="/blog" className="hover:underline">Blog</Link>
+        <Link href="/blog" className="hover:underline">{t('nav.blog')}</Link>
         <ChevronRight size={14} />
         <span className="truncate max-w-[300px]" style={{ color: "oklch(0.35 0.10 250)" }}>{post.title}</span>
       </nav>
@@ -156,10 +158,10 @@ export default function BlogPost() {
             className="text-lg font-extrabold text-white mb-2"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            Ready to Experience No-Idle Cooling?
+            {t('blog.post.readyToExperience', 'Ready to Experience No-Idle Cooling?')}
           </h3>
           <p className="text-sm text-white/70 mb-4" style={{ fontFamily: "'Inter', sans-serif" }}>
-            Explore our 12V/24V parking air conditioners — free shipping on all US orders.
+            {t('blog.post.exploreOur', 'Explore our 12V/24V parking air conditioners — free shipping on all US orders.')}
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
@@ -167,14 +169,14 @@ export default function BlogPost() {
               className="px-5 py-2.5 rounded-lg font-bold text-white text-sm transition-all hover:opacity-90"
               style={{ backgroundColor: "oklch(0.45 0.18 255)", fontFamily: "'Montserrat', sans-serif" }}
             >
-              Shop VS02 PRO Top-Mounted AC
+              {t('blog.post.shopTopMounted', 'Shop VS02 PRO Top-Mounted AC')}
             </Link>
             <Link
               href="/products/mini-split-ac"
               className="px-5 py-2.5 rounded-lg font-bold text-sm border border-white/30 text-white hover:bg-white/10 transition-colors"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
-              Shop VX3000SP Mini Split AC
+              {t('blog.post.shopMiniSplit', 'Shop VX3000SP Mini Split AC')}
             </Link>
           </div>
         </div>

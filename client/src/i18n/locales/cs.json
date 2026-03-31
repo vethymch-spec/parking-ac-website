@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
+    "home": "Domů",
+    "products": "Produkty",
+    "topMountedAC": "Střešní klimatizace",
+    "miniSplitAC": "Mini split klimatizace",
+    "heatingCoolingAC": "Klimatizace s vytápěním",
+    "allProducts": "Všechny produkty",
+    "forum": "Fórum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "about": "O nás",
+    "contact": "Kontakt",
+    "search": "Hledat",
+    "cart": "Košík",
+    "account": "Účet",
+    "new": "NOVÉ",
+    "login": "Přihlásit se",
+    "logout": "Odhlásit se"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Parkovací klimatizace pro život off-grid a mobilní pohodlí",
+    "subtitle": "12V a 24V DC klimatizace bez volnoběhu pro nákladní vozy, karavany a dodávky — Chlazení bez volnoběhu",
+    "ctaPrimary": "Nakupovat produkty",
+    "ctaSecondary": "Zjistit více",
+    "badge": "Novinka",
+    "trustedBy": "Důvěřuje nám více než 10 000 řidičů po celém světě"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Naše produkty",
+    "subtitle": "Parkovací klimatizace",
+    "mainTitle": "12V a 24V DC parkovací klimatizace bez volnoběhu",
+    "description": "Bateriem napájené parkovací klimatizace pro nákladní vozy, karavany a dodávky. Chlazení bez volnoběhu — Úspora paliva, snížení emisí, pohodlí.",
+    "viewDetails": "Koupit nyní",
+    "addToCart": "Přidat do košíku",
+    "specs": "Specifikace",
+    "features": "Funkce",
+    "reviews": "Hodnocení zákazníků",
+    "warranty": "Záruka",
+    "freeShipping": "Doprava zdarma",
+    "support": "Podpora 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Střešní klimatizace 12000 BTU",
+      "subtitle": "12V/24V DC klimatizace bez volnoběhu pro karavany a nákladní vozy",
+      "btu": "12 000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Chladí až 80 čtverečních stop"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Mini split klimatizace 12000 BTU",
+      "subtitle": "12V DC klimatizace bez volnoběhu pro nákladní vozy a karavany",
+      "btu": "12 000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 hodin",
+      "coverage": "Chladí až 60 čtverečních stop"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Přidat do košíku",
+      "buyNow": "Koupit nyní",
+      "specifications": "Specifikace",
+      "reviews": "Hodnocení zákazníků",
+      "faq": "Časté dotazy",
+      "freeShipping": "Doprava zdarma",
+      "warranty": "Záruka 2 roky",
+      "returns": "Vrácení do 30 dnů",
+      "inStock": "Skladem",
+      "outOfStock": "Vyprodáno",
+      "quantity": "Množství",
+      "techSpecs": "Technické specifikace",
+      "relatedProducts": "Mohlo by se vám také líbit"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Proč zvolit CoolDrivePro",
+    "power": {
+      "badge": "Zdroj energie",
+      "title": "12V DC bateriem napájená klimatizace",
+      "description": "Naše parkovací klimatizace pracují přímo z 12V nebo 24V baterie vozidla — ne z motorového řemene. Tento design bez volnoběhu poskytuje nepřetržité chladicí pohodlí při parkování."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Energetická účinnost",
+      "title": "Vysoce účinné chlazení a vytápění bez volnoběhu",
+      "description": "S 12 000 BTU chlazení (mini split) a 10 000 BTU chlazení / 4 500 BTU vytápění (střešní) naše parkovací klimatizace poskytují výkonnou klimatickou kontrolu s COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Jednoduchá instalace",
+      "title": "Jednoduchá instalace parkovací klimatizace",
+      "description": "Každá parkovací klimatizace obsahuje kompletní instalační sadu, předem naplněné chladicí vedení a návod krok za krokem."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Ochrana baterie",
+      "title": "Inteligentní ochrana baterie pro klimatizaci",
+      "description": "Naše parkovací klimatizace mají víceúrovňovou elektrickou ochranu bezpečnosti včetně odpojení při nízkém napětí (8-11V)."
+    },
+    "durability": {
+      "badge": "Odolnost",
+      "title": "Klimatizace postavená pro extrémní podnebí",
+      "description": "Naše parkovací klimatizace jsou přísně testovány od -28°C do +50°C. Komponenty s krytím IP54 odolávají prachu a vlhkosti."
+    },
+    "noise": {
+      "badge": "Tichý provoz",
+      "title": "Ultra tichá parkovací klimatizace",
+      "description": "Pouhých 40 dB — naše parkovací klimatizace patří mezi nejtichší na trhu. Bezkartáčová technologie dvojitých ventilátorů poskytuje vysoký objem vzduchu bez hluku."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - 12V Parkovací Klimatizace pro Nákladní Vozy a Karavany",
+    "defaultDescription": "12V DC parkovací klimatizace bez volnoběhu pro nákladní vozy, karavany a dodávky. Úspora paliva, snížení emisí, nepřetržité chlazení.",
+    "homeTitle": "Parkovací Klimatizace pro Život Off-Grid a Mobilní Pohodlí",
+    "productsTitle": "Naše Produkty - 12V a 24V DC Parkovací Klimatizace",
+    "contactTitle": "Kontaktujte Nás - Podpora CoolDrivePro",
+    "blogTitle": "Blog - Tipy a Novinky o Parkovacích Klimatizacích",
+    "forumTitle": "Fórum - Komunita CoolDrivePro",
+    "aboutTitle": "O Nás - CoolDrivePro",
+    "supportTitle": "Podpora - Centrum Nápovědy CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Načítání...",
+    "readMore": "Číst více",
+    "viewAll": "Zobrazit vše",
+    "close": "Zavřít",
+    "search": "Hledat",
+    "noResults": "Žádné výsledky",
+    "comingSoon": "Již brzy",
+    "learnMore": "Zjistit více",
+    "shopNow": "Koupit nyní",
+    "buyNow": "Koupit nyní",
+    "cancel": "Zrušit",
+    "posting": "Odesílání...",
+    "model": "Model"
   }
 }

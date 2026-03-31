@@ -1,198 +1,205 @@
 {
   "nav": {
     "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
+    "products": "Prodotti",
+    "topMountedAC": "Condizionatore da tetto",
+    "miniSplitAC": "Condizionatore mini split",
+    "heatingCoolingAC": "Condizionatore caldo/freddo",
+    "allProducts": "Tutti i prodotti",
     "forum": "Forum",
     "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "search": "Cerca",
+    "cart": "Carrello",
     "account": "Account",
-    "new": "NEW",
+    "new": "NUOVO",
     "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "customer": "Cliente",
+    "ticketManagement": "Gestione ticket",
+    "customerManagement": "Gestione clienti",
+    "supportPortal": "Il mio portale supporto",
+    "logout": "Disconnetti",
+    "login": "Accedi",
+    "adminLogout": "Disconnessione admin",
+    "customerLogout": "Disconnessione cliente",
+    "mySupportPortal": "Il mio portale supporto",
+    "adminPanel": "Pannello admin",
+    "menu": "Menu",
+    "shoppingCart": "Carrello",
+    "brandKnowledge": "Conoscenza del marchio",
+    "paymentMethod": "Metodo di pagamento",
+    "billingTerms": "Termini di fatturazione",
+    "trackOrder": "Traccia ordine",
+    "supportAvailability": "Disponibilità supporto: 11:00-21:00 Ora del Pacifico (PT), risponderemo entro 1-12 ore."
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Condizionatore di parcheggio per vita off-grid e comfort mobile",
+    "subtitle": "Condizionatore 12V e 24V DC senza minimo per camion semirimorchio, camper, furgoni e camper — Fresco senza minimo",
+    "ctaPrimary": "Acquista prodotti",
+    "ctaSecondary": "Scopri di più",
+    "badge": "Nuovo arrivo",
+    "trustedBy": "Fidato da oltre 10,000 conducenti in tutto il mondo"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "I nostri prodotti",
+    "subtitle": "Condizionatore di parcheggio",
+    "mainTitle": "Unità condizionatore 12V e 24V DC senza minimo",
+    "description": "Condizionatori di parcheggio alimentati a batteria per camion semirimorchio, camper, furgoni e camper. Fresco senza minimo — Risparmia carburante, riduci emissioni, resta comodo.",
+    "viewDetails": "Acquista ora",
+    "addToCart": "Aggiungi al carrello",
+    "specs": "Specifiche",
+    "features": "Caratteristiche",
+    "reviews": "Recensioni clienti",
+    "warranty": "Garanzia",
+    "freeShipping": "Spedizione gratuita",
+    "support": "Supporto 24/7",
+    "learnMore": "Scopri di più",
+    "cooling": "Raffreddamento",
+    "heating": "Riscaldamento",
+    "heatingCooling": "Caldo e freddo",
+    "specs": {
+      "coolingCapacity": "Capacità di raffreddamento",
+      "heatingCapacity": "Capacità di riscaldamento",
+      "current": "Corrente",
+      "powerSupply": "Alimentazione",
+      "noiseLevel": "Livello di rumore",
+      "batteryRuntime": "Autonomia batteria",
+      "flowRate": "Portata",
+      "fuelType": "Tipo di carburante",
+      "installation": "Installazione",
+      "heatingSpeed": "Velocità di riscaldamento",
+      "airOutput": "Uscita aria"
+    },
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Condizionatore da tetto 12000 BTU",
+      "subtitle": "Condizionatore 12V/24V DC senza minimo per camper e camion",
+      "description": "L'ultimo condizionatore di parcheggio con compressore rotativo doppio R410A per camper, camion semirimorchio e furgoni. Questo condizionatore 12V/24V DC senza minimo offre 12000 BTU di capacità di raffreddamento — mantiene la tua cabina o camper confortevole senza far funzionare il motore. Con protezione batteria sottotensione e funzionamento silenzioso a 45 dB.",
+      "btu": "12.000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Raffredda fino a 80 piedi quadrati",
+      "imageAlt": "Vista esplosa condizionatore da tetto 10000 BTU — Condizionatore 12V/24V DC senza minimo per camper e camion"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Condizionatore mini split 12000 BTU",
+      "subtitle": "Condizionatore 12V DC senza minimo per camion semirimorchio e camper",
+      "description": "Condizionatore mini split 12V DC ad alta capacità per cabine di camion semirimorchio, camper e furgoni. Con 12000 BTU di potenza di raffreddamento senza minimo, questo condizionatore senza condotti funziona direttamente dalla batteria del veicolo — nessun generatore, nessuna alimentazione a terra necessaria. Installazione orizzontale sul tetto adatta alla maggior parte dei camion e camper.",
+      "btu": "12.000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 ore",
+      "coverage": "Raffredda fino a 60 piedi quadrati",
+      "imageAlt": "Condizionatore mini split 12000 BTU per camion semirimorchio e camper — 12V DC senza minimo"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "waterHeater": {
+      "title": "Scaldacqua istantaneo 65000 BTU per camper e camion",
+      "subtitle": "Scaldacqua istantaneo a propano per vita off-grid",
+      "description": "Completa il tuo sistema di comfort off-grid con questo scaldacqua istantaneo 65.000 BTU, progettato specificamente per camper, camion semirimorchio e camper. Fornisce 2.9 GPM di acqua calda istantanea — il compagno perfetto per il tuo condizionatore di parcheggio per comfort durante tutto l'anno sulla strada.",
+      "imageAlt": "Scaldacqua istantaneo 65000 BTU per camper e camion semirimorchio — Acqua calda off-grid"
+    },
+    "heatingCoolingAC": {
+      "title": "Condizionatore caldo/freddo V-TH1",
+      "subtitle": "Condizionatore rotativo 12V/24V DC doppia modalità — Comfort durante tutto l'anno",
+      "description": "Il primo condizionatore di parcheggio doppia modalità di CoolDrivePro. Il V-TH1 offre fino a 2.000W di raffreddamento in estate e riscalda la tua cabina da 5°C a 30°C in soli 30 minuti durante l'inverno. Con compressore rotativo doppio GMCC e refrigerante R134A, questo condizionatore rotativo 12V/24V DC fornisce controllo climatico durante tutto l'anno per camion, camper, furgoni e veicoli speciali — senza minimo del motore.",
+      "imageAlt": "Condizionatore caldo/freddo V-TH1 — Condizionatore rotativo 12V/24V DC doppia modalità"
+    },
+    "detail": {
+      "addToCart": "Aggiungi al carrello",
+      "buyNow": "Acquista ora",
+      "specifications": "Specifiche",
+      "reviews": "Recensioni clienti",
+      "faq": "Domande frequenti",
+      "freeShipping": "Spedizione gratuita",
+      "warranty": "Garanzia 2 anni",
+      "returns": "Resi 30 giorni",
+      "inStock": "Disponibile",
+      "outOfStock": "Esaurito",
+      "quantity": "Quantità",
+      "shipping": "Spedizione",
+      "shippingDesc": "Spedizione gratuita per ordini superiori a $500 negli Stati Uniti continentali. Consegna in 3-5 giorni lavorativi.",
+      "warrantyDesc": "Garanzia del produttore di 2 anni che copre difetti di materiali e lavorazione.",
+      "returnsDesc": "Politica di reso facile di 30 giorni. Rimborso completo se non soddisfatto.",
+      "techSpecs": "Specifiche tecniche",
+      "reviewsTitle": "Cosa dicono i nostri clienti",
+      "verifiedPurchase": "Acquisto verificato",
+      "helpful": "Utile",
+      "writeReview": "Scrivi una recensione",
+      "loadMore": "Carica più recensioni",
+      "faqTitle": "Domande comuni",
+      "relatedProducts": "Potrebbero piacerti anche",
+      "viewDetails": "Vedi dettagli",
+      "gallery": "Galleria",
+      "zoom": "Clicca per zoomare",
+      "share": "Condividi",
+      "save": "Salva per dopo"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Perché scegliere CoolDrivePro",
+    "subtitle": "Progettato per affidabilità ed efficienza in condizioni impegnative",
+    "mainTitle": "Perché il nostro condizionatore di parcheggio",
+    "subTitle": "Costruito per prestazioni senza minimo",
+    "learnMore": "Scopri di più su",
+    "power": {
+      "badge": "Fonte di energia",
+      "title": "Condizionatore di parcheggio 12V DC alimentato a batteria",
+      "description": "I nostri condizionatori di parcheggio funzionano direttamente dalla batteria 12V o 24V del veicolo — non dalla cinghia del motore. Questo design senza minimo fornisce comfort di raffreddamento continuo quando parcheggiato, eliminando costi di carburante e usura del motore. La protezione integrata contro la sottotensione assicura che il tuo condizionatore non scarichi mai la batteria sotto livelli sicuri.",
+      "imageAlt": "Camion semirimorchio con condizionatore 12V — Raffreddamento DC senza minimo"
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Efficienza energetica",
+      "title": "Riscaldamento e raffreddamento ad alta efficienza senza minimo",
+      "description": "Con 12.000 BTU di raffreddamento (mini split) e 10.000 BTU di raffreddamento / 4.500 BTU di riscaldamento (montaggio sul tetto), i nostri condizionatori di parcheggio offrono un potente controllo climatico con COP ≥2,5. La tecnologia del compressore rotativo a velocità variabile significa che il tuo condizionatore usa solo l'energia necessaria — massimizzando l'autonomia della batteria.",
+      "imageAlt": "Campeggio in montagna — Condizionatore efficiente energeticamente"
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Installazione facile",
+      "title": "Installazione semplice del condizionatore di parcheggio",
+      "description": "Ogni condizionatore di parcheggio viene spedito con un kit di installazione completo, linee di refrigerante precaricate e un manuale passo dopo passo. Nessuna certificazione HVAC richiesta. La maggior parte delle installazioni richiede 2–4 ore. Compatibile con aperture tetto camper standard da 14 pollici e staffe di montaggio universali per cabine di camion.",
+      "imageAlt": "Installazione condizionatore sul tetto del camper — Installazione fai-da-te facile"
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Protezione batteria",
+      "title": "Protezione intelligente della batteria per condizionatore",
+      "description": "I nostri condizionatori di parcheggio dispongono di protezione di sicurezza elettrica multi-livello che include taglio sottotensione (8–11V), protezione da sovracorrente e arresto termico. La batteria del tuo veicolo è protetta dalla scarica profonda — essenziale per l'avviamento affidabile del motore dopo una notte intera di funzionamento del condizionatore.",
+      "imageAlt": "Cabina camion semirimorchio — Condizionatore con protezione batteria"
+    },
+    "durability": {
+      "badge": "Durabilità",
+      "title": "Condizionatore costruito per climi estremi",
+      "description": "I nostri condizionatori di parcheggio sono testati rigorosamente da -28°C a +50°C di temperatura ambiente. Che tu sia parcheggiato in un'area di sosta camion nel deserto dell'Arizona o un'area di riposo invernale nel Minnesota, il tuo condizionatore mantiene prestazioni ottimali. I componenti classificati IP54 resistono a polvere e umidità.",
+      "imageAlt": "Camper nel deserto — Condizionatore per calore estremo"
+    },
+    "noise": {
+      "badge": "Funzionamento silenzioso",
+      "title": "Condizionatore di parcheggio ultra silenzioso",
+      "description": "Con solo 40 dB, i nostri condizionatori di parcheggio sono tra i più silenziosi sul mercato. La tecnologia a doppia ventola senza spazzole fornisce alto volume d'aria senza rumore — così puoi dormire comodamente mentre il tuo condizionatore funziona. Ideale per quartieri residenziali e campeggi con restrizioni di rumore.",
+      "imageAlt": "Campeggio tranquillo di notte — Condizionatore che funziona silenziosamente"
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - Condizionatore di Parcheggio per Camion e Camper",
+    "defaultDescription": "Condizionatori di parcheggio 12V DC per camion, camper e vita in furgone. Raffreddamento efficiente senza minimo del motore. Acquista unità montate sul tetto e mini split.",
+    "homeTitle": "Condizionatore di Parcheggio per Vita Off-Grid e Comfort Mobile | CoolDrivePro",
+    "productsTitle": "Condizionatori 12V - Acquista Unità Montate sul Tetto e Mini Split",
+    "contactTitle": "Contattaci - Supporto CoolDrivePro",
+    "blogTitle": "Blog - Consigli e Guide per Sistemi di AC di Parcheggio",
+    "forumTitle": "Forum Comunitario - Discussioni su AC di Parcheggio",
+    "aboutTitle": "Chi Siamo - CoolDrivePro",
+    "supportTitle": "Supporto - CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Caricamento...",
+    "readMore": "Leggi di più",
+    "viewAll": "Vedi tutto",
+    "close": "Chiudi",
+    "search": "Cerca",
+    "noResults": "Nessun risultato trovato",
+    "comingSoon": "Prossimamente",
+    "learnMore": "Scopri di più",
+    "shopNow": "Acquista ora",
+    "buyNow": "Acquista ora",
+    "cancel": "Annulla",
+    "posting": "Pubblicazione...",
+    "model": "Modello"
   }
 }

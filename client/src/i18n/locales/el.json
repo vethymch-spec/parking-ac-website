@@ -1,198 +1,131 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "topMountedAC": "Top Mounted AC",
-    "miniSplitAC": "Mini Split AC",
-    "heatingCoolingAC": "Heating & Cooling AC",
-    "allProducts": "All Products",
-    "forum": "Forum",
-    "blog": "Blog",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "search": "Search",
-    "cart": "Cart",
-    "account": "Account",
-    "new": "NEW",
-    "admin": "Admin",
-    "customer": "Customer",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
-    "supportPortal": "My Support Portal",
-    "logout": "Logout",
-    "login": "Login"
+    "home": "Αρχική",
+    "products": "Προϊόντα",
+    "topMountedAC": "Κλιματισμός οροφής",
+    "miniSplitAC": "Mini split κλιματισμός",
+    "heatingCoolingAC": "Κλιματισμός θέρμανσης/ψύξης",
+    "allProducts": "Όλα τα προϊόντα",
+    "forum": "Φόρουμ",
+    "blog": "Ιστολόγιο",
+    "about": "Σχετικά με εμάς",
+    "contact": "Επικοινωνία",
+    "search": "Αναζήτηση",
+    "cart": "Καλάθι",
+    "account": "Λογαριασμός",
+    "new": "ΝΕΟ",
+    "login": "Σύνδεση",
+    "logout": "Αποσύνδεση"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V DC-powered cooling solutions for trucks, RVs, and van life. Stay cool without idling your engine.",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
-    "badge": "New Arrival",
-    "trustedBy": "Trusted by 10,000+ drivers worldwide"
+    "title": "Κλιματισμός στάθμευσης για ζωή off-grid και κινητή άνεση",
+    "subtitle": "Κλιματισμός 12V και 24V DC χωρίς ρελαντί για φορτηγά, τροχόσπιτα και βαν — Δροσιά χωρίς ρελαντί",
+    "ctaPrimary": "Αγοράστε προϊόντα",
+    "ctaSecondary": "Μάθετε περισσότερα",
+    "badge": "Νέο",
+    "trustedBy": "Εμπιστεύονται από πάνω από 10.000 οδηγούς παγκοσμίως"
   },
   "products": {
-    "title": "Our Products",
-    "subtitle": "Professional-grade parking air conditioners designed for various vehicle types",
-    "viewDetails": "View Details",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
+    "title": "Τα προϊόντα μας",
+    "subtitle": "Κλιματισμός στάθμευσης",
+    "mainTitle": "Κλιματισμοί στάθμευσης 12V και 24V DC χωρίς ρελαντί",
+    "description": "Κλιματισμοί στάθμευσης με μπαταρία για φορτηγά, τροχόσπιτα και βαν. Δροσιά χωρίς ρελαντί — Εξοικονόμηση καυσίμου, μείωση εκπομπών, άνεση.",
+    "viewDetails": "Αγοράστε τώρα",
+    "addToCart": "Προσθήκη στο καλάθι",
+    "specs": "Προδιαγραφές",
+    "features": "Χαρακτηριστικά",
+    "reviews": "Κριτικές πελατών",
+    "warranty": "Εγγύηση",
+    "freeShipping": "Δωρεάν αποστολή",
+    "support": "Υποστήριξη 24/7",
     "topMounted": {
-      "title": "12V Top-Mounted Parking AC",
-      "description": "Perfect for semi-trucks and heavy-duty vehicles. Easy roof installation with powerful cooling.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Cools up to 80 sq ft"
+      "title": "Κλιματισμός οροφής 12000 BTU",
+      "subtitle": "Κλιματισμός 12V/24V DC χωρίς ρελαντί για τροχόσπιτα και φορτηγά",
+      "btu": "12.000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Δροσίζει έως 80 τετραγωνικά πόδια"
     },
     "miniSplit": {
-      "title": "12V Mini Split Parking AC",
-      "description": "Compact split system ideal for RVs, camper vans, and small trucks. Whisper-quiet operation.",
-      "btu": "6,000 BTU",
+      "title": "Mini split κλιματισμός 12000 BTU",
+      "subtitle": "Κλιματισμός 12V DC χωρίς ρελαντί για φορτηγά και τροχόσπιτα",
+      "btu": "12.000 BTU",
       "voltage": "12V DC",
-      "coverage": "Cools up to 60 sq ft"
+      "runtime": "8–10 ώρες",
+      "coverage": "Δροσίζει έως 60 τετραγωνικά πόδια"
     },
-    "heatingCooling": {
-      "title": "Heating & Cooling AC Unit",
-      "description": "All-season comfort with both heating and cooling functions. Perfect for year-round use.",
-      "btu": "8,000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "All-season comfort"
+    "detail": {
+      "addToCart": "Προσθήκη στο καλάθι",
+      "buyNow": "Αγοράστε τώρα",
+      "specifications": "Προδιαγραφές",
+      "reviews": "Κριτικές πελατών",
+      "faq": "Συχνές ερωτήσεις",
+      "freeShipping": "Δωρεάν αποστολή",
+      "warranty": "Εγγύηση 2 έτη",
+      "returns": "Επιστροφή 30 ημέρες",
+      "inStock": "Διαθέσιμο",
+      "outOfStock": "Εξαντλήθηκε",
+      "quantity": "Ποσότητα",
+      "techSpecs": "Τεχνικές προδιαγραφές",
+      "relatedProducts": "Μπορεί να σας αρέσει επίσης"
     }
   },
   "features": {
-    "title": "Why Choose CoolDrivePro",
-    "subtitle": "Engineered for reliability and efficiency in demanding conditions",
-    "batteryProtection": {
-      "title": "Smart Battery Protection",
-      "description": "Automatic low-voltage cutoff protects your vehicle battery from deep discharge."
+    "title": "Γιατί CoolDrivePro",
+    "power": {
+      "badge": "Πηγή ενέργειας",
+      "title": "Κλιματισμός 12V DC με μπαταρία",
+      "description": "Οι κλιματισμοί στάθμευσής μας λειτουργούν απευθείας από τη μπαταρία 12V ή 24V του οχήματος — όχι από τον ιμάντα του κινητήρα. Αυτός ο σχεδιασμός χωρίς ρελαντί παρέχει συνεχή δροσιά κατά τη στάθμευση."
     },
-    "noIdle": {
-      "title": "No Engine Idling",
-      "description": "Save fuel and reduce emissions. Sleep comfortably without running your engine."
+    "efficiency": {
+      "badge": "Ενεργειακή απόδοση",
+      "title": "Υψηλής απόδοσης ψύξη και θέρμανση χωρίς ρελαντί",
+      "description": "Με 12.000 BTU ψύξης (mini split) και 10.000 BTU ψύξης / 4.500 BTU θέρμανσης (οροφής), οι κλιματισμοί στάθμευσής μας παρέχουν ισχυρό κλιματισμό με COP ≥2,5."
     },
-    "easyInstall": {
-      "title": "Easy Installation",
-      "description": "Complete DIY kits with detailed instructions. Most installations take 2-4 hours."
+    "installation": {
+      "badge": "Εύκολη εγκατάσταση",
+      "title": "Απλή εγκατάσταση κλιματισμού στάθμευσης",
+      "description": "Κάθε κλιματισμός στάθμευσης παραδίδεται με πλήρες κιτ εγκατάστασης, προγεμισμένες γραμμές ψυκτικού και εγχειρίδιο βήμα προς βήμα."
     },
-    "quietOperation": {
-      "title": "Quiet Operation",
-      "description": "Advanced noise reduction technology. Sleep peacefully at just 45-55 dB."
+    "battery": {
+      "badge": "Προστασία μπαταρίας",
+      "title": "Έξυπνη προστασία μπαταρίας για κλιματισμό",
+      "description": "Οι κλιματισμοί στάθμευσής μας έχουν πολυεπίπεδη ηλεκτρική προστασία ασφαλείας συμπεριλαμβανομένης της διακοπής χαμηλής τάσης (8-11V)."
+    },
+    "durability": {
+      "badge": "Αντοχή",
+      "title": "Κλιματισμός κατασκευασμένος για ακραία κλίματα",
+      "description": "Οι κλιματισμοί στάθμευσής μας δοκιμάζονται αυστηρά από -28°C έως +50°C. Τα εξαρτήματα με βαθμολογία IP54 αντιστέκονται στη σκόνη και την υγρασία."
+    },
+    "noise": {
+      "badge": "Αθόρυβη λειτουργία",
+      "title": "Υπερ-αθόρυβος κλιματισμός στάθμευσης",
+      "description": "Μόλις 40 dB — οι κλιματισμοί στάθμευσής μας είναι από τους πιο αθόρυβους στην αγορά. Η τεχνολογία ανεμιστήρα διπλού brushless παρέχει υψηλό όγκο αέρα χωρίς θόρυβο."
     }
-  },
-  "useCases": {
-    "title": "Perfect For",
-    "subtitle": "Trusted by drivers across multiple industries",
-    "semiTrucks": "Semi Trucks",
-    "rvs": "RVs & Motorhomes",
-    "vans": "Camper Vans",
-    "construction": "Construction Vehicles"
-  },
-  "shopWithUs": {
-    "title": "Shop With Confidence",
-    "warranty": {
-      "title": "2-Year Warranty",
-      "description": "Full coverage on all parts and labor"
-    },
-    "returns": {
-      "title": "30-Day Returns",
-      "description": "Hassle-free returns if you're not satisfied"
-    },
-    "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
-    }
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll reply within 12 hours.",
-      "required": "Required field"
-    },
-    "emailSupport": {
-      "title": "Email Support",
-      "hours": "Monday – Friday: 9 AM – 6 PM PT"
-    },
-    "supportHours": {
-      "title": "Support Hours",
-      "weekday": "Monday – Friday: 9 AM – 6 PM PT",
-      "weekend": "Saturday: 10 AM – 4 PM PT"
-    },
-    "liveChat": {
-      "title": "Live Chat",
-      "hours": "Mon–Fri, 9 AM – 5 PM PT"
-    }
-  },
-  "footer": {
-    "products": "Products",
-    "support": "Support",
-    "company": "Company",
-    "legal": "Legal",
-    "warranty": "Warranty",
-    "returns": "Return Policy",
-    "shipping": "Shipping Policy",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "newsletter": {
-      "title": "Stay Updated",
-      "placeholder": "Enter your email",
-      "subscribe": "Subscribe"
-    },
-    "rights": "All rights reserved.",
-    "language": "Language"
-  },
-  "blog": {
-    "title": "Latest Articles",
-    "subtitle": "Tips, guides, and industry news",
-    "readMore": "Read More",
-    "categories": "Categories",
-    "publishedOn": "Published on"
-  },
-  "forum": {
-    "title": "Community Forum",
-    "subtitle": "Connect with other parking AC owners",
-    "newPost": "New Post",
-    "topics": "Topics",
-    "replies": "Replies",
-    "views": "Views",
-    "lastPost": "Last Post"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Parking Air Conditioner for Trucks & RVs",
-    "defaultDescription": "12V DC parking air conditioners for trucks, RVs, and van life. Energy-efficient cooling without engine idling. Shop top-mounted and mini split AC units.",
-    "homeTitle": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort | CoolDrivePro",
-    "productsTitle": "12V Parking Air Conditioners - Shop Top-Mounted & Mini Split Units",
-    "contactTitle": "Contact Us - CoolDrivePro Support",
-    "blogTitle": "Blog - Tips & Guides for Parking AC Systems",
-    "forumTitle": "Community Forum - Parking AC Discussions"
-  },
-  "errors": {
-    "404": {
-      "title": "Page Not Found",
-      "message": "The page you're looking for doesn't exist.",
-      "backHome": "Back to Home"
-    },
-    "generic": "Something went wrong. Please try again."
+    "defaultTitle": "CoolDrivePro - 12V Κλιματισμός Στάθμευσης για Φορτηγά και Τροχόσπιτα",
+    "defaultDescription": "Κλιματισμός 12V DC χωρίς ρελαντί για φορτηγά, τροχόσπιτα και βαν. Εξοικονόμηση καυσίμου, μείωση εκπομπών, συνεχής δροσιά.",
+    "homeTitle": "Κλιματισμός Στάθμευσης για Ζωή Off-Grid και Κινητή Άνεση",
+    "productsTitle": "Τα Προϊόντα Μας - Κλιματισμοί 12V και 24V DC",
+    "contactTitle": "Επικοινωνήστε Μαζί Μας - Υποστήριξη CoolDrivePro",
+    "blogTitle": "Ιστολόγιο - Συμβουλές και Νέα για Κλιματισμούς Στάθμευσης",
+    "forumTitle": "Φόρουμ - Κοινότητα CoolDrivePro",
+    "aboutTitle": "Σχετικά Με Εμάς - CoolDrivePro",
+    "supportTitle": "Υποστήριξη - Κέντρο Βοήθειας CoolDrivePro"
   },
   "common": {
-    "loading": "Loading...",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "search": "Search",
-    "noResults": "No results found",
-    "comingSoon": "Coming Soon"
+    "loading": "Φόρτωση...",
+    "readMore": "Διαβάστε περισσότερα",
+    "viewAll": "Προβολή όλων",
+    "close": "Κλείσιμο",
+    "search": "Αναζήτηση",
+    "noResults": "Δεν βρέθηκαν αποτελέσματα",
+    "comingSoon": "Σύντομα",
+    "learnMore": "Μάθετε περισσότερα",
+    "shopNow": "Αγοράστε τώρα",
+    "buyNow": "Αγοράστε τώρα",
+    "cancel": "Ακύρωση",
+    "posting": "Αποστολή...",
+    "model": "Μοντέλο"
   }
 }

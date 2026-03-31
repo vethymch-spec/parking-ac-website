@@ -9,60 +9,56 @@
  * Design: Dark navy background, 3-column icon cards
  */
 import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { Truck, Home, Car, Zap, Leaf, Shield } from "lucide-react";
 
 const useCases = [
   {
     icon: Truck,
-    title: "Semi Truck Parking AC",
-    keyword: "Truck Parking Air Conditioner",
-    description:
-      "Designed for Class 8 semi truck cabs. Our 12V/24V parking air conditioner keeps drivers cool during mandatory rest periods — no idling required. Compliant with anti-idling regulations in all 50 US states.",
+    titleKey: "useCases.semiTrucks",
+    keywordKey: "useCases.semiTrucksKeyword",
+    descriptionKey: "useCases.semiTrucksDesc",
     tags: ["12V / 24V", "No-Idle", "Anti-Idle Compliant"],
   },
   {
     icon: Home,
-    title: "RV & Camper Parking AC",
-    keyword: "RV Parking Air Conditioner",
-    description:
-      "Off-grid cooling for Class A, B, and C motorhomes, travel trailers, and fifth wheels. Run your parking AC directly from your lithium battery bank or solar system — no shore power needed.",
+    titleKey: "useCases.rvs",
+    keywordKey: "useCases.rvsKeyword",
+    descriptionKey: "useCases.rvsDesc",
     tags: ["Off-Grid", "Solar Compatible", "12V / 24V"],
   },
   {
     icon: Car,
-    title: "Van & Campervan Parking AC",
-    keyword: "Van Parking Air Conditioner",
-    description:
-      "Compact 12V parking air conditioner units perfect for cargo van conversions, Sprinter vans, and camper vans. Low-profile design fits standard van roof heights without modification.",
+    titleKey: "useCases.vans",
+    keywordKey: "useCases.vansKeyword",
+    descriptionKey: "useCases.vansDesc",
     tags: ["Van Life", "Compact Design", "12V DC"],
   },
   {
     icon: Zap,
-    title: "No-Idle Cooling System",
-    keyword: "No-Idle Air Conditioner",
-    description:
-      "Replace costly engine idling with battery-powered no-idle parking AC. Save up to $8–12 per hour in fuel costs. Reduce engine wear and lower carbon emissions at truck stops and rest areas.",
+    titleKey: "useCases.noIdle",
+    keywordKey: "useCases.noIdleKeyword",
+    descriptionKey: "useCases.noIdleDesc",
     tags: ["Fuel Savings", "Eco-Friendly", "Battery Powered"],
   },
   {
     icon: Leaf,
-    title: "Solar-Powered Parking AC",
-    keyword: "Solar Parking Air Conditioner",
-    description:
-      "Pair our 12V parking air conditioner with rooftop solar panels for truly free cooling. DC-direct solar compatibility means your parking AC can run continuously during daylight hours.",
+    titleKey: "useCases.solar",
+    keywordKey: "useCases.solarKeyword",
+    descriptionKey: "useCases.solarDesc",
     tags: ["Solar Ready", "Zero Fuel Cost", "DC Direct"],
   },
   {
     icon: Shield,
-    title: "APU Replacement",
-    keyword: "Electric APU Parking Cooler",
-    description:
-      "A cost-effective alternative to diesel APU (Auxiliary Power Unit) systems. Our electric parking air conditioner delivers equivalent cooling at a fraction of the installation and operating cost.",
+    titleKey: "useCases.apu",
+    keywordKey: "useCases.apuKeyword",
+    descriptionKey: "useCases.apuDesc",
     tags: ["APU Alternative", "Lower Cost", "Easy Install"],
   },
 ];
 
 export default function UseCasesSection() {
+  const { t } = useTranslation();
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -85,7 +81,7 @@ export default function UseCasesSection() {
       id="use-cases"
       className="w-full py-16 lg:py-20"
       style={{ backgroundColor: "oklch(0.22 0.08 248)" }}
-      aria-label="Parking Air Conditioner Applications"
+      aria-label={t('useCases.sectionLabel')}
     >
       <div className="max-w-[1280px] mx-auto px-4 lg:px-8" ref={ref}>
         <div className="text-center mb-12">
@@ -93,19 +89,19 @@ export default function UseCasesSection() {
             className="text-xs font-bold uppercase tracking-widest mb-2"
             style={{ color: "oklch(0.65 0.10 255)", fontFamily: "'Montserrat', sans-serif" }}
           >
-            Applications
+            {t('useCases.applications')}
           </p>
           <h2
             className="text-2xl sm:text-3xl font-extrabold text-white mb-3"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            Parking Air Conditioner for Every Vehicle
+            {t('useCases.mainTitle')}
           </h2>
           <p
             className="text-base max-w-2xl mx-auto"
             style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
           >
-            From semi trucks to RVs, our 12V and 24V DC parking AC units are engineered for every no-idle cooling application.
+            {t('useCases.subtitle')}
           </p>
         </div>
 
@@ -114,10 +110,10 @@ export default function UseCasesSection() {
             const Icon = useCase.icon;
             return (
               <article
-                key={useCase.title}
+                key={useCase.titleKey}
                 className="fade-in-up rounded-xl p-6 group hover:scale-[1.02] transition-transform duration-200"
                 style={{ backgroundColor: "oklch(0.28 0.09 248)" }}
-                aria-label={useCase.keyword}
+                aria-label={t(useCase.keywordKey)}
               >
                 <div className="flex items-start gap-4 mb-4">
                   <div
@@ -131,13 +127,13 @@ export default function UseCasesSection() {
                       className="text-base font-bold text-white leading-tight"
                       style={{ fontFamily: "'Montserrat', sans-serif" }}
                     >
-                      {useCase.title}
+                      {t(useCase.titleKey)}
                     </h3>
                     <p
                       className="text-xs mt-0.5"
                       style={{ color: "oklch(0.65 0.10 255)", fontFamily: "'Inter', sans-serif" }}
                     >
-                      {useCase.keyword}
+                      {t(useCase.keywordKey)}
                     </p>
                   </div>
                 </div>
@@ -145,7 +141,7 @@ export default function UseCasesSection() {
                   className="text-sm leading-relaxed mb-4"
                   style={{ color: "oklch(0.78 0.04 240)", fontFamily: "'Inter', sans-serif" }}
                 >
-                  {useCase.description}
+                  {t(useCase.descriptionKey)}
                 </p>
                 <div className="flex flex-wrap gap-1.5">
                   {useCase.tags.map((tag) => (

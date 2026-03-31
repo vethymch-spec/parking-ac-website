@@ -2,9 +2,9 @@
   "nav": {
     "home": "Startseite",
     "products": "Produkte",
-    "topMountedAC": "Dachmontierte Klimaanlage",
-    "miniSplitAC": "Mini-Split Klimaanlage",
-    "heatingCoolingAC": "Heiz- und Kühlgerät",
+    "topMountedAC": "Dachklimaanlage",
+    "miniSplitAC": "Mini-Split-Klimaanlage",
+    "heatingCoolingAC": "Heiz- und Kühlanlage",
     "allProducts": "Alle Produkte",
     "forum": "Forum",
     "blog": "Blog",
@@ -20,11 +20,22 @@
     "customerManagement": "Kundenverwaltung",
     "supportPortal": "Mein Support-Portal",
     "logout": "Abmelden",
-    "login": "Anmelden"
+    "login": "Anmelden",
+    "adminLogout": "Admin-Abmeldung",
+    "customerLogout": "Kundenabmeldung",
+    "mySupportPortal": "Mein Support-Portal",
+    "adminPanel": "Admin-Panel",
+    "menu": "Menü",
+    "shoppingCart": "Warenkorb",
+    "brandKnowledge": "Markenwissen",
+    "paymentMethod": "Zahlungsmethode",
+    "billingTerms": "Abrechnungsbedingungen",
+    "trackOrder": "Bestellung verfolgen",
+    "supportAvailability": "Support-Verfügbarkeit: 11:00 - 21:00 Uhr Pacific Time (PT), wir antworten innerhalb von 1-12 Stunden."
   },
   "hero": {
-    "title": "Standklimaanlage für Off-Grid-Leben und mobilen Komfort",
-    "subtitle": "12V DC-gestützte Kühlungslösungen für Lkw, Wohnmobile und Vanlife. Bleiben Sie cool, ohne den Motor laufen zu lassen.",
+    "title": "Parkklimaanlage für Off-Grid-Leben und mobilen Komfort",
+    "subtitle": "12V und 24V DC Leerlauf-freie Parkklimaanlage für Sattelschlepper, Wohnmobile, Vans und Camper — Kühlung ohne Leerlauf",
     "ctaPrimary": "Produkte kaufen",
     "ctaSecondary": "Mehr erfahren",
     "badge": "Neu eingetroffen",
@@ -32,167 +43,354 @@
   },
   "products": {
     "title": "Unsere Produkte",
-    "subtitle": "Professionelle Standklimaanlagen für verschiedene Fahrzeugtypen",
-    "viewDetails": "Details anzeigen",
+    "subtitle": "Parkklimaanlage",
+    "mainTitle": "12V und 24V DC Leerlauf-freie Parkklimaanlagen",
+    "description": "Batteriebetriebene Parkklimaanlagen für Sattelschlepper, Wohnmobile, Vans und Camper. Kühlung ohne Leerlauf — Kraftstoff sparen, Emissionen reduzieren, Komfort bewahren.",
+    "viewDetails": "Jetzt kaufen",
     "addToCart": "In den Warenkorb",
     "specs": "Spezifikationen",
-    "features": "Merkmale",
+    "features": "Produktmerkmale",
     "reviews": "Kundenbewertungen",
     "warranty": "Garantie",
     "freeShipping": "Kostenloser Versand",
     "support": "24/7 Support",
     "learnMore": "Mehr erfahren",
+    "cooling": "Kühlung",
+    "heating": "Heizung",
+    "heatingCooling": "Heizung und Kühlung",
+    "specs": {
+      "coolingCapacity": "Kühlleistung",
+      "heatingCapacity": "Heizleistung",
+      "current": "Strom",
+      "powerSupply": "Stromversorgung",
+      "noiseLevel": "Geräuschpegel",
+      "batteryRuntime": "Batterielaufzeit",
+      "flowRate": "Durchflussrate",
+      "fuelType": "Kraftstoffart",
+      "installation": "Installation",
+      "heatingSpeed": "Heizgeschwindigkeit",
+      "airOutput": "Luftausstoß"
+    },
     "topMounted": {
-      "title": "12V Dachmontierte Standklimaanlage",
-      "description": "Perfekt für Sattelzüge und Nutzfahrzeuge. Einfache Dachmontage mit leistungsstarker Kühlung.",
-      "btu": "8.000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Kühlt bis zu 80 sq ft"
+      "title": "12000 BTU Dach-Parkklimaanlage",
+      "subtitle": "12V/24V DC Leerlauf-freie Wohnmobil- und LKW-Klimaanlage",
+      "description": "Die ultimative R410A-Doppelrotationskompressor-Parkklimaanlage für Wohnmobile, Sattelschlepper und Vans. Diese 12V/24V DC Leerlauf-freie Parkklimaanlage liefert 12000 BTU Kühlleistung — hält Ihr Fahrerhaus oder Wohnmobil komfortabel, ohne den Motor laufen zu lassen. Mit Unterspannungsschutz und 45 dB flüsterleisem Betrieb.",
+      "btu": "12.000 BTU",
+      "voltage": "12V / 24V DC",
+      "coverage": "Kühlt bis zu 80 Quadratfuß",
+      "imageAlt": "10000 BTU Dach-Parkklimaanlage Explosionszeichnung – 12V/24V DC Leerlauf-freie Wohnmobil-LKW-Klimaanlage"
     },
     "miniSplit": {
-      "title": "12V Mini-Split Standklimaanlage",
-      "description": "Kompaktes Split-System ideal für Wohnmobile, Campervans und kleine Lkw. Flüsterleiser Betrieb.",
-      "btu": "6.000 BTU",
+      "title": "12000 BTU Mini-Split-Parkklimaanlage",
+      "subtitle": "12V DC Leerlauf-freie Klimaanlage für Sattelschlepper und Wohnmobile",
+      "description": "Hochleistungs-12V DC Mini-Split-Parkklimaanlage für Sattelschlepper-Fahrerhäuser, Wohnmobile und Transporter. Mit 12000 BTU Leerlauf-freier Kühlleistung läuft diese kanalfreie Parkklimaanlage direkt von Ihrer Fahrzeugbatterie — kein Generator, keine Landstromversorgung nötig. Horizontale Dachinstallation passt für die meisten LKW und Wohnmobile.",
+      "btu": "12.000 BTU",
       "voltage": "12V DC",
-      "coverage": "Kühlt bis zu 60 sq ft"
+      "runtime": "8–10 Stunden",
+      "coverage": "Kühlt bis zu 60 Quadratfuß",
+      "imageAlt": "12000 BTU Mini-Split-Parkklimaanlage für Sattelschlepper und Wohnmobile – 12V DC Leerlauf-frei"
     },
-    "heatingCooling": {
-      "title": "Heiz- und Kühlgerät",
-      "description": "Ganzjähriger Komfort mit Heiz- und Kühlfunktion. Perfekt für den ganzjährigen Gebrauch.",
-      "btu": "8.000 BTU",
-      "voltage": "12V/24V DC",
-      "coverage": "Ganzjähriger Komfort"
+    "waterHeater": {
+      "title": "65000 BTU Durchlauferhitzer für Wohnmobile und LKWs",
+      "subtitle": "Propangas-Durchlauferhitzer für Off-Grid-Leben",
+      "description": "Vervollständigen Sie Ihr Off-Grid-Komfortsystem mit diesem 65.000 BTU Durchlauferhitzer, speziell für Wohnmobile, Sattelschlepper und Camper. Liefert 2,9 GPM sofortiges Warmwasser — der perfekte Begleiter zu Ihrer Parkklimaanlage für ganzjährigen Komfort auf der Straße.",
+      "imageAlt": "65000 BTU Durchlauferhitzer für Wohnmobile und Sattelschlepper – Off-Grid-Warmwasser"
+    },
+    "heatingCoolingAC": {
+      "title": "V-TH1 Heiz- und Kühl-Parkklimaanlage",
+      "subtitle": "12V/24V DC Dual-Modus-Rotationsklimaanlage — Ganzjähriger Komfort",
+      "description": "Die erste Dual-Modus-Parkklimaanlage von CoolDrivePro. Die V-TH1 bietet bis zu 2.000W Kühlung im Sommer und heizt Ihr Fahrerhaus im Winter in nur 30 Minuten von 5°C auf 30°C. Mit GMCC-Doppelrotationskompressor und R134A-Kältemittel bietet diese 12V/24V DC Rotationsklimaanlage ganzjährige Klimakontrolle für LKWs, Wohnmobile, Vans und Spezialfahrzeuge — ohne Leerlauf des Motors.",
+      "imageAlt": "V-TH1 Heiz- und Kühl-Parkklimaanlage – 12V/24V DC Dual-Modus-Rotationsklimaanlage"
+    },
+    "detail": {
+      "addToCart": "In den Warenkorb",
+      "buyNow": "Jetzt kaufen",
+      "specifications": "Spezifikationen",
+      "reviews": "Kundenbewertungen",
+      "faq": "Häufig gestellte Fragen",
+      "freeShipping": "Kostenloser Versand",
+      "warranty": "2 Jahre Garantie",
+      "returns": "30 Tage Rückgabe",
+      "inStock": "Auf Lager",
+      "outOfStock": "Nicht auf Lager",
+      "quantity": "Menge",
+      "shipping": "Versand",
+      "shippingDesc": "Kostenloser Versand bei Bestellungen über 500 $ innerhalb der USA. Lieferung in 3-5 Werktagen.",
+      "warrantyDesc": "2 Jahre Herstellergarantie für Material- und Verarbeitungsfehler.",
+      "returnsDesc": "30 Tage einfache Rückgaberegelung. Volle Rückerstattung bei Unzufriedenheit.",
+      "techSpecs": "Technische Spezifikationen",
+      "reviewsTitle": "Was unsere Kunden sagen",
+      "verifiedPurchase": "Verifizierter Kauf",
+      "helpful": "Hilfreich",
+      "writeReview": "Bewertung schreiben",
+      "loadMore": "Mehr Bewertungen laden",
+      "faqTitle": "Häufige Fragen",
+      "relatedProducts": "Das könnte Ihnen auch gefallen",
+      "viewDetails": "Details anzeigen",
+      "gallery": "Galerie",
+      "zoom": "Zum Zoomen klicken",
+      "share": "Teilen",
+      "save": "Für später speichern"
     }
   },
   "features": {
     "title": "Warum CoolDrivePro wählen",
-    "subtitle": "Für Zuverlässigkeit und Effizienz unter anspruchsvollen Bedingungen entwickelt",
-    "batteryProtection": {
-      "title": "Intelligenter Batterieschutz",
-      "description": "Automatische Unterspannungsabschaltung schützt Ihre Fahrzeugbatterie vor Tiefentladung."
+    "subtitle": "Entwickelt für Zuverlässigkeit und Effizienz unter anspruchsvollen Bedingungen",
+    "mainTitle": "Warum unsere Parkklimaanlage",
+    "subTitle": "Für Leerlauf-freie Leistung gebaut",
+    "learnMore": "Mehr erfahren über",
+    "power": {
+      "badge": "Stromquelle",
+      "title": "12V DC Batteriebetriebene Parkklimaanlage",
+      "description": "Unsere Parkklimaanlagen laufen direkt von der 12V- oder 24V-Batterie des Fahrzeugs — nicht über den Motorriemen. Dieses Leerlauf-freie Design bietet kontinuierlichen Kühlkomfort beim Parken, eliminiert Kraftstoffkosten und Motorverschleiß. Der eingebaute Unterspannungsschutz stellt sicher, dass Ihre Parkklimaanlage die Batterie nie unter sichere Pegel entlädt.",
+      "imageAlt": "Sattelschlepper mit 12V Parkklimaanlage – Leerlauf-freie DC-betriebene Kühlung"
     },
-    "noIdle": {
-      "title": "Kein Motorleerlauf",
-      "description": "Sparen Sie Kraftstoff und reduzieren Sie Emissionen. Schlafen Sie bequem, ohne den Motor laufen zu lassen."
+    "efficiency": {
+      "badge": "Energieeffizienz",
+      "title": "Hocheffiziente Leerlauf-freie Kühlung und Heizung",
+      "description": "Mit 12.000 BTU Kühlung (Mini-Split) und 10.000 BTU Kühlung / 4.500 BTU Heizung (Dachmontage) liefern unsere Parkklimaanlagen leistungsstarke Klimakontrolle bei COP ≥2,5. Die Drehzahlvariable DC-Scrollkompressortechnologie bedeutet, dass Ihre Parkklimaanlage nur die benötigte Energie nutzt — maximale Batterielaufzeit.",
+      "imageAlt": "Camping in den Bergen – Energieeffiziente Parkklimaanlage"
     },
-    "easyInstall": {
-      "title": "Einfache Installation",
-      "description": "Komplette DIY-Kits mit detaillierten Anleitungen. Die meisten Installationen dauern 2-4 Stunden."
+    "installation": {
+      "badge": "Einfache Installation",
+      "title": "Einfache Parkklimaanlagen-Installation",
+      "description": "Jede Parkklimaanlage wird mit komplettem Installationskit, vorgefüllten Kältemittelleitungen und Schritt-für-Schritt-Anleitung geliefert. Keine HVAC-Zertifizierung erforderlich. Die meisten Installationen dauern 2–4 Stunden. Kompatibel mit Standard-14-Zoll-Wohnmobil-Dachöffnungen und universellen LKW-Fahrerhaus-Montagehalterungen.",
+      "imageAlt": "Installation der Parkklimaanlage auf dem Wohnmobildach – Einfache DIY-Installation"
     },
-    "quietOperation": {
-      "title": "Leiser Betrieb",
-      "description": "Fortschrittliche Geräuschreduzierungstechnologie. Schlafen Sie friedlich bei nur 45-55 dB."
+    "battery": {
+      "badge": "Batterieschutz",
+      "title": "Intelligenter Batterieschutz für Parkklimaanlagen",
+      "description": "Unsere Parkklimaanlagen verfügen über mehrstufigen elektrischen Sicherheitsschutz, einschließlich Unterspannungsabschaltung (8–11V), Überstromschutz und thermischer Abschaltung. Ihre Fahrzeugbatterie ist vor Tiefentladung geschützt — entscheidend für zuverlässigen Motorstart nach einer ganzen Nacht Parkklimaanlagen-Betrieb.",
+      "imageAlt": "Sattelschlepper-Fahrerhaus – Parkklimaanlage mit Batterieschutz"
+    },
+    "durability": {
+      "badge": "Haltbarkeit",
+      "title": "Für extreme Klimazonen gebaute Parkklimaanlage",
+      "description": "Unsere Parkklimaanlagen werden rigoros bei Umgebungstemperaturen von -28°C bis +50°C getestet. Egal, ob Sie an einem Wüsten-Truck-Stop in Arizona oder an einer Winter-Raststätte in Minnesota parken, Ihre Parkklimaanlage behält optimale Leistung bei. IP54-bewertete Komponenten schützen vor Staub und Feuchtigkeit.",
+      "imageAlt": "Wohnmobil in der Wüste – Parkklimaanlage für extreme Hitze"
+    },
+    "noise": {
+      "badge": "Leiser Betrieb",
+      "title": "Flüsterleise Parkklimaanlage",
+      "description": "Mit nur 40 dB gehören unsere Parkklimaanlagen zu den leisesten auf dem Markt. Bürstenlose Doppellüfter-Technologie liefert hohe Luftmenge ohne Geräusch — so können Sie bequem schlafen, während Ihre Parkklimaanlage arbeitet. Ideal für Wohngebiete und Campingplätze mit Lärmbeschränkungen.",
+      "imageAlt": "Friedlicher Campingplatz in der Nacht – Leise arbeitende Parkklimaanlage"
     }
   },
   "useCases": {
     "title": "Perfekt für",
     "subtitle": "Von Fahrern in verschiedenen Branchen vertraut",
-    "semiTrucks": "Sattelzüge",
-    "rvs": "Wohnmobile",
-    "vans": "Campervans",
-    "construction": "Baumaschinen"
+    "semiTrucks": "Sattelschlepper",
+    "rvs": "Wohnmobile und Reisemobile",
+    "vans": "Camper-Vans",
+    "construction": "Baumaschinen",
+    "sectionLabel": "Parkklimaanlagen-Anwendungen",
+    "applications": "Anwendungen",
+    "mainTitle": "Parkklimaanlage für jedes Fahrzeug",
+    "semiTrucksKeyword": "LKW-Parkklimaanlage",
+    "semiTrucksDesc": "Für 8-Klasse-Sattelschlepper-Fahrerhäuser entwickelt. Unsere 12V/24V Parkklimaanlage hält Fahrer während obligatorischer Ruhezeiten kühl — kein Leerlauf erforderlich. Konform mit Anti-Leerlauf-Vorschriften in allen 50 US-Bundesstaaten.",
+    "rvsKeyword": "Wohnmobil-Parkklimaanlage",
+    "rvsDesc": "Off-Grid-Kühlung für Klasse-A, B und C-Reisemobile, Reiseanhänger und Fifth Wheels. Betreiben Sie Ihre Parkklimaanlage direkt von Ihrer Lithiumbatteriebank oder Solaranlage — keine Landstromversorgung nötig.",
+    "vansKeyword": "Van-Parkklimaanlage",
+    "vansDesc": "Kompakte 12V Parkklimaanlagen-Einheiten, perfekt für Transporter-Umbauten, Sprinter-Vans und Camper-Vans. Niedriges Design passt in Standard-Van-Dachhöhen ohne Modifikation.",
+    "noIdle": "Leerlauf-freies Kühlsystem",
+    "noIdleKeyword": "Leerlauf-freie Klimaanlage",
+    "noIdleDesc": "Ersetzen Sie kostspieliges Motorleerlaufen durch batteriebetriebene Leerlauf-freie Parkklimaanlage. Sparen Sie bis zu 8–12 $ pro Stunde Kraftstoffkosten. Reduzieren Sie Motorverschleiß und senken Sie CO2-Emissionen an Truck-Stops und Raststätten.",
+    "solar": "Solar-Parkklimaanlage",
+    "solarKeyword": "Solar-Parkklimaanlage",
+    "solarDesc": "Koppeln Sie unsere 12V Parkklimaanlage mit Dachsolarpanelen für wirklich kostenlose Kühlung. DC-Direkt-Solar-Kompatibilität bedeutet, dass Ihre Parkklimaanlage während der Tagesstunden kontinuierlich läuft.",
+    "apu": "APU-Alternative",
+    "apuKeyword": "Elektrischer APU-Parkkühler",
+    "apuDesc": "Eine kostengünstige Alternative zu Diesel-APU (Hilfskrafteinheit)-Systemen. Unsere elektrische Parkklimaanlage liefert gleichwertige Kühlung zu einem Bruchteil der Installations- und Betriebskosten."
   },
   "shopWithUs": {
-    "title": "Mit Vertrauen einkaufen",
+    "title": "Mit Vertrauen kaufen",
     "warranty": {
-      "title": "2-Jahres-Garantie",
-      "description": "Volle Deckung für alle Teile und Arbeitskosten"
+      "title": "2 Jahre Garantie",
+      "description": "Vollständige Abdeckung aller Teile und Arbeitskosten"
     },
     "returns": {
-      "title": "30-Tage-Rückgabe",
-      "description": "Problemlose Rückgabe, wenn Sie nicht zufrieden sind"
+      "title": "30 Tage Rückgabe",
+      "description": "Einfache Rückgabe bei Unzufriedenheit"
     },
     "shipping": {
       "title": "Kostenloser Versand",
-      "description": "Bei Bestellungen über 500 $ in die USA"
+      "description": "Kostenlos bei Bestellungen über 500 $ innerhalb der USA"
     }
-  },
-  "contact": {
-    "title": "Kontaktieren Sie uns",
-    "subtitle": "Wir helfen Ihnen gerne bei allen Fragen",
-    "getInTouch": "Kontakt aufnehmen",
-    "form": {
-      "name": "Ihr Name",
-      "email": "E-Mail-Adresse",
-      "subject": "Betreff",
-      "message": "Nachricht",
-      "send": "Nachricht senden",
-      "sending": "Wird gesendet...",
-      "success": "Nachricht gesendet! Wir antworten innerhalb von 12 Stunden.",
-      "required": "Pflichtfeld"
-    },
-    "emailSupport": {
-      "title": "E-Mail-Support",
-      "hours": "Montag – Freitag: 9 – 18 Uhr PT"
-    },
-    "supportHours": {
-      "title": "Support-Zeiten",
-      "weekday": "Montag – Freitag: 9 – 18 Uhr PT",
-      "weekend": "Samstag: 10 – 16 Uhr PT"
-    },
-    "liveChat": {
-      "title": "Live-Chat",
-      "hours": "Mo–Fr, 9–17 Uhr PT"
-    }
-  },
-  "footer": {
-    "products": "Produkte",
-    "support": "Support",
-    "company": "Unternehmen",
-    "legal": "Rechtliches",
-    "warranty": "Garantie",
-    "returns": "Rückgaberichtlinie",
-    "shipping": "Versandrichtlinie",
-    "privacy": "Datenschutzrichtlinie",
-    "terms": "Nutzungsbedingungen",
-    "newsletter": {
-      "title": "Bleiben Sie informiert",
-      "placeholder": "E-Mail eingeben",
-      "subscribe": "Abonnieren"
-    },
-    "rights": "Alle Rechte vorbehalten.",
-    "language": "Sprache"
   },
   "blog": {
     "title": "Neueste Artikel",
-    "subtitle": "Tipps, Anleitungen und Branchennews",
-    "readMore": "Weiterlesen",
+    "subtitle": "Tipps, Guides und Branchennachrichten",
+    "readMore": "Mehr lesen",
     "categories": "Kategorien",
-    "publishedOn": "Veröffentlicht am"
+    "publishedOn": "Veröffentlicht am",
+    "viewAll": "Alle {{count}} Artikel anzeigen",
+    "browseAll": "Alle {{count}} Parkklimaanlagen-Artikel durchsuchen",
+    "knowledgeBase": "Parkklimaanlagen-Wissensdatenbank",
+    "latestGuides": "Neueste Guides und Artikel",
+    "searchPlaceholder": "Artikel suchen...",
+    "articlesFound": "{{count}} Artikel gefunden",
+    "articlesFoundPlural": "{{count}} Artikel gefunden",
+    "inCategory": "In Kategorie {{category}}",
+    "forSearch": "Suche nach \"{{query}}\"",
+    "noArticlesFound": "Keine Artikel gefunden",
+    "tryDifferent": "Versuchen Sie einen anderen Suchbegriff oder eine andere Kategorie.",
+    "prev": "Zurück",
+    "next": "Weiter",
+    "pageTitle": "Parkklimaanlagen-Blog und Guides",
+    "pageSubtitle": "Experten-Guides, Vergleiche und Tipps für 12V/24V Parkklimaanlagen für LKW-Fahrer, Wohnmobilbesitzer und Van-Lifer.",
+    "post": {
+      "notFound": "Artikel nicht gefunden",
+      "backToBlog": "← Zurück zum Blog",
+      "readyToExperience": "Bereit für Leerlauf-freie Kühlung?",
+      "exploreOur": "Entdecken Sie unsere 12V/24V Parkklimaanlagen — Kostenloser Versand für alle US-Bestellungen.",
+      "shopTopMounted": "VS02 PRO Dachklimaanlage kaufen",
+      "shopMiniSplit": "VX3000SP Mini-Split-Klimaanlage kaufen"
+    }
   },
   "forum": {
     "title": "Community-Forum",
-    "subtitle": "Vernetzen Sie sich mit anderen Standklimaanlagen-Besitzern",
+    "subtitle": "Vernetzen Sie sich mit anderen Parkklimaanlagen-Besitzern",
     "newPost": "Neuer Beitrag",
     "topics": "Themen",
     "replies": "Antworten",
     "views": "Aufrufe",
-    "lastPost": "Letzter Beitrag"
+    "lastPost": "Letzter Beitrag",
+    "community": "Community",
+    "discussions": "Diskussionen",
+    "heroTitle": "Parkklimaanlagen-Community-Forum",
+    "heroSubtitle": "Teilen Sie Erfahrungen, stellen Sie Fragen und vernetzen Sie sich mit LKW-Fahrern und Wohnmobilbesitzern weltweit.",
+    "startDiscussion": "Diskussion starten",
+    "signInToPost": "Zum Posten anmelden",
+    "searchPlaceholder": "Diskussionen suchen...",
+    "categories": "Kategorien",
+    "allDiscussions": "Alle Diskussionen",
+    "quickLinks": "Schnelllinks",
+    "threads": "Threads",
+    "justNow": "Gerade eben",
+    "minutesAgo": "Vor {{count}} Minuten",
+    "hoursAgo": "Vor {{count}} Stunden",
+    "daysAgo": "Vor {{count}} Tagen",
+    "post": {
+      "backToForum": "← Zurück zum Forum",
+      "reply": "Antworten",
+      "writeReply": "Antwort schreiben...",
+      "submitReply": "Antwort senden",
+      "loginToReply": "Zum Antworten anmelden",
+      "likes": "Gefällt mir",
+      "share": "Teilen",
+      "report": "Melden",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "confirmDelete": "Sind Sie sicher, dass Sie diesen Beitrag löschen möchten?"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wir sind hier, um zu helfen",
+    "getInTouch": "Kontaktieren Sie uns",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "Ihre E-Mail-Adresse",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Nachrichtenbetreff",
+      "message": "Nachricht",
+      "messagePlaceholder": "Was möchten Sie uns mitteilen...",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Danke für Ihre Nachricht! Wir werden uns bald bei Ihnen melden.",
+      "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es später erneut."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "hours": "Öffnungszeiten",
+      "hoursValue": "Mo–Fr: 9:00–18:00 Uhr (Pacific Time)",
+      "location": "Standort",
+      "locationValue": "Los Angeles, Kalifornien"
+    },
+    "emailSupport": {
+      "title": "E-Mail-Support",
+      "description": "Für allgemeine Anfragen senden Sie eine E-Mail an"
+    },
+    "technicalSupport": {
+      "title": "Technischer Support",
+      "description": "Für Produktfragen kontaktieren Sie uns unter"
+    },
+    "sales": {
+      "title": "Vertriebsanfragen",
+      "description": "Für Großhandel und Händler kontaktieren Sie uns unter"
+    },
+    "warranty": {
+      "title": "Garantieservice",
+      "description": "Für Garantiefragen kontaktieren Sie uns unter"
+    }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "support": "Support",
+    "newsletter": {
+      "title": "Für Neuigkeiten anmelden",
+      "description": "Erhalten Sie die neuesten Produkt-Updates und exklusive Angebote",
+      "placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "subscribe": "Anmelden",
+      "success": "Danke für Ihre Anmeldung!"
+    },
+    "rights": "Alle Rechte vorbehalten.",
+    "warranty": "Garantie",
+    "returns": "Rückgaberegelung",
+    "shipping": "Versandrichtlinie",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  },
+  "about": {
+    "ourStory": "Unsere Geschichte",
+    "heroTitle": "Off-Grid-Komfort neu definieren",
+    "heroDesc": "Seit 2015 führt CoolDrivePro die Innovation in Parkklimaanlagen für LKW-Fahrer, Wohnmobil-Enthusiasten und Abenteurer an.",
+    "whyStarted": "Warum wir angefangen haben",
+    "story1": "CoolDrivePro begann mit einer einfachen Frage: Warum müssen LKW-Fahrer und Wohnmobilbesitzer Hitze ertragen oder Kraftstoff beim Parken verschwenden?",
+    "story2": "Unser Gründer Tomas Wang, ein Veteran mit 20 Jahren LKW-Fahrerfahrung, erlebte die Herausforderungen des täglichen 8-Stunden-Parkens am eigenen Leib.",
+    "story3": "2015 brachten wir unsere erste Parkklimaanlage auf den Markt und veränderten den Komfort auf der Straße völlig. Heute bedienen wir über 10.000 Fahrer weltweit.",
+    "coreValues": "Kernwerte",
+    "readyToStop": "Bereit, das Leerlaufen zu stoppen?",
+    "joinDrivers": "Schließen Sie sich über 10.000 Fahrern weltweit an, die auf CoolDrivePro Parkklimaanlagen umgestiegen sind.",
+    "shopTop": "Dachklimaanlage kaufen",
+    "shopMini": "Mini-Split-Klimaanlage kaufen"
   },
   "seo": {
-    "defaultTitle": "CoolDrivePro - Standklimaanlage für Lkw und Wohnmobile",
-    "defaultDescription": "12V DC-Standklimaanlagen für Lkw, Wohnmobile und Vanlife. Energieeffiziente Kühlung ohne Motorleerlauf. Dachmontierte und Split-Klimaanlagen kaufen.",
-    "homeTitle": "Standklimaanlage für Off-Grid-Leben und mobilen Komfort | CoolDrivePro",
-    "productsTitle": "12V Standklimaanlagen - Dachmontierte und Split-Geräte kaufen",
-    "contactTitle": "Kontaktieren Sie uns - CoolDrivePro Support",
-    "blogTitle": "Blog - Tipps und Anleitungen für Standklimaanlagen",
-    "forumTitle": "Community-Forum - Diskussionen über Standklimaanlagen"
+    "homeTitle": "Parkklimaanlage | 12V und 24V DC Leerlauf-freie LKW- und Wohnmobil-Klimaanlage | CoolDrivePro",
+    "homeDescription": "Kaufen Sie professionelle Parkklimaanlagen. 12V und 24V DC Leerlauf-freie Klimaanlagen für Sattelschlepper, Wohnmobile und Vans. Kühlung ohne Leerlauf — Kraftstoff sparen, Emissionen reduzieren.",
+    "productsTitle": "Parkklimaanlagen-Produkte | 12V und 24V DC Klimaanlagen",
+    "productsDescription": "Entdecken Sie unsere Parkklimaanlagen-Serie. Dach- und Mini-Split-12V und 24V DC Leerlauf-freie Klimaanlagen für LKWs, Wohnmobile und Camper.",
+    "blogTitle": "Parkklimaanlagen-Blog | Tipps, Guides und Bewertungen",
+    "blogDescription": "Lernen Sie über Parkklimaanlagen. Experten-Guides, Produktbewertungen und Tipps für 12V und 24V DC Leerlauf-freie LKW- und Wohnmobil-Klimaanlagen.",
+    "forumTitle": "Parkklimaanlagen-Forum | Community-Diskussionen und Support",
+    "forumDescription": "Treten Sie unserem Parkklimaanlagen-Community-Forum bei. Vernetzen Sie sich mit anderen LKW-Fahrern und Wohnmobilbesitzern, teilen Sie Tipps, tauschen Sie Erfahrungen aus und finden Sie Antworten.",
+    "contactTitle": "Kontakt | CoolDrivePro Support",
+    "contactDescription": "Fragen zur Parkklimaanlage? Kontaktieren Sie das CoolDrivePro Support-Team. Wir helfen bei 12V und 24V DC Leerlauf-freien Klimaanlagen."
   },
   "errors": {
-    "404": {
-      "title": "Seite nicht gefunden",
-      "message": "Die gesuchte Seite existiert nicht.",
-      "backHome": "Zurück zur Startseite"
-    },
-    "generic": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    "404": "Seite nicht gefunden",
+    "404Desc": "Entschuldigung, die gesuchte Seite existiert nicht.",
+    "goHome": "Zurück zur Startseite",
+    "generic": "Ein Fehler ist aufgetreten",
+    "tryAgain": "Bitte versuchen Sie es später erneut"
   },
   "common": {
     "loading": "Wird geladen...",
-    "readMore": "Weiterlesen",
+    "readMore": "Mehr lesen",
     "viewAll": "Alle anzeigen",
     "close": "Schließen",
     "search": "Suche",
     "noResults": "Keine Ergebnisse gefunden",
-    "comingSoon": "Demnächst verfügbar"
+    "comingSoon": "Demnächst verfügbar",
+    "learnMore": "Mehr erfahren",
+    "shopNow": "Jetzt kaufen",
+    "buyNow": "Jetzt kaufen",
+    "cancel": "Abbrechen",
+    "posting": "Wird gepostet...",
+    "model": "Modell"
   }
 }

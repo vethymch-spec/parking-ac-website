@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
 import { trpc } from "@/lib/trpc";
 import { useAuth } from "@/_core/hooks/useAuth";
@@ -35,17 +36,18 @@ const ICON_MAP: Record<string, React.ReactNode> = {
   "message-circle": <MessageCircle className="w-4 h-4" />,
 };
 
-function timeAgo(date: Date | string): string {
+function timeAgo(date: Date | string, t: (key: string, options?: any) => string): string {
   const d = new Date(date);
   const diff = (Date.now() - d.getTime()) / 1000;
-  if (diff < 60) return "just now";
-  if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
-  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
-  if (diff < 2592000) return `${Math.floor(diff / 86400)}d ago`;
+  if (diff < 60) return t('forum.justNow');
+  if (diff < 3600) return t('forum.minutesAgo', { count: Math.floor(diff / 60) });
+  if (diff < 86400) return t('forum.hoursAgo', { count: Math.floor(diff / 3600) });
+  if (diff < 2592000) return t('forum.daysAgo', { count: Math.floor(diff / 86400) });
   return d.toLocaleDateString();
 }
 
 export default function Forum() {
+  const { t } = useTranslation();
   const { isAuthenticated } = useAuth();
   const [selectedCategory, setSelectedCategory] = useState<number | undefined>();
   const [search, setSearch] = useState("");
@@ -84,21 +86,21 @@ export default function Forum() {
       {/* Hero banner */}
       <div className="bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 text-white pt-24 pb-10">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-3xl md:text-4xl font-bold mb-2">Parking AC Community Forum</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-2">{t('forum.heroTitle')}</h1>
           <p className="text-blue-100 text-lg mb-6">
-            Share experiences, ask questions, and connect with truck drivers, van lifers, and RV enthusiasts worldwide.
+            {t('forum.heroSubtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             {isAuthenticated ? (
               <Link href="/forum/new-post">
                 <Button className="bg-white text-blue-700 hover:bg-blue-50 font-semibold gap-2">
-                  <Plus className="w-4 h-4" /> Start a Discussion
+                  <Plus className="w-4 h-4" /> {t('forum.startDiscussion')}
                 </Button>
               </Link>
             ) : (
               <a href={getLoginUrl()}>
                 <Button className="bg-white text-blue-700 hover:bg-blue-50 font-semibold gap-2">
-                  <Plus className="w-4 h-4" /> Sign In to Post
+                  <Plus className="w-4 h-4" /> {t('forum.signInToPost')}
                 </Button>
               </a>
             )}
@@ -106,7 +108,7 @@ export default function Forum() {
               <Input
                 value={searchInput}
                 onChange={e => setSearchInput(e.target.value)}
-                placeholder="Search discussions..."
+                placeholder={t('forum.searchPlaceholder')}
                 className="bg-white/20 border-white/30 text-white placeholder:text-blue-200 focus:bg-white focus:text-gray-900 focus:placeholder:text-gray-400"
               />
               <Button type="submit" variant="outline" className="border-white/40 text-white hover:bg-white/20 bg-transparent">
@@ -123,7 +125,7 @@ export default function Forum() {
           <aside className="lg:w-64 shrink-0">
             <div className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
               <div className="px-4 py-3 border-b border-gray-100 bg-gray-50">
-                <h2 className="font-semibold text-gray-700 text-sm uppercase tracking-wide">Categories</h2>
+                <h2 className="font-semibold text-gray-700 text-sm uppercase tracking-wide">{t('forum.categories')}</h2>
               </div>
               <nav className="p-2">
                 <button
@@ -133,7 +135,7 @@ export default function Forum() {
                   }`}
                 >
                   <span className="flex items-center gap-2">
-                    <MessageCircle className="w-4 h-4" /> All Discussions
+                    <MessageCircle className="w-4 h-4" /> {t('forum.allDiscussions')}
                   </span>
                   <span className="text-xs text-gray-400">{total}</span>
                 </button>
@@ -159,19 +161,19 @@ export default function Forum() {
 
             {/* Quick links */}
             <div className="bg-white rounded-xl border border-gray-200 shadow-sm mt-4 p-4">
-              <h3 className="font-semibold text-gray-700 text-sm mb-3">Quick Links</h3>
+              <h3 className="font-semibold text-gray-700 text-sm mb-3">{t('forum.quickLinks')}</h3>
               <div className="space-y-2 text-sm">
                 <Link href="/products/top-mounted-ac" className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
-                  <ChevronRight className="w-3 h-3" /> VS02 PRO Top-Mounted AC
+                  <ChevronRight className="w-3 h-3" /> VS02 PRO {t('nav.topMountedAC')}
                 </Link>
                 <Link href="/products/mini-split-ac" className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
-                  <ChevronRight className="w-3 h-3" /> VX3000SP Mini-Split AC
+                  <ChevronRight className="w-3 h-3" /> VX3000SP {t('nav.miniSplitAC')}
                 </Link>
                 <Link href="/blog" className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
-                  <ChevronRight className="w-3 h-3" /> Installation Guides
+                  <ChevronRight className="w-3 h-3" /> {t('support.installation')}
                 </Link>
                 <Link href="/contact" className="flex items-center gap-2 text-blue-600 hover:text-blue-800">
-                  <ChevronRight className="w-3 h-3" /> Contact Support
+                  <ChevronRight className="w-3 h-3" /> {t('support.submitTicket')}
                 </Link>
               </div>
             </div>
@@ -183,9 +185,9 @@ export default function Forum() {
             <div className="flex items-center justify-between mb-4">
               <div>
                 <h2 className="font-semibold text-gray-800">
-                  {selectedCat ? selectedCat.name : search ? `Search: "${search}"` : "All Discussions"}
+                  {selectedCat ? selectedCat.name : search ? `${t('common.search')}: "${search}"` : t('forum.allDiscussions')}
                 </h2>
-                <p className="text-sm text-gray-500">{total} threads</p>
+                <p className="text-sm text-gray-500">{total} {t('forum.threads')}</p>
               </div>
             </div>
 
@@ -202,18 +204,18 @@ export default function Forum() {
             ) : posts.length === 0 ? (
               <div className="bg-white rounded-xl border border-gray-200 p-12 text-center">
                 <MessageCircle className="w-12 h-12 text-gray-300 mx-auto mb-3" />
-                <p className="text-gray-500 font-medium">No discussions yet</p>
-                <p className="text-gray-400 text-sm mt-1">Be the first to start a conversation!</p>
+                <p className="text-gray-500 font-medium">{t('forum.noDiscussions')}</p>
+                <p className="text-gray-400 text-sm mt-1">{t('forum.beFirst')}</p>
                 {isAuthenticated ? (
                   <Link href="/forum/new-post">
                     <Button className="mt-4 gap-2">
-                      <Plus className="w-4 h-4" /> Start Discussion
+                      <Plus className="w-4 h-4" /> {t('forum.startDiscussion')}
                     </Button>
                   </Link>
                 ) : (
                   <a href={getLoginUrl()}>
                     <Button className="mt-4 gap-2">
-                      <Plus className="w-4 h-4" /> Sign In to Post
+                      <Plus className="w-4 h-4" /> {t('forum.signInToPost')}
                     </Button>
                   </a>
                 )}
@@ -232,11 +234,11 @@ export default function Forum() {
                           <div className="flex items-start gap-2 flex-wrap">
                             {post.isPinned && (
                               <span className="inline-flex items-center gap-1 text-xs text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full">
-                                <Pin className="w-3 h-3" /> Pinned
+                                <Pin className="w-3 h-3" /> {t('forum.pinned')}
                               </span>
                             )}
                             {post.isClosed && (
-                              <Badge variant="secondary" className="text-xs">Closed</Badge>
+                              <Badge variant="secondary" className="text-xs">{t('forum.closed')}</Badge>
                             )}
                             {post.vehicleType && (
                               <Badge variant="outline" className="text-xs border-blue-200 text-blue-600">
@@ -253,7 +255,7 @@ export default function Forum() {
                           <div className="flex items-center gap-4 mt-2 text-xs text-gray-400">
                             <span className="font-medium text-gray-500">{post.authorName ?? "Anonymous"}</span>
                             <span className="flex items-center gap-1">
-                              <Clock className="w-3 h-3" /> {timeAgo(post.createdAt)}
+                              <Clock className="w-3 h-3" /> {timeAgo(post.createdAt, t)}
                             </span>
                             <span className="flex items-center gap-1">
                               <MessageCircle className="w-3 h-3" /> {post.replyCount ?? 0}
@@ -282,10 +284,10 @@ export default function Forum() {
                   disabled={page === 1}
                   onClick={() => setPage(p => p - 1)}
                 >
-                  Previous
+                  {t('forum.previous')}
                 </Button>
                 <span className="flex items-center text-sm text-gray-500 px-3">
-                  Page {page} of {totalPages}
+                  {t('forum.pageOf', { page, total: totalPages })}
                 </span>
                 <Button
                   variant="outline"
@@ -293,7 +295,7 @@ export default function Forum() {
                   disabled={page === totalPages}
                   onClick={() => setPage(p => p + 1)}
                 >
-                  Next
+                  {t('blog.next')}
                 </Button>
               </div>
             )}
