@@ -2,6 +2,50 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+// Country to language mapping for geo-detection
+const countryToLanguage: Record<string, string> = {
+  // North America
+  'US': 'en', 'CA': 'en', 'MX': 'es',
+  // Europe
+  'GB': 'en', 'DE': 'de', 'FR': 'fr', 'IT': 'it', 'ES': 'es', 'PT': 'pt',
+  'NL': 'nl', 'BE': 'nl', 'CH': 'de', 'AT': 'de', 'SE': 'sv', 'NO': 'no',
+  'DK': 'da', 'FI': 'fi', 'PL': 'pl', 'CZ': 'cs', 'HU': 'hu', 'RO': 'ro',
+  'GR': 'el', 'RU': 'ru', 'UA': 'uk', 'TR': 'tr',
+  // Asia
+  'CN': 'zh-CN', 'HK': 'zh-TW', 'TW': 'zh-TW', 'JP': 'ja', 'KR': 'ko',
+  'TH': 'th', 'VN': 'vi', 'ID': 'id', 'MY': 'ms', 'PH': 'en', 'SG': 'en',
+  'IN': 'hi', 'PK': 'en', 'BD': 'en', 'AE': 'ar', 'SA': 'ar', 'IL': 'he',
+  // Africa
+  'ZA': 'en', 'EG': 'ar', 'NG': 'en', 'KE': 'en', 'GH': 'en', 'MA': 'ar',
+  // Oceania
+  'AU': 'en', 'NZ': 'en',
+  // South America
+  'BR': 'pt', 'AR': 'es', 'CL': 'es', 'CO': 'es', 'PE': 'es',
+};
+
+// Detect language from IP geolocation using Cloudflare headers
+async function detectLanguageFromGeo(): Promise<string | null> {
+  try {
+    // Try to get country from Cloudflare headers via a simple request
+    const response = await fetch('/cdn-cgi/trace', { method: 'GET' });
+    if (response.ok) {
+      const text = await response.text();
+      const match = text.match(/loc=([A-Z]{2})/);
+      if (match) {
+        const countryCode = match[1];
+        const lang = countryToLanguage[countryCode];
+        if (lang) {
+          console.log(`[i18n] Geo-detected country: ${countryCode}, language: ${lang}`);
+          return lang;
+        }
+      }
+    }
+  } catch (e) {
+    // Silently fail and return null
+  }
+  return null;
+}
+
 // Import all language files
 import en from './locales/en.json';
 import zhCN from './locales/zh-CN.json';
@@ -104,24 +148,62 @@ export const languageNames: Record<string, string> = {
 // Supported languages for SEO
 export const supportedLanguages = Object.keys(resources);
 
+// Custom language detector that checks geo first
+const customLanguageDetector = {
+  type: 'languageDetector' as const,
+  async: true,
+  init: () => {},
+  detect: async (callback: (lng: string) => void) => {
+    // Priority 1: Check if user has previously selected a language
+    const savedLang = localStorage.getItem('i18nextLng');
+    if (savedLang && supportedLanguages.includes(savedLang)) {
+      callback(savedLang);
+      return;
+    }
+
+    // Priority 2: Detect from IP geolocation
+    const geoLang = await detectLanguageFromGeo();
+    if (geoLang && supportedLanguages.includes(geoLang)) {
+      callback(geoLang);
+      return;
+    }
+
+    // Priority 3: Fall back to browser language
+    const browserLang = navigator.language;
+    if (browserLang) {
+      // Check exact match first
+      if (supportedLanguages.includes(browserLang)) {
+        callback(browserLang);
+        return;
+      }
+      // Check base language (e.g., 'en-US' -> 'en')
+      const baseLang = browserLang.split('-')[0];
+      if (supportedLanguages.includes(baseLang)) {
+        callback(baseLang);
+        return;
+      }
+    }
+
+    // Priority 4: Default to English
+    callback('en');
+  },
+  cacheUserLanguage: (lng: string) => {
+    localStorage.setItem('i18nextLng', lng);
+  },
+};
+
 i18n
-  .use(LanguageDetector)
+  .use(customLanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
     fallbackLng: 'en',
     debug: false,
-    
-    detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage'],
-      lookupLocalStorage: 'i18nextLng',
-    },
-    
+
     interpolation: {
       escapeValue: false,
     },
-    
+
     react: {
       useSuspense: false,
     },
