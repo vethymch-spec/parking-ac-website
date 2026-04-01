@@ -26,27 +26,27 @@ const galleryImages = [
 const nanoMaxFaqs = [
   {
     question: "What is the CoolDrivePro Nano Max parking air conditioner?",
-    answer: "The CoolDrivePro Nano Max is a 10,000 BTU top-mounted 12V DC parking air conditioner specifically designed for light trucks in the US market. Featuring a dual-rotor compressor, it delivers powerful cooling while maintaining compact dimensions perfect for light truck cabs.",
+    answer: "The CoolDrivePro Nano Max is a 7,500-8,500 BTU top-mounted 12V/24V DC parking air conditioner specifically designed for light trucks in the US market. Featuring a dual-rotor compressor, it delivers powerful cooling while maintaining compact dimensions perfect for light truck cabs.",
     category: "Product",
   },
   {
     question: "Is the Nano Max compatible with my light truck?",
-    answer: "The Nano Max is designed for US light trucks including Ford F-150/F-250, Chevy Silverado 1500/2500, Ram 1500/2500, GMC Sierra, and Toyota Tundra. It operates on 12V DC systems standard in light trucks.",
+    answer: "The Nano Max is designed for US light trucks including Ford F-150/F-250, Chevy Silverado 1500/2500, Ram 1500/2500, GMC Sierra, and Toyota Tundra. It auto-switches between 12V and 24V DC systems.",
     category: "Compatibility",
   },
   {
     question: "How does the dual-rotor compressor benefit light truck owners?",
-    answer: "The dual-rotor compressor provides 10,000 BTU cooling power with improved efficiency and reduced vibration compared to single-rotor designs. This means faster cooling, quieter operation, and longer compressor life.",
+    answer: "The dual-rotor compressor provides 7,500-8,500 BTU cooling power with improved efficiency and reduced vibration compared to single-rotor designs. This means faster cooling, quieter operation, and longer compressor life.",
     category: "Performance",
   },
   {
     question: "How long can the Nano Max run on my truck battery?",
-    answer: "With a typical light truck dual battery setup (200-300Ah), the Nano Max runs 6-8 hours continuously. The unit features intelligent power management with automatic undervoltage protection at 10.5V to protect your battery.",
+    answer: "With a typical light truck dual battery setup (200-300Ah), the Nano Max runs 6-10 hours continuously depending on voltage (12V or 24V). The unit features intelligent power management with automatic undervoltage protection to protect your battery.",
     category: "Battery",
   },
   {
     question: "What makes Nano Max different from standard RV AC units?",
-    answer: "Unlike RV AC units that require shore power or generators, Nano Max runs directly on your truck's 12V battery. It's purpose-built for light truck cab dimensions and cooling requirements, with a low-profile design that maintains your truck's aerodynamics.",
+    answer: "Unlike RV AC units that require shore power or generators, Nano Max runs directly on your truck's 12V or 24V battery. It's purpose-built for light truck cab dimensions and cooling requirements, with a low-profile design (165mm height) that maintains your truck's aerodynamics.",
     category: "Comparison",
   },
 ];
@@ -58,30 +58,33 @@ const nanoMaxReviews = [
 ];
 
 const specs = [
-  { label: "Cooling Capacity", value: "10,000 BTU/h" },
-  { label: "Voltage", value: "12V DC" },
+  { label: "Cooling Capacity (12V)", value: "7,500 BTU" },
+  { label: "Cooling Capacity (24V)", value: "8,500 BTU" },
+  { label: "Voltage", value: "12V / 24V DC" },
   { label: "Compressor Type", value: "Dual-Rotor BLDC" },
-  { label: "Rated Power", value: "850W" },
-  { label: "Rated Current", value: "70A" },
-  { label: "Min Current Draw", value: "35A" },
+  { label: "Rated Power (12V)", value: "240-400W" },
+  { label: "Rated Power (24V)", value: "240-700W" },
+  { label: "Rated Current (12V)", value: "18-35A" },
+  { label: "Rated Current (24V)", value: "10-30A" },
   { label: "Refrigerant", value: "R134A" },
-  { label: "Airflow", value: "480 m³/h" },
+  { label: "Airflow", value: "550 m³/h" },
+  { label: "Air Output Method", value: "Manual / Automatic" },
   { label: "Noise Level", value: "≤ 48 dB" },
-  { label: "Operating Temp", value: "-10°C to +55°C" },
-  { label: "Dimensions (L×W×H)", value: "720 × 620 × 165 mm" },
-  { label: "Weight", value: "24 kg" },
-  { label: "Roof Opening", value: "400 × 400 mm" },
+  { label: "External Unit Size", value: "749 × 749 × 165 mm" },
+  { label: "Internal Unit Size", value: "560 × 445 mm" },
+  { label: "Roof Opening", value: "450 × 380 mm" },
+  { label: "Package Weight", value: "27 kg" },
   { label: "UV Protection", value: "UV-resistant coating" },
 ];
 
 const features = [
-  "10,000 BTU powerful cooling for light trucks",
+  "7,500-8,500 BTU powerful cooling for light trucks",
   "Dual-rotor compressor for efficiency & quiet operation",
-  "12V DC - perfect for US light trucks",
-  "Low-profile design maintains aerodynamics",
-  "Intelligent undervoltage protection (10.5V cutoff)",
-  "UV-resistant exterior coating",
-  "Quick installation - standard 14×14 roof opening",
+  "12V/24V DC auto-switching - perfect for US light trucks",
+  "Low-profile design (165mm height)",
+  "Intelligent undervoltage protection",
+  "550 m³/h high airflow output",
+  "Manual/Automatic air output control",
   "2-year warranty",
 ];
 
@@ -159,7 +162,7 @@ export default function ProductNanoMax() {
             Nano Max Light Truck Parking AC
           </h1>
           <p className="text-base mb-4" style={{ color: "oklch(0.45 0.05 250)" }}>
-            12V DC 10,000 BTU Dual-Rotor Parking Air Conditioner — Built for US Light Trucks
+            12V/24V DC 7,500-8,500 BTU Dual-Rotor Parking Air Conditioner — Built for US Light Trucks
           </p>
 
           {/* Stars */}
@@ -179,9 +182,9 @@ export default function ProductNanoMax() {
           {/* Key specs */}
           <div className="grid grid-cols-2 gap-3 mb-6">
             {[
-              { label: t('products.specs.coolingCapacity'), value: "10,000 BTU" },
+              { label: t('products.specs.coolingCapacity'), value: "7,500-8,500 BTU" },
               { label: "Compressor", value: "Dual-Rotor" },
-              { label: t('products.specs.voltage'), value: "12V DC" },
+              { label: t('products.specs.voltage'), value: "12V / 24V DC" },
               { label: "Target Market", value: "USA Light Trucks" },
             ].map(s => (
               <div key={s.label} className="rounded-lg px-4 py-3" style={{ backgroundColor: "oklch(0.96 0.02 240)" }}>
