@@ -2,6 +2,7 @@
  * Product Detail Page: V-TH1 Heating & Cooling Rotor Parking Air Conditioner
  * SEO: keyword-rich H1, specs table, structured content, FAQ
  * NEW PRODUCT - Heating + Cooling dual-mode
+ * UPDATE: Added 110V voltage switch with different specs
  */
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -15,7 +16,7 @@ import ProductFAQ from "@/components/ProductFAQ";
 const vth1Faqs = [
   {
     question: "What is the CoolDrivePro V-TH1 heating and cooling parking air conditioner?",
-    answer: "The CoolDrivePro V-TH1 is a dual-mode rooftop parking air conditioner that provides both heating and cooling. It delivers up to 2,000W cooling capacity (24V) and heats a truck cab from 5°C to 30°C in just 30 minutes.",
+    answer: "The CoolDrivePro V-TH1 is a dual-mode rooftop parking air conditioner that provides both heating and cooling. Available in 12V/24V DC for vehicles and 110V AC for shore power or generator setups.",
     category: "Product",
   },
   {
@@ -25,8 +26,13 @@ const vth1Faqs = [
   },
   {
     question: "What vehicles is the V-TH1 compatible with?",
-    answer: "The CoolDrivePro V-TH1 is compatible with trucks, RVs, campers, vans, and special vehicles. It supports both 12V and 24V DC electrical systems.",
+    answer: "The CoolDrivePro V-TH1 is compatible with trucks, RVs, campers, vans, and special vehicles. It supports 12V/24V DC electrical systems and 110V AC shore power.",
     category: "Compatibility",
+  },
+  {
+    question: "What is the difference between 12V/24V and 110V versions?",
+    answer: "The 12V/24V version runs on vehicle battery systems for mobile use. The 110V version is designed for shore power, garage, or generator use with higher cooling capacity (12,000 BTU vs 9,000 BTU).",
+    category: "Technical",
   },
 ];
 
@@ -35,9 +41,10 @@ const vth1Reviews = [
   {id:2,name:"Hans M.",location:"Bavaria, Germany",rating:5,date:"Mar 5, 2026",title:"Perfekt für europäische Winter",body:"Perfect for European winters. The heating function is incredibly efficient.",verified:true,helpful:67},
 ];
 
-const specs = [
-  { label: "Cooling Capacity (12V)", value: "1,800W" },
-  { label: "Cooling Capacity (24V)", value: "2,000W" },
+// 12V/24V DC Specs
+const dcSpecs = [
+  { label: "Cooling Capacity (12V)", value: "1,800W / 6,100 BTU" },
+  { label: "Cooling Capacity (24V)", value: "2,000W / 6,800 BTU" },
   { label: "Heating Function", value: "Yes — Heat Pump" },
   { label: "Heating Speed", value: "5°C → 30°C in 30 min" },
   { label: "Compressor", value: "GMCC Twin-Rotary" },
@@ -50,25 +57,68 @@ const specs = [
   { label: "Operating Temp", value: "-28°C to +50°C" },
   { label: "Dimensions", value: "850 × 650 × 170 mm" },
   { label: "Weight", value: "28 kg" },
+  { label: "Voltage Type", value: "12V / 24V DC" },
+];
+
+// 110V AC Specs (from reference image)
+const acSpecs = [
+  { label: "Cooling Capacity", value: "3,500W / 12,000 BTU" },
+  { label: "Heating Capacity", value: "3,300W / 11,500 BTU" },
+  { label: "Heating Function", value: "Yes — Heat Pump" },
+  { label: "Input Current (Cooling)", value: "9.8A" },
+  { label: "Input Power (Cooling)", value: "1,078W" },
+  { label: "Input Current (Heating)", value: "9A" },
+  { label: "Input Power (Heating)", value: "990W" },
+  { label: "Compressor", value: "GMCC Twin-Rotary" },
+  { label: "Refrigerant", value: "R32" },
+  { label: "Air Output", value: "550 m³/h" },
+  { label: "External Machine Size", value: "920 × 865 × 190 mm" },
+  { label: "Internal Machine Size", value: "350 × 350 mm" },
+  { label: "Weight (Net/Gross)", value: "37 kg / 45 kg" },
+  { label: "Operating Temp", value: "-28°C to +50°C" },
+  { label: "Voltage Type", value: "110V-120V AC" },
 ];
 
 const features = [
   "Dual-mode: Heating + Cooling in one unit",
   "Heats from 5°C to 30°C in 30 minutes",
-  "Up to 2,000W cooling capacity",
-  "Works with 12V and 24V systems",
+  "Up to 12,000 BTU cooling (110V) / 6,800 BTU (24V)",
+  "Works with 12V/24V DC and 110V AC",
   "GMCC twin-rotary compressor",
   "Heat pump technology for efficient heating",
-  "R134A eco-friendly refrigerant",
+  "Eco-friendly refrigerant (R32/R134A)",
   "CE and RoHS certified",
 ];
+
+// Quick specs for hero section based on voltage
+const getQuickSpecs = (voltage: "dc" | "ac") => {
+  if (voltage === "ac") {
+    return [
+      { label: "coolingCapacity", value: "12,000 BTU" },
+      { label: "heatingSpeed", value: "30 min" },
+      { label: "voltage", value: "110V-120V AC" },
+      { label: "compressor", value: "GMCC" },
+    ];
+  }
+  return [
+    { label: "coolingCapacity", value: "6,800 BTU" },
+    { label: "heatingSpeed", value: "30 min" },
+    { label: "voltage", value: "12V / 24V DC" },
+    { label: "compressor", value: "GMCC" },
+  ];
+};
 
 export default function ProductHeatingCooling() {
   const { t } = useTranslation();
   const [qty, setQty] = useState(1);
+  const [voltage, setVoltage] = useState<"dc" | "ac">("dc");
+
+  const currentSpecs = voltage === "dc" ? dcSpecs : acSpecs;
+  const quickSpecs = getQuickSpecs(voltage);
 
   const handleAddToCart = () => {
-    toast(`${qty} × ${t('products.heatingCoolingAC.title')} ${t('products.detail.addToCart')} — ${t('common.comingSoon')}`);
+    const voltageLabel = voltage === "dc" ? "12V/24V" : "110V";
+    toast(`${qty} × V-TH1 (${voltageLabel}) ${t('products.detail.addToCart')} — ${t('common.comingSoon')}`);
   };
 
   return (
@@ -120,21 +170,58 @@ export default function ProductHeatingCooling() {
           </div>
 
           {/* Price */}
-          <div className="mb-6">
+          <div className="mb-4">
             <span className="text-3xl font-extrabold" style={{ color: "oklch(0.35 0.15 255)" }}>$1,899.00</span>
             <span className="ml-2 text-sm font-bold px-2 py-0.5 rounded" style={{ backgroundColor: "oklch(0.92 0.06 140)", color: "oklch(0.35 0.12 140)" }}>NEW</span>
           </div>
 
+          {/* Voltage Selector */}
+          <div className="mb-6">
+            <label className="text-sm font-semibold mb-2 block" style={{ color: "oklch(0.35 0.08 250)" }}>Voltage Type</label>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setVoltage("dc")}
+                className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${
+                  voltage === "dc" 
+                    ? "text-white" 
+                    : "border-2 hover:bg-gray-50"
+                }`}
+                style={{
+                  backgroundColor: voltage === "dc" ? "oklch(0.45 0.18 255)" : "transparent",
+                  borderColor: voltage === "dc" ? "oklch(0.45 0.18 255)" : "oklch(0.85 0.04 240)",
+                  color: voltage === "dc" ? "white" : "oklch(0.40 0.08 250)"
+                }}
+              >
+                12V / 24V DC
+              </button>
+              <button
+                onClick={() => setVoltage("ac")}
+                className={`px-4 py-2 rounded-lg font-medium text-sm transition-all ${
+                  voltage === "ac" 
+                    ? "text-white" 
+                    : "border-2 hover:bg-gray-50"
+                }`}
+                style={{
+                  backgroundColor: voltage === "ac" ? "oklch(0.45 0.18 255)" : "transparent",
+                  borderColor: voltage === "ac" ? "oklch(0.45 0.18 255)" : "oklch(0.85 0.04 240)",
+                  color: voltage === "ac" ? "white" : "oklch(0.40 0.08 250)"
+                }}
+              >
+                110V-120V AC
+              </button>
+            </div>
+            <p className="text-xs mt-2" style={{ color: "oklch(0.55 0.05 250)" }}>
+              {voltage === "dc" 
+                ? "For vehicle battery systems - runs on truck/RV batteries" 
+                : "For shore power or generator use - higher cooling capacity"}
+            </p>
+          </div>
+
           {/* Key specs */}
           <div className="grid grid-cols-2 gap-3 mb-6">
-            {[
-              { label: t('products.specs.coolingCapacity'), value: "2,000W" },
-              { label: t('products.specs.heatingSpeed'), value: "30 min" },
-              { label: t('products.specs.voltage'), value: "12V / 24V DC" },
-              { label: t('products.specs.compressor'), value: "GMCC" },
-            ].map(s => (
+            {quickSpecs.map(s => (
               <div key={s.label} className="rounded-lg px-4 py-3" style={{ backgroundColor: "oklch(0.96 0.02 240)" }}>
-                <div className="text-xs font-semibold uppercase tracking-wide mb-0.5" style={{ color: "oklch(0.55 0.06 250)" }}>{s.label}</div>
+                <div className="text-xs font-semibold uppercase tracking-wide mb-0.5" style={{ color: "oklch(0.55 0.06 250)" }}>{t(`products.specs.${s.label}`)}</div>
                 <div className="text-base font-bold" style={{ color: "oklch(0.30 0.12 255)" }}>{s.value}</div>
               </div>
             ))}
@@ -180,10 +267,40 @@ export default function ProductHeatingCooling() {
 
       {/* Specs Table */}
       <section className="max-w-[1280px] mx-auto px-4 lg:px-8 py-10">
-        <h2 className="text-xl font-extrabold mb-5" style={{ color: "oklch(0.25 0.10 250)" }}>{t('products.detail.techSpecs')}</h2>
+        <div className="flex items-center justify-between mb-5">
+          <h2 className="text-xl font-extrabold" style={{ color: "oklch(0.25 0.10 250)" }}>{t('products.detail.techSpecs')}</h2>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setVoltage("dc")}
+              className={`px-3 py-1.5 rounded text-sm font-medium transition-all ${
+                voltage === "dc" ? "text-white" : "border hover:bg-gray-50"
+              }`}
+              style={{
+                backgroundColor: voltage === "dc" ? "oklch(0.45 0.18 255)" : "transparent",
+                borderColor: voltage === "dc" ? "oklch(0.45 0.18 255)" : "oklch(0.85 0.04 240)",
+                color: voltage === "dc" ? "white" : "oklch(0.40 0.08 250)"
+              }}
+            >
+              12V / 24V DC
+            </button>
+            <button
+              onClick={() => setVoltage("ac")}
+              className={`px-3 py-1.5 rounded text-sm font-medium transition-all ${
+                voltage === "ac" ? "text-white" : "border hover:bg-gray-50"
+              }`}
+              style={{
+                backgroundColor: voltage === "ac" ? "oklch(0.45 0.18 255)" : "transparent",
+                borderColor: voltage === "ac" ? "oklch(0.45 0.18 255)" : "oklch(0.85 0.04 240)",
+                color: voltage === "ac" ? "white" : "oklch(0.40 0.08 250)"
+              }}
+            >
+              110V-120V AC
+            </button>
+          </div>
+        </div>
         <table className="w-full text-sm">
           <tbody>
-            {specs.map((s, i) => (
+            {currentSpecs.map((s, i) => (
               <tr key={s.label} style={{ backgroundColor: i % 2 === 0 ? "white" : "oklch(0.97 0.015 240)" }}>
                 <td className="py-2.5 px-4 font-medium" style={{ color: "oklch(0.45 0.06 250)", width: "45%" }}>{s.label}</td>
                 <td className="py-2.5 px-4 font-semibold" style={{ color: "oklch(0.28 0.10 250)" }}>{s.value}</td>
