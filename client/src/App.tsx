@@ -38,6 +38,7 @@ const CustomerResetPassword = lazy(() => import("./pages/CustomerResetPassword")
 const AdminLogin = lazy(() => import("./pages/AdminLogin"));
 const Products = lazy(() => import("./pages/Products"));
 const ProductHeatingCooling = lazy(() => import("./pages/ProductHeatingCooling"));
+const ProductNanoMax = lazy(() => import("./pages/ProductNanoMax"));
 const NewProductPopup = lazy(() => import("./components/NewProductPopup"));
 
 /** Minimal loading fallback — keeps CLS near zero */
@@ -101,6 +102,7 @@ function Router() {
         <Route path="/products/top-mounted-ac" component={ProductTopMounted} />
         <Route path="/products/mini-split-ac" component={ProductMiniSplit} />
         <Route path="/products/heating-cooling-ac" component={ProductHeatingCooling} />
+        <Route path="/products/nano-max" component={ProductNanoMax} />
 
         {/* Feature detail pages (Learn More) */}
         <Route path="/features/:id" component={FeaturePage} />

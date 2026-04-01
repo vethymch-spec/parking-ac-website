@@ -46,6 +46,29 @@ interface Product {
 
 const allProducts: Product[] = [
   {
+    id: "nano-max",
+    slug: "nano-max",
+    model: "Nano Max",
+    name: "10000 BTU Light Truck Parking Air Conditioner",
+    subtitle: "12V DC Dual-Rotor AC for US Light Trucks",
+    category: "cooling",
+    categoryLabel: "Light Truck AC",
+    price: 1599,
+    originalPrice: 1899,
+    rating: 5.0,
+    reviewCount: 3,
+    image: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-hero-01.webp",
+    imageAlt: "Nano Max light truck parking air conditioner",
+    specs: [
+      { label: "Cooling", value: "10,000 BTU" },
+      { label: "Power", value: "12V DC" },
+      { label: "Compressor", value: "Dual-Rotor" },
+    ],
+    tags: ["NEW", "USA Market", "Light Truck"],
+    isNew: true,
+    releaseDate: "2026-04-01",
+  },
+  {
     id: "vs02-pro",
     slug: "top-mounted-ac",
     model: "VS02 PRO",
