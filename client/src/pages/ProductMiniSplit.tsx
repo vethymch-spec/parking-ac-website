@@ -88,7 +88,7 @@ export default function ProductMiniSplit() {
           {/* Main Image */}
           <div className="rounded-2xl overflow-hidden bg-gray-50 flex items-center justify-center" style={{ minHeight: "400px" }}>
             <img
-              src="https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/vx3000-split-outdoor-unit-01.webp"
+              src="/images/products/vx3000-split-outdoor-unit-01.webp"
               alt={t('products.miniSplit.imageAlt')}
               className="w-full h-auto object-contain"
               style={{ maxHeight: "480px" }}
@@ -97,12 +97,12 @@ export default function ProductMiniSplit() {
           {/* Thumbnail Gallery */}
           <div className="grid grid-cols-6 gap-2">
             {[
-              "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/vx3000-split-outdoor-unit-01.webp",
-              "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/vx3000-split-outdoor-unit-02.webp",
-              "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/vx3000-split-indoor-unit-01.webp",
-              "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/vx3000-split-system-diagram.webp",
-              "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/vx3000-split-installation.webp",
-              "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/vx3000-split-features.webp",
+              "/images/products/vx3000-split-outdoor-unit-01.webp",
+              "/images/products/vx3000-split-outdoor-unit-02.webp",
+              "/images/products/vx3000-split-indoor-unit-01.webp",
+              "/images/products/vx3000-split-system-diagram.webp",
+              "/images/products/vx3000-split-installation.webp",
+              "/images/products/vx3000-split-features.webp",
             ].map((src, idx) => (
               <div key={idx} className="rounded-lg overflow-hidden bg-gray-100 aspect-square cursor-pointer hover:ring-2 hover:ring-blue-500">
                 <img src={src} alt={`VX3000 view ${idx + 1}`} className="w-full h-full object-cover" />
