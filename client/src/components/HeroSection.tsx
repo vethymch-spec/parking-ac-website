@@ -103,6 +103,24 @@ export default function HeroSection() {
                 </span>
                 {t('nav.heatingCoolingAC')}
               </a>
+              <a
+                href="/products/nano-max"
+                className="relative inline-block px-6 py-3 text-sm font-bold text-white rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
+                style={{
+                  background: "linear-gradient(135deg, oklch(0.55 0.20 25), oklch(0.50 0.22 15))",
+                  fontFamily: "'Montserrat', sans-serif",
+                  letterSpacing: "0.02em",
+                }}
+                title="Nano Max Light Truck Parking AC"
+              >
+                <span
+                  className="absolute -top-2 -right-2 px-1.5 py-0.5 text-[10px] font-bold text-white rounded-sm leading-none"
+                  style={{ backgroundColor: "oklch(0.38 0.22 25)" }}
+                >
+                  {t('nav.new')}
+                </span>
+                12V Light Truck AC
+              </a>
             </nav>
           </div>
         </div>
