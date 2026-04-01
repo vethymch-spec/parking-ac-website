@@ -14,12 +14,13 @@ import ProductReviews from "@/components/ProductReviews";
 import ProductFAQ from "@/components/ProductFAQ";
 
 const galleryImages = [
-  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-hero-01.webp", alt: "Nano Max Light Truck Parking AC - Hero view" },
-  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-side-02.webp", alt: "Nano Max - Side profile view" },
-  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-top-03.webp", alt: "Nano Max - Top view" },
-  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-indoor-04.webp", alt: "Nano Max - Indoor unit" },
-  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-install-05.webp", alt: "Nano Max - Installation view" },
-  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-detail-06.webp", alt: "Nano Max - Detail closeup" },
+  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-01.webp", alt: "Nano Max Light Truck Parking AC - Hero view" },
+  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-02.webp", alt: "Nano Max - Side profile view" },
+  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-03.webp", alt: "Nano Max - Top view" },
+  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-04.webp", alt: "Nano Max - Detail view" },
+  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-05.webp", alt: "Nano Max - Feature view" },
+  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-06.webp", alt: "Nano Max - Closeup" },
+  { src: "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/nano-max-07.webp", alt: "Nano Max - Full view" },
 ];
 
 const nanoMaxFaqs = [
@@ -131,7 +132,7 @@ export default function ProductNanoMax() {
             />
           </div>
           {/* Thumbnail Gallery */}
-          <div className="grid grid-cols-6 gap-2">
+          <div className="grid grid-cols-7 gap-2">
             {galleryImages.map((img, idx) => (
               <div 
                 key={idx} 
