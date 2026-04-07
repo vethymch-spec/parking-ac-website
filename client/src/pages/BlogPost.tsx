@@ -12,6 +12,11 @@ import { ChevronRight, Calendar, Tag, Loader2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 
+interface BlogContentSection {
+  heading: string | null;
+  body: string;
+}
+
 interface BlogPostData {
   title: string;
   date: string;
@@ -19,7 +24,17 @@ interface BlogPostData {
   image: string;
   imageAlt: string;
   metaDescription: string;
-  content: { heading: string | null; body: string }[];
+  content: (BlogContentSection | string)[];
+}
+
+/** Normalize content to always be {heading, body} objects */
+function normalizeContent(content: (BlogContentSection | string)[]): BlogContentSection[] {
+  return content.map((item) => {
+    if (typeof item === "string") {
+      return { heading: null, body: item };
+    }
+    return item;
+  });
 }
 
 export default function BlogPost() {
@@ -126,7 +141,7 @@ export default function BlogPost() {
 
         {/* Content */}
         <div className="space-y-8">
-          {post.content.map((section, i) => (
+          {normalizeContent(post.content).map((section, i) => (
             <div key={i}>
               {section.heading && (
                 <h2
