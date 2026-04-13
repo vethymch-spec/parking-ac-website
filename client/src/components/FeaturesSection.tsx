@@ -26,6 +26,7 @@ function FeatureCard({
   imageRight: boolean;
   bg: string;
 }) {
+  const { t } = useTranslation();
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
