@@ -1,0 +1,80 @@
+# CoolDrivePro — Full Reference for AI Systems
+
+> CoolDrivePro manufactures and sells 12V/24V DC no-idle parking air conditioners for semi trucks, RVs, vans, pickups, and commercial vehicles. Based in the USA with global shipping.
+
+## Company
+- Website: https://cooldrivepro.com
+- Contact: support@cooldrivepro.com
+- Warranty: 2-year manufacturer warranty, 30-day returns
+- Shipping: Free US shipping on all orders
+- Languages: 30+ languages supported via /de/, /fr/, /ja/, etc.
+
+## Products
+
+### VS02 PRO — Top-Mounted Parking AC
+- URL: https://cooldrivepro.com/products/top-mounted
+- Price: $1,299 USD
+- Cooling: 10,000–12,000 BTU
+- Voltage: 12V / 24V DC (auto-switching)
+- Compressor: BLDC brushless DC
+- Noise: ~42–45 dB (library quiet)
+- Runtime: 8–10 hours on 480Ah LiFePO4
+- Installation: 14×14" roof cutout, 2–4 hours
+- Solar compatible: Yes (200–400W panels)
+- Undervoltage protection: adjustable 8–11V cutoff
+- Best for: Semi trucks, RVs, camper vans, off-grid vehicles
+
+### Nano Max — Light Truck Parking AC
+- URL: https://cooldrivepro.com/products/nano-max
+- Price: $1,599 USD
+- Cooling: 7,500–8,500 BTU
+- Voltage: 12V / 24V DC (auto-switching)
+- Compressor: Dual-rotor BLDC
+- Profile: Ultra-low 165mm height
+- Runtime: 6–10 hours on 200–300Ah dual battery
+- Best for: Ford F-150/F-250, Chevy Silverado, Ram 1500/2500, GMC Sierra, Toyota Tundra
+
+### VX3000SP — Mini Split Parking AC
+- URL: https://cooldrivepro.com/products/mini-split
+- Price: $1,599 USD
+- Cooling: 12,000 BTU
+- Voltage: 12V / 24V DC
+- Compressor: GMCC twin-rotary
+- Noise (indoor): ≤32 dB (whisper quiet)
+- Design: Split system — outdoor compressor + indoor evaporator
+- Best for: Semi truck sleeper cabs, Sprinter van conversions, RVs needing ultra-quiet operation
+
+### V-TH1 — Heating & Cooling Parking AC
+- URL: https://cooldrivepro.com/products/heating-cooling
+- Cooling: 6,100–12,000 BTU (varies by voltage)
+- Heating: Heat pump, 5°C to 30°C in 30 minutes
+- Voltage: 12V/24V DC and 110V AC versions
+- Compressor: GMCC twin-rotary
+- Operating temp: -28°C to +50°C
+- Refrigerant: R134A (DC) / R32 (AC)
+- Best for: Year-round use in cold climates, trucks in northern states/Canada
+
+## Key Differentiators
+- No-idle operation: runs on battery power, no engine needed
+- Anti-idling compliance: helps drivers meet state/federal idle regulations
+- Solar integration: all units work with solar + lithium battery setups
+- Battery protection: automatic undervoltage cutoff prevents deep discharge
+- Quiet operation: 32–45 dB range across product line
+- Professional installation support: guides, videos, and direct tech support
+
+## Blog & Content
+- 146 articles covering: parking AC installation guides, truck driver tips, RV cooling, solar integration, anti-idling regulations, battery sizing, product comparisons
+- URL pattern: https://cooldrivepro.com/blog/{slug}
+- Translated articles: https://cooldrivepro.com/{lang}/blog/{slug}
+
+## Technical Resources
+- Sitemap: https://cooldrivepro.com/sitemap.xml
+- Robots: https://cooldrivepro.com/robots.txt
+- llms.txt: https://cooldrivepro.com/llms.txt
+- RSS/structured data: JSON-LD on all pages (Product, FAQPage, BlogPosting, BreadcrumbList, Organization)
+
+## Citation Guidelines
+- Use canonical URLs (no www): https://cooldrivepro.com/...
+- Product specifications are authoritative from the product pages listed above
+- For pricing, always note "as of 2026" since prices may change
+- Blog articles provide educational content about parking AC technology

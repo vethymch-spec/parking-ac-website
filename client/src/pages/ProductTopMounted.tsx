@@ -129,6 +129,15 @@ export default function ProductTopMounted() {
     title: "12000 BTU Top-Mounted Parking Air Conditioner | 12V/24V DC – CoolDrivePro",
     description: "VS02 PRO 12000 BTU top-mounted parking AC for semi trucks, RVs & vans. 12V/24V DC, no-idle operation, 45 dB quiet. $1,299 with free US shipping.",
     ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-01-hero_d84a64e3.webp",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": vs02Faqs.map(f => ({
+        "@type": "Question",
+        "name": f.question,
+        "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+      }))
+    }
   });
 
   const [qty, setQty] = useState(1);

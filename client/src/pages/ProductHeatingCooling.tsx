@@ -116,6 +116,15 @@ export default function ProductHeatingCooling() {
     title: "V-TH1 Heating & Cooling Parking Air Conditioner | 12V/24V DC – CoolDrivePro",
     description: "V-TH1 dual-mode heating & cooling parking AC. 2000W cooling, heats cab from 5°C to 30°C in 30 min. GMCC twin-rotary compressor, 12V/24V DC. Year-round comfort.",
     ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": vth1Faqs.map(f => ({
+        "@type": "Question",
+        "name": f.question,
+        "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+      }))
+    }
   });
 
   const [qty, setQty] = useState(1);

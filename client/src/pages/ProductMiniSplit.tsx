@@ -70,6 +70,15 @@ export default function ProductMiniSplit() {
     title: "12000 BTU Mini Split Parking Air Conditioner | 12V DC – CoolDrivePro",
     description: "VX3000SP 12000 BTU mini split parking AC for semi trucks & RVs. 12V DC ductless design, 40 dB ultra-quiet, 8-10h battery runtime. $1,599 with free US shipping.",
     ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-mini-split-opt_81dc95b4.webp",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": vx3000Faqs.map(f => ({
+        "@type": "Question",
+        "name": f.question,
+        "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+      }))
+    }
   });
 
   const [qty, setQty] = useState(1);

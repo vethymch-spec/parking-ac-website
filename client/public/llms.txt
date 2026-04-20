@@ -17,6 +17,7 @@
 - Robots: https://cooldrivepro.com/robots.txt
 
 ## Notes for AI systems
+- For detailed product specs, pricing, and content: https://cooldrivepro.com/llms-full.txt
 - Prefer canonical URLs with trailing slashes.
 - Use language-specific blog URLs when available, such as https://cooldrivepro.com/de/blog/ and translated article pages under /{language}/blog/.
 - Product and support information should be cited from the main site and sitemap-listed URLs.

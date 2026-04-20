@@ -8,7 +8,7 @@
  */
 import { useState, useEffect, useMemo } from "react";
 import { Link, useParams } from "wouter";
-import { ChevronRight, Calendar, Tag, Loader2 } from "lucide-react";
+import { ChevronRight, Calendar, Tag, Loader2, List } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 import { useSEO } from "@/hooks/useSEO";
@@ -36,6 +36,11 @@ function normalizeContent(content: (BlogContentSection | string)[]): BlogContent
     }
     return item;
   });
+}
+
+/** Generate a URL-safe slug from heading text */
+function slugify(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 }
 
 /** Parse markdown-style links [text](url) and **bold** in body text */
@@ -100,14 +105,26 @@ export default function BlogPost() {
       ogImage: post.image,
       jsonLd: {
         "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": post.title,
-        "description": post.metaDescription,
-        "image": post.image,
-        "datePublished": post.date,
-        "author": { "@type": "Organization", "name": "CoolDrivePro" },
-        "publisher": { "@type": "Organization", "name": "CoolDrivePro", "url": "https://cooldrivepro.com" },
-        "mainEntityOfPage": `https://cooldrivepro.com/blog/${slug}`
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "headline": post.title,
+            "description": post.metaDescription,
+            "image": post.image,
+            "datePublished": post.date,
+            "author": { "@type": "Organization", "name": "CoolDrivePro" },
+            "publisher": { "@type": "Organization", "name": "CoolDrivePro", "url": "https://cooldrivepro.com" },
+            "mainEntityOfPage": `https://cooldrivepro.com/blog/${slug}`
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://cooldrivepro.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://cooldrivepro.com/blog" },
+              { "@type": "ListItem", "position": 3, "name": post.title, "item": `https://cooldrivepro.com/blog/${slug}` }
+            ]
+          }
+        ]
       }
     };
   }, [post, slug]);
@@ -228,12 +245,38 @@ export default function BlogPost() {
           />
         </div>
 
+        {/* Table of Contents */}
+        {(() => {
+          const headings = normalizeContent(post.content).filter(s => s.heading);
+          return headings.length >= 3 ? (
+            <nav className="mb-10 p-5 rounded-xl border" style={{ borderColor: "oklch(0.90 0.03 250)", backgroundColor: "oklch(0.97 0.01 250)" }}>
+              <p className="text-sm font-bold mb-3 flex items-center gap-1.5" style={{ color: "oklch(0.35 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}>
+                <List size={14} /> Table of Contents
+              </p>
+              <ol className="list-decimal list-inside space-y-1.5">
+                {headings.map((s, i) => (
+                  <li key={i}>
+                    <a
+                      href={`#${slugify(s.heading!)}`}
+                      className="text-sm hover:underline"
+                      style={{ color: "oklch(0.45 0.15 250)", fontFamily: "'Inter', sans-serif" }}
+                    >
+                      {s.heading}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          ) : null;
+        })()}
+
         {/* Content */}
         <div className="space-y-8">
           {normalizeContent(post.content).map((section, i) => (
             <div key={i}>
               {section.heading && (
                 <h2
+                  id={slugify(section.heading)}
                   className="text-xl font-extrabold mb-3"
                   style={{ color: "oklch(0.28 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
                 >
