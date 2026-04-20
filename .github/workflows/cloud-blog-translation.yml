@@ -123,12 +123,21 @@ jobs:
       - name: Merge translated files into workspace
         shell: bash
         run: |
-          if [[ -d artifact-merge/client/public/data/blog/locales ]]; then
+          echo "=== Artifact structure ==="
+          find artifact-merge -type f | head -40
+
+          # Merge locale translations
+          if find artifact-merge -path '*/locales' -type d | head -1 | grep -q .; then
             mkdir -p client/public/data/blog/locales
-            rsync -a artifact-merge/client/public/data/blog/locales/ client/public/data/blog/locales/
+            find artifact-merge -path '*/locales/*' -type f -exec bash -c '
+              rel="${1#*/locales/}"
+              mkdir -p "client/public/data/blog/locales/$(dirname "$rel")"
+              cp "$1" "client/public/data/blog/locales/$rel"
+            ' _ {} \;
           fi
 
-          find artifact-merge -maxdepth 1 -name '.translation-state-shard-*.json' -exec cp {} . \; || true
+          # Copy state files (may be at any depth)
+          find artifact-merge -name '.translation-state-shard-*.json' -exec cp {} . \; 2>/dev/null || true
 
       - name: Refresh locale manifests
         run: node scripts/sync-blog-index.mjs
@@ -148,7 +157,8 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add client/public/data/blog .translation-state-shard-*.json
+          git add client/public/data/blog
+          git add .translation-state-shard-*.json 2>/dev/null || true
           git commit -m "chore: cloud update blog locale translations"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
