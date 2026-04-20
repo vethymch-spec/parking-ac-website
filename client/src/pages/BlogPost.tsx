@@ -38,11 +38,19 @@ function normalizeContent(content: (BlogContentSection | string)[]): BlogContent
   });
 }
 
+interface RelatedPostInfo {
+  slug: string;
+  title: string;
+  image: string;
+  category: string;
+}
+
 export default function BlogPost() {
   const { t } = useTranslation();
   const params = useParams<{ slug: string }>();
   const slug = params.slug || "";
   const [post, setPost] = useState<BlogPostData | null>(null);
+  const [relatedPosts, setRelatedPosts] = useState<RelatedPostInfo[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
@@ -89,6 +97,26 @@ export default function BlogPost() {
         setError(true);
         setLoading(false);
       });
+  }, [slug]);
+
+  // Load related posts
+  useEffect(() => {
+    if (!slug) return;
+    fetch('/data/blog/related-posts.json')
+      .then(res => res.ok ? res.json() : {})
+      .then((map: Record<string, string[]>) => {
+        const slugs = map[slug] || [];
+        if (slugs.length === 0) { setRelatedPosts([]); return; }
+        return fetch('/data/blog/list.json')
+          .then(res => res.ok ? res.json() : [])
+          .then((list: Array<{ slug: string; title: string; image: string; category: string }>) => {
+            const bySlug = new Map(list.map(a => [a.slug, a]));
+            setRelatedPosts(
+              slugs.map(s => bySlug.get(s)).filter(Boolean) as RelatedPostInfo[]
+            );
+          });
+      })
+      .catch(() => setRelatedPosts([]));
   }, [slug]);
 
   if (loading) {
@@ -219,6 +247,51 @@ export default function BlogPost() {
           </div>
         </div>
       </article>
+
+      {/* Related Posts */}
+      {relatedPosts.length > 0 && (
+        <section className="max-w-[1280px] mx-auto px-4 lg:px-8 pb-16">
+          <h2
+            className="text-2xl font-extrabold mb-6"
+            style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
+          >
+            {t('blog.post.relatedArticles', 'Related Articles')}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+            {relatedPosts.map((rp) => (
+              <Link
+                key={rp.slug}
+                href={`/blog/${rp.slug}`}
+                className="group rounded-xl overflow-hidden border transition-shadow hover:shadow-lg"
+                style={{ borderColor: "oklch(0.90 0.03 250)" }}
+              >
+                <div className="aspect-[16/10] overflow-hidden">
+                  <img
+                    src={rp.image}
+                    alt={rp.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-3">
+                  <span
+                    className="text-[10px] font-bold uppercase tracking-wider"
+                    style={{ color: "oklch(0.45 0.18 255)" }}
+                  >
+                    {rp.category}
+                  </span>
+                  <h3
+                    className="text-sm font-bold mt-1 line-clamp-2 group-hover:underline"
+                    style={{ color: "oklch(0.28 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
+                  >
+                    {rp.title}
+                  </h3>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </PageLayout>
   );
 }
