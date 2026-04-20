@@ -123,11 +123,12 @@ jobs:
       - name: Merge translated files into workspace
         shell: bash
         run: |
+          set +o pipefail
           echo "=== Artifact structure ==="
-          find artifact-merge -type f | head -40
+          find artifact-merge -type f 2>/dev/null | head -40 || true
 
           # Merge locale translations
-          if find artifact-merge -path '*/locales' -type d | head -1 | grep -q .; then
+          if find artifact-merge -path '*/locales' -type d 2>/dev/null | head -1 | grep -q .; then
             mkdir -p client/public/data/blog/locales
             find artifact-merge -path '*/locales/*' -type f -exec bash -c '
               rel="${1#*/locales/}"
