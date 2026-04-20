@@ -38,6 +38,44 @@ function normalizeContent(content: (BlogContentSection | string)[]): BlogContent
   });
 }
 
+/** Parse markdown-style links [text](url) and **bold** in body text */
+function renderBody(text: string): React.ReactNode[] {
+  const parts: React.ReactNode[] = [];
+  const regex = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    if (match[1] && match[2]) {
+      // Link
+      const isInternal = match[2].startsWith('/');
+      parts.push(
+        <a
+          key={key++}
+          href={match[2]}
+          className="font-semibold underline underline-offset-2 hover:opacity-80 transition-opacity"
+          style={{ color: "oklch(0.45 0.18 255)" }}
+          {...(isInternal ? {} : { target: "_blank", rel: "noopener noreferrer" })}
+        >
+          {match[1]}
+        </a>
+      );
+    } else if (match[3]) {
+      // Bold
+      parts.push(<strong key={key++}>{match[3]}</strong>);
+    }
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts;
+}
+
 interface RelatedPostInfo {
   slug: string;
   title: string;
@@ -208,7 +246,7 @@ export default function BlogPost() {
                   className="text-base leading-relaxed mb-3"
                   style={{ color: "oklch(0.42 0.05 250)", fontFamily: "'Inter', sans-serif" }}
                 >
-                  {para}
+                  {renderBody(para)}
                 </p>
               ))}
             </div>
