@@ -824,14 +824,6 @@
     "excerpt": "Explore parking air conditioner solutions for commercial drivers in Ibadan, Nigeria. Enhance urban transport and logistics with CoolDrivePro VS02 PRO technology."
   },
   {
-    "slug": "parking-ac-tanzania-zanzibar-tourism",
-    "title": "Parking AC for Tanzania Zanzibar: Island Tourism Transport Solutions",
-    "category": "Regional Guide",
-    "date": "March 29, 2025",
-    "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
-    "excerpt": "Discover parking air conditioner solutions for tourism transport in Zanzibar, Tanzania. Combat tropical humidity and coastal heat with CoolDrivePro VS02 PRO technology."
-  },
-  {
     "slug": "parking-ac-egypt-luxor-tourism-vehicles",
     "title": "Parkering AC för Luxor Tour Coaches och Shuttle Vans: Desert Comfort Guide",
     "category": "Turism Transport",
@@ -846,6 +838,14 @@
     "date": "29 mars 2025",
     "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
     "excerpt": "Utforska lösningar för parkeringsluftkonditionering för transportfordon i Tamale, Ghana.Bekämpa Sahelvärmen och stödja logistiken i norra regionen med CoolDrivePro VS02 PRO."
+  },
+  {
+    "slug": "parking-ac-tanzania-zanzibar-tourism",
+    "title": "Parking AC for Tanzania Zanzibar: Island Tourism Transport Solutions",
+    "category": "Regional Guide",
+    "date": "March 29, 2025",
+    "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
+    "excerpt": "Discover parking air conditioner solutions for tourism transport in Zanzibar, Tanzania. Combat tropical humidity and coastal heat with CoolDrivePro VS02 PRO technology."
   },
   {
     "slug": "parking-ac-kenya-nakuru-agricultural-transport",
@@ -1166,5 +1166,9 @@
     "date": "November 3, 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership_765892a3.webp",
     "excerpt": "Discover the true ROI of parking air conditioners vs. engine idling over 5 years. Learn about TCO, savings, and CoolDrivePro solutions for truck drivers, RVs, and van lifers."
+  },
+  {
+    "slug": "related-posts",
+    "excerpt": ""
   }
 ]
