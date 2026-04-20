@@ -4,9 +4,37 @@ import { Link } from "wouter";
 import { ChevronRight, Mail, Clock, MessageCircle, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import PageLayout from "@/components/PageLayout";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function ContactUs() {
   const { t } = useTranslation();
+
+  useSEO({
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact CoolDrivePro",
+      "description": "Get in touch with CoolDrivePro for parking air conditioner support, sales inquiries, and technical assistance.",
+      "url": "https://cooldrivepro.com/contact",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "CoolDrivePro",
+        "email": "support@cooldrivepro.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "support@cooldrivepro.com",
+          "contactType": "customer service",
+          "availableLanguage": "English",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          }
+        }
+      }
+    }
+  });
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [formData, setFormData] = useState({

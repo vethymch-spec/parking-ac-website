@@ -1,152 +1,1081 @@
 {
   "defaultLanguage": "en",
-  "languages": [],
+  "languages": [
+    "ar",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es",
+    "he",
+    "ja",
+    "ms",
+    "ru",
+    "sv",
+    "zh-CN"
+  ],
   "posts": {
-    "parking-ac-egypt-alexandria-coastal-humidity": [],
-    "parking-ac-egypt-cairo-delivery-vans": [],
-    "parking-ac-ghana-accra-urban-transport": [],
-    "parking-ac-ghana-kumasi-industrial-zone": [],
-    "parking-ac-kenya-nairobi-public-transport": [],
-    "parking-ac-nigeria-kano-hot-climate": [],
-    "parking-ac-south-africa-cape-town-tourism": [],
-    "parking-ac-tanzania-arusha-wildlife-tours": [],
-    "parking-ac-tanzania-dar-es-salaam-logistics": [],
-    "parking-ac-battery-management-system": [],
-    "parking-ac-for-military-vehicles": [],
-    "parking-ac-inverter-technology": [],
-    "parking-ac-smart-home-integration": [],
-    "12v-vs-24v-truck-ac": [],
-    "reduce-driver-heat-stress": [],
-    "truck-ac-installation-mistakes": [],
-    "truck-ac-dust-vibration-heat": [],
-    "truck-ac-low-voltage-guide": [],
-    "truck-ac-weak-cooling-fix": [],
-    "truck-ac-installation-africa": [],
-    "parking-ac-for-camper-trailer": [],
-    "parking-ac-tunisia": [],
-    "parking-ac-egypt": [],
-    "parking-ac-morocco": [],
-    "parking-ac-ethiopia": [],
-    "parking-ac-rwanda": [],
-    "parking-ac-uganda": [],
-    "parking-ac-tanzania-safari": [],
-    "parking-ac-kenya-guide": [],
-    "parking-ac-burkina-faso": [],
-    "parking-ac-south-africa-freight-industry": [],
-    "parking-ac-diy-installation": [],
-    "parking-ac-ivory-coast": [],
-    "parking-ac-kenya-mombasa-port": [],
-    "parking-ac-nigeria-lagos-traffic-heat": [],
-    "parking-ac-ethiopia-agricultural-vehicles": [],
-    "parking-ac-morocco-cross-border-transport": [],
-    "parking-ac-tanzania-safari-tourism": [],
-    "parking-ac-ghana-commercial-transport": [],
-    "truck-ac-distributor-africa": [],
-    "truck-ac-spare-parts-africa": [],
-    "import-truck-ac-africa": [],
-    "parking-ac-africa-roi": [],
-    "parking-ac-egypt-desert-heat": [],
-    "parking-ac-senegal": [],
-    "parking-ac-south-africa-mining-vehicles": [],
-    "parking-ac-zambia": [],
-    "parking-ac-zimbabwe": [],
-    "parking-ac-angola": [],
-    "parking-ac-drc": [],
-    "parking-ac-ghana-commercial": [],
-    "parking-ac-kenya-logistics-fleet": [],
-    "parking-ac-algeria": [],
-    "parking-ac-libya": [],
-    "parking-ac-nigeria-guide": [],
-    "parking-ac-nigeria-truck-drivers-guide": [],
-    "parking-ac-for-desert-camping": [],
-    "parking-ac-for-police-vehicles": [],
-    "parking-ac-for-rv-solo-travelers": [],
-    "parking-ac-for-agriculture-vehicles": [],
-    "parking-ac-for-film-production": [],
-    "parking-ac-for-mobile-command": [],
-    "parking-ac-for-mobile-dentistry": [],
-    "parking-ac-for-mobile-escape-room": [],
-    "parking-ac-for-mobile-gaming": [],
-    "parking-ac-for-mobile-workshops": [],
-    "parking-ac-for-safari-vehicles": [],
-    "parking-ac-for-skoolie": [],
-    "parking-ac-for-tour-buses": [],
-    "parking-ac-for-wildfire-response": [],
-    "parking-ac-fleet-management": [],
-    "parking-ac-for-mobile-cinema": [],
-    "parking-ac-for-semi-sleeper-berth": [],
-    "parking-ac-for-utility-trucks": [],
-    "parking-ac-anti-condensation": [],
-    "parking-ac-for-medical-transport": [],
-    "parking-ac-for-mobile-art-studio": [],
-    "parking-ac-for-mobile-clinics": [],
-    "parking-ac-for-mobile-photography": [],
-    "parking-ac-for-overland-vehicles": [],
-    "parking-ac-for-race-trailers": [],
-    "parking-ac-for-rv-boondocking": [],
-    "parking-ac-for-rv-couples": [],
-    "parking-ac-for-rv-families": [],
-    "parking-ac-for-rv-winter-camping": [],
-    "parking-ac-for-security-vehicles": [],
-    "parking-ac-for-mobile-pet-grooming": [],
-    "parking-ac-for-rv-festivals": [],
-    "parking-ac-energy-star": [],
-    "parking-ac-for-border-patrol": [],
-    "parking-ac-for-glamping": [],
-    "parking-ac-for-mobile-labs": [],
-    "parking-ac-for-mobile-veterinary": [],
-    "parking-ac-for-mobile-yoga": [],
-    "parking-ac-for-rv-digital-nomads": [],
-    "parking-ac-for-rv-rallies": [],
-    "parking-ac-for-van-dwellers": [],
-    "parking-ac-installation-cost": [],
-    "parking-ac-refrigerant-r32": [],
-    "parking-ac-remote-diagnostics": [],
-    "parking-ac-subscription-service": [],
-    "parking-ac-kenya-eldoret-cold-chain": [],
-    "parking-ac-nigeria-ibadan-commercial-drivers": [],
-    "parking-ac-egypt-luxor-tourism-vehicles": [],
-    "parking-ac-ghana-tamale-northern-region": [],
-    "parking-ac-tanzania-zanzibar-tourism": [],
-    "parking-ac-kenya-nakuru-agricultural-transport": [],
-    "parking-ac-morocco-casablanca-freight": [],
-    "parking-ac-nigeria-port-harcourt-humidity": [],
-    "parking-ac-south-africa-johannesburg-commuter": [],
-    "parking-ac-ethiopia-addis-ababa-altitude": [],
-    "best-parking-ac-for-semi-trucks": [],
-    "12v-vs-24v-parking-ac": [],
-    "no-idle-ac-anti-idling-laws": [],
-    "off-grid-rv-air-conditioning": [],
-    "rv-parking-ac-installation-guide": [],
-    "mini-split-vs-rooftop-rv-ac": [],
-    "truck-cab-cooling-without-engine": [],
-    "lifepo4-battery-parking-ac": [],
-    "dc-powered-air-conditioners": [],
-    "parking-ac-fuel-savings-calculator": [],
-    "cleaning-maintaining-rv-ac": [],
-    "rv-air-conditioner-comparison-2025": [],
-    "parking-ac-in-extreme-heat": [],
-    "dual-rotary-compressor-explained": [],
-    "parking-ac-warranty-what-to-know": [],
-    "how-parking-ac-works": [],
-    "parking-ac-for-camper-van-conversion": [],
-    "electric-truck-parking-ac": [],
-    "parking-ac-vs-generator": [],
-    "top-mounted-ac-installation-tips": [],
-    "parking-ac-for-school-bus-conversion": [],
-    "parking-ac-cop-efficiency": [],
-    "parking-ac-for-horse-trailers": [],
-    "parking-ac-winter-storage": [],
-    "parking-ac-carbon-footprint": [],
-    "parking-ac-wiring-guide": [],
-    "rv-ac-vs-portable-ac": [],
-    "parking-ac-for-boat-cabin": [],
-    "truck-driver-health-heat-stress": [],
-    "parking-ac-for-food-trucks": [],
-    "parking-ac-buying-guide-2025": [],
-    "mppt-solar-controller-rv-ac": [],
-    "parking-ac-for-construction-trailers": [],
-    "parking-ac-noise-reduction-tips": [],
-    "parking-ac-roi-total-cost-ownership": []
+    "parking-ac-egypt-alexandria-coastal-humidity": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-egypt-cairo-delivery-vans": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-ghana-accra-urban-transport": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-ghana-kumasi-industrial-zone": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-kenya-nairobi-public-transport": [
+      "ar",
+      "cs",
+      "da"
+    ],
+    "parking-ac-nigeria-kano-hot-climate": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-south-africa-cape-town-tourism": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-tanzania-arusha-wildlife-tours": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-tanzania-dar-es-salaam-logistics": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-battery-management-system": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-for-military-vehicles": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-inverter-technology": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-smart-home-integration": [
+      "ar",
+      "cs"
+    ],
+    "12v-vs-24v-truck-ac": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "reduce-driver-heat-stress": [
+      "ar",
+      "cs"
+    ],
+    "truck-ac-installation-mistakes": [
+      "ar",
+      "cs"
+    ],
+    "truck-ac-dust-vibration-heat": [
+      "ar",
+      "cs"
+    ],
+    "truck-ac-low-voltage-guide": [
+      "ar",
+      "cs"
+    ],
+    "truck-ac-weak-cooling-fix": [
+      "ar",
+      "cs"
+    ],
+    "truck-ac-installation-africa": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-for-camper-trailer": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-tunisia": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-egypt": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-morocco": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-ethiopia": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-rwanda": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-uganda": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-tanzania-safari": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-kenya-guide": [
+      "ar",
+      "cs",
+      "da"
+    ],
+    "parking-ac-burkina-faso": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-south-africa-freight-industry": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-diy-installation": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-ivory-coast": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-kenya-mombasa-port": [
+      "ar",
+      "cs",
+      "da"
+    ],
+    "parking-ac-nigeria-lagos-traffic-heat": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-ethiopia-agricultural-vehicles": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-morocco-cross-border-transport": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-tanzania-safari-tourism": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-ghana-commercial-transport": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "truck-ac-distributor-africa": [
+      "ar",
+      "cs"
+    ],
+    "truck-ac-spare-parts-africa": [
+      "ar",
+      "cs"
+    ],
+    "import-truck-ac-africa": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-africa-roi": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-egypt-desert-heat": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-senegal": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-south-africa-mining-vehicles": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-zambia": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-zimbabwe": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-angola": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-drc": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-ghana-commercial": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-kenya-logistics-fleet": [
+      "ar",
+      "cs",
+      "da"
+    ],
+    "parking-ac-algeria": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-libya": [
+      "ar",
+      "cs",
+      "da"
+    ],
+    "parking-ac-nigeria-guide": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-nigeria-truck-drivers-guide": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-for-desert-camping": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-police-vehicles": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-rv-solo-travelers": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-agriculture-vehicles": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-film-production": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-command": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-dentistry": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-escape-room": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-gaming": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-workshops": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-safari-vehicles": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-skoolie": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-tour-buses": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-wildfire-response": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-fleet-management": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-for-mobile-cinema": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-semi-sleeper-berth": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-utility-trucks": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-anti-condensation": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-for-medical-transport": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-art-studio": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-clinics": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-photography": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-overland-vehicles": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-race-trailers": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-rv-boondocking": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-rv-couples": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-rv-families": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-rv-winter-camping": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-security-vehicles": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-pet-grooming": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-rv-festivals": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-energy-star": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-for-border-patrol": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-glamping": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-labs": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-veterinary": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-mobile-yoga": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-rv-digital-nomads": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-rv-rallies": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-for-van-dwellers": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-installation-cost": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-refrigerant-r32": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-remote-diagnostics": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-subscription-service": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-kenya-eldoret-cold-chain": [
+      "ar",
+      "cs",
+      "da"
+    ],
+    "parking-ac-nigeria-ibadan-commercial-drivers": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-egypt-luxor-tourism-vehicles": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-ghana-tamale-northern-region": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-tanzania-zanzibar-tourism": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-kenya-nakuru-agricultural-transport": [
+      "ar",
+      "cs",
+      "da"
+    ],
+    "parking-ac-morocco-casablanca-freight": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-nigeria-port-harcourt-humidity": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-south-africa-johannesburg-commuter": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-ethiopia-addis-ababa-altitude": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "best-parking-ac-for-semi-trucks": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "es",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv",
+      "zh-CN"
+    ],
+    "12v-vs-24v-parking-ac": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv",
+      "zh-CN"
+    ],
+    "no-idle-ac-anti-idling-laws": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "off-grid-rv-air-conditioning": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "rv-parking-ac-installation-guide": [
+      "ar",
+      "cs"
+    ],
+    "mini-split-vs-rooftop-rv-ac": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "truck-cab-cooling-without-engine": [
+      "ar",
+      "cs"
+    ],
+    "lifepo4-battery-parking-ac": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "dc-powered-air-conditioners": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-fuel-savings-calculator": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "cleaning-maintaining-rv-ac": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "rv-air-conditioner-comparison-2025": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-in-extreme-heat": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "dual-rotary-compressor-explained": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-warranty-what-to-know": [
+      "ar",
+      "cs"
+    ],
+    "how-parking-ac-works": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-for-camper-van-conversion": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "electric-truck-parking-ac": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-vs-generator": [
+      "ar",
+      "cs"
+    ],
+    "top-mounted-ac-installation-tips": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-for-school-bus-conversion": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-cop-efficiency": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-for-horse-trailers": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-winter-storage": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-carbon-footprint": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-wiring-guide": [
+      "ar",
+      "cs"
+    ],
+    "rv-ac-vs-portable-ac": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-for-boat-cabin": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "truck-driver-health-heat-stress": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-for-food-trucks": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-buying-guide-2025": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "mppt-solar-controller-rv-ac": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "he",
+      "ja",
+      "ms",
+      "ru",
+      "sv"
+    ],
+    "parking-ac-for-construction-trailers": [
+      "ar",
+      "cs",
+      "da",
+      "he",
+      "ms",
+      "sv"
+    ],
+    "parking-ac-noise-reduction-tips": [
+      "ar",
+      "cs"
+    ],
+    "parking-ac-roi-total-cost-ownership": [
+      "ar",
+      "cs"
+    ]
   }
 }

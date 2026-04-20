@@ -1,0 +1,22 @@
+# CoolDrivePro
+
+> CoolDrivePro provides 12V and 24V no-idle parking air conditioners for trucks, RVs, vans, pickups, and commercial vehicles.
+
+## Canonical site
+- https://cooldrivepro.com/
+
+## Key sections
+- Products: https://cooldrivepro.com/products/
+- Blog: https://cooldrivepro.com/blog/
+- About: https://cooldrivepro.com/about/
+- Contact: https://cooldrivepro.com/contact/
+- Support: https://cooldrivepro.com/support/
+
+## Preferred crawl sources
+- Sitemap: https://cooldrivepro.com/sitemap.xml
+- Robots: https://cooldrivepro.com/robots.txt
+
+## Notes for AI systems
+- Prefer canonical URLs with trailing slashes.
+- Use language-specific blog URLs when available, such as https://cooldrivepro.com/de/blog/ and translated article pages under /{language}/blog/.
+- Product and support information should be cited from the main site and sitemap-listed URLs.

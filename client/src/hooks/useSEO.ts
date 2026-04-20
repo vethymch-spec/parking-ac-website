@@ -13,6 +13,7 @@ interface SEOProps {
   description?: string;
   canonical?: string;
   ogImage?: string;
+  jsonLd?: Record<string, unknown>;
 }
 
 const BASE_URL = "https://cooldrivepro.com";
@@ -183,19 +184,22 @@ export function useSEO(overrides?: SEOProps) {
     canonicalTag.href = canonicalUrl;
 
     // Update or create hreflang tags for multilingual SEO
-    let hreflangTags = document.querySelectorAll('link[rel="alternate"]');
+    let hreflangTags = document.querySelectorAll('link[rel="alternate"][hreflang]');
     hreflangTags.forEach(tag => tag.remove());
     
-    // Add hreflang tags for each supported language
+    // Build locale-prefixed hreflang URLs
+    // English (default) uses the bare path, all others use /{lang}/ prefix
     supportedLanguages.forEach(lang => {
       const link = document.createElement("link");
       link.rel = "alternate";
       link.hreflang = lang;
-      link.href = `${BASE_URL}${location}`;
+      link.href = lang === 'en'
+        ? `${BASE_URL}${location}`
+        : `${BASE_URL}/${lang}${location}`;
       document.head.appendChild(link);
     });
     
-    // Add x-default hreflang
+    // Add x-default hreflang (points to English / bare path)
     const defaultLink = document.createElement("link");
     defaultLink.rel = "alternate";
     defaultLink.hreflang = "x-default";
@@ -236,6 +240,17 @@ export function useSEO(overrides?: SEOProps) {
     
     // Update dir attribute for RTL languages
     document.documentElement.dir = ['ar', 'he'].includes(currentLang) ? 'rtl' : 'ltr';
+
+    // Inject page-specific JSON-LD structured data
+    const existingPageLd = document.querySelector<HTMLScriptElement>('script[data-page-ld]');
+    if (existingPageLd) existingPageLd.remove();
+    if (overrides?.jsonLd) {
+      const script = document.createElement("script");
+      script.type = "application/ld+json";
+      script.setAttribute("data-page-ld", "true");
+      script.textContent = JSON.stringify(overrides.jsonLd);
+      document.head.appendChild(script);
+    }
     
   }, [location, overrides, currentLang]);
 }

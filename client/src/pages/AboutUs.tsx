@@ -6,9 +6,32 @@ import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import { ChevronRight, Zap, Globe, Users, Award } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
+import { useSEO } from "@/hooks/useSEO";
 
 export default function AboutUs() {
   const { t } = useTranslation();
+
+  useSEO({
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About CoolDrivePro",
+      "description": "CoolDrivePro was founded to make reliable, affordable parking air conditioners accessible to every truck driver, RV owner, and van lifer worldwide.",
+      "url": "https://cooldrivepro.com/about",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "CoolDrivePro",
+        "url": "https://cooldrivepro.com",
+        "foundingDate": "2020",
+        "founder": {
+          "@type": "Person",
+          "jobTitle": "Founder",
+          "description": "Former long-haul truck driver with 15 years on the road"
+        },
+        "knowsAbout": ["Parking Air Conditioner", "12V DC Air Conditioner", "No-Idle Truck Cooling", "RV Air Conditioner"]
+      }
+    }
+  });
 
   const values = [
     { icon: Zap, title: t('about.performanceFirst', 'Performance First'), desc: t('about.performanceDesc', 'Every parking AC we sell must outperform the competition in real-world conditions — not just lab tests.') },

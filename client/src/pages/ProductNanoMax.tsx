@@ -12,6 +12,7 @@ import { ChevronRight, Check, Star, ShieldCheck, Truck, RotateCcw, Zap, ChevronL
 import PageLayout from "@/components/PageLayout";
 import ProductReviews from "@/components/ProductReviews";
 import ProductFAQ from "@/components/ProductFAQ";
+import { useSEO } from "@/hooks/useSEO";
 
 const galleryImages = [
   { src: "/images/products/nano-max-01.webp", alt: "Nano Max Light Truck Parking AC - Hero view" },
@@ -90,6 +91,13 @@ const features = [
 
 export default function ProductNanoMax() {
   const { t } = useTranslation();
+
+  useSEO({
+    title: "Nano Max Light Truck Parking AC | 7500-8500 BTU 12V/24V – CoolDrivePro",
+    description: "Nano Max compact parking air conditioner for light trucks, pickups & vans. 7500-8500 BTU, dual-rotor BLDC compressor, 12V/24V DC. $1,599 with free US shipping.",
+    ogImage: "https://cooldrivepro.com/images/products/nano-max-01.webp",
+  });
+
   const [qty, setQty] = useState(1);
   const [currentImage, setCurrentImage] = useState(0);
   const [showLightbox, setShowLightbox] = useState(false);

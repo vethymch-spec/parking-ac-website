@@ -24,15 +24,12 @@ const serviceLinks = [
   { label: "Return Policy", href: "/return-policy" },
   { label: "Shipping Policy", href: "/shipping-policy" },
   { label: "Privacy Policy", href: "/privacy-policy" },
-  { label: "Terms of Service", href: "/privacy-policy" },
-  { label: "Payment Method", href: "#", placeholder: true },
-  { label: "Billing Terms", href: "#", placeholder: true },
+  { label: "Terms of Service", href: "/privacy-policy", placeholder: false },
 ];
 
 const customerLinks = [
   { label: "Community Forum", href: "/forum", placeholder: false },
-  { label: "Track Order", href: "#", placeholder: true },
-  { label: "My Account", href: "#", placeholder: true },
+  { label: "Support", href: "/support", placeholder: false },
 ];
 
 const bottomLinks = [

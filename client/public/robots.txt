@@ -1,5 +1,5 @@
 # robots.txt for CoolDrivePro - Parking Air Conditioner
-# https://www.cooldrivepro.com
+# https://cooldrivepro.com
 
 # Allow all search engine crawlers
 User-agent: *
@@ -7,9 +7,15 @@ Allow: /
 
 # Block non-content paths
 Disallow: /404
+Disallow: /admin/
+Disallow: /support/login
+Disallow: /support/activate
+Disallow: /support/change-password
+Disallow: /support/forgot-password
+Disallow: /support/reset-password
+Disallow: /support/portal
 
 # Sitemap location
-Sitemap: https://www.cooldrivepro.com/sitemap.xml
 Sitemap: https://cooldrivepro.com/sitemap.xml
 
 # AI Crawlers — explicitly allowed for GEO optimization

@@ -10,6 +10,7 @@ import { ChevronRight, Check, Star, ShieldCheck, Truck, RotateCcw, Zap, ChevronL
 import PageLayout from "@/components/PageLayout";
 import ProductReviews from "@/components/ProductReviews";
 import ProductFAQ from "@/components/ProductFAQ";
+import { useSEO } from "@/hooks/useSEO";
 
 const galleryImages = [
   { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-01-hero_d84a64e3.webp", alt: "VS02 PRO Top-Mounted Parking AC - 3/4 angle overview" },
@@ -123,6 +124,13 @@ const faqs = [
 
 export default function ProductTopMounted() {
   const { t } = useTranslation();
+
+  useSEO({
+    title: "12000 BTU Top-Mounted Parking Air Conditioner | 12V/24V DC – CoolDrivePro",
+    description: "VS02 PRO 12000 BTU top-mounted parking AC for semi trucks, RVs & vans. 12V/24V DC, no-idle operation, 45 dB quiet. $1,299 with free US shipping.",
+    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-01-hero_d84a64e3.webp",
+  });
+
   const [qty, setQty] = useState(1);
   const [activeTab, setActiveTab] = useState<"specs" | "install" | "faq">("specs");
   const [selectedImg, setSelectedImg] = useState(0);

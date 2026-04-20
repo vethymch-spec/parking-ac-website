@@ -6,11 +6,12 @@
  * Content is loaded from static JSON files in /data/blog/{slug}.json
  * This keeps the JS bundle small (~2KB instead of ~800KB)
  */
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Link, useParams } from "wouter";
 import { ChevronRight, Calendar, Tag, Loader2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import { useSEO } from "@/hooks/useSEO";
 
 interface BlogContentSection {
   heading: string | null;
@@ -44,6 +45,28 @@ export default function BlogPost() {
   const [post, setPost] = useState<BlogPostData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+
+  const seoOverrides = useMemo(() => {
+    if (!post) return undefined;
+    return {
+      title: `${post.title} | CoolDrivePro Blog`,
+      description: post.metaDescription,
+      ogImage: post.image,
+      jsonLd: {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "description": post.metaDescription,
+        "image": post.image,
+        "datePublished": post.date,
+        "author": { "@type": "Organization", "name": "CoolDrivePro" },
+        "publisher": { "@type": "Organization", "name": "CoolDrivePro", "url": "https://cooldrivepro.com" },
+        "mainEntityOfPage": `https://cooldrivepro.com/blog/${slug}`
+      }
+    };
+  }, [post, slug]);
+
+  useSEO(seoOverrides);
 
   useEffect(() => {
     if (!slug) {
