@@ -13,30 +13,27 @@ jobs:
       deployments: write
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 9
-          
+          cache: 'npm'
+
       - name: Install dependencies
-        run: cd client && pnpm install
-        
-      - name: Build
-        run: cd client && pnpm run build
-        
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
+
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          accountId: 4f5262587982e4f825a8f56ca775edcf
-          projectName: cooldrivepro
-          directory: dist/client
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          wranglerVersion: '3'
+        shell: bash
+        run: |
+          if [[ -z "${CLOUDFLARE_API_TOKEN:-}" ]]; then
+            echo "CLOUDFLARE_API_TOKEN not configured; skipping deploy."
+            exit 0
+          fi
+
+          npx wrangler pages deploy dist/client --project-name=cooldrivepro --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

@@ -1,0 +1,172 @@
+name: Cloud Blog Translation
+
+on:
+  schedule:
+    - cron: '20 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      perShardTarget:
+        description: 'Articles per shard for this run'
+        required: false
+        default: '50'
+      requestDelay:
+        description: 'Delay between translation requests in ms'
+        required: false
+        default: '650'
+
+permissions:
+  contents: write
+  deployments: write
+
+concurrency:
+  group: cloud-blog-translation
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    name: Translate shard ${{ matrix.shard }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - shard: '1'
+            langs: 'de,fr,fi,hi,hu,id,it'
+          - shard: '2'
+            langs: 'ja,ko,nl,no,pl,pt,ro'
+          - shard: '3'
+            langs: 'ru,th,tr,uk,vi,zh-TW,zh-CN'
+          - shard: '4'
+            langs: 'da,el,es,he,ms,sv'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run translation shard
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p logs
+          DAILY_TARGET="${{ github.event.inputs.perShardTarget }}"
+          REQUEST_DELAY="${{ github.event.inputs.requestDelay }}"
+          DAILY_TARGET="${DAILY_TARGET:-50}"
+          REQUEST_DELAY="${REQUEST_DELAY:-650}"
+
+          echo "Shard: ${{ matrix.shard }}"
+          echo "Languages: ${{ matrix.langs }}"
+          echo "Daily target: ${DAILY_TARGET}"
+          echo "Request delay: ${REQUEST_DELAY}ms"
+
+          node scripts/translate-blog-locales-daily.mjs \
+            --daily="${DAILY_TARGET}" \
+            --chunk=10 \
+            --min-chunk=2 \
+            --request-delay="${REQUEST_DELAY}" \
+            --no-progress-cycles=4 \
+            --langs="${{ matrix.langs }}" \
+            --state-file=".translation-state-shard-${{ matrix.shard }}.json" \
+            --skip-sync | tee "logs/cloud-translate-shard-${{ matrix.shard }}.log"
+
+      - name: Upload shard artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: locale-shard-${{ matrix.shard }}
+          path: |
+            client/public/data/blog/locales
+            .translation-state-shard-${{ matrix.shard }}.json
+            logs/cloud-translate-shard-${{ matrix.shard }}.log
+          if-no-files-found: ignore
+
+  finalize:
+    name: Merge translated content
+    needs: translate
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download all shard artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: locale-shard-*
+          path: artifact-merge
+          merge-multiple: true
+
+      - name: Merge translated files into workspace
+        shell: bash
+        run: |
+          if [[ -d artifact-merge/client/public/data/blog/locales ]]; then
+            mkdir -p client/public/data/blog/locales
+            rsync -a artifact-merge/client/public/data/blog/locales/ client/public/data/blog/locales/
+          fi
+
+          find artifact-merge -maxdepth 1 -name '.translation-state-shard-*.json' -exec cp {} . \; || true
+
+      - name: Refresh locale manifests
+        run: node scripts/sync-blog-index.mjs
+
+      - name: Verify build
+        run: npm run build
+
+      - name: Commit and push translation updates
+        id: commit_updates
+        shell: bash
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No translation changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add client/public/data/blog .translation-state-shard-*.json
+          git commit -m "chore: cloud update blog locale translations"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy to Cloudflare Pages
+        shell: bash
+        run: |
+          if [[ "${HAS_CHANGES}" != "true" ]]; then
+            echo "No new translation changes detected; skipping deploy."
+            exit 0
+          fi
+
+          if [[ -z "${CLOUDFLARE_API_TOKEN:-}" ]]; then
+            echo "CLOUDFLARE_API_TOKEN not configured; skipping deploy."
+            exit 0
+          fi
+
+          npx wrangler pages deploy dist/client --project-name=cooldrivepro --commit-dirty=true
+        env:
+          HAS_CHANGES: ${{ steps.commit_updates.outputs.changed }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
