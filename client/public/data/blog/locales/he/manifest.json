@@ -122,11 +122,11 @@
   },
   {
     "slug": "reduce-driver-heat-stress",
-    "title": "How to Reduce Driver Heat Stress with Electric Parking AC Systems",
+    "title": "כיצד להפחית את מתח החום של הנהג עם מערכות AC חניה חשמליות",
     "date": "2025-12-29",
-    "category": "Driver Safety",
+    "category": "בטיחות נהג",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
-    "excerpt": "Learn how electric parking AC systems protect drivers from heat stress in African climates. Improve safety, retention, and productivity with effective cabin cooling."
+    "excerpt": "למד כיצד מערכות AC לחניה חשמלית מגנות על נהגים מלחץ חום באקלים אפריקאי.שפר את הבטיחות, השמירה והפרודוקטיביות עם קירור יעיל של תא הנוסעים."
   },
   {
     "slug": "truck-ac-installation-mistakes",
@@ -322,11 +322,11 @@
   },
   {
     "slug": "truck-ac-distributor-africa",
-    "title": "Become a Truck Air Conditioner Distributor in Africa",
+    "title": "הפוך למפיץ מזגנים למשאיות באפריקה",
     "date": "2025-12-05",
-    "category": "Business Opportunity",
+    "category": "הזדמנות עסקית",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
-    "excerpt": "Partner with us to become a truck air conditioner distributor in Africa. Exclusive territories, marketing support, and technical training for regional partners."
+    "excerpt": "שותפו איתנו כדי להפוך למפיץ מזגנים למשאיות באפריקה.טריטוריות בלעדיות, תמיכה שיווקית והדרכה טכנית לשותפים אזוריים."
   },
   {
     "slug": "truck-ac-spare-parts-africa",
@@ -817,15 +817,6 @@
     "excerpt": "גלה כיצד דגמי מנויי חניה AC משנים את פעולות הצי, מציעים חיסכון בעלויות ונוחות נהג משופרת.למד על העתיד של בקרת אקלים כשירות."
   },
   {
-    "slug": "rv-parking-ac-installation-guide",
-    "title": "How to Install a Rooftop Parking Air Conditioner on Your RV: Step-by-Step Guide",
-    "date": "March 3, 2025",
-    "category": "Installation",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-parking-ac-installation-guide_4385ee4b.webp",
-    "imageAlt": "How to Install a Rooftop Parking Air Conditioner on Your RV: Step-by-Step Guide - parking air conditioner guide",
-    "excerpt": "Master your RV parking AC installation with our complete step-by-step guide. Learn everything from preparation and tools to wiring, sealing, and maintenance."
-  },
-  {
     "slug": "truck-cab-cooling-without-engine",
     "title": "How to Keep Your Truck Cab Cool Without Running the Engine",
     "date": "February 22, 2025",
@@ -833,33 +824,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-cab-cooling-without-engine_860c789e.webp",
     "imageAlt": "How to Keep Your Truck Cab Cool Without Running the Engine - parking air conditioner guide",
     "excerpt": "Learn how to keep your truck cab cool without running the engine. Explore passive cooling, battery-powered ACs, and other no-idle solutions to save fuel and stay comfortable."
-  },
-  {
-    "slug": "rv-air-conditioner-comparison-2025",
-    "title": "RV Air Conditioner Comparison 2025: Top-Mounted vs Mini Split vs Portable",
-    "date": "January 25, 2025",
-    "category": "Comparison",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-air-conditioner-comparison-2025_1e796951.webp",
-    "imageAlt": "RV Air Conditioner Comparison 2025: Top-Mounted vs Mini Split vs Portable - parking air conditioner guide",
-    "excerpt": "Embarking on an RV adventure promises freedom and exploration, but ensuring comfort on the road, especially during scorching summers or humid nights, is paramount. A reliable air conditioning system is not just a luxu..."
-  },
-  {
-    "slug": "top-mounted-ac-installation-tips",
-    "title": "Top-Mounted Parking AC Installation Tips: Avoid These 5 Common Mistakes",
-    "date": "December 25, 2024",
-    "category": "Installation",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/top-mounted-ac-installation-tips_05c95483.webp",
-    "imageAlt": "Top-Mounted Parking AC Installation Tips: Avoid These 5 Common Mistakes - parking air conditioner guide",
-    "excerpt": "Master your top-mounted parking AC installation with our expert guide. Avoid 5 common mistakes to ensure optimal cooling, prevent leaks, and extend your unit's life."
-  },
-  {
-    "slug": "rv-ac-vs-portable-ac",
-    "title": "RV Parking AC vs Portable Air Conditioner: Which Is Better for Mobile Living?",
-    "date": "December 5, 2024",
-    "category": "Comparison",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-ac-vs-portable-ac_80df6d78.webp",
-    "imageAlt": "RV Parking AC vs Portable Air Conditioner: Which Is Better for Mobile Living? - parking air conditioner guide",
-    "excerpt": "Compare RV parking AC vs portable AC for mobile living. Discover differences in installation, power, cooling, noise, and maintenance to choose the best solution for your RV, truck, or van."
   },
   {
     "slug": "truck-driver-health-heat-stress",
@@ -1224,5 +1188,41 @@
   {
     "slug": "related-posts",
     "excerpt": ""
+  },
+  {
+    "slug": "rv-ac-vs-portable-ac",
+    "title": "RV חניה AC לעומת מזגן נייד: מה עדיף למגורים ניידים?",
+    "date": "5 בדצמבר 2024",
+    "category": "השוואה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-ac-vs-portable-ac_80df6d78.webp",
+    "imageAlt": "RV חניה AC לעומת מזגן נייד: מה עדיף למגורים ניידים?- מדריך מזגן חניה",
+    "excerpt": "השווה RV חניה AC לעומת AC נייד עבור מגורים ניידים.גלה הבדלים בהתקנה, כוח, קירור, רעש ותחזוקה כדי לבחור את הפתרון הטוב ביותר עבור RV, המשאית או הטנדר שלך."
+  },
+  {
+    "slug": "rv-air-conditioner-comparison-2025",
+    "title": "RV השוואת מזגנים 2025: רכב עליון לעומת מיני מפוצל מול נייד",
+    "date": "25 בינואר 2025",
+    "category": "השוואה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-air-conditioner-comparison-2025_1e796951.webp",
+    "imageAlt": "RV השוואת מזגנים 2025: רכב עליון לעומת מיני מפוצל מול נייד - מדריך למזגן חניה",
+    "excerpt": "יציאה להרפתקה RV מבטיחה חופש וחקר, אבל הבטחת נוחות בדרכים, במיוחד בקיץ צורבים או בלילות לחים, היא דבר חשוב ביותר.מערכת מיזוג אוויר אמינה היא לא רק מותרות;זה הכרחי עבור רבים מבעלי RV, נהגי משאיות ודיירי עולם.עם התקדמות..."
+  },
+  {
+    "slug": "rv-parking-ac-installation-guide",
+    "title": "כיצד להתקין מזגן חניה על הגג ב-RV שלך: מדריך שלב אחר שלב",
+    "date": "3 במרץ 2025",
+    "category": "התקנה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-parking-ac-installation-guide_4385ee4b.webp",
+    "imageAlt": "כיצד להתקין מזגן חניה על הגג ב-RV שלך: מדריך שלב אחר שלב - מדריך למזגן חניה",
+    "excerpt": "שלטו בהתקנת RV חניה AC שלך עם המדריך המלא שלנו שלב אחר שלב.למד הכל מהכנה וכלים ועד חיווט, איטום ותחזוקה."
+  },
+  {
+    "slug": "top-mounted-ac-installation-tips",
+    "title": "טיפים להתקנת AC: הימנע מחמש הטעויות הנפוצות הללו",
+    "date": "25 בדצמבר 2024",
+    "category": "התקנה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/top-mounted-ac-installation-tips_05c95483.webp",
+    "imageAlt": "טיפים להתקנת AC לחניה עליון: הימנע מ-5 הטעויות הנפוצות הללו - מדריך למזגן חניה",
+    "excerpt": "שלטו בהתקנת ה-AC החניה העליונה שלכם עם המדריך המומחה שלנו.הימנע מ-5 טעויות נפוצות כדי להבטיח קירור אופטימלי, למנוע דליפות ולהאריך את חיי היחידה שלך."
   }
 ]

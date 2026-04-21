@@ -449,11 +449,11 @@
   },
   {
     "slug": "parking-ac-for-desert-camping",
-    "title": "Parking AC for Desert Camping: Surviving 120°F Heat in Your RV or Truck",
-    "category": "Guide",
+    "title": "Climatisation de stationnement pour le camping dans le désert : survivre à une chaleur de 120 °F dans votre RV ou votre camion",
+    "category": "Guider",
     "date": "2025-11-27",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-desert-camping_e6a52d85.webp",
-    "excerpt": "Survive extreme desert heat with the right parking AC for desert camping. Learn how to keep your RV or truck cool when temperatures hit 120°F."
+    "excerpt": "Survivez à la chaleur extrême du désert avec le bon climatiseur de stationnement pour le camping dans le désert.Apprenez à garder votre RV ou votre camion au frais lorsque les températures atteignent 120 °F."
   },
   {
     "slug": "parking-ac-for-police-vehicles",
@@ -481,11 +481,11 @@
   },
   {
     "slug": "parking-ac-for-film-production",
-    "title": "Air Conditioning for Film Production Vehicles and Location Trailers",
-    "category": "Specialty",
+    "title": "Climatisation pour véhicules de production cinématographique et remorques de tournage",
+    "category": "Spécialité",
     "date": "2025-11-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-film-production_813828c2.webp",
-    "excerpt": "Ensuring comfort on set is crucial. Discover how robust parking AC systems keep film production vehicles and location trailers cool, meeting union demands and boosting crew morale."
+    "excerpt": "Assurer le confort sur le plateau est crucial.Découvrez comment les systèmes de climatisation de stationnement robustes maintiennent les véhicules de production cinématographique et les remorques de tournage au frais,..."
   },
   {
     "slug": "parking-ac-for-mobile-command",
@@ -721,11 +721,11 @@
   },
   {
     "slug": "parking-ac-for-glamping",
-    "title": "Parking AC for Glamping: Luxury Outdoor Comfort Without Shore Power",
-    "category": "Lifestyle",
+    "title": "Parking AC pour le Glamping : confort extérieur de luxe sans alimentation à quai",
+    "category": "Mode de vie",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-glamping_63b7fe94.webp",
-    "excerpt": "Experience luxury glamping with parking AC. Stay cool and comfortable off-grid without shore power, enhancing your outdoor adventures."
+    "excerpt": "Faites l'expérience du glamping de luxe avec parking AC.Restez au frais et à l'aise hors réseau sans alimentation à quai, améliorant ainsi vos aventures en plein air."
   },
   {
     "slug": "parking-ac-for-mobile-labs",
@@ -824,6 +824,14 @@
     "excerpt": "Explore parking air conditioner solutions for commercial drivers in Ibadan, Nigeria. Enhance urban transport and logistics with CoolDrivePro VS02 PRO technology."
   },
   {
+    "slug": "parking-ac-egypt-luxor-tourism-vehicles",
+    "title": "Parking AC pour Louxor en Égypte : solutions climatiques pour les véhicules touristiques",
+    "category": "Guide régional",
+    "date": "29 mars 2025",
+    "image": "https://images.unsplash.com/photo-1539650116455-251d9a063595?w=1200&q=80",
+    "excerpt": "Découvrez les solutions de climatisation de stationnement pour véhicules touristiques à Louxor, en Égypte.Combattez la chaleur extrême du désert et protégez les visiteurs grâce à la technologie CoolDrivePro VS02 PRO."
+  },
+  {
     "slug": "parking-ac-ghana-tamale-northern-region",
     "title": "Parking AC for Ghana Tamale: Northern Region Transport Solutions",
     "category": "Regional Guide",
@@ -838,14 +846,6 @@
     "date": "March 29, 2025",
     "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
     "excerpt": "Discover parking air conditioner solutions for tourism transport in Zanzibar, Tanzania. Combat tropical humidity and coastal heat with CoolDrivePro VS02 PRO technology."
-  },
-  {
-    "slug": "parking-ac-egypt-luxor-tourism-vehicles",
-    "title": "Parking AC pour Louxor en Égypte : solutions climatiques pour les véhicules touristiques",
-    "category": "Guide régional",
-    "date": "29 mars 2025",
-    "image": "https://images.unsplash.com/photo-1539650116455-251d9a063595?w=1200&q=80",
-    "excerpt": "Découvrez les solutions de climatisation de stationnement pour véhicules touristiques à Louxor, en Égypte.Combattez la chaleur extrême du désert et protégez les visiteurs grâce à la technologie CoolDrivePro VS02 PRO."
   },
   {
     "slug": "parking-ac-kenya-nakuru-agricultural-transport",
@@ -1032,14 +1032,6 @@
     "excerpt": "Stay cool in your skoolie! Our guide covers the best parking AC for school bus conversions, including rooftop, mini-split, and 12V options. Learn about installation, power, and more."
   },
   {
-    "slug": "parking-ac-for-horse-trailers",
-    "title": "Air Conditioning for Horse Trailers: Keeping Animals Cool on Long Hauls",
-    "category": "Specialty",
-    "date": "December 18, 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-horse-trailers_86582ff9.webp",
-    "excerpt": "Keep your horses cool and safe during long hauls with the right horse trailer air conditioning. Our guide covers everything from system types to installation."
-  },
-  {
     "slug": "parking-ac-winter-storage",
     "title": "How to Store and Winterize Your Parking Air Conditioner",
     "category": "Maintenance",
@@ -1073,11 +1065,11 @@
   },
   {
     "slug": "parking-ac-for-food-trucks",
-    "title": "Air Conditioning for Food Trucks: Keep Your Kitchen and Cab Cool",
-    "category": "Specialty",
-    "date": "November 25, 2024",
+    "title": "Climatisation pour food trucks : gardez votre cuisine et votre cabine au frais",
+    "category": "Spécialité",
+    "date": "25 novembre 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-food-trucks_5915a1fb.webp",
-    "excerpt": "Keep your food truck cool and compliant with the right parking AC. Our guide covers BTU needs, installation, and top models like the CoolDrivePro VS02 PRO & VX3000SP."
+    "excerpt": "Gardez votre food truck au frais et conforme à la bonne climatisation de stationnement.Notre guide couvre les besoins de BTU, l'installation et les meilleurs modèles comme le CoolDrivePro VS02 PRO et VX3000SP."
   },
   {
     "slug": "parking-ac-buying-guide-2025",
@@ -1097,11 +1089,11 @@
   },
   {
     "slug": "parking-ac-for-construction-trailers",
-    "title": "Air Conditioning for Construction Site Trailers: Portable & Parking AC Options",
-    "category": "Specialty",
-    "date": "November 15, 2024",
+    "title": "Climatisation pour les remorques de chantier : options de climatisation portable et de stationnement",
+    "category": "Spécialité",
+    "date": "15 novembre 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-construction-trailers_4821720a.webp",
-    "excerpt": "Keep your construction site trailer cool and productive with the best portable and parking AC options. A guide to choosing the right construction trailer AC."
+    "excerpt": "Gardez votre remorque de chantier au frais et productive grâce aux meilleures options de climatisation portable et de stationnement.Un guide pour choisir la bonne remorque de chantier AC."
   },
   {
     "slug": "parking-ac-noise-reduction-tips",
@@ -1166,6 +1158,14 @@
     "date": "3 décembre 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-boat-cabin_63dd089d.webp",
     "excerpt": "Découvrez le guide ultime du refroidissement marin hors réseau.Découvrez comment un climatiseur de stationnement pour la cabine de votre bateau offre confort et efficacité sans alimentation à quai."
+  },
+  {
+    "slug": "parking-ac-for-horse-trailers",
+    "title": "Climatisation pour remorques à chevaux : garder les animaux au frais sur les longs trajets",
+    "category": "Spécialité",
+    "date": "18 décembre 2024",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-horse-trailers_86582ff9.webp",
+    "excerpt": "Gardez vos chevaux au frais et en sécurité pendant les longs trajets grâce à la bonne climatisation pour remorque à chevaux.Notre guide couvre tout, des types de systèmes à l'installation."
   },
   {
     "slug": "related-posts",
