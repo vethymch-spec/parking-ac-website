@@ -161,6 +161,7 @@ jobs:
           git add client/public/data/blog
           git add .translation-state-shard-*.json 2>/dev/null || true
           git commit -m "chore: cloud update blog locale translations"
+          git pull --rebase origin main || true
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
