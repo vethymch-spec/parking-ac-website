@@ -14,6 +14,26 @@ import ProductReviews from "@/components/ProductReviews";
 import ProductFAQ from "@/components/ProductFAQ";
 import { useSEO } from "@/hooks/useSEO";
 
+/* CDN image URLs (CloudFront) */
+const VTH1_IMG = {
+  hero:       "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
+  side:       "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-side_9ede2d40.webp",
+  indoor:     "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-indoor-panel_d99a1539.webp",
+  internal:   "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-internal-assembly_ec70192b.webp",
+  compressor: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-compressor_264dd05c.webp",
+  assembly:   "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-full-assembly_297f404a.webp",
+};
+
+/* SEO-rich alt text describing each angle */
+const vth1Gallery = [
+  { src: VTH1_IMG.hero,       alt: "CoolDrivePro V-TH1 heating and cooling parking air conditioner — outdoor unit top angle view" },
+  { src: VTH1_IMG.side,       alt: "V-TH1 12V 24V parking AC outdoor condenser unit — side profile" },
+  { src: VTH1_IMG.indoor,     alt: "V-TH1 indoor ceiling panel with digital LED temperature display and controls" },
+  { src: VTH1_IMG.internal,   alt: "V-TH1 internal assembly showing GMCC twin-rotary compressor and copper refrigerant lines" },
+  { src: VTH1_IMG.compressor, alt: "GMCC dual-rotary compressor inside CoolDrivePro V-TH1 parking air conditioner" },
+  { src: VTH1_IMG.assembly,   alt: "V-TH1 full unit assembly with condenser fan, compressor and refrigerant piping" },
+];
+
 const vth1Faqs = [
   {
     question: "What is the CoolDrivePro V-TH1 heating and cooling parking air conditioner?",
@@ -115,20 +135,35 @@ export default function ProductHeatingCooling() {
   useSEO({
     title: "V-TH1 Heating & Cooling Parking Air Conditioner | 12V/24V DC – CoolDrivePro",
     description: "V-TH1 dual-mode heating & cooling parking AC. 2000W cooling, heats cab from 5°C to 30°C in 30 min. GMCC twin-rotary compressor, 12V/24V DC. Year-round comfort.",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
+    ogImage: VTH1_IMG.hero,
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": vth1Faqs.map(f => ({
-        "@type": "Question",
-        "name": f.question,
-        "acceptedAnswer": { "@type": "Answer", "text": f.answer }
-      }))
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": vth1Faqs.map(f => ({
+            "@type": "Question",
+            "name": f.question,
+            "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+          }))
+        },
+        {
+          "@type": "ImageGallery",
+          "name": "CoolDrivePro V-TH1 Product Images",
+          "image": vth1Gallery.map(g => ({
+            "@type": "ImageObject",
+            "url": g.src,
+            "caption": g.alt,
+            "contentUrl": g.src
+          }))
+        }
+      ]
     }
   });
 
   const [qty, setQty] = useState(1);
   const [voltage, setVoltage] = useState<"dc" | "ac">("dc");
+  const [activeImg, setActiveImg] = useState(0);
 
   const currentSpecs = voltage === "dc" ? dcSpecs : acSpecs;
   const quickSpecs = getQuickSpecs(voltage);
@@ -151,14 +186,38 @@ export default function ProductHeatingCooling() {
 
       {/* Hero */}
       <section className="max-w-[1280px] mx-auto px-4 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-        {/* Image */}
-        <div className="rounded-2xl overflow-hidden bg-gray-50 flex items-center justify-center" style={{ minHeight: "400px" }}>
-          <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp"
-            alt={t('products.heatingCoolingAC.imageAlt')}
-            className="w-full h-auto object-contain"
-            style={{ maxHeight: "480px" }}
-          />
+        {/* Image Gallery */}
+        <div>
+          <div className="rounded-2xl overflow-hidden bg-gray-50 flex items-center justify-center mb-4" style={{ minHeight: "400px" }}>
+            <img
+              src={vth1Gallery[activeImg].src}
+              alt={vth1Gallery[activeImg].alt}
+              width={1200}
+              height={1200}
+              className="w-full h-auto object-contain"
+              style={{ maxHeight: "480px" }}
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </div>
+          <div className="grid grid-cols-6 gap-2">
+            {vth1Gallery.map((img, i) => (
+              <button
+                key={i}
+                onClick={() => setActiveImg(i)}
+                aria-label={`View image ${i + 1}: ${img.alt}`}
+                aria-pressed={i === activeImg}
+                className="rounded-lg overflow-hidden border-2 transition-all"
+                style={{
+                  borderColor: i === activeImg ? "oklch(0.45 0.18 255)" : "oklch(0.90 0.02 240)",
+                  opacity: i === activeImg ? 1 : 0.7,
+                }}
+              >
+                <img src={img.src} alt={img.alt} loading="lazy" decoding="async" className="w-full h-16 object-cover" />
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Info */}

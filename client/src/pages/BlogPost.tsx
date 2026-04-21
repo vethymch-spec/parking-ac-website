@@ -18,14 +18,25 @@ interface BlogContentSection {
   body: string;
 }
 
+interface InlineImage {
+  afterSection: number;
+  url: string;
+  alt: string;
+  width?: number;
+  height?: number;
+}
+
 interface BlogPostData {
   title: string;
   date: string;
   category: string;
   image: string;
   imageAlt: string;
+  imageWidth?: number;
+  imageHeight?: number;
   metaDescription: string;
   content: (BlogContentSection | string)[];
+  inlineImages?: InlineImage[];
 }
 
 /** Normalize content to always be {heading, body} objects */
@@ -110,7 +121,13 @@ export default function BlogPost() {
             "@type": "BlogPosting",
             "headline": post.title,
             "description": post.metaDescription,
-            "image": post.image,
+            "image": {
+              "@type": "ImageObject",
+              "url": post.image,
+              "width": post.imageWidth || 1280,
+              "height": post.imageHeight || 720,
+              "caption": post.imageAlt
+            },
             "datePublished": post.date,
             "author": { "@type": "Organization", "name": "CoolDrivePro" },
             "publisher": { "@type": "Organization", "name": "CoolDrivePro", "url": "https://cooldrivepro.com" },
@@ -239,9 +256,13 @@ export default function BlogPost() {
           <img
             src={post.image}
             alt={post.imageAlt}
+            width={post.imageWidth || 1280}
+            height={post.imageHeight || 720}
             className="w-full h-auto object-cover"
             style={{ maxHeight: "420px", objectFit: "cover" }}
-            loading="lazy"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
           />
         </div>
 
@@ -291,6 +312,28 @@ export default function BlogPost() {
                 >
                   {renderBody(para)}
                 </p>
+              ))}
+              {/* Inline image rendered after this section if configured */}
+              {post.inlineImages?.filter(img => img.afterSection === i).map((img, ii) => (
+                <figure key={`img-${i}-${ii}`} className="my-6">
+                  <img
+                    src={img.url}
+                    alt={img.alt}
+                    width={img.width}
+                    height={img.height}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-auto rounded-2xl shadow-md"
+                  />
+                  {img.alt && (
+                    <figcaption
+                      className="text-xs mt-2 text-center italic"
+                      style={{ color: "oklch(0.55 0.04 250)" }}
+                    >
+                      {img.alt}
+                    </figcaption>
+                  )}
+                </figure>
               ))}
             </div>
           ))}
