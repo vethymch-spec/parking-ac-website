@@ -75,11 +75,14 @@
     "parking-ac-nigeria-kano-hot-climate": [
       "ar",
       "cs",
-      "da"
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-south-africa-cape-town-tourism": [
       "ar",
-      "cs"
+      "cs",
+      "da"
     ],
     "parking-ac-tanzania-arusha-wildlife-tours": [
       "ar",
@@ -94,18 +97,35 @@
       "cs",
       "da",
       "de",
+      "el",
+      "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "parking-ac-for-military-vehicles": [
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-inverter-technology": [
@@ -118,7 +138,8 @@
     ],
     "parking-ac-smart-home-integration": [
       "ar",
-      "cs"
+      "cs",
+      "da"
     ],
     "12v-vs-24v-truck-ac": [
       "ar",
@@ -215,7 +236,8 @@
     ],
     "parking-ac-rwanda": [
       "ar",
-      "cs"
+      "cs",
+      "da"
     ],
     "parking-ac-uganda": [
       "ar",
@@ -237,21 +259,37 @@
       "cs",
       "da",
       "de",
+      "el",
+      "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "parking-ac-south-africa-freight-industry": [
       "ar",
-      "cs"
+      "cs",
+      "da"
     ],
     "parking-ac-diy-installation": [
       "ar",
       "cs",
       "da",
       "de",
+      "el",
       "he",
       "ja",
       "ms",
@@ -276,7 +314,9 @@
     "parking-ac-nigeria-lagos-traffic-heat": [
       "ar",
       "cs",
-      "da"
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-ethiopia-agricultural-vehicles": [
       "ar",
@@ -347,11 +387,24 @@
       "da",
       "de",
       "el",
+      "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "parking-ac-egypt-desert-heat": [
       "ar",
@@ -366,11 +419,13 @@
     ],
     "parking-ac-senegal": [
       "ar",
-      "cs"
+      "cs",
+      "da"
     ],
     "parking-ac-south-africa-mining-vehicles": [
       "ar",
-      "cs"
+      "cs",
+      "da"
     ],
     "parking-ac-zambia": [
       "ar",
@@ -385,17 +440,32 @@
       "cs",
       "da",
       "de",
+      "el",
+      "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "parking-ac-drc": [
       "ar",
       "cs",
       "da",
       "de",
+      "el",
       "he",
       "ja",
       "ms",
@@ -422,11 +492,25 @@
       "cs",
       "da",
       "de",
+      "el",
+      "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "parking-ac-libya": [
       "ar",
@@ -438,12 +522,16 @@
     "parking-ac-nigeria-guide": [
       "ar",
       "cs",
-      "da"
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-nigeria-truck-drivers-guide": [
       "ar",
       "cs",
-      "da"
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-for-desert-camping": [
       "ar",
@@ -487,7 +575,9 @@
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
       "ru",
       "sv"
@@ -496,8 +586,11 @@
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-for-mobile-dentistry": [
@@ -506,6 +599,7 @@
       "da",
       "he",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-for-mobile-escape-room": [
@@ -514,6 +608,7 @@
       "da",
       "he",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-for-mobile-gaming": [
@@ -522,6 +617,7 @@
       "da",
       "he",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-for-mobile-workshops": [
@@ -579,8 +675,11 @@
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-for-semi-sleeper-berth": [
@@ -604,34 +703,57 @@
       "cs",
       "da",
       "de",
+      "el",
+      "es",
+      "fi",
+      "fr",
+      "he",
+      "hi",
+      "hu",
+      "ja",
+      "ko",
+      "ms",
+      "nl",
+      "no",
+      "pl",
+      "ru",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
+    ],
+    "parking-ac-for-medical-transport": [
+      "ar",
+      "cs",
+      "da",
+      "de",
       "he",
       "ja",
       "ms",
       "ru",
       "sv"
     ],
-    "parking-ac-for-medical-transport": [
-      "ar",
-      "cs",
-      "da",
-      "he",
-      "ms",
-      "sv"
-    ],
     "parking-ac-for-mobile-art-studio": [
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-for-mobile-clinics": [
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-for-mobile-photography": [
@@ -740,7 +862,9 @@
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
       "ru",
       "sv"
@@ -803,11 +927,17 @@
     ],
     "parking-ac-refrigerant-r32": [
       "ar",
-      "cs"
+      "cs",
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-remote-diagnostics": [
       "ar",
-      "cs"
+      "cs",
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-subscription-service": [
       "ar",
@@ -823,7 +953,9 @@
     "parking-ac-nigeria-ibadan-commercial-drivers": [
       "ar",
       "cs",
-      "da"
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-egypt-luxor-tourism-vehicles": [
       "ar",
@@ -865,11 +997,14 @@
     "parking-ac-nigeria-port-harcourt-humidity": [
       "ar",
       "cs",
-      "da"
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-south-africa-johannesburg-commuter": [
       "ar",
-      "cs"
+      "cs",
+      "da"
     ],
     "parking-ac-ethiopia-addis-ababa-altitude": [
       "ar",
@@ -940,11 +1075,24 @@
       "da",
       "de",
       "el",
+      "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "off-grid-rv-air-conditioning": [
       "ar",
@@ -952,11 +1100,24 @@
       "da",
       "de",
       "el",
+      "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "rv-parking-ac-installation-guide": [
       "ar",
@@ -969,11 +1130,23 @@
       "de",
       "el",
       "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "truck-cab-cooling-without-engine": [
       "ar",
@@ -1185,6 +1358,7 @@
       "cs",
       "da",
       "de",
+      "el",
       "he",
       "ja",
       "ms",
@@ -1195,8 +1369,11 @@
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
+      "ru",
       "sv"
     ],
     "parking-ac-winter-storage": [
@@ -1208,6 +1385,7 @@
       "cs",
       "da",
       "de",
+      "el",
       "he",
       "ja",
       "ms",
@@ -1241,7 +1419,9 @@
       "ar",
       "cs",
       "da",
+      "de",
       "he",
+      "ja",
       "ms",
       "ru",
       "sv"
@@ -1251,6 +1431,8 @@
       "cs",
       "da",
       "de",
+      "el",
+      "es",
       "he",
       "ja",
       "ms",
@@ -1263,11 +1445,24 @@
       "da",
       "de",
       "el",
+      "es",
+      "fi",
+      "fr",
       "he",
+      "hi",
+      "hu",
       "ja",
+      "ko",
       "ms",
+      "nl",
+      "no",
+      "pl",
       "ru",
-      "sv"
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "vi"
     ],
     "parking-ac-for-construction-trailers": [
       "ar",
@@ -1283,11 +1478,16 @@
     "parking-ac-noise-reduction-tips": [
       "ar",
       "cs",
-      "da"
+      "da",
+      "he",
+      "ms"
     ],
     "parking-ac-roi-total-cost-ownership": [
       "ar",
-      "cs"
+      "cs",
+      "da",
+      "he",
+      "ms"
     ],
     "related-posts": []
   }
