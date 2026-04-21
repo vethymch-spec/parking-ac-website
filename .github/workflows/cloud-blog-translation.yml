@@ -29,35 +29,62 @@ jobs:
     timeout-minutes: 120
     strategy:
       fail-fast: false
+      max-parallel: 20
       matrix:
         include:
-          - shard: '1'
-            langs: 'de,fr'
-          - shard: '2'
-            langs: 'fi,hi'
-          - shard: '3'
-            langs: 'hu,id'
-          - shard: '4'
-            langs: 'it,ja'
-          - shard: '5'
-            langs: 'ko,nl'
-          - shard: '6'
-            langs: 'no,pl'
-          - shard: '7'
-            langs: 'pt,ro'
-          - shard: '8'
-            langs: 'ru,th'
-          - shard: '9'
-            langs: 'tr,uk'
-          - shard: '10'
-            langs: 'vi,zh-TW'
-          - shard: '11'
-            langs: 'zh-CN,da'
-          - shard: '12'
-            langs: 'el,es'
-          - shard: '13'
-            langs: 'he,ms'
-          - shard: '14'
+          - shard: 'de'
+            langs: 'de'
+          - shard: 'fr'
+            langs: 'fr'
+          - shard: 'fi'
+            langs: 'fi'
+          - shard: 'hi'
+            langs: 'hi'
+          - shard: 'hu'
+            langs: 'hu'
+          - shard: 'id'
+            langs: 'id'
+          - shard: 'it'
+            langs: 'it'
+          - shard: 'ja'
+            langs: 'ja'
+          - shard: 'ko'
+            langs: 'ko'
+          - shard: 'nl'
+            langs: 'nl'
+          - shard: 'no'
+            langs: 'no'
+          - shard: 'pl'
+            langs: 'pl'
+          - shard: 'pt'
+            langs: 'pt'
+          - shard: 'ro'
+            langs: 'ro'
+          - shard: 'ru'
+            langs: 'ru'
+          - shard: 'th'
+            langs: 'th'
+          - shard: 'tr'
+            langs: 'tr'
+          - shard: 'uk'
+            langs: 'uk'
+          - shard: 'vi'
+            langs: 'vi'
+          - shard: 'zh-CN'
+            langs: 'zh-CN'
+          - shard: 'zh-TW'
+            langs: 'zh-TW'
+          - shard: 'el'
+            langs: 'el'
+          - shard: 'es'
+            langs: 'es'
+          - shard: 'da'
+            langs: 'da'
+          - shard: 'he'
+            langs: 'he'
+          - shard: 'ms'
+            langs: 'ms'
+          - shard: 'sv'
             langs: 'sv'
 
     steps:
@@ -82,8 +109,8 @@ jobs:
           mkdir -p logs
           DAILY_TARGET="${{ github.event.inputs.perShardTarget }}"
           REQUEST_DELAY="${{ github.event.inputs.requestDelay }}"
-          DAILY_TARGET="${DAILY_TARGET:-50}"
-          REQUEST_DELAY="${REQUEST_DELAY:-650}"
+          DAILY_TARGET="${DAILY_TARGET:-149}"
+          REQUEST_DELAY="${REQUEST_DELAY:-250}"
 
           echo "Shard: ${{ matrix.shard }}"
           echo "Languages: ${{ matrix.langs }}"
@@ -92,8 +119,8 @@ jobs:
 
           node scripts/translate-blog-locales-daily.mjs \
             --daily="${DAILY_TARGET}" \
-            --chunk=10 \
-            --min-chunk=2 \
+            --chunk=20 \
+            --min-chunk=5 \
             --request-delay="${REQUEST_DELAY}" \
             --no-progress-cycles=4 \
             --langs="${{ matrix.langs }}" \
