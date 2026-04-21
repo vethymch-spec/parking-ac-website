@@ -121,43 +121,43 @@
   },
   {
     "slug": "truck-ac-installation-mistakes",
-    "title": "Common Installation Mistakes for Truck Air Conditioners in Africa",
-    "category": "Installation Guides",
+    "title": "טעויות התקנה נפוצות עבור מזגני משאיות באפריקה",
+    "category": "מדריכי התקנה",
     "date": "2025-12-28",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
-    "excerpt": "Avoid costly failures by learning the most common truck AC installation mistakes in Africa. Expert guidance on proper mounting, wiring, and sealing procedures."
+    "excerpt": "הימנע מכשלים יקרים על ידי לימוד הטעויות הנפוצות ביותר בהתקנה של משאית AC באפריקה.הנחיות מומחים לגבי הליכי הרכבה, חיווט ואיטום נכונים."
   },
   {
     "slug": "truck-ac-dust-vibration-heat",
-    "title": "How Dust, Road Vibration, and Heat Affect Parking AC Performance",
-    "category": "Technical Guides",
+    "title": "כיצד אבק, רעידות כביש וחום משפיעים על ביצועי AC חניה",
+    "category": "מדריכים טכניים",
     "date": "2025-12-27",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
-    "excerpt": "Understand how African environmental challenges impact truck parking AC performance and learn maintenance strategies to ensure reliable cooling in harsh conditions."
+    "excerpt": "הבן כיצד אתגרים סביבתיים אפריקאים משפיעים על ביצועי AC של חניה למשאיות ולמד אסטרטגיות תחזוקה כדי להבטיח קירור אמין בתנאים קשים."
   },
   {
     "slug": "truck-ac-low-voltage-guide",
-    "title": "Low Voltage Protection: What African Fleet Buyers Need to Know",
-    "category": "Technical Guides",
+    "title": "הגנה על מתח נמוך: מה שקוני צי אפריקאי צריכים לדעת",
+    "category": "מדריכים טכניים",
     "date": "2025-12-26",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
-    "excerpt": "Essential guide to low voltage protection in truck parking AC systems. Learn how battery protection works and why it matters for African fleet operations."
+    "excerpt": "מדריך חיוני להגנה על מתח נמוך במערכות AC לחניית משאיות.למד כיצד פועלת הגנת הסוללה ומדוע זה חשוב עבור פעולות הצי האפריקאי."
   },
   {
     "slug": "truck-ac-weak-cooling-fix",
-    "title": "Why Your Truck AC Cooling Becomes Weak in Extreme Heat (And How to Fix It)",
-    "category": "Troubleshooting",
+    "title": "מדוע קירור AC של המשאית שלך הופך חלש בחום קיצוני (ואיך לתקן את זה)",
+    "category": "פתרון בעיות",
     "date": "2025-12-25",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
-    "excerpt": "Discover why truck air conditioners lose cooling power in extreme heat and learn proven solutions to restore performance in African desert conditions."
+    "excerpt": "גלה מדוע מזגני משאיות מאבדים כוח קירור בחום קיצוני ולמד פתרונות מוכחים לשחזור ביצועים בתנאי מדבר אפריקאיים."
   },
   {
     "slug": "truck-ac-installation-africa",
-    "title": "Professional Installation Guide for Truck Parking AC in Africa",
-    "category": "Installation Guides",
+    "title": "מדריך התקנה מקצועי לחניית משאיות AC באפריקה",
+    "category": "מדריכי התקנה",
     "date": "2025-12-24",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
-    "excerpt": "Step-by-step professional installation guide for truck parking air conditioners in African conditions. Learn mounting, wiring, and commissioning procedures for reliable performance."
+    "excerpt": "מדריך התקנה מקצועי שלב אחר שלב לחניית מזגנים למשאיות בתנאים אפריקאים.למד נהלי הרכבה, חיווט והפעלה לביצועים אמינים."
   },
   {
     "slug": "parking-ac-for-camper-trailer",
@@ -321,11 +321,11 @@
   },
   {
     "slug": "truck-ac-spare-parts-africa",
-    "title": "Spare Parts & After-Sales Support for Truck AC in Africa",
-    "category": "Support Services",
+    "title": "חלקי חילוף ותמיכה לאחר המכירה עבור משאיות AC באפריקה",
+    "category": "שירותי תמיכה",
     "date": "2025-12-05",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
-    "excerpt": "Comprehensive spare parts and after-sales support for truck air conditioners in Africa. Filters, compressors, refrigerant, and technical assistance available."
+    "excerpt": "חלקי חילוף מקיפים ותמיכה לאחר מכירה למזגני משאיות באפריקה.מסננים, מדחסים, קירור וסיוע טכני זמינים."
   },
   {
     "slug": "import-truck-ac-africa",
@@ -808,22 +808,6 @@
     "excerpt": "גלה כיצד דגמי מנויי חניה AC משנים את פעולות הצי, מציעים חיסכון בעלויות ונוחות נהג משופרת.למד על העתיד של בקרת אקלים כשירות."
   },
   {
-    "slug": "truck-cab-cooling-without-engine",
-    "title": "How to Keep Your Truck Cab Cool Without Running the Engine",
-    "category": "Guide",
-    "date": "February 22, 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-cab-cooling-without-engine_860c789e.webp",
-    "excerpt": "Learn how to keep your truck cab cool without running the engine. Explore passive cooling, battery-powered ACs, and other no-idle solutions to save fuel and stay comfortable."
-  },
-  {
-    "slug": "truck-driver-health-heat-stress",
-    "title": "Heat Stress in Truck Drivers: Why a Parking AC Is a Health Investment",
-    "category": "Health",
-    "date": "December 1, 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-driver-health-heat-stress_a91eb5ba.webp",
-    "excerpt": "Mitigate truck driver heat stress with a parking AC. Learn how this health investment improves safety, reduces long-term risks, and enhances performance on the road."
-  },
-  {
     "slug": "12v-vs-24v-parking-ac",
     "title": "12V לעומת 24V חניה AC: איזה מתח הכי מתאים למשאית, RV או וואן?",
     "category": "מדריך טכני",
@@ -1170,5 +1154,21 @@
     "date": "25 בדצמבר 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/top-mounted-ac-installation-tips_05c95483.webp",
     "excerpt": "שלטו בהתקנת ה-AC החניה העליונה שלכם עם המדריך המומחה שלנו.הימנע מ-5 טעויות נפוצות כדי להבטיח קירור אופטימלי, למנוע דליפות ולהאריך את חיי היחידה שלך."
+  },
+  {
+    "slug": "truck-cab-cooling-without-engine",
+    "title": "כיצד לשמור על קריר תא המשאית שלך מבלי להפעיל את המנוע",
+    "category": "מדריך",
+    "date": "22 בפברואר 2025",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-cab-cooling-without-engine_860c789e.webp",
+    "excerpt": "למד כיצד לשמור על תא המונית שלך קריר מבלי להפעיל את המנוע.חקור קירור פסיבי, מערכות AC המופעלות על ידי סוללה ופתרונות אחרים ללא סרק כדי לחסוך בדלק ולהישאר נוח."
+  },
+  {
+    "slug": "truck-driver-health-heat-stress",
+    "title": "לחץ חום אצל נהגי משאיות: מדוע AC חניה הוא השקעה בריאותית",
+    "category": "בריאות",
+    "date": "1 בדצמבר 2024",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-driver-health-heat-stress_a91eb5ba.webp",
+    "excerpt": "הפחת את מתח החום של נהג המשאית עם AC חניה.למד כיצד השקעה בריאותית זו משפרת את הבטיחות, מפחיתה סיכונים ארוכי טווח ומשפרת את הביצועים על הכביש."
   }
 ]
