@@ -2,7 +2,7 @@
   "title": "주차 AC로 결로 및 물 손상 방지",
   "date": "2025-10-26",
   "category": "유지보수",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "설치, 유지 관리 및 습도 제어에 대한 전문가 팁을 통해 RV 또는 트럭의 주차 AC 결로 및 물로 인한 손상을 방지하는 방법을 알아보세요.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "마지막 생각: 좋은 여행 전 검사의 힘을 과소평가하지 마십시오. 도로에 나가기 전에, 특히 장거리 여행이나 습한 기후로의 여행의 경우 몇 분 동안 주차 AC의 외부 구성 요소를 육안으로 검사하십시오.배수 라인에 눈에 띄는 막힘이나 손상이 있는지 확인하십시오.장치가 단단히 장착되어 있고 모든 씰이 손상되지 않았는지 확인하십시오.잠깐 살펴보는 것만으로도 심각한 문제로 발전하기 전에 잠재적인 문제를 발견할 수 있는 경우가 많습니다.나는 운전자가 정기 점검 중에 헐거워진 배수 호스를 알아차리는 것만으로도 심각한 물로 인한 피해를 피하는 것을 보았습니다. 이는 비용이 많이 드는 수리를 방지하고 차량 내부의 무결성을 유지하는 측면에서 큰 수익을 얻을 수 있는 작은 습관입니다. 정기적인 유지 관리 및 주차 AC 기능에 대한 이해와 결합된 이러한 적극적인 접근 방식은 결로 및 물로 인한 손상에 대한 최선의 방어책이 될 것입니다. 이는 모두 준비하고 정보를 얻어 여행이 최대한 편안하고 걱정 없는지 확인하는 것입니다.결국, 도로에서는 걱정할 것이 충분합니다. 축축한 실내는 그 중 하나가 되어서는 안 됩니다.단 몇 분의 검사로 며칠 동안의 좌절감과 수천 번의 수리 비용을 절약할 수 있습니다."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "주차 AC로 결로 및 물 손상 방지",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "주차 AC로 결로 및 물 손상 방지",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

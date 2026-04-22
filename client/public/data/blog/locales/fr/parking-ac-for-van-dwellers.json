@@ -2,7 +2,7 @@
   "title": "Guide du Van Dweller sur le stationnement AC : vivre à temps plein dans votre véhicule",
   "date": "2025-10-15",
   "category": "La vie en fourgonnette",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Guide essentiel pour choisir et installer la climatisation de stationnement pour les habitants des fourgons.Restez au frais et à l'aise dans votre mobil-home grâce aux conseils d'experts.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Alors voilà.Mon point de vue sur la raison pour laquelle une bonne climatisation de stationnement n’est pas négociable pour les habitants sérieux des fourgons.Il ne s’agit pas seulement de combattre la chaleur ;il s'agit d'améliorer votre qualité de vie sur la route, en vous assurant de disposer d'un espace confortable et habitable, peu importe où vos aventures vous mènent.Qu'il s'agisse de comprendre le BTU adapté à votre configuration ou de choisir une unité 12V DC efficace alimentée par un parc de batteries LiFePO4 robuste, chaque décision joue un rôle.N'oubliez pas l'importance d'un câblage et d'une installation appropriés, et ne négligez surtout pas les avantages d'une bonne isolation.J'ai vu la différence que ça fait, et honnêtement, c'est le jour et la nuit.Il ne s’agit pas seulement d’acheter un produit ;il s'agit d'investir dans votre confort, votre sommeil et votre plaisir général de la vie en van.Prenez le temps de rechercher, planifier et installer votre système correctement, et vous profiterez de journées et de nuits fraîches et confortables pour les années à venir.Cela change la donne, clair et simple, et que tout habitant de camionnette à plein temps devrait sérieusement envisager.Restez au frais, les amis, et profitez de la route ouverte."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Guide du Van Dweller sur le stationnement AC : vivre à temps plein dans votre véhicule",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Guide du Van Dweller sur le stationnement AC : vivre à temps plein dans votre véhicule",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

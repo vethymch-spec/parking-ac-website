@@ -2,7 +2,7 @@
   "title": "A legjobb parkoló AC lakóautó utánfutók számára: Tetőtéri és ülés alatti lehetőségek",
   "date": "2025-12-22",
   "category": "Útmutató",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer_319d2897.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-hero.webp",
   "metaDescription": "Fedezze fel a legjobb parkoló AC lakóautó-utánfutókhoz.Összehasonlítjuk a tetőtéri és az ülés alatti lehetőségeket, az energiaszükségletet és a valós teljesítményt a hálózaton kívüli hűtéshez.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Végső soron a tetőtéri és az ülés alatti parkoló AC közötti választás az Ön egyedi igényeinek és korlátainak brutálisan őszinte felmérésén múlik.Nincs varázsgolyó.Ha egyszerű telepítést szeretne, ne törődjön az extra magassággal, és meg akarja őrizni belső tárolóját, akkor valószínűleg a tetőtéri egység a megfelelő megoldás.Ez egy bevált kialakítás, amely jól működik a hagyományos alaprajzok túlnyomó többségéhez.De ha egy lopakodó off-grid fúrótornyot épít, minden négyzetcentiméternyi tetőtérre szüksége van napenergiához, és hajlandó egy bonyolultabb telepítésre is, az ülés alatti egység hihetetlen előnyöket kínál az aerodinamika és a súlyeloszlás tekintetében.Mindkét beállítással építettem és táboroztam azokban, és mindkettőnek megvannak a ragyogó és csalódott pillanatai.A kulcs az, hogy ne keresse a „tökéletes” rendszert, és kezdje el azt a rendszert keresni, amely a legjobban igazodik ahhoz, ahogy Ön ténylegesen utazik.Számolja ki az energiafogyasztást, mérje meg háromszor a rendelkezésre álló helyet, és ne becsülje alá a jó éjszakai alvás fontosságát.Ha a semmi közepén parkol, mérföldekre a legközelebbi csatlakozótól, a megbízható légkondicionáló zúgása, amely hűvösen tartja a kabint, a világ egyik legkedvesebb hangja."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "A legjobb parkoló AC lakóautó utánfutók számára: Tetőtéri és ülés alatti lehetőségek",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-detail.webp",
+      "alt": "A legjobb parkoló AC lakóautó utánfutók számára: Tetőtéri és ülés alatti lehetőségek",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Soluții de încredere pentru răcirea camioanelor pentru industria de transport din Côte d'Ivoire",
   "date": "2025-12-10",
   "category": "Ghiduri regionale",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Descoperiți soluții fiabile de răcire a camioanelor pentru industria de transport în creștere din Côte d'Ivoire.Aflați cum aparatele de aer condiționat de parcare îmbunătățesc siguranța șoferului și eficiența operațională în centrul logistic al Africii de Vest.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Considerații de siguranță și cele mai bune practici",
       "body": "Operarea în siguranță a unui aparat de aer condiționat de parcare necesită atenție acordată mai multor factori importanți care protejează atât ocupanții vehiculului, cât și echipamentele.Siguranța electrică este esențială: toate cablurile trebuie să fie dimensionate corect pentru sarcina curentă, cu siguranță adecvată.Cablajul subdimensionat este principala cauză a incendiilor de vehicule cauzate de AC-ul de parcare.Utilizați întotdeauna calibrul de sârmă specificat de producător sau mai mare și instalați o siguranță sau un întrerupător de circuit nominal la 125% din consumul maxim de curent al unității la 30 cm de borna pozitivă a bateriei.\n\nSiguranța bateriei merită aceeași atenție, în special în cazul bateriilor pe bază de litiu.Bateriile LiFePO4, deși sunt semnificativ mai sigure decât alte produse chimice cu litiu, necesită totuși un BMS (Sistem de management al bateriei) de calitate care oferă protecție la supraîncărcare, supradescărcare, supracurent și protecție termică.Asigurați-vă că BMS este evaluat pentru consumul maxim de curent al unității dvs. de parcare AC.Nu amestecați niciodată bateriile vechi și noi într-o bancă și nu amestecați niciodată substanțe chimice diferite.Depozitați și încărcați bateriile în zone bine ventilate.\n\nSiguranța cu monoxid de carbon (CO) este un avantaj critic al AC-urilor de parcare față de ralantiul motorului.Funcționarea motorului la ralanti în spații închise sau semiînchise (garaje de parcare, docuri de încărcare, zone de odihnă închise) creează o acumulare potențial letală de CO.Sistemele AC de parcare produc zero emisii în timpul funcționării, eliminând în totalitate acest risc.Acest lucru este deosebit de important pentru șoferii de taxi care se odihnesc cu geamurile închise.\n\nSecuritatea montării trebuie verificată în mod regulat, în special la vehiculele care circulă pe drumuri accidentate.O unitate AC slăbită sau montată incorect poate deveni un proiectil în caz de accident sau poate cădea din vehicul în timpul tranzitului.Verificați toate feroneria de montaj cel puțin trimestrial, strângând șuruburile conform specificațiilor producătorului.Înlocuiți orice hardware care prezintă semne de crăpare sau coroziune prin oboseală."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Soluții de încredere pentru răcirea camioanelor pentru industria de transport din Côte d'Ivoire",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Soluții de încredere pentru răcirea camioanelor pentru industria de transport din Côte d'Ivoire",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

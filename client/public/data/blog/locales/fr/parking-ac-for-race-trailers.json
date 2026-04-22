@@ -2,7 +2,7 @@
   "title": "Climatisation pour remorques de voitures de course et transporteurs de sport automobile",
   "date": "2025-10-26",
   "category": "Spécialité",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers_83a81a87.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-hero.webp",
   "metaDescription": "Gardez votre équipage et votre équipement en pleine forme grâce à la bonne climatisation pour votre remorque de voiture de course.Découvrez pourquoi c'est un incontournable pour les équipes sérieuses de sport automobile.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Donc, si vous êtes sérieux au sujet de votre programme de course, si vous investissez massivement dans votre équipement et votre équipe, négliger la climatisation de votre camion est une erreur que vous ne pouvez pas vous permettre de commettre.J'ai vu la différence que cela fait, depuis des équipages plus heureux et plus productifs jusqu'à un équipement mieux préservé et, finalement, de meilleurs résultats en course.Ce n'est pas seulement une question de confort ;c'est une question d'avantage concurrentiel.Que vous soyez une équipe professionnelle chevronnée ou un amateur en herbe, un système de climatisation de stationnement bien conçu et correctement installé est un élément essentiel d'une opération de sport automobile réussie.C'est un investissement dans la fiabilité, les performances et le bien-être de toutes les personnes impliquées.Ne laissez pas votre travail acharné fondre littéralement sous la chaleur.Prenez le temps de faire des recherches, de comprendre les détails techniques et de choisir un système qui vous servira pendant des années.Votre équipe, votre équipement et vos résultats en course vous en remercieront.Faites-moi confiance sur celui-ci ;J'y suis allé, je l'ai fait et j'ai vu les conséquences des raccourcis.Faites-le correctement et vous en récolterez les fruits."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Climatisation pour remorques de voitures de course et transporteurs de sport automobile",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-detail.webp",
+      "alt": "Climatisation pour remorques de voitures de course et transporteurs de sport automobile",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

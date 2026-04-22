@@ -2,7 +2,7 @@
   "title": "使用驻车空调防止冷凝和水损坏",
   "date": "2025-10-26",
   "category": "维护保养",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "通过有关安装、维护和湿度控制的专家提示，了解如何防止 RV 或卡车中的空调冷凝和水损坏。",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "最后一点：不要低估良好的行前检查的力量。在上路之前，尤其是长途旅行或进入潮湿气候的旅行，请花几分钟目视检查驻车空调的外部组件。检查排水管是否有明显的堵塞或损坏。确保设备安装牢固并且所有密封件完好无损。快速浏览通常可以在潜在问题升级为严重问题之前发现它。我曾见过司机在例行检查时注意到排水软管松动，从而避免了严重的水损坏。这个小习惯可以在避免昂贵的维修费用和保持车辆内部完整性方面产生巨大的回报。这种主动的方法，结合定期维护和了解驻车空调的功能，将是您抵御冷凝水和水损坏的最佳方法。这一切都是为了做好准备和知情，确保您的旅程尽可能舒适和无忧。毕竟，您在路上需要担心的事情已经够多了；潮湿的车内不应该是其中之一。几分钟的检查可以为您节省数天的挫败感和数千次的维修费用。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "使用驻车空调防止冷凝和水损坏",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "使用驻车空调防止冷凝和水损坏",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

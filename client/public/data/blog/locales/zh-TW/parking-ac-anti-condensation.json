@@ -2,7 +2,7 @@
   "title": "使用駐車空調防止冷凝和水損壞",
   "date": "2025-10-26",
   "category": "維護保養",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "透過安裝、維護和濕度控制的專家提示，了解如何防止 RV 或卡車中的空調冷凝和水損壞。",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "最後一點：不要低估良好的行前檢查的力量。在上路之前，尤其是長途旅行或進入潮濕氣候的旅行，請花幾分鐘目視檢查駐車空調的外部組件。檢查排水管是否有明顯的堵塞或損壞。確保設備安裝牢固且所有密封件完好無損。快速瀏覽通常可以在潛在問題升級為嚴重問題之前發現它。我曾見過司機在例行檢查時注意到排水軟管鬆動，從而避免了嚴重的水損壞。這個小習慣可以在避免昂貴的維修費用和保持車輛內部完整性方面產生巨大的回報。這種主動的方法，結合定期維護和了解駐車空調的功能，將是您抵禦冷凝水和水損壞的最佳方法。這一切都是為了做好準備和知情，確保您的旅程盡可能舒適和無憂。畢竟，您在路上需要擔心的事情已經夠多了；潮濕的車內不應該是其中之一。幾分鐘的檢查可以為您節省數天的挫折感和數千次的維修費用。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "使用駐車空調防止冷凝和水損壞",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "使用駐車空調防止冷凝和水損壞",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

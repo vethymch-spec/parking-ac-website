@@ -2,7 +2,7 @@
   "title": "Parkering AC for Skoolie-konverteringer: Avkjøling av en skolebuss hjem på veien",
   "date": "2025-11-15",
   "category": "Spesialitet",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "Hold skoolien din kul på veien!Utforsk effektive AC-parkeringsløsninger for konvertering av skolebuss, som sikrer komfort og energisparing.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Til syvende og sist handler det å velge riktig parkerings-AC for din skoleie-konvertering om å balansere komfort, effektivitet og din spesifikke livsstil.Det er ikke en løsning som passer alle, og ærlig talt, alle som forteller deg noe annet har sannsynligvis ikke brukt mye tid på veien.Jeg har sett utviklingen av disse systemene på egenhånd, fra klumpete, kraftkrevende enheter til de slanke, effektive 12V DC modellene vi har i dag.Investeringen i et kvalitetssystem, kombinert med et godt designet solcelle- og batterioppsett, vil gi utbytte i komfort, frihet og sjelefred.Du vil kunne jage solen eller unnslippe varmen, og vite at bobilen din alltid vil være en kul oase.Ikke gå på akkord med komforten din;det er det som gjør skoleie-drømmen til virkelighet.Ta deg tid til å undersøke, planlegge og investere klokt, og du vil nyte en kjølig bris uansett hvor veien tar deg.Det er tross alt hjemmet ditt, og det fortjener å være komfortabelt."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkering AC for Skoolie-konverteringer: Avkjøling av en skolebuss hjem på veien",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "Parkering AC for Skoolie-konverteringer: Avkjøling av en skolebuss hjem på veien",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

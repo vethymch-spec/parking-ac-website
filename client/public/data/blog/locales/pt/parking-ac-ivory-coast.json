@@ -2,7 +2,7 @@
   "title": "Soluções confiáveis de refrigeração de caminhões para a indústria de transporte da Costa do Marfim",
   "date": "2025-12-10",
   "category": "Guias Regionais",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Descubra soluções confiáveis de refrigeração de caminhões para a crescente indústria de transportes da Costa do Marfim.Saiba como os sistemas de ar condicionado de estacionamento melhoram a segurança do condutor e a eficiência operacional no centro logístico da África Ocidental.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Considerações de segurança e melhores práticas",
       "body": "A operação segura de um ar condicionado de estacionamento requer atenção a vários fatores importantes que protegem tanto os ocupantes do veículo quanto o equipamento.A segurança elétrica é fundamental: toda a fiação deve ser dimensionada corretamente para a carga de corrente com proteção de fusível adequada.A fiação subdimensionada é a principal causa de incêndios em veículos relacionados ao estacionamento de AC.Sempre use a bitola de fio especificada pelo fabricante ou maior e instale um fusível ou disjuntor classificado para 125% do consumo máximo de corrente da unidade dentro de 30 cm do terminal positivo da bateria.\n\nA segurança da bateria merece igual atenção, especialmente com baterias à base de lítio.As baterias LiFePO4, embora significativamente mais seguras do que outros produtos químicos de lítio, ainda exigem um BMS (Sistema de gerenciamento de bateria) de qualidade que forneça proteção contra sobrecarga, descarga excessiva, sobrecorrente e térmica.Certifique-se de que o BMS esteja classificado para o consumo máximo de corrente da sua unidade AC de estacionamento.Nunca misture baterias novas e velhas em um banco e nunca misture produtos químicos diferentes.Armazene e carregue as baterias em áreas bem ventiladas.\n\nA segurança do monóxido de carbono (CO) é uma vantagem crítica do estacionamento de ACs em relação ao motor em marcha lenta.O motor em marcha lenta em espaços fechados ou semifechados (garagens de estacionamento, docas de carga, áreas de descanso fechadas) cria acumulação de CO potencialmente letal.Os sistemas AC de estacionamento produzem zero emissões durante a operação, eliminando totalmente esse risco.Isto é particularmente importante para motoristas de táxi leito que descansam com as janelas fechadas.\n\nA segurança da montagem deve ser verificada regularmente, especialmente em veículos que circulam em estradas irregulares.Uma unidade CA solta ou montada incorretamente pode se tornar um projétil em um acidente ou cair do veículo durante o transporte.Verifique todas as ferragens de montagem pelo menos trimestralmente, reapertando os parafusos de acordo com as especificações do fabricante.Substitua qualquer hardware que apresente sinais de rachaduras por fadiga ou corrosão."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Soluções confiáveis de refrigeração de caminhões para a indústria de transporte da Costa do Marfim",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Soluções confiáveis de refrigeração de caminhões para a indústria de transporte da Costa do Marfim",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

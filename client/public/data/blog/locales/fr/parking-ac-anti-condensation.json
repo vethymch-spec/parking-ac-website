@@ -2,7 +2,7 @@
   "title": "Prévenir la condensation et les dégâts d’eau avec votre climatisation de stationnement",
   "date": "2025-10-26",
   "category": "Entretien",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Apprenez comment éviter la condensation du climatiseur et les dégâts d'eau en stationnement dans votre RV ou votre camion grâce à des conseils d'experts sur l'installation, l'entretien et le contrôle de l'humidité.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Une dernière réflexion : ne sous-estimez pas la puissance d'une bonne inspection avant le départ. Avant de prendre la route, en particulier pour de longs trajets ou des voyages dans des climats humides, prenez quelques minutes pour inspecter visuellement les composants extérieurs de votre climatisation de stationnement.Vérifiez les conduites de vidange pour détecter tout blocage ou dommage évident.Assurez-vous que l'appareil est solidement monté et que tous les joints semblent intacts.Un rapide coup d’œil permet souvent de détecter un problème potentiel avant qu’il ne se transforme en un véritable casse-tête.J'ai vu des conducteurs éviter des dégâts d'eau importants simplement en remarquant un tuyau de vidange desserré lors d'un contrôle de routine. C'est une petite habitude qui peut rapporter d'énormes bénéfices en termes de prévention de réparations coûteuses et de maintien de l'intégrité de l'intérieur de votre véhicule. Cette approche proactive, combinée à un entretien régulier et à une compréhension du fonctionnement de votre climatisation de stationnement, sera votre meilleure défense contre la condensation et les dégâts des eaux.Après tout, vous avez suffisamment de soucis sur la route ; un intérieur humide ne devrait pas en faire partie.Quelques minutes d’inspection peuvent vous épargner des jours de frustration et des milliers de réparations."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Prévenir la condensation et les dégâts d’eau avec votre climatisation de stationnement",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Prévenir la condensation et les dégâts d’eau avec votre climatisation de stationnement",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "다용도 트럭 및 라인 작업자 차량용 에어컨",
   "date": "2025-10-28",
   "category": "전문 분야",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks_0943e009.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp",
   "metaDescription": "다용도 트럭과 라인 작업자 차량을 시원하게 유지하는 것은 편안함뿐만 아니라 안전의 문제입니다.최고의 에어컨 솔루션에 대해 알아보세요.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "따라서 귀하가 보유하고 있는 다용도 트럭을 살펴보고 다음 업그레이드를 고려할 때 엔진과 섀시 그 이상을 생각하시기 바랍니다.운전석에 앉은 사람을 생각해 보세요.그들이 현장에서 보내는 오랜 시간, 그들이 견디는 극한의 기온, 그들이 수행하는 중요한 작업에 대해 생각해 보십시오.고품질의 안정적인 주차 AC 시스템에 투자하는 것은 귀하가 할 수 있는 가장 영향력 있는 투자 중 하나입니다.이는 안전, 효율성, 지속 가능성, 그리고 가장 중요하게는 직원에 대한 투자입니다.기술이 여기에 있고 비즈니스 사례가 명확하며 그 필요성이 그 어느 때보다 커졌습니다.내 경험에 따르면 이는 차량 관리자가 내릴 수 있는 가장 현명한 결정 중 하나이며 대차대조표와 직원 복지 모두에서 앞으로 수년 동안 느낄 수 있는 이점을 제공합니다.이제 유틸리티 부문에서 열심히 일하는 남성과 여성을 위해 운전실의 편안함을 선택 사항이 아닌 표준으로 만들 때입니다.그들은 그 이하도 가치가 없습니다."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "다용도 트럭 및 라인 작업자 차량용 에어컨",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-detail.webp",
+      "alt": "다용도 트럭 및 라인 작업자 차량용 에어컨",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

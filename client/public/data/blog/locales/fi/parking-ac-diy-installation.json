@@ -2,7 +2,7 @@
   "title": "DIY Parking AC -asennus: Vaiheittainen opas aloittelijoille",
   "date": "2025-12-10",
   "category": "Asennus",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-diy-installation_30707b1e.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-diy-installation-hero.webp",
   "metaDescription": "Master DIY pysäköinti-AC-asennus aloittelijan oppaamme avulla.Opi vaiheittaiset ohjeet 12V/24V-pysäköintiilmastointilaitteen asentamiseen turvallisesti ja tehokkaasti.",
   "content": [
     {
@@ -53,5 +53,8 @@
       "heading": null,
       "body": "Viime kädessä tee-se-itse-pysäköinti-AC-asennuksen tekeminen on enemmän kuin vain muutaman taalan säästöä;kyse on laitteesi ja mukavuudestasi omistukseen.Se vaatii kärsivällisyyttä, halukkuutta oppia ja tervettä kunnioitusta sähköä ja rakenteellista eheyttä kohtaan.Mutta tunne, että kytkimen käännät päälle helteisenä heinäkuun iltana ja tunnet tuon jääkylmän ilman puhalluksen, kun tiedät, että rakensit järjestelmän, joka pitää sinut mukavana, on uskomattoman palkitsevaa.Älä anna tuntemattoman pelon estää sinua.Tee tutkimusta, kerää oikeat työkalut, ota aikaa mittausten ja johdotuksen kanssa, äläkä pelkää kysyä apua foorumeilta tai kokeneemmilta ystäviltä, ​​jos jäät jumiin.Tie on riittävän kova sellaisenaan;ansaitset mukavan lepopaikan päivän päätteeksi, ja pienellä kyynärpäärasvalla voit rakentaa juuri sen.Tämä itseluottamuksen matka ei ainoastaan ​​tarjoa sinulle fantastista jäähdytysratkaisua, vaan myös syventää ymmärrystäsi ja arvostustasi ajoneuvoasi kohtaan, mikä tekee jokaisesta kilometristä henkilökohtaisemman ja mukavamman.Se on taito, joka palvelee sinua hyvin tulevina vuosina, ja se on aidon ylpeyden lähde."
     }
-  ]
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "DIY Parking AC -asennus: Vaiheittainen opas aloittelijoille"
 }

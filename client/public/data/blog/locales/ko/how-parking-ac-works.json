@@ -2,8 +2,8 @@
   "title": "주차 에어컨은 어떻게 작동하나요?완전한 기술 설명",
   "date": "2025년 1월 15일",
   "category": "기술",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works_88006269.webp",
-  "imageAlt": "주차 에어컨은 어떻게 작동하나요?완전한 기술 설명 - 주차 에어컨 가이드",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works-hero.webp",
+  "imageAlt": "주차 에어컨은 어떻게 작동하나요?완전한 기술 설명",
   "metaDescription": "주차 에어컨의 작동 방식, 구성 요소, 전원 관리 및 유형을 알아보세요.트럭 운전사, RV 소유자 및 밴 운전자를 위한 완전한 기술 설명을 받아보세요.",
   "content": [
     {
@@ -41,6 +41,17 @@
     {
       "heading": "결론: 온로드 편안함과 효율성의 미래",
       "body": "**주차용 에어컨의 작동 원리**를 이해하면 트럭 운전자, RV 소유자 및 밴 운전자의 편안함과 효율성을 향상시키도록 설계된 열역학과 전기 공학의 정교한 조화를 알 수 있습니다.CoolDrivePro VS02 PRO과 같은 옥상 장착형이든 CoolDrivePro VX3000SP과 같은 분할 장치이든 이러한 시스템은 엔진 공회전 없이 편안한 객실 환경을 유지하기 위한 중요한 솔루션을 제공합니다.배터리 전원과 냉동 사이클 원리를 활용함으로써 주차 AC는 연료 절약, 배기가스 감소, 도로에서의 삶의 질 향상 측면에서 상당한 이점을 제공합니다.배터리 기술, 압축기 효율성 및 지능형 전력 관리 시스템의 지속적인 발전으로 인해 이러한 장치는 이전보다 더욱 강력하고 안정적이며 접근 가능해졌습니다.엔진 공회전에 대한 규제가 더욱 엄격해지고 지속 가능하고 편안한 여행에 대한 수요가 증가함에 따라 주차 에어컨은 의심할 여지없이 차량에서 오랜 시간을 보내는 모든 사람에게 없어서는 안 될 구성 요소가 될 것입니다.오늘 CoolDrivePro 주차 AC 솔루션으로 편안함과 효율성에 투자하고 진정으로 편안한 정지의 차이를 경험해 보세요.주차 에어컨 구매 가이드 2025에 관한 실제 고려 사항: 구매하기 전에 알아야 할 모든 것 이 책과 함께 읽어 볼 가치가 있습니다. 실제 성능에 중요한 부분에는 상당한 중복이 있습니다.이 내용이 유용하다고 생각하는 독자는 일반적으로 주차 에어컨에 몇 대의 BTU이 필요합니까?에 대한 내용도 확인하세요.방정식의 보완적인 측면을 다루는 완전한 사이징 가이드."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 4,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works-types-of-parking-air-conditioners-roofto.webp",
+      "alt": "주차 에어컨 유형: 옥상 대 분할 시스템 — 주차 에어컨은 어떻게 작동하나요?완전한 기술 설명",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

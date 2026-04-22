@@ -2,8 +2,8 @@
   "title": "Czyszczenie i konserwacja RV Klimatyzatory: Kompletny przewodnik na rok 2025",
   "date": "30 stycznia 2025 r",
   "category": "Konserwacja",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac_ce6b3b35.webp",
-  "imageAlt": "Czyszczenie i konserwacja RV klimatyzatora postojowego",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+  "imageAlt": "Czyszczenie i konserwacja RV Klimatyzatory: Kompletny przewodnik na rok 2025",
   "metaDescription": "Kompletny przewodnik na rok 2025 dotyczący czyszczenia i konserwacji klimatyzatora postojowego RV.Miesięczne, sezonowe i roczne zadania konserwacyjne w celu maksymalizacji wydajności i żywotności.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Względy bezpieczeństwa i najlepsze praktyki",
       "body": "Bezpieczne użytkowanie klimatyzatora postojowego wymaga zwrócenia uwagi na kilka ważnych czynników, które chronią zarówno pasażerów pojazdu, jak i sprzęt.Bezpieczeństwo elektryczne jest najważniejsze: całe okablowanie musi być odpowiednio dobrane do aktualnego obciążenia i wyposażone w odpowiedni bezpiecznik.Niewymiarowe okablowanie jest główną przyczyną pożarów pojazdów związanych z parkowaniem prądu przemiennego.Zawsze używaj przewodu o średnicy określonej przez producenta lub większej i zainstaluj bezpiecznik lub wyłącznik automatyczny o wartości 125% maksymalnego poboru prądu przez urządzenie w odległości 30 cm od dodatniego bieguna akumulatora.\n\nBezpieczeństwo baterii zasługuje na taką samą uwagę, szczególnie w przypadku baterii litowych.Baterie LiFePO4, choć znacznie bezpieczniejsze niż inne baterie litowe, nadal wymagają wysokiej jakości BMS (systemu zarządzania akumulatorami), który zapewnia ochronę przed przeładowaniem, nadmiernym rozładowaniem, przetężeniem i temperaturą.Upewnij się, że BMS jest przystosowany do maksymalnego poboru prądu przez postojową jednostkę klimatyzacji.Nigdy nie mieszaj starych i nowych baterii w banku i nigdy nie mieszaj różnych chemikaliów.Przechowuj i ładuj akumulatory w dobrze wentylowanych pomieszczeniach.\n\nBezpieczeństwo związane z tlenkiem węgla (CO) to kluczowa zaleta postojowych klimatyzatorów w porównaniu z pracą silnika na biegu jałowym.Praca silnika na biegu jałowym w zamkniętych lub półzamkniętych przestrzeniach (garaże, doki załadunkowe, zamknięte miejsca odpoczynku) powoduje potencjalnie śmiertelną akumulację CO.Parkingowe systemy klimatyzacji wytwarzają zerową emisję podczas pracy, całkowicie eliminując to ryzyko.Jest to szczególnie ważne dla kierowców kabin sypialnych, którzy odpoczywają przy zamkniętych oknach.\n\nBezpieczeństwo montażu należy regularnie sprawdzać, szczególnie w pojazdach poruszających się po nierównych drogach.Luźno lub nieprawidłowo zamontowany moduł klimatyzacji może w razie wypadku stać się pociskiem lub spaść z pojazdu podczas transportu.Co najmniej raz na kwartał sprawdzaj wszystkie elementy montażowe, dokręcając śruby zgodnie ze specyfikacjami producenta.Wymień cały osprzęt wykazujący oznaki pękania zmęczeniowego lub korozji."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-frequently-asked-questions-about-rv-ac-m.webp",
+      "alt": "Często zadawane pytania dotyczące RV konserwacji klimatyzacji — Czyszczenie i konserwacja RV Klimatyzatory: Kompletny przewodnik na rok 2025",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Evitando condensação e danos causados ​​pela água com seu AC de estacionamento",
   "date": "2025-10-26",
   "category": "Manutenção",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Aprenda como evitar condensação de CA ao estacionar e danos causados ​​pela água em seu RV ou caminhão com dicas de especialistas sobre instalação, manutenção e controle de umidade.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Um pensamento final: não subestime o poder de uma boa inspeção pré-viagem. Antes de pegar a estrada, especialmente para viagens mais longas ou viagens em climas úmidos, reserve alguns minutos para inspecionar visualmente os componentes externos do seu AC de estacionamento.Verifique as linhas de drenagem quanto a quaisquer bloqueios ou danos óbvios.Certifique-se de que a unidade esteja montada com segurança e que todas as vedações pareçam intactas.Muitas vezes, uma rápida olhada pode detectar um problema potencial antes que ele se transforme em uma grande dor de cabeça.Já vi motoristas evitarem danos significativos causados ​​​​pela água apenas notando uma mangueira de drenagem solta durante uma verificação de rotina. É um pequeno hábito que pode render enormes retornos em termos de prevenção de reparos dispendiosos e manutenção da integridade do interior do seu veículo.Afinal, você já tem muito com o que se preocupar na estrada; um interior úmido não deveria ser um deles.Alguns minutos de inspeção podem poupar dias de frustração e milhares de reparos."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Evitando condensação e danos causados ​​pela água com seu AC de estacionamento",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Evitando condensação e danos causados ​​pela água com seu AC de estacionamento",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

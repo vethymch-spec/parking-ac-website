@@ -2,7 +2,7 @@
   "title": "実用トラックおよびライン作業車の空調",
   "date": "2025-10-28",
   "category": "専門分野",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks_0943e009.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp",
   "metaDescription": "実用トラックやライン作業員の車両を涼しく保つことは、快適さだけでなく安全性の問題でもあります。最適な空調ソリューションについて学びましょう。",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "したがって、所有している多用途トラックを検討し、次のアップグレードを検討する際には、エンジンやシャーシのことだけを考えないようお勧めします。運転席に座っている人のことを考えてみましょう。彼らが現場で過ごす長時間、耐える極端な気温、そして彼らが行う重要な仕事について考えてみましょう。高品質で信頼性の高い駐車空調システムへの投資は、最も影響力のある投資の 1 つです。それは安全性、効率性、持続可能性、そして最も重要なことに従業員への投資です。テクノロジーは存在し、ビジネスケースは明確であり、そのニーズはかつてないほど大きくなっています。私の経験から言えば、これはフリート管理者が行うことができる最も賢明な決定の 1 つであり、バランスシートと従業員の幸福の両方において、今後何年にもわたってメリットが感じられるでしょう。公共事業部門で勤勉に働く男女にとって、タクシーの快適性をオプションではなく標準にする時が来ています。彼らにはそれ以上の価値はありません。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "実用トラックおよびライン作業車の空調",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-detail.webp",
+      "alt": "実用トラックおよびライン作業車の空調",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

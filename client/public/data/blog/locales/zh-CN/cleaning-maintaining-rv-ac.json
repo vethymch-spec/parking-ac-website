@@ -2,8 +2,8 @@
   "title": "清洁和维护 RV 空调：2025 年完整指南",
   "date": "2025 年 1 月 30 日",
   "category": "维护保养",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac_ce6b3b35.webp",
-  "imageAlt": "清洁和维护 RV 驻车空调",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+  "imageAlt": "清洁和维护 RV 空调：2025 年完整指南",
   "metaDescription": "2025 年清洁和维护 RV 驻车空调的完整指南。每月、季节性和年度维护任务，以最大限度地提高性能和使用寿命。",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "安全注意事项和最佳实践",
       "body": "安全操作驻车空调需要注意几个重要因素，以保护车辆乘员和设备。电气安全至关重要：所有接线的尺寸必须适合电流负载，并具有适当的保险丝保护。布线尺寸过小是驻车空调相关车辆火灾的主要原因。始终使用制造商指定的线规或更大的线规，并在距电池正极端子 30 厘米范围内安装额定值为设备最大电流消耗 125% 的保险丝或断路器。\n\n电池安全值得同等关注，尤其是锂电池。LiFePO4 电池虽然比其他锂化学电池安全得多，但仍然需要高质量的 BMS（电池管理系统）来提供过充、过放、过流和热保护。确保 BMS 的额定值可满足驻车空调装置的最大电流消耗。切勿在银行中混用新旧电池，也切勿混用不同的化学物质。将电池存放在通风良好的地方并为其充电。\n\n一氧化碳 (CO) 安全性是驻车空调相对于发动机空转的一个关键优势。发动机在封闭或半封闭空间（停车场、装卸码头、封闭休息区）空转会产生潜在致命的二氧化碳积累。驻车空调系统在运行过程中产生零排放，完全消除了这种风险。这对于关闭车窗休息的卧铺出租车司机来说尤其重要。\n\n必须定期验证安装安全性，尤其是在崎岖道路上行驶的车辆。松动或安装不当的空调装置可能会在事故中成为抛射物，或在运输过程中从车辆上掉落。至少每季度检查一次所有安装硬件，按照制造商规格重新拧紧螺栓。更换任何有疲劳裂纹或腐蚀迹象的硬件。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-frequently-asked-questions-about-rv-ac-m.webp",
+      "alt": "关于 RV AC 维护的常见问题解答 — 清洁和维护 RV 空调：2025 年完整指南",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

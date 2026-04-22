@@ -2,7 +2,7 @@
   "title": "Controle de temperatura para clínicas odontológicas móveis e veículos de saúde bucal",
   "date": "2025-11-15",
   "category": "Especialidade",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry_46dca399.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-hero.webp",
   "metaDescription": "Garantir o controle ideal da temperatura para clínicas odontológicas móveis é crucial para a integridade do material e o conforto do paciente.Aprenda sobre soluções especializadas de AC para estacionamento.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Perguntas frequentes",
       "body": "P: Qual é o volume do ar condicionado de estacionamento?\n\nR: Os níveis de ruído interno para unidades de AC de estacionamento de qualidade variam de 45 a 58 dB(A), aproximadamente equivalente a um escritório silencioso ou chuva moderada.As unidades CoolDrivePro incorporam montagens avançadas de compressor com amortecimento de som e designs de pás de ventilador otimizados para minimizar o ruído, garantindo condições de sono confortáveis.\n\nP: Um AC estacionado irá descarregar minhas baterias de partida?\n\nR: Os sistemas instalados corretamente usam um banco de baterias auxiliares dedicado, separado das baterias de partida, ou incluem uma desconexão de baixa tensão que protege as baterias de partida de serem descarregadas abaixo do limite necessário para dar partida no motor.Nunca conecte um AC de estacionamento diretamente às baterias de partida sem o isolamento adequado.\n\nP: Os ACs de estacionamento também podem fornecer aquecimento?\n\nR: Muitas unidades modernas de ar condicionado para estacionamento incluem uma função de bomba de calor que inverte o ciclo de refrigeração para fornecer aquecimento.Isto é eficaz em condições de frio moderado (até aproximadamente -5°C/23°F de temperatura externa).Para frio extremo, pode ser necessário aquecimento suplementar elétrico ou a diesel.Os modelos de aquecimento-resfriamento de CoolDrivePro oferecem ambos os modos em uma única unidade.\n\nP: Qual é a vida útil de uma unidade AC de estacionamento?\n\nR: Com instalação adequada e manutenção regular, uma unidade AC de estacionamento de qualidade deve durar de 5 a 10 anos ou aproximadamente 10.000 a 20.000 horas de operação.O compressor é normalmente o componente mais duradouro, enquanto os motores dos ventiladores e as placas de controle podem precisar de substituição após 5 a 7 anos, dependendo das condições de operação e da exposição à poeira.\n\nP: Vale a pena investir em uma unidade mais cara?\n\nR: Geralmente sim.As unidades Premium apresentam compressores mais eficientes (menor consumo de energia = maior autonomia da bateria), melhor qualidade de construção (maior vida útil), níveis de ruído mais baixos e componentes eletrônicos mais robustos.Ao longo de uma vida útil de 5 anos, a economia de combustível e a redução dos custos de manutenção de uma unidade premium normalmente excedem em muito o preço de compra mais elevado.CoolDrivePro foi projetado para uso profissional e comercial, oferecendo valor excepcional por meio de confiabilidade e eficiência."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Controle de temperatura para clínicas odontológicas móveis e veículos de saúde bucal",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-detail.webp",
+      "alt": "Controle de temperatura para clínicas odontológicas móveis e veículos de saúde bucal",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

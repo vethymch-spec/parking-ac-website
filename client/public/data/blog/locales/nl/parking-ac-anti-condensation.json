@@ -2,7 +2,7 @@
   "title": "Voorkom condensatie en waterschade met uw parkeerairco",
   "date": "2025-10-26",
   "category": "Onderhoud",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Leer hoe u AC-condensatie en waterschade bij parkeren in uw RV of vrachtwagen kunt voorkomen met deskundige tips over installatie, onderhoud en vochtigheidsregeling.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Nog een laatste gedachte: onderschat de kracht van een goede inspectie vóór de rit niet. Voordat u op pad gaat, vooral voor langere ritten of reizen in vochtige klimaten, neem een paar minuten de tijd om de externe componenten van uw parkeerairco visueel te inspecteren.Controleer de afvoerleidingen op duidelijke verstoppingen of schade.Zorg ervoor dat het apparaat stevig is gemonteerd en dat alle afdichtingen intact lijken.Een snelle blik kan vaak een potentieel probleem opmerken voordat het escaleert in grote hoofdpijn.Ik heb gezien dat chauffeurs aanzienlijke waterschade konden vermijden door alleen maar een loszittende afvoerslang op te merken tijdens een routinecontrole. Het is een kleine gewoonte die enorme winsten kan opleveren als het gaat om het voorkomen van dure reparaties en het behouden van de integriteit van het interieur van uw voertuig. Deze proactieve aanpak, gecombineerd met regelmatig onderhoud en inzicht in hoe uw parkeerairconditioning functioneert, zal uw beste verdediging zijn tegen condensatie en waterschade. Het gaat erom dat u voorbereid en geïnformeerd bent, zodat uw reis zo comfortabel en zorgeloos mogelijk verloopt.Je hebt tenslotte genoeg aan je hoofd onderweg; een vochtig interieur hoort daar niet bij te horen.Een inspectie van een paar minuten kan u dagen aan frustratie en duizenden reparaties besparen."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Voorkom condensatie en waterschade met uw parkeerairco",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Voorkom condensatie en waterschade met uw parkeerairco",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

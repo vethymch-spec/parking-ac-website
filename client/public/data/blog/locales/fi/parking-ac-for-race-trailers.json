@@ -2,7 +2,7 @@
   "title": "Ilmastointi kilpa-autojen perävaunuihin ja moottoriurheiluautoihin",
   "date": "2025-10-26",
   "category": "Erikoisuus",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers_83a81a87.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-hero.webp",
   "metaDescription": "Pidä miehistösi ja varusteesi huippukunnossa oikealla ilmastoinnilla kilpa-autosi perävaunuun.Opi, miksi se on välttämätön vakaville moottoriurheilujoukkueille.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Jos siis suhtaudut tosissasi kilpailuohjelmaasi, jos investoit voimakkaasti varusteihisi ja tiimiisi, kuljetusautosi ilmastoinnin huomioimatta jättäminen on virhe, jota sinulla ei ole varaa tehdä.Olen nähnyt sen eron, onnellisemmista, tuottavammista miehistöistä paremmin säilyneisiin laitteisiin ja viime kädessä parempiin kilpailutuloksiin.Kyse ei ole vain mukavuudesta;kyse on kilpailuedusta.Olitpa kokenut ammattilaistiimi tai aloitteleva amatööri, hyvin suunniteltu ja oikein asennettu pysäköinti-AC-järjestelmä on tärkeä osa onnistunutta moottoriurheilutoimintaa.Se on investointi luotettavuuteen, suorituskykyyn ja kaikkien mukana olevien hyvinvointiin.Älä anna kovan työsi kirjaimellisesti sulaa pois kuumuudessa.Käytä aikaa tutkimiseen, ymmärrä teknisiä yksityiskohtia ja valitse järjestelmä, joka palvelee sinua hyvin tulevina vuosina.Joukkueesi, varusteesi ja kilpailutuloksesi kiittävät sinua siitä.Luota minuun tässä;Olen ollut siellä, tehnyt sen ja nähnyt kulmien leikkaamisen seuraukset.Tee se oikein, niin saat palkinnot."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Ilmastointi kilpa-autojen perävaunuihin ja moottoriurheiluautoihin",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-detail.webp",
+      "alt": "Ilmastointi kilpa-autojen perävaunuihin ja moottoriurheiluautoihin",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

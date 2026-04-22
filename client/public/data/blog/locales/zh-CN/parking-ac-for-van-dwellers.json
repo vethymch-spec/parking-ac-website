@@ -2,7 +2,7 @@
   "title": "Van Dweller 停车指南 AC：全职生活在您的车内",
   "date": "2025-10-15",
   "category": "范生活",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "为货车居民选择和安装驻车空调的基本指南。通过专家提示，让您的移动房屋保持凉爽舒适。",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "所以，你就知道了。我的看法是，为什么对于认真的货车居住者来说，一个好的驻车空调是不可协商的。这不仅仅是为了消暑；它旨在提高您的旅途生活质量，确保无论您去往何处冒险，都拥有舒适宜居的空间。从了解适合您的设置的正确 BTU 到选择由强大的 LiFePO4 电池组供电的高效 12V DC 装置，每个决定都发挥着重要作用。不要忘记正确接线和安装的重要性，当然也不要忽视良好绝缘的好处。我已经看到了它所带来的差异，说实话，这是白天和黑夜。这不仅仅是购买产品；而是购买产品。这是为了投资您的舒适度、睡眠以及您对货车生活的整体享受。花时间正确地研究、规划和安装您的系统，您将在未来的岁月里享受凉爽、舒适的日日夜夜。这是一个游戏规则的改变者，简单明了，每个全职货车居民都应该认真考虑。伙计们，在外面保持冷静，享受开阔的道路。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dweller 停车指南 AC：全职生活在您的车内",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dweller 停车指南 AC：全职生活在您的车内",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

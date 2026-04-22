@@ -2,7 +2,7 @@
   "title": "Askeri Araçlar için Park Klimaları: Taktik Soğutma Çözümleri",
   "date": "2026-02-15",
   "category": "Uzmanlık",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Zorlu koşullarda personel ve hassas elektronik cihazlar için taktiksel soğutma sağlayan, askeri araçlardaki park klimalarının kritik rolünü keşfedin.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "Sonuç olarak, askeri araçlara yönelik park klimalarının evrimi, basit konfordan kritik taktiksel avantaja uzanan büyüleyici bir yolculuktur.Bu, inovasyonun aşırı taleplerle yönlendirildiği, her BTU, her desibelin ve her wattın önemli olduğu bir alandır.Hassas elektroniklerin korunmasından askerlerimizin refahının sağlanmasına kadar bu sistemler modern askeri operasyonlarda vazgeçilmez bir rol oynamaktadır.Sağlam, verimli ve gizli soğutma çözümlerine yapılan yatırım yalnızca serin kalmakla ilgili değildir;etkili kalmak, güvende kalmak ve nihayetinde önde kalmakla ilgilidir.Ve bu, dostlarım, taktiksel soğutmanın gerçeğidir."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Askeri Araçlar için Park Klimaları: Taktik Soğutma Çözümleri",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Askeri Araçlar için Park Klimaları: Taktik Soğutma Çözümleri",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

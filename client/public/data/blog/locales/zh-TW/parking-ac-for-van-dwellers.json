@@ -2,7 +2,7 @@
   "title": "Van Dweller 停車指南 AC：全職生活在您的車內",
   "date": "2025-10-15",
   "category": "範生活",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "為貨車居民選擇和安裝駐車空調的基本指南。透過專家提示，讓您的移動房屋保持涼爽舒適。",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "所以，你就知道了。我的看法是，為什麼對於認真的貨車居住者來說，一個好的駐車空調是不可協商的。這不僅僅是為了消暑；它旨在提高您的旅途生活質量，確保無論您去往何處冒險，都擁有舒適宜居的空間。從了解適合您的設定的正確 BTU 到選擇由強大的 LiFePO4 電池組供電的高效 12V DC 裝置，每個決定都發揮著重要作用。不要忘記正確接線和安裝的重要性，當然也不要忽視良好絕緣的好處。我已經看到了它所帶來的差異，說實話，這是白天和黑夜。這不僅僅是購買產品；而是購買產品。這是為了投資您的舒適度、睡眠以及您對貨車生活的整體享受。花時間正確地研究、規劃和安裝您的系統，您將在未來的歲月中享受涼爽、舒適的日日夜夜。這是一個遊戲規則的改變者，簡單明了，每個全職貨車居民都應該認真考慮。夥計們，在外面保持冷靜，享受開闊的道路。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dweller 停車指南 AC：全職生活在您的車內",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dweller 停車指南 AC：全職生活在您的車內",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

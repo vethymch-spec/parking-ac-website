@@ -2,7 +2,7 @@
   "title": "Komplett guide til lastebilparkeringsklimaanlegg i Kenya",
   "date": "2025-12-12",
   "category": "Kjøpeguider",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-guide_i9j0k1l2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-guide-hero.webp",
   "metaDescription": "Komplett guide til lastebilparkeringsklimaanlegg i Kenya.Lær om spesifikasjoner, installasjon, vedlikehold og valg av riktig kjøleløsning for østafrikansk transport.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Ofte stilte spørsmål",
       "body": "Spørsmål: Hvor høyt er et parkeringsklimaanlegg?\n\nA: Innendørs støynivåer for kvalitetsparkering AC-enheter varierer fra 45-58 dB(A), omtrent tilsvarende et stille kontor eller mild nedbør.CoolDrivePro-enheter har avanserte lyddempende kompressorfester og optimert viftebladdesign for å minimere støy, og sikre komfortable søvnforhold.\n\nSpørsmål: Vil en parkerings-vekselstrøm tømme startbatteriene mine?\n\nA: Riktig installerte systemer bruker en dedikert hjelpebatteribank atskilt fra startbatteriene, eller inkluderer en lavspenningsfrakobling som beskytter startbatterier fra å bli tømt under terskelen som er nødvendig for å starte motoren.Koble aldri en parkeringsvekselstrøm direkte til startbatterier uten riktig isolasjon.\n\nSpørsmål: Kan parkerings-AC også gi oppvarming?\n\nA: Mange moderne parkerings-AC-enheter inkluderer en varmepumpefunksjon som reverserer kjølesyklusen for å gi oppvarming.Dette er effektivt under milde kalde forhold (ned til ca. -5°C/23°F utetemperatur).For ekstrem kulde kan ekstra elektrisk eller dieselvarme være nødvendig.CoolDrivePros varme- og kjølemodeller tilbyr begge modusene i en enkelt enhet.\n\nSpørsmål: Hva er levetiden til en parkerings AC-enhet?\n\nA: Med riktig installasjon og regelmessig vedlikehold bør en kvalitetsparkerings-AC-enhet vare i 5-10 år eller omtrent 10 000-20 000 driftstimer.Kompressoren er typisk den komponenten som varer lengst, mens viftemotorer og kontrollkort kan trenge utskifting etter 5-7 år avhengig av driftsforhold og støveksponering.\n\nSpørsmål: Er det verdt å investere i en dyrere enhet?\n\nA: Generelt ja.Premium-enheter har mer effektive kompressorer (lavere strømforbruk = lengre batteridriftstid), bedre byggekvalitet (lengre levetid), lavere støynivå og mer robust elektronikk.Over en 5-års levetid overstiger drivstoffbesparelsene og reduserte vedlikeholdskostnadene for en premiumenhet vanligvis langt den høyere kjøpesummen.CoolDrivePro er konstruert for profesjonell og kommersiell bruk, og gir eksepsjonell verdi gjennom pålitelighet og effektivitet."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Komplett guide til lastebilparkeringsklimaanlegg i Kenya",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-guide-detail.webp",
+      "alt": "Komplett guide til lastebilparkeringsklimaanlegg i Kenya",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

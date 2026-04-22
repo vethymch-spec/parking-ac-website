@@ -2,7 +2,7 @@
   "title": "Aire acondicionado de estacionamiento para vehículos terrestres: refrigeración todoterreno sin toma de tierra",
   "date": "2025-10-26",
   "category": "Especialidad",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles_1380763c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-hero.webp",
   "metaDescription": "Descubra cómo el aire acondicionado de estacionamiento para vehículos terrestres proporciona refrigeración fuera de la carretera sin necesidad de conexión a tierra, lo que mejora la comodidad y la seguridad en sus aventuras remotas.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Por lo tanto, si realmente quiere viajar por tierra y desea extender sus cómodas estadías en lugares remotos, un sistema de aire acondicionado de estacionamiento exclusivo es una inversión de la que no se arrepentirá.Es un punto de inflexión para la comodidad fuera de la red, permitiéndole explorar más y descansar mejor.La tecnología está aquí, está probada y lista para transformar su experiencia de viaje por tierra.No dejes que el calor acorte tus aventuras;abraza la revolución genial.La libertad de explorar sin sacrificar la comodidad es ahora más accesible que nunca gracias a estas soluciones de refrigeración avanzadas.Se trata de mejorar tu viaje, no sólo de soportarlo.Con la configuración adecuada, descubrirá que la refrigeración todoterreno sin conexión a tierra no es sólo un sueño, es una realidad que eleva cada aventura, haciendo que cada momento en el camino sea más placentero y cada noche de sueño más reparador.Se trata de invertir en tu pasión y aprovechar al máximo cada kilómetro, asegurándote de que cada amanecer te encuentre renovado y listo para nuevos horizontes.Este compromiso con la comodidad y la capacidad realmente redefine lo que es posible cuando te aventuras lejos de la carretera pavimentada, haciendo de cada viaje una experiencia inolvidable."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Aire acondicionado de estacionamiento para vehículos terrestres: refrigeración todoterreno sin toma de tierra",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-detail.webp",
+      "alt": "Aire acondicionado de estacionamiento para vehículos terrestres: refrigeración todoterreno sin toma de tierra",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

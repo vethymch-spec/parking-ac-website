@@ -2,8 +2,8 @@
   "title": "Curățarea și întreținerea RV aparate de aer condiționat: Ghid complet 2025",
   "date": "30 ianuarie 2025",
   "category": "Întreținere",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac_ce6b3b35.webp",
-  "imageAlt": "Curățarea și întreținerea RV aer condiționat de parcare",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+  "imageAlt": "Curățarea și întreținerea RV aparate de aer condiționat: Ghid complet 2025",
   "metaDescription": "Ghid complet pentru 2025 pentru curățarea și întreținerea aparatului de aer condiționat de parcare RV.Sarcini de întreținere lunare, sezoniere și anuale pentru a maximiza performanța și durata de viață.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Considerații de siguranță și cele mai bune practici",
       "body": "Operarea în siguranță a unui aparat de aer condiționat de parcare necesită atenție acordată mai multor factori importanți care protejează atât ocupanții vehiculului, cât și echipamentele.Siguranța electrică este esențială: toate cablurile trebuie să fie dimensionate corect pentru sarcina curentă, cu siguranță adecvată.Cablajul subdimensionat este principala cauză a incendiilor de vehicule cauzate de AC-ul de parcare.Utilizați întotdeauna calibrul de sârmă specificat de producător sau mai mare și instalați o siguranță sau un întrerupător de circuit nominal la 125% din consumul maxim de curent al unității la 30 cm de borna pozitivă a bateriei.\n\nSiguranța bateriei merită aceeași atenție, în special în cazul bateriilor pe bază de litiu.Bateriile LiFePO4, deși sunt semnificativ mai sigure decât alte produse chimice cu litiu, necesită totuși un BMS (Sistem de management al bateriei) de calitate care oferă protecție la supraîncărcare, supradescărcare, supracurent și protecție termică.Asigurați-vă că BMS este evaluat pentru consumul maxim de curent al unității dvs. de parcare AC.Nu amestecați niciodată bateriile vechi și noi într-o bancă și nu amestecați niciodată substanțe chimice diferite.Depozitați și încărcați bateriile în zone bine ventilate.\n\nSiguranța cu monoxid de carbon (CO) este un avantaj critic al AC-urilor de parcare față de ralantiul motorului.Funcționarea motorului la ralanti în spații închise sau semiînchise (garaje de parcare, docuri de încărcare, zone de odihnă închise) creează o acumulare potențial letală de CO.Sistemele AC de parcare produc zero emisii în timpul funcționării, eliminând în totalitate acest risc.Acest lucru este deosebit de important pentru șoferii de taxi care se odihnesc cu geamurile închise.\n\nSecuritatea montării trebuie verificată în mod regulat, în special la vehiculele care circulă pe drumuri accidentate.O unitate AC slăbită sau montată incorect poate deveni un proiectil în caz de accident sau poate cădea din vehicul în timpul tranzitului.Verificați toate feroneria de montaj cel puțin trimestrial, strângând șuruburile conform specificațiilor producătorului.Înlocuiți orice hardware care prezintă semne de crăpare sau coroziune prin oboseală."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-frequently-asked-questions-about-rv-ac-m.webp",
+      "alt": "Întrebări frecvente despre RV Întreținerea AC — Curățarea și întreținerea RV aparate de aer condiționat: Ghid complet 2025",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

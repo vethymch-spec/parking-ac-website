@@ -2,7 +2,7 @@
   "title": "Aer condiționat de parcare pentru vehicule militare: soluții tactice de răcire",
   "date": "2026-02-15",
   "category": "Specialitate",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Descoperiți rolul critic al aparatelor de aer condiționat de parcare în vehiculele militare, oferind răcire tactică pentru personal și electronice sensibile în condiții extreme.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "În concluzie, evoluția aparatelor de aer condiționat de parcare pentru vehicule militare este o călătorie fascinantă de la confortul simplu la avantajul tactic critic.Este un domeniu în care inovația este condusă de cerințe extreme, în care fiecare BTU, fiecare decibel și fiecare watt contează.De la protejarea electronicelor sensibile până la asigurarea bunăstării soldaților noștri, aceste sisteme joacă un rol indispensabil în operațiunile militare moderne.Investiția în soluții de răcire robuste, eficiente și ascunse nu se referă doar la a rămâne rece;este vorba de a rămâne eficient, de a rămâne în siguranță și, în cele din urmă, de a rămâne înainte.Și asta, prietenii mei, este realitatea răcirii tactice."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Aer condiționat de parcare pentru vehicule militare: soluții tactice de răcire",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Aer condiționat de parcare pentru vehicule militare: soluții tactice de răcire",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

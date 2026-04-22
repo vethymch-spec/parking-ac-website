@@ -2,7 +2,7 @@
   "title": "陸上車両用パーキングエアコン: 陸上電源を使用しないオフロード冷却",
   "date": "2025-10-26",
   "category": "専門分野",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles_1380763c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-hero.webp",
   "metaDescription": "陸上車両用パーキング AC が陸地電源なしでオフロード冷却を提供し、遠隔地の冒険での快適性と安全性を向上させる方法をご覧ください。",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "したがって、陸路での移動を真剣に考えており、遠隔地での快適な滞在を延長したい場合は、専用のパーキング AC システムは後悔しない投資となります。オフグリッドの快適性を実現する画期的な製品で、より遠くまで探索し、より快適に休むことができます。このテクノロジーは実証済みであり、陸路での体験を変える準備ができています。暑さのために冒険を中断しないでください。クールな革命を受け入れてください。これらの高度な冷却ソリューションのおかげで、快適さを犠牲にすることなく自由に探索できるようになりました。それはただ耐えるだけではなく、あなたの旅をより良いものにすることです。適切なセットアップがあれば、陸上電源なしでのオフロード冷却は単なる夢ではなく、トレイル上のすべての瞬間をより楽しく、毎晩の睡眠をより快適にし、あらゆる冒険を向上させる現実であることがわかります。それは、自分の情熱に投資し、あらゆるマイルを最大限に活用し、日の出ごとにリフレッシュして新たな地平線に向けて準備を整えることです。この快適さと機能へのこだわりは、舗装道路から遠く離れた場所に出かけるときに何が可能かを真に再定義し、あらゆる旅を忘れられない体験にします。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "陸上車両用パーキングエアコン: 陸上電源を使用しないオフロード冷却",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-detail.webp",
+      "alt": "陸上車両用パーキングエアコン: 陸上電源を使用しないオフロード冷却",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

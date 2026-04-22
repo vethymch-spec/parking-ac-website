@@ -2,7 +2,7 @@
   "title": "Parkoló klímaberendezések Ghána kereskedelmi szállítóflottájához",
   "date": "2025-12-02",
   "category": "Flotta megoldások",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial_b2c3d4e5.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-hero.webp",
   "metaDescription": "Flottahűtési megoldások a ghánai közlekedési szektor számára.Csökkentse az üzemanyagköltségeket az Accra-Tamale útvonalakon, és javítsa a vezető megtartását a megbízható parkoló AC rendszerekkel.",
   "content": [
     {
@@ -72,6 +72,18 @@
     {
       "heading": "Jövőbeli trendek: Parkolási AC technológia Ghánában",
       "body": "A ghánai parkolóklíma-piac jelentős növekedésre és technológiai fejlődésre készül az elkövetkező években.Számos kulcsfontosságú trend alakítja ennek az iparágnak a jövőjét:\n\nA napelemes integráció inkább standard, mint opcionális.A következő generációs parkoló AC rendszerek beépített szoláris töltésvezérlőket tartalmaznak, és úgy tervezték, hogy zökkenőmentesen működjenek a 200-600 W teljesítményű tetőtéri napelemekkel.Ghánában a bőséges napsütésben (naponta átlagosan 5-7 csúcsnapsütéses óra) a napenergia-kiegészítés a teljes hűtési energia 30-50%-át biztosíthatja a nappali pihenőidő alatt, drámaian meghosszabbítva az akkumulátor üzemidejét és csökkentve a szükséges akkumulátortelep méretét.\n\nAz intelligens kapcsolódás egy másik jelentős trend.Az IoT-képes parkoló AC egységek lehetővé teszik a flottamenedzserek számára, hogy valós időben figyeljék a hűtőrendszer teljesítményét, az energiafogyasztást és a karbantartási igényeket a teljes flottájukon.Ezek az adatok lehetővé teszik a prediktív karbantartást (az alkatrészek cseréje, mielőtt azok meghibásodnának), az energiaoptimalizálást (a csúcshatásfok alatt működő egységek azonosítását) és a megfelelőségi jelentést (szabályozási célból dokumentálva az alapjárati betartást).\n\nA hűtőközeg fejlődése folytatódik, ahogy az iparág áttér az alacsonyabb GWP (globális felmelegedési potenciál) opciókra.Az R32 felváltja az R410a-t az új kialakításokban, és a jövőbeni rendszerek még alacsonyabb GWP-ű hűtőközegeket is alkalmazhatnak, mint például az R290 (propán), ahogy a biztonsági szabványok fejlődnek.A ghánai vásárlók számára a modern hűtőközeggel ellátott egység kiválasztása hosszabb szabályozási megfelelést és jobb környezetvédelmi teljesítményt biztosít.A CoolDrivePro továbbra is élen jár e technológiai fejlesztésekben, és folyamatosan fejleszt olyan termékeket, amelyek kiváló teljesítményt, hatékonyságot és csatlakoztathatóságot biztosítanak az afrikai piac számára."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkoló klímaberendezések Ghána kereskedelmi szállítóflottájához",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-detail.webp",
+      "alt": "Parkoló klímaberendezések Ghána kereskedelmi szállítóflottájához",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

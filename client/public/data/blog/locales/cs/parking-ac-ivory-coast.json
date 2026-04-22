@@ -2,7 +2,7 @@
   "title": "Parkovací klimatizace pro Abidjan Gateway Pobřeží slonoviny: Strategie chlazení pro sahelské nákladní trasy",
   "date": "2025-12-10",
   "category": "West Africa Gateway Logistics",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Průvodce Pobřeží slonoviny pro parkování AC pro přístavní flotily v Abidžanu a náklad směřující do Sahelu, zaměřený na vlhkost, dlouhé doby odpočinku a přeshraniční spolehlivost.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Bezpečnostní aspekty a osvědčené postupy",
       "body": "Bezpečné ovládání parkovací klimatizace vyžaduje pozornost několika důležitých faktorů, které chrání jak cestující ve vozidle, tak i zařízení.Elektrická bezpečnost je prvořadá: veškerá kabeláž musí být správně dimenzována pro proudové zatížení s vhodnou pojistkou.Poddimenzovaná kabeláž je hlavní příčinou požárů vozidel souvisejících s parkováním.Vždy používejte průřez vodiče specifikovaný výrobcem nebo větší a nainstalujte pojistku nebo jistič s jmenovitým proudem 125 % maximálního odběru proudu jednotky do 30 cm od kladného pólu baterie.\n\nBezpečnost baterií si zaslouží stejnou pozornost, zejména u baterií na bázi lithia.LiFePO4 baterie, i když jsou podstatně bezpečnější než jiné chemické sloučeniny lithia, stále vyžadují kvalitní BMS (Battery Management System), který poskytuje přebití, nadměrné vybití, nadproud a tepelnou ochranu.Ujistěte se, že BMS je dimenzován na maximální odběr proudu vaší parkovací AC jednotky.Nikdy nemíchejte staré a nové baterie v bance a nikdy nemíchejte různé chemické složky.Skladujte a nabíjejte baterie v dobře větraných prostorách.\n\nBezpečnost oxidu uhelnatého (CO) je zásadní výhodou parkování klimatizačních jednotek oproti chodu motoru na volnoběh.Motor běžící naprázdno v uzavřených nebo polouzavřených prostorách (parkovací garáže, nakládací rampy, uzavřené odpočívadla) vytváří potenciálně smrtící akumulaci CO.Parkovací AC systémy produkují během provozu nulové emise, což zcela eliminuje toto riziko.To je důležité zejména pro řidiče s lůžkovými kabinami, kteří odpočívají se zavřenými okny.\n\nZabezpečení montáže musí být pravidelně ověřováno, zejména u vozidel provozovaných na nerovných vozovkách.Uvolněná nebo nesprávně namontovaná AC jednotka se může stát projektilem při nehodě nebo spadnout z vozidla během přepravy.Nejméně jednou za čtvrt roku zkontrolujte veškerý montážní materiál a utáhněte šrouby podle specifikací výrobce.Vyměňte jakýkoli hardware vykazující známky únavového praskání nebo koroze."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkovací klimatizace pro Abidjan Gateway Pobřeží slonoviny: Strategie chlazení pro sahelské nákladní trasy",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Parkovací klimatizace pro Abidjan Gateway Pobřeží slonoviny: Strategie chlazení pro sahelské nákladní trasy",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

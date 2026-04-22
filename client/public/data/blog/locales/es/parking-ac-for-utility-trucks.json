@@ -2,7 +2,7 @@
   "title": "Aire acondicionado para camiones utilitarios y vehículos de trabajadores de línea",
   "date": "2025-10-28",
   "category": "Especialidad",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks_0943e009.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp",
   "metaDescription": "Mantener frescos los camiones utilitarios y los vehículos de los trabajadores de línea es una cuestión de seguridad, no solo de comodidad.Conozca las mejores soluciones de aire acondicionado.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Por lo tanto, cuando analice su flota de camiones utilitarios y considere la próxima actualización, le insto a pensar más allá del motor y el chasis.Piense en la persona en el asiento del conductor.Piense en las largas horas que pasan en el campo, las temperaturas extremas que soportan y el trabajo crítico que realizan.Invertir en un sistema de aire acondicionado para estacionamiento confiable y de alta calidad es una de las inversiones de mayor impacto que puede realizar.Es una inversión en seguridad, eficiencia, sostenibilidad y, lo más importante, en su gente.La tecnología está aquí, el caso de negocio es claro y la necesidad nunca ha sido mayor.Según mi experiencia, es una de las decisiones más inteligentes que puede tomar un administrador de flota, con beneficios que se sentirán en los años venideros, tanto en el balance como en el bienestar de su fuerza laboral.Es hora de hacer que la comodidad de la cabina sea un estándar, no una opción, para los hombres y mujeres trabajadores del sector de servicios públicos.No merecen menos."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Aire acondicionado para camiones utilitarios y vehículos de trabajadores de línea",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-detail.webp",
+      "alt": "Aire acondicionado para camiones utilitarios y vehículos de trabajadores de línea",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

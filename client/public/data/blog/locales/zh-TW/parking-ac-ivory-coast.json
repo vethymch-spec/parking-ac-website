@@ -2,7 +2,7 @@
   "title": "为科特迪瓦运输业提供可靠的卡车冷却解决方案",
   "date": "2025-12-10",
   "category": "區域指南",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "为科特迪瓦不断发展的运输业寻找可靠的卡车冷却解决方案。了解停车空调如何提高西非物流中心的驾驶员安全和运营效率。",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "安全注意事項和最佳實踐",
       "body": "安全操作駐車空調需要注意幾個重要因素，以保護車輛乘員和設備。電氣安全至關重要：所有接線的尺寸必須適合電流負載，並具有適當的保險絲保護。佈線尺寸太小是駐車空調相關車輛火災的主要原因。請務必使用製造商指定的線規或更大的線規，並在距電池正極端子 30 公分範圍內安裝額定值為設備最大電流消耗 125% 的保險絲或斷路器。\n\n電池安全值得同樣關注，尤其是鋰電池。LiFePO4 電池雖然比其他鋰化學電池安全得多，但仍需要高品質的 BMS（電池管理系統）來提供過充、過放、過流和熱保護。確保 BMS 的額定值可滿足駐車空調裝置的最大電流消耗。切勿在銀行中混用新舊電池，也切勿混用不同的化學物質。將電池存放在通風良好的地方並為其充電。\n\n一氧化碳 (CO) 安全性是駐車空調相對於引擎空轉的關鍵優勢。引擎在封閉或半封閉空間（停車場、裝卸碼頭、封閉休息區）空轉會產生潛在致命的二氧化碳累積。駐車空調系統在運作過程中產生零排放，完全消除了這種風險。這對於關閉車窗休息的臥舖計程車司機來說尤其重要。\n\n必須定期驗證安裝安全性，尤其是在崎嶇道路上行駛的車輛。鬆動或安裝不當的空調裝置可能會在事故中成為拋射物，或在運輸過程中從車輛上掉落。至少每季檢查一次所有安裝硬件，按照製造商規格重新擰緊螺栓。更換任何有疲勞裂痕或腐蝕跡象的五金。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "为科特迪瓦运输业提供可靠的卡车冷却解决方案",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "为科特迪瓦运输业提供可靠的卡车冷却解决方案",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Park-AC-Lösungen für die Herausforderungen des Binnenverkehrs in Burkina Faso",
   "date": "2025-12-11",
   "category": "Regionalführer",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso_e5f6g7h8.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-hero.webp",
   "metaDescription": "Entdecken Sie Park-AC-Lösungen, die für die einzigartigen Herausforderungen des Binnenverkehrs in Burkina Faso entwickelt wurden.Unverzichtbare Kühlsysteme für LKWs, die durch die anspruchsvollen Logistikkorridore Westafrikas navigieren.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Häufig gestellte Fragen zu Parkklimaanlagen",
       "body": "F: Wie lange kann eine Parkklimaanlage allein mit Batterien betrieben werden?\n\nA: Die Laufzeit hängt von der Akkukapazität, dem Wechselstromverbrauch und der Umgebungstemperatur ab.Eine typische Parkklimaanlage vom Typ 24V mit 40–60 Ampere pro Stunde kann mit einer 200-Ah-Batteriebank vom Typ LiFePO4 8–12 Stunden lang betrieben werden.Bei der extremen Hitze in Burkina Faso kann die Laufzeit aufgrund höherer Kompressorbetriebszyklen um 10–15 % kürzer sein.Durch das Hinzufügen von Solarmodulen (200–400 W) kann die Laufzeit am Tag erheblich verlängert werden.\n\nF: Kann ich eine Parkklimaanlage selbst installieren oder benötige ich einen Fachmann?\n\nA: Während erfahrene Heimwerker die mechanische Montage und die grundlegende Verkabelung übernehmen können, wird für die Kältemittelanschlüsse (Split-Systeme) und die elektrische Integration in das bestehende System des Fahrzeugs eine professionelle Installation empfohlen.Eine unsachgemäße Installation führt zum Erlöschen der meisten Garantien und kann zu Brandgefahr durch unterdimensionierte Kabel führen.\n\nF: Was ist der Unterschied zwischen einer Klimaanlage auf dem Dach und einer Parkklimaanlage mit Split-System?\n\nA: Dachgeräte (All-in-one) enthalten alle Komponenten in einem einzigen Gehäuse, das auf dem Fahrzeugdach montiert wird.Sie sind einfacher zu installieren, können jedoch die Höhe erhöhen, was sich auf die Durchfahrtshöhe unter Brücken oder in Parkhäusern auswirkt.Split-Systeme trennen den Kompressor/Kondensator (außen montiert) vom Verdampfer (innen montiert) und bieten flexiblere Installationsmöglichkeiten und möglicherweise einen leiseren Innenbetrieb.CoolDrivePro bietet beide Konfigurationen, um verschiedenen Fahrzeugtypen und Benutzerpräferenzen gerecht zu werden.\n\nF: Wie viel Kraftstoff spart eine Park-Klimaanlage im Vergleich zum Leerlauf des Motors?\n\nA: Im Leerlauf des Motors für die Klimaanlage werden etwa 0,8 bis 1,5 Liter Diesel pro Stunde verbraucht.Eine batteriebetriebene Park-Klimaanlage kostet im Betrieb praktisch keinen Kraftstoff (das Aufladen der Batterie erfolgt während der Fahrt).Für einen Fahrer, der sich täglich 8 Stunden ausruht, spart dies 6 bis 12 Liter Kraftstoff pro Tag oder etwa 2.000 bis 4.000 USD pro Jahr, abhängig von den örtlichen Kraftstoffpreisen.Die Park-Klimaanlage amortisiert sich in der Regel innerhalb von 6–12 Monaten allein durch Kraftstoffeinsparungen.\n\nF: Funktionieren Standklimaanlagen unter extrem feuchten Bedingungen?\n\nA: Ja, moderne Parkklimaanlagen entfeuchten die Kabinenluft im Rahmen des Kühlprozesses effektiv.Die Verdampferschlange kondensiert Feuchtigkeit aus der Luft, die über die Kondensatleitung abfließt.Stellen Sie in sehr feuchten Regionen sicher, dass der Abfluss frei ist, und ziehen Sie Geräte mit erweiterten Entfeuchtungsmodi in Betracht.CoolDrivePro-Geräte wurden auf ihre Leistung bei Luftfeuchtigkeitswerten von bis zu 95 % relativer Luftfeuchtigkeit getestet."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Park-AC-Lösungen für die Herausforderungen des Binnenverkehrs in Burkina Faso",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-detail.webp",
+      "alt": "Park-AC-Lösungen für die Herausforderungen des Binnenverkehrs in Burkina Faso",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

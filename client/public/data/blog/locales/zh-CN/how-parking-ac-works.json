@@ -2,8 +2,8 @@
   "title": "驻车空调如何工作？完整的技术解释",
   "date": "2025 年 1 月 15 日",
   "category": "技术",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works_88006269.webp",
-  "imageAlt": "驻车空调如何工作？完整的技术说明 - 驻车空调指南",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works-hero.webp",
+  "imageAlt": "驻车空调如何工作？完整的技术解释",
   "metaDescription": "了解驻车空调的工作原理、组件、电源管理和类型。为卡车司机、RV 车主和货车救生员获取完整的技术说明。",
   "content": [
     {
@@ -41,6 +41,17 @@
     {
       "heading": "结论：道路舒适性和效率的未来",
       "body": "了解**驻车空调的工作原理**揭示了热力学和电气工程的复杂结合，旨在提高卡车司机、RV 车主和货车救生员的舒适度和效率。这些系统，无论是像 CoolDrivePro VS02 PRO 这样的车顶安装式系统，还是像 CoolDrivePro VX3000SP 这样的分体式装置，都为维持舒适的客舱环境提供了重要的解决方案，而无需发动机空转。通过利用电池动力和制冷循环原理，驻车空调在节省燃料、减少排放和提高道路生活质量方面具有显着优势。电池技术、压缩机效率和智能电源管理系统的不断进步使这些装置比以往任何时候都更加强大、可靠和易于使用。随着针对发动机空转的法规变得更加严格，以及对可持续、舒适旅行的需求不断增长，驻车空调无疑将继续成为长时间驾车的人不可或缺的组件。今天就使用 CoolDrivePro 驻车空调解决方案来提高您的舒适度和效率，体验真正宁静停车的不同之处。《2025 年驻车空调购买指南：购买前您需要了解的一切》的实际考虑因素值得与此一起阅读 - 对于实际性能而言，重要的内容有很大的重叠。发现此内容有用的读者通常还会查看有关驻车空调需要多少 BTU 的报道？完整的尺码指南，解决了等式的互补方面。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 4,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works-types-of-parking-air-conditioners-roofto.webp",
+      "alt": "驻车空调类型：屋顶空调与分体式系统 — 驻车空调如何工作？完整的技术解释",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

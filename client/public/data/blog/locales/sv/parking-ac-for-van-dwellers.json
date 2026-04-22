@@ -2,7 +2,7 @@
   "title": "Van Dwellers guide till parkering AC: Heltidsboende i ditt fordon",
   "date": "2025-10-15",
   "category": "Van Life",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Viktig guide för att välja och installera parkering AC för skåpbilsbor.Håll dig sval och bekväm i ditt husbil med experttips.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Så där har du det.Min syn på varför en bra parkerings-AC inte är förhandlingsbar för seriösa skåpbilsbor.Det handlar inte bara om att slå värmen;det handlar om att förbättra din livskvalitet på vägen, se till att du har ett bekvämt, beboeligt utrymme oavsett vart dina äventyr tar dig.Från att förstå rätt BTU för din installation till att välja en effektiv 12V DC enhet som drivs av en robust LiFePO4 batteribank, varje beslut spelar en roll.Glöm inte vikten av korrekt kabeldragning och installation, och förbise absolut inte fördelarna med bra isolering.Jag har sett vilken skillnad det gör, och ärligt talat, det är natt och dag.Det här handlar inte bara om att köpa en produkt;det handlar om att investera i din komfort, din sömn och din övergripande njutning av livet i skåpbilen.Ta dig tid att undersöka, planera och installera ditt system korrekt, så kommer du att njuta av svala, bekväma dagar och nätter i många år framöver.Det är en spelomvandlare, helt enkelt, och en som varje heltidsanställd skåpbilsboende bör seriöst överväga.Håll dig cool där ute, gott folk, och njut av den öppna vägen."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dwellers guide till parkering AC: Heltidsboende i ditt fordon",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dwellers guide till parkering AC: Heltidsboende i ditt fordon",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

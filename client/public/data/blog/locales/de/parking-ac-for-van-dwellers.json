@@ -2,7 +2,7 @@
   "title": "Van Dweller's Guide to Parking AC: Vollzeitleben in Ihrem Fahrzeug",
   "date": "2025-10-15",
   "category": "Van Life",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Wichtiger Leitfaden zur Auswahl und Installation von Parkklimaanlagen für Bewohner von Transportern.Bleiben Sie mit Expertentipps kühl und komfortabel in Ihrem Mobilheim.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Da haben Sie es also.Meine Meinung dazu, warum eine gute Park-Klimaanlage für ernsthafte Van-Bewohner nicht verhandelbar ist.Es geht nicht nur darum, der Hitze zu trotzen;Es geht darum, Ihre Lebensqualität unterwegs zu verbessern und sicherzustellen, dass Sie einen komfortablen, lebenswerten Raum haben, egal wohin Ihre Abenteuer Sie führen.Vom Verständnis des richtigen BTU für Ihr Setup bis zur Auswahl eines effizienten 12V DC-Geräts, das von einer robusten LiFePO4-Batteriebank angetrieben wird, spielt jede Entscheidung eine Rolle.Vergessen Sie nicht, wie wichtig eine ordnungsgemäße Verkabelung und Installation ist, und vernachlässigen Sie auf keinen Fall die Vorteile einer guten Isolierung.Ich habe den Unterschied gesehen, und ehrlich gesagt ist es Tag und Nacht.Dabei geht es nicht nur um den Kauf eines Produkts;Es geht darum, in Ihren Komfort, Ihren Schlaf und Ihre allgemeine Freude am Van-Leben zu investieren.Nehmen Sie sich die Zeit, Ihr System richtig zu recherchieren, zu planen und zu installieren, und Sie werden noch viele Jahre lang kühle, angenehme Tage und Nächte genießen.Es ist schlicht und einfach ein Game-Changer, den jeder Vollzeit-Van-Bewohner ernsthaft in Betracht ziehen sollte.Bleibt cool da draußen, Leute, und genießt die offene Straße."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dweller's Guide to Parking AC: Vollzeitleben in Ihrem Fahrzeug",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dweller's Guide to Parking AC: Vollzeitleben in Ihrem Fahrzeug",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

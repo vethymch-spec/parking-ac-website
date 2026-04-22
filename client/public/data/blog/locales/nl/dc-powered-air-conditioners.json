@@ -2,8 +2,8 @@
   "title": "Waarom DC aangedreven airconditioners een game-changer zijn voor RV eigenaren",
   "date": "18 februari 2025",
   "category": "Technologie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "DC elektrische parkeerairconditioner voor RV en semi-vrachtwagen",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "Waarom DC aangedreven airconditioners een game-changer zijn voor RV eigenaren",
   "metaDescription": "Ontdek waarom DC aangedreven airconditioners RV en de koeling van vrachtwagens transformeren.Leer meer over efficiëntie, batterijcompatibiliteit en de beste 12V DC AC-parkeeropties.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Veiligheidsoverwegingen en beste praktijken",
       "body": "Om een parkeerairconditioner veilig te kunnen gebruiken, is aandacht nodig voor een aantal belangrijke factoren die zowel de inzittenden van het voertuig als de uitrusting beschermen.Elektrische veiligheid staat voorop: alle bedrading moet de juiste afmetingen hebben voor de huidige belasting en de juiste zekering hebben.Ondermaatse bedrading is de belangrijkste oorzaak van parkeer-AC-gerelateerde voertuigbranden.Gebruik altijd de door de fabrikant gespecificeerde draaddikte of groter, en installeer een zekering of stroomonderbreker met een vermogen van 125% van de maximale stroomopname van het apparaat binnen 30 cm van de positieve pool van de accu.\n\nBatterijveiligheid verdient evenveel aandacht, vooral bij lithiumbatterijen.Hoewel LiFePO4-batterijen aanzienlijk veiliger zijn dan andere lithiumverbindingen, vereisen ze nog steeds een kwalitatief hoogstaand BMS (Battery Management System) dat overbelasting, overontlading, overstroom en thermische bescherming biedt.Zorg ervoor dat het GBS geschikt is voor het maximale stroomverbruik van uw parkeerairco.Meng nooit oude en nieuwe batterijen in een bank, en meng nooit verschillende chemie.Bewaar en laad batterijen op in goed geventileerde ruimtes.\n\nDe veiligheid van koolmonoxide (CO) is een cruciaal voordeel van parkeer-AC's ten opzichte van stationair draaiende motor.Als de motor stationair draait in afgesloten of halfgesloten ruimten (parkeergarages, laadkades, afgesloten rustruimtes) ontstaat er potentieel dodelijke CO-ophoping.AC-systemen voor parkeren produceren tijdens bedrijf geen uitstoot, waardoor dit risico volledig wordt geëlimineerd.Dit is vooral belangrijk voor chauffeurs van slaapcabines die rusten met gesloten ramen.\n\nDe montageveiligheid moet regelmatig worden gecontroleerd, vooral bij voertuigen die op ruige wegen rijden.Een losse of onjuist gemonteerde AC-unit kan bij een ongeval een projectiel worden of tijdens het vervoer uit het voertuig vallen.Controleer al het bevestigingsmateriaal minstens elk kwartaal en draai de bouten opnieuw aan volgens de specificaties van de fabrikant.Vervang alle hardware die tekenen van vermoeidheidsscheuren of corrosie vertoont."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Veelgestelde vragen over DC Parkeer-AC's — Waarom DC aangedreven airconditioners een game-changer zijn voor RV eigenaren",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

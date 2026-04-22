@@ -2,7 +2,7 @@
   "title": "スクーリー改造用パーキングエアコン: 走行中のスクールバスを冷却",
   "date": "2025-11-15",
   "category": "専門分野",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "道路上でもスクーリーを涼しく保ちましょう!快適性とエネルギー節約を確保する、スクールバス転換用の効率的なパーキング AC ソリューションを検討してください。",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "最終的に、スクーリーへの転換に適したパーキングエアコンを選択することは、快適さ、効率性、および特定のライフスタイルのバランスをとることです。これは画一的な解決策ではありません。正直なところ、そうでないと言う人は、おそらく外出中に多くの時間を費やしたことがないでしょう。私は、不格好で電力を大量に消費するユニットから、今日の洗練された効率的な 12V DC モデルに至るまで、これらのシステムの進化を直接見てきました。高品質のシステムへの投資と、適切に設計されたソーラーおよびバッテリーのセットアップは、快適さ、自由、そして安心という恩恵をもたらします。トレーラーハウスはいつでも涼しいオアシスになるので、太陽を追いかけたり、暑さから逃れたりすることができます。快適さを妥協しないでください。それがスクーリーの夢を現実にするのです。時間をかけてリサーチ、計画、賢明な投資を行えば、どこにいても涼しい風を楽しむことができます。結局のところ、そこはあなたの家なのですから、快適であるべきなのです。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "スクーリー改造用パーキングエアコン: 走行中のスクールバスを冷却",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "スクーリー改造用パーキングエアコン: 走行中のスクールバスを冷却",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

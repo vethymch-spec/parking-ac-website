@@ -2,7 +2,7 @@
   "title": "Parkering AC för DRC Gruvtransport: Fjärrkylning för Katanga flottor",
   "date": "2025-12-02",
   "category": "Gruvlogistik",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc_f6g7h8i9.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc-hero.webp",
   "metaDescription": "En fjärrmanövreringsguide för att parkera AC för DRC:s gruvflottor i Katanga, där långa uppehållstider, ojämna vägar och isolerade rastplatser kräver hållbar kylning.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Vanliga frågor",
       "body": "F: Vilket köldmedium är bäst för parkeringsluftkonditionering?\n\nS: De flesta moderna parkerings AC-enheter använder R134a eller R32 köldmedium.R32 föredras alltmer för nya konstruktioner på grund av dess 67 % lägre globala uppvärmningspotential (GWP på 675 jämfört med R410as 2 088) och högre energieffektivitet.R134a är fortfarande vanligt i befintliga enheter och erbjuder bevisad tillförlitlighet.Använd alltid det köldmedium som specificerats av tillverkaren – blandning av köldmedier skadar systemet.\n\nF: Hur ofta ska jag fylla på köldmediet?\n\nS: Ett korrekt installerat och förseglat system bör inte behöva fylla på kylmedel på 3-5 år eller mer.Om kylprestanda försämras avsevärt inom de första 2 åren, misstänk ett läckage snarare än normalt förlust.Låt en tekniker utföra ett läckagetest innan du helt enkelt tillsätter köldmedium, eftersom det underliggande problemet bara kommer att förvärras med tiden.\n\nF: Kan jag använda en parkerings AC när jag kör?\n\nS: Ja, de flesta parkerings AC-enheter kan fungera medan fordonet är i rörelse.Genom att köra parkerings-AC under körning kan generatorn ladda batterierna samtidigt, vilket effektivt ger fri kylning.Men vid motorvägshastigheter kan fordonets motordrivna AC vara mer effektiv.Parkering ACs är mest värdefulla under stopp, vilopauser och över natten.\n\nF: Vilken garanti ska jag förvänta mig på en AC-parkeringsenhet?\n\nS: Kvalitetstillverkare erbjuder vanligtvis 1-2 års fulla garantier som täcker delar och arbete, med utökade kompressorgarantier på 3-5 år.CoolDrivePro ger konkurrenskraftiga garantivillkor med global support.Registrera alltid din produkt omedelbart och behåll bevis på professionell installation, eftersom felaktig installation är ett vanligt undantag från garantin.\n\nF: Hur påverkar omgivningstemperaturen parkerings AC-prestandan?\n\nS: När utomhustemperaturen stiger, minskar kylkapaciteten och strömförbrukningen ökar.Vid 35°C (95°F) utomhus kan en enhet som är klassad till 10 000 BTU leverera sin fulla kapacitet.Vid 45°C (113°F) kan samma enhet leverera 7 500-8 500 BTU samtidigt som den drar 15-20 % mer ström.Detta är anledningen till att rätt dimensionering med en marginal är viktig för drift i heta klimat."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkering AC för DRC Gruvtransport: Fjärrkylning för Katanga flottor",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc-detail.webp",
+      "alt": "Parkering AC för DRC Gruvtransport: Fjärrkylning för Katanga flottor",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

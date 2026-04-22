@@ -2,7 +2,7 @@
   "title": "パーキングエアコンの結露や水害を防ぐ",
   "date": "2025-10-26",
   "category": "メンテナンス",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "設置、メンテナンス、湿度管理に関する専門家のヒントを活用して、RV またはトラックのパーキングエアコンの結露や水による損傷を防ぐ方法を学びましょう。",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "最後にもう 1 つ考えてください。適切な走行前点検の効果を過小評価しないでください。特に長距離の移動や湿気の多い気候への旅行の場合は、道路に出る前に、数分かけてパーキングエアコンの外装コンポーネントを目視検査してください。排水ラインに明らかな詰まりや損傷がないか確認してください。ユニットがしっかりと取り付けられていること、およびすべてのシールが損傷していないことを確認してください。多くの場合、大きな問題に発展する前に、ひと目見ただけで潜在的な問題に気づくことができます。定期点検中に排水ホースの緩みに気づくだけで、重大な水害を回避するドライバーを見てきました。この小さな習慣が、高額な修理を防ぎ、車内の完全性を維持するという点で大きな利益をもたらす可能性があります。定期的なメンテナンスとパーキングエアコンの機能の理解と組み合わせたこの積極的なアプローチが、結露や水害に対する最善の防御策となります。準備を整え、情報を入手し、可能な限り快適で心配のない旅を確保することがすべてです。結局のところ、道路上で心配することは十分にあります。湿気の多い車内はその 1 つであるべきではありません。数分間の検査で、何日も費やすイライラや何千もの修理にかかる時間を節約できます。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "パーキングエアコンの結露や水害を防ぐ",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "パーキングエアコンの結露や水害を防ぐ",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

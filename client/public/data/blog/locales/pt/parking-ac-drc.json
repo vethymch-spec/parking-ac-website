@@ -2,7 +2,7 @@
   "title": "Estacionamento Industrial AC para a Frota de Transporte Mineiro da RDC",
   "date": "2025-12-02",
   "category": "Soluções Industriais",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc_f6g7h8i9.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc-hero.webp",
   "metaDescription": "Ar condicionado de estacionamento para frotas de transporte mineiro da RDC.Resfriamento de nível industrial para caminhões que operam no cinturão de cobre de Katanga e em regiões de mineração remotas.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Perguntas frequentes",
       "body": "P: Qual refrigerante é melhor para condicionadores de ar de estacionamento?\n\nR: A maioria das unidades AC de estacionamento modernas usa refrigerante R134a ou R32.O R32 é cada vez mais preferido para novos projetos devido ao seu potencial de aquecimento global 67% menor (GWP de 675 versus 2.088 do R410a) e maior eficiência energética.O R134a continua comum em unidades existentes e oferece confiabilidade comprovada.Utilize sempre o refrigerante especificado pelo fabricante – a mistura de refrigerantes danifica o sistema.\n\nP: Com que frequência devo recarregar o refrigerante?\n\nR: Um sistema devidamente instalado e vedado não deverá precisar de recarga de refrigerante por 3 a 5 anos ou mais.Se o desempenho do resfriamento diminuir significativamente nos primeiros 2 anos, suspeite de um vazamento em vez de uma perda normal.Peça a um técnico para realizar um teste de vazamento antes de simplesmente adicionar refrigerante, pois o problema subjacente só piorará com o tempo.\n\nP: Posso usar um ar-condicionado de estacionamento enquanto dirijo?\n\nR: Sim, a maioria das unidades de ar condicionado de estacionamento podem funcionar enquanto o veículo está em movimento.Na verdade, ligar o ar condicionado de estacionamento durante a condução permite que o alternador carregue as baterias simultaneamente, proporcionando efetivamente resfriamento gratuito.No entanto, em velocidades de rodovia, o AC acionado pelo motor do veículo pode ser mais eficiente.Os ACs de estacionamento são mais valiosos durante paradas, intervalos para descanso e estacionamento noturno.\n\nP: Que garantia devo esperar de uma unidade AC de estacionamento?\n\nR: Os fabricantes de qualidade normalmente oferecem garantias completas de 1 a 2 anos cobrindo peças e mão de obra, com garantias estendidas de compressores de 3 a 5 anos.CoolDrivePro fornece termos de garantia competitivos com suporte global.Sempre registre seu produto imediatamente e guarde o comprovante de instalação profissional, pois a instalação inadequada é uma exclusão comum da garantia.\n\nP: Como a temperatura ambiente afeta o desempenho do AC do estacionamento?\n\nR: À medida que a temperatura exterior aumenta, a capacidade de refrigeração diminui e o consumo de energia aumenta.A 35°C (95°F) ao ar livre, uma unidade classificada em 10.000 BTU pode fornecer sua capacidade total.A 45°C (113°F), a mesma unidade pode fornecer 7.500-8.500 BTU enquanto consome 15-20% mais energia.É por isso que o dimensionamento adequado com margem é importante para operações em climas quentes."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Estacionamento Industrial AC para a Frota de Transporte Mineiro da RDC",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc-detail.webp",
+      "alt": "Estacionamento Industrial AC para a Frota de Transporte Mineiro da RDC",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

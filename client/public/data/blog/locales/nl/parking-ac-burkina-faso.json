@@ -2,7 +2,7 @@
   "title": "Parkeer-AC-oplossingen voor de door land omgeven transportuitdagingen van Burkina Faso",
   "date": "2025-12-11",
   "category": "Regionale gidsen",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso_e5f6g7h8.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-hero.webp",
   "metaDescription": "Ontdek AC-oplossingen voor parkeren die zijn ontworpen voor de unieke, geheel door land omgeven transportuitdagingen van Burkina Faso.Essentiële koelsystemen voor vrachtwagens die door de veeleisende logistieke corridors van West-Afrika navigeren.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Veelgestelde vragen over parkeerairconditioners",
       "body": "Vraag: Hoe lang kan een parkeer-AC alleen op batterijen werken?\n\nA: De looptijd is afhankelijk van de batterijcapaciteit, het wisselstroomverbruik en de omgevingstemperatuur.Een typische 24V AC-parkeerplaats die 40-60 ampère per uur verbruikt, kan 8-12 uur werken op een 200Ah LiFePO4 accubank.In de extreme hitte van Burkina Faso kan de looptijd 10-15% korter zijn vanwege de hogere bedrijfscycli van de compressor.Het toevoegen van zonnepanelen (200-400W) kan de looptijd overdag aanzienlijk verlengen.\n\nVraag: Kan ik zelf een parkeer-AC installeren of heb ik een professional nodig?\n\nA: Terwijl ervaren doe-het-zelf-installateurs de mechanische montage en basisbedrading kunnen verzorgen, wordt een professionele installatie aanbevolen voor de koelmiddelaansluitingen (gesplitste systemen) en de elektrische integratie met het bestaande systeem van het voertuig.Onjuiste installatie maakt de meeste garanties ongeldig en kan brandgevaar veroorzaken door te kleine bedrading.\n\nVraag: Wat is het verschil tussen een AC op het dak en een AC voor parkeren met een split-systeem?\n\nA: Rooftop (alles-in-één) units bevatten alle componenten in één enkele behuizing, gemonteerd op het dak van het voertuig.Ze zijn eenvoudiger te installeren, maar kunnen een hoogte toevoegen die de vrije ruimte onder bruggen of in parkeergarages beïnvloedt.Split-systemen scheiden de compressor/condensor (buiten gemonteerd) van de verdamper (binnen gemonteerd), wat flexibelere installatieopties en potentieel stillere werking binnenshuis biedt.CoolDrivePro biedt beide configuraties voor verschillende voertuigtypen en gebruikersvoorkeuren.\n\nVraag: Hoeveel brandstof bespaart een parkeerairco in vergelijking met het stationair draaien van de motor?\n\nA: Bij stationair draaiende motor voor airconditioning wordt ongeveer 0,8-1,5 liter diesel per uur verbruikt.Een parkeer-airco op accu kost in principe nul brandstof tijdens het gebruik (het opladen van de accu vindt plaats tijdens het rijden).Voor een chauffeur die dagelijks 8 uur rust, bespaart dit 6 tot 12 liter brandstof per dag, of ongeveer $2.000 tot $4.000 per jaar, afhankelijk van de lokale brandstofprijzen.De parkeer-AC-unit betaalt zichzelf doorgaans binnen 6-12 maanden terug, alleen al door de brandstofbesparing.\n\nVraag: Werken parkeerairconditioners in extreem vochtige omstandigheden?\n\nA: Ja, moderne AC-systemen voor parkeren ontvochtigen de cabinelucht effectief als onderdeel van het koelproces.De verdamperspiraal condenseert vocht uit de lucht, dat via de condensaatleiding wordt afgevoerd.Zorg er in zeer vochtige gebieden voor dat de afvoer schoon is en overweeg units met verbeterde ontvochtigingsmodi.CoolDrivePro units zijn getest om te presteren bij een luchtvochtigheid tot 95% RH."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkeer-AC-oplossingen voor de door land omgeven transportuitdagingen van Burkina Faso",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-detail.webp",
+      "alt": "Parkeer-AC-oplossingen voor de door land omgeven transportuitdagingen van Burkina Faso",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

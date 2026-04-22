@@ -2,7 +2,7 @@
   "title": "Nagy teherbírású parkolólégkondicionálók Marokkó sivatagi útvonalaihoz",
   "date": "2025-12-17",
   "category": "Regionális útmutatók",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco_c9d0e1f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-hero.webp",
   "metaDescription": "Nagy teherbírású parkolóklímák, amelyeket Marokkó igényes sivatagi útvonalaira terveztek.Megbízható hűtési megoldások a Szaharán áthaladó és az észak-afrikai kereskedelmi folyosókat összekötő teherautók számára.",
   "content": [
     {
@@ -76,6 +76,18 @@
     {
       "heading": "Gyakran ismételt kérdések a parkolási légkondicionálókkal kapcsolatban",
       "body": "K: Mennyi ideig tud működni egy parkoló AC csak akkumulátorral?\n\nV: Az üzemidő az akkumulátor kapacitásától, az AC energiafogyasztástól és a környezeti hőmérséklettől függ.Egy tipikus 24V parkoló AC 40-60 amper óránként 8-12 órán át üzemelhet 200Ah LiFePO4 akkumulátorban.Marokkó extrém hőségében az üzemidő 10-15%-kal rövidebb lehet a kompresszor magasabb munkaciklusa miatt.Napelemek (200-400 W) hozzáadásával a nappali üzemidő jelentősen meghosszabbítható.\n\nK: Telepíthetek magam is parkoló AC-t, vagy szakemberre van szükségem?\n\nV: Míg a tapasztalt barkácsszerelők meg tudják oldani a mechanikus szerelést és az alapvető vezetékezést, a hűtőközeg-csatlakozások (osztott rendszerek) és a jármű meglévő rendszerével való elektromos integráció esetén professzionális telepítés javasolt.A nem megfelelő telepítés érvényteleníti a legtöbb garanciát, és tűzveszélyt okozhat az alulméretezett vezetékek miatt.\n\nK: Mi a különbség a tetőtéri klímaberendezés és az osztott rendszerű parkoló AC között?\n\nV: A tetőtéri (mindent az egyben) egységek egyetlen házban, a jármű tetejére szerelve tartalmazzák az összes alkatrészt.Felszerelésük egyszerűbb, de növelhetik a magasságot, ami befolyásolja a hidak alatti vagy a parkolóházakban lévő távolságot.Az osztott rendszerek elválasztják a (külső) kompresszort/kondenzátort a (belül szerelt) elpárologtatótól, rugalmasabb telepítési lehetőségeket és potenciálisan csendesebb beltéri működést kínálva.A CoolDrivePro mindkét konfigurációt kínálja, hogy megfeleljen a különböző járműtípusoknak és a felhasználói preferenciáknak.\n\nK: Mennyi üzemanyagot takarít meg egy parkoló AC az alapjárathoz képest?\n\nV: A légkondicionálás alapjárati motorja körülbelül 0,8-1,5 liter gázolajat fogyaszt óránként.Az akkumulátorral működő parkoló AC működés közben lényegében nulla üzemanyagba kerül (az akkumulátor töltése vezetés közben történik).Egy napi 8 órát pihenő sofőr ezzel napi 6-12 liter üzemanyagot takarít meg, ami a helyi üzemanyagáraktól függően nagyjából 2000-4000 USD évente.A parkoló AC egység jellemzően 6-12 hónapon belül megtérül önmagában az üzemanyag-megtakarítás révén.\n\nK: Működnek a parkolóklímák rendkívül párás körülmények között?\n\nV: Igen, a modern parkoló AC rendszerek hatékonyan párátlanítják az utastér levegőjét a hűtési folyamat részeként.Az elpárologtató tekercs lecsapja a nedvességet a levegőből, amely a kondenzvízvezetéken keresztül távozik.Nagyon párás területeken ügyeljen arra, hogy a lefolyó tiszta legyen, és fontolja meg a fokozott párátlanítási móddal rendelkező egységeket.A CoolDrivePro egységeket 95%-os relatív páratartalomig tesztelték."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Nagy teherbírású parkolólégkondicionálók Marokkó sivatagi útvonalaihoz",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-detail.webp",
+      "alt": "Nagy teherbírású parkolólégkondicionálók Marokkó sivatagi útvonalaihoz",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

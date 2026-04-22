@@ -3,8 +3,8 @@
   "title": "Climatisation de stationnement pour le transport urbain d'Accra : transformer la flotte de véhicules commerciaux du Ghana",
   "date": "2026-03-31",
   "category": "Applications de flotte",
-  "image": "/images/blog/accra-urban-transport.jpg",
-  "imageAlt": "Véhicules utilitaires équipés de systèmes de climatisation de stationnement CoolDrivePro fonctionnant dans le réseau de transport urbain d'Accra",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-hero.webp",
+  "imageAlt": "Climatisation de stationnement pour le transport urbain d'Accra : transformer la flotte de véhicules commerciaux du Ghana",
   "metaDescription": "Découvrez comment la climatisation des parkings révolutionne le transport urbain à Accra, au Ghana.Les solutions de refroidissement alimentées par DC de CoolDrivePro répondent aux défis thermiques de l'Afrique de l'Ouest pour les opérateurs de véhicules commerciaux.",
   "content": [
     {
@@ -50,6 +50,17 @@
     {
       "heading": "Conclusion : une nouvelle ère pour les transports ghanéens",
       "body": "La transformation du secteur des transports urbains d'Accra grâce à l'adoption de technologies, notamment la climatisation des parkings, représente un chapitre important dans l'histoire plus large du développement économique et social du Ghana.Alors que le pays consolide sa position d'économie la plus dynamique d'Afrique de l'Ouest et de leader régional en matière de démocratie, de gouvernance et de politiques favorables aux entreprises, la qualité de ses infrastructures et services urbains reflète de plus en plus ses aspirations sur la scène mondiale.Pour les exploitants de véhicules commerciaux qui déplacent quotidiennement des millions de Ghanéens, l'investissement dans la technologie de climatisation du stationnement offre des avantages tangibles qui améliorent la rentabilité, améliorent la qualité du service, soutiennent le bien-être des conducteurs et démontrent leur responsabilité environnementale, tout en offrant aux passagers le confort qu'ils attendent dans une ville africaine moderne et progressiste.CoolDrivePro a l'honneur de soutenir la modernisation des transports au Ghana grâce à des solutions de refroidissement fiables et efficaces et à un support technique complet fourni par une équipe croissante de professionnels ghanéens.Alors qu’Accra poursuit sa croissance et son développement remarquables, le partenariat entre les fournisseurs de technologies, les opérateurs de transport et les décideurs politiques avant-gardistes déterminera la rapidité avec laquelle la ville pourra réaliser sa vision de devenir un centre urbain de classe mondiale offrant prospérité, opportunités et qualité de vie à tous ses résidents.La climatisation des parkings peut sembler n'être qu'une petite pièce d'un puzzle plus vaste, mais pour les conducteurs et les passagers qui en profitent quotidiennement, elle représente une amélioration significative de la qualité de la vie urbaine qui contribue à l'histoire plus vaste du succès du Ghana."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 5,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-driver-welfare-and-retention-in-ghana-s-.webp",
+      "alt": "Bien-être et rétention des conducteurs dans le secteur des transports au Ghana — Climatisation de stationnement pour le transport urbain d'Accra : transformer la flotte de véhicules commerciaux du Ghana",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

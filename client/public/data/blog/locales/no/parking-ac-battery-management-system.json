@@ -2,7 +2,7 @@
   "title": "Batteristyringssystemer (BMS) for parkeringsvekselstrøm: Komplett veiledning",
   "date": "2026-02-15",
   "category": "Teknologi",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system_2b8a406c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system-hero.webp",
   "metaDescription": "Lås opp det fulle potensialet til parkerings-AC med et robust batteristyringssystem (BMS).Denne veiledningen dekker alt du trenger å vite for optimal kraft.",
   "content": [
     {
@@ -72,6 +72,18 @@
     {
       "heading": "Ofte stilte spørsmål",
       "body": "Spørsmål: Hvilket kjølemiddel er best for parkeringsklimaanlegg?\n\nA: De fleste moderne parkerings-AC-enheter bruker R134a eller R32 kjølemiddel.R32 foretrekkes i økende grad for nye design på grunn av dets 67 % lavere globale oppvarmingspotensial (GWP på 675 vs. R410as 2 088) og høyere energieffektivitet.R134a er fortsatt vanlig i eksisterende enheter og tilbyr bevist pålitelighet.Bruk alltid kjølemediet spesifisert av produsenten – blanding av kjølemedier skader systemet.\n\nSpørsmål: Hvor ofte bør jeg fylle opp kjølemediet?\n\nA: Et riktig installert og forseglet system bør ikke trenge etterfylling av kjølemedium på 3-5 år eller mer.Hvis kjøleytelsen reduseres betydelig i løpet av de første 2 årene, mistenker en lekkasje i stedet for normalt tap.Få en tekniker til å utføre en lekkasjetest før du bare legger til kjølemiddel, siden det underliggende problemet bare vil forverres over tid.\n\nSpørsmål: Kan jeg bruke en parkerings-AC mens jeg kjører?\n\nA: Ja, de fleste parkerings AC-enheter kan fungere mens kjøretøyet er i bevegelse.Faktisk, ved å kjøre parkerings-AC mens du kjører, lar dynamoen lade batteriene samtidig, noe som effektivt gir gratis kjøling.Ved motorveihastigheter kan imidlertid kjøretøyets motordrevne AC være mer effektiv.Parkering AC-er er mest verdifulle under stopp, hvilepauser og parkering over natten.\n\nSpørsmål: Hvilken garanti bør jeg forvente på en AC-parkeringsenhet?\n\nA: Kvalitetsprodusenter tilbyr vanligvis 1-2 års fulle garantier som dekker deler og arbeid, med utvidede kompressorgarantier på 3-5 år.CoolDrivePro gir konkurransedyktige garantivilkår med global støtte.Registrer alltid produktet ditt umiddelbart og oppbevar bevis på profesjonell installasjon, siden feil installasjon er en vanlig garantiekskludering.\n\nSpørsmål: Hvordan påvirker omgivelsestemperaturen parkerings AC-ytelse?\n\nA: Når utetemperaturen øker, reduseres kjølekapasiteten og strømforbruket øker.Ved 35°C (95°F) utendørs kan en enhet som er vurdert til 10 000 BTU levere full kapasitet.Ved 45°C (113°F) kan den samme enheten levere 7500-8500 BTU mens den trekker 15-20% mer strøm.Dette er grunnen til at riktig dimensjonering med margin er viktig for operasjoner i varmt klima."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Batteristyringssystemer (BMS) for parkeringsvekselstrøm: Komplett veiledning",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system-detail.webp",
+      "alt": "Batteristyringssystemer (BMS) for parkeringsvekselstrøm: Komplett veiledning",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

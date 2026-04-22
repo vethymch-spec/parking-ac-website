@@ -2,7 +2,7 @@
   "title": "Ghidul Van Dweller pentru parcare AC: Locuința cu normă întreagă în vehiculul tău",
   "date": "2025-10-15",
   "category": "Van Life",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Ghid esențial pentru alegerea și instalarea AC de parcare pentru locuitorii dubițelor.Rămâi răcoros și confortabil în casa ta mobilă cu sfaturi de specialitate.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Deci, iată-l.Opinia mea despre motivul pentru care un AC parcare bun nu este negociabil pentru locuitorii serioși ai dubițelor.Nu este vorba doar de a învinge căldura;este vorba despre îmbunătățirea calității vieții tale pe drum, asigurându-te că ai un spațiu confortabil, locuibil, indiferent unde te duc aventurile.De la înțelegerea BTU potrivită pentru configurația dvs. până la alegerea unei unități eficiente 12V DC alimentată de un banc de baterii robust LiFePO4, fiecare decizie joacă un rol important.Nu uitați de importanța cablajului și instalării corecte și, cu siguranță, nu treceți cu vederea beneficiile unei bune izolații.Am văzut diferența pe care o face și, sincer, este zi și noapte.Nu este vorba doar de cumpărarea unui produs;este vorba despre a investi în confortul tău, somnul tău și bucuria ta generală a vieții dubei.Fă-ți timp să cercetezi, să planifici și să instalezi corect sistemul tău și te vei bucura de zile și nopți răcoroase și confortabile în anii următori.Este un schimbător de joc, simplu și simplu, și unul pe care fiecare locuitor cu normă întreagă ar trebui să ia în considerare serios.Rămâneți liniștiți acolo, oameni buni, și bucurați-vă de drumul deschis."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Ghidul Van Dweller pentru parcare AC: Locuința cu normă întreagă în vehiculul tău",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Ghidul Van Dweller pentru parcare AC: Locuința cu normă întreagă în vehiculul tău",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

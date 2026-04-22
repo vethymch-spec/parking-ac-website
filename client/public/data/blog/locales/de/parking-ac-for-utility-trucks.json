@@ -2,7 +2,7 @@
   "title": "Klimaanlage für Nutzfahrzeuge und Fahrzeuge von Linienarbeitern",
   "date": "2025-10-28",
   "category": "Spezialität",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks_0943e009.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp",
   "metaDescription": "Die Kühlung von Nutzfahrzeugen und Straßenarbeiterfahrzeugen ist eine Frage der Sicherheit und nicht nur des Komforts.Erfahren Sie mehr über die besten Klimatisierungslösungen.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Wenn Sie sich also Ihre Nutzfahrzeugflotte ansehen und über die nächste Aufrüstung nachdenken, empfehle ich Ihnen dringend, über den Motor und das Fahrgestell hinaus zu denken.Denken Sie an die Person auf dem Fahrersitz.Denken Sie an die vielen Stunden, die sie auf dem Feld verbringen, an die extremen Temperaturen, denen sie ausgesetzt sind, und an die kritische Arbeit, die sie leisten.Die Investition in ein hochwertiges, zuverlässiges Parkklimasystem ist eine der wirkungsvollsten Investitionen, die Sie tätigen können.Es ist eine Investition in Sicherheit, Effizienz, Nachhaltigkeit und vor allem in Ihre Mitarbeiter.Die Technologie ist da, der Geschäftsszenario ist klar und der Bedarf war noch nie so groß.Meiner Erfahrung nach handelt es sich um eine der klügsten Entscheidungen, die ein Fuhrparkmanager treffen kann, mit Vorteilen, die noch viele Jahre lang spürbar sein werden, sowohl in der Bilanz als auch im Wohlergehen Ihrer Belegschaft.Es ist an der Zeit, den Kabinenkomfort für die hart arbeitenden Männer und Frauen im Versorgungssektor zum Standard und nicht zur Option zu machen.Sie verdienen nichts Geringeres."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Klimaanlage für Nutzfahrzeuge und Fahrzeuge von Linienarbeitern",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-detail.webp",
+      "alt": "Klimaanlage für Nutzfahrzeuge und Fahrzeuge von Linienarbeitern",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

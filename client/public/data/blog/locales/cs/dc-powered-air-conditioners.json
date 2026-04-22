@@ -2,8 +2,8 @@
   "title": "Proč jsou klimatizace DC pro majitele RV změnou hry",
   "date": "18. února 2025",
   "category": "Technologie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "DC elektrická parkovací klimatizace pro RV a návěs",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "Proč jsou klimatizace DC pro majitele RV změnou hry",
   "metaDescription": "Zjistěte, proč klimatizace DC mění chlazení RV a nákladních automobilů.Seznamte se s účinností, kompatibilitou baterií a nejlepšími možnostmi 12V DC parkování AC.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Bezpečnostní aspekty a osvědčené postupy",
       "body": "Bezpečné ovládání parkovací klimatizace vyžaduje pozornost několika důležitých faktorů, které chrání jak cestující ve vozidle, tak i zařízení.Elektrická bezpečnost je prvořadá: veškerá kabeláž musí být správně dimenzována pro proudové zatížení s vhodnou pojistkou.Poddimenzovaná kabeláž je hlavní příčinou požárů vozidel souvisejících s parkováním.Vždy používejte průřez vodiče specifikovaný výrobcem nebo větší a nainstalujte pojistku nebo jistič s jmenovitým proudem 125 % maximálního odběru proudu jednotky do 30 cm od kladného pólu baterie.\n\nBezpečnost baterií si zaslouží stejnou pozornost, zejména u baterií na bázi lithia.LiFePO4 baterie, i když jsou podstatně bezpečnější než jiné chemické sloučeniny lithia, stále vyžadují kvalitní BMS (Battery Management System), který poskytuje přebití, nadměrné vybití, nadproud a tepelnou ochranu.Ujistěte se, že BMS je dimenzován na maximální odběr proudu vaší parkovací AC jednotky.Nikdy nemíchejte staré a nové baterie v bance a nikdy nemíchejte různé chemické složky.Skladujte a nabíjejte baterie v dobře větraných prostorách.\n\nBezpečnost oxidu uhelnatého (CO) je zásadní výhodou parkování klimatizačních jednotek oproti chodu motoru na volnoběh.Motor běžící naprázdno v uzavřených nebo polouzavřených prostorách (parkovací garáže, nakládací rampy, uzavřené odpočívadla) vytváří potenciálně smrtící akumulaci CO.Parkovací AC systémy produkují během provozu nulové emise, což zcela eliminuje toto riziko.To je důležité zejména pro řidiče s lůžkovými kabinami, kteří odpočívají se zavřenými okny.\n\nZabezpečení montáže musí být pravidelně ověřováno, zejména u vozidel provozovaných na nerovných vozovkách.Uvolněná nebo nesprávně namontovaná AC jednotka se může stát projektilem při nehodě nebo spadnout z vozidla během přepravy.Nejméně jednou za čtvrt roku zkontrolujte veškerý montážní materiál a utáhněte šrouby podle specifikací výrobce.Vyměňte jakýkoli hardware vykazující známky únavového praskání nebo koroze."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Často kladené otázky o DC parkovacích AC — Proč jsou klimatizace DC pro majitele RV změnou hry",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

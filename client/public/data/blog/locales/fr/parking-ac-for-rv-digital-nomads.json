@@ -2,7 +2,7 @@
   "title": "Parking climatisé pour les nomades numériques vivant dans des RV : confort de travail depuis n'importe où",
   "date": "2025-10-15",
   "category": "Mode de vie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads_8dec8b1f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
   "metaDescription": "Guide essentiel du stationnement AC pour les nomades numériques RV.Restez au frais et productif tout en travaillant à distance depuis votre RV avec la bonne climatisation.",
   "content": [
     {
@@ -60,6 +60,18 @@
     {
       "heading": null,
       "body": "Pour conclure, le voyage d'un nomade numérique dans un RV est incroyable, plein de liberté et d'aventure.Mais comme tout voyage, il nécessite le bon équipement et le bon état d’esprit.Votre climatisation de stationnement n’est pas seulement une pièce d’équipement ;c'est un élément essentiel de votre bureau mobile et de votre maison sur roues.C'est la différence entre une journée de travail frustrante et trempée de sueur et une journée productive et confortable.C'est la clé d'un bon sommeil qui, soyons honnêtes, n'a pas de prix quand on est constamment en mouvement.Alors, prenez le temps de rechercher, de comprendre les détails techniques et d’investir judicieusement.Qu'il s'agisse de comprendre le fonctionnement de la climatisation de stationnement ou d'approfondir les nuances du calculateur d'économies de carburant de climatisation de stationnement, chaque élément de connaissance est utile.Ne laissez pas la climatisation devenir la raison pour laquelle votre rêve de travailler depuis n'importe où se transforme en cauchemar.Adoptez le confort, la productivité et la liberté qu'un système de climatisation de stationnement bien choisi et correctement installé peut apporter à votre vie de nomade numérique RV.C'est votre bureau, votre maison, votre sanctuaire – rendez-le confortable."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parking climatisé pour les nomades numériques vivant dans des RV : confort de travail depuis n'importe où",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-detail.webp",
+      "alt": "Parking climatisé pour les nomades numériques vivant dans des RV : confort de travail depuis n'importe où",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

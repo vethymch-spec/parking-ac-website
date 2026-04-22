@@ -2,8 +2,8 @@
   "title": "Climatisation RV hors réseau : un guide complet sur le refroidissement à l'énergie solaire",
   "date": "5 mars 2025",
   "category": "Guider",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning_4db6aa9b.webp",
-  "imageAlt": "RV avec panneaux solaires pour système de climatisation de stationnement hors réseau",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+  "imageAlt": "Climatisation RV hors réseau : un guide complet sur le refroidissement à l'énergie solaire",
   "metaDescription": "Guide complet sur la climatisation RV hors réseau utilisant l'énergie solaire et la climatisation de stationnement 12V.Découvrez le dimensionnement du système, la sélection de la batterie et des conseils sur les performances concrètes.",
   "content": [
     {
@@ -57,6 +57,17 @@
     {
       "heading": "Foire aux questions",
       "body": "Q : Quel est le niveau sonore d'un climatiseur de stationnement ?\n\nR : Les niveaux de bruit intérieur pour les unités de climatisation de stationnement de qualité vont de 45 à 58 dB(A), ce qui équivaut à peu près à un bureau calme ou à une légère pluie.Les unités CoolDrivePro intègrent des supports de compresseur insonorisants avancés et des conceptions de pales de ventilateur optimisées pour minimiser le bruit, garantissant des conditions de sommeil confortables.\n\nQ : Un climatiseur de stationnement épuisera-t-il mes batteries de démarrage ?\n\nR : Les systèmes correctement installés utilisent un parc de batteries auxiliaires dédié, distinct des batteries de démarrage, ou incluent un débranchement basse tension qui empêche les batteries de démarrage de se vider en dessous du seuil nécessaire au démarrage du moteur.Ne connectez jamais un climatiseur de stationnement directement aux batteries de démarrage sans une isolation appropriée.\n\nQ : Les climatiseurs de stationnement peuvent-ils également fournir du chauffage ?\n\nR : De nombreuses unités de climatisation de stationnement modernes incluent une fonction de pompe à chaleur qui inverse le cycle de réfrigération pour fournir du chauffage.Ceci est efficace dans des conditions de froid doux (jusqu'à une température extérieure d'environ -5°C/23°F).En cas de froid extrême, un chauffage électrique ou diesel supplémentaire peut être nécessaire.Les modèles de chauffage-refroidissement de CoolDrivePro offrent les deux modes dans une seule unité.\n\nQ : Quelle est la durée de vie d’une unité de climatisation de stationnement ?\n\nR : Avec une installation appropriée et un entretien régulier, une unité de climatisation de stationnement de qualité devrait durer 5 à 10 ans ou environ 10 000 à 20 000 heures de fonctionnement.Le compresseur est généralement le composant le plus durable, tandis que les moteurs de ventilateur et les tableaux de commande peuvent devoir être remplacés après 5 à 7 ans en fonction des conditions de fonctionnement et de l'exposition à la poussière.\n\nQ : Vaut-il la peine d’investir dans un appareil plus cher ?\n\nR : Généralement oui.Les unités Premium sont dotées de compresseurs plus efficaces (consommation d'énergie plus faible = durée de fonctionnement de la batterie plus longue), d'une meilleure qualité de construction (durée de vie plus longue), de niveaux de bruit plus faibles et d'une électronique plus robuste.Sur une durée de vie de 5 ans, les économies de carburant et les coûts de maintenance réduits d'une unité haut de gamme dépassent généralement de loin le prix d'achat plus élevé.CoolDrivePro est conçu pour un usage professionnel et commercial, offrant une valeur exceptionnelle grâce à sa fiabilité et son efficacité."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-real-world-performance-data.webp",
+      "alt": "Données de performances réelles — Climatisation RV hors réseau : un guide complet sur le refroidissement à l'énergie solaire",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Guida di Van Dweller al parcheggio AC: vivere a tempo pieno nel tuo veicolo",
   "date": "2025-10-15",
   "category": "Vita da furgone",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Guida essenziale alla scelta e all'installazione dell'aria condizionata per il parcheggio per gli abitanti dei furgoni.Resta fresco e comodo nella tua casa mobile con i consigli degli esperti.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Quindi, ecco qua.La mia opinione sul motivo per cui un buon parcheggio AC non è negoziabile per gli abitanti di furgoni seri.Non si tratta solo di combattere il caldo;si tratta di migliorare la qualità della tua vita sulla strada, assicurandoti uno spazio confortevole e vivibile, indipendentemente da dove ti portano le tue avventure.Dalla comprensione del BTU giusto per la tua configurazione alla scelta di un'efficiente unità 12V DC alimentata da un robusto banco di batterie LiFePO4, ogni decisione gioca un ruolo.Non dimenticare l'importanza di un cablaggio e di un'installazione adeguati e certamente non trascurare i vantaggi di un buon isolamento.Ho visto la differenza che fa e, onestamente, è notte e giorno.Non si tratta solo di acquistare un prodotto;si tratta di investire nel comfort, nel sonno e nel godimento generale della vita in furgone.Prenditi il ​​tempo necessario per ricercare, pianificare e installare correttamente il tuo sistema e potrai goderti giorni e notti freschi e confortevoli per gli anni a venire.È un punto di svolta, chiaro e semplice, che ogni abitante di furgoni a tempo pieno dovrebbe prendere seriamente in considerazione.Mantenete la calma là fuori, gente, e godetevi la strada aperta."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Guida di Van Dweller al parcheggio AC: vivere a tempo pieno nel tuo veicolo",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Guida di Van Dweller al parcheggio AC: vivere a tempo pieno nel tuo veicolo",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

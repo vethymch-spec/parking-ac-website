@@ -2,7 +2,7 @@
   "title": "군용 차량용 주차 에어컨: 전술적 냉각 솔루션",
   "date": "2026-02-15",
   "category": "전문 분야",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "극한 상황에서 인력과 민감한 전자 장치에 전술적 냉각을 제공하는 군용 차량 주차 에어컨의 중요한 역할을 알아보세요.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "결론적으로, 군용 차량용 주차 에어컨의 진화는 단순한 편안함에서 중요한 전술적 이점에 이르기까지 매혹적인 여정입니다.모든 BTU, 모든 데시벨, 모든 와트가 중요한 극단적인 요구에 의해 혁신이 주도되는 분야입니다.민감한 전자 장치를 보호하는 것부터 군인의 안녕을 보장하는 것까지, 이러한 시스템은 현대 군사 작전에서 없어서는 안 될 역할을 합니다.견고하고 효율적이며 은밀한 냉각 솔루션에 대한 투자는 단순히 냉각 상태를 유지하는 것만을 의미하지 않습니다.효율성을 유지하고, 안전을 유지하며, 궁극적으로 앞서 나가는 것입니다.그리고 이것이 바로 전술적 냉각의 현실입니다."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "군용 차량용 주차 에어컨: 전술적 냉각 솔루션",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "군용 차량용 주차 에어컨: 전술적 냉각 솔루션",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

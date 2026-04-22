@@ -2,7 +2,7 @@
   "title": "Parking AC pour les conversions Skoolie : Refroidir un autobus scolaire à la maison sur la route",
   "date": "2025-11-15",
   "category": "Spécialité",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "Gardez votre skoolie au frais sur la route !Explorez des solutions de climatisation de stationnement efficaces pour les conversions d'autobus scolaires, garantissant confort et économies d'énergie.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "En fin de compte, choisir le bon climatiseur de stationnement pour votre conversion skoolie consiste à équilibrer le confort, l'efficacité et votre style de vie spécifique.Ce n’est pas une solution universelle et honnêtement, quiconque vous dit le contraire n’a probablement pas passé beaucoup de temps sur la route.J'ai été témoin de l'évolution de ces systèmes, depuis les unités encombrantes et gourmandes en énergie jusqu'aux modèles 12V DC élégants et efficaces que nous avons aujourd'hui.L’investissement dans un système de qualité, associé à une configuration solaire et batterie bien conçue, rapportera des dividendes en termes de confort, de liberté et de tranquillité d’esprit.Vous pourrez chasser le soleil ou échapper à la chaleur, sachant que votre mobil-home sera toujours une oasis de fraîcheur.Ne faites pas de compromis sur votre confort ;c'est ce qui fait du rêve de Skoolie une réalité.Prenez le temps de rechercher, de planifier et d'investir judicieusement, et vous profiterez de brises fraîches partout où la route vous mène.Après tout, c'est votre maison et elle mérite d'être confortable."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parking AC pour les conversions Skoolie : Refroidir un autobus scolaire à la maison sur la route",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "Parking AC pour les conversions Skoolie : Refroidir un autobus scolaire à la maison sur la route",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

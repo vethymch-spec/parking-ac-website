@@ -2,7 +2,7 @@
   "title": "軍用車両用パーキングエアコン: 戦術的な冷却ソリューション",
   "date": "2026-02-15",
   "category": "専門分野",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "軍用車両のパーキングエアコンの重要な役割を学び、極限状態で人員や敏感な電子機器に戦術的な冷却を提供します。",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "結論として、軍用車両用パーキングエアコンの進化は、単純な快適性から重要な戦術的利点への魅力的な旅です。これは、極端な要求によってイノベーションが推進される分野であり、BTU、すべてのデシベル、すべてのワットが重要です。精密な電子機器の保護から兵士の健康の確保まで、これらのシステムは現代の軍事作戦において不可欠な役割を果たしています。堅牢かつ効率的でステルスな冷却ソリューションへの投資は、単に涼しさを保つためだけではありません。それは効果を維持し、安全を維持し、最終的には先を行くことです。そして、友よ、それが戦術的冷却の現実です。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "軍用車両用パーキングエアコン: 戦術的な冷却ソリューション",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "軍用車両用パーキングエアコン: 戦術的な冷却ソリューション",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

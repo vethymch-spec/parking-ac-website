@@ -2,7 +2,7 @@
   "title": "Aire acondicionado de estacionamiento para conversiones de Skoolie: enfriar un autobús escolar a casa en la carretera",
   "date": "2025-11-15",
   "category": "Especialidad",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "¡Mantén tu skoolie fresco mientras viajas!Explore soluciones eficientes de aire acondicionado de estacionamiento para conversiones de autobuses escolares, garantizando comodidad y ahorro de energía.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "En última instancia, elegir el aire acondicionado de estacionamiento adecuado para su conversión a skoolie se trata de equilibrar la comodidad, la eficiencia y su estilo de vida específico.No es una solución única para todos y, sinceramente, cualquiera que le diga lo contrario probablemente no haya pasado mucho tiempo viajando.He visto la evolución de estos sistemas de primera mano, desde unidades toscas que consumen mucha energía hasta los elegantes y eficientes modelos 12V DC que tenemos hoy.La inversión en un sistema de calidad, junto con una instalación solar y de baterías bien diseñada, generará dividendos en términos de comodidad, libertad y tranquilidad.Podrás perseguir el sol o escapar del calor sabiendo que tu casa móvil siempre será un oasis de frescura.No comprometa su comodidad;es lo que hace realidad el sueño de skoolie.Tómate el tiempo para investigar, planificar e invertir sabiamente y disfrutarás de brisas frescas dondequiera que te lleve el camino.Después de todo, es tu hogar y merece ser cómodo."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Aire acondicionado de estacionamiento para conversiones de Skoolie: enfriar un autobús escolar a casa en la carretera",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "Aire acondicionado de estacionamiento para conversiones de Skoolie: enfriar un autobús escolar a casa en la carretera",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

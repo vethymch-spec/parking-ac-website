@@ -2,7 +2,7 @@
   "title": "Soluții de răcire pentru camioane pentru sectorul de transport comercial din Libia",
   "date": "2025-12-01",
   "category": "Ghiduri regionale",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya_e5f6g7h8.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya-hero.webp",
   "metaDescription": "Soluții profesionale de răcire a camioanelor pentru sectorul transporturilor din Libia.Sisteme de parcare de încredere pentru Tripoli, Benghazi și operațiuni transfrontaliere în căldura nord-africană.",
   "content": [
     {
@@ -88,6 +88,18 @@
     {
       "heading": "Întrebări frecvente despre aparatele de aer condiționat de parcare",
       "body": "Î: Cât timp poate funcționa o parcare AC numai cu baterii?\n\nR: Durata de funcționare depinde de capacitatea bateriei, consumul de curent alternativ și temperatura ambiantă.O parcare obișnuită 24V AC care consumă 40-60 de amperi pe oră poate funcționa 8-12 ore cu o baterie LiFePO4 de 200Ah.În căldura extremă a Libiei, durata de funcționare poate fi cu 10-15% mai scurtă din cauza ciclurilor de funcționare mai mari ale compresorului.Adăugarea de panouri solare (200-400W) poate extinde semnificativ durata de zi.\n\nÎ: Pot instala eu un AC pentru parcare sau am nevoie de un profesionist?\n\nR: În timp ce instalatorii experimentați de bricolaj se pot ocupa de montarea mecanică și cablarea de bază, se recomandă instalarea profesională pentru conexiunile de agent frigorific (sisteme split) și integrarea electrică cu sistemul existent al vehiculului.Instalarea necorespunzătoare anulează majoritatea garanțiilor și poate crea pericole de incendiu din cauza cablajului subdimensionat.\n\nÎ: Care este diferența dintre un AC pe acoperiș și un AC de parcare cu sistem split?\n\nR: Unitățile de pe acoperiș (all-in-one) conțin toate componentele într-o singură carcasă montată pe acoperișul vehiculului.Sunt mai simplu de instalat, dar pot adăuga înălțime care afectează spațiul liber sub poduri sau în parcări.Sistemele split separă compresorul/condensatorul (montat în exterior) de evaporator (montat în interior), oferind opțiuni de instalare mai flexibile și o funcționare potențial mai silențioasă în interior.CoolDrivePro oferă ambele configurații pentru a se potrivi diferitelor tipuri de vehicule și preferințe ale utilizatorului.\n\nÎ: Cât de mult combustibil economisește un AC de parcare în comparație cu motorul la ralanti?\n\nR: Motorul la ralanti pentru aer condiționat consumă aproximativ 0,8-1,5 litri de motorină pe oră.Un AC de parcare alimentat de baterii costă practic zero combustibil în timpul funcționării (încărcarea bateriei are loc în timpul conducerii).Pentru un șofer care se odihnește 8 ore pe zi, acest lucru economisește 6-12 litri de combustibil pe zi, sau aproximativ 2.000-4.000 USD anual, în funcție de prețurile locale ale combustibilului.Unitatea de parcare AC se achită de obicei în 6-12 luni doar prin economii de combustibil.\n\nÎ: Aparatele de aer condiționat de parcare funcționează în condiții extrem de umede?\n\nR: Da, sistemele moderne de parcare AC dezumidifică eficient aerul din cabină ca parte a procesului de răcire.Serpentina evaporatorului condensează umiditatea din aer, care se scurge prin conducta de condens.În regiunile foarte umede, asigurați-vă că scurgerea este curată și luați în considerare unitățile cu moduri îmbunătățite de dezumidificare.Unitățile CoolDrivePro sunt testate pentru a funcționa la niveluri de umiditate de până la 95% RH."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Soluții de răcire pentru camioane pentru sectorul de transport comercial din Libia",
+  "inlineImages": [
+    {
+      "afterSection": 10,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya-detail.webp",
+      "alt": "Soluții de răcire pentru camioane pentru sectorul de transport comercial din Libia",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

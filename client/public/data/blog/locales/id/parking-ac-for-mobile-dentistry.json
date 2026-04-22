@@ -2,7 +2,7 @@
   "title": "Kontrol Suhu untuk Klinik Gigi Keliling dan Kendaraan Kesehatan Mulut",
   "date": "2025-11-15",
   "category": "Khusus",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry_46dca399.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-hero.webp",
   "metaDescription": "Memastikan kontrol suhu optimal untuk klinik gigi keliling sangat penting untuk integritas material dan kenyamanan pasien.Pelajari tentang solusi AC parkir khusus.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Pertanyaan yang Sering Diajukan",
       "body": "Q: Seberapa keras suara AC parkir?\n\nJ: Tingkat kebisingan dalam ruangan untuk unit AC parkir berkualitas berkisar antara 45-58 dB(A), kira-kira setara dengan kantor yang tenang atau curah hujan ringan.Unit CoolDrivePro dilengkapi dengan dudukan kompresor peredam suara canggih dan desain bilah kipas yang dioptimalkan untuk meminimalkan kebisingan, memastikan kondisi tidur yang nyaman.\n\nT: Apakah AC parkir akan menguras baterai starter saya?\n\nJ: Sistem yang dipasang dengan benar menggunakan bank baterai tambahan khusus yang terpisah dari baterai starter, atau dilengkapi pemutus tegangan rendah yang melindungi baterai starter agar tidak terkuras di bawah ambang batas yang diperlukan untuk menghidupkan mesin.Jangan pernah menghubungkan AC parkir langsung ke baterai starter tanpa isolasi yang tepat.\n\nQ: Apakah AC parkir juga bisa menyediakan pemanas?\n\nJ: Banyak unit AC parkir modern dilengkapi fungsi pompa panas yang membalikkan siklus pendinginan untuk menghasilkan pemanasan.Ini efektif dalam kondisi dingin ringan (suhu luar turun hingga sekitar -5°C/23°F).Untuk cuaca yang sangat dingin, pemanas listrik atau diesel tambahan mungkin diperlukan.Model pemanasan-pendinginan CoolDrivePro menawarkan kedua mode dalam satu unit.\n\nQ: Berapa umur unit AC parkir?\n\nA: Dengan pemasangan yang benar dan perawatan rutin, unit AC parkir yang berkualitas akan bertahan 5-10 tahun atau kurang lebih 10.000-20.000 jam pengoperasian.Kompresor biasanya merupakan komponen yang paling tahan lama, sedangkan motor kipas dan papan kontrol mungkin perlu diganti setelah 5-7 tahun tergantung pada kondisi pengoperasian dan paparan debu.\n\nT: Apakah layak berinvestasi pada unit yang lebih mahal?\n\nJ: Umumnya ya.Unit premium dilengkapi kompresor yang lebih efisien (konsumsi daya lebih rendah = masa pakai baterai lebih lama), kualitas pembuatan lebih baik (masa pakai lebih lama), tingkat kebisingan lebih rendah, dan perangkat elektronik lebih kuat.Selama masa pakai 5 tahun, penghematan bahan bakar dan pengurangan biaya pemeliharaan unit premium biasanya jauh melebihi harga pembelian yang lebih tinggi.CoolDrivePro dirancang untuk penggunaan profesional dan komersial, memberikan nilai luar biasa melalui keandalan dan efisiensi."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Kontrol Suhu untuk Klinik Gigi Keliling dan Kendaraan Kesehatan Mulut",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-detail.webp",
+      "alt": "Kontrol Suhu untuk Klinik Gigi Keliling dan Kendaraan Kesehatan Mulut",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

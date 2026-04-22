@@ -2,7 +2,7 @@
   "title": "Parkering AC for overlandende kjøretøy: terrengkjøling uten landstrøm",
   "date": "2025-10-26",
   "category": "Spesialitet",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles_1380763c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-hero.webp",
   "metaDescription": "Oppdag hvordan Parking AC for Overlanding Vehicles gir terrengkjøling uten landstrøm, noe som øker komforten og sikkerheten på dine eksterne eventyr.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Så hvis du er seriøs med å gå over land og ønsker å forlenge dine komfortable opphold på avsidesliggende steder, er et dedikert parkerings-AC-system en investering du ikke vil angre på.Det er en game-changer for off-grid komfort, slik at du kan utforske videre og hvile bedre.Teknologien er her, den er bevist, og den er klar til å forvandle din overlandingsopplevelse.Ikke la varmen avkorte eventyrene dine;omfavn den kule revolusjonen.Friheten til å utforske uten å ofre komfort er nå mer tilgjengelig enn noen gang, takket være disse avanserte kjøleløsningene.Det handler om å forbedre reisen din, ikke bare å tåle den.Med riktig oppsett vil du oppdage at terrengkjøling uten landstrøm ikke bare er en drøm, det er en realitet som løfter ethvert eventyr, noe som gjør hvert øyeblikk på stien morsommere og hver natts søvn mer gjenopprettende.Det handler om å investere i lidenskapen din og få mest mulig ut av hver mil, og sikre at hver soloppgang finner deg uthvilt og klar for nye horisonter.Denne forpliktelsen til komfort og kapasitet redefinerer virkelig hva som er mulig når du våger deg langt fra den asfalterte veien, noe som gjør hver reise til en uforglemmelig opplevelse."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkering AC for overlandende kjøretøy: terrengkjøling uten landstrøm",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-detail.webp",
+      "alt": "Parkering AC for overlandende kjøretøy: terrengkjøling uten landstrøm",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

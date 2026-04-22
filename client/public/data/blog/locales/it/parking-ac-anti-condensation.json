@@ -2,7 +2,7 @@
   "title": "Previeni la formazione di condensa e i danni causati dall'acqua con il tuo condizionatore da parcheggio",
   "date": "2025-10-26",
   "category": "Manutenzione",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Scopri come prevenire la formazione di condensa dell'aria condizionata e i danni causati dall'acqua nel tuo RV o camion con i suggerimenti degli esperti su installazione, manutenzione e controllo dell'umidità.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Un ultimo pensiero: non sottovalutare il potere di una buona ispezione pre-viaggio. Prima di mettersi in viaggio, soprattutto per tragitti più lunghi o viaggi in climi umidi, dedica qualche minuto a ispezionare visivamente i componenti esterni del tuo condizionatore da parcheggio.Controllare le linee di scarico per eventuali ostruzioni o danni evidenti.Assicurarsi che l'unità sia montata saldamente e che tutti i sigilli siano intatti.Una rapida occhiata può spesso individuare un potenziale problema prima che si trasformi in un grave mal di testa.Ho visto conducenti evitare significativi danni causati dall'acqua semplicemente notando un tubo di scarico allentato durante un controllo di routine. È una piccola abitudine che può produrre enormi ritorni in termini di prevenzione di costose riparazioni e mantenimento dell'integrità degli interni del veicolo. Questo approccio proattivo, combinato con una manutenzione regolare e una comprensione di come funziona l'aria condizionata da parcheggio, sarà la migliore difesa contro la condensa e i danni causati dall'acqua. Si tratta di essere preparati e informati, per garantire che il tuo viaggio sia il più confortevole e senza preoccupazioni possibile.Dopotutto, hai abbastanza di cui preoccuparti quando sei in viaggio; un interno umido non dovrebbe essere uno di questi.Pochi minuti di ispezione possono farti risparmiare giorni di frustrazione e migliaia di riparazioni."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Previeni la formazione di condensa e i danni causati dall'acqua con il tuo condizionatore da parcheggio",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Previeni la formazione di condensa e i danni causati dall'acqua con il tuo condizionatore da parcheggio",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,8 +2,8 @@
   "title": "Warum DC angetriebene Klimaanlagen für RV-Besitzer bahnbrechend sind",
   "date": "18. Februar 2025",
   "category": "Technologie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "DC angetriebene Parkklimaanlage für RV und Sattelschlepper",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "Warum DC angetriebene Klimaanlagen für RV-Besitzer bahnbrechend sind",
   "metaDescription": "Entdecken Sie, warum DC angetriebene Klimaanlagen RV und die LKW-Kühlung verändern.Erfahren Sie mehr über Effizienz, Batteriekompatibilität und die besten 12V DC Park-AC-Optionen.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Sicherheitsüberlegungen und Best Practices",
       "body": "Der sichere Betrieb einer Standklimaanlage erfordert die Beachtung mehrerer wichtiger Faktoren, die sowohl die Fahrzeuginsassen als auch die Ausrüstung schützen.Elektrische Sicherheit ist von größter Bedeutung: Die gesamte Verkabelung muss für die aktuelle Belastung richtig dimensioniert sein und über eine entsprechende Absicherung verfügen.Unterdimensionierte Kabel sind die häufigste Ursache für Fahrzeugbrände im Zusammenhang mit Parkklimaanlagen.Verwenden Sie immer den vom Hersteller angegebenen oder größeren Kabelquerschnitt und installieren Sie eine Sicherung oder einen Schutzschalter mit einer Nennleistung von 125 % der maximalen Stromaufnahme des Geräts innerhalb von 30 cm vom Pluspol der Batterie.\n\nDer Batteriesicherheit muss die gleiche Aufmerksamkeit gewidmet werden, insbesondere bei Lithiumbatterien.LiFePO4-Batterien sind zwar wesentlich sicherer als andere Lithiumbatterien, erfordern jedoch dennoch ein hochwertiges BMS (Batteriemanagementsystem), das Überladung, Tiefentladung, Überstrom und Überhitzungsschutz bietet.Stellen Sie sicher, dass das BMS für die maximale Stromaufnahme Ihrer Parkklimaanlage ausgelegt ist.Mischen Sie niemals alte und neue Batterien in einer Bank und mischen Sie niemals unterschiedliche Chemikalien.Lagern und laden Sie Batterien in gut belüfteten Bereichen.\n\nDie Sicherheit vor Kohlenmonoxid (CO) ist ein entscheidender Vorteil von Stand-Klimaanlagen gegenüber dem Motor im Leerlauf.Wenn der Motor in geschlossenen oder halbgeschlossenen Räumen (Parkhäusern, Laderampen, geschlossenen Rastplätzen) im Leerlauf läuft, führt dies zu einer potenziell tödlichen CO-Ansammlung.Park-Klimaanlagen erzeugen im Betrieb keine Emissionen, wodurch dieses Risiko vollständig eliminiert wird.Dies ist besonders wichtig für Schlafwagenfahrer, die bei geschlossenen Fenstern ruhen.\n\nInsbesondere bei Fahrzeugen, die auf unebenen Straßen unterwegs sind, muss die Montagesicherheit regelmäßig überprüft werden.Eine lose oder falsch montierte Klimaanlage kann bei einem Unfall zu einem Projektil werden oder beim Transport aus dem Fahrzeug fallen.Überprüfen Sie mindestens vierteljährlich alle Montageteile und ziehen Sie die Schrauben gemäß den Herstellerangaben nach.Ersetzen Sie alle Teile, die Anzeichen von Ermüdungsrissen oder Korrosion aufweisen."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Häufig gestellte Fragen zu DC Park-ACs — Warum DC angetriebene Klimaanlagen für RV-Besitzer bahnbrechend sind",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

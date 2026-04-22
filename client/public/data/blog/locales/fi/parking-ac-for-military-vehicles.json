@@ -2,7 +2,7 @@
   "title": "Pysäköinti-ilmastointilaitteet sotilasajoneuvoihin: taktiset jäähdytysratkaisut",
   "date": "2026-02-15",
   "category": "Erikoisuus",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Tutustu sotilasajoneuvojen pysäköintiilmastointilaitteiden kriittiseen rooliin, joka tarjoaa taktista jäähdytystä henkilöstölle ja herkkää elektroniikkaa äärimmäisissä olosuhteissa.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "Yhteenvetona voidaan todeta, että sotilasajoneuvojen pysäköintiilmastointilaitteiden kehitys on kiehtova matka yksinkertaisesta mukavuudesta kriittiseen taktiseen etuun.Se on ala, jossa innovaatiot ohjaavat äärimmäisiä vaatimuksia, jossa jokainen BTU, jokainen desibeli ja jokainen watti on tärkeä.Näillä järjestelmillä on korvaamaton rooli nykyaikaisissa sotilasoperaatioissa herkän elektroniikan suojaamisesta sotilaiemme hyvinvoinnin varmistamiseen.Investointi kestäviin, tehokkaisiin ja salaperäisiin jäähdytysratkaisuihin ei ole vain viileänä pysymistä;kyse on pysyä tehokkaana, pysyä turvassa ja viime kädessä pysyä edellä.Ja se, ystäväni, on taktisen jäähtymisen todellisuutta."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Pysäköinti-ilmastointilaitteet sotilasajoneuvoihin: taktiset jäähdytysratkaisut",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Pysäköinti-ilmastointilaitteet sotilasajoneuvoihin: taktiset jäähdytysratkaisut",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

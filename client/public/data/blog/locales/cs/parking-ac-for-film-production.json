@@ -2,7 +2,7 @@
   "title": "Klimatizace pro filmová produkční vozidla a lokační přívěsy",
   "date": "2025-11-15",
   "category": "Specialita",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-film-production_813828c2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-film-production-hero.webp",
   "metaDescription": "Zajištění pohodlí při natáčení je zásadní.Zjistěte, jak robustní parkovací systémy AC udržují vozidla filmové produkce a lokační upoutávky chladné, splňují požadavky odborů a zvyšují morálku posádky.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Často kladené otázky",
       "body": "Otázka: Jak hlasitá je parkovací klimatizace?\n\nOdpověď: Hladina hluku v interiéru u kvalitních parkovacích jednotek AC se pohybuje v rozmezí 45–58 dB(A), což je zhruba ekvivalent tiché kanceláře nebo mírného deště.Jednotky CoolDrivePro obsahují pokročilé držáky kompresoru tlumící zvuk a optimalizované konstrukce lopatek ventilátoru pro minimalizaci hluku a zajištění pohodlných podmínek spánku.\n\nOtázka: Vybije mi parkovací AC baterie startovací baterie?\n\nOdpověď: Správně nainstalované systémy používají vyhrazenou pomocnou baterii oddělenou od startovacích baterií nebo obsahují nízkonapěťový odpojovač, který chrání startovací baterie před vybitím pod prahovou hodnotu potřebnou ke spuštění motoru.Nikdy nepřipojujte parkovací AC přímo ke startovacím bateriím bez řádné izolace.\n\nOtázka: Mohou parkovací klimatizace také zajistit vytápění?\n\nOdpověď: Mnoho moderních parkovacích klimatizačních jednotek obsahuje funkci tepelného čerpadla, která obrátí chladicí cyklus, aby zajistila vytápění.To je účinné v mírných chladných podmínkách (až do přibližně -5°C/23°F venkovní teploty).Pro extrémní mrazy může být zapotřebí doplňkové elektrické nebo naftové topení.Modely topení-chlazení CoolDrivePro nabízejí oba režimy v jedné jednotce.\n\nOtázka: Jaká je životnost parkovací jednotky klimatizace?\n\nOdpověď: Při správné instalaci a pravidelné údržbě by kvalitní parkovací klimatizační jednotka měla vydržet 5–10 let nebo přibližně 10 000–20 000 provozních hodin.Kompresor je obvykle součástí s nejdelší životností, zatímco motory ventilátorů a řídicí desky mohou vyžadovat výměnu po 5–7 letech v závislosti na provozních podmínkách a vystavení prachu.\n\nOtázka: Vyplatí se investovat do dražší jednotky?\n\nA: Obecně ano.Prémiové jednotky se vyznačují účinnějšími kompresory (nižší spotřeba energie = delší výdrž baterie), lepší kvalitou sestavení (delší životnost), nižší hlučností a robustnější elektronikou.Během 5leté životnosti úspora paliva a snížené náklady na údržbu prémiové jednotky obvykle výrazně převyšují vyšší pořizovací cenu.CoolDrivePro je navrženo pro profesionální a komerční použití a přináší výjimečnou hodnotu díky spolehlivosti a účinnosti."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Klimatizace pro filmová produkční vozidla a lokační přívěsy",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-film-production-detail.webp",
+      "alt": "Klimatizace pro filmová produkční vozidla a lokační přívěsy",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

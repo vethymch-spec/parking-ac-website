@@ -2,8 +2,8 @@
   "title": "DC Elektrikli Klimalar Neden RV Sahipleri için Oyunun Kurallarını Değiştiriyor?",
   "date": "18 Şubat 2025",
   "category": "Teknoloji",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "RV ve yarı kamyon için DC elektrikli park kliması",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "DC Elektrikli Klimalar Neden RV Sahipleri için Oyunun Kurallarını Değiştiriyor?",
   "metaDescription": "DC motorlu klimaların neden RV ve kamyon soğutmasını dönüştürdüğünü keşfedin.Verimlilik, pil uyumluluğu ve en iyi 12V DC park klima seçenekleri hakkında bilgi edinin.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Güvenlik Konuları ve En İyi Uygulamalar",
       "body": "Park klimasının güvenli bir şekilde çalıştırılması, hem araçtakileri hem de ekipmanı koruyan birçok önemli faktöre dikkat edilmesini gerektirir.Elektrik güvenliği her şeyden önemlidir: tüm kablolar, uygun sigorta korumasıyla birlikte mevcut yüke göre doğru boyutta olmalıdır.Yetersiz kablolama, park etme klimasından kaynaklanan araç yangınlarının önde gelen nedenidir.Her zaman üretici tarafından belirtilen veya daha büyük kablo ölçüsünü kullanın ve akünün pozitif terminalinden 30 cm mesafeye ünitenin maksimum akım çekişinin %125'i değerinde bir sigorta veya devre kesici takın.\n\nPil güvenliği, özellikle lityum bazlı pillerde eşit derecede dikkat gerektirir.LiFePO4 piller, diğer lityum kimyasallarından önemli ölçüde daha güvenli olmasına rağmen yine de aşırı şarj, aşırı deşarj, aşırı akım ve termal koruma sağlayan kaliteli bir BMS (Pil Yönetim Sistemi) gerektirir.BMS'nin park klima ünitenizin maksimum akım çekişine göre derecelendirildiğinden emin olun.Bir kutuda asla eski ve yeni pilleri karıştırmayın ve asla farklı kimyaları karıştırmayın.Aküleri iyi havalandırılan alanlarda saklayın ve şarj edin.\n\nKarbon monoksit (CO) güvenliği, klimaların motor rölantide çalışmaya göre park edilmesinin kritik bir avantajıdır.Kapalı veya yarı kapalı alanlarda (otoparklar, yükleme alanları, kapalı dinlenme alanları) motorun rölantide çalışması potansiyel olarak ölümcül CO birikimine neden olur.Park klima sistemleri çalışma sırasında sıfır emisyon üreterek bu riski tamamen ortadan kaldırır.Bu özellikle pencereleri kapalı olarak dinlenen yataklı kabin sürücüleri için önemlidir.\n\nÖzellikle zorlu yollarda çalışan araçlarda montaj güvenliği düzenli olarak doğrulanmalıdır.Gevşek veya yanlış monte edilmiş bir klima ünitesi, bir kaza durumunda mermiye dönüşebilir veya taşıma sırasında araçtan düşebilir.Tüm montaj donanımlarını en az üç ayda bir kontrol edin ve cıvataları üretici spesifikasyonlarına göre yeniden sıkın.Yorulma çatlağı veya korozyon belirtileri gösteren donanımları değiştirin."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "DC Otopark Klimaları Hakkında Sıkça Sorulan Sorular — DC Elektrikli Klimalar Neden RV Sahipleri için Oyunun Kurallarını Değiştiriyor?",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

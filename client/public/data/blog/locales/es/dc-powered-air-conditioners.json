@@ -2,8 +2,8 @@
   "title": "Por qué los DC acondicionadores de aire eléctricos cambian las reglas del juego para los propietarios de RV",
   "date": "18 de febrero de 2025",
   "category": "Tecnología",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "DC aire acondicionado de estacionamiento eléctrico para RV y semirremolque",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "Por qué los DC acondicionadores de aire eléctricos cambian las reglas del juego para los propietarios de RV",
   "metaDescription": "Descubra por qué los acondicionadores de aire motorizados DC están transformando RV y el enfriamiento de camiones.Obtenga información sobre la eficiencia, la compatibilidad de la batería y las mejores opciones de aire acondicionado para estacionamiento 12V DC.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Consideraciones de seguridad y mejores prácticas",
       "body": "Operar un aire acondicionado de estacionamiento de manera segura requiere atención a varios factores importantes que protegen tanto a los ocupantes del vehículo como al equipo.La seguridad eléctrica es primordial: todo el cableado debe tener el tamaño correcto para la carga actual con la protección de fusible adecuada.El cableado de tamaño insuficiente es la principal causa de incendios de vehículos relacionados con el aire acondicionado de estacionamiento.Utilice siempre el calibre de cable especificado por el fabricante o mayor, e instale un fusible o disyuntor clasificado al 125 % del consumo máximo de corriente de la unidad dentro de los 30 cm del terminal positivo de la batería.\n\nLa seguridad de las baterías merece la misma atención, especialmente en el caso de las baterías de litio.Las baterías LiFePO4, si bien son significativamente más seguras que otras químicas de litio, aún requieren un BMS (sistema de administración de baterías) de calidad que proporcione protección térmica, sobrecarga, sobrecorriente y sobrecarga.Asegúrese de que el BMS esté clasificado para el consumo máximo de corriente de su unidad de aire acondicionado de estacionamiento.Nunca mezcle baterías nuevas y viejas en un banco, y nunca mezcle productos químicos diferentes.Guarde y cargue las baterías en áreas bien ventiladas.\n\nLa seguridad del monóxido de carbono (CO) es una ventaja fundamental de los aires acondicionados de estacionamiento sobre el motor en ralentí.El motor en ralentí en espacios cerrados o semicerrados (estacionamientos, muelles de carga, áreas de descanso cerradas) crea una acumulación de CO potencialmente letal.Los sistemas de aire acondicionado para estacionamiento producen cero emisiones durante el funcionamiento, lo que elimina este riesgo por completo.Esto es especialmente importante para los conductores de cabinas dormitorio que descansan con las ventanillas cerradas.\n\nLa seguridad del montaje debe verificarse periódicamente, especialmente en vehículos que circulan por carreteras en mal estado.Una unidad de aire acondicionado suelta o mal montada puede convertirse en un proyectil en un accidente o caer del vehículo durante el tránsito.Verifique todo el hardware de montaje al menos trimestralmente y reapriete los pernos según las especificaciones del fabricante.Reemplace cualquier hardware que muestre signos de fatiga o corrosión."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Preguntas frecuentes sobre DC aire acondicionado de estacionamiento — Por qué los DC acondicionadores de aire eléctricos cambian las reglas del juego para los propietarios de RV",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

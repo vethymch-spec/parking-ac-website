@@ -2,7 +2,7 @@
   "title": "Pysäköinti-ilmastointi poliisi- ja lainvalvontaajoneuvoille: K9 ja poliisin turvallisuus",
   "date": "2025-11-20",
   "category": "Erikoisuus",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles_ce516d89.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles-hero.webp",
   "metaDescription": "K9:n ja poliisin turvallisuuden varmistaminen lainvalvontaajoneuvojen luotettavalla pysäköintiilmastolla on ratkaisevan tärkeää.Opi, miksi se on ei-neuvotteleva sijoitus.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Usein kysytyt kysymykset",
       "body": "K: Kuinka äänekäs pysäköinti-ilmastointilaite on?\n\nV: Laadukkaiden pysäköinti-AC-laitteiden sisämelutaso vaihtelee välillä 45-58 dB(A), mikä vastaa suunnilleen hiljaista toimistoa tai lievää sadetta.CoolDrivePro-yksiköissä on edistyneet ääntä vaimentavat kompressorikiinnikkeet ja optimoidut tuulettimen siipien suunnittelut, jotka minimoivat melun ja varmistavat mukavat uniolosuhteet.\n\nK: Tyhjentääkö pysäköinti AC käynnistysakut?\n\nV: Oikein asennetuissa järjestelmissä käytetään erillistä apuakkupankkia, joka on erillään käynnistysakkuista, tai niissä on pienjännitekatkaisin, joka suojaa käynnistysakkuja tyhjenemiseltä moottorin käynnistämiseen tarvittavan kynnyksen alapuolelle.Älä koskaan kytke pysäköintiverkkoa suoraan käynnistysakkuihin ilman asianmukaista eristystä.\n\nK: Voiko pysäköinti-ilmastointi myös lämmittää?\n\nV: Monissa nykyaikaisissa pysäköinti-AC-yksiköissä on lämpöpumpputoiminto, joka kääntää jäähdytyssyklin päinvastaiseksi lämmittääkseen.Tämä on tehokas lievissä kylmissä olosuhteissa (noin -5°C/23°F ulkolämpötilaan asti).Äärimmäisen kylmyyden vuoksi voidaan tarvita lisälämmitystä sähköllä tai dieselillä.CoolDrivePro:n lämmitys-jäähdytysmallit tarjoavat molemmat tilat yhdessä laitteessa.\n\nK: Mikä on pysäköinti-AC-yksikön käyttöikä?\n\nV: Oikealla asennuksella ja säännöllisellä huollolla laadukkaan pysäköinti-AC-yksikön pitäisi kestää 5-10 vuotta tai noin 10 000-20 000 käyttötuntia.Kompressori on tyypillisesti pisimpään kestävä komponentti, kun taas puhallinmoottorit ja ohjauskortit saattavat joutua vaihtamaan 5-7 vuoden kuluttua riippuen käyttöolosuhteista ja pölyaltistumisesta.\n\nK: Kannattaako sijoittaa kalliimpaan yksikköön?\n\nV: Yleensä kyllä.Premium-yksiköissä on tehokkaammat kompressorit (pienempi virrankulutus = pidempi akun käyttöaika), parempi rakennuslaatu (pidempi käyttöikä), alhaisemmat melutasot ja kestävämpi elektroniikka.Viiden vuoden käyttöiän aikana premium-yksikön polttoainesäästöt ja alhaisemmat ylläpitokustannukset ylittävät tyypillisesti huomattavasti korkeamman ostohinnan.CoolDrivePro on suunniteltu ammattikäyttöön ja kaupalliseen käyttöön, ja se tarjoaa poikkeuksellista lisäarvoa luotettavuudella ja tehokkuudella."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Pysäköinti-ilmastointi poliisi- ja lainvalvontaajoneuvoille: K9 ja poliisin turvallisuus",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles-detail.webp",
+      "alt": "Pysäköinti-ilmastointi poliisi- ja lainvalvontaajoneuvoille: K9 ja poliisin turvallisuus",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

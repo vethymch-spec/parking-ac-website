@@ -2,7 +2,7 @@
   "title": "Wagenparkbeheer met parkeer-AC's: monitoring, onderhoud en kostenbeheersing",
   "date": "2025-10-28",
   "category": "Industrie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management_0aadde9f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-hero.webp",
   "metaDescription": "Effectief wagenparkbeheer met parkeer-AC's is de sleutel tot kostenbeheersing.Leer meer over het monitoren, onderhouden en maximaliseren van uw ROI op AC-units voor vrachtwagens.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": "Veelgestelde vragen",
       "body": "Vraag: Welk koelmiddel is het beste voor parkeerairconditioners?\n\nA: De meeste moderne AC-units voor parkeren gebruiken koelmiddel R134a of R32.R32 krijgt steeds meer de voorkeur voor nieuwe ontwerpen vanwege het 67% lagere aardopwarmingspotentieel (GWP van 675 versus R410a's 2.088) en hogere energie-efficiëntie.R134a blijft gebruikelijk in bestaande units en biedt bewezen betrouwbaarheid.Gebruik altijd het door de fabrikant gespecificeerde koelmiddel; het mengen van koelmiddelen beschadigt het systeem.\n\nVraag: Hoe vaak moet ik koelmiddel bijvullen?\n\nA: Bij een correct geïnstalleerd en afgedicht systeem hoeft er gedurende 3 tot 5 jaar of langer geen koelmiddel te worden bijgevuld.Als de koelprestaties binnen de eerste twee jaar aanzienlijk afnemen, vermoed dan eerder een lek dan een normaal verlies.Laat een technicus een lektest uitvoeren voordat u eenvoudigweg koelmiddel toevoegt, omdat het onderliggende probleem na verloop van tijd alleen maar zal verergeren.\n\nVraag: Kan ik tijdens het rijden een parkeer-AC gebruiken?\n\nA: Ja, de meeste parkeerairco's kunnen werken terwijl het voertuig rijdt.Door tijdens het rijden de parkeerwisselstroom te gebruiken, kan de dynamo de accu's tegelijkertijd opladen, waardoor er effectief vrije koeling ontstaat.Bij snelheden op de snelweg kan de door de motor aangedreven AC van het voertuig echter efficiënter zijn.Parkeer-AC's zijn het meest waardevol tijdens stops, rustpauzes en 's nachts parkeren.\n\nVraag: Welke garantie moet ik verwachten op een parkeerairco?\n\nA: Kwaliteitsfabrikanten bieden doorgaans 1 tot 2 jaar volledige garantie op onderdelen en arbeid, met verlengde compressorgaranties van 3 tot 5 jaar.CoolDrivePro biedt concurrerende garantievoorwaarden met wereldwijde ondersteuning.Registreer uw product altijd onmiddellijk en bewaar het bewijs van professionele installatie, aangezien onjuiste installatie een veel voorkomende uitsluiting van de garantie is.\n\nVraag: Welke invloed heeft de omgevingstemperatuur op de AC-prestaties van het parkeren?\n\nA: Naarmate de buitentemperatuur stijgt, neemt de koelcapaciteit af en neemt het energieverbruik toe.Bij 35°C (95°F) buiten kan een unit met een vermogen van 10.000 BTU zijn volledige capaciteit leveren.Bij 45°C (113°F) kan dezelfde unit 7.500-8.500 BTU leveren terwijl hij 15-20% meer stroom verbruikt.Dit is de reden waarom de juiste maatvoering met een marge belangrijk is voor operaties in warme klimaten."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Wagenparkbeheer met parkeer-AC's: monitoring, onderhoud en kostenbeheersing",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-detail.webp",
+      "alt": "Wagenparkbeheer met parkeer-AC's: monitoring, onderhoud en kostenbeheersing",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

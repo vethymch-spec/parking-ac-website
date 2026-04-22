@@ -2,7 +2,7 @@
   "title": "Solusi Pendinginan Truk yang Andal untuk Industri Transportasi Pantai Gading",
   "date": "2025-12-10",
   "category": "Panduan Regional",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Temukan solusi pendinginan truk yang andal untuk industri transportasi Pantai Gading yang sedang berkembang.Pelajari bagaimana AC parkir meningkatkan keselamatan pengemudi dan efisiensi operasional di pusat logistik Afrika Barat.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Pertimbangan Keamanan dan Praktik Terbaik",
       "body": "Mengoperasikan AC parkir dengan aman memerlukan perhatian pada beberapa faktor penting yang melindungi penumpang kendaraan dan peralatannya.Keamanan kelistrikan adalah yang terpenting: semua kabel harus berukuran tepat untuk beban saat ini dengan perlindungan sekering yang sesuai.Kabel berukuran kecil adalah penyebab utama kebakaran kendaraan terkait AC parkir.Selalu gunakan pengukur kabel yang ditentukan oleh pabrikan atau yang lebih besar, dan pasang sekring atau pemutus arus dengan nilai 125% dari penarikan arus maksimum unit dalam jarak 30 cm dari terminal positif baterai.\n\nKeamanan baterai patut mendapat perhatian yang sama, terutama dengan baterai berbasis litium.Baterai LiFePO4, meskipun jauh lebih aman dibandingkan bahan kimia litium lainnya, tetap memerlukan BMS (Sistem Manajemen Baterai) berkualitas yang memberikan perlindungan pengisian berlebih, pengosongan berlebih, arus berlebih, dan termal.Pastikan BMS diberi peringkat untuk penarikan arus maksimum unit AC parkir Anda.Jangan pernah mencampur baterai lama dan baru di dalam bank, dan jangan pernah mencampur bahan kimia yang berbeda.Simpan dan isi daya baterai di tempat yang berventilasi baik.\n\nKeamanan karbon monoksida (CO) adalah keuntungan penting dari AC parkir dibandingkan mesin dalam keadaan idle.Pemalasan mesin di ruang tertutup atau semi tertutup (garasi parkir, dok pemuatan, tempat istirahat tertutup) berpotensi menimbulkan akumulasi CO yang mematikan.Sistem AC parkir tidak menghasilkan emisi selama pengoperasian, sehingga menghilangkan risiko ini sepenuhnya.Hal ini sangat penting bagi pengemudi kabin tidur yang beristirahat dengan jendela tertutup.\n\nKeamanan pemasangan harus diverifikasi secara berkala, terutama pada kendaraan yang beroperasi di jalan kasar.Unit AC yang longgar atau tidak dipasang dengan benar dapat menjadi proyektil jika terjadi kecelakaan atau jatuh dari kendaraan saat transit.Periksa semua perangkat keras pemasangan setidaknya setiap tiga bulan, putar kembali baut sesuai spesifikasi pabrikan.Ganti perangkat keras apa pun yang menunjukkan tanda-tanda retak lelah atau korosi."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Solusi Pendinginan Truk yang Andal untuk Industri Transportasi Pantai Gading",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Solusi Pendinginan Truk yang Andal untuk Industri Transportasi Pantai Gading",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

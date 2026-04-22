@@ -2,7 +2,7 @@
   "title": "Ilmastointi hyötykuorma-autoihin ja linjatyöntekijöiden ajoneuvoihin",
   "date": "2025-10-28",
   "category": "Erikoisuus",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks_0943e009.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp",
   "metaDescription": "Kuorma-autojen ja linjatyöntekijöiden ajoneuvojen pitäminen viileinä on turvallisuudesta, ei vain mukavuudesta.Tutustu parhaisiin ilmastointiratkaisuihin.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Joten kun tarkastelet hyötykuorma-autoasi ja harkitset seuraavaa päivitystä, kehotan sinua ajattelemaan moottoria ja alustaa pidemmälle.Ajattele kuljettajan istuimella olevaa henkilöä.Ajattele pitkiä tunteja, joita he viettävät kentällä, äärimmäisiä lämpötiloja, joita he kestävät, ja kriittistä työtä, jota he tekevät.Investointi laadukkaaseen, luotettavaan pysäköinti-AC-järjestelmään on yksi vaikuttavimmista sijoituksista, jonka voit tehdä.Se on investointi turvallisuuteen, tehokkuuteen, kestävyyteen ja mikä tärkeintä, ihmisiin.Tekniikka on täällä, liiketoiminta on selvä, eikä tarve ole koskaan ollut suurempi.Kokemukseni mukaan se on yksi älykkäimmistä päätöksistä, joita kalustopäällikkö voi tehdä, ja sen edut näkyvät vielä vuosien ajan sekä taseessa että työvoimasi hyvinvoinnissa.On aika tehdä ohjaamon mukavuudesta standardi, ei vaihtoehto, ahkeralle kodinhoitoalan miehille ja naisille.He eivät ansaitse vähempää."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Ilmastointi hyötykuorma-autoihin ja linjatyöntekijöiden ajoneuvoihin",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-detail.webp",
+      "alt": "Ilmastointi hyötykuorma-autoihin ja linjatyöntekijöiden ajoneuvoihin",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

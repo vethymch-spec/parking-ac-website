@@ -2,7 +2,7 @@
   "title": "Parking AC pour couples vivant dans un RV : confort à deux sur la route",
   "date": "2025-10-26",
   "category": "Mode de vie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-couples_40098613.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-couples-hero.webp",
   "metaDescription": "Un parking climatisé pour les couples RV est plus qu'un luxe ;c'est un sauveur de relation.Découvrez comment bien choisir pour assurer confort et harmonie sur la route.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "J'ai vu de nombreux couples hésiter au début devant le prix, pensant que c'était une dépense inutile.Mais à maintes reprises, ils reviennent et me disent que c’était l’un des meilleurs investissements qu’ils aient faits.Le confort, le calme, la possibilité de séjourner plus longtemps dans les rues – tout cela s'ajoute à une expérience RV considérablement améliorée.Il ne s’agit pas seulement d’éviter les disputes autour du thermostat ;il s'agit de créer un environnement dans lequel vous pouvez tous les deux vous épanouir.Et honnêtement, n'est-ce pas cela la vie de RV ?Profiter du voyage, ensemble, dans le confort.C'est la vraie valeur d'un bon système de climatisation de stationnement pour les couples sur la route.Il s’agit de rendre ces moments partagés aussi agréables que possible, en veillant à ce que la seule chaleur que vous ressentez soit celle de votre compagnie, et non celle du soleil oppressant de l’été.C’est un petit prix à payer pour un grand confort et des sourires encore plus grands.Les avantages à long terme, notamment une meilleure santé grâce à un meilleur sommeil et une réduction du stress, dépassent de loin l'investissement initial, ce qui en fait une sage décision pour tout couple engagé dans le mode de vie RV.C'est un investissement dans votre bonheur partagé et la longévité de vos aventures."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parking AC pour couples vivant dans un RV : confort à deux sur la route",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-couples-detail.webp",
+      "alt": "Parking AC pour couples vivant dans un RV : confort à deux sur la route",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

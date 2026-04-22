@@ -2,7 +2,7 @@
   "title": "Van Dweller によるパーキング AC ガイド: 車内でフルタイムで生活する",
   "date": "2025-10-15",
   "category": "バンライフ",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "バン居住者向けのパーキングエアコンの選択と設置に関する重要なガイド。専門家のヒントを参考に、トレーラーハウスで涼しく快適に過ごしましょう。",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "それで、これで完了です。本格的なバン居住者にとって、優れたパーキングエアコンが交渉の余地のない理由についての私の見解。単に暑さをしのぐだけではありません。それは、旅先での生活の質を向上させ、冒険がどこに行っても快適で住みやすい空間を確保することです。セットアップに適した BTU の理解から、堅牢な LiFePO4 バッテリー バンクを搭載した効率的な 12V DC ユニットの選択に至るまで、あらゆる決定が重要な役割を果たします。適切な配線と設置の重要性を忘れないでください。また、優れた絶縁の利点も見逃さないでください。私はそれがもたらす違いを見てきましたが、正直に言うと、それは昼と夜です。これは単に製品を購入するということではありません。それは、快適さ、睡眠、そしてバンライフ全体の楽しみに投資することです。時間をかけてシステムを調査、計画し、正しく設置すれば、今後何年も涼しく快適な昼夜を楽しむことができます。これは革新的なものであり、明白かつシンプルであり、フルタイムでバンに住むすべての人が真剣に検討すべきものです。皆さん、涼しく過ごして、オープンロードを楽しんでください。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dweller によるパーキング AC ガイド: 車内でフルタイムで生活する",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dweller によるパーキング AC ガイド: 車内でフルタイムで生活する",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

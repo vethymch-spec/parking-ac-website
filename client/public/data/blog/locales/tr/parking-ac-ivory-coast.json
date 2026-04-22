@@ -2,7 +2,7 @@
   "title": "Fildişi Sahili Taşımacılık Endüstrisi için Güvenilir Kamyon Soğutma Çözümleri",
   "date": "2025-12-10",
   "category": "Bölgesel Rehberler",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Fildişi Sahili'nin büyüyen taşımacılık endüstrisi için güvenilir kamyon soğutma çözümlerini keşfedin.Batı Afrika'nın lojistik merkezinde park klimalarının sürücü güvenliğini ve operasyonel verimliliği nasıl artırdığını öğrenin.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Güvenlik Konuları ve En İyi Uygulamalar",
       "body": "Park klimasının güvenli bir şekilde çalıştırılması, hem araçtakileri hem de ekipmanı koruyan birçok önemli faktöre dikkat edilmesini gerektirir.Elektrik güvenliği her şeyden önemlidir: tüm kablolar, uygun sigorta korumasıyla birlikte mevcut yüke göre doğru boyutta olmalıdır.Yetersiz kablolama, park etme klimasından kaynaklanan araç yangınlarının önde gelen nedenidir.Her zaman üretici tarafından belirtilen veya daha büyük kablo ölçüsünü kullanın ve akünün pozitif terminalinden 30 cm mesafeye ünitenin maksimum akım çekişinin %125'i değerinde bir sigorta veya devre kesici takın.\n\nPil güvenliği, özellikle lityum bazlı pillerde eşit derecede dikkat gerektirir.LiFePO4 piller, diğer lityum kimyasallarından önemli ölçüde daha güvenli olmasına rağmen yine de aşırı şarj, aşırı deşarj, aşırı akım ve termal koruma sağlayan kaliteli bir BMS (Pil Yönetim Sistemi) gerektirir.BMS'nin park klima ünitenizin maksimum akım çekişine göre derecelendirildiğinden emin olun.Bir kutuda asla eski ve yeni pilleri karıştırmayın ve asla farklı kimyaları karıştırmayın.Aküleri iyi havalandırılan alanlarda saklayın ve şarj edin.\n\nKarbon monoksit (CO) güvenliği, klimaların motor rölantide çalışmaya göre park edilmesinin kritik bir avantajıdır.Kapalı veya yarı kapalı alanlarda (otoparklar, yükleme alanları, kapalı dinlenme alanları) motorun rölantide çalışması potansiyel olarak ölümcül CO birikimine neden olur.Park klima sistemleri çalışma sırasında sıfır emisyon üreterek bu riski tamamen ortadan kaldırır.Bu özellikle pencereleri kapalı olarak dinlenen yataklı kabin sürücüleri için önemlidir.\n\nÖzellikle bozuk yollarda çalışan araçlarda montaj güvenliği düzenli olarak doğrulanmalıdır.Gevşek veya yanlış monte edilmiş bir klima ünitesi, bir kaza durumunda mermiye dönüşebilir veya taşıma sırasında araçtan düşebilir.Tüm montaj donanımlarını en az üç ayda bir kontrol edin ve cıvataları üretici spesifikasyonlarına göre yeniden sıkın.Yorulma çatlağı veya korozyon belirtileri gösteren donanımları değiştirin."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Fildişi Sahili Taşımacılık Endüstrisi için Güvenilir Kamyon Soğutma Çözümleri",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Fildişi Sahili Taşımacılık Endüstrisi için Güvenilir Kamyon Soğutma Çözümleri",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

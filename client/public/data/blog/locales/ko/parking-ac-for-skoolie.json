@@ -2,7 +2,7 @@
   "title": "Skoolie 전환을 위한 주차 AC: 도로 위의 스쿨버스 집 냉각",
   "date": "2025-11-15",
   "category": "전문 분야",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "이동 중에도 스쿠리를 시원하게 유지하세요!편안함과 에너지 절약을 보장하는 스쿨버스 전환을 위한 효율적인 주차 AC 솔루션을 살펴보세요.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "궁극적으로 Skoolie 전환에 적합한 주차 AC를 선택하는 것은 편안함, 효율성 및 특정 라이프 스타일의 균형을 맞추는 것입니다.이는 모든 경우에 적용되는 일률적인 솔루션이 아니며 솔직히 말하면 다른 방법을 말하는 사람은 아마도 이동 중에 많은 시간을 보내지 않았을 것입니다.저는 투박하고 전력 소모가 많은 장치에서 오늘날 우리가 가지고 있는 세련되고 효율적인 12V DC 모델에 이르기까지 이러한 시스템의 진화를 직접 목격했습니다.잘 설계된 태양열 및 배터리 설정과 함께 품질 시스템에 대한 투자는 편안함, 자유 및 마음의 평화를 가져다 줄 것입니다.이동식 주택이 항상 시원한 오아시스가 될 것이라는 사실을 알고 태양을 쫓거나 더위를 피할 수 있습니다.편안함을 위해 타협하지 마십시오.이것이 바로 Skoolie의 꿈을 현실로 만드는 것입니다.시간을 내어 현명하게 조사하고 계획하고 투자하면 어디로 가는지 시원한 바람을 즐길 수 있습니다.결국 그것은 당신의 집이고 편안할 가치가 있습니다."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Skoolie 전환을 위한 주차 AC: 도로 위의 스쿨버스 집 냉각",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "Skoolie 전환을 위한 주차 AC: 도로 위의 스쿨버스 집 냉각",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Jak importować klimatyzatory parkingowe dla ciężarówek do Afryki: kompletny przewodnik",
   "date": "2025-12-04",
   "category": "Przewodnik po imporcie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa_j0k1l2m3.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa-hero.webp",
   "metaDescription": "Kompletny przewodnik dotyczący importowania klimatyzatorów parkingowych dla ciężarówek do Afryki.Dowiedz się o trasach wysyłki, dokumentacji celnej, cłach importowych i zgodności z przepisami.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Często zadawane pytania dotyczące klimatyzatorów postojowych",
       "body": "P: Jak długo klimatyzacja postojowa może działać na samych bateriach?\n\nOdp.: Czas pracy zależy od pojemności akumulatora, zużycia prądu przemiennego i temperatury otoczenia.Typowy 24V parkingowy prąd przemienny pobierający 40–60 amperów na godzinę może pracować 8–12 godzin na zestawie akumulatorów LiFePO4 o pojemności 200 Ah.W ekstremalnie wysokich temperaturach w Afryce czas pracy może być o 10–15% krótszy ze względu na wyższe cykle pracy sprężarki.Dodanie paneli słonecznych (200–400 W) może znacznie wydłużyć czas pracy w ciągu dnia.\n\nP: Czy mogę samodzielnie zainstalować klimatyzację parkingową, czy potrzebuję specjalisty?\n\nOdp.: Chociaż doświadczeni instalatorzy samodzielnie poradzą sobie z montażem mechanicznym i podstawowym okablowaniem, zaleca się profesjonalną instalację połączeń czynnika chłodniczego (systemy dzielone) i integracji elektrycznej z istniejącym systemem pojazdu.Nieprawidłowa instalacja powoduje unieważnienie większości gwarancji i może spowodować ryzyko pożaru w przypadku okablowania o zbyt małych średnicach.\n\nP: Jaka jest różnica między klimatyzacją na dachu a klimatyzacją parkingową z systemem dzielonym?\n\nOdp.: Jednostki dachowe (wszystko w jednym) zawierają wszystkie komponenty w jednej obudowie zamontowanej na dachu pojazdu.Są prostsze w montażu, ale mogą zwiększać wysokość, która wpływa na prześwit pod mostami lub w garażach.Systemy dzielone oddzielają sprężarkę/skraplacz (zamontowany na zewnątrz) od parownika (zamontowany wewnątrz), oferując bardziej elastyczne opcje instalacji i potencjalnie cichszą pracę w pomieszczeniu.CoolDrivePro oferuje obie konfiguracje dostosowane do różnych typów pojazdów i preferencji użytkownika.\n\nP: Ile paliwa oszczędza klimatyzacja postojowa w porównaniu z pracą silnika na biegu jałowym?\n\nOdp.: Silnik pracujący na biegu jałowym w przypadku klimatyzacji zużywa około 0,8–1,5 litra oleju napędowego na godzinę.Parkingowy klimatyzator zasilany akumulatorem zużywa zasadniczo zerowe zużycie paliwa podczas pracy (ładowanie akumulatora odbywa się podczas jazdy).W przypadku kierowcy odpoczywającego 8 godzin dziennie pozwala to zaoszczędzić 6–12 litrów paliwa dziennie, czyli około 2 000–4 000 USD rocznie, w zależności od lokalnych cen paliwa.Koszt instalacji klimatyzacji postojowej zwraca się zazwyczaj w ciągu 6–12 miesięcy dzięki samym oszczędnościom paliwa.\n\nP: Czy klimatyzatory postojowe działają w bardzo wilgotnych warunkach?\n\nOdpowiedź: Tak, nowoczesne systemy klimatyzacji postojowej skutecznie osuszają powietrze w kabinie w ramach procesu chłodzenia.Wężownica parownika skrapla wilgoć z powietrza, która jest odprowadzana przez przewód kondensatu.W bardzo wilgotnych regionach należy upewnić się, że odpływ jest czysty i rozważyć zastosowanie urządzeń z ulepszonymi trybami osuszania.Jednostki CoolDrivePro są testowane pod kątem działania w warunkach wilgotności do 95% RH."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Jak importować klimatyzatory parkingowe dla ciężarówek do Afryki: kompletny przewodnik",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa-detail.webp",
+      "alt": "Jak importować klimatyzatory parkingowe dla ciężarówek do Afryki: kompletny przewodnik",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

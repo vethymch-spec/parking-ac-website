@@ -2,7 +2,7 @@
   "title": "DIY parkoló AC telepítése: lépésről lépésre kezdőknek",
   "date": "2025-12-10",
   "category": "Telepítés",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-diy-installation_30707b1e.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-diy-installation-hero.webp",
   "metaDescription": "Mester DIY parkoló AC telepítés kezdő útmutatónkkal.Ismerje meg lépésről lépésre, hogyan telepíthet biztonságosan és hatékonyan egy 12V/24V parkolóklímát.",
   "content": [
     {
@@ -53,5 +53,8 @@
       "heading": null,
       "body": "Végső soron a barkácsolt parkoló AC telepítése többről szól, mint néhány dollár megtakarítása;arról van szó, hogy birtokba vegye a szerelékét és a kényelmét.Türelemre, tanulási hajlandóságra, valamint az elektromosság és a szerkezeti integritás egészséges tiszteletére van szükség.De az az érzés, amikor egy tikkasztó júliusi estén bekapcsolod a kapcsolót, és érezni azt a jéghideg levegő fuvallatát, tudva, hogy te építetted fel azt a rendszert, amely biztosítja, hogy kényelmesen érezd magad, hihetetlenül kifizetődő.Ne hagyd, hogy az ismeretlentől való félelem visszatartson.Kutasson, gyűjtse össze a megfelelő eszközöket, szánjon időt a mérésekre és a vezetékezésre, és ne féljen segítséget kérni fórumokon vagy tapasztaltabb ismerősöktől, ha elakad.Az út úgy, ahogy van, elég kemény;megérdemel egy kényelmes pihenőhelyet a nap végén, és egy kis könyökzsírral pontosan ezt építheti.Ez az önálló utazás nemcsak fantasztikus hűtési megoldással látja el Önt, hanem elmélyíti járművének megértését és megbecsülését is, így minden mérföld személyesebbé és kényelmesebbé válik.Ez egy olyan készség, amely az elkövetkező években jól fog szolgálni, és őszinte büszkeség forrása."
     }
-  ]
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "DIY parkoló AC telepítése: lépésről lépésre kezdőknek"
 }

@@ -2,7 +2,7 @@
   "title": "Verhindern Sie Kondensation und Wasserschäden mit Ihrer Parkklimaanlage",
   "date": "2025-10-26",
   "category": "Wartung",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Erfahren Sie mit Expertentipps zu Installation, Wartung und Feuchtigkeitskontrolle, wie Sie Kondensation der Parkklimaanlage und Wasserschäden in Ihrem RV oder LKW verhindern können.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Ein letzter Gedanke: Unterschätzen Sie nicht die Bedeutung einer guten Inspektion vor Fahrtantritt. Bevor Sie sich auf den Weg machen, insbesondere bei längeren Strecken oder Fahrten in feuchtes Klima, nehmen Sie sich ein paar Minuten Zeit, um die Außenkomponenten Ihrer Parkklimaanlage einer Sichtprüfung zu unterziehen.Überprüfen Sie die Abflussleitungen auf offensichtliche Verstopfungen oder Schäden.Stellen Sie sicher, dass das Gerät sicher montiert ist und alle Dichtungen intakt sind.Ein schneller Blick kann oft ein potenzielles Problem erkennen, bevor es zu großen Kopfschmerzen führt.Ich habe gesehen, dass Autofahrer einen erheblichen Wasserschaden vermeiden konnten, indem sie bei einer Routinekontrolle nur einen losen Ablaufschlauch bemerkten. Es ist eine kleine Angewohnheit, die große Vorteile bringen kann, indem sie kostspielige Reparaturen verhindert und die Integrität des Innenraums Ihres Fahrzeugs aufrechterhält. Dieser proaktive Ansatz, kombiniert mit regelmäßiger Wartung und einem Verständnis für die Funktionsweise Ihrer Park-Klimaanlage, ist Ihr bester Schutz gegen Kondensation und Wasserschäden. Es geht darum, vorbereitet und informiert zu sein, um sicherzustellen, dass Ihre Fahrt so komfortabel und sorgenfrei wie möglich ist.Schließlich gibt es auf der Straße genug zu befürchten; ein feuchter Innenraum sollte nicht dazu gehören.Ein paar Minuten Inspektion können Ihnen tagelange Frustration und Tausende von Reparaturen ersparen."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Verhindern Sie Kondensation und Wasserschäden mit Ihrer Parkklimaanlage",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Verhindern Sie Kondensation und Wasserschäden mit Ihrer Parkklimaanlage",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

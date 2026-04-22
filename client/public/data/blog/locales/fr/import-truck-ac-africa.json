@@ -2,7 +2,7 @@
   "title": "Comment importer des climatiseurs de stationnement pour camions en Afrique : guide complet",
   "date": "2025-12-04",
   "category": "Guide d'importation",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa_j0k1l2m3.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa-hero.webp",
   "metaDescription": "Guide complet pour importer des climatiseurs de stationnement pour camions en Afrique.Découvrez les itinéraires d'expédition, les documents douaniers, les droits d'importation et la conformité réglementaire.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Foire aux questions sur les climatiseurs de stationnement",
       "body": "Q : Combien de temps un climatiseur de stationnement peut-il fonctionner uniquement avec des batteries ?\n\nR : L'autonomie dépend de la capacité de la batterie, de la consommation électrique CA et de la température ambiante.Un courant alternatif de stationnement 24V typique consommant 40 à 60 ampères par heure peut fonctionner pendant 8 à 12 heures avec un parc de batteries LiFePO4 de 200 Ah.Dans la chaleur extrême de l'Afrique, la durée de fonctionnement peut être de 10 à 15 % plus courte en raison des cycles de service plus élevés du compresseur.L'ajout de panneaux solaires (200-400 W) peut prolonger considérablement la durée de fonctionnement diurne.\n\nQ : Puis-je installer moi-même une climatisation de stationnement ou ai-je besoin d’un professionnel ?\n\nR : Bien que des installateurs expérimentés puissent gérer le montage mécanique et le câblage de base, une installation professionnelle est recommandée pour les connexions réfrigérantes (systèmes split) et l'intégration électrique avec le système existant du véhicule.Une installation incorrecte annule la plupart des garanties et peut créer des risques d'incendie en raison d'un câblage sous-dimensionné.\n\nQ : Quelle est la différence entre une climatisation de toit et une climatisation de stationnement à système divisé ?\n\nR : Les unités de toit (tout-en-un) contiennent tous les composants dans un seul boîtier monté sur le toit du véhicule.Ils sont plus simples à installer mais peuvent ajouter de la hauteur qui affecte le dégagement sous les ponts ou dans les parkings.Les systèmes divisés séparent le compresseur/condenseur (monté à l'extérieur) de l'évaporateur (monté à l'intérieur), offrant des options d'installation plus flexibles et un fonctionnement intérieur potentiellement plus silencieux.CoolDrivePro propose les deux configurations pour s'adapter à différents types de véhicules et préférences des utilisateurs.\n\nQ : Combien de carburant un climatiseur de stationnement permet-il d'économiser par rapport au moteur au ralenti ?\n\nR : Le moteur au ralenti pour la climatisation consomme environ 0,8 à 1,5 litre de diesel par heure.Un climatiseur de stationnement alimenté par batterie ne coûte pratiquement aucun carburant pendant son fonctionnement (la charge de la batterie s'effectue pendant la conduite).Pour un conducteur qui se repose 8 heures par jour, cela permet d'économiser 6 à 12 litres de carburant par jour, soit environ 2 000 à 4 000 USD par an, selon les prix locaux du carburant.L'unité de climatisation de stationnement est généralement amortie en 6 à 12 mois grâce aux seules économies de carburant.\n\nQ : Les climatiseurs de stationnement fonctionnent-ils dans des conditions extrêmement humides ?\n\nR : Oui, les systèmes de climatisation de stationnement modernes déshumidifient efficacement l’air de l’habitacle dans le cadre du processus de refroidissement.Le serpentin de l'évaporateur condense l'humidité de l'air, qui s'écoule par la conduite de condensat.Dans les régions très humides, assurez-vous que le drain est dégagé et envisagez des unités dotées de modes de déshumidification améliorés.Les unités CoolDrivePro sont testées pour fonctionner dans des niveaux d'humidité allant jusqu'à 95 % d'humidité relative."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Comment importer des climatiseurs de stationnement pour camions en Afrique : guide complet",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa-detail.webp",
+      "alt": "Comment importer des climatiseurs de stationnement pour camions en Afrique : guide complet",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

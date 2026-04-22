@@ -2,7 +2,7 @@
   "title": "Maroko Sahara Route Parking AC: Strategie chlazení pro dlouhé cesty do pouště",
   "date": "2025-12-17",
   "category": "Operace pouštní cesty",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco_c9d0e1f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-hero.webp",
   "metaDescription": "Průvodce parkováním AC pro saharské nákladní pruhy zaměřený na Maroko, který zahrnuje tepelné zatížení na dlouhé vzdálenosti, vzdálená odpočívadla a plánování baterií na pouštních trasách.",
   "content": [
     {
@@ -76,6 +76,18 @@
     {
       "heading": "Často kladené otázky o parkovacích klimatizacích",
       "body": "Otázka: Jak dlouho může parkovací AC běžet pouze na baterie?\n\nOdpověď: Doba provozu závisí na kapacitě baterie, spotřebě střídavého proudu a okolní teplotě.Typický 24V parkovací střídavý proud 40-60 ampér za hodinu může běžet 8-12 hodin na 200Ah LiFePO4 baterii.V extrémním horku v Maroku může být doba chodu o 10–15 % kratší kvůli vyšším pracovním cyklům kompresoru.Přidání solárních panelů (200-400W) může výrazně prodloužit denní provoz.\n\nOtázka: Mohu si parkovací klimatizaci nainstalovat sám, nebo potřebuji profesionála?\n\nOdpověď: Zatímco zkušení kutilové zvládnou mechanickou montáž a základní zapojení, pro připojení chladiva (rozdělené systémy) a elektrickou integraci se stávajícím systémem vozidla se doporučuje profesionální instalace.Nesprávná instalace ruší většinu záruk a může způsobit požár v důsledku poddimenzovaných kabelů.\n\nOtázka: Jaký je rozdíl mezi střešní klimatizací a parkovací klimatizací s děleným systémem?\n\nA: Střešní jednotky (vše v jednom) obsahují všechny součásti v jediném krytu namontovaném na střeše vozidla.Jsou jednodušší na instalaci, ale mohou přidat výšku, která ovlivňuje světlou výšku pod mosty nebo v parkovacích garážích.Split systémy oddělují kompresor/kondenzátor (namontovaný venku) od výparníku (namontovaný uvnitř), nabízejí flexibilnější možnosti instalace a potenciálně tišší vnitřní provoz.CoolDrivePro nabízí obě konfigurace, aby vyhovovaly různým typům vozidel a uživatelským preferencím.\n\nOtázka: Kolik paliva ušetří parkovací klimatizace ve srovnání s motorem na volnoběh?\n\nA: Motor na volnoběh pro klimatizaci spotřebuje přibližně 0,8-1,5 litru nafty za hodinu.Parkovací AC napájená z baterie stojí během provozu v podstatě nulové palivo (nabíjení baterie probíhá během jízdy).Pro řidiče, který odpočívá 8 hodin denně, to ušetří 6–12 litrů paliva za den, nebo zhruba 2 000–4 000 USD ročně v závislosti na místních cenách paliva.Parkovací klimatizační jednotka se obvykle sama zaplatí během 6–12 měsíců pouze úsporou paliva.\n\nOtázka: Fungují parkovací klimatizace v extrémně vlhkých podmínkách?\n\nOdpověď: Ano, moderní parkovací klimatizační systémy účinně odvlhčují vzduch v kabině jako součást procesu chlazení.Výparníková spirála kondenzuje vlhkost ze vzduchu, který odtéká potrubím kondenzátu.Ve velmi vlhkých oblastech se ujistěte, že je odtok čistý, a zvažte jednotky s vylepšenými režimy odvlhčování.Jednotky CoolDrivePro jsou testovány tak, aby fungovaly při úrovních vlhkosti až 95 % RH."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Maroko Sahara Route Parking AC: Strategie chlazení pro dlouhé cesty do pouště",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-detail.webp",
+      "alt": "Maroko Sahara Route Parking AC: Strategie chlazení pro dlouhé cesty do pouště",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

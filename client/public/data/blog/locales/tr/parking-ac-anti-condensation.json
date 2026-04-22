@@ -2,7 +2,7 @@
   "title": "Park Klimanızda Yoğuşma ve Su Hasarının Önlenmesi",
   "date": "2025-10-26",
   "category": "Bakım",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Kurulum, bakım ve nem kontrolüne ilişkin uzman ipuçlarıyla RV veya kamyonunuzda park halindeyken klima yoğunlaşmasını ve su hasarını nasıl önleyeceğinizi öğrenin.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Son bir düşünce: Yolculuk öncesi iyi bir incelemenin gücünü hafife almayın. Özellikle uzun mesafeler veya nemli iklimlerde yapılan yolculuklar için yola çıkmadan önce, park klimanızın dış bileşenlerini görsel olarak incelemek için birkaç dakikanızı ayırın.Tahliye hatlarında belirgin tıkanıklık veya hasar olup olmadığını kontrol edin.Ünitenin güvenli bir şekilde monte edildiğinden ve tüm contaların sağlam göründüğünden emin olun.Hızlı bir bakış çoğu zaman potansiyel bir sorunu, büyük bir baş ağrısına dönüşmeden önce yakalayabilir.Sürücülerin, rutin bir kontrol sırasında gevşek bir tahliye hortumunu fark ederek ciddi su hasarlarından kaçındıklarını gördüm. Bu, pahalı onarımları önleme ve aracınızın iç bütünlüğünü koruma açısından büyük getiriler sağlayabilecek küçük bir alışkanlıktır. Bu proaktif yaklaşım, düzenli bakım ve park klimanızın nasıl çalıştığının anlaşılmasıyla birleştiğinde, yoğuşma ve su hasarına karşı en iyi savunmanız olacaktır. Her şey hazırlıklı ve bilgili olmakla, yolculuğunuzun mümkün olduğu kadar konforlu ve endişesiz olmasını sağlamakla ilgilidir.Sonuçta yolda endişelenecek yeterince şey var; nemli bir iç mekan bunlardan biri olmamalı.Birkaç dakikalık inceleme sizi günlerce sürecek hayal kırıklığından ve binlerce onarım masrafından kurtarabilir."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Park Klimanızda Yoğuşma ve Su Hasarının Önlenmesi",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Park Klimanızda Yoğuşma ve Su Hasarının Önlenmesi",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

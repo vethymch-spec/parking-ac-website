@@ -2,7 +2,7 @@
   "title": "Parkovací klimatizace pro vojenská vozidla: Taktická řešení chlazení",
   "date": "2026-02-15",
   "category": "Specialita",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Objevte zásadní roli parkovacích klimatizací ve vojenských vozidlech, které poskytují taktické chlazení pro personál a citlivou elektroniku v extrémních podmínkách.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "Závěrem lze říci, že vývoj parkovacích klimatizací pro vojenská vozidla je fascinující cestou od jednoduchého pohodlí ke kritické taktické výhodě.Je to obor, kde jsou inovace poháněny extrémními požadavky, kde záleží na každém BTU, každém decibelu a každém wattu.Od ochrany citlivé elektroniky až po zajištění blaha našich vojáků hrají tyto systémy nepostradatelnou roli v moderních vojenských operacích.Investice do robustních, účinných a nenápadných řešení chlazení není jen o tom, že zůstanete v pohodě;jde o to zůstat efektivní, zůstat v bezpečí a nakonec zůstat napřed.A to je, přátelé, realita taktického chlazení."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkovací klimatizace pro vojenská vozidla: Taktická řešení chlazení",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Parkovací klimatizace pro vojenská vozidla: Taktická řešení chlazení",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

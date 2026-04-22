@@ -2,7 +2,7 @@
   "title": "Manajemen Armada dengan AC Parkir: Pemantauan, Pemeliharaan & Pengendalian Biaya",
   "date": "2025-10-28",
   "category": "Industri",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management_0aadde9f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-hero.webp",
   "metaDescription": "Manajemen armada yang efektif dengan AC parkir adalah kunci pengendalian biaya.Pelajari tentang pemantauan, pemeliharaan, dan memaksimalkan ROI Anda pada unit AC truk.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": "Pertanyaan yang Sering Diajukan",
       "body": "T: Refrigeran apa yang terbaik untuk AC parkir?\n\nJ: Kebanyakan unit AC parkir modern menggunakan refrigeran R134a atau R32.R32 semakin disukai untuk desain baru karena potensi pemanasan globalnya yang 67% lebih rendah (GWP 675 vs. R410a 2.088) dan efisiensi energi yang lebih tinggi.R134a tetap umum di unit yang ada dan menawarkan keandalan yang telah terbukti.Selalu gunakan zat pendingin yang ditentukan oleh pabrikan—mencampur zat pendingin akan merusak sistem.\n\nT: Seberapa sering saya harus mengisi ulang zat pendingin?\n\nJ: Sistem yang dipasang dan disegel dengan benar tidak memerlukan pengisian ulang zat pendingin selama 3-5 tahun atau lebih.Jika kinerja pendinginan menurun secara signifikan dalam 2 tahun pertama, curigai adanya kebocoran, bukan kehilangan normal.Mintalah teknisi melakukan uji kebocoran sebelum menambahkan zat pendingin, karena masalah mendasarnya hanya akan bertambah buruk seiring berjalannya waktu.\n\nQ: Bisakah saya menggunakan AC parkir saat mengemudi?\n\nA: Ya, sebagian besar unit AC parkir dapat beroperasi saat kendaraan sedang melaju.Faktanya, menjalankan AC parkir saat mengemudi memungkinkan alternator mengisi baterai secara bersamaan, sehingga secara efektif memberikan pendinginan gratis.Namun, pada kecepatan jalan raya, AC yang digerakkan mesin kendaraan mungkin lebih efisien.AC parkir paling berharga saat berhenti, istirahat, dan parkir semalam.\n\nQ: Garansi apa yang harus saya harapkan pada unit AC parkir?\n\nJ: Produsen berkualitas biasanya menawarkan garansi penuh 1-2 tahun yang mencakup suku cadang dan tenaga kerja, dengan perpanjangan garansi kompresor selama 3-5 tahun.CoolDrivePro memberikan ketentuan garansi yang kompetitif dengan dukungan global.Selalu daftarkan produk Anda segera dan simpan bukti pemasangan profesional, karena pemasangan yang tidak tepat merupakan pengecualian umum dalam garansi.\n\nQ: Bagaimana pengaruh suhu lingkungan terhadap kinerja AC parkir?\n\nJ: Saat suhu luar ruangan meningkat, kapasitas pendinginan menurun dan konsumsi daya meningkat.Pada suhu 35°C (95°F) di luar ruangan, unit dengan rating 10.000 BTU dapat menghasilkan kapasitas penuh.Pada suhu 45°C (113°F), unit yang sama dapat menghasilkan 7.500-8.500 BTU sekaligus menggunakan daya 15-20% lebih banyak.Inilah sebabnya mengapa penentuan ukuran dengan margin yang tepat penting untuk pengoperasian di iklim panas."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Manajemen Armada dengan AC Parkir: Pemantauan, Pemeliharaan & Pengendalian Biaya",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-detail.webp",
+      "alt": "Manajemen Armada dengan AC Parkir: Pemantauan, Pemeliharaan & Pengendalian Biaya",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

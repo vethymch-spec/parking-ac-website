@@ -2,7 +2,7 @@
   "title": "Forhindrer kondens og vannskader med din parkerings AC",
   "date": "2025-10-26",
   "category": "Vedlikehold",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Lær hvordan du forhindrer parkering av AC-kondens og vannskader i din RV eller lastebil med eksperttips om installasjon, vedlikehold og fuktighetskontroll.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "En siste tanke: ikke undervurder kraften til en god inspeksjon før turen. Før du drar på veien, spesielt for lengre turer eller turer i fuktig klima, bør du ta noen minutter til å visuelt inspisere de utvendige komponentene til parkerings-AC.Sjekk avløpsledningene for åpenbare blokkeringer eller skader.Sørg for at enheten er forsvarlig montert og at alle pakninger virker intakte.Et raskt blikk kan ofte fange opp et potensielt problem før det eskalerer til en stor hodepine.Jeg har sett sjåførene unngå betydelige vannskader bare ved å legge merke til en løs avløpsslange under en rutinesjekk. Det er en liten vane som kan gi store gevinster når det gjelder å forhindre kostbare reparasjoner og opprettholde integriteten til kjøretøyets interiør. Denne proaktive tilnærmingen, kombinert med regelmessig vedlikehold og en forståelse av hvordan parkerings-AC fungerer, vil være ditt beste forsvar mot kondens og vannskader.sikre at reisen din er så komfortabel og bekymringsfri som mulig.Tross alt har du nok å bekymre deg for på veien; et fuktig interiør burde ikke være en av dem.Noen få minutters inspeksjon kan spare deg for dager med frustrasjon og tusenvis av reparasjoner."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Forhindrer kondens og vannskader med din parkerings AC",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Forhindrer kondens og vannskader med din parkerings AC",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

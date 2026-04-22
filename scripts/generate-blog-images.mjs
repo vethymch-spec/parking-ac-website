@@ -180,9 +180,12 @@ async function processArticle(filename) {
   const articlePath = path.join(BLOG_DIR, filename);
   const article = JSON.parse(fs.readFileSync(articlePath, 'utf8'));
 
-  // Skip if already has inlineImages (so we can re-run safely)
-  if (article.inlineImages && article.inlineImages.length > 0 && !args.includes('--force')) {
-    console.log(`  [SKIP] ${slug} already has ${article.inlineImages.length} inline images`);
+  // Per-image idempotency: skip hero if article.image already a CDN url; skip inline if inlineImages exists.
+  // Only skip the whole article when BOTH are present (unless --force).
+  const hasHero = typeof article.image === 'string' && article.image.includes(CDN_BASE);
+  const hasInline = Array.isArray(article.inlineImages) && article.inlineImages.length > 0;
+  if (hasHero && hasInline && !args.includes('--force')) {
+    console.log(`  [SKIP] ${slug} already has hero + inline`);
     return false;
   }
 
@@ -190,8 +193,8 @@ async function processArticle(filename) {
   console.log(`  title: ${article.title?.slice(0, 80)}`);
   let touched = false;
 
-  // 1. Hero image
-  if (!skipHero) {
+  // 1. Hero image — skip if already present (unless --force)
+  if (!skipHero && (!hasHero || args.includes('--force'))) {
     try {
       const heroPrompt = buildHeroPrompt(article);
       const png = await generateImage(heroPrompt);
@@ -216,8 +219,8 @@ async function processArticle(filename) {
     }
   }
 
-  // 2. Inline image - placed in the middle section
-  if (!skipInline && Array.isArray(article.content) && article.content.length >= 2) {
+  // 2. Inline image — skip if already present (unless --force)
+  if (!skipInline && (!hasInline || args.includes('--force')) && Array.isArray(article.content) && article.content.length >= 2) {
     try {
       const midIndex = Math.floor(article.content.length / 2);
       const midSection = article.content[midIndex];

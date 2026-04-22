@@ -2,8 +2,8 @@
   "title": "Pourquoi les climatiseurs électriques DC changent la donne pour les propriétaires de RV",
   "date": "18 février 2025",
   "category": "Technologie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "Climatiseur de stationnement motorisé DC pour RV et semi-camion",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "Pourquoi les climatiseurs électriques DC changent la donne pour les propriétaires de RV",
   "metaDescription": "Découvrez pourquoi les climatiseurs alimentés par DC transforment le RV et le refroidissement des camions.Découvrez l’efficacité, la compatibilité des batteries et les meilleures options de climatisation de stationnement 12V DC.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Considérations de sécurité et meilleures pratiques",
       "body": "Faire fonctionner un climatiseur de stationnement en toute sécurité nécessite de prêter attention à plusieurs facteurs importants qui protègent à la fois les occupants du véhicule et l’équipement.La sécurité électrique est primordiale : tous les câbles doivent être dimensionnés correctement pour la charge actuelle avec une protection par fusible appropriée.Un câblage sous-dimensionné est la principale cause des incendies de véhicules liés au stationnement liés au courant alternatif.Utilisez toujours le calibre de fil spécifié par le fabricant ou plus grand, et installez un fusible ou un disjoncteur évalué à 125 % de la consommation de courant maximale de l'appareil à moins de 30 cm de la borne positive de la batterie.\n\nLa sécurité des batteries mérite la même attention, en particulier dans le cas des batteries au lithium.Les batteries LiFePO4, bien que nettement plus sûres que les autres produits chimiques au lithium, nécessitent toujours un BMS (Battery Management System) de qualité qui offre une protection contre les surcharges, les décharges excessives, les surintensités et la chaleur.Assurez-vous que le BMS est conçu pour la consommation de courant maximale de votre unité AC de stationnement.Ne mélangez jamais des piles anciennes et neuves dans une banque, et ne mélangez jamais des produits chimiques différents.Stockez et chargez les batteries dans des endroits bien ventilés.\n\nLa sécurité du monoxyde de carbone (CO) est un avantage essentiel des climatiseurs de stationnement par rapport au moteur au ralenti.Le moteur au ralenti dans des espaces clos ou semi-fermés (parkings, quais de chargement, aires de repos fermées) crée une accumulation de CO potentiellement mortelle.Les systèmes de climatisation de stationnement ne produisent aucune émission pendant leur fonctionnement, éliminant ainsi complètement ce risque.Ceci est particulièrement important pour les conducteurs de cabines-couchettes qui se reposent avec les fenêtres fermées.\n\nLa sécurité du montage doit être vérifiée régulièrement, en particulier sur les véhicules circulant sur des routes accidentées.Une unité de climatisation desserrée ou mal montée peut devenir un projectile en cas d'accident ou tomber du véhicule pendant le transport.Vérifiez tout le matériel de montage au moins une fois par trimestre, en resserrant les boulons selon les spécifications du fabricant.Remplacez tout matériel présentant des signes de fissuration par fatigue ou de corrosion."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Foire aux questions sur les climatisations de stationnement DC — Pourquoi les climatiseurs électriques DC changent la donne pour les propriétaires de RV",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

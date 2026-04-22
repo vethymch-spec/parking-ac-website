@@ -2,8 +2,8 @@
   "title": "Varför DC drivna luftkonditioneringsapparater är en spelväxling för RV ägare",
   "date": "18 februari 2025",
   "category": "Teknik",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "DC motordriven parkeringsluftkonditionering för RV och semi-lastbil",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "Varför DC drivna luftkonditioneringsapparater är en spelväxling för RV ägare",
   "metaDescription": "Upptäck varför DC-drivna luftkonditioneringsapparater förvandlar RV och lastbilskylning.Lär dig mer om effektivitet, batterikompatibilitet och de bästa 12V DC parkeringsalternativen.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Säkerhetsaspekter och bästa praxis",
       "body": "Att driva en parkeringsluftkonditionering på ett säkert sätt kräver uppmärksamhet på flera viktiga faktorer som skyddar både de åkande i fordonet och utrustningen.Elektrisk säkerhet är av största vikt: alla ledningar måste dimensioneras rätt för den aktuella belastningen med lämpligt säkringsskydd.Underdimensionerade ledningar är den främsta orsaken till parkeringsbränder i AC-relaterade fordon.Använd alltid den trådmätare som anges av tillverkaren eller större, och installera en säkring eller strömbrytare som är klassad till 125 % av enhetens maximala strömförbrukning inom 30 cm från batteriets pluspol.\n\nBatterisäkerhet förtjänar lika stor uppmärksamhet, särskilt med litiumbaserade batterier.LiFePO4 batterier, även om de är betydligt säkrare än andra litiumkemier, kräver fortfarande ett kvalitets-BMS (Battery Management System) som ger överladdning, överladdning, överström och termiskt skydd.Se till att BMS är klassad för det maximala strömförbrukningen för din parkerings AC-enhet.Blanda aldrig gamla och nya batterier i en bank, och blanda aldrig olika kemier.Förvara och ladda batterier i välventilerade utrymmen.\n\nKolmonoxidsäkerhet (CO) är en avgörande fördel med att parkera ACs framför motorn på tomgång.Motor som går på tomgång i slutna eller halvslutna utrymmen (parkeringsgarage, lastkajer, slutna rastplatser) skapar potentiellt dödlig CO-ackumulering.Parkering AC-system ger noll utsläpp under drift, vilket eliminerar denna risk helt.Detta är särskilt viktigt för sovhyttsförare som vilar med stängda fönster.\n\nMonteringssäkerhet måste kontrolleras regelbundet, särskilt på fordon som körs på ojämna vägar.En lös eller felaktigt monterad AC-enhet kan bli en projektil vid en olycka eller falla från fordonet under transport.Kontrollera all monteringsutrustning minst en gång i kvartalet och dra åt bultarna enligt tillverkarens specifikationer.Byt ut all hårdvara som visar tecken på utmattningssprickor eller korrosion."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Vanliga frågor om DC parkering ACs — Varför DC drivna luftkonditioneringsapparater är en spelväxling för RV ägare",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

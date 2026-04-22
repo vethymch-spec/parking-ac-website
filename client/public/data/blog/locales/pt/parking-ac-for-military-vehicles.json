@@ -2,7 +2,7 @@
   "title": "Ar condicionado de estacionamento para veículos militares: soluções de resfriamento tático",
   "date": "2026-02-15",
   "category": "Especialidade",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Descubra o papel crítico dos condicionadores de ar de estacionamento em veículos militares, fornecendo resfriamento tático para o pessoal e componentes eletrônicos sensíveis em condições extremas.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "Concluindo, a evolução dos aparelhos de ar condicionado para estacionamento de veículos militares é uma jornada fascinante, do simples conforto à vantagem tática crítica.É um campo onde a inovação é impulsionada por exigências extremas, onde cada BTU, cada decibel e cada watt são importantes.Desde a proteção de componentes eletrónicos sensíveis até à garantia do bem-estar dos nossos soldados, estes sistemas desempenham um papel indispensável nas operações militares modernas.O investimento em soluções de refrigeração robustas, eficientes e furtivas não se trata apenas de manter a calma;trata-se de permanecer eficaz, permanecer seguro e, em última análise, permanecer à frente.E essa, meus amigos, é a realidade do resfriamento tático."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Ar condicionado de estacionamento para veículos militares: soluções de resfriamento tático",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Ar condicionado de estacionamento para veículos militares: soluções de resfriamento tático",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

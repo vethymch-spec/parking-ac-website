@@ -2,7 +2,7 @@
   "title": "適用於野火響應車輛和消防員安全的冷卻解決方案",
   "date": "2025-11-15",
   "category": "專業",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response_e6f7a92c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response-hero.webp",
   "metaDescription": "為野火響應車輛提供強大的冷卻解決方案，確保消防員的安全。了解有關極端條件下駐車空調的資訊。",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "常見問題解答",
       "body": "Q：駐車空調的聲音有多大？\n\n答：優質駐車空調設備的室內噪音水平範圍為 45-58 dB(A)，大致相當於安靜的辦公室或溫和的降雨。CoolDrivePro 裝置採用先進的隔音壓縮機支架和優化的風扇葉片設計，可最大限度地減少噪音，確保舒適的睡眠條件。\n\nQ：駐車空調會耗盡我的啟動電池嗎？\n\n答：正確安裝的系統使用與啟動電池分開的專用輔助電池組​​，或包括一個低壓斷開裝置，以防止啟動電池的電量低於啟動引擎所需的閾值。在沒有適當隔離的情況下，切勿將停車交流電直接連接到啟動電池。\n\nQ：駐車空調也可以暖氣嗎？\n\n答：許多現代駐車空調裝置都具有熱泵功能，可以反轉冷卻循環以提供加熱。這在溫和的寒冷條件下（室外溫度低至約 -5°C/23°F）非常有效。對於極端寒冷的情況，可能需要補充電力或柴油加熱。CoolDrivePro 的加熱-冷卻模型在一個單元中提供兩種模式。\n\nQ：駐車空調裝置的使用壽命是多少？\n\n答：透過正確安裝和定期維護，優質駐車空調裝置應可持續 5-10 年或約 10,000-20,000 運轉小時。壓縮機通常是最耐用的組件，而風扇馬達和控制板可能需要在 5-7 年後更換，具體取決於操作條件和灰塵暴露。\n\nQ：是否值得投資更昂貴的單位？\n\n答：一般來說是的。高級設備具有更有效率的壓縮機（更低的功耗=更長的電池運行時間）、更好的製造品質（更長的使用壽命）、更低的噪音水平和更強大的電子設備。在 5 年的使用壽命內，高級設備節省的燃料和降低的維護成本通常遠遠超過較高的購買價格。CoolDrivePro 專為專業和商業用途而設計，透過可靠性和效率提供卓越的價值。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "適用於野火響應車輛和消防員安全的冷卻解決方案",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response-detail.webp",
+      "alt": "適用於野火響應車輛和消防員安全的冷卻解決方案",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

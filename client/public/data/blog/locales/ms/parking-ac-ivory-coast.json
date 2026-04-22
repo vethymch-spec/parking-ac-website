@@ -2,7 +2,7 @@
   "title": "AC Tempat Letak Kereta untuk Gerbang Abidjan Côte d'Ivoire: Strategi Penyejukan untuk Laluan Pengangkutan Sahel",
   "date": "2025-12-10",
   "category": "Logistik Gerbang Afrika Barat",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Panduan Côte d'Ivoire untuk meletakkan AC untuk armada pelabuhan Abidjan dan pengangkutan ke Sahel, memfokuskan pada kelembapan, tempoh rehat jarak jauh dan kebolehpercayaan merentas sempadan.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Pertimbangan Keselamatan dan Amalan Terbaik",
       "body": "Mengendalikan penghawa dingin tempat letak kereta dengan selamat memerlukan perhatian kepada beberapa faktor penting yang melindungi kedua-dua penumpang kenderaan dan peralatan.Keselamatan elektrik adalah terpenting: semua pendawaian mesti bersaiz betul untuk beban semasa dengan perlindungan fius yang sesuai.Pendawaian bersaiz kecil adalah punca utama kebakaran kenderaan yang berkaitan dengan AC.Sentiasa gunakan tolok wayar yang ditentukan oleh pengilang atau lebih besar, dan pasangkan fius atau pemutus litar berkadar 125% daripada arus maksimum unit dalam jarak 30 cm dari terminal positif bateri.\n\nKeselamatan bateri patut diberi perhatian yang sama, terutamanya dengan bateri berasaskan litium.Bateri LiFePO4, walaupun jauh lebih selamat daripada bahan kimia litium lain, masih memerlukan BMS (Sistem Pengurusan Bateri) berkualiti yang memberikan perlindungan cas berlebihan, lebihan nyahcas, arus lebihan dan haba.Pastikan BMS dinilai untuk cabutan semasa maksimum unit AC tempat letak kereta anda.Jangan sekali-kali mencampurkan bateri lama dan baharu di dalam bank, dan jangan sekali-kali mencampurkan bahan kimia yang berbeza.Simpan dan cas bateri di kawasan yang mempunyai pengudaraan yang baik.\n\nKeselamatan karbon monoksida (CO) adalah kelebihan kritikal AC meletak kenderaan berbanding melahu enjin.Enjin melahu di ruang tertutup atau separuh tertutup (garaj tempat letak kereta, dok pemuatan, kawasan rehat tertutup) menghasilkan pengumpulan CO yang berpotensi maut.Sistem AC tempat letak kereta menghasilkan pelepasan sifar semasa operasi, menghapuskan risiko ini sepenuhnya.Ini amat penting untuk pemandu teksi tidur yang berehat dengan tingkap tertutup.\n\nKeselamatan pemasangan mesti disahkan secara berkala, terutamanya pada kenderaan yang beroperasi di jalan yang kasar.Unit AC yang longgar atau tidak dipasang dengan betul boleh menjadi peluru dalam kemalangan atau jatuh dari kenderaan semasa transit.Periksa semua perkakasan pelekap sekurang-kurangnya setiap suku tahun, pasang semula bolt mengikut spesifikasi pengeluar.Gantikan sebarang perkakasan yang menunjukkan tanda-tanda keretakan atau kakisan keletihan."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "AC Tempat Letak Kereta untuk Gerbang Abidjan Côte d'Ivoire: Strategi Penyejukan untuk Laluan Pengangkutan Sahel",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "AC Tempat Letak Kereta untuk Gerbang Abidjan Côte d'Ivoire: Strategi Penyejukan untuk Laluan Pengangkutan Sahel",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

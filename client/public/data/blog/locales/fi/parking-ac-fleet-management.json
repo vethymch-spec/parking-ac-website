@@ -2,7 +2,7 @@
   "title": "Kaluston hallinta pysäköintiautomaateilla: Valvonta, huolto ja kustannusten hallinta",
   "date": "2025-10-28",
   "category": "Teollisuus",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management_0aadde9f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-hero.webp",
   "metaDescription": "Tehokas kaluston hallinta pysäköinti-AC:illa on avainasemassa kustannusten hallinnassa.Opi valvonnasta, huollosta ja sijoitetun pääoman tuottoprosentin maksimoimisesta kuorma-autojen vaihtovirtayksiköissä.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": "Usein kysytyt kysymykset",
       "body": "K: Mikä kylmäaine on paras pysäköintiilmastointilaitteisiin?\n\nV: Useimmat nykyaikaiset pysäköinti-AC-yksiköt käyttävät R134a- tai R32-kylmäainetta.R32:ta suositaan yhä enemmän uusissa malleissa sen 67 % pienemmän ilmaston lämpenemispotentiaalin (GWP 675 vs. R410a:n 2 088) ja paremman energiatehokkuuden vuoksi.R134a on edelleen yleinen olemassa olevissa yksiköissä ja tarjoaa todistetusti luotettavuutta.Käytä aina valmistajan määrittelemää kylmäainetta – kylmäaineiden sekoittaminen vahingoittaa järjestelmää.\n\nK: Kuinka usein minun tulee täyttää kylmäainetta?\n\nV: Oikein asennettu ja suljettu järjestelmä ei tarvitse täyttää kylmäainetta 3–5 vuoteen tai pidempään.Jos jäähdytysteho heikkenee merkittävästi kahden ensimmäisen vuoden aikana, epäile vuotoa normaalin häviön sijaan.Pyydä teknikkoa suorittamaan vuototesti ennen kylmäaineen lisäämistä, koska taustalla oleva ongelma vain pahenee ajan myötä.\n\nK: Voinko käyttää pysäköinti-AC:tä ajon aikana?\n\nV: Kyllä, useimmat pysäköinti-AC-yksiköt voivat toimia, kun ajoneuvo on liikkeessä.Itse asiassa, kun pysäköinnin vaihtovirtaa käytetään ajon aikana, laturi voi ladata akkuja samanaikaisesti, mikä tarjoaa tehokkaasti ilmaista jäähdytystä.Maantienopeuksilla ajoneuvon moottorikäyttöinen AC voi kuitenkin olla tehokkaampi.Pysäköintiautomaatit ovat arvokkaimpia pysähdysten, lepotaukojen ja yöpymisen aikana.\n\nK: Mikä takuu minun pitäisi odottaa pysäköinti-AC-yksikölle?\n\nV: Laatuvalmistajat tarjoavat yleensä 1–2 vuoden täyden takuun, joka kattaa osien ja työn, ja pidennetyn kompressoritakuun 3–5 vuodeksi.CoolDrivePro tarjoaa kilpailukykyiset takuuehdot maailmanlaajuisen tuen kanssa.Rekisteröi tuotteesi aina viipymättä ja säilytä todisteet ammattimaisesta asennuksesta, sillä virheellinen asennus on yleinen takuun poissulkeminen.\n\nK: Miten ympäristön lämpötila vaikuttaa pysäköinnin AC suorituskykyyn?\n\nV: Kun ulkolämpötila nousee, jäähdytysteho pienenee ja virrankulutus kasvaa.Ulkolämpötilassa 35 °C (95 °F) yksikkö, jonka teho on 10 000 BTU, voi tuottaa täyden tehonsa.45 °C:ssa (113 °F) sama yksikkö saattaa tuottaa 7 500–8 500 BTU samalla kun se kuluttaa 15–20 % enemmän tehoa.Tästä syystä oikea mitoitus marginaalilla on tärkeää kuuman ilmaston toiminnassa."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Kaluston hallinta pysäköintiautomaateilla: Valvonta, huolto ja kustannusten hallinta",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-detail.webp",
+      "alt": "Kaluston hallinta pysäköintiautomaateilla: Valvonta, huolto ja kustannusten hallinta",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

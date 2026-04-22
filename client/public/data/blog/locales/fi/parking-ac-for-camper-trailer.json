@@ -2,7 +2,7 @@
   "title": "Paras pysäköinti-ilmastointi asuntovaunuille: Katto- ja istuinvaihtoehdot",
   "date": "2025-12-22",
   "category": "Opas",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer_319d2897.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-hero.webp",
   "metaDescription": "Löydä paras pysäköinti-AC asuntovaunujen perävaunuille.Vertailemme katto- ja istuinvaihtoehtoja, virrantarpeita ja todellista suorituskykyä verkon ulkopuolisessa jäähdytyksessä.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Viime kädessä valinta katolla ja istuimen alla olevan pysäköinti-AC:n välillä perustuu raa'an rehelliseen arvioon erityistarpeistasi ja rajoituksistasi.Ei ole taikaluotia.Jos haluat yksinkertaisen asennuksen, älä välitä ylimääräisestä korkeudesta ja haluat säilyttää sisätilan säilytystilan, kattoyksikkö on luultavasti oikea tapa.Se on todistettu malli, joka toimii hyvin suurimmassa osassa perinteisiä pohjapiirroksia.Mutta jos rakennat salakavalaa off-grid -laitteistoa, tarvitset jokaista neliötuumaa kattotilaa aurinkoenergialle ja olet valmis monimutkaisempaan asennukseen, istuimen alla oleva yksikkö tarjoaa uskomattomia etuja aerodynamiikan ja painon jakautumisen suhteen.Olen rakentanut ja leiriytynyt molemmissa kokoonpanoissa, ja molemmissa on loisto- ja turhautumishetkinsä.Tärkeintä on lopettaa \"täydellisen\" järjestelmän etsiminen ja alkaa etsiä järjestelmää, joka sopii parhaiten siihen, miten todella matkustat.Laske virrankulutus, mittaa käytettävissä oleva tila kolme kertaa äläkä aliarvioi hyvien yöunien merkitystä.Kun olet pysäköity keskellä ei mitään, kilometrien päässä lähimmästä liittymästä, luotettavan ilmastointilaitteen humina, joka pitää ohjaamon viileänä, on yksi maailman suloisimmista äänistä."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Paras pysäköinti-ilmastointi asuntovaunuille: Katto- ja istuinvaihtoehdot",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-detail.webp",
+      "alt": "Paras pysäköinti-ilmastointi asuntovaunuille: Katto- ja istuinvaihtoehdot",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,8 +2,8 @@
   "title": "Miksi DC Moottorikäyttöiset ilmastointilaitteet ovat muutoksen RV omistajille",
   "date": "18. helmikuuta 2025",
   "category": "Tekniikka",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "DC moottorikäyttöinen pysäköintiilmastointilaite RV ja puolikuorma-autolle",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "Miksi DC Moottorikäyttöiset ilmastointilaitteet ovat muutoksen RV omistajille",
   "metaDescription": "Ota selvää, miksi DC moottorikäyttöiset ilmastointilaitteet muuttavat RV ja kuorma-autojen jäähdytystä.Opi tehokkuudesta, akkujen yhteensopivuudesta ja parhaista 12V DC pysäköinti-AC-vaihtoehdoista.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Turvallisuusnäkökohdat ja parhaat käytännöt",
       "body": "Pysäköinti-ilmastointilaitteen turvallinen käyttö vaatii huomiota useisiin tärkeisiin tekijöihin, jotka suojaavat sekä ajoneuvon matkustajia että laitteita.Sähköturvallisuus on ensiarvoisen tärkeää: kaikki johdotukset on mitoitettava oikein nykyisen kuormituksen mukaan asianmukaisella sulakkeella.Alimittaiset johdotukset ovat yleisin vaihtovirtaajoneuvojen pysäköintipalojen syy.Käytä aina valmistajan määrittämää tai suurempaa johdinmittaria ja asenna sulake tai virrankatkaisin, jonka arvo on 125 % yksikön enimmäisvirrankulutuksesta 30 cm:n etäisyydelle akun positiivisesta navasta.\n\nAkkujen turvallisuus ansaitsee yhtä huomiota erityisesti litiumpohjaisten akkujen kohdalla.LiFePO4 akut, vaikka ne ovat huomattavasti turvallisempia kuin muut litiumkemiat, vaativat silti laadukkaan BMS:n (Battery Management System), joka tarjoaa ylilataus-, ylipurkaus-, ylivirta- ja lämpösuojan.Varmista, että BMS on mitoitettu pysäköinti-AC-yksikön suurimmalle virrankulutukselle.Älä koskaan sekoita vanhoja ja uusia paristoja pankissa, äläkä koskaan sekoita eri kemikaaleja.Varastoi ja lataa akkuja hyvin ilmastoidussa tilassa.\n\nHiilimonoksidin (CO) turvallisuus on kriittinen etu pysäköinnin vaihtovirtamoottoreissa moottorin joutokäyntiin verrattuna.Moottorin joutokäynti suljetuissa tai puolisuljetuissa tiloissa (pysäköintihallit, lastauslaiturit, suljetut taukotilat) aiheuttaa mahdollisesti tappavan hiilidioksidin kertymisen.Pysäköinti-AC-järjestelmät eivät tuota päästöjä käytön aikana, mikä eliminoi tämän riskin kokonaan.Tämä on erityisen tärkeää makuuohjaamojen kuljettajille, jotka lepäävät ikkunat kiinni.\n\nAsennusturvallisuus on tarkistettava säännöllisesti, erityisesti epätasaisilla teillä ajettavissa ajoneuvoissa.Löysä tai väärin asennettu AC-yksikkö voi tulla ammukseksi onnettomuudessa tai pudota ajoneuvosta kuljetuksen aikana.Tarkista kaikki kiinnitystarvikkeet vähintään neljännesvuosittain ja kiristä pultit valmistajan ohjeiden mukaisesti.Vaihda kaikki laitteet, joissa on merkkejä väsymishalkeilusta tai korroosiosta."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Usein kysytyt kysymykset DC pysäköintiautomaateista — Miksi DC Moottorikäyttöiset ilmastointilaitteet ovat muutoksen RV omistajille",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

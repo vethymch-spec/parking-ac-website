@@ -2,7 +2,7 @@
   "title": "Zarządzanie flotą za pomocą klimatyzacji parkingowych: monitorowanie, konserwacja i kontrola kosztów",
   "date": "2025-10-28",
   "category": "Przemysł",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management_0aadde9f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-hero.webp",
   "metaDescription": "Efektywne zarządzanie flotą za pomocą klimatyzacji parkingowych jest kluczem do kontroli kosztów.Dowiedz się o monitorowaniu, konserwacji i maksymalizacji zwrotu z inwestycji w klimatyzatory do ciężarówek.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": "Często zadawane pytania",
       "body": "P: Jaki czynnik chłodniczy jest najlepszy do klimatyzatorów postojowych?\n\nOdp.: Większość nowoczesnych klimatyzatorów parkingowych wykorzystuje czynnik chłodniczy R134a lub R32.R32 jest coraz częściej preferowany w nowych projektach ze względu na jego o 67% niższy potencjał tworzenia efektu cieplarnianego (GWP wynoszący 675 w porównaniu z 2088 R410a) i wyższą efektywność energetyczną.R134a pozostaje powszechny w istniejących urządzeniach i zapewnia sprawdzoną niezawodność.Zawsze używaj czynnika chłodniczego określonego przez producenta – mieszanie czynników chłodniczych powoduje uszkodzenie układu.\n\nP: Jak często powinienem uzupełniać czynnik chłodniczy?\n\nOdp.: Prawidłowo zainstalowany i uszczelniony system nie powinien wymagać uzupełniania czynnikiem chłodniczym przez 3-5 lat lub dłużej.Jeśli wydajność chłodzenia znacznie spadnie w ciągu pierwszych 2 lat, należy podejrzewać wyciek, a nie normalną utratę.Przed dodaniem czynnika chłodniczego należy zlecić technikowi wykonanie testu szczelności, ponieważ z biegiem czasu problem będzie się tylko pogłębiał.\n\nP: Czy mogę korzystać z klimatyzacji parkingowej podczas jazdy?\n\nOdp.: Tak, większość klimatyzatorów postojowych może działać, gdy pojazd jest w ruchu.W rzeczywistości włączenie klimatyzacji postojowej podczas jazdy umożliwia jednoczesne ładowanie akumulatorów przez alternator, skutecznie zapewniając darmowe chłodzenie.Jednakże przy prędkościach autostradowych klimatyzacja napędzana silnikiem pojazdu może być bardziej wydajna.Klimatyzatory parkingowe są najbardziej przydatne podczas postojów, przerw na odpoczynek i nocnego parkowania.\n\nP: Jakiej gwarancji powinienem się spodziewać na klimatyzator postojowy?\n\nOdp.: Producenci wysokiej jakości zazwyczaj oferują pełną gwarancję na części i robociznę na okres 1–2 lat, z rozszerzoną gwarancją na sprężarkę na okres 3–5 lat.CoolDrivePro zapewnia konkurencyjne warunki gwarancji z globalnym wsparciem.Zawsze szybko zarejestruj swój produkt i zachowaj dowód profesjonalnej instalacji, ponieważ niewłaściwa instalacja stanowi częste wyłączenie z gwarancji.\n\nP: W jaki sposób temperatura otoczenia wpływa na działanie klimatyzacji postojowej?\n\nOdp.: Wraz ze wzrostem temperatury zewnętrznej wydajność chłodzenia maleje, a zużycie energii wzrasta.Przy temperaturze zewnętrznej 35°C (95°F) jednostka o wydajności 10 000 BTU może zapewnić pełną wydajność.W temperaturze 45°C (113°F) to samo urządzenie może dostarczyć 7500–8500 BTU, pobierając 15–20% więcej mocy.Dlatego też w przypadku operacji w gorącym klimacie ważne jest właściwe dobranie rozmiaru z marginesem."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Zarządzanie flotą za pomocą klimatyzacji parkingowych: monitorowanie, konserwacja i kontrola kosztów",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-detail.webp",
+      "alt": "Zarządzanie flotą za pomocą klimatyzacji parkingowych: monitorowanie, konserwacja i kontrola kosztów",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

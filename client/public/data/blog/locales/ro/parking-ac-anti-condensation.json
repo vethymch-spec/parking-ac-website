@@ -2,7 +2,7 @@
   "title": "Prevenirea condensului și deteriorarea apei cu AC de parcare",
   "date": "2025-10-26",
   "category": "Întreținere",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Aflați cum să preveniți condensul de la parcare și daunele cauzate de apă în RV sau camionul dvs., cu sfaturi experți despre instalare, întreținere și controlul umidității.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Un ultim gând: nu subestimați puterea unei bune inspecții înainte de călătorie. Înainte de a porni la drum, în special pentru curse mai lungi sau călătorii în zone cu climă umedă, acordați câteva minute pentru a inspecta vizual componentele exterioare ale AC al parcării.Verificați conductele de scurgere pentru orice blocaje sau daune evidente.Asigurați-vă că unitatea este montată în siguranță și că toate garniturile par intacte.O privire rapidă poate surprinde adesea o problemă potențială înainte de a escalada într-o durere de cap majoră.Am văzut șoferi evitând daune semnificative ale apei doar observând un furtun de scurgere slăbit în timpul unei verificări de rutină. Este un mic obicei care poate aduce profituri uriașe în ceea ce privește prevenirea reparațiilor costisitoare și menținerea integrității interiorului vehiculului dvs. Această abordare proactivă, combinată cu întreținerea regulată și o înțelegere a modului în care funcționează AC parcare, va fi cea mai bună apărare împotriva condensului și vă va informa asupra călătoriei.cât mai confortabil și fără griji posibil.La urma urmei, ai destule griji pe drum; un interior umed nu ar trebui să fie unul dintre ele.Câteva minute de inspecție vă pot economisi zile de frustrare și mii de reparații."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Prevenirea condensului și deteriorarea apei cu AC de parcare",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Prevenirea condensului și deteriorarea apei cu AC de parcare",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

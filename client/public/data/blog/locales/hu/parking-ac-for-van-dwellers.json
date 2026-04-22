@@ -2,7 +2,7 @@
   "title": "Van Dweller Útmutató a parkoláshoz AC: Teljes munkaidős élet a járműben",
   "date": "2025-10-15",
   "category": "Van Life",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Alapvető útmutató a parkoló AC kiválasztásához és telepítéséhez furgonok lakói számára.Maradjon hűvös és kényelmes mobilházában szakértői tippek segítségével.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Szóval, megvan.Az én véleményem arról, hogy miért nem alku tárgya egy jó parkoló AC komoly furgonlakók számára.Nem csak a hőség legyőzéséről van szó;arról szól, hogy javítsa életminőségét az úton, kényelmes, élhető teret biztosítson, bárhová is viszi a kalandja.A megfelelő BTU beállításától kezdve a hatékony 12V DC robusztus LiFePO4 akkumulátorral működő egység kiválasztásáig minden döntés szerepet játszik.Ne feledkezzünk meg a megfelelő vezetékezés és telepítés fontosságáról, és természetesen ne hagyjuk figyelmen kívül a jó szigetelés előnyeit sem.Láttam a különbséget, és őszintén szólva, éjjel és nappal.Ez nem csak egy termék megvásárlásáról szól;a kényelmébe, az alvásába és a kisteherautós élet élvezetébe való befektetésről szól.Szánjon rá időt a rendszerének kutatására, tervezésére és megfelelő telepítésére, és az elkövetkező években élvezheti a hűvös, kényelmes nappalokat és éjszakákat.Ez egy egyszerű és egyszerű változás, amelyet minden főállású furgonlakónak komolyan meg kell fontolnia.Legyen hűvös odakint, emberek, és élvezze a szabad utat."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dweller Útmutató a parkoláshoz AC: Teljes munkaidős élet a járműben",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dweller Útmutató a parkoláshoz AC: Teljes munkaidős élet a járműben",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

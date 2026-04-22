@@ -2,7 +2,7 @@
   "title": "A páralecsapódás és a vízkár megelőzése a parkoló légkondicionálóval",
   "date": "2025-10-26",
   "category": "Karbantartás",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "A telepítéssel, karbantartással és páratartalom-szabályozással kapcsolatos szakértői tippek segítségével megtudhatja, hogyan előzheti meg a parkoló AC kondenzációját és a vízkárokat a RV vagy teherautójában.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Egy utolsó gondolat: ne becsülje alá egy jó utazás előtti ellenőrzés erejét. Mielőtt útnak indulna, különösen hosszabb távok vagy párás éghajlatú utakon, szánjon néhány percet a parkoló AC külső alkatrészeinek szemrevételezésére.Ellenőrizze a lefolyóvezetékeket, hogy nincsenek-e látható eltömődések vagy sérülések.Győződjön meg arról, hogy az egység biztonságosan fel van szerelve, és minden tömítés sértetlennek tűnik.Egy gyors pillantás gyakran elkaphat egy lehetséges problémát, mielőtt az komoly fejfájássá fajulna.Láttam, hogy a sofőrök elkerülik a jelentős vízkárokat pusztán azzal, hogy a rutinellenőrzés során észreveszik a meglazult lefolyótömlőt. Ez egy kis szokás, amely hatalmas megtérülést jelent a költséges javítások megelőzése és a jármű belsejének épségének megőrzése terén. Ez a proaktív megközelítés, rendszeres karbantartással és a parkolási klíma működésének megértésével kombinálva, a legjobb védekezés a páralecsapódás és a vízkárok ellen.lehetőleg gondtalanul.Végtére is, van miért aggódnia az úton; a nedves belső tér nem tartozhat ezek közé.Néhány perces ellenőrzés napokig tartó frusztrációtól és több ezer javítástól takaríthat meg."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "A páralecsapódás és a vízkár megelőzése a parkoló légkondicionálóval",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "A páralecsapódás és a vízkár megelőzése a parkoló légkondicionálóval",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

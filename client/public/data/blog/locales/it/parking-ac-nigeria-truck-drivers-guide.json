@@ -2,7 +2,7 @@
   "title": "Guida al parcheggio dell'aria condizionata per i camionisti nigeriani: sconfiggere il caldo da Lagos a Kano",
   "date": "2025-12-01",
   "category": "Guide regionali",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-truck-drivers_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-truck-drivers-guide-hero.webp",
   "metaDescription": "Guida completa ai condizionatori da parcheggio per i camionisti nigeriani.Scopri come mantenere la calma durante i lunghi viaggi nel caldo estremo della Nigeria, dall'umida Lagos alla torrida Kano.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Domande frequenti sui condizionatori da parcheggio",
       "body": "D: Per quanto tempo può funzionare un condizionatore da parcheggio con le sole batterie?\n\nR: L'autonomia dipende dalla capacità della batteria, dal consumo di energia CA e dalla temperatura ambiente.Un tipico AC da parcheggio 24V che assorbe 40-60 A all'ora può funzionare per 8-12 ore con un banco di batterie LiFePO4 da 200 Ah.Nel caldo estremo della Nigeria, l'autonomia potrebbe essere inferiore del 10-15% a causa dei cicli di lavoro più elevati del compressore.L'aggiunta di pannelli solari (200-400 W) può prolungare significativamente l'autonomia diurna.\n\nD: Posso installare da solo un condizionatore da parcheggio o ho bisogno di un professionista?\n\nR: Mentre gli installatori fai-da-te esperti possono gestire il montaggio meccanico e il cablaggio di base, si consiglia l'installazione professionale per i collegamenti del refrigerante (sistemi split) e l'integrazione elettrica con il sistema esistente del veicolo.Un'installazione impropria invalida la maggior parte delle garanzie e può creare rischi di incendio a causa di cavi sottodimensionati.\n\nD: Qual è la differenza tra un condizionatore sul tetto e un condizionatore da parcheggio a sistema diviso?\n\nR: Le unità rooftop (tutto in uno) contengono tutti i componenti in un unico alloggiamento montato sul tetto del veicolo.Sono più semplici da installare ma possono aggiungere altezza che influisce sullo spazio libero sotto i ponti o nei parcheggi.I sistemi split separano il compressore/condensatore (montato all'esterno) dall'evaporatore (montato all'interno), offrendo opzioni di installazione più flessibili e un funzionamento interno potenzialmente più silenzioso.CoolDrivePro offre entrambe le configurazioni per adattarsi ai diversi tipi di veicoli e alle preferenze dell'utente.\n\nD: Quanto carburante fa risparmiare un condizionatore da parcheggio rispetto al motore al minimo?\n\nR: Il motore al minimo per l'aria condizionata consuma circa 0,8-1,5 litri di gasolio all'ora.Un condizionatore da parcheggio alimentato a batteria costa essenzialmente zero carburante durante il funzionamento (la ricarica della batteria avviene durante la guida).Per un conducente che riposa 8 ore al giorno, ciò consente di risparmiare 6-12 litri di carburante al giorno, ovvero circa 2.000-4.000 dollari all'anno a seconda dei prezzi locali del carburante.L'unità AC per il parcheggio in genere si ammortizza entro 6-12 mesi grazie al solo risparmio di carburante.\n\nD: I condizionatori da parcheggio funzionano in condizioni estremamente umide?\n\nR: Sì, i moderni sistemi di climatizzazione da parcheggio deumidificano efficacemente l'aria dell'abitacolo come parte del processo di raffreddamento.La serpentina dell'evaporatore condensa l'umidità dell'aria, che viene drenata attraverso la linea della condensa.Nelle regioni molto umide, assicurarsi che lo scarico sia pulito e prendere in considerazione unità con modalità di deumidificazione potenziate.Le unità CoolDrivePro sono testate per funzionare con livelli di umidità fino al 95% di umidità relativa."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Guida al parcheggio dell'aria condizionata per i camionisti nigeriani: sconfiggere il caldo da Lagos a Kano",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-truck-drivers-guide-detail.webp",
+      "alt": "Guida al parcheggio dell'aria condizionata per i camionisti nigeriani: sconfiggere il caldo da Lagos a Kano",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

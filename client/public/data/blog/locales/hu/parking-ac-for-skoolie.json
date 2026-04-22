@@ -2,7 +2,7 @@
   "title": "Parkoló klíma Skoolie átalakításokhoz: iskolabusz otthonának hűtése az úton",
   "date": "2025-11-15",
   "category": "Specialitás",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "Legyen hűvös a skoolie az úton!Fedezze fel a hatékony parkolási AC megoldásokat iskolabusz-átalakításokhoz, biztosítva a kényelmet és az energiamegtakarítást.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Végső soron a megfelelő parkolási klíma kiválasztása a skoolie átalakításához a kényelem, a hatékonyság és az Ön sajátos életmódjának egyensúlyát jelenti.Ez nem egy mindenki számára megfelelő megoldás, és őszintén szólva, aki mást mond, valószínűleg nem töltött sok időt az úton.Első kézből láttam ezeknek a rendszereknek az evolúcióját, a makacs, energiaéhes egységektől a karcsú, hatékony 12V DC modellekig.A minőségi rendszerbe történő befektetés, valamint a jól megtervezett napelem- és akkumulátor-beállítás megtérül a kényelem, a szabadság és a nyugalom terén.Képes lesz üldözni a napot, vagy menekülni a hőség elől, tudván, hogy mobilháza mindig hűvös oázis lesz.Ne kössön kompromisszumot a kényelmét illetően;ez teszi valósággá a skoolie álmát.Szánjon időt a kutatásra, tervezésre és okos befektetésre, és élvezheti a hűvös szellőt, bárhová is visz az út.Végül is ez az otthona, és megérdemli, hogy kényelmes legyen."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkoló klíma Skoolie átalakításokhoz: iskolabusz otthonának hűtése az úton",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "Parkoló klíma Skoolie átalakításokhoz: iskolabusz otthonának hűtése az úton",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

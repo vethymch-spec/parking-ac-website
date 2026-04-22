@@ -2,7 +2,7 @@
   "title": "Guía de Van Dweller para estacionar aire acondicionado: vivir a tiempo completo en su vehículo",
   "date": "2025-10-15",
   "category": "vida en furgoneta",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Guía esencial para elegir e instalar aire acondicionado de estacionamiento para usuarios de furgonetas.Manténgase fresco y cómodo en su casa móvil con los consejos de expertos.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Entonces ahí lo tienes.Mi opinión sobre por qué un buen aire acondicionado para estacionamiento no es negociable para los usuarios serios de camionetas.No se trata sólo de combatir el calor;se trata de mejorar tu calidad de vida en la carretera, garantizando que tengas un espacio cómodo y habitable sin importar a dónde te lleven tus aventuras.Desde comprender el BTU correcto para su configuración hasta elegir una unidad 12V DC eficiente alimentada por un robusto banco de baterías LiFePO4, cada decisión influye.No olvide la importancia de un cableado y una instalación adecuados y, desde luego, no pase por alto los beneficios de un buen aislamiento.He visto la diferencia que hace y, sinceramente, es el día y la noche.No se trata sólo de comprar un producto;se trata de invertir en su comodidad, su sueño y su disfrute general de la vida en la camioneta.Tómese el tiempo para investigar, planificar e instalar su sistema correctamente y podrá disfrutar de días y noches frescos y cómodos durante muchos años.Es un cambio de juego, simple y llanamente, y uno que todo habitante de una camioneta a tiempo completo debería considerar seriamente.Manténganse tranquilos y disfruten del camino abierto."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Guía de Van Dweller para estacionar aire acondicionado: vivir a tiempo completo en su vehículo",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Guía de Van Dweller para estacionar aire acondicionado: vivir a tiempo completo en su vehículo",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

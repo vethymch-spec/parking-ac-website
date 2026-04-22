@@ -2,7 +2,7 @@
   "title": "Klimatyzacja postojowa dla pojazdów lądowych: chłodzenie terenowe bez zasilania z lądu",
   "date": "2025-10-26",
   "category": "Specjalność",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles_1380763c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-hero.webp",
   "metaDescription": "Odkryj, w jaki sposób klimatyzacja parkingowa dla pojazdów lądowych zapewnia chłodzenie w terenie bez zasilania z lądu, zwiększając komfort i bezpieczeństwo podczas odległych przygód.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Jeśli więc poważnie myślisz o podróżach lądowych i chcesz przedłużyć swój komfortowy pobyt w odległych lokalizacjach, dedykowany system klimatyzacji parkingowej to inwestycja, której nie będziesz żałować.To rewolucja w zakresie komfortu poza siecią, pozwalająca odkrywać dalej i lepiej odpoczywać.Technologia jest już dostępna, jest sprawdzona i gotowa odmienić Twoje doświadczenia związane z lądowaniem.Nie pozwól, aby upał przerwał Twoje przygody;przyjmij chłodną rewolucję.Swoboda odkrywania bez utraty komfortu jest teraz bardziej dostępna niż kiedykolwiek dzięki tym zaawansowanym rozwiązaniom chłodzącym.Chodzi o to, aby ulepszyć swoją podróż, a nie tylko ją przetrwać.Dzięki odpowiedniej konfiguracji przekonasz się, że chłodzenie w terenie bez zasilania z lądu to nie tylko marzenie, to rzeczywistość, która podnosi poziom każdej przygody, sprawiając, że każda chwila na szlaku staje się przyjemniejsza, a sen każdej nocy bardziej regenerujący.Chodzi o inwestowanie w swoją pasję i maksymalne wykorzystanie każdego kilometra, aby przy każdym wschodzie słońca byłbyś wypoczęty i gotowy na nowe horyzonty.To zaangażowanie w komfort i możliwości naprawdę na nowo definiuje to, co jest możliwe, gdy odważysz się oddalić od utwardzonej drogi, dzięki czemu każda podróż stanie się niezapomnianym przeżyciem."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Klimatyzacja postojowa dla pojazdów lądowych: chłodzenie terenowe bez zasilania z lądu",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-detail.webp",
+      "alt": "Klimatyzacja postojowa dla pojazdów lądowych: chłodzenie terenowe bez zasilania z lądu",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

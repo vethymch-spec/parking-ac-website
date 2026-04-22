@@ -2,7 +2,7 @@
   "title": "Předcházení kondenzaci a poškození vodou s vaší parkovací klimatizací",
   "date": "2025-10-26",
   "category": "Údržba",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Naučte se, jak zabránit kondenzaci klimatizačního zařízení při parkování a poškození vody ve vašem RV nebo nákladním automobilu, s odbornými tipy na instalaci, údržbu a kontrolu vlhkosti.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Jedna myšlenka na závěr: „nepodceňujte sílu dobré kontroly před jízdou. Než vyrazíte na cestu, zejména při delších trasách nebo výletech do vlhkého podnebí, věnujte několik minut vizuální kontrole vnějších součástí vašeho parkovacího AC.Zkontrolujte odtokové potrubí, zda není zjevně ucpané nebo poškozené.Ujistěte se, že je jednotka bezpečně namontována a že všechna těsnění vypadají neporušená.Rychlý pohled může často zachytit potenciální problém dříve, než přeroste do velké bolesti hlavy.Viděl jsem, jak se řidiči vyhýbají značnému poškození vodou jen tím, že si během rutinní kontroly všimnou uvolněné vypouštěcí hadice. Je to malý zvyk, který může přinést obrovské zisky, pokud jde o předcházení nákladným opravám a zachování integrity interiéru vašeho vozidla. Tento proaktivní přístup v kombinaci s pravidelnou údržbou a pochopením toho, jak vaše parkovací klimatizace funguje, bude vaší nejlepší obranou proti kondenzaci a poškození vodou. Je to vše o tom, abyste byli připraveni a bez starostí.Koneckonců, na cestách máte dost starostí, vlhký interiér by mezi ně neměl patřit.Několik minut kontroly vám může ušetřit dny frustrace a tisíce oprav."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Předcházení kondenzaci a poškození vodou s vaší parkovací klimatizací",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Předcházení kondenzaci a poškození vodou s vaší parkovací klimatizací",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

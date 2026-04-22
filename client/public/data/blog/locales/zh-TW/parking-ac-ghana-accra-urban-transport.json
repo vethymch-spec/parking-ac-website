@@ -3,8 +3,8 @@
   "title": "阿克拉城市交通駐車空調：改造加納商用車隊",
   "date": "2026-03-31",
   "category": "車隊應用",
-  "image": "/images/blog/accra-urban-transport.jpg",
-  "imageAlt": "在阿克拉城市交通網絡中運行的配備 CoolDrivePro 駐車空調系統的商用車",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-hero.webp",
+  "imageAlt": "阿克拉城市交通駐車空調：改造加納商用車隊",
   "metaDescription": "了解駐車空調如何徹底改變加納阿克拉的城市交通。CoolDrivePro 的 DC 驅動的冷卻解決方案可解決西非商用車業者面臨的高溫挑戰。",
   "content": [
     {
@@ -50,6 +50,17 @@
     {
       "heading": "結論：加納交通的新時代",
       "body": "阿克拉城市交通部門透過採用駐車空調等技術實現轉型，這是加納更廣泛的經濟和社會發展故事的重要篇章。隨著該國鞏固其作為西非最具活力的經濟體以及民主、治理和商業友好政策的區域領導者的地位，其城市基礎設施和服務的品質日益反映了其在全球舞台上的願望。對於每天運送數百萬加納人的商用車營運商來說，對駐車空調技術的投資帶來了切實的好處，可以提高盈利能力、提高服務品質、支持駕駛員福利並體現環境責任，同時為乘客提供他們在現代化、進步的非洲城市所期望的舒適度。CoolDrivePro 很榮幸能夠透過可靠、高效的冷卻解決方案以及不斷壯大的加納專業團隊提供的全面技術支援來支持加納的交通現代化。隨著阿克拉繼續取得顯著的成長和發展，技術提供者、交通運營商和前瞻性的政策制定者之間的合作關係將決定該城市能夠以多快的速度實現成為世界級城市中心的願景，為所有居民提供繁榮、機會和生活品質。駐車空調似乎只是這個更大難題的一小部分，但對於每天體驗其好處的司機和乘客來說，它代表了城市生活品質的有意義的改善，為加納的成功做出了更大的貢獻。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 5,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-driver-welfare-and-retention-in-ghana-s-.webp",
+      "alt": "加納交通部門的司機福利和保留 — 阿克拉城市交通駐車空調：改造加納商用車隊",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

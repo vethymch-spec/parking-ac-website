@@ -2,7 +2,7 @@
   "title": "Aire acondicionado para remolques de coches de carreras y transportes de deportes de motor",
   "date": "2025-10-26",
   "category": "Especialidad",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers_83a81a87.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-hero.webp",
   "metaDescription": "Mantenga a su tripulación y equipo en óptimas condiciones con el aire acondicionado adecuado para el remolque de su auto de carreras.Descubra por qué es imprescindible para los equipos de deportes de motor serios.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Entonces, si tomas en serio tu programa de carrera, si estás invirtiendo mucho en tu equipo y tu equipo, entonces pasar por alto el control climático de tu camión es un error que no puedes permitirte cometer.He visto la diferencia que esto hace, desde tripulaciones más felices y productivas hasta equipos mejor conservados y, en última instancia, mejores resultados en las carreras.No se trata sólo de comodidad;se trata de ventaja competitiva.Ya sea que sea un equipo profesional experimentado o un aspirante a aficionado, un sistema de aire acondicionado de estacionamiento bien diseñado e instalado correctamente es un componente crítico para una operación exitosa en un deporte de motor.Es una inversión en confiabilidad, rendimiento y bienestar de todos los involucrados.No permita que su arduo trabajo literalmente se derrita con el calor.Tómese el tiempo para investigar, comprender los detalles técnicos y elegir un sistema que le resulte útil en los años venideros.Tu equipo, tu equipamiento y los resultados de tu carrera te lo agradecerán.Créame en este caso;Estuve allí, hice eso y vi las consecuencias de tomar atajos.Hazlo bien y obtendrás las recompensas."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Aire acondicionado para remolques de coches de carreras y transportes de deportes de motor",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-detail.webp",
+      "alt": "Aire acondicionado para remolques de coches de carreras y transportes de deportes de motor",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

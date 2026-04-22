@@ -2,7 +2,7 @@
   "title": "Akkumulátorkezelő rendszerek (BMS) parkoló váltóáramhoz: teljes útmutató",
   "date": "2026-02-15",
   "category": "Technológia",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system_2b8a406c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system-hero.webp",
   "metaDescription": "Használja ki a parkoló AC teljes potenciálját egy robusztus akkumulátor-kezelő rendszerrel (BMS).Ez az útmutató mindent tartalmaz, amit az optimális teljesítmény eléréséhez tudnia kell.",
   "content": [
     {
@@ -72,6 +72,18 @@
     {
       "heading": "Gyakran Ismételt Kérdések",
       "body": "K: Melyik hűtőközeg a legjobb parkolóklímákhoz?\n\nV: A legtöbb modern parkoló AC egység R134a vagy R32 hűtőközeget használ.Az R32-t egyre inkább előnyben részesítik az új konstrukciókban, 67%-kal alacsonyabb globális felmelegedési potenciálja (675 GWP, szemben az R410a 2088-as értékével) és magasabb energiahatékonysága miatt.Az R134a továbbra is gyakori a meglévő egységekben, és bizonyítottan megbízható.Mindig a gyártó által előírt hűtőközeget használja – a hűtőközegek keverése károsítja a rendszert.\n\nK: Milyen gyakran kell utántölteni a hűtőközeget?\n\nV: A megfelelően telepített és lezárt rendszerben 3-5 évig vagy tovább nem kell hűtőközeg-utántöltést végezni.Ha a hűtési teljesítmény jelentősen romlik az első 2 évben, inkább szivárgásra gyanakodjon, mint normál veszteségre.A hűtőközeg egyszerű hozzáadása előtt végeztessen szivárgási tesztet egy technikussal, mivel a mögöttes probléma idővel csak súlyosbodik.\n\nK: Használhatok parkoló AC-t vezetés közben?\n\nV: Igen, a legtöbb parkoló AC egység működhet, miközben a jármű mozgásban van.Valójában a parkoló AC működtetése vezetés közben lehetővé teszi, hogy a generátor egyidejűleg töltse fel az akkumulátorokat, hatékonyan biztosítva a szabad hűtést.Autópálya sebességnél azonban a jármű motor által hajtott váltakozó árama hatékonyabb lehet.A parkolóhelyiségek a legértékesebbek a megállások, pihenőidő és éjszakai parkolás idején.\n\nK: Milyen garanciára számíthatok egy parkoló AC egységre?\n\nV: A minőségi gyártók általában 1-2 éves teljes körű garanciát kínálnak az alkatrészekre és a munkára, a kompresszorokra pedig 3-5 évre kiterjesztett garanciát vállalnak.A CoolDrivePro versenyképes jótállási feltételeket biztosít globális támogatással.Mindig azonnal regisztrálja termékét, és őrizze meg a szakszerű telepítés igazolását, mivel a nem megfelelő telepítés a garancia általános kizárása.\n\nK: Hogyan befolyásolja a környezeti hőmérséklet a parkoló AC teljesítményét?\n\nV: A külső hőmérséklet emelkedésével csökken a hűtési kapacitás, és nő az energiafogyasztás.35°C-on (95°F) kültéri hőmérsékleten a 10 000 BTU névleges egység teljesítheti teljes kapacitását.45°C-on (113°F) ugyanez az egység 7500-8500 BTU teljesítményt is leadhat, miközben 15-20%-kal több energiát fogyaszt.Ezért fontos a megfelelő méretezés margóval a meleg éghajlatú műveleteknél."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Akkumulátorkezelő rendszerek (BMS) parkoló váltóáramhoz: teljes útmutató",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system-detail.webp",
+      "alt": "Akkumulátorkezelő rendszerek (BMS) parkoló váltóáramhoz: teljes útmutató",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

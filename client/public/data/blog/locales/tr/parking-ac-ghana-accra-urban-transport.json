@@ -3,8 +3,8 @@
   "title": "Akra Kentsel Ulaşım için Otopark İklimlendirmesi: Gana'nın Ticari Araç Filosunu Dönüştürüyor",
   "date": "2026-03-31",
   "category": "Filo Uygulamaları",
-  "image": "/images/blog/accra-urban-transport.jpg",
-  "imageAlt": "Accra'nın kentsel ulaşım ağında faaliyet gösteren CoolDrivePro park klima sistemleriyle donatılmış ticari araçlar",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-hero.webp",
+  "imageAlt": "Akra Kentsel Ulaşım için Otopark İklimlendirmesi: Gana'nın Ticari Araç Filosunu Dönüştürüyor",
   "metaDescription": "Otopark klimasının Accra, Gana'da kentsel ulaşımda nasıl devrim yarattığını keşfedin.CoolDrivePro'nin DC destekli soğutma çözümleri, Batı Afrika'nın ticari araç operatörlerine yönelik ısı zorluklarını ele alıyor.",
   "content": [
     {
@@ -50,6 +50,17 @@
     {
       "heading": "Sonuç: Ganalı Taşımacılıkta Yeni Bir Dönem",
       "body": "Accra'nın kentsel ulaşım sektörünün, otopark iklimlendirmesi de dahil olmak üzere teknolojinin benimsenmesi yoluyla dönüşümü, Gana'nın daha geniş ekonomik ve sosyal kalkınma hikayesinde önemli bir bölümü temsil ediyor.Ülke, Batı Afrika'nın en dinamik ekonomisi ve demokrasi, yönetişim ve iş dostu politikalarda bölgesel lider konumunu pekiştirirken, kentsel altyapısının ve hizmetlerinin kalitesi, küresel sahnedeki isteklerini giderek daha fazla yansıtıyor.Her gün milyonlarca Ganalıyı hareket ettiren ticari araç operatörleri için park klima teknolojisine yapılan yatırım, yolculara modern, ilerici bir Afrika şehrinden bekledikleri konforu sağlarken, karlılığı artıran, hizmet kalitesini artıran, sürücünün refahını destekleyen ve çevresel sorumluluğu gösteren somut faydalar sağlıyor.CoolDrivePro, Ganalı profesyonellerden oluşan büyüyen bir ekip tarafından sağlanan güvenilir, verimli soğutma çözümleri ve kapsamlı teknik destek aracılığıyla Gana'nın ulaşım modernizasyonunu desteklemekten onur duyar.Accra dikkat çekici büyüme ve gelişimini sürdürürken, teknoloji sağlayıcıları, ulaşım operatörleri ve ileriye dönük politika yapıcılar arasındaki ortaklık, şehrin tüm sakinlerine refah, fırsat ve yaşam kalitesi sunan birinci sınıf bir şehir merkezi olma vizyonuna ne kadar hızlı ulaşabileceğini belirleyecek.Park kliması bu büyük yapbozun küçük bir parçası gibi görünebilir, ancak faydalarını her gün deneyimleyen sürücüler ve yolcular için kentsel yaşam kalitesinde, Gana'nın daha büyük başarı öyküsüne katkıda bulunan anlamlı bir iyileşmeyi temsil ediyor."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 5,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-driver-welfare-and-retention-in-ghana-s-.webp",
+      "alt": "Gana Ulaştırma Sektöründe Sürücü Refahı ve Elde Tutma — Akra Kentsel Ulaşım için Otopark İklimlendirmesi: Gana'nın Ticari Araç Filosunu Dönüştürüyor",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

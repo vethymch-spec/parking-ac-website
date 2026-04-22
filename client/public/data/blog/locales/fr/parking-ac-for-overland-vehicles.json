@@ -2,7 +2,7 @@
   "title": "Climatisation de stationnement pour véhicules terrestres : refroidissement hors route sans alimentation à quai",
   "date": "2025-10-26",
   "category": "Spécialité",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles_1380763c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-hero.webp",
   "metaDescription": "Découvrez comment Parking AC pour véhicules terrestres fournit un refroidissement hors route sans alimentation à quai, améliorant ainsi le confort et la sécurité lors de vos aventures à distance.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Donc, si vous envisagez sérieusement de voyager par voie terrestre et que vous souhaitez prolonger vos séjours confortables dans des endroits éloignés, un système de climatisation de stationnement dédié est un investissement que vous ne regretterez pas.Cela change la donne en matière de confort hors réseau, vous permettant d'explorer davantage et de mieux vous reposer.La technologie est là, elle a fait ses preuves et elle est prête à transformer votre expérience terrestre.Ne laissez pas la chaleur écourter vos aventures ;Embrassez la révolution cool.La liberté d'explorer sans sacrifier le confort est désormais plus accessible que jamais, grâce à ces solutions de refroidissement avancées.Il s'agit d'améliorer votre voyage, pas seulement de le supporter.Avec la bonne configuration, vous constaterez que le refroidissement hors route sans alimentation à quai n'est pas seulement un rêve, c'est une réalité qui élève chaque aventure, rendant chaque instant sur le sentier plus agréable et chaque nuit de sommeil plus réparatrice.Il s'agit d'investir dans votre passion et de tirer le meilleur parti de chaque kilomètre parcouru, en veillant à ce que chaque lever de soleil vous trouve rafraîchi et prêt pour de nouveaux horizons.Cet engagement en faveur du confort et des capacités redéfinit véritablement ce qui est possible lorsque vous vous aventurez loin des routes pavées, faisant de chaque voyage une expérience inoubliable."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Climatisation de stationnement pour véhicules terrestres : refroidissement hors route sans alimentation à quai",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-detail.webp",
+      "alt": "Climatisation de stationnement pour véhicules terrestres : refroidissement hors route sans alimentation à quai",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

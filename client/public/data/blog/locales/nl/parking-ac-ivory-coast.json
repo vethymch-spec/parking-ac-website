@@ -2,7 +2,7 @@
   "title": "Betrouwbare vrachtwagenkoelingsoplossingen voor de transportsector van Ivoorkust",
   "date": "2025-12-10",
   "category": "Regionale gidsen",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Ontdek betrouwbare oplossingen voor vrachtwagenkoeling voor de groeiende transportsector van Ivoorkust.Ontdek hoe parkeerairconditioners de veiligheid van chauffeurs en de operationele efficiëntie in het logistieke knooppunt van West-Afrika verbeteren.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Veiligheidsoverwegingen en beste praktijken",
       "body": "Om een parkeerairconditioner veilig te kunnen gebruiken, is aandacht nodig voor een aantal belangrijke factoren die zowel de inzittenden van het voertuig als de uitrusting beschermen.Elektrische veiligheid staat voorop: alle bedrading moet de juiste afmetingen hebben voor de huidige belasting en de juiste zekering hebben.Ondermaatse bedrading is de belangrijkste oorzaak van parkeer-AC-gerelateerde voertuigbranden.Gebruik altijd de door de fabrikant gespecificeerde draaddikte of groter, en installeer een zekering of stroomonderbreker met een vermogen van 125% van de maximale stroomopname van het apparaat binnen 30 cm van de positieve pool van de accu.\n\nBatterijveiligheid verdient evenveel aandacht, vooral bij lithiumbatterijen.Hoewel LiFePO4-batterijen aanzienlijk veiliger zijn dan andere lithiumverbindingen, vereisen ze nog steeds een kwalitatief hoogstaand BMS (Battery Management System) dat overbelasting, overontlading, overstroom en thermische bescherming biedt.Zorg ervoor dat het GBS geschikt is voor het maximale stroomverbruik van uw parkeerairco.Meng nooit oude en nieuwe batterijen in een bank, en meng nooit verschillende chemie.Bewaar en laad batterijen op in goed geventileerde ruimtes.\n\nDe veiligheid van koolmonoxide (CO) is een cruciaal voordeel van parkeer-AC's ten opzichte van stationair draaiende motor.Als de motor stationair draait in afgesloten of halfgesloten ruimten (parkeergarages, laadkades, afgesloten rustruimtes) ontstaat er potentieel dodelijke CO-ophoping.AC-systemen voor parkeren produceren tijdens bedrijf geen uitstoot, waardoor dit risico volledig wordt geëlimineerd.Dit is vooral belangrijk voor chauffeurs van slaapcabines die rusten met gesloten ramen.\n\nDe montageveiligheid moet regelmatig worden gecontroleerd, vooral bij voertuigen die op ruige wegen rijden.Een losse of onjuist gemonteerde AC-unit kan bij een ongeval een projectiel worden of tijdens het vervoer uit het voertuig vallen.Controleer al het bevestigingsmateriaal minstens elk kwartaal en draai de bouten opnieuw aan volgens de specificaties van de fabrikant.Vervang alle hardware die tekenen van vermoeidheidsscheuren of corrosie vertoont."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Betrouwbare vrachtwagenkoelingsoplossingen voor de transportsector van Ivoorkust",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Betrouwbare vrachtwagenkoelingsoplossingen voor de transportsector van Ivoorkust",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

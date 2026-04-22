@@ -2,7 +2,7 @@
   "title": "Zapobieganie kondensacji i uszkodzeniom spowodowanym przez wodę dzięki klimatyzacji parkingowej",
   "date": "2025-10-26",
   "category": "Konserwacja",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Dowiedz się, jak zapobiegać kondensacji prądu przemiennego podczas parkowania i uszkodzeniom spowodowanym przez wodę w RV lub ciężarówce, korzystając ze wskazówek ekspertów dotyczących instalacji, konserwacji i kontroli wilgotności.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "I ostatnia myśl: nie lekceważ potęgi dobrego przeglądu przed podróżą. Zanim wyruszysz w drogę, zwłaszcza w przypadku dłuższych tras lub wyjazdów w wilgotny klimat, poświęć kilka minut na wzrokową kontrolę zewnętrznych elementów klimatyzacji parkingowej.Sprawdź przewody spustowe pod kątem widocznych blokad lub uszkodzeń.Upewnij się, że urządzenie jest bezpiecznie zamontowane i że wszystkie uszczelki wyglądają na nienaruszone.Szybkie spojrzenie często pozwala wykryć potencjalny problem, zanim przerodzi się on w poważny ból głowy.Widziałem, jak kierowcy unikają znacznych szkód spowodowanych przez wodę po prostu zauważając luźny wąż spustowy podczas rutynowej kontroli. To niewielki nawyk, który może przynieść ogromne korzyści w postaci zapobiegania kosztownym naprawom i utrzymywania integralności wnętrza pojazdu. To proaktywne podejście, w połączeniu z regularną konserwacją i zrozumieniem, jak działa klimatyzacja postojowa, będzie najlepszą obroną przed kondensacją i szkodami spowodowanymi przez wodę. Najważniejsze jest, aby być przygotowanym i poinformowanym, aby Twoja podróż była jak najbardziej komfortowa i bezproblemowa.W końcu masz wystarczająco dużo zmartwień w drodze; wilgotne wnętrze nie powinno być jednym z nich.Kilka minut przeglądu może zaoszczędzić dni frustracji i tysięcy napraw."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Zapobieganie kondensacji i uszkodzeniom spowodowanym przez wodę dzięki klimatyzacji parkingowej",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Zapobieganie kondensacji i uszkodzeniom spowodowanym przez wodę dzięki klimatyzacji parkingowej",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

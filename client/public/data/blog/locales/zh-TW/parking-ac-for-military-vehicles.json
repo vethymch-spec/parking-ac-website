@@ -2,7 +2,7 @@
   "title": "軍用車輛駐車空調：戰術冷卻解決方案",
   "date": "2026-02-15",
   "category": "專業",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "了解駐車空調在軍用車輛中的關鍵作用，為極端條件下的人員和敏感電子設備提供戰術冷卻。",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "總之，軍用車輛駐車空調的發展是一個從簡單的舒適性到關鍵的戰術優勢的迷人旅程。在這個領域，創新是由極端需求驅動的，每個 BTU、每一分貝和每一瓦特都很重要。從保護敏感電子設備到確保士兵的福祉，這些系統在現代軍事行動中發揮著不可或缺的作用。對穩健、高效和隱形冷卻解決方案的投資不僅僅是為了保持涼爽，而是為了保持涼爽。這是關於保持高效、保持安全並最終保持領先。我的朋友們，這就是戰術冷卻的現實。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "軍用車輛駐車空調：戰術冷卻解決方案",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "軍用車輛駐車空調：戰術冷卻解決方案",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

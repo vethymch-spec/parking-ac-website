@@ -2,7 +2,7 @@
   "title": "Parkoló klíma a rendőrség és a rendészeti járművek számára: K9 és tiszti biztonság",
   "date": "2025-11-20",
   "category": "Specialitás",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles_ce516d89.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles-hero.webp",
   "metaDescription": "Kulcsfontosságú a K9 és a tisztek biztonságának biztosítása a rendvédelmi járművek megbízható parkoló AC segítségével.Tudja meg, miért nem alkuképes befektetés.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Gyakran Ismételt Kérdések",
       "body": "K: Milyen hangos a parkoló klíma?\n\nV: A minőségi parkoló AC egységek beltéri zajszintje 45-58 dB(A), ami nagyjából megfelel egy csendes irodai vagy enyhe esőzésnek.A CoolDrivePro egységek fejlett hangcsillapító kompresszortartókat és optimalizált ventilátorlapát-kialakítást tartalmaznak a zaj minimalizálása érdekében, így kényelmes alvási körülményeket biztosítanak.\n\nK: A parkoló AC lemeríti az indító akkumulátoraimat?\n\nV: A megfelelően telepített rendszerek az indítóakkumulátoroktól különálló, dedikált segédakkumulátor-készletet használnak, vagy kisfeszültségű megszakítót tartalmaznak, amely megvédi az indítóakkumulátorokat attól, hogy a motor indításához szükséges küszöb alatt lemerüljenek.Soha ne csatlakoztasson parkoló AC-t közvetlenül az indítóakkumulátorokhoz megfelelő szigetelés nélkül.\n\nK: A parkoló klímaberendezések is biztosíthatnak fűtést?\n\nV: Sok modern parkoló AC egység tartalmaz hőszivattyú funkciót, amely megfordítja a hűtési ciklust a fűtés biztosítása érdekében.Ez enyhe hideg körülmények között (kb. -5°C/23°F külső hőmérsékletig) hatásos.Extrém hideg esetén kiegészítő elektromos vagy dízel fűtésre lehet szükség.A CoolDrivePro fűtő-hűtéses modelljei mindkét üzemmódot egyetlen egységben kínálják.\n\nK: Mennyi a parkoló AC egység élettartama?\n\nV: Megfelelő telepítéssel és rendszeres karbantartással a minőségi parkoló AC egységnek 5-10 évig vagy körülbelül 10 000-20 000 üzemóráig kell működnie.A kompresszor jellemzően a leghosszabb élettartamú alkatrész, míg a ventilátormotorokat és a vezérlőpaneleket 5-7 év elteltével cserére lehet szükség, az üzemi körülményektől és a porterheléstől függően.\n\nK: Megéri beruházni egy drágább egységbe?\n\nV: Általában igen.A prémium egységek hatékonyabb kompresszorokkal (alacsonyabb energiafogyasztás = hosszabb akkumulátor-üzemidő), jobb építési minőséggel (hosszabb élettartammal), alacsonyabb zajszinttel és robusztusabb elektronikával rendelkeznek.Az 5 éves élettartam alatt a prémium egység üzemanyag-megtakarítása és alacsonyabb karbantartási költsége jellemzően messze meghaladja a magasabb vételárat.A CoolDrivePro professzionális és kereskedelmi használatra készült, és kivételes értéket biztosít a megbízhatóság és a hatékonyság révén."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkoló klíma a rendőrség és a rendészeti járművek számára: K9 és tiszti biztonság",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles-detail.webp",
+      "alt": "Parkoló klíma a rendőrség és a rendészeti járművek számára: K9 és tiszti biztonság",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

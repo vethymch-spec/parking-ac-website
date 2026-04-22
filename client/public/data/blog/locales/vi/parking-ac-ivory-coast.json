@@ -2,7 +2,7 @@
   "title": "Giải pháp làm mát xe tải đáng tin cậy cho ngành vận tải Côte d'Ivoire",
   "date": "2025-12-10",
   "category": "Hướng dẫn khu vực",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Khám phá các giải pháp làm mát xe tải đáng tin cậy cho ngành vận tải đang phát triển của Côte d'Ivoire.Tìm hiểu cách máy điều hòa không khí đỗ xe nâng cao sự an toàn cho người lái xe và hiệu quả vận hành tại trung tâm hậu cần của Tây Phi.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Cân nhắc về an toàn và thực hành tốt nhất",
       "body": "Vận hành máy điều hòa không khí đỗ xe một cách an toàn đòi hỏi phải chú ý đến một số yếu tố quan trọng để bảo vệ cả người ngồi trong xe và thiết bị.An toàn điện là điều tối quan trọng: tất cả hệ thống dây điện phải có kích thước phù hợp với tải hiện tại và có cầu chì bảo vệ thích hợp.Hệ thống dây điện quá nhỏ là nguyên nhân hàng đầu gây cháy xe liên quan đến điều hòa khi đỗ xe.Luôn sử dụng thước dây do nhà sản xuất chỉ định hoặc lớn hơn và lắp cầu chì hoặc bộ ngắt mạch định mức ở mức 125% dòng điện tối đa của thiết bị trong vòng 30 cm tính từ cực dương của pin.\n\nAn toàn về pin đáng được quan tâm như nhau, đặc biệt là với pin dựa trên lithium.Pin LiFePO4, mặc dù an toàn hơn đáng kể so với các loại pin lithium khác nhưng vẫn yêu cầu BMS (Hệ thống quản lý pin) chất lượng để cung cấp khả năng sạc quá mức, xả quá mức, quá dòng và bảo vệ nhiệt.Đảm bảo BMS được xếp hạng cho mức tiêu thụ dòng điện tối đa của thiết bị AC đỗ xe của bạn.Không bao giờ trộn lẫn pin cũ và pin mới trong cùng một lọ và không bao giờ trộn lẫn các loại hóa chất khác nhau.Bảo quản và sạc pin ở nơi thông thoáng.\n\nAn toàn về carbon monoxide (CO) là một lợi thế quan trọng của điều hòa đỗ xe so với động cơ chạy không tải.Động cơ chạy không tải trong không gian kín hoặc nửa kín (gara đỗ xe, bến bốc hàng, khu vực nghỉ ngơi kín) tạo ra sự tích tụ CO có khả năng gây chết người.Hệ thống điều hòa đỗ xe không tạo ra khí thải trong quá trình vận hành, loại bỏ hoàn toàn rủi ro này.Điều này đặc biệt quan trọng đối với những tài xế taxi nằm ngủ khi đóng cửa sổ.\n\nViệc lắp đặt an ninh phải được kiểm tra thường xuyên, đặc biệt là trên các phương tiện vận hành trên đường gồ ghề.Bộ điều hòa bị lỏng hoặc được lắp không đúng cách có thể trở thành vật phóng khi xảy ra tai nạn hoặc rơi khỏi xe trong quá trình vận chuyển.Kiểm tra tất cả các phần cứng lắp đặt ít nhất mỗi quý, vặn lại bu lông theo thông số kỹ thuật của nhà sản xuất.Thay thế bất kỳ phần cứng nào có dấu hiệu nứt hoặc ăn mòn do mỏi."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Giải pháp làm mát xe tải đáng tin cậy cho ngành vận tải Côte d'Ivoire",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Giải pháp làm mát xe tải đáng tin cậy cho ngành vận tải Côte d'Ivoire",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

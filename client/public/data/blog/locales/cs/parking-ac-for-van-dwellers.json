@@ -2,7 +2,7 @@
   "title": "Van Dweller's Guide to Parking AC: Bydlení na plný úvazek ve vašem vozidle",
   "date": "2025-10-15",
   "category": "Van Life",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Základní průvodce výběrem a instalací parkovací klimatizace pro obyvatele dodávek.Zůstaňte v pohodě a pohodlí ve svém mobilním domě s odbornými tipy.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Tak, tady to máte.Můj názor na to, proč je dobrá parkovací klimatizace pro seriózní obyvatele dodávek nesmlouvavá.Není to jen o bití žáru;jde o to zlepšit kvalitu vašeho života na cestách a zajistit vám pohodlný a obyvatelný prostor bez ohledu na to, kam vás vaše dobrodružství zavedou.Od pochopení správného BTU pro vaše nastavení až po výběr efektivní jednotky 12V DC poháněné robustní baterií LiFePO4, každé rozhodnutí hraje roli.Nezapomeňte na důležitost správné elektroinstalace a instalace a rozhodně nepřehlédněte výhody dobré izolace.Viděl jsem rozdíl, který to dělá, a upřímně, je to den a noc.Nejde jen o nákup produktu;jde o investici do vašeho pohodlí, spánku a celkového požitku ze života dodávky.Udělejte si čas na to, abyste svůj systém prozkoumali, naplánovali a správně nainstalovali, a v nadcházejících letech si budete užívat chladné a pohodlné dny a noci.Je to něco, co mění hru, je prosté a jednoduché, a každý, kdo žije na plný úvazek, by měl vážně zvážit.Zůstaňte v pohodě, lidi, a užijte si otevřenou cestu."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dweller's Guide to Parking AC: Bydlení na plný úvazek ve vašem vozidle",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dweller's Guide to Parking AC: Bydlení na plný úvazek ve vašem vozidle",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

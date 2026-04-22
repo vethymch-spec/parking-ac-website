@@ -2,7 +2,7 @@
   "title": "Condizionamento dell'aria per veicoli da trasporto medico: merci sensibili alla temperatura",
   "date": "2025-10-26",
   "category": "Specialità",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-medical-transport_7aebdba9.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-medical-transport-hero.webp",
   "metaDescription": "Garantisci la sicurezza dei carichi critici con l'aria condizionata specializzata per i veicoli di trasporto medico.Scopri il controllo della temperatura, l'efficienza e le soluzioni affidabili.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Domande frequenti",
       "body": "D: Quanto è rumoroso il condizionatore da parcheggio?\n\nR: I livelli di rumore interno per le unità AC da parcheggio di qualità variano da 45 a 58 dB(A), più o meno equivalenti a un ufficio tranquillo o a una pioggia leggera.Le unità CoolDrivePro incorporano supporti avanzati del compressore insonorizzati e design ottimizzati delle pale della ventola per ridurre al minimo il rumore, garantendo condizioni di sonno confortevoli.\n\nD: L'aria condizionata da parcheggio consumerà le batterie di avviamento?\n\nR: I sistemi installati correttamente utilizzano un banco batterie ausiliario dedicato separato dalle batterie di avviamento o includono uno scollegamento a bassa tensione che protegge le batterie di avviamento dall'esaurimento al di sotto della soglia necessaria per avviare il motore.Non collegare mai l'aria condizionata da parcheggio direttamente alle batterie di avviamento senza un adeguato isolamento.\n\nD: Gli condizionatori da parcheggio possono fornire anche il riscaldamento?\n\nR: Molte moderne unità AC da parcheggio includono una funzione di pompa di calore che inverte il ciclo di refrigerazione per fornire riscaldamento.Ciò è efficace in condizioni di freddo mite (fino a una temperatura esterna di circa -5°C/23°F).In caso di freddo estremo potrebbe essere necessario un riscaldamento elettrico o diesel supplementare.I modelli di riscaldamento-raffreddamento di CoolDrivePro offrono entrambe le modalità in un'unica unità.\n\nD: Qual è la durata di vita di un condizionatore da parcheggio?\n\nR: Con una corretta installazione e una manutenzione regolare, un condizionatore da parcheggio di qualità dovrebbe durare 5-10 anni o circa 10.000-20.000 ore di funzionamento.Il compressore è in genere il componente che dura di più, mentre i motori dei ventilatori e le schede di controllo potrebbero dover essere sostituiti dopo 5-7 anni a seconda delle condizioni operative e dell'esposizione alla polvere.\n\nD: Vale la pena investire in un'unità più costosa?\n\nR: Generalmente sì.Le unità Premium sono dotate di compressori più efficienti (minore consumo energetico = maggiore autonomia della batteria), migliore qualità costruttiva (maggiore durata), livelli di rumore più bassi ed elettronica più robusta.Su un ciclo di vita di 5 anni, il risparmio di carburante e i costi di manutenzione ridotti di un'unità premium in genere superano di gran lunga il prezzo di acquisto più elevato.CoolDrivePro è progettato per uso professionale e commerciale, offrendo un valore eccezionale attraverso affidabilità ed efficienza."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Condizionamento dell'aria per veicoli da trasporto medico: merci sensibili alla temperatura",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-medical-transport-detail.webp",
+      "alt": "Condizionamento dell'aria per veicoli da trasporto medico: merci sensibili alla temperatura",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

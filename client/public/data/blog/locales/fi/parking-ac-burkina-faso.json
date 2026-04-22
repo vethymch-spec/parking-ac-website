@@ -2,7 +2,7 @@
   "title": "Pysäköinti-ilmastointiratkaisuja Burkina Fason sisämaaliikenteen haasteisiin",
   "date": "2025-12-11",
   "category": "Alueelliset oppaat",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso_e5f6g7h8.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-hero.webp",
   "metaDescription": "Tutustu Burkina Fason ainutlaatuisiin sisämaaliikenteen haasteisiin suunniteltuihin pysäköinti-AC-ratkaisuihin.Tärkeät jäähdytysjärjestelmät Länsi-Afrikan vaativilla logistiikkakäytävillä liikkuville kuorma-autoille.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Usein kysyttyjä kysymyksiä pysäköinti-ilmastointilaitteista",
       "body": "K: Kuinka kauan pysäköinti AC voi toimia pelkällä akulla?\n\nV: Käyttöaika riippuu akun kapasiteetista, vaihtovirran kulutuksesta ja ympäristön lämpötilasta.Tyypillinen 24V pysäköinti AC 40-60 ampeeria tunnissa voi toimia 8-12 tuntia 200Ah LiFePO4 akkupankilla.Burkina Fason äärimmäisessä kuumuudessa käyttöaika voi olla 10-15 % lyhyempi kompressorin korkeampien käyttöjaksojen vuoksi.Aurinkopaneelien (200-400 W) lisääminen voi pidentää päiväkäyttöaikaa merkittävästi.\n\nK: Voinko asentaa pysäköinti-AC:n itse vai tarvitsenko ammattilaisen?\n\nV: Vaikka kokeneet tee-se-itse-asentajat pystyvät hoitamaan mekaanisen asennuksen ja perusjohdotuksen, suositellaan ammattimaista asennusta kylmäaineliitäntöjen (jaetun järjestelmän) ja sähköisen integroinnin yhteydessä ajoneuvon olemassa olevaan järjestelmään.Virheellinen asennus mitätöi useimmat takuut ja voi aiheuttaa tulipalovaaran alimitoista johdoista.\n\nK: Mitä eroa on katto-AC:n ja jaetun järjestelmän pysäköinti-AC:n välillä?\n\nV: Rooftop (all-in-one) -yksiköt sisältävät kaikki komponentit yhdessä kotelossa, joka on asennettu ajoneuvon katolle.Ne ovat yksinkertaisempia asentaa, mutta ne voivat lisätä korkeutta, mikä vaikuttaa siltojen alle tai pysäköintihalliin.Jaetut järjestelmät erottavat kompressorin/lauhduttimen (asennettu ulkopuolelle) höyrystimestä (asennettu sisälle), mikä tarjoaa joustavampia asennusvaihtoehtoja ja mahdollisesti hiljaisemman sisäkäytön.CoolDrivePro tarjoaa molemmat kokoonpanot eri ajoneuvotyyppeihin ja käyttäjien mieltymyksiin sopiviksi.\n\nK: Kuinka paljon polttoainetta pysäköinti-AC säästää verrattuna moottorin joutokäyntiin?\n\nV: Ilmastoinnin moottorin joutokäynti kuluttaa noin 0,8-1,5 litraa dieseliä tunnissa.Akkukäyttöinen pysäköinti-AC maksaa käytännössä nolla polttoainetta käytön aikana (akku latautuu ajon aikana).Kuljettaja, joka lepää 8 tuntia päivässä, säästää 6–12 litraa polttoainetta päivässä tai noin 2 000–4 000 USD vuodessa paikallisista polttoaineiden hinnoista riippuen.Pysäköinti-AC-yksikkö maksaa itsensä takaisin tyypillisesti 6-12 kuukaudessa pelkän polttoainesäästön ansiosta.\n\nK: Toimivatko pysäköintiilmastointilaitteet erittäin kosteissa olosuhteissa?\n\nV: Kyllä, nykyaikaiset pysäköinti-AC-järjestelmät poistavat tehokkaasti kosteuden matkustamon ilmasta osana jäähdytysprosessia.Höyrystinpatteri tiivistää ilmasta kosteutta, joka valuu kondenssivesiputken kautta.Erittäin kosteilla alueilla varmista, että viemäri on puhdas ja harkitse yksiköitä, joissa on tehostetut kosteudenpoistotilat.CoolDrivePro yksiköt on testattu toimimaan kosteudessa, jonka suhteellinen kosteus on enintään 95 %."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Pysäköinti-ilmastointiratkaisuja Burkina Fason sisämaaliikenteen haasteisiin",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-detail.webp",
+      "alt": "Pysäköinti-ilmastointiratkaisuja Burkina Fason sisämaaliikenteen haasteisiin",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

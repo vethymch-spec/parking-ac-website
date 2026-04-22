@@ -2,7 +2,7 @@
   "title": "Aires acondicionados de estacionamiento para vehículos militares: soluciones de refrigeración táctica",
   "date": "2026-02-15",
   "category": "Especialidad",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Descubra el papel fundamental de los aires acondicionados de estacionamiento en vehículos militares, proporcionando refrigeración táctica para el personal y componentes electrónicos sensibles en condiciones extremas.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "En conclusión, la evolución de los aires acondicionados de estacionamiento para vehículos militares es un viaje fascinante desde la simple comodidad hasta la ventaja táctica crítica.Es un campo donde la innovación está impulsada por demandas extremas, donde cada BTU, cada decibelio y cada vatio importa.Desde proteger dispositivos electrónicos sensibles hasta garantizar el bienestar de nuestros soldados, estos sistemas desempeñan un papel indispensable en las operaciones militares modernas.La inversión en soluciones de refrigeración robustas, eficientes y sigilosas no se trata sólo de mantenerse fresco;se trata de mantenerse eficaz, estar seguro y, en última instancia, mantenerse a la vanguardia.Y esa, amigos míos, es la realidad del enfriamiento táctico."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Aires acondicionados de estacionamiento para vehículos militares: soluciones de refrigeración táctica",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Aires acondicionados de estacionamiento para vehículos militares: soluciones de refrigeración táctica",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

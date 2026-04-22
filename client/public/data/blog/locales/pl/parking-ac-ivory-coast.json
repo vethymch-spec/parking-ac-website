@@ -2,7 +2,7 @@
   "title": "Niezawodne rozwiązania chłodzenia samochodów ciężarowych dla branży transportowej Wybrzeża Kości Słoniowej",
   "date": "2025-12-10",
   "category": "Przewodniki Regionalne",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Odkryj niezawodne rozwiązania chłodzenia samochodów ciężarowych dla rozwijającej się branży transportowej Wybrzeża Kości Słoniowej.Dowiedz się, jak klimatyzatory postojowe zwiększają bezpieczeństwo kierowców i wydajność operacyjną w centrum logistycznym Afryki Zachodniej.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Względy bezpieczeństwa i najlepsze praktyki",
       "body": "Bezpieczne użytkowanie klimatyzatora postojowego wymaga zwrócenia uwagi na kilka ważnych czynników, które chronią zarówno pasażerów pojazdu, jak i sprzęt.Bezpieczeństwo elektryczne jest najważniejsze: całe okablowanie musi być odpowiednio dobrane do aktualnego obciążenia i wyposażone w odpowiedni bezpiecznik.Niewymiarowe okablowanie jest główną przyczyną pożarów pojazdów związanych z parkowaniem prądu przemiennego.Zawsze używaj przewodu o średnicy określonej przez producenta lub większej i zainstaluj bezpiecznik lub wyłącznik automatyczny o wartości 125% maksymalnego poboru prądu przez urządzenie w odległości 30 cm od dodatniego bieguna akumulatora.\n\nBezpieczeństwo baterii zasługuje na taką samą uwagę, szczególnie w przypadku baterii litowych.Baterie LiFePO4, choć znacznie bezpieczniejsze niż inne baterie litowe, nadal wymagają wysokiej jakości BMS (systemu zarządzania akumulatorami), który zapewnia ochronę przed przeładowaniem, nadmiernym rozładowaniem, przetężeniem i temperaturą.Upewnij się, że BMS jest przystosowany do maksymalnego poboru prądu przez postojową jednostkę klimatyzacji.Nigdy nie mieszaj starych i nowych baterii w banku i nigdy nie mieszaj różnych chemikaliów.Przechowuj i ładuj akumulatory w dobrze wentylowanych pomieszczeniach.\n\nBezpieczeństwo związane z tlenkiem węgla (CO) to kluczowa zaleta postojowych klimatyzatorów w porównaniu z pracą silnika na biegu jałowym.Praca silnika na biegu jałowym w zamkniętych lub półzamkniętych przestrzeniach (garaże, doki załadunkowe, zamknięte miejsca odpoczynku) powoduje potencjalnie śmiertelną akumulację CO.Parkingowe systemy klimatyzacji wytwarzają zerową emisję podczas pracy, całkowicie eliminując to ryzyko.Jest to szczególnie ważne dla kierowców kabin sypialnych, którzy odpoczywają przy zamkniętych oknach.\n\nBezpieczeństwo montażu należy regularnie sprawdzać, szczególnie w pojazdach poruszających się po nierównych drogach.Luźno lub nieprawidłowo zamontowany moduł klimatyzacji może w razie wypadku stać się pociskiem lub spaść z pojazdu podczas transportu.Co najmniej raz na kwartał sprawdzaj wszystkie elementy montażowe, dokręcając śruby zgodnie ze specyfikacjami producenta.Wymień cały osprzęt wykazujący oznaki pękania zmęczeniowego lub korozji."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Niezawodne rozwiązania chłodzenia samochodów ciężarowych dla branży transportowej Wybrzeża Kości Słoniowej",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Niezawodne rozwiązania chłodzenia samochodów ciężarowych dla branży transportowej Wybrzeża Kości Słoniowej",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

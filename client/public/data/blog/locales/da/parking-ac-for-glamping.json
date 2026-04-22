@@ -2,7 +2,7 @@
   "title": "Parkering AC til Glamping: Luksus udendørs komfort uden landstrøm",
   "date": "2025-10-15",
   "category": "Livsstil",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-glamping_63b7fe94.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-glamping-hero.webp",
   "metaDescription": "Oplev luksus glamping med parkering AC.Hold dig kølig og komfortabel off-grid uden landstrøm, hvilket forbedrer dine udendørs eventyr.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Ofte stillede spørgsmål",
       "body": "Q: Hvor højt er et parkeringsklimaanlæg?\n\nSv: Indendørs støjniveauer for kvalitetsparkering AC-enheder spænder fra 45-58 dB(A), hvilket omtrent svarer til et stille kontor eller let regn.CoolDrivePro enheder inkorporerer avancerede lyddæmpende kompressormonteringer og optimeret ventilatorbladdesign for at minimere støj, hvilket sikrer behagelige søvnforhold.\n\nSp: Vil en parkerings-vekselstrøm dræne mine startbatterier?\n\nA: Korrekt installerede systemer bruger en dedikeret hjælpebatteribank adskilt fra startbatterierne eller inkluderer en lavspændingsafbryder, der beskytter startbatterier mod at blive drænet under den tærskel, der er nødvendig for at starte motoren.Tilslut aldrig en parkerings-AC direkte til startbatterier uden korrekt isolering.\n\nQ: Kan parkerings-AC'er også give opvarmning?\n\nA: Mange moderne parkerings-AC-enheder inkluderer en varmepumpefunktion, der vender kølecyklussen for at give opvarmning.Dette er effektivt under milde kolde forhold (ned til ca. -5°C/23°F udendørstemperatur).Til ekstrem kulde kan supplerende el- eller dieselvarme være nødvendig.CoolDrivePro's opvarmnings-kølende modeller tilbyder begge tilstande i en enkelt enhed.\n\nQ: Hvad er levetiden for en parkerings AC-enhed?\n\nA: Med korrekt installation og regelmæssig vedligeholdelse bør en kvalitetsparkerings-AC-enhed holde 5-10 år eller cirka 10.000-20.000 driftstimer.Kompressoren er typisk den længst holdbare komponent, mens ventilatormotorer og styrekort kan have behov for udskiftning efter 5-7 år afhængig af driftsforhold og støveksponering.\n\nSpørgsmål: Er det værd at investere i en dyrere enhed?\n\nA: Generelt ja.Premium-enheder har mere effektive kompressorer (lavere strømforbrug = længere batteridriftstid), bedre byggekvalitet (længere levetid), lavere støjniveauer og mere robust elektronik.Over en 5-årig levetid overstiger brændstofbesparelser og reducerede vedligeholdelsesomkostninger for en premium enhed typisk langt den højere indkøbspris.CoolDrivePro er udviklet til professionel og kommerciel brug og leverer enestående værdi gennem pålidelighed og effektivitet."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkering AC til Glamping: Luksus udendørs komfort uden landstrøm",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-glamping-detail.webp",
+      "alt": "Parkering AC til Glamping: Luksus udendørs komfort uden landstrøm",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

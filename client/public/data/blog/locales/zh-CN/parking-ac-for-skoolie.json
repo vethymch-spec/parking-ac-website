@@ -2,7 +2,7 @@
   "title": "用于 Skoolie 改装的驻车空调：为路上回家的校车降温",
   "date": "2025-11-15",
   "category": "专业",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "让您的 skoolie 在路上保持凉爽！探索用于校车改装的高效驻车空调解决方案，确保舒适性和节能。",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "最终，为您的 skoolie 改装选择合适的驻车空调需要平衡舒适性、效率和您的具体生活方式。这不是一个一刀切的解决方案，老实说，任何告诉你其他情况的人可能都没有在路上花太多时间。我亲眼目睹了这些系统的演变，从笨重、耗电的单元到我们今天拥有的时尚、高效的 12V DC 模型。对优质系统的投资，加上精心设计的太阳能和电池设置，将带来舒适、自由和安心的回报。您将能够追逐阳光或逃避炎热，因为您知道您的移动房屋将永远是凉爽的绿洲。不要在舒适度上妥协；这就是让 skoolie 梦想成为现实的原因。花时间明智地研究、计划和投资，无论路途何处，您都会享受到凉爽的微风。毕竟，这是您的家，值得舒适。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "用于 Skoolie 改装的驻车空调：为路上回家的校车降温",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "用于 Skoolie 改装的驻车空调：为路上回家的校车降温",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

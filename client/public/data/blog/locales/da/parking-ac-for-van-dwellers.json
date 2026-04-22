@@ -2,7 +2,7 @@
   "title": "Van Dwellers guide til parkering AC: Fuldtidsliv i dit køretøj",
   "date": "2025-10-15",
   "category": "Van Life",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Væsentlig guide til valg og installation af parkerings-AC for varevognsbeboere.Hold dig kølig og komfortabel i dit mobilhome med eksperttips.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Så der har du det.Mit bud på, hvorfor en god parkerings-AC ikke er til forhandling for seriøse varevognsbeboere.Det handler ikke kun om at slå varmen;det handler om at forbedre din livskvalitet på vejen og sikre, at du har et behageligt, beboeligt rum, uanset hvor dine eventyr fører dig hen.Fra at forstå den rigtige BTU til din opsætning til at vælge en effektiv 12V DC enhed drevet af en robust LiFePO4 batteribank, spiller enhver beslutning en rolle.Glem ikke vigtigheden af ​​korrekt ledningsføring og installation, og overse bestemt ikke fordelene ved god isolering.Jeg har set den forskel, det gør, og helt ærligt, det er nat og dag.Dette handler ikke kun om at købe et produkt;det handler om at investere i din komfort, din søvn og din generelle nydelse af varevognslivet.Tag dig tid til at undersøge, planlægge og installere dit system korrekt, og du vil nyde kølige, behagelige dage og nætter i de kommende år.Det er en game-changer, almindelig og enkel, og en, som enhver fuldtidsbeboer i varevogne bør overveje seriøst.Hold dig kølig derude, folkens, og nyd den åbne vej."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dwellers guide til parkering AC: Fuldtidsliv i dit køretøj",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dwellers guide til parkering AC: Fuldtidsliv i dit køretøj",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

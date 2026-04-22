@@ -2,7 +2,7 @@
   "title": "Przewodnik Van Dwellera po klimatyzacji parkingowej: życie w pełnym wymiarze godzin w pojeździe",
   "date": "2025-10-15",
   "category": "Życie Vana",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Niezbędny przewodnik dotyczący wyboru i instalacji klimatyzacji parkingowej dla mieszkańców samochodów dostawczych.Zachowaj spokój i wygodę w swoim domu mobilnym, korzystając ze wskazówek ekspertów.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Więc masz to.Moje zdanie na temat tego, dlaczego dobra klimatyzacja parkingowa nie podlega negocjacjom w przypadku poważnych mieszkańców samochodów dostawczych.Nie chodzi tylko o pokonanie upału;chodzi o poprawę jakości życia w drodze, zapewnienie wygodnej, przyjaznej przestrzeni, niezależnie od tego, dokąd zabiorą Cię przygody.Od zrozumienia odpowiedniego BTU dla Twojej konfiguracji po wybór wydajnego urządzenia 12V DC zasilanego solidnym zestawem akumulatorów LiFePO4 – każda decyzja ma znaczenie.Nie zapominaj o znaczeniu prawidłowego okablowania i instalacji, a już na pewno nie przeocz korzyści płynących z dobrej izolacji.Widziałem różnicę, jaką to robi, i szczerze mówiąc, jest to dzień i noc.Nie chodzi tu tylko o zakup produktu;chodzi o inwestowanie w Twój komfort, sen i ogólną radość z życia vanem.Poświęć trochę czasu na zbadanie, zaplanowanie i prawidłową instalację systemu, a będziesz cieszyć się chłodnymi, wygodnymi dniami i nocami przez wiele lat.Jest to prosta i prosta zmiana zasad gry, którą każdy pełnoetatowy mieszkaniec furgonetki powinien poważnie rozważyć.Zachowajcie spokój, ludzie, i cieszcie się otwartą drogą."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Przewodnik Van Dwellera po klimatyzacji parkingowej: życie w pełnym wymiarze godzin w pojeździe",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Przewodnik Van Dwellera po klimatyzacji parkingowej: życie w pełnym wymiarze godzin w pojeździe",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

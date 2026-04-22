@@ -2,7 +2,7 @@
   "title": "Temperaturkontroll för mobila tandkliniker och munhälsofordon",
   "date": "2025-11-15",
   "category": "Specialitet",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry_46dca399.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-hero.webp",
   "metaDescription": "Att säkerställa optimal temperaturkontroll för mobila tandkliniker är avgörande för materialintegritet och patientkomfort.Lär dig mer om specialiserade AC-parkeringslösningar.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Vanliga frågor",
       "body": "F: Hur högt är en parkeringsluftkonditionering?\n\nS: Inomhusljudnivåerna för kvalitetsparkering AC-enheter sträcker sig från 45-58 dB(A), ungefär lika med ett tyst kontor eller svagt regn.CoolDrivePro enheter har avancerade ljuddämpande kompressorfästen och optimerade fläktbladsdesigner för att minimera buller, vilket säkerställer bekväma sömnförhållanden.\n\nF: Kommer en parkerings-AC att tömma mina startbatterier?\n\nS: Rätt installerade system använder en dedikerad reservbatteribank separat från startbatterierna, eller inkluderar en lågspänningsfrånkoppling som skyddar startbatterier från att tömmas under tröskeln som krävs för att starta motorn.Anslut aldrig en parkeringsväxelström direkt till startbatterier utan korrekt isolering.\n\nF: Kan parkerings AC också ge värme?\n\nS: Många moderna AC-parkeringsenheter har en värmepumpsfunktion som vänder kylcykeln för att ge värme.Detta är effektivt i milda kalla förhållanden (ned till cirka -5°C/23°F utomhustemperatur).Vid extrem kyla kan kompletterande el- eller dieselvärme behövas.CoolDrivePros värme-kylningsmodeller erbjuder båda lägena i en enda enhet.\n\nF: Vad är livslängden för en parkerings AC-enhet?\n\nS: Med korrekt installation och regelbundet underhåll bör en AC-anläggning av hög kvalitet hålla i 5-10 år eller cirka 10 000-20 000 drifttimmar.Kompressorn är vanligtvis den komponent som håller längst, medan fläktmotorer och styrkort kan behöva bytas ut efter 5-7 år beroende på driftsförhållanden och dammexponering.\n\nF: Är det värt att investera i en dyrare enhet?\n\nA: Generellt sett ja.Premium-enheter har effektivare kompressorer (lägre strömförbrukning = längre batteritid), bättre byggkvalitet (längre livslängd), lägre ljudnivåer och mer robust elektronik.Under en 5-årig livslängd överstiger vanligtvis bränslebesparingarna och minskade underhållskostnaderna för en premiumenhet vida det högre inköpspriset.CoolDrivePro är konstruerad för professionell och kommersiell användning, och levererar exceptionellt värde genom tillförlitlighet och effektivitet."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Temperaturkontroll för mobila tandkliniker och munhälsofordon",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-detail.webp",
+      "alt": "Temperaturkontroll för mobila tandkliniker och munhälsofordon",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

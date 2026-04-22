@@ -2,7 +2,7 @@
   "title": "Klimaanlage für mobile Tierpflegefahrzeuge: Tiersicherheit geht vor",
   "date": "2025-10-22",
   "category": "Spezialität",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-pet-grooming_26af2130.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-pet-grooming-hero.webp",
   "metaDescription": "Gewährleisten Sie die Tiersicherheit und die Einhaltung der Klimatisierungssysteme in mobilen Tierpflegefahrzeugen.Erfahren Sie mehr über AC-Lösungen für Ihr Unternehmen.",
   "content": [
     {
@@ -84,6 +84,18 @@
     {
       "heading": "Häufig gestellte Fragen",
       "body": "F: Wie laut ist eine Standklimaanlage?\n\nA: Der Geräuschpegel in Innenräumen für hochwertige Park-Klimaanlagen liegt zwischen 45 und 58 dB(A), was in etwa einem ruhigen Büro oder leichtem Regen entspricht.CoolDrivePro-Geräte verfügen über fortschrittliche schalldämpfende Kompressorhalterungen und optimierte Lüfterflügeldesigns, um Geräusche zu minimieren und angenehme Schlafbedingungen zu gewährleisten.\n\nF: Entlädt eine Standklimaanlage meine Startbatterien?\n\nA: Ordnungsgemäß installierte Systeme verwenden eine spezielle Hilfsbatteriebank, die von den Starterbatterien getrennt ist, oder verfügen über eine Niederspannungstrennung, die verhindert, dass die Starterbatterien unter den zum Starten des Motors erforderlichen Schwellenwert entladen werden.Schließen Sie eine Park-Wechselstromanlage niemals ohne ordnungsgemäße Isolierung direkt an die Startbatterien an.\n\nF: Können Parkklimaanlagen auch heizen?\n\nA: Viele moderne Park-Klimaanlagen verfügen über eine Wärmepumpenfunktion, die den Kühlkreislauf umkehrt, um für Wärme zu sorgen.Dies ist bei milder Kälte wirksam (bis zu etwa -5 °C/23 °F Außentemperatur).Bei extremer Kälte kann eine zusätzliche Elektro- oder Dieselheizung erforderlich sein.Die Heiz-Kühl-Modelle von CoolDrivePro bieten beide Modi in einem einzigen Gerät.\n\nF: Wie hoch ist die Lebensdauer einer Park-Klimaanlage?\n\nA: Bei ordnungsgemäßer Installation und regelmäßiger Wartung sollte eine hochwertige Parkklimaanlage 5–10 Jahre oder etwa 10.000–20.000 Betriebsstunden halten.Der Kompressor ist in der Regel die Komponente mit der längsten Lebensdauer, während Lüftermotoren und Steuerplatinen je nach Betriebsbedingungen und Staubbelastung möglicherweise nach 5–7 Jahren ausgetauscht werden müssen.\n\nF: Lohnt es sich, in ein teureres Gerät zu investieren?\n\nA: Im Allgemeinen ja.Premium-Geräte zeichnen sich durch effizientere Kompressoren (geringerer Stromverbrauch = längere Akkulaufzeit), eine bessere Verarbeitungsqualität (längere Lebensdauer), einen geringeren Geräuschpegel und eine robustere Elektronik aus.Über eine Lebensdauer von fünf Jahren übersteigen die Kraftstoffeinsparungen und reduzierten Wartungskosten eines Premium-Geräts in der Regel den höheren Kaufpreis bei weitem.CoolDrivePro wurde für den professionellen und kommerziellen Einsatz entwickelt und bietet durch Zuverlässigkeit und Effizienz einen außergewöhnlichen Mehrwert."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Klimaanlage für mobile Tierpflegefahrzeuge: Tiersicherheit geht vor",
+  "inlineImages": [
+    {
+      "afterSection": 10,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-pet-grooming-detail.webp",
+      "alt": "Klimaanlage für mobile Tierpflegefahrzeuge: Tiersicherheit geht vor",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

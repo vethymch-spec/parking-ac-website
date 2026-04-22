@@ -2,7 +2,7 @@
   "title": "Gestion de flotte avec climatiseurs de stationnement : surveillance, maintenance et contrôle des coûts",
   "date": "2025-10-28",
   "category": "Industrie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management_0aadde9f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-hero.webp",
   "metaDescription": "Une gestion efficace de la flotte avec des climatiseurs de stationnement est la clé du contrôle des coûts.Découvrez comment surveiller, entretenir et maximiser votre retour sur investissement sur les unités de climatisation de camion.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": "Foire aux questions",
       "body": "Q : Quel réfrigérant convient le mieux aux climatiseurs de stationnement ?\n\nR : La plupart des unités de climatisation de stationnement modernes utilisent le réfrigérant R134a ou R32.Le R32 est de plus en plus préféré pour les nouvelles conceptions en raison de son potentiel de réchauffement climatique 67 % inférieur (PRG de 675 contre 2 088 pour le R410a) et de son efficacité énergétique supérieure.Le R134a reste courant dans les unités existantes et offre une fiabilité éprouvée.Utilisez toujours le réfrigérant spécifié par le fabricant : le mélange de réfrigérants endommage le système.\n\nQ : À quelle fréquence dois-je recharger le réfrigérant ?\n\nR : Un système correctement installé et scellé ne devrait pas nécessiter de recharge de réfrigérant pendant 3 à 5 ans ou plus.Si les performances de refroidissement se dégradent considérablement au cours des 2 premières années, suspectez une fuite plutôt qu'une perte normale.Demandez à un technicien d'effectuer un test de fuite avant d'ajouter simplement du réfrigérant, car le problème sous-jacent ne fera qu'empirer avec le temps.\n\nQ : Puis-je utiliser une climatisation de stationnement en conduisant ?\n\nR : Oui, la plupart des unités de climatisation de stationnement peuvent fonctionner pendant que le véhicule est en mouvement.En fait, faire fonctionner le courant alternatif de stationnement pendant la conduite permet à l'alternateur de charger les batteries simultanément, fournissant ainsi un refroidissement gratuit.Cependant, à vitesse d'autoroute, le système de climatisation entraîné par le moteur du véhicule peut être plus efficace.Les climatiseurs de stationnement sont particulièrement utiles lors des arrêts, des pauses et du stationnement de nuit.\n\nQ : À quelle garantie dois-je m'attendre sur une unité de climatisation de stationnement ?\n\nR : Les fabricants de qualité offrent généralement des garanties complètes de 1 à 2 ans couvrant les pièces et la main d'œuvre, avec des garanties étendues sur les compresseurs de 3 à 5 ans.CoolDrivePro propose des conditions de garantie compétitives avec une assistance mondiale.Enregistrez toujours votre produit rapidement et conservez une preuve d'installation professionnelle, car une installation incorrecte est une exclusion de garantie courante.\n\nQ : Comment la température ambiante affecte-t-elle les performances de la climatisation du stationnement ?\n\nR : À mesure que la température extérieure augmente, la capacité de refroidissement diminue et la consommation électrique augmente.À 35 °C (95 °F) à l’extérieur, une unité évaluée à 10 000 BTU peut fournir sa pleine capacité.À 45 °C (113 °F), la même unité peut fournir 7 500 à 8 500 BTU tout en consommant 15 à 20 % d'énergie en plus.C'est pourquoi un dimensionnement approprié avec une marge est important pour les opérations dans des climats chauds."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Gestion de flotte avec climatiseurs de stationnement : surveillance, maintenance et contrôle des coûts",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-detail.webp",
+      "alt": "Gestion de flotte avec climatiseurs de stationnement : surveillance, maintenance et contrôle des coûts",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "מזגני חניה לכלי רכב צבאיים: פתרונות קירור טקטיים",
   "date": "2026-02-15",
   "category": "מומחיות",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "גלה את התפקיד הקריטי של מזגני חניה בכלי רכב צבאיים, מתן קירור טקטי לכוח אדם ואלקטרוניקה רגישה בתנאים קיצוניים.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "לסיכום, האבולוציה של מזגני חניה לכלי רכב צבאיים היא מסע מרתק מנוחות פשוטה ליתרון טקטי קריטי.זה תחום שבו חדשנות מונעת על ידי דרישות קיצוניות, שבו כל BTU, כל דציבל וכל וואט חשובים.מהגנה על אלקטרוניקה רגישה ועד להבטחת רווחתם של חיילינו, מערכות אלו ממלאות תפקיד הכרחי בפעולות צבאיות מודרניות.ההשקעה בפתרונות קירור חזקים, יעילים וחמקניים היא לא רק להישאר קריר;מדובר בשמירה על אפקטיביות, שמירה על בטיחות ובסופו של דבר, הישארות קדימה.וזו, חבריי, המציאות של קירור טקטי."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "מזגני חניה לכלי רכב צבאיים: פתרונות קירור טקטיים",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "מזגני חניה לכלי רכב צבאיים: פתרונות קירור טקטיים",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

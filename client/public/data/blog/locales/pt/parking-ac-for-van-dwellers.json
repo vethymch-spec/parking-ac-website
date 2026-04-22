@@ -2,7 +2,7 @@
   "title": "Guia do Van Dweller para estacionar AC: vida em tempo integral em seu veículo",
   "date": "2025-10-15",
   "category": "Vida de van",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Guia essencial para escolher e instalar estacionamento AC para moradores de vans.Fique fresco e confortável em sua casa móvel com dicas de especialistas.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Então, aí está.Minha opinião sobre por que um bom AC de estacionamento não é negociável para moradores sérios de vans.Não se trata apenas de vencer o calor;trata-se de melhorar a sua qualidade de vida na estrada, garantindo que você tenha um espaço confortável e habitável, não importa onde suas aventuras o levem.Desde a compreensão do BTU certo para sua configuração até a escolha de uma unidade 12V DC eficiente alimentada por um banco de baterias LiFePO4 robusto, cada decisão desempenha um papel.Não se esqueça da importância da fiação e instalação adequadas e certamente não negligencie os benefícios de um bom isolamento.Já vi a diferença que isso faz e, honestamente, é noite e dia.Não se trata apenas de comprar um produto;trata-se de investir no seu conforto, no seu sono e no prazer geral da vida na van.Reserve um tempo para pesquisar, planejar e instalar seu sistema corretamente e você desfrutará de dias e noites frescos e confortáveis ​​nos próximos anos.É uma virada de jogo, pura e simples, e que todo morador de van em tempo integral deveria considerar seriamente.Fiquem tranquilos, pessoal, e aproveitem a estrada aberta."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Guia do Van Dweller para estacionar AC: vida em tempo integral em seu veículo",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Guia do Van Dweller para estacionar AC: vida em tempo integral em seu veículo",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

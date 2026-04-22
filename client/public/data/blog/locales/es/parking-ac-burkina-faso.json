@@ -2,7 +2,7 @@
   "title": "Soluciones de aire acondicionado para estacionamiento para los desafíos del transporte sin litoral en Burkina Faso",
   "date": "2025-12-11",
   "category": "Guías Regionales",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso_e5f6g7h8.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-hero.webp",
   "metaDescription": "Explore las soluciones de aire acondicionado para estacionamiento diseñadas para los desafíos únicos del transporte sin litoral de Burkina Faso.Sistemas de refrigeración esenciales para camiones que circulan por los exigentes corredores logísticos de África Occidental.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Preguntas frecuentes sobre aires acondicionados para estacionamiento",
       "body": "P: ¿Cuánto tiempo puede funcionar un aire acondicionado de estacionamiento solo con baterías?\n\nR: El tiempo de ejecución depende de la capacidad de la batería, el consumo de energía de CA y la temperatura ambiente.Un CA de estacionamiento típico 24V que consume de 40 a 60 amperios por hora puede funcionar de 8 a 12 horas con un banco de baterías LiFePO4 de 200 Ah.En el calor extremo de Burkina Faso, el tiempo de funcionamiento puede ser entre un 10% y un 15% más corto debido a los ciclos de trabajo más altos del compresor.Agregar paneles solares (200-400W) puede extender significativamente el tiempo de funcionamiento diurno.\n\nP: ¿Puedo instalar un aire acondicionado de estacionamiento yo mismo o necesito un profesional?\n\nR: Si bien los instaladores experimentados pueden encargarse del montaje mecánico y el cableado básico, se recomienda la instalación profesional para las conexiones de refrigerante (sistemas divididos) y la integración eléctrica con el sistema existente del vehículo.Una instalación inadecuada anula la mayoría de las garantías y puede generar riesgos de incendio debido a un cableado de tamaño insuficiente.\n\nP: ¿Cuál es la diferencia entre un aire acondicionado de techo y un aire acondicionado de estacionamiento con sistema dividido?\n\nR: Las unidades de techo (todo en uno) contienen todos los componentes en una sola carcasa montada en el techo del vehículo.Son más sencillos de instalar, pero pueden agregar altura que afecte el espacio libre debajo de puentes o en estacionamientos.Los sistemas divididos separan el compresor/condensador (montado en el exterior) del evaporador (montado en el interior), ofreciendo opciones de instalación más flexibles y un funcionamiento interior potencialmente más silencioso.CoolDrivePro ofrece ambas configuraciones para adaptarse a diferentes tipos de vehículos y preferencias del usuario.\n\nP: ¿Cuánto combustible ahorra un aire acondicionado de estacionamiento en comparación con el motor en ralentí?\n\nR: El motor en ralentí para aire acondicionado consume aproximadamente entre 0,8 y 1,5 litros de diésel por hora.Un aire acondicionado de estacionamiento que funciona con baterías cuesta prácticamente cero combustible durante su funcionamiento (la carga de la batería se produce durante la conducción).Para un conductor que descansa 8 horas diarias, esto ahorra entre 6 y 12 litros de combustible por día, o aproximadamente entre 2.000 y 4.000 dólares al año, dependiendo de los precios locales del combustible.La unidad de aire acondicionado del estacionamiento normalmente se amortiza en un plazo de 6 a 12 meses sólo gracias al ahorro de combustible.\n\nP: ¿Los aires acondicionados para estacionamiento funcionan en condiciones extremadamente húmedas?\n\nR: Sí, los modernos sistemas de aire acondicionado para estacionamiento deshumidifican eficazmente el aire de la cabina como parte del proceso de enfriamiento.El serpentín del evaporador condensa la humedad del aire, que drena a través de la línea de condensado.En regiones muy húmedas, asegúrese de que el drenaje esté limpio y considere unidades con modos de deshumidificación mejorados.Las unidades CoolDrivePro se prueban para funcionar en niveles de humedad de hasta 95 % de humedad relativa."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Soluciones de aire acondicionado para estacionamiento para los desafíos del transporte sin litoral en Burkina Faso",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-detail.webp",
+      "alt": "Soluciones de aire acondicionado para estacionamiento para los desafíos del transporte sin litoral en Burkina Faso",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

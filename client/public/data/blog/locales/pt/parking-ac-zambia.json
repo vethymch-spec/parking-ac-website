@@ -2,7 +2,7 @@
   "title": "Soluções confiáveis de CA para caminhões para operações no cinturão de cobre da Zâmbia",
   "date": "2025-12-03",
   "category": "Guias Regionais",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zambia_h8i9j0k1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zambia-hero.webp",
   "metaDescription": "Sistemas de ar condicionado confiáveis para estacionamento de caminhões nas operações de mineração do Cinturão de Cobre na Zâmbia.Soluções de refrigeração comprovadas para frotas que atendem Kitwe, Ndola e Chingola.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Perguntas frequentes sobre condicionadores de ar de estacionamento",
       "body": "P: Por quanto tempo um AC de estacionamento pode funcionar apenas com baterias?\n\nR: O tempo de execução depende da capacidade da bateria, do consumo de energia CA e da temperatura ambiente.Um típico estacionamento AC 24V consumindo 40-60 amperes por hora pode funcionar de 8 a 12 horas com um banco de baterias LiFePO4 de 200Ah.No calor extremo da Zâmbia, o tempo de funcionamento pode ser 10-15% mais curto devido aos ciclos de funcionamento mais elevados do compressor.Adicionar painéis solares (200-400W) pode prolongar significativamente o tempo de funcionamento diurno.\n\nP: Posso instalar um AC de estacionamento sozinho ou preciso de um profissional?\n\nR: Embora instaladores DIY experientes possam lidar com a montagem mecânica e a fiação básica, a instalação profissional é recomendada para as conexões de refrigerante (sistemas divididos) e integração elétrica com o sistema existente do veículo.A instalação inadequada anula a maioria das garantias e pode criar risco de incêndio devido à fiação subdimensionada.\n\nP: Qual é a diferença entre um AC de telhado e um AC de estacionamento com sistema dividido?\n\nR: As unidades Rooftop (tudo em um) contêm todos os componentes em uma única caixa montada no teto do veículo.Eles são mais simples de instalar, mas podem aumentar a altura que afeta o espaço sob pontes ou em estacionamentos.Os sistemas split separam o compressor/condensador (montado no exterior) do evaporador (montado no interior), oferecendo opções de instalação mais flexíveis e um funcionamento interior potencialmente mais silencioso.CoolDrivePro oferece ambas as configurações para atender diferentes tipos de veículos e preferências do usuário.\n\nP: Quanto combustível um AC de estacionamento economiza em comparação com o motor em marcha lenta?\n\nR: O motor em marcha lenta para ar condicionado consome aproximadamente 0,8-1,5 litros de diesel por hora.Um AC de estacionamento alimentado por bateria custa essencialmente zero combustível durante a operação (o carregamento da bateria ocorre durante a condução).Para um motorista que descansa 8 horas diárias, isso economiza de 6 a 12 litros de combustível por dia, ou cerca de US$ 2.000 a 4.000 dólares anuais, dependendo dos preços locais de combustível.A unidade de ar condicionado de estacionamento normalmente se paga dentro de 6 a 12 meses apenas através da economia de combustível.\n\nP: Os aparelhos de ar condicionado de estacionamento funcionam em condições extremamente úmidas?\n\nR: Sim, os modernos sistemas de ar condicionado de estacionamento desumidificam efetivamente o ar da cabine como parte do processo de resfriamento.A serpentina do evaporador condensa a umidade do ar, que é drenada pela linha de condensado.Em regiões muito úmidas, certifique-se de que o dreno esteja limpo e considere unidades com modos de desumidificação aprimorados.As unidades CoolDrivePro são testadas para funcionar em níveis de umidade de até 95% UR."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Soluções confiáveis de CA para caminhões para operações no cinturão de cobre da Zâmbia",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zambia-detail.webp",
+      "alt": "Soluções confiáveis de CA para caminhões para operações no cinturão de cobre da Zâmbia",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

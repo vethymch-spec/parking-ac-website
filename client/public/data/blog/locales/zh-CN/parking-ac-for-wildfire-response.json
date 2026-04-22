@@ -2,7 +2,7 @@
   "title": "适用于野火响应车辆和消防员安全的冷却解决方案",
   "date": "2025-11-15",
   "category": "专业",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response_e6f7a92c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response-hero.webp",
   "metaDescription": "为野火响应车辆提供强大的冷却解决方案，确保消防员的安全。了解有关极端条件下驻车空调的信息。",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "常见问题解答",
       "body": "问：驻车空调的声音有多大？\n\n答：优质驻车空调设备的室内噪音水平范围为 45-58 dB(A)，大致相当于安静的办公室或温和的降雨。CoolDrivePro 装置采用先进的隔音压缩机支架和优化的风扇叶片设计，可最大限度地减少噪音，确保舒适的睡眠条件。\n\n问：驻车空调会耗尽我的启动电池吗？\n\n答：正确安装的系统使用与启动电池分开的专用辅助电池组，或者包括一个低压断开装置，以防止启动电池的电量低于启动发动机所需的阈值。在没有适当隔离的情况下，切勿将停车交流电直接连接到启动电池。\n\n问：驻车空调也可以供暖吗？\n\n答：许多现代驻车空调装置都具有热泵功能，可以反转制冷循环以提供加热。这在温和的寒冷条件下（室外温度低至约 -5°C/23°F）非常有效。对于极端寒冷的情况，可能需要补充电力或柴油加热。CoolDrivePro 的加热-冷却模型在一个单元中提供两种模式。\n\n问：驻车空调装置的使用寿命是多少？\n\n答：通过正确安装和定期维护，优质驻车空调装置应可持续 5-10 年或大约 10,000-20,000 运行小时。压缩机通常是最耐用的组件，而风扇电机和控制板可能需要在 5-7 年后更换，具体取决于操作条件和灰尘暴露情况。\n\n问：是否值得投资更昂贵的单位？\n\n答：一般来说是的。高级设备具有更高效的压缩机（更低的功耗=更长的电池运行时间）、更好的制造质量（更长的使用寿命）、更低的噪音水平和更强大的电子设备。在 5 年的使用寿命内，高级设备节省的燃料和降低的维护成本通常远远超过较高的购买价格。CoolDrivePro 专为专业和商业用途而设计，通过可靠性和效率提供卓越的价值。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "适用于野火响应车辆和消防员安全的冷却解决方案",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response-detail.webp",
+      "alt": "适用于野火响应车辆和消防员安全的冷却解决方案",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Parkklimaanlagen für Militärfahrzeuge: Taktische Kühllösungen",
   "date": "2026-02-15",
   "category": "Spezialität",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Entdecken Sie die entscheidende Rolle von Parkklimaanlagen in Militärfahrzeugen, die unter extremen Bedingungen taktische Kühlung für Personal und empfindliche Elektronik bieten.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "Zusammenfassend lässt sich sagen, dass die Entwicklung von Parkklimaanlagen für Militärfahrzeuge eine faszinierende Reise vom einfachen Komfort zum entscheidenden taktischen Vorteil ist.Es ist ein Bereich, in dem Innovationen durch extreme Anforderungen vorangetrieben werden und in dem jedes BTU, jedes Dezibel und jedes Watt zählt.Vom Schutz sensibler Elektronik bis hin zur Gewährleistung des Wohlergehens unserer Soldaten spielen diese Systeme eine unverzichtbare Rolle in modernen Militäreinsätzen.Bei der Investition in robuste, effiziente und unauffällige Kühllösungen geht es nicht nur darum, kühl zu bleiben;Es geht darum, effektiv zu bleiben, sicher zu bleiben und letztendlich die Nase vorn zu haben.Und das, meine Freunde, ist die Realität der taktischen Abkühlung."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkklimaanlagen für Militärfahrzeuge: Taktische Kühllösungen",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Parkklimaanlagen für Militärfahrzeuge: Taktische Kühllösungen",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

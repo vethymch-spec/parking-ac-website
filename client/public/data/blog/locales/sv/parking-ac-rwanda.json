@@ -2,7 +2,7 @@
   "title": "Takparkering AC-lösningar för Rwandas kollektivtrafikbussar",
   "date": "2025-12-15",
   "category": "Kollektivtrafik",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-rwanda_u1v2w3x4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-rwanda-hero.webp",
   "metaDescription": "Takparkering AC-lösningar för Rwandas kollektivtrafikbussar.Effektiv kylteknik för Land of a Thousand Hills moderniserande transportinfrastruktur.",
   "content": [
     {
@@ -76,6 +76,18 @@
     {
       "heading": "Vanliga frågor om parkeringsluftkonditionering",
       "body": "F: Hur länge kan en parkerings-AC köras enbart på batterier?\n\nS: Drifttiden beror på batterikapacitet, AC-strömförbrukning och omgivningstemperatur.En typisk 24V parkeringsväxelström som drar 40-60 ampere per timme kan köras 8-12 timmar på en 200Ah LiFePO4 batteribank.I Rwandas extrema värme kan körtiden vara 10-15 % kortare på grund av högre kompressordriftscykler.Att lägga till solpaneler (200-400W) kan förlänga drifttiden på dagarna avsevärt.\n\nF: Kan jag installera en parkerings AC själv, eller behöver jag en professionell?\n\nS: Även om erfarna gör-det-själv-installatörer kan hantera den mekaniska monteringen och grundläggande ledningar, rekommenderas professionell installation för köldmedieanslutningarna (delade system) och elektrisk integration med fordonets befintliga system.Felaktig installation ogiltigförklarar de flesta garantier och kan skapa brandrisker från underdimensionerade ledningar.\n\nF: Vad är skillnaden mellan en tak AC och en parkerings AC med delat system?\n\nS: Takenheter (allt-i-ett) innehåller alla komponenter i ett enda hus monterat på fordonstaket.De är enklare att installera men kan lägga till höjder som påverkar frigången under broar eller i parkeringshus.Delade system separerar kompressorn/kondensorn (monterad utanför) från förångaren (monterad inuti), vilket erbjuder mer flexibla installationsalternativ och potentiellt tystare inomhusdrift.CoolDrivePro erbjuder både konfigurationer för att passa olika fordonstyper och användarpreferenser.\n\nF: Hur mycket bränsle sparar en parkeringsväxelström jämfört med att gå på tomgång på motorn?\n\nS: Motor på tomgång för luftkonditionering förbrukar cirka 0,8-1,5 liter diesel per timme.En batteridriven parkerings AC kostar i princip noll bränsle under drift (batteriladdning sker under körning).För en förare som vilar 8 timmar dagligen sparar detta 6-12 liter bränsle per dag, eller ungefär 2 000-4 000 USD per år beroende på lokala bränslepriser.Parkerings-AC-enheten betalar sig vanligtvis inom 6-12 månader genom enbart bränslebesparingar.\n\nF: Fungerar parkeringsklimatanläggningar i extremt fuktiga förhållanden?\n\nS: Ja, moderna parkerings AC-system avfuktar effektivt kabinluften som en del av kylningsprocessen.Förångarslingan kondenserar fukt från luften, som rinner ut genom kondensledningen.I mycket fuktiga områden, se till att avloppet är rent och överväg enheter med förbättrade avfuktningslägen.CoolDrivePro enheter är testade för att prestera i luftfuktighetsnivåer upp till 95 % relativ luftfuktighet."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Takparkering AC-lösningar för Rwandas kollektivtrafikbussar",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-rwanda-detail.webp",
+      "alt": "Takparkering AC-lösningar för Rwandas kollektivtrafikbussar",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

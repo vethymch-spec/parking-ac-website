@@ -2,7 +2,7 @@
   "title": "Parkering AC för Skoolie-konverteringar: Kyla en skolbuss hem på vägen",
   "date": "2025-11-15",
   "category": "Specialitet",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "Håll din skoolie cool på vägen!Utforska effektiva AC-parkeringslösningar för konvertering av skolbussar, vilket säkerställer komfort och energibesparingar.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "I slutändan handlar det om att välja rätt parkerings-AC för din skoliekonvertering om att balansera komfort, effektivitet och din specifika livsstil.Det är inte en lösning som passar alla, och ärligt talat, alla som säger något annat har förmodligen inte tillbringat mycket tid på resande fot.Jag har sett utvecklingen av dessa system på egen hand, från klumpiga, kraftkrävande enheter till de eleganta, effektiva 12V DC-modellerna vi har idag.Investeringen i ett kvalitetssystem, tillsammans med en väldesignad solcells- och batteriinstallation, kommer att ge utdelning i komfort, frihet och sinnesfrid.Du kommer att kunna jaga solen eller fly värmen, med vetskapen om att ditt husbil alltid kommer att vara en cool oas.Kompromissa inte med din komfort;det är det som gör skolies dröm till verklighet.Ta dig tid att undersöka, planera och investera klokt, så kommer du att njuta av svala vindar vart vägen än tar dig.Det är trots allt ditt hem, och det förtjänar att vara bekvämt."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkering AC för Skoolie-konverteringar: Kyla en skolbuss hem på vägen",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "Parkering AC för Skoolie-konverteringar: Kyla en skolbuss hem på vägen",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

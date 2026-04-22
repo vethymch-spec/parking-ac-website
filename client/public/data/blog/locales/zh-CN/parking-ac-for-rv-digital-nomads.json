@@ -2,7 +2,7 @@
   "title": "为生活在 RVs 的数字游民提供驻车空调：随时随地舒适工作",
   "date": "2025-10-15",
   "category": "生活方式",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads_8dec8b1f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
   "metaDescription": "RV 数字游牧者驻车空调的基本指南。通过正确的气候控制，通过 RV 进行远程工作，保持凉爽和高效。",
   "content": [
     {
@@ -60,6 +60,18 @@
     {
       "heading": null,
       "body": "总而言之，RV 中的数字游牧者的旅程是一段令人难以置信的旅程，充满自由和冒险。但就像任何旅程一样，它需要正确的装备和正确的心态。您的驻车空调不仅仅是一个设备；它也是一个设备。它是您的移动办公室和移动之家的重要组成部分。这就是令人沮丧、汗流浃背的工作日和高效、舒适的工作日之间的区别。这是睡个好觉的关键，说实话，当您经常移动时，这是无价的。因此，花时间研究、了解技术细节并明智地投资。无论是了解驻车空调的工作原理，还是深入研究驻车空调燃油节省计算器的细微差别，每一点知识都会有所帮助。不要让气候控制成为您随时随地工作的梦想变成噩梦的原因。精心挑选和正确安装的驻车空调系统可以为您的 RV 数字游牧生活带来舒适感、生产力和自由。这是您的办公室、您的家、您的避难所——让它变得舒适。"
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "为生活在 RVs 的数字游民提供驻车空调：随时随地舒适工作",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-detail.webp",
+      "alt": "为生活在 RVs 的数字游民提供驻车空调：随时随地舒适工作",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

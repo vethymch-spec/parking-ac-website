@@ -2,7 +2,7 @@
   "title": "Inverter-Technologie in Parkklimaanlagen: Kompressoren mit variabler Drehzahl erklärt",
   "date": "2026-02-15",
   "category": "Technologie",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-inverter-technology_81c9ccf4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-inverter-technology-hero.webp",
   "metaDescription": "Entdecken Sie, wie die Wechselrichtertechnologie in Park-Klimaanlagen mit Kompressoren mit variabler Drehzahl höchsten Komfort und erhebliche Energieeinsparungen für LKW-Fahrer und RV-Enthusiasten bietet.",
   "content": [
     {
@@ -68,6 +68,18 @@
     {
       "heading": "Häufig gestellte Fragen",
       "body": "F: Welches Kältemittel eignet sich am besten für Parkklimaanlagen?\n\nA: Die meisten modernen Park-Klimaanlagen verwenden das Kältemittel R134a oder R32.R32 wird aufgrund seines um 67 % geringeren Treibhauspotenzials (GWP von 675 gegenüber 2.088 bei R410a) und seiner höheren Energieeffizienz zunehmend für Neukonstruktionen bevorzugt.R134a bleibt in bestehenden Anlagen weit verbreitet und bietet bewährte Zuverlässigkeit.Verwenden Sie immer das vom Hersteller angegebene Kältemittel – das Mischen von Kältemitteln schadet dem System.\n\nF: Wie oft sollte ich das Kältemittel nachfüllen?\n\nA: Ein ordnungsgemäß installiertes und abgedichtetes System sollte 3–5 Jahre oder länger kein Nachfüllen von Kältemittel erfordern.Wenn die Kühlleistung innerhalb der ersten zwei Jahre deutlich nachlässt, vermuten Sie eher ein Leck als einen normalen Verlust.Lassen Sie einen Techniker eine Dichtheitsprüfung durchführen, bevor Sie einfach Kältemittel hinzufügen, da sich das zugrunde liegende Problem mit der Zeit nur verschlimmert.\n\nF: Kann ich während der Fahrt eine Parkklimaanlage nutzen?\n\nA: Ja, die meisten Park-Klimaanlagen können während der Fahrt betrieben werden.Tatsächlich ermöglicht der Betrieb der Standklimaanlage während der Fahrt, dass die Lichtmaschine die Batterien gleichzeitig auflädt und so effektiv für freie Kühlung sorgt.Bei Autobahngeschwindigkeiten ist die motorbetriebene Klimaanlage des Fahrzeugs jedoch möglicherweise effizienter.Park-ACs sind am wertvollsten bei Zwischenstopps, Ruhepausen und beim Parken über Nacht.\n\nF: Welche Garantie kann ich für eine Park-Klimaanlage erwarten?\n\nA: Qualitätshersteller bieten in der Regel eine Vollgarantie von 1 bis 2 Jahren auf Teile und Arbeitsaufwand sowie erweiterte Kompressorgarantien von 3 bis 5 Jahren.CoolDrivePro bietet wettbewerbsfähige Garantiebedingungen mit weltweitem Support.Registrieren Sie Ihr Produkt immer umgehend und bewahren Sie den Nachweis der fachgerechten Installation auf, da eine unsachgemäße Installation ein häufiger Garantieausschluss ist.\n\nF: Wie wirkt sich die Umgebungstemperatur auf die Leistung der Parkklimaanlage aus?\n\nA: Mit steigender Außentemperatur nimmt die Kühlleistung ab und der Stromverbrauch steigt.Bei 35 °C (95 °F) im Freien kann ein Gerät mit einer Nennleistung von 10.000 BTU seine volle Leistung erbringen.Bei 45 °C (113 °F) liefert das gleiche Gerät möglicherweise 7.500–8.500 BTU und verbraucht dabei 15–20 % mehr Strom.Aus diesem Grund ist die richtige Dimensionierung mit einem Spielraum für Einsätze in heißen Klimazonen wichtig."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Inverter-Technologie in Parkklimaanlagen: Kompressoren mit variabler Drehzahl erklärt",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-inverter-technology-detail.webp",
+      "alt": "Inverter-Technologie in Parkklimaanlagen: Kompressoren mit variabler Drehzahl erklärt",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

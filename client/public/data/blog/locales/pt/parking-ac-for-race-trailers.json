@@ -2,7 +2,7 @@
   "title": "Ar condicionado para reboques de carros de corrida e caminhões de automobilismo",
   "date": "2025-10-26",
   "category": "Especialidade",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers_83a81a87.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-hero.webp",
   "metaDescription": "Mantenha sua equipe e seu equipamento em ótima forma com o ar condicionado certo para o trailer do seu carro de corrida.Saiba por que é um item obrigatório para equipes sérias de automobilismo.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Portanto, se você leva seu programa de corrida a sério, se está investindo pesadamente em seu equipamento e em sua equipe, ignorar o controle climático do seu caminhão é um erro que você não pode cometer.Vi a diferença que isso faz, desde equipes mais felizes e produtivas até equipamentos mais bem preservados e, em última análise, melhores resultados nas corridas.Não se trata apenas de conforto;trata-se de vantagem competitiva.Quer você seja uma equipe profissional experiente ou um aspirante a amador, um sistema de estacionamento AC bem projetado e instalado corretamente é um componente crítico de uma operação bem-sucedida no automobilismo.É um investimento em confiabilidade, desempenho e bem-estar de todos os envolvidos.Não deixe seu trabalho duro literalmente derreter com o calor.Reserve um tempo para pesquisar, entender os detalhes técnicos e escolher um sistema que irá atendê-lo bem nos próximos anos.Sua equipe, seu equipamento e os resultados da corrida agradecerão por isso.Confie em mim;Eu estive lá, fiz isso e vi as consequências de cortar atalhos.Faça certo e você colherá os frutos."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Ar condicionado para reboques de carros de corrida e caminhões de automobilismo",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-detail.webp",
+      "alt": "Ar condicionado para reboques de carros de corrida e caminhões de automobilismo",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

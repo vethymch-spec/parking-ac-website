@@ -2,7 +2,7 @@
   "title": "Van Dwellerin opas pysäköintiilmastointiin: kokoaikainen asuminen ajoneuvossasi",
   "date": "2025-10-15",
   "category": "Van Elämä",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Tärkeä opas pysäköinti-AC:n valintaan ja asennukseen pakettiauton asukkaille.Pysy viileänä ja mukavana asuntoautossasi asiantuntevien vinkkien avulla.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Joten siinä se on.Minun näkemykseni siitä, miksi hyvä pysäköinti-AC ei ole neuvoteltavissa vakaville pakettiauton asukkaille.Kyse ei ole vain kuumuuden voittamisesta;Kyse on elämänlaadun parantamisesta tien päällä ja sen varmistamisesta, että sinulla on mukava, asuttava tila riippumatta siitä, minne seikkailut sinut vievät.Jokaisella päätöksellä on osuutensa aina oikean BTU -asetuksen ymmärtämisestä aina tehokkaan 12V DC -yksikön valitsemiseen, joka toimii vahvalla LiFePO4-akkupankilla.Älä unohda oikean johdotuksen ja asennuksen tärkeyttä, äläkä varmasti unohda hyvän eristyksen etuja.Olen nähnyt sen eron, ja rehellisesti sanottuna se on yö ja päivä.Tämä ei ole vain tuotteen ostamista;kyse on investoimisesta mukavuuteen, uneen ja kokonaisuuteen pakettiauton elämästä nauttimiseen.Käytä aikaa järjestelmän tutkimiseen, suunnitteluun ja asentamiseen oikein, niin voit nauttia viileistä, mukavista päivistä ja öistä tulevina vuosina.Se on pelin muuttaja, yksinkertainen ja yksinkertainen, ja jokaisen kokopäiväisen pakettiauton asukkaan tulisi harkita vakavasti.Pysy viileänä ulkona, ihmiset ja nauti avoimesta tiestä."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dwellerin opas pysäköintiilmastointiin: kokoaikainen asuminen ajoneuvossasi",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dwellerin opas pysäköintiilmastointiin: kokoaikainen asuminen ajoneuvossasi",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Parkolási klíma szárazföldre tartó járművek számára: terephűtés parti áram nélkül",
   "date": "2025-10-26",
   "category": "Specialitás",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles_1380763c.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-hero.webp",
   "metaDescription": "Fedezze fel, hogy a Parking AC for Overlanding Vehicles hogyan biztosít hűtést terepen szárazföldi áram nélkül, fokozva a kényelmet és a biztonságot távoli kalandjai során.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Tehát, ha komolyan gondolja a leszállást, és meg akarja hosszabbítani kényelmes tartózkodását távoli helyeken, egy dedikált parkoló-AC rendszer olyan befektetés, amelyet nem fog megbánni.Ez egy játékmód a hálózaton kívüli kényelem érdekében, lehetővé téve a további felfedezést és a jobb pihenést.A technológia megérkezett, bevált, és készen áll arra, hogy átalakítsa az Ön átfogó élményét.Ne hagyja, hogy a hőség rövidre vágja kalandjait;befogadni a hűvös forradalmat.Ezeknek a fejlett hűtési megoldásoknak köszönhetően a kényelem feláldozása nélküli felfedezés szabadsága minden eddiginél jobban elérhető.Ez az utazás fejlesztéséről szól, nem csak annak elviseléséről.Megfelelő beállítással rá fog jönni, hogy az off-road hűtés parti áram nélkül nem csak álom, hanem valóság, amely minden kalandot feldob, élvezetesebbé téve minden pillanatát az ösvényen, és minden éjszakai alvást pihentetőbbé.Ez a szenvedélyedbe való befektetésről szól, és minden mérföldből a legtöbbet kihozva, biztosítva, hogy minden napfelkelte felfrissüljön és készen álljon az új távlatokra.A kényelem és a képességek iránti elkötelezettség valóban újradefiniálja azt, ami lehetséges, ha távol merészkedik a kövezett úttól, és minden utazást felejthetetlen élménnyé tesz."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkolási klíma szárazföldre tartó járművek számára: terephűtés parti áram nélkül",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-detail.webp",
+      "alt": "Parkolási klíma szárazföldre tartó járművek számára: terephűtés parti áram nélkül",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Megbízható teherautó-hűtési megoldások az elefántcsontparti közlekedési ágazat számára",
   "date": "2025-12-10",
   "category": "Regionális útmutatók",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Fedezze fel a megbízható teherautó-hűtési megoldásokat Elefántcsontpart növekvő szállítóiparához.Ismerje meg, hogyan javítják a parkolóklímák a vezető biztonságát és a működési hatékonyságot Nyugat-Afrika logisztikai központjában.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Biztonsági megfontolások és legjobb gyakorlatok",
       "body": "A parkolóklíma biztonságos működtetéséhez több fontos tényezőre is oda kell figyelni, amelyek mind a jármű utasait, mind a berendezést védik.Az elektromos biztonság a legfontosabb: minden vezetéket az aktuális terhelésnek megfelelően kell méretezni, megfelelő biztosítékvédelem mellett.Az alulméretezett vezetékek a parkoló váltakozó áramú járművek tüzeinek fő oka.Mindig használja a gyártó által megadott vagy nagyobb vezetékmérőt, és szereljen be egy biztosítékot vagy megszakítót, amelynek névleges értéke az egység maximális áramfelvételének 125%-a, az akkumulátor pozitív pólusától számított 30 cm-en belül.\n\nAz akkumulátor biztonsága ugyanolyan figyelmet érdemel, különösen a lítium alapú akkumulátorok esetében.A LiFePO4 akkumulátorok, bár lényegesen biztonságosabbak, mint más lítium vegyszerek, mégis minőségi BMS-t (Battery Management System) igényelnek, amely túltöltés-, túlkisülés-, túláram- és hővédelmet biztosít.Győződjön meg arról, hogy a BMS a parkoló AC egység maximális áramfelvételére van méretezve.Soha ne keverjen régi és új elemeket egy bankban, és soha ne keverje össze a különböző vegyi anyagokat.Az akkumulátorokat jól szellőző helyen tárolja és töltse.\n\nA szén-monoxid (CO) biztonság a parkoló AC-k kritikus előnye a motor alapjáratához képest.A motor alapjárata zárt vagy félig zárt helyeken (parkolóházakban, rakodókonkban, zárt pihenőhelyeken) potenciálisan halálos CO-felhalmozódást idéz elő.A parkoló AC rendszerek működése során nulla károsanyag-kibocsátással járnak, így ez a kockázat teljesen kiküszöbölhető.Ez különösen fontos a hálófülke-vezetők számára, akik csukott ablakokkal pihennek.\n\nA szerelés biztonságát rendszeresen ellenőrizni kell, különösen a durva utakon közlekedő járműveknél.A laza vagy nem megfelelően felszerelt váltakozó áramú egység egy baleset során lövedékké válhat, vagy szállítás közben leeshet a járműről.Legalább negyedévente ellenőrizze az összes rögzítőelemet, és húzza meg újra a csavarokat a gyártó specifikációi szerint.Cseréljen ki minden olyan hardvert, amelyen kifáradásos repedés vagy korrózió jelei mutatkoznak."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Megbízható teherautó-hűtési megoldások az elefántcsontparti közlekedési ágazat számára",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Megbízható teherautó-hűtési megoldások az elefántcsontparti közlekedési ágazat számára",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

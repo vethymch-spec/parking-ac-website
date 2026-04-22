@@ -2,7 +2,7 @@
   "title": "Fas'ın Çöl Yolları için Ağır Hizmet Otopark Klimaları",
   "date": "2025-12-17",
   "category": "Bölgesel Rehberler",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco_c9d0e1f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-hero.webp",
   "metaDescription": "Fas'ın zorlu çöl rotaları için tasarlanmış ağır hizmet tipi park klimaları.Sahra'dan geçen ve Kuzey Afrika ticaret koridorlarını birbirine bağlayan kamyonlar için güvenilir soğutma çözümleri.",
   "content": [
     {
@@ -76,6 +76,18 @@
     {
       "heading": "Otopark Klimaları Hakkında Sıkça Sorulan Sorular",
       "body": "S: Bir park kliması yalnızca pillerle ne kadar süre çalışabilir?\n\nC: Çalışma süresi pil kapasitesine, AC güç tüketimine ve ortam sıcaklığına bağlıdır.Saatte 40-60 amper güç çeken tipik bir 24V park AC'si, 200Ah LiFePO4 akü bankasıyla 8-12 saat çalışabilir.Fas'ın aşırı sıcaklarında, daha yüksek kompresör görev döngüleri nedeniyle çalışma süresi %10-15 daha kısa olabilir.Güneş panellerinin (200-400W) eklenmesi gündüz çalışma süresini önemli ölçüde uzatabilir.\n\nS: Park klimasını kendim kurabilir miyim, yoksa bir uzmana mı ihtiyacım var?\n\nC: Deneyimli DIY montajcılar mekanik montajı ve temel kablolamayı halledebilse de, soğutucu bağlantıları (bölünmüş sistemler) ve aracın mevcut sistemiyle elektriksel entegrasyon için profesyonel kurulum önerilir.Yanlış kurulum çoğu garantiyi geçersiz kılar ve küçük boyutlu kablolama nedeniyle yangın tehlikesi oluşturabilir.\n\nS: Çatı kliması ile bölünmüş sistem park kliması arasındaki fark nedir?\n\nC: Çatı üstü (hepsi bir arada) üniteler, tüm bileşenleri aracın tavanına monte edilmiş tek bir muhafazada içerir.Kurulumu daha kolaydır ancak köprülerin altındaki veya garajlardaki açıklığı etkileyecek şekilde yükseklik ekleyebilirler.Bölünmüş sistemler, kompresör/kondansatörü (dışarı monteli) evaporatörden (içeriye monteli) ayırarak daha esnek kurulum seçenekleri ve potansiyel olarak daha sessiz iç mekan çalışması sunar.CoolDrivePro, farklı araç türlerine ve kullanıcı tercihlerine uyacak şekilde her iki yapılandırmayı da sunar.\n\nS: Park kliması, motoru rölantide çalıştırmaya kıyasla ne kadar yakıt tasarrufu sağlar?\n\nC: Klima için rölantide çalışan motor saatte yaklaşık 0,8-1,5 litre mazot tüketir.Pille çalışan bir park klimasının çalışma sırasında esas olarak sıfır yakıt maliyeti vardır (pil şarjı sürüş sırasında gerçekleşir).Günde 8 saat dinlenen bir sürücü için bu, günde 6-12 litre yakıt tasarrufu sağlar; bu da yerel yakıt fiyatlarına bağlı olarak yıllık yaklaşık 2.000-4.000 ABD Doları anlamına gelir.Park klima ünitesi genellikle yalnızca yakıt tasarrufu sayesinde 6-12 ay içinde kendini amorti eder.\n\nSoru: Otopark klimaları aşırı nemli koşullarda çalışır mı?\n\nC: Evet, modern park klima sistemleri, soğutma işleminin bir parçası olarak kabin havasının nemini etkili bir şekilde giderir.Evaporatör bobini, yoğuşma hattından akan havadaki nemi yoğunlaştırır.Çok nemli bölgelerde drenajın temiz olduğundan emin olun ve gelişmiş nem alma modlarına sahip üniteleri düşünün.CoolDrivePro üniteleri %95 bağıl neme kadar nem seviyelerinde performans gösterecek şekilde test edilmiştir."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Fas'ın Çöl Yolları için Ağır Hizmet Otopark Klimaları",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-detail.webp",
+      "alt": "Fas'ın Çöl Yolları için Ağır Hizmet Otopark Klimaları",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

@@ -2,7 +2,7 @@
   "title": "Pysäköinti-ilmastointilaitteet eteläafrikkalaisiin kaivosajoneuvoihin: Extreme Heat Solutions",
   "date": "2025-12-03",
   "category": "Teolliset sovellukset",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining_c3d4e5f6.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining-vehicles-hero.webp",
   "metaDescription": "Raskaat pysäköinti-AC-ratkaisut eteläafrikkalaisiin kaivosajoneuvoihin.Pysy viileänä platinan, kullan ja timanttien louhinnan äärimmäisessä kuumuudessa Northern Cape ja Limpopo.",
   "content": [
     {
@@ -72,6 +72,18 @@
     {
       "heading": "Tulevaisuuden trendit: Parking AC Technology Etelä-Afrikassa",
       "body": "Etelä-Afrikan pysäköintiilmastointilaitteiden markkinat ovat valmiita merkittävään kasvuun ja teknologiseen kehitykseen tulevina vuosina.Useat keskeiset trendit muokkaavat tämän alan tulevaisuutta:\n\nAurinkoenergian integroinnista on tulossa standardi eikä valinnainen.Seuraavan sukupolven pysäköinti-AC-järjestelmät sisältävät sisäänrakennetut aurinkolatausohjaimet, ja ne on suunniteltu toimimaan saumattomasti kattojen aurinkopaneelien kanssa, joiden teho on 200–600 W.Etelä-Afrikan runsaassa auringonpaisteessa (keskimäärin 5–7 huipputuntia päivässä) aurinkolisä voi tuottaa 30–50 % kokonaisjäähdytysenergiasta päiväsaikojen lepoaikoina, mikä pidentää dramaattisesti akun käyttöaikaa ja pienentää tarvittavaa akkupankin kokoa.\n\nÄlykkäät liitännät ovat toinen suuri trendi.IoT-yhteensopivien pysäköinti-AC-yksiköiden avulla kaluston johtajat voivat seurata jäähdytysjärjestelmän suorituskykyä, energiankulutusta ja huoltotarpeita reaaliajassa koko kalustossaan.Nämä tiedot mahdollistavat ennakoivan huollon (osien vaihtaminen ennen kuin ne epäonnistuvat), energian optimoinnin (huipputehokkuuden alapuolella toimivien yksiköiden tunnistaminen) ja vaatimustenmukaisuusraportoinnin (joutokäynnin estämisen dokumentointi sääntelytarkoituksiin).\n\nKylmäaineen kehitys jatkuu alan siirtyessä käyttämään alhaisemman GWP:n (Global Warming Potential) -vaihtoehtoja.R32 korvaa R410a:n uusissa malleissa, ja tulevat järjestelmät voivat ottaa käyttöön jopa alhaisemman GWP:n kylmäaineita, kuten R290 (propaani), turvallisuusstandardien kehittyessä.Etelä-Afrikassa ostaville ostajille nykyaikaisella kylmäaineella varustetun yksikön valitseminen varmistaa pidempään säännösten noudattamisen ja paremman ympäristönsuojelun.CoolDrivePro on edelleen näiden teknologisten edistysaskelten eturintamassa ja kehittää jatkuvasti tuotteita, jotka tarjoavat erinomaisen suorituskyvyn, tehokkuuden ja liitettävyyden Afrikan markkinoille."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Pysäköinti-ilmastointilaitteet eteläafrikkalaisiin kaivosajoneuvoihin: Extreme Heat Solutions",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining-vehicles-detail.webp",
+      "alt": "Pysäköinti-ilmastointilaitteet eteläafrikkalaisiin kaivosajoneuvoihin: Extreme Heat Solutions",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

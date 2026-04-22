@@ -2,7 +2,7 @@
   "title": "Van Dwellers guide til parkering AC: Heltidsliv i kjøretøyet ditt",
   "date": "2025-10-15",
   "category": "Van Life",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "Viktig veiledning for valg og installasjon av parkerings-AC for varebilbeboere.Hold deg kjølig og komfortabel i bobilen din med eksperttips.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Så der har du det.Mitt syn på hvorfor en god parkerings-AC ikke er omsettelig for seriøse varebilbeboere.Det handler ikke bare om å slå varmen;det handler om å forbedre livskvaliteten din på veien, og sikre at du har et komfortabelt, levelig sted uansett hvor eventyrene dine tar deg.Fra å forstå den riktige BTU for oppsettet ditt til å velge en effektiv 12V DC enhet drevet av en robust LiFePO4 batteribank, hver beslutning spiller en rolle.Ikke glem viktigheten av riktig kabling og installasjon, og absolutt ikke overse fordelene med god isolasjon.Jeg har sett forskjellen det gjør, og ærlig talt, det er natt og dag.Dette handler ikke bare om å kjøpe et produkt;det handler om å investere i din komfort, din søvn og din generelle glede av varebillivet.Ta deg tid til å undersøke, planlegge og installere systemet ditt riktig, og du vil nyte kjølige, komfortable dager og netter i årene som kommer.Det er en game-changer, ren og enkel, og en som hver fulltids varebilbeboer bør vurdere seriøst.Hold deg kul der ute, folkens, og nyt den åpne veien."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dwellers guide til parkering AC: Heltidsliv i kjøretøyet ditt",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dwellers guide til parkering AC: Heltidsliv i kjøretøyet ditt",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

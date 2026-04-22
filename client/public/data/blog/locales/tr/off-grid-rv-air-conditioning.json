@@ -2,8 +2,8 @@
   "title": "Şebekeden Bağımsız RV İklimlendirme: Güneş Enerjili Soğutma için Tam Bir Kılavuz",
   "date": "5 Mart 2025",
   "category": "Rehber",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning_4db6aa9b.webp",
-  "imageAlt": "RV şebekeden bağımsız park klima sistemi için güneş panelleri ile",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+  "imageAlt": "Şebekeden Bağımsız RV İklimlendirme: Güneş Enerjili Soğutma için Tam Bir Kılavuz",
   "metaDescription": "Güneş enerjisi kullanan şebekeden bağımsız RV iklimlendirme ve 12V park kliması için eksiksiz kılavuz.Sistem boyutlandırmasını, pil seçimini ve gerçek dünya performans ipuçlarını öğrenin.",
   "content": [
     {
@@ -57,6 +57,17 @@
     {
       "heading": "Sıkça Sorulan Sorular",
       "body": "S: Park klimasının sesi ne kadardır?\n\nC: Kaliteli park klima üniteleri için iç mekan gürültü seviyeleri 45-58 dB(A) aralığındadır; bu, kabaca sessiz bir ofise veya hafif yağışa eşdeğerdir.CoolDrivePro üniteleri, gürültüyü en aza indirerek rahat uyku koşulları sağlamak için gelişmiş ses sönümleyici kompresör montajları ve optimize edilmiş fan kanadı tasarımlarını içerir.\n\nS: Park kliması çalıştırma akülerimi tüketir mi?\n\nC: Düzgün şekilde kurulan sistemler, marş akülerinden ayrı, özel bir yardımcı akü bankası kullanır veya marş akülerinin, motoru çalıştırmak için gereken eşiğin altına boşalmasını önleyen düşük voltajlı bir bağlantı kesme cihazı içerir.Park klimasını asla uygun izolasyon olmadan doğrudan marş akülerine bağlamayın.\n\nSoru: Park klimaları aynı zamanda ısıtma da sağlayabilir mi?\n\nC: Birçok modern park klima ünitesi, ısıtma sağlamak için soğutma döngüsünü tersine çeviren bir ısı pompası işlevi içerir.Bu, hafif soğuk koşullarda (yaklaşık -5°C/23°F dış sıcaklığa kadar) etkilidir.Aşırı soğuklarda ilave elektrikli veya dizel ısıtma gerekebilir.CoolDrivePro'nin ısıtma-soğutma modelleri her iki modu da tek bir ünitede sunar.\n\nS: Park klima ünitesinin ömrü nedir?\n\nC: Doğru kurulum ve düzenli bakım ile kaliteli bir park klima ünitesinin 5-10 yıl veya yaklaşık 10.000-20.000 çalışma saati dayanması gerekir.Kompresör genellikle en uzun ömürlü bileşendir; fan motorları ve kontrol kartlarının çalışma koşullarına ve toza maruz kalma durumuna bağlı olarak 5-7 yıl sonra değiştirilmesi gerekebilir.\n\nS: Daha pahalı bir birime yatırım yapmaya değer mi?\n\nC: Genellikle evet.Premium üniteler daha verimli kompresörlere (daha düşük güç tüketimi = daha uzun pil ömrü), daha iyi yapım kalitesine (daha uzun kullanım ömrü), daha düşük gürültü seviyelerine ve daha sağlam elektroniklere sahiptir.5 yıllık kullanım ömrü boyunca birinci sınıf bir ünitenin yakıt tasarrufu ve azalan bakım maliyetleri genellikle daha yüksek satın alma fiyatının çok üzerindedir.CoolDrivePro, profesyonel ve ticari kullanım için tasarlanmış olup, güvenilirlik ve verimlilik sayesinde olağanüstü değer sunar."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-real-world-performance-data.webp",
+      "alt": "Gerçek Dünya Performans Verileri — Şebekeden Bağımsız RV İklimlendirme: Güneş Enerjili Soğutma için Tam Bir Kılavuz",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

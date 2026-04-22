@@ -2,7 +2,7 @@
   "title": "Van Dweller의 주차 AC 가이드: 차량 내 풀타임 생활",
   "date": "2025-10-15",
   "category": "반 라이프",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
   "metaDescription": "승합차 거주자를 위한 주차 AC 선택 및 설치에 대한 필수 가이드입니다.전문가의 팁을 통해 이동 주택에서 시원하고 편안하게 지내세요.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "자, 여기 있습니다.진지한 밴 거주자들에게 좋은 주차 AC가 협상할 수 없는 이유에 대해 제가 생각합니다.더위를 이겨내는 것만이 아닙니다.이는 이동 중에도 삶의 질을 향상시켜 모험이 어디로 향하든 편안하고 살기 좋은 공간을 보장하는 것입니다.설정에 적합한 BTU을 이해하는 것부터 강력한 LiFePO4 배터리 뱅크로 구동되는 효율적인 12V DC 장치를 선택하는 것까지 모든 결정이 중요한 역할을 합니다.적절한 배선 및 설치의 중요성을 잊지 말고, 우수한 절연의 이점도 간과하지 마십시오.나는 그것이 만들어내는 차이를 보았고 솔직히 말하면 밤과 낮이 다릅니다.이것은 단지 제품을 구매하는 것에 관한 것이 아닙니다.이는 귀하의 편안함, 수면 및 밴 생활의 전반적인 즐거움에 투자하는 것입니다.시간을 들여 시스템을 올바르게 조사하고 계획하고 설치하면 앞으로 몇 년 동안 시원하고 편안한 낮과 밤을 즐길 수 있습니다.이것은 판도를 바꾸는 단순하고 단순한 것이며 모든 풀타임 밴 거주자가 진지하게 고려해야 할 것입니다.여러분, 밖에서 시원함을 유지하고 탁 트인 도로를 즐겨보세요."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Van Dweller의 주차 AC 가이드: 차량 내 풀타임 생활",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp",
+      "alt": "Van Dweller의 주차 AC 가이드: 차량 내 풀타임 생활",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

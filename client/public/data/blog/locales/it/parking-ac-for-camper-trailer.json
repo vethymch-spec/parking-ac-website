@@ -2,7 +2,7 @@
   "title": "Miglior parcheggio AC per camper: opzioni sul tetto o sotto il sedile",
   "date": "2025-12-22",
   "category": "Guida",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer_319d2897.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-hero.webp",
   "metaDescription": "Scopri la migliore climatizzazione da parcheggio per camper.Confrontiamo le opzioni sul tetto e sotto il sedile, i fabbisogni energetici e le prestazioni reali per il raffreddamento off-grid.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "In definitiva, la scelta tra un condizionatore sul tetto e uno sotto il sedile si riduce a una valutazione brutalmente onesta delle vostre esigenze e limitazioni specifiche.Non esiste una bacchetta magica.Se desideri un'installazione semplice, non preoccuparti dell'altezza extra e vuoi preservare lo spazio di archiviazione interno, un'unità sul tetto è probabilmente la strada da percorrere.È un design collaudato che funziona bene per la stragrande maggioranza delle planimetrie tradizionali.Ma se stai costruendo un impianto off-grid nascosto, hai bisogno di ogni centimetro quadrato di spazio sul tetto per l'energia solare e sei disposto ad affrontare un'installazione più complessa, un'unità sotto il sedile offre incredibili vantaggi in termini di aerodinamica e distribuzione del peso.Ho costruito e accampato impianti con entrambe le configurazioni, ed entrambi hanno i loro momenti di brillantezza e frustrazione.La chiave è smettere di cercare il sistema \"perfetto\" e iniziare a cercare il sistema che meglio si allinea al modo in cui viaggi effettivamente.Fai i tuoi conti sul consumo energetico, misura tre volte lo spazio disponibile e non sottovalutare l'importanza di una buona notte di sonno.Quando sei parcheggiato in mezzo al nulla, a chilometri dalla presa più vicina, il ronzio di un affidabile condizionatore che mantiene fresca l'abitacolo è uno dei suoni più dolci del mondo."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Miglior parcheggio AC per camper: opzioni sul tetto o sotto il sedile",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-detail.webp",
+      "alt": "Miglior parcheggio AC per camper: opzioni sul tetto o sotto il sedile",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

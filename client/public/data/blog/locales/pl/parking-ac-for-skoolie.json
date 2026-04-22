@@ -2,7 +2,7 @@
   "title": "Klimatyzacja parkingowa dla konwersji Skoolie: chłodzenie autobusu szkolnego do domu w drodze",
   "date": "2025-11-15",
   "category": "Specjalność",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
   "metaDescription": "Zadbaj o spokój swojego skoolie na drodze!Poznaj wydajne rozwiązania klimatyzacji parkingowej do konwersji autobusów szkolnych, zapewniające komfort i oszczędność energii.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Ostatecznie wybór odpowiedniej klimatyzacji parkingowej do konwersji skoolie polega na zrównoważeniu komfortu, wydajności i specyficznego stylu życia.Nie jest to rozwiązanie uniwersalne i szczerze mówiąc, każdy, kto twierdzi inaczej, prawdopodobnie nie spędzał zbyt wiele czasu w drodze.Widziałem na własne oczy ewolucję tych systemów, od nieporęcznych, energochłonnych jednostek po eleganckie i wydajne modele 12V DC, które mamy dzisiaj.Inwestycja w system jakości w połączeniu z dobrze zaprojektowaną konfiguracją modułów fotowoltaicznych i akumulatorów zwróci się w postaci komfortu, wolności i spokoju ducha.Będziesz mógł gonić za słońcem lub uciekać przed upałem, wiedząc, że Twój dom mobilny zawsze będzie chłodną oazą.Nie rezygnuj ze swojego komfortu;to właśnie sprawia, że ​​marzenie skoolie staje się rzeczywistością.Poświęć czas na badania, planowanie i mądre inwestowanie, a będziesz cieszyć się chłodną bryzą, gdziekolwiek zaprowadzi Cię droga.W końcu to Twój dom i zasługuje na wygodę."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Klimatyzacja parkingowa dla konwersji Skoolie: chłodzenie autobusu szkolnego do domu w drodze",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp",
+      "alt": "Klimatyzacja parkingowa dla konwersji Skoolie: chłodzenie autobusu szkolnego do domu w drodze",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

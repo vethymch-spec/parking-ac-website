@@ -2,7 +2,7 @@
   "title": "Climatiseurs de stationnement pour véhicules militaires : solutions de refroidissement tactiques",
   "date": "2026-02-15",
   "category": "Spécialité",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Découvrez le rôle essentiel des climatiseurs de stationnement dans les véhicules militaires, fournissant un refroidissement tactique au personnel et aux appareils électroniques sensibles dans des conditions extrêmes.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "En conclusion, l’évolution des climatiseurs de stationnement pour véhicules militaires constitue un voyage fascinant, du simple confort à l’avantage tactique critique.C'est un domaine où l'innovation est motivée par des exigences extrêmes, où chaque BTU, chaque décibel et chaque watt compte.De la protection des appareils électroniques sensibles à la garantie du bien-être de nos soldats, ces systèmes jouent un rôle indispensable dans les opérations militaires modernes.L’investissement dans des solutions de refroidissement robustes, efficaces et furtives ne consiste pas seulement à rester au frais ;il s’agit de rester efficace, de rester en sécurité et, en fin de compte, de garder une longueur d’avance.Et c’est là, mes amis, la réalité du refroidissement tactique."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Climatiseurs de stationnement pour véhicules militaires : solutions de refroidissement tactiques",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Climatiseurs de stationnement pour véhicules militaires : solutions de refroidissement tactiques",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

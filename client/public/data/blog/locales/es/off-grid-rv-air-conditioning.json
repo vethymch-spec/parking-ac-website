@@ -2,8 +2,8 @@
   "title": "Aire acondicionado fuera de la red RV: una guía completa para la refrigeración con energía solar",
   "date": "5 de marzo de 2025",
   "category": "Guía",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning_4db6aa9b.webp",
-  "imageAlt": "RV con paneles solares para sistema de aire acondicionado de estacionamiento fuera de la red",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+  "imageAlt": "Aire acondicionado fuera de la red RV: una guía completa para la refrigeración con energía solar",
   "metaDescription": "Guía completa de aire acondicionado RV fuera de la red que utiliza energía solar y 12V aire acondicionado de estacionamiento.Conozca el tamaño del sistema, la selección de la batería y consejos de rendimiento en el mundo real.",
   "content": [
     {
@@ -57,6 +57,17 @@
     {
       "heading": "Preguntas frecuentes",
       "body": "P: ¿Qué tan ruidoso es el aire acondicionado de un estacionamiento?\n\nR: Los niveles de ruido interior de las unidades de aire acondicionado de estacionamiento de calidad oscilan entre 45 y 58 dB(A), lo que equivale aproximadamente a una oficina silenciosa o a una lluvia suave.Las unidades CoolDrivePro incorporan soportes de compresor avanzados que amortiguan el sonido y diseños optimizados de aspas del ventilador para minimizar el ruido, lo que garantiza condiciones cómodas para dormir.\n\nP: ¿El aire acondicionado de estacionamiento agotará mis baterías de arranque?\n\nR: Los sistemas correctamente instalados utilizan un banco de baterías auxiliar dedicado separado de las baterías de arranque, o incluyen una desconexión de bajo voltaje que protege las baterías de arranque para que no se agoten por debajo del umbral necesario para arrancar el motor.Nunca conecte una CA de estacionamiento directamente a las baterías de arranque sin el aislamiento adecuado.\n\nP: ¿Los aires acondicionados de estacionamiento también pueden proporcionar calefacción?\n\nR: Muchas unidades modernas de aire acondicionado para estacionamiento incluyen una función de bomba de calor que invierte el ciclo de refrigeración para proporcionar calefacción.Esto es eficaz en condiciones de frío suave (hasta aproximadamente -5 °C/23 °F de temperatura exterior).Para el frío extremo, es posible que se necesite calefacción eléctrica o diésel suplementaria.Los modelos de calefacción-refrigeración de CoolDrivePro ofrecen ambos modos en una sola unidad.\n\nP: ¿Cuál es la vida útil de una unidad de aire acondicionado para estacionamiento?\n\nR: Con una instalación adecuada y un mantenimiento regular, una unidad de aire acondicionado para estacionamiento de calidad debería durar entre 5 y 10 años o aproximadamente entre 10 000 y 20 000 horas de funcionamiento.El compresor suele ser el componente más duradero, mientras que es posible que sea necesario reemplazar los motores del ventilador y los tableros de control después de 5 a 7 años, dependiendo de las condiciones de funcionamiento y la exposición al polvo.\n\nP: ¿Vale la pena invertir en una unidad más cara?\n\nR: Generalmente sí.Las unidades premium cuentan con compresores más eficientes (menor consumo de energía = mayor tiempo de funcionamiento de la batería), mejor calidad de construcción (mayor vida útil), menores niveles de ruido y componentes electrónicos más robustos.Durante una vida útil de 5 años, el ahorro de combustible y la reducción de los costos de mantenimiento de una unidad premium generalmente superan con creces el precio de compra más alto.CoolDrivePro está diseñado para uso profesional y comercial y ofrece un valor excepcional a través de confiabilidad y eficiencia."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-real-world-performance-data.webp",
+      "alt": "Datos de rendimiento del mundo real — Aire acondicionado fuera de la red RV: una guía completa para la refrigeración con energía solar",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

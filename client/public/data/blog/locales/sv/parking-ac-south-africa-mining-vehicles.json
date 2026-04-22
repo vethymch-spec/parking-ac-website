@@ -2,7 +2,7 @@
   "title": "Parkeringsluftkonditionering för sydafrikanska gruvfordon: lösningar för extrem värme",
   "date": "2025-12-03",
   "category": "Industriella applikationer",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining_c3d4e5f6.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining-vehicles-hero.webp",
   "metaDescription": "Heavy-duty parkering AC-lösningar för sydafrikanska gruvfordon.Håll dig sval i den extrema hettan av platina-, guld- och diamantgruvor över Northern Cape och Limpopo.",
   "content": [
     {
@@ -72,6 +72,18 @@
     {
       "heading": "Framtida trender: Parking AC Technology i Sydafrika",
       "body": "Marknaden för luftkonditionering för parkering i Sydafrika är redo för betydande tillväxt och tekniska framsteg under de kommande åren.Flera nyckeltrender formar denna industris framtid:\n\nSolintegration blir standard snarare än valfri.Nästa generations parkerings-AC-system har inbyggda solcellsladdningskontroller och är designade för att fungera sömlöst med solpaneler på taket som är klassade till 200-600W.I Sydafrikas rikliga solsken (i genomsnitt 5-7 soltimmar dagligen) kan solenergitillskott ge 30-50 % av den totala kylenergin under viloperioder under dagtid, vilket dramatiskt förlänger batteridriftstiden och minskar den nödvändiga batteribankens storlek.\n\nSmart anslutning är en annan stor trend.IoT-aktiverade AC-parkeringsenheter gör det möjligt för vagnparkshanterare att övervaka kylsystemets prestanda, energiförbrukning och underhållsbehov i realtid över hela sin vagnpark.Dessa data möjliggör förutsägande underhåll (byte ut komponenter innan de misslyckas), energioptimering (identifierar enheter som fungerar under maximal effektivitet) och efterlevnadsrapportering (dokumenterar efterlevnad av tomgångskörning för regulatoriska ändamål).\n\nKöldmedieutvecklingen fortsätter när industrin övergår till alternativ med lägre GWP (Global Warming Potential).R32 ersätter R410a i nya konstruktioner, och framtida system kan komma att använda till och med lägre GWP-köldmedier som R290 (propan) i takt med att säkerhetsstandarder utvecklas.För köpare i Sydafrika, att välja en enhet med modernt köldmedium säkerställer längre regelefterlevnad och bättre miljöprestanda.CoolDrivePro ligger fortfarande i framkant av dessa tekniska framsteg och utvecklar kontinuerligt produkter som levererar överlägsen prestanda, effektivitet och anslutningsmöjligheter för den afrikanska marknaden."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Parkeringsluftkonditionering för sydafrikanska gruvfordon: lösningar för extrem värme",
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining-vehicles-detail.webp",
+      "alt": "Parkeringsluftkonditionering för sydafrikanska gruvfordon: lösningar för extrem värme",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

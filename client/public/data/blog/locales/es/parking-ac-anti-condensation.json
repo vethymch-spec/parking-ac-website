@@ -2,7 +2,7 @@
   "title": "Prevención de la condensación y daños por agua en su aire acondicionado de estacionamiento",
   "date": "2025-10-26",
   "category": "Mantenimiento",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Aprenda cómo prevenir la condensación del aire acondicionado de estacionamiento y los daños causados por el agua en su RV o camión con consejos de expertos sobre instalación, mantenimiento y control de humedad.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Un último pensamiento: no subestime el poder de una buena inspección previa al viaje. Antes de salir a la carretera, especialmente para recorridos más largos o viajes a climas húmedos, tómese unos minutos para inspeccionar visualmente los componentes exteriores de su aire acondicionado de estacionamiento.Verifique las líneas de drenaje en busca de obstrucciones o daños obvios.Asegúrese de que la unidad esté montada de forma segura y que todos los sellos parezcan intactos.Un vistazo rápido a menudo puede detectar un problema potencial antes de que se convierta en un gran dolor de cabeza.He visto a conductores evitar daños significativos por agua con solo notar una manguera de drenaje suelta durante una revisión de rutina. Es un pequeño hábito que puede generar grandes beneficios en términos de evitar reparaciones costosas y mantener la integridad del interior de su vehículo. Este enfoque proactivo, combinado con un mantenimiento regular y una comprensión de cómo funciona el aire acondicionado de su estacionamiento, será su mejor defensa contra la condensación y los daños por agua. Se trata de estar preparado e informado, para garantizar que su viaje sea lo más cómodo y sin preocupaciones posible.Después de todo, ya tienes bastante de qué preocuparte en la carretera; un interior húmedo no debería ser una de ellas.Unos pocos minutos de inspección pueden ahorrarle días de frustración y miles de reparaciones."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Prevención de la condensación y daños por agua en su aire acondicionado de estacionamiento",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Prevención de la condensación y daños por agua en su aire acondicionado de estacionamiento",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

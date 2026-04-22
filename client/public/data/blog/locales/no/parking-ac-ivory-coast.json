@@ -2,7 +2,7 @@
   "title": "Pålitelige lastebilkjøleløsninger for Côte d'Ivoires transportindustri",
   "date": "2025-12-10",
   "category": "Regionale guider",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
   "metaDescription": "Oppdag pålitelige lastebilkjøleløsninger for Côte d'Ivoires voksende transportindustri.Lær hvordan parkeringsklimaanlegg forbedrer sjåførenes sikkerhet og driftseffektivitet i Vest-Afrikas logistikknutepunkt.",
   "content": [
     {
@@ -80,6 +80,18 @@
     {
       "heading": "Sikkerhetshensyn og beste praksis",
       "body": "Sikker drift av et parkeringsklimaanlegg krever oppmerksomhet til flere viktige faktorer som beskytter både passasjerene i kjøretøyet og utstyret.Elektrisk sikkerhet er avgjørende: alle ledninger må dimensjoneres riktig for gjeldende belastning med passende sikringsbeskyttelse.Underdimensjonerte ledninger er den viktigste årsaken til parkerings-AC-relaterte kjøretøybranner.Bruk alltid trådmåleren spesifisert av produsenten eller større, og installer en sikring eller kretsbryter klassifisert til 125 % av enhetens maksimale strømtrekk innenfor 30 cm fra batteriets positive pol.\n\nBatterisikkerhet fortjener like stor oppmerksomhet, spesielt med litiumbaserte batterier.LiFePO4 batterier, selv om de er betydelig sikrere enn andre litiumkjemier, krever fortsatt et kvalitets-BMS (Battery Management System) som gir overlading, overutlading, overstrøm og termisk beskyttelse.Sørg for at BMS er klassifisert for det maksimale strømtrekket til parkerings AC-enheten.Bland aldri gamle og nye batterier i en bank, og bland aldri forskjellige kjemier.Oppbevar og lad batterier i godt ventilerte områder.\n\nSikkerhet for karbonmonoksid (CO) er en kritisk fordel ved å parkere AC-er fremfor motoren på tomgang.Motoren går på tomgang i lukkede eller halvlukkede rom (parkeringsgarasjer, lastebrygger, lukkede rasteplasser) skaper potensielt dødelig CO-akkumulering.Parkering AC-systemer produserer null utslipp under drift, og eliminerer denne risikoen fullstendig.Dette er spesielt viktig for førere med sovekabin som hviler med lukkede vinduer.\n\nMonteringssikkerhet må verifiseres regelmessig, spesielt på kjøretøy som kjører på røffe veier.En løs eller feilmontert AC-enhet kan bli et prosjektil i en ulykke eller falle fra kjøretøyet under transport.Kontroller all monteringsutstyr minst kvartalsvis, og stram boltene til etter produsentens spesifikasjoner.Bytt ut maskinvare som viser tegn til tretthetssprekker eller korrosjon."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Pålitelige lastebilkjøleløsninger for Côte d'Ivoires transportindustri",
+  "inlineImages": [
+    {
+      "afterSection": 9,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp",
+      "alt": "Pålitelige lastebilkjøleløsninger for Côte d'Ivoires transportindustri",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

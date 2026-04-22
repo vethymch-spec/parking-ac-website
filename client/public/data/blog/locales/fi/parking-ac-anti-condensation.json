@@ -2,7 +2,7 @@
   "title": "Kondensoitumisen ja vesivahinkojen estäminen pysäköinti-AC:n avulla",
   "date": "2025-10-26",
   "category": "Huolto",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
   "metaDescription": "Opi estämään pysäköinnin tiivistymisen ja vesivahingon RV tai kuorma-autossa asiantuntijavinkien avulla asennusta, huoltoa ja kosteudenhallintaa varten.",
   "content": [
     {
@@ -56,6 +56,18 @@
     {
       "heading": null,
       "body": "Viimeinen ajatus: älä aliarvioi hyvän ajoa edeltävän tarkastuksen tehoa. Ennen kuin lähdet tielle, varsinkin pitkillä matkoilla tai matkoilla kosteaan ilmastoon, käytä muutama minuutti pysäköinnin AC:n ulkoisten komponenttien silmämääräiseen tarkastamiseen.Tarkista, ettei tyhjennysletkuissa ole ilmeisiä tukoksia tai vaurioita.Varmista, että yksikkö on kiinnitetty kunnolla ja että kaikki tiivisteet näyttävät ehjiltä.Nopea vilkaisu voi usein havaita mahdollisen ongelman ennen kuin se kärjistyy suureksi päänsäryksi.Olen nähnyt kuljettajien välttävän merkittäviä vesivahinkoja vain havaitsemalla löystyneen tyhjennysletkun rutiinitarkastuksen aikana. Se on pieni tapa, joka voi tuottaa valtavan tuoton, koska se estää kalliita korjauksia ja säilyttää ajoneuvosi sisätilojen eheyden. Tämä ennakoiva lähestymistapa yhdistettynä säännölliseen huoltoon ja pysäköinnin AC-toimintojen ymmärtämiseen on paras suojasi kondensaatiota ja vesivahinkoja vastaan.mahdollisimman huoletta.Loppujen lopuksi sinulla on tarpeeksi huolehdittavaa tiellä; kostean sisätilan ei pitäisi olla yksi niistä.Muutaman minuutin tarkastus voi säästää päivien turhautumista ja tuhansia korjauksia."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Kondensoitumisen ja vesivahinkojen estäminen pysäköinti-AC:n avulla",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp",
+      "alt": "Kondensoitumisen ja vesivahinkojen estäminen pysäköinti-AC:n avulla",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

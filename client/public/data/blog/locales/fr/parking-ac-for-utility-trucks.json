@@ -2,7 +2,7 @@
   "title": "Climatisation pour camions utilitaires et véhicules de ligne",
   "date": "2025-10-28",
   "category": "Spécialité",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks_0943e009.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp",
   "metaDescription": "Garder les camions utilitaires et les véhicules des ouvriers au frais est une question de sécurité, pas seulement de confort.Découvrez les meilleures solutions de climatisation.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Ainsi, lorsque vous examinez votre flotte de camions utilitaires et envisagez la prochaine mise à niveau, je vous invite à penser au-delà du moteur et du châssis.Pensez à la personne qui est à la place du conducteur.Pensez aux longues heures qu'ils passent sur le terrain, aux températures extrêmes qu'ils endurent et au travail critique qu'ils effectuent.Investir dans un système de climatisation de stationnement fiable et de haute qualité est l’un des investissements les plus efficaces que vous puissiez faire.C'est un investissement dans la sécurité, l'efficacité, la durabilité et, surtout, dans vos collaborateurs.La technologie est là, l’analyse de rentabilisation est claire et le besoin n’a jamais été aussi grand.D'après mon expérience, il s'agit de l'une des décisions les plus judicieuses qu'un gestionnaire de flotte puisse prendre, avec des avantages qui se feront sentir dans les années à venir, tant sur le bilan que sur le bien-être de votre personnel.Il est temps de faire du confort de la cabine une norme, et non une option, pour les hommes et les femmes qui travaillent dur dans le secteur des services publics.Ils ne méritent rien de moins."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Climatisation pour camions utilitaires et véhicules de ligne",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-detail.webp",
+      "alt": "Climatisation pour camions utilitaires et véhicules de ligne",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

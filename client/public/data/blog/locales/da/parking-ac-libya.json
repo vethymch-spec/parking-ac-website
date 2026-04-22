@@ -2,7 +2,7 @@
   "title": "Libyen Truck Parking AC Planlægning: Køling til Tripoli, Benghazi og Border Hauls",
   "date": "2025-12-01",
   "category": "Nordafrikas flådeplanlægning",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya_e5f6g7h8.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya-hero.webp",
   "metaDescription": "En Libyens transportguide til parkering af AC-valg på tværs af Tripoli, Benghazi og grænsekorridorer, fokuseret på chaufførgendannelse, varmestress og oppetid.",
   "content": [
     {
@@ -88,6 +88,18 @@
     {
       "heading": "Ofte stillede spørgsmål om parkeringsklimaanlæg",
       "body": "Q: Hvor længe kan en parkerings-AC køre på batterier alene?\n\nA: Køretiden afhænger af batterikapacitet, AC-strømforbrug og omgivelsestemperatur.En typisk 24V parkerings-AC, der trækker 40-60 ampere i timen, kan køre 8-12 timer på en 200Ah LiFePO4 batteribank.I Libyens ekstreme varme kan driftstiden være 10-15 % kortere på grund af højere kompressordriftscyklusser.Tilføjelse af solpaneler (200-400W) kan forlænge køretiden i dagtimerne betydeligt.\n\nQ: Kan jeg installere en parkerings-AC selv, eller har jeg brug for en professionel?\n\nA: Mens erfarne gør-det-selv-installatører kan håndtere den mekaniske montering og grundlæggende ledninger, anbefales professionel installation af kølemiddelforbindelserne (splitsystemer) og elektrisk integration med køretøjets eksisterende system.Forkert installation ugyldiggør de fleste garantier og kan skabe brandfare fra underdimensionerede ledninger.\n\nQ: Hvad er forskellen mellem en tagterrasse med AC og et split-system parkerings AC?\n\nA: Rooftop (alt-i-én) enheder indeholder alle komponenter i et enkelt hus monteret på køretøjets tag.De er nemmere at installere, men kan tilføje højder, der påvirker frigangen under broer eller i parkeringshuse.Opdelte systemer adskiller kompressoren/kondensatoren (monteret udenfor) fra fordamperen (monteret indeni), hvilket giver mere fleksible installationsmuligheder og potentielt mere støjsvag indendørs drift.CoolDrivePro tilbyder både konfigurationer, der passer til forskellige køretøjstyper og brugerpræferencer.\n\nQ: Hvor meget brændstof sparer en parkerings-AC sammenlignet med at køre motoren i tomgang?\n\nA: Motor i tomgang til klimaanlæg forbruger cirka 0,8-1,5 liter diesel i timen.En batteridrevet parkerings-AC koster stort set ingen brændstof under drift (batteriopladning sker under kørsel).For en chauffør, der hviler 8 timer dagligt, sparer dette 6-12 liter brændstof om dagen, eller omkring $2.000-4.000 USD årligt afhængigt af lokale brændstofpriser.Parkerings-AC-enheden betaler sig typisk tilbage inden for 6-12 måneder alene gennem brændstofbesparelser.\n\nQ: Fungerer parkeringsklimaanlæg under ekstremt fugtige forhold?\n\nA: Ja, moderne parkerings-AC-systemer affugter effektivt kabineluften som en del af køleprocessen.Fordamperspiralen kondenserer fugt fra luften, som dræner gennem kondensledningen.I meget fugtige områder skal du sikre dig, at afløbet er klart, og overveje enheder med forbedrede affugtningstilstande.CoolDrivePro enheder er testet til at fungere i luftfugtighedsniveauer på op til 95 % relativ luftfugtighed."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Libyen Truck Parking AC Planlægning: Køling til Tripoli, Benghazi og Border Hauls",
+  "inlineImages": [
+    {
+      "afterSection": 10,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya-detail.webp",
+      "alt": "Libyen Truck Parking AC Planlægning: Køling til Tripoli, Benghazi og Border Hauls",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

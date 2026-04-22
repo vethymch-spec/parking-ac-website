@@ -2,7 +2,7 @@
   "title": "Klimatyzacja do pojazdów użytkowych i pojazdów pracowników liniowych",
   "date": "2025-10-28",
   "category": "Specjalność",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks_0943e009.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp",
   "metaDescription": "Utrzymanie niskiej temperatury pojazdów użytkowych i pojazdów pracowników liniowych to kwestia bezpieczeństwa, a nie tylko komfortu.Poznaj najlepsze rozwiązania klimatyzacyjne.",
   "content": [
     {
@@ -52,6 +52,18 @@
     {
       "heading": null,
       "body": "Tak więc, patrząc na swoją flotę pojazdów użytkowych i rozważając kolejną modernizację, zachęcam Cię, abyś pomyślał nie tylko o silniku i podwoziu.Pomyśl o osobie na miejscu kierowcy.Pomyśl o długich godzinach, jakie spędzają w polu, ekstremalnych temperaturach, jakie wytrzymują, i najważniejszej pracy, którą wykonują.Inwestycja w wysokiej jakości, niezawodny system klimatyzacji parkingowej to jedna z najbardziej wpływowych inwestycji, jakie możesz poczynić.To inwestycja w bezpieczeństwo, wydajność, zrównoważony rozwój i, co najważniejsze, w Twoich ludzi.Technologia jest już dostępna, uzasadnienie biznesowe jest jasne, a potrzeba nigdy nie była większa.Z mojego doświadczenia wynika, że ​​jest to jedna z najmądrzejszych decyzji, jaką może podjąć menedżer floty, zapewniająca korzyści odczuwalne przez wiele lat, zarówno pod względem bilansu, jak i dobrostanu pracowników.Nadszedł czas, aby komfort kabiny stał się standardem, a nie opcją dla ciężko pracujących mężczyzn i kobiet w sektorze użyteczności publicznej.Nie zasługują na nic innego."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Klimatyzacja do pojazdów użytkowych i pojazdów pracowników liniowych",
+  "inlineImages": [
+    {
+      "afterSection": 6,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-detail.webp",
+      "alt": "Klimatyzacja do pojazdów użytkowych i pojazdów pracowników liniowych",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

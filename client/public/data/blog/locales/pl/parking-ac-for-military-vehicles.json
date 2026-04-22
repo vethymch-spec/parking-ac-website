@@ -2,7 +2,7 @@
   "title": "Klimatyzatory postojowe do pojazdów wojskowych: taktyczne rozwiązania chłodzące",
   "date": "2026-02-15",
   "category": "Specjalność",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
   "metaDescription": "Odkryj kluczową rolę klimatyzatorów postojowych w pojazdach wojskowych, zapewniających taktyczne chłodzenie personelu i wrażliwej elektroniki w ekstremalnych warunkach.",
   "content": [
     {
@@ -64,6 +64,18 @@
     {
       "heading": null,
       "body": "Podsumowując, ewolucja klimatyzatorów postojowych do pojazdów wojskowych to fascynująca podróż od prostego komfortu do krytycznej przewagi taktycznej.To dziedzina, w której innowacja wynika z ekstremalnych wymagań, gdzie liczy się każdy BTU, każdy decybel i każdy wat.Od ochrony wrażliwej elektroniki po zapewnienie dobrego samopoczucia naszym żołnierzom, systemy te odgrywają niezastąpioną rolę we współczesnych operacjach wojskowych.Inwestycja w solidne, wydajne i dyskretne rozwiązania chłodzące nie polega tylko na zachowaniu chłodu;chodzi o zachowanie efektywności, bezpieczeństwo i ostatecznie wyprzedzanie.I taka jest, moi przyjaciele, rzeczywistość taktycznego chłodzenia."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "imageAlt": "Klimatyzatory postojowe do pojazdów wojskowych: taktyczne rozwiązania chłodzące",
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp",
+      "alt": "Klimatyzatory postojowe do pojazdów wojskowych: taktyczne rozwiązania chłodzące",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

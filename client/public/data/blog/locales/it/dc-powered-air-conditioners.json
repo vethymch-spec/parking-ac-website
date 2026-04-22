@@ -2,8 +2,8 @@
   "title": "Perché i condizionatori alimentati DC rappresentano una svolta per i proprietari di RV",
   "date": "18 febbraio 2025",
   "category": "Tecnologia",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
-  "imageAlt": "Climatizzatore da parcheggio elettrico DC per RV e semirimorchio",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
+  "imageAlt": "Perché i condizionatori alimentati DC rappresentano una svolta per i proprietari di RV",
   "metaDescription": "Scopri perché i condizionatori alimentati DC stanno trasformando RV e il raffreddamento dei camion.Scopri l'efficienza, la compatibilità della batteria e le migliori opzioni di aria condizionata per parcheggio 12V DC.",
   "content": [
     {
@@ -65,6 +65,17 @@
     {
       "heading": "Considerazioni sulla sicurezza e migliori pratiche",
       "body": "Il funzionamento sicuro di un condizionatore d'aria da parcheggio richiede attenzione a diversi fattori importanti che proteggono sia gli occupanti del veicolo che l'attrezzatura.La sicurezza elettrica è fondamentale: tutti i cablaggi devono essere dimensionati correttamente per il carico di corrente con un'adeguata protezione con fusibili.Il cablaggio sottodimensionato è la principale causa di incendi di veicoli legati al parcheggio dell'aria condizionata.Utilizzare sempre il diametro del cavo specificato dal produttore o superiore e installare un fusibile o un interruttore automatico valutato al 125% dell'assorbimento di corrente massimo dell'unità entro 30 cm dal terminale positivo della batteria.\n\nLa sicurezza della batteria merita pari attenzione, in particolare con le batterie a base di litio.Le batterie LiFePO4, sebbene significativamente più sicure rispetto ad altri prodotti chimici al litio, richiedono comunque un BMS (sistema di gestione della batteria) di qualità che fornisca protezione da sovraccarico, scarica eccessiva, sovracorrente e termica.Assicurati che il BMS sia dimensionato per l'assorbimento di corrente massimo del tuo condizionatore da parcheggio.Non mischiare mai batterie vecchie e nuove in una banca e non mischiare mai sostanze chimiche diverse.Conservare e caricare le batterie in aree ben ventilate.\n\nLa sicurezza del monossido di carbonio (CO) è un vantaggio fondamentale del parcheggio degli AC rispetto al motore al minimo.Il motore al minimo in spazi chiusi o semichiusi (parcheggi, banchine di carico, aree di sosta chiuse) crea un accumulo di CO2 potenzialmente letale.I sistemi di climatizzazione da parcheggio producono zero emissioni durante il funzionamento, eliminando completamente questo rischio.Ciò è particolarmente importante per i conducenti di taxi con cuccetta che riposano con i finestrini chiusi.\n\nLa sicurezza del montaggio deve essere verificata regolarmente, soprattutto sui veicoli che circolano su strade accidentate.Un'unità AC allentata o montata in modo non corretto può diventare un proiettile in un incidente o cadere dal veicolo durante il trasporto.Controllare tutta la bulloneria di montaggio almeno una volta ogni tre mesi, serrando nuovamente i bulloni secondo le specifiche del produttore.Sostituire qualsiasi hardware che mostri segni di crepe da fatica o corrosione."
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Domande frequenti sui DC AC per il parcheggio — Perché i condizionatori alimentati DC rappresentano una svolta per i proprietari di RV",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }
