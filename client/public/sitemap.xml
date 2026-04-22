@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cooldrivepro.com/</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/products/top-mounted-ac</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/products/mini-split-ac</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/products/heating-cooling-ac</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/products/nano-max</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/products</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/about</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/contact</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/support</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -68,919 +68,1945 @@
   </url>
   <url>
     <loc>https://cooldrivepro.com/shop</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/features/power</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/features/quiet</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/features/solar</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/features/install</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/features/battery</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/features/smart</loc>
-    <lastmod>2026-04-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-egypt-alexandria-coastal-humidity</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-alexandria-coastal-humidity-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioning for Alexandria&apos;s Coastal Humidity: Combatting Egypt&apos;s Mediterranean Climate Challenges — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-alexandria-coastal-humidity-port-logistics-a-critical-application.webp</image:loc>
+      <image:caption>Port Logistics: A Critical Application — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioning for Alexandria&apos;s Coastal Humidity: Combatting Egypt&apos;s Mediterranean Climate Challenges)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-egypt-cairo-delivery-vans</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-cairo-delivery-vans-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioning for Cairo Delivery Vans: Essential Cooling Solutions for Egypt&apos;s Last-Mile Logistics — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ghana-accra-urban-transport</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioning for Accra Urban Transport: Transforming Ghana&apos;s Commercial Vehicle Fleet — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-driver-welfare-and-retention-in-ghana-s-.webp</image:loc>
+      <image:caption>Driver Welfare and Retention in Ghana&apos;s Transport Sector — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioning for Accra Urban Transport: Transforming Ghana&apos;s Commercial Vehicle Fleet)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ghana-kumasi-industrial-zone</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-kumasi-industrial-zone-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioning for Kumasi Industrial Zone: Powering Ghana&apos;s Manufacturing Logistics — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-kenya-nairobi-public-transport</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-nairobi-public-transport-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioning for Nairobi Public Transport: Modernizing Kenya&apos;s Matatu and Bus Fleet — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-nairobi-public-transport-economic-benefits-for-kenyan-transport-o.webp</image:loc>
+      <image:caption>Economic Benefits for Kenyan Transport Operators — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioning for Nairobi Public Transport: Modernizing Kenya&apos;s Matatu and Bus Fleet)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-nigeria-kano-hot-climate</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-kano-hot-climate-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioning for Kano&apos;s Hot Climate: Essential Cooling Solutions for Northern Nigeria — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-kano-hot-climate-economic-benefits-and-return-on-investme.webp</image:loc>
+      <image:caption>Economic Benefits and Return on Investment — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioning for Kano&apos;s Hot Climate: Essential Cooling Solutions for Northern Nigeria)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-south-africa-cape-town-tourism</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-cape-town-tourism-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioning for Cape Town Tourism: Enhancing Safari and Tour Vehicle Operations — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-cape-town-tourism-operational-benefits-for-tourism-fleet-m.webp</image:loc>
+      <image:caption>Operational Benefits for Tourism Fleet Managers — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioning for Cape Town Tourism: Enhancing Safari and Tour Vehicle Operations)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-tanzania-arusha-wildlife-tours</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-arusha-wildlife-tours-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioning for Arusha Wildlife Tours: Elevating Safari Vehicle Comfort in Tanzania — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-tanzania-dar-es-salaam-logistics</loc>
-    <lastmod>2026-03-31</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&amp;q=80</image:loc>
+      <image:caption>Logistics trucks equipped with CoolDrivePro parking AC at Dar es Salaam port operations</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-battery-management-system</loc>
-    <lastmod>2026-02-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system-hero.webp</image:loc>
+      <image:caption>Battery Management Systems (BMS) for Parking AC Power: Complete Guide — lithium battery pack and inverter system installed inside a truck cabin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system-detail.webp</image:loc>
+      <image:caption>technical details — lithium battery pack and inverter system installed inside a truck cabin (Battery Management Systems (BMS) for Parking AC Power: Complete Guide)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-military-vehicles</loc>
-    <lastmod>2026-02-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Military Vehicles: Tactical Cooling Solutions — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking Air Conditioners for Military Vehicles: Tactical Cooling Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-inverter-technology</loc>
-    <lastmod>2026-02-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-inverter-technology-hero.webp</image:loc>
+      <image:caption>Inverter Technology in Parking ACs: Variable Speed Compressors Explained — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-inverter-technology-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Inverter Technology in Parking ACs: Variable Speed Compressors Explained)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-smart-home-integration</loc>
-    <lastmod>2026-01-10</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp</image:loc>
+      <image:caption>Parking AC Smart Home Integration: Control Your Vehicle AC from Anywhere</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking AC Smart Home Integration: Control Your Vehicle AC from Anywhere)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/12v-vs-24v-truck-ac</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp</image:loc>
+      <image:caption>12V vs 24V Truck Air Conditioners: Which Is Right for Your Fleet? — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-detail.webp</image:loc>
+      <image:caption>technical details — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners (12V vs 24V Truck Air Conditioners: Which Is Right for Your Fleet?)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/reduce-driver-heat-stress</loc>
-    <lastmod>2025-12-29</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp</image:loc>
+      <image:caption>How to Reduce Driver Heat Stress with Electric Parking AC Systems</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-ac-installation-mistakes</loc>
-    <lastmod>2025-12-28</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp</image:loc>
+      <image:caption>Common Installation Mistakes for Truck Air Conditioners in Africa</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-ac-dust-vibration-heat</loc>
-    <lastmod>2025-12-27</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp</image:loc>
+      <image:caption>How Dust, Road Vibration, and Heat Affect Parking AC Performance</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-ac-low-voltage-guide</loc>
-    <lastmod>2025-12-26</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp</image:loc>
+      <image:caption>Low Voltage Protection: What African Fleet Buyers Need to Know</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-ac-weak-cooling-fix</loc>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp</image:loc>
+      <image:caption>Why Your Truck AC Cooling Becomes Weak in Extreme Heat (And How to Fix It)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-ac-installation-africa</loc>
-    <lastmod>2025-12-24</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp</image:loc>
+      <image:caption>Professional Installation Guide for Truck Parking AC in Africa</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-camper-trailer</loc>
-    <lastmod>2025-12-22</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-hero.webp</image:loc>
+      <image:caption>Best Parking AC for Camper Trailers: Rooftop vs Underseat Options — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-detail.webp</image:loc>
+      <image:caption>technical details — RV motorhome interior with a rooftop air conditioner unit visible (Best Parking AC for Camper Trailers: Rooftop vs Underseat Options)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-tunisia</loc>
-    <lastmod>2025-12-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp</image:loc>
+      <image:caption>Wholesale Truck Air Conditioners for Tunisia&apos;s Transport Fleet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-egypt</loc>
-    <lastmod>2025-12-18</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-hero.webp</image:loc>
+      <image:caption>Surviving Egypt&apos;s Summer: Truck Parking AC Solutions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Surviving Egypt&apos;s Summer: Truck Parking AC Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-morocco</loc>
-    <lastmod>2025-12-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-hero.webp</image:loc>
+      <image:caption>Heavy-Duty Parking Air Conditioners for Morocco&apos;s Desert Routes — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Heavy-Duty Parking Air Conditioners for Morocco&apos;s Desert Routes)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ethiopia</loc>
-    <lastmod>2025-12-16</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp</image:loc>
+      <image:caption>Truck Air Conditioners for Ethiopia&apos;s High-Altitude Transport Operations</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Truck Air Conditioners for Ethiopia&apos;s High-Altitude Transport Operations)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-rwanda</loc>
-    <lastmod>2025-12-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-rwanda-hero.webp</image:loc>
+      <image:caption>Rooftop Parking AC Solutions for Rwanda&apos;s Public Transport Buses — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-rwanda-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Rooftop Parking AC Solutions for Rwanda&apos;s Public Transport Buses)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-uganda</loc>
-    <lastmod>2025-12-14</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp</image:loc>
+      <image:caption>Electric Truck Air Conditioners for Uganda&apos;s Growing Transport Fleet</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-tanzania-safari</loc>
-    <lastmod>2025-12-13</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Tanzania&apos;s Safari Tourism Vehicles</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-kenya-guide</loc>
-    <lastmod>2025-12-12</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-guide-hero.webp</image:loc>
+      <image:caption>Complete Guide to Truck Parking Air Conditioners in Kenya — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-guide-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Complete Guide to Truck Parking Air Conditioners in Kenya)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-burkina-faso</loc>
-    <lastmod>2025-12-11</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-hero.webp</image:loc>
+      <image:caption>Parking AC Solutions for Burkina Faso&apos;s Landlocked Transport Challenges — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking AC Solutions for Burkina Faso&apos;s Landlocked Transport Challenges)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-south-africa-freight-industry</loc>
-    <lastmod>2025-12-11</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-freight-industry-hero.webp</image:loc>
+      <image:caption>South African Freight Industry: Parking Air Conditioners for Long-Haul Excellence — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-diy-installation</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-diy-installation-hero.webp</image:loc>
+      <image:caption>DIY Parking AC Installation: Step-by-Step Guide for Beginners — technician installing a parking air conditioner unit on a truck cabin roof, hands and tools visible</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ivory-coast</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp</image:loc>
+      <image:caption>Reliable Truck Cooling Solutions for Côte d&apos;Ivoire&apos;s Transport Industry — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Reliable Truck Cooling Solutions for Côte d&apos;Ivoire&apos;s Transport Industry)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-kenya-mombasa-port</loc>
-    <lastmod>2025-12-10</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-mombasa-port-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Kenya&apos;s Mombasa Port: Coastal Humidity Solutions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-mombasa-port-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioners for Kenya&apos;s Mombasa Port: Coastal Humidity Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-nigeria-lagos-traffic-heat</loc>
-    <lastmod>2025-12-09</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-lagos-traffic-heat-hero.webp</image:loc>
+      <image:caption>Battling Lagos Traffic Heat: Parking Air Conditioners for Nigerian Urban Transport — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-lagos-traffic-heat-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Battling Lagos Traffic Heat: Parking Air Conditioners for Nigerian Urban Transport)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ethiopia-agricultural-vehicles</loc>
-    <lastmod>2025-12-08</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia-agricultural-vehicles-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Ethiopia Agricultural Vehicles: Addis Ababa Highlands Farming — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia-agricultural-vehicles-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking Air Conditioners for Ethiopia Agricultural Vehicles: Addis Ababa Highlands Farming)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-morocco-cross-border-transport</loc>
-    <lastmod>2025-12-07</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-cross-border-transport-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Morocco Cross-Border Transport: Casablanca to Timbuktu Routes — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-cross-border-transport-detail.webp</image:loc>
+      <image:caption>technical details — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners (Parking Air Conditioners for Morocco Cross-Border Transport: Casablanca to Timbuktu Routes)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-tanzania-safari-tourism</loc>
-    <lastmod>2025-12-06</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Tanzania Safari Tourism: Serengeti to Zanzibar Comfort</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ghana-commercial-transport</loc>
-    <lastmod>2025-12-05</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-transport-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Ghana Commercial Transport: Accra to Tamale Logistics — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-transport-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioners for Ghana Commercial Transport: Accra to Tamale Logistics)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-ac-distributor-africa</loc>
-    <lastmod>2025-12-05</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp</image:loc>
+      <image:caption>Become a Truck Air Conditioner Distributor in Africa</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-ac-spare-parts-africa</loc>
-    <lastmod>2025-12-05</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp</image:loc>
+      <image:caption>Spare Parts &amp; After-Sales Support for Truck AC in Africa</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/import-truck-ac-africa</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa-hero.webp</image:loc>
+      <image:caption>How to Import Truck Parking Air Conditioners to Africa: Complete Guide — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (How to Import Truck Parking Air Conditioners to Africa: Complete Guide)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-africa-roi</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-africa-roi-hero.webp</image:loc>
+      <image:caption>Calculating ROI for Truck Parking Air Conditioners in African Fleets — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-africa-roi-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Calculating ROI for Truck Parking Air Conditioners in African Fleets)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-egypt-desert-heat</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-desert-heat-hero.webp</image:loc>
+      <image:caption>Surviving Egypt&apos;s Desert Heat: Parking Air Conditioners for Extreme Climate Operations — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-desert-heat-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Surviving Egypt&apos;s Desert Heat: Parking Air Conditioners for Extreme Climate Operations)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-senegal</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-senegal-hero.webp</image:loc>
+      <image:caption>Rooftop Truck Air Conditioners for Senegal&apos;s Logistics Sector — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-senegal-detail.webp</image:loc>
+      <image:caption>technical details — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners (Rooftop Truck Air Conditioners for Senegal&apos;s Logistics Sector)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-south-africa-mining-vehicles</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining-vehicles-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for South African Mining Vehicles: Extreme Heat Solutions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining-vehicles-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioners for South African Mining Vehicles: Extreme Heat Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-zambia</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zambia-hero.webp</image:loc>
+      <image:caption>Reliable Truck AC Solutions for Zambia&apos;s Copper Belt Operations — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zambia-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Reliable Truck AC Solutions for Zambia&apos;s Copper Belt Operations)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-zimbabwe</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp</image:loc>
+      <image:caption>Cross-Border Transport Cooling for Zimbabwe&apos;s Fleet Operators</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-angola</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-angola-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Angola&apos;s Oil &amp; Gas Transport — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-angola-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking Air Conditioners for Angola&apos;s Oil &amp; Gas Transport)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-drc</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc-hero.webp</image:loc>
+      <image:caption>Industrial Parking AC for DRC&apos;s Mining Transport Fleet — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc-detail.webp</image:loc>
+      <image:caption>technical details — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners (Industrial Parking AC for DRC&apos;s Mining Transport Fleet)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ghana-commercial</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Ghana&apos;s Commercial Transport Fleet — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioners for Ghana&apos;s Commercial Transport Fleet)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-kenya-logistics-fleet</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp</image:loc>
+      <image:caption>Parking Air Conditioner Solutions for Kenya Logistics Fleet: Nairobi to Mombasa Corridor</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-algeria</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-algeria-hero.webp</image:loc>
+      <image:caption>24V Parking Air Conditioners for Algeria&apos;s Cross-Sahara Transport — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-algeria-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (24V Parking Air Conditioners for Algeria&apos;s Cross-Sahara Transport)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-libya</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya-hero.webp</image:loc>
+      <image:caption>Truck Cooling Solutions for Libya&apos;s Commercial Transport Sector — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya-detail.webp</image:loc>
+      <image:caption>technical details — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners (Truck Cooling Solutions for Libya&apos;s Commercial Transport Sector)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-nigeria-guide</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-guide-hero.webp</image:loc>
+      <image:caption>How to Choose the Right Truck Parking Air Conditioner for Nigeria&apos;s Hot Climate — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-guide-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (How to Choose the Right Truck Parking Air Conditioner for Nigeria&apos;s Hot Climate)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-nigeria-truck-drivers-guide</loc>
-    <lastmod>2025-12-01</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-truck-drivers-guide-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioner Guide for Nigerian Truck Drivers: Beating the Heat from Lagos to Kano — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-truck-drivers-guide-detail.webp</image:loc>
+      <image:caption>technical details — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking Air Conditioner Guide for Nigerian Truck Drivers: Beating the Heat from Lagos to Kano)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-desert-camping</loc>
-    <lastmod>2025-11-27</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-desert-camping-hero.webp</image:loc>
+      <image:caption>Parking AC for Desert Camping: Surviving 120°F Heat in Your RV or Truck — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-police-vehicles</loc>
-    <lastmod>2025-11-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles-hero.webp</image:loc>
+      <image:caption>Parking AC for Police and Law Enforcement Vehicles: K9 and Officer Safety — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking AC for Police and Law Enforcement Vehicles: K9 and Officer Safety)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-rv-solo-travelers</loc>
-    <lastmod>2025-11-20</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp</image:loc>
+      <image:caption>Parking AC for Solo RV Travelers: Safety, Comfort and Independence</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers-detail.webp</image:loc>
+      <image:caption>technical details — RV motorhome interior with a rooftop air conditioner unit visible (Parking AC for Solo RV Travelers: Safety, Comfort and Independence)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-agriculture-vehicles</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-agriculture-vehicles-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Agricultural Vehicles: Tractors, Combines &amp; Harvesters — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-agriculture-vehicles-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Agricultural Vehicles: Tractors, Combines &amp; Harvesters)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-film-production</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-film-production-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Film Production Vehicles and Location Trailers — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-film-production-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Film Production Vehicles and Location Trailers)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-command</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-command-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Mobile Command Centers and Emergency Response Units — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-command-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Mobile Command Centers and Emergency Response Units)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-dentistry</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-hero.webp</image:loc>
+      <image:caption>Temperature Control for Mobile Dental Clinics and Oral Health Vehicles — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Temperature Control for Mobile Dental Clinics and Oral Health Vehicles)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-escape-room</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-escape-room-hero.webp</image:loc>
+      <image:caption>Cooling Solutions for Mobile Escape Rooms and Entertainment Trailers — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-escape-room-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Cooling Solutions for Mobile Escape Rooms and Entertainment Trailers)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-gaming</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-gaming-hero.webp</image:loc>
+      <image:caption>Cooling Solutions for Mobile Gaming Lounges and Esports Trailers — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-gaming-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Cooling Solutions for Mobile Gaming Lounges and Esports Trailers)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-workshops</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-workshops-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Mobile Workshop Vans and Service Vehicles — mechanic servicing the filter and coils of a parking air conditioner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-safari-vehicles</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-safari-vehicles-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Safari and Wildlife Tour Vehicles: Comfort in the Bush — safari tour vehicle in a savanna landscape with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-safari-vehicles-detail.webp</image:loc>
+      <image:caption>technical details — safari tour vehicle in a savanna landscape with a rooftop parking air conditioner (Air Conditioning for Safari and Wildlife Tour Vehicles: Comfort in the Bush)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-skoolie</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp</image:loc>
+      <image:caption>Parking AC for Skoolie Conversions: Cooling a School Bus Home on the Road — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking AC for Skoolie Conversions: Cooling a School Bus Home on the Road)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-tour-buses</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-tour-buses-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Tour Buses and Coach Vehicles: Driver Comfort Solutions — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-wildfire-response</loc>
-    <lastmod>2025-11-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response-hero.webp</image:loc>
+      <image:caption>Cooling Solutions for Wildfire Response Vehicles and Firefighter Safety — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Cooling Solutions for Wildfire Response Vehicles and Firefighter Safety)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-fleet-management</loc>
-    <lastmod>2025-10-28</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-hero.webp</image:loc>
+      <image:caption>Fleet Management with Parking ACs: Monitoring, Maintenance &amp; Cost Control — mechanic servicing the filter and coils of a parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-detail.webp</image:loc>
+      <image:caption>technical details — mechanic servicing the filter and coils of a parking air conditioner (Fleet Management with Parking ACs: Monitoring, Maintenance &amp; Cost Control)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-cinema</loc>
-    <lastmod>2025-10-28</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-cinema-hero.webp</image:loc>
+      <image:caption>Cooling Solutions for Mobile Cinema and Entertainment Vehicles — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-cinema-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Cooling Solutions for Mobile Cinema and Entertainment Vehicles)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-semi-sleeper-berth</loc>
-    <lastmod>2025-10-28</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp</image:loc>
+      <image:caption>Parking AC for Semi-Truck Sleeper Berths: DOT Compliance and Comfort — semi-truck sleeper cabin interior with a rooftop parking air conditioner</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-utility-trucks</loc>
-    <lastmod>2025-10-28</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Utility Trucks and Line Worker Vehicles — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Utility Trucks and Line Worker Vehicles)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-anti-condensation</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp</image:loc>
+      <image:caption>Preventing Condensation and Water Damage with Your Parking AC — mechanic servicing the filter and coils of a parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-detail.webp</image:loc>
+      <image:caption>technical details — mechanic servicing the filter and coils of a parking air conditioner (Preventing Condensation and Water Damage with Your Parking AC)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-medical-transport</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-medical-transport-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Medical Transport Vehicles: Temperature-Sensitive Cargo — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-medical-transport-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Medical Transport Vehicles: Temperature-Sensitive Cargo)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-art-studio</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-art-studio-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Mobile Art Studios and Creative Vans — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-art-studio-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Mobile Art Studios and Creative Vans)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-clinics</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-clinics-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Mobile Medical Clinics and Health Outreach Vehicles — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-clinics-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Mobile Medical Clinics and Health Outreach Vehicles)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-photography</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-photography-hero.webp</image:loc>
+      <image:caption>Cooling Solutions for Mobile Photography Studios and Camera Vans — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-photography-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Cooling Solutions for Mobile Photography Studios and Camera Vans)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-overland-vehicles</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-hero.webp</image:loc>
+      <image:caption>Parking AC for Overlanding Vehicles: Off-Road Cooling Without Shore Power — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking AC for Overlanding Vehicles: Off-Road Cooling Without Shore Power)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-race-trailers</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Race Car Trailers and Motorsport Haulers — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Race Car Trailers and Motorsport Haulers)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-rv-boondocking</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-boondocking-hero.webp</image:loc>
+      <image:caption>Boondocking with a Parking AC: Complete Off-Grid Power Strategy — RV with rooftop solar panels and a parking air conditioner under sunny sky</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-boondocking-detail.webp</image:loc>
+      <image:caption>technical details — RV with rooftop solar panels and a parking air conditioner under sunny sky (Boondocking with a Parking AC: Complete Off-Grid Power Strategy)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-rv-couples</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-couples-hero.webp</image:loc>
+      <image:caption>Parking AC for Couples Living in an RV: Comfort for Two on the Road — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-couples-detail.webp</image:loc>
+      <image:caption>technical details — RV motorhome interior with a rooftop air conditioner unit visible (Parking AC for Couples Living in an RV: Comfort for Two on the Road)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-rv-families</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-families-hero.webp</image:loc>
+      <image:caption>Parking AC for Families Full-Timing in an RV: Keeping Kids Comfortable — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-families-detail.webp</image:loc>
+      <image:caption>technical details — RV motorhome interior with a rooftop air conditioner unit visible (Parking AC for Families Full-Timing in an RV: Keeping Kids Comfortable)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-rv-winter-camping</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp</image:loc>
+      <image:caption>Using Your Parking AC&apos;s Heat Pump for Winter RV Camping</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-security-vehicles</loc>
-    <lastmod>2025-10-26</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-security-vehicles-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Security and Surveillance Vehicles: 24/7 Operation — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-security-vehicles-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Security and Surveillance Vehicles: 24/7 Operation)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-pet-grooming</loc>
-    <lastmod>2025-10-22</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-pet-grooming-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Mobile Pet Grooming Vans: Animal Safety First — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-pet-grooming-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Mobile Pet Grooming Vans: Animal Safety First)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-rv-festivals</loc>
-    <lastmod>2025-10-22</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-festivals-hero.webp</image:loc>
+      <image:caption>Parking AC at Music Festivals and Outdoor Events: Power and Comfort Guide — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-festivals-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking AC at Music Festivals and Outdoor Events: Power and Comfort Guide)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-energy-star</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp</image:loc>
+      <image:caption>Energy Efficiency Ratings for Parking ACs: Understanding EER, COP &amp; SEER</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-border-patrol</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-border-patrol-hero.webp</image:loc>
+      <image:caption>Cooling Solutions for Border Patrol and Customs Enforcement Vehicles — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-border-patrol-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Cooling Solutions for Border Patrol and Customs Enforcement Vehicles)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-glamping</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-glamping-hero.webp</image:loc>
+      <image:caption>Parking AC for Glamping: Luxury Outdoor Comfort Without Shore Power — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-glamping-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking AC for Glamping: Luxury Outdoor Comfort Without Shore Power)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-labs</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-labs-hero.webp</image:loc>
+      <image:caption>Temperature Control for Mobile Laboratories and Research Vehicles — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-veterinary</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-veterinary-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Mobile Veterinary Clinics: Animal and Equipment Safety — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-veterinary-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Mobile Veterinary Clinics: Animal and Equipment Safety)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-mobile-yoga</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Mobile Yoga Studios and Wellness Vans — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Mobile Yoga Studios and Wellness Vans)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-rv-digital-nomads</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp</image:loc>
+      <image:caption>Parking AC for Digital Nomads Living in RVs: Work-From-Anywhere Comfort — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (Parking AC for Digital Nomads Living in RVs: Work-From-Anywhere Comfort)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-rv-rallies</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp</image:loc>
+      <image:caption>Staying Cool at RV Rallies and Festivals: Parking AC Tips for Events — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-detail.webp</image:loc>
+      <image:caption>technical details — RV motorhome interior with a rooftop air conditioner unit visible (Staying Cool at RV Rallies and Festivals: Parking AC Tips for Events)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-van-dwellers</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp</image:loc>
+      <image:caption>Van Dweller&apos;s Guide to Parking AC: Full-Time Living in Your Vehicle — camper van interior with a compact rooftop air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-detail.webp</image:loc>
+      <image:caption>technical details — camper van interior with a compact rooftop air conditioner (Van Dweller&apos;s Guide to Parking AC: Full-Time Living in Your Vehicle)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-installation-cost</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioner Installation Cost: Complete Price Breakdown 2025 — technician installing a parking air conditioner unit on a truck cabin roof, hands and tools visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-detail.webp</image:loc>
+      <image:caption>technical details — technician installing a parking air conditioner unit on a truck cabin roof, hands and tools visible (Parking Air Conditioner Installation Cost: Complete Price Breakdown 2025)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-refrigerant-r32</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp</image:loc>
+      <image:caption>R32 Refrigerant in Next-Gen Parking ACs: Lower GWP and Better Efficiency — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-detail.webp</image:loc>
+      <image:caption>technical details — truck cabin interior with a parking air conditioner mounted on the roof (R32 Refrigerant in Next-Gen Parking ACs: Lower GWP and Better Efficiency)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-remote-diagnostics</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-remote-diagnostics-hero.webp</image:loc>
+      <image:caption>Remote Diagnostics for Parking ACs: IoT Monitoring and Predictive Maintenance — mechanic servicing the filter and coils of a parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-remote-diagnostics-detail.webp</image:loc>
+      <image:caption>technical details — mechanic servicing the filter and coils of a parking air conditioner (Remote Diagnostics for Parking ACs: IoT Monitoring and Predictive Maintenance)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-subscription-service</loc>
-    <lastmod>2025-10-15</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp</image:loc>
+      <image:caption>Parking AC as a Service: Subscription Models for Fleet Operators — mechanic servicing the filter and coils of a parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-detail.webp</image:loc>
+      <image:caption>technical details — mechanic servicing the filter and coils of a parking air conditioner (Parking AC as a Service: Subscription Models for Fleet Operators)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-kenya-eldoret-cold-chain</loc>
     <lastmod>March 30, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-eldoret-cold-chain-hero.webp</image:loc>
+      <image:caption>Parking AC for Kenya Eldoret: Cold Chain Transport Solutions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-eldoret-cold-chain-cold-chain-integrity-how-parking-ac-prot.webp</image:loc>
+      <image:caption>Cold Chain Integrity: How Parking AC Protects Temperature-Sensitive Cargo — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking AC for Kenya Eldoret: Cold Chain Transport Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-nigeria-ibadan-commercial-drivers</loc>
     <lastmod>March 30, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-ibadan-commercial-drivers-hero.webp</image:loc>
+      <image:caption>Parking AC for Nigeria Ibadan: Commercial Driver Climate Solutions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-ibadan-commercial-drivers-regulatory-environment-and-industry-stan.webp</image:loc>
+      <image:caption>Regulatory Environment and Industry Standards: Compliance and Best Practice — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking AC for Nigeria Ibadan: Commercial Driver Climate Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-egypt-luxor-tourism-vehicles</loc>
     <lastmod>March 29, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-luxor-tourism-vehicles-hero.webp</image:loc>
+      <image:caption>Parking AC for Egypt Luxor: Tourism Vehicle Climate Solutions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-luxor-tourism-vehicles-vehicle-protection-and-reliability-opera.webp</image:loc>
+      <image:caption>Vehicle Protection and Reliability: Operating in Extreme Desert Conditions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking AC for Egypt Luxor: Tourism Vehicle Climate Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ghana-tamale-northern-region</loc>
     <lastmod>March 29, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-tamale-northern-region-hero.webp</image:loc>
+      <image:caption>Parking AC for Ghana Tamale: Northern Region Transport Solutions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-tamale-northern-region-cargo-protection-and-quality-climate-con.webp</image:loc>
+      <image:caption>Cargo Protection and Quality: Climate Control Beyond the Cabin — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking AC for Ghana Tamale: Northern Region Transport Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-tanzania-zanzibar-tourism</loc>
     <lastmod>March 29, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&amp;q=80</image:loc>
+      <image:caption>Parking AC for Tanzania Zanzibar island tourism vehicles and coastal transport</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-kenya-nakuru-agricultural-transport</loc>
     <lastmod>March 28, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-nakuru-agricultural-transport-hero.webp</image:loc>
+      <image:caption>Parking AC for Kenya Nakuru: Climate Solutions for Agricultural Transport Fleet — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-nakuru-agricultural-transport-cargo-quality-and-cold-chain-integrity-c.webp</image:loc>
+      <image:caption>Cargo Quality and Cold Chain Integrity: Climate Control Beyond the Driver — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking AC for Kenya Nakuru: Climate Solutions for Agricultural Transport Fleet)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-morocco-casablanca-freight</loc>
     <lastmod>March 28, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-casablanca-freight-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Morocco Casablanca Freight Trucks: Beating the Atlantic Heat — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-casablanca-freight-the-casablanca-freight-ecosystem-routes-.webp</image:loc>
+      <image:caption>The Casablanca Freight Ecosystem: Routes, Challenges, and Cooling Needs — truck cabin interior with a parking air conditioner mounted on the roof (Parking Air Conditioners for Morocco Casablanca Freight Trucks: Beating the Atlantic Heat)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-nigeria-port-harcourt-humidity</loc>
     <lastmod>March 28, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-port-harcourt-humidity-hero.webp</image:loc>
+      <image:caption>Parking AC for Nigeria Port Harcourt: Humidity Control Solutions for Oil &amp; Gas Transport — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-port-harcourt-humidity-technical-requirements-parking-ac-in-tro.webp</image:loc>
+      <image:caption>Technical Requirements: Parking AC in Tropical Maritime Environments — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking AC for Nigeria Port Harcourt: Humidity Control Solutions for Oil &amp; Gas Transport)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-south-africa-johannesburg-commuter</loc>
     <lastmod>March 28, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-johannesburg-commuter-hero.webp</image:loc>
+      <image:caption>Parking AC for South Africa Johannesburg: Commuter Transport Solutions — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-johannesburg-commuter-passenger-comfort-and-service-quality-co.webp</image:loc>
+      <image:caption>Passenger Comfort and Service Quality: Competitive Differentiation — commercial truck parked in an African urban or roadside scene under hot sun, with a rooftop parking air conditioner (Parking AC for South Africa Johannesburg: Commuter Transport Solutions)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-ethiopia-addis-ababa-altitude</loc>
     <lastmod>March 27, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia-addis-ababa-altitude-hero.webp</image:loc>
+      <image:caption>Parking AC for Ethiopia Addis Ababa: High-Altitude Cooling Solutions for Commercial Vehicles — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia-addis-ababa-altitude-technical-considerations-parking-ac-perf.webp</image:loc>
+      <image:caption>Technical Considerations: Parking AC Performance at High Altitude — fleet of commercial delivery trucks at a logistics depot with rooftop parking air conditioners (Parking AC for Ethiopia Addis Ababa: High-Altitude Cooling Solutions for Commercial Vehicles)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/best-parking-ac-for-semi-trucks</loc>
     <lastmod>March 10, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp</image:loc>
+      <image:caption>Best Parking Air Conditioner for Semi Trucks in 2025: Top Picks &amp; Buyer&apos;s Guide — semi-truck sleeper cabin interior with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-top-picks-for-2025-the-best-parking-air-.webp</image:loc>
+      <image:caption>Top Picks for 2025: The **Best Parking Air Conditioner Semi Truck** Solutions — semi-truck sleeper cabin interior with a rooftop parking air conditioner (Best Parking Air Conditioner for Semi Trucks in 2025: Top Picks &amp; Buyer&apos;s Guide)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/12v-vs-24v-parking-ac</loc>
     <lastmod>March 8, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp</image:loc>
+      <image:caption>12V vs 24V Parking Air Conditioner: Which Is Right for Your Truck or RV? — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-key-factors-in-choosing-between-12v-and-.webp</image:loc>
+      <image:caption>Key Factors in Choosing Between 12V and 24V Parking AC — RV motorhome interior with a rooftop air conditioner unit visible (12V vs 24V Parking Air Conditioner: Which Is Right for Your Truck or RV?)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/no-idle-ac-anti-idling-laws</loc>
     <lastmod>March 6, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/no-idle-ac-anti-idling-laws-hero.webp</image:loc>
+      <image:caption>No-Idle Air Conditioning: How Parking ACs Help Truck Drivers Comply with Anti-Idling Laws — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/no-idle-ac-anti-idling-laws-choosing-the-right-no-idle-ac-system-fac.webp</image:loc>
+      <image:caption>Choosing the Right No-Idle AC System: Factors to Consider — truck cabin interior with a parking air conditioner mounted on the roof (No-Idle Air Conditioning: How Parking ACs Help Truck Drivers Comply with Anti-Idling Laws)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/off-grid-rv-air-conditioning</loc>
     <lastmod>March 5, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp</image:loc>
+      <image:caption>Off-Grid RV Air Conditioning: A Complete Guide to Solar-Powered Cooling — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-real-world-performance-data.webp</image:loc>
+      <image:caption>Real-World Performance Data — RV motorhome interior with a rooftop air conditioner unit visible (Off-Grid RV Air Conditioning: A Complete Guide to Solar-Powered Cooling)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/rv-parking-ac-installation-guide</loc>
     <lastmod>March 3, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-parking-ac-installation-guide_4385ee4b.webp</image:loc>
+      <image:caption>How to Install a Rooftop Parking Air Conditioner on Your RV: Step-by-Step Guide - parking air conditioner guide</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/mini-split-vs-rooftop-rv-ac</loc>
     <lastmod>February 25, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/mini-split-vs-rooftop-rv-ac-hero.webp</image:loc>
+      <image:caption>Mini Split vs Rooftop RV Air Conditioner: Pros, Cons &amp; Which to Choose — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/mini-split-vs-rooftop-rv-ac-4-noise-levels-and-comfort-a-head-to-hea.webp</image:loc>
+      <image:caption>4. Noise Levels and Comfort: A Head-to-Head — RV motorhome interior with a rooftop air conditioner unit visible (Mini Split vs Rooftop RV Air Conditioner: Pros, Cons &amp; Which to Choose)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-cab-cooling-without-engine</loc>
     <lastmod>February 22, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-cab-cooling-without-engine_860c789e.webp</image:loc>
+      <image:caption>How to Keep Your Truck Cab Cool Without Running the Engine - parking air conditioner guide</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/lifepo4-battery-parking-ac</loc>
     <lastmod>February 20, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp</image:loc>
+      <image:caption>LiFePO4 Batteries for Parking Air Conditioners: The Ultimate Power Solution — lithium battery pack and inverter system installed inside a truck cabin</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-maximizing-efficiency-and-runtime-with-l.webp</image:loc>
+      <image:caption>Maximizing Efficiency and Runtime with LiFePO4 — lithium battery pack and inverter system installed inside a truck cabin (LiFePO4 Batteries for Parking Air Conditioners: The Ultimate Power Solution)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/dc-powered-air-conditioners</loc>
     <lastmod>February 18, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp</image:loc>
+      <image:caption>Why DC Powered Air Conditioners Are a Game-Changer for RV Owners — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp</image:loc>
+      <image:caption>Frequently Asked Questions About DC Parking ACs — RV motorhome interior with a rooftop air conditioner unit visible (Why DC Powered Air Conditioners Are a Game-Changer for RV Owners)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-fuel-savings-calculator</loc>
     <lastmod>February 15, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp</image:loc>
+      <image:caption>How Much Fuel Does a Parking Air Conditioner Save? Real Numbers &amp; ROI Calculator — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-advanced-features-and-technologies-in-mo.webp</image:loc>
+      <image:caption>Advanced Features and Technologies in Modern Parking AC Units — truck cabin interior with a parking air conditioner mounted on the roof (How Much Fuel Does a Parking Air Conditioner Save? Real Numbers &amp; ROI Calculator)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/cleaning-maintaining-rv-ac</loc>
     <lastmod>January 30, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp</image:loc>
+      <image:caption>Cleaning and Maintaining RV Air Conditioners: 2025 Complete Guide — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-frequently-asked-questions-about-rv-ac-m.webp</image:loc>
+      <image:caption>Frequently Asked Questions About RV AC Maintenance — RV motorhome interior with a rooftop air conditioner unit visible (Cleaning and Maintaining RV Air Conditioners: 2025 Complete Guide)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/rv-air-conditioner-comparison-2025</loc>
     <lastmod>January 25, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-air-conditioner-comparison-2025-hero.webp</image:loc>
+      <image:caption>RV Air Conditioner Comparison 2025: Top-Mounted vs Mini Split vs Portable — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-air-conditioner-comparison-2025-power-consumption-and-efficiency-what-to.webp</image:loc>
+      <image:caption>Power Consumption and Efficiency: What to Expect — RV motorhome interior with a rooftop air conditioner unit visible (RV Air Conditioner Comparison 2025: Top-Mounted vs Mini Split vs Portable)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-in-extreme-heat</loc>
     <lastmod>January 22, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-in-extreme-heat-hero.webp</image:loc>
+      <image:caption>Using a Parking Air Conditioner in Extreme Heat: Performance in 100°F+ Temperatures — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-in-extreme-heat-installation-and-maintenance-for-optimal.webp</image:loc>
+      <image:caption>Installation and Maintenance for Optimal Extreme Heat Performance — truck cabin interior with a parking air conditioner mounted on the roof (Using a Parking Air Conditioner in Extreme Heat: Performance in 100°F+ Temperatures)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/dual-rotary-compressor-explained</loc>
     <lastmod>January 20, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dual-rotary-compressor-explained-hero.webp</image:loc>
+      <image:caption>Dual Rotary Compressor Technology in Parking ACs: Why It Matters — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dual-rotary-compressor-explained-technical-deep-dive-key-features-and-spe.webp</image:loc>
+      <image:caption>Technical Deep Dive: Key Features and Specifications — truck cabin interior with a parking air conditioner mounted on the roof (Dual Rotary Compressor Technology in Parking ACs: Why It Matters)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-warranty-what-to-know</loc>
     <lastmod>January 18, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-warranty-what-to-know_1bfe9913.webp</image:loc>
+      <image:caption>Parking Air Conditioner Warranty: What&apos;s Covered and What&apos;s Not - parking air conditioner guide</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/how-parking-ac-works</loc>
     <lastmod>January 15, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works-hero.webp</image:loc>
+      <image:caption>How Does a Parking Air Conditioner Work? The Complete Technical Explanation — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works-types-of-parking-air-conditioners-roofto.webp</image:loc>
+      <image:caption>Types of Parking Air Conditioners: Rooftop vs. Split Systems — truck cabin interior with a parking air conditioner mounted on the roof (How Does a Parking Air Conditioner Work? The Complete Technical Explanation)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-camper-van-conversion</loc>
     <lastmod>January 12, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-van-conversion-hero.webp</image:loc>
+      <image:caption>Parking AC for Camper Van Conversions: Everything You Need to Know — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-van-conversion-powering-your-camper-van-s-parking-ac-sy.webp</image:loc>
+      <image:caption>Powering Your Camper Van\&apos;s Parking AC System — RV motorhome interior with a rooftop air conditioner unit visible (Parking AC for Camper Van Conversions: Everything You Need to Know)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/electric-truck-parking-ac</loc>
     <lastmod>January 10, 2025</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioners for Electric Trucks: Compatibility &amp; Best Options — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp</image:loc>
+      <image:caption>Installation and Maintenance Tips for Your Electric Truck Parking AC — truck cabin interior with a parking air conditioner mounted on the roof (Parking Air Conditioners for Electric Trucks: Compatibility &amp; Best Options)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-vs-generator</loc>
     <lastmod>December 28, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vs-generator_0374d7f0.webp</image:loc>
+      <image:caption>Parking Air Conditioner vs Generator: Which Is Better for Truck Drivers? - parking air conditioner guide</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/top-mounted-ac-installation-tips</loc>
     <lastmod>December 25, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/top-mounted-ac-installation-tips_05c95483.webp</image:loc>
+      <image:caption>Top-Mounted Parking AC Installation Tips: Avoid These 5 Common Mistakes - parking air conditioner guide</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-school-bus-conversion</loc>
     <lastmod>December 22, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp</image:loc>
+      <image:caption>Parking AC for School Bus Conversions (Skoolies): Best Options &amp; Install Guide — technician installing a parking air conditioner unit on a truck cabin roof, hands and tools visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-maximizing-efficiency-getting-the-most-o.webp</image:loc>
+      <image:caption>Maximizing Efficiency: Getting the Most Out of Your Skoolie AC — technician installing a parking air conditioner unit on a truck cabin roof, hands and tools visible (Parking AC for School Bus Conversions (Skoolies): Best Options &amp; Install Guide)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-cop-efficiency</loc>
     <lastmod>December 20, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-cop-efficiency_947189ab.webp</image:loc>
+      <image:caption>Understanding COP (Coefficient of Performance) in Parking Air Conditioners - parking air conditioner guide</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-cop-efficiency-cooldrivepro-leading-the-way-in-parking-.webp</image:loc>
+      <image:caption>CoolDrivePro: Leading the Way in Parking AC COP Efficiency — truck cabin interior with a parking air conditioner mounted on the roof (Understanding COP (Coefficient of Performance) in Parking Air Conditioners)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-horse-trailers</loc>
     <lastmod>December 18, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-horse-trailers-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Horse Trailers: Keeping Animals Cool on Long Hauls — semi-truck sleeper cabin interior with a rooftop parking air conditioner</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-horse-trailers-maintenance-tips-for-longevity-and-optim.webp</image:loc>
+      <image:caption>Maintenance Tips for Longevity and Optimal Performance — semi-truck sleeper cabin interior with a rooftop parking air conditioner (Air Conditioning for Horse Trailers: Keeping Animals Cool on Long Hauls)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-winter-storage</loc>
     <lastmod>December 15, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-winter-storage_d344e99a.webp</image:loc>
+      <image:caption>How to Store and Winterize Your Parking Air Conditioner - parking air conditioner guide</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-carbon-footprint</loc>
     <lastmod>December 10, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-carbon-footprint_fb03baf7.webp</image:loc>
+      <image:caption>How a Parking Air Conditioner Reduces Your Carbon Footprint vs Engine Idling - parking air conditioner guide</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-wiring-guide</loc>
     <lastmod>December 8, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp</image:loc>
+      <image:caption>Parking Air Conditioner Wiring Guide: Safe 12V/24V Electrical Installation - parking air conditioner guide</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp</image:loc>
+      <image:caption>Voltage Drop and Wire Gauge Calculation — technician installing a parking air conditioner unit on a truck cabin roof, hands and tools visible (Parking Air Conditioner Wiring Guide: Safe 12V/24V Electrical Installation)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/rv-ac-vs-portable-ac</loc>
     <lastmod>December 5, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-ac-vs-portable-ac_80df6d78.webp</image:loc>
+      <image:caption>RV Parking AC vs Portable Air Conditioner: Which Is Better for Mobile Living? - parking air conditioner guide</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-ac-vs-portable-ac-cooling-capacity-and-effectiveness-match.webp</image:loc>
+      <image:caption>Cooling Capacity and Effectiveness: Matching Power to Space — RV motorhome interior with a rooftop air conditioner unit visible (RV Parking AC vs Portable Air Conditioner: Which Is Better for Mobile Living?)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-boat-cabin</loc>
     <lastmod>December 3, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-boat-cabin_63dd089d.webp</image:loc>
+      <image:caption>Parking Air Conditioner for Boat Cabins: Off-Grid Marine Cooling Guide - parking air conditioner guide</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-boat-cabin-key-considerations-when-choosing-a-parki.webp</image:loc>
+      <image:caption>Key Considerations When Choosing a Parking AC for Your Boat Cabin — RV with rooftop solar panels and a parking air conditioner under sunny sky (Parking Air Conditioner for Boat Cabins: Off-Grid Marine Cooling Guide)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/truck-driver-health-heat-stress</loc>
     <lastmod>December 1, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-driver-health-heat-stress_a91eb5ba.webp</image:loc>
+      <image:caption>Heat Stress in Truck Drivers: Why a Parking AC Is a Health Investment - parking air conditioner guide</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-food-trucks</loc>
     <lastmod>November 25, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-food-trucks-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Food Trucks: Keep Your Kitchen and Cab Cool — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-buying-guide-2025</loc>
     <lastmod>November 20, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioner Buying Guide 2025: Everything You Need to Know Before You Buy — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-installation-and-maintenance-what-you-ne.webp</image:loc>
+      <image:caption>Installation and Maintenance: What You Need to Know — truck cabin interior with a parking air conditioner mounted on the roof (Parking Air Conditioner Buying Guide 2025: Everything You Need to Know Before You Buy)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/mppt-solar-controller-rv-ac</loc>
     <lastmod>November 18, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/mppt-solar-controller-rv-ac-hero.webp</image:loc>
+      <image:caption>MPPT Solar Charge Controllers for RV Air Conditioning: Best Picks &amp; Setup Guide — RV motorhome interior with a rooftop air conditioner unit visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/mppt-solar-controller-rv-ac-5-optimizing-your-rv-solar-system-for-ac.webp</image:loc>
+      <image:caption>5. Optimizing Your RV Solar System for AC Use — RV motorhome interior with a rooftop air conditioner unit visible (MPPT Solar Charge Controllers for RV Air Conditioning: Best Picks &amp; Setup Guide)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-for-construction-trailers</loc>
     <lastmod>November 15, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-construction-trailers-hero.webp</image:loc>
+      <image:caption>Air Conditioning for Construction Site Trailers: Portable &amp; Parking AC Options — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-construction-trailers-installation-and-maintenance-tips-for-op.webp</image:loc>
+      <image:caption>Installation and Maintenance Tips for Optimal Performance — truck cabin interior with a parking air conditioner mounted on the roof (Air Conditioning for Construction Site Trailers: Portable &amp; Parking AC Options)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-noise-reduction-tips</loc>
     <lastmod>November 12, 2024</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp</image:loc>
+      <image:caption>How to Reduce Parking Air Conditioner Noise: Vibration Damping &amp; Installation Tips — technician installing a parking air conditioner unit on a truck cabin roof, hands and tools visible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-regular-maintenance-for-sustained-quiet-.webp</image:loc>
+      <image:caption>Regular Maintenance for Sustained Quiet Performance — technician installing a parking air conditioner unit on a truck cabin roof, hands and tools visible (How to Reduce Parking Air Conditioner Noise: Vibration Damping &amp; Installation Tips)</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://cooldrivepro.com/blog/parking-ac-roi-total-cost-ownership</loc>
     <lastmod>November 3, 2024</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership-hero.webp</image:loc>
+      <image:caption>Parking Air Conditioner ROI: Total Cost of Ownership vs Engine Idling Over 5 Years — truck cabin interior with a parking air conditioner mounted on the roof</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership-cooldrivepro-solutions-vs02-pro-and-vx30.webp</image:loc>
+      <image:caption>CoolDrivePro Solutions: VS02 PRO and VX3000SP — truck cabin interior with a parking air conditioner mounted on the roof (Parking Air Conditioner ROI: Total Cost of Ownership vs Engine Idling Over 5 Years)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cooldrivepro.com/blog/related-posts</loc>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

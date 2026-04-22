@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 /**
- * Auto-generate sitemap.xml from blog data + static pages.
- * Fixes: www → non-www, adds all products including Nano Max,
- * includes all 146 blog articles with correct lastmod dates.
- * 
+ * Auto-generate sitemap.xml with Google Image Sitemap extension.
+ * - Adds <image:image> entries so Google Images indexes all hero + inline images
+ * - Uses real lastmod from JSON file mtime (not always TODAY)
+ * - Includes all 150 blog articles with images
+ *
  * Usage: node scripts/generate-sitemap.mjs
  */
 import fs from 'fs';
@@ -12,6 +13,20 @@ import path from 'path';
 const DOMAIN = 'https://cooldrivepro.com';
 const OUT = path.resolve('client/public/sitemap.xml');
 const TODAY = new Date().toISOString().slice(0, 10);
+
+function xmlEscape(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+function fileMtimeISO(p) {
+  try { return fs.statSync(p).mtime.toISOString().slice(0, 10); }
+  catch { return TODAY; }
+}
 
 // Static pages
 const staticPages = [
@@ -35,19 +50,44 @@ for (const f of features) {
   staticPages.push({ loc: `/features/${f}`, priority: '0.7', changefreq: 'monthly', lastmod: TODAY });
 }
 
-// Blog articles from list.json
+// Blog articles from list.json — collect images too
 const blogDir = path.resolve('client/public/data/blog');
 const listPath = path.join(blogDir, 'list.json');
 const blogArticles = [];
 
+function collectArticleImages(articleObj) {
+  const imgs = [];
+  if (articleObj.image) {
+    imgs.push({ url: articleObj.image, caption: articleObj.imageAlt || articleObj.title || '' });
+  }
+  if (Array.isArray(articleObj.inlineImages)) {
+    for (const im of articleObj.inlineImages) {
+      if (im.url) imgs.push({ url: im.url, caption: im.alt || articleObj.title || '' });
+    }
+  }
+  return imgs;
+}
+
 if (fs.existsSync(listPath)) {
   const list = JSON.parse(fs.readFileSync(listPath, 'utf8'));
   for (const article of list) {
+    const fullPath = path.join(blogDir, `${article.slug}.json`);
+    let images = [];
+    let lastmod = article.date || TODAY;
+    if (fs.existsSync(fullPath)) {
+      try {
+        const full = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+        images = collectArticleImages(full);
+        const mt = fileMtimeISO(fullPath);
+        if (mt > lastmod) lastmod = mt;
+      } catch {}
+    }
     blogArticles.push({
       loc: `/blog/${article.slug}`,
       priority: '0.6',
       changefreq: 'monthly',
-      lastmod: article.date || TODAY
+      lastmod,
+      images,
     });
   }
 }
@@ -61,22 +101,44 @@ for (const f of jsonFiles) {
   const slug = f.replace('.json', '');
   const loc = `/blog/${slug}`;
   if (!allSlugs.has(loc)) {
-    blogArticles.push({ loc, priority: '0.6', changefreq: 'monthly', lastmod: TODAY });
+    const fullPath = path.join(blogDir, f);
+    let images = [];
+    try {
+      const full = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+      images = collectArticleImages(full);
+    } catch {}
+    blogArticles.push({
+      loc,
+      priority: '0.6',
+      changefreq: 'monthly',
+      lastmod: fileMtimeISO(fullPath),
+      images,
+    });
   }
 }
 
-// Generate XML
-const allUrls = [...staticPages, ...blogArticles];
+// Generate XML with image: namespace extension
+const allUrls = [...staticPages.map(p => ({ ...p, images: [] })), ...blogArticles];
+const totalImages = allUrls.reduce((n, u) => n + (u.images?.length || 0), 0);
+
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${allUrls.map(u => `  <url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${allUrls.map(u => {
+  const imgXml = (u.images || []).map(img =>
+    `    <image:image>
+      <image:loc>${xmlEscape(img.url)}</image:loc>${img.caption ? `
+      <image:caption>${xmlEscape(img.caption)}</image:caption>` : ''}
+    </image:image>`
+  ).join('\n');
+  return `  <url>
     <loc>${DOMAIN}${u.loc}</loc>
     <lastmod>${u.lastmod}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
-    <priority>${u.priority}</priority>
-  </url>`).join('\n')}
+    <priority>${u.priority}</priority>${imgXml ? '\n' + imgXml : ''}
+  </url>`;
+}).join('\n')}
 </urlset>`;
 
 fs.writeFileSync(OUT, xml);
-console.log(`Sitemap generated: ${allUrls.length} URLs → ${OUT}`);
-console.log(`  Static: ${staticPages.length} | Blog: ${blogArticles.length}`);
+console.log(`Sitemap generated: ${allUrls.length} URLs, ${totalImages} images → ${OUT}`);
+console.log(`  Static: ${staticPages.length} | Blog: ${blogArticles.length} | Image entries: ${totalImages}`);
