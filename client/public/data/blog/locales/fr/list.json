@@ -4,7 +4,7 @@
     "title": "Climatisation des parkings pour l'humidité côtière d'Alexandrie : lutter contre les défis climatiques méditerranéens de l'Égypte",
     "category": "Applications de flotte",
     "date": "2026-03-31",
-    "image": "/images/blog/alexandria-coastal.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-alexandria-coastal-humidity-hero.webp",
     "excerpt": "Maîtrisez le climat méditerranéen humide d'Alexandrie avec la climatisation du parking CoolDrivePro.Refroidissement et déshumidification avancés alimentés par DC pour la flotte commerciale côtière égyptienne."
   },
   {
@@ -12,7 +12,7 @@
     "title": "Climatisation de stationnement pour les camionnettes de livraison du Caire : solutions de refroidissement essentielles pour la logistique du dernier kilomètre en Égypte",
     "category": "Applications de flotte",
     "date": "2026-03-31",
-    "image": "/images/blog/cairo-delivery-vans.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-cairo-delivery-vans-hero.webp",
     "excerpt": "Découvrez pourquoi la climatisation des parkings est essentielle pour les flottes de camionnettes de livraison du Caire.Combattez la chaleur extrême de l'Égypte avec les solutions de refroidissement alimentées 12V/24V..."
   },
   {
@@ -20,7 +20,7 @@
     "title": "Climatisation de stationnement pour le transport urbain d'Accra : transformer la flotte de véhicules commerciaux du Ghana",
     "category": "Applications de flotte",
     "date": "2026-03-31",
-    "image": "/images/blog/accra-urban-transport.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-accra-urban-transport-hero.webp",
     "excerpt": "Découvrez comment la climatisation des parkings révolutionne le transport urbain à Accra, au Ghana.Les solutions de refroidissement alimentées par DC de CoolDrivePro répondent aux défis thermiques de l'Afrique de l'Ou..."
   },
   {
@@ -28,7 +28,7 @@
     "title": "Climatisation de parking pour la zone industrielle de Kumasi : alimenter la logistique de fabrication du Ghana",
     "category": "Applications de flotte",
     "date": "2026-03-31",
-    "image": "/images/blog/kumasi-industrial.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-kumasi-industrial-zone-hero.webp",
     "excerpt": "Optimisez la logistique industrielle à Kumasi avec la climatisation du parking CoolDrivePro.Solutions de refroidissement alimentées par DC pour le cœur manufacturier du Ghana et le secteur industriel en pleine croissa..."
   },
   {
@@ -36,7 +36,7 @@
     "title": "Climatisation des parkings pour les transports publics de Nairobi : modernisation de la flotte de Matatu et de bus du Kenya",
     "category": "Applications de flotte",
     "date": "2026-03-31",
-    "image": "/images/blog/nairobi-public-transport.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-nairobi-public-transport-hero.webp",
     "excerpt": "Transformez les transports publics de Nairobi avec la climatisation du parking CoolDrivePro.Solutions de refroidissement essentielles pour la flotte de matatu et de bus du Kenya dans la capitale dynamique de l'Afrique..."
   },
   {
@@ -44,7 +44,7 @@
     "title": "Climatisation des parkings pour le climat chaud de Kano : solutions de refroidissement essentielles pour le nord du Nigeria",
     "category": "Applications de flotte",
     "date": "2026-03-31",
-    "image": "/images/blog/kano-nigeria-heat.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-kano-hot-climate-hero.webp",
     "excerpt": "Naviguez dans la chaleur extrême de Kano avec la climatisation de stationnement CoolDrivePro.Solutions de refroidissement essentielles alimentées par DC pour les véhicules commerciaux dans le climat désertique diffici..."
   },
   {
@@ -52,7 +52,7 @@
     "title": "Climatisation des parkings pour le tourisme du Cap : améliorer les opérations des véhicules de safari et de tourisme",
     "category": "Applications de flotte",
     "date": "2026-03-31",
-    "image": "/images/blog/cape-town-tourism.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-cape-town-tourism-hero.webp",
     "excerpt": "Améliorez le tourisme au Cap avec la climatisation du parking CoolDrivePro.Solutions de refroidissement haut de gamme pour les véhicules de safari, les bus touristiques et les transports hôteliers dans la principale d..."
   },
   {
@@ -60,7 +60,7 @@
     "title": "Climatisation du parking pour les excursions animalières à Arusha : améliorer le confort des véhicules de safari en Tanzanie",
     "category": "Applications de flotte",
     "date": "2026-03-31",
-    "image": "/images/blog/arusha-safari.jpg",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-arusha-wildlife-tours-hero.webp",
     "excerpt": "Transformez les visites de la faune d'Arusha avec la climatisation du parking CoolDrivePro.Refroidissement haut de gamme alimenté par DC pour les véhicules de safari dans la capitale du safari en Tanzanie."
   },
   {
@@ -76,7 +76,7 @@
     "title": "Systèmes de gestion de batterie (BMS) pour l'alimentation CA du stationnement : guide complet",
     "category": "Technologie",
     "date": "2026-02-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system_2b8a406c.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-battery-management-system-hero.webp",
     "excerpt": "Libérez tout le potentiel de votre climatisation de stationnement avec un système de gestion de batterie (BMS) robuste.Ce guide couvre tout ce que vous devez savoir pour une puissance optimale."
   },
   {
@@ -84,7 +84,7 @@
     "title": "Climatiseurs de stationnement pour véhicules militaires : solutions de refroidissement tactiques",
     "category": "Spécialité",
     "date": "2026-02-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles_2c75dc0f.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-military-vehicles-hero.webp",
     "excerpt": "Découvrez le rôle essentiel des climatiseurs de stationnement dans les véhicules militaires, fournissant un refroidissement tactique au personnel et aux appareils électroniques sensibles dans des conditions extrêmes."
   },
   {
@@ -92,7 +92,7 @@
     "title": "Technologie d'onduleur dans les climatiseurs de stationnement : explication des compresseurs à vitesse variable",
     "category": "Technologie",
     "date": "2026-02-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-inverter-technology_81c9ccf4.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-inverter-technology-hero.webp",
     "excerpt": "Découvrez comment la technologie d'onduleur dans les climatiseurs de stationnement avec compresseurs à vitesse variable offre un confort supérieur et des économies d'énergie significatives pour les conducteurs de cami..."
   },
   {
@@ -108,7 +108,7 @@
     "title": "Climatiseurs pour camions 12V vs 24V : lequel convient le mieux à votre flotte ?",
     "category": "Guides d'achat",
     "date": "2025-12-30",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac_x7y8z9a0.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
     "excerpt": "Comparaison complète des climatiseurs de camions 12V et 24V pour les flottes africaines.Découvrez quel système de tension correspond à vos véhicules et à vos exigences opérationnelles."
   },
   {
@@ -164,7 +164,7 @@
     "title": "Meilleure climatisation de stationnement pour camping-cars : options sur le toit ou sous le siège",
     "category": "Guider",
     "date": "2025-12-22",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer_319d2897.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-trailer-hero.webp",
     "excerpt": "Découvrez le meilleur parking AC pour camping-cars.Nous comparons les options sur le toit et sous le siège, les besoins en énergie et les performances réelles pour le refroidissement hors réseau."
   },
   {
@@ -180,7 +180,7 @@
     "title": "Survivre à l'été égyptien : solutions de climatisation pour le stationnement des camions",
     "category": "Conditions météorologiques extrêmes",
     "date": "2025-12-18",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt_g3h4i5j6.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-hero.webp",
     "excerpt": "Solutions de climatisation essentielles pour le stationnement des camions pour survivre à la chaleur estivale extrême de l'Égypte.Protégez les conducteurs et maintenez les opérations dans les températures torrides de..."
   },
   {
@@ -188,7 +188,7 @@
     "title": "Climatiseurs de stationnement robustes pour les routes du désert marocain",
     "category": "Guides régionaux",
     "date": "2025-12-17",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco_c9d0e1f2.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-hero.webp",
     "excerpt": "Climatiseurs de stationnement robustes conçus pour les routes exigeantes du désert marocain.Des solutions de refroidissement fiables pour les camions traversant le Sahara et reliant les corridors commerciaux nord-afri..."
   },
   {
@@ -204,7 +204,7 @@
     "title": "Solutions de climatisation sur le toit pour les bus des transports publics du Rwanda",
     "category": "Transports publics",
     "date": "2025-12-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-rwanda_u1v2w3x4.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-rwanda-hero.webp",
     "excerpt": "Solutions de stationnement sur toit AC pour les bus des transports publics du Rwanda.Une technologie de refroidissement efficace pour la modernisation des infrastructures de transport du Pays des Mille Collines."
   },
   {
@@ -228,7 +228,7 @@
     "title": "Guide complet des climatiseurs de stationnement pour camions au Kenya",
     "category": "Guides d'achat",
     "date": "2025-12-12",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-guide_i9j0k1l2.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-guide-hero.webp",
     "excerpt": "Guide complet des climatiseurs de stationnement pour camions au Kenya.Découvrez les spécifications, l’installation, la maintenance et le choix de la bonne solution de refroidissement pour les opérations de transport e..."
   },
   {
@@ -236,7 +236,7 @@
     "title": "Solutions de climatisation de stationnement pour les défis de transport enclavés au Burkina Faso",
     "category": "Guides régionaux",
     "date": "2025-12-11",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso_e5f6g7h8.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-burkina-faso-hero.webp",
     "excerpt": "Explorez les solutions de climatisation de stationnement conçues pour les défis de transport enclavés uniques du Burkina Faso.Systèmes de refroidissement essentiels pour les camions naviguant sur les corridors logisti..."
   },
   {
@@ -244,7 +244,7 @@
     "title": "Industrie sud-africaine du fret : des climatiseurs de stationnement pour l'excellence sur les longs parcours",
     "category": "Solutions industrielles",
     "date": "2025-12-11",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-freight-industry_k1l2m3n4.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-freight-industry-hero.webp",
     "excerpt": "Guide complet sur l'adoption de la climatisation de stationnement dans le secteur du fret en Afrique du Sud.De Johannesburg au Cap, gardez votre flotte au frais et productive."
   },
   {
@@ -252,7 +252,7 @@
     "title": "Installation de climatisation de stationnement DIY : guide étape par étape pour les débutants",
     "category": "Mise en place",
     "date": "2025-12-10",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-diy-installation_30707b1e.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-diy-installation-hero.webp",
     "excerpt": "Maîtrisez l'installation de la climatisation de stationnement DIY avec notre guide du débutant.Apprenez étape par étape comment installer un climatiseur de stationnement 12V/24V de manière sûre et efficace."
   },
   {
@@ -260,7 +260,7 @@
     "title": "Des solutions de refroidissement de camions fiables pour l'industrie du transport en Côte d'Ivoire",
     "category": "Guides régionaux",
     "date": "2025-12-10",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast_a1b2c3d4.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ivory-coast-hero.webp",
     "excerpt": "Découvrez des solutions de refroidissement de camions fiables pour le secteur des transports en pleine croissance en Côte d'Ivoire.Découvrez comment les climatiseurs de stationnement améliorent la sécurité des conduct..."
   },
   {
@@ -268,7 +268,7 @@
     "title": "Climatiseurs de stationnement pour le port de Mombasa au Kenya : solutions contre l'humidité côtière",
     "category": "Logistique Maritime",
     "date": "2025-12-10",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-mombasa-port_j0k1l2m3.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-mombasa-port-hero.webp",
     "excerpt": "Refroidissement logistique maritime pour le port de Mombasa au Kenya.Solutions de climatisation de stationnement essentielles pour les camions opérant dans la porte côtière humide de l'Afrique de l'Est."
   },
   {
@@ -276,7 +276,7 @@
     "title": "Combattre la chaleur du trafic à Lagos : climatiseurs de stationnement pour les transports urbains nigérians",
     "category": "Transports urbains",
     "date": "2025-12-09",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-lagos-traffic-heat_i9j0k1l2.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-lagos-traffic-heat-hero.webp",
     "excerpt": "Solutions de refroidissement des transports urbains pour la congestion de Lagos.Climatisation de stationnement essentielle pour les camions de livraison et les véhicules utilitaires naviguant dans la chaleur urbaine l..."
   },
   {
@@ -284,7 +284,7 @@
     "title": "Climatiseurs de stationnement pour véhicules agricoles éthiopiens : Addis Ababa Highlands Farming",
     "category": "Applications agricoles",
     "date": "2025-12-08",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia-agricultural-vehicles_h8i9j0k1.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia-agricultural-vehicles-hero.webp",
     "excerpt": "Solutions de refroidissement des véhicules agricoles pour les régions agricoles de haute altitude d'Éthiopie.Restez à l'aise lorsque vous opérez autour d'Addis-Abeba, d'Awassa et de la vallée du Rift."
   },
   {
@@ -292,7 +292,7 @@
     "title": "Climatiseurs de stationnement pour le transport transfrontalier au Maroc : itinéraires de Casablanca à Tombouctou",
     "category": "Logistique transfrontalière",
     "date": "2025-12-07",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-cross-border-transport_g7h8i9j0.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-cross-border-transport-hero.webp",
     "excerpt": "Solutions de refroidissement pour les transports transfrontaliers pour le Maroc.Naviguez dans la chaleur de Casablanca en passant par le Sahara jusqu'au Mali et au-delà grâce à des systèmes de climatisation de station..."
   },
   {
@@ -308,7 +308,7 @@
     "title": "Climatiseurs de stationnement pour le transport commercial au Ghana : Accra à Tamale Logistics",
     "category": "Guides régionaux",
     "date": "2025-12-05",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-transport_e5f6g7h8.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-transport-hero.webp",
     "excerpt": "Solutions de refroidissement essentielles pour le secteur du transport commercial du Ghana.Gardez les conducteurs à l'aise sur les routes allant de la côte humide d'Accra aux régions chaudes du nord autour de Tamale e..."
   },
   {
@@ -332,7 +332,7 @@
     "title": "Comment importer des climatiseurs de stationnement pour camions en Afrique : guide complet",
     "category": "Guide d'importation",
     "date": "2025-12-04",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa_j0k1l2m3.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/import-truck-ac-africa-hero.webp",
     "excerpt": "Guide complet pour importer des climatiseurs de stationnement pour camions en Afrique.Découvrez les itinéraires d'expédition, les documents douaniers, les droits d'importation et la conformité réglementaire."
   },
   {
@@ -340,7 +340,7 @@
     "title": "Calcul du retour sur investissement des climatiseurs de stationnement pour camions dans les flottes africaines",
     "category": "Guide d'affaires",
     "date": "2025-12-04",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-africa-roi_k1l2m3n4.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-africa-roi-hero.webp",
     "excerpt": "Calculez le retour sur investissement des climatiseurs de stationnement pour camions dans les flottes africaines.Les économies de carburant, les coûts de maintenance et les avantages de fidélisation des conducteurs ex..."
   },
   {
@@ -348,7 +348,7 @@
     "title": "Survivre à la chaleur du désert égyptien : des climatiseurs de stationnement pour les opérations climatiques extrêmes",
     "category": "Climat extrême",
     "date": "2025-12-04",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-desert-heat_d4e5f6g7.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-desert-heat-hero.webp",
     "excerpt": "Combattez la chaleur extrême du désert égyptien avec des solutions de climatisation de stationnement.Guide essentiel pour les chauffeurs de camion opérant entre le Caire, Alexandrie et la péninsule du Sinaï."
   },
   {
@@ -356,7 +356,7 @@
     "title": "Climatiseurs de toit pour camions pour le secteur logistique du Sénégal",
     "category": "Solutions sur les toits",
     "date": "2025-12-03",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-senegal_c3d4e5f6.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-senegal-hero.webp",
     "excerpt": "Solutions de climatisation de parking sur le toit pour le secteur logistique du Sénégal.Optimisez l’efficacité de l’espace et du refroidissement pour les flottes basées à Dakar opérant dans la région du Sahel."
   },
   {
@@ -364,7 +364,7 @@
     "title": "Climatiseurs de stationnement pour véhicules miniers sud-africains : solutions pour chaleur extrême",
     "category": "Applications industrielles",
     "date": "2025-12-03",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining_c3d4e5f6.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-mining-vehicles-hero.webp",
     "excerpt": "Solutions de climatisation de stationnement robustes pour les véhicules miniers sud-africains.Restez au frais dans la chaleur extrême des opérations minières de platine, d'or et de diamants à travers le Cap Nord et le..."
   },
   {
@@ -372,7 +372,7 @@
     "title": "Solutions de climatisation pour camions fiables pour les opérations de la ceinture de cuivre de la Zambie",
     "category": "Guides régionaux",
     "date": "2025-12-03",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zambia_h8i9j0k1.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zambia-hero.webp",
     "excerpt": "Climatiseurs de stationnement de camions fiables pour les opérations minières de Copper Belt en Zambie.Solutions de refroidissement éprouvées pour les flottes desservant Kitwe, Ndola et Chingola."
   },
   {
@@ -388,7 +388,7 @@
     "title": "Climatiseurs de stationnement pour le transport pétrolier et gazier de l'Angola",
     "category": "Solutions industrielles",
     "date": "2025-12-02",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-angola_g7h8i9j0.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-angola-hero.webp",
     "excerpt": "Solutions de climatisation de stationnement spécialisées pour le secteur du transport pétrolier et gazier de l'Angola.Refroidissement fiable pour les camions desservant les opérations offshore et la logistique de l'en..."
   },
   {
@@ -396,7 +396,7 @@
     "title": "Parking industriel AC pour la flotte de transport minier de la RDC",
     "category": "Solutions industrielles",
     "date": "2025-12-02",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc_f6g7h8i9.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-drc-hero.webp",
     "excerpt": "Climatiseurs de stationnement robustes pour les flottes de transport minier de la RDC.Refroidissement de qualité industrielle pour les camions opérant dans la ceinture cuprifère du Katanga et dans les régions minières..."
   },
   {
@@ -404,7 +404,7 @@
     "title": "Climatiseurs de stationnement pour la flotte de transport commercial du Ghana",
     "category": "Solutions de flotte",
     "date": "2025-12-02",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial_b2c3d4e5.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-commercial-hero.webp",
     "excerpt": "Solutions de refroidissement de flotte pour le secteur des transports du Ghana.Réduisez les coûts de carburant sur les itinéraires Accra-Tamale et améliorez la fidélisation des conducteurs grâce à des systèmes de clim..."
   },
   {
@@ -420,7 +420,7 @@
     "title": "24V Climatiseurs de stationnement pour le transport transsaharien en Algérie",
     "category": "Guides régionaux",
     "date": "2025-12-01",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-algeria_d4e5f6g7.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-algeria-hero.webp",
     "excerpt": "Découvrez les climatiseurs de stationnement 24V conçus pour les conditions désertiques extrêmes de l'Algérie.Parfait pour les flottes de transport transsahariennes opérant entre Alger, Oran et Tamanrasset."
   },
   {
@@ -428,7 +428,7 @@
     "title": "Solutions de refroidissement des camions pour le secteur du transport commercial en Libye",
     "category": "Guides régionaux",
     "date": "2025-12-01",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya_e5f6g7h8.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-libya-hero.webp",
     "excerpt": "Solutions professionnelles de refroidissement des camions pour le secteur des transports en Libye.Systèmes de climatisation de stationnement fiables pour Tripoli, Benghazi et les opérations transfrontalières dans la c..."
   },
   {
@@ -436,7 +436,7 @@
     "title": "Comment choisir le bon climatiseur de stationnement pour camions pour le climat chaud du Nigeria",
     "category": "Guides régionaux",
     "date": "2025-12-01",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-guide_a1b2c3d4.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-guide-hero.webp",
     "excerpt": "Guide complet pour choisir les climatiseurs de stationnement de camions pour le Nigeria.Comparez les systèmes 12V et 24V, comprenez les exigences d'importation et calculez le retour sur investissement de votre flotte."
   },
   {
@@ -444,7 +444,7 @@
     "title": "Guide des climatiseurs de stationnement pour les chauffeurs de camion nigérians : vaincre la chaleur de Lagos à Kano",
     "category": "Guides régionaux",
     "date": "2025-12-01",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-truck-drivers_a1b2c3d4.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-truck-drivers-guide-hero.webp",
     "excerpt": "Guide complet des climatiseurs de stationnement pour les chauffeurs de camion nigérians.Apprenez à rester au frais pendant les longs trajets à travers la chaleur extrême du Nigeria, de Lagos humide à Kano torride."
   },
   {
@@ -452,7 +452,7 @@
     "title": "Climatisation de stationnement pour le camping dans le désert : survivre à une chaleur de 120 °F dans votre RV ou votre camion",
     "category": "Guider",
     "date": "2025-11-27",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-desert-camping_e6a52d85.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-desert-camping-hero.webp",
     "excerpt": "Survivez à la chaleur extrême du désert avec le bon climatiseur de stationnement pour le camping dans le désert.Apprenez à garder votre RV ou votre camion au frais lorsque les températures atteignent 120 °F."
   },
   {
@@ -460,7 +460,7 @@
     "title": "Parking AC pour les véhicules de police et des forces de l'ordre : K9 et sécurité des agents",
     "category": "Spécialité",
     "date": "2025-11-20",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles_ce516d89.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-police-vehicles-hero.webp",
     "excerpt": "Assurer la sécurité du K9 et des agents avec une climatisation de stationnement fiable dans les véhicules des forces de l'ordre est crucial.Découvrez pourquoi il s'agit d'un investissement non négociable."
   },
   {
@@ -476,7 +476,7 @@
     "title": "Climatisation pour véhicules agricoles : tracteurs, moissonneuses-batteuses et moissonneuses-batteuses",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-agriculture-vehicles_25a2e8ee.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-agriculture-vehicles-hero.webp",
     "excerpt": "Découvrez pourquoi la climatisation des véhicules agricoles comme les tracteurs, les moissonneuses-batteuses et les moissonneuses n'est pas un luxe, mais une nécessité pour la sécurité et la productivité des agriculte..."
   },
   {
@@ -484,7 +484,7 @@
     "title": "Climatisation pour véhicules de production cinématographique et remorques de tournage",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-film-production_813828c2.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-film-production-hero.webp",
     "excerpt": "Assurer le confort sur le plateau est crucial.Découvrez comment les systèmes de climatisation de stationnement robustes maintiennent les véhicules de production cinématographique et les remorques de tournage au frais,..."
   },
   {
@@ -492,7 +492,7 @@
     "title": "Climatisation pour centres de commandement mobiles et unités d'intervention d'urgence",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-command_2ebc5356.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-command-hero.webp",
     "excerpt": "Garantissez des performances optimales pour les centres de commande mobiles avec une climatisation de stationnement fiable.Découvrez les solutions pour les unités d'intervention d'urgence."
   },
   {
@@ -500,7 +500,7 @@
     "title": "Contrôle de la température pour les cliniques dentaires mobiles et les véhicules de santé bucco-dentaire",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry_46dca399.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-dentistry-hero.webp",
     "excerpt": "Assurer un contrôle optimal de la température dans les cliniques dentaires mobiles est crucial pour l’intégrité des matériaux et le confort du patient.Découvrez les solutions de climatisation de stationnement spéciali..."
   },
   {
@@ -508,7 +508,7 @@
     "title": "Solutions de refroidissement pour les salles d'évasion mobiles et les caravanes de divertissement",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-escape-room_be432022.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-escape-room-hero.webp",
     "excerpt": "Gardez votre salle d'évasion mobile au frais et vos clients engagés grâce aux bonnes solutions de climatisation de stationnement.Apprenez à combattre la chaleur et à améliorer vos performances."
   },
   {
@@ -516,7 +516,7 @@
     "title": "Solutions de refroidissement pour les salons de jeux mobiles et les remorques d'esports",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-gaming_a667209c.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-gaming-hero.webp",
     "excerpt": "Découvrez les meilleures solutions de climatisation de stationnement pour les salons de jeux mobiles et les caravanes d'esports, garantissant un refroidissement et un confort optimaux pour les jeux compétitifs."
   },
   {
@@ -524,7 +524,7 @@
     "title": "Climatisation pour fourgons d'atelier mobiles et véhicules de service",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-workshops_a602082c.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-workshops-hero.webp",
     "excerpt": "Gardez les techniciens des ateliers mobiles au frais, productifs et sans erreur grâce à la climatisation de stationnement.Économisez du carburant, améliorez le bien-être."
   },
   {
@@ -532,7 +532,7 @@
     "title": "Climatisation pour les véhicules de safari et de tourisme animalier : le confort dans la brousse",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-safari-vehicles_bcf2e975.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-safari-vehicles-hero.webp",
     "excerpt": "Découvrez comment un système de climatisation de stationnement robuste pour les véhicules de safari améliore le confort et la satisfaction des clients lors des excursions animalières, même dans la brousse africaine."
   },
   {
@@ -540,7 +540,7 @@
     "title": "Parking AC pour les conversions Skoolie : Refroidir un autobus scolaire à la maison sur la route",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie_c4671adf.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-skoolie-hero.webp",
     "excerpt": "Gardez votre skoolie au frais sur la route !Explorez des solutions de climatisation de stationnement efficaces pour les conversions d'autobus scolaires, garantissant confort et économies d'énergie."
   },
   {
@@ -548,7 +548,7 @@
     "title": "Climatisation pour bus touristiques et autocars : solutions de confort du conducteur",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-tour-buses_492ea24b.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-tour-buses-hero.webp",
     "excerpt": "Découvrez comment le stationnement climatisé pour les bus touristiques et les autocars améliore considérablement le confort du conducteur, réduit la fatigue et augmente l'efficacité opérationnelle.Une lecture incontou..."
   },
   {
@@ -556,7 +556,7 @@
     "title": "Solutions de refroidissement pour les véhicules d'intervention en cas d'incendie de forêt et la sécurité des pompiers",
     "category": "Spécialité",
     "date": "2025-11-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response_e6f7a92c.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-wildfire-response-hero.webp",
     "excerpt": "Assurer la sécurité des pompiers avec des solutions de refroidissement robustes pour les véhicules d’intervention en cas d’incendie de forêt.Apprenez-en davantage sur le stationnement climatisé pour des conditions ext..."
   },
   {
@@ -564,7 +564,7 @@
     "title": "Gestion de flotte avec climatiseurs de stationnement : surveillance, maintenance et contrôle des coûts",
     "category": "Industrie",
     "date": "2025-10-28",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management_0aadde9f.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fleet-management-hero.webp",
     "excerpt": "Une gestion efficace de la flotte avec des climatiseurs de stationnement est la clé du contrôle des coûts.Découvrez comment surveiller, entretenir et maximiser votre retour sur investissement sur les unités de climati..."
   },
   {
@@ -572,7 +572,7 @@
     "title": "Solutions de refroidissement pour les véhicules de cinéma et de divertissement mobiles",
     "category": "Spécialité",
     "date": "2025-10-28",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-cinema_520aa8fb.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-cinema-hero.webp",
     "excerpt": "Découvrez pourquoi des solutions de refroidissement efficaces pour le cinéma mobile sont essentielles pour une expérience haut de gamme, la protection des équipements et la rentabilité.Une lecture incontournable pour..."
   },
   {
@@ -580,7 +580,7 @@
     "title": "Climatisation de stationnement pour couchettes de semi-camions : conformité et confort DOT",
     "category": "Guider",
     "date": "2025-10-28",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth_89adf6ca.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
     "excerpt": "Restez au frais, conforme et confortable dans votre couchette de semi-remorque avec climatisation de stationnement.Découvrez les règles du DOT, les économies de carburant et le choix de la bonne unité."
   },
   {
@@ -588,7 +588,7 @@
     "title": "Climatisation pour camions utilitaires et véhicules de ligne",
     "category": "Spécialité",
     "date": "2025-10-28",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks_0943e009.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-utility-trucks-hero.webp",
     "excerpt": "Garder les camions utilitaires et les véhicules des ouvriers au frais est une question de sécurité, pas seulement de confort.Découvrez les meilleures solutions de climatisation."
   },
   {
@@ -596,7 +596,7 @@
     "title": "Prévenir la condensation et les dégâts d’eau avec votre climatisation de stationnement",
     "category": "Entretien",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation_22f370f2.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-anti-condensation-hero.webp",
     "excerpt": "Apprenez comment éviter la condensation du climatiseur et les dégâts d'eau en stationnement dans votre RV ou votre camion grâce à des conseils d'experts sur l'installation, l'entretien et le contrôle de l'humidité."
   },
   {
@@ -604,7 +604,7 @@
     "title": "Climatisation pour véhicules de transport médical : marchandises sensibles à la température",
     "category": "Spécialité",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-medical-transport_7aebdba9.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-medical-transport-hero.webp",
     "excerpt": "Garantissez la sécurité critique des marchandises grâce à une climatisation spécialisée pour les véhicules de transport médical.Découvrez le contrôle de la température, l’efficacité et les solutions fiables."
   },
   {
@@ -612,7 +612,7 @@
     "title": "Climatisation pour studios d'art mobiles et camionnettes créatives",
     "category": "Spécialité",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-art-studio_ba0d7ae8.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-art-studio-hero.webp",
     "excerpt": "Gardez votre studio d'art mobile au frais et vos fournitures en sécurité avec le bon climatiseur de stationnement.Notre guide couvre tout ce que vous devez savoir."
   },
   {
@@ -620,7 +620,7 @@
     "title": "Climatisation pour cliniques médicales mobiles et véhicules de sensibilisation à la santé",
     "category": "Spécialité",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-clinics_7ab25b29.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-clinics-hero.webp",
     "excerpt": "Une climatisation fiable pour les cliniques médicales mobiles est essentielle pour les soins aux patients et le stockage des médicaments.Apprenez à choisir le bon système pour votre véhicule de sensibilisation."
   },
   {
@@ -628,7 +628,7 @@
     "title": "Solutions de refroidissement pour les studios de photographie mobiles et les fourgons photo",
     "category": "Spécialité",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-photography_7593193d.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-photography-hero.webp",
     "excerpt": "Gardez votre studio de photographie mobile au frais et vos images nettes.Notre guide des solutions de climatisation de stationnement vous aide à protéger votre équipement et à garantir des performances optimales."
   },
   {
@@ -636,7 +636,7 @@
     "title": "Climatisation de stationnement pour véhicules terrestres : refroidissement hors route sans alimentation à quai",
     "category": "Spécialité",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles_1380763c.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-overland-vehicles-hero.webp",
     "excerpt": "Découvrez comment Parking AC pour véhicules terrestres fournit un refroidissement hors route sans alimentation à quai, améliorant ainsi le confort et la sécurité lors de vos aventures à distance."
   },
   {
@@ -644,7 +644,7 @@
     "title": "Climatisation pour remorques de voitures de course et transporteurs de sport automobile",
     "category": "Spécialité",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers_83a81a87.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-race-trailers-hero.webp",
     "excerpt": "Gardez votre équipage et votre équipement en pleine forme grâce à la bonne climatisation pour votre remorque de voiture de course.Découvrez pourquoi c'est un incontournable pour les équipes sérieuses de sport automobile."
   },
   {
@@ -652,7 +652,7 @@
     "title": "Boondocking avec un parking AC : stratégie complète d'alimentation hors réseau",
     "category": "Solaire",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-boondocking_b23621bf.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-boondocking-hero.webp",
     "excerpt": "Optimisez votre quartier RV avec un parking climatisé 12V.Apprenez des stratégies d'alimentation hors réseau pour un confort et une liberté prolongés."
   },
   {
@@ -660,7 +660,7 @@
     "title": "Parking AC pour couples vivant dans un RV : confort à deux sur la route",
     "category": "Mode de vie",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-couples_40098613.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-couples-hero.webp",
     "excerpt": "Un parking climatisé pour les couples RV est plus qu'un luxe ;c'est un sauveur de relation.Découvrez comment bien choisir pour assurer confort et harmonie sur la route."
   },
   {
@@ -668,7 +668,7 @@
     "title": "Parking climatisé pour les familles à temps plein dans un RV : garder les enfants à l'aise",
     "category": "Mode de vie",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-families_550c47ba.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-families-hero.webp",
     "excerpt": "Une climatisation de stationnement fiable est cruciale pour les familles travaillant à plein temps dans un RV.Apprenez à choisir le bon système pour assurer le confort et la sécurité de vos enfants."
   },
   {
@@ -684,7 +684,7 @@
     "title": "Climatisation pour véhicules de sécurité et de surveillance : fonctionnement 24h/24 et 7j/7",
     "category": "Spécialité",
     "date": "2025-10-26",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-security-vehicles_e0b77bc8.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-security-vehicles-hero.webp",
     "excerpt": "Gardez votre équipement de surveillance au frais et opérationnel 24h/24 et 7j/7.Découvrez pourquoi une climatisation de stationnement dédiée pour les véhicules de sécurité est un investissement essentiel à votre mission."
   },
   {
@@ -692,7 +692,7 @@
     "title": "Climatisation pour les fourgons mobiles de toilettage pour animaux de compagnie : la sécurité des animaux avant tout",
     "category": "Spécialité",
     "date": "2025-10-22",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-pet-grooming_26af2130.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-pet-grooming-hero.webp",
     "excerpt": "Assurer la sécurité des animaux et le respect des systèmes de climatisation dans les camionnettes mobiles de toilettage pour animaux de compagnie.Découvrez les solutions AC pour votre entreprise."
   },
   {
@@ -700,7 +700,7 @@
     "title": "Parking AC lors des festivals de musique et des événements en plein air : guide de puissance et de confort",
     "category": "Mode de vie",
     "date": "2025-10-22",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-festivals_d3e2b1d0.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-festivals-hero.webp",
     "excerpt": "Ne laissez pas la chaleur gâcher votre expérience du festival RV.Découvrez comment le stationnement AC offre confort et puissance lors des festivals de musique et des événements en plein air."
   },
   {
@@ -716,7 +716,7 @@
     "title": "Solutions de refroidissement pour les véhicules de patrouille frontalière et de contrôle douanier",
     "category": "Spécialité",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-border-patrol_e3bf49d0.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-border-patrol-hero.webp",
     "excerpt": "Garantissez des performances optimales pour les véhicules Border Patrol avec des solutions avancées de climatisation de stationnement.Maintenez la fraîcheur des intérieurs et prolongez la durée de vie des équipements."
   },
   {
@@ -724,7 +724,7 @@
     "title": "Parking AC pour le Glamping : confort extérieur de luxe sans alimentation à quai",
     "category": "Mode de vie",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-glamping_63b7fe94.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-glamping-hero.webp",
     "excerpt": "Faites l'expérience du glamping de luxe avec parking AC.Restez au frais et à l'aise hors réseau sans alimentation à quai, améliorant ainsi vos aventures en plein air."
   },
   {
@@ -732,7 +732,7 @@
     "title": "Contrôle de la température pour les laboratoires mobiles et les véhicules de recherche",
     "category": "Spécialité",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-labs_543d41af.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-labs-hero.webp",
     "excerpt": "Garantissez des performances et une intégrité des données optimales dans les laboratoires mobiles grâce à un contrôle efficace de la température.Découvrez les solutions de climatisation de stationnement pour les véhic..."
   },
   {
@@ -740,7 +740,7 @@
     "title": "Climatisation pour cliniques vétérinaires mobiles : sécurité des animaux et des équipements",
     "category": "Spécialité",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-veterinary_d81d936c.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-veterinary-hero.webp",
     "excerpt": "Garantissez la sécurité des animaux et des équipements dans les cliniques vétérinaires mobiles grâce à des solutions de climatisation de stationnement fiables.Critique pour les médicaments et le bien-être."
   },
   {
@@ -748,7 +748,7 @@
     "title": "Climatisation pour studios de yoga mobiles et camionnettes de bien-être",
     "category": "Spécialité",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga_ceec7c52.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation essentielles pour les studios de yoga mobiles et les vans bien-être.Assurez un contrôle optimal de la température (68-72°F) avec une climatisation de stationnement fiable."
   },
   {
@@ -756,7 +756,7 @@
     "title": "Parking climatisé pour les nomades numériques vivant dans des RV : confort de travail depuis n'importe où",
     "category": "Mode de vie",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads_8dec8b1f.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
     "excerpt": "Guide essentiel du stationnement AC pour les nomades numériques RV.Restez au frais et productif tout en travaillant à distance depuis votre RV avec la bonne climatisation."
   },
   {
@@ -764,7 +764,7 @@
     "title": "Rester au frais lors des RV rassemblements et festivals : conseils sur le stationnement AC pour les événements",
     "category": "Mode de vie",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies_c34ba7b2.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
     "excerpt": "Maître RV rallyes avec parking AC !Obtenez des conseils d’experts sur le refroidissement supplémentaire, le dimensionnement de la batterie et l’installation pour une expérience événementielle confortable."
   },
   {
@@ -772,7 +772,7 @@
     "title": "Guide du Van Dweller sur le stationnement AC : vivre à temps plein dans votre véhicule",
     "category": "La vie en fourgonnette",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers_bf4877c1.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
     "excerpt": "Guide essentiel pour choisir et installer la climatisation de stationnement pour les habitants des fourgons.Restez au frais et à l'aise dans votre mobil-home grâce aux conseils d'experts."
   },
   {
@@ -780,7 +780,7 @@
     "title": "Coût d’installation du climatiseur de stationnement : ventilation complète des prix 2025",
     "category": "Finances",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost_f9984583.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Décomposez le coût complet d'installation du climatiseur de stationnement pour 2025. Obtenez des informations sur les facteurs affectant le prix, du type d'unité aux mises à niveau électriques."
   },
   {
@@ -788,7 +788,7 @@
     "title": "Réfrigérant R32 dans les climatiseurs de stationnement de nouvelle génération : GWP réduit et meilleure efficacité",
     "category": "Technologie",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32_eed80969.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
     "excerpt": "Découvrez pourquoi le réfrigérant R32 devient le choix privilégié pour les climatiseurs de stationnement de nouvelle génération, offrant un PRP inférieur et une efficacité améliorée pour les véhicules commerciaux."
   },
   {
@@ -796,7 +796,7 @@
     "title": "Diagnostics à distance pour les climatiseurs de stationnement : surveillance IoT et maintenance prédictive",
     "category": "Technologie",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-remote-diagnostics_a778007b.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-remote-diagnostics-hero.webp",
     "excerpt": "Découvrez comment la surveillance IoT et la maintenance prédictive révolutionnent les climatiseurs de stationnement, réduisant les temps d'arrêt et prolongeant la durée de vie des équipements des flottes commerciales."
   },
   {
@@ -804,7 +804,7 @@
     "title": "Parking AC as a Service : modèles d'abonnement pour les opérateurs de flotte",
     "category": "Industrie",
     "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service_c46670a5.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "excerpt": "Découvrez comment les modèles d'abonnement au stationnement AC transforment les opérations de flotte, offrant des économies de coûts et un confort amélioré pour le conducteur.Découvrez l’avenir du contrôle climatique..."
   },
   {
@@ -812,7 +812,7 @@
     "title": "Parking AC pour Kenya Eldoret : solutions de transport sous chaîne du froid",
     "category": "Guide régional",
     "date": "30 mars 2025",
-    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-eldoret-cold-chain-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation de parking pour le transport sous chaîne du froid à Eldoret, au Kenya.Protégez les marchandises sensibles à la température grâce à la technologie CoolDrivePro VS02 PRO."
   },
   {
@@ -820,7 +820,7 @@
     "title": "Parking AC pour le Nigeria Ibadan : solutions climatiques pour les conducteurs commerciaux",
     "category": "Guide régional",
     "date": "30 mars 2025",
-    "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-ibadan-commercial-drivers-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation de stationnement pour les conducteurs commerciaux à Ibadan, au Nigeria.Améliorez le transport urbain et la logistique avec la technologie CoolDrivePro VS02 PRO."
   },
   {
@@ -828,7 +828,7 @@
     "title": "Parking AC pour Louxor en Égypte : solutions climatiques pour les véhicules touristiques",
     "category": "Guide régional",
     "date": "29 mars 2025",
-    "image": "https://images.unsplash.com/photo-1539650116455-251d9a063595?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-egypt-luxor-tourism-vehicles-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation de stationnement pour véhicules touristiques à Louxor, en Égypte.Combattez la chaleur extrême du désert et protégez les visiteurs grâce à la technologie CoolDrivePro VS02 PRO."
   },
   {
@@ -836,7 +836,7 @@
     "title": "Parking AC pour Ghana Tamale : Solutions de transport dans la région du Nord",
     "category": "Guide régional",
     "date": "29 mars 2025",
-    "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ghana-tamale-northern-region-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation de stationnement pour les véhicules de transport à Tamale, au Ghana.Combattez la chaleur du Sahel et soutenez la logistique de la région du Nord avec CoolDrivePro VS02 PRO."
   },
   {
@@ -852,7 +852,7 @@
     "title": "Parking AC pour le Kenya Nakuru : solutions climatiques pour la flotte de transport agricole",
     "category": "Guide régional",
     "date": "28 mars 2025",
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-nakuru-agricultural-transport-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation de stationnement pour les camions de transport agricole à Nakuru, au Kenya.Protégez les produits, les équipements et les chauffeurs grâce à la technologie CoolDrivePro VS02 PRO."
   },
   {
@@ -860,7 +860,7 @@
     "title": "Climatiseurs de stationnement pour les camions de fret du Maroc Casablanca : vaincre la chaleur de l’Atlantique",
     "category": "Guide régional",
     "date": "28 mars 2025",
-    "image": "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-morocco-casablanca-freight-hero.webp",
     "excerpt": "Découvrez pourquoi le stationnement climatisé est essentiel pour les camions de fret opérant à Casablanca, au Maroc.Combattez l'humidité de l'Atlantique, la chaleur extrême et la fatigue du conducteur avec les solutio..."
   },
   {
@@ -868,7 +868,7 @@
     "title": "Parking AC pour le Nigeria Port Harcourt : solutions de contrôle de l'humidité pour le transport pétrolier et gazier",
     "category": "Guide régional",
     "date": "28 mars 2025",
-    "image": "https://images.unsplash.com/photo-1580977276076-ae4b8c219b8e?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-nigeria-port-harcourt-humidity-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation de stationnement pour camions à Port Harcourt, au Nigeria.Combattez l'humidité extrême et la chaleur tropicale avec la technologie CoolDrivePro VS02 PRO."
   },
   {
@@ -876,7 +876,7 @@
     "title": "Parking AC pour l'Afrique du Sud Johannesburg : solutions de transport de banlieue",
     "category": "Guide régional",
     "date": "28 mars 2025",
-    "image": "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-south-africa-johannesburg-commuter-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation de stationnement pour les transports de banlieue à Johannesburg, en Afrique du Sud.Améliorez les opérations de taxi minibus avec la technologie CoolDrivePro VS02 PRO."
   },
   {
@@ -884,7 +884,7 @@
     "title": "Climatisation de stationnement pour l'Éthiopie Addis-Abeba : solutions de refroidissement à haute altitude pour les véhicules commerciaux",
     "category": "Guide régional",
     "date": "27 mars 2025",
-    "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia-addis-ababa-altitude-hero.webp",
     "excerpt": "Découvrez les solutions de climatisation de stationnement pour camions à Addis-Abeba, en Éthiopie.Combattez les rayons UV intenses et la chaleur à haute altitude grâce à la technologie CoolDrivePro VS02 PRO."
   },
   {
@@ -892,7 +892,7 @@
     "title": "Meilleur climatiseur de stationnement pour semi-camions en 2025 : meilleurs choix et guide de l'acheteur",
     "category": "Guide de l'acheteur",
     "date": "10 mars 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
     "excerpt": "Découvrez les meilleurs climatiseurs de stationnement pour semi-camions en 2025. Notre guide de l'acheteur couvre les meilleurs choix, types et facteurs essentiels pour les chauffeurs de camion."
   },
   {
@@ -900,7 +900,7 @@
     "title": "Climatiseur de stationnement 12V vs 24V : lequel convient le mieux à votre camion ou RV ?",
     "category": "Technologie",
     "date": "8 mars 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac_1dd37e83.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
     "excerpt": "Choisir entre 12V et 24V climatisation de stationnement pour votre camion ou RV ?Ce guide complet détaille les avantages, les inconvénients et les applications idéales de chaque système, vous aidant à prendre une déci..."
   },
   {
@@ -908,7 +908,7 @@
     "title": "Climatisation sans ralenti : comment les climatiseurs de stationnement aident les chauffeurs de camion à se conformer aux lois anti-ralenti",
     "category": "Règlements",
     "date": "6 mars 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/no-idle-ac-anti-idling-laws_9a039652.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/no-idle-ac-anti-idling-laws-hero.webp",
     "excerpt": "Découvrez comment les systèmes de climatisation anti-ralenti aident les chauffeurs de camion à se conformer aux lois anti-ralenti, à économiser du carburant et à améliorer leur confort.Découvrez les solutions innovant..."
   },
   {
@@ -916,7 +916,7 @@
     "title": "Climatisation RV hors réseau : un guide complet sur le refroidissement à l'énergie solaire",
     "category": "Guider",
     "date": "5 mars 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning_4db6aa9b.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
     "excerpt": "Guide complet sur la climatisation RV hors réseau utilisant l'énergie solaire et la climatisation de stationnement 12V.Découvrez le dimensionnement du système, la sélection de la batterie et des conseils sur les perfo..."
   },
   {
@@ -932,7 +932,7 @@
     "title": "Nettoyage et entretien des climatiseurs RV : 2025 Guide complet",
     "category": "Entretien",
     "date": "30 janvier 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac_ce6b3b35.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
     "excerpt": "Guide complet 2025 sur le nettoyage et l’entretien de votre climatiseur de stationnement RV.Tâches de maintenance mensuelles, saisonnières et annuelles pour maximiser les performances et la durée de vie."
   },
   {
@@ -940,7 +940,7 @@
     "title": "RV Comparaison des climatiseurs 2025 : montés sur le dessus, mini split ou portables",
     "category": "Comparaison",
     "date": "25 janvier 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-air-conditioner-comparison-2025_1e796951.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/rv-air-conditioner-comparison-2025-hero.webp",
     "excerpt": "Se lancer dans une aventure RV promet liberté et exploration, mais assurer le confort sur la route, surtout pendant les étés caniculaires ou les nuits humides, est primordial.Un système de climatisation fiable n’est p..."
   },
   {
@@ -948,7 +948,7 @@
     "title": "Utilisation d'un climatiseur de stationnement dans des températures extrêmes : performances à des températures de 100 °F+",
     "category": "Guider",
     "date": "22 janvier 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-in-extreme-heat_f057be3a.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-in-extreme-heat-hero.webp",
     "excerpt": "Le soleil incessant tape, transformant les cabines des véhicules en fours insupportables.Pour les camionneurs effectuant de longs trajets, les propriétaires de RV explorant de vastes paysages,..."
   },
   {
@@ -956,7 +956,7 @@
     "title": "Technologie de compresseur rotatif double dans les climatiseurs de stationnement : pourquoi c'est important",
     "category": "Technologie",
     "date": "20 janvier 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dual-rotary-compressor-explained_f43ba474.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dual-rotary-compressor-explained-hero.webp",
     "excerpt": "Découvrez la technologie AC de stationnement à double compresseur rotatif.Efficacité améliorée, avantages concrets pour les camionneurs, les RV et les fourgonnettes.Un confort mobile durable."
   },
   {
@@ -972,7 +972,7 @@
     "title": "Comment fonctionne un climatiseur de stationnement ?L'explication technique complète",
     "category": "Technologie",
     "date": "15 janvier 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works_88006269.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/how-parking-ac-works-hero.webp",
     "excerpt": "Découvrez le fonctionnement des climatiseurs de stationnement, leurs composants, la gestion de l'énergie et leurs types.Obtenez une explication technique complète pour les chauffeurs de camion, les propriétaires de RV..."
   },
   {
@@ -980,7 +980,7 @@
     "title": "Parking AC pour les conversions de camping-car : tout ce que vous devez savoir",
     "category": "La vie en fourgonnette",
     "date": "12 janvier 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-van-conversion_b8919a89.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-camper-van-conversion-hero.webp",
     "excerpt": "Guide complet du stationnement AC pour les conversions de camping-car.Découvrez les types, l’installation, l’entretien et le choix de la meilleure unité pour le confort de votre fourgonnette."
   },
   {
@@ -988,7 +988,7 @@
     "title": "Climatiseurs de stationnement pour camions électriques : compatibilité et meilleures options",
     "category": "Technologie",
     "date": "10 janvier 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac_56794866.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
     "excerpt": "Découvrez les meilleurs climatiseurs de stationnement pour camions électriques.Notre guide couvre la compatibilité, les types, les avantages et les principales options telles que CoolDrivePro VS02 PRO et VX3000SP."
   },
   {
@@ -996,7 +996,7 @@
     "title": "Climatisation pour food trucks : gardez votre cuisine et votre cabine au frais",
     "category": "Spécialité",
     "date": "25 novembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-food-trucks_5915a1fb.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-food-trucks-hero.webp",
     "excerpt": "Gardez votre food truck au frais et conforme à la bonne climatisation de stationnement.Notre guide couvre les besoins de BTU, l'installation et les meilleurs modèles comme le CoolDrivePro VS02 PRO et VX3000SP."
   },
   {
@@ -1004,7 +1004,7 @@
     "title": "Guide d’achat de climatiseurs de stationnement 2025 : tout ce que vous devez savoir avant d’acheter",
     "category": "Guide de l'acheteur",
     "date": "20 novembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025_02d9f5e4.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
     "excerpt": "Guide d’achat complet des climatiseurs de stationnement 2025.Comparez les cotes BTU, 12V contre 24V, monté sur le dessus ou mini split, et trouvez le meilleur climatiseur de stationnement pour votre camion ou RV."
   },
   {
@@ -1012,7 +1012,7 @@
     "title": "Contrôleurs de charge solaire MPPT pour la climatisation RV : meilleurs choix et guide d'installation",
     "category": "Solaire",
     "date": "18 novembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/mppt-solar-controller-rv-ac_a601c023.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/mppt-solar-controller-rv-ac-hero.webp",
     "excerpt": "Découvrez comment les contrôleurs solaires MPPT optimisent la climatisation RV.Découvrez les meilleurs choix, les guides de configuration et le dépannage pour un refroidissement hors réseau efficace avec CoolDrivePro."
   },
   {
@@ -1020,7 +1020,7 @@
     "title": "Climatisation pour les remorques de chantier : options de climatisation portable et de stationnement",
     "category": "Spécialité",
     "date": "15 novembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-construction-trailers_4821720a.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-construction-trailers-hero.webp",
     "excerpt": "Gardez votre remorque de chantier au frais et productive grâce aux meilleures options de climatisation portable et de stationnement.Un guide pour choisir la bonne remorque de chantier AC."
   },
   {
@@ -1028,7 +1028,7 @@
     "title": "Comment réduire le bruit du climatiseur de stationnement : amortissement des vibrations et conseils d'installation",
     "category": "Mise en place",
     "date": "12 novembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips_565b2070.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
     "excerpt": "Réduisez le bruit du climatiseur de stationnement grâce à notre guide sur l’amortissement des vibrations, l’installation silencieuse et l’entretien.Profitez d'un habitacle paisible grâce à ces conseils d'experts pour..."
   },
   {
@@ -1036,7 +1036,7 @@
     "title": "ROI du climatiseur de stationnement : coût total de possession par rapport au moteur au ralenti sur 5 ans",
     "category": "Finances",
     "date": "3 novembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership_765892a3.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership-hero.webp",
     "excerpt": "Découvrez le véritable retour sur investissement des climatiseurs de stationnement par rapport au moteur au ralenti sur 5 ans.Découvrez le coût total de possession, les économies et les solutions CoolDrivePro pour les..."
   },
   {
@@ -1044,7 +1044,7 @@
     "title": "Pourquoi les climatiseurs électriques DC changent la donne pour les propriétaires de RV",
     "category": "Technologie",
     "date": "18 février 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
     "excerpt": "Découvrez pourquoi les climatiseurs alimentés par DC transforment le RV et le refroidissement des camions.Découvrez l’efficacité, la compatibilité des batteries et les meilleures options de climatisation de stationnem..."
   },
   {
@@ -1052,7 +1052,7 @@
     "title": "LiFePO4 Batteries pour climatiseurs de stationnement : la solution d'alimentation ultime",
     "category": "Technologie",
     "date": "20 février 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac_9a012845.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
     "excerpt": "Découvrez pourquoi les batteries LiFePO4 sont la solution d'alimentation ultime pour les climatiseurs de stationnement.Découvrez leurs avantages, leur installation, leur efficacité, leur sécurité et leur rentabilité p..."
   },
   {
@@ -1060,7 +1060,7 @@
     "title": "Climatiseur Mini Split vs Rooftop RV : avantages, inconvénients et lequel choisir",
     "category": "Comparaison",
     "date": "25 février 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/mini-split-vs-rooftop-rv-ac_5fb932e6.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/mini-split-vs-rooftop-rv-ac-hero.webp",
     "excerpt": "Comparez le mini split et le RV AC sur le toit pour votre RV.Découvrez les avantages, les inconvénients, l'efficacité, le bruit, l'installation et le coût pour choisir la meilleure climatisation pour vos voyages."
   },
   {
@@ -1092,7 +1092,7 @@
     "title": "Climatisation pour remorques à chevaux : garder les animaux au frais sur les longs trajets",
     "category": "Spécialité",
     "date": "18 décembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-horse-trailers_86582ff9.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-horse-trailers-hero.webp",
     "excerpt": "Gardez vos chevaux au frais et en sécurité pendant les longs trajets grâce à la bonne climatisation pour remorque à chevaux.Notre guide couvre tout, des types de systèmes à l'installation."
   },
   {
@@ -1100,7 +1100,7 @@
     "title": "Climatisation de stationnement pour les conversions d'autobus scolaires (Skoolies) : meilleures options et guide d'installation",
     "category": "Guider",
     "date": "22 décembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion_50f16cdb.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "excerpt": "Reste au frais dans ton skoolie !Notre guide couvre la meilleure climatisation de stationnement pour les conversions d'autobus scolaires, y compris les options sur le toit, le mini-split et 12V.Apprenez-en davantage s..."
   },
   {
@@ -1108,7 +1108,7 @@
     "title": "Combien de carburant un climatiseur de stationnement permet-il d'économiser ?Calculateur de chiffres réels et de retour sur investissement",
     "category": "Guider",
     "date": "15 février 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator_bb724817.webp",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
     "excerpt": "Découvrez combien de carburant un climatiseur de stationnement peut vous faire économiser.Notre guide fournit des chiffres réels, un calculateur de retour sur investissement et des conseils pour les camions, les RV et..."
   },
   {
