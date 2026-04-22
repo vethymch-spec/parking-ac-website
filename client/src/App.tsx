@@ -1,9 +1,11 @@
 import { lazy, Suspense, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import WhatsAppButton from "./components/WhatsAppButton";
-import { Route, Switch } from "wouter";
+import { Route, Router as WouterRouter, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { useSEO } from "./hooks/useSEO";
+import { detectLocaleFromPath } from "./lib/locale";
 
 // Home is eagerly loaded (critical path)
 import Home from "./pages/Home";
@@ -160,15 +162,33 @@ function Router() {
 }
 
 function App() {
+  // Detect locale from URL on mount; pass as wouter base so all <Link href="/foo"/>
+  // automatically resolve to /xx/foo for non-English locales.
+  const { lang, base } = detectLocaleFromPath();
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    // Sync i18n with URL-derived locale (URL is source of truth for SEO)
+    if (i18n.language !== lang) {
+      i18n.changeLanguage(lang);
+    }
+    document.documentElement.lang = lang;
+    document.documentElement.dir = ["ar", "he"].includes(lang) ? "rtl" : "ltr";
+    // Persist for cases where user lands on a locale URL directly
+    try { localStorage.setItem("i18nextLng", lang); } catch {}
+  }, [lang, i18n]);
+
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
-        <DeferredUI>
-          <SEOManager />
-          <Router />
-          <WhatsAppButton />
-          <Suspense fallback={null}><NewProductPopup /></Suspense>
-        </DeferredUI>
+        <WouterRouter base={base}>
+          <DeferredUI>
+            <SEOManager />
+            <Router />
+            <WhatsAppButton />
+            <Suspense fallback={null}><NewProductPopup /></Suspense>
+          </DeferredUI>
+        </WouterRouter>
       </ThemeProvider>
     </ErrorBoundary>
   );

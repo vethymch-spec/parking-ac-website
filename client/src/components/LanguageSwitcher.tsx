@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { languageNames, supportedLanguages } from '@/i18n';
+import { detectLocaleFromPath, buildLocalizedPath } from '@/lib/locale';
 
 const GlobeIcon = ({ size = 18, className }: { size?: number; className?: string }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
@@ -39,14 +40,13 @@ export default function LanguageSwitcher({ variant = 'navbar', isScrolled = fals
   }, []);
 
   const handleLanguageChange = (lang: string) => {
-    i18n.changeLanguage(lang);
     setIsOpen(false);
-    // Store preference
-    localStorage.setItem('i18nextLng', lang);
-    // Update HTML lang attribute for SEO
-    document.documentElement.lang = lang;
-    // Update dir attribute for RTL languages
-    document.documentElement.dir = ['ar', 'he'].includes(lang) ? 'rtl' : 'ltr';
+    try { localStorage.setItem('i18nextLng', lang); } catch {}
+    // Compute target URL preserving current page (path without locale prefix)
+    const { pathWithoutLocale } = detectLocaleFromPath();
+    const target = buildLocalizedPath(lang, pathWithoutLocale) + window.location.search + window.location.hash;
+    // Hard navigation so wouter Router re-initializes with new base
+    window.location.assign(target);
   };
 
   const iconColor = variant === 'navbar' 

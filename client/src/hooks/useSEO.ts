@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { useLocation } from "wouter";
 import { useTranslation } from "react-i18next";
 import { supportedLanguages } from "@/i18n";
+import { buildLocalizedPath, DEFAULT_LANG } from "@/lib/locale";
 
 interface SEOProps {
   title?: string;
@@ -163,16 +164,20 @@ export function useSEO(overrides?: SEOProps) {
   const currentLang = i18n.language || 'en';
 
   useEffect(() => {
+    // `location` from wouter is already relative to <Router base>, i.e. WITHOUT the locale prefix.
+    // We use this as the canonical SEO path key.
+    const seoPath = location || "/";
+
     // Get translated title or fallback to English
-    const pageTitles = PAGE_TITLES[location] || {};
+    const pageTitles = PAGE_TITLES[seoPath] || {};
     const title = overrides?.title || pageTitles[currentLang] || pageTitles['en'] || document.title;
-    
+
     // Get translated description or fallback
-    const pageDescriptions = PAGE_DESCRIPTIONS[location] || {};
+    const pageDescriptions = PAGE_DESCRIPTIONS[seoPath] || {};
     const description = overrides?.description || pageDescriptions[currentLang] || pageDescriptions['en'] || DEFAULT_DESCRIPTION;
 
-    // Determine canonical URL
-    const canonicalUrl = overrides?.canonical || `${BASE_URL}${location}`;
+    // Determine canonical URL — locale-aware
+    const canonicalUrl = overrides?.canonical || `${BASE_URL}${buildLocalizedPath(currentLang, seoPath)}`;
 
     // Update or create canonical link tag
     let canonicalTag = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
@@ -193,17 +198,15 @@ export function useSEO(overrides?: SEOProps) {
       const link = document.createElement("link");
       link.rel = "alternate";
       link.hreflang = lang;
-      link.href = lang === 'en'
-        ? `${BASE_URL}${location}`
-        : `${BASE_URL}/${lang}${location}`;
+      link.href = `${BASE_URL}${buildLocalizedPath(lang, seoPath)}`;
       document.head.appendChild(link);
     });
-    
+
     // Add x-default hreflang (points to English / bare path)
     const defaultLink = document.createElement("link");
     defaultLink.rel = "alternate";
     defaultLink.hreflang = "x-default";
-    defaultLink.href = `${BASE_URL}${location}`;
+    defaultLink.href = `${BASE_URL}${buildLocalizedPath(DEFAULT_LANG, seoPath)}`;
     document.head.appendChild(defaultLink);
 
     // Update Open Graph URL
