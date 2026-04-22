@@ -2,7 +2,7 @@
   "title": "R32 Refrigerant in Next-Gen Parking ACs: Lower GWP and Better Efficiency",
   "date": "2025-10-15",
   "category": "Technology",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32_eed80969.webp",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
   "metaDescription": "Discover why R32 refrigerant is becoming the preferred choice for next-gen parking ACs, offering lower GWP and improved efficiency for commercial vehicles.",
   "content": [
     {
@@ -72,6 +72,18 @@
     {
       "heading": "Frequently Asked Questions",
       "body": "Q: What refrigerant is best for parking air conditioners?\n\nA: Most modern parking AC units use R134a or R32 refrigerant. R32 is increasingly preferred for new designs due to its 67% lower global warming potential (GWP of 675 vs. R410a's 2,088) and higher energy efficiency. R134a remains common in existing units and offers proven reliability. Always use the refrigerant specified by the manufacturer—mixing refrigerants damages the system.\n\nQ: How often should I recharge the refrigerant?\n\nA: A properly installed and sealed system should not need refrigerant recharging for 3-5 years or more. If cooling performance degrades significantly within the first 2 years, suspect a leak rather than normal loss. Have a technician perform a leak test before simply adding refrigerant, as the underlying issue will only worsen over time.\n\nQ: Can I use a parking AC while driving?\n\nA: Yes, most parking AC units can operate while the vehicle is in motion. In fact, running the parking AC while driving allows the alternator to charge the batteries simultaneously, effectively providing free cooling. However, at highway speeds, the vehicle's engine-driven AC may be more efficient. Parking ACs are most valuable during stops, rest breaks, and overnight parking.\n\nQ: What warranty should I expect on a parking AC unit?\n\nA: Quality manufacturers typically offer 1-2 year full warranties covering parts and labor, with extended compressor warranties of 3-5 years. CoolDrivePro provides competitive warranty terms with global support. Always register your product promptly and retain proof of professional installation, as improper installation is a common warranty exclusion.\n\nQ: How does ambient temperature affect parking AC performance?\n\nA: As outdoor temperature rises, cooling capacity decreases and power consumption increases. At 35°C (95°F) outdoor, a unit rated at 10,000 BTU may deliver its full capacity. At 45°C (113°F), the same unit might deliver 7,500-8,500 BTU while drawing 15-20% more power. This is why proper sizing with a margin is important for hot-climate operations."
+    }
+  ],
+  "imageAlt": "R32 Refrigerant in Next-Gen Parking ACs: Lower GWP and Better Efficiency — truck cabin interior with a parking air conditioner mounted on the roof",
+  "imageWidth": 1024,
+  "imageHeight": 1024,
+  "inlineImages": [
+    {
+      "afterSection": 8,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-detail.webp",
+      "alt": "technical details — truck cabin interior with a parking air conditioner mounted on the roof (R32 Refrigerant in Next-Gen Parking ACs: Lower GWP and Better Efficiency)",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

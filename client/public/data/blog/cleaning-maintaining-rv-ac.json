@@ -2,8 +2,8 @@
   "title": "Cleaning and Maintaining RV Air Conditioners: 2025 Complete Guide",
   "date": "January 30, 2025",
   "category": "Maintenance",
-  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac_ce6b3b35.webp",
-  "imageAlt": "Cleaning and maintaining RV parking air conditioner",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+  "imageAlt": "Cleaning and Maintaining RV Air Conditioners: 2025 Complete Guide — RV motorhome interior with a rooftop air conditioner unit visible",
   "metaDescription": "Complete 2025 guide to cleaning and maintaining your RV parking air conditioner. Monthly, seasonal, and annual maintenance tasks to maximize performance and lifespan.",
   "content": [
     {
@@ -66,5 +66,16 @@
       "heading": "Safety Considerations and Best Practices",
       "body": "Operating a parking air conditioner safely requires attention to several important factors that protect both the vehicle occupants and the equipment. Electrical safety is paramount: all wiring must be sized correctly for the current load with appropriate fuse protection. Undersized wiring is the leading cause of parking AC-related vehicle fires. Always use the wire gauge specified by the manufacturer or larger, and install a fuse or circuit breaker rated at 125% of the unit's maximum current draw within 30 cm of the battery positive terminal.\n\nBattery safety deserves equal attention, particularly with lithium-based batteries. LiFePO4 batteries, while significantly safer than other lithium chemistries, still require a quality BMS (Battery Management System) that provides overcharge, over-discharge, over-current, and thermal protection. Ensure the BMS is rated for the maximum current draw of your parking AC unit. Never mix old and new batteries in a bank, and never mix different chemistries. Store and charge batteries in well-ventilated areas.\n\nCarbon monoxide (CO) safety is a critical advantage of parking ACs over engine idling. Engine idling in enclosed or semi-enclosed spaces (parking garages, loading docks, enclosed rest areas) creates potentially lethal CO accumulation. Parking AC systems produce zero emissions during operation, eliminating this risk entirely. This is particularly important for sleeper cab drivers who rest with windows closed.\n\nMounting security must be verified regularly, especially on vehicles operating on rough roads. A loose or improperly mounted AC unit can become a projectile in an accident or fall from the vehicle during transit. Check all mounting hardware at least quarterly, retorquing bolts to manufacturer specifications. Replace any hardware showing signs of fatigue cracking or corrosion."
     }
-  ]
+  ],
+  "inlineImages": [
+    {
+      "afterSection": 7,
+      "url": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-frequently-asked-questions-about-rv-ac-m.webp",
+      "alt": "Frequently Asked Questions About RV AC Maintenance — RV motorhome interior with a rooftop air conditioner unit visible (Cleaning and Maintaining RV Air Conditioners: 2025 Complete Guide)",
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "imageWidth": 1024,
+  "imageHeight": 1024
 }
