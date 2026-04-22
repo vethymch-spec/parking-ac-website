@@ -31,6 +31,7 @@ const FeaturesSection = lazy(() => import("@/components/FeaturesSection"));
 const SEOContentSection = lazy(() => import("@/components/SEOContentSection"));
 const FAQSection = lazy(() => import("@/components/FAQSection"));
 const BlogSection = lazy(() => import("@/components/BlogSection"));
+const SocialFeedSection = lazy(() => import("@/components/SocialFeedSection"));
 const Footer = lazy(() => import("@/components/Footer"));
 
 export default function Home() {
@@ -80,6 +81,11 @@ export default function Home() {
           {/* 8. Blog: content freshness */}
           <LazySection minHeight="400px">
             <BlogSection />
+          </LazySection>
+
+          {/* 9. Social: YouTube + Facebook community feed */}
+          <LazySection minHeight="500px">
+            <SocialFeedSection />
           </LazySection>
         </Suspense>
       </main>
