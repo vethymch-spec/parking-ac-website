@@ -1,5 +1,113 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: confronto affiancato (2026)",
+    "date": "2026-04-25",
+    "category": "Confronto",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Dometic e Webasto parcheggiano le unità AC fianco a fianco per un confronto",
+    "excerpt": "[2026] Confronto tra Dometic RTX2000 e Webasto Cool Top RTE 16: potenza di raffreddamento, rumore, consumo energetico, complessità di installazione, garanzia e costo di proprietà di 5 anni.Numeri veri dal campo."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Sistemi AC per camion senza inattività: come conformarsi alle leggi statali anti-inattività (2026)",
+    "date": "2026-04-25",
+    "category": "Conformità",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "Sistema AC a batteria per camion senza minimo installato per la conformità anti-minimo",
+    "excerpt": "[2026] Leggi stato per stato contro il minimo e come conformarsi all'aria condizionata per camion senza motore al minimo.CARB (multe da $ 300 a $ 1.000), oltre 30 limiti statali, EPA SmartWay e i 5 sistemi che soddisf..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Parcheggio AC BTU Calcolatore delle dimensioni: di quanti BTU hai davvero bisogno?(2026)",
+    "date": "2026-04-25",
+    "category": "Guida all'acquisto",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "Tabella delle dimensioni BTU per il parcheggio AC nella cabina del camion e configurazioni RV",
+    "excerpt": "[2026] Di quanti BTU ha bisogno la tua cabina letto o la tua RV camera da letto?Formula dettagliata più tabelle per camion di Classe 8 (5.000–10.000 BTU), furgoni Sprinter (6.000–8.000 BTU) e RV da 25 piedi (12.000–14..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Costo di installazione dell'aria condizionata per il parcheggio 2026: tariffe dei negozi per stato e risparmi fai-da-te",
+    "date": "2026-04-25",
+    "category": "Guida all'acquisto",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "Installazione AC professionale per parcheggio che mostra il ritaglio del tetto, il cablaggio e l'integrazione della batteria",
+    "excerpt": "[2026] Costo di installazione dell’aria condizionata per parcheggi per stato: $ 400–$ 1.200 professionale, $ 0–$ 150 fai da te.Tariffe reali dei negozi da CA, TX, FL, NY, oltre a un'analisi completa dei costi di unità..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Confronto del rumore CA del parcheggio: livelli reali in dB testati a 3 piedi (2026)",
+    "date": "2026-04-25",
+    "category": "Confronto",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "Misuratore di decibel che misura il rumore dell'aria condizionata durante il parcheggio a 3 piedi all'interno di una cabina con cuccetta",
+    "excerpt": "[2026] Abbiamo misurato 12 condizionatori da parcheggio con un misuratore dB calibrato a 3 piedi.CoolDrivePro V-TH1 ha raggiunto 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Numeri veri, niente marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Consumo di energia CA del camion: spiegazione di watt, ampere e consumo della batteria (2026)",
+    "date": "2026-04-25",
+    "category": "Alimentazione e batteria",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Monitoraggio del consumo di energia CA per il parcheggio dei camion con shunt e monitoraggio della batteria",
+    "excerpt": "[2026] Spiegazione del consumo energetico CA del camion: 480 W in media, 9 A a 24V, 38–55 Ah a notte.Numeri reali, formule per dimensionare la batteria e come i compressori inverter riducono l'assorbimento del 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Condizionatore RV alimentato a batteria: guida completa all'acquisto 2026",
+    "date": "2026-04-24",
+    "category": "Guide all'acquisto",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "Climatizzatore RV alimentato a batteria 2026 - Interno del camper di classe B di notte con tetto 12V DC L'aria condizionata per il parcheggio si spegne LiFePO4 banco batterie, il monitor mostra una capacità di 220 Ah e 9,5 ore di autonomia rimanente",
+    "excerpt": "Guida completa 2026 ai condizionatori RV alimentati a batteria.12V/24V nativo DC rispetto alle configurazioni dell'inverter, dati di autonomia reali LiFePO4 (220 Ah → 8–11 ore), fasce di prezzo da $ 1.500 a $ 3.800, m..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Come installare un condizionatore da parcheggio: guida passo passo per il 2026",
+    "date": "2026-04-24",
+    "category": "Guide di installazione",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Come installare un parcheggio AC 2026: l'installatore taglia un'apertura del tetto di 14x14 pollici su un furgone Sprinter utilizzando un seghetto alternativo, con l'unità CoolDrivePro VS02 PRO 12V DC, guarnizione in butile e cavo da 4 AWG disposti sul banco di lavoro accanto al camion",
+    "excerpt": "Guida passo passo 2026 per l'installazione di un condizionatore da parcheggio: preparazione del tetto, ritaglio 14x14, guarnizione, cablaggio (fusibile 4 AWG, 80 A), messa in servizio.6–9 ore fai da te, $ 325 in parti..."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Batteria per parcheggio AC: guida al dimensionamento e al cablaggio 2026",
+    "date": "2026-04-24",
+    "category": "Guide pratiche",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "Batteria LiFePO4 per parcheggio AC 2026: vano batteria aperto di un furgone Sprinter che mostra due batterie Battle Born da 220 Ah LiFePO4 in parallelo con cavi 2/0 AWG, fusibile classe T da 200 A, barra collettrice e monitor Victron BMV-712 che legge 87% SOC a 13,4 V",
+    "excerpt": "2026 LiFePO4 guida al dimensionamento per il parcheggio AC: opzioni 220 Ah ($ 1.400), 280 Ah ($ 1.750), 400 Ah ($ 2.400) con calcoli di autonomia di 8 ore, specifiche BMS/fusibile/cavo."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "L'aria condizionata nel parcheggio non si raffredda?Guida alla risoluzione dei problemi 2026 (passo passo)",
+    "date": "2026-04-24",
+    "category": "Risoluzione dei problemi",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "Risoluzione dei problemi dell'aria condizionata di parcheggio non raffreddata 2026: conducente all'interno della cuccetta di un semirimorchio con multimetro che sonda il connettore di alimentazione CA di parcheggio 12V DC a 11,4 V, lettura del termometro di 78 °F di aria di mandata rispetto a 79 °F di ritorno, immagine a infrarossi che mostra il punto caldo del condensatore",
+    "excerpt": "Guida passo passo del 2026 per riparare un condizionatore da parcheggio che non si raffredda.Caduta di tensione, refrigerante, condensatore sporco, termostato, BMS: diagnosi in 30 minuti, correzioni da $ 0 a $ 280."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parcheggio AC vs APU: Confronto costi e prestazioni 2026 per le flotte",
+    "date": "2026-04-24",
+    "category": "Recensioni e confronti",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "Parcheggio AC vs APU 2026: confronto fianco a fianco di un Freightliner Cascadia con un DC alimentato a batteria rispetto a un camion con cuccetta con un RigMaster APU montato sulla guida del telaio, display della pompa del carburante che mostra $ 4,05/gal diesel e sovrapposizione dei costi per 5 anni",
+    "excerpt": "Guida alle decisioni sulla flotta 2026: parcheggio AC vs APU.TCO di 5 anni con diesel 4,05 $: l'aria condizionata per il parcheggio DC fa risparmiare $ 9.800–$ 14.200/camion rispetto al diesel APU, $ 3.200–$ 5.400 ris..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Miglior condizionatore da parcheggio 2026: 9 migliori scelte a confronto (camion, RV e furgoni)",
+    "date": "2026-04-23",
+    "category": "Guida all'acquisto",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "Miglior condizionatore da parcheggio del 2026: linea di condizionatori da parcheggio a tetto e split DC montati su un semirimorchio, RV e furgone velocista sotto il cielo sereno",
+    "excerpt": "I 9 migliori condizionatori da parcheggio testati per il 2026: affiancati BTU, rumore, consumo, prezzo e prestazioni reali per semirimorchi, RV, furgoni sprinter e flotte.Scelte del vincitore per caso d'uso."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Aria condizionata da parcheggio per l'umidità costiera di Alessandria: combattere le sfide climatiche mediterranee dell'Egitto",
     "date": "2026-03-31",

@@ -1,5 +1,113 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: comparación lado a lado (2026)",
+    "date": "2026-04-25",
+    "category": "Comparación",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Unidades de aire acondicionado de estacionamiento Dometic y Webasto una al lado de la otra para comparar",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 cara a cara: potencia de refrigeración, ruido, consumo de energía, complejidad de instalación, garantía y coste de propiedad de 5 años.Números reales del campo."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Sistemas de aire acondicionado para camiones sin ralentí: cómo cumplir con las leyes estatales contra el ralentí (2026)",
+    "date": "2026-04-25",
+    "category": "Cumplimiento",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "Sistema de CA de camión sin ralentí eléctrico con batería instalado para cumplir con las normas anti-ralentí",
+    "excerpt": "[2026] Leyes contra el ralentí estado por estado y cómo cumplir con el aire acondicionado de camión sin ralentí.CARB (multas de $300 a $1,000), más de 30 límites estatales, EPA SmartWay y los 5 sistemas que cumplen co..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Aparcamiento AC BTU Calculadora de tamaño: ¿Cuántos BTUs necesita realmente?(2026)",
+    "date": "2026-04-25",
+    "category": "Guía de compra",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU tabla de tamaños para aire acondicionado de estacionamiento en la cabina del camión y configuraciones RV",
+    "excerpt": "[2026] ¿Cuántos BTUs necesita su cabina dormitorio o su dormitorio RV?Fórmula paso a paso más tablas para camionetas Clase 8 (5000–10 000 BTU), camionetas Sprinter (6000–8000 BTU) y RV de 25 pies (12 000–14 000 BTU)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Costo de instalación de aire acondicionado para estacionamiento en 2026: tarifas de compra por estado y ahorros de bricolaje",
+    "date": "2026-04-25",
+    "category": "Guía de compra",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "Instalación profesional de aire acondicionado para estacionamiento que muestra el recorte del techo, el cableado y la integración de la batería.",
+    "excerpt": "[2026] Costo de instalación de aire acondicionado en estacionamientos por estado: $400–$1200 profesional, $0–$150 bricolaje.Tarifas reales de tienda de CA, TX, FL, NY, además de un desglose completo de los costos de u..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Comparación de ruido de aire acondicionado en estacionamientos: niveles reales de dB probados a 3 pies (2026)",
+    "date": "2026-04-25",
+    "category": "Comparación",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "Medidor de decibelios que mide el ruido del aire acondicionado al estacionar a 3 pies dentro de una cabina dormitorio",
+    "excerpt": "[2026] Medimos 12 unidades de aire acondicionado de estacionamiento con un medidor de dB calibrado a 3 pies.CoolDrivePro V-TH1 alcanzó 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Números reales, sin marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Consumo de energía de CA del camión: explicación de vatios, amperios y consumo de batería (2026)",
+    "date": "2026-04-25",
+    "category": "Energía y batería",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Monitoreo del consumo de energía CA en estacionamiento de camiones con derivación y monitor de batería",
+    "excerpt": "[2026] Explicación del consumo de energía CA del camión: 480 W promedio, 9 A en 24V, 38–55 Ah por noche.Números reales, fórmulas para dimensionar su batería y cómo los compresores inverter reducen el consumo en un 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Aire acondicionado con batería RV: Guía completa para el comprador de 2026",
+    "date": "2026-04-24",
+    "category": "Guías de compra",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "Aire acondicionado con batería RV 2026: interior de autocaravana Clase B por la noche con techo 12V DC estacionamiento Aire acondicionado funcionando apagado LiFePO4 banco de baterías, monitor que muestra una capacidad de 220 Ah y 9,5 horas de tiempo de funcionamiento restantes",
+    "excerpt": "Guía completa de 2026 sobre acondicionadores de aire RV que funcionan con baterías.12V/24V DC nativo frente a configuraciones de inversor, datos de tiempo de ejecución reales LiFePO4 (220 Ah → 8–11 h), rangos de preci..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Cómo instalar un aire acondicionado de estacionamiento: guía paso a paso para 2026",
+    "date": "2026-04-24",
+    "category": "Guías de instalación",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Cómo instalar un AC 2026 de estacionamiento: el instalador corta una abertura en el techo de 14x14 pulgadas en una camioneta Sprinter usando una sierra de calar, con la unidad CoolDrivePro VS02 PRO 12V DC, junta de butilo y cable 4 AWG colocados en la mesa de trabajo al lado del camión",
+    "excerpt": "Guía paso a paso 2026 para instalar un aire acondicionado de estacionamiento: preparación del techo, corte de 14x14, junta, cableado (4 AWG, fusible de 80 A), puesta en marcha.6 a 9 horas de bricolaje, $325 en piezas..."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Batería para AC de estacionamiento: Guía de cableado y tamaño 2026",
+    "date": "2026-04-24",
+    "category": "Guías prácticas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "LiFePO4 batería para estacionamiento AC 2026: compartimiento de batería abierto de una camioneta Sprinter que muestra dos baterías Battle Born LiFePO4 de 220 Ah en paralelo con cables 2/0 AWG, fusible clase T de 200 A, barra colectora y monitor Victron BMV-712 que lee 87 % SOC a 13,4 V",
+    "excerpt": "2026 LiFePO4 guía de dimensionamiento para aire acondicionado de estacionamiento: opciones de 220 Ah ($1400), 280 Ah ($1750), 400 Ah ($2400) con matemáticas de tiempo de ejecución de 8 horas, especificaciones de BMS/f..."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "¿El aire acondicionado del estacionamiento no enfría?Guía de solución de problemas 2026 (paso a paso)",
+    "date": "2026-04-24",
+    "category": "Solución de problemas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "Solución de problemas de aire acondicionado de estacionamiento que no enfría 2026: conductor dentro de la litera del camión con un multímetro sondeando el 12V DC conector de alimentación de CA de estacionamiento a 11,4 V, lectura del termómetro de suministro de aire de 78 °F frente a 79 °F de retorno, imagen infrarroja que muestra el punto caliente del condensador",
+    "excerpt": "Guía paso a paso de 2026 para reparar un aire acondicionado de estacionamiento que no enfría.Caída de voltaje, refrigerante, condensador sucio, termostato, BMS: diagnóstico en 30 minutos, reparaciones entre $0 y $280."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC vs APU: Comparación de costos y rendimiento para flotas en 2026",
+    "date": "2026-04-24",
+    "category": "Reseñas y comparaciones",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "Aire acondicionado de estacionamiento frente a APU 2026: comparación lado a lado de un Freightliner Cascadia con un aire acondicionado de estacionamiento DC alimentado por batería versus un camión con cama con un RigMaster APU montado en el riel del bastidor, pantalla de la bomba de combustible que muestra $4.05/gal de diésel y superposición de costos de 5 años",
+    "excerpt": "Guía de decisión de flotas 2026: estacionamiento AC vs APU.TCO de 5 años con diésel de $4,05: DC aire acondicionado de estacionamiento ahorra entre $9800 y $14200 por camión en comparación con el diésel APU, entre $32..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Mejor aire acondicionado para estacionamiento de 2026: 9 mejores opciones comparadas (camiones, RVs y furgonetas)",
+    "date": "2026-04-23",
+    "category": "Guía del comprador",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "El mejor aire acondicionado para estacionamiento de 2026: gama de unidades de aire acondicionado para estacionamiento de techo y de sistema dividido DC montadas en un semirremolque, RV y una camioneta Sprinter bajo un cielo despejado",
+    "excerpt": "Los nueve mejores aires acondicionados de estacionamiento probados para 2026: lado a lado BTU, ruido, dibujo, precio y rendimiento en el mundo real para semirremolques, RVs, furgonetas sprinter y flotas.Elecciones gan..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Aire acondicionado de estacionamiento para la humedad costera de Alejandría: combatir los desafíos climáticos del Mediterráneo en Egipto",
     "date": "2026-03-31",

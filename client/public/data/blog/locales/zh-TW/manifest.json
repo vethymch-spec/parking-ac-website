@@ -1,5 +1,113 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "多美达与 Webasto Parking AC：并排比较（2026 年）",
+    "date": "2026-04-25",
+    "category": "比較",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "多美达和伟巴斯特并排停放空调设备进行比较",
+    "excerpt": "[2026] 多美达 RTX2000 与 Webasto Cool Top RTE 16 对比：冷却输出、噪音、功耗、安装复杂性、保修和 5 年拥有成本。來自現場的真實數字。"
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "無怠速卡車空調系統：如何遵守州反怠速法 (2026)",
+    "date": "2026-04-25",
+    "category": "合規性",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "安裝電池電動不怠速卡車交流電系統以符合防怠速要求",
+    "excerpt": "[2026] 各州的反空轉法律以及如何遵守無空轉卡車 AC。CARB（300-1,000 美元罰款）、30 多個州限制、EPA SmartWay 以及滿足 2026 年要求的 5 個系統。"
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "停車 AC BTU 尺寸計算機：您真正需要多少 BTU？(2026)",
+    "date": "2026-04-25",
+    "category": "購買指南",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU 卡車駕駛室駐車空調尺寸表和 RV 配置",
+    "excerpt": "[2026] 您的臥舖駕駛室或 RV 臥室需要多少個 BTU？8 級卡車 (5,000–10,000 BTU)、Sprinter 貨車 (6,000–8,000 BTU) 和 25 英尺 RV (12,000–14,000 RV (12,000–14,000 __CDP_DP_DP_DP_DP_ 的分步。"
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "2026 年駐車空調安裝成本：按州劃分的商店價格和 DIY 節省",
+    "date": "2026-04-25",
+    "category": "購買指南",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "專業駐車空調安裝顯示屋頂切口、佈線和電池集成",
+    "excerpt": "[2026] 各州駐車空調安裝成本：專業 400 美元至 1,200 美元，DIY 0 美元至 150 美元。來自加利福尼亞州、德克薩斯州、佛羅裡達州、紐約州的真實商店價格，以及設備、電池、佈線和勞動力成本的完整細分。"
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "停車交流噪音比較：在 3 英尺處測試的實際 dB 等級 (2026)",
+    "date": "2026-04-25",
+    "category": "比較",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "分貝計測量臥舖駕駛室內 3 英尺處的停車交流噪音",
+    "excerpt": "[2026] 我們使用經過校準的 dB 計在 3 英尺處測量了 12 個駐車空調裝置。CoolDrivePro V-TH1 達到 42 dBA，多美達 RTX2000 48 dBA，RigMaster 67 dBA。真實的數字，沒有行銷。"
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "卡車交流功耗：瓦特、安培和電池消耗說明 (2026)",
+    "date": "2026-04-25",
+    "category": "電源及電池",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "帶分流器和電池監視器的卡車停車交流功耗監控",
+    "excerpt": "[2026] 卡車交流功耗說明：平均 480W，24V 時 9A，每晚 38–55Ah。實數、電池容量計算公式以及變頻壓縮機如何減少 30% 的電量。"
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "電池供電 RV 空調：完整 2026 年買家指南",
+    "date": "2026-04-24",
+    "category": "購買指南",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "电池供电 RV 空调 2026 — 夜间 B 级露营车内饰，带屋顶 12V DC 停车空调耗尽 LiFePO4 电池组，监视器显示 220Ah 容量和剩余运行时间 9.5 小时",
+    "excerpt": "2026 年電池供電 RV 空調完整指南。原生 12V/24V DC 与逆变器设置、实际 LiFePO4 运行时间数据（220Ah → 8–11 小时）、1,500–3,800 美元价格范围、太阳能补偿数学。"
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "如何安裝駐車空調：2026 年逐步指南",
+    "date": "2026-04-24",
+    "category": "安裝指南",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "如何安裝停車 AC 2026 — 安裝人員使用曲線鋸在 Sprinter 貨車上切割 14x14 英寸的車頂開口，並將 CoolDrivePro VS02 PRO 12V DC 裝置、丁基墊圈和卡車在 4 AWG 板上放置",
+    "excerpt": "2026 年駐車空調安裝逐步指南：屋頂準備、14x14 切口、墊圈、接線（4 AWG、80A 保險絲）、調試。6-9 小時 DIY，裝置以外的零件 325 美元。"
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 停車交流電電池：2026 尺寸與接線指南",
+    "date": "2026-04-24",
+    "category": "操作指南",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "用於停車 AC 2026 的 LiFePO4 電池 — Sprinter 貨車的打開電池盒，顯示兩塊 220Ah Battle Born LiFePO4 電池與 2/0 AWG 電纜、200A T 級保險絲、母線和 Victron BMV-712 WG 電纜、200A T 級保險絲、母線和 Victron BMV-712 監視器讀數",
+    "excerpt": "2026 LiFePO4 駐車空調選用指南：220Ah（1,400 美元）、280Ah（1,750 美元）、400Ah（2,400 美元）選項，具有 8 小時運行時間計算、BMS/保險絲/電纜規格。"
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "駐車空調不冷？2026 故障排除指南（逐步）",
+    "date": "2026-04-24",
+    "category": "故障排除",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "駐車空調不冷卻故障排除 2026 — 司機在半掛卡車枕木內，用萬用電錶偵測 12V DC 停車交流電源連接器為 11.4V，溫度計讀數為 78°F 送風與 79°F 回風，紅外線影像顯示冷凝器熱點",
+    "excerpt": "2026 年修復駐車空調無法冷卻的逐步指南。電壓下降、冷媒、冷凝器髒污、恆溫器、BMS — 30 分鐘內診斷，修復費用為 0-280 美元。"
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC 與 APU：2026 年車隊成本與績效比較",
+    "date": "2026-04-24",
+    "category": "評論與比較",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "駐車空調與 APU 2026 — 並排比較配備電池供電 DC 駐車空調的 Freightliner Cascadia 與車架導軌上安裝有 RigMaster APU 的臥舖卡車，燃油泵顯示器顯示 4.05 美元/加侖",
+    "excerpt": "2026 年車隊決策指南：停車 AC 與 APU。柴油 4.05 美元的 5 年 TCO — DC 與柴油 APU 相比，駐車空調可節省 9,800–14,200 美元/卡車，與空轉相比可節省 3,200–5,400 美元。"
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "2026 年最佳駐車空調：9 個最佳選擇比較（卡車、RVs 和貨車）",
+    "date": "2026-04-23",
+    "category": "買家指南",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "2026 年最佳駐車空調 — 晴朗天空下安裝在半掛卡車、RV 和短跑貨車上的屋頂和分離式系統 DC 駐車空調裝置陣容",
+    "excerpt": "2026 年測試的 9 款最佳駐車空調：並排 BTU、噪音、抽風、價格以及半掛卡車、RV、短跑貨車和車隊的實際性能。獲勝者根據用例進行選擇。"
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "針對亞歷山大沿海濕度的駐車空調：應對埃及的地中海氣候挑戰",
     "date": "2026-03-31",

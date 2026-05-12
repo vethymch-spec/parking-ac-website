@@ -1,5 +1,101 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic נגד Webasto Parking AC: השוואה זו לצד זו (2026)",
+    "category": "השוואה",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 לעומת Webasto Cool Top RTE 16 ראש בראש: תפוקת קירור, רעש, צריכת חשמל, מורכבות התקנה, אחריות ועלות בעלות ל-5 שנים.מספרים אמיתיים מהשטח."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "מערכות AC של משאיות ללא סרק: כיצד לציית לחוקי המדינה נגד סרק (2026)",
+    "category": "תאימות",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] חוקים נגד סרק ממדינה למדינה וכיצד לציית ל-AC ללא סרק של משאית.CARB ($300-$1,000 קנסות), 30+ מגבלות מדינה, EPA SmartWay ו-5 המערכות שעומדות בדרישות 2026."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "חניה AC BTU מחשבון גודל: כמה BTUs אתה באמת צריך?(2026)",
+    "category": "מדריך קנייה",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] כמה BTUs צריך תא השינה שלך או חדר השינה RV?נוסחה שלב אחר שלב פלוס טבלאות עבור משאיות מסוג 8 (5,000–10,000 BTU), טנדרים ספרינטרים (6,000–8,000 BTU), ו-25 רגל RVs (12,000-_7,__TER)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "עלות התקנת AC לחנייה 2026: תעריפי קניות לפי מדינה וחיסכון עשה זאת בעצמך",
+    "category": "מדריך קנייה",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] עלות התקנת AC לחנייה לפי מדינה: 400-1,200 דולר מקצועי, 0-150 דולר עשה זאת בעצמך.תעריפי חנות אמיתיים מקליפורניה, טקסס, פלורידה, ניו יורק, בתוספת פירוט מלא של עלויות יחידה, סוללה, חיווט ועבודה."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "השוואת רעש AC של חניה: רמות dB אמיתיות נבדקו ב-3 רגל (2026)",
+    "category": "השוואה",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] מדדנו 12 יחידות חניה AC עם מד dB מכויל בגובה 3 רגל.CoolDrivePro V-TH1 הגיע ל-42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.מספרים אמיתיים, ללא שיווק."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "צריכת חשמל AC של משאית: ואט, אמפר וניקוז סוללה הסבר (2026)",
+    "category": "כוח וסוללה",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] צריכת חשמל AC של משאית מוסברת: 480W בממוצע, 9A ב-24V, 38-55Ah ללילה.מספרים אמיתיים, נוסחאות לגודל הסוללה שלך, והאופן שבו מדחסי אינוורטר חותכים מושכים 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "מופעל על סוללה RV מזגן: מדריך לרכישה מלא לשנת 2026",
+    "category": "מדריכי קנייה",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "מדריך שלם לשנת 2026 למזגנים RV המופעלים על ידי סוללות.מקורי 12V/24V DC לעומת הגדרות מהפך, נתוני זמן ריצה אמיתיים LiFePO4 (220Ah → 8-11 שעות), טווחי מחירים של $1,500-$3,800, מתמטיקה של קיזוז סולארי."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "כיצד להתקין AC חניה: מדריך שלב אחר שלב לשנת 2026",
+    "category": "מדריכי התקנה",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "מדריך שלב אחר שלב לשנת 2026 להתקנת AC חניה: הכנה לגג, חתך 14x14, אטם, חיווט (4 AWG, נתיך 80A), הפעלה.6-9 שעות עשה זאת בעצמך, $325 בחלקים מעבר ליחידה."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 סוללה לחניה AC: 2026 מדריך מידות וחיווט",
+    "category": "מדריכי אופן-ביצוע",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 מדריך מידות לחניה AC: 220Ah ($1,400), 280Ah ($1,750), 400Ah ($2,400) אפשרויות עם מתמטיקה של 8 שעות ריצה, מפרט BMS/נתיכים/כבלים."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "חניה AC לא מקרר?2026 מדריך לפתרון בעיות (שלב אחר שלב)",
+    "category": "פתרון בעיות",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "2026 מדריך שלב אחר שלב לתיקון AC חניה שלא יתקרר.נפילת מתח, נוזל קירור, מעבה מלוכלך, תרמוסטט, BMS - אבחון תוך 30 דקות, תיקונים של $0–$280."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "חניה AC לעומת APU: השוואת עלויות וביצועים לשנת 2026 עבור ציים",
+    "category": "ביקורות והשוואות",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "מדריך החלטות צי 2026: חניה AC לעומת APU.TCO ל-5 שנים עם 4.05 דולר דיזל - DC חניה AC חוסך 9,800-14,200 דולר למשאית לעומת דיזל APU, 3,200-5,400 דולר לעומת סרק."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "מזגן החניה הטוב ביותר לשנת 2026: 9 בחירות מובילות בהשוואה (משאיות, RVs וטנדרים)",
+    "category": "מדריך לקונים",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 מזגני החניה הטובים ביותר שנבדקו לשנת 2026: זה לצד זה BTU, רעש, משיכה, מחיר וביצועים בעולם האמיתי למשאיות למחצה, RV, טנדרים ספרינטרים וציי רכב.בחירת הזוכים לפי מקרה שימוש."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "חניה מיזוג אוויר ללחות החוף של אלכסנדריה: מאבק באתגרי האקלים הים תיכוני של מצרים",
     "category": "יישומי צי",

@@ -1,5 +1,101 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: side-by-side sammenligning (2026)",
+    "category": "Sammenligning",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 head-to-head: kjøleeffekt, støy, strømforbruk, installasjonskompleksitet, garanti og 5-års eierkostnader.Reelle tall fra feltet."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "No-Idle Truck AC Systems: How to Comply with State Anti-Idling Laws (2026)",
+    "category": "Overholdelse",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Stat-for-stat-lover om tomgangkjøring og hvordan man overholder AC-lastebiler uten tomgang.CARB ($300–$1000 bøter), 30+ statsgrenser, EPA SmartWay og de 5 systemene som oppfyller 2026-kravene."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Parkering AC BTU Størrelseskalkulator: Hvor mange BTUs trenger du egentlig?(2026)",
+    "category": "Kjøpeguide",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] Hvor mange BTUs trenger sovekabinen eller soverommet RV?Trinn-for-trinn formel pluss tabeller for lastebiler i klasse 8 (5 000–10 000 BTU), Sprinter-varebiler (6 000–8 000 BTU) og 25 fots RVs (12 000–14,__CDP)"
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Parkering AC-installasjonskostnad 2026: Butikkpriser etter stat og gjør-det-selv-besparelser",
+    "category": "Kjøpeguide",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Parkering AC-installasjonskostnad etter stat: $400–$1200 profesjonelle, $0–$150 DIY.Reelle butikkpriser fra CA, TX, FL, NY, pluss full oversikt over enhets-, batteri-, lednings- og arbeidskostnader."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Parkering AC-støysammenligning: Reelle dB-nivåer testet ved 3 fot (2026)",
+    "category": "Sammenligning",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Vi målte 12 parkerings AC-enheter med en kalibrert dB-måler på 3 fot.CoolDrivePro V-TH1 treffer 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Reelle tall, ingen markedsføring."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Truck AC-strømforbruk: Watt, ampere og batteritømming forklart (2026)",
+    "category": "Strøm og batteri",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Truck AC strømforbruk forklart: 480W gjennomsnitt, 9A ved 24V, 38–55Ah per natt.Reelle tall, formler for størrelse på batteriet og hvordan inverterkompressorer kutter trekker 30 %."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Batteridrevet RV Klimaanlegg: Komplett 2026-kjøperveiledning",
+    "category": "Kjøpeguider",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Komplett 2026-veiledning for batteridrevne RV klimaanlegg.Innfødte 12V/24V DC vs omformeroppsett, ekte LiFePO4 kjøretidsdata (220Ah → 8–11 timer), $1500–$3800 prisklasser, solenergi offset matematikk."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Slik installerer du en parkerings-AC: Trinn-for-trinn-veiledning for 2026",
+    "category": "Installasjonsveiledninger",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Trinn-for-trinn 2026-veiledning for å installere en parkerings-AC: takforberedelse, 14x14 utskjæring, pakning, ledninger (4 AWG, 80A sikring), igangkjøring.6–9 timer DIY, $325 i deler utover enheten."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Batteri for parkering AC: 2026 Dimensjonerings- og ledningsveiledning",
+    "category": "Slik gjør du-veiledninger",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 størrelsesguide for parkering AC: 220Ah ($1400), 280Ah ($1750), 400Ah ($2400) alternativer med 8-timers kjøretidsmatematikk, BMS/sikring/kabelspesifikasjoner."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Parkering AC Kjøler ikke?2026 feilsøkingsveiledning (trinn-for-trinn)",
+    "category": "Feilsøking",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "2026 trinn-for-trinn-guide for å fikse en parkerings-AC som ikke vil avkjøles.Spenningsfall, kjølemiddel, skitten kondensator, termostat, BMS – diagnostiser på 30 minutter, $0–$280 fikser."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parkering AC vs. APU: 2026 kostnads- og ytelsessammenligning for flåter",
+    "category": "Anmeldelser og sammenligninger",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "2026 flåtebeslutningsveiledning: parkering AC vs APU.5-års TCO med $4,05 diesel — DC parkering AC sparer $9800–$14200/lastebil vs diesel APU, $3200–$5400 vs tomgang."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Beste parkeringsklimaanlegg 2026: 9 toppvalg sammenlignet (lastebiler, RVs og varebiler)",
+    "category": "Kjøperveiledning",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 beste parkeringsklimaanlegg testet for 2026: side-ved-side BTU, støy, uavgjort, pris og virkelig ytelse for semi-lastebiler, RVs, sprinter-varebiler og flåter.Vinneren plukkes etter brukstilfelle."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Parkering Aircondition for Alexandrias kystfuktighet: bekjempe Egypts klimautfordringer i Middelhavet",
     "category": "Flåteapplikasjoner",

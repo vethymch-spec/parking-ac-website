@@ -1,5 +1,101 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: bezpośrednie porównanie (2026)",
+    "category": "Porównanie",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Porównanie Dometic RTX2000 i Webasto Cool Top RTE 16: wydajność chłodzenia, hałas, pobór mocy, złożoność instalacji, gwarancja i 5-letni koszt posiadania.Liczby rzeczywiste z pola."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Systemy klimatyzacji w pojazdach ciężarowych niepracujących na biegu jałowym: jak przestrzegać stanowych przepisów dotyczących przeciwdziałania pracy na biegu jałowym (2026)",
+    "category": "Zgodność",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Przepisy dotyczące zapobiegania pracy na biegu jałowym obowiązujące w poszczególnych stanach oraz sposób przestrzegania przepisów AC w ciężarówkach zakazujących pracy na biegu jałowym.CARB (grzywny w wysokości..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Parking AC BTU Kalkulator rozmiarów: ile BTU naprawdę potrzebujesz?(2026)",
+    "category": "Przewodnik zakupowy",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] Ile BTU potrzebuje Twoja kabina sypialna lub sypialnia RV?Wzór krok po kroku plus tabele dla ciężarówek klasy 8 (5 000–10 000 BTU), samochodów dostawczych Sprinter (6 000–8 000 BTU) i 25-stopowych RV (12 000–14..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Koszt instalacji klimatyzacji parkingowej 2026: ceny sklepów według stanu i oszczędności związane z samodzielnym wykonaniem",
+    "category": "Przewodnik zakupowy",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Koszt instalacji klimatyzacji parkingowej według stanu: 400–1200 USD w przypadku specjalistów, 0–150 USD w przypadku samodzielnego montażu.Rzeczywiste ceny sklepowe z Kalifornii, Teksasu, Florydy i Nowego Jorku..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Porównanie hałasu klimatyzacji podczas parkowania: rzeczywiste poziomy dB przetestowane z odległości 3 stóp (2026 r.)",
+    "category": "Porównanie",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Zmierzyliśmy 12 postojowych klimatyzatorów za pomocą skalibrowanego miernika dB w odległości 3 stóp.CoolDrivePro V-TH1 osiągnął 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Prawdziwe liczby, bez marketingu."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Pobór mocy prądu przemiennego w ciężarówce: objaśnienie watów, amperów i zużycia baterii (2026)",
+    "category": "Zasilanie i bateria",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Wyjaśnienie zużycia prądu przemiennego przez ciężarówkę: średnio 480 W, 9 A przy 24V, 38–55 Ah na noc.Liczby rzeczywiste, wzory dotyczące rozmiaru akumulatora i sposób cięcia sprężarek inwerterowych pobierają 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Zasilany bateryjnie RV Klimatyzator: Kompletny przewodnik dla kupujących na rok 2026",
+    "category": "Przewodniki zakupowe",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Kompletny przewodnik na rok 2026 po klimatyzatorach RV zasilanych bateryjnie.Natywne 12V/24V DC vs konfiguracje falownika, rzeczywiste dane dotyczące czasu pracy LiFePO4 (220Ah → 8–11 godz.), przedziały cenowe od 1500..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Jak zainstalować klimatyzację parkingową: przewodnik krok po kroku na rok 2026",
+    "category": "Przewodniki instalacji",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Przewodnik krok po kroku dotyczący instalacji klimatyzacji postojowej na rok 2026: przygotowanie dachu, wycięcie 14x14, uszczelka, okablowanie (bezpiecznik 4 AWG, 80 A), uruchomienie.6–9 godzin samodzielnego montażu,..."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Akumulator do klimatyzacji postojowej: Przewodnik dotyczący wymiarów i okablowania na rok 2026",
+    "category": "Poradniki",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 Przewodnik doboru dla prądu przemiennego postojowego: opcje 220 Ah (1400 USD), 280 Ah (1750 USD), 400 Ah (2400 USD) z obliczeniami czasu pracy wynoszącymi 8 godzin, specyfikacjami BMS/bezpieczników/kabli."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Klimatyzacja parkingowa nie chłodzi?Przewodnik rozwiązywania problemów 2026 (krok po kroku)",
+    "category": "Rozwiązywanie problemów",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "Przewodnik krok po kroku na rok 2026 dotyczący naprawy klimatyzacji postojowej, która nie chłodzi.Spadek napięcia, czynnik chłodniczy, brudny skraplacz, termostat, BMS — diagnostyka w 30 minut, naprawy od 0 do 280 USD."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC vs APU: Porównanie kosztów i wydajności flot w 2026 r.",
+    "category": "Recenzje i porównania",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Przewodnik po decyzjach dotyczących floty na rok 2026: klimatyzacja parkingowa vs APU.5-letni całkowity koszt posiadania przy oleju napędowym 4,05 USD — DC Klimatyzacja postojowa pozwala zaoszczędzić 9 800–14 200 USD..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Najlepszy klimatyzator postojowy 2026: porównanie 9 najlepszych wyborów (ciężarówki, RV i samochody dostawcze)",
+    "category": "Przewodnik kupującego",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 najlepszych klimatyzatorów postojowych przetestowanych na rok 2026: side-by-side BTU, hałas, pobór powietrza, cena i wydajność w warunkach rzeczywistych dla naczep, RV, samochodów dostawczych typu sprinter i flot.Zw..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Klimatyzacja parkingowa dla wilgotności przybrzeżnej Aleksandrii: walka z wyzwaniami związanymi z klimatem śródziemnomorskim w Egipcie",
     "category": "Aplikacje flotowe",

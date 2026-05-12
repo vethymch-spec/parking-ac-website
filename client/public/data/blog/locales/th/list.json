@@ -1,5 +1,101 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic กับ Webasto Parking AC: การเปรียบเทียบแบบเคียงข้างกัน (2026)",
+    "category": "การเปรียบเทียบ",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 เทียบกับ Webasto Cool Top RTE 16 แบบตัวต่อตัว: เอาต์พุตการระบายความร้อน, สัญญาณรบกวน, การดึงพลังงาน, ความซับซ้อนในการติดตั้ง, การรับประกัน และต้นทุนการเป็นเจ้าของ 5 ปีตัวเลขจริงจากสนาม"
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "ระบบ AC ของรถบรรทุกที่ไม่มีการใช้งาน: วิธีปฏิบัติตามกฎหมายต่อต้านการไม่ทำงานของรัฐ (2026)",
+    "category": "การปฏิบัติตาม",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] กฎหมายป้องกันการเดินเบาของรถบรรทุกแบบไม่มีการใช้งานแบบรัฐต่อรัฐ และวิธีการปฏิบัติตาม AC ของรถบรรทุกที่ไม่มีการใช้งานCARB (ค่าปรับ $300–$1,000), ข้อจำกัดของรัฐมากกว่า 30 รายการ, EPA SmartWay และ 5 ระบบที่ตรงตามข..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "ที่จอดรถ AC BTU เครื่องคำนวณขนาด: คุณต้องการ BTUs กี่เครื่องจริงๆ(2026)",
+    "category": "คู่มือการซื้อ",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] ห้องนอน BTU หรือห้องนอน RV กี่ห้องสูตรทีละขั้นตอนพร้อมตารางสำหรับรถบรรทุกคลาส 8 (5,000–10,000 BTU) รถตู้ Sprinter (6,000–8,000 BTU) และ RVs 25 ฟุต (12,000–14,000 BTU)"
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "ค่าติดตั้ง AC ที่จอดรถปี 2026: อัตราร้านค้าตามรัฐและการออม DIY",
+    "category": "คู่มือการซื้อ",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] ค่าติดตั้ง AC ที่จอดรถตามรัฐ: มืออาชีพ $400–$1,200, DIY $0–$150อัตราร้านค้าจริงจาก CA, TX, FL, NY รวมถึงรายละเอียดหน่วย แบตเตอรี่ สายไฟ และค่าแรงทั้งหมด"
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "การเปรียบเทียบสัญญาณรบกวน AC ขณะจอดรถ: ระดับ dB จริงทดสอบที่ 3 ฟุต (2026)",
+    "category": "การเปรียบเทียบ",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] เราวัดหน่วย AC สำหรับจอดรถ 12 เครื่องด้วยมิเตอร์ dB ที่ปรับเทียบแล้วที่ความสูง 3 ฟุตCoolDrivePro V-TH1 เสียงดังถึง 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBAตัวเลขจริง ไม่มีการตลาด"
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "การใช้พลังงาน AC ของรถบรรทุก: อธิบายวัตต์ แอมป์ และท่อระบายน้ำแบตเตอรี่ (2026)",
+    "category": "พลังงานและแบตเตอรี่",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] อธิบายการใช้พลังงาน AC ของรถบรรทุก: เฉลี่ย 480W, 9A ที่ 24V, 38–55Ah ต่อคืนตัวเลขจริง สูตรสำหรับปรับขนาดแบตเตอรี่ และวิธีที่คอมเพรสเซอร์อินเวอร์เตอร์ตัดได้ 30%"
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "เครื่องปรับอากาศ RV ใช้พลังงานจากแบตเตอรี่: คู่มือผู้ซื้อฉบับสมบูรณ์ปี 2026",
+    "category": "คู่มือการซื้อ",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "จัดทำคู่มือปี 2026 เกี่ยวกับเครื่องปรับอากาศ RV ที่ใช้แบตเตอรี่Native 12V/24V DC เทียบกับการตั้งค่าอินเวอร์เตอร์, ข้อมูลรันไทม์ LiFePO4 จริง (220Ah → 8–11 ชม.), ช่วงราคา $1,500–$3,800, คณิตศาสตร์ชดเชยพลังงานแสงอาทิตย์"
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "วิธีติดตั้ง AC ที่จอดรถ: คำแนะนำทีละขั้นตอนสำหรับปี 2026",
+    "category": "คู่มือการติดตั้ง",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "คำแนะนำทีละขั้นตอนปี 2026 ในการติดตั้ง AC ที่จอดรถ: การเตรียมหลังคา, คัตเอาต์ 14x14, ปะเก็น, สายไฟ (4 AWG, ฟิวส์ 80A), การทดสอบเดินเครื่อง6-9 ชั่วโมง DIY, 325 เหรียญสหรัฐในส่วนที่อยู่นอกเหนือหน่วย"
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 แบตเตอรี่สำหรับ AC ที่จอดรถ: คู่มือการกำหนดขนาดและการเดินสายไฟปี 2026",
+    "category": "คำแนะนำวิธีใช้",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "คู่มือการกำหนดขนาด LiFePO4 ปี 2026 สำหรับการจอดรถ AC: 220Ah ($1,400), 280Ah ($1,750), 400Ah ($2,400) พร้อมตัวเลือกรันไทม์ 8 ชั่วโมง, BMS/ฟิวส์/ข้อมูลจำเพาะของสายเคเบิล"
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "ที่จอดรถ AC ไม่เย็นใช่ไหม?คู่มือการแก้ไขปัญหาปี 2026 (ทีละขั้นตอน)",
+    "category": "การแก้ไขปัญหา",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "ปี 2026 คำแนะนำทีละขั้นตอนในการแก้ไข AC ที่จอดรถที่ไม่เย็นแรงดันไฟฟ้าตก สารทำความเย็น คอนเดนเซอร์สกปรก เทอร์โมสตัท BMS — วินิจฉัยภายใน 30 นาที ค่าซ่อม 0–280 ดอลลาร์"
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "ที่จอดรถ AC เทียบกับ APU: การเปรียบเทียบต้นทุนและประสิทธิภาพปี 2026 สำหรับกลุ่มยานพาหนะ",
+    "category": "บทวิจารณ์และการเปรียบเทียบ",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "คู่มือการตัดสินใจเกี่ยวกับยานพาหนะปี 2026: ที่จอดรถ AC เทียบกับ APUTCO 5 ปีพร้อมน้ำมันดีเซล $4.05 — DC เครื่องปรับอากาศขณะจอด ประหยัดเงิน $9,800–$14,200/รถบรรทุก เทียบกับดีเซล APU, $3,200–$5,400 เมื่อเทียบกับรอบเดินเบา"
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "เครื่องปรับอากาศที่จอดรถที่ดีที่สุดปี 2026: 9 อันดับสูงสุดเมื่อเปรียบเทียบ (รถบรรทุก RVs และรถตู้)",
+    "category": "คู่มือผู้ซื้อ",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "เครื่องปรับอากาศที่จอดรถที่ดีที่สุด 9 เครื่องที่ทดสอบในปี 2026: เครื่องปรับอากาศแบบเคียงข้างกัน BTU เสียง การดึง ราคา และประสิทธิภาพการใช้งานจริงสำหรับรถบรรทุกกึ่งรถบรรทุก RVs รถตู้แบบสปรินเตอร์ และยานพาหนะผู้ชนะเลือก..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "เครื่องปรับอากาศที่จอดรถสำหรับความชื้นชายฝั่งของอเล็กซานเดรีย: ต่อสู้กับความท้าทายด้านสภาพภูมิอากาศเมดิเตอร์เรเนียนของอียิปต์",
     "category": "การใช้งานยานพาหนะ",

@@ -1,5 +1,101 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC : comparaison côte à côte (2026)",
+    "category": "Comparaison",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 face-à-face : puissance de refroidissement, bruit, consommation d'énergie, complexité d'installation, garantie et coût de possession de 5 ans.Chiffres réels du terrain."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Systèmes de climatisation pour camions sans ralenti : comment se conformer aux lois nationales anti-ralenti (2026)",
+    "category": "Conformité",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Lois anti-ralenti État par État et comment se conformer à la climatisation des camions sans ralenti.CARB (amendes de 300 à 1 000 $), plus de 30 limites d'État, EPA SmartWay et les 5 systèmes qui répondent aux e..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Parking AC BTU Calculateur de dimensionnement : de combien de BTU avez-vous vraiment besoin ?(2026)",
+    "category": "Guide d'achat",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] De combien de BTU votre cabine couchette ou votre chambre RV a-t-elle besoin ?Formule étape par étape et tableaux pour les camions de classe 8 (5 000 à 10 000 BTU), les fourgonnettes Sprinter (6 000 à 8 000 BTU..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Coût d'installation de la climatisation de stationnement 2026 : tarifs des magasins par État et économies de bricolage",
+    "category": "Guide d'achat",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Coût d'installation de la climatisation de stationnement par État : 400 $ à 1 200 $ pour un professionnel, 0 $ à 150 $ pour le bricolage.Tarifs d'atelier réels de CA, TX, FL, NY, plus ventilation complète des c..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Comparaison du bruit de climatisation dans le stationnement : niveaux de dB réels testés à 3 pieds (2026)",
+    "category": "Comparaison",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Nous avons mesuré 12 unités AC de stationnement avec un dB-mètre calibré à 3 pieds.CoolDrivePro V-TH1 atteint 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.De vrais chiffres, pas de marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Consommation d'énergie CA des camions : explication des watts, des ampères et de la décharge de la batterie (2026)",
+    "category": "Alimentation et batterie",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Explication de la consommation électrique CA des camions : 480 W en moyenne, 9 A à 24V, 38 à 55 Ah par nuit.Des chiffres réels, des formules pour dimensionner votre batterie et la façon dont les compresseurs in..."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Climatiseur RV alimenté par batterie : Guide d'achat complet 2026",
+    "category": "Guides d'achat",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Guide complet 2026 des climatiseurs RV alimentés par batterie.Configurations natives 12V/24V DC par rapport à l'onduleur, données d'exécution réelles LiFePO4 (220 Ah → 8 à 11 heures), fourchettes de prix de 1 500 $ à..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Comment installer une climatisation de stationnement : guide étape par étape pour 2026",
+    "category": "Guides d'installation",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Guide étape par étape 2026 pour l'installation d'un climatiseur de stationnement : préparation du toit, découpe 14x14, joint, câblage (4 AWG, fusible 80A), mise en service.6 à 9 heures de bricolage, 325 $ en pièces au..."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Batterie pour stationnement AC : Guide de dimensionnement et de câblage 2026",
+    "category": "Guides pratiques",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "Guide des tailles 2026 LiFePO4 pour le stationnement AC : options 220 Ah (1 400 $), 280 Ah (1 750 $), 400 Ah (2 400 $) avec calcul d'autonomie de 8 heures, spécifications BMS/fusible/câble."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "La climatisation du parking ne refroidit pas ?Guide de dépannage 2026 (étape par étape)",
+    "category": "Dépannage",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "Guide étape par étape 2026 pour réparer une climatisation de stationnement qui ne refroidit pas.Chute de tension, réfrigérant, condenseur sale, thermostat, BMS — diagnostiquez en 30 minutes, réparations de 0 à 280 $."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC vs APU : comparaison des coûts et des performances des flottes en 2026",
+    "category": "Commentaires et comparaisons",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Guide de décision de flotte 2026 : stationnement AC vs APU.Coût total de possession sur 5 ans avec 4,05 $ de diesel — DC La climatisation de stationnement permet d'économiser 9 800 $ à 14 200 $/camion par rapport au d..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Meilleur climatiseur de stationnement 2026 : 9 meilleurs choix comparés (camions, RV et fourgonnettes)",
+    "category": "Guide de l'acheteur",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 meilleurs climatiseurs de stationnement testés pour 2026 : côte à côte BTU, bruit, tirage, prix et performances réelles pour les semi-remorques, les RV, les fourgonnettes sprinter et les flottes.Choix du gagnant par..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Climatisation des parkings pour l'humidité côtière d'Alexandrie : lutter contre les défis climatiques méditerranéens de l'Égypte",
     "category": "Applications de flotte",

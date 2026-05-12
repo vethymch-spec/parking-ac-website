@@ -1,5 +1,113 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: Side-by-Side Comparison (2026)",
+    "date": "2026-04-25",
+    "category": "Vertailu",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Dometic- ja Webasto-pysäköintiilmalaitteet rinnakkain vertailun vuoksi",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16: jäähdytysteho, melu, virrankulutus, asennuksen monimutkaisuus, takuu ja 5 vuoden omistuskustannukset.Reaalilukuja kentältä."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "No-Idle Truck AC Systems: Kuinka noudattaa valtion joutokäyntiä estäviä lakeja (2026)",
+    "date": "2026-04-25",
+    "category": "Vaatimustenmukaisuus",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "Akku-sähköinen joutokäyntiauton vaihtovirtajärjestelmä asennettu joutokäyntiä estämään",
+    "excerpt": "[2026] Osavaltiokohtaiset joutokäynnin estolainsäädäntö ja miten noudatetaan tyhjäkäyntiä kuorma-auton vaihtovirtaa.CARB (300–1 000 dollarin sakot), yli 30 osavaltion rajaa, EPA SmartWay ja viisi järjestelmää, jotka t..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Pysäköinti AC BTU Mitoituslaskin: Kuinka monta BTUs todella tarvitset?(2026)",
+    "date": "2026-04-25",
+    "category": "Ostoopas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU kokotaulukko vaihtovirtapysäköintiä varten kuorma-auton ohjaamon ja RV-kokoonpanojen välillä",
+    "excerpt": "[2026] Kuinka monta BTUs makuuohjaamosi tai RV makuuhuoneesi tarvitsee?Vaiheittainen kaava plus taulukot luokan 8 kuorma-autoille (5 000–10 000 BTU), Sprinter-pakettiautomille (6 000–8 000 BTU) ja 25 jalan __CDP_TERM_..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Pysäköinti-AC-asennuskustannukset 2026: Kauppahinnat osavaltioittain ja tee-se-itse-säästöt",
+    "date": "2026-04-25",
+    "category": "Ostoopas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "Ammattimainen pysäköinti-AC-asennus, joka näyttää kattoleikkauksen, johdotuksen ja akun integroinnin",
+    "excerpt": "[2026] Pysäköinti-AC:n asennuskustannukset osavaltioittain: 400–1200 dollaria ammattikäyttöön, 0–150 dollaria tee-se-itse.Todelliset kauppahinnat Kaliforniasta, TX:stä, FL:stä ja NY:stä sekä täydellinen erittely yksik..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Pysäköinti-AC-melun vertailu: todelliset dB-tasot testattu 3 jalan korkeudella (2026)",
+    "date": "2026-04-25",
+    "category": "Vertailu",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "Desibelimittari, joka mittaa pysäköinnin vaihtovirran melua 3 jalan etäisyydeltä makuuohjaamossa",
+    "excerpt": "[2026] Mittasimme 12 pysäköinti-AC-yksikköä kalibroidulla dB-mittarilla 3 jalan korkeudelta.CoolDrivePro V-TH1 saavutti 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Oikeita lukuja, ei markkinointia."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Kuorma-auton vaihtovirtavirrankulutus: wattia, ampeeria ja akun tyhjennys selitettynä (2026)",
+    "date": "2026-04-25",
+    "category": "Virta & Akku",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Kuorma-auton pysäköinti AC-virrankulutuksen valvonta shuntilla ja akkumonitorilla",
+    "excerpt": "[2026] Kuorma-auton vaihtovirtavirrankulutus: 480 W keskimäärin, 9 A 24V, 38–55 Ah per yö.Reaalilukuja, kaavoja akun kokoa varten ja kuinka invertterikompressorit leikkaavat vetoa 30 %."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Akkukäyttöinen RV Ilmastointilaite: Täydellinen 2026 ostajan opas",
+    "date": "2026-04-24",
+    "category": "Osto-oppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "Akkukäyttöinen RV-ilmastointilaite 2026 — Luokan B asuntoauton sisätilat yöllä katolla 12V DC Pysäköinti-AC LiFePO4 akkupankki, näyttö näyttää 220Ah:n kapasiteettia ja 95 tunnin käyttöaikaa.",
+    "excerpt": "Täydellinen vuoden 2026 opas akkukäyttöisistä RV-ilmastointilaitteista.Alkuperäinen 12V/24V DC vs. invertteriasetukset, todelliset LiFePO4 ajonaikaiset tiedot (220Ah → 8–11 h), 1500–3800 dollarin alennus hintaluokissa..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Pysäköinti-AC:n asentaminen: vaiheittainen opas vuodelle 2026",
+    "date": "2026-04-24",
+    "category": "Asennusoppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Pysäköintipaikan asentaminen AC 2026 — asentaja leikkaa 14 x 14 tuuman kattoaukon Sprinter-pakettiaukoon palapelillä CoolDrivePro VS02 PRO 12V DC yksiköllä, kaapelilla työnnetään ulos 4 kuorma-auton tiiviste, tiiviste",
+    "excerpt": "Askel askeleelta 2026 opas pysäköintiilmavirran asennukseen: katon esivalmistelu, 14x14 aukko, tiiviste, johdot (4 AWG, 80 A sulake), käyttöönotto.6–9 tuntia tee-se-itse, 325 dollaria laitteen ulkopuolella."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Akku pysäköintiin AC: 2026 Mitoitus- ja johdotusopas",
+    "date": "2026-04-24",
+    "category": "Käyttöoppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "LiFePO4 akku pysäköintiin AC 2026 — Sprinter-pakettiauton avoin akkutila, jossa on kaksi 220 Ah Battle Born LiFePO4 -akkua rinnakkain 2/0 AWG-kaapeleiden, 200A luokan T sulakkeen, virtakiskon ja Victron BMV-72%:n SOC4-näytön lukeman BMV-72.",
+    "excerpt": "2026 LiFePO4 kokoopas pysäköinnin AC: 220Ah ($1400), 280Ah ($1750), 400Ah ($2400) vaihtoehdot 8 tunnin ajonaikaisella matematiikalla, BMS/sulake/kaapelin tekniset tiedot."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Pysäköinti-ilmastointi ei jäähdytä?2026 vianmääritysopas (vaiheittaiset)",
+    "date": "2026-04-24",
+    "category": "Vianetsintä",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "Pysäköinti AC ei jäähdytys vianetsintä 2026 — kuljettaja puolikuorma-auton ratapölkkyssä, jossa yleismittari mittaa 12V DC pysäköinnin AC virtaliitin 11,4 V:lla, lämpömittarin lukema 78 °F tuloilma vs. 79 °F paluu, infrapunakuva, jossa lauhduttimen kuuma piste",
+    "excerpt": "Vuoden 2026 vaiheittainen opas pysäköinti-AC:n korjaamiseen, joka ei jäähdy.Jännitehäviö, kylmäaine, likainen lauhdutin, termostaatti, BMS – diagnoosi 30 minuutissa, 0–280 dollarin korjauksia."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Pysäköinti AC vs APU: 2026 kustannusten ja suoritusten vertailu kalustoille",
+    "date": "2026-04-24",
+    "category": "Arvostelut ja vertailut",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "Pysäköinti AC vs APU 2026 — rinnakkain vertailu Freightliner Cascadiasta akkukäyttöisellä DC pysäköinti-AC:lla verrattuna makuuvaunuun, jossa on RigMaster APU ja diesel-runkoon asennettu APU. ja polttoainepumpun näytössä 0 $/vuosi hinta 5-gal.peittokuva",
+    "excerpt": "Vuoden 2026 laivaston päätösopas: pysäköinti AC vs APU.Viiden vuoden TCO 4,05 dollarin dieselillä – DC pysäköinti-AC säästää 9 800–14 200 dollaria/kuorma-auto verrattuna dieseliin APU, 3 200–5 400 dollaria tyhjäkäynti..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Paras pysäköintiilmastointilaite 2026: 9 parasta valintaa verrattuna (kuorma-autot, RVs ja pakettiautot)",
+    "date": "2026-04-23",
+    "category": "Ostajan opas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "Paras pysäköintiilmastointilaite 2026 – valikoima katto- ja split-järjestelmäisiä DC pysäköinti-AC-yksiköitä, jotka on asennettu puolikuorma-autoon, RV ja pikajuoksuautoon kirkkaalla taivaalla",
+    "excerpt": "9 parasta vuodelle 2026 testattua pysäköintiilmastointilaitetta: vierekkäin BTU, melu, veto, hinta ja todellinen suorituskyky puolikuorma-autoille, RVs, pikajuoksuautoille ja kalustoille.Voittaja valitsee käyttötarkoi..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Pysäköinti-ilmastointi Aleksandrian rannikon kosteudelle: Egyptin Välimeren ilmastohaasteiden torjunta",
     "date": "2026-03-31",

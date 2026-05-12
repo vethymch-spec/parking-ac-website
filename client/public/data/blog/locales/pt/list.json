@@ -1,5 +1,101 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: comparação lado a lado (2026)",
+    "category": "Comparação",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 frente a frente: saída de resfriamento, ruído, consumo de energia, complexidade de instalação, garantia e custo de propriedade de 5 anos.Números reais do campo."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Sistemas AC para caminhões sem marcha lenta: como cumprir as leis estaduais anti-marcha lenta (2026)",
+    "category": "Conformidade",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Leis anti-marcha lenta estado por estado e como cumprir com AC para caminhões sem marcha lenta.CARB (multas de US$ 300 a US$ 1.000), mais de 30 limites estaduais, EPA SmartWay e os 5 sistemas que atendem aos re..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Calculadora de dimensionamento de estacionamento AC BTU: quantos BTUs você realmente precisa?(2026)",
+    "category": "Guia de compra",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] De quantos BTUs sua cabine leito ou quarto RV precisam?Fórmula passo a passo mais tabelas para caminhões Classe 8 (5.000–10.000 BTU), vans Sprinter (6.000–8.000 BTU) e RVs de 25 pés (12.000–14.000 BTU)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Custo de instalação de AC de estacionamento 2026: taxas de loja por estado e economia DIY",
+    "category": "Guia de compra",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Custo de instalação de AC de estacionamento por estado: $ 400–$ 1.200 profissional, $ 0– $ 150 DIY.Taxas reais de loja de CA, TX, FL, NY, além de detalhes completos de unidade, bateria, fiação e custos de mão d..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Comparação de ruído AC de estacionamento: níveis reais de dB testados a 3 pés (2026)",
+    "category": "Comparação",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Medimos 12 unidades de AC de estacionamento com um medidor de dB calibrado a 3 pés.CoolDrivePro V-TH1 atingiu 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Números reais, sem marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Consumo de energia CA do caminhão: explicação sobre watts, amperes e consumo de bateria (2026)",
+    "category": "Energia e bateria",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Explicação do consumo de energia CA do caminhão: média de 480 W, 9 A em 24V, 38–55 Ah por noite.Números reais, fórmulas para dimensionar sua bateria e como os compressores inverter cortam 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Ar condicionado alimentado por bateria RV: guia completo do comprador 2026",
+    "category": "Guias de compra",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Guia completo de 2026 para condicionadores de ar RV alimentados por bateria.Configurações nativas de 12V/24V DC vs inversor, dados reais de tempo de execução LiFePO4 (220Ah → 8–11 horas), faixas de preço de US$ 1.500..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Como instalar um AC de estacionamento: guia passo a passo para 2026",
+    "category": "Guias de instalação",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Guia passo a passo 2026 para instalar um AC de estacionamento: preparação do telhado, recorte 14x14, junta, fiação (fusível 4 AWG, 80A), comissionamento.6–9 horas DIY, US$ 325 em peças além da unidade."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Bateria para estacionamento AC: Guia de dimensionamento e fiação 2026",
+    "category": "Guias práticos",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 guia de dimensionamento para estacionamento AC: opções de 220Ah ($ 1.400), 280Ah ($ 1.750), 400Ah ($ 2.400) com matemática de tempo de execução de 8 horas, especificações de BMS/fusível/cabo."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Estacionamento AC não está esfriando?Guia de solução de problemas 2026 (passo a passo)",
+    "category": "Solução de problemas",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "Guia passo a passo de 2026 para consertar um AC de estacionamento que não esfria.Queda de tensão, refrigerante, condensador sujo, termostato, BMS – diagnóstico em 30 minutos, correções de US$ 0 a US$ 280."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Estacionamento AC vs APU: Comparação de custo e desempenho para frotas em 2026",
+    "category": "Críticas e comparações",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Guia de decisão da frota 2026: estacionamento AC vs APU.TCO de 5 anos com diesel de US$ 4,05 — DC estacionamento AC economiza US$ 9.800–US$ 14.200/caminhão versus diesel APU, US$ 3.200–US$ 5.400 versus marcha lenta."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Melhor ar condicionado para estacionamento 2026: 9 escolhas principais comparadas (caminhões, RVs e vans)",
+    "category": "Guia do comprador",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 melhores condicionadores de ar de estacionamento testados para 2026: BTU lado a lado, ruído, empate, preço e desempenho no mundo real para semi-caminhões, RVs, vans sprinter e frotas.O vencedor escolhe por caso de uso."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Ar condicionado de estacionamento para a umidade costeira de Alexandria: combatendo os desafios climáticos do Mediterrâneo no Egito",
     "category": "Aplicações de frota",

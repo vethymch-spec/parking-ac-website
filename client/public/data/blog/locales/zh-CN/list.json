@@ -1,5 +1,101 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "多美达与 Webasto Parking AC：并排比较（2026 年）",
+    "category": "比较",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] 多美达 RTX2000 与 Webasto Cool Top RTE 16 对比：冷却输出、噪音、功耗、安装复杂性、保修和 5 年拥有成本。来自现场的真实数字。"
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "无怠速卡车空调系统：如何遵守州反怠速法 (2026)",
+    "category": "合规性",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] 各州的反空转法律以及如何遵守无空转卡车 AC。CARB（300-1,000 美元罚款）、30 多个州限制、EPA SmartWay 以及满足 2026 年要求的 5 个系统。"
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "停车 AC BTU 尺寸计算器：您真正需要多少 BTU？(2026)",
+    "category": "购买指南",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] 您的卧铺驾驶室或 RV 卧室需要多少个 BTU？8 级卡车 (5,000–10,000 BTU)、Sprinter 货车 (6,000–8,000 BTU) 和 25 英尺 RV (12,000–14,000 BTU) 的分步公式和表格。"
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "2026 年驻车空调安装成本：按州划分的商店价格和 DIY 节省",
+    "category": "购买指南",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] 各州驻车空调安装成本：专业 400 美元至 1,200 美元，DIY 0 美元至 150 美元。来自加利福尼亚州、德克萨斯州、佛罗里达州、纽约州的真实商店价格，以及设备、电池、布线和劳动力成本的完整细分。"
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "停车交流噪声比较：在 3 英尺处测试的实际 dB 级别 (2026)",
+    "category": "比较",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] 我们使用经过校准的 dB 计在 3 英尺处测量了 12 个驻车空调装置。CoolDrivePro V-TH1 达到 42 dBA，多美达 RTX2000 48 dBA，RigMaster 67 dBA。真实的数字，没有营销。"
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "卡车交流功耗：瓦特、安培和电池消耗说明 (2026)",
+    "category": "电源及电池",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] 卡车交流功耗说明：平均 480W，24V 时 9A，每晚 38–55Ah。实数、电池容量计算公式以及变频压缩机如何减少 30% 的电量。"
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "电池供电 RV 空调：完整 2026 年买家指南",
+    "category": "购买指南",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "2026 年电池供电 RV 空调完整指南。原生 12V/24V DC 与逆变器设置、实际 LiFePO4 运行时间数据（220Ah → 8–11 小时）、1,500–3,800 美元价格范围、太阳能补偿数学。"
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "如何安装驻车空调：2026 年分步指南",
+    "category": "安装指南",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "2026 年驻车空调安装分步指南：屋顶准备、14x14 切口、垫圈、接线（4 AWG、80A 保险丝）、调试。6-9 小时 DIY，装置以外的零件 325 美元。"
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 停车交流电池：2026 尺寸和接线指南",
+    "category": "操作指南",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 驻车空调选型指南：220Ah（1,400 美元）、280Ah（1,750 美元）、400Ah（2,400 美元）选项，具有 8 小时运行时间计算、BMS/保险丝/电缆规格。"
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "驻车空调不制冷？2026 故障排除指南（分步）",
+    "category": "故障排除",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "2026 年修复驻车空调无法冷却的分步指南。电压下降、制冷剂、冷凝器脏污、恒温器、BMS — 30 分钟内诊断，修复费用为 0-280 美元。"
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC 与 APU：2026 年车队成本与性能比较",
+    "category": "评论与比较",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "2026 年车队决策指南：停车 AC 与 APU。柴油 4.05 美元的 5 年 TCO — DC 与柴油 APU 相比，驻车空调可节省 9,800–14,200 美元/卡车，与空转相比可节省 3,200–5,400 美元。"
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "2026 年最佳驻车空调：9 个最佳选择比较（卡车、RVs 和货车）",
+    "category": "买家指南",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "2026 年测试的 9 款最佳驻车空调：并排 BTU、噪音、抽风、价格以及半挂卡车、RV、短跑货车和车队的实际性能。获胜者根据用例进行选择。"
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "针对亚历山大沿海湿度的驻车空调：应对埃及的地中海气候挑战",
     "category": "车队应用",

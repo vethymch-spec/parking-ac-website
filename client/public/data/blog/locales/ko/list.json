@@ -1,5 +1,101 @@
 [
   {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: 나란히 비교(2026)",
+    "category": "비교",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 대 Webasto Cool Top RTE 16 정면 대결: 냉각 출력, 소음, 전력 소모, 설치 복잡성, 보증 및 5년 소유 비용.현장의 실수."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "공회전 없는 트럭 AC 시스템: 주 공회전 방지법(2026)을 준수하는 방법",
+    "category": "규정 준수",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] 주별 공회전 방지법 및 공회전 금지 트럭 AC 준수 방법.CARB($300~$1,000 벌금), 30개 이상의 주 제한, EPA SmartWay 및 2026년 요구 사항을 충족하는 5개 시스템."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "주차 AC BTU 크기 계산기: 실제로 몇 개의 BTU이 필요합니까?(2026)",
+    "category": "구매 가이드",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] 침대칸이나 RV 침실에는 몇 개의 BTU이 필요합니까?클래스 8 트럭(5,000~10,000 BTU), 스프린터 밴(6,000~8,000 BTU) 및 25피트 RV(12,000~14,000 BTU)에 대한 단계별 공식과 표."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "주차 AC 설치 비용 2026년: 주별 매장 요금 및 DIY 절감액",
+    "category": "구매 가이드",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] 주별 주차 AC 설치 비용: 전문가 $400~$1,200, DIY $0~$150.CA, TX, FL, NY의 실제 매장 가격과 장치, 배터리, 배선 및 인건비에 대한 전체 분석이 포함됩니다."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "주차 AC 소음 비교: 3피트에서 테스트된 실제 dB 수준(2026년)",
+    "category": "비교",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "우리는 3피트에서 보정된 dB 미터를 사용하여 12개의 주차 AC 장치를 측정했습니다.CoolDrivePro V-TH1 히트 42dBA, Dometic RTX2000 48dBA, RigMaster 67dBA.실제 숫자, 마케팅 없음."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "트럭 AC 전력 소비: 와트, 암페어 및 배터리 소모 설명(2026)",
+    "category": "전원 및 배터리",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] 트럭 AC 전력 소비 설명: 평균 480W, 24V에서 9A, 1박당 38~55Ah.실수, 배터리 크기 공식, 인버터 압축기의 절단 방식으로 인해 30%가 소모됩니다."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "배터리 구동식 RV 에어컨: 2026년 구매자 가이드 완료",
+    "category": "구매 가이드",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "배터리 구동식 RV 에어컨에 대한 2026년 전체 가이드.기본 12V/24V DC 대 인버터 설정, 실제 LiFePO4 런타임 데이터(220Ah → 8~11시간), $1,500~$3,800 가격대, 태양광 오프셋 수학."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "주차 AC 설치 방법: 2026년 단계별 가이드",
+    "category": "설치 가이드",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "주차 AC 설치에 대한 단계별 2026 가이드: 지붕 준비, 14x14 컷아웃, 개스킷, 배선(4 AWG, 80A 퓨즈), 시운전.6~9시간 DIY, 장치 이외의 부품 구입 시 $325."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 주차용 배터리 AC: 2026 크기 및 배선 가이드",
+    "category": "방법 가이드",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 주차 AC 크기 조정 가이드: 220Ah($1,400), 280Ah($1,750), 400Ah($2,400) 옵션(8시간 런타임 수학, BMS/퓨즈/케이블 사양 포함)."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "주차 AC가 냉각되지 않습니까?2026년 문제 해결 가이드(단계별)",
+    "category": "문제 해결",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "냉각되지 않는 주차 에어컨을 수리하기 위한 2026년 단계별 가이드입니다.전압 강하, 냉매, 더러운 콘덴서, 온도 조절기, BMS — 30분 내에 진단, $0~$280 수정."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "주차 AC 대 APU: 2026년 차량 비용 및 성능 비교",
+    "category": "리뷰 및 비교",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "2026년 차량 결정 가이드: 주차 AC 대 APU.디젤 $4.05의 5년 TCO — DC 주차 AC는 디젤 대비 트럭당 $9,800~$14,200를 절약합니다. APU, 공회전 대비 $3,200~$5,400."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "2026년 최고의 주차 에어컨: 9가지 최고 선택 비교(트럭, RVs 및 밴)",
+    "category": "구매자 가이드",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "2026년에 테스트된 최고의 주차 에어컨 9개: 병렬 BTU, 소음, 견인력, 가격 및 세미 트럭, RV, 스프린터 밴 및 차량에 대한 실제 성능.승자는 사용 사례별로 선택합니다."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "알렉산드리아 해안 습도를 위한 주차 에어컨: 이집트의 지중해 기후 문제에 맞서기",
     "category": "함대 애플리케이션",
