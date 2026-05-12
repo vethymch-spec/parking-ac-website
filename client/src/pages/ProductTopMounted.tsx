@@ -55,7 +55,7 @@ const vs02Faqs = [
   },
   {
     question: "How is the VS02 PRO installed on a truck or RV?",
-    answer: "The VS02 PRO mounts on the roof of the vehicle through a standard 14×14 inch roof cutout (same as most RV air conditioners). The installation requires basic tools and typically takes 2–4 hours. The unit includes all mounting hardware, a wiring harness, and a remote control. CoolDrivePro provides installation guides and video tutorials at cooldrivepro.com.",
+    answer: "The VS02 PRO mounts through a roof opening that must fall within the install template's approved range. A standard 14×14 inch RV opening usually falls inside that green install range, but smaller openings may need controlled enlargement and oversized openings may need an adapter plate. Installation typically takes 2–4 hours with basic tools.",
     category: "Installation",
   },
   {
@@ -97,7 +97,7 @@ const features = [
   "12,000 BTU cooling in one unit",
   "Whisper-quiet ≤45 dB brushless fan motor",
   "Undervoltage battery protection (auto cutoff at 11V)",
-  "Fits standard 14\" RV roof opening — no modification needed",
+  "Fits approved roof-opening range — standard 14\" RV openings usually qualify",
   "Pre-charged refrigerant lines — plug-and-play installation",
   "IP54-rated for dust and moisture resistance",
   "Works with lithium, AGM, or lead-acid battery banks",
@@ -468,7 +468,7 @@ export default function ProductTopMounted() {
             </h2>
             <div className="space-y-6">
               {[
-                { step: "1", title: "Prepare the Roof Opening", desc: "Locate or cut a 14\" (356mm) square opening in your RV roof or truck cab. Ensure the area is structurally sound and free of obstructions. Use the included template for precise marking." },
+                { step: "1", title: "Prepare the Roof Opening", desc: "Measure the existing roof opening against the included VS02 PRO template and confirm it sits inside the approved green install range. Smaller openings need controlled enlargement; oversized openings need an adapter plate or a different mounting plan." },
                 { step: "2", title: "Mount the Exterior Unit", desc: "Apply the included foam gasket seal around the roof opening. Lower the exterior unit through the opening and secure with the 4 mounting bolts. Torque to 25 Nm." },
                 { step: "3", title: "Install the Interior Cassette", desc: "Attach the interior ceiling cassette from below, connecting the refrigerant lines and power harness. The pre-charged lines require no additional refrigerant — simply connect and tighten." },
                 { step: "4", title: "Connect Power", desc: "Run the 12V or 24V DC power cable from your battery bank to the unit. Use minimum 10 AWG wire for 12V systems, 12 AWG for 24V. Install the included 30A inline fuse within 18\" of the battery." },

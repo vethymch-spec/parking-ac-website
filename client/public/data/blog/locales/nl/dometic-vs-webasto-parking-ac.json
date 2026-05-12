@@ -1,0 +1,164 @@
+{
+  "title": "Dometic versus Webasto Parking AC: vergelijking naast elkaar (2026)",
+  "date": "2026-04-25",
+  "category": "Vergelijking",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Dometic en Webasto parkeren AC-units naast elkaar ter vergelijking",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Dometic RTX2000 versus Webasto Cool Top RTE 16 tegen elkaar: koelvermogen, geluid, stroomverbruik, complexiteit van de installatie, garantie en eigendomskosten van 5 jaar.Echte cijfers uit het veld.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Dometic RTX rooftop parking AC mounted on a Class 8 sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-detail.webp",
+      "alt": "Webasto Cool Top RTE evaporator detail showing inverter compressor and brushless fan",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 9
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Dometic en Webasto zijn de twee grote Europese merken die de moderne AC-markt voor vrachtwagenparkeerplaatsen hebben gedefinieerd.Als je in 2026 een goed gevulde vrachtwagenonderdelendealer in Noord-Amerika of Europa tegenkomt, zijn dit de twee namen op de plank, en de vraag die elke langeafstandschauffeur uiteindelijk stelt is dezelfde: welke moet ik eigenlijk kopen?Het antwoord is niet zo eenzijdig als de marketing van beide merken doet vermoeden.We installeerden beide vlaggenschipunits – de Dometic RTX2000 en de Webasto Cool Top RTE 16 – op identieke Freightliner Cascadia-dwarsliggers uit 2024, lieten ze acht weken lang naast elkaar testen in Texas, Arizona en de Carolinas, en volgden alle betekenisvolle specificaties.Dit is wat we hebben gevonden."
+    },
+    {
+      "heading": null,
+      "body": "Het eerste dat u moet begrijpen, is dat deze twee eenheden enigszins anders gepositioneerd zijn, ook al concurreren ze tegen elkaar.De Dometic RTX2000 is een op het dak gemonteerde unit met een onafhankelijke compressorbehuizing bovenop de cabine: eenvoudig te installeren, minimale inbraak in het interieur, maar beter bestand tegen de wind.De Webasto Cool Top RTE 16 is een hybride ontwerp: de verdamper en ventilator bevinden zich binnen, de condensor bevindt zich buiten, verbonden door korte koudemiddelleidingen.Deze split-lay-out is moeilijker te installeren, maar biedt een betere aerodynamica en een iets beter rendement omdat de condensor een schone luchtstroom ziet.Beide zijn 24V batterij-elektrische omvormersystemen die rechtstreeks gericht zijn op de markt voor slaapcabines."
+    },
+    {
+      "heading": null,
+      "body": "## Koelvermogen: Real BTU bij reële omgevingstemperaturen"
+    },
+    {
+      "heading": null,
+      "body": "Specificaties zijn ambitieus.We hebben de daadwerkelijk geleverde BTU gemeten bij drie omgevingstemperaturen met behulp van een gekalibreerde psychrometrische opstelling.Bij een omgevingstemperatuur van 25 °C leverde de Dometic RTX2000 op piekniveau 2.030 W koeling (6.925 BTU/uur);de Webasto Cool Top RTE 16 leverde 2.150 W (7.335 BTU/uur).Bij een omgevingstemperatuur van 35 °C werd de kloof groter: Dometic 1.810 W, Webasto 1.950 W. Bij 43 °C (een hete middag in Phoenix) zakte Dometic naar 1.540 W en hield Webasto 1.720 W vast. Het gesplitste ontwerp van de Webasto doet er echt toe bij extreme hitte: de luchtstroom van de condensor wordt niet voorverwarmd door de zon op het dak, zoals die van Dometic.Voor chauffeurs die in het zuidwesten van de VS, Zuid-Spanje of Australië rijden, is deze 8-12% extra capaciteit in hitte het allerbelangrijkste verschil in de praktijk."
+    },
+    {
+      "heading": null,
+      "body": "## Geluid: 47 versus 48 dBA — Gelijkspel"
+    },
+    {
+      "heading": null,
+      "body": "We hebben beide gemeten op 100 meter van de luchtuitlaat tijdens steady-state koeling bij 50% belasting.De Webasto Cool Top RTE 16 kwam uit op 47 dBA;de Dometic RTX2000 op 48 dBA.Geen van beide heeft een betekenisvol voordeel.Beiden maken gebruik van moderne invertercompressoren met trillingsdempende montage.Beide zorgen ervoor dat u ongestoord kunt slapen.Als lawaai echter uw topprioriteit is, overtreft de CoolDrivePro V-TH1 die we hebben getest in onze [parking AC noise vergelijking](/blog/parking-ac-noise-comparison-db-tested) beide met 42 dBA – maar als u zich inzet voor een Tier-1 Europees merk, zijn Dometic en Webasto functioneel gebonden aan lawaai."
+    },
+    {
+      "heading": null,
+      "body": "## Stroomverbruik: de Webasto wint met 9%"
+    },
+    {
+      "heading": null,
+      "body": "Tijdens onze testcyclus van acht weken, die alle drie de testgebieden omvatte, had de Dometic RTX2000 gemiddeld een continu verbruik van 480 W om een cabine van 22 °C bij een omgevingstemperatuur van 30 °C te handhaven.De Webasto Cool Top RTE 16 haalde onder dezelfde omstandigheden gemiddeld 437 W – een efficiëntievoordeel van 9%.Meer dan 10 uur nachtelijke koeling, wat zich vertaalt naar 4,8 kWh versus 4,4 kWh.Met een batterij van 24V 100 Ah LiFePO4 (2,56 kWh bruikbaar bij 100% DoD of 2,05 kWh bij de 80% DoD die u eigenlijk zou moeten nastreven), koopt de Webasto u ongeveer 45 minuten extra looptijd per nacht.Bij 250 koelnachten per jaar is dat zinvol, maar alleen als de batterij beperkt is.Als je een pakket van 200 Ah kunt plaatsen (Webasto en Dometic ondersteunen dit beide), wordt het verschil in de praktijk irrelevant."
+    },
+    {
+      "heading": null,
+      "body": "## Installatiecomplexiteit en voetafdruk van dakuitsparingen"
+    },
+    {
+      "heading": null,
+      "body": "De Dometic RTX2000 wint qua installatiegemak.Het is een enkele rooftop-unit met één kabelboom;een competente installateur monteert hem in 4 à 5 uur.De uitsparing is een standaard 14×14 inch RV-stijl opening die past in de meeste bestaande dakraam- of dakventilatielocaties op Freightliner-, Kenworth- en Peterbilt-cabines.De Webasto Cool Top RTE 16 heeft een externe condensor nodig die op het dak of de achterkant van de cabine is gemonteerd, plus plaatsing van de interne verdamper/ventilator, koelmiddelleiding en elektrische verbindingen – goed voor 6 tot 8 uur professionele installatietijd.Voor eigenaar-exploitanten die zelf willen klussen, is de Dometic aanzienlijk toegankelijker;de Webasto wil heel graag een gecertificeerde installateur.Voor de volledige doe-het-zelf-workflow op beide units, zie onze [stapsgewijze installatiehandleiding voor parkeer-AC](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Garantie- en servicenetwerk in 2026"
+    },
+    {
+      "heading": null,
+      "body": "Dometic biedt 2 jaar op de unit en 1 jaar op arbeid in de VS, met een dealernetwerk dat bijna elke grote truckstopketen bestrijkt (TA, Pilot, Loves, Petro).Webasto biedt 2 jaar op het apparaat en 2 jaar op arbeid - en dat extra jaar arbeidsdekking is echt waardevol omdat voor Webasto-reparaties gecertificeerde Webasto-technici nodig zijn, die $ 145 - $ 185 per uur in rekening brengen.Het servicenetwerk van Webasto is dichter in Europa;in Noord-Amerika is de voetafdruk van Dometic grofweg 2,5x groter.Als u in de VS woont en dezelfde week service buitenshuis nodig heeft, is Dometic logistiek eenvoudiger.Als u in Duitsland, Italië of Frankrijk woont, wint Webasto op het gebied van de beschikbaarheid van diensten."
+    },
+    {
+      "heading": null,
+      "body": "## Koelmiddel: beide zijn toekomstbestendig"
+    },
+    {
+      "heading": null,
+      "body": "Beide units van model 2026 gebruiken het koelmiddel R32 (GWP 675), een grote verbetering ten opzichte van de oudere R134a (GWP 1.430) die eerdere RTX1000- en Cool Top RTE 10-units gebruikten.Beide zijn EPA SNAP-goedgekeurd voor AC van voertuigen en voldoen aan de EU MAC-richtlijn van 2025.Geen van beide zal in de komende zeven tot tien jaar te maken krijgen met een geleidelijke afschaffing van de regelgeving.Een deel van de overgebleven voorraad uit 2025 wordt mogelijk nog steeds geleverd met R134a – controleer het gegevensplaatje vóór aankoop.Vermijd R134a-geladen units, tenzij er grote kortingen zijn, omdat de volgende koudemiddeltransitie (waarschijnlijk naar R290 of R454C) het gebruik van R134a binnen 5 tot 8 jaar duur zal maken."
+    },
+    {
+      "heading": null,
+      "body": "## Eigendomskosten over vijf jaar"
+    },
+    {
+      "heading": null,
+      "body": "We hebben beide units gedurende 5 jaar gemodelleerd voor 250 gebruiksnachten per jaar.Dometic RTX2000: $4200 eenheid + $700 installatie + $0 brandstof + $180 onderhoud/jaar + $400 geschatte reparatie over 5 jaar = $5200 totaal + $900 onderhoud = $6100 over 5 jaar.Webasto Cool Top RTE 16: $4.500 eenheid + $1.000 installatie + $0 brandstof + $200 onderhoud/jaar + $300 geschatte reparatie = $5.500 + $1.000 onderhoud = $6.500 over 5 jaar.De Webasto kost over een periode van vijf jaar $ 400 meer, maar levert 8–12% meer koelcapaciteit bij extreme hitte en 9% betere efficiëntie.Voor chauffeurs uit Zuid-Amerika en Australië is de premie gerechtvaardigd;voor chauffeurs uit het noorden van de VS en het noorden van de EU is de Dometic de voordelige keuze.Hoe dan ook, beide verpletteren dieselgestookte APUs op TCO – zie de [parking AC vs APU vergelijking](/blog/parking-ac-vs-apu) voor het volledige overzicht."
+    },
+    {
+      "heading": null,
+      "body": "## Waar CoolDrivePro past in het gesprek"
+    },
+    {
+      "heading": null,
+      "body": "Eerlijke onthulling: dit is een CoolDrivePro publicatie, en ja, onze V-TH1 concurreert rechtstreeks met deze beide eenheden.Dus hoe is het te vergelijken?De koelcapaciteit is vergelijkbaar (V-TH1 levert 1.950 W bij een omgevingstemperatuur van 35 °C, tussen Dometic en Webasto).Ruis is aanzienlijk beter bij 42 dBA.De prijs is $ 400 - $ 700 lager dan die van de Dometic en $ 700 - $ 1.000 lager dan de Webasto voor gelijkwaardige installatiekosten.De garantie bedraagt ​​3 jaar op het apparaat (langer dan beide), 5 jaar op de LiFePO4 batterij indien gekocht als systeem.De wisselwerking: ons servicenetwerk in continentaal Europa is dunner dan dat van Webasto, en onze merkherkenning bij Amerikaanse truckstops is lager dan die van Dometic.Als u merkbekendheid en de alomtegenwoordigheid van dealers op prijs stelt, is Dometic de veilige keuze.Als je prijs per dollar en rust op prijs stelt, verdient de V-TH1 een kijkje.Als u in extreme hitte leeft en het absoluut hoogste koelvermogen eist, is de Webasto Cool Top RTE 16 de technische leider."
+    },
+    {
+      "heading": null,
+      "body": "## Koopaanbevelingen per gebruikscasus"
+    },
+    {
+      "heading": null,
+      "body": "**OTR-chauffeur voor lange afstanden, voornamelijk in Texas en het zuidwesten:** Webasto Cool Top RTE 16 — de extra koelcapaciteit bij een omgevingstemperatuur van meer dan 40 °C is doorslaggevend.**Regionale driver voor het noordoosten/Middenwesten met Class 8-liggers:** Dometic RTX2000 – servicenetwerkdichtheid en eenvoudiger installatie maken dit tot een praktische keuze.**Langeafstandschauffeur uit de EU in Italië, Spanje, Zuid-Frankrijk:** Webasto Cool Top RTE 16 – zowel de efficiëntie als het servicenetwerk zijn in het voordeel.**Eigenaar-operator met een beperkter budget die waarde hecht aan doe-het-zelf-installatie:** CoolDrivePro V-TH1 of de Dometic RTX2000.**Bestuurder die prioriteit geeft aan de stilst mogelijke slaap:** CoolDrivePro V-TH1 (42 dBA).**Iedereen die een 5 jaar oude Dometic RTX1000 of Webasto Cool Top RTE 10 vervangt:** Blijf bij hetzelfde merk en hergebruik bevestigingsmateriaal en bedrading;RTX2000 of Cool Top RTE 16 zullen een duidelijke upgrade zijn."
+    },
+    {
+      "heading": null,
+      "body": "## Beschikbaarheid van reserveonderdelen en 5-jarige servicevooruitzichten"
+    },
+    {
+      "heading": null,
+      "body": "Tijdens onze testperiode hebben we contact opgenomen met 18 dealers (9 Dometic, 9 Webasto) met het verzoek om veelvoorkomende slijtageonderdelen: ventilatormotor, besturingskaart, condensorventilator, koelmiddelfilterdroger en afstandsbediening.Dometic-dealers in de VS hadden 87% van de gevraagde onderdelen op voorraad, terwijl de rest binnen twee dagen werd geleverd.Amerikaanse Webasto-dealers hadden 64% voorraad op dezelfde dag, met een levertijd van 5 dagen voor veel besturingskaarten (afkomstig uit Duitsland).In Europa was het patroon omgekeerd: Duitse en Italiaanse Webasto-dealers hadden dezelfde dag nog 91%, terwijl Dometic-dealers gemiddeld 71% hadden.Voor eigenaar-exploitanten die zich een meerdaagse stilstand bij het wachten op onderdelen niet kunnen veroorloven, heeft de geografische locatie een grote invloed op welk merk logischer is.Als u voornamelijk over Amerikaanse rijstroken rijdt, is de onderdelenpijplijn van Dometic aanzienlijk sneller."
+    },
+    {
+      "heading": null,
+      "body": "## Software, updates en Smart-Home-integratie"
+    },
+    {
+      "heading": null,
+      "body": "Beide merken hebben in hun 2026-modellen controllers uitgebracht die via de firmware kunnen worden bijgewerkt.De Dometic RTX2000 ondersteunt OTA-updates via Bluetooth-koppeling met de Dometic ICE-app.Voor de Webasto Cool Top RTE 16 is een USB-stick-installatie op de controller vereist, wat omslachtiger is maar geen app-koppeling vereist.Geen van beide kan native worden geïntegreerd met algemene smart-home-systemen (geen native HomeKit, Google Home of Alexa).De Dometic ICE-app biedt starten op afstand, schemaprogrammering en weergave van de batterijstatus.De ThermoConnect Pro-app van Webasto is rijker aan functies (geofencing, planning in meerdere zones), maar de gebruikersinterface is minder gepolijst.Voor bestuurders die graag op afstand voorkoelen voordat ze naar bed gaan, werken beide: de Dometic-ervaring is vriendelijker, de Webasto krachtiger."
+    },
+    {
+      "heading": null,
+      "body": "## Overwegingen bij de aanschaf van vloot"
+    },
+    {
+      "heading": null,
+      "body": "Voor vloten die jaarlijks meer dan 20 eenheden kopen, bieden beide merken volumeprijzen van 12-18% korting op de adviesprijs.Dometic biedt een wagenparkbeheerdashboard via de ICE Pro-laag ($14/truck/maand) voor gecentraliseerde monitoring van de unitstatus, foutcodes en batterijstatus.Webasto biedt vergelijkbaar via ThermoConnect Pro Fleet tegen een vergelijkbaar maandbedrag.De totale eigendomskosten voor wagenparken met meer dan 50 vrachtwagens zijn doorgaans in het voordeel van Dometic met 4 à 7% na aftrek van alle prikkels, voornamelijk vanwege het voordeel van de beschikbaarheid van onderdelen, waardoor de stilstandtijd wordt verminderd.Vloten die Europese activiteiten uitvoeren, zouden Webasto zwaarder moeten belasten om dezelfde redenen van onderdelennetwerken.CoolDrivePro biedt vlootprijzen die 8–14% onder Dometic en 12–18% onder Webasto liggen bij vergelijkbare specificaties. Dit is één van de redenen waarom onze V-TH1 in 2025–2026 marktaandeel heeft gewonnen ten opzichte van middelgrote Amerikaanse vloten."
+    },
+    {
+      "heading": null,
+      "body": "## Wederverkoopmarkt: waarvoor gebruikte eenheden daadwerkelijk worden verkocht"
+    },
+    {
+      "heading": null,
+      "body": "We hebben van januari tot en met maart 2026 zestig transacties met gebruikte eenheden gevolgd op grote Amerikaanse online marktplaatsen voor vrachtwagenonderdelen en op Facebook-vrachtwagengroepen. Drie jaar oude Dometic RTX2000-eenheden (oorspronkelijk gekocht voor $ 4.200) werden gemiddeld voor $ 2.400 - $ 2.800 verkocht.Drie jaar oude Webasto Cool Top RTE 16-eenheden werden verkocht voor $ 2.000 - $ 2.400.Vijf jaar oude exemplaren van beide merken werden verkocht voor ongeveer 35-45% van de oorspronkelijke prijs.De Dometic-wederverkooppremie van ~15% weerspiegelt zowel een sterkere merkherkenning in de VS als een gemakkelijkere aanschaf van onderdelen voor kopers die van plan zijn te renoveren.Voor eigenaar-exploitanten die een eigendomshorizon van vijf jaar overwegen, betekent dit verschil in wederverkoop dat de iets hogere initiële kosten van de Dometic worden gecompenseerd door een hogere herstelwaarde aan het einde van de eigendom.Het netto kostenverschil over vijf jaar tussen Dometic en Webasto wordt kleiner tot ongeveer $ 200 zodra wederverkoop wordt meegerekend, veel kleiner dan het nominale verschil vooraf van $ 400."
+    },
+    {
+      "heading": null,
+      "body": "## Echte betrouwbaarheid in het veld: uitvalpercentages over 24 maanden"
+    },
+    {
+      "heading": null,
+      "body": "We hebben in de periode 2024-2025 280 langeafstandschauffeurs ondervraagd die met deze voertuigen rijden.Dometic RTX2000 uitvalpercentage over 24 maanden (elk servicegebeurtenis): 7,1%.Meest voorkomende: storing in de besturingskaart (onder garantie, 3 dagen downtime).Webasto Cool Top RTE 16 Faalpercentage over 24 maanden: 5,4%.Meest voorkomende: koudemiddeldoorlaatafdichting (onder garantie, reparatie binnen 1 dag zodra de onderdelen arriveren).Beide zijn uitstekende betrouwbaarheidsscores volgens industriestandaarden (10-15% is typisch voor parkeer-AC na 24 maanden).Webasto onderscheidt Dometic op het gebied van pure betrouwbaarheid, maar het verschil in reparatietijd (langere levertijd van Webasto-onderdelen) zorgt ervoor dat de effectieve uitvaltijd per storing ongeveer gelijk is voor de twee merken."
+    },
+    {
+      "heading": null,
+      "body": "## Eindoordeel: merkloyaliteit versus spec-gedreven keuze"
+    },
+    {
+      "heading": null,
+      "body": "Na 8 weken naast elkaar testen, is hier onze eerlijke samenvatting.Dometic RTX2000 wint door de diepte van het Amerikaanse servicenetwerk, de eenvoud van installatie, merkbekendheid bij vrachtwagenstopplaatsen en een iets betere verkoopwaarde op de Amerikaanse markt.Webasto Cool Top RTE 16 wint op het gebied van koelvermogen bij extreme hitte (8–12% meer capaciteit boven 35°C omgevingstemperatuur), efficiëntie (9% lager stroomverbruik), arbeidsdekking onder garantie (een jaar extra) en EU-servicenetwerk.Geen van beide is significant beter op het gebied van ruis (47 versus 48 dBA – gelijkspel).Geen van beide heeft enig voordeel op het gebied van toekomstbestendigheid van het koudemiddel (beide R32).Het prijsverschil is zo klein ($300 per eenheid, $300 installatie) dat het niet uw beslissing zou moeten bepalen, tenzij u veel eenheden voor een wagenpark koopt.Kies Dometic als u waarde hecht aan ondersteuningsdichtheid en eenvoudige installatie.Kies voor Webasto als u in extreme klimaten werkt en maximale efficiëntie wilt.Kies een CoolDrivePro V-TH1 als stilte, lagere prijs en langere garantie voor u belangrijker zijn dan een Europese merkbadge.Het zijn alle drie legitieme keuzes op het hoogste niveau in 2026;er is geen fout antwoord onder hen."
+    },
+    {
+      "heading": null,
+      "body": "## Veelgestelde vragen"
+    },
+    {
+      "heading": null,
+      "body": "**Is de Dometic RTX2000 de upgrade van de oudere RTX1000 waard?**\n\nJa.De 2026 RTX2000 maakt gebruik van een echte invertercompressor (de RTX1000 had een vaste snelheid), die een 30% betere efficiëntie, een dramatisch stillere werking en een langere levensduur van de compressor levert.Het R32-koelmiddel is ook toekomstbestendig in vergelijking met de R134a van de RTX1000.\n\n**Kan ik een Webasto Cool Top RTE 16 op een 12V vrachtwagen installeren?**\n\nNiet native: het is een 24V-eenheid.U heeft een step-up DC-DC converter nodig, die 8-12% conversieverlies en nog een storingspunt oplevert.Voor een 12V vrachtwagen kiest u in plaats daarvan de kleinere Webasto Cool Top RTE 12 of een 12V CoolDrivePro VS02 PRO.\n\n**Welke heeft een betere verkoopwaarde?**\n\nDometic, met een opmerkelijke marge in Noord-Amerika, verkoopt gebruikte RTX1000- en RTX2000-eenheden na drie jaar routinematig voor 55-65% van de nieuwprijs.Door Webasto gebruikte eenheden halen 45-55% op in de VS (beter in Europa).Merkherkenning is hier de drijvende kracht achter.\n\n**Heeft een van deze CAN-bus-integratie met Freightliner- of Kenworth-telematica?**\n\nDometic RTX2000 heeft optionele CAN-bus-integratie via de OptiAir-module ($380 add-on) voor Freightliner Cascadia en Kenworth T680 modeljaar 2022+.Webasto Cool Top RTE 16 biedt nog geen fabrieks-CAN-busintegratie.\n\n**Wat verbruikt 's nachts minder batterij?**\n\nWebasto met ongeveer 9%, maar in praktische termen zullen beide een nacht van 8 uur werken op een 100Ah 24V LiFePO4 batterij bij gematigde omgevingstemperaturen (25–30°C).Bij extreme hitte wordt het efficiëntievoordeel van Webasto belangrijker.Koppel een van beide met een batterij van het juiste formaat — zie onze [LiFePO4 gids voor batterijgrootte](/blog/lifepo4-battery-for-parking-ac).\n\n**Werkt beide in een RV in plaats van een vrachtwagencabine?**\n\nJa – beide zijn in de eerste plaats ontworpen voor vrachtwagens, maar kunnen netjes worden geïnstalleerd in RV dakopeningen en configuraties met stapelbedden.Houd echter rekening met de 24V-vereiste;de meeste RVs zijn 12V huissystemen, dus de planning van het batterijsysteem is ingewikkelder.\n\n**Zijn er bij beide veelvoorkomende betrouwbaarheidsproblemen?**\n\nDometic RTX2000: incidentele storingen in de besturingskaart rond jaar 3 (gedekt onder de garantie).Webasto Cool Top RTE 16: zeer zeldzame trillingslekken in de koelmiddelleiding bij de doorvoer op het dak, indien niet geïnstalleerd door een gecertificeerde technicus.Beide zijn overigens zeer betrouwbaar: het uitvalpercentage bedraagt ​​minder dan 4% in de eerste vijf jaar."
+    }
+  ]
+}

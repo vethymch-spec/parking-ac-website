@@ -1,0 +1,156 @@
+{
+  "title": "Boşta Kalmayan Kamyon Klima Sistemleri: Devletin Rölantiyi Önleme Yasalarına Nasıl Uyulur (2026)",
+  "date": "2026-04-25",
+  "category": "Uyumluluk",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+  "imageAlt": "Rölantide çalışmama uyumluluğu için akülü, boşta çalışmayan kamyon AC sistemi kuruldu",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Eyalet bazında rölantiyi önleme yasaları ve rölantide olmayan kamyon AC'sine nasıl uyulacağı.CARB (300$–1.000$ para cezası), 30'dan fazla eyalet sınırı, EPA SmartWay ve 2026 gerekliliklerini karşılayan 5 sistem.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac_56794866.webp",
+      "alt": "Class 8 truck parked with no-idle battery-electric AC system providing cab climate control",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Installation of no-idle compliant battery system for truck cab cooling",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Rölanti karşıtı yasalar artık önemsiz bir konu değil.Nisan 2026 itibarıyla, 30'dan fazla ABD eyaleti, Columbia Bölgesi ve sayıları giderek artan belediyeler, ağır hizmet kamyonlarına rölanti limitleri uyguluyor.Kaliforniya'da kurumsal suçları tekrarlayanlar için para cezaları 150 dolardan başlıyor ve 25.000 dolara çıkıyor.EPA, yalnızca ABD kamyon taşımacılığı sektöründe yılda 1 milyar galondan fazla dizel ve 11 milyon ton CO2 atıl durumda olduğunu tahmin ediyor ve düzenleyiciler, yalnızca daha katı yasalarla değil, daha sıkı yaptırımlarla yanıt veriyor.Eğer bir işletme sahibi veya filo yöneticisiyseniz, 2026'daki soru, boşta olmayan bir çözüme geçip geçmemek değil, hangisini seçeceğinizdir.Bu kılavuz, düzenleme ortamını, uyumlu teknoloji seçeneklerini ve gerçek dünyadaki maliyet-fayda analizini ayrıntılı olarak ele almaktadır."
+    },
+    {
+      "heading": null,
+      "body": "'Rölantide olmayan kamyon kliması', kamyonun ana dizel motorunu çalıştırmadan kabin iklim kontrolü sağlayan herhangi bir sistemdir.Üç kategori uygundur: akülü elektrikli park kliması (en temiz ve en sessiz), dizel yakıtlı park ısıtıcıları ve klimalar (önceden daha düşük maliyet, yine de emisyon üretir ancak çok daha az yakıt yaktıkları için çoğu rölanti yasasından muaftır) ve yalnızca kıyı gücüyle çalışan sistemler (sıfır emisyon ancak elektrikli park alanlı kamyon duraklarıyla sınırlıdır).Yardımcı Güç Üniteleri (APUs) sınırda bir durumdur; ana motorun rölantide çalışmasının yerini aldıkları için genellikle 'rölantisiz' olarak nitelendirilirler, ancak Kaliforniya ve diğer bazı eyaletler artık CARB kuralları kapsamında APUs emisyon standartlarını kendileri için uygulamaktadır."
+    },
+    {
+      "heading": null,
+      "body": "## 2026'da Bilmeniz Gereken Başlıca Eyalet Kanunları"
+    },
+    {
+      "heading": null,
+      "body": "**Kaliforniya (CARB):** En katı.5 dakikalık boşta kalma sınırı eyalet çapında geçerlidir;2008+ kamyonların APU emisyon sertifikasına veya akülü elektrik sistemine ihtiyacı vardır.Para cezaları: 300 $ ilk suç, 1.000 $ tekrar, artı günlük 25.000 $ kurumsal teşhir.Uygulama tüm büyük limanlarda ve tartım istasyonlarında aktiftir.**New York:** Eyalet genelinde 5 dakika sınırı, New York'ta 3 dakika sınırı.260-2.400$ arası para cezaları.New York'un beş ilçesinde agresif bir şekilde uygulandı.**Massachusetts:** 5 dakika sınırı.Tekrarlanan para cezalarında 25.000 dolara kadar.**New Jersey:** 3 dakikalık boşta kalma sınırı (en katı sınırlardan biri).250-1.000$ arası para cezaları.**Washington ve Oregon:** 5 dakikalık sınırlar.Kuzeybatı Pasifik yaptırımları artıyor.**Texas:** Eyalet çapında sınırlama yoktur, ancak Houston, Dallas-Fort Worth, El Paso ve Austin'de belediyeye ait 5 dakikalık sınırlamalar vardır.**Illinois:** Çoğu dizel kamyonda 10 dakika sınırı.**Maryland, Virginia, DC:** DC metropol alanında koordineli 5 dakikalık sınırlar.**Florida:** Eyalet çapında bir sınırlama yok, ancak Miami-Dade 500 dolar para cezasıyla 5 dakika kuralı uyguluyor.**Colorado:** 5 dakika sınırı, 700 dolara kadar para cezası.2026 itibarıyla anlamlı bir yaptırımı olmayan tek eyaletler Wyoming, Kuzey Dakota, Güney Dakota, Mississippi ve Alabama'dır ve bu liste her geçen yıl daralmaktadır."
+    },
+    {
+      "heading": null,
+      "body": "## En Yaygın Muafiyetler (Ve Tuzaklar)"
+    },
+    {
+      "heading": null,
+      "body": "Çoğu eyalet kanunu aşağıdaki durumlar için rölantiden muaftır: aşırı soğuk (0°F veya bazen 32°F'ın altında), aşırı sıcaklık (eyalete bağlı olarak 80°F veya 90°F'nin üzerinde), DOT'nin gerektirdiği dinlenme süresi (Kaliforniya'da bu battaniye değil, koşulludur) ve aktif yükleme/boşaltma.Tuzak: icra memurlarının ateş konusunda sizin sözünüze güvenmesi gerekmez.Alıntı sırasında yerel NWS okumasını kontrol ediyorlar.'Sıcak olduğu' için 75°F'ta boşta duruyorsanız para cezasına çarptırılırsınız.Ayrıca, bazı eyaletler (CA, NJ, NY), eğer kamyonunuz boşta olmayan bir alternatifle donatılmışsa (şu anda çoğu modern kamyonda olduğu gibi) ısı muafiyetini tamamen kaldırmıştır.Bir park klimasına sahip olmak ve onu kullanmamak size geçiş izni vermez."
+    },
+    {
+      "heading": null,
+      "body": "## Pil-Elektrik: En Temiz Uyumluluk Yolu"
+    },
+    {
+      "heading": null,
+      "body": "Pilli elektrikli park klima sistemi (CoolDrivePro V-TH1 + 200Ah 24V LiFePO4 pil + 50A DC-DC şarj cihazını düşünün) sıfır kenar durumlarıyla her eyaletin boşta kalmama kurallarına uygundur.Sıfır emisyon, sıfır gürültü endişesi, sıfır izin sorunu.Peşin maliyet: 4.500 ABD Doları – 6.500 ABD Doları kurulu.Yıllık işletme maliyeti: Aküyü yeniden şarj etmek için ilave alternatörle çalıştırılan yakıtta yaklaşık 700 dolar.250 gece × 10 saat × 3,95 USD/gal × 0,9 gal/saat = 8.887 USD/yıl boşta çalışmayla karşılaştırın.Net tasarruf: 8.150$/yıl.Birincil OTR rotalarını işleten bir işletme sahibi için 7-9 ayda geri ödeme.Filolar için matematik daha da iyi hale gelir çünkü aynı zamanda CARB uyumluluğu raporlama masraflarından ve boşta kalmayla ilgili garanti sorunlarından da kurtulursunuz.Elmalar arası maliyet dökümü için [park kliması ile APU karşılaştırmamızın](/blog/parking-ac-vs-apu) tamamına bakın."
+    },
+    {
+      "heading": null,
+      "body": "## Dizel Yakıtlı Park Kliması: Orta Yol"
+    },
+    {
+      "heading": null,
+      "body": "Webasto Cool Top RTE 16 (dizel yakıtlı güçlendirici ile yapılandırıldığında) ve Eberspächer Airtronic Cool sistemleri kamyonun ana dizel deposunu 0,05-0,10 gal/saat oranında yakar.Minimum emisyon üretirler (ana motorun çok altında), mütevazı gürültü yaparlar (45-55 dBA) ve 50 eyaletin tamamında rölantide çalışmama muafiyetinden yararlanmaya hak kazanırlar.Ön maliyet, tam akülü sistemlerden daha düşüktür (kurulu sistem 2.500 ila 4.000 ABD Doları).İşletme maliyeti aküden daha yüksektir (dizelde yaklaşık 1.200 $/yıl) ancak yine de tam motor rölantide çalışma maliyetinin %15'inin altındadır.Ön akü sistemini almaya gücü yetmeyen işletme sahipleri için dizel yakıtlı yakıt savunulabilir bir uzlaşmadır.Dezavantajı: gürültü, emisyonlar ve zaman içinde küçük bir yardımcı yakıt sisteminin bakımını yapma ihtiyacı."
+    },
+    {
+      "heading": null,
+      "body": "## APUs: Çoğunlukla Uyumlu, CARB Yıldız İşaretleriyle"
+    },
+    {
+      "heading": null,
+      "body": "Carrier ComfortPro veya RigMaster MTS-T4 gibi Yardımcı Güç Üniteleri, AC, ısıtıcı ve invertör yüklerine güç sağlamak için sürekli olarak küçük (15-20 hp) bir dizel motoru çalıştırır.Bunlar, 2005-2018 yılları arasında boşta kalmayan baskın çözümdü.Hâlâ çalışıyorlar; 49 eyalette rölanti kanunundan muafiyete hak kazanıyorlar çünkü saatte 500 hp'lik bir ana motora göre çok daha düşük emisyona sahipler.**Kaliforniya yıldız işaretidir.** 2008'den bu yana CARB, Tier 4 emisyon standardını karşılamak için APUs gerektirir; 2024 güncellemesi, daha yeni kurulumlarda DPF (dizel partikül filtresi) gerektirir.Hizmette olan eski APU'lerin çoğu bu uyumluluğa sahip değil ve Kaliforniya'da bir tane çalıştırmak, ünite teknik olarak 'boşta kalmayan' bir cihaz olmasına rağmen para cezası riski taşıyor.APU'ler gürültü konusunda da zemin kaybediyor: ranzadaki 60-67 dBA'ları, pilli-elektrikli alternatiflere kıyasla giderek daha fazla standart altı olarak değerlendiriliyor."
+    },
+    {
+      "heading": null,
+      "body": "## 2026 Uyumlu Beş Sistem Karşılaştırıldı"
+    },
+    {
+      "heading": null,
+      "body": "**1.CoolDrivePro V-TH1 + 200Ah 24V LiFePO4 akü sistemi** — Akü-elektrik.5.200$ yüklü.42 dBA.Sıfır emisyon.50 eyaletin tamamında ve AB'de uyumludur.Şunlar için idealdir: TCO'ya öncelik veren sahip-operatörler ve filolar.**2.Dometic RTX2000 + 200Ah pil** — Pilli-elektrikli.5.500$ yüklü.48 dBA.Sıfır emisyon.Her yerde uyumlu.Şunlar için idealdir: Tier-1 marka bilinirliğine ve ABD bayi yoğunluğuna değer veren sürücüler.**3.Webasto Cool Top RTE 16 + 200Ah akü** — Akülü elektrikli (veya dizel yakıtlı eklenti mevcuttur).5.800$ yüklü.47 dBA.En iyisi: bölünmüş tasarımın verimliliğinin en önemli olduğu aşırı ısı bölgeleri.**4.Taşıyıcı ComfortPro APU (2026 CARB uyumlu)** — Dizel APU.9.800$ yüklü.Ranzada 64 dBA.Yeni DPF ile tüm eyaletlerde uyumludur.Şunlar için idealdir: Sınırsız çalışma süresi isteyen ve ön bütçe endişesi düşük olan sürücüler.**5.CARB DPF'li RigMaster MTS-T4** — Dizel APU.8.500$ yüklü.67 dBA.Mevcut yükseltmeyle uyumludur.Şunun için en iyisi: eski APU değişimi veya maliyete duyarlı filo yenilemeleri."
+    },
+    {
+      "heading": null,
+      "body": "## Gerçek Sürücü Hikayeleri: Üç Alıntıdan Kaçınıldı"
+    },
+    {
+      "heading": null,
+      "body": "**Durum 1:** CA-IL şeritlerinde çalışan araç sahibi-operatör, 2023 yılında Bakersfield dinlenme yerinde 90°F sıcaklıkta 25 dakika rölantide kaldığı için 1.000 $ CARB cezası aldı (kamyon tarafında boşta olmayan bir çözüm kurulmadı).2024'ün başlarında CoolDrivePro V-TH1 pil sistemi kurulduktan sonra, 22 ay ve 180'den fazla Kaliforniya durağı boyunca başka alıntı yapılmadı.Yalnızca kaçınılan cezalardan sistemdeki yatırım getirisi: 12 ay.**Durum 2:** NYC metropol bölgesindeki beş kamyonluk bölgesel filo, 2024 yılında 8 ay boyunca 3 dakikalık ihlal nedeniyle 3.800 ABD doları tutarında ceza aldı. Beş ünitenin tamamına Dometic RTX2000 sistemleri kuruldu.Sonraki 18 ayda sıfır ihlal.**Durum 3:** Houston'da TX-FL şeridinde koşan bağımsız sürücünün, 95°F ortam sıcaklığına rağmen şehir tarafından yönetilen bir dinlenme alanında 18 dakika rölantide kaldığı belirtildi (Houston, kamyonda herhangi bir rölanti sistemi kurulu olmadığında ısı muafiyetini kaldırır).Ders: Boşta kalma seçeneğiniz olmadığında onu kullanmalısınız.Ana motoru 'unuttuğunuz' veya 'tercih ettiğiniz' için rölantide çalışmak, hiçbir sisteme sahip olmamakla aynı cezayı taşır."
+    },
+    {
+      "heading": null,
+      "body": "## EPA SmartWay ve Üretici Teşvikleri"
+    },
+    {
+      "heading": null,
+      "body": "EPA SmartWay Taşımacılık Ortaklığı, yakıt tasarruflu, düşük emisyonlu filolar işleten taşıyıcıları tanır.Bataryalı, boşta olmayan sistemler SmartWay puanınıza anlamlı katkıda bulunur ve bu da büyük nakliyatçılarla (Walmart, Target, Procter & Gamble, FedEx, UPS ve Fortune 500 lojistik alıcılarının çoğu) teklif değerlendirmesinde açıkça SmartWay sertifikalı taşıyıcıları tercih eder.Filolar için bu genellikle %3-5 daha yüksek sözleşmeli oranlar anlamına gelir; bu da önemli bir gelir artışı anlamına gelir.Birçok kamyon OEM'i (Freightliner, Kenworth, Peterbilt, Volvo) artık fabrikada takılan akülü park etme AC seçeneklerini satış sonrası güçlendirmeye kıyasla önemli indirimlerle sunuyor.Bayinize sorun;2026 model yılı, her zamankinden daha fazla boşta olmayan entegrasyon seçeneğine sahiptir."
+    },
+    {
+      "heading": null,
+      "body": "## Yerel Belediye Yönetmelikleri: Gizli Katman"
+    },
+    {
+      "heading": null,
+      "body": "Eyalet yasalarının ötesinde, 200'den fazla ABD belediyesi, eyalet yasalarından daha katı olan yerel boşta kalma kısıtlama yönetmeliklerini benimsedi.Dikkate değer örnekler: Portland OR (3 dakikalık sınır), Boston MA (eyalet bazı durumlarda daha uzun süre izin vermesine rağmen 5 dakika), Atlanta GA (Georgia eyalet yasası olmamasına rağmen 10 dakika), Denver CO (5 dakika), Salt Lake City UT (kış tersine çevirme uyarıları sırasında 2 dakika), Pittsburgh PA (5 dakika).Uygulama genellikle şehir çevre hizmetleri veya polis tarafından yapılır.Cezalar ihlal başına 100 ila 750 ABD Doları arasında değişmektedir.Çoğu belediye, büyük dinlenme alanlarına ve şehir merkezindeki yükleme bölgelerine boşta kalma kısıtlama işaretleri asıyor, ancak uygulama aynı zamanda rastgele de yapılıyor; bu şehirlerin herhangi birindeki ticari bölgelerde gece boyunca park eden sürücülere, tabela asılmadan bile atıfta bulunulabiliyor.Pilli-elektrikli park kliması, hem eyalet hem de belediye katmanlarında evrensel olarak uyumlu olan tek çözümdür."
+    },
+    {
+      "heading": null,
+      "body": "## Filolar Uyumluluğu Nasıl Belgeliyor ve Kanıtlıyor?"
+    },
+    {
+      "heading": null,
+      "body": "Modern telematik platformları (Geotab, Samsara, Motive), CAN veri yolu aracılığıyla akülü elektrikli park klima sistemleriyle entegre olarak, konum başına AC kullanım süresini ve ana motor kapalı kalma süresini kaydeder.Bu raporlar, ince zorluklara karşı kabul edilebilir kanıtlardır ve düzenleyicilere proaktif uyumu gösterir.Örneğin, 'ana motor kapalı, Bakersfield CARB yaptırım bölgesi içindeki GPS koordinatlarında AC'yi 8,4 saat boyunca aktif park etme' durumunu gösteren bir Geotab raporu, herhangi bir potansiyel boşta alıntıyı tamamen yalanlamaktadır.Birçok filo bu raporları SmartWay gönderimi ve müşteri tarafı ESG raporlaması için de kullanıyor.Entegrasyon maliyeti: Mevcut telematik aboneliğine ek olarak kablo ve adaptör için kamyon başına 0 ila 200 ABD Doları.ROI: Kaçınılan ilk ceza, bunun karşılığını birçok kez geri getirir ve ayrıca filonun sigorta yazımına ilişkin genel uyumluluk duruşunu güçlendirir."
+    },
+    {
+      "heading": null,
+      "body": "## Uluslararası Rölantiyi Önleme Trendleri"
+    },
+    {
+      "heading": null,
+      "body": "Rölanti karşıtı düzenlemeler ABD dışında da hızlanıyor.Avrupa Birliği'nin ağır hizmet araçlarına yönelik CO2 azaltma hedefleri (2025'e kadar -%15, 2030'a göre -%30, 2019 temel çizgisine göre) filoları etkili bir şekilde rölantide olmayan çözümlere yönelmeye zorluyor çünkü ana motorun rölantide çalışması araç başına CO2 bütçesini etkiliyor.Almanya, Hollanda, İsveç ve Danimarka'da halihazırda büyük şehirlerde belediyelerin atıl limitleri bulunmaktadır.Birleşik Krallık Ulaştırma Bakanlığı, Londra Düşük Emisyon Bölgelerinde 2026-2027'den itibaren daha katı atıl yaptırımların sinyalini verdi.Kanada'nın Eyalet düzenlemeleri büyük farklılıklar göstermektedir: Ontario'nun Toronto'da 1 dakikalık boşta kalma sınırı vardır, BC'nin ise Vancouver'da 3 dakikalık boşta kalma sınırı vardır.Avustralya'nın NSW EPA'sı büyük depolarda 3 dakikalık sınırlar uyguluyor.Meksika, Mexico City'de 5 dakika sınırı uygulamaya başladı.Küresel eğilim açık: Rölanti karşıtı yaptırımlar her yerde sıkılaştırılıyor ve akülü elektrikli park kliması evrensel bir çözüm."
+    },
+    {
+      "heading": null,
+      "body": "## Uzun Bir Yolculuktan Önce Uyumluluğunuzu Nasıl Doğrulayabilirsiniz?"
+    },
+    {
+      "heading": null,
+      "body": "Çok eyaletli bir seyahate çıkmadan önce, boşta durmama uyum duruşunuzu doğrulamak için 15 dakikanızı ayırın.(1) Kurulu sistem tipinizi doğrulayın (pilli-elektrikli, dizel yakıtlı veya APU) ve dokümantasyonun erişilebilir olmasını sağlayın.(2) Kaliforniya'da seyahat ediyorsanız APU modeliniz için en son CARB yönetici emrini kontrol edin; siparişler yıllık olarak güncellenir ve daha önceden uyumlu bir modelin yazılım güncellemesi gerektirebilir.(3) Yolculuğun başında kurulu sisteminizin fotoğrafını çekin;bu, herhangi bir uyumluluk anlaşmazlığında yararlı bir kanıttır.(4) Eyalete özgü muafiyet kurallarını telefonunuza kaydedin (EPA'nın 'IdleBox' adında ücretsiz bir referans uygulaması vardır).(5) Filolar için sevk görevlinizin her kamyon için uygun rölanti önleme sertifikasyon belgelerine sahip olduğundan emin olun.Yola çıkmadan önce 5 dakikalık bir uygunluk kontrolü, anket yaptığımız sürücülere binlerce dolarlık ceza verilmesini önledi."
+    },
+    {
+      "heading": null,
+      "body": "## Rakamlar Uyum Yatırımını Gerektirmediğinde"
+    },
+    {
+      "heading": null,
+      "body": "Sürüş profiliniz konusunda dürüst olun.Yılda 50'den az yataklı taksi gecesine kaydolursanız (örneğin, her gün eve giden bölgesel sürücüler), 5.000 $'ın üzerinde boşta olmayan bir sistemin mali durumu daha zayıftır.Başabaş eşiği, yılda yaklaşık 80-100 gece, gece boyunca boşta kalma değişimidir.Gecenin karanlığında yolculuk yapan sürücüler için, dizel yakıtlı Webasto Cool Top RTE Diesel (2.800 ABD doları kurulu) veya hatta eski tip bir 12V bataklık soğutucusu (300 ABD doları) daha ekonomik bir seçim olabilir - her ne kadar o kadar zarif olmasalar da.Bunun istisnası: Kaliforniya veya NYC bölgelerine düzenli olarak sıkı yaptırımlarla giriyorsanız, yılda birkaç alıntı bile tüm sistemi tek başına cezadan kaçınma ekonomisine göre haklı gösterebilir.Özel durumunuzu hesaplayın: geceler × rölanti saatleri × dizel maliyeti vs sistem amortismanı ve sayıların sizi yönlendirmesine izin verin."
+    },
+    {
+      "heading": null,
+      "body": "## Hepsini Bir Araya Getirmek: 2026 Uyumluluk Eylem Planınız"
+    },
+    {
+      "heading": null,
+      "body": "Henüz boşta olmayan bir çözüme yükseltme yapmadıysanız işte 30 günlük pratik eylem planı.1. Hafta: Tipik sürüş şeklinizi belirleyin (eyalet şeritleri, gece boyunca ortalama boşta kalma süresi, ortam sıcaklığına maruz kalma) ve yıllık boşta kalma maliyetinizi hesaplayın.2. Hafta: Yetkili kurulumculardan üç fiyat teklifi alın — biri akülü elektrikli (CoolDrivePro V-TH1 veya Dometic RTX2000), biri dizel yakıtlı (Webasto) ve biri APU yükseltmesi için (yalnızca mevcut APU'niz yeniyse ve CARB uyumluysa).3. Hafta: Teklifleri yıllık atıl maliyetinize göre inceleyin;Çoğu OTR sürücüsü için geri ödeme süresi 12 ayın altında olmalıdır.4. Hafta: Kurulumunuzun rezervasyonunu yapın ve kurulumun tamamlandığını hem garanti hem de sigorta amacıyla belgelemeye hazırlanın.2026'da yapabileceğiniz en pahalı seçim, bu kararı ertelemek ve bir yıl daha atıl cezalar ve yakıt israfına yol açmaktır.Teknoloji olgun, maliyetler uygun ve düzenleyici yön tek yönlü.Şimdi harekete geçin."
+    },
+    {
+      "heading": null,
+      "body": "## Sıkça Sorulan Sorular"
+    },
+    {
+      "heading": null,
+      "body": "**2026'daki en katı rölanti karşıtı durum nedir?**\n\nKaliforniya (CARB), eyalet çapında 5 dakikalık sınırlamalar, ihlal başına 300 ila 1.000 ABD Doları para cezası ve APU emisyonlarına ilişkin ek CARB uyumluluk gereksinimleri.New Jersey, 3 dakikalık limit ve agresif yaptırımlarla ikinci sırada yer alıyor.\n\n**Soğuk havalarda ısınmak için boşta kalabilir miyim?**\n\nÇoğu eyalet, kabinin 0°F veya 32°F'nin altında ısıtılması için rölantiye izin verir (duruma göre değişir).Kamyonunuzda boşta olmayan bir alternatif varsa, birçoğu bu muafiyeti kaldırmıştır.Eyaletinizin mevcut kurallarını kontrol edin; 2024 ve 2025'te önemli ölçüde sıkılaştırıldılar.\n\n**APU'ler gerçekten boşta olmayan sistemler olarak sayılır mı?**\n\nEvet 49 eyalette.Kaliforniya, 2024 Tier 4 emisyon standartlarını karşılamayan APU'leri DPF ile kısıtlıyor.APU belgeniz 2024 öncesiyse ve Kaliforniya'da faaliyet gösteriyorsanız, boş muafiyet için ona güvenmeden önce uyumluluk durumunu doğrulayın.\n\n**Yataklı kabin park kliması uyumluluk açısından APU ile nasıl karşılaştırılır?**\n\nPilli-elektrikli park kliması istisnasız her yerde tamamen uyumludur.APU'ler Kaliforniya'daki düzenleyici uyarılarla 49 eyalette uyumludur.Eyalet sınırlarını düzenli olarak geçiyorsanız akülü elektrik en güvenli seçimdir.\n\n**Ya müşteri iskelesine park edersem ve kapatmamı isterlerse?**\n\nÇoğu nakliyatçı ve müşteri tarafı park yeri, eyalet yasalarına bakılmaksızın sıfır toleranslı rölantiyi zorunlu kılar.Artık pek çok büyük depo, boşta çalışan kamyonları güvenlik kameralarından kontrol ediyor ve tekrar eden suçluları tesislerinden uzaklaştırıyor.Akülü-elektrikli park kliması, müşteri ilişkilerinizi riske atmadan rahat kalmanız anlamına gelir.\n\n**Federal boşta kalma sınırları var mı, yoksa yalnızca eyalet ve yerel düzeyde mi?**\n\nKarayolu kamyonları için şu anda federal bir rölanti sınırı mevcut değildir.EPA, SmartWay aracılığıyla gönüllü azaltmayı teşvik etmektedir.Federal eylem 2018'den bu yana birçok kez önerildi ancak Nisan 2026 itibarıyla Kongre'den geçmedi. Eyalet kuralları ve yerel kurallar tek yasal güçtür.\n\n**Boşta olmayan bir alıntının her şeyi hesaba katarsak maliyeti gerçekte ne kadardır?**\n\nDoğrudan para cezası (150-1.000$) artı mahkeme ücretleri (50-200$) artı potansiyel CSA puanı etkisi (sigorta oranlarını bir yıl için %5-12 oranında etkileyebilir).Kaliforniya'da tekrar eden bir suçlu, ihlal başına kolayca 2.500 ABD dolarının üzerinde maliyetle karşı karşıya kalabilir.Tek bir para cezası bile çoğu zaman akülü elektrik sisteminin aylık finansman maliyetini aşıyor.Sistemi gerçekten güvenilir şekilde çalıştıracak pil boyutlandırması için [LiFePO4 pil boyutlandırma kılavuzumuza](/blog/lifepo4-battery-for-parking-ac) bakın."
+    }
+  ]
+}

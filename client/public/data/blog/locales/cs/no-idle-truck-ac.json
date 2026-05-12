@@ -1,0 +1,156 @@
+{
+  "title": "AC systémy nákladních vozidel bez nečinnosti: Jak dodržovat státní zákony proti volnoběhu (2026)",
+  "date": "2026-04-25",
+  "category": "Soulad",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+  "imageAlt": "Bateriový elektrický střídavý systém nákladního vozidla bez volnoběhu nainstalovaný pro zajištění proti volnoběhu",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Zákony proti chodu naprázdno v jednotlivých státech a jak dodržovat střídavý proud nákladního vozidla bez nečinnosti.CARB (pokuty 300–1 000 USD), 30+ státní limity, EPA SmartWay a 5 systémů, které splňují požadavky roku 2026.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac_56794866.webp",
+      "alt": "Class 8 truck parked with no-idle battery-electric AC system providing cab climate control",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Installation of no-idle compliant battery system for truck cab cooling",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Zákony proti volnoběhu již nejsou okrajovou záležitostí.Do dubna 2026 bude více než 30 států USA, District of Columbia a rostoucí seznam obcí uplatňovat omezení nečinnosti u těžkých nákladních vozidel.Pokuty začínají na 150 dolarech a šplhají až k 25 000 dolarům pro recidivisty v Kalifornii.EPA odhaduje, že jen v odvětví nákladní dopravy v USA se při volnoběhu vyplýtvá více než 1 miliarda galonů nafty a 11 milionů tun CO2 ročně – a regulační orgány reagují přísnějším vymáháním, nejen přísnějšími zákony.Pokud jste vlastník-provozovatel nebo správce vozového parku, otázka v roce 2026 nezní, zda přejít na řešení bez nečinnosti, ale které si vybrat.Tato příručka rozebírá regulační prostředí, možnosti vyhovujících technologií a analýzu nákladů a přínosů v reálném světě."
+    },
+    {
+      "heading": null,
+      "body": "AC „nákladní vozidlo bez volnoběhu“ je jakýkoli systém, který zajišťuje ovládání klimatizace v kabině, aniž by byl spuštěn hlavní dieselový motor nákladního vozidla.Kvalifikují se tři kategorie: bateriové elektrické parkovací AC (nejčistší a nejtišší), naftová nezávislá topení a AC (nižší počáteční náklady, stále produkují emise, ale jsou vyňaty z většiny zákonů o volnoběhu, protože spálí mnohem méně paliva) a systémy pouze na pevninu (nulové emise, ale omezené na zastávky kamionů s elektrifikovanými parkovacími místy).Pomocné energetické jednotky (APUs) jsou hraničním případem – obvykle se kvalifikují jako „bez volnoběhu“, protože nahrazují volnoběh hlavního motoru, ale Kalifornie a několik dalších států nyní podle pravidel CARB uplatňují emisní normy na samotné APU."
+    },
+    {
+      "heading": null,
+      "body": "## Hlavní státní zákony, které potřebujete znát v roce 2026"
+    },
+    {
+      "heading": null,
+      "body": "**Kalifornie (CARB):** Nejpřísnější.Limit 5 minut nečinnosti platí celostátně;Nákladní vozy 2008+ potřebují emisní certifikaci APU nebo bateriový elektrický systém.Pokuty: 300 $ za první přestupek, 1 000 $ opakování, plus 25 000 $ denně korporátní expozice.Vymáhání je aktivní ve všech hlavních přístavech a vahách.**New York:** 5minutový limit pro celý stát, 3minutový limit v NYC.Pokuty 260–2 400 USD.Agresivně vynuceno v pěti městských částech NYC.**Massachusetts:** 5minutový limit.Opakované pokuty až 25 000 USD.**New Jersey:** Limit 3 minut nečinnosti (jeden z nejpřísnějších).Pokuty 250–1000 USD.**Washington a Oregon:** 5minutové limity.Vymáhání pacifického severozápadu stoupá.**Texas:** Žádný celostátní limit, ale Houston, Dallas-Fort Worth, El Paso a Austin mají městské 5minutové limity.**Illinois:** 10minutový limit u většiny nákladních vozidel s naftovým motorem.**Maryland, Virginia, DC:** Koordinované 5minutové limity v oblasti metra DC.**Florida:** Žádný celostátní limit, ale Miami-Dade prosazuje pravidlo 5 minut s pokutami 500 USD.**Colorado:** 5minutový limit, pokuty až 700 $.Od roku 2026 jsou jedinými státy bez jakéhokoli smysluplného vymáhání Wyoming, Severní Dakota, Jižní Dakota, Mississippi a Alabama – a tento seznam se každým rokem zmenšuje."
+    },
+    {
+      "heading": null,
+      "body": "## Nejběžnější výjimky (a pasti)"
+    },
+    {
+      "heading": null,
+      "body": "Většina státních zákonů vyjímá volnoběh pro: extrémní chlad (pod 0 °F nebo někdy 32 °F), extrémní teplo (nad 80 °F nebo 90 °F v závislosti na státu), dobu odpočinku vyžadovanou DOT (v Kalifornii je to podmíněné, nikoli plošné) a aktivní nakládání/vykládání.Past: hlídači vás nemusejí kvůli teplotě brát za slovo.Kontrolují místní hodnotu NWS v době citace.Pokud běžíte na volnoběh při 75 °F, protože je to horké, dostanete pokutu.Kromě toho několik států (CA, NJ, NY) zcela odstranilo osvobození od tepla, pokud je váš vůz vybaven alternativou bez nečinnosti – což většina moderních nákladních vozidel nyní je.Vlastnit parkovací klimatizaci a nepoužívat ji nezískáte průkaz."
+    },
+    {
+      "heading": null,
+      "body": "## Baterie-Elektrický: Nejčistší cesta shody"
+    },
+    {
+      "heading": null,
+      "body": "Akumulátorový elektrický parkovací systém AC (předpokládejme CoolDrivePro V-TH1 + 200Ah 24V LiFePO4 baterie + 50A DC-___CDP_TERM_11_) splňuje pravidla pro každý stav bez nabíjení nula.případy.Nulové emise, nulové obavy z hluku, nulové problémy s povolením.Počáteční náklady: 4 500–6 500 USD nainstalované.Roční provozní náklady: zhruba 700 USD za další palivo poháněné alternátorem na dobití baterie.Porovnejte s volnoběhem při 250 nocích × 10 hodin × 3,95 $/gal × 0,9 gal/hod = 8 887 $/rok.Čistá úspora: 8 150 $/rok.Návratnost 7–9 měsíců pro vlastníka-operátora provozujícího primární trasy OTR.U vozových parků je matematika ještě lepší, protože se také vyhnete problémům se zárukou související s hlášením o shodě CARB a souvisejících se zárukou.Podívejte se na naše úplné [srovnání parkování AC vs APU] (/blog/parking-ac-vs-apu), kde najdete rozpis nákladů mezi jablky a jablky."
+    },
+    {
+      "heading": null,
+      "body": "## Parkovací klimatizace s naftovým motorem: Střední cesta"
+    },
+    {
+      "heading": null,
+      "body": "Systémy Webasto Cool Top RTE 16 (při konfiguraci s dieselovým posilovačem) a Eberspächer Airtronic Cool spálí 0,05–0,10 gal/h hlavní naftové nádrže kamionu.Produkují minimální emise (hluboce pod hlavním motorem), vydávají mírný hluk (45–55 dBA) a mají nárok na výjimky bez nečinnosti ve všech 50 státech.Počáteční náklady jsou nižší než u systémů s plnou baterií (2 500 – 4 000 USD nainstalované).Provozní náklady jsou vyšší než náklady na baterii (přibližně 1 200 USD ročně u nafty), ale stále pod 15 % při plném chodu motoru naprázdno.Pro majitele-provozovatele, kteří si nemohou dovolit přední bateriový systém, je dieselový pohon obhajitelným kompromisem.Nevýhoda: hluk, emise a potřeba časem udržovat malý pomocný palivový systém."
+    },
+    {
+      "heading": null,
+      "body": "## APUs: Většinou vyhovující, s hvězdičkami CARB"
+    },
+    {
+      "heading": null,
+      "body": "Pomocné napájecí jednotky jako Carrier ComfortPro nebo RigMaster MTS-T4 pohánějí malý (15–20 hp) dieselový motor nepřetržitě pro napájení AC, topení a invertorových zátěží.Byly dominantním řešením bez nečinnosti v letech 2005–2018.Stále fungují – mají nárok na výjimky ze zákona o nečinnosti ve 49 státech, protože mají mnohem nižší emise za hodinu než hlavní motor o výkonu 500 k.**Kalifornie je hvězdička.** Od roku 2008 vyžaduje CARB APUs, aby splnila emisní normu Tier 4, přičemž aktualizace z roku 2024 vyžaduje u novějších instalací DPF (filtr pevných částic).Mnoho starších APU v provozu nevyhovuje a provoz jednoho v Kalifornii riskuje pokuty, i když je jednotka technicky zařízení „bez nečinnosti“.APU také ztrácejí půdu pod nohama kvůli hluku: jejich 60–67 dBA na lůžku je stále více považováno za nestandardní oproti bateriovým alternativám."
+    },
+    {
+      "heading": null,
+      "body": "## Porovnáno pět systémů vyhovujících roku 2026"
+    },
+    {
+      "heading": null,
+      "body": "**1.CoolDrivePro V-TH1 + 200Ah 24V LiFePO4 bateriový systém** — Bateriový elektrický.Instalováno 5 200 USD.42 dBA.Nulové emise.Vyhovující ve všech 50 státech + EU.Nejlepší pro: vlastníky-operátory a vozové parky upřednostňující TCO.**2.Dometic RTX2000 + 200Ah baterie** — Bateriový elektrický.Instalováno 5 500 USD.48 dBA.Nulové emise.Všude vyhovující.Nejlepší pro: řidiče, kteří oceňují známost značky Tier-1 a hustotu prodejců v USA.**3.Baterie Webasto Cool Top RTE 16 + 200 Ah** — Bateriová elektrická (nebo je k dispozici naftový doplněk).Instalováno 5 800 USD.47 dBA.Nejlepší pro: oblasti s extrémním teplem, kde na účinnosti děleného designu nejvíce záleží.**4.Carrier ComfortPro APU (vyhovující 2026 CARB)** — Diesel APU.Instalováno 9 800 USD.64 dBA na lůžku.Vyhovuje ve všech státech novému DPF.Nejlepší pro: řidiče, kteří chtějí neomezenou dobu běhu a mají nízké obavy z počátečního rozpočtu.**5.RigMaster MTS-T4 s CARB DPF** — Diesel APU.Instalováno 8 500 USD.67 dBA.V souladu s aktuální aktualizací.Nejlepší pro: výměnu za starší APU nebo nákladově citlivé dovybavení vozového parku."
+    },
+    {
+      "heading": null,
+      "body": "## Příběhy skutečných řidičů: Vyhněte se třem citacím"
+    },
+    {
+      "heading": null,
+      "body": "**Případ 1:** Vlastník-provozovatel provozující pruhy CA-IL dostal v roce 2023 pokutu 1 000 $ CARB za nečinnost 25 minut na odpočívadle Bakersfield v horku 90 °F (neinstalováno žádné řešení bez nečinnosti na straně náklaďáku).Po instalaci bateriového systému CoolDrivePro V-TH1 počátkem roku 2024 se po dobu 22 měsíců a více než 180 Kalifornie nezastaví žádné další citace.ROI v systému pouze z vyvarovaných pokut: 12 měsíců.**Případ 2:** Regionální flotila pěti nákladních vozidel v oblasti metra v New Yorku získala v roce 2024 3 800 USD za 3minutové pokuty za porušení za 8 měsíců. Na všech pěti jednotkách byly nainstalovány systémy Dometic RTX2000.Žádné porušení v následujících 18 měsících.**Případ 3:** Nezávislý řidič jedoucí v pruhu TX–FL byl v Houstonu citován pro 18minutové volnoběhy na městském odpočívadle navzdory okolní teplotě 95 °F (Houston odstraňuje výjimku z tepla, pokud má nákladní vozidlo nainstalovaný systém bez volnoběhu).Ponaučení: jakmile máte jakoukoli možnost bez nečinnosti, musíte ji použít.Volnoběh, protože jste „zapomněli“ nebo „upřednostnili“ hlavní motor, nese stejnou penalizaci, jako když systém nemáte vůbec."
+    },
+    {
+      "heading": null,
+      "body": "## EPA SmartWay a pobídky výrobců"
+    },
+    {
+      "heading": null,
+      "body": "EPA SmartWay Transport Partnership oceňuje dopravce, kteří provozují flotily s nízkou spotřebou paliva a nízkými emisemi.Bateriové elektrické systémy bez nečinnosti významně přispívají k vašemu skóre SmartWay, což může odblokovat smluvní preferenci s hlavními přepravci (Walmart, Target, Procter & Gamble, FedEx, UPS a většina logistických nákupčích Fortune 500 při hodnocení nabídek výslovně upřednostňuje dopravce s certifikací SmartWay).U vozových parků to často znamená o 3–5 % vyšší smluvní sazby – podstatné zvýšení výnosů.Několik výrobců OEM nákladních vozidel (Freightliner, Kenworth, Peterbilt, Volvo) nyní nabízí možnosti střídavého parkování instalovaného ve výrobě s bateriemi s výraznou slevou oproti dodatečnému vybavení.Zeptejte se svého prodejce;modelový rok 2026 nabízí více možností integrace bez nečinnosti než kdykoli předtím."
+    },
+    {
+      "heading": null,
+      "body": "## Místní obecní vyhlášky: Skrytá vrstva"
+    },
+    {
+      "heading": null,
+      "body": "Kromě státních zákonů přijalo více než 200 obcí v USA místní nařízení o omezení nečinnosti, která jsou přísnější než státní zákony.Pozoruhodné příklady: Portland OR (3minutový limit), Boston MA (5minutový, i když stát v některých případech povoluje delší dobu), Atlanta GA (10minutový, navzdory státnímu zákonu státu Georgia), Denver CO (5minut), Salt Lake City UT (2minuty během upozornění na zimní inverzi), Pittsburgh PA (5 minut).Vymáhání obvykle provádí městské ekologické služby nebo policie.Pokuty se pohybují od 100 do 750 USD za porušení.Většina obcí umísťuje na hlavních odpočívadlech a nakládacích zónách v centru města značky s omezením nečinnosti, ale k vynucení dochází také náhodně – řidiče zaparkované přes noc v komerčních zónách v kterémkoli z těchto měst lze citovat i bez vyvěšeného značení.Bateriový elektrický parkovací střídavý proud je jediným řešením, které univerzálně vyhovuje na státní i komunální úrovni."
+    },
+    {
+      "heading": null,
+      "body": "## Jak flotily dokumentují a prokazují shodu"
+    },
+    {
+      "heading": null,
+      "body": "Moderní telematické platformy (Geotab, Samsara, Motive) se integrují s bateriově elektrickými parkovacími střídavými systémy prostřednictvím sběrnice CAN, zaznamenávají dobu používání střídavého proudu a dobu vypnutí hlavního motoru v jednotlivých lokalitách.Tyto zprávy jsou přípustným důkazem v pokutách a prokazují proaktivní soulad s regulačními orgány.Například zpráva Geotab ukazující „hlavní motor vypnutý, parkovací AC aktivní po dobu 8,4 hodiny na souřadnicích GPS v rámci vynucovací zóny Bakersfield CARB“ zcela vyvrací jakékoli potenciální nečinné citace.Mnoho vozových parků také používá tyto zprávy pro odesílání SmartWay a hlášení ESG na straně zákazníka.Náklady na integraci: 0 – 200 USD na nákladní vozidlo za kabel a adaptér, navíc ke stávajícímu předplatnému telematiky.Návratnost investic: první pokuta, která se vyhnula, se jí mnohonásobně vrátí a navíc posílí celkovou pozici flotily v oblasti dodržování předpisů při uzavírání pojištění."
+    },
+    {
+      "heading": null,
+      "body": "## Mezinárodní trendy proti volnoběhu"
+    },
+    {
+      "heading": null,
+      "body": "Předpisy proti volnoběhu se zrychlují i mimo USA.Cíle Evropské unie v oblasti snižování emisí CO2 pro těžká nákladní vozidla (-15 % do roku 2025, -30 % do roku 2030 oproti základnímu roku 2019) účinně nutí vozové parky k řešením bez volnoběhu, protože volnoběh hlavního motoru se započítává do rozpočtu CO2 na jedno vozidlo.Německo, Nizozemsko, Švédsko a Dánsko již mají ve velkých městech limity městské nečinnosti.Ministerstvo dopravy Spojeného království signalizovalo přísnější prosazování nečinnosti od roku 2026 do roku 2027 v londýnských nízkoemisních zónách.Kanadské provinční předpisy se značně liší: Ontario má limit 1 minuty nečinnosti v Torontu, BC má limit 3 minuty ve Vancouveru.Australská NSW EPA prosazuje 3minutové limity ve velkých depech.Mexiko začalo prosazovat 5minutové limity v Mexico City.Celosvětový trend je jasný: všude se zpřísňuje vynucování ochrany proti volnoběhu a univerzálním řešením je parkovací střídavý proud na baterie."
+    },
+    {
+      "heading": null,
+      "body": "## Jak před dlouhou cestou ověřit své dodržování"
+    },
+    {
+      "heading": null,
+      "body": "Před vícestátním výletem věnujte 15 minut ověření své pozice bez nečinnosti.(1) Potvrďte typ vašeho nainstalovaného systému (bateriový elektrický, naftový nebo APU) a mějte přístupnou dokumentaci.(2) Pokud cestujete přes Kalifornii, zkontrolujte nejnovější výkonnou objednávku CARB pro váš model APU – objednávky se aktualizují ročně a dříve vyhovující model může vyžadovat aktualizaci softwaru.(3) Vyfoťte svůj nainstalovaný systém na začátku cesty;to je užitečný důkaz v jakémkoli sporu o dodržování předpisů.(4) Uložte si do telefonu pravidla výjimek pro jednotlivé státy (EPA má bezplatnou referenční aplikaci s názvem „IdleBox“).(5) U vozových parků zajistěte, aby váš dispečer měl pro každý nákladní vůz v evidenci řádné certifikační dokumenty proti volnoběhu.Pětiminutová kontrola dodržování předpisů před odjezdem zabránila tisícům dolarů v pokutách pro řidiče, které jsme zkoumali."
+    },
+    {
+      "heading": null,
+      "body": "## Když čísla neospravedlňují investice do souladu"
+    },
+    {
+      "heading": null,
+      "body": "Buďte upřímní o svém řidičském profilu.Pokud se přihlásíte pod 50 nocí v kabině za rok (např. regionální řidiči, kteří jezdí domů denně), finanční případ pro systém bez nečinnosti 5 000 $+ je slabší.Hranice rentability je zhruba 80–100 nocí za rok výměny nečinnosti přes noc.Pro řidiče s nízkou nocí může být ekonomičtější volbou naftový Webasto Cool Top RTE Diesel (2 800 USD nainstalovaný) nebo dokonce oldschoolový chladič 12V swamp (300 USD) – i když nejsou tak elegantní.Výjimka: pokud pravidelně vstupujete do oblastí Kalifornie nebo NYC s přísným vymáháním, i několik citací za rok může ospravedlnit úplný systém pouze na ekonomice vyhýbání se pokutám.Spočítejte si svůj konkrétní případ: noci × hodiny nečinnosti × náklady na naftu vs amortizace systému a nechte se vést čísly."
+    },
+    {
+      "heading": null,
+      "body": "## Dát to všechno dohromady: Váš akční plán pro dodržování předpisů na rok 2026"
+    },
+    {
+      "heading": null,
+      "body": "Pokud jste ještě neupgradovali na řešení bez nečinnosti, zde je praktický 30denní akční plán.Týden 1: Identifikujte svůj typický způsob jízdy (stav pruhy, průměrné noční nečinnosti, vystavení okolní teplotě) a vypočítejte své roční náklady na nečinnost.Týden 2: získejte tři nabídky od autorizovaných instalačních techniků – jednu na bateriovou elektřinu (CoolDrivePro V-TH1 nebo Dometic RTX2000), jednu na naftu (Webasto) a jednu na upgrade APU (pouze v případě, že vaše aktuální APU je aktuální).Týden 3: zkontrolujte kotace oproti ročním nákladům na nečinnost;návratnost by měla být u většiny řidičů OTR kratší než 12 měsíců.4. týden: zarezervujte si instalaci a připravte se na zdokumentování dokončení instalace pro účely záruky i pojištění.Jedinou nejdražší volbou, kterou můžete v roce 2026 učinit, je odložit toto rozhodnutí a nashromáždit další rok pokut za nečinnost a plýtvání palivem.Technologie je vyspělá, náklady jsou příznivé a regulační směr je jednosměrný.Jednejte hned."
+    },
+    {
+      "heading": null,
+      "body": "## Často kladené otázky"
+    },
+    {
+      "heading": null,
+      "body": "**Jaký je nejpřísnější stav proti nečinnosti v roce 2026?**\n\nKalifornie (CARB), s 5minutovými celostátními limity, pokutami 300–1 000 USD za porušení a dalšími požadavky na dodržování CARB pro emise APU.New Jersey je těsně na druhém místě s 3minutovým limitem a agresivním vymáháním.\n\n**Mohu v chladném počasí běžet na volnoběh, abych se zahřál?**\n\nVětšina států umožňuje volnoběh pro vytápění kabiny pod 0 °F nebo 32 °F (liší se podle stavu).Několik z nich tuto výjimku odstranilo, pokud má váš vůz nainstalovanou alternativu bez nečinnosti.Zkontrolujte aktuální pravidla vašeho konkrétního státu – v letech 2024 a 2025 se podstatně zpřísnila.\n\n**Opravdu se APUs počítají jako systémy bez nečinnosti?**\n\nAno ve 49 státech.Kalifornie omezuje APUs, které nesplňují emisní normy 2024 Tier 4 s DPF.Pokud vaše APU pochází z doby před rokem 2024 a působíte v Kalifornii, ověřte si stav shody, než se na ni spolehnete pro osvobození od nečinnosti.\n\n**Jaká je shoda parkovacího klimatizačního systému s spací kabinou ve srovnání s APU?**\n\nBateriový elektrický parkovací střídavý proud je všude bez výjimek plně kompatibilní.APUs vyhovují ve 49 státech regulačním omezením v Kalifornii.Bateriový elektrický je nejbezpečnější volbou, pokud pravidelně překračujete státní hranice.\n\n**Co když zaparkuji u zákaznického doku a oni požadují, abych se vypnul?**\n\nVětšina přepravců a zákaznických parkovišť vynucuje volnoběh s nulovou tolerancí bez ohledu na státní zákony.Mnoho velkých skladů nyní kontroluje na bezpečnostních kamerách volnoběh nákladních vozidel a zakazuje recidivistům vstup do svých zařízení.Bateriové elektrické parkování AC znamená, že se budete cítit pohodlně, aniž byste riskovali vztahy se zákazníky.\n\n**Existují federální limity nečinnosti, nebo jen státní a místní?**\n\nV současné době neexistuje žádný federální limit volnoběhu pro silniční nákladní vozidla.EPA podporuje dobrovolné snížení prostřednictvím SmartWay.Federální opatření bylo navrženo několikrát od roku 2018, ale v dubnu 2026 neprošlo Kongresem. Jedinou právní silou jsou státní a místní pravidla.\n\n**Kolik vlastně stojí citace bez nečinnosti, když se započítá vše?**\n\nPřímá pokuta (150–1 000 USD) plus soudní poplatky (50–200 USD) plus potenciální dopad na skóre CSA (který může ovlivnit sazby pojištění o 5–12 % za rok).Opakovaný pachatel v Kalifornii může snadno čelit celkové ceně 2 500 $ za porušení.I jediná pokuta často převyšuje měsíční náklady na financování bateriového elektrického systému.Informace o velikosti baterie, aby systém skutečně spolehlivě fungoval, naleznete v našem [LiFePO4 průvodci velikostí baterie](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

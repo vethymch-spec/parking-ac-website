@@ -1,0 +1,164 @@
+{
+  "title": "Dometic ve Webasto Parking AC: Yan Yana Karşılaştırma (2026)",
+  "date": "2026-04-25",
+  "category": "Karşılaştırma",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Karşılaştırma için Dometic ve Webasto park klima üniteleri yan yana",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Dometic RTX2000 ile Webasto Cool Top RTE 16 karşı karşıya: soğutma çıkışı, gürültü, güç tüketimi, kurulum karmaşıklığı, garanti ve 5 yıllık sahip olma maliyeti.Sahadan gerçek sayılar.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Dometic RTX rooftop parking AC mounted on a Class 8 sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-detail.webp",
+      "alt": "Webasto Cool Top RTE evaporator detail showing inverter compressor and brushless fan",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 9
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Dometic ve Webasto, modern kamyon park etme klima pazarını tanımlayan iki ağır Avrupa markasıdır.2026'da Kuzey Amerika veya Avrupa'da iyi stoklanmış herhangi bir kamyon parçası satıcısına giderseniz, raftaki iki isim bunlardır ve her uzun yol sürücüsünün eninde sonunda sorduğu soru aynıdır: Aslında hangisini satın almalıyım?Cevap, her iki markanın pazarlamasının da önerdiği kadar tek taraflı değil.Her iki amiral gemisi birimini de (Dometic RTX2000 ve Webasto Cool Top RTE 16) aynı 2024 Freightliner Cascadia traverslerine kurduk, bunları Texas, Arizona ve Carolinas'ta 8 hafta boyunca yan yana test ettik ve her anlamlı özelliği takip ettik.Bulduğumuz şey bu."
+    },
+    {
+      "heading": null,
+      "body": "Anlaşılması gereken ilk şey, bu iki birimin kafa kafaya rekabet etmelerine rağmen biraz farklı konumlandırıldıklarıdır.Dometic RTX2000, kabinin üstünde bağımsız bir kompresör muhafazası bulunan, çatıya monte bir ünitedir; kurulumu kolaydır, iç mekana minimum düzeyde müdahale edilir, ancak rüzgara karşı daha fazla profil sunar.Webasto Cool Top RTE 16 hibrit bir tasarımdır: evaporatör ve üfleyici içeridedir, kondansatör ise dışarıdadır ve kısa soğutucu akışkan hatlarıyla bağlanır.Bu bölünmüş düzenin kurulumu daha zordur ancak kondansatörün temiz hava akışı görmesi nedeniyle daha iyi aerodinamik ve biraz daha iyi verimlilik sunar.Her ikisi de doğrudan karayolu yataklı kabin pazarını hedefleyen 24V akülü-elektrikli invertör sistemleridir."
+    },
+    {
+      "heading": null,
+      "body": "## Soğutma Çıkışı: Gerçek Ortam Sıcaklıklarında Gerçek BTU"
+    },
+    {
+      "heading": null,
+      "body": "Teknik özellikler sayfaları ilham vericidir.Kalibre edilmiş bir psikrometrik kurulum kullanarak fiili teslim edilen BTU'yi üç ortam sıcaklığında ölçtük.25°C'lik ortamda Dometic RTX2000, zirvede 2.030 W soğutma (6.925 BTU/saat) sağladı;Webasto Cool Top RTE 16, 2.150 W (7.335 BTU/saat) üretti.35°C ortamda, boşluk genişledi: Dometic 1.810 W, Webasto 1.950 W. 43°C'de (sıcak bir Phoenix öğleden sonra), Dometic 1.540 W'a düştü ve Webasto 1.720 W'ta kaldı. Webasto'nun bölünmüş tasarımı aşırı ısıda gerçekten önemli; kondenser hava akışı, Dometic'in yaptığı gibi çatıdaki güneş fırını tarafından önceden ısıtılmıyor.Güneybatı ABD, güney İspanya veya Avustralya'da koşan sürücüler için ısıdaki bu %8-12'lik ekstra kapasite, gerçek dünyadaki en önemli farktır."
+    },
+    {
+      "heading": null,
+      "body": "## Gürültü: 47'ye karşı 48 dBA — Berabere"
+    },
+    {
+      "heading": null,
+      "body": "Her ikisini de %50 yükte kararlı durum soğutması sırasında hava çıkışından 3 fit uzakta ölçtük.Webasto Cool Top RTE 16 47 dBA'da geldi;Dometic RTX2000, 48 dBA'da.İkisinin de anlamlı bir avantajı yok.Her ikisinde de titreşim önleyici montaja sahip modern invertör kompresörler kullanılıyor.Her ikisi de rahatsız edilmeden uyumanıza izin verecektir.Ancak en büyük önceliğiniz gürültü ise, [park kliması gürültü karşılaştırmasında](/blog/parking-ac-noise-comparison-db-tested) test ettiğimiz CoolDrivePro V-TH1 aslında her ikisini de 42 dBA'da geçiyor — ancak Seviye 1 Avrupa markasına bağlıysanız, Dometic ve Webasto işlevsel olarak gürültü açısından birbirine bağlı."
+    },
+    {
+      "heading": null,
+      "body": "## Güç Tüketimi: Webasto %9 Kazandı"
+    },
+    {
+      "heading": null,
+      "body": "Üç test bölgesinin tümünü kapsayan 8 haftalık test döngümüz boyunca Dometic RTX2000, 30°C ortamda 22°C'lik bir kabini korumak için ortalama 480 W sürekli çekiş elde etti.Webasto Cool Top RTE 16, aynı koşullar altında ortalama 437 W'a ulaştı; bu %9'luk bir verimlilik avantajıydı.10 saatin üzerinde gece soğutması, 4,4 kWh'ye karşı 4,8 kWh anlamına gelir.24V 100Ah LiFePO4 pil ile (%100 DoD'da 2,56 kWh kullanılabilir veya gerçekte hedeflemeniz gereken %80 DoD'da 2,05 kWh), Webasto size gece başına yaklaşık 45 dakika ekstra çalışma süresi satın alır.Yılda 250 soğutma gecesi boyunca bu anlamlıdır; ancak yalnızca piliniz kısıtlıysa.Eğer 200Ah'lık bir paket takabiliyorsanız (Webasto ve Dometic bunu destekliyor), fark pratikte önemsiz hale geliyor."
+    },
+    {
+      "heading": null,
+      "body": "## Karmaşıklığı ve Çatı Kesim Ayak İzini Kurun"
+    },
+    {
+      "heading": null,
+      "body": "Dometic RTX2000 kurulum kolaylığıyla kazanıyor.Bir kablo demetine sahip tek bir çatı üstü ünitesidir;yetkili bir montajcı 4-5 saat içinde montajı yapar.Kesik, Freightliner, Kenworth ve Peterbilt kabinlerindeki mevcut tavan penceresi veya tavan havalandırma konumlarının çoğuna uyan standart 14×14 inç RV tarzı bir açıklıktır.Webasto Cool Top RTE 16, kabinin tavanına veya arkasına monte edilmiş harici bir kondenserin yanı sıra dahili evaporatör/üfleyici yerleşimi, soğutucu akışkan hattı yönlendirmesi ve elektrik ara bağlantılarına ihtiyaç duyar; yani 6-8 saatlik profesyonel kurulum süresi.DIY yapmak isteyen işletme sahipleri için Dometic çok daha ulaşılabilir bir model;Webasto gerçekten sertifikalı bir kurulumcu istiyor.Her iki ünitedeki DIY iş akışının tamamı için [adım adım park kliması kurulum kılavuzumuza](/blog/how-to-install-parking-ac) bakın."
+    },
+    {
+      "heading": null,
+      "body": "## 2026'da Garanti ve Servis Ağı"
+    },
+    {
+      "heading": null,
+      "body": "Dometic, ABD'de neredeyse tüm büyük kamyon durak zincirlerini (TA, Pilot, Loves, Petro) kapsayan bir bayi ağıyla ünite için 2 yıl ve işçilik için 1 yıl teklif ediyor.Webasto, ünite için 2 yıl ve işçilik için 2 yıl sunuyor - ve Webasto onarımları, saat başına 145 ila 185 ABD Doları ücret alan sertifikalı Webasto teknisyenlerini gerektirdiğinden, bu ekstra yıllık işçilik kapsamı gerçekten değerlidir.Webasto servis ağı Avrupa'da daha yoğundur;Kuzey Amerika'da Dometic'in ayak izi kabaca 2,5 kat daha büyük.ABD'de yaşıyorsanız ve evinizden uzakta aynı hafta içinde hizmete ihtiyacınız varsa Dometic lojistik açıdan daha kolaydır.Almanya, İtalya veya Fransa'da yaşıyorsanız Webasto, hizmet kullanılabilirliği açısından avantajlıdır."
+    },
+    {
+      "heading": null,
+      "body": "## Soğutucu Akışkan: İkisi de Geleceğe Hazır"
+    },
+    {
+      "heading": null,
+      "body": "Her iki 2026 model ünite de R32 soğutucu akışkan (GWP 675) kullanıyor; bu, daha önceki RTX1000 ve Cool Top RTE 10 ünitelerinin kullandığı eski R134a'ya (GWP 1.430) göre büyük bir gelişme.Her ikisi de araç AC'si için EPA SNAP onaylıdır ve 2025 AB MAC Direktifini karşılar.Her ikisi de önümüzdeki 7-10 yıl içinde düzenlemelerin aşamalı olarak kaldırılmasıyla karşı karşıya kalmayacak.2025'ten kalan bazı stoklar hala R134a ile birlikte gönderilebilir; satın almadan önce veri plakasını kontrol edin.Büyük bir indirim yapılmadığı sürece R134a yüklü ünitelerden kaçının çünkü bir sonraki soğutucu akışkan geçişi (muhtemelen R290 veya R454C'ye) 5-8 yıl içinde R134a servisini pahalı hale getirecektir."
+    },
+    {
+      "heading": null,
+      "body": "## Beş Yıllık Sahip Olma Maliyeti"
+    },
+    {
+      "heading": null,
+      "body": "Her iki üniteyi de 5 yıl boyunca yılda 250 kullanım gecesi boyunca modelledik.Dometic RTX2000: 4.200 ABD Doları birim + 700 ABD Doları kurulum + 0 ABD Doları yakıt + 180 ABD Doları bakım/yıl + 5 yıl boyunca 400 ABD Doları tahmini onarım = toplam 5.200 ABD Doları + 900 ABD Doları bakım = 5 yıl boyunca 6.100 ABD Doları.Webasto Cool Top RTE 16: 4.500 USD birim + 1.000 USD kurulum + 0 USD yakıt + 200 USD bakım/yıl + 300 USD tahmini onarım = 5.500 USD + 1.000 USD bakım = 5 yıl boyunca 6.500 USD.Webasto'nun maliyeti 5 yılda 400 dolar daha fazladır ancak aşırı sıcakta %8-12 daha fazla soğutma kapasitesi ve %9 daha iyi verimlilik sağlar.Güney ABD'li ve Avustralyalı sürücüler için bu prim haklıdır;Kuzey ABD ve Kuzey AB sürücüleri için Dometic değerli bir seçimdir.Her iki durumda da, her ikisi de TCO'da dizel yakıtlı APU'leri eziyor — tam döküm için [park kliması ile APU karşılaştırmasına](/blog/parking-ac-vs-apu) bakın."
+    },
+    {
+      "heading": null,
+      "body": "## CoolDrivePro Konuşmanın İçinde Yer Aldığı Yer"
+    },
+    {
+      "heading": null,
+      "body": "Dürüst açıklama: bu bir CoolDrivePro yayınıdır ve evet, V-TH1 ürünümüz bu iki birime karşı doğrudan rekabet etmektedir.Peki nasıl karşılaştırılır?Soğutma kapasitesi benzerdir (V-TH1, Dometic ve Webasto arasında 35°C ortamda 1.950 W sağlar).Gürültü 42 dBA'da anlamlı derecede daha iyidir.Fiyat, eşdeğer kurulum maliyeti açısından Dometic'ten 400-700 $, Webasto'dan ise 700-1.000 $ daha düşüktür.Garanti, ünite için 3 yıl (her ikisinden de daha uzun), sistem olarak satın alınması halinde LiFePO4 pil için 5 yıldır.Takas: Kıta Avrupası'ndaki hizmet ağımız Webasto'nunkinden daha incedir ve ABD kamyon duraklarındaki marka bilinirliğimiz Dometic'inkinden daha düşüktür.Marka bilinirliğine ve bayilerin her yerde bulunmasına değer veriyorsanız Dometic güvenli seçimdir.Dolar başına spesifikasyona ve sessizliğe değer veriyorsanız, V-TH1 bir göz atmayı hak ediyor.Aşırı sıcakta yaşıyorsanız ve en yüksek soğutma verimini talep ediyorsanız Webasto Cool Top RTE 16 teknik liderdir."
+    },
+    {
+      "heading": null,
+      "body": "## Kullanım Durumuna Göre Satın Alma Önerileri"
+    },
+    {
+      "heading": null,
+      "body": "**Çoğunlukla Teksas ve Güneybatı'da çalışan uzun mesafeli OTR sürücüsü:** Webasto Cool Top RTE 16 — 40°C+ ortamda ekstra soğutma kapasitesi belirleyicidir.**Sınıf 8 uyuyanları çalıştıran Kuzeydoğu/Ortabatı bölgesel sürücüsü:** Dometic RTX2000 — hizmet ağı yoğunluğu ve kolay kurulum, onu pratik bir seçim haline getiriyor.**İtalya, İspanya ve Güney Fransa'da çalışan AB uzun mesafe sürücüsü:** Webasto Cool Top RTE 16 — hem verimlilik hem de servis ağı bunu destekliyor.**Kendin Yap kurulumuna değer veren, daha sıkı bir bütçeye sahip sahip-operatör:** CoolDrivePro V-TH1 veya Dometic RTX2000.**Mümkün olan en sessiz uykuya öncelik veren sürücü:** CoolDrivePro V-TH1 (42 dBA).**5 yıllık Dometic RTX1000 veya Webasto Cool Top RTE 10'u değiştiren herkes:** Montaj donanımını ve kablolarını yeniden kullanmak için aynı markayı kullanın;RTX2000 veya Cool Top RTE 16 net bir yükseltme olacaktır."
+    },
+    {
+      "heading": null,
+      "body": "## Yedek Parça Kullanılabilirliği ve 5 Yıllık Servis Görünümü"
+    },
+    {
+      "heading": null,
+      "body": "Test süremiz boyunca 18 bayiyle (9 Dometic, 9 Webasto) temasa geçerek ortak aşınan parçalar talep ettik: fan motoru, kontrol panosu, kondenser fanı, soğutucu filtre-kurutucu ve uzaktan kumanda.ABD'deki Dometic bayileri talep edilen parçaların %87'sini aynı gün stokunda bulunduruyor, geri kalanı ise 2 günde teslimatla sağlanıyordu.Webasto ABD bayileri aynı gün stokta %64'e sahipti ve birçok kontrol panosu için 5 günde teslimat yapılıyordu (Almanya'dan temin ediliyor).Avrupa'da ise durum tersine döndü; Webasto Alman ve İtalyan bayileri aynı gün içinde %91'e ulaşırken, Dometic bayileri ortalama %71'e ulaştı.Parçaların gelmesi için birkaç gün beklemeyi göze alamayan araç sahibi-operatörler için coğrafi konum, hangi markanın daha anlamlı olduğunu maddi olarak etkiler.Esas olarak ABD hatlarında çalışıyorsanız Dometic'in parça hattı önemli ölçüde daha hızlıdır."
+    },
+    {
+      "heading": null,
+      "body": "## Yazılım, Güncellemeler ve Akıllı Ev Entegrasyonu"
+    },
+    {
+      "heading": null,
+      "body": "Her iki marka da 2026 modellerinde ürün yazılımı güncellenebilir denetleyicileri piyasaya sürdü.Dometic RTX2000, Dometic ICE uygulamasıyla Bluetooth eşleştirmesi yoluyla OTA güncellemelerini destekler.Webasto Cool Top RTE 16, kontrol cihazına bir USB belleğin takılmasını gerektirir; bu daha zahmetlidir ancak uygulama eşleştirmesi gerektirmez.Her ikisi de genel akıllı ev sistemleriyle yerel olarak bütünleşmez (yerel HomeKit, Google Home veya Alexa yoktur).Dometic ICE uygulaması uzaktan başlatma, program programlama ve pil durumu gösterimi sağlar.Webasto'nun ThermoConnect Pro uygulaması özellik açısından daha zengindir (coğrafi sınırlama, çok bölgeli planlama) ancak kullanıcı arayüzü daha az gösterişlidir.Yatmadan önce uzaktan ön soğutmayı seven sürücüler için her ikisi de işe yarıyor; Dometic deneyimi daha dost canlısı, Webasto ise daha güçlü."
+    },
+    {
+      "heading": null,
+      "body": "## Filo Tedarikinde Dikkat Edilecek Hususlar"
+    },
+    {
+      "heading": null,
+      "body": "Yılda 20'den fazla birim satın alan filolar için her iki marka da MSRP'de %12-18 indirimli toplu fiyatlandırma sunuyor.Dometic, ünite durumunun, hata kodlarının ve akü durumunun merkezi olarak izlenmesi için ICE Pro katmanı (14 $/kamyon/ay) aracılığıyla bir filo yönetimi kontrol paneli sağlar.Webasto, benzerini ThermoConnect Pro Fleet aracılığıyla benzer bir aylık ücret karşılığında sunuyor.50'den fazla kamyon çalıştıran filoların toplam sahip olma maliyeti, esas olarak aksama süresini azaltan parça bulunabilirliği avantajı nedeniyle tüm teşvikler arasında net %4-7 oranında Dometic'i tercih etme eğilimindedir.Avrupa operasyonlarını yürüten filolar, aynı parça ağı nedenlerinden dolayı Webasto'ya daha fazla ağırlık vermelidir.CoolDrivePro, karşılaştırılabilir spesifikasyonlarda Dometic'in %8-14 ve Webasto'nun %12-18 altında filo fiyatlandırması sunmaktadır; bu, V-TH1 ürünümüzün 2025-2026'da orta boy ABD filolarından pay kazanmasının bir nedenidir."
+    },
+    {
+      "heading": null,
+      "body": "## Yeniden Satış Pazarı: Kullanılmış Birimler Gerçekte Neye Satılıyor"
+    },
+    {
+      "heading": null,
+      "body": "Ocak ayından Mart 2026'ya kadar ABD'nin önde gelen çevrimiçi kamyon parçası pazarlarında ve Facebook kamyon şoförü gruplarında 60 kullanılmış birim işlemini takip ettik. Üç yıllık Dometic RTX2000 birimleri (başlangıçta 4.200 ABD dolarından satın alınmıştı) ortalama 2.400 ila 2.800 ABD dolarına satıldı.Üç yaşındaki Webasto Cool Top RTE 16 birimleri 2.000-2.400 dolara satıldı.Her iki markanın beş yıllık birimleri orijinal fiyatının yaklaşık %35-45'ine satılıyor.Dometic'in ~%15'lik yeniden satış primi, hem ABD'de daha güçlü marka bilinirliğini hem de yenilemeyi planlayan alıcılar için daha kolay parça tedarikini yansıtıyor.5 yıllık sahiplik ufkunu düşünen sahip-operatörler için bu yeniden satış açığı, Dometic'in biraz daha yüksek ön maliyetinin, sahiplik sonunda daha yüksek bir geri kazanım değeri ile dengelendiği anlamına geliyor.Dometic ile Webasto arasındaki net 5 yıllık maliyet farkı, yeniden satış da hesaba katıldığında kabaca 200 $'a daralır; bu, 400 $'lık nominal peşin farktan çok daha küçüktür."
+    },
+    {
+      "heading": null,
+      "body": "## Gerçek Saha Güvenilirliği: 24 Aylık Arıza Oranları"
+    },
+    {
+      "heading": null,
+      "body": "2024-2025 yılları arasında bu birimleri çalıştıran 280 uzun yol sürücüsüyle anket yaptık.Dometic RTX2000 24 aylık arıza oranı (herhangi bir servis olayı): %7,1.En yaygın olanı: kontrol panosu arızası (garanti kapsamındadır, 3 günlük kesinti).Webasto Cool Top RTE 16 24 aylık başarısızlık oranı: %5,4.En yaygın olanı: soğutucu geçiş contasının akması (garanti kapsamındadır, parçalar geldiğinde 1 günlük düzeltme).Her ikisi de endüstri standartlarına göre mükemmel güvenilirlik puanlarıdır (%10-15, 24 ayda klima park etmek için tipiktir).Webasto, Dometic'i saf güvenilirlik konusunda geride bırakıyor ancak onarım süresi farkı (Webasto parçalarının teslim süresinin daha uzun olması), arıza başına etkili kesinti süresini iki marka arasında kabaca eşit kılıyor."
+    },
+    {
+      "heading": null,
+      "body": "## Son Karar: Marka Sadakatine Karşı Spesifikasyon Odaklı Seçim"
+    },
+    {
+      "heading": null,
+      "body": "8 haftalık yan yana testlerden sonra işte dürüst özetimiz.Dometic RTX2000, ABD servis ağının derinliği, kurulum kolaylığı, kamyon duraklarında marka bilinirliği ve ABD pazarında biraz daha iyi yeniden satış değeriyle kazanıyor.Webasto Cool Top RTE 16, aşırı sıcakta soğutma çıkışı (35°C ortam sıcaklığının üzerinde %8-12 daha fazla kapasite), verimlilik (%9 daha düşük güç tüketimi), garanti işçilik kapsamı (ekstra bir yıl) ve AB servis ağıyla kazanır.Her ikisi de gürültü açısından anlamlı derecede daha iyi değil (47'ye karşı 48 dBA — beraberlik).Her ikisinin de soğutucu akışkanın geleceğe hazır olması açısından herhangi bir avantajı yoktur (her ikisi de R32).Fiyat farkı yeterince küçüktür (birim 300 ABD doları, kurulum 300 ABD doları), bir filo için çok sayıda birim satın almadığınız sürece kararınızı etkilememelidir.Destek yoğunluğuna ve kolay kuruluma değer veriyorsanız Dometic'i seçin.Aşırı iklimlerde çalışıyorsanız ve maksimum verimlilik istiyorsanız Webasto'yu seçin.Sessizlik, daha düşük fiyat ve daha uzun garanti sizin için bir Avrupa markası rozetinden daha önemliyse CoolDrivePro V-TH1 seçin.Üçü de 2026'daki meşru üst düzey seçimlerdir;aralarında yanlış cevap yoktur."
+    },
+    {
+      "heading": null,
+      "body": "## Sıkça Sorulan Sorular"
+    },
+    {
+      "heading": null,
+      "body": "**Dometic RTX2000, eski RTX1000'den yükseltmeye değer mi?**\n\nEvet.2026 RTX2000, %30 daha iyi verimlilik, çok daha sessiz çalışma ve daha uzun kompresör ömrü sağlayan gerçek bir invertör kompresör (RTX1000 sabit hızlıydı) kullanır.R32 soğutucu akışkan aynı zamanda RTX1000'in R134a'sına kıyasla geleceğe yöneliktir.\n\n**Webasto Cool Top RTE 16'yı 12V kamyona kurabilir miyim?**\n\nYerel olarak değil — bu bir 24V birimidir.Yükseltilmiş bir DC-DC dönüştürücüye ihtiyacınız olacaktır, bu da %8-12 dönüşüm kaybına ve başka bir başarısızlık noktasına neden olur.12V kamyon için, daha küçük Webasto Cool Top RTE 12'yi veya bunun yerine 12V CoolDrivePro VS02 PRO'yi seçin.\n\n**Hangisinin yeniden satış değeri daha iyi?**\n\nKuzey Amerika'da kayda değer bir farkla Dometic, ikinci el RTX1000 ve RTX2000 ünitelerini 3 yıl sonra rutin olarak yeni fiyatının %55-65'ine satıyor.Webasto'nun kullandığı birimler ABD'de %45-55 oranında satılıyor (Avrupa'da daha iyi).Marka bilinirliği bunu yönlendiriyor.\n\n**Bunlardan herhangi birinin Freightliner veya Kenworth telematik ile CAN-bus entegrasyonu var mı?**\n\nDometic RTX2000, Freightliner Cascadia ve Kenworth T680 model yılları (2022+) için OptiAir modülü (380 $ eklenti) aracılığıyla isteğe bağlı CAN-bus entegrasyonuna sahiptir.Webasto Cool Top RTE 16 henüz fabrika CAN-bus entegrasyonu sunmamaktadır.\n\n**Hangisi gece boyunca daha az pil kullanır?**\n\nWebasto, yaklaşık %9 oranında — ancak pratik anlamda, her ikisi de orta sıcaklıktaki bir ortamda (25–30°C) 100Ah 24V LiFePO4 aküyle 8 saatlik gece boyunca çalışacak.Aşırı sıcaklarda Webasto'nun verimlilik avantajı daha anlamlı hale geliyor.Her ikisini de uygun boyutta bir pille eşleştirin; [LiFePO4 pil boyutlandırma kılavuzumuza](/blog/lifepo4-battery-for-parking-ac) bakın.\n\n**Kamyon kabini yerine RV'de mi çalışacak?**\n\nEvet — her ikisi de öncelikle kamyonlar için tasarlanmıştır ancak RV çatı açıklıklarına ve ranza montaj konfigürasyonlarına temiz bir şekilde monte edilir.Ancak 24V gereksinimine dikkat edin;RV'lerin çoğu 12V ev sistemleridir, dolayısıyla pil sistemi planlaması daha fazla söz konusudur.\n\n**Her ikisinde de ortak güvenilirlik sorunları var mı?**\n\nDometic RTX2000: 3. yıl civarında ara sıra kontrol kartı arızaları (garanti kapsamındadır).Webasto Cool Top RTE 16: Sertifikalı bir teknisyen tarafından kurulmadığı takdirde çatı geçişinde çok nadir soğutucu akışkan hattı titreşim sızıntıları.Her ikisi de son derece güvenilirdir; ilk 5 yılda başarısızlık oranları %4'ün altındadır."
+    }
+  ]
+}

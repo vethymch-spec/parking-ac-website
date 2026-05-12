@@ -1,0 +1,156 @@
+{
+  "title": "Systèmes de climatisation pour camions sans ralenti : comment se conformer aux lois nationales anti-ralenti (2026)",
+  "date": "2026-04-25",
+  "category": "Conformité",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+  "imageAlt": "Système de climatisation pour camion sans ralenti électrique à batterie installé pour assurer la conformité anti-ralenti",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Lois anti-ralenti État par État et comment se conformer à la climatisation des camions sans ralenti.CARB (amendes de 300 à 1 000 $), plus de 30 limites d'État, EPA SmartWay et les 5 systèmes qui répondent aux exigences de 2026.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac_56794866.webp",
+      "alt": "Class 8 truck parked with no-idle battery-electric AC system providing cab climate control",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Installation of no-idle compliant battery system for truck cab cooling",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Les lois contre la marche au ralenti ne sont plus une question marginale.D'ici avril 2026, plus de 30 États américains, le District de Columbia et un nombre croissant de municipalités imposent des limites de marche au ralenti aux poids lourds.Les amendes commencent à 150 $ et grimpent jusqu'à 25 000 $ pour les entreprises récidivistes en Californie.L’EPA estime que la marche au ralenti gaspille plus d’un milliard de gallons de diesel et 11 millions de tonnes de CO2 par an dans le seul secteur américain du camionnage – et les régulateurs réagissent par une application plus stricte, et pas seulement par des lois plus strictes.Si vous êtes propriétaire exploitant ou gestionnaire de flotte, la question en 2026 n’est pas de savoir s’il faut passer à une solution sans ralenti, mais laquelle choisir.Ce guide présente le paysage réglementaire, les options technologiques conformes et l'analyse coûts-avantages réelle."
+    },
+    {
+      "heading": null,
+      "body": "Un « climatiseur de camion sans ralenti » est tout système qui permet de contrôler la température de l'habitacle sans faire fonctionner le moteur diesel principal du camion.Trois catégories sont admissibles : les climatiseurs de stationnement électriques à batterie (les plus propres et les plus silencieux), les chauffages de stationnement et les climatiseurs au diesel (coût initial inférieur, produisent toujours des émissions mais exemptés de la plupart des lois sur la marche au ralenti car ils consomment beaucoup moins de carburant) et les systèmes alimentés uniquement à quai (zéro émission mais limité aux relais routiers dotés d'espaces de stationnement électrifiés).Les groupes motopropulseurs auxiliaires (APU) constituent un cas limite : ils sont généralement considérés comme « sans ralenti » car ils remplacent le moteur principal au ralenti, mais la Californie et plusieurs autres États appliquent désormais eux-mêmes des normes d'émissions aux APU en vertu des règles du CARB."
+    },
+    {
+      "heading": null,
+      "body": "## Les principales lois des États que vous devez connaître en 2026"
+    },
+    {
+      "heading": null,
+      "body": "**Californie (CARB) :** Le plus strict.La limite d'inactivité de 5 minutes s'applique dans tout l'État ;Les camions de 2008 et plus nécessitent une certification d'émissions APU ou un système électrique à batterie.Amendes : 300 $ pour la première infraction, 1 000 $ pour la récidive, plus une exposition quotidienne de 25 000 $ pour l'entreprise.L'application de la loi est active dans tous les principaux ports et stations de pesée.**New York :** Limite de 5 minutes dans tout l'État, limite de 3 minutes à New York.Amendes de 260 $ à 2 400 $.Appliqué de manière agressive dans cinq arrondissements de New York.**Massachusetts :** Limite de 5 minutes.Jusqu'à 25 000 $ d'amendes répétées.**New Jersey :** Limite d'inactivité de 3 minutes (l'une des plus strictes).Amendes de 250 $ à 1 000 $.**Washington et Oregon :** limites de 5 minutes.L’application de la loi dans le nord-ouest du Pacifique est en hausse.**Texas :** Aucune limite à l'échelle de l'État, mais Houston, Dallas-Fort Worth, El Paso et Austin ont des limites municipales de 5 minutes.**Illinois :** Limite de 10 minutes sur la plupart des camions diesel.**Maryland, Virginie, DC :** Limites coordonnées de 5 minutes dans la zone métropolitaine DC.**Floride :** Aucune limite à l'échelle de l'État, mais Miami-Dade applique une règle des 5 minutes avec une amende de 500 $.**Colorado :** Limite de 5 minutes, amendes pouvant aller jusqu'à 700 $.En 2026, les seuls États sans aucune application significative sont le Wyoming, le Dakota du Nord, le Dakota du Sud, le Mississippi et l'Alabama – et cette liste diminue chaque année."
+    },
+    {
+      "heading": null,
+      "body": "## Exemptions les plus courantes (et les pièges)"
+    },
+    {
+      "heading": null,
+      "body": "La plupart des lois des États exemptent la marche au ralenti pour : le froid extrême (en dessous de 0°F ou parfois 32°F), la chaleur extrême (au-dessus de 80°F ou 90°F selon l'état), la période de repos requise par le DOT (en Californie, c'est conditionnel, pas global) et le chargement/déchargement actif.Le piège : les agents chargés de l’application des lois ne sont pas obligés de vous croire sur parole concernant la température.Ils vérifient la lecture locale du NWS au moment de la citation.Si vous tournez au ralenti à 75°F parce que « il fait chaud », vous serez condamné à une amende.De plus, plusieurs États (CA, NJ, NY) ont entièrement supprimé l'exemption de chaleur si votre camion est équipé d'une alternative sans ralenti – ce que sont désormais la plupart des camions modernes.Posséder une climatisation de stationnement et ne pas l’utiliser ne vous donne pas de laissez-passer."
+    },
+    {
+      "heading": null,
+      "body": "## Batterie électrique : la voie de conformité la plus propre"
+    },
+    {
+      "heading": null,
+      "body": "Un système de climatisation de stationnement électrique à batterie (pensez à la batterie CoolDrivePro V-TH1 + 200 Ah 24V LiFePO4 + chargeur 50 A DC-DC) est admissible aux règles de non-ralenti de chaque État avec des cas de bord zéro.Zéro émission, zéro souci de bruit, zéro problème de permis.Coût initial : 4 500 $ à 6 500 $ installé.Coût d'exploitation annuel : environ 700 $ de carburant supplémentaire entraîné par l'alternateur pour recharger la batterie.Comparez avec une marche au ralenti pendant 250 nuits × 10 heures × 3,95 $/gal × 0,9 gal/h = 8 887 $/an.Économies nettes : 8 150 $/an.Retour sur investissement en 7 à 9 mois pour un propriétaire-exploitant exploitant des itinéraires OTR principaux.Pour les flottes, les calculs sont encore meilleurs, car vous évitez également les frais généraux de reporting de conformité CARB et les problèmes de garantie liés au ralenti.Consultez notre [comparaison complète des parkings AC et APU](/blog/parking-ac-vs-apu) pour connaître la répartition des coûts entre pommes et pommes."
+    },
+    {
+      "heading": null,
+      "body": "## Climatisation de stationnement alimentée au diesel : la voie du milieu"
+    },
+    {
+      "heading": null,
+      "body": "Les systèmes Webasto Cool Top RTE 16 (lorsqu'il est configuré avec le booster alimenté au diesel) et les systèmes Eberspächer Airtronic Cool brûlent 0,05 à 0,10 gal/h du réservoir de diesel principal du camion.Ils produisent des émissions minimales (bien en dessous du moteur principal), émettent un bruit modeste (45 à 55 dBA) et sont admissibles à des exemptions de marche au ralenti dans les 50 États.Le coût initial est inférieur à celui des systèmes à batterie complète (2 500 $ à 4 000 $ installés).Le coût de fonctionnement est plus élevé que celui de la batterie (environ 1 200 $/an en diesel), mais reste inférieur à 15 % de la marche au ralenti du moteur.Pour les propriétaires-exploitants qui ne peuvent pas se permettre le système de batterie initial, le diesel est un compromis défendable.L'inconvénient : le bruit, les émissions et la nécessité de maintenir un petit système de carburant auxiliaire au fil du temps."
+    },
+    {
+      "heading": null,
+      "body": "## APUs : pour la plupart conforme, avec des astérisques CARB"
+    },
+    {
+      "heading": null,
+      "body": "Les unités de puissance auxiliaires comme le Carrier ComfortPro ou le RigMaster MTS-T4 font fonctionner un petit moteur diesel (15 à 20 ch) en continu pour alimenter les charges de courant alternatif, de chauffage et d'onduleur.Il s’agissait de la solution anti-inactivité dominante de 2005 à 2018.Ils fonctionnent toujours – ils bénéficient d’exemptions de la loi sur le ralenti dans 49 États parce qu’ils ont des émissions par heure bien inférieures à celles d’un moteur principal de 500 ch.**La Californie est l'astérisque.** Depuis 2008, CARB exige que les APUs répondent à une norme d'émissions de niveau 4, avec une mise à jour de 2024 exigeant un DPF (filtre à particules diesel) sur les installations plus récentes.De nombreux APU plus anciens en service ne sont pas conformes, et en exploiter un en Californie risque des amendes même si l'unité est techniquement un appareil « sans ralenti ».Les APU perdent également du terrain en matière de bruit : leurs 60 à 67 dBA au niveau de la couchette sont de plus en plus considérés comme des alternatives inférieures aux normes par rapport aux alternatives électriques à batterie."
+    },
+    {
+      "heading": null,
+      "body": "## Comparaison de cinq systèmes compatibles 2026"
+    },
+    {
+      "heading": null,
+      "body": "**1.CoolDrivePro V-TH1 + 200 Ah 24V LiFePO4 système de batterie** — Batterie électrique.5 200 $ installés.42 dBA.Zéro émission.Conforme dans les 50 États + UE.Idéal pour : les propriétaires-exploitants et les flottes qui donnent la priorité au TCO.**2.Batterie Dometic RTX2000 + 200 Ah** — Électrique à batterie.5 500 $ installés.48 dBA.Zéro émission.Conforme partout.Idéal pour : les conducteurs qui apprécient la reconnaissance de la marque de niveau 1 et la densité des concessionnaires américains.**3.Batterie Webasto Cool Top RTE 16 + 200 Ah** — Électrique à batterie (ou module complémentaire au diesel disponible).5 800 $ installés.47 dBA.Idéal pour : les régions de chaleur extrême où l’efficacité de la conception divisée est la plus importante.**4.Carrier ComfortPro APU (conforme CARB 2026)** — Diesel APU.9 800 $ installés.64 dBA au niveau de la couchette.Conforme dans tous les états au nouveau DPF.Idéal pour : les conducteurs qui souhaitent une autonomie illimitée et qui ont de faibles problèmes de budget initial.**5.RigMaster MTS-T4 avec CARB DPF** — Diesel APU.8 500 $ installés.67 dBA.Conforme à la mise à jour actuelle.Idéal pour : le remplacement d'anciens APU ou les rénovations de flotte sensibles aux coûts."
+    },
+    {
+      "heading": null,
+      "body": "## Histoires de vrais conducteurs : trois citations évitées"
+    },
+    {
+      "heading": null,
+      "body": "**Cas 1 :** Le propriétaire-exploitant exploitant des voies CA-IL a reçu une amende CARB de 1 000 $ en 2023 pour avoir fonctionné au ralenti pendant 25 minutes dans une aire de repos de Bakersfield par une température de 90 °F (aucune solution anti-ralenti côté camion n'a été installée).Après avoir installé un système de batterie CoolDrivePro V-TH1 début 2024, aucune autre citation sur 22 mois et plus de 180 arrêts en Californie.Retour sur investissement du système grâce aux seules amendes évitées : 12 mois.**Cas 2 :** Une flotte régionale de cinq camions dans la région métropolitaine de New York a accumulé 3 800 $ d'amendes pour infraction de 3 minutes sur 8 mois en 2024. Installation de systèmes Dometic RTX2000 sur les cinq unités.Zéro violation dans les 18 mois suivants.**Cas 3 :** Un conducteur indépendant circulant sur la voie TX-FL a été cité à Houston pour avoir tourné au ralenti pendant 18 minutes dans une aire de repos gérée par la ville malgré une température ambiante de 95 °F (Houston supprime l'exemption de chaleur lorsque le camion est équipé d'un système anti-ralenti installé).La leçon : une fois que vous disposez d’une option sans veille, vous devez l’utiliser.La marche au ralenti parce que vous avez « oublié » ou « préféré » le moteur principal entraîne la même pénalité que ne pas avoir de système du tout."
+    },
+    {
+      "heading": null,
+      "body": "## EPA SmartWay et incitatifs pour les fabricants"
+    },
+    {
+      "heading": null,
+      "body": "Le partenariat de transport SmartWay de l'EPA récompense les transporteurs qui exploitent des flottes économes en carburant et à faibles émissions.Les systèmes électriques sans ralenti à batterie contribuent de manière significative à votre score SmartWay, ce qui peut débloquer des préférences contractuelles avec les principaux expéditeurs (Walmart, Target, Procter & Gamble, FedEx, UPS et la plupart des acheteurs logistiques Fortune 500 favorisent explicitement les transporteurs certifiés SmartWay lors de l'évaluation des offres).Pour les flottes, cela se traduit souvent par des tarifs contractuels 3 à 5 % plus élevés, soit une augmentation substantielle des revenus.Plusieurs constructeurs de camions (Freightliner, Kenworth, Peterbilt, Volvo) proposent désormais des options de climatisation de stationnement avec batterie installée en usine à un rabais important par rapport à la mise à niveau du marché secondaire.Demandez à votre revendeur ;l'année modèle 2026 propose plus d'options d'intégration sans inactivité que jamais."
+    },
+    {
+      "heading": null,
+      "body": "## Ordonnances municipales locales : la couche cachée"
+    },
+    {
+      "heading": null,
+      "body": "Au-delà des lois des États, plus de 200 municipalités américaines ont adopté des ordonnances locales interdisant le ralenti qui sont plus strictes que la loi des États.Exemples notables : Portland OR (limite de 3 minutes), Boston MA (5 minutes même si l'État autorise plus de temps dans certains cas), Atlanta GA (10 minutes, malgré l'absence de loi de l'État de Géorgie), Denver CO (5 minutes), Salt Lake City UT (2 minutes pendant les alertes d'inversion hivernales), Pittsburgh PA (5 minutes).L'application est généralement assurée par les services environnementaux de la ville ou par la police.Les amendes varient de 100 $ à 750 $ par infraction.La plupart des municipalités affichent des panneaux d'interdiction de marche au ralenti dans les principales aires de repos et dans les zones de chargement du centre-ville, mais l'application se fait également de manière aléatoire : les conducteurs garés la nuit dans les zones commerciales de l'une de ces villes peuvent être cités même sans signalisation affichée.La climatisation de stationnement électrique à batterie est la seule solution universellement conforme aux niveaux étatique et municipal."
+    },
+    {
+      "heading": null,
+      "body": "## Comment les flottes documentent et prouvent leur conformité"
+    },
+    {
+      "heading": null,
+      "body": "Les plates-formes télématiques modernes (Geotab, Samsara, Motive) s'intègrent aux systèmes de climatisation de stationnement électrique à batterie via le bus CAN, enregistrant le temps d'utilisation du courant alternatif et le temps d'arrêt du moteur principal par emplacement.Ces rapports constituent des preuves recevables dans le cadre de contestations fines et démontrent une conformité proactive aux régulateurs.Par exemple, un rapport Geotab montrant « moteur principal éteint, climatisation de stationnement active pendant 8,4 heures aux coordonnées GPS dans la zone d'application du CARB de Bakersfield » réfute complètement toute citation potentielle d'inactivité.De nombreuses flottes utilisent également ces rapports pour la soumission SmartWay et les rapports ESG côté client.Coût d'intégration : 0 à 200 $ par camion pour le câble et l'adaptateur, en plus de l'abonnement télématique existant.ROI : la première amende évitée le rapporte plusieurs fois, et elle renforce également la conformité globale de la flotte en matière de souscription d'assurance."
+    },
+    {
+      "heading": null,
+      "body": "## Tendances internationales contre la marche au ralenti"
+    },
+    {
+      "heading": null,
+      "body": "Les réglementations anti-ralenti s’accélèrent également en dehors des États-Unis.Les objectifs de réduction des émissions de CO2 de l'Union européenne pour les véhicules lourds (-15 % d'ici 2025, -30 % d'ici 2030 par rapport à 2019) obligent effectivement les flottes à adopter des solutions sans marche au ralenti, car la marche au ralenti du moteur principal compte dans le budget CO2 par véhicule.L'Allemagne, les Pays-Bas, la Suède et le Danemark ont ​​déjà imposé des limites municipales au ralenti dans les grandes villes.Le ministère britannique des Transports a signalé une application plus stricte du ralenti à partir de 2026-2027 dans les zones à faibles émissions de Londres.Les réglementations provinciales du Canada varient considérablement : l'Ontario a une limite d'une minute d'inactivité à Toronto, la Colombie-Britannique a une limite de 3 minutes à Vancouver.L'EPA australienne de Nouvelle-Galles du Sud impose des limites de 3 minutes dans les principaux dépôts.Le Mexique a commencé à imposer une limite de 5 minutes à Mexico.La tendance mondiale est claire : les mesures anti-ralenti se renforcent partout, et le stationnement électrique à batterie AC est la solution universelle."
+    },
+    {
+      "heading": null,
+      "body": "## Comment vérifier votre conformité avant un long voyage"
+    },
+    {
+      "heading": null,
+      "body": "Avant un voyage dans plusieurs États, prenez 15 minutes pour vérifier votre posture de conformité sans inactivité.(1) Confirmez le type de votre système installé (électrique à batterie, alimenté au diesel ou APU) et ayez la documentation accessible.(2) Vérifiez le dernier décret CARB pour votre modèle APU si vous voyagez à travers la Californie : les commandes sont mises à jour chaque année et un modèle précédemment conforme peut nécessiter une mise à jour logicielle.(3) Photographiez votre système installé au début du voyage ;il s’agit d’une preuve utile dans tout litige en matière de conformité.(4) Enregistrez les règles d'exemption spécifiques à l'État sur votre téléphone (l'EPA dispose d'une application de référence gratuite appelée « IdleBox »).(5) Pour les flottes, assurez-vous que votre répartiteur dispose des documents de certification anti-ralenti appropriés dans ses dossiers pour chaque camion.Un contrôle de conformité de 5 minutes avant le départ a permis d'éviter des amendes de plusieurs milliers de dollars aux conducteurs que nous avons interrogés."
+    },
+    {
+      "heading": null,
+      "body": "## Quand les chiffres ne justifient pas un investissement en matière de conformité"
+    },
+    {
+      "heading": null,
+      "body": "Soyez honnête à propos de votre profil de conducteur.Si vous effectuez moins de 50 nuits en cabine couchette par an (par exemple, les conducteurs régionaux qui rentrent chez eux quotidiennement), le dossier financier pour un système sans ralenti de plus de 5 000 $ est plus faible.Le seuil de rentabilité est d’environ 80 à 100 nuits par an de remplacement d’inactivité pendant la nuit.Pour les conducteurs peu nocturnes, un Webasto Cool Top RTE Diesel au diesel (2 800 $ installé) ou même un refroidisseur de marais à l'ancienne 12V (300 $) peut être le choix le plus économique, même s'ils ne sont pas aussi élégants.L'exception : si vous entrez régulièrement dans des zones de Californie ou de New York soumises à une application stricte, même quelques citations par an peuvent justifier le système complet sur la seule base de l'économie d'évitement des amendes.Calculez votre cas spécifique : nuits × heures d'inactivité × coût du diesel par rapport à l'amortissement du système, et laissez-vous guider par les chiffres."
+    },
+    {
+      "heading": null,
+      "body": "## Rassembler tout cela : votre plan d'action de conformité pour 2026"
+    },
+    {
+      "heading": null,
+      "body": "Si vous n'avez pas encore opté pour une solution anti-inactivité, voici le plan d'action pratique sur 30 jours.Semaine 1 : identifiez votre modèle de conduite typique (voies nationales, heures d'inactivité moyennes pendant la nuit, exposition à la température ambiante) et calculez votre coût d'inactivité annuel.Semaine 2 : obtenez trois devis d'installateurs agréés : un pour l'électrique à batterie (CoolDrivePro V-TH1 ou Dometic RTX2000), un pour le diesel (Webasto) et un pour la mise à niveau APU (uniquement si votre APU actuel est récent et conforme au CARB).Semaine 3 : examinez les devis par rapport à votre coût d'inactivité annuel ;le retour sur investissement devrait être inférieur à 12 mois pour la plupart des conducteurs OTR.Semaine 4 : réservez votre installation et préparez-vous à documenter l'achèvement de l'installation à des fins de garantie et d'assurance.Le choix le plus coûteux que vous puissiez faire en 2026 est de retarder cette décision et d’accumuler une autre année d’amendes inutiles et de gaspillage de carburant.La technologie est mature, les coûts sont favorables et l’orientation réglementaire est à sens unique.Agissez maintenant."
+    },
+    {
+      "heading": null,
+      "body": "## Questions fréquemment posées"
+    },
+    {
+      "heading": null,
+      "body": "**Quel est l'état le plus strict contre la marche au ralenti en 2026 ?**\n\nCalifornie (CARB), avec des limites de 5 minutes à l'échelle de l'État, des amendes de 300 $ à 1 000 $ par infraction et des exigences supplémentaires de conformité CARB sur les émissions APU.Le New Jersey arrive juste derrière avec une limite de 3 minutes et une application agressive.\n\n**Puis-je tourner au ralenti par temps froid pour rester au chaud ?**\n\nLa plupart des États autorisent la marche au ralenti pour le chauffage de l'habitacle en dessous de 0 °F ou 32 °F (varie selon les États).Plusieurs ont supprimé cette exemption si votre camion dispose d'une alternative sans ralenti installée.Vérifiez les règles actuelles de votre État : elles se sont considérablement renforcées en 2024 et 2025.\n\n**Les APU comptent-ils vraiment comme des systèmes sans inactivité ?**\n\nOui dans 49 États.La Californie restreint les APU qui ne répondent pas aux normes d'émissions Tier 4 de 2024 avec le DPF.Si votre APU est antérieur à 2024 et que vous opérez en Californie, vérifiez l'état de conformité avant de vous y fier pour une exemption d'inactivité.\n\n**Comment un climatiseur de stationnement pour cabine-couchette se compare-t-il à un APU en termes de conformité ?**\n\nLa climatisation de stationnement électrique à batterie est entièrement conforme partout, sans exception.Les APU sont conformes dans 49 États, avec des réserves réglementaires en Californie.L’électrique à batterie est le choix le plus sûr si vous traversez régulièrement les frontières de l’État.\n\n**Que se passe-t-il si je suis garé sur un quai client et qu'ils exigent que je m'éteigne ?**\n\nLa plupart des expéditeurs et des parkings côté clients appliquent une tolérance zéro en matière de marche au ralenti, quelle que soit la loi de l'État.De nombreux grands entrepôts contrôlent désormais la marche au ralenti des camions grâce à des caméras de sécurité et interdisent l’accès de leurs installations aux récidivistes.La climatisation de stationnement électrique à batterie signifie que vous restez à l'aise sans risquer vos relations clients.\n\n**Existe-t-il des limites d'inactivité fédérales, ou uniquement étatiques et locales ?**\n\nIl n'existe actuellement aucune limite fédérale de ralenti pour les camions routiers.L'EPA encourage la réduction volontaire via SmartWay.Une action fédérale a été proposée à plusieurs reprises depuis 2018, mais n'a pas été adoptée par le Congrès en avril 2026. Les règles des États et locales sont la seule force juridique.\n\n**Combien coûte réellement une citation inactive en tenant compte de tout ?**\n\nAmende directe (150 $ à 1 000 $) plus frais de justice (50 $ à 200 $) plus impact potentiel sur le score CSA (qui peut affecter les tarifs d'assurance de 5 à 12 % pendant un an).Un récidiviste en Californie peut facilement faire face à un coût tout compris de plus de 2 500 $ par infraction.Même une seule amende dépasse souvent le coût mensuel de financement d’un système électrique à batterie.Pour connaître le dimensionnement de la batterie afin de faire fonctionner le système de manière fiable, consultez notre [guide de dimensionnement de la batterie LiFePO4](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

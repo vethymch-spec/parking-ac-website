@@ -15,7 +15,7 @@ const REDIRECTS_PATH = path.join(DIST_DIR, "_redirects");
 
 const BASE_URL = "https://cooldrivepro.com";
 const DEFAULT_OG_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp";
-const DEFAULT_DESCRIPTION = "12V & 24V DC parking AC for trucks, RVs & vans. 10000-12000 BTU, no-idle operation. Free US shipping & 1-year warranty.";
+const DEFAULT_DESCRIPTION = "Shop 12V/24V parking air conditioners for semi trucks, RVs, vans and pickups. Compare no-idle truck AC, RV parking AC, fitment and invoice options.";
 const DEFAULT_BLOG_LANGUAGE = "en";
 const RTL_LANGUAGES = new Set(["ar", "he"]);
 const EXCLUDED_BLOG_FILES = new Set(["list.json", "manifest.json", "locale-availability.json"]);
@@ -106,16 +106,16 @@ function toOpenGraphLocale(language) {
 const PRODUCT_PAGES = [
   {
     route: "/products/top-mounted-ac",
-    title: "10000 BTU Top-Mounted Parking AC | 12V 24V No-Idle Cooling - CoolDrivePro",
-    description: "Top-mounted 12V/24V DC parking air conditioner for semi trucks, RVs, and vans. 10,000 BTU cooling, low-noise operation, and battery protection for overnight no-idle comfort.",
+    title: "12000 BTU Top-Mounted Parking AC | 12V 24V No-Idle Cooling - CoolDrivePro",
+    description: "VS02 PRO 12000 BTU top-mounted parking AC for semi trucks, RVs and vans. 12V/24V DC, no-idle operation, 45 dB quiet, fitment support and fleet pricing.",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-product-right_1b53506e.webp",
     schema: {
-      name: "10000 BTU Top-Mounted Parking Air Conditioner - 12V/24V DC",
+      name: "12000 BTU Top-Mounted Parking Air Conditioner - 12V/24V DC",
       sku: "VS02-PRO",
       price: "1299.00",
       ratingValue: "4.8",
       reviewCount: "127",
-      description: "12V/24V DC powered top-mounted parking air conditioner for RVs, semi trucks, vans and campers. 10000 BTU cooling, 4500 BTU heating, and no-idle operation with battery protection.",
+      description: "12V/24V DC powered top-mounted parking air conditioner for RVs, semi trucks, vans and campers. 12000 BTU cooling, no-idle operation and battery protection.",
     },
   },
   {
@@ -599,6 +599,22 @@ const BLOG_INDEX_SUPPORT_ROUTES = [
   "/products",
 ];
 
+const HOMEPAGE_PRODUCT_ROUTES = [
+  "/products/top-mounted-ac",
+  "/products/mini-split-ac",
+  "/products/heating-cooling-ac",
+  "/products/nano-max",
+];
+
+const HOMEPAGE_BUYING_ROUTES = [
+  "/blog/best-parking-ac-2026",
+  "/blog/parking-ac-buying-guide-2025",
+  "/compare/12v-vs-24v-parking-ac",
+  "/compare/parking-ac-battery-runtime",
+  "/solutions/no-idle-truck-air-conditioner",
+  "/solutions/semi-truck-parking-ac",
+];
+
 const DEFAULT_BLOG_CTA = {
   title: "Ready to Experience No-Idle Cooling?",
   description: "Explore our 12V/24V parking air conditioners and buying guides so your shortlist matches vehicle type, roof layout, and overnight runtime goals.",
@@ -608,6 +624,13 @@ const DEFAULT_BLOG_CTA = {
     { href: "/products/top-mounted-ac/", label: "See VS02 PRO Top-Mounted AC" },
     { href: "/products/mini-split-ac/", label: "See VX3000SP Mini Split AC" },
   ],
+};
+
+const ROUTE_LABELS = {
+  "/blog/best-parking-ac-2026": "Best Parking Air Conditioner 2026",
+  "/blog/parking-ac-buying-guide-2025": "Parking AC Buying Guide",
+  "/blog/parking-ac-fuel-savings-calculator": "Parking AC Fuel Savings Calculator",
+  "/blog/parking-ac-installation-cost-2026": "Parking AC Installation Cost",
 };
 
 function isRecord(value) {
@@ -735,6 +758,10 @@ function pageHeading(page) {
 }
 
 function routeLabel(route) {
+  if (ROUTE_LABELS[route]) {
+    return ROUTE_LABELS[route];
+  }
+
   const staticPage = ALL_STATIC_PAGES.find((page) => page.route === route);
   if (staticPage) {
     return pageHeading(staticPage);
@@ -792,13 +819,22 @@ function buildStaticFaqSection(faqs) {
   ].join("\n");
 }
 
-function buildStaticShell({ eyebrow, heading, description, sections }) {
+function buildStaticShell({ eyebrow, heading, description, sections, image, imageAlt, imagePriority = false }) {
+  const imageMarkup = image
+    ? [
+      '          <figure class="static-seo-media">',
+      `            <img src="${escapeAttribute(toAbsoluteUrl(image))}" alt="${escapeAttribute(imageAlt || heading)}" width="1280" height="720" loading="${imagePriority ? "eager" : "lazy"}" decoding="async"${imagePriority ? ' fetchpriority="high"' : ""} />`,
+      '          </figure>',
+    ].join("\n")
+    : "";
+
   return [
     '      <main data-static-seo="page" class="static-seo-shell">',
     '        <article>',
     `          <p class="static-seo-eyebrow">${escapeHtml(eyebrow)}</p>`,
     `          <h1 class="static-seo-title">${escapeHtml(heading)}</h1>`,
     `          <p class="static-seo-description">${escapeHtml(description)}</p>`,
+    imageMarkup,
     ...sections.filter(Boolean),
     '        </article>',
     '      </main>',
@@ -810,6 +846,8 @@ function buildProductsCollectionBody(page) {
     eyebrow: "CoolDrivePro Product Catalog",
     heading: pageHeading(page),
     description: normalizeDescription(page.description, 220),
+    image: page.image,
+    imageAlt: "CoolDrivePro 12V and 24V parking air conditioner product lineup",
     sections: [
       buildStaticLinkSection("Popular buying guides", routeLinkItems(PRODUCTS_COLLECTION_GUIDE_ROUTES, page.route)),
       buildStaticLinkSection(
@@ -829,6 +867,8 @@ function buildCommercialHubBody(page) {
     eyebrow,
     heading: pageHeading(page),
     description: normalizeDescription(page.description, 220),
+    image: page.image,
+    imageAlt: pageHeading(page),
     sections: [
       buildStaticLinkSection("Related buying guides", routeLinkItems(COMMERCIAL_SUPPORT_ROUTES[page.route], page.route)),
       buildStaticLinkSection("Recommended products", routeLinkItems(page.recommendedProducts, page.route)),
@@ -842,6 +882,8 @@ function buildProductPageBody(page) {
     eyebrow: "CoolDrivePro Product",
     heading: pageHeading(page),
     description: normalizeDescription(page.description, 220),
+    image: page.image,
+    imageAlt: `${page.schema.name} product image`,
     sections: [
       buildStaticLinkSection("Best-fit buying guides", routeLinkItems(PRODUCT_SUPPORT_ROUTES[page.route], page.route)),
       buildStaticLinkSection(
@@ -851,6 +893,27 @@ function buildProductPageBody(page) {
           label: pageHeading(productPage),
         })),
       ),
+    ],
+  });
+}
+
+function buildHomepageBody(page) {
+  return buildStaticShell({
+    eyebrow: "CoolDrivePro Parking AC",
+    heading: "Parking Air Conditioner for Semi Trucks, RVs & Vans",
+    description: normalizeDescription(page.description, 220),
+    image: page.image,
+    imageAlt: "12V and 24V no-idle parking air conditioner for semi trucks, RVs and vans",
+    imagePriority: true,
+    sections: [
+      buildStaticLinkSection("Shop 12V/24V parking AC models", routeLinkItems(HOMEPAGE_PRODUCT_ROUTES, "/")),
+      buildStaticLinkSection("High-intent buying guides", routeLinkItems(HOMEPAGE_BUYING_ROUTES, "/")),
+      [
+        '          <section class="static-seo-section">',
+        '            <h2 class="static-seo-section-title">Built for B2B buyers, fleets, dealers and upfitters</h2>',
+        '            <p class="static-seo-copy">CoolDrivePro parking air conditioners are DC-native no-idle cooling systems for commercial vehicles, sleeper cabs, RVs, camper vans and light trucks. Compare rooftop, mini split and compact units by BTU, voltage, roof opening, battery runtime, noise level and installation path before requesting single-unit or fleet pricing.</p>',
+        '          </section>',
+      ].join("\n"),
     ],
   });
 }
@@ -981,6 +1044,13 @@ function buildBlogPostBody(post, blogCtaOverrides, shellCopy, language) {
       ? `          <p class="static-seo-meta">${[post.category, post.date].filter(Boolean).map((value) => `<span>${escapeHtml(value)}</span>`).join("")}</p>`
       : "",
     `          <p class="static-seo-description">${escapeHtml(normalizeDescription(post.metaDescription || post.excerpt || DEFAULT_DESCRIPTION, 220))}</p>`,
+    post.image
+      ? [
+        '          <figure class="static-seo-media">',
+        `            <img src="${escapeAttribute(toAbsoluteUrl(post.image))}" alt="${escapeAttribute(post.imageAlt || post.title)}" width="${escapeAttribute(post.imageWidth || 1280)}" height="${escapeAttribute(post.imageHeight || 720)}" loading="eager" decoding="async" fetchpriority="high" />`,
+        '          </figure>',
+      ].join("\n")
+      : "",
     ...buildBlogPostSections(post),
     buildBlogCtaSection(cta),
     '        </article>',
@@ -1593,12 +1663,48 @@ function buildSitemapXml(entries) {
   ].join("\n");
 }
 
+function routeLanguage(route) {
+  const match = String(route || "").match(/^\/([a-z]{2}(?:-[A-Z]{2})?)(?:\/|$)/);
+  if (match && SITE_LANGUAGES.includes(match[1])) {
+    return match[1];
+  }
+  return DEFAULT_BLOG_LANGUAGE;
+}
+
+function buildSitemapIndexXml(languages, lastmod) {
+  return [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ...languages.map((language) => [
+      '  <sitemap>',
+      `    <loc>${escapeHtml(`${BASE_URL}/sitemap-${language}.xml`)}</loc>`,
+      `    <lastmod>${escapeHtml(lastmod)}</lastmod>`,
+      '  </sitemap>',
+    ].join("\n")),
+    '</sitemapindex>',
+    '',
+  ].join("\n");
+}
+
 async function writeSitemap(entries) {
-  const sitemapXml = buildSitemapXml(entries);
-  await Promise.all([
-    fs.writeFile(path.join(DIST_DIR, "sitemap.xml"), sitemapXml, "utf8"),
-    fs.writeFile(PUBLIC_SITEMAP_PATH, sitemapXml, "utf8"),
-  ]);
+  const languages = Array.from(new Set([DEFAULT_BLOG_LANGUAGE, ...SITE_LANGUAGES.filter((language) => language !== DEFAULT_BLOG_LANGUAGE)]));
+  const lastmod = entries.reduce((latest, entry) => entry.lastmod > latest ? entry.lastmod : latest, new Date().toISOString().slice(0, 10));
+  const sitemapIndexXml = buildSitemapIndexXml(languages, lastmod);
+  const writes = [
+    fs.writeFile(path.join(DIST_DIR, "sitemap.xml"), sitemapIndexXml, "utf8"),
+    fs.writeFile(PUBLIC_SITEMAP_PATH, sitemapIndexXml, "utf8"),
+  ];
+
+  for (const language of languages) {
+    const languageEntries = entries.filter((entry) => routeLanguage(entry.route) === language);
+    const sitemapXml = buildSitemapXml(languageEntries);
+    writes.push(
+      fs.writeFile(path.join(DIST_DIR, `sitemap-${language}.xml`), sitemapXml, "utf8"),
+      fs.writeFile(path.join(ROOT_DIR, "client", "public", `sitemap-${language}.xml`), sitemapXml, "utf8"),
+    );
+  }
+
+  await Promise.all(writes);
 }
 
 async function main() {
@@ -1627,7 +1733,7 @@ async function main() {
   const homepageAlternateLinks = buildStaticAlternateLinks("/", siteLanguages);
   const homepage = {
     route: "/",
-    title: "Parking Air Conditioner | 12V 24V No-Idle AC – CoolDrivePro",
+    title: "Parking Air Conditioner for Trucks & RVs | 12V 24V No-Idle AC – CoolDrivePro",
     description: DEFAULT_DESCRIPTION,
     image: DEFAULT_OG_IMAGE,
     ogType: "website",
@@ -1636,7 +1742,7 @@ async function main() {
     organizationSchema(),
     websiteSchema(),
     webPageSchema(homepage),
-  ], "", "", {
+  ], "", buildHomepageBody(homepage), {
     lang: DEFAULT_BLOG_LANGUAGE,
     alternateLinks: homepageAlternateLinks,
   });

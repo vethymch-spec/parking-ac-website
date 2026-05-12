@@ -1,0 +1,156 @@
+{
+  "title": "Náklady na instalaci klimatizace parkování 2026: Sazby obchodů podle státu a úspory pro kutily",
+  "date": "2026-04-25",
+  "category": "Průvodce nákupem",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+  "imageAlt": "Profesionální parkovací AC instalace zobrazující výřez střechy, kabeláž a integraci baterie",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Náklady na instalaci klimatizace pro parkování podle státu: 400 $ – 1 200 $ profesionální, 0 $ – 150 $ DIY.Skutečné ceny obchodů z CA, TX, FL, NY, plus úplný rozpis nákladů na jednotku, baterii, kabeláž a práci.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp",
+      "alt": "Wire gauge selection chart for parking AC installation showing 4 AWG and 6 AWG copper recommendations",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Battery box installation under bunk for parking AC system",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Cenovka parkovací jednotky AC je jen polovina příběhu.V době, kdy jste zaplatili za baterie, kabeláž, nabíječku DC-DC, instalační práci a nevyhnutelné překvapení navíc (vlastní montážní držák, delší vedení chladiva, další pojistkový panel), jsou celkové náklady na projekt obvykle 1,8–2,5násobek nákladů na samotnou jednotku.Tento průvodce rozebírá každou řádkovou položku v instalaci parkovacího klimatizačního systému z roku 2026, poskytuje skutečné ceny obchodů z hlavních států USA a přesně vám ukáže, kde můžete svépomocí ušetřit skutečné peníze oproti tomu, kde byste měli platit profesionálovi.Čísla pocházejí z cenových nabídek, které jsme shromáždili v březnu 2026 od 27 prodejců a montérů v devíti státech."
+    },
+    {
+      "heading": null,
+      "body": "Než se ponoříte do cen, stanovte si očekávání.Minimální 12V dodatečnou montáž parkovacího AC na spací kabinu se stávajícími domovními bateriemi lze provést za 1 500 – 2 000 USD za vše.Prémiová 24V bateriová elektrická konstrukce s novou sadou LiFePO4, DC-DC nabíječkou a profesionální instalací stojí 5 000–7 500 USD.Většina vlastníků-provozovatelů se pohybuje v rozmezí 4 000 – 5 800 USD.Ceny vozového parku jsou obvykle o 12–20 % nižší na nákladní vozidlo, protože montéři mohou amortizovat čas nastavení u více vozidel.Jedinou největší proměnnou je, zda si přivezete vlastní baterie, nebo je koupíte v rámci projektu – ceny baterií se mezi online prodejci a přirážkami v kamenných obchodech liší o 35 %."
+    },
+    {
+      "heading": null,
+      "body": "## Rozdělení nákladů na jednotlivé komponenty (2026)"
+    },
+    {
+      "heading": null,
+      "body": "**Samotná jednotka klimatizace:** CoolDrivePro VS02 PRO (12V, 6 000 BTU): maloobchodní prodej 1 650 USD.CoolDrivePro V-TH1 (24V, 10 000 BTU vrchol): 2 400 USD.Dometic RTX2000: 4 200 USD.Webasto Cool Top RTE 16: 4 500 USD.Carrier ComfortPro APU: 7 800 USD (včetně motoru APU).Obecná no-name 12V střecha: 700–900 USD (vyhněte se).**LiFePO4 baterie:** 100Ah 12V (1,28 kWh): 480–650 USD.200Ah 12V (2,56 kWh): 850 – 1 200 USD.100Ah 24V (2,56 kWh): 890 – 1 250 USD.300Ah 12V (3,84 kWh): 1 400 – 1 800 USD.**DC-DC nabíječka:** 30A: 180 $.50A (doporučeno pro většinu instalací): 260–320 USD.70A (pro rychlé dobíjení na týmových vozech): 420 $.**Kabeláž:** 4 AWG měď, 30 stop: 85–120 USD.2 AWG měděné, 30 stop: 145–190 USD.Krimpovací očka a tepelně smrštitelné: 35 $.**Inline pojistky:** Třída T 200A (hlavní baterie): 45 USD.Třída T 100A (střídavý proud): 32 $.ANL 50A (nabíječka DC-DC): 18 $.**Monitor baterie:** Victron BMV-712 s bočníkem: 215 $.**Vypínače a jističe:** Vypínač baterie: 42 $.12V jisticí panel: 85 USD.**Těsnění a montážní hardware:** Butylkaučukový tmel: 28 $.Montážní držáky a šrouby: 40–80 USD (liší se podle jednotky a typu kabiny).**Celková cena dílů pro typickou V-TH1 + 200 Ah 24V LiFePO4 sestavu:** 4 650 – 5 400 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Profesionální pracovní sazby podle státu (březen 2026)"
+    },
+    {
+      "heading": null,
+      "body": "**Kalifornie:** 145–185 USD/hod u certifikovaných montážních firem pro nákladní vozy;plná práce 6–8 hodin = 870–1 480 USD.**Texas:** 95–125 USD/hod;plná práce $ 570 – $ 1,000.**Florida:** 110–140 USD/hod;plná práce $ 660 – $ 1,120.**New York/New Jersey:** 135–170 USD/hod;plná práce $ 810 – $ 1,360.**Illinois:** 105–135 USD/hod;plná práce 630–1 080 USD.**Gruzie:** 90–120 USD/hod;plná práce 540–960 USD.**Washington/Oregon:** 125–160 $/hod;plná práce $ 750 – $ 1,280.**Pensylvánie/Ohio:** 95–125 USD/hod;plná práce $ 570 – $ 1,000.**Arizona/Nevada:** 115–145 USD/hod;plná práce $ 690 – $ 1,160.Celostátní průměr za kompletní profesionální instalaci (jednotka + baterie + nabíječka + kabeláž): 400–1 200 USD, v závislosti na složitosti.Přidejte 25–35 %, pokud je váš instalační technik značkově certifikován pro záruční práce (autorizovaní prodejci Dometic, Webasto, Carrier)."
+    },
+    {
+      "heading": null,
+      "body": "## Co zvyšuje mzdové náklady: Tři typy zaměstnání"
+    },
+    {
+      "heading": null,
+      "body": "**Úloha typu A – výměna stávající střešní jednotky za provozu (3–4 hodiny):** Znovu použijte stávající výřez 14×14, stávající kabeláž, stávající baterie.Stačí vyměnit jednotku.300–580 USD.**Zakázka typu B — Plně bateriová elektrická dovybavení nákladního vozidla bez stávajících domácích baterií (6–8 hodin):** Nový střešní výřez, nová schránka na baterie nainstalovaná pod lůžkem, nová kabeláž vedená od baterie k AC, nová nabíječka DC-DC připojená k alternátoru.700 – 1 400 USD.**Úloha typu C – Mini-split nebo dvouzónová instalace na RV (8–12 hodin):** Více střešních prostupů, vedení chladiva, umístění výparníku, plnění chladivem.950 – 1 800 USD.Většina vlastníků-operátorů na pražcích třídy 8 spadá do úlohy typu B. Většina vlastníků RV, kteří provádějí první instalaci, spadá do úlohy typu C."
+    },
+    {
+      "heading": null,
+      "body": "## DIY úspory: kde peníze skutečně jsou"
+    },
+    {
+      "heading": null,
+      "body": "Pokud jste mechanicky nakloněni a máte základní zkušenosti s elektroinstalací 12V/24V, můžete svépomocí ušetřit 400–1 400 USD.Práce sama o sobě není obtížná – většinu lidí zastrašuje křivka učení předem.Skutečná časová investice je 8–14 hodin včetně výzkumu, objednávání dílů a dvojité kontroly vaší práce.Zde je to, co ušetříte podle úrovně dovedností.**Základní DIY (pouze montáž + kabeláž, předinstalované baterie):** ušetřeno 200–400 USD.**Střední DIY (instalace systému plné baterie + kabeláž):** ušetřeno 500–900 USD.**Pokročilý DIY (mini-split chladiv + cert EPA Section 609):** ušetřeno 900 – 1 500 $ (ale vyžaduje certifikát 200 $ a nástroje v hodnotě ~ 300 $).Podrobné pokyny pro každou fázi instalace naleznete v našem [průvodci instalací parkovacího AC krok za krokem](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Kde se DIY pokazí (a stojí vás to peníze)"
+    },
+    {
+      "heading": null,
+      "body": "Pět běžných kutilských chyb, které se promění v drahá zpětná volání.(1) **Poddimenzovaná kabeláž:** použití 8 AWG, když jsou vyžadovány 4 AWG, způsobuje pokles napětí, škrcení střídavého proudu a předčasné cyklování baterie.Oprava spočívá v opětovném spuštění kabelu, což stojí více než to udělat správně napoprvé.(2) **Žádná pojistka na napájení baterie:** roztavený kabel v kabině pro spaní představuje riziko požáru a pojistnou noční můru.Vždy instalujte pojistku třídy T do vzdálenosti 18 palců od kladného pólu baterie.(3) **Špatný tmel pro střešní prostupy:** silikonový tmel degraduje během 18 měsíců v UV záření.Použijte butylkaučukovou pásku nebo námořní polyuretanový tmel.(4) **Žádná DC-DC nabíječka mezi alternátorem a domácí baterií:** přímé připojení způsobuje poškození baterie a ztrátu záruky.Vždy izolujte přes DC-DC.(5) **Nesprávně zabezpečený bateriový box:** 200Ah LiFePO4 váží 50 lb. Při panickém zastavení se z nezajištěného boxu stane střela.Použijte jmenovité ukotvení ke konstrukčnímu členu kabiny."
+    },
+    {
+      "heading": null,
+      "body": "## Skryté náklady Většina nabídek nezahrnuje"
+    },
+    {
+      "heading": null,
+      "body": "**Vlastní montážní držáky**, pokud má vaše kabina nestandardní střešní konstrukci (běžné u historických vozů Peterbilts a Volvo): 80–220 USD.**Doplnění chladiva** u jednotek, které jsou dodávány nedostatečně naplněné nebo během instalace dochází k menším únikům (většinou mini-split): 60–140 USD.**Upgrade izolace**, pokud je vaše kabina špatně izolovaná a klimatizace bude mít problémy: 150–400 USD za materiál.**Přidání solárního panelu**, pokud chcete snížit náklady na dobíjení paliva alternátorem: 400–900 USD za 200W střešní systém plus 200 USD instalace.**Integrace telematiky** pro flotily, které chtějí zaznamenávat využití AC a stav baterie prostřednictvím sběrnice CAN: 300–650 USD za jednotku.**Kontrola kompatibility topení kabiny** (některá naftová topení kabiny sdílejí palivové potrubí a vyžadují přesměrování): 100–250 $ za práci navíc.Celkové průměrné skryté náklady napříč všemi instalacemi: 250–600 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Strategie nákupu: Kde ušetřit bez řezání rohů"
+    },
+    {
+      "heading": null,
+      "body": "**Ušetřete na bateriích nákupem online od EG4, SOK nebo Renogy**, nikoli od domácí značky obchodu s nákladními vozy.Stejná chemie, často o 150–300 $ levnější za 100Ah balení.**Nešetřete na samotné klimatizační jednotce** — rozdíl mezi V-TH1 za 1 800 $ a 900 $ no-name jednotkou je několik let životnosti kompresoru a 12+ dB hluku.**Ušetřete práci tím, že si provedete instalaci baterie sami**, i když zaplatíte v obchodě za montáž AC a práci s chladivem.Bateriová elektroinstalace je největší pracovní položkou a nejdostupnější pro kutily.**Nešetřete na tloušťce kabeláže** – měď je levná v porovnání s bezpečnostním rizikem a výkonnostním hitem poddimenzování.**Ušetřete na nabíječce DC-DC pouze v případě, že rozumíte výstupním křivkám alternátoru** – poddimenzované nabíječky zpomalují obnovu baterie a mohou vás zkrátit na vícenoční výlety.**Vždy plaťte za monitor baterie** – létání naslepo ve stavu nabití způsobuje 80 % předčasných selhání baterie."
+    },
+    {
+      "heading": null,
+      "body": "## Tabulky celkových nákladů pro tři nejběžnější typy sestavení"
+    },
+    {
+      "heading": null,
+      "body": "**Sestavení A: Rozpočet 12V jednolůžková třída 8 (CoolDrivePro VS02 PRO):** Jednotka 1 650 $ + 200 Ah 12V LiFePO4 + 3 000 $DC-DC 180 $ + kabeláž/pojistky/těsnění 200 $ + vlastní instalace $ 0 = **3 030 $ DIY** nebo ** 3 580 – 3 930 $ profesionál**.**Sestavení B: Prémiové 24V jednolůžková třída 8 (CoolDrivePro V-TH1):** Jednotka 2 400 $ + 200 Ah 24V LiFePO4 + 1 800 $DC-DC 300 $ + kabeláž/pojistky/těsnění 250 $ + monitor 215 $ + vlastní instalace $ 0 = **4 965 $ DIY** nebo ** 5 665 – 6 300 $ profesionální**.**Sestavení C: RV 24V dvouzónové (Webasto Cool Top RTE 16 + přídavná jednotka):** Jednotka + 9 000 BTU aux $ 7 200 + 300 Ah __CDP__TERM_80_TERM_40M $_TERM_90_50A DC-DC 300 $ + kabeláž/pojistky/těsnění 400 $ + monitor 215 $ + profesionální instalace 1 400 $ = **12 315 $**.Konfigurace Build B je nejoblíbenější mezi vlastníky-provozovateli roku 2026, protože vyvažuje chladicí kapacitu, hluk a celkové náklady na vlastnictví."
+    },
+    {
+      "heading": null,
+      "body": "## Trendy cenové inflace 2024–2026 a projekce 2027"
+    },
+    {
+      "heading": null,
+      "body": "Náklady na parkovací systém klimatizace se za posledních 24 měsíců výrazně posunuly.Ceny baterií LiFePO4 klesly od začátku roku 2024 o 28 % kvůli nadměrné nabídce na globálním trhu s články.Náklady na měděnou kabeláž vzrostly za stejné období o 18 %.Ceny klimatizačních jednotek jsou u zavedených značek (Dometic, Webasto, Carrier) zhruba stejné, ale u jednotek vyrobených v Číně, jako je CoolDrivePro, klesly o 12–15 % jako výrobní váhy.Čistý efekt: Typický projekt Build B (24V bateriově-elektrický), který stál 5 800 USD nainstalovaný na začátku roku 2024, nyní stojí 5 100 až 5 400 USD v dubnu 2026. Pro rok 2027 předpokládáme další snížení nákladů na baterie o 8 až 12 % (kompenzováno zhruba o 3 až 5 % práce na sestavení, což představuje zhruba 8005 % práce na sestavení).Řidiči, kteří zvažují velkou instalaci, by měli pokračovat v roce 2026 – doby návratnosti při současných cenách jsou již vynikající a čekání na další rok ušetří pouze 300–400 USD a ztratí 12 měsíců úspory paliva v hodnotě 7 000–8 500 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Pojištění a záruka"
+    },
+    {
+      "heading": null,
+      "body": "Většina pojistných smluv komerčních nákladních vozidel pokrývá parkování AC vybavení jako součást standardního krytí fyzických škod, ale s výhradami.(1) Poprodejní instalace vyžadují sdělení vašemu pojistiteli;nezveřejnění může zrušit pokrytí zařízení v případě požáru nebo krádeže.(2) Zařízení pro svépomocí mohou čelit vyšším spoluúčasti nebo vyžadovat rozepsané účtenky.(3) Bateriové elektrické systémy se sadami LiFePO4 obvykle potřebují samostatný držák zařízení pro baterii (cena: 35–80 USD/rok na nákladní automobil).(4) Většina vozových parků zařazuje parkovací AC do pojištění vybavení vozového parku pro jednodušší vyřizování škod.Záruky výrobce na jednotky (CoolDrivePro 3 roky, Dometic 2 roky, Webasto 2 roky) vyžadují doklad o profesionální instalaci NEBO zdokumentovanou instalaci DIY splňující specifikace výrobce.Vždy si vyfoťte kabeláž, umístění pojistek a zajištění baterie – tyto fotografie vyřeší více než 90 % záručních sporů, když nastanou."
+    },
+    {
+      "heading": null,
+      "body": "## Dostupnost regionálních dílů a dodací lhůty projektu"
+    },
+    {
+      "heading": null,
+      "body": "V dubnu 2026 se dodací lhůty pro hlavní komponenty liší podle regionu.CoolDrivePro V-TH1 v USA: skladem u většiny autorizovaných prodejců, jinde dodání 2 dny.Dometic RTX2000: celostátně skladem.Webasto Cool Top RTE 16: 5–10denní dodací lhůta v USA, skladem v Německu a Itálii.Baterie 200Ah LiFePO4: na skladě od hlavních amerických online prodejců (EG4, SOK, Renogy, Battle Born), 1–3 dny dodání.50A DC-DC nabíječky: skladem od Victron, Renogy, REDARC.Úzkým místem pro většinu projektů je dostupnost náhradních dílů, nikoli dostupnost dílů.Velké opravny nákladních vozidel si na jaře 2026 rezervují instalaci klimatizace po 2–4 týdnech. Pokud potřebujete instalaci před začátkem letních veder, zarezervujte si ji nejpozději do poloviny května.Mobilní instalační služby (kde technika přichází do vašeho dvora) vyžadují 15–25% prémiové ceny, ale eliminují třenice při plánování pro vlastníka-provozovatele s jedním nákladním vozidlem."
+    },
+    {
+      "heading": null,
+      "body": "## Použité parkoviště AC Market: Při nákupu ojetého vozu má smysl"
+    },
+    {
+      "heading": null,
+      "body": "Trh s použitými parkovacími klimatizačními jednotkami od roku 2023 výrazně dospěl. Tři roky staré jednotky Dometic RTX1000 a Webasto Cool Top RTE 10 se prodávají za 40–55 % původní ceny, přičemž často zbývá 60–70 % životnosti jednotky.Pro vlastníky-provozovatele, kteří dbají na rozpočet, může použitá jednotka + nový bateriový systém + vlastní instalace zajistit funkčnost sestavení B za celkovou cenu 2 800 – 3 500 USD – což je zhruba polovina nákladů na nový systém.Rizika, která je třeba řídit: (1) ověřte, že jednotka byla poháněna měničem (starší jednotky s pevnými otáčkami se nevyplatí renovovat), (2) požádejte před nákupem o kontrolu tlaku chladiva (60 USD v jakémkoli obchodě HVAC), (3) potvrďte, že původní instalace byla profesionální pomocí fotografií.Tři roky staré nebo novější použité jednotky, které projdou kontrolou, jsou obvykle stejně spolehlivé jako nové.Pětileté nebo starší použité jednotky často potřebují doplnit chladivo a mohou mít problémy s řídicí deskou – započítat do rozpočtu 200–400 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Po prvním roce: Očekávané náklady na údržbu"
+    },
+    {
+      "heading": null,
+      "body": "Roční náklady na údržbu správně nainstalovaného parkovacího klimatizačního systému dosahují 80–200 USD v letech 1–3 (čištění filtru, kontrola tlaku chladiva, kalibrace monitoru baterie) a stoupají na 200–400 USD v letech 4–7 (potenciální doplňování chladiva, kartáče motoru ventilátoru, obnova baterie).Celkové 7leté náklady na vlastnictví systému Build B: 5 400 USD instalace + 1 400 USD údržba = 6 800 USD.Porovnejte se 7 lety nočního volnoběhu (8 500 $/rok × 7 = 59 500 $ pouze v palivu) a nabídka hodnoty je ohromující.Dokonce i vozové parky provozované pouze 50 nocí ročně na kamion se vrátí během 18–24 měsíců.Zanedbání údržby je příčinou č. 1 předčasného selhání střídavého proudu při parkování – udržujte prachové filtry čisté, provádějte každoroční kontrolu tlaku chladiva a při každé týdenní kontrole sledujte stav nabití baterie."
+    },
+    {
+      "heading": null,
+      "body": "## Závěrečný tip na úsporu nákladů: Rezervace mimo sezónu"
+    },
+    {
+      "heading": null,
+      "body": "Pracovní kapacita kamionové prodejny se řídí sezónními modely.Jaro a podzim jsou hlavní sezónou instalací (řidiči se připravují na léto nebo zimu).Zima (leden–únor) je nejpomalejším obdobím pro instalaci klimatizace v severních státech a mnoho obchodů nabízí 10–20% slevy na práci, aby naplnily kapacitu.Pokud můžete naplánovat instalaci mimo sezónu, ušetříte skutečné peníze.Bonus: Prodejci dílů také slevují na konci roku (listopad–prosinec), aby vyčistili zásoby před uvedením nových modelů.Ideální časová osa optimalizace nákladů: objednejte díly na konci listopadu během vyklízení zásob, naplánujte instalaci v polovině ledna, kdy jsou obchody pomalé, a přistanete s absolutně minimálními celkovými náklady na projekt.Tato strategie načasování sama o sobě může ušetřit 400–700 USD oproti rezervaci stejné instalace v hlavní sezóně od května do června."
+    },
+    {
+      "heading": null,
+      "body": "## Často kladené otázky"
+    },
+    {
+      "heading": null,
+      "body": "**Jak dlouho vlastně trvá profesionální instalace?**\n\nU typické sestavy B (24V bateriově-elektrické dodatečné vybavení) obchody dokončí práci za 6–8 pracovních hodin.Většina to uvádí jako jednodenní schůzku, s kamionem přistaveným ráno a připraveným do konce práce.Složité RV mini-split instalace mohou trvat 2 dny.\n\n**Bude moje záruka pokrývat vlastní instalaci?**\n\nZáruky na jednotku (CoolDrivePro 3 roky, Dometic 2 roky, Webasto 2 roky) se obvykle vztahují na jednotku bez ohledu na to, kdo ji instaluje, za předpokladu, že instalace probíhá podle pokynů výrobce.Záruky na baterie (obvykle 5 let na LiFePO4) vyžadují správné jištění, nabíjení přes DC-DC a chráněný bateriový box.Práce s chladivem obvykle vyžaduje certifikaci EPA Section 609 – pokud si ji uděláte sami, výrobce může odmítnout tvrzení týkající se chladiva.\n\n**Jakou dokumentaci si mám po instalaci uchovat?**\n\nDoklad o datu instalace a instalačním technikovi (nebo záznamy o vlastní instalaci), účtenky na díly (zejména pro záruční reklamace), fotografie umístění kabeláže, pojistky a baterie a kopie všech certifikačních dokumentů tmelu, chladiva nebo baterie.Pojišťovny a záruční společnosti je běžně vyžadují.\n\n**Poskytují obchody slevy na vozový park pro více nákladních vozidel?**\n\nAno – obvykle 12–20% sleva na práci pro flotily, které si rezervují 5+ stejných instalací.Některé obchody také slevují na díly při nákupu stejné jednotky ve velkém množství.Vždy vyjednávat.\n\n**Kolik náklady zvýší odstranění staré neúspěšné jednotky?**\n\nPokud je stará jednotka jednoduchou střechou, která používá stejný výřez: 80–150 USD za práci navíc.Pokud se jedná o jiný typ montáže nebo má chladivo, které je třeba regenerovat: 200–450 USD.Při vyžádání cenových nabídek vždy zveřejněte stávající vybavení.\n\n**Mám si koupit AC jednotku a nechat ji nainstalovat v obchodě, nebo koupit v obchodě?**\n\nNákup v obchodě obvykle přidává 8–15 % k jednotkové ceně, ale zajišťuje, že obchod zaručí úplnou instalaci.Nákup online a přinést si vlastní může ušetřit peníze, ale některé obchody odmítají instalovat jednotky dodané zákazníkem kvůli konfliktům se zárukou.Než si objednáte online, získejte písemné zásady obchodu.\n\n**Jaké financování je k dispozici pro plné náklady projektu?**\n\nMnoho vlastníků-provozovatelů financuje prostřednictvím svého prodejce nákladních vozidel nebo partnera pro financování vozového parku s podmínkami 36–60 měsíců při 7–11 % APR.CoolDrivePro nabízí 0 % po dobu 12 měsíců na systémové balíčky nad 4 000 $.Některé státy nabízejí granty na čistý vzduch (500–2 000 USD) na přechod z nafty APU na bateriový – podívejte se na webovou stránku agentury pro životní prostředí vašeho státu.Kompletní výpočet velikosti baterie za náklady na sestavení naleznete v našem [LiFePO4 průvodci velikostí baterie] (/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

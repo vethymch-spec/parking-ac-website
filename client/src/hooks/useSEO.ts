@@ -22,7 +22,7 @@ const BASE_URL = "https://cooldrivepro.com";
 // Translated page titles for each language
 const PAGE_TITLES: Record<string, Record<string, string>> = {
   "/": {
-    en: "Parking Air Conditioner | 12V 24V No-Idle AC – CoolDrivePro",
+    en: "Parking Air Conditioner for Trucks & RVs | 12V 24V No-Idle AC – CoolDrivePro",
     "zh-CN": "驻车空调 | 12V 24V 免怠速空调 - CoolDrivePro",
     "zh-TW": "駐車空調 | 12V 24V 免怠速空調 - CoolDrivePro",
     ja: "駐車エアコン | 12V 24V アイドリングストップ対応 - CoolDrivePro",
@@ -141,7 +141,7 @@ const PAGE_TITLES: Record<string, Record<string, string>> = {
 
 const PAGE_DESCRIPTIONS: Record<string, Record<string, string>> = {
   "/": {
-    en: "12V & 24V DC parking AC for trucks, RVs & vans. 10000–12000 BTU, no-idle operation. Free US shipping & 1-year warranty.",
+    en: "Shop 12V/24V parking air conditioners for semi trucks, RVs, vans and pickups. Compare no-idle truck AC, RV parking AC, fitment and invoice options.",
     "zh-CN": "适用于卡车、房车和面包车的 12V 和 24V 直流驻车空调。10000-12000 BTU，免怠速运行。美国境内免费配送，1年质保。",
     "zh-TW": "適用於卡車、房車和廂型車的 12V 和 24V 直流駐車空調。10000-12000 BTU，免怠速運行。美國境內免費配送，1年質保。",
     ja: "トラック、RV、バン用の12V・24V DC駐車エアコン。10000-12000 BTU、アイドリングストップ対応。米国本土送料無料、1年保証。",

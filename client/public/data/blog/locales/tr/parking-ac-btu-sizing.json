@@ -1,0 +1,156 @@
+{
+  "title": "Park AC BTU Boyut Hesaplayıcı: Gerçekten Kaç BTU'ye İhtiyacınız Var?(2026)",
+  "date": "2026-04-25",
+  "category": "Satın Alma Rehberi",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+  "imageAlt": "Kamyon kabininde AC park etme ve RV konfigürasyonları için BTU boyut tablosu",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Yataklı kabininizin veya RV yatak odanızın kaç BTUs'ye ihtiyacı var?Sınıf 8 kamyonlar (5.000–10.000 BTU), Sprinter vanlar (6.000–8.000 BTU) ve 25 ft RVs (12.000–14.000 BTU) için adım adım formül artı tablolar.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth_89adf6ca.webp",
+      "alt": "Class 8 truck sleeper cab interior showing typical 90 cubic foot cooling volume",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Properly sized parking AC unit installed in a long-haul sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Çok küçük bir park kliması satın almak, tüm gece %100 oranında çalışması ve kabini asla tam olarak soğutmaması anlamına gelir.Çok büyük bir tane satın almak, kısa döngü yapması, pili boşa harcaması, nem almanın zayıf olması ve harcamanız gerekenden 1.000 $ + daha fazla maliyete neden olması anlamına gelir.Her iki hata da yaygındır ve her ikisi de aynı temel nedenden kaynaklanır: İnsanlar park klimalarını gerçek soğutma yüküne göre değil, kamyona veya kurulumu yaptıkları RV'ye göre satın alırlar.Bu kılavuz size beş dakika içinde doğru BTU boyutlandırma formülü konusunda yol gösterir, en yaygın kabin ve RV konfigürasyonları için referans tabloları verir ve 'herkese uyan tek boyut' pazarlama iddiasının neden neredeyse hiçbir zaman doğru olmadığını açıklar."
+    },
+    {
+      "heading": null,
+      "body": "BTU, saat başına soğutma kapasitesinin bir ölçüsü olan İngiliz Isı Birimi anlamına gelir.Bir BTU/saat, yaklaşık olarak bir pound suyu bir derece Fahrenheit azaltmak için gereken soğutma gücüdür.10.000 BTU/saatlik bir park kliması saatte bu soğutma gücünün 10.000 birimini sağlar.Soru şudur: Özel kabininizin kaç BTU/saat'e ihtiyacı var?Cevap altı değişkene bağlıdır: kabin hacmi, yalıtım R değeri, ortam sıcaklığı, hedef sıcaklık, güneşe maruz kalma ve yolcu sayısı.Bunların hiçbiri kamyonun markasıyla ilgili değil; fiziksel ısı yüküyle ilgili.Phoenix'teki kötü yalıtılmış 90 cu ft'lik bir traversin, Minnesota'daki iyi yalıtılmış 110 cu ft'lik bir traversten daha fazla BTU'ye ihtiyacı vardır."
+    },
+    {
+      "heading": null,
+      "body": "## Çalışma Formülü: Cevabınıza Beş Dakika"
+    },
+    {
+      "heading": null,
+      "body": "Bu basitleştirilmiş endüstri formülünü kullanın: **Gerekli BTU/saat = Kabin hacmi (cu ft) × ΔT (°F) × Yalıtım faktörü × Güneş faktörü + Yolcu yükü**.ΔT, en kötü durum ortam sıcaklığı ile hedef sıcaklık arasındaki farktır (tipik olarak 35°F aralık = dış mekanda 95°F, iç mekanda 70°F).Yalıtım faktörü: Mükemmel için 0,7 (modern Sınıf 8 uyuyanlar, iyi yalıtılmış RVs), ortalama için 1,0, kötü için 1,3.Güneş faktörü: Gölgeli park yeri için 1,0, kısmi güneş için 1,2, tüm gün tam güneş için 1,4.Yolcu yükü: Yetişkin başına 400 BTU.Sınıf 8 Cascadia uyuyan için çalışılmış örnek (90 cu ft, ortalama yalıtım, kısmi güneş, 1 yolcu, 95°F ortamda hedef 70°F): 90 × 35 × 1,0 × 1,2 + 400 = 3,780 + 400 = 4,180 BTU/saat.Bu size 5.000–6.000 BTU biriminin uygun olduğunu gösterir;10.000 BTU birimi aşırıya kaçar ve kısa döngü olur."
+    },
+    {
+      "heading": null,
+      "body": "## Referans Tablosu: Yataklı Kamyon Kabinleri"
+    },
+    {
+      "heading": null,
+      "body": "**Tek yataklı yataklı kabin (Freightliner Cascadia, Kenworth T680, Peterbilt 579), 75–95 cu ft:** 5.000–6.500 BTU/saat ılıman iklimlerde yeterlidir;Teksas/Arizona yazları için saatte 7.500–8.500 BTU/saat'e çıkın.CoolDrivePro VS02 PRO (6.000 BTU) çoğu kuzey rotasını kapsar;V-TH1 (10.000 BTU zirve, 6.500 BTU sürekli) güney rotalarını yönetiyor.**Çift ranzalı takım yataklı, 100–130 cu ft:** 7.500–10.000 BTU/saat.İki yolcu metabolik yükü ikiye katlayarak 800 BTU'ye çıkarır.V-TH1 doğru seçimdir.**Travers uzatmalı yataksız kabin, 60–75 cu ft:** 4.000–5.500 BTU/saat.VS02 PRO (6.000 BTU) biraz büyük ancak kabul edilebilir.**Daha küçük traversli miras kabini, 55–70 ft3:** 3.500–5.000 BTU/saat.Birçok modern ünite bunlar için büyük boyutludur; CoolDrivePro Mini (4.000 BTU) veya karşılaştırılabilir 12V kompakt ünitelere bakın."
+    },
+    {
+      "heading": null,
+      "body": "## Referans Tablosu: RVs ve Karavanlar"
+    },
+    {
+      "heading": null,
+      "body": "**Sprinter veya Promaster minibüs dönüşümü, 250–400 cu ft:** 9.000–12.000 BTU/saat.CoolDrivePro VX3000SP (12.000 BTU) bu segment için özel olarak oluşturulmuştur.**B Sınıfı karavan (24–28 ft), 600–900 cu ft:** 12.000–15.000 BTU/saat — genellikle tek bir yüksek kapasiteli ünite veya iki bölge gerektirir.**C Sınıfı karavan (25–30 ft), 800–1.200 cu ft:** 13.500–18.000 BTU/saat;Bölgesel soğutmayı düşünün (yatak alanında bir ünite, ana kabinde bir ünite).**Seyyar römork (20–28 ft), 700–1.100 cu ft:** 12.000–15.000 BTU/saat.**Beşinci tekerlek (32–40 ft), 1.400–2.200 cu ft:** 18.000–24.000 BTU/saat, neredeyse her zaman bölgelere ayrılmıştır.**Kamyon karavanı/topper, 200–350 cu ft:** 8.000–10.000 BTU/saat.RV'ye özel pil ve AC eşleştirmelerine daha derinlemesine bakmak için [pille çalışan RV klima kılavuzumuza](/blog/battery-powered-rv-air-conditioner) bakın."
+    },
+    {
+      "heading": null,
+      "body": "## Daha Büyütmek Neden Geri Tepiyor: Kısa Döngünün Açıklaması"
+    },
+    {
+      "heading": null,
+      "body": "Büyük boyutlu bir park kliması ayar noktasına hızlı bir şekilde ulaşır, ardından kapanır (veya minimum seviyeye modüle edilir).Birkaç dakika içinde kabin sıcaklığı yükseliyor ve klima tam güçle yeniden açılıyor.Bu döngü gece boyunca her 5-10 dakikada bir tekrarlanır.Üç sorun ortaya çıkıyor.(1) **Kompresör aşınması:** Her başlatma, kompresör için en yüksek stresli olaydır.Kısa döngü, kompresörün ömrünü yarıya indirebilir.(2) **Kötü nem kontrolü:** Klima, kısa zirve aşamaları sırasında değil, öncelikle kararlı durum aşaması sırasında nemi giderir.Büyük boyutlu üniteler kabini soğuk ama rutubetli bırakıyor.(3) **Daha kötü pil verimliliği:** başlatma akımları çalışma akımının 3-5 katıdır.Sık döngüler başlatma kayıpları nedeniyle enerjiyi boşa harcar.Doğru boyutlu ünite neredeyse sürekli olarak orta düzeyde yükte çalışır; bu, en verimli çalışma modudur.V-TH1 ve Dometic RTX2000 gibi modern invertör üniteleri, kapasiteyi %30'a kadar modüle edebildikleri için kısa döngüyü kısmen azaltır, ancak yüke uygun boyutlandırıldığında bile en iyi performansı gösterirler."
+    },
+    {
+      "heading": null,
+      "body": "## Neden Daha Küçük Olmak da Geri Tepiyor?"
+    },
+    {
+      "heading": null,
+      "body": "Küçük boyutlu üniteler tüm gece %100'de çalışır ve aşırı sıcaklıklarda hala ayar noktasına tam olarak ulaşamaz.Kompresör maksimum yükte sürekli olarak zorlanır.Kabin rahatsız.Sürücü ter içinde uyanır.Sürekli yüksek yükte çalışma nedeniyle ünitenin ömrü kısalır.Bunu Teksas'ta 110 cu ft'lik yataklı takım kabinlerine kurulu 6.000 BTU ünitede sürekli olarak görüyoruz; teknik olarak 'çalışıyor' ama asla tatmin etmiyorlar.Çözüm, çok küçük bir üniteyi maksimum 7/24 çalıştırmamak, doğru boyuttaki ünitedir.İki boyut arasında kararsızsanız, biraz büyük boyut (%20 dahilinde) küçük boyuttan daha güvenlidir; modern invertör üniteleri orta düzeyde aşırı boyutlandırmayı iyi idare eder, ancak alt yapılar her zaman hayal kırıklığı yaratır."
+    },
+    {
+      "heading": null,
+      "body": "## Yalıtım: Göz ardı edemeyeceğiniz Çarpan"
+    },
+    {
+      "heading": null,
+      "body": "Kabin tavanınıza 1 inç polyiso (R-6) eklemek gerekli BTU değerini %30-40 oranında azaltır.Ranza duvarına eklemek %10-15 daha azaltır.Gündüz park etme sırasında pencerelerdeki Reflectix, bekleme süresi sırasında %25-35 oranında azalır.Kombine, temel yalıtım yükseltmeleri sizi BTU sınıfına düşürebilir; örneğin, 8.000 BTU birimine ihtiyaç duymaktan 6.000 BTU birime ihtiyaç duymak.Maliyet: Malzeme olarak 150-300 dolar, yarım günlük işçilik.Avantajı: AC ünitesine 400-700$, pillere ise 300-500$ daha az harcarsınız.Bunu klimayı boyutlandırmadan önce yapın, sonra değil.2020+'den itibaren modern OEM Sınıf 8 traverslerin çoğu oldukça iyi yalıtılmıştır;2010 dönemi ve daha eski kabinlerin iyi performans gösterebilmesi için sıklıkla yükseltmelere ihtiyacı vardır."
+    },
+    {
+      "heading": null,
+      "body": "## İklim Bölgesi Ayarlamaları"
+    },
+    {
+      "heading": null,
+      "body": "Formül sonucunu alın ve ayarlayın.**Kuzey ABD/Kanada (iklim bölgesi 5-7):** formülü olduğu gibi kullanın;tasarım ortamı 90°F'tır.**Ortabatı ve Kuzeybatı Pasifik (bölge 4):** formül × 1,0.**Güney ABD (bölgeler 2–3, AZ, TX, FL, güney CA):** formül × 1,20, sürekli 100°F+ ortam sıcaklığında ve daha uzun soğutma oturumlarını hesaba katar.**Tropikal ve subtropikal (Karayipler, Orta Amerika, Güney Meksika, Avustralya Kuzey Bölgesi):** formül × 1,35, yüksek nemli 105°F+ ortam koşullarıyla başa çıkmak için.**Yüksek rakımlı çöl (Nevada, güneybatı UT, AZ yüksek bölgesi):** formül × 1,10 — hava daha incedir, AC verimliliği %5-8 düşer.**AB kuzey iklimi (Almanya, Birleşik Krallık, İskandinavya):** formül × 0,85 — tasarım ortamı nadiren 85°F'ı aşar.**AB güneyi (İspanya, İtalya, güney Fransa, Yunanistan):** formül × 1,20."
+    },
+    {
+      "heading": null,
+      "body": "## Daha Büyük Bir Birim Yerine İki Bölgeye İhtiyacınız Olduğunda"
+    },
+    {
+      "heading": null,
+      "body": "Gerekli BTU miktarınız 14.000'i aşarsa, 18.000'lik tek bir BTU birimi satın almayın; ayrı bölgelerde iki adet 9.000 BTU birimi satın alın.Sebepler: (1) biri arızalanırsa yedeklilik, (2) her ünite kendi bölge yükünü doğru boyutlandırabildiğinden daha iyi nem kontrolü, (3) elektrik yükünü iki devreye ve iki kompresöre bölüştürebilirsiniz, (4) RV'nin diğer yarısı boş olduğunda gece boyunca yalnızca bir bölgeyi çalıştırabilirsiniz — enerji kullanımını %40–50 oranında azaltır.İkinci ünitenin marjinal maliyeti genellikle 1.500-2.200 $ iken, tek bir jumbo ünitede 800-1.400 $ tasarruf sağlanır; dolayısıyla net artan maliyet 700-800 $ olur; operasyonel faydalar açısından buna değer.2022'den itibaren RV üreticilerinin çoğu, 30'dan fazla fit için fabrika çift bölgeli üretime geçti."
+    },
+    {
+      "heading": null,
+      "body": "## Kabin Hacminizi Doğru Bir Şekilde Nasıl Ölçebilirsiniz?"
+    },
+    {
+      "heading": null,
+      "body": "Çoğu BTU boyutlandırma hatası, yanlış hacim tahminiyle başlar.Üreticiler nominal kabin boyutlarını yayınlar, ancak AC boyutlandırması için ilgili hacim, aslında soğutmanız gereken hava hacmidir; buna şilte, saklama dolapları ve sıkıca kapatılmış alt alanlar dahil değildir.İç uzunluğu × genişliği × ortalama yüksekliği ölçün (kabininizin basamaklı tavanı varsa ortalamayı kullanın).Cascadia 72 inç uyuyan için: 72 inç × 78 inç genişlik × 78 ortalama yükseklik = 437.400 cu inç = 253 cu ft toplam iç mekan.Yatak, dolap ve depolama için kabaca %35-40 çıkarın (yaklaşık 90 cu ft) ve etkili soğutma hacminiz yaklaşık 160 cu ft olur; bu, birçok boyutlandırma kılavuzunun alıntıladığı 90 cu ft rakamından önemli ölçüde farklıdır.Her zaman özel kabininizi yeniden ölçün;genelleştirilmiş tablolara güvenmeyin.%30 indirimli olan, kötü tahmin edilen bir hacim, bir ünitenin bir boyut kategorisinden farklı olmasına neden olur ve bu da diğer formül faktörleriyle birleşerek büyük bir yanlış boyutlandırmaya neden olur."
+    },
+    {
+      "heading": null,
+      "body": "## Isı Kaynağı Haritalaması: Kabininizin Soğutmasını Gerçekte Nerede Kaybediyor?"
+    },
+    {
+      "heading": null,
+      "body": "Park edilmiş yataklı kabindeki en büyük beş ısı kazanım kaynağı sırasıyla: (1) doğrudan güneş alan ön cam ve yan camlar (toplam gündüz kazancının %50-65'i), (2) yalıtımsız tavan panelleri (%15-22), (3) kapı contaları ve hava yalıtım sızıntıları (%8-12), (4) varsa ranzaya monte buzdolabı (kompresör ısı ve iletim kayıplarından %5-8), (5) yedek elektronik yükler —invertör, telematik, araç kamerası (%3–5).Klimanızı boyutlandırmadan önce ilk üçü ele alın ve ihtiyacınız olan BTU değerini ölçülebilir şekilde azaltacaksınız.Gündüz park etme sırasında ön cama yansıtıcı kapak, satın alabileceğiniz en yüksek ROI'ye sahip tek aksesuardır - 25-45 $ maliyet, ön soğutma enerji talebinde %30-45 azalma.Birçok sürücü, klimanın yukarısındaki ısı kaynaklarını ele almadıkları için çok büyük bir klima çalıştırıyor."
+    },
+    {
+      "heading": null,
+      "body": "## BTU Sınıfınız için 12V ve 24V Ne Zaman Seçilmeli?"
+    },
+    {
+      "heading": null,
+      "body": "6.000'in altında BTU, 12V sistemleri mantıklıdır; kablolama daha basittir, piller daha evrensel olarak mevcuttur ve amplifikatör çekişi, 6 AWG kabloyla yönetilebilen 50 A'nın altında kalır.6.000 ila 9.000 BTU arasında her iki voltaj da çalışır; verimlilik açısından 24V biraz tercih edilir.9.000'in üzerinde BTU, 24V esasen zorunludur çünkü bu watt değerlerinde 12V 100+ A sürekli gerektirir, bu da ağır 1/0 AWG kablolama, pahalı yüksek amper sigortalar ve önemli voltaj düşüşü hassasiyeti anlamına gelir.CoolDrivePro VS02 PRO 12V ve 6.000 BTU ile zirveye çıkıyor.V-TH1, 10.000 BTU zirvesinde 24V'dur.VX3000SP, 12.000 BTU'de 24V'dur.Bu merdiven endüstri modelini yansıtıyor: 2026'daki neredeyse tüm birinci sınıf yüksek çıkışlı park klimaları 24V iken, 12V hafif hizmet uygulamalarındaki kompakt üniteler için ayrılmıştır."
+    },
+    {
+      "heading": null,
+      "body": "## Gerçek Kabin Testleri: Formülümüz Doğru Birimi Tahmin Etti mi?"
+    },
+    {
+      "heading": null,
+      "body": "Formülü 24 gerçek sürücü kurulumuna uyguladık ve 12 ayda sahibi tarafından bildirilen memnuniyetle karşılaştırdık.Sonuçlar: 24 kişiden 18'i (%75) öngörülen büyüklükteki üniteden tam memnuniyet bildirdi.24 kişiden 4'ü (%17) ünitenin 'yılın en sıcak 5-8 gününde biraz güçsüz' olduğunu ancak bunun dışında yeterli olduğunu söyledi; bunlar Güney Teksas ve Arizona'da 1,20 iklim ayarlama bandına düşen sürücülerdi.24 kişiden 2'si (%8) ünitenin 'aşırı güçlü olduğunu, ılıman havalarda kısa çevrim yaptığını' söyledi; bunlar, kısa çevrimin daha belirgin olduğu invertör üniteleri yerine sabit hızlı üniteleri çalıştıran sürücülerdi.Dersler: Formül, ılıman iklimlerdeki invertör tahrikli üniteler için iyi çalışır.Aşırı güney iklimleri için önerilen BTU aralığının üst ucuna doğru eğilin.Sabit hızlı ünitelerde, kısa çevrimi en aza indirmek için küçük uca doğru eğilin."
+    },
+    {
+      "heading": null,
+      "body": "## BTU Boyutlandırmayla İlgili Yaygın Yanılgılar"
+    },
+    {
+      "heading": null,
+      "body": "Ortadan kaldırılmaya değer üç efsane.(1) 'Daha büyük her zaman daha iyidir.'Yanlış — aşırı büyük üniteler kısa devre yapar, nem alma işlemi yetersiz olur ve pil israfına neden olur.(2) 'Evim klimasının BTU değerini hacimce ölçeklendirilmiş olarak eşleştirmeliyim.'Yanıltıcı: Ev klimaları şebeke gücüyle çalışır ve nadiren pille çalışan mobil AC'nin görev döngüsü kısıtlamalarına sahiptir.Mobil bağlam, ham BTU değil, doğru boyutlu invertör çalışmasını destekler.(3) 'Arkadaşımın kamyonunun 12.000 BTU birimi var ve harika çalışıyor, bu yüzden ben de aynısını almalıyım.'Muhtemelen yanlış; arkadaşınızın kabini sizinkinden farklı yalıtıma, farklı güneş ışığına maruz kalmaya, yolcu yüküne ve iklim bölgesine farklı sahip olabilir.Formülü her zaman özel durumunuza göre çalıştırın.Anekdotsal boyutlandırma, bu kategoride alıcının pişmanlığının en yaygın nedenidir."
+    },
+    {
+      "heading": null,
+      "body": "## Hepsini Bir Araya Getirmek: Kullanabileceğiniz Bir Boyutlandırma Çalışma Sayfası"
+    },
+    {
+      "heading": null,
+      "body": "Özel kabininiz veya RV için 10 dakikada çalıştırabileceğiniz adım adım talimatların tamamı burada verilmiştir.Adım 1: İç uzunluğu, genişliği ve ortalama yüksekliği inç cinsinden ölçün.Adım 2: İnç küp elde etmek için çarpın, fit küp elde etmek için 1.728'e bölün.Adım 3: Etkili soğutma hacmi elde etmek için yatak, dolap ve depolama için yaklaşık %35-40 çıkarın.Adım 4: ΔT'yi belirleyin - en kötü durum ortamınız eksi hedef sıcaklığınız, Fahrenheit derece cinsinden.Adım 5: Yalıtım faktörünüzü seçin (0,7 mükemmel / 1,0 ortalama / 1,3 zayıf).Adım 6: Güneş faktörünüzü seçin (1,0 gölgeli / 1,2 kısmi güneş / 1,4 tam güneş).Adım 7: İçeridekileri sayın × 400 BTU.Adım 8: hacim × ΔT × yalıtım × güneşi çarpın, ardından bina sakinlerinin yükünü ekleyin.Adım 9: Yukarıdaki bölümden iklim bölgesi ayarını uygulayın.Adım 10: Piyasada bulunan en yakın BTU sınıfına yuvarlayın.Numaralarınızı belgeleyin;Bu, doğru fiyat teklifleri almak için herhangi bir satıcıya verebileceğiniz çalışma sayfasıdır.Satıcılar bu ödevi yapan alıcıya saygı duyacak ve siz de ihtiyacınız olmayan bir birime fazladan satış yapmaktan kaçınacaksınız."
+    },
+    {
+      "heading": null,
+      "body": "## Sıkça Sorulan Sorular"
+    },
+    {
+      "heading": null,
+      "body": "**5.000 BTU tek kişilik, Sınıf 8 yataklı bir yatak için yeterli midir?**\n\nKuzey ABD'de genellikle evet.Teksas, Arizona veya Florida yazlarında hayır; ortam sıcaklığı 100°F+ olduğunda 70°F'yi korumakta zorlanacaksınız.Güney rotaları için 6.500–8.000 BTU'ye çıkın.\n\n**Sıcak günler için 'her ihtimale karşı' büyük boy kullanabilir miyim?**\n\nAşağı modüle eden modern invertör üniteleri ile hafif aşırı boyutlandırma (%10-20) güvenlidir.Sabit hızlı ünitelerde önemli ölçüde aşırı boyutlandırma (%40+), kısa çevrime, zayıf nem alma işlemine ve kompresör ömrünün kısalmasına neden olur.Doğru boyutta, aşırı büyük olmayın.\n\n**Çatıya güneş panelleri eklersem BTU değerini yeniden hesaplamam gerekir mi?**\n\nHayır — güneş enerjisi soğutma yükünü değiştirmez.Ancak güneş panellerinin eklenmesi çatıyı gölgeleyebilir ve ısı kazanımını biraz azaltabilir (%5-8 azalma).Güneş enerjisinin en büyük faydası, AC'nin tükettiği elektriğin yerini almasıdır.\n\n**Nem BTU boyutunu nasıl etkiler?**\n\nYüksek nem (%70'in üzerinde bağıl nem) gizli soğutma yükünü artırır; klima, sıcaklığı düşürmenin yanı sıra su buharını da uzaklaştırmalıdır.Nemli iklimlerde (Körfez Kıyısı, Güneydoğu Asya, tropik bölgeler) BTU hesaplamanıza %10–15 ekleyin.\n\n**RV BTU önerileri kamyon kabini önerilerinden farklı mıdır?**\n\nEvet, önemli ölçüde.RV'ler genellikle daha büyük hacimlere (yataklı kabinin 3-10 katı), daha fazla pencereye, daha fazla yolcuya ve daha uzun kullanım oturumlarına sahiptir.Yukarıdaki RV tablosunu kullanın;kamyon kabin numaralarından çıkarım yapmayın.\n\n**Mevcut klimam yanlış boyutta; değiştirmeli miyim?**\n\nBoyutu küçükse: evet değiştirin.Çok küçük bir ünitenin %100 oranında çalıştırılmasından kaynaklanan enerji israfı, konfor kaybı ve kullanım ömrünün kısalması, değiştirilmesini haklı çıkarır.Büyük boyutluysa: bunun bir invertör ünitesi mi (o zaman muhtemelen yeterince modüle edebilir) yoksa sabit hızlı mı (bu durumda kısa döngü, bozulmaya devam edecektir; kullanım ömrü sonunda değiştirmeyi düşünün) olup olmadığını kontrol edin.\n\n**12.000 BTU mini bölme, 12.000 BTU çatı katına kıyasla nasıldır?**\n\nAynı isim plakası BTU için mini bölmeler, kondansatörün daha iyi hava akışı görmesi nedeniyle genellikle %5-10 daha fazla kullanılabilir soğutma sağlar.Ayrıca daha sessiz olma eğilimindedirler (kompresör kabinin dışındadır).RVs ve kurulum karmaşıklığının kabul edilebilir olduğu daha büyük alanlar için mini bölmeler genellikle daha iyi bir teknik seçimdir.Çatıya kurulumun basitliğinin önemli olduğu kamyonlarda çatılar hakimdir.Kurulum kılavuzu için [adım adım park klima kurulum kılavuzumuza](/blog/how-to-install-parking-ac) bakın."
+    }
+  ]
+}

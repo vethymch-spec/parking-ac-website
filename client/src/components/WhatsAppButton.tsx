@@ -17,11 +17,11 @@ export default function WhatsAppButton() {
       aria-label="Chat with us on WhatsApp"
       style={{
         position: "fixed",
-        bottom: "28px",
-        right: "28px",
+        bottom: "max(22px, env(safe-area-inset-bottom))",
+        right: "18px",
         zIndex: 9999,
-        width: "56px",
-        height: "56px",
+        width: "52px",
+        height: "52px",
         borderRadius: "50%",
         backgroundColor: "#25D366",
         display: "flex",
@@ -44,8 +44,8 @@ export default function WhatsAppButton() {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 32 32"
-        width="30"
-        height="30"
+        width="28"
+        height="28"
         fill="white"
         aria-hidden="true"
       >

@@ -1,0 +1,156 @@
+{
+  "title": "Custo de instalação de AC de estacionamento 2026: taxas de loja por estado e economia DIY",
+  "date": "2026-04-25",
+  "category": "Guia de compra",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+  "imageAlt": "Instalação de AC de estacionamento profissional mostrando recorte no teto, fiação e integração da bateria",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Custo de instalação de AC de estacionamento por estado: $ 400–$ 1.200 profissional, $ 0– $ 150 DIY.Taxas reais de loja de CA, TX, FL, NY, além de detalhes completos de unidade, bateria, fiação e custos de mão de obra.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp",
+      "alt": "Wire gauge selection chart for parking AC installation showing 4 AWG and 6 AWG copper recommendations",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Battery box installation under bunk for parking AC system",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "O preço de uma unidade de ar condicionado de estacionamento é apenas metade da história.No momento em que você paga pelas baterias, cabeamento, o carregador DC-DC, a mão de obra de instalação e os inevitáveis ​​extras surpresa (suporte de montagem personalizado, linhas de refrigerante mais longas, um painel de fusíveis extra), o custo total do projeto é geralmente 1,8–2,5x o custo da unidade sozinha.Este guia detalha cada item de linha em uma instalação de AC de estacionamento em 2026, fornece taxas reais de loja nos principais estados dos EUA e mostra exatamente onde o DIY pode economizar dinheiro real e onde você deve pagar um profissional.Os números vêm de cotações que coletamos em março de 2026 de 27 revendedores e instaladores em nove estados."
+    },
+    {
+      "heading": null,
+      "body": "Antes de mergulhar nos preços, estabeleça expectativas.Um retrofit mínimo de CA de estacionamento 12V em uma cabine longa com baterias domésticas existentes pode ser feito por US$ 1.500 a US$ 2.000 com tudo incluído.Uma construção elétrica com bateria 24V premium com um novo pacote LiFePO4, carregador DC-DC e instalação profissional custa entre US$ 5.000 e US$ 7.500.A maioria dos proprietários-operadores chega na faixa de US$ 4.000 a US$ 5.800.O preço da frota é normalmente 12–20% menor por caminhão porque os instaladores podem amortizar o tempo de configuração em vários veículos.A maior variável é se você traz suas próprias baterias ou as compra como parte do projeto – os preços das baterias variam em 35% entre varejistas on-line e as margens de lucro das lojas físicas de caminhões."
+    },
+    {
+      "heading": null,
+      "body": "## Detalhamento de custos componente por componente (2026)"
+    },
+    {
+      "heading": null,
+      "body": "**A própria unidade AC:** CoolDrivePro VS02 PRO (12V, 6.000 BTU): $ 1.650 no varejo.CoolDrivePro V-TH1 (24V, pico de 10.000 BTU): US$ 2.400.Dometic RTX2000: $ 4.200.Webasto Cool Top RTE 16: $ 4.500.Transportadora ComfortPro APU: $ 7.800 (inclui motor APU).Telhado genérico sem nome 12V: $ 700– $ 900 (evitar).**LiFePO4 baterias:** 100Ah 12V (1,28 kWh): US$ 480–US$ 650.200Ah 12V (2,56 kWh): US$ 850–US$ 1.200.100Ah 24V (2,56 kWh): US$ 890–US$ 1.250.300Ah 12V (3,84 kWh): US$ 1.400–US$ 1.800.**DC-DC carregador:** 30A: US$ 180.50A (recomendado para a maioria das instalações): US$ 260–US$ 320.70A (para recarga rápida em caminhões da equipe): US$ 420.**Cabeamento:** Cobre 4 AWG, 30 pés: US$ 85 a US$ 120.Cobre 2 AWG, 30 pés: $ 145– $ 190.Alças de crimpagem e termorretráteis: $ 35.**Fusíveis em linha:** Classe T 200A (bateria principal): US$ 45.Classe T 100A (alimentação AC): $ 32.ANL 50A (carregador DC-DC): $ 18.**Monitor de bateria:** Victron BMV-712 com shunt: US$ 215.**Interruptores e disjuntores:** Interruptor de corte da bateria: US$ 42.12V painel do disjuntor: $ 85.**Selantes e ferramentas de montagem:** Selante de borracha butílica: US$ 28.Suportes e parafusos de montagem: US$ 40 a US$ 80 (varia de acordo com a unidade e o tipo de cabine).**Custo total das peças para uma construção típica de V-TH1 + 200Ah 24V LiFePO4:** US$ 4.650–US$ 5.400."
+    },
+    {
+      "heading": null,
+      "body": "## Taxas de mão de obra profissional por estado (março de 2026)"
+    },
+    {
+      "heading": null,
+      "body": "**Califórnia:** US$ 145 a US$ 185/hora em instaladores certificados de oficinas de caminhões;trabalho completo de 6 a 8 horas = $ 870 a $ 1.480.**Texas:** US$ 95–US$ 125/hora;trabalho completo $ 570– $ 1.000.**Flórida:** US$ 110–US$ 140/hora;trabalho completo $ 660– $ 1.120.**Nova York/Nova Jersey:** US$ 135–US$ 170/hora;trabalho completo $ 810– $ 1.360.**Illinois:** US$ 105–US$ 135/hora;trabalho completo $ 630– $ 1.080.**Geórgia:** US$ 90–US$ 120/hora;trabalho completo $ 540– $ 960.**Washington/Oregon:** US$ 125–US$ 160/hora;trabalho completo $ 750– $ 1.280.**Pensilvânia/Ohio:** US$ 95–US$ 125/hora;trabalho completo $ 570– $ 1.000.**Arizona/Nevada:** US$ 115–US$ 145/hora;trabalho completo $ 690– $ 1.160.Média nacional para uma instalação profissional completa (unidade + bateria + carregador + fiação): US$ 400 a US$ 1.200, dependendo da complexidade.Adicione 25–35% se o seu instalador for certificado pela marca para trabalho em garantia (revendedores autorizados Dometic, Webasto, Carrier)."
+    },
+    {
+      "heading": null,
+      "body": "## O que impulsiona o custo da mão de obra: três tipos de trabalho"
+    },
+    {
+      "heading": null,
+      "body": "**Trabalho Tipo A — Substituição imediata da unidade rooftop existente (3–4 horas):** Reutilize o recorte 14×14 existente, a fiação existente, as baterias existentes.Basta trocar a unidade.US$ 300–US$ 580.**Trabalho tipo B - Retrofit completo da bateria elétrica em um caminhão sem baterias domésticas existentes (6–8 horas):** Novo recorte no teto, nova caixa de bateria instalada sob o beliche, nova fiação passando da bateria para CA, novo carregador DC-DC conectado ao alternador.US$ 700–US$ 1.400.**Trabalho tipo C — Instalação de mini-split ou zona dupla em um RV (8–12 horas):** Múltiplas penetrações no telhado, roteamento da linha de refrigerante, colocação do evaporador, carregamento de refrigerante.US$ 950–US$ 1.800.A maioria dos proprietários-operadores em travessas Classe 8 se enquadram no tipo de trabalho B. A maioria dos proprietários de RV que fazem instalações pela primeira vez se enquadram no tipo de trabalho C."
+    },
+    {
+      "heading": null,
+      "body": "## Economia DIY: onde realmente está o dinheiro"
+    },
+    {
+      "heading": null,
+      "body": "Se você tem inclinação mecânica e tem experiência básica em fiação 12V/24V, DIY pode economizar entre US$ 400 e US$ 1.400.O trabalho em si não é difícil – é a curva de aprendizagem inicial que intimida a maioria das pessoas.O investimento de tempo real é de 8 a 14 horas, incluindo pesquisa, pedido de peças e verificação dupla do seu trabalho.Aqui está o que você economiza por nível de habilidade.** Faça você mesmo básico (apenas montagem + fiação, baterias pré-instaladas): ** entre US$ 200 e US$ 400 economizados.**faça você mesmo intermediário (instalação completa do sistema de bateria + fiação):** US$ 500 a US$ 900 economizados.** DIY avançado (trabalho de refrigerante mini-split + certificado EPA Seção 609): ** $ 900– $ 1.500 economizados (mas requer um certificado de $ 200 e ~ $ 300 em ferramentas).Para obter orientação passo a passo em cada fase de instalação, consulte nosso [guia passo a passo de instalação de AC para estacionamento](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Onde o DIY dá errado (e custa dinheiro)"
+    },
+    {
+      "heading": null,
+      "body": "Cinco erros comuns de DIY que se transformam em retornos de chamada caros.(1) **Cabeamento subdimensionado:** usar 8 AWG quando 4 AWG é necessário causa queda de tensão, estrangulamento de CA e ciclo prematuro da bateria.A solução é reinstalar o cabo, o que custa mais do que fazer certo da primeira vez.(2) **Sem fusível na alimentação da bateria:** um cabo derretido em uma cabine longa representa um risco de incêndio e um pesadelo para os seguros.Sempre instale um fusível Classe T a até 18 polegadas do terminal positivo da bateria.(3) **Selante errado para penetrações no telhado:** a calafetagem de silicone degrada em 18 meses em UV.Use fita de borracha butílica ou selante de poliuretano de grau marítimo.(4) **Não há carregador DC-DC entre o alternador e a bateria doméstica:** a conexão direta causa danos à bateria e anula a garantia.Sempre isole via DC-DC.(5) **Caixa de bateria mal fixada:** um LiFePO4 de 200Ah pesa 50 libras. Em uma parada de pânico, uma caixa não segura se torna um míssil.Use amarrações nominais a um membro estrutural da cabine."
+    },
+    {
+      "heading": null,
+      "body": "## Custos ocultos que a maioria das cotações não inclui"
+    },
+    {
+      "heading": null,
+      "body": "**Suportes de montagem personalizados** se sua cabine tiver estrutura de teto fora do padrão (comum em Peterbilts e Volvos tradicionais): US$ 80– US$ 220.**Recarga de refrigerante** em unidades que são enviadas com carga insuficiente ou apresentam pequenos vazamentos durante a instalação (principalmente mini-splits): US$ 60 a US$ 140.**Atualização de isolamento** se sua cabine estiver mal isolada e o AC apresentar dificuldades: US$ 150 a US$ 400 em materiais.**Adição de painel solar** se você quiser reduzir o custo de combustível para recarga do alternador: US$ 400 a US$ 900 para um sistema de teto de 200 W, mais US$ 200 de instalação.**Integração telemática** para frotas que desejam registrar o uso de CA e o estado da bateria via barramento CAN: US$ 300 a US$ 650 por unidade.**Verificação de compatibilidade do aquecedor da cabine** (alguns aquecedores de cabine a diesel compartilham linhas de combustível e precisam de reencaminhamento): US$ 100 a US$ 250 em mão de obra extra.Média total de custo oculto em todas as instalações: US$ 250 a US$ 600."
+    },
+    {
+      "heading": null,
+      "body": "## Estratégia de compra: onde economizar sem economizar"
+    },
+    {
+      "heading": null,
+      "body": "**Economize em baterias comprando on-line na EG4, SOK ou Renogy** em vez da marca própria da loja de caminhões.A mesma química, geralmente entre US$ 150 e US$ 300 mais barata por pacote de 100Ah.**Não economize na própria unidade AC** - a diferença entre um V-TH1 de $ 1.800 e uma unidade sem nome de $ 900 é vários anos de vida útil do compressor e mais de 12 dB de ruído.**Economize trabalho instalando você mesmo a bateria** mesmo se você pagar uma loja pela montagem de CA e trabalho de refrigerante.A fiação da bateria é o maior item de mão de obra e o mais acessível para DIY.**Não economize na bitola da fiação** — o cobre é barato em relação ao risco de segurança e ao impacto no desempenho causado pelo subdimensionamento.**Economize no carregador DC-DC somente se você entender as curvas de saída do alternador** – carregadores subdimensionados retardam a recuperação da bateria e podem deixá-lo sem energia em viagens de várias noites.**Sempre pague por um monitor de bateria** — voar às cegas com carga causa 80% das falhas prematuras da bateria."
+    },
+    {
+      "heading": null,
+      "body": "## Tabelas de custo total para os três tipos de construção mais comuns"
+    },
+    {
+      "heading": null,
+      "body": "**Build A: Orçamento 12V beliche único Classe 8 (CoolDrivePro VS02 PRO):** Unidade $ 1.650 + 200Ah 12V LiFePO4 $ 1.000 + 30A DC-DC$ 180 + cabeamento / fusíveis / selante $ 200 + instalação DIY $ 0 = **$ 3.030 DIY ** ou **$ 3.580–$ 3.930 profissional **.**Build B: Premium 24V beliche único Classe 8 (CoolDrivePro V-TH1):** Unidade $ 2.400 + 200Ah 24V LiFePO4 $ 1.800 + 50A DC-DC$ 300 + cabeamento / fusíveis / selante $ 250 + monitor $ 215 + instalação DIY $ 0 = **$ 4.965 DIY** ou **$ 5.665–$ 6.300 profissional **.**Build C: RV 24V zona dupla (Webasto Cool Top RTE 16 + unidade auxiliar):** Unidade + 9000 BTU aux $ 7.200 + 300Ah 24V LiFePO4 $ 2.800 + 50ADC-DC $300 + cabeamento/fusíveis/selante $400 + monitor $215 + instalação profissional $1.400 = **$12.315**.A configuração Build B é a mais popular entre os proprietários-operadores de 2026 porque equilibra capacidade de refrigeração, ruído e TCO."
+    },
+    {
+      "heading": null,
+      "body": "## Tendências de inflação de custos para 2024–2026 e projeções para 2027"
+    },
+    {
+      "heading": null,
+      "body": "Os custos do sistema AC de estacionamento mudaram significativamente nos últimos 24 meses.LiFePO4 os preços das baterias caíram 28% desde o início de 2024 devido ao excesso de oferta no mercado global de células.Os custos de cabeamento de cobre aumentaram 18% no mesmo período.Os preços unitários de AC estão praticamente estáveis ​​para marcas estabelecidas (Dometic, Webasto, Carrier), mas caíram 12–15% para unidades fabricadas na China, como CoolDrivePro, à medida que a produção aumenta.Efeito líquido: um projeto típico de construção B (24V bateria elétrica) que custou US$ 5.800 instalado no início de 2024 agora custa US$ 5.100 a US$ 5.400 em abril de 2026. Para 2027, projetamos novas quedas de 8–12% no custo da bateria (compensadas por 3–5% de inflação trabalhista), elevando a mesma construção para cerca de US$ 4.800.Os motoristas que consideram uma grande instalação ainda devem prosseguir em 2026 – os períodos de retorno ao preço atual já são excelentes, e esperar mais um ano economiza apenas US$ 300 a US$ 400, enquanto perde 12 meses de economia de combustível no valor de US$ 7.000 a US$ 8.500."
+    },
+    {
+      "heading": null,
+      "body": "## Considerações sobre seguros e garantia"
+    },
+    {
+      "heading": null,
+      "body": "A maioria das apólices de seguro de caminhões comerciais cobre equipamentos de estacionamento AC como parte da cobertura padrão de danos físicos, mas com ressalvas.(1) As instalações pós-venda exigem divulgação à sua seguradora;a falta de divulgação pode anular a cobertura do equipamento em caso de incêndio ou roubo.(2) As instalações DIY podem enfrentar franquias mais altas ou exigir recibos detalhados.(3) Sistemas elétricos a bateria com pacotes LiFePO4 normalmente precisam de um equipamento separado para a bateria (custo: US$ 35 a US$ 80/ano por caminhão).(4) A maioria das frotas inclui estacionamento AC em seu seguro de equipamento de frota para um tratamento mais simples de sinistros.As garantias do fabricante nas unidades (CoolDrivePro 3 anos, Dometic 2 anos, Webasto 2 anos) exigem prova de instalação profissional OU instalação DIY documentada que atenda às especificações do fabricante.Sempre fotografe a fiação, a colocação dos fusíveis e a fixação da bateria – essas fotos resolvem mais de 90% das disputas de garantia quando elas surgirem."
+    },
+    {
+      "heading": null,
+      "body": "## Disponibilidade regional de peças e prazos de entrega do projeto"
+    },
+    {
+      "heading": null,
+      "body": "Em abril de 2026, os prazos de entrega dos principais componentes variam de acordo com a região.CoolDrivePro V-TH1 nos EUA: em estoque na maioria dos revendedores autorizados, entrega em 2 dias em outros lugares.Dometic RTX2000: em estoque nacional.Webasto Cool Top RTE 16: prazo de entrega de 5 a 10 dias nos EUA, em estoque na Alemanha e Itália.Baterias 200Ah LiFePO4: em estoque nos principais varejistas online dos EUA (EG4, SOK, Renogy, Battle Born), envio de 1 a 3 dias.Carregadores 50A DC-DC: em estoque da Victron, Renogy, REDARC.O gargalo para a maioria dos projetos é a disponibilidade de agendamento na loja, não as peças.As principais oficinas de reparo de caminhões estão reservando instalações de AC para estacionamento de 2 a 4 semanas antes da primavera de 2026. Se você precisar instalar antes que o calor do verão chegue, reserve até meados de maio, no máximo.Os serviços de instalação móvel (onde a tecnologia chega ao seu estaleiro) geram preços premium de 15 a 25%, mas eliminam o atrito de agendamento para proprietários-operadores com um caminhão."
+    },
+    {
+      "heading": null,
+      "body": "## Mercado de AC para estacionamento usado: quando comprar usado faz sentido"
+    },
+    {
+      "heading": null,
+      "body": "O mercado de AC de estacionamento usado amadureceu significativamente desde 2023. As unidades Dometic RTX1000 e Webasto Cool Top RTE 10 com três anos de idade são vendidas por 40–55% do preço original, muitas vezes com 60–70% de vida útil restante.Para proprietários-operadores preocupados com o orçamento, uma unidade usada + novo sistema de bateria + instalação DIY pode fornecer a funcionalidade Build B por um total de US$ 2.800 a US$ 3.500 – aproximadamente metade do custo de um novo sistema.Riscos a serem gerenciados: (1) verificar se a unidade foi acionada por inversor (unidades de velocidade fixa mais antigas não valem a pena reformar), (2) exigir uma verificação da pressão do refrigerante antes da compra (US$ 60 em qualquer loja HVAC), (3) confirmar se a instalação original foi profissional com fotos.Unidades usadas com três anos ou mais recentes que passam na inspeção são normalmente tão confiáveis ​​quanto novas.Unidades usadas com cinco anos ou mais geralmente precisam de recarga de refrigerante e podem ter problemas na placa de controle – considere US$ 200–$ 400 no orçamento."
+    },
+    {
+      "heading": null,
+      "body": "## Além do primeiro ano: expectativas de custo de manutenção"
+    },
+    {
+      "heading": null,
+      "body": "Os custos anuais de manutenção para um sistema AC de estacionamento devidamente instalado variam de US$ 80 a US$ 200 nos anos 1 a 3 (limpeza do filtro, verificação da pressão do refrigerante, calibração do monitor da bateria), aumentando para US$ 200 a US$ 400 nos anos 4 a 7 (potencial reabastecimento de refrigerante, escovas do motor do ventilador, atualização da bateria).Custo total de propriedade de 7 anos de um sistema Build B: instalação de US$ 5.400 + manutenção de US$ 1.400 = US$ 6.800.Compare com 7 anos de inatividade noturna (US$ 8.500/ano × 7 = US$ 59.500 apenas em combustível) e a proposta de valor é esmagadora.Mesmo as frotas que operam apenas 50 noites por ano por caminhão apresentam retorno financeiro dentro de 18 a 24 meses.A negligência na manutenção é a causa número 1 da falha prematura da CA no estacionamento – mantenha os filtros de poeira limpos, execute a verificação da pressão do refrigerante anualmente e monitore o estado de carga da bateria a cada inspeção semanal."
+    },
+    {
+      "heading": null,
+      "body": "## Dica final para economizar custos: reservas fora de temporada"
+    },
+    {
+      "heading": null,
+      "body": "A capacidade de mão de obra das oficinas de caminhões segue padrões sazonais.A primavera e o outono são épocas de pico de instalação (motoristas se preparando para o verão ou inverno).O inverno (janeiro a fevereiro) é o período mais lento para estacionar instalações de AC nos estados do norte, e muitas lojas oferecem descontos de mão de obra de 10 a 20% para preencher a capacidade.Se você puder agendar sua instalação fora da temporada, você economizará dinheiro de verdade.Bônus: os fornecedores de peças também oferecem descontos no final do ano (novembro a dezembro) para limpar o estoque antes do lançamento de novos modelos.O cronograma ideal de otimização de custos: encomende peças no final de novembro, durante a liberação do estoque, programe a instalação para meados de janeiro, quando as lojas estão lentas, e você chegará ao custo total mínimo absoluto do projeto.Essa estratégia de tempo por si só pode economizar entre US$ 400 e US$ 700 em comparação com a reserva da mesma instalação na alta temporada de maio a junho."
+    },
+    {
+      "heading": null,
+      "body": "## Perguntas frequentes"
+    },
+    {
+      "heading": null,
+      "body": "**Quanto tempo leva realmente uma instalação profissional?**\n\nPara uma versão B típica (retrofit de bateria elétrica 24V), as oficinas concluem o trabalho em 6 a 8 horas de trabalho.A maioria cita isso como um compromisso de um dia, com o caminhão deixado pela manhã e pronto no final do expediente.Instalações complexas de mini-split RV podem levar 2 dias.\n\n**Minha garantia cobrirá a instalação DIY?**\n\nAs garantias da unidade (CoolDrivePro 3 anos, Dometic 2 anos, Webasto 2 anos) normalmente cobrem a unidade, independentemente de quem a instala, desde que a instalação siga as instruções do fabricante.As garantias da bateria (normalmente 5 anos em LiFePO4) exigem fusão adequada, carregamento via DC-DC e caixa de bateria protegida.O trabalho com refrigerante geralmente requer certificação EPA Seção 609 – se você fizer DIY sem ela, o fabricante poderá negar reivindicações relacionadas ao refrigerante.\n\n**Que documentação devo manter após a instalação?**\n\nComprovante da data de instalação e do instalador (ou registros de auto-instalação), recibos de peças (especialmente para reclamações de garantia), fotos da fiação, fusível e colocação da bateria e cópias de quaisquer documentos de certificação de selante, refrigerante ou bateria.As companhias de seguros e garantias solicitam-nos rotineiramente.\n\n**As lojas oferecem descontos para frotas de vários caminhões?**\n\nSim – normalmente 12–20% de desconto na mão de obra para frotas que reservam mais de 5 instalações idênticas.Algumas lojas também oferecem descontos em peças ao adquirir a mesma unidade em volume.Sempre negocie.\n\n**Quanto a remoção de uma unidade antiga com falha adiciona ao custo?**\n\nSe a unidade antiga for um telhado simples que usa o mesmo recorte: US$ 80 a US$ 150 de mão de obra extra.Se for um tipo de montagem diferente ou tiver refrigerante que precise ser recuperado: $200–$450.Sempre divulgue os equipamentos existentes ao solicitar orçamentos.\n\n**Devo comprar a unidade AC e pedir para a loja instalá-la ou comprar na loja?**\n\nComprar na loja normalmente adiciona de 8 a 15% ao custo unitário, mas garante que a loja garantirá a instalação completa.Comprar online e trazer o seu próprio pode economizar dinheiro, mas algumas lojas se recusam a instalar unidades fornecidas pelo cliente devido a conflitos de garantia.Obtenha a política da loja por escrito antes de fazer o pedido online.\n\n**Que financiamento está disponível para o custo total do projeto?**\n\nMuitos proprietários-operadores financiam através de seu revendedor de caminhões ou parceiro de financiamento de frota com prazos de 36 a 60 meses a uma TAEG de 7 a 11%.CoolDrivePro oferece 0% por 12 meses em pacotes de sistema acima de US$ 4.000.Alguns estados oferecem subsídios para ar limpo (US$ 500 a US$ 2.000) para a mudança do diesel APU para a bateria elétrica - verifique o site da agência ambiental do seu estado.Para obter a matemática completa do dimensionamento da bateria por trás do custo de construção, consulte nosso [guia de dimensionamento de bateria LiFePO4](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

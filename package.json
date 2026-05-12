@@ -7,8 +7,12 @@
     "node": ">=20.11.0"
   },
   "scripts": {
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && node scripts/generate-static-seo-pages.mjs",
+    "build:app": "vite build",
+    "build:seo": "node scripts/generate-static-seo-pages.mjs",
+    "preview": "vite preview",
+    "verify:production": "node scripts/verify-production-hosts.mjs",
+    "deploy:production": "npm run build && wrangler pages deploy dist/client --project-name=cooldrivepro && npm run verify:production"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

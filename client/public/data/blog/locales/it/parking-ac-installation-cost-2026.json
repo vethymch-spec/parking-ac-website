@@ -1,0 +1,156 @@
+{
+  "title": "Costo di installazione dell'aria condizionata per il parcheggio 2026: tariffe dei negozi per stato e risparmi fai-da-te",
+  "date": "2026-04-25",
+  "category": "Guida all'acquisto",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+  "imageAlt": "Installazione AC professionale per parcheggio che mostra il ritaglio del tetto, il cablaggio e l'integrazione della batteria",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Costo di installazione dell’aria condizionata per parcheggi per stato: $ 400–$ 1.200 professionale, $ 0–$ 150 fai da te.Tariffe reali dei negozi da CA, TX, FL, NY, oltre a un'analisi completa dei costi di unità, batteria, cablaggio e manodopera.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp",
+      "alt": "Wire gauge selection chart for parking AC installation showing 4 AWG and 6 AWG copper recommendations",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Battery box installation under bunk for parking AC system",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Il prezzo di un condizionatore da parcheggio è solo metà della storia.Dopo aver pagato le batterie, i cavi, il caricabatterie DC-DC, la manodopera di installazione e gli inevitabili extra a sorpresa (staffa di montaggio personalizzata, linee di refrigerante più lunghe, un pannello fusibili aggiuntivo), il costo totale del progetto è solitamente 1,8–2,5 volte il costo della sola unità.Questa guida analizza ogni voce in un'installazione AC per parcheggio del 2026, ti fornisce tariffe reali per i negozi dei principali stati degli Stati Uniti e ti mostra esattamente dove il fai-da-te può risparmiare denaro reale rispetto a dove dovresti pagare un professionista.I numeri provengono da preventivi raccolti nel marzo 2026 da 27 rivenditori e installatori in nove stati."
+    },
+    {
+      "heading": null,
+      "body": "Prima di immergerti nei prezzi, stabilisci le aspettative.Un minimo 12V retrofit dell'aria condizionata per il parcheggio su una cabina con cuccetta con batterie domestiche esistenti può essere effettuato per $ 1.500– $ 2.000 tutto compreso.Una build premium 24V a batteria elettrica con un nuovo pacchetto LiFePO4, caricabatterie DC-DC e installazione professionale costa $ 5.000– $ 7.500.La maggior parte dei proprietari-operatori si colloca nella fascia tra i 4.000 e i 5.800 dollari.Il prezzo della flotta è in genere inferiore del 12-20% per camion perché gli installatori possono ammortizzare i tempi di installazione su più veicoli.L'unica variabile più importante è se porti le tue batterie o le acquisti come parte del progetto: i prezzi delle batterie variano del 35% tra i rivenditori online e i ricarichi dei negozi di camion fisici."
+    },
+    {
+      "heading": null,
+      "body": "## Ripartizione dei costi componente per componente (2026)"
+    },
+    {
+      "heading": null,
+      "body": "**L'unità AC stessa:** CoolDrivePro VS02 PRO (12V, 6.000 BTU): $ 1.650 al dettaglio.CoolDrivePro V-TH1 (24V, 10.000 BTU picco): $ 2.400.Dometic RTX2000: $ 4.200.Webasto Cool Top RTE 16: $ 4.500.Carrier ComfortPro APU: $ 7.800 (include motore APU).Senza nome generico 12V roof: $700–$900 (da evitare).**LiFePO4 batterie:** 100 Ah 12V (1,28 kWh): $ 480– $ 650.200 Ah 12V (2,56 kWh): $ 850– $ 1.200.100 Ah 24V (2,56 kWh): $ 890– $ 1.250.300 Ah 12V (3,84 kWh): $ 1.400– $ 1.800.**DC-DC caricabatterie:** 30 A: $ 180.50 A (consigliato per la maggior parte delle installazioni): $ 260– $ 320.70A (per la ricarica rapida sui camion della squadra): $ 420.**Cablaggio:** 4 AWG in rame, 30 piedi: $85–$120.2 AWG in rame, 30 piedi: $145–$190.Capicorda e termorestringenti: $ 35.**Fusibili in linea:** Classe T 200 A (batteria principale): $ 45.Classe T 100A (alimentazione CA): $ 32.ANL 50A (caricabatterie DC-DC): $ 18.**Monitor batteria:** Victron BMV-712 con shunt: $ 215.**Interruttori e interruttori automatici:** Interruttore staccabatteria: $42.Pannello interruttori 12V: $ 85.**Sigillanti e hardware di montaggio:** Sigillante in gomma butilica: $ 28.Staffe e bulloni di montaggio: $ 40-$ 80 (varia in base all'unità e al tipo di cabina).**Costo totale delle parti per una tipica build V-TH1 + 200 Ah 24V LiFePO4:** $ 4.650– $ 5.400."
+    },
+    {
+      "heading": null,
+      "body": "## Tariffe della manodopera professionale per Stato (marzo 2026)"
+    },
+    {
+      "heading": null,
+      "body": "**California:** $145–$185/ora presso installatori certificati di autofficine;lavoro completo 6–8 ore = $ 870– $ 1.480.**Texas:** $95–$125/ora;lavoro completo $ 570– $ 1.000.**Florida:** $110–$140/ora;lavoro completo $ 660– $ 1.120.**New York/New Jersey:** $135–$170/ora;lavoro completo $ 810– $ 1.360.**Illinois:** $105–$135/ora;lavoro completo $ 630– $ 1.080.**Georgia:** $ 90–$ 120/ora;lavoro completo $ 540– $ 960.**Washington/Oregon:** $125–$160/ora;lavoro completo $ 750– $ 1.280.**Pennsylvania/Ohio:** $95–$125/ora;lavoro completo $ 570– $ 1.000.**Arizona/Nevada:** $115–$145/ora;lavoro completo $ 690– $ 1.160.Media nazionale per un'installazione professionale completa (unità + batteria + caricabatterie + cablaggio): $ 400– $ 1.200, a seconda della complessità.Aggiungi il 25–35% se il tuo installatore è certificato dal marchio per gli interventi in garanzia (rivenditori autorizzati Dometic, Webasto, Carrier)."
+    },
+    {
+      "heading": null,
+      "body": "## Cosa determina il costo del lavoro: tre tipi di lavoro"
+    },
+    {
+      "heading": null,
+      "body": "**Intervento di tipo A — Sostituzione immediata dell'unità da tetto esistente (3-4 ore):** Riutilizzo del ritaglio 14×14 esistente, del cablaggio esistente e delle batterie esistenti.Basta scambiare l'unità.$ 300– $ 580.**Lavoro di tipo B — Retrofit completamente elettrico a batteria su un camion senza batterie domestiche esistenti (6–8 ore):** Nuovo ritaglio sul tetto, nuova scatola della batteria installata sotto la cuccetta, nuovo cablaggio dalla batteria alla CA, nuovo DC-DC caricabatterie collegato all'alternatore.$ 700– $ 1.400.**Lavoro di tipo C — Installazione mini-split o doppia zona su un RV (8-12 ore):** Penetrazioni multiple del tetto, percorso della linea del refrigerante, posizionamento dell'evaporatore, carica del refrigerante.$ 950– $ 1.800.La maggior parte degli operatori-proprietari sulle traversine di Classe 8 rientrano nel tipo di lavoro B. La maggior parte dei proprietari RV che effettuano la prima installazione rientrano nel tipo di lavoro C."
+    },
+    {
+      "heading": null,
+      "body": "## Risparmio fai da te: dove sono realmente i soldi"
+    },
+    {
+      "heading": null,
+      "body": "Se sei portato per la meccanica e hai esperienza di base nel cablaggio 12V/24V, il fai-da-te può risparmiare $ 400– $ 1.400.Il lavoro in sé non è difficile: è la curva di apprendimento iniziale che intimidisce la maggior parte delle persone.L'investimento di tempo effettivo è di 8-14 ore, comprese la ricerca, l'ordinazione dei componenti e il doppio controllo del lavoro.Ecco cosa risparmi in base al livello di abilità.**Fai da te di base (solo montaggio + cablaggio, batterie preinstallate):** $ 200– $ 400 risparmiati.**Fai da te intermedio (installazione completa del sistema batteria + cablaggio):** $ 500– $ 900 risparmiati.**Fai da te avanzato (lavoro con refrigerante mini-split + certificato EPA Sezione 609):** $900–$1.500 risparmiati (ma richiede un certificato da $200 e ~$300 in strumenti).Per una guida passo passo in ogni fase di installazione, consulta la nostra [guida passo passo all'installazione dell'aria condizionata per il parcheggio](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Dove il fai-da-te va storto (e ti costa denaro)"
+    },
+    {
+      "heading": null,
+      "body": "Cinque errori comuni del fai da te che si trasformano in costose richiamate.(1) **Cablaggio sottodimensionato:** l'utilizzo di 8 AWG quando sono richiesti 4 AWG provoca caduta di tensione, limitazione CA e ciclo prematuro della batteria.La soluzione sta nel ricollegare il cavo, che costa di più che farlo bene la prima volta.(2) **Nessun fusibile sull'alimentazione della batteria:** un cavo fuso in una cabina con cuccetta rappresenta un rischio di incendio e un incubo assicurativo.Installare sempre un fusibile di Classe T entro 18 pollici dal terminale positivo della batteria.(3) **Sigillante sbagliato per attraversamenti del tetto:** il mastice siliconico si degrada entro 18 mesi ai raggi UV.Utilizzare nastro in gomma butilica o sigillante poliuretanico di tipo marino.(4) **Nessun DC-DC caricabatterie tra l'alternatore e la batteria domestica:** il collegamento diretto provoca danni alla batteria e invalida la garanzia.Isolare sempre tramite DC-DC.(5) **Scatola batteria fissata in modo improprio:** una LiFePO4 da 200 Ah pesa 50 libbre. In caso di emergenza, una scatola non fissata diventa un missile.Utilizzare i fissaggi nominali a un membro strutturale della cabina."
+    },
+    {
+      "heading": null,
+      "body": "## Costi nascosti che la maggior parte dei preventivi non include"
+    },
+    {
+      "heading": null,
+      "body": "**Staffe di montaggio personalizzate** se la cabina ha una struttura del tetto non standard (comune su Peterbilt e Volvo storici): $ 80– $ 220.**Rabbocco del refrigerante** su unità spedite con carica insufficiente o che sviluppano piccole perdite durante l'installazione (per lo più mini-split): $ 60–$ 140.**Miglioramento dell'isolamento** se la cabina è scarsamente isolata e l'aria condizionata ha difficoltà: $150–$400 in materiali.**Aggiunta del pannello solare** se si desidera ridurre il costo del carburante per la ricarica dell'alternatore: $ 400– $ 900 per un sistema sul tetto da 200 W, più $ 200 per l'installazione.**Integrazione telematica** per flotte che desiderano registrare l'utilizzo dell'aria condizionata e lo stato della batteria tramite CAN bus: $ 300– $ 650 per unità.**Verifica compatibilità riscaldatore cabina** (alcuni riscaldatori cabina alimentati a diesel condividono le tubazioni del carburante e necessitano di un reindirizzamento): $ 100-$ 250 di manodopera extra.Costo nascosto medio totale per tutte le installazioni: $ 250-$ 600."
+    },
+    {
+      "heading": null,
+      "body": "## Strategia d'acquisto: dove risparmiare senza scorciatoie"
+    },
+    {
+      "heading": null,
+      "body": "**Risparmia sulle batterie acquistando online da EG4, SOK o Renogy** anziché dal marchio interno del negozio di camion.Stessa chimica, spesso $ 150-$ 300 in meno per confezione da 100 Ah.**Non risparmiare sull'unità AC stessa**: la differenza tra un V-TH1 da $ 1.800 e un'unità senza nome da $ 900 è di diversi anni di vita del compressore e oltre 12 dB di rumore.**Risparmia sulla manodopera installando tu stesso la batteria** anche se paghi un negozio per il montaggio dell'aria condizionata e il lavoro sul refrigerante.Il cablaggio della batteria è la voce di manodopera più grande e la più accessibile al fai-da-te.**Non risparmiare sulla sezione del cablaggio**: il rame è economico rispetto al rischio per la sicurezza e al calo delle prestazioni derivante dal sottodimensionamento.**Risparmia sul caricabatterie DC-DC solo se comprendi le curve di uscita dell'alternatore**: caricabatterie sottodimensionati rallentano il recupero della batteria e possono lasciarti a corto di viaggi di più notti.**Paga sempre un monitor della batteria**: controllare lo stato di carica alla cieca causa l'80% dei guasti prematuri della batteria."
+    },
+    {
+      "heading": null,
+      "body": "## Tabelle dei costi totali per i tre tipi di costruzione più comuni"
+    },
+    {
+      "heading": null,
+      "body": "**Build A: Budget 12V classe 8 a cuccetta singola (CoolDrivePro VS02 PRO):** Unità $ 1.650 + 200 Ah 12V LiFePO4 $ 1.000 + 30 ADC-DC $ 180 + cablaggio/fusibili/sigillante $ 200 + installazione fai da te $ 0 = **$ 3.030 fai da te** o **$ 3.580–$ 3.930 professionale**.**Build B: Premium 24V classe 8 a cuccetta singola (CoolDrivePro V-TH1):** Unità $ 2.400 + 200 Ah 24V LiFePO4 $ 1.800 + 50 ADC-DC $ 300 + cablaggio/fusibili/sigillante $ 250 + monitor $ 215 + installazione fai da te $ 0 = **$ 4.965 fai da te** o **$ 5.665–$ 6.300 professionale**.**Build C: RV 24V doppia zona (Webasto Cool Top RTE 16 + unità ausiliaria):** Unità + 9000 BTU aux $ 7.200 + 300 Ah 24V LiFePO4 $ 2.800 + 50 ADC-DC $ 300 + cablaggio/fusibili/sigillante $ 400 + monitor $ 215 + installazione professionale $ 1.400 = **$ 12.315**.La configurazione Build B è la più popolare tra i proprietari-operatori del 2026 perché bilancia capacità di raffreddamento, rumore e TCO."
+    },
+    {
+      "heading": null,
+      "body": "## Tendenze dell'inflazione dei costi 2024-2026 e proiezioni 2027"
+    },
+    {
+      "heading": null,
+      "body": "I costi del sistema di climatizzazione dei parcheggi sono aumentati in modo significativo negli ultimi 24 mesi.LiFePO4 i prezzi delle batterie sono diminuiti del 28% dall'inizio del 2024 a causa dell'eccesso di offerta nel mercato globale delle celle.Nello stesso periodo i costi dei cavi in ​​rame sono aumentati del 18%.I prezzi delle unità AC sono più o meno stabili per i marchi affermati (Dometic, Webasto, Carrier), ma sono scesi del 12-15% per le unità prodotte in Cina come CoolDrivePro come scala di produzione.Effetto netto: un tipico progetto di costruzione B (24V batteria-elettrica) che costava 5.800 dollari installato all'inizio del 2024 ora costa dai 5.100 ai 5.400 dollari nell'aprile 2026. Per il 2027, prevediamo ulteriori diminuzioni del costo delle batterie dell'8-12% (compensate dall'inflazione della manodopera del 3-5%), portando la stessa costruzione a circa 4.800 dollari.Gli automobilisti che considerano un’installazione importante dovrebbero comunque procedere nel 2026: i tempi di recupero dell’investimento ai prezzi attuali sono già eccellenti e aspettare un altro anno fa risparmiare solo $ 300–$ 400 perdendo 12 mesi di risparmio di carburante per un valore di $ 7.000–$ 8.500."
+    },
+    {
+      "heading": null,
+      "body": "## Considerazioni su assicurazione e garanzia"
+    },
+    {
+      "heading": null,
+      "body": "La maggior parte delle polizze assicurative per camion commerciali coprono il parcheggio delle apparecchiature AC come parte della copertura standard per danni fisici, ma con avvertenze.(1) Le installazioni aftermarket richiedono la comunicazione al proprio assicuratore;la mancata divulgazione può far decadere la copertura dell'apparecchiatura in caso di incendio o furto.(2) Le installazioni fai-da-te possono essere soggette a franchigie più elevate o richiedere ricevute dettagliate.(3) I sistemi elettrici a batteria con pacchi LiFePO4 richiedono in genere un dispositivo di trasporto separato per la batteria (costo: $ 35– $ 80/anno per camion).(4) La maggior parte delle flotte include l'aria condizionata per il parcheggio nell'assicurazione delle attrezzature della flotta per una gestione più semplice dei sinistri.Le garanzie del produttore sulle unità (CoolDrivePro 3 anni, Dometic 2 anni, Webasto 2 anni) richiedono la prova di installazione professionale O un'installazione fai-da-te documentata conforme alle specifiche del produttore.Fotografa sempre il cablaggio, la posizione dei fusibili e il fissaggio della batteria: queste foto risolvono oltre il 90% delle controversie sulla garanzia quando si presentano."
+    },
+    {
+      "heading": null,
+      "body": "## Disponibilità dei componenti regionali e tempi di realizzazione del progetto"
+    },
+    {
+      "heading": null,
+      "body": "Nell'aprile 2026, i tempi di consegna per i componenti principali variano in base alla regione.CoolDrivePro V-TH1 negli Stati Uniti: disponibile presso la maggior parte dei rivenditori autorizzati, consegna in 2 giorni altrove.Dometic RTX2000: disponibile a livello nazionale.Webasto Cool Top RTE 16: tempi di consegna 5–10 giorni negli Stati Uniti, disponibile in Germania e Italia.Batterie LiFePO4 da 200 Ah: disponibili presso i principali rivenditori online statunitensi (EG4, SOK, Renogy, Battle Born), spedizione in 1-3 giorni.Caricabatterie 50A DC-DC: in stock da Victron, Renogy, REDARC.Il collo di bottiglia per la maggior parte dei progetti è la disponibilità dell'appuntamento in negozio, non i ricambi.Le principali officine di riparazione per camion stanno prenotando installazioni di aria condizionata per parcheggi con 2-4 settimane di anticipo nella primavera del 2026. Se hai bisogno di installazione prima che arrivi il caldo estivo, prenota al più tardi entro metà maggio.I servizi di installazione mobile (dove la tecnologia arriva nel tuo cantiere) richiedono prezzi maggiorati del 15-25% ma eliminano gli attriti di programmazione per i proprietari-operatori con un solo camion."
+    },
+    {
+      "heading": null,
+      "body": "## Mercato dei condizionatori per parcheggi usati: quando acquistare usato ha senso"
+    },
+    {
+      "heading": null,
+      "body": "Il mercato dei condizionatori usati per parcheggi è maturato in modo significativo dal 2023. Le unità Dometic RTX1000 e Webasto Cool Top RTE 10 di tre anni vengono vendute al 40-55% del prezzo originale, spesso con il 60-70% di vita residua dell'unità.Per i proprietari-operatori attenti al budget, un’unità usata + un nuovo sistema di batterie + un’installazione fai-da-te possono fornire la funzionalità Build B per un totale di $ 2.800– $ 3.500, circa la metà del costo di un nuovo sistema.Rischi da gestire: (1) verificare che l'unità fosse azionata da inverter (le unità più vecchie a velocità fissa non valgono la pena di essere rinnovate), (2) richiedere un controllo della pressione del refrigerante prima dell'acquisto ($ 60 in qualsiasi negozio HVAC), (3) confermare che l'installazione originale era professionale con foto.Le unità usate di tre anni o più recenti che superano l'ispezione sono in genere affidabili quanto nuove.Le unità usate di cinque anni o più vecchie spesso necessitano di un rabbocco di refrigerante e potrebbero avere problemi alla scheda di controllo: includere nel budget $ 200– $ 400."
+    },
+    {
+      "heading": null,
+      "body": "## Oltre il primo anno: aspettative sui costi di manutenzione"
+    },
+    {
+      "heading": null,
+      "body": "I costi annuali di manutenzione per un sistema AC di parcheggio installato correttamente vanno da $ 80 a $ 200 negli anni 1-3 (pulizia del filtro, controllo della pressione del refrigerante, calibrazione del monitor della batteria), salendo a $ 200- $ 400 negli anni 4-7 (potenziale rabbocco del refrigerante, spazzole del motore della ventola, aggiornamento della batteria).Costo totale di proprietà in 7 anni di un sistema Build B: installazione $ 5.400 + manutenzione $ 1.400 = $ 6.800.Confrontandolo con 7 anni di inattività notturna (8.500$/anno x 7 = 59.500$ solo di carburante) il valore della proposta è travolgente.Anche le flotte che effettuano solo 50 notti all’anno per camion vedono il recupero dell’investimento entro 18-24 mesi.La negligenza nella manutenzione è la causa numero 1 di guasto prematuro dell'aria condizionata di parcheggio: mantieni puliti i filtri antipolvere, esegui il controllo della pressione del refrigerante ogni anno e monitora lo stato di carica della batteria ad ogni ispezione settimanale."
+    },
+    {
+      "heading": null,
+      "body": "## Ultimo consiglio per risparmiare sui costi: prenotazione fuori stagione"
+    },
+    {
+      "heading": null,
+      "body": "La capacità lavorativa delle autofficine segue modelli stagionali.La primavera e l'autunno sono stagioni di punta per l'installazione (i conducenti si preparano per l'estate o l'inverno).L'inverno (gennaio-febbraio) è il periodo più lento per il parcheggio degli impianti di climatizzazione negli stati settentrionali e molti negozi offrono sconti del 10-20% sulla manodopera per riempire la capacità.Se puoi programmare l'installazione per la bassa stagione, risparmierai denaro reale.Bonus: i venditori di ricambi effettuano anche sconti a fine anno (novembre-dicembre) per svuotare l'inventario prima del rilascio di nuovi modelli.La tempistica ideale per l'ottimizzazione dei costi: ordina le parti a fine novembre durante la liquidazione dell'inventario, pianifica l'installazione a metà gennaio quando i negozi sono lenti e otterrai il costo totale minimo assoluto del progetto.Questa strategia temporale da sola può far risparmiare dai 400 ai 700 dollari rispetto alla prenotazione della stessa installazione nell’alta stagione di maggio-giugno."
+    },
+    {
+      "heading": null,
+      "body": "## Domande frequenti"
+    },
+    {
+      "heading": null,
+      "body": "**Quanto tempo richiede effettivamente un'installazione professionale?**\n\nPer un tipico edificio B (retrofit elettrico a batteria 24V), le officine completano il lavoro in 6-8 ore lavorative.La maggior parte lo considera un appuntamento di un giorno, con il camion lasciato al mattino e pronto alla fine dell'orario di lavoro.Le installazioni mini-split complesse di RV possono richiedere 2 giorni.\n\n**La mia garanzia coprirà l'installazione fai-da-te?**\n\nLe garanzie dell'unità (CoolDrivePro 3 anni, Dometic 2 anni, Webasto 2 anni) in genere coprono l'unità indipendentemente da chi la installa, purché l'installazione segua le istruzioni del produttore.Le garanzie sulla batteria (in genere 5 anni su LiFePO4) richiedono fusibili adeguati, ricarica tramite DC-DC e scatola batteria protetta.Il lavoro sui refrigeranti di solito richiede la certificazione EPA Sezione 609: se fai il fai-da-te senza di essa, il produttore può negare affermazioni relative al refrigerante.\n\n**Quale documentazione devo conservare dopo l'installazione?**\n\nProva della data di installazione e dell'installatore (o registrazioni di autoinstallazione), ricevute delle parti (in particolare per richieste di garanzia), foto del cablaggio, del fusibile e del posizionamento della batteria e copie di eventuali documenti di certificazione di sigillante, refrigerante o batteria.Le compagnie di assicurazione e garanzia li richiedono regolarmente.\n\n**I negozi offrono sconti per flotte multi-camion?**\n\nSì, in genere viene applicato uno sconto sulla manodopera del 12–20% per le flotte che prenotano più di 5 installazioni identiche.Alcuni negozi scontano anche i pezzi quando acquistano la stessa unità in grandi quantità.Negoziare sempre.\n\n**Quanto aumenta il costo rimuovendo una vecchia unità guasta?**\n\nSe la vecchia unità è un semplice tetto che utilizza lo stesso ritaglio: $ 80-$ 150 di manodopera extra.Se si tratta di un tipo di montaggio diverso o contiene refrigerante da recuperare: $ 200– $ 450.Dichiarare sempre le apparecchiature esistenti quando si richiedono preventivi.\n\n**Devo acquistare l'unità AC e farla installare dal negozio oppure acquistarla dal negozio?**\n\nL'acquisto dal negozio in genere aggiunge l'8-15% al costo unitario, ma garantisce che il negozio garantirà l'installazione completa.Acquistare online e portarne uno tuo può far risparmiare denaro, ma alcuni negozi si rifiutano di installare le unità fornite dal cliente a causa di conflitti di garanzia.Ottieni la politica del negozio per iscritto prima di ordinare online.\n\n**Quali finanziamenti sono disponibili per coprire l'intero costo del progetto?**\n\nMolti proprietari-operatori finanziano tramite il proprio concessionario di camion o partner finanziario per flotte con termini di 36-60 mesi con TAEG del 7-11%.CoolDrivePro offre lo 0% per 12 mesi sui pacchetti di sistema superiori a $ 4.000.Alcuni stati offrono sovvenzioni per l'aria pulita ($ 500– $ 2.000) per il passaggio dal diesel APU all'elettrico a batteria: controlla il sito web dell'agenzia ambientale del tuo stato.Per i calcoli completi sul dimensionamento della batteria alla base del costo di costruzione, consulta la nostra [LiFePO4 guida al dimensionamento della batteria](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

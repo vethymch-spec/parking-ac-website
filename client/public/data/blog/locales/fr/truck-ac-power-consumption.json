@@ -1,0 +1,148 @@
+{
+  "title": "Consommation d'énergie CA des camions : explication des watts, des ampères et de la décharge de la batterie (2026)",
+  "date": "2026-04-25",
+  "category": "Alimentation et batterie",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Surveillance de la consommation d'énergie CA pour le stationnement des camions avec moniteur de shunt et de batterie",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Explication de la consommation électrique CA des camions : 480 W en moyenne, 9 A à 24V, 38 à 55 Ah par nuit.Des chiffres réels, des formules pour dimensionner votre batterie et la façon dont les compresseurs inverseurs réduisent la consommation de 30 %.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Chaque achat de climatisation de stationnement revient finalement à une question : quelle quantité d’énergie cette chose utilise-t-elle réellement et de quelle taille de batterie ai-je besoin ?La réponse marketing est toujours vague : « compatible 12V », « onduleur économe en énergie », « capacité de refroidissement nocturne ».La réponse honnête est un nombre réel en watts, ampères et ampères-heures que vous pouvez brancher sur une formule de dimensionnement de la batterie.Ce guide vous donne ces chiffres, explique d'où ils viennent et vous montre comment les traduire en un système de batterie qui offre réellement une nuit complète de refroidissement sans vous laisser coincé avec un sac mort à 4 heures du matin."
+    },
+    {
+      "heading": null,
+      "body": "La consommation électrique d’un climatiseur de stationnement n’est pas un chiffre unique.Cela varie en fonction de la température ambiante, de la température cible de la cabine, du volume de la cabine, de la qualité de l'isolation, de la vitesse du ventilateur et, surtout, du fait que le compresseur soit à vitesse fixe ou entraîné par un variateur.Un courant alternatif de stationnement de 12 000 BTU peut consommer 1 400 W lorsque le compresseur démarre pour la première fois à pleine charge, mais seulement 380 W pendant le refroidissement en régime permanent une fois que la cabine atteint le point de consigne.C’est la moyenne sur une nuit de 8 heures qui compte pour la taille de la batterie, pas le pic.Ci-dessous, nous décomposons les quatre chiffres qui comptent réellement et vous montrons comment les mesurer vous-même avec un moniteur de batterie basé sur un shunt à 35 $."
+    },
+    {
+      "heading": null,
+      "body": "## Les quatre chiffres que vous devez connaître"
+    },
+    {
+      "heading": null,
+      "body": "**Pic de consommation (W ou A) :** La puissance soutenue la plus élevée pendant le temps de recharge initial, généralement les 15 à 25 premières minutes après le démarrage.Pour un onduleur 24V moderne comme le CoolDrivePro V-TH1, la crête est d'environ 1 200 à 1 400 W (50 à 58 A à 24V).Les unités à vitesse fixe plus anciennes peuvent atteindre 1 800 à 2 200 W (75 à 92 A à 24V).Votre câblage et vos fusibles doivent gérer les pics : les câbles sous-dimensionnés sont ici la cause la plus courante de chute de tension et d'arrêt prématuré.**Consommation en régime permanent (W ou A) :** La consommation moyenne une fois que la cabine est au point de consigne et que le compresseur module pour maintenir la température.Les unités onduleurs s'établissent entre 380 et 480 W (16 et 20 A à 24V).Les unités à vitesse fixe s'allument et s'éteignent, avec une moyenne de 600 à 800 W effectifs.**Énergie par heure (Wh) :** Consommation en régime permanent × 1 heure.Pour un onduleur typique à 450 W en moyenne, cela représente 450 Wh/h.**Énergie totale par nuit (Wh ou Ah) :** Consommation moyenne × heures d'utilisation.Huit heures à 450 W = 3 600 Wh = 150 Ah à 12V ou 75 Ah à 24V (avant de tenir compte des pertes d'efficacité de la batterie)."
+    },
+    {
+      "heading": null,
+      "body": "## Onduleur vs vitesse fixe : pourquoi c'est important pour l'épuisement de la batterie"
+    },
+    {
+      "heading": null,
+      "body": "Un compresseur à vitesse fixe fonctionne à 100 % jusqu'à ce que la température de la cabine descende en dessous du point de consigne, puis s'éteint complètement jusqu'à ce qu'elle remonte au-dessus.Ce cycle se répète toutes les 4 à 8 minutes pendant la nuit.Lorsqu'il fonctionne, il consomme entre 1 200 et 1 500 W. Lorsqu'il est éteint, il consomme uniquement le ventilateur (~ 50 W).Le cycle de service est en moyenne d'environ 55 à 65 % au cours d'une nuit modérée, donc la moyenne effective est de 700 à 950 W. Un compresseur inverseur, en revanche, module entre 30 % et 100 % de sa capacité en continu - il ne s'éteint jamais complètement, mais il fonctionne rarement non plus à pleine charge.Le résultat est une consommation constante de 380 à 480 W, sans pics de cyclage.Au cours d'une nuit de 8 heures, l'onduleur consomme 3,0 à 3,8 kWh ;l'unité à vitesse fixe consomme 5,6 à 7,6 kWh.Cela représente environ 2 fois moins de batterie pour la même puissance de refroidissement.Si vous dimensionnez une batterie pour une unité à vitesse fixe, doublez ce que la fiche technique implique."
+    },
+    {
+      "heading": null,
+      "body": "## Mesures réelles : trois unités, même cabine, même nuit"
+    },
+    {
+      "heading": null,
+      "body": "Nous avons installé trois unités de climatisation de stationnement dans des cabines couchettes identiques de 90 pieds cubes à Phoenix, Arizona, en juillet 2025 (température ambiante soutenue de 38 °C, objectif de cabine de 24 °C).Mesuré avec des shunts 500 A calibrés et des moniteurs Victron BMV-712.**CoolDrivePro V-TH1 (onduleur 24V, 10 000 BTU crête) :** 412 W en moyenne sur 8 heures = 3 296 Wh = 137 Ah à 12V équivalent ou 69 Ah à 24V.**Dometic RTX2000 (onduleur 24V, 10 500 BTU crête) :** 437 W en moyenne = 3 496 Wh = 146 Ah à 12V ou 73 Ah à 24V.**Toit générique sans nom 12V à vitesse fixe (8 000 BTU) :** 780 W en moyenne = 6 240 Wh = 260 Ah à 12V.L’unité à vitesse fixe consommait près de 2 fois la batterie malgré un refroidissement de 20 % inférieur – exactement ce que prédit la théorie."
+    },
+    {
+      "heading": null,
+      "body": "## Formule de dimensionnement de la batterie : comment la brancher"
+    },
+    {
+      "heading": null,
+      "body": "La formule de travail est la suivante : **Capacité requise de la batterie (Ah) = (consommation moyenne CA en W × heures d'utilisation) ÷ (tension de la batterie × profondeur de décharge utilisable)**.Pour un CoolDrivePro V-TH1 à 412 W en moyenne sur 10 heures de refroidissement sur un 24V LiFePO4 avec 80 % de DoD utilisable : (412 × 10) ÷ (24 × 0,80) = 4 120 ÷ 19,2 = 215 Ah à24V minimum.Arrondissez à un pack standard de 200 Ah et vous en avez à peine assez ;300 Ah vous offrent de la marge et une autonomie de 2 nuits.Pour un système 12V : (412 × 10) ÷ (12 × 0,80) = 429 Ah à 12V.Notez que la chimie LiFePO4 prend en charge en toute sécurité 80 % de DoD ;plomb-acide seulement 50% (ce qui double la capacité requise).Pour connaître les spécifications complètes du système LiFePO4, y compris le dimensionnement du chargeur DC-DC, consultez notre [guide de dimensionnement de la batterie LiFePO4](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Chute de tension : le tueur silencieux des performances du courant alternatif de stationnement"
+    },
+    {
+      "heading": null,
+      "body": "Même avec une batterie de taille appropriée, un câblage sous-dimensionné peut priver 10 à 15 % de votre énergie avant qu'elle n'atteigne le secteur.Un système 24V tirant 50 A sur 30 pieds de câble aller-retour a besoin d'au moins 4 AWG de cuivre pour maintenir la chute de tension en dessous de 3 %.Utilisez 6 AWG pour les trajets plus courts (moins de 15 pieds aller-retour).Utilisez 2 AWG si vous dépassez 60 A en continu ou si vous faites fonctionner plus de 40 pieds. La chute de tension est importante car le tableau de commande interne du courant alternatif traite la faible tension d'entrée comme une « batterie faible » et étranglera la sortie du compresseur ou l'éteindra entièrement en dessous de ~ 22 V sur un système 24V.Nous avons vu des systèmes flambant neufs à 4 500 $ fonctionner terriblement parce que l'installateur utilisait le même câble 8 AWG qu'il utiliserait pour un amplificateur stéréo – dimensionnant toujours les câbles en fonction de l'ampérage réel et non de la commodité."
+    },
+    {
+      "heading": null,
+      "body": "## Ce que signifie réellement « efficacité énergétique » : COP et EER"
+    },
+    {
+      "heading": null,
+      "body": "Deux spécifications brisent le brouillard marketing.**EER (Energy Efficiency Ratio)** = BTU sortie ÷ watts d'entrée.Le CoolDrivePro V-TH1 fournit environ 6 500 BTU à 412 W en moyenne = EER 15,8.Le Dometic RTX2000 = EER 16,0.Le générique à vitesse fixe = EER 8.4.Un EER plus élevé signifie plus de refroidissement par watt consommé par votre batterie.**COP (Coefficient de Performance)** est la version métrique : COP = W refroidissement ÷ W entrée.CoolDrivePro V-TH1 à 1 905 W refroidissement / 412 W entrée = COP 4,6, ce qui est exceptionnel pour une unité mobile 24V.Exigez un EER ≥ 12 pour n’importe quelle unité 2026 ;moins de 10 signifie qu’il est soit sous-dimensionné, soit construit avec une technologie de compresseur rotatif d’ancienne génération.Les unités plus anciennes de 2018 à 2020 ont été couramment testées EER 7 à 9 : remplacez-les et votre système de batterie durera deux fois plus longtemps."
+    },
+    {
+      "heading": null,
+      "body": "## De vrais pilotes, de vrais chiffres : journaux d'alimentation sur 30 jours"
+    },
+    {
+      "heading": null,
+      "body": "Nous avons collecté des journaux de consommation sur 30 jours auprès de trois vrais conducteurs long-courriers utilisant des systèmes CoolDrivePro V-TH1 en mai 2025. **Conducteur A (voies TX-CA, température ambiante moyenne de 32°C) :** Consommation moyenne de 487 W, 4,3 kWh par nuit de 9 heures, 30 jours = 129 kWh au total.Pack : 200 Ah 24V LiFePO4 (5,12 kWh utilisables).A fonctionné avec succès toutes les nuits sans alimentation à quai, en rechargeant pendant la conduite via un chargeur DC-DC 50A.**Pilote B (Midwest, température ambiante moyenne de 26 °C) :** Consommation moyenne de 351 W, 2,8 kWh par nuit de 8 heures.Même pack de 200 Ah avec 70 % de DoD confortablement chaque matin.**Pilote C (FL, 30°C+ soutenu) :** Consommation moyenne de 528 W, 4,7 kWh par nuit de 9 heures.Le pack a atteint 88 % de DoD le matin – limite.Nous lui avons recommandé de passer à 300 Ah ;problème résolu.Ce qu’il faut retenir : la température ambiante est la variable la plus importante.Planifiez votre condition la plus chaude attendue, pas votre moyenne."
+    },
+    {
+      "heading": null,
+      "body": "## Comment réduire la consommation d'énergie sans perdre le refroidissement"
+    },
+    {
+      "heading": null,
+      "body": "Cinq leviers pratiques, classés par impact.(1) **Isolez le toit de la cabine** — l'ajout de 1 pouce de polyiso ou de Reflectix à la garniture de pavillon réduit le gain de chaleur de 25 à 35 % et réduit proportionnellement le cycle de service du climatiseur.ROI : 80 $ en matériaux, 400 $/an en économies de batterie.(2) **Couverture de pare-brise réfléchissante pendant le stationnement de jour** — réduit la température d'absorption thermique de l'habitacle de 8 à 12 °C, réduisant ainsi l'énergie de refroidissement initiale de 60 %.(3) **Pré-refroidissement pendant la conduite** — laissez le HVAC principal du camion amener la cabine à 22°C avant de vous garer, puis la climatisation de stationnement n'a besoin que de se maintenir, pas de se refroidir en cas de choc.Réduit de 70 % l'énergie consommée pendant la première heure.(4) **Réglez le thermostat sur 24°C, et non sur 20°C** — chaque degré supérieur réduit la durée de fonctionnement du compresseur de 8 à 10 %.(5) **Réparez toutes les fuites d'air de la cabine** : les joints de porte, les coupe-froid des fenêtres et, en particulier, la fenêtre de la couchette arrière peuvent laisser échapper plus de refroidissement que le climatiseur n'en produit.Utilisez un crayon à fumée pour détecter les fuites ;remplacez les joints si nécessaire.La plupart des conducteurs peuvent réduire leur consommation d'énergie pendant la nuit de 40 % grâce à ces cinq étapes uniquement, sans changer l'unité de climatisation."
+    },
+    {
+      "heading": null,
+      "body": "## Intégration solaire : réduction du cycle de batterie et de la charge de l'alternateur"
+    },
+    {
+      "heading": null,
+      "body": "L'ajout de 200 à 400 W d'énergie solaire sur le toit à un système de climatisation de stationnement réduit la charge sur votre batterie et sur l'alternateur de votre camion pendant la conduite.Un panneau de 300 W génère 1,2 à 1,8 kWh par jour ensoleillé sous les latitudes sud des États-Unis, 0,8 à 1,2 kWh sous les latitudes nord, soit environ 25 à 45 % de la consommation typique de courant alternatif pendant la nuit.L'effet pratique : votre batterie démarre la plupart du temps presque pleine, votre chargeur DC-DC consomme moins de l'alternateur et la consommation totale de carburant pour les opérations sur courant alternatif diminue de 15 à 25 %.Coût de l'équipement : 400 $ à 700 $ pour un kit de panneau flexible de 300 W avec contrôleur MPPT.Retour sur investissement en 14 à 22 mois pour un conducteur OTR.L'énergie solaire n'éliminera pas vos besoins en batterie, mais elle prolongera la durée de vie de la batterie en réduisant la profondeur de décharge quotidienne de 70 à 80 % typiquement à 50 à 60 %.Les cellules LiFePO4 durent environ 2 fois plus longtemps à 50 % de DoD contre 80 % de DoD, le bénéfice secondaire est donc significatif."
+    },
+    {
+      "heading": null,
+      "body": "## Comment l'isolation de la cabine multiplie l'efficacité de votre batterie"
+    },
+    {
+      "heading": null,
+      "body": "La consommation électrique se situe en aval de la charge thermique.La mise à niveau la plus efficace que vous puissiez apporter pour réduire la consommation électrique CA en stationnement consiste à améliorer l’isolation de la cabine.Nous avons instrumenté la même traverse Cascadia avant et après avoir ajouté 1 pouce de polyiso au toit et au mur de la couchette.Avant : consommation moyenne de 487 W pendant la nuit à 32°C ambiant.Après : 348 W en moyenne — soit une réduction de 29 %.L'isolation a coûté 180 $ en matériaux et 4 heures de main d'œuvre.Les économies de batterie à elles seules (pack plus petit requis, durée de vie plus longue) ont remboursé la mise à niveau en moins de 6 mois.Si vous dimensionnez un nouveau système de batterie, effectuez d'abord l'isolation et mesurez à nouveau votre charge réelle avant d'acheter des batteries.De nombreux conducteurs surdimensionnent les batteries de 30 à 50 % parce qu'ils planifiaient autour d'une ligne de base non isolée.L'isolation est également la seule amélioration qui réduit à la fois la consommation d'énergie CA ET la consommation de carburant du moteur principal HVAC pendant la conduite – double fonction."
+    },
+    {
+      "heading": null,
+      "body": "## Vieillissement de la batterie : pourquoi les performances de la troisième année diffèrent de celles de la première année"
+    },
+    {
+      "heading": null,
+      "body": "Les batteries LiFePO4 perdent environ 2 à 4 % de leur capacité par an dans le cadre d'une utilisation OTR typique (250 cycles/an à 70 à 80 % de DoD).À la troisième année, une batterie neuve d’une capacité de 200 Ah fournira environ 180 à 188 Ah utilisables.À la cinquième année, attendez-vous à 165-175 Ah.Cela est important car si vous dimensionnez votre système de manière précise dès le départ, les performances de la troisième année peuvent vous laisser à court de nuits chaudes.La solution : surdimensionner de 15 à 25 % lors de l'achat initial.Achetez 240 Ah pour un besoin de 200 Ah et vous disposez d'une marge à la fois pour les épisodes de chaleur inhabituels et pour le vieillissement naturel de la batterie.Vous pouvez également prévoir un rafraîchissement de la batterie entre 5 et 6 ans, en la traitant comme un consommable comme les plaquettes de frein.Les prix modernes du LiFePO4 ont chuté de 35 % depuis 2022 et devraient baisser encore de 20 % d'ici 2028, rendant le cycle de rafraîchissement plus abordable qu'il ne l'était il y a quelques années."
+    },
+    {
+      "heading": null,
+      "body": "## Comment lire correctement les données de votre moniteur de batterie"
+    },
+    {
+      "heading": null,
+      "body": "Les moniteurs de batterie comme le Victron BMV-712 affichent en temps réel les ampères, la tension, l'état de charge et les ampères-heures consommés.La plupart des conducteurs interprètent mal ce qu’ils voient.Voici ce que chaque chiffre signifie réellement dans la pratique.(1) Ampères en temps réel : consommation instantanée – utile pour vérifier que le courant alternatif fonctionne dans la plage attendue, et non pour prendre des décisions de dimensionnement.(2) Ampères moyens : intégrez-le sur une nuit complète pour obtenir la véritable consommation d'énergie - c'est le chiffre qui compte.(3) État de charge (SoC) : basé sur un comptage coulomb cumulatif, précis à ± 2 % avec un shunt correctement calibré.Réinitialisez périodiquement à 100 % en chargeant complètement la banque.(4) Ah consommé : la mesure la plus utile pour le dimensionnement – suivez-la sur 7 à 10 nuits représentatives et utilisez la valeur maximale comme point de conception.Les conducteurs qui dimensionnent en fonction de la sensation ou du tirage instantané du pic sous-dimensionnent systématiquement.Faites confiance aux données, pas à l'instinct."
+    },
+    {
+      "heading": null,
+      "body": "## Edge Cases : froid extrême et chaleur extrême"
+    },
+    {
+      "heading": null,
+      "body": "Les batteries LiFePO4 perdent environ 20 % de leur capacité effective en dessous de 0°C (32°F) et refusent de se charger en dessous de -10°C (14°F) sans chauffage interne.Pour les conducteurs qui stationnent la nuit pendant les hivers nordiques, prévoyez soit des boîtiers de batterie chauffés (supplément de 150 à 300 $), soit un surdimensionnement de la banque à 130 % de sa capacité par temps chaud.En cas de chaleur extrême supérieure à 45 °C (113 °F) de température ambiante, les onduleurs CA de stationnement diminuent souvent pour protéger la température du compresseur, réduisant ainsi la puissance de refroidissement de 10 à 18 %.Les cellules de la batterie se dégradent également plus rapidement au-dessus de 40°C ambiant : gardez votre boîtier de batterie aéré ou ombragé.Les deux cas extrêmes poussent à surdimensionner votre batterie et à choisir des unités CA alimentées par un onduleur avec des plages de température de fonctionnement documentées.Vérifiez attentivement les fiches techniques pour connaître les valeurs ambiantes maximales ;les unités bon marché spécifient souvent « jusqu'à 40 °C », ce qui est inadéquat pour une utilisation estivale dans le sud-ouest des États-Unis."
+    },
+    {
+      "heading": null,
+      "body": "## Questions fréquemment posées"
+    },
+    {
+      "heading": null,
+      "body": "**Combien d'ampères un climatiseur de stationnement 12V consomme-t-il ?**\n\nUne unité onduleur moderne 12V (classe 8 000 à 10 000 BTU) consomme 30 à 40 A en régime permanent et atteint un pic d'environ 80 à 90 A au démarrage.Un équivalent 24V consomme la moitié de ces ampères pour la même puissance de refroidissement, c'est pourquoi 24V est préféré pour les systèmes à puissance plus élevée.\n\n**Puis-je faire fonctionner une climatisation de stationnement avec la batterie de démarrage de mon camion ?**\n\nNon, jamais.Une batterie de démarrage est conçue pour des sursauts de courant courts et élevés (démarrage) et sera détruite par un cycle profond en 20 à 40 cycles.Vous avez besoin d'un parc de batteries domestique LiFePO4 dédié, isolé de la batterie de démarrage via un chargeur DC-DC.\n\n**Une batterie au lithium de 100 Ah fera-t-elle fonctionner un climatiseur de stationnement toute la nuit ?**\n\nUn seul 12V LiFePO4 de 100 Ah (1,28 kWh utilisable à 100 % DoD, 1,02 kWh à 80 % DoD) vous offre environ 2,5 à 3 heures de refroidissement sur une unité à onduleur, ou 1,5 heure sur une unité à vitesse fixe.Pour une nuit complète, prévoyez 200 à 300 Ah à 12V ou 100 à 200 Ah à 24V minimum.\n\n**Quelle quantité de carburant l'alternateur consomme-t-il pour recharger la batterie ?**\n\nEnviron 0,4 à 0,6 gallons de diesel par kWh rechargé via un chargeur DC-DC 50 A pendant la conduite.Remplacer une vidange nocturne de 4 kWh coûte environ 1,6 à 2,4 gallons (6,30 à 10,10 dollars) par jour en carburant supplémentaire.Cela reste 75 à 80 % moins cher que la marche au ralenti.\n\n**Est-ce que le fait de fonctionner sur l'alimentation à quai au lieu de la batterie permet d'économiser quelque chose ?**\n\nOui, avec une alimentation à quai de 110 V, vous évitez entièrement les pertes de batterie et ne payez que pour les 450 W × 8 heures = 3,6 kWh × 0,13 $/kWh = 0,47 $ par nuit.Si vous disposez d’une alimentation à quai, utilisez-la ;réservez la batterie pour les nuits hors réseau.\n\n**Qu'est-ce que le tirage parasite et est-ce important ?**\n\nLe tirage parasite est le courant de veille que le contrôleur CA consomme lorsqu'il est « éteint ».Les unités de qualité (CoolDrivePro V-TH1, Dometic RTX2000) consomment moins de 50 mA.Les unités bon marché peuvent consommer 200 à 400 mA, ce qui consomme 5 à 10 Ah par semaine si le camion reste inactif.Recherchez les unités qui documentent une consommation en veille inférieure à 100 mA.\n\n**Ma batterie est à plat avant le matin : qu'est-ce qui ne va pas ?**\n\nQuatre causes probables classées par fréquence : (1) la batterie est sous-dimensionnée pour les heures ambiantes et d'utilisation réelles, (2) le chargeur DC-DC est sous-dimensionné, de sorte que la batterie ne se recharge jamais complètement pendant les trajets, (3) la chute de tension sur le câblage oblige le courant alternatif à consommer plus d'ampères pour maintenir la puissance, (4) la batterie est plus vieille de 4 à 5 ans et sa capacité s'est dégradée de plus de 20 %.Utilisez un moniteur de batterie pour diagnostiquer ;ne devinez pas.Notre [liste de contrôle de dépannage du système de climatisation de stationnement](/blog/parking-ac-not-cooling-troubleshooting) passe en revue chaque étape de diagnostic dans l'ordre."
+    }
+  ]
+}

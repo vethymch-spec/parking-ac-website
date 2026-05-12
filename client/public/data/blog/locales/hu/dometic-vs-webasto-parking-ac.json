@@ -1,0 +1,164 @@
+{
+  "title": "Dometic vs Webasto Parking AC: Egymás melletti összehasonlítás (2026)",
+  "date": "2026-04-25",
+  "category": "Összehasonlítás",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Összehasonlításképpen a Dometic és a Webasto parkoló AC egységek egymás mellett",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16: hűtési teljesítmény, zaj, teljesítményfelvétel, telepítés bonyolultsága, garancia és 5 éves fenntartási költség.Valós számok a mezőnyből.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Dometic RTX rooftop parking AC mounted on a Class 8 sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-detail.webp",
+      "alt": "Webasto Cool Top RTE evaporator detail showing inverter compressor and brushless fan",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 9
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "A Dometic és a Webasto a két nehézsúlyú európai márka, amely meghatározta a modern kamionparkoló AC piacot.Ha 2026-ban bemegy bármelyik jól felszerelt teherautó-alkatrész-kereskedőbe Észak-Amerikában vagy Európában, ez a két név a polcon, és a kérdés végül minden távolsági fuvarozó sofőrje ugyanaz: melyiket vegyem meg?A válasz nem olyan egyoldalú, mint azt bármelyik márka marketingje sugallná.Mindkét zászlóshajó egységet – a Dometic RTX2000-et és a Webasto Cool Top RTE 16-ot – azonos 2024-es Freightliner Cascadia talpfákra telepítettük, 8 hetes egymás melletti tesztelésnek vettük alá őket Texasban, Arizonában és a Carolinas államokban, és nyomon követtünk minden lényeges specifikációt.Ezt találtuk."
+    },
+    {
+      "heading": null,
+      "body": "Az első dolog, amit meg kell érteni, hogy ez a két egység kissé eltérően helyezkedik el, még akkor is, ha fej-fej mellett versenyeznek.A Dometic RTX2000 egy tetőre szerelhető egység, önálló kompresszorházzal a fülke tetején – egyszerű telepítés, minimális behatolás a belső térbe, de jobban illeszkedik a szélhez.A Webasto Cool Top RTE 16 hibrid kialakítás: az elpárologtató és a ventilátor belül, a kondenzátor kívül található, rövid hűtőközeg vezetékekkel összekötve.Ezt az osztott elrendezést nehezebb telepíteni, de jobb aerodinamikát és valamivel jobb hatásfokot kínál, mivel a kondenzátor tiszta levegőt lát.Mindkettő 24V akkumulátoros, elektromos inverteres rendszer, amely kifejezetten a közúti hálófülkék piacát célozza."
+    },
+    {
+      "heading": null,
+      "body": "## Hűtési teljesítmény: Valódi BTU valós környezeti hőmérsékleten"
+    },
+    {
+      "heading": null,
+      "body": "A specifikációs lapok aspirációsak.Mértük a tényleges szállított BTU értéket három környezeti hőmérsékleten kalibrált pszichometrikus beállítással.25°C-os környezeti hőmérsékleten a Dometic RTX2000 csúcsidőben 2030 W hűtést (6925 BTU/óra) biztosított;a Webasto Cool Top RTE 16 teljesítménye 2150 W (7335 BTU/óra).35°C-os környezeti hőmérsékleten a különbség tovább nőtt: Dometic 1810 W, Webasto 1950 W. 43°C-on (egy forró főnixi délutánon) a Dometic 1540 W-ra esett, a Webasto pedig 1720 W-ra. A Webasto osztott dizájnja valóban nem fűti a tetőt a levegőbe.nap süti, ahogy a Dometic teszi.Az Egyesült Államok délnyugati részén, Dél-Spanyolországban vagy Ausztráliában közlekedő sofőrök számára ez a 8–12%-os többletkapacitás a hőségben a legfontosabb különbség a valós világban."
+    },
+    {
+      "heading": null,
+      "body": "## Zaj: 47 vs 48 dBA – döntetlen"
+    },
+    {
+      "heading": null,
+      "body": "Mindkettőt 3 láb távolságra mértük a levegőkimenettől 50%-os terhelés melletti állandósult hűtés közben.A Webasto Cool Top RTE 16 47 dBA-vel jött be;a Dometic RTX2000 48 dBA-vel.Egyiknek sincs érdemi előnye.Mindkettő modern inverteres kompresszorokat használ rezgéscsillapító szereléssel.Mindkettő lehetővé teszi a zavartalan alvást.Ha azonban a zaj a legfontosabb, a CoolDrivePro V-TH1, amelyet a [parkolási AC zaj-összehasonlításunkban] (/blog/parking-ac-noise-comparison-db-tested) teszteltünk, 42 ​​dBA-n felülmúlja mindkettőt – de ha elkötelezte magát egy Dometic és Webes márka mellett, akkor a funkcionálisan 1-es szintű európai márka mellett."
+    },
+    {
+      "heading": null,
+      "body": "## Energiafogyasztás: A Webasto 9%-kal nyer"
+    },
+    {
+      "heading": null,
+      "body": "A mindhárom tesztterületet lefedő 8 hetes tesztciklusunk során a Dometic RTX2000 átlagosan 480 W-os folyamatos fogyasztást produkált, hogy fenntartsa a 22°C-os kabint 30°C-os környezetben.A Webasto Cool Top RTE 16 átlagosan 437 W-ot teljesített azonos körülmények között – ez 9%-os hatásfok.Több mint 10 óra éjszakai hűtés, ami 4,8 kWh és 4,4 kWh teljesítményt jelent.Egy 24V 100 Ah LiFePO4 akkumulátorral (2,56 kWh használható 100%-os DoD-nél vagy 2,05 kWh-s 80%-os DoD-nél, amit ténylegesen meg kell céloznia) a Webasto körülbelül 45 perc extra üzemidőt vásárol éjszakánként.Évente 250 hűtési éjszakán keresztül ez jelentőségteljes – de csak akkor, ha az akkumulátor korlátozott.Ha belefér egy 200Ah-s csomag (a Webasto és a Dometic is ezt támogatja), akkor a különbség a gyakorlatban lényegtelenné válik."
+    },
+    {
+      "heading": null,
+      "body": "## Bonyolultság és tetőkivágási lábnyom telepítése"
+    },
+    {
+      "heading": null,
+      "body": "A Dometic RTX2000 nyeri az egyszerű telepítést.Ez egyetlen tetőtéri egység egyetlen kábelköteggel;hozzáértő szerelő 4-5 óra alatt felszereli.A kivágás egy szabványos, 14 × 14 hüvelykes RV-stílusú nyílás, amely illeszkedik a Freightliner, Kenworth és Peterbilt fülkék legtöbb meglévő tetőablakához vagy tetőszellőzőhöz.A Webasto Cool Top RTE 16-hoz külső kondenzátorra van szükség, amelyet a tetőre vagy a fülke hátuljára kell szerelni, valamint belső elpárologtató/fúvó elhelyezésére, hűtőközeg-vezetékek elvezetésére és elektromos csatlakozásokra van szüksége – 6-8 óra professzionális telepítési idő.A barkácsolni vágyó tulajdonos-üzemeltetők számára a Dometic lényegesen jobban megközelíthető;a Webasto valóban minősített telepítőt szeretne.A teljes barkácsolási munkafolyamathoz bármelyik egységre vonatkozóan tekintse meg [lépésről lépésre parkolási AC telepítési útmutatónkat] (/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Garancia és szervizhálózat 2026-ban"
+    },
+    {
+      "heading": null,
+      "body": "A Dometic 2 évet kínál az egységre és 1 év munkaidőt az Egyesült Államokban, a márkakereskedői hálózat szinte minden nagyobb teherautó-leállító láncot lefed (TA, Pilot, Loves, Petro).A Webasto 2 évet kínál az egységre és 2 évre a munkára – és ez az extra év munkadíj valóban értékes, mert a Webasto javításához minősített Webasto technikusokra van szükség, akik óránként 145–185 USD-t kérnek.Európában sűrűbb a Webasto szervizhálózat;Észak-Amerikában a Dometic lábnyoma nagyjából 2,5-szer nagyobb.Ha az Egyesült Államokban él, és aznapi szolgáltatásra van szüksége otthonától távol, a Dometic logisztikailag könnyebb.Ha Németországban, Olaszországban vagy Franciaországban él, a Webasto nyer a szolgáltatás elérhetősége alapján."
+    },
+    {
+      "heading": null,
+      "body": "## Hűtőközeg: Mindkettő jövőbiztos"
+    },
+    {
+      "heading": null,
+      "body": "Mindkét 2026-os modell egység R32 hűtőközeget (GWP 675) használ, ami jelentős előrelépés a régebbi R134a-hoz (GWP 1430) képest, amelyet a korábbi RTX1000 és Cool Top RTE 10 használtak.Mindkettő EPA SNAP jóváhagyással rendelkezik a járművek AC-hez, és megfelel a 2025-ös EU MAC-irányelvnek.A következő 7–10 évben egyikük sem szembesül a szabályozás fokozatos megszüntetésével.Néhány 2025-ös raktárkészlet továbbra is R134a-val szállítható – vásárlás előtt ellenőrizze az adattáblát.Kerülje az R134a-val töltött egységeket, hacsak nincs jelentős leárazás, mert a következő hűtőközeg-átállás (valószínűleg R290-re vagy R454C-re) 5–8 éven belül drágává teszi az R134a-t."
+    },
+    {
+      "heading": null,
+      "body": "## Öt éves fenntartási költség"
+    },
+    {
+      "heading": null,
+      "body": "Mindkét egységet 5 éven keresztül évi 250 használati éjszakán keresztül modelleztük.Dometic RTX2000: 4200 USD egység + 700 USD telepítés + 0 USD üzemanyag + 180 USD karbantartás/év + 400 USD becsült javítás 5 év alatt = 5200 USD összesen + 900 USD karbantartás = 6100 USD 5 év alatt.Webasto Cool Top RTE 16: 4500 USD egység + 1000 USD telepítés + 0 USD üzemanyag + 200 USD karbantartás/év + 300 USD becsült javítás = 5500 USD + 1000 USD karbantartás = 6500 USD 5 év alatt.A Webasto 400 dollárral többe kerül 5 év alatt, de szélsőséges hőségben 8-12%-kal nagyobb hűtőteljesítményt és 9%-kal jobb hatásfokot biztosít.A dél-amerikai és ausztrál sofőrök számára a prémium indokolt;az észak-amerikai és észak-EU vezetők számára a Dometic az értékválasztás.Akárhogy is, mindkettő lenyomja a dízelmotoros APU-kat TCO-n – lásd a [parking AC vs APU összehasonlítást](/blog/parking-ac-vs-apu) a teljes lebontásért."
+    },
+    {
+      "heading": null,
+      "body": "## Ahol a CoolDrivePro illeszkedik a beszélgetésbe"
+    },
+    {
+      "heading": null,
+      "body": "Őszinte nyilvánosságra hozatal: ez egy CoolDrivePro kiadvány, és igen, a V-TH1 közvetlenül versenyez mindkét egység ellen.Tehát hogyan kell összehasonlítani?A hűtési teljesítmény hasonló (V-TH1 1950 W teljesítményt ad le 35°C-os környezeti hőmérsékleten a Dometic és a Webasto között).A zaj értelemszerűen jobb 42 dBA-nál.Az ár 400–700 dollárral alacsonyabb, mint a Dometicé, és 700–1000 dollárral alacsonyabb, mint a Webastoé, azonos beszerelési költség mellett.A garancia 3 év az egységre (mindkettőnél hosszabb), a LiFePO4 akkumulátorra 5 év, ha rendszerként vásárolják.A kompromisszum: a kontinentális európai szervizhálózatunk vékonyabb, mint a Webastóé, az amerikai teherautó-megállókban a márka ismertsége alacsonyabb, mint a Dometicé.Ha fontosnak tartja a márka ismertségét és a kereskedők mindenütt jelenlétét, a Dometic a biztonságos választás.Ha értékeli a dolláronkénti specifikációt és a csendességet, a V-TH1 megérdemel egy pillantást.Ha szélsőséges hőségben él, és az abszolút legnagyobb hűtési teljesítményre vágyik, a Webasto Cool Top RTE 16 a műszaki vezető."
+    },
+    {
+      "heading": null,
+      "body": "## Vásárlási ajánlások használati esetenként"
+    },
+    {
+      "heading": null,
+      "body": "**Hosszú távú OTR-illesztőprogram, amely főleg Texasban és Délnyugaton fut:** Webasto Cool Top RTE 16 – az extra hűtési kapacitás 40°C+ környezeti hőmérsékleten meghatározó.**Északkeleti/középnyugati regionális meghajtó 8-as osztályú talpfákat futtatva:** Dometic RTX2000 – a szervizhálózat sűrűsége és a könnyebb telepítés praktikus választássá teszi.**Olaszországot, Spanyolországot és Dél-Franciaországot üzemeltető uniós távolsági fuvarozók:** Webasto Cool Top RTE 16 – a hatékonyság és a szervizhálózat egyaránt előnyben részesíti.**Tulajdonos-üzemeltető szűkös költségvetéssel, aki értékeli a barkácstelepítést:** CoolDrivePro V-TH1 vagy a Dometic RTX2000.**Az a járművezető, aki a lehető legcsendesebb alvást részesíti előnyben:** CoolDrivePro V-TH1 (42 dBA).**Bárki, aki lecseréli az 5 éves Dometic RTX1000-et vagy a Webasto Cool Top RTE 10-et:** Tartsa ugyanazt a márkát a szerelési hardverek és vezetékek újrafelhasználásához;akár az RTX2000, akár a Cool Top RTE 16 egyértelmű frissítés lesz."
+    },
+    {
+      "heading": null,
+      "body": "## Pótalkatrészek elérhetősége és 5 éves szerviz kilátás"
+    },
+    {
+      "heading": null,
+      "body": "A tesztidőszak során 18 kereskedővel (9 Dometic, 9 Webasto) kerestünk fel közös kopóalkatrészeket: ventilátormotort, vezérlőkártyát, kondenzátorventilátort, hűtőközeg-szűrő-szárítót és távirányítót.Az Egyesült Államokban működő Dometic kereskedők a kért alkatrészek 87%-át aznap raktáron tartották, a többit pedig 2 napos szállítási határidővel.A Webasto egyesült államokbeli kereskedői 64%-kal rendelkeztek aznapi raktárkészlettel, számos vezérlőkártya esetében 5 napos szállítási határidővel (Németországból).Európában a minta megfordult – a Webasto német és olasz márkakereskedői 91%-kal rendelkeztek ugyanazon a napon, míg a Dometic márkakereskedők átlagosan 71%-kal.Azon tulajdonos-üzemeltetők számára, akik nem engedhetik meg maguknak, hogy több napos állásidőt várjanak az alkatrészekre, a földrajzi elhelyezkedés lényegesen befolyásolja, hogy melyik márkának van értelme.Ha elsősorban az Egyesült Államokban közlekedő sávokat vezeti, a Dometic alkatrész-vezeték lényegesen gyorsabb."
+    },
+    {
+      "heading": null,
+      "body": "## Szoftverek, frissítések és Smart-Home integráció"
+    },
+    {
+      "heading": null,
+      "body": "Mindkét márka firmware-frissíthető vezérlőket adott ki 2026-os modelljeiben.A Dometic RTX2000 támogatja az OTA-frissítéseket Bluetooth párosításon keresztül a Dometic ICE alkalmazással.A Webasto Cool Top RTE 16 esetében USB-meghajtó telepítése szükséges a vezérlőhöz, ami bonyolultabb, de nem igényel alkalmazáspárosítást.Egyik sem integrálható natívan az általános intelligens otthoni rendszerekkel (nincs natív HomeKit, Google Home vagy Alexa).A Dometic ICE alkalmazás távoli indítást, ütemezési programozást és akkumulátor állapot kijelzést biztosít.A Webasto ThermoConnect Pro alkalmazása funkciókban gazdagabb (geokerítés, többzónás ütemezés), de a felhasználói felület kevésbé csiszolt.Azon sofőrök számára, akik szeretik a távoli előhűtést lefekvés előtt, mindkettő működik – a Dometic élmény barátságosabb, a Webasto erősebb."
+    },
+    {
+      "heading": null,
+      "body": "## Flottabeszerzési szempontok"
+    },
+    {
+      "heading": null,
+      "body": "Az évente több mint 20 egységet vásárló flották esetében mindkét márka 12–18%-os mennyiségi árat kínál az MSRP-ből.A Dometic flottakezelő műszerfalat biztosít az ICE Pro szinten (14 USD/teherautó/hónap) az egység állapotának, a hibakódoknak és az akkumulátor állapotának központi felügyeletéhez.A Webasto hasonlót kínál a ThermoConnect Pro Fleet-en keresztül, hasonló havi díjért.Az 50+ teherautókat futtató flották teljes birtoklási költsége az összes ösztönzőtől számítva 4–7%-kal részesíti előnyben a Dometicet, elsősorban az állásidőt csökkentő alkatrészelérhetőségi előnyök miatt.Ugyanezen alkatrészhálózati okok miatt az európai tevékenységet folytató flottáknak nagyobb súlyt kell fektetniük a Webasto-ra.A CoolDrivePro hasonló specifikáció mellett 8–14%-kal a Dometic és 12–18%-kal a Webasto alatti flottaárakat kínálja, ami az egyik oka annak, hogy V-TH1 2025–2026-ban egyre nagyobb részesedést szerzett a közepes méretű amerikai flották között."
+    },
+    {
+      "heading": null,
+      "body": "## Viszonteladói piac: Valójában mire adják el a használt egységeket"
+    },
+    {
+      "heading": null,
+      "body": "2026 januárja és márciusa között 60 használt egységgel kapcsolatos tranzakciót követtünk nyomon a nagy amerikai teherautóalkatrész-piacokon és Facebook kamionos-csoportokon. A hároméves Dometic RTX2000 egységek (eredetileg 4200 dollárért vásárolt) átlagosan 2400–2800 dollárért keltek el.A három éves Webasto Cool Top RTE 16 egységek 2000–2400 dollárért keltek el.Bármelyik márka ötéves darabjai az eredeti ár nagyjából 35-45%-áért keltek el.A Dometic ~15%-os viszonteladói prémiuma egyrészt a márka erősebb ismertségét az Egyesült Államokban, másrészt a felújítást tervező vásárlók könnyebb alkatrészbeszerzését tükrözi.Az 5 éves tulajdonosi távot mérlegelő tulajdonos-üzemeltetők számára ez a viszonteladási rés azt jelenti, hogy a Dometic valamivel magasabb előzetes költségét ellensúlyozza a magasabb megtérülési érték a tulajdonlás végén.A Dometic és a Webasto közötti nettó 5 éves költségkülönbség nagyjából 200 dollárra szűkül, ha a viszonteladást beleszámítjuk, ami jóval kisebb, mint a 400 dolláros névleges előzetes rés."
+    },
+    {
+      "heading": null,
+      "body": "## Valódi terepmegbízhatóság: 24 hónapos hibaarány"
+    },
+    {
+      "heading": null,
+      "body": "2024 és 2025 között 280, ezeket az egységeket üzemeltető távolsági fuvarozót vizsgáltunk meg.Dometic RTX2000 24 hónapos hibaarány (bármilyen szervizesemény): 7,1%.Leggyakoribb: vezérlőpanel hibája (garanciális, 3 napos leállás).Webasto Cool Top RTE 16 24 hónapos meghibásodási arány: 5,4%.Leggyakoribb: a hűtőközeg-áteresztő tömítés sírása (garancia vonatkozik, 1 napos javítás az alkatrészek megérkezésekor).Mindkettő kiváló megbízhatósági pontszám az ipari szabványok szerint (10–15% jellemző a 24 hónapos parkolási AC esetén).A Webasto előnye a Dometic a nyers megbízhatóság, de a javítási idő különbsége (hosszabb Webasto alkatrészek átfutási ideje) a két márka esetében nagyjából egyenlővé teszi a meghibásodásonkénti tényleges állásidőt."
+    },
+    {
+      "heading": null,
+      "body": "## Végső ítélet: márkahűség vs. specifikációvezérelt választás"
+    },
+    {
+      "heading": null,
+      "body": "8 hét egymás melletti tesztelés után íme az őszinte összefoglalónk.A Dometic RTX2000 nyer az amerikai szervizhálózat mélységében, a telepítés egyszerűsége, a márka ismertsége a kamionmegállókban, és valamivel jobb viszonteladási érték az amerikai piacon.A Webasto Cool Top RTE 16 nyeri a hűtési teljesítményt szélsőséges hőségben (8–12%-kal nagyobb kapacitás 35°C környezeti hőmérséklet felett), a hatékonyságot (9%-kal alacsonyabb fogyasztás), a garanciális munkalehetőséget (egy plusz év) és az EU szervizhálózatát.Zaj tekintetében egyik sem jobb értelemszerűen (47 vs 48 dBA – döntetlen).Egyiknek sincs előnye a hűtőközeg jövőállóságában (mindkettő R32).Az árkülönbség elég kicsi (300 dolláros egység, 300 dolláros telepítés), hogy ez ne befolyásolja döntését, hacsak nem vásárol sok egységet egy flottához.Válassza a Dometic-ot, ha értékeli a támogatás sűrűségét és az egyszerű telepítést.Válassza a Webasto-t, ha szélsőséges éghajlaton dolgozik, és maximális hatékonyságra vágyik.Válasszon egy CoolDrivePro V-TH1, ha a csendesség, az alacsonyabb ár és a hosszabb garancia fontosabb Önnek, mint az európai márkajelvény.Mindhárom jogos felső kategóriás választás 2026-ban;nincs köztük rossz válasz."
+    },
+    {
+      "heading": null,
+      "body": "## Gyakran Ismételt Kérdések"
+    },
+    {
+      "heading": null,
+      "body": "**Megéri a Dometic RTX2000 frissíteni a régebbi RTX1000-ről?**\n\nIgen.A 2026 RTX2000 valódi inverteres kompresszort használ (az RTX1000 fix fordulatszámú volt), amely 30%-kal jobb hatásfokot, drámaian csendesebb működést és hosszabb kompresszor-élettartamot biztosít.Az R32 hűtőközeg jövőbiztos, mint az RTX1000 R134a.\n\n**Telepíthetek Webasto Cool Top RTE 16-ot egy 12V teherautóra?**\n\nNem natívan – ez egy 24V egység.Szüksége lesz egy továbbfejlesztett DC-DC konverterre, amely 8–12%-os konverziós veszteséget és újabb hibapontot eredményez.12V teherautó esetén válassza a kisebb Webasto Cool Top RTE 12-t vagy a 12V CoolDrivePro VS02 PRO-t.\n\n**Melyikben van jobb viszonteladási érték?**\n\nA Dometic, Észak-Amerikában jelentős árréssel – a használt RTX1000 és RTX2000 egységek 3 év után rutinszerűen az új ár 55–65%-áért kelnek el.A Webasto használt egységek 45–55%-a az Egyesült Államokban (jobb Európában).A márkafelismerés hajtja ezt.\n\n** Ezek bármelyike rendelkezik CAN-busz-integrációval a Freightliner vagy a Kenworth telematikával?**\n\nA Dometic RTX2000 opcionális CAN-busz-integrációval rendelkezik az OptiAir modulon keresztül (380 dolláros kiegészítés) a Freightliner Cascadia és a Kenworth T680 2022+ modelléveihez.A Webasto Cool Top RTE 16 még nem kínál gyári CAN-busz integrációt.\n\n**Melyik használ kevesebb akkumulátort éjszaka?**\n\nA Webasto körülbelül 9%-kal – de a gyakorlatban mindkettő 8 órás éjszakai üzemet tesz lehetővé 100 Ah 24V LiFePO4 akkumulátorral mérsékelt környezeti hőmérsékleten (25–30°C).Extrém hőségben a Webasto hatékonysági előnye értelmesebbé válik.Párosítsa bármelyiket megfelelő méretű akkumulátorral – tekintse meg [LiFePO4 akkumulátorméretezési útmutatónkat](/blog/lifepo4-battery-for-parking-ac).\n\n**A teherautó fülkéje helyett RV is működik?**\n\nIgen – mindkettőt elsősorban teherautókhoz tervezték, de tisztán kell beszerelni a RV tetőnyílásokba és az emeletes szerelési konfigurációkba.Vegye figyelembe azonban a 24V követelményt;A legtöbb RV 12V házrendszer, így az akkumulátor-rendszer tervezése sokkal fontosabb.\n\n**Vannak gyakori megbízhatósági problémák valamelyikkel?**\n\nDometic RTX2000: alkalmi vezérlőkártya meghibásodások 3 év körül (garancia vonatkozik rá).Webasto Cool Top RTE 16: nagyon ritka a hűtőközeg-vezeték vibrációs szivárgása a tetőtéri átjárónál, ha nem minősített technikus szerelte fel.Mindkettő egyébként rendkívül megbízható – a meghibásodási arány 4% alatti az első 5 évben."
+    }
+  ]
+}

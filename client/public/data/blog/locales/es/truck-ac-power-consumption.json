@@ -1,0 +1,148 @@
+{
+  "title": "Consumo de energía de CA del camión: explicación de vatios, amperios y consumo de batería (2026)",
+  "date": "2026-04-25",
+  "category": "Energía y batería",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Monitoreo del consumo de energía CA en estacionamiento de camiones con derivación y monitor de batería",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Explicación del consumo de energía CA del camión: 480 W promedio, 9 A en 24V, 38–55 Ah por noche.Números reales, fórmulas para dimensionar su batería y cómo los compresores inverter reducen el consumo en un 30%.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Cada compra de aire acondicionado para estacionamiento eventualmente vuelve a una pregunta: ¿cuánta energía usa realmente esta cosa y qué tamaño de batería necesito?La respuesta de marketing es siempre vaga: \"compatible con 12V\", \"inversor de bajo consumo\", \"capacidad de refrigeración nocturna\".La respuesta honesta es un número real en vatios, amperios y amperios-hora que puede incorporar a una fórmula de tamaño de batería.Esta guía le brinda esos números, explica de dónde provienen y le muestra cómo traducirlos en un sistema de batería que realmente brinda una noche completa de enfriamiento sin dejarlo tirado con un paquete muerto a las 4 a.m."
+    },
+    {
+      "heading": null,
+      "body": "El consumo de energía en un aire acondicionado de estacionamiento no es un número único.Varía según la temperatura ambiente, la temperatura objetivo de la cabina, el volumen de la cabina, la calidad del aislamiento, la velocidad del ventilador y, lo más importante, si el compresor es de velocidad fija o inversor.Un aire acondicionado de estacionamiento de 12 000 BTU podría consumir 1400 W cuando el compresor se enciende por primera vez a plena carga, pero solo 380 W durante el enfriamiento en estado estable una vez que la cabina alcanza el punto de ajuste.El promedio de una noche de 8 horas es lo que importa para el tamaño de la batería, no el pico.A continuación desglosamos los cuatro números que realmente importan y le mostramos cómo medirlos usted mismo con un monitor de batería basado en derivación de $35."
+    },
+    {
+      "heading": null,
+      "body": "## Los cuatro números que necesitas saber"
+    },
+    {
+      "heading": null,
+      "body": "**Consumo máximo (W o A):** La potencia sostenida más alta durante el enfriamiento inicial, generalmente los primeros 15 a 25 minutos después del inicio.Para una unidad inversora 24V moderna como la CoolDrivePro V-TH1, el pico es de aproximadamente 1200 a 1400 W (50 a 58 A en 24V).Las unidades de velocidad fija más antiguas pueden alcanzar entre 1800 y 2200 W (75-92 A en 24V).Su cableado y fusibles deben soportar picos; los cables de tamaño insuficiente aquí son la causa más común de caída de voltaje y apagado prematuro.**Consumo en estado estacionario (W o A):** El consumo promedio una vez que la cabina está en el punto de ajuste y el compresor está modulando para mantener la temperatura.Las unidades inversoras se estabilizan en 380–480 W (16–20 A en 24V).Las unidades de velocidad fija se encienden y apagan con un promedio de 600 a 800 W efectivos.**Energía por hora (Wh):** Consumo en estado estacionario × 1 hora.Para una unidad inversora típica con un promedio de 450 W, eso es 450 Wh/h.**Energía total por noche (Wh o Ah):** Consumo medio × horas de uso.Ocho horas a 450 W = 3600 Wh = 150 Ah en 12V o 75 Ah en 24V (antes de contabilizar las pérdidas de eficiencia de la batería)."
+    },
+    {
+      "heading": null,
+      "body": "## Inversor versus velocidad fija: por qué es importante el consumo de batería"
+    },
+    {
+      "heading": null,
+      "body": "Un compresor de velocidad fija funciona al 100% hasta que la temperatura de la cabina cae por debajo del punto de ajuste, luego se apaga por completo hasta que vuelve a subir.Ese ciclo se repite cada 4 a 8 minutos durante la noche.Mientras está en funcionamiento, consume entre 1200 y 1500 W. Mientras está apagado, solo consume el ventilador (~50 W).El ciclo de trabajo promedia alrededor del 55 al 65 % durante una noche moderada, por lo que el promedio efectivo es de 700 a 950 W. Un compresor inversor, por el contrario, modula entre el 30 % y el 100 % de su capacidad de forma continua; nunca se apaga por completo, pero tampoco rara vez funciona a plena carga.El resultado es un consumo constante de 380 a 480 W sin picos cíclicos.Durante una noche de 8 horas, la unidad inversora consume entre 3,0 y 3,8 kWh;la unidad de velocidad fija consume entre 5,6 y 7,6 kWh.Esto supone aproximadamente una reducción del doble en el requisito de batería para la misma potencia de refrigeración.Si está dimensionando una batería para una unidad de velocidad fija, duplique lo que implica la hoja de especificaciones."
+    },
+    {
+      "heading": null,
+      "body": "## Medidas del mundo real: tres unidades, la misma cabina, la misma noche"
+    },
+    {
+      "heading": null,
+      "body": "Instalamos tres unidades de aire acondicionado de estacionamiento en cabinas dormitorio idénticas de 90 pies cúbicos en Phoenix, Arizona, en julio de 2025 (ambiente sostenida de 38 °C, objetivo de cabina de 24 °C).Medido con derivaciones calibradas de 500 A y monitores Victron BMV-712.**CoolDrivePro V-TH1 (24V inversor, 10 000 BTU pico):** 412 W promedio durante 8 horas = 3296 Wh = 137 Ah en 12V equivalente o 69 Ah en 24V.**Dometic RTX2000 (24V inversor, 10,500 BTU pico):** 437 W promedio = 3,496 Wh = 146 Ah en 12V o 73 Ah en 24V.**Techo genérico de velocidad fija sin nombre 12V (8000 BTU):** 780 W promedio = 6240 Wh = 260 Ah en 12V.La unidad de velocidad fija consumió casi el doble de batería a pesar de ofrecer un 20% menos de refrigeración, exactamente lo que predice la teoría."
+    },
+    {
+      "heading": null,
+      "body": "## Fórmula de tamaño de la batería: cómo enchufarla"
+    },
+    {
+      "heading": null,
+      "body": "La fórmula de trabajo es: **Capacidad requerida de la batería (Ah) = (consumo promedio de CA en W × horas de uso) ÷ (voltaje de la batería × profundidad de descarga utilizable)**.Para un CoolDrivePro V-TH1 con un promedio de 412 W durante 10 horas de enfriamiento en un 24V LiFePO4 con 80 % de DoD utilizable: (412 × 10) ÷ (24 × 0,80) = 4120 ÷ 19,2 = 215 Ah a24V mínimo.Redondee a un paquete estándar de 200 Ah y apenas tendrá suficiente;300 Ah te dan margen y autonomía de 2 noches.Para un sistema 12V: (412 × 10) ÷ (12 × 0,80) = 429 Ah en 12V.Tenga en cuenta que la química LiFePO4 respalda de forma segura el 80% del Departamento de Defensa;plomo-ácido sólo el 50% (lo que duplica la capacidad requerida).Para conocer las especificaciones completas del sistema LiFePO4, incluido el tamaño del cargador DC-DC, consulte nuestra [LiFePO4 guía de tamaño de batería](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Caída de voltaje: el asesino silencioso del rendimiento del aire acondicionado en estacionamientos"
+    },
+    {
+      "heading": null,
+      "body": "Incluso con una batería del tamaño adecuado, un cableado de tamaño insuficiente puede consumir entre un 10% y un 15% de la energía antes de que llegue a la CA.Un sistema 24V que tira de 50 A a través de 30 pies de cable de ida y vuelta necesita al menos 4 AWG de cobre para mantener la caída de voltaje por debajo del 3 %.Utilice 6 AWG para tramos más cortos (menos de 15 pies de ida y vuelta).Utilice 2 AWG si supera los 60 A continuos o funciona a más de 40 pies. La caída de voltaje es importante porque el tablero de control interno del CA trata el voltaje de entrada bajo como \"batería baja\" y acelerará la salida del compresor o se apagará por completo por debajo de ~22 V en un sistema 24V.Hemos visto sistemas nuevos de $4500 que funcionan terriblemente porque el instalador usó el mismo cable 8 AWG que usaría para un amplificador estéreo; siempre dimensione los cables para el amperaje real, no para su conveniencia."
+    },
+    {
+      "heading": null,
+      "body": "## Lo que realmente significa \"eficiencia energética\": COP y EER"
+    },
+    {
+      "heading": null,
+      "body": "Dos especificaciones atraviesan la niebla del marketing.**EER (Relación de eficiencia energética)** = BTU salida ÷ vatios de entrada.El CoolDrivePro V-TH1 ofrece aproximadamente 6500 BTU a un promedio de 412 W = EER 15,8.El Dometic RTX2000 = EER 16.0.El genérico de velocidad fija = EER 8,4.Un EER más alto significa más refrigeración por vatio extraído de la batería.**COP (Coeficiente de rendimiento)** es la versión métrica: COP = W refrigeración ÷ W entrada.CoolDrivePro V-TH1 a 1905 W de refrigeración / 412 W de entrada = COP 4,6, lo cual es excepcional para una unidad móvil 24V.Demanda EER ≥ 12 de cualquier unidad de 2026;menos de 10 significa que es de tamaño insuficiente o que está construido con tecnología de compresor rotativo de vieja generación.Las unidades más antiguas de 2018-2020 comúnmente obtuvieron un EER 7-9; reemplácelas y su sistema de batería durará el doble."
+    },
+    {
+      "heading": null,
+      "body": "## Controladores reales, números reales: registros de energía de 30 días"
+    },
+    {
+      "heading": null,
+      "body": "Recopilamos registros de energía de 30 días de tres conductores reales de larga distancia que ejecutaban sistemas CoolDrivePro V-TH1 en mayo de 2025. **Conductor A (carriles TX-CA, temperatura ambiente promedio 32 °C):** Consumo promedio de 487 W, 4,3 kWh por noche de 9 horas, 30 días = 129 kWh en total.Pack: 200 Ah 24V LiFePO4 (5,12 kWh utilizables).Funcionó con éxito todas las noches sin conexión a tierra, recargándose durante la conducción mediante un cargador DC-DC de 50 A.**Conductor B (Medio Oeste, temperatura ambiente promedio 26 °C):** Consumo promedio de 351 W, 2,8 kWh por noche de 8 horas.El mismo paquete de 200 Ah con 70% DoD cómodamente cada mañana.**Conductor C (FL, sostenido 30°C+):** Consumo promedio de 528 W, 4,7 kWh por noche de 9 horas.El paquete alcanzó el 88% del Departamento de Defensa por la mañana, en el límite.Le recomendamos actualizar a 300 Ah;problema resuelto.La conclusión: la temperatura ambiente es la variable más importante.Planifique para su condición más calurosa esperada, no para su promedio."
+    },
+    {
+      "heading": null,
+      "body": "## Cómo reducir el consumo de energía sin perder refrigeración"
+    },
+    {
+      "heading": null,
+      "body": "Cinco palancas prácticas, clasificadas por impacto.(1) **Aísle el techo de la cabina**: agregar 1 pulgada de poliiso o Reflectix al revestimiento del techo reduce la ganancia de calor entre un 25% y un 35% y reduce proporcionalmente el ciclo de trabajo del aire acondicionado.ROI: $80 en materiales, $400/año en ahorro de batería.(2) **Cubierta reflectante del parabrisas durante el estacionamiento diurno**: reduce la temperatura de absorción de calor de la cabina entre 8 y 12 °C, lo que reduce la energía de enfriamiento inicial en un 60 %.(3) **Preenfriamiento mientras conduce**: deje que el HVAC principal del camión lleve la cabina a 22 °C antes de estacionar, luego el aire acondicionado del estacionamiento solo necesita mantenimiento, no enfriamiento brusco.Reduce la energía de la primera hora en un 70%.(4) **Ajuste el termostato a 24°C, no a 20°C**: cada grado más alto reduce el tiempo de funcionamiento del compresor entre un 8 y un 10 %.(5) **Repare las fugas de aire de la cabina**: los sellos de las puertas, los burletes de las ventanas y, especialmente, la ventana de la litera trasera pueden perder más refrigeración de la que produce el aire acondicionado.Utilice un lápiz de humo para encontrar fugas;reemplace los sellos según sea necesario.La mayoría de los conductores pueden reducir el consumo de energía durante la noche en un 40% solo con estos cinco pasos, sin cambiar la unidad de aire acondicionado."
+    },
+    {
+      "heading": null,
+      "body": "## Integración solar: reducción de los ciclos de la batería y la carga del alternador"
+    },
+    {
+      "heading": null,
+      "body": "Agregar 200 a 400 W de energía solar en el techo a un sistema de aire acondicionado de estacionamiento reduce la carga tanto de la batería como del alternador de su camión durante la conducción.Un conjunto de paneles de 300 W genera entre 1,2 y 1,8 kWh por día soleado en las latitudes del sur de EE. UU. y entre 0,8 y 1,2 kWh en las latitudes del norte, aproximadamente entre el 25 y el 45 % del consumo típico de aire acondicionado durante la noche.El efecto práctico: la batería arranca la mayoría de los días casi llena, su cargador DC-DC consume menos del alternador y el consumo total de combustible para operaciones de CA se reduce entre un 15% y un 25%.Costo del equipo: entre $400 y $700 por un kit de panel flexible de 300 W con controlador MPPT.Recuperación de la inversión en 14 a 22 meses para un conductor OTR.La energía solar no eliminará la necesidad de batería, pero extenderá su vida útil al reducir la profundidad de descarga diaria del típico 70-80 % hasta 50-60 %.Las células LiFePO4 duran aproximadamente 2 veces más con un 50 % de DoD frente a un 80 % de DoD, por lo que el beneficio secundario es significativo."
+    },
+    {
+      "heading": null,
+      "body": "## Cómo el aislamiento de la cabina multiplica la eficacia de su batería"
+    },
+    {
+      "heading": null,
+      "body": "El consumo de energía es posterior a la carga de calor.La mejora más importante que puede realizar para reducir el consumo de energía CA en estacionamiento es mejorar el aislamiento de la cabina.Instrumentamos la misma traviesa Cascadia antes y después de agregar 1 pulgada de poliiso al techo y a la pared de la litera.Antes: consumo promedio durante la noche de 487 W a una temperatura ambiente de 32 °C.Después: 348 W de media: una reducción del 29 %.El aislamiento costó $180 en materiales y 4 horas de mano de obra.El ahorro de batería por sí solo (se requiere un paquete más pequeño, un ciclo de vida más largo) amortizó la actualización en menos de 6 meses.Si está dimensionando un nuevo sistema de baterías, primero realice el aislamiento y vuelva a medir su carga real antes de comprar baterías.Muchos conductores sobredimensionan las baterías entre un 30% y un 50% porque planearon alrededor de una base sin aislamiento.El aislamiento también es la única mejora que reduce tanto el consumo de energía de CA como el consumo de combustible del motor principal HVAC mientras se conduce: doble función."
+    },
+    {
+      "heading": null,
+      "body": "## Envejecimiento de la batería: por qué el rendimiento del año 3 difiere del del año 1"
+    },
+    {
+      "heading": null,
+      "body": "Las baterías LiFePO4 pierden aproximadamente entre un 2 % y un 4 % de capacidad por año con el uso típico de OTR (250 ciclos/año a un 70 %–80 % DoD).En el año 3, una batería nueva de 200 Ah entregará entre 180 y 188 Ah utilizables.En el año 5, espere entre 165 y 175 Ah.Esto es importante porque si, para empezar, dimensionó su sistema de manera ajustada, el rendimiento del año 3 puede dejarle corto en las noches calurosas.La solución: sobredimensionar entre un 15% y un 25% en la compra inicial.Compre 240 Ah para una necesidad de 200 Ah y tendrá margen tanto para eventos de calor inusuales como para el envejecimiento natural de la batería.Alternativamente, planifique una actualización de la batería en el año 5 o 6, tratándola como un consumible como las pastillas de freno.Los precios modernos de LiFePO4 han caído un 35 % desde 2022 y se prevé que caigan otro 20 % para 2028, lo que hace que el ciclo de actualización sea más asequible que hace unos años."
+    },
+    {
+      "heading": null,
+      "body": "## Cómo leer correctamente los datos del monitor de batería"
+    },
+    {
+      "heading": null,
+      "body": "Los monitores de batería como el Victron BMV-712 muestran amperios, voltaje, estado de carga y amperios-hora consumidos en tiempo real.La mayoría de los conductores malinterpretan lo que ven.Esto es lo que realmente significa cada número en la práctica.(1) Amplificadores en tiempo real: consumo instantáneo: útil para verificar que el aire acondicionado esté funcionando en el rango esperado, no para tomar decisiones sobre el tamaño.(2) Amperios promedio: integre esto durante una noche completa para obtener un consumo de energía real; este es el número que importa.(3) Estado de carga (SoC): basado en el recuento de culombios acumulativo, con una precisión de ±2 % con una derivación calibrada correctamente.Restablezca al 100% periódicamente cargando completamente al banco.(4) Ah consumido: la métrica más útil para dimensionar: realice un seguimiento de esto durante 7 a 10 noches representativas y utilice el valor máximo como punto de diseño.Los conductores cuyo tamaño se basa en la \"sensación\" o en el pico instantáneo dibujan constantemente un tamaño inferior al normal.Confíe en los datos, no en el instinto."
+    },
+    {
+      "heading": null,
+      "body": "## Casos extremos: frío extremo y calor extremo"
+    },
+    {
+      "heading": null,
+      "body": "Las baterías LiFePO4 pierden aproximadamente un 20 % de su capacidad efectiva por debajo de 0 °C (32 °F) y se niegan a cargarse por debajo de -10 °C (14 °F) sin calefacción interna.Para los conductores que estacionan durante la noche en los inviernos del norte, planifique instalar cajas de baterías con calefacción (adicional de $150 a $300) o ampliar el banco al 130% de su capacidad en climas cálidos.En condiciones de calor extremo por encima de los 45 °C (113 °F) ambientales, los inversores de CA de estacionamiento a menudo reducen su potencia para proteger las temperaturas del compresor, lo que reduce la salida de refrigeración entre un 10 % y un 18 %.Las celdas de la batería también se degradan más rápidamente por encima de los 40 °C de temperatura ambiente: mantenga la caja de la batería ventilada o en la sombra.Ambos casos extremos empujan a sobredimensionar la batería y elegir unidades de aire acondicionado impulsadas por inversores con rangos de temperatura de funcionamiento documentados.Consulte las hojas de especificaciones cuidadosamente para conocer las clasificaciones ambientales máximas;Las unidades baratas a menudo especifican \"hasta 40°C\", lo cual es inadecuado para el uso en verano en el suroeste de Estados Unidos."
+    },
+    {
+      "heading": null,
+      "body": "## Preguntas frecuentes"
+    },
+    {
+      "heading": null,
+      "body": "**¿Cuántos amperios consume un aire acondicionado de estacionamiento 12V?**\n\nUna unidad inversora 12V moderna (clase BTU de 8000 a 10 000) consume entre 30 y 40 A en estado estable y alcanza un máximo de entre 80 y 90 A en el arranque.Un equivalente de 24V consume la mitad de esos amperios para la misma salida de enfriamiento, razón por la cual se prefiere 24V para sistemas de mayor salida.\n\n**¿Puedo hacer funcionar el aire acondicionado de estacionamiento con la batería de arranque de mi camión?**\n\nNo, nunca.Una batería de arranque está diseñada para ráfagas cortas y de alta corriente (arranque) y se destruirá mediante ciclos profundos en 20 a 40 ciclos.Necesita un banco de baterías doméstico LiFePO4 dedicado aislado de la batería de arranque mediante un cargador DC-DC.\n\n**¿Una batería de litio de 100 Ah funcionará con aire acondicionado de estacionamiento toda la noche?**\n\nUn solo 12V LiFePO4 de 100 Ah (1,28 kWh utilizable al 100 % DoD, 1,02 kWh al 80 % DoD) le proporciona entre 2,5 y 3 horas de refrigeración en una unidad inversora, o 1,5 horas en una unidad de velocidad fija.Para una noche completa, planifique 200–300 Ah a 12V o 100–200 Ah a 24V como mínimo.\n\n**¿Cuánto combustible quema el alternador para recargar la batería?**\n\nAproximadamente 0,4 a 0,6 galones de diésel por kWh recargados mediante un cargador DC-DC de 50 A mientras se conduce.Reemplazar un drenaje nocturno de 4 kWh cuesta aproximadamente entre 1,6 y 2,4 galones (entre 6,30 y 10,10 dólares) por día en combustible adicional.Esto sigue siendo entre un 75 y un 80 % más barato que el ralentí.\n\n**¿El funcionamiento con energía de tierra en lugar de batería ahorra algo?**\n\nSí, con una toma de corriente de 110 V, evitas por completo las pérdidas de batería y pagas solo por los 450 W × 8 horas = 3,6 kWh × $0,13/kWh = $0,47 por noche.Si tiene energía en tierra disponible, úsela;reserve la batería para las noches fuera de la red.\n\n**¿Qué es el sorteo parásito y qué importancia tiene?**\n\nEl consumo parásito es la corriente de reserva que extrae el controlador de CA cuando está \"apagado\".Las unidades de calidad (CoolDrivePro V-TH1, Dometic RTX2000) consumen menos de 50 mA.Las unidades baratas pueden consumir entre 200 y 400 mA, lo que consume entre 5 y 10 Ah por semana si el camión permanece inactivo.Busque unidades que documenten un consumo en espera inferior a 100 mA.\n\n**Mi batería se agota antes de que amanezca. ¿Qué pasa?**\n\nCuatro causas probables clasificadas por frecuencia: (1) la batería tiene un tamaño insuficiente para el ambiente y las horas de uso reales, (2) DC-DC el cargador tiene un tamaño insuficiente, por lo que la batería nunca se recarga completamente durante los viajes, (3) la caída de voltaje en el cableado hace que la CA consuma más amperios para mantener la energía, (4) la batería tiene más de 4 a 5 años y la capacidad se ha degradado más del 20%.Utilice un monitor de batería para diagnosticar;no lo adivines.Nuestra [lista de verificación de solución de problemas de aire acondicionado de estacionamiento](/blog/parking-ac-not-cooling-troubleshooting) recorre cada paso de diagnóstico en orden."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "title": "Üresjárat nélküli váltóáramú teherautó-rendszerek: Hogyan kell megfelelni az állami alapjárat-ellenes törvényeknek (2026)",
+  "date": "2026-04-25",
+  "category": "Megfelelés",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+  "imageAlt": "Akkumulátoros-elektromos, alapjárat nélküli teherautó váltóáramú rendszer az alapjárati gátló megfelelés érdekében",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Államonkénti alapjárat-ellenes törvények és az üresjárat nélküli tehergépjárművek AC követelményeinek való megfelelés.CARB (300–1000 dollár bírság), 30+ állami korlát, EPA SmartWay és az 5 rendszer, amely megfelel a 2026-os követelményeknek.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac_56794866.webp",
+      "alt": "Class 8 truck parked with no-idle battery-electric AC system providing cab climate control",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Installation of no-idle compliant battery system for truck cab cooling",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Az alapjárat-ellenes törvények már nem peremkérdések.2026 áprilisáig az Egyesült Államok több mint 30 állama, a District of Columbia és az önkormányzatok egyre növekvő listája kényszeríti ki az üresjárati korlátozásokat a nehéz tehergépjárművekre.A pénzbírságok 150 dollártól kezdődnek, és 25 000 dollárra emelkednek a kaliforniai vállalati jogsértők esetében.Az EPA becslése szerint az alapjáraton évente több mint 1 milliárd gallon gázolaj és 11 millió tonna CO2 hulladék keletkezik csak az Egyesült Államok teherszállítási szektorában – és a szabályozó hatóságok szigorúbb végrehajtással válaszolnak, nem csak szigorúbb törvényekkel.Ha Ön tulajdonos-üzemeltető vagy flottamenedzser, 2026-ban nem az a kérdés, hogy váltson-e alapjárat nélküli megoldásra, hanem az, hogy melyiket válassza.Ez az útmutató lebontja a szabályozási környezetet, a megfelelő technológiai lehetőségeket és a valós költség-haszon elemzést."
+    },
+    {
+      "heading": null,
+      "body": "Az „üresjárat nélküli AC” minden olyan rendszer, amely az utastér klímaszabályozását biztosítja a teherautó fő dízelmotorjának működtetése nélkül.Három kategória felel meg: akkumulátoros elektromos parkoló AC (a legtisztább és legcsendesebb), dízel tüzelésű parkolófűtők és váltakozó áramúak (alacsonyabb előzetes költség, továbbra is károsanyag-kibocsátással jár, de mentesül a legtöbb alapjárati törvény alól, mert sokkal kevesebb üzemanyagot égetnek el), és csak a szárazföldi árammal működő rendszerek (nulla károsanyag-kibocsátás, de csak teherautó-megállókra korlátozódik elektromos parkolóhelyekkel).A segédtápegységek (APUs) határesetnek számítanak – jellemzően „üresjárat nélkülinek” minősülnek, mivel helyettesítik a főmotor alapjáratát, de Kalifornia és számos más állam ma már magára a APU-re is alkalmaz kibocsátási szabványokat a CARB szabályok szerint."
+    },
+    {
+      "heading": null,
+      "body": "## A főbb állami törvények, amelyeket tudnod kell 2026-ban"
+    },
+    {
+      "heading": null,
+      "body": "**Kalifornia (CARB):** A legszigorúbb.Az 5 perces üresjárati korlát országszerte érvényes;A 2008+ teherautóknak APU emissziós tanúsítványra vagy akkumulátoros elektromos rendszerre van szükségük.Bírságok: 300 dollár első büntetés, 1000 dollár ismétlés, plusz napi 25 000 dollár vállalati kitettség.A végrehajtás minden nagyobb kikötőben és mérlegállomáson aktív.**New York:** 5 perces korlátozás államszerte, 3 perces NYC-ben.260–2400 dollár bírság.Agresszíven végrehajtják NYC öt kerületében.**Massachusetts:** 5 perces korlát.Akár 25 000 dolláros ismétlődő bírság.**New Jersey:** 3 perces üresjárati korlát (az egyik legszigorúbb).250-1000 dollár bírság.**Washington és Oregon:** 5 perces korlátok.A Csendes-óceán északnyugati részének végrehajtása növekszik.**Texas:** Állami szintű korlátozás nincs, de Houstonban, Dallas-Fort Worthben, El Pasóban és Austinban van önkormányzati 5 perces korlát.**Illinois:** 10 perces korlátozás a legtöbb dízel teherautó esetében.**Maryland, Virginia, DC:** Koordinált 5 perces korlátozások a DC metróterületen.**Florida:** Állami szintű korlátozás nincs, de Miami-Dade 5 perces szabályt érvényesít 500 dolláros bírsággal.**Colorado:** 5 perces limit, akár 700 dollárig terjedő bírság.2026-tól csak Wyoming, Észak-Dakota, Dél-Dakota, Mississippi és Alabama az érdemi végrehajtás nélküli államok – és ez a lista évről évre csökken."
+    },
+    {
+      "heading": null,
+      "body": "## A leggyakoribb mentességek (és a csapdák)"
+    },
+    {
+      "heading": null,
+      "body": "A legtöbb állami törvény mentesíti az alapjáratot: extrém hideg (0°F alatt vagy néha 32°F), extrém hőség (80°F vagy 90°F felett államtól függően), DOT-megkövetelt pihenőidő (Kaliforniában ez feltételes, nem takaró) és aktív be-/kirakodás.A csapda: a végrehajtó tiszteknek nem kell szót fogadniuk a hőmérséklet miatt.Az idézés időpontjában ellenőrzik a helyi NWS olvasmányt.Ha alapjáraton 75°F-on dolgozik, mert „melegnek érzi magát”, pénzbírságot kap.Ezenkívül számos állam (CA, NJ, NY) teljesen eltörölte a fűtési mentességet, ha az Ön teherautója üresjárat nélküli alternatívával van felszerelve – ez a legtöbb modern teherautó.A parkoló AC birtoklása és annak használatának hiánya nem ad bérletet."
+    },
+    {
+      "heading": null,
+      "body": "## Akkumulátoros elektromos: a legtisztább megfelelőségi út"
+    },
+    {
+      "heading": null,
+      "body": "Akkumulátoros elektromos parkoló AC rendszer (gondolom CoolDrivePro V-TH1 + 200Ah 24V LiFePO4 akkumulátor + 50A DC-__CDP_TERM_1 minden id állapothoz)szabályok nulla éles esetekkel.Nulla károsanyag-kibocsátás, nulla zajprobléma, nulla engedélyezési probléma.Előzetes költség: 4500–6500 USD telepítve.Éves működési költség: körülbelül 700 dollár extra generátorral hajtott üzemanyag az akkumulátor újratöltéséhez.Hasonlítsa össze az üresjárattal 250 éjszaka × 10 óra × 3,95 USD/gal × 0,9 gall/óra = 8887 USD/év.Nettó megtakarítás: 8150 USD/év.7-9 hónap alatt megtérül az elsődleges OTR útvonalakat üzemeltető tulajdonos-üzemeltető számára.A flották esetében a matematika még jobb, mert elkerüli a CARB-megfelelőség jelentését a rezsiköltségekkel és az üresjárattal kapcsolatos garanciális problémákkal kapcsolatban.Tekintse meg a teljes [parking AC vs APU összehasonlítást](/blog/parking-ac-vs-apu) az almák és az almák közötti költségek lebontásához."
+    },
+    {
+      "heading": null,
+      "body": "## Diesel-tüzelésű parkoló AC: A középső út"
+    },
+    {
+      "heading": null,
+      "body": "A Webasto Cool Top RTE 16 (ha dízelmotoros nyomásfokozóval van konfigurálva) és az Eberspächer Airtronic Cool rendszerek 0,05–0,10 gal/óra égetik el a teherautó fő dízeltartályát.Minimális károsanyag-kibocsátást produkálnak (jóval a főmotor alatt), szerény zajt (45–55 dBA) adnak, és mind az 50 államban jogosultak az üresjárati mentességekre.Az előzetes költség alacsonyabb, mint a teljes akkumulátoros rendszerek esetében (2500–4000 USD telepítve).Az üzemeltetési költség magasabb, mint az akkumulátor (kb. 1200 USD/év dízelben), de még mindig kevesebb mint 15%-a a teljes motor alapjáratának.Azon tulajdonos-üzemeltetők számára, akik nem engedhetik meg maguknak az előzetes akkumulátorrendszert, a dízel tüzelésű védhető kompromisszum.Hátránya: zaj, károsanyag-kibocsátás, és egy kis segédüzemanyag-rendszer karbantartásának szükségessége idővel."
+    },
+    {
+      "heading": null,
+      "body": "## APUs: Többnyire kompatibilis, CARB csillagokkal"
+    },
+    {
+      "heading": null,
+      "body": "Az olyan segédmotoros egységek, mint a Carrier ComfortPro vagy a RigMaster MTS-T4, egy kis (15–20 LE) dízelmotort működtetnek folyamatosan a váltakozó áramú, a fűtési és az inverteres terhelések táplálására.2005 és 2018 között ők voltak a domináns tétlen megoldás.Továbbra is működnek – 49 államban jogosultak alapjárati törvényi mentességre, mivel óránkénti károsanyag-kibocsátásuk sokkal alacsonyabb, mint egy 500 LE-s főmotoré.**Kalifornia a csillag.** 2008 óta a CARB APUs-t követel meg a Tier 4 kibocsátási szabványnak, a 2024-es frissítés pedig DPF-et (dízel részecskeszűrőt) ír elő az újabb telepítéseknél.Sok régebbi használatban lévő APU nem felel meg az előírásoknak, és Kaliforniában történő üzemeltetése pénzbírságot fenyeget, még akkor is, ha az egység műszakilag „nem tétlen” eszköz.A APU-ek szintén veszítenek a zajból: a 60–67 dBA-t az emeleten egyre gyakrabban tekintik alulmaradtnak, mint az akkumulátoros elektromos alternatíváknak."
+    },
+    {
+      "heading": null,
+      "body": "## Öt 2026-kompatibilis rendszer összehasonlítása"
+    },
+    {
+      "heading": null,
+      "body": "**1.CoolDrivePro V-TH1 + 200Ah 24V LiFePO4 akkumulátorrendszer** — Akkumulátoros elektromos.5200 dollár telepítve.42 dBA.Nulla kibocsátás.Megfelelő mind az 50 államban + EU.A legjobb: tulajdonos-üzemeltetők és a TCO-t előnyben részesítő flották.**2.Dometic RTX2000 + 200Ah akkumulátor** — Akkumulátoros-elektromos.5500 dollár telepítve.48 dBA.Nulla kibocsátás.Mindenhol megfelelő.A legjobb: azoknak a járművezetőknek, akik értékelik a Tier-1 márka ismertségét és az Egyesült Államok kereskedői sűrűségét.**3.Webasto Cool Top RTE 16 + 200Ah akkumulátor** — Akkumulátoros elektromos (vagy dízel tüzelésű kiegészítő kapható).5800 dollár telepítve.47 dBA.Legjobb: extrém meleg területeken, ahol az osztott kialakítás hatékonysága a legfontosabb.**4.Carrier ComfortPro APU (2026-os CARB-kompatibilis)** – Dízel APU.9800 dollár telepítve.64 dBA emeleten.Minden államban kompatibilis az új DPF-vel.A legjobb: azoknak a járművezetőknek, akik korlátlan futásidőt szeretnének, és alacsony előzetes költségvetési gondokkal küzdenek.**5.RigMaster MTS-T4 CARB DPF-vel** – Dízel APU.8500 dollár telepítve.67 dBA.Kompatibilis a jelenlegi frissítéssel.Legjobb a következőhöz: régi APU csere vagy költségérzékeny flotta-utólagos felszerelés."
+    },
+    {
+      "heading": null,
+      "body": "## Valódi sofőrtörténetek: Három idézet elkerülve"
+    },
+    {
+      "heading": null,
+      "body": "**1. eset:** A CA-IL sávokat futtató tulajdonos-üzemeltető 2023-ban 1000 USD CARB-bírságot kapott egy bakersfieldi pihenőhelyen 90°F-os hőségben 25 percig alapjáraton (nincs telepítve teherautó oldali üresjárati megoldás).A CoolDrivePro V-TH1 akkumulátorrendszer 2024 elején történt telepítése után a 22 hónap és a 180+ Kalifornia lejártával nem történik további hivatkozás.A rendszer megtérülése önmagában az elkerült bírságokból: 12 hónap.**2. eset:** Öt teherautóból álló regionális flotta NYC metróövezetében 2024-ben 8 hónap alatt 3800 dolláros bírságot kapott 3 perces szabálysértési bírságként. Dometic RTX2000 rendszereket telepítettek mind az öt egységre.Nulla szabálysértés a következő 18 hónapban.**3. eset:** A TX–FL sávot futó független sofőrre hivatkoztak Houstonban 18 perces alapjáratra a város által fenntartott pihenőhelyen, annak ellenére, hogy a környezeti hőmérséklet 95°F (Houston megszünteti a fűtési mentességet, ha a teherautóba üresjárati rendszert szereltek fel).A tanulság: ha már van egy üresjárati opció, akkor azt használnia kell.Alapjáraton, mert „elfelejtette” vagy „előnyben részesítette” a főmotort, ugyanaz a büntetés jár, mint a rendszer hiányában."
+    },
+    {
+      "heading": null,
+      "body": "## EPA SmartWay és gyártói ösztönzők"
+    },
+    {
+      "heading": null,
+      "body": "Az EPA SmartWay Transport Partnership elismeri azokat a fuvarozókat, amelyek üzemanyag-hatékony, alacsony károsanyag-kibocsátású flottákat üzemeltetnek.Az akkumulátoros, nem üresjárati rendszerek jelentős mértékben hozzájárulnak SmartWay-pontszámához, amely feloldhatja a szerződéses preferenciát a nagyobb szállítókkal (Walmart, Target, Procter & Gamble, FedEx, UPS és a legtöbb Fortune 500 logisztikai vásárló kifejezetten a SmartWay-tanúsítvánnyal rendelkező fuvarozókat részesíti előnyben az ajánlatok értékelése során).A flották esetében ez gyakran 3–5%-kal magasabb szerződéses árakat jelent, ami jelentős bevételnövekedést jelent.Számos teherautó-gyártó (Freightliner, Kenworth, Peterbilt, Volvo) jelentős kedvezménnyel kínál gyári akkumulátorparkoló AC opciókat az utángyártott utólagos felszereléshez képest.Kérdezze meg kereskedőjét;a 2026-os modellév minden eddiginél több üresjárati integrációs lehetőséget kínál."
+    },
+    {
+      "heading": null,
+      "body": "## Helyi önkormányzati rendeletek: A rejtett réteg"
+    },
+    {
+      "heading": null,
+      "body": "Az állam törvényein túl több mint 200 amerikai önkormányzat fogadott el az állami törvényeknél szigorúbb helyi tétlenségi korlátozásokat.Figyelemre méltó példák: Portland OR (3 perces korlátozás), Boston MA (5 perc, bár az állam bizonyos esetekben hosszabb ideig), Atlanta GA (10 perc, Georgia állam törvényei nélkül), Denver CO (5 perc), Salt Lake City UT (2 perc a téli inverziós riasztások idején), Pittsburgh PA (5 perc).A végrehajtást jellemzően a városi környezetvédelmi szolgálatok vagy a rendőrség végzi.A pénzbírság szabálysértésenként 100 és 750 dollár között mozog.A legtöbb önkormányzat üresjáratot korlátozó táblákat helyez el a főbb pihenőhelyeken és a belvárosi rakodózónákban, de a végrehajtás is véletlenszerűen történik – ezekben a városokban a kereskedelmi övezetekben éjszakára leparkoló sofőrök még kihelyezett táblák nélkül is idézhetők.Az akkumulátoros elektromos parkoló AC az egyetlen olyan megoldás, amely általánosan megfelel az állami és önkormányzati szinten egyaránt."
+    },
+    {
+      "heading": null,
+      "body": "## Hogyan dokumentálják és igazolják a flották a megfelelőséget"
+    },
+    {
+      "heading": null,
+      "body": "A modern telematikai platformok (Geotab, Samsara, Motive) CAN buszon keresztül integrálódnak az akkumulátoros elektromos parkoló AC rendszerekkel, helyenként naplózva az AC használati idejét és a főmotor kikapcsolási idejét.Ezek a jelentések elfogadható bizonyítékok a finom kihívásokban, és proaktív megfelelést mutatnak be a szabályozókkal szemben.Például egy Geotab-jelentés, amely azt mutatja, hogy „a főmotor kikapcsolt, az AC aktív parkoló 8,4 órán keresztül a GPS-koordinátákon a Bakersfield CARB végrehajtási zónán belül”, teljesen megcáfol minden lehetséges üresjárati idézetet.Sok flotta is használja ezeket a jelentéseket a SmartWay benyújtásához és az ügyféloldali ESG jelentésekhez.Az integráció költsége: 0–200 USD teherautónként kábelért és adapterért, a meglévő telematikai előfizetésen felül.ROI: az első elkerült bírság sokszorosan megtéríti, ráadásul megerősíti a flotta általános megfelelőségét a biztosítási kötvények tekintetében."
+    },
+    {
+      "heading": null,
+      "body": "## Nemzetközi alapjárat-ellenes trendek"
+    },
+    {
+      "heading": null,
+      "body": "Az alapjárat-ellenes szabályozás az Egyesült Államokon kívül is felgyorsul.Az Európai Unió nehézgépjárművekre vonatkozó CO2-csökkentési céljai (-15% 2025-re, -30% 2030-ra a 2019-es alapvonalhoz képest) hatékonyan az üresjárat nélküli megoldások felé kényszerítik a flottákat, mivel a főmotorok alapjárata beleszámít a járműre jutó CO2-költségvetésbe.Németországban, Hollandiában, Svédországban és Dániában már van önkormányzati tétlenségi korlátozás a nagyobb városokban.Az Egyesült Királyság Közlekedési Minisztériuma 2026–2027-től szigorúbb üresjárati szabályokat határozott meg London alacsony kibocsátású zónáiban.Kanada tartományi szabályozása igen változatos: Ontariónak Torontóban 1 perces üresjárati korlátja van, a BC-nek Vancouverben 3 perces tétlenségi korlátja van.Ausztrália NSW EPA 3 perces korlátozásokat vezet be a nagyobb raktárakban.Mexikó megkezdte az 5 perces korlátozások betartatását Mexikóvárosban.A globális trend egyértelmű: mindenhol szigorodnak az alapjárat-gátló szabályok, és az akkumulátoros elektromos parkoló AC az univerzális megoldás."
+    },
+    {
+      "heading": null,
+      "body": "## Hogyan ellenőrizheti megfelelőségét egy hosszú utazás előtt"
+    },
+    {
+      "heading": null,
+      "body": "Egy több államot érintő utazás előtt szánjon 15 percet arra, hogy ellenőrizze, nem tétlen megfelelő testtartása van.(1) Erősítse meg a telepített rendszer típusát (akkumulátoros, dízel tüzelésű vagy APU), és tegye elérhetővé a dokumentációt.(2) Ha Kalifornián keresztül utazik, ellenőrizze a APU modellhez tartozó legfrissebb CARB végrehajtási utasítást – a rendelések évente frissülnek, és a korábban megfelelő modellhez szoftverfrissítésre lehet szükség.(3) Fényképezze le telepített rendszerét az utazás elején;ez hasznos bizonyíték minden megfelelési vitában.(4) Mentse el az államspecifikus mentességi szabályokat a telefonján (az EPA rendelkezik egy ingyenes referenciaalkalmazással, az „IdleBox” néven).(5) Flották esetében győződjön meg arról, hogy diszpécsere minden egyes teherautó esetében rendelkezik a megfelelő alapjárat-gátló tanúsítási dokumentumokkal.Az indulás előtti 5 perces megfelelőségi ellenőrzés megakadályozta, hogy több ezer dolláros bírságot szabjanak ki az általunk vizsgált járművezetők számára."
+    },
+    {
+      "heading": null,
+      "body": "## Amikor a számok nem indokolják a megfelelőségi befektetést"
+    },
+    {
+      "heading": null,
+      "body": "Legyen őszinte a vezetési profiljával kapcsolatban.Ha évente kevesebb mint 50 hálófülkés éjszakát jelentkezik be (pl. regionális sofőrök, akik naponta hazamennek), akkor az 5000 dollár feletti tétlenségi rendszer pénzügyi oka gyengébb.A megtérülési küszöb nagyjából évi 80-100 éjszakai tétlen csere.Az alacsony éjszakai sofőrök számára egy dízel tüzelésű Webasto Cool Top RTE Diesel (2800 USD telepítve) vagy akár egy régi 12V mocsári hűtő (300 USD) lehet a gazdaságosabb választás – annak ellenére, hogy nem olyan elegánsak.Kivétel: ha rendszeresen belép Kalifornia vagy NYC területére szigorú szabályok betartásával, akkor évente néhány idézet is igazolhatja a teljes rendszert a finom elkerülő közgazdaságtanon.Számolja ki konkrét esetét: éjszakák × üresjárati órák × gázolajköltség vs. rendszer amortizációja, és hagyja, hogy a számok vezessenek."
+    },
+    {
+      "heading": null,
+      "body": "## Mindent összerakva: Az Ön 2026-os megfelelőségi cselekvési terve"
+    },
+    {
+      "heading": null,
+      "body": "Ha még nem frissített tétlen megoldásra, itt található a gyakorlati 30 napos cselekvési terv.1. hét: azonosítsa tipikus vezetési mintáját (állapotban lévő sávok, átlagos éjszakai üresjárati órák, környezeti hőmérséklet kitettsége), és számítsa ki az éves üresjárati költséget.2. hét: kérjen három árajánlatot a felhatalmazott telepítőktől – egyet az elektromos akkumulátorra (CoolDrivePro V-TH1 vagy Dometic RTX2000), egyet a dízelmotorra (Webasto) és egyet a APU frissítésre (csak akkor, ha a jelenlegi __10 CAR_DP_TER_comp __10).3. hét: tekintse át az árajánlatokat az éves üresjárati költségéhez képest;A legtöbb OTR sofőr esetében 12 hónap alatt kell megtérülnie.4. hét: foglalja le a telepítést, és készüljön fel a telepítés befejezésének dokumentálására garanciális és biztosítási célból.2026-ban a legdrágább döntés, ha elhalasztja ezt a döntést, és újabb évnyi tétlenségi bírságot és üzemanyag-pazarlást halmoz fel.A technológia kiforrott, a költségek kedvezőek, a szabályozási irány egyirányú.Cselekedj most."
+    },
+    {
+      "heading": null,
+      "body": "## Gyakran Ismételt Kérdések"
+    },
+    {
+      "heading": null,
+      "body": "**Mi a legszigorúbb alapjárat-ellenes állapot 2026-ban?**\n\nKalifornia (CARB), 5 perces állami korlátozásokkal, 300–1000 USD pénzbírsággal szabálysértésenként, és további CARB-megfelelőségi követelményekkel a APU kibocsátásra vonatkozóan.New Jersey a második helyen áll 3 perces korláttal és agresszív végrehajtással.\n\n**Hideg időben alapjáraton tudok melegedni?**\n\nA legtöbb állam megengedi az alapjáratot 0°F vagy 32°F alatti kabinfűtéshez (államonként változik).Többen eltávolították ezt a mentességet, ha a teherautója rendelkezik üresjárat nélküli alternatívával.Ellenőrizze az adott állam jelenlegi szabályait – 2024-ben és 2025-ben lényegesen szigorodtak.\n\n**A APUs valóban nem tétlen rendszernek számít?**\n\nIgen 49 államban.Kalifornia DPF-el korlátozza azokat a APU-kat, amelyek nem felelnek meg a 2024-es Tier 4 kibocsátási szabványoknak.Ha a APU 2024 előtti, és Ön Kaliforniában működik, ellenőrizze a megfelelőségi állapotot, mielőtt a tétlenségi mentességet igénybe venné.\n\n**Miben hasonlít a hálófülkés parkoló AC a APU megfelelőségéhez?**\n\nAz akkumulátoros elektromos parkoló AC kivétel nélkül mindenhol teljes mértékben kompatibilis.A APU-ok Kalifornia 49 államában felelnek meg a szabályozási korlátozásoknak.Az akkumulátoros elektromos a legbiztonságosabb választás, ha rendszeresen átlépi az államhatárokat.\n\n**Mi van, ha egy ügyfélkikötőnél parkolok, és azt kérik, hogy zárjam le?**\n\nA legtöbb szállító és ügyféloldali parkoló az állami törvényektől függetlenül zéró toleranciát ír elő alapjáraton.Sok nagy raktár mostanság biztonsági kamerákkal ellenőrzi, hogy a teherautók üresjáratban vannak-e, és kitiltják létesítményeikből a visszaesőket.Az akkumulátoros elektromos parkoló AC azt jelenti, hogy kényelmesen maradhat anélkül, hogy kockáztatná ügyfélkapcsolatait.\n\n**Vannak szövetségi üresjárati korlátozások, vagy csak állami és helyi?**\n\nJelenleg nincs szövetségi alapjárati korlát a közúti teherautók számára.Az EPA ösztönzi a SmartWay-en keresztüli önkéntes csökkentést.2018 óta többször javasoltak szövetségi fellépést, de 2026 áprilisáig nem fogadták el a kongresszust. Az állami és helyi szabályok az egyetlen jogi erő.\n\n**Tulajdonképpen mennyibe kerül egy tétlen idézés, ha mindent figyelembe veszünk?**\n\nKözvetlen bírság (150–1000 USD), valamint bírósági díjak (50–200 USD), valamint a CSA-pontszám lehetséges hatása (amely egy évre 5–12%-kal befolyásolhatja a biztosítási díjakat).Egy kaliforniai visszaeső elkövető könnyen szembesülhet szabálysértésenként 2500 dollár feletti összköltséggel.Már egyetlen bírság is gyakran meghaladja az akkumulátoros-elektromos rendszer havi finanszírozásának költségét.Az akkumulátor méretének meghatározásához, hogy a rendszer valóban megbízhatóan működjön, tekintse meg [LiFePO4 akkumulátorméretezési útmutatónkat](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

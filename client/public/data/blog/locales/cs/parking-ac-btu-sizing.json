@@ -1,0 +1,156 @@
+{
+  "title": "Parking AC BTU Kalkulačka velikosti: Kolik BTUs opravdu potřebujete?(2026)",
+  "date": "2026-04-25",
+  "category": "Průvodce nákupem",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+  "imageAlt": "BTU tabulka velikostí pro parkování klimatizace napříč kabinou kamionu a konfigurace RV",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Kolik BTUs potřebuje vaše spací kabina nebo RV ložnice?Vzorec krok za krokem a tabulky pro nákladní vozidla třídy 8 (5 000–10 000 BTU), dodávky Sprinter (6 000–8 000 BTU) a 25 stop RV_- 14_00_00_CDP_TERM_000",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth_89adf6ca.webp",
+      "alt": "Class 8 truck sleeper cab interior showing typical 90 cubic foot cooling volume",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Properly sized parking AC unit installed in a long-haul sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Nákup parkovací klimatizace, která je příliš malá, znamená, že běží na 100 % celou noc a nikdy zcela nevychladí kabinu.Nákup příliš velkého znamená, že má krátké cykly, plýtvá baterií, špatně odvlhčuje a stojí vás o 1 000 $ více, než jste museli utratit.Obě chyby jsou běžné a obě pocházejí ze stejné základní příčiny: lidé si kupují parkovací klimatizace na základě kamionu nebo RV, na které je instalují, nikoli na základě skutečného zatížení chlazení.Tato příručka vás během pěti minut provede správným vzorcem pro dimenzování BTU, poskytne vám referenční tabulky pro nejběžnější konfigurace kabiny a RV a vysvětluje, proč marketingové tvrzení „jedna velikost vyhovuje všem“ téměř nikdy neplatí."
+    },
+    {
+      "heading": null,
+      "body": "BTU znamená British Thermal Unit, což je míra chladicí kapacity za hodinu.Jeden BTU/h je zhruba chladicí výkon potřebný ke snížení jedné libry vody o jeden stupeň Fahrenheita.10 000 BTU/h parkovací klimatizace poskytuje 10 000 těchto jednotek chladicího výkonu za hodinu.Otázka zní: kolik BTU/hod potřebuje vaše konkrétní kabina?Odpověď závisí na šesti proměnných: objem kabiny, izolační R-hodnota, okolní teplota, cílová teplota, sluneční záření a počet cestujících.Žádný z nich není o značce nákladního automobilu – jde o fyzické tepelné zatížení.Špatně izolovaný pražec 90 kubických stop ve Phoenixu potřebuje více BTU než dobře izolovaný pražec 110 kubických stop v Minnesotě."
+    },
+    {
+      "heading": null,
+      "body": "## Pracovní vzorec: Pět minut k vaší odpovědi"
+    },
+    {
+      "heading": null,
+      "body": "Použijte tento zjednodušený průmyslový vzorec: **Požadováno BTU/hr = Objem kabiny (cu ft) × ΔT (°F) × Faktor izolace × Sluneční faktor + Zatížení cestujícími**.ΔT je rozdíl mezi nejhorším případem okolní a cílové teploty (typicky 35°F mezera = 95°F venku, 70°F uvnitř).Izolační faktor: 0,7 pro vynikající (moderní pražce třídy 8, dobře izolované RVs), 1,0 pro průměr, 1,3 pro špatné.Sluneční faktor: 1,0 pro parkování ve stínu, 1,2 pro částečné slunce, 1,4 pro plné slunce po celý den.Zatížení cestujícího: 400 BTU na dospělou osobu.Zpracovaný příklad pro pražec Cascadia třídy 8 (90 m3, průměrná izolace, částečné slunce, 1 cestující, cílová teplota 70 °F v okolní teplotě 95 °F): 90 × 35 × 1,0 × 1,2 + 400 = 3 780 + 400 = 4 180 __CDP_/hr_TERM___CDP__hr.To vám říká, že je vhodná jednotka 5 000–6 000 BTU;jednotka 10 000 BTU by byla přehnaná a měla by krátký cyklus."
+    },
+    {
+      "heading": null,
+      "body": "## Referenční tabulka: Spací kabiny nákladních automobilů"
+    },
+    {
+      "heading": null,
+      "body": "**Jednoposchoďová spací kabina (Freightliner Cascadia, Kenworth T680, Peterbilt 579), 75–95 cu ft:** 5 000–6 500 BTU/h je dostatečná v mírných klimatických podmínkách;zvýšení na 7 500–8 500 BTU/h pro léto v Texasu/Arizoně.CoolDrivePro VS02 PRO (6 000 BTU) pokrývá většinu severních tras;V-TH1 (10 000 BTU vrchol, 6 500 BTU trvale) zvládá jižní trasy.**Dvoupatrová týmová postel, 100–130 kubických stop:** 7 500–10 000 BTU/hod.Dva cestující zdvojnásobí metabolickou zátěž na 800 BTU.V-TH1 je správná volba.**Denní kabina s prodloužením lůžka, 60–75 cu ft:** 4 000–5 500 BTU/hod.VS02 PRO (6 000 BTU) je mírně předimenzované, ale přijatelné.**Dědičná kabina s menším lůžkem, 55–70 kubických stop:** 3 500–5 000 BTU/hod.Mnoho moderních jednotek je pro ně předimenzováno – podívejte se na CoolDrivePro Mini (4 000 BTU) nebo srovnatelné kompaktní jednotky 12V."
+    },
+    {
+      "heading": null,
+      "body": "## Referenční tabulka: RVs a obytné vozy"
+    },
+    {
+      "heading": null,
+      "body": "**Přestavba dodávky Sprinter nebo Promaster, 250–400 kubických stop:** 9 000–12 000 BTU/hod.CoolDrivePro VX3000SP (12 000 BTU) je účelově vytvořeno pro tento segment.**Obytný vůz třídy B (24–28 stop), 600–900 kubických stop:** 12 000–15 000 BTU/hod – obvykle vyžaduje buď jednu vysokokapacitní jednotku, nebo dvě zóny.**Obytný vůz třídy C (25–30 stop), 800–1 200 kubických stop:** 13 500–18 000 BTU/h;zvažte zónové chlazení (jedna jednotka v prostoru palandy, jedna v hlavní kabině).**Cestovní přívěs (20–28 stop), 700–1 100 kubických stop:** 12 000–15 000 BTU/hod.**Páté kolo (32–40 stop), 1 400–2 200 kubických stop:** 18 000–24 000 BTU/h, téměř vždy zónováno.**Nákladní karavan / topper, 200–350 cu ft:** 8 000–10 000 BTU/hod.Chcete-li se hlouběji ponořit do párování baterií a střídavých proudů specifických pro RV, podívejte se do našeho [průvodce klimatizací RV na baterie] (/blog/battery-powered-rv-air-conditioner)."
+    },
+    {
+      "heading": null,
+      "body": "## Proč jít do většího selže: Vysvětlení krátké jízdy na kole"
+    },
+    {
+      "heading": null,
+      "body": "Předimenzovaná parkovací klimatizace rychle dosáhne nastavené hodnoty a poté se vypne (nebo moduluje na minimum).Během několika minut teplota v kabině stoupne a klimatizace se znovu zapne na plný výkon.Tento cyklus se opakuje každých 5–10 minut po celou noc.Výsledkem jsou tři problémy.(1) **Opotřebení kompresoru:** každé spuštění představuje pro kompresor největší zátěž.Krátké cyklování může zkrátit životnost kompresoru na polovinu.(2) **Špatná regulace vlhkosti:** AC odstraňuje vlhkost především během fáze ustáleného stavu, nikoli během krátkých fází špičky.Nadrozměrné jednotky opouštějí kabinu chladnou, ale vlhkou.(3) **Horší účinnost baterie:** spouštěcí proudy jsou 3–5násobek provozního proudu.Časté cykly plýtvají energií při startovacích ztrátách.Jednotka správné velikosti běží téměř nepřetržitě při mírném zatížení – to je nejúčinnější provozní režim.Moderní invertorové jednotky jako V-TH1 a Dometic RTX2000 částečně zmírňují krátké cyklování, protože mohou modulovat až 30 % kapacity, ale i ty fungují nejlépe, když jsou správně dimenzovány podle zátěže."
+    },
+    {
+      "heading": null,
+      "body": "## Proč se zmenšovat také selže"
+    },
+    {
+      "heading": null,
+      "body": "Poddimenzované jednotky běží na 100 % celou noc a stále nemohou zcela dosáhnout nastavené hodnoty v extrémním horku.Kompresor je neustále namáhán při maximální zátěži.Kabina je nepohodlná.Řidič se probouzí zpocený.Životnost jednotky se zkracuje trvalým provozem při vysokém zatížení.Vidíme to neustále u 6 000 jednotek BTU instalovaných v týmových spacích kabinách o ploše 110 kubických stop v Texasu – technicky „fungují“, ale nikdy neuspokojují.Opravou je jednotka správné velikosti, která neběží příliš malou jednotku maximálně 24/7.Pokud si nejste jisti mezi dvěma velikostmi, mírně předimenzovaný (do 20 %) je bezpečnější než poddimenzovaný — moderní invertorové jednotky zvládají skromné ​​předimenzování dobře, ale podstavce vždy zklamou."
+    },
+    {
+      "heading": null,
+      "body": "## Izolace: Multiplikátor, který nemůžete ignorovat"
+    },
+    {
+      "heading": null,
+      "body": "Přidání 1 palce polyiso (R-6) na střechu kabiny snižuje požadované BTU o 30–40 %.Přidáním na palandu se sníží o dalších 10–15 %.Reflectix na oknech během denního parkování se během ochlazování sníží o 25–35 %.Kombinovaná základní vylepšení izolace vás mohou posunout o třídu BTU níže – například z potřeby jednotky 8 000 BTU na jednotku 6 000 BTU.Cena: 150–300 USD za materiál, půl dne práce.Výhoda: utratíte o 400–700 USD méně za AC jednotku a o 300–500 USD méně za baterie.Udělejte to před dimenzováním AC, ne po.Většina moderních pražců OEM třídy 8 od roku 2020+ je přiměřeně dobře izolována;Kabiny z roku 2010 a starší často potřebují modernizace, aby dobře fungovaly."
+    },
+    {
+      "heading": null,
+      "body": "## Úpravy klimatických zón"
+    },
+    {
+      "heading": null,
+      "body": "Vezměte si výsledek vzorce a upravte.**Sever USA/Kanada (klimatické pásmo 5–7):** použijte vzorec tak, jak je;návrhová okolní teplota je 90 °F.**Středozápad a severozápadní Pacifik (zóna 4):** vzorec × 1,0.**Jižní USA (zóny 2–3, AZ, TX, FL, jižní CA):** vzorec × 1,20, aby se zohlednily trvalé teploty okolí 100 °F+ a delší chlazení.**Tropické a subtropické oblasti (Karibik, Střední Amerika, jižní Mexiko, Severní australské teritorium):** vzorec × 1,35 pro zvládnutí okolní teploty 105°F+ s vysokou vlhkostí.**Poušť ve vysokých nadmořských výškách (Nevada, jihozápad UT, AZ high country):** vzorec × 1,10 — vzduch je řidší, účinnost střídavého proudu klesá o 5–8 %.**Severní klima EU (Německo, Spojené království, Skandinávie):** vzorec × 0,85 — návrhové prostředí zřídka překračuje 85 °F.**Jižní EU (Španělsko, Itálie, jižní Francie, Řecko):** vzorec × 1,20."
+    },
+    {
+      "heading": null,
+      "body": "## Když potřebujete dvě zóny místo jedné větší jednotky"
+    },
+    {
+      "heading": null,
+      "body": "Pokud vaše požadovaná hodnota BTU přesáhne 14 000, nekupujte jedinou jednotku BTU za 18 000 – kupte dvě jednotky 9 000 BTU v oddělených zónách.Důvody: (1) redundance, pokud jedna selže, (2) lepší regulace vlhkosti, protože každá jednotka může správně dimenzovat svou vlastní zónovou zátěž, (3) elektrická zátěž rozdělená mezi dva okruhy a dva kompresory, (4) můžete provozovat pouze jednu zónu přes noc, když není druhá polovina RV obsazena – snížení spotřeby energie o 40–50 %.Mezní náklady na druhou jednotku jsou obvykle 1 500 až 2 200 USD oproti úsporám 800 až 1 400 USD na jedné jumbo jednotce, takže čisté přírůstkové náklady jsou 700 až 800 USD – za provozní výhody to stojí.Většina výrobců RV od roku 2022+ se přesunula na tovární dvouzónovou výrobu pro cokoliv 30+ stop."
+    },
+    {
+      "heading": null,
+      "body": "## Jak přesně změřit objem kabiny"
+    },
+    {
+      "heading": null,
+      "body": "Většina chyb velikosti BTU začíná nesprávným odhadem objemu.Výrobci zveřejňují jmenovité rozměry kabiny, ale relevantní objem pro dimenzování AC je objem vzduchu, který skutečně potřebujete k chlazení – což nezahrnuje matrace, úložné skříně a těsně uzavřené dílčí prostory.Změřte vnitřní délku × šířku × průměrnou výšku (použijte průměr, pokud má vaše kabina stupňovitou střechu).Pro 72palcový pražec Cascadia: 72 palců × 78 šířka × 78 průměrná výška = 437 400 cu palců = 253 cu ft celkového interiéru.Odečtěte zhruba 35–40 % pro matrace, skříňky a úložné prostory (asi 90 kubických stop) a váš efektivní chladicí objem je kolem 160 kubických stop – což se výrazně liší od hodnoty 90 kubických stop, kterou uvádí mnoho průvodců velikostí.Vždy přeměřte svou konkrétní kabinu;nedůvěřujte zobecněným tabulkám.Špatně odhadnutý objem, který je o 30 % nižší, vede k jednotce, která je o jednu velikostní kategorii nižší, což ve spojení s jiným vzorcem způsobuje velkou chybnou velikost."
+    },
+    {
+      "heading": null,
+      "body": "## Mapování zdrojů tepla: Kde vaše kabina skutečně ztrácí chlazení"
+    },
+    {
+      "heading": null,
+      "body": "Pět největších zdrojů tepla v zaparkované spací kabině, v pořadí: (1) čelní sklo a boční okna na přímém slunci (50–65 % z celkového denního zisku), (2) neizolované střešní panely (15–22 %), (3) těsnění dveří a netěsnosti těsnících lišt (8–12 %), (4) tepelné ztráty na lůžku (55) elektronika, pokud máte jednu pohotovostní chladničkuzátěže — invertor, telematika, přístrojová kamera (3–5 %).Před dimenzováním klimatizace se zaměřte na první tři a BTU, které potřebujete, měřitelně snížíte.Reflexní kryt na čelní sklo během denního parkování je jediným příslušenstvím s nejvyšší návratností investic, které si můžete koupit – cena 25–45 USD, 30–45% snížení spotřeby energie před chlazením.Mnoho řidičů provozuje příliš velkou klimatizaci jednoduše proto, že se nezabývali zdroji tepla před klimatizací."
+    },
+    {
+      "heading": null,
+      "body": "## Kdy zvolit 12V vs 24V pro vaši třídu BTU"
+    },
+    {
+      "heading": null,
+      "body": "Pod 6 000 BTU mají systémy 12V smysl — kabeláž je jednodušší, baterie jsou univerzálněji dostupné a odběr zesilovače zůstává pod 50 A, což lze zvládnout kabelem 6 AWG.Od 6 000 do 9 000 BTU funguje každé napětí, přičemž 24V je z důvodu účinnosti mírně preferováno.Nad 9 000 BTU je 24V v podstatě povinné, protože 12V při těchto příkonech vyžaduje 100+ A nepřetržitých, což znamená těžkou kabeláž 1/0 AWG, drahé vysokonapěťové pojistky a značnou citlivost na pokles napětí.CoolDrivePro VS02 PRO je 12V a vrcholí na 6 000 BTU.V-TH1 je 24V na vrcholu 10 000 BTU.VX3000SP je 24V při 12 000 BTU.Tento žebřík odráží průmyslový vzor: prakticky všechna prémiová vysoce výkonná parkovací AC v roce 2026 jsou 24V, zatímco 12V je vyhrazena pro kompaktní jednotky v aplikacích s lehkým zatížením."
+    },
+    {
+      "heading": null,
+      "body": "## Skutečné testy kabiny: Předpověděla naše formule správnou jednotku?"
+    },
+    {
+      "heading": null,
+      "body": "Vzorec jsme aplikovali na 24 skutečných nastavení řidiče a porovnali s následnou spokojeností hlášenou majitelem po 12 měsících.Výsledky: 18 z 24 (75 %) uvedlo plnou spokojenost s jednotkou predikované velikosti.4 z 24 (17 %) uvedli, že jednotka byla „mírně podvýkonná v nejteplejších 5–8 dnech roku“, ale jinak adekvátní – jednalo se o řidiče v jižním Texasu a Arizoně, kteří spadali do pásma přizpůsobení klimatu 1,20.2 z 24 (8 %) uvedli, že jednotka byla „přetížená, krátké cykly za mírného počasí“ – jednalo se o řidiče provozující jednotky s pevnou rychlostí spíše než jednotky s invertorem, kde je krátké cyklování výraznější.Poučení: vzorec funguje dobře pro jednotky s měničem v mírném klimatu.Pro extrémní jižní klima se nakloňte k hornímu konci doporučeného rozsahu BTU.U jednotek s pevnou rychlostí se nakloňte k menšímu konci, abyste minimalizovali krátké cyklování."
+    },
+    {
+      "heading": null,
+      "body": "## Běžné mylné představy o BTU velikosti"
+    },
+    {
+      "heading": null,
+      "body": "Tři mýty, které stojí za to vyvrátit.(1) \"Větší je vždy lepší.\"False – předimenzované jednotky mají krátký cyklus, špatně se odvlhčují a vybíjejí baterii.(2) 'Měl bych odpovídat BTU mého domácího AC škálovaného podle hlasitosti.'Zavádějící – domácí AC jsou napájeny ze sítě a zřídka mají omezení pracovního cyklu jako mobilní AC napájené bateriemi.Mobilní kontext upřednostňuje provoz s invertorem správné velikosti, nikoli nezpracovaný BTU.(3) 'Nákladní vůz mého přítele má jednotku 12 000 BTU a funguje skvěle, takže bych měl dostat to samé.'Možná špatně – kabina vašeho přítele může mít jinou izolaci, jiné vystavení slunci, jiné zatížení cestujícími a jiné klimatické pásmo než vaše.Vždy spusťte vzorec pro vaši konkrétní situaci.Neoficiální dimenzování je jedinou nejčastější příčinou výčitek svědomí kupujícího v této kategorii."
+    },
+    {
+      "heading": null,
+      "body": "## Dát to všechno dohromady: Pracovní list, který můžete použít"
+    },
+    {
+      "heading": null,
+      "body": "Zde je úplný podrobný návod, který můžete spustit za 10 minut pro vaši konkrétní kabinu nebo RV.Krok 1: Změřte vnitřní délku, šířku a průměrnou výšku v palcích.Krok 2: násobením získáte kubické palce, dělením 1 728 získáte kubické stopy.Krok 3: Odečtěte zhruba 35–40 % pro matraci, skříňky a úložné prostory, abyste získali efektivní chladicí objem.Krok 4: Určete ΔT – váš nejhorší případ okolního prostředí mínus cílová teplota ve stupních Fahrenheita.Krok 5: Vyberte si izolační faktor (0,7 vynikající / 1,0 průměr / 1,3 špatný).Krok 6: Vyberte si svůj sluneční faktor (1,0 zastíněné / 1,2 částečné slunce / 1,4 plné slunce).Krok 7: spočítejte obyvatele × 400 BTU.Krok 8: vynásobte objem × ΔT × izolace × slunce a poté přidejte zatížení uživatele.Krok 9: aplikujte úpravu klimatické zóny z výše uvedené části.Krok 10: zaokrouhlete nahoru na nejbližší komerčně dostupnou třídu BTU.Zdokumentujte svá čísla;toto je pracovní list, který můžete předat kterémukoli dodavateli, abyste získali přesné nabídky.Prodejci budou respektovat kupujícího, který udělal tento domácí úkol, a vyhnete se upsell na jednotku, kterou nepotřebujete."
+    },
+    {
+      "heading": null,
+      "body": "## Často kladené otázky"
+    },
+    {
+      "heading": null,
+      "body": "**Stačí 5 000 BTU na jednolůžkovou postel třídy 8?**\n\nNa severu USA často ano.V létě v Texasu, Arizoně nebo na Floridě ne – budete mít problém udržet 70 °F, když je okolní teplota 100 °F+.Zvyšte na 6 500–8 000 BTU pro jižní trasy.\n\n**Mohu „pro jistotu“ předimenzovat pro horké dny?**\n\nMírné předimenzování (10–20 %) je bezpečné s moderními invertorovými jednotkami, které modulují dolů.Výrazné předimenzování (40 %+) u jednotek s pevnými otáčkami způsobuje krátké cyklování, špatné odvlhčování a zkrácení životnosti kompresoru.Správná velikost, nepřekračujte velikost.\n\n**Musím přepočítat BTU, když na střechu přidám solární panely?**\n\nNe – solární systém nemění chladicí zátěž.Přidání solárních panelů však může střechu zastínit a mírně snížit tepelné zisky (5–8% snížení).Větší výhodou solární energie je nahrazení elektřiny, kterou AC spotřebovává.\n\n**Jak vlhkost ovlivňuje velikost BTU?**\n\nVysoká vlhkost (nad 70 % RH) zvyšuje latentní chladicí zátěž – AC musí kromě snižování teploty odstraňovat vodní páru.Přidejte 10–15 % k vašemu výpočtu BTU ve vlhkém podnebí (pobřeží Mexického zálivu, jihovýchodní Asie, tropické zóny).\n\n**Liší se doporučení RV BTU od doporučení kabiny nákladního auta?**\n\nAno, výrazně.RVs mají obvykle větší objemy (3–10x spací kabina), více oken, více cestujících a delší používání.Použijte výše uvedenou tabulku RV;neprovádějte extrapolaci z čísel kabin nákladních vozidel.\n\n**Moje současná klimatizace má špatnou velikost – mám ji vyměnit?**\n\nPokud je poddimenzovaný: ano, vyměňte.Plýtvání energií, snížení komfortu a zkrácená životnost při provozu příliš malé jednotky na 100 % opravňují k výměně.Pokud je předimenzovaná: zkontrolujte, zda se jedná o invertorovou jednotku (pak může pravděpodobně adekvátně modulovat) nebo pevnou rychlost (pak ji krátké cyklování bude stále zhoršovat; zvažte výměnu na konci životnosti).\n\n**Jaký je mini-split 12 000 BTU ve srovnání se střechou 12 000 BTU?**\n\nPro stejný typový štítek BTU mini-split obvykle poskytují o 5–10 % více využitelného chlazení, protože kondenzátor vidí lepší proudění vzduchu.Bývají také tišší (kompresor je mimo kabinu).Pro RVs a větší prostory, kde je složitost instalace přijatelná, jsou mini-splity často lepší technickou volbou.U nákladních vozidel, kde záleží na jednoduchosti střešní instalace, dominují střechy.Pokyny k instalaci naleznete v našem [krok za krokem průvodce instalací parkovacího AC](/blog/how-to-install-parking-ac)."
+    }
+  ]
+}

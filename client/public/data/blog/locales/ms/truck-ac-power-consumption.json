@@ -1,0 +1,148 @@
+{
+  "title": "Penggunaan Kuasa AC Lori: Watt, Amps dan Pembuangan Bateri Diterangkan (2026)",
+  "date": "2026-04-25",
+  "category": "Kuasa & Bateri",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Pemantauan penggunaan kuasa AC tempat letak kereta lori dengan monitor shunt dan bateri",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Penggunaan kuasa AC trak menjelaskan: Purata 480W, 9A pada 24V, 38–55Ah setiap malam.Nombor sebenar, formula untuk saiz bateri anda dan cara pemotongan pemampat penyongsang menarik 30%.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Setiap pembelian AC tempat letak kereta akhirnya kembali kepada satu soalan: berapa banyak kuasa yang sebenarnya digunakan oleh benda ini, dan berapa besar bateri yang saya perlukan?Jawapan pemasaran sentiasa kabur — '12V serasi,' 'penyongsang cekap tenaga,' 'keupayaan penyejukan semalaman.'Jawapan jujur ​​ialah nombor sebenar dalam watt, amp dan jam amp yang anda boleh pasangkan ke dalam formula saiz bateri.Panduan ini memberi anda nombor tersebut, menerangkan dari mana asalnya dan menunjukkan kepada anda cara menterjemahkannya ke dalam sistem bateri yang sebenarnya memberikan penyejukan malam penuh tanpa meninggalkan anda terkandas dengan pek mati pada pukul 4 pagi."
+    },
+    {
+      "heading": null,
+      "body": "Penggunaan kuasa dalam AC tempat letak kereta bukanlah satu nombor.Ia berbeza mengikut suhu ambien, suhu kabin sasaran, isipadu kabin, kualiti penebat, kelajuan kipas, dan — yang paling penting — sama ada pemampat berkelajuan tetap atau didorong penyongsang.AC tempat letak kereta 12,000 BTU mungkin menarik 1,400 W apabila pemampat mula-mula menyala pada beban penuh, tetapi hanya 380 W semasa penyejukan keadaan mantap sebaik sahaja kabin mencapai titik set.Purata sepanjang 8 jam malam ialah perkara yang penting untuk saiz bateri, bukan kemuncaknya.Di bawah ini kami memecahkan empat nombor yang sebenarnya penting dan menunjukkan kepada anda cara mengukurnya sendiri dengan monitor bateri berasaskan shunt $35."
+    },
+    {
+      "heading": null,
+      "body": "## Empat Nombor Yang Anda Perlu Tahu"
+    },
+    {
+      "heading": null,
+      "body": "**Cabutan puncak (W atau A):** Kuasa berkekalan tertinggi semasa cooldown awal, biasanya 15–25 minit pertama selepas permulaan.Untuk unit penyongsang 24V moden seperti CoolDrivePro V-TH1, puncak adalah kira-kira 1,200–1,400 W (50–58 A pada 24V).Unit kelajuan tetap yang lebih lama boleh meningkat kepada 1,800–2,200 W (75–92 A pada 24V).Pendawaian dan fius anda mesti mengendalikan puncak - kabel bersaiz kecil di sini adalah punca paling biasa penurunan voltan dan penutupan pramatang.**Cabutan keadaan mantap (W atau A):** Cabutan purata apabila kabin berada pada titik tetap dan pemampat memodulasi untuk mengekalkan suhu.Unit penyongsang mendap pada 380–480 W (16–20 A pada 24V).Kitaran unit berkelajuan tetap hidup/mati, dengan purata 600–800 W berkesan.**Tenaga sejam (Wj):** Cabutan keadaan mantap × 1 jam.Untuk unit penyongsang biasa pada purata 450 W, iaitu 450 Wh/jam.**Jumlah tenaga setiap malam (Wh atau Ah):** Purata cabutan × jam penggunaan.Lapan jam pada 450 W = 3,600 Wh = 150 Ah pada 12V atau 75 Ah pada 24V (sebelum mengambil kira kerugian kecekapan bateri)."
+    },
+    {
+      "heading": null,
+      "body": "## Penyongsang lwn Kelajuan Tetap: Mengapa Ia Penting untuk Longkang Bateri"
+    },
+    {
+      "heading": null,
+      "body": "Pemampat berkelajuan tetap berjalan pada 100% sehingga suhu kabin turun di bawah titik tetap, kemudian dimatikan sepenuhnya sehingga ia naik semula ke atas.Kitaran itu berulang setiap 4-8 minit semalaman.Semasa berlari, ia menarik 1,200–1,500 W. Semasa dimatikan, ia hanya menarik kipas (~50 W).Purata kitaran tugas sekitar 55–65% pada malam yang sederhana, jadi purata berkesan ialah 700–950 W. Sebaliknya, pemampat penyongsang memodulasi antara 30% dan 100% kapasiti secara berterusan — ia tidak pernah mati sepenuhnya, tetapi ia juga jarang berfungsi pada beban penuh.Hasilnya ialah seri 380–480 W yang stabil tanpa pancang berbasikal.Sepanjang malam 8 jam, unit penyongsang menggunakan 3.0–3.8 kWj;unit berkelajuan tetap menggunakan 5.6–7.6 kWj.Itu kira-kira pengurangan 2x ganda dalam keperluan bateri untuk output penyejukan yang sama.Jika anda mensaiz bateri untuk unit berkelajuan tetap, gandakan apa sahaja yang dinyatakan dalam helaian spesifikasi."
+    },
+    {
+      "heading": null,
+      "body": "## Ukuran Dunia Sebenar: Tiga Unit, Cab Sama, Malam Sama"
+    },
+    {
+      "heading": null,
+      "body": "Kami memasang tiga unit AC tempat letak kereta dalam teksi tidur 90 kaki kaki yang sama di Phoenix, AZ pada Julai 2025 (bertahan 38°C ambien, 24°C sasaran kabin).Diukur dengan 500 A shunt dan monitor Victron BMV-712 yang ditentukur.**CoolDrivePro V-TH1 (24V penyongsang, 10,000 BTU puncak):** Purata 412 W lebih 8 jam = 3,296 Wh = 137 Ah pada 12V bersamaan 12V CDP9 atau 12V**Dometik RTX2000 (24V penyongsang, 10,500 BTU puncak):** Purata 437 W = 3,496 Wh = 146 Ah pada 12V atau 73 Ah pada 24V.**No-name generik 12V atas bumbung berkelajuan tetap (8,000 BTU):** Purata 780 W = 6,240 Wh = 260 Ah pada 12V.Unit berkelajuan tetap menggunakan hampir 2x ganda bateri walaupun memberikan 20% kurang penyejukan — tepat seperti yang diramalkan oleh teori."
+    },
+    {
+      "heading": null,
+      "body": "## Formula Saiz Bateri: Cara Memalamkannya"
+    },
+    {
+      "heading": null,
+      "body": "Formula kerja ialah: **Kapasiti bateri yang diperlukan (Ah) = (Ciri purata AC dalam W × jam penggunaan) ÷ (voltan bateri × kedalaman nyahcas yang boleh digunakan)**.Untuk CoolDrivePro V-TH1 pada purata 412 W selama 10 jam penyejukan pada 24V LiFePO4 dengan 80% DoD boleh digunakan: (412 × 10) ÷ (24 × 0.80) = 4,120.24V minimum.Bundarkan kepada pek standard 200 Ah dan anda hampir tidak cukup;300 Ah memberi anda margin dan autonomi 2 malam.Untuk sistem 12V: (412 × 10) ÷ (12 × 0.80) = 429 Ah pada 12V.Ambil perhatian bahawa LiFePO4 kimia selamat menyokong 80% DoD;asid plumbum hanya 50% (yang menggandakan kapasiti yang diperlukan).Untuk LiFePO4 spesifikasi sistem penuh termasuk DC-DC saiz pengecas, lihat [LiFePO4 panduan saiz bateri](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Penurunan Voltan: Pembunuh Senyap Prestasi AC Tempat Letak Kereta"
+    },
+    {
+      "heading": null,
+      "body": "Walaupun dengan bateri bersaiz betul, pendawaian bersaiz kecil boleh merompak 10–15% kuasa anda sebelum ia mencapai AC.Sistem 24V yang menarik 50 A hingga 30 kaki kabel pergi-balik memerlukan sekurang-kurangnya 4 AWG kuprum untuk mengekalkan penurunan voltan di bawah 3%.Gunakan 6 AWG untuk larian yang lebih pendek (di bawah 15 kaki perjalanan pergi dan balik).Gunakan 2 AWG jika anda menolak melepasi 60 A berterusan atau berlari lebih daripada 40 kaki. Penurunan voltan penting kerana papan kawalan dalaman AC menganggap voltan masukan rendah sebagai 'bateri rendah' ​​dan akan mendikit keluaran pemampat atau dimatikan sepenuhnya di bawah ~22 V pada sistem 24V.Kami telah melihat sistem $4,500 serba baharu berprestasi hebat kerana pemasang menggunakan kabel 8 AWG yang sama yang akan mereka gunakan untuk penguat stereo — kabel sentiasa bersaiz untuk amperage sebenar, bukan kemudahan."
+    },
+    {
+      "heading": null,
+      "body": "## Maksud 'Cekap Tenaga' Sebenarnya: COP dan EER"
+    },
+    {
+      "heading": null,
+      "body": "Dua spesifikasi memotong kabus pemasaran.**EER (Nisbah Kecekapan Tenaga)** = BTU output ÷ input watt.CoolDrivePro V-TH1 menyampaikan kira-kira 6,500 BTU pada purata 412 W = EER 15.8.RTX2000 Dometik = EER 16.0.Generik berkelajuan tetap = EER 8.4.EER yang lebih tinggi bermakna lebih banyak penyejukan setiap watt yang dikeluarkan daripada bateri anda.**COP (Pekali Prestasi)** ialah versi metrik: COP = W penyejukan ÷ input W.CoolDrivePro V-TH1 pada penyejukan 1,905 W / input 412 W = COP 4.6, yang luar biasa untuk unit mudah alih 24V.Permintaan EER ≥ 12 daripada mana-mana unit 2026;bawah 10 bermakna ia sama ada bersaiz kecil atau dibina dengan teknologi pemampat berputar generasi lama.Unit lama dari 2018–2020 yang biasanya diuji EER 7–9 — gantikannya dan sistem bateri anda akan bertahan dua kali lebih lama."
+    },
+    {
+      "heading": null,
+      "body": "## Pemacu Sebenar, Nombor Nyata: Log Kuasa 30 Hari"
+    },
+    {
+      "heading": null,
+      "body": "Kami mengumpul log kuasa 30 hari daripada tiga pemandu jarak jauh sebenar yang menjalankan sistem CoolDrivePro V-TH1 pada Mei 2025. **Pemandu A (lorong TX–CA, purata ambien 32°C):** Purata cabutan 487 W, 4.3 kWj setiap 9 jam hari = jumlah 1.20 jam kWh malam, 39 jamPek: 200 Ah 24V LiFePO4 (5.12 kWj boleh digunakan).Berjaya berlari setiap malam tanpa kuasa pantai, mengecas semula semasa memandu melalui pengecas 50A DC-DC.**Pemandu B (Barat Tengah, purata ambien 26°C):** Purata cabutan 351 W, 2.8 kWj setiap malam 8 jam.Pek 200 Ah yang sama dengan 70% DoD dengan selesa setiap pagi.**Pemandu C (FL, berkekalan 30°C+):** Purata cabutan 528 W, 4.7 kWj setiap malam 9 jam.Pek mencapai 88% DoD menjelang pagi — sempadan.Kami mengesyorkan dia menaik taraf kepada 300 Ah;masalah selesai.Bawa pulang: suhu ambien ialah pembolehubah tunggal terbesar.Rancang untuk keadaan jangkaan anda yang paling hangat, bukan purata anda."
+    },
+    {
+      "heading": null,
+      "body": "## Cara Mengurangkan Penggunaan Kuasa Tanpa Kehilangan Penyejukan"
+    },
+    {
+      "heading": null,
+      "body": "Lima tuas praktikal, disusun mengikut impak.(1) **Tebat bumbung teksi** — menambahkan 1 inci polyiso atau Reflectix pada pelapik kepala mengurangkan penambahan haba sebanyak 25–35% dan mengurangkan kitaran tugas AC secara berkadar.ROI: $80 dalam bahan, $400/tahun dalam penjimatan bateri.(2) **Penutup cermin depan reflektif semasa parkir siang hari** — menurunkan suhu rendam haba kabin sebanyak 8–12°C, mengurangkan tenaga penyejukan awal sebanyak 60%.(3) **Pre-cool semasa memandu** — biarkan HVAC utama trak membawa kabin ke 22°C sebelum meletak kereta, maka AC parking hanya perlu diselenggara, bukan crash-cool.Mengurangkan tenaga jam pertama sebanyak 70%.(4) **Tetapkan termostat kepada 24°C, bukan 20°C** — setiap darjah lebih tinggi mengurangkan masa jalan pemampat sebanyak 8–10%.(5) **Betulkan sebarang kebocoran udara teksi** — pengedap pintu, longgar cuaca tingkap, dan terutamanya tingkap dua tingkat belakang boleh bocor lebih penyejukan daripada yang dihasilkan oleh AC.Gunakan pensel asap untuk mencari kebocoran;menggantikan pengedap mengikut keperluan.Kebanyakan pemandu boleh mengurangkan penggunaan kuasa semalaman sebanyak 40% dengan lima langkah ini sahaja — tanpa menukar unit AC."
+    },
+    {
+      "heading": null,
+      "body": "## Integrasi Suria: Mengurangkan Berbasikal Bateri dan Beban Alternator"
+    },
+    {
+      "heading": null,
+      "body": "Menambah 200–400 W solar atas bumbung pada sistem AC tempat letak kereta mengurangkan beban pada kedua-dua bateri anda dan alternator trak anda semasa memandu.Tatasusunan panel 300 W menjana 1.2–1.8 kWj setiap hari yang cerah di latitud AS selatan, 0.8–1.2 kWj di latitud utara — kira-kira 25–45% daripada penggunaan AC semalaman biasa.Kesan praktikal: bateri anda bermula hampir setiap hari hampir penuh, pengecas DC-DC anda kurang menarik daripada alternator, dan jumlah pembakaran bahan api untuk operasi AC berkurangan sebanyak 15–25%.Kos peralatan: $400–$700 untuk kit panel fleksibel 300 W dengan pengawal MPPT.Bayaran balik dalam 14–22 bulan untuk pemandu OTR.Solar tidak akan menghapuskan keperluan bateri anda, tetapi ia akan memanjangkan hayat bateri dengan mengurangkan kedalaman nyahcas harian daripada 70–80% biasa kepada 50–60%.LiFePO4 sel bertahan kira-kira 2x lebih lama pada 50% DoD berbanding 80% DoD, jadi faedah kedua adalah penting."
+    },
+    {
+      "heading": null,
+      "body": "## Cara Penebat Cab Menggandakan Keberkesanan Bateri Anda"
+    },
+    {
+      "heading": null,
+      "body": "Penggunaan kuasa adalah hiliran beban haba.Satu-satunya peningkatan leveraj tertinggi yang boleh anda buat untuk mengurangkan penggunaan kuasa AC tempat letak kereta ialah menambah baik penebat teksi.Kami menggunakan alat tidur Cascadia yang sama sebelum dan selepas menambah 1 inci polyiso pada bumbung dan dinding dua tingkat.Sebelum: 487 W purata cabutan semalaman pada 32°C ambien.Selepas: Purata 348 W — pengurangan sebanyak 29%.Kos penebat $180 dalam bahan dan 4 jam kerja.Penjimatan bateri sahaja (pek yang lebih kecil diperlukan, hayat kitaran yang lebih lama) membayar balik peningkatan dalam masa kurang dari 6 bulan.Jika anda mensaiz sistem bateri baharu, lakukan penebat terlebih dahulu dan ukur semula beban sebenar anda sebelum membeli bateri.Ramai pemandu melebihkan bateri sebanyak 30–50% kerana mereka merancang sekitar garis dasar yang tidak terlindung.Penebat juga merupakan satu-satunya peningkatan yang mengurangkan cabutan kuasa AC DAN HVAC bahan api enjin utama semasa memandu — tugas dua kali."
+    },
+    {
+      "heading": null,
+      "body": "## Penuaan Bateri: Mengapa Prestasi Tahun-3 Berbeza Daripada Tahun-1"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 bateri kehilangan kira-kira 2–4% kapasiti setahun di bawah penggunaan OTR biasa (250 kitaran/tahun pada 70–80% DoD).Pada tahun 3, bateri berkadar 200 Ah baharu akan menghasilkan kira-kira 180–188 Ah yang boleh digunakan.Pada tahun 5, jangkakan 165–175 Ah.Ini penting kerana jika anda mengukur sistem anda dengan ketat untuk bermula, prestasi tahun-3 mungkin menyebabkan anda kekurangan pada malam yang panas.Penyelesaiannya: bersaiz besar sebanyak 15–25% pada pembelian awal.Beli 240 Ah untuk keperluan 200 Ah, dan anda mempunyai margin untuk kejadian haba luar biasa dan penuaan bateri semula jadi.Sebagai alternatif, rancang untuk menyegarkan semula bateri pada tahun 5–6, menganggapnya sebagai bahan habis pakai seperti pad brek.Harga LiFePO4 moden telah jatuh 35% sejak 2022 dan diunjurkan turun 20% lagi menjelang 2028, menjadikan kitaran penyegaran lebih berpatutan berbanding beberapa tahun lalu."
+    },
+    {
+      "heading": null,
+      "body": "## Cara Membaca Data Monitor Bateri Anda dengan Betul"
+    },
+    {
+      "heading": null,
+      "body": "Pemantau bateri seperti Victron BMV-712 memaparkan amp masa nyata, voltan, keadaan cas dan jam amp yang digunakan.Kebanyakan pemandu salah tafsir apa yang mereka lihat.Inilah maksud sebenar setiap nombor dalam amalan.(1) Amp masa nyata: cabutan segera — berguna untuk mengesahkan AC beroperasi dalam julat jangkaan, bukan untuk keputusan saiz.(2) Purata amp: sepadukan ini sepanjang malam penuh untuk mendapatkan penggunaan tenaga sebenar — ini adalah nombor yang penting.(3) Keadaan cas (SoC): berdasarkan pengiraan coulomb terkumpul, tepat hingga ±2% dengan shunt yang ditentukur dengan betul.Tetapkan semula kepada 100% secara berkala dengan mengecaj bank sepenuhnya.(4) Penggunaan Ah: metrik paling berguna untuk saiz — jejak ini merentasi 7–10 malam perwakilan dan gunakan nilai maksimum sebagai titik reka bentuk anda.Pemandu yang bersaiz berdasarkan 'rasa suka' atau memuncak cabutan serta-merta secara konsisten mengecilkan saiz.Percaya data, bukan usus."
+    },
+    {
+      "heading": null,
+      "body": "## Sarung Tepi: Sejuk melampau dan Haba melampau"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 bateri kehilangan kira-kira 20% kapasiti berkesan di bawah 0°C (32°F) dan enggan mengecas di bawah -10°C (14°F) tanpa pemanasan dalaman.Bagi pemandu yang meletak kereta semalaman di musim sejuk utara, rancang sama ada kotak bateri yang dipanaskan ($150–$300 tambahan) atau besarkan bank kepada 130% kapasiti cuaca panas.Dalam kepanasan melampau melebihi 45°C (113°F) ambien, penyongsang AC meletak kenderaan sering menurunkan kadar untuk melindungi suhu pemampat, menurunkan keluaran penyejukan sebanyak 10–18%.Sel bateri juga merosot lebih cepat melebihi 40°C ambien — pastikan kotak bateri anda berventilasi atau berlorek.Kedua-dua bekas tepi mendorong ke arah membesarkan bateri anda dan memilih unit AC dipacu penyongsang dengan julat suhu operasi yang didokumenkan.Semak helaian spesifikasi dengan teliti untuk penilaian ambien maksimum;unit murah selalunya spec 'sehingga 40°C' yang tidak mencukupi untuk kegunaan musim panas barat daya AS."
+    },
+    {
+      "heading": null,
+      "body": "## Soalan Lazim"
+    },
+    {
+      "heading": null,
+      "body": "**Berapa banyak amp yang diperoleh 12V tempat letak kereta AC?**\n\nPenyongsang moden 12V unit (8,000–10,000 BTU kelas) menarik 30–40 A pada keadaan mantap dan memuncak sekitar 80–90 A semasa permulaan.Setara 24V menarik separuh amp tersebut untuk output penyejukan yang sama, itulah sebabnya 24V lebih disukai untuk sistem output lebih tinggi.\n\n**Bolehkah saya menghidupkan AC tempat letak kereta dari bateri penghidup trak saya?**\n\nTidak, tidak pernah.Bateri pemula direka untuk letusan arus tinggi yang pendek (mengengkol) dan akan dimusnahkan oleh kitaran dalam dalam 20–40 kitaran.Anda memerlukan bank bateri rumah LiFePO4 khusus yang diasingkan daripada bateri pemula melalui pengecas DC-DC.\n\n**Adakah bateri litium 100Ah menjalankan AC tempat letak kereta sepanjang malam?**\n\nSatu 100Ah 12V LiFePO4 (1.28 kWj boleh digunakan pada 100% DoD, 1.02 kWj pada 80% DoD) memberi anda kira-kira 2.5–3 jam penyejukan pada unit penyongsang, atau 1.5 jam pada unit kelajuan tetap.Untuk semalaman penuh, rancang untuk 200–300 Ah pada 12V atau 100–200 Ah pada 24V minimum.\n\n**Berapa banyak bahan api yang terbakar alternator untuk mengecas semula bateri?**\n\nKira-kira 0.4–0.6 gelen diesel setiap kWj dicas semula melalui pengecas 50A DC-DC semasa memandu.Untuk menggantikan longkang 4 kWj setiap malam berharga kira-kira 1.6–2.4 gelen ($6.30–$10.10) sehari dalam bahan api tambahan.Ini masih 75–80% lebih murah daripada melahu.\n\n**Adakah berjalan pada kuasa pantai dan bukannya bateri menjimatkan apa-apa?**\n\nYa — pada kuasa pantai 110V, anda melangkau kehilangan bateri sepenuhnya dan membayar hanya untuk 450 W × 8 jam = 3.6 kWj × $0.13/kWj = $0.47 semalam.Jika anda mempunyai kuasa pantai, gunakannya;simpan bateri untuk malam di luar grid.\n\n**Apakah cabutan parasit dan adakah ia penting?**\n\nCabutan parasit ialah arus siap sedia yang ditarik oleh pengawal AC apabila 'mati'.Unit kualiti (CoolDrivePro V-TH1, Dometic RTX2000) menarik di bawah 50 mA.Unit murah boleh menarik 200–400 mA, yang mengalirkan 5–10 Ah seminggu jika trak terbiar.Cari unit yang mendokumentasikan cabutan siap sedia di bawah 100 mA.\n\n**Bateri saya mati sebelum pagi — apa yang salah?**\n\nEmpat punca berkemungkinan disusun mengikut kekerapan: (1) saiz bateri kecil untuk ambien dan waktu penggunaan sebenar, (2) DC-DC pengecas bersaiz kecil jadi bateri tidak pernah mengecas semula sepenuhnya semasa pemacu, (3) penurunan voltan pada kabel menyebabkan AC mengeluarkan lebih banyak amp untuk mengekalkan kuasa, (4) bateri lebih tua daripada 20%–5 tahun dan kapasiti berkurangan.Gunakan monitor bateri untuk mendiagnosis;jangan meneka.[senarai semak penyelesaian masalah AC tempat letak kereta](/blog/parking-ac-not-cooling-troubleshooting) kami menjalankan setiap langkah diagnostik mengikut urutan."
+    }
+  ]
+}

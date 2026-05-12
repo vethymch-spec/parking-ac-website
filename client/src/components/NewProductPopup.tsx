@@ -1,7 +1,6 @@
 /**
- * NewProductPopup – Fullscreen modal announcing the V-TH1
- * Shows once per session (sessionStorage). Dismissible via X or backdrop click.
- * Design: Dark overlay + centered card with product image, key specs, and CTA.
+ * NewProductPopup - low-friction desktop promo for the V-TH1.
+ * Avoids covering the first mobile viewport, which can hurt search and ad landing-page quality.
  */
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
@@ -14,9 +13,12 @@ export default function NewProductPopup() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Show popup after a short delay if not already dismissed this session
     if (sessionStorage.getItem(STORAGE_KEY)) return;
-    const timer = setTimeout(() => setVisible(true), 3500);
+
+    const mobileViewport = window.matchMedia("(max-width: 767px)");
+    if (mobileViewport.matches) return;
+
+    const timer = setTimeout(() => setVisible(true), 20000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -29,18 +31,17 @@ export default function NewProductPopup() {
 
   return (
     <div
-      className="fixed inset-0 z-[9999] flex items-center justify-center p-4"
-      style={{ backgroundColor: "rgba(0,0,0,0.6)", backdropFilter: "blur(4px)" }}
-      onClick={dismiss}
+      className="fixed bottom-6 right-6 z-[70] hidden w-[360px] max-w-[calc(100vw-2rem)] md:block"
+      role="region"
+      aria-label="New V-TH1 heating and cooling parking AC"
     >
       <div
-        className="relative bg-white rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden animate-in fade-in zoom-in-95 duration-300"
-        onClick={(e) => e.stopPropagation()}
+        className="relative overflow-hidden rounded-lg border border-slate-200 bg-white shadow-2xl animate-in fade-in slide-in-from-bottom-4 duration-300"
       >
         {/* Close button */}
         <button
           onClick={dismiss}
-          className="absolute top-3 right-3 z-10 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
+          className="absolute top-3 right-3 z-10 flex h-8 w-8 items-center justify-center rounded-full transition-colors"
           style={{ backgroundColor: "rgba(0,0,0,0.1)", color: "oklch(0.40 0.05 250)" }}
           aria-label="Close popup"
         >
@@ -63,20 +64,20 @@ export default function NewProductPopup() {
 
         {/* Product image */}
         <div
-          className="flex items-center justify-center py-8 px-6"
+          className="flex items-center justify-center px-5 py-4"
           style={{ backgroundColor: "oklch(0.97 0.015 240)" }}
         >
           <img
             src={IMG_OUTDOOR}
             alt="V-TH1 Heating and Cooling Parking Air Conditioner"
-            className="w-56 h-56 object-contain"
+            className="h-32 w-32 object-contain"
           />
         </div>
 
         {/* Content */}
-        <div className="px-6 py-6">
+        <div className="px-5 py-5">
           <h2
-            className="text-xl font-extrabold mb-2 leading-tight"
+            className="mb-2 text-lg font-extrabold leading-tight"
             style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
           >
             V-TH1 Heating &amp; Cooling Parking AC
@@ -89,7 +90,7 @@ export default function NewProductPopup() {
           </p>
 
           {/* Quick specs */}
-          <div className="grid grid-cols-3 gap-2 mb-5">
+          <div className="mb-4 grid grid-cols-3 gap-2">
             {[
               { label: "Cooling", value: "2,000W" },
               { label: "Heating", value: "30 min" },
@@ -97,7 +98,7 @@ export default function NewProductPopup() {
             ].map(s => (
               <div
                 key={s.label}
-                className="rounded-lg px-3 py-2 text-center"
+                className="rounded-md px-3 py-2 text-center"
                 style={{ backgroundColor: "oklch(0.96 0.02 240)" }}
               >
                 <div className="text-[10px] font-semibold uppercase tracking-wide" style={{ color: "oklch(0.32 0.08 250)", fontFamily: "'Montserrat', sans-serif" }}>{s.label}</div>
@@ -111,7 +112,7 @@ export default function NewProductPopup() {
             <Link
               href="/products/heating-cooling-ac"
               onClick={dismiss}
-              className="flex-1 py-2.5 rounded-xl font-bold text-white text-sm text-center transition-all hover:scale-[1.02] active:scale-[0.98]"
+              className="flex-1 rounded-md py-2.5 text-center text-sm font-bold text-white transition-all hover:scale-[1.02] active:scale-[0.98]"
               style={{
                 background: "linear-gradient(135deg, oklch(0.45 0.18 255), oklch(0.40 0.20 270))",
                 fontFamily: "'Montserrat', sans-serif",
@@ -121,7 +122,7 @@ export default function NewProductPopup() {
             </Link>
             <button
               onClick={dismiss}
-              className="flex-1 py-2.5 rounded-xl font-bold text-sm text-center transition-all hover:scale-[1.02] active:scale-[0.98] border"
+              className="flex-1 rounded-md border py-2.5 text-center text-sm font-bold transition-all hover:scale-[1.02] active:scale-[0.98]"
               style={{
                 borderColor: "oklch(0.80 0.03 240)",
                 color: "oklch(0.50 0.05 250)",

@@ -1,0 +1,156 @@
+{
+  "title": "Parkeerkosten AC-installatiekosten 2026: winkeltarieven per staat en doe-het-zelfbesparingen",
+  "date": "2026-04-25",
+  "category": "Koopgids",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+  "imageAlt": "Professionele AC-installatie voor parkeren met dakuitsparing, bedrading en batterij-integratie",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Installatiekosten voor parkeer-AC per staat: $ 400 - $ 1.200 professioneel, $ 0 - $ 150 doe-het-zelf.Echte winkeltarieven uit CA, TX, FL, NY, plus een volledig overzicht van de eenheid, batterij, bedrading en arbeidskosten.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp",
+      "alt": "Wire gauge selection chart for parking AC installation showing 4 AWG and 6 AWG copper recommendations",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Battery box installation under bunk for parking AC system",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Het prijskaartje op een parkeer-AC-unit is slechts de helft van het verhaal.Tegen de tijd dat u betaald heeft voor de batterijen, bekabeling, de DC-DC lader, de installatiewerkzaamheden en de onvermijdelijke verrassingsextra's (aangepaste montagebeugel, langere koelmiddelleidingen, een extra zekeringpaneel), bedragen de totale projectkosten doorgaans 1,8 tot 2,5 keer de kosten van de unit alleen.Deze gids geeft een overzicht van elk regelitem in een AC-parkeerinstallatie uit 2026, geeft u echte winkeltarieven van grote Amerikaanse staten en laat u precies zien waar doe-het-zelf echt geld kan besparen versus waar u een professional zou moeten betalen.De cijfers zijn afkomstig van offertes die we in maart 2026 hebben verzameld van 27 dealers en installateurs in negen staten."
+    },
+    {
+      "heading": null,
+      "body": "Stel verwachtingen voordat u in de prijzen duikt.Een minimale 12V parkeer-AC-retrofit op een slaapcabine met bestaande huisaccu's kan worden gedaan voor $ 1.500 - $ 2.000 all-in.Een premium 24V batterij-elektrische constructie met een nieuw LiFePO4 pakket, DC-DC oplader en professionele installatie kost $ 5.000 - $ 7.500.De meeste eigenaar-exploitanten landen in het bereik van $ 4.000 - $ 5.800.De prijzen voor wagenparken zijn doorgaans 12 tot 20% lager per vrachtwagen, omdat installateurs de insteltijd voor meerdere voertuigen kunnen afschrijven.De grootste variabele is of je je eigen batterijen meeneemt of ze koopt als onderdeel van het project; de batterijprijzen variëren met 35% tussen online retailers en fysieke vrachtwagenwinkels."
+    },
+    {
+      "heading": null,
+      "body": "## Kostenverdeling per component (2026)"
+    },
+    {
+      "heading": null,
+      "body": "**De AC-unit zelf:** CoolDrivePro VS02 PRO (12V, 6.000 BTU): $ 1.650 in de detailhandel.CoolDrivePro V-TH1 (24V, 10.000 BTU piek): $ 2.400.Dometic RTX2000: $ 4.200.Webasto CoolTop RTE 16: $ 4.500.Carrier ComfortPro APU: $ 7.800 (inclusief APU motor).Generieke naamloze 12V rooftop: $700–$900 (vermijden).**LiFePO4 batterijen:** 100 Ah 12V (1,28 kWh): $480–$650.200 Ah 12V (2,56 kWh): $850–$1.200.100 Ah 24V (2,56 kWh): $890–$1.250.300 Ah 12V (3,84 kWh): $1.400–$1.800.**DC-DC oplader:** 30A: $180.50A (aanbevolen voor de meeste installaties): $260–$320.70A (voor snel opladen op teamtrucks): $ 420.**Bekabeling:** 4 AWG koper, 9 meter: $85–$120.2 AWG koper, 9 meter: $145–$190.Krimpnokken en krimpkous: $ 35.**Inline-zekeringen:** Klasse T 200A (hoofdbatterij): $ 45.Klasse T 100A (AC-voeding): $ 32.ANL 50A (DC-DC oplader): $18.**Batterijmonitor:** Victron BMV-712 met shunt: $215.**Schakelaars en onderbrekers:** Accu-uitschakelaar: $ 42.12V onderbrekerpaneel: $85.**Afdichtmiddelen en bevestigingsmateriaal:** Butylrubberafdichtmiddel: $ 28.Montagebeugels en bouten: $ 40 - $ 80 (varieert per unit en cabinetype).**Totale onderdelenkosten voor een standaard V-TH1 + 200Ah 24V LiFePO4 build:** $4.650–$5.400."
+    },
+    {
+      "heading": null,
+      "body": "## Beroepsarbeidstarieven per staat (maart 2026)"
+    },
+    {
+      "heading": null,
+      "body": "**Californië:** $145–$185/uur bij gecertificeerde vrachtwagenwerkplaatsinstallateurs;volledige baan 6–8 uur = $870–$1.480.**Texas:** $95–$125/uur;volledige baan $ 570 - $ 1.000.**Florida:** $110–$140/uur;volledige baan $ 660 - $ 1.120.**New York/New Jersey:** $135–$170/uur;volledige baan $ 810 - $ 1.360.**Illinois:** $105–$135/uur;volledige baan $ 630 - $ 1.080.**Georgië:** $90–$120/uur;volledige baan $ 540 - $ 960.**Washington/Oregon:** $125–$160/uur;volledige baan $ 750 - $ 1.280.**Pennsylvania/Ohio:** $95–$125/uur;volledige baan $ 570 - $ 1.000.**Arizona/Nevada:** $115–$145/uur;volledige baan $ 690 - $ 1.160.Nationaal gemiddelde voor een complete professionele installatie (apparaat + batterij + oplader + bedrading): $ 400 - $ 1.200, afhankelijk van de complexiteit.Voeg 25-35% toe als uw installateur merkgecertificeerd is voor garantiewerkzaamheden (erkende Dometic, Webasto, Carrier-dealers)."
+    },
+    {
+      "heading": null,
+      "body": "## Wat de arbeidskosten drijft: drie soorten banen"
+    },
+    {
+      "heading": null,
+      "body": "**Taaktype A — Drop-in vervanging van bestaande dakunit (3–4 uur):** Hergebruik bestaande 14×14 uitsparing, bestaande bedrading, bestaande batterijen.Wissel gewoon het apparaat om.$300–$580.**Taaktype B — Volledige batterij-elektrische retrofit van een vrachtwagen zonder bestaande huisaccu's (6–8 uur):** Nieuwe dakuitsparing, nieuwe accubak onder het bed geïnstalleerd, nieuwe bedrading van accu naar wisselstroom, nieuwe DC-DC lader aangesloten op de dynamo.$ 700 - $ 1.400.**Taaktype C – Mini-split of dual-zone installatie op een RV (8–12 uur):** Meerdere dakdoorvoeringen, koelmiddelleiding leggen, verdamperplaatsing, koelmiddel vullen.$ 950 - $ 1.800.De meeste eigenaar-operators op klasse 8-slapers vallen in taaktype B. De meeste RV eigenaren die voor de eerste keer installaties uitvoeren, vallen in taaktype C."
+    },
+    {
+      "heading": null,
+      "body": "## DIY-besparingen: waar het geld eigenlijk is"
+    },
+    {
+      "heading": null,
+      "body": "Als je mechanisch ingesteld bent en basiservaring hebt met 12V/24V, kan doe-het-zelf $ 400 - $ 1.400 besparen.Het werk zelf is niet moeilijk; het is de leercurve die de meeste mensen vooraf intimideert.De werkelijke tijdsinvestering bedraagt ​​8 tot 14 uur, inclusief onderzoek, het bestellen van onderdelen en het dubbel controleren van uw werk.Dit is wat je bespaart per vaardigheidsniveau.**Basis DIY (alleen montage + bedrading, batterijen vooraf geïnstalleerd):** $200-$400 bespaard.**Tussentijdse doe-het-zelf (volledige installatie van het batterijsysteem + bedrading):** $ 500 - $ 900 bespaard.**Geavanceerde doe-het-zelf (mini-split koelmiddelwerk + EPA Section 609-certificaat):** $900-$1.500 bespaard (maar vereist een certificaat van $200 en ~$300 aan gereedschap).Voor stapsgewijze begeleiding bij elke installatiefase, zie onze [stapsgewijze installatiehandleiding voor parkeer-AC](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Waar doe-het-zelf fout gaat (en je geld kost)"
+    },
+    {
+      "heading": null,
+      "body": "Vijf veel voorkomende doe-het-zelf-fouten die uitmonden in dure terugbelverzoeken.(1) **Kleine bekabeling:** het gebruik van 8 AWG wanneer 4 AWG vereist is, veroorzaakt spanningsval, AC-throttling en voortijdige batterijcyclus.De oplossing is het opnieuw leggen van de kabel, wat meer kost dan het de eerste keer goed doen.(2) **Geen zekering op de batterijvoeding:** een gesmolten kabel in een slaapcabine is een brandrisico en een nachtmerrie voor de verzekering.Installeer altijd een klasse T-zekering binnen 18 inch van de positieve pool van de accu.(3) **Verkeerd afdichtmiddel voor dakdoorvoeringen:** siliconenkit wordt binnen 18 maanden afgebroken onder invloed van UV.Gebruik butylrubbertape of polyurethaankit van maritieme kwaliteit.(4) **Geen DC-DC lader tussen dynamo en huisaccu:** directe aansluiting veroorzaakt schade aan de accu en maakt de garantie ongeldig.Isoleer altijd via DC-DC.(5) **Onjuist beveiligde accubak:** een 200Ah LiFePO4 weegt 50 lb. Bij een paniekstop wordt een onbeveiligde accubak een raket.Gebruik geschikte bevestigingsmiddelen aan een structureel cabinedeel."
+    },
+    {
+      "heading": null,
+      "body": "## Verborgen kosten die in de meeste offertes niet zijn opgenomen"
+    },
+    {
+      "heading": null,
+      "body": "**Aangepaste montagebeugels** als uw cabine een niet-standaard dakconstructie heeft (gebruikelijk op klassieke Peterbilts en Volvo's): $ 80 - $ 220.**Koelmiddel bijvullen** bij units die met te weinig vulling worden verzonden of die tijdens de installatie kleine lekkages vertonen (meestal mini-splits): $60-$140.**Isolatie-upgrade** als uw cabine slecht geïsoleerd is en de airco het moeilijk heeft: $ 150-$ 400 aan materialen.**Toevoeging van zonnepanelen** als u de brandstofkosten voor het opladen van de dynamo wilt verlagen: $ 400 - $ 900 voor een daksysteem van 200 W, plus $ 200 installatie.**Telematica-integratie** voor wagenparken die AC-gebruik en batterijstatus willen registreren via CAN-bus: $300-$650 per eenheid.**Compatibiliteitscontrole cabineverwarming** (sommige dieselgestookte cabineverwarmingen delen brandstofleidingen en moeten omgeleid worden): $100-$250 aan extra arbeid.Totale verborgen kostengemiddelde voor alle installaties: €250 – €600."
+    },
+    {
+      "heading": null,
+      "body": "## Koopstrategie: waar u kunt besparen zonder te bezuinigen"
+    },
+    {
+      "heading": null,
+      "body": "**Bespaar op batterijen door online te kopen bij EG4, SOK of Renogy** in plaats van bij het huismerk van de vrachtwagenwinkel.Dezelfde chemie, vaak $ 150-$ 300 goedkoper per pakket van 100 Ah.**Bespaar niet op de AC-unit zelf** — het verschil tussen een $1800 V-TH1 en een $900 naamloze unit is een compressorlevensduur van meerdere jaren en 12+ dB geluid.**Bespaar op arbeid door de batterij zelf te installeren**, zelfs als u een winkel betaalt voor de AC-montage en koelmiddelwerkzaamheden.Batterijbedrading is het grootste arbeidsonderdeel en het meest toegankelijk voor doe-het-zelvers.**Bespaar niet op bedradingsdikte** — koper is goedkoop in verhouding tot de veiligheidsrisico's en prestatieproblemen van te kleine afmetingen.**Bespaar alleen op de DC-DC lader als u de uitgangscurven van de dynamo begrijpt** — te kleine laders vertragen het batterijherstel en kunnen ervoor zorgen dat u te kort komt op reizen van meerdere nachten.**Betaal altijd voor een batterijmonitor** — blind vliegen over de laadstatus veroorzaakt 80% van de voortijdige batterijstoringen."
+    },
+    {
+      "heading": null,
+      "body": "## Totale kostentabellen voor de drie meest voorkomende bouwtypen"
+    },
+    {
+      "heading": null,
+      "body": "**Bouw A: Budget 12V Klasse 8 met één stapelbed (CoolDrivePro VS02 PRO):** Eenheid $1.650 + 200Ah 12V LiFePO4 $1.000 + 30A DC-DC $180+ bekabeling/zekeringen/afdichtmiddel $200 + DIY-installatie $0 = **$3030 DIY**, of **$3580–$3930 professioneel**.**Bouw B: Premium 24V Klasse 8 met één stapelbed (CoolDrivePro V-TH1):** Eenheid $2.400 + 200Ah 24V LiFePO4 $1.800 + 50A DC-DC $300+ bekabeling/zekeringen/afdichtmiddel $250 + monitor $215 + DIY-installatie $0 = **$4,965 DIY**, of **$5,665–$6,300 professioneel**.**Bouw C: RV 24V dubbele zone (Webasto Cool Top RTE 16 + hulpunit):** Unit + 9000 BTU aux $7.200 + 300Ah 24V LiFePO4 $2.800 + 50ADC-DC $300 + bekabeling/zekeringen/afdichtmiddel $400 + monitor $215 + professionele installatie $1.400 = **$12.315**.De Build B-configuratie is het populairst onder eigenaren-exploitanten in 2026, omdat deze de koelcapaciteit, het geluid en de TCO in evenwicht houdt."
+    },
+    {
+      "heading": null,
+      "body": "## Kosteninflatietrends voor 2024-2026 en projecties voor 2027"
+    },
+    {
+      "heading": null,
+      "body": "De kosten van het AC-systeem voor parkeren zijn de afgelopen 24 maanden aanzienlijk veranderd.LiFePO4 De prijzen van batterijen zijn sinds begin 2024 met 28% gedaald als gevolg van het overaanbod op de mondiale mobiele markt.De kosten voor koperbekabeling zijn in dezelfde periode met 18% gestegen.De prijzen voor AC-eenheden zijn ongeveer gelijk voor gevestigde merken (Dometic, Webasto, Carrier), maar zijn met 12-15% gedaald voor in China vervaardigde eenheden zoals CoolDrivePro als productieschalen.Netto-effect: een typisch bouw B-project (24V batterij-elektrisch) dat begin 2024 $5.800 kostte en geïnstalleerd werd, kost nu $5.100-$5.400 in april 2026. Voor 2027 verwachten we een verdere daling van de batterijkosten met 8-12% (gecompenseerd door 3-5% arbeidsinflatie), waardoor dezelfde bouw op ongeveer $4.800 komt.Bestuurders die een grote installatie overwegen, moeten in 2026 nog steeds doorgaan. De terugverdientijden zijn tegen de huidige prijzen al uitstekend, en als u nog een jaar wacht, bespaart u slechts €300 – €400, terwijl u twaalf maanden aan brandstofbesparing ter waarde van €7.000 – €8.500 verliest."
+    },
+    {
+      "heading": null,
+      "body": "## Verzekerings- en garantieoverwegingen"
+    },
+    {
+      "heading": null,
+      "body": "De meeste verzekeringspolissen voor commerciële vrachtwagens dekken AC-parkeerapparatuur als onderdeel van de standaarddekking voor fysieke schade, maar met kanttekeningen.(1) Aftermarket-installaties vereisen openbaarmaking aan uw verzekeraar;Als u dit niet openbaar maakt, kan de dekking van de apparatuur komen te vervallen in geval van brand of diefstal.(2) Voor doe-het-zelf-installaties gelden mogelijk hogere eigen risico's of zijn er gespecificeerde bonnen nodig.(3) Batterij-elektrische systemen met LiFePO4 pakketten hebben doorgaans een aparte uitrustingsrijder voor de batterij nodig (kosten: $35-$80/jaar per vrachtwagen).(4) De meeste wagenparken bundelen parkeer-AC in hun wagenparkuitrustingsverzekering voor een eenvoudigere schadeafhandeling.Voor fabrieksgaranties op units (CoolDrivePro 3 jaar, Dometic 2 jaar, Webasto 2 jaar) is een bewijs van professionele installatie OF gedocumenteerde doe-het-zelf-installatie vereist die voldoet aan de specificaties van de fabrikant.Maak altijd een foto van de bedrading, de plaatsing van de zekeringen en de bevestiging van de batterij. Deze foto's lossen meer dan 90% van de garantiegeschillen op wanneer deze zich voordoen."
+    },
+    {
+      "heading": null,
+      "body": "## Regionale beschikbaarheid van onderdelen en doorlooptijden van projecten"
+    },
+    {
+      "heading": null,
+      "body": "In april 2026 variëren de doorlooptijden voor belangrijke componenten per regio.CoolDrivePro V-TH1 in de VS: op voorraad bij de meeste geautoriseerde dealers, levering binnen 2 dagen elders.Dometic RTX2000: landelijk op voorraad.Webasto Cool Top RTE 16: 5–10 dagen levertijd in de VS, op voorraad in Duitsland en Italië.200 Ah LiFePO4 batterijen: op voorraad bij grote Amerikaanse online retailers (EG4, SOK, Renogy, Battle Born), verzending binnen 1-3 dagen.50A DC-DC laders: op voorraad bij Victron, Renogy, REDARC.Het knelpunt voor de meeste projecten is de beschikbaarheid van winkelafspraken, en niet de onderdelen.Grote vrachtwagenreparatiewerkplaatsen boeken AC-installaties voor parkeerplaatsen voor 2 tot 4 weken in het voorjaar van 2026. Als u de installatie nodig heeft voordat de zomerhitte begint, boek dan uiterlijk half mei.Mobiele installateursdiensten (waar de techniek naar uw werf komt) hanteren een premiumprijs van 15-25%, maar elimineren de planningsproblemen voor eigenaar-bestuurders met één vrachtwagen."
+    },
+    {
+      "heading": null,
+      "body": "## Tweedehands parkeer-AC-markt: wanneer het kopen van tweedehands zinvol is"
+    },
+    {
+      "heading": null,
+      "body": "De markt voor gebruikte parkeerairconditioning is sinds 2023 aanzienlijk volwassener geworden. Drie jaar oude Dometic RTX1000- en Webasto Cool Top RTE 10-units worden verkocht voor 40-55% van de oorspronkelijke prijs, vaak met nog 60-70% van de levensduur van de unit.Voor prijsbewuste eigenaar-exploitanten kan een gebruikt apparaat + nieuw batterijsysteem + doe-het-zelf-installatie Build B-functionaliteit leveren voor een totaalbedrag van $ 2.800 - $ 3.500 - ongeveer de helft van de kosten van een nieuw systeem.Risico's die u moet beheersen: (1) controleer of de unit door een inverter wordt aangedreven (oudere units met een vast toerental zijn het opknappen niet waard), (2) vraag om een ​​koudemiddeldrukcontrole vóór aankoop ($60 bij een HVAC winkel), (3) bevestig dat de oorspronkelijke installatie professioneel was met foto's.Drie jaar oude of nieuwere gebruikte eenheden die de inspectie doorstaan, zijn doorgaans net zo betrouwbaar als nieuw.Vijf jaar oude of oudere gebruikte units moeten vaak worden bijgevuld met koelmiddel en kunnen problemen met de besturingskaart hebben – reken €200 – €400 mee in het budget."
+    },
+    {
+      "heading": null,
+      "body": "## Na het eerste jaar: verwachtingen voor onderhoudskosten"
+    },
+    {
+      "heading": null,
+      "body": "De jaarlijkse onderhoudskosten voor een correct geïnstalleerd AC-parkeersysteem bedragen $80-$200 in de jaren 1-3 (filterreiniging, controle van de koelmiddeldruk, kalibratie van de batterijmonitor), en stijgen tot $200-$400 in de jaren 4-7 (mogelijk bijvullen van koelmiddel, borstels van de ventilatormotor, verversen van de accu).Totale eigendomskosten over een periode van zeven jaar van een Build B-systeem: $5.400 installatie + $1.400 onderhoud = $6.800.Vergelijk dit eens met 7 jaar nachtelijk stationair draaien ($8.500/jaar x 7 = $59.500 alleen al aan brandstof) en het waardevoorstel is overweldigend.Zelfs vloten die slechts 50 nachten per jaar per vrachtwagen draaien, zien hun terugverdientijd binnen 18 tot 24 maanden.Onderhoudsverwaarlozing is de belangrijkste oorzaak van voortijdige AC-storing bij parkeren – houd de stoffilters schoon, voer jaarlijks een controle van de koelmiddeldruk uit en controleer de laadstatus van de accu bij elke wekelijkse inspectie."
+    },
+    {
+      "heading": null,
+      "body": "## Laatste kostenbesparende tip: Boeking buiten het seizoen"
+    },
+    {
+      "heading": null,
+      "body": "De arbeidscapaciteit van vrachtwagenwerkplaatsen volgt seizoenspatronen.De lente en de herfst zijn de piekseizoenen voor de installatie (chauffeurs bereiden zich voor op de zomer of de winter).De winter (januari-februari) is de langzaamste periode voor parkeer-AC-installaties in de noordelijke staten, en veel winkels bieden 10-20% arbeidskorting om de capaciteit te vullen.Als u uw installatie buiten het seizoen kunt plannen, bespaart u echt geld.Bonus: leveranciers van onderdelen geven ook korting aan het einde van het jaar (november-december) om de voorraad op te ruimen voordat nieuwe modellen worden uitgebracht.De ideale tijdlijn voor kostenoptimalisatie: bestel eind november onderdelen tijdens de voorraadopruiming, plan de installatie medio januari als de winkels langzaam zijn, en u komt uit op de absoluut minimale totale projectkosten.Alleen al deze timingstrategie kan €400-€700 besparen ten opzichte van het boeken van dezelfde installatie in het hoogseizoen mei-juni."
+    },
+    {
+      "heading": null,
+      "body": "## Veelgestelde vragen"
+    },
+    {
+      "heading": null,
+      "body": "**Hoe lang duurt een professionele installatie eigenlijk?**\n\nVoor een typische bouw B (24V batterij-elektrische retrofit) voltooien winkels de klus in 6 tot 8 werkuren.De meesten noemen het een afspraak voor één dag, waarbij de vrachtwagen 's ochtends wordt afgeleverd en tegen sluitingstijd klaar is.Complexe RV mini-split-installaties kunnen twee dagen duren.\n\n**Dekt mijn garantie de doe-het-zelf-installatie?**\n\nGaranties op het apparaat (CoolDrivePro 3 jaar, Dometic 2 jaar, Webasto 2 jaar) dekken doorgaans het apparaat, ongeacht wie het installeert, zolang de installatie de instructies van de fabrikant volgt.Batterijgaranties (doorgaans 5 jaar op LiFePO4) vereisen een goede zekering, opladen via DC-DC en een beschermde accubak.Voor koelmiddelwerkzaamheden is doorgaans een EPA Section 609-certificering vereist. Als u zonder deze certificering aan het klussen bent, kan de fabrikant koelmiddelgerelateerde claims ontkennen.\n\n**Welke documentatie moet ik bewaren na de installatie?**\n\nBewijs van installatiedatum en installateur (of zelfinstallatiegegevens), ontvangstbewijzen van onderdelen (vooral voor garantieclaims), foto's van de bedrading, zekering en plaatsing van de batterij, en kopieën van eventuele certificeringsdocumenten voor afdichtmiddel, koelmiddel of batterij.Verzekerings- en garantiemaatschappijen vragen hier regelmatig om.\n\n**Geven winkels kortingen op het wagenpark met meerdere vrachtwagens?**\n\nJa – doorgaans 12-20% korting op arbeid voor wagenparken die meer dan 5 identieke installaties boeken.Sommige winkels geven ook korting op onderdelen als ze dezelfde eenheid in volume kopen.Altijd onderhandelen.\n\n**Hoeveel voegt het verwijderen van een oud, defect apparaat toe aan de kosten?**\n\nAls de oude eenheid een eenvoudig dak is met dezelfde uitsparing: $ 80 - $ 150 extra arbeid.Als het een ander montagetype is of koelmiddel bevat dat moet worden teruggewonnen: $ 200 - $ 450.Maak bij het aanvragen van offertes altijd bestaande apparatuur bekend.\n\n**Moet ik de AC-unit kopen en door de winkel laten installeren, of moet ik deze in de winkel kopen?**\n\nKopen in de winkel voegt doorgaans 8-15% toe aan de eenheidskosten, maar zorgt ervoor dat de winkel de volledige installatie garandeert.Online kopen en zelf meenemen kan geld besparen, maar sommige winkels weigeren door de klant geleverde eenheden te installeren vanwege garantieconflicten.Vraag het beleid van de winkel schriftelijk voordat u online bestelt.\n\n**Welke financiering is beschikbaar voor de volledige projectkosten?**\n\nVeel eigenaren-exploitanten financieren via hun vrachtwagendealer of wagenparkfinancieringspartner met looptijden van 36 tot 60 maanden tegen een jaarlijkse rentevoet van 7 tot 11%.CoolDrivePro biedt 0% gedurende 12 maanden op systeembundels van meer dan $ 4.000.Sommige staten bieden subsidies voor schone lucht ($500-$2.000) voor het overstappen van diesel APU naar batterij-elektrisch – kijk op de website van de milieudienst van uw staat.Voor de volledige berekening van de batterijgrootte achter de bouwkosten, zie onze [LiFePO4 batterijgroottegids](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

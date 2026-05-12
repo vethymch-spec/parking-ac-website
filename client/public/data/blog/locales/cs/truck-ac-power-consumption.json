@@ -1,0 +1,148 @@
+{
+  "title": "Spotřeba střídavého proudu nákladního automobilu: vysvětlení wattů, ampérů a vybíjení baterie (2026)",
+  "date": "2026-04-25",
+  "category": "Napájení a baterie",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Parkování nákladních vozidel Monitorování spotřeby střídavého proudu s bočníkem a monitorem baterie",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Vysvětlení spotřeby střídavého proudu nákladního automobilu: průměr 480 W, 9 A při 24V, 38–55 Ah za noc.Skutečná čísla, vzorce pro velikost vaší baterie a jak invertorové kompresory snižují spotřebu o 30 %.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Každý nákup parkovacího AC se nakonec vrátí k jedné otázce: kolik energie tato věc skutečně spotřebuje a jak velkou baterii potřebuji?Marketingová odpověď je vždy vágní — '12V kompatibilní, 'energeticky účinný invertor, 'možnost chlazení přes noc.'Upřímnou odpovědí je skutečné číslo ve wattech, ampérech a ampérhodinách, které můžete zapojit do vzorce pro velikost baterie.Tento průvodce vám tato čísla poskytne, vysvětlí, odkud pocházejí, a ukáže vám, jak je převést do bateriového systému, který ve skutečnosti poskytuje celou noc chlazení, aniž by vás ve 4 hodiny ráno nechal uvíznout v mrtvém balení."
+    },
+    {
+      "heading": null,
+      "body": "Spotřeba energie v parkovací klimatizaci není jedno číslo.Mění se v závislosti na okolní teplotě, cílové teplotě v kabině, objemu kabiny, kvalitě izolace, rychlosti ventilátoru a – což je nejdůležitější – zda ​​je kompresor poháněn pevnými otáčkami nebo invertorem.Parkovací klimatizace s výkonem 12 000 BTU může odebírat 1 400 W, když se kompresor poprvé spustí při plné zátěži, ale pouze 380 W během chlazení v ustáleném stavu, jakmile kabina dosáhne nastavené hodnoty.Pro velikost baterie je důležitý průměr za 8 hodin v noci, nikoli vrchol.Níže rozebereme čtyři čísla, na kterých skutečně záleží, a ukážeme vám, jak si je sami změřit pomocí 35$ bočního monitoru baterie."
+    },
+    {
+      "heading": null,
+      "body": "## Čtyři čísla, která potřebujete znát"
+    },
+    {
+      "heading": null,
+      "body": "**Špičkový odběr (W nebo A):** Nejvyšší trvalý výkon během počátečního ochlazení, obvykle prvních 15–25 minut po spuštění.U moderní invertorové jednotky 24V, jako je CoolDrivePro V-TH1, je špičkový výkon zhruba 1 200–1 400 W (50–58 A při 24V).Starší jednotky s pevnou rychlostí mohou vystřelit na 1 800–2 200 W (75–92 A při 24V).Vaše kabeláž a pojistky musí zvládnout špičku – poddimenzované kabely jsou zde nejčastější příčinou poklesu napětí a předčasného vypnutí.**Odběr v ustáleném stavu (W nebo A):** Průměrný odběr, jakmile je kabina na nastavené hodnotě a kompresor moduluje, aby udržoval teplotu.Invertorové jednotky se ustálí na 380–480 W (16–20 A při 24V).Jednotky s pevnými otáčkami cyklicky zapínají a vypínají, průměrně efektivní výkon 600–800 W.**Energie za hodinu (Wh):** Odběr v ustáleném stavu × 1 hodina.Pro typickou invertorovou jednotku s průměrem 450 W to je 450 Wh/h.**Celková energie za noc (Wh nebo Ah):** Průměrná spotřeba × hodiny používání.Osm hodin při 450 W = 3 600 Wh = 150 Ah při 12V nebo 75 Ah při 24V (před započtením ztrát účinnosti baterie)."
+    },
+    {
+      "heading": null,
+      "body": "## Invertor vs pevná rychlost: Proč záleží na vybíjení baterie"
+    },
+    {
+      "heading": null,
+      "body": "Kompresor s pevnými otáčkami běží na 100 %, dokud teplota v kabině neklesne pod nastavenou hodnotu, a poté se úplně vypne, dokud nevyleze zpět.Tento cyklus se přes noc opakuje každých 4–8 minut.Za chodu odebírá 1 200–1 500 W. Ve vypnutém stavu odebírá pouze ventilátor (~50 W).Pracovní cyklus se pohybuje v průměru kolem 55–65 % během mírné noci, takže efektivní průměr je 700–950 W. Naproti tomu invertorový kompresor moduluje kapacitu mezi 30 % a 100 % nepřetržitě – nikdy se úplně nevypne, ale jen zřídka běží při plné zátěži.Výsledkem je stálý odběr 380–480 W bez cyklických špiček.Během 8hodinové noci spotřebuje invertorová jednotka 3,0–3,8 kWh;jednotka s pevnými otáčkami spotřebuje 5,6–7,6 kWh.To je zhruba dvojnásobné snížení potřeby baterie pro stejný chladicí výkon.Pokud dimenzujete baterii pro jednotku s pevnou rychlostí, zdvojnásobte to, co naznačuje technický list."
+    },
+    {
+      "heading": null,
+      "body": "## Měření v reálném světě: Tři jednotky, stejná kabina, stejná noc"
+    },
+    {
+      "heading": null,
+      "body": "V červenci 2025 jsme nainstalovali tři parkovací jednotky klimatizace do identických spacích kabin o objemu 90 kubických stop ve Phoenixu, AZ (trvalá okolní teplota 38 °C, cílová teplota v kabině 24 °C).Měřeno pomocí kalibrovaných bočníků 500 A a monitorů Victron BMV-712.**CoolDrivePro V-TH1 (střídač 24V, 10 000 BTU vrchol):** 412 W průměr za 8 hodin = 3 296 Wh = 137 Ah při _8_9_TERM nebo ekvivalent __CDP_TERM24V.**Dometic RTX2000 (střídač 24V, 10 500 BTU vrchol):** 437 W průměr = 3 496 Wh = 146 Ah při 12V nebo 73 Ah při __CDP_TERM__9_TERM__CDP.**Obecné no-name 12V střecha s pevnou rychlostí (8 000 BTU):** Průměr 780 W = 6 240 Wh = 260 Ah při 12V.Jednotka s pevnou rychlostí spotřebovala téměř 2x více baterie, přestože poskytuje o 20 % méně chlazení – přesně to, co teorie předpovídá."
+    },
+    {
+      "heading": null,
+      "body": "## Vzorec pro velikost baterie: Jak jej zapojit"
+    },
+    {
+      "heading": null,
+      "body": "Pracovní vzorec je: **Požadovaná kapacita baterie (Ah) = (průměrný odběr AC ve W × hodiny používání) ÷ (napětí baterie × využitelná hloubka vybití)**.Pro CoolDrivePro V-TH1 při průměrném výkonu 412 W po dobu 10 hodin chlazení na 24V LiFePO4 s 80% využitelným DoD: (412 × 10) ÷ (24) = 2,2 = 0,80215 Ah při minimu 24V.Zaokrouhlete na standardní 200 Ah balení a máte sotva dost;300 Ah vám dává marži a 2 noci autonomie.Pro systém 12V: (412 × 10) ÷ (12 × 0,80) = 429 Ah při 12V.Všimněte si, že chemie LiFePO4 bezpečně podporuje 80% DoD;olovo pouze 50 % (což zdvojnásobuje potřebnou kapacitu).Úplnou specifikaci systému LiFePO4 včetně DC-DC velikosti nabíječky naleznete v našem [LiFePO4 průvodci velikostí baterie](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Pokles napětí: Silent Killer of Parking AC Performance"
+    },
+    {
+      "heading": null,
+      "body": "I se správně dimenzovanou baterií může poddimenzovaná kabeláž ukrást 10–15 % vaší energie, než se dostane do AC.Systém 24V táhnoucí 50 A až 30 stop kruhového kabelu potřebuje alespoň 4 AWG mědi, aby udržel pokles napětí pod 3 %.Použijte 6 AWG pro kratší trasy (pod 15 stop tam a zpět).Použijte 2 AWG, pokud trvale překročíte 60 A nebo běžíte více než 40 stop. Pokles napětí je důležitý, protože interní řídicí deska AC považuje nízké vstupní napětí za „vybitou baterii“ a u systému 24V přiškrtí výstup kompresoru nebo se úplně vypne pod ~22 V.Viděli jsme zbrusu nové systémy za 4 500 USD, které fungovaly strašně, protože instalační technik použil stejný kabel 8 AWG, jaký by použil pro stereo zesilovač – vždy dimenzujte kabely pro skutečný proud, ne pro pohodlí."
+    },
+    {
+      "heading": null,
+      "body": "## Co vlastně znamená „energeticky efektivní“: COP a EER"
+    },
+    {
+      "heading": null,
+      "body": "Marketingovou mlhu prořízly dvě specifikace.**EER (Poměr energetické účinnosti)** = BTU výstup ÷ watty vstupu.CoolDrivePro V-TH1 dodává zhruba 6 500 BTU při průměru 412 W = EER 15,8.Dometic RTX2000 = EER 16.0.Generická hodnota s pevnou rychlostí = EER 8.4.Vyšší EER znamená více chlazení na watt odebíraný z vaší baterie.**COP (Coefficient of Performance)** je metrická verze: COP = W chlazení ÷ W příkon.CoolDrivePro V-TH1 při 1 905 W chlazení / 412 W příkon = COP 4,6, což je u mobilní jednotky 24V výjimečné.EER poptávky ≥ 12 z jakékoli jednotky roku 2026;Méně než 10 znamená, že je buď poddimenzovaný, nebo je postaven na technologii rotačního kompresoru staré generace.Starší jednotky z let 2018–2020 běžně testované EER 7–9 — vyměňte je a váš bateriový systém vydrží dvakrát déle."
+    },
+    {
+      "heading": null,
+      "body": "## Skuteční řidiči, skutečná čísla: 30denní protokoly napájení"
+    },
+    {
+      "heading": null,
+      "body": "V květnu 2025 jsme shromáždili 30denní protokoly o napájení od tří skutečných řidičů dálkové dopravy, kteří používají systémy CoolDrivePro V-TH1. **Řidič A (pruhy TX–CA, průměrná okolní teplota 32 °C):** 487 W průměrný odběr, 4,3 kWh za 9hodinovou noc celkem, 129 kWh celkem, 1.3Balení: 200 Ah 24V LiFePO4 (5,12 kWh využitelných).Úspěšně běžel každou noc bez napájení ze břehu, dobíjení během jízdy přes 50A DC-DC nabíječku.**Ovladač B (Středozápad, průměrná okolní teplota 26 °C):** Průměrná spotřeba 351 W, 2,8 kWh za 8 hodin v noci.Stejné 200 Ah balení se 70 % DoD pohodlně každé ráno.**Ovladač C (FL, trvale 30 °C+):** Průměrný odběr 528 W, 4,7 kWh za 9 hodin v noci.Pack do rána dosáhl 88 % DoD – hraniční.Doporučili jsme mu upgrade na 300 Ah;problém vyřešen.Závěr: teplota okolí je největší proměnnou.Naplánujte si svůj nejžhavější očekávaný stav, ne průměr."
+    },
+    {
+      "heading": null,
+      "body": "## Jak snížit spotřebu energie bez ztráty chlazení"
+    },
+    {
+      "heading": null,
+      "body": "Pět praktických pák seřazených podle dopadu.(1) **Zaizolujte střechu kabiny** – přidání 1 palce polyiso nebo Reflectix k obložení stropu sníží tepelné zisky o 25–35 % a úměrně sníží pracovní cyklus AC.ROI: 80 USD za materiál, 400 USD ročně na úsporu baterie.(2) **Reflexní kryt čelního skla během denního parkování** – sníží teplotu prohřívání kabiny o 8–12 °C, čímž sníží počáteční ochlazovací energii o 60 %.(3) **Předchlaďte za jízdy** — nechejte hlavní HVAC před zaparkováním kabinu ohřát na 22 °C, pak je třeba parkovací klimatizaci pouze udržovat, nikoli ochlazovat při nárazu.Sníží energii za první hodinu o 70 %.(4) **Nastavte termostat na 24°C, ne na 20°C** — každý stupeň vyšší zkracuje dobu chodu kompresoru o 8–10 %.(5) **Opravte případné úniky vzduchu v kabině** – těsnění dveří, těsnicí lišty oken a zejména okno zadního patra může unikat více chlazení, než produkuje klimatizace.Použijte kouřovou tužku k nalezení netěsností;podle potřeby vyměňte těsnění.Většina řidičů dokáže snížit spotřebu energie přes noc o 40 % pouze pomocí těchto pěti kroků – bez výměny AC jednotky."
+    },
+    {
+      "heading": null,
+      "body": "## Solární integrace: Snížení cyklování baterie a zatížení alternátoru"
+    },
+    {
+      "heading": null,
+      "body": "Přidání 200–400 W střešního solárního systému do parkovacího AC systému snižuje zatížení baterie i alternátoru vašeho nákladního vozidla během jízdy.Panelové pole o výkonu 300 W generuje 1,2–1,8 kWh za slunečný den v jižních zeměpisných šířkách USA, 0,8–1,2 kWh v severních zeměpisných šířkách – zhruba 25–45 % typické noční spotřeby AC.Praktický efekt: vaše baterie nastartuje většinu dní blíže k plnému nabití, vaše nabíječka DC-DC odebírá méně z alternátoru a celková spotřeba paliva při provozu střídavého proudu klesne o 15–25 %.Náklady na vybavení: 400–700 USD za sadu flexibilního panelu 300 W s ovladačem MPPT.Návratnost za 14–22 měsíců pro řidiče OTR.Solar neodstraní vaši potřebu baterie, ale prodlouží životnost baterie snížením denní hloubky vybití z typických 70–80 % na 50–60 %.LiFePO4 buňky vydrží zhruba 2x déle při 50% DoD oproti 80% DoD, takže sekundární přínos je významný."
+    },
+    {
+      "heading": null,
+      "body": "## Jak izolace kabiny znásobí účinnost vaší baterie"
+    },
+    {
+      "heading": null,
+      "body": "Spotřeba energie je za tepelnou zátěží.Jediným vylepšením s nejvyšším pákovým efektem, které můžete provést, abyste snížili spotřebu elektrické energie při parkování, je zlepšení izolace kabiny.Vybavili jsme stejný pražec Cascadia před a po přidání 1 palce polyiso na střechu a palandu.Před: 487 W průměrný odběr přes noc při okolní teplotě 32 °C.Po: průměr 348 W — snížení o 29 %.Izolace stála 180 USD v materiálu a 4 hodiny práce.Samotná úspora baterie (vyžaduje menší balení, delší životnost cyklu) vrátila upgrade za méně než 6 měsíců.Pokud dimenzujete nový bateriový systém, proveďte nejprve izolaci a před nákupem baterií znovu změřte své skutečné zatížení.Mnoho řidičů předimenzuje baterie o 30–50 %, protože plánovali kolem neizolované základní linie.Izolace je také jediným vylepšením, které snižuje jak spotřebu střídavého proudu, tak spotřebu paliva HVAC hlavního motoru při jízdě – dvojnásobná zátěž."
+    },
+    {
+      "heading": null,
+      "body": "## Stárnutí baterie: Proč se výkon v roce 3 liší od roku 1"
+    },
+    {
+      "heading": null,
+      "body": "Baterie LiFePO4 ztrácejí zhruba 2–4 % kapacity za rok při typickém používání OTR (250 cyklů/rok při 70–80 % DoD).Ve 3. roce baterie s nominální kapacitou 200 Ah poskytne využitelných 180–188 Ah.V 5. roce očekávejte 165–175 Ah.To je důležité, protože pokud jste na začátku správně dimenzovali svůj systém, výkon za tři roky vás může v horkých nocích ztratit.Oprava: nadměrná velikost o 15–25 % při prvním nákupu.Kupte si 240 Ah pro potřebu 200 Ah a máte rezervu jak na neobvyklé tepelné jevy, tak na přirozené stárnutí baterie.Alternativně naplánujte výměnu baterie na 5.–6. rok a zacházejte s ní jako se spotřebním materiálem, jako jsou brzdové destičky.Moderní ceny LiFePO4 klesly od roku 2022 o 35 % a předpokládá se, že do roku 2028 klesnou o dalších 20 %, takže obnovovací cyklus bude dostupnější, než tomu bylo před několika lety."
+    },
+    {
+      "heading": null,
+      "body": "## Jak správně číst data monitoru baterie"
+    },
+    {
+      "heading": null,
+      "body": "Monitory baterií jako Victron BMV-712 zobrazují ampérhodiny v reálném čase, napětí, stav nabití a spotřebované ampérhodiny.Většina řidičů si špatně vykládá, co vidí.Zde je to, co vlastně každé číslo v praxi znamená.(1) Zesilovače v reálném čase: okamžitý odběr – užitečné pro ověření, že AC pracuje v očekávaném rozsahu, nikoli pro rozhodování o velikosti.(2) Průměrné ampéry: integrujte to přes celou noc, abyste získali skutečnou spotřebu energie – to je číslo, na kterém záleží.(3) Stav nabití (SoC): na základě kumulativního počítání coulombů, s přesností ±2 % se správně kalibrovaným bočníkem.Resetujte pravidelně na 100 % úplným nabitím banky.(4) Spotřeba Ah: nejužitečnější metrika pro dimenzování – sledujte ji během 7–10 reprezentativních nocí a jako bod návrhu použijte maximální hodnotu.Řidiči, kteří určují velikost na základě „pocitu“ nebo dosahují okamžitého maxima, neustále kreslí podměrek.Důvěřujte datům, ne vnitřnostem."
+    },
+    {
+      "heading": null,
+      "body": "## Okrajové obaly: Extrémní zima a extrémní horko"
+    },
+    {
+      "heading": null,
+      "body": "Baterie LiFePO4 ztrácejí zhruba 20 % efektivní kapacity pod 0 °C (32 °F) a odmítají se nabíjet pod -10 °C (14 °F) bez vnitřního ohřevu.Pro řidiče, kteří v zimě na severu parkují přes noc, naplánujte buď vyhřívané bateriové boxy (příplatek 150–300 USD), nebo předimenzujte banku na 130 % kapacity za teplého počasí.V extrémním vedru nad 45 °C (113 °F) okolí parkovací střídače často snižují výkon, aby chránily teploty kompresoru, a tím snižují chladicí výkon o 10–18 %.Bateriové články se také rychleji degradují nad okolní teplotou 40 °C – udržujte bateriový box větraný nebo stíněný.Obě okrajová pouzdra tlačí k předimenzování baterie a volbě střídavých jednotek napájených invertorem s dokumentovanými rozsahy provozních teplot.Pečlivě zkontrolujte, zda jsou v technických listech uvedeny maximální hodnoty okolního prostředí;levné jednotky často uvádějí 'až 40°C', což je pro letní použití na jihozápadě USA nedostatečné."
+    },
+    {
+      "heading": null,
+      "body": "## Často kladené otázky"
+    },
+    {
+      "heading": null,
+      "body": "**Kolik ampérů odebírá 12V parkovací AC?**\n\nModerní invertorová jednotka 12V (třída 8 000–10 000 BTU) odebírá 30–40 A v ustáleném stavu a vrcholí kolem 80–90 A při spuštění.Ekvivalent 24V odebírá polovinu těchto ampérů při stejném chladicím výkonu, proto je 24V preferován pro systémy s vyšším výkonem.\n\n**Mohu napájet parkovací klimatizaci ze startovací baterie mého vozu?**\n\nNe, nikdy.Startovací baterie je navržena pro krátké vysokoproudové výboje (protáčení) a bude zničena hlubokým cyklováním během 20–40 cyklů.Potřebujete vyhrazenou domácí baterii LiFePO4 izolovanou od startovací baterie pomocí nabíječky DC-DC.\n\n**Bude 100Ah lithiová baterie napájet parkovací klimatizaci celou noc?**\n\nJediný 100Ah 12V LiFePO4 (1,28 kWh využitelných při 100 % DoD, 1,02 kWh při 80 % DoD) vám poskytne přibližně 2,5–3 hodiny chlazení na invertorové jednotce nebo 1,5 hodiny na jednotce s pevnou rychlostí.Pro celou noc plánujte minimálně 200–300 Ah při 12V nebo 100–200 Ah při 24V.\n\n**Kolik paliva spálí alternátor na dobití baterie?**\n\nPřibližně 0,4–0,6 galonu nafty na kWh dobíjeného přes 50A DC-DC nabíječku za jízdy.Výměna 4 kWh nočního vypouštění stojí zhruba 1,6–2,4 galonu (6,30–10,10 USD) za den v dalším palivu.To je stále o 75–80 % levnější než volnoběh.\n\n**Ušetří něco provoz na pevnině místo baterie?**\n\nAno – při 110V pobřežním napájení zcela přeskočíte ztráty baterie a zaplatíte pouze za 450 W × 8 hodin = 3,6 kWh × 0,13 $/kWh = 0,47 $ za noc.Pokud máte k dispozici pobřežní energii, použijte ji;rezervujte si baterii na noci mimo síť.\n\n**Co je parazitní remíza a záleží na tom?**\n\nParazitní odběr je pohotovostní proud, který regulátor AC odebírá, když je vypnutý.Kvalitní jednotky (CoolDrivePro V-TH1, Dometic RTX2000) odebírají pod 50 mA.Levné jednotky dokážou odebírat 200–400 mA, což při nečinnosti vozíku spotřebuje 5–10 Ah za týden.Hledejte jednotky, které dokumentují odběr v pohotovostním režimu pod 100 mA.\n\n**Do rána se mi vybije baterie – co se děje?**\n\nČtyři pravděpodobné příčiny seřazené podle frekvence: (1) baterie je poddimenzovaná pro skutečné okolní prostředí a hodiny používání, (2) DC-DC nabíječka je poddimenzovaná, takže se baterie během jízdy nikdy plně nenabíjí, (3) pokles napětí na kabeláži způsobuje, že AC odebírá více ampérů pro udržení energie, (4) %–5 let baterie je starší než kapacita.Pro diagnostiku použijte monitor baterie;nehádej.Náš [kontrolní seznam pro řešení problémů s parkováním AC](/blog/parking-ac-not-cooling-troubleshooting) prochází každým diagnostickým krokem v daném pořadí."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "title": "Parking AC BTU Calculateur de dimensionnement : de combien de BTU avez-vous vraiment besoin ?(2026)",
+  "date": "2026-04-25",
+  "category": "Guide d'achat",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+  "imageAlt": "Tableau des tailles BTU pour le stationnement de la climatisation dans la cabine du camion et les configurations RV",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] De combien de BTU votre cabine couchette ou votre chambre RV a-t-elle besoin ?Formule étape par étape et tableaux pour les camions de classe 8 (5 000 à 10 000 BTU), les fourgonnettes Sprinter (6 000 à 8 000 BTU) et les RV de 25 pieds (12 000 à 14 000 BTU).",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth_89adf6ca.webp",
+      "alt": "Class 8 truck sleeper cab interior showing typical 90 cubic foot cooling volume",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Properly sized parking AC unit installed in a long-haul sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "L'achat d'un climatiseur de stationnement trop petit signifie qu'il fonctionne à 100 % toute la nuit et ne refroidit jamais vraiment la cabine.En acheter un trop grand signifie qu’il aura des cycles courts, gaspillera la batterie, déshumidifiera mal et vous coûtera plus de 1 000 $ de plus que ce que vous aviez besoin de dépenser.Les deux erreurs sont courantes et proviennent toutes deux de la même cause fondamentale : les gens achètent des climatiseurs de stationnement en fonction du camion ou du RV sur lequel ils l'installent, et non en fonction de la charge de refroidissement réelle.Ce guide vous guide à travers la formule de dimensionnement BTU appropriée en cinq minutes, vous donne des tableaux de référence pour les configurations de cabine et RV les plus courantes, et explique pourquoi l'affirmation marketing « taille unique » n'est presque jamais vraie."
+    },
+    {
+      "heading": null,
+      "body": "BTU signifie British Thermal Unit, qui est une mesure de la capacité de refroidissement par heure.Un BTU/h correspond à peu près à la puissance de refroidissement nécessaire pour réduire une livre d'eau d'un degré Fahrenheit.Un climatiseur de stationnement de 10 000 BTU/h fournit 10 000 de ces unités de puissance de refroidissement par heure.La question est : de combien de BTU/h votre cabine spécifique a-t-elle besoin ?La réponse dépend de six variables : le volume de la cabine, la valeur R de l'isolation, la température ambiante, la température cible, l'exposition au soleil et le nombre d'occupants.Aucun de ces éléments ne concerne la marque du camion, mais plutôt la charge thermique physique.Une couchette de 90 pieds cubes mal isolée à Phoenix a besoin de plus de BTU qu'une couchette de 110 pieds cubes bien isolée au Minnesota."
+    },
+    {
+      "heading": null,
+      "body": "## La formule de travail : cinq minutes pour votre réponse"
+    },
+    {
+      "heading": null,
+      "body": "Utilisez cette formule industrielle simplifiée : **Requis BTU/h = Volume de la cabine (pi3) × ΔT (°F) × Facteur d'isolation × Facteur solaire + Charge d'occupant**.ΔT est la différence entre la température ambiante et la température cible dans le pire des cas (généralement un écart de 35 °F = 95 °F à l'extérieur, 70 °F à l'intérieur).Facteur d'isolation : 0,7 pour excellent (couchettes modernes de classe 8, RVs bien isolées), 1,0 pour moyen, 1,3 pour médiocre.Facteur d'ensoleillement : 1,0 pour un parking ombragé, 1,2 pour un soleil partiel, 1,4 pour un plein soleil toute la journée.Charge d'occupant : 400 BTU par adulte.Exemple concret pour une couchette Cascadia de classe 8 (90 pieds cubes, isolation moyenne, soleil partiel, 1 occupant, objectif 70 °F dans une température ambiante de 95 °F) : 90 × 35 × 1,0 × 1,2 + 400 = 3 780 + 400 = 4 180 BTU/hr.Cela vous indique qu'une unité de 5 000 à 6 000 BTU est appropriée ;une unité de 10 000 BTU serait excessive et à cycle court."
+    },
+    {
+      "heading": null,
+      "body": "## Tableau de référence : Cabines couchettes pour camions"
+    },
+    {
+      "heading": null,
+      "body": "**Cabine couchette à une couchette (Freightliner Cascadia, Kenworth T680, Peterbilt 579), 75 à 95 pieds cubes :** 5 000 à 6 500 BTU/h sont suffisants dans les climats modérés ;augmentez jusqu'à 7 500 à 8 500 BTU/h pour les étés du Texas et de l'Arizona.Le CoolDrivePro VS02 PRO (6 000 BTU) couvre la plupart des routes du nord ;le V-TH1 (10 000 BTU pic, 6 500 BTU soutenus) gère les routes du sud.**Couchette d'équipe à double couchette, 100 à 130 pieds cubes :** 7 500 à 10 000 BTU/h.Deux occupants doublent la charge métabolique à 800 BTU.Le V-TH1 est le bon choix.**Cabine de jour avec extension de couchette, 60 à 75 pieds cubes :** 4 000 à 5 500 BTU/h.Le VS02 PRO (6 000 BTU) est légèrement surdimensionné mais acceptable.**Cabine Heritage avec couchette plus petite, 55 à 70 pieds cubes :** 3 500 à 5 000 BTU/h.De nombreuses unités modernes sont surdimensionnées pour celles-ci – regardez le CoolDrivePro Mini (4 000 BTU) ou les unités compactes 12V comparables."
+    },
+    {
+      "heading": null,
+      "body": "## Tableau de référence : RV et camping-cars"
+    },
+    {
+      "heading": null,
+      "body": "**Conversion en fourgon Sprinter ou Promaster, 250 à 400 pieds cubes :** 9 000 à 12 000 BTU/h.Le CoolDrivePro VX3000SP (12 000 BTU) est spécialement conçu pour ce segment.**Camping-car de classe B (24 à 28 pieds), 600 à 900 pieds cubes :** 12 000 à 15 000 BTU/h — nécessite généralement soit une seule unité haute capacité, soit deux zones.**Camping-car de classe C (25 à 30 pieds), 800 à 1 200 pieds cubes :** 13 500 à 18 000 BTU/h ;envisagez un refroidissement zoné (une unité dans la zone des couchettes, une dans la cabine principale).**Remorque de voyage (20 à 28 pieds), 700 à 1 100 pieds cubes :** 12 000 à 15 000 BTU/h.**Selle à sellette (32 à 40 pieds), 1 400 à 2 200 pieds cubes :** 18 000 à 24 000 BTU/h, presque toujours zoné.**Camion-car / topper, 200 à 350 pieds cubes :** 8 000 à 10 000 BTU/h.Pour une analyse plus approfondie des associations de batterie et de courant alternatif spécifiques à RV, consultez notre [guide du climatiseur RV alimenté par batterie](/blog/battery-powered-rv-air-conditioner)."
+    },
+    {
+      "heading": null,
+      "body": "## Pourquoi des retours de flamme plus importants : le cycle court expliqué"
+    },
+    {
+      "heading": null,
+      "body": "Un climatiseur de stationnement surdimensionné atteint rapidement le point de consigne, puis s'éteint (ou module au minimum).En quelques minutes, la température de l’habitacle augmente et le climatiseur se remet à pleine puissance.Ce cycle se répète toutes les 5 à 10 minutes toute la nuit.Il en résulte trois problèmes.(1) **Usation du compresseur :** chaque démarrage est l'événement de contrainte le plus élevé pour le compresseur.Un cycle court peut réduire de moitié la durée de vie du compresseur.(2) **Mauvais contrôle de l'humidité :** Le courant alternatif élimine l'humidité principalement pendant la phase d'état stable, et non pendant les brèves phases de pointe.Les unités surdimensionnées laissent la cabine froide mais moite.(3) ** Pire efficacité de la batterie : ** les courants de démarrage sont 3 à 5 fois supérieurs au courant de fonctionnement.Les cycles fréquents gaspillent de l’énergie en pertes de démarrage.L’unité de bonne taille fonctionne presque continuellement à charge modérée – c’est le mode de fonctionnement le plus efficace.Les onduleurs modernes comme le V-TH1 et le Dometic RTX2000 atténuent partiellement les cycles courts car ils peuvent moduler jusqu'à 30 % de leur capacité, mais même s'ils fonctionnent mieux lorsqu'ils sont correctement dimensionnés pour la charge."
+    },
+    {
+      "heading": null,
+      "body": "## Pourquoi aller plus petit se retourne également contre vous"
+    },
+    {
+      "heading": null,
+      "body": "Les unités sous-dimensionnées fonctionnent à 100 % toute la nuit et ne parviennent toujours pas à atteindre le point de consigne en cas de chaleur extrême.Le compresseur est constamment sollicité à charge maximale.La cabine est inconfortable.Le conducteur se réveille en sueur.La durée de vie de l'unité est raccourcie par un fonctionnement soutenu à forte charge.Nous le constatons constamment avec 6 000 unités BTU installées dans des cabines couchettes d'équipe de 110 pieds cubes au Texas : elles « fonctionnent » techniquement mais ne satisfont jamais.La solution réside dans une unité de bonne taille, sans faire fonctionner une unité trop petite au maximum 24h/24 et 7j/7.Si vous n'êtes pas sûr entre deux tailles, un modèle légèrement surdimensionné (dans les 20 %) est plus sûr qu'un modèle sous-dimensionné : les onduleurs modernes gèrent bien un surdimensionnement modeste, mais les sous-constructions déçoivent toujours."
+    },
+    {
+      "heading": null,
+      "body": "## Isolation : le multiplicateur que vous ne pouvez pas ignorer"
+    },
+    {
+      "heading": null,
+      "body": "L'ajout de 1 pouce de polyiso (R-6) au toit de votre cabine réduit le BTU requis de 30 à 40 %.L'ajouter au mur de la couchette le réduit encore de 10 à 15 %.Les reflets sur les fenêtres pendant le stationnement de jour sont réduits de 25 à 35 % pendant le temps de recharge.Combinées, des améliorations d'isolation de base peuvent vous faire descendre d'une classe BTU - par exemple, passer d'une unité de 8 000 BTU à une unité de 6 000 BTU.Le coût : 150 à 300 dollars de matériaux, une demi-journée de travail.L'avantage : vous dépensez 400 à 700 $ de moins pour le climatiseur et 300 à 500 $ de moins pour les batteries.Faites-le avant de dimensionner le climatiseur, pas après.La plupart des traverses OEM modernes de classe 8 à partir de 2020 sont raisonnablement bien isolées ;Les cabines de l'ère 2010 et plus anciennes nécessitent souvent des mises à niveau pour fonctionner correctement."
+    },
+    {
+      "heading": null,
+      "body": "## Ajustements des zones climatiques"
+    },
+    {
+      "heading": null,
+      "body": "Prenez le résultat de votre formule et ajustez.**Nord des États-Unis/Canada (zone climatique 5 à 7) :** utilisez la formule telle quelle ;la température ambiante de conception est de 90 °F.**Midwest et nord-ouest du Pacifique (zone 4) :** formule × 1,0.**Sud des États-Unis (zones 2 à 3, AZ, TX, FL, sud de la Californie) :** formule × 1,20 pour tenir compte d'une température ambiante soutenue de 100 °F+ et de sessions de refroidissement plus longues.**Tropical et subtropical (Caraïbes, Amérique centrale, sud du Mexique, Territoire du Nord australien) :** formule × 1,35 pour gérer une température ambiante de 105 °F+ avec une humidité élevée.**Désert de haute altitude (Nevada, sud-ouest de l'UT, haut pays de l'Arizona) :** formule × 1,10 — l'air est plus mince, l'efficacité de la climatisation chute de 5 à 8 %.**Climat nordique de l'UE (Allemagne, Royaume-Uni, Scandinavie) :** formule × 0,85 — la température ambiante de conception dépasse rarement 85 °F.**Sud de l'UE (Espagne, Italie, sud de la France, Grèce) :** formule × 1,20."
+    },
+    {
+      "heading": null,
+      "body": "## Lorsque vous avez besoin de deux zones au lieu d'une unité plus grande"
+    },
+    {
+      "heading": null,
+      "body": "Si votre BTU requis dépasse 14 000, n'achetez pas une seule unité BTU de 18 000 — achetez deux unités BTU de 9 000 dans des zones distinctes.Raisons : (1) redondance en cas de panne, (2) meilleur contrôle de l'humidité car chaque unité peut dimensionner correctement sa propre charge de zone, (3) charge électrique répartie sur deux circuits et deux compresseurs, (4) vous ne pouvez faire fonctionner qu'une seule zone pendant la nuit lorsque l'autre moitié du RV est inoccupée, ce qui réduit la consommation d'énergie de 40 à 50 %.Le coût marginal de la deuxième unité est généralement de 1 500 à 2 200 dollars, contre des économies de 800 à 1 400 dollars sur une seule unité géante, le coût supplémentaire net est donc de 700 à 800 dollars, ce qui en vaut la peine pour les avantages opérationnels.La plupart des fabricants RV à partir de 2022 sont passés à la double zone d'usine pour tout ce qui dépasse 30 pieds."
+    },
+    {
+      "heading": null,
+      "body": "## Comment mesurer le volume de votre cabine avec précision"
+    },
+    {
+      "heading": null,
+      "body": "La plupart des BTU erreurs de dimensionnement commencent par une mauvaise estimation du volume.Les fabricants publient les dimensions nominales de la cabine, mais le volume pertinent pour le dimensionnement du climatiseur est le volume d'air dont vous avez réellement besoin pour refroidir, ce qui exclut les matelas, les armoires de rangement et les sous-espaces étroitement fermés.Mesurez la longueur intérieure × la largeur × la hauteur moyenne (utilisez la moyenne si votre cabine a un toit en escalier).Pour une couchette Cascadia de 72 pouces : 72 pouces × 78 pouces de largeur × 78 pouces de hauteur moyenne = 437 400 pouces cubes = 253 pieds cubes d'intérieur total.Soustrayez environ 35 à 40 % pour le matelas, les armoires et le stockage (environ 90 pieds cubes) et votre volume de refroidissement effectif est d'environ 160 pieds cubes – ce qui est très différent du chiffre de 90 pieds cubes cité par de nombreux guides de dimensionnement.Remesurez toujours votre cabine spécifique ;ne vous fiez pas aux tableaux généralisés.Un volume mal estimé, à 30 % de réduction, conduit à une unité qui se trouve dans une catégorie de taille inférieure, ce qui, combiné aux autres facteurs de formule, entraîne un écart de dimensionnement majeur."
+    },
+    {
+      "heading": null,
+      "body": "## Cartographie des sources de chaleur : là où votre cabine perd réellement du refroidissement"
+    },
+    {
+      "heading": null,
+      "body": "Les cinq plus grandes sources de gain de chaleur dans une cabine couchette stationnée, dans l'ordre : (1) le pare-brise et les vitres latérales exposés directement au soleil (50 à 65 % du gain total pendant la journée), (2) les panneaux de toit non isolés (15 à 22 %), (3) les joints de porte et les fuites de coupe-froid (8 à 12 %), (4) le réfrigérateur monté sur la couchette si vous en avez un (5 à 8 % provenant de la chaleur du compresseur et des pertes par conduction), (5) les charges électroniques en veille - onduleur,télématique, dashcam (3 à 5 %).Abordez les trois premiers avant de dimensionner votre climatisation et vous réduirez considérablement le BTU dont vous avez besoin.Une couverture réfléchissante pour pare-brise pendant le stationnement de jour est l'accessoire au retour sur investissement le plus élevé que vous puissiez acheter : coût de 25 à 45 dollars, réduction de 30 à 45 % de la demande d'énergie de pré-refroidissement.De nombreux conducteurs utilisent un climatiseur trop puissant simplement parce qu'ils n'ont pas réglé les sources de chaleur en amont du climatiseur."
+    },
+    {
+      "heading": null,
+      "body": "## Quand choisir 12V ou 24V pour votre classe BTU"
+    },
+    {
+      "heading": null,
+      "body": "En dessous de 6 000 systèmes BTU, 12V ont du sens : le câblage est plus simple, les batteries sont plus universellement disponibles et la consommation d'ampli reste inférieure à 50 A, ce qui est gérable avec un câble 6 AWG.De 6 000 à 9 000 BTU, l’une ou l’autre tension fonctionne, avec 24V légèrement préféré pour l’efficacité.Au-dessus de 9 000 BTU, 24V est essentiellement obligatoire car 12V à ces puissances nécessite plus de 100 A en continu, ce qui signifie un câblage lourd 1/0 AWG, des fusibles coûteux à haut ampérage et une sensibilité importante aux chutes de tension.Le CoolDrivePro VS02 PRO est 12V et culmine à 6 000 BTU.Le V-TH1 est 24V à 10 000 BTU pic.Le VX3000SP est le 24V à 12 000 BTU.Cette échelle reflète le modèle de l'industrie : pratiquement tous les climatiseurs de stationnement haut de gamme à haut rendement en 2026 sont 24V, tandis que 12V est réservé aux unités compactes dans les applications légères."
+    },
+    {
+      "heading": null,
+      "body": "## Tests en cabine réelle : notre formule a-t-elle prédit la bonne unité ?"
+    },
+    {
+      "heading": null,
+      "body": "Nous avons appliqué la formule à 24 configurations de conducteurs réels et l'avons comparée à la satisfaction ultérieure déclarée par les propriétaires à 12 mois.Résultats : 18 des 24 (75 %) ont déclaré être pleinement satisfaits de la taille prévue de l'unité.4 personnes sur 24 (17 %) ont déclaré que l'unité était « légèrement sous-alimentée pendant les 5 à 8 jours les plus chauds de l'année », mais adéquate par ailleurs – il s'agissait de conducteurs du sud du Texas et de l'Arizona qui tombaient dans la bande d'ajustement climatique de 1,20.2 personnes sur 24 (8 %) ont déclaré que l'unité était « surpuissante et effectuait des cycles courts par temps doux » : il s'agissait de conducteurs utilisant des unités à vitesse fixe plutôt que des unités à onduleur, où les cycles courts sont plus prononcés.Leçons : la formule fonctionne bien pour les unités pilotées par onduleur dans les climats modérés.Pour les climats extrêmes du sud, penchez-vous vers l’extrémité supérieure de la plage BTU recommandée.Pour les unités à vitesse fixe, penchez-vous vers l’extrémité la plus petite pour minimiser les cycles courts."
+    },
+    {
+      "heading": null,
+      "body": "## Idées fausses courantes sur la taille BTU"
+    },
+    {
+      "heading": null,
+      "body": "Trois mythes à dissiper.(1) « Plus grand, c'est toujours mieux. »Faux : les unités surdimensionnées ont un cycle court, se déshumidifient mal et gaspillent la batterie.(2) « Je devrais faire correspondre le BTU de mon climatiseur domestique, mis à l'échelle en volume. »Trompeur : les climatiseurs domestiques fonctionnent sur l'alimentation du réseau et ont rarement les contraintes de cycle de service des climatiseurs mobiles alimentés par batterie.Le contexte mobile favorise un fonctionnement d'onduleur de bonne taille, et non un BTU brut.(3) « Le camion de mon ami est équipé d'une unité BTU de 12 000 et fonctionne très bien, je devrais donc obtenir la même chose. »Peut-être faux : la cabine de votre ami peut avoir une isolation différente, une exposition au soleil différente, un nombre de passagers différent et une zone climatique différente de la vôtre.Exécutez toujours la formule adaptée à votre situation spécifique.La taille anecdotique est la cause la plus courante de remords de l'acheteur dans cette catégorie."
+    },
+    {
+      "heading": null,
+      "body": "## Rassembler tout cela : une feuille de travail sur les tailles que vous pouvez utiliser"
+    },
+    {
+      "heading": null,
+      "body": "Voici l'étape par étape complète que vous pouvez exécuter en 10 minutes pour votre cabine spécifique ou RV.Étape 1 : mesurez la longueur intérieure, la largeur et la hauteur moyenne en pouces.Étape 2 : multipliez pour obtenir des pouces cubes, divisez par 1 728 pour obtenir des pieds cubes.Étape 3 : soustrayez environ 35 à 40 % pour le matelas, les armoires et le stockage afin d'obtenir un volume de refroidissement efficace.Étape 4 : déterminez ΔT – votre température ambiante la plus défavorable moins votre température cible, en degrés Fahrenheit.Étape 5 : choisissez votre facteur d'isolation (0,7 excellent / 1,0 moyen / 1,3 mauvais).Étape 6 : choisissez votre facteur d'ensoleillement (1,0 ombragé / 1,2 soleil partiel / 1,4 plein soleil).Étape 7 : compter les occupants × 400 BTU.Étape 8 : multipliez le volume × ΔT × isolation × soleil, puis ajoutez le nombre d'occupants.Étape 9 : appliquez l’ajustement de la zone climatique de la section ci-dessus.Étape 10 : arrondissez à la classe BTU disponible dans le commerce la plus proche.Documentez vos numéros ;c'est la feuille de travail que vous pouvez remettre à n'importe quel fournisseur pour obtenir des devis précis.Les vendeurs respecteront un acheteur qui a fait ce travail et vous éviterez la vente incitative d’une unité dont vous n’avez pas besoin."
+    },
+    {
+      "heading": null,
+      "body": "## Questions fréquemment posées"
+    },
+    {
+      "heading": null,
+      "body": "**Est-ce que 5 000 BTU suffisent pour un lit superposé simple de classe 8 ?**\n\nDans le nord des États-Unis, souvent oui.Au Texas, en Arizona ou en Floride, non, vous aurez du mal à maintenir une température de 70 °F lorsque la température ambiante est de 100 °F+.Montez jusqu'à 6 500 à 8 000 BTU pour les routes du sud.\n\n**Puis-je surdimensionné « juste au cas où » pour les journées chaudes ?**\n\nUn léger surdimensionnement (10 à 20 %) est sûr avec les unités onduleurs modernes qui modulent vers le bas.Un surdimensionnement important (40 % et plus) avec les unités à vitesse fixe entraîne des cycles courts, une mauvaise déshumidification et une durée de vie réduite du compresseur.Taille correcte, ne pas exagérer.\n\n**Dois-je recalculer BTU si j'ajoute des panneaux solaires au toit ?**\n\nNon, l’énergie solaire ne modifie pas la charge de refroidissement.Mais l’ajout de panneaux solaires peut ombrager le toit, réduisant légèrement le gain de chaleur (réduction de 5 à 8 %).Le plus grand avantage de l’énergie solaire est de remplacer l’électricité consommée par le climatiseur.\n\n**Comment l'humidité affecte-t-elle la taille du BTU ?**\n\nUne humidité élevée (au-dessus de 70 % d'humidité relative) augmente la charge de refroidissement latente : le climatiseur doit éliminer la vapeur d'eau en plus d'abaisser la température.Ajoutez 10 à 15 % à votre calcul BTU dans les climats humides (côte du Golfe, Asie du Sud-Est, zones tropicales).\n\n**Les recommandations RV BTU sont-elles différentes des recommandations relatives aux cabines de camion ?**\n\nOui, de manière significative.Les RV ont généralement des volumes plus grands (3 à 10 fois une cabine couchette), plus de fenêtres, plus d'occupants et des sessions d'utilisation plus longues.Utilisez le tableau RV ci-dessus ;n’extrapolez pas à partir des numéros de cabine des camions.\n\n**Mon climatiseur actuel n'est pas de bonne taille : dois-je le remplacer ?**\n\nSi sous-dimensionné : oui, remplacer.Le gaspillage d'énergie, la pénalité en matière de confort et la durée de vie raccourcie dus au fonctionnement d'une unité trop petite à 100 % justifient son remplacement.S'il est surdimensionné : vérifiez s'il s'agit d'une unité onduleur (elle peut alors probablement moduler de manière adéquate) ou à vitesse fixe (alors un cycle court continuera à la dégrader ; envisagez son remplacement en fin de vie).\n\n**Comment un mini-split de 12 000 BTU se compare-t-il à un toit de 12 000 BTU ?**\n\nPour la même plaque signalétique BTU, les mini-splits offrent généralement 5 à 10 % de refroidissement utilisable en plus, car le condenseur voit un meilleur flux d'air.Ils ont également tendance à être plus silencieux (le compresseur se trouve à l’extérieur de la cabine).Pour les RV et les espaces plus grands où la complexité d'installation est acceptable, les mini-splits sont souvent le meilleur choix technique.Pour les camions où la simplicité d’installation sur le toit compte, les toits dominent.Pour obtenir des conseils d'installation, consultez notre [guide d'installation étape par étape de la climatisation de stationnement](/blog/how-to-install-parking-ac)."
+    }
+  ]
+}

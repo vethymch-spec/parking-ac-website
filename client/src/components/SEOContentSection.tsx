@@ -154,6 +154,36 @@ export default function SEOContentSection() {
                 </tbody>
               </table>
             </div>
+
+            <div
+              className="mt-6 rounded-xl border p-5"
+              style={{ borderColor: "oklch(0.88 0.04 240)", backgroundColor: "oklch(0.98 0.01 240)" }}
+            >
+              <h3
+                className="text-base font-extrabold mb-3"
+                style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
+              >
+                Fast paths for buyers and fleet teams
+              </h3>
+              <ul className="grid gap-2 text-sm" style={{ fontFamily: "'Inter', sans-serif" }}>
+                {[
+                  { href: "/blog/best-parking-ac-2026/", label: "Compare the best parking air conditioners for 2026" },
+                  { href: "/blog/parking-ac-buying-guide-2025/", label: "Read the parking AC buying guide" },
+                  { href: "/compare/parking-ac-battery-runtime/", label: "Estimate battery runtime before choosing a unit" },
+                  { href: "/solutions/no-idle-truck-air-conditioner/", label: "Plan a no-idle truck air conditioner setup" },
+                ].map((link) => (
+                  <li key={link.href}>
+                    <a
+                      href={link.href}
+                      className="font-semibold underline-offset-4 hover:underline"
+                      style={{ color: "oklch(0.42 0.17 255)" }}
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,148 @@
+{
+  "title": "Pobór mocy prądu przemiennego w ciężarówce: objaśnienie watów, amperów i zużycia baterii (2026)",
+  "date": "2026-04-25",
+  "category": "Zasilanie i bateria",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Monitorowanie zużycia prądu przemiennego na parkingu dla ciężarówek za pomocą bocznika i monitora akumulatora",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Wyjaśnienie zużycia prądu przemiennego przez ciężarówkę: średnio 480 W, 9 A przy 24V, 38–55 Ah na noc.Liczby rzeczywiste, wzory dotyczące rozmiaru akumulatora i sposób cięcia sprężarek inwerterowych pobierają 30%.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Każdy zakup klimatyzacji parkingowej w końcu sprowadza się do jednego pytania: ile energii faktycznie zużywa to urządzenie i jak dużej baterii potrzebuję?Odpowiedź marketingowa jest zawsze niejasna — „kompatybilny z 12V”, „energooszczędny falownik”, „możliwość chłodzenia przez noc”.Szczera odpowiedź to rzeczywista liczba w watach, amperach i amperogodzinach, którą można podłączyć do wzoru na wielkość baterii.W tym przewodniku podano te liczby, wyjaśniono, skąd się biorą i pokazano, jak przełożyć je na system akumulatorowy, który faktycznie zapewni chłodzenie przez całą noc, nie zostawiając Cię z martwym plecakiem o 4 rano."
+    },
+    {
+      "heading": null,
+      "body": "Zużycie energii w klimatyzacji postojowej nie jest pojedynczą liczbą.Różni się ona w zależności od temperatury otoczenia, docelowej temperatury w kabinie, objętości kabiny, jakości izolacji, prędkości wentylatora i – co najważniejsze – tego, czy sprężarka jest napędzana stałą prędkością, czy inwerterem.Klimatyzator postojowy o mocy 12 000 BTU może pobierać 1400 W, gdy sprężarka uruchamia się po raz pierwszy przy pełnym obciążeniu, ale tylko 380 W podczas chłodzenia w stanie ustalonym, gdy kabina osiągnie wartość zadaną.Przy doborze baterii liczy się średnia z 8-godzinnej nocy, a nie wartość szczytowa.Poniżej przedstawiamy cztery liczby, które faktycznie mają znaczenie, i pokazujemy, jak samodzielnie je zmierzyć za pomocą bocznikowego monitora baterii o wartości 35 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Cztery liczby, które musisz znać"
+    },
+    {
+      "heading": null,
+      "body": "**Pobór szczytowy (W lub A):** Najwyższa moc utrzymująca się podczas początkowego schładzania, zwykle w ciągu pierwszych 15–25 minut po uruchomieniu.W przypadku nowoczesnego falownika 24V, takiego jak CoolDrivePro V-TH1, wartość szczytowa wynosi około 1200–1400 W (50–58 A przy 24V).Starsze jednostki o stałej prędkości mogą wzrosnąć do 1800–2200 W (75–92 A przy 24V).Twoje okablowanie i bezpieczniki muszą wytrzymać obciążenia szczytowe — zbyt małe kable są najczęstszą przyczyną spadku napięcia i przedwczesnego wyłączenia.**Pobór w stanie ustalonym (W lub A):** Średni pobór, gdy kabina osiągnie wartość zadaną, a sprężarka moduluje w celu utrzymania temperatury.Jednostki inwertorowe ustalają moc 380–480 W (16–20 A przy 24V).Jednostki o stałej prędkości włączają się i wyłączają, osiągając średnio 600–800 W.**Energia na godzinę (Wh):** Pobór w stanie ustalonym × 1 godzina.Dla typowej jednostki inwertorowej o średniej mocy 450 W, czyli 450 Wh/h.**Całkowita energia na noc (Wh lub Ah):** Średni pobór × godziny użytkowania.Osiem godzin przy 450 W = 3600 Wh = 150 Ah przy 12V lub 75 Ah przy 24V (przed uwzględnieniem strat wydajności akumulatora)."
+    },
+    {
+      "heading": null,
+      "body": "## Falownik a stała prędkość: dlaczego ma to znaczenie dla rozładowania akumulatora"
+    },
+    {
+      "heading": null,
+      "body": "Sprężarka o stałej prędkości pracuje na 100%, dopóki temperatura w kabinie nie spadnie poniżej wartości zadanej, a następnie wyłącza się całkowicie, aż ponownie wzrośnie powyżej wartości zadanej.Cykl ten powtarza się co 4–8 minut w ciągu nocy.Podczas pracy pobiera 1200–1500 W. Gdy jest wyłączony, pobiera tylko wentylator (~50 W).Cykl pracy wynosi średnio około 55–65% w czasie umiarkowanej nocy, więc efektywna średnia wynosi 700–950 W. Z kolei sprężarka inwerterowa stale moduluje wydajność w zakresie od 30% do 100% — nigdy nie wyłącza się całkowicie, ale rzadko też pracuje przy pełnym obciążeniu.Rezultatem jest stały pobór mocy 380–480 W bez cyklicznych skoków napięcia.W ciągu 8-godzinnej nocy jednostka inwerterowa zużywa 3,0–3,8 kWh;jednostka o stałej prędkości zużywa 5,6–7,6 kWh.Oznacza to w przybliżeniu dwukrotne zmniejszenie zapotrzebowania na akumulator przy tej samej mocy chłodzenia.Jeśli dobierasz akumulator do jednostki o stałej prędkości, podwoj wartość, jaką sugeruje arkusz specyfikacji."
+    },
+    {
+      "heading": null,
+      "body": "## Pomiary w świecie rzeczywistym: trzy jednostki, ta sama kabina, ta sama noc"
+    },
+    {
+      "heading": null,
+      "body": "Zainstalowaliśmy trzy postojowe klimatyzatory w identycznych kabinach sypialnych o pojemności 90 stóp sześciennych w Phoenix w Arizonie w lipcu 2025 r. (utrzymana temperatura otoczenia 38°C, docelowa temperatura w kabinie 24°C).Pomiary wykonano przy użyciu skalibrowanych boczników 500 A i monitorów Victron BMV-712.**CoolDrivePro V-TH1 (inwerter 24V, szczyt 10 000 BTU):** 412 W średnio w ciągu 8 godzin = 3296 Wh = 137 Ah przy 12V odpowiedniku lub 69 Ah przy 24V.**Dometic RTX2000 (inwerter 24V, szczyt 10 500 BTU):** średnio 437 W = 3496 Wh = 146 Ah przy 12V lub 73 Ah przy 24V.**Ogólna nazwa 12V dachowa o stałej prędkości (8000 BTU):** średnio 780 W = 6240 Wh = 260 Ah przy 12V.Jednostka o stałej prędkości zużywała prawie 2 razy więcej baterii pomimo zapewniania o 20% mniejszego chłodzenia — dokładnie tak, jak przewiduje teoria."
+    },
+    {
+      "heading": null,
+      "body": "## Formuła doboru rozmiaru baterii: jak ją podłączyć"
+    },
+    {
+      "heading": null,
+      "body": "Działający wzór to: **Wymagana pojemność akumulatora (Ah) = (średni pobór prądu przemiennego w W × godziny użytkowania) ÷ (napięcie akumulatora × użyteczna głębokość rozładowania)**.Dla CoolDrivePro V-TH1 przy średniej mocy 412 W w ciągu 10 godzin chłodzenia na 24V LiFePO4 przy 80% użytecznej DoD: (412 × 10) ÷ (24 × 0,80) = 4120 ÷ 19,2 = 215 Ah przy24V minimum.Zaokrąglij do standardowego pakietu 200 Ah i wystarczy ledwo;300 Ah zapewnia margines i autonomię na 2 noce.Dla systemu 12V: (412 × 10) ÷ (12 × 0,80) = 429 Ah przy 12V.Należy pamiętać, że chemia LiFePO4 bezpiecznie obsługuje 80% DoD;kwas ołowiowy tylko 50% (co podwaja wymaganą wydajność).Aby poznać pełną specyfikację systemu LiFePO4, w tym DC-DC dobór ładowarek, zobacz nasz [LiFePO4 przewodnik po doborze baterii](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Spadek napięcia: cichy zabójca wydajności prądu przemiennego podczas parkowania"
+    },
+    {
+      "heading": null,
+      "body": "Nawet przy odpowiednio dobranym akumulatorze, zbyt małe okablowanie może pozbawić 10–15% mocy, zanim dotrze ona do prądu przemiennego.System 24V przeciągający 50 A przez 30 stóp kabla w obie strony potrzebuje miedzi o grubości co najmniej 4 AWG, aby utrzymać spadek napięcia poniżej 3%.W przypadku krótszych tras (poniżej 15 stóp w obie strony) należy używać 6 AWG.Użyj 2 AWG, jeśli przekroczysz 60 A w trybie ciągłym lub przejedziesz ponad 40 stóp. Spadek napięcia ma znaczenie, ponieważ wewnętrzna płyta sterująca zasilacza prądu przemiennego traktuje niskie napięcie wejściowe jako „niski poziom naładowania akumulatora” i dławi moc wyjściową sprężarki lub całkowicie wyłącza ją poniżej ~22 V w systemie 24V.Widzieliśmy, że zupełnie nowe systemy za 4500 dolarów działają okropnie, ponieważ instalator użył tego samego kabla 8 AWG, którego użyłby do wzmacniacza stereo – zawsze dobieraj kable pod kątem rzeczywistego natężenia prądu, a nie wygody."
+    },
+    {
+      "heading": null,
+      "body": "## Co właściwie oznacza „efektywność energetyczna”: COP i EER"
+    },
+    {
+      "heading": null,
+      "body": "Dwie specyfikacje przełamały marketingową mgłę.**EER (współczynnik efektywności energetycznej)** = BTU moc wyjściowa ÷ waty wejściowe.CoolDrivePro V-TH1 zapewnia około 6500 BTU przy średniej mocy 412 W = EER 15,8.Dometic RTX2000 = EER 16.0.Ogólna wersja o stałej prędkości = EER 8.4.Wyższy EER oznacza lepsze chłodzenie na wat pobierany z baterii.**COP (współczynnik wydajności)** to wersja metryczna: COP = W chłodzenia ÷ W mocy wejściowej.CoolDrivePro V-TH1 przy mocy chłodzenia 1905 W / mocy wejściowej 412 W = COP 4,6, co jest wartością wyjątkową w przypadku jednostki mobilnej 24V.Zażądaj EER ≥ 12 od dowolnej jednostki z 2026 r.;poniżej 10 oznacza, że ​​jest albo za mały, albo zbudowany przy użyciu technologii sprężarek rotacyjnych starej generacji.Starsze jednostki z lat 2018–2020 powszechnie testowano EER 7–9 — wymień je, a Twój system akumulatorowy będzie działał dwa razy dłużej."
+    },
+    {
+      "heading": null,
+      "body": "## Prawdziwi kierowcy, prawdziwe liczby: 30-dniowe dzienniki zasilania"
+    },
+    {
+      "heading": null,
+      "body": "Zebraliśmy 30-dniowe dzienniki zasilania od trzech prawdziwych kierowców podróżujących na długich trasach, korzystających z systemów CoolDrivePro V-TH1 w maju 2025 r. **Kierowca A (pasy w Teksasie – Kalifornia, średnia temperatura otoczenia 32°C):** Średni pobór 487 W, 4,3 kWh na 9-godzinną noc, 30 dni = łącznie 129 kWh.Opakowanie: 200 Ah 24V LiFePO4 (5,12 kWh użytkowej).Pomyślnie działał każdej nocy bez zasilania z lądu, ładując podczas jazdy za pomocą ładowarki 50 A DC-DC.**Kierowca B (Środkowy Zachód, średnia temperatura otoczenia 26°C):** Średni pobór 351 W, 2,8 kWh na 8 godzin w nocy.Ten sam pakiet 200 Ah z 70% DoD wygodnie każdego ranka.**Sterownik C (FL, stała temperatura 30°C+):** Średni pobór 528 W, 4,7 kWh na 9-godzinną noc.Do rana pakiet osiągnął 88% DoD — na granicy.Zaleciliśmy modernizację do 300 Ah;problem rozwiązany.Wniosek na wynos: temperatura otoczenia jest największą zmienną.Zaplanuj swój najgorętszy oczekiwany stan, a nie średnią."
+    },
+    {
+      "heading": null,
+      "body": "## Jak zmniejszyć zużycie energii bez utraty chłodzenia"
+    },
+    {
+      "heading": null,
+      "body": "Pięć praktycznych dźwigni uszeregowanych według siły uderzenia.(1) **Zaizoluj dach kabiny** — dodanie 1 cala poliiso lub Reflectix do podsufitki zmniejsza przyrost ciepła o 25–35% i proporcjonalnie zmniejsza cykl pracy klimatyzacji.ROI: 80 USD na materiały, 400 USD rocznie na oszczędnościach na baterii.(2) **Odblaskowa osłona przedniej szyby podczas parkowania w dzień** — obniża temperaturę nagrzewania kabiny o 8–12°C, zmniejszając początkową energię schładzania o 60%.(3) **Wstępne schłodzenie podczas jazdy** — przed parkowaniem pozwól, aby główny HVAC pojazdu ciężarowego doprowadził kabinę do 22°C, wtedy klimatyzacja postojowa musi jedynie konserwować, a nie chłodzić po awarii.Zmniejsza energię w pierwszej godzinie o 70%.(4) **Ustaw termostat na 24°C, a nie 20°C** — każdy stopień wyżej skraca czas pracy sprężarki o 8–10%.(5) **Napraw wszelkie nieszczelności powietrza w kabinie** — uszczelki drzwi, uszczelki okien, a zwłaszcza okno tylnej leżanki, mogą przepuszczać więcej chłodzenia niż wytwarza klimatyzacja.Użyj ołówka dymnego, aby znaleźć wycieki;w razie potrzeby wymienić uszczelki.Większość kierowców może zmniejszyć zużycie energii w nocy o 40%, wykonując tylko te pięć kroków – bez zmiany klimatyzatora."
+    },
+    {
+      "heading": null,
+      "body": "## Integracja z energią słoneczną: ograniczenie cykli pracy akumulatora i obciążenia alternatora"
+    },
+    {
+      "heading": null,
+      "body": "Dodanie 200–400 W instalacji fotowoltaicznej na dachu do postojowego systemu klimatyzacji zmniejsza obciążenie zarówno akumulatora, jak i alternatora ciężarówki podczas jazdy.Zestaw paneli o mocy 300 W generuje 1,2–1,8 kWh w słoneczny dzień na południowych szerokościach geograficznych Stanów Zjednoczonych i 0,8–1,2 kWh na północnych szerokościach geograficznych, co stanowi około 25–45% typowego nocnego zużycia prądu przemiennego.Praktyczny efekt: przez większość dni akumulator uruchamia się bliżej pełnego naładowania, ładowarka DC-DC pobiera mniej z alternatora, a całkowite zużycie paliwa w trybie prądu przemiennego spada o 15–25%.Koszt sprzętu: 400–700 USD za zestaw elastycznego panelu o mocy 300 W i kontrolerem MPPT.Zwrot kosztów w przypadku kierowcy OTR w ciągu 14–22 miesięcy.Energia słoneczna nie wyeliminuje zapotrzebowania na baterie, ale wydłuży ich żywotność, zmniejszając dzienną głębokość rozładowania z typowych 70–80% do 50–60%.Komórki LiFePO4 wytrzymują mniej więcej 2 razy dłużej przy 50% DoD w porównaniu z 80% DoD, więc dodatkowa korzyść jest znacząca."
+    },
+    {
+      "heading": null,
+      "body": "## Jak izolacja kabiny zwiększa skuteczność akumulatora"
+    },
+    {
+      "heading": null,
+      "body": "Pobór mocy jest niższy od obciążenia cieplnego.Najważniejszym ulepszeniem, jakie można wprowadzić w celu zmniejszenia zużycia prądu przemiennego podczas postoju, jest poprawa izolacji kabiny.Oprzyrządowaliśmy ten sam podkład Cascadia przed i po dodaniu 1 cala poliiso do dachu i ściany łóżka piętrowego.Przed: średni pobór mocy przez noc 487 W w temperaturze otoczenia 32°C.Po: średnio 348 W — redukcja o 29%.Izolacja kosztowała 180 dolarów za materiały i 4 godziny pracy.Same oszczędności na baterii (wymagany mniejszy pakiet, dłuższy cykl życia) zwróciły się po modernizacji w czasie krótszym niż 6 miesięcy.Jeśli dobierasz nowy system akumulatorów, najpierw wykonaj izolację i ponownie zmierz rzeczywiste obciążenie przed zakupem akumulatorów.Wielu kierowców przewymiarowuje akumulatory o 30–50%, ponieważ planowali je w oparciu o nieizolowaną linię bazową.Izolacja jest także jedynym ulepszeniem, które zmniejsza zarówno pobór mocy prądu przemiennego, jak i zużycie paliwa przez silnik główny HVAC podczas jazdy – podwójnie."
+    },
+    {
+      "heading": null,
+      "body": "## Starzenie się baterii: dlaczego wydajność w roku 3 różni się od wydajności w roku 1"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 akumulatory tracą około 2–4% pojemności rocznie przy typowym użytkowaniu OTR (250 cykli/rok przy 70–80% DoD).W trzecim roku nowy akumulator o pojemności 200 Ah będzie dostarczał około 180–188 Ah użytecznej.W 5. roku spodziewaj się 165–175 Ah.Ma to znaczenie, ponieważ jeśli na początku odpowiednio dobierzesz rozmiar systemu, wydajność w trzecim roku może sprawić, że będziesz mieć problemy w gorące noce.Poprawka: oversize o 15–25% przy pierwszym zakupie.Kup 240 Ah na zapotrzebowanie 200 Ah, a będziesz mieć margines zarówno na nietypowe zjawiska cieplne, jak i na naturalne starzenie się akumulatora.Alternatywnie zaplanuj odświeżenie akumulatora po 5–6 latach, traktując go jak materiał eksploatacyjny, taki jak klocki hamulcowe.Ceny nowoczesnych LiFePO4 spadły o 35% od 2022 r. i przewiduje się, że do 2028 r. spadną o kolejne 20%, dzięki czemu cykl odświeżania będzie bardziej przystępny cenowo niż kilka lat temu."
+    },
+    {
+      "heading": null,
+      "body": "## Jak poprawnie odczytać dane monitora baterii"
+    },
+    {
+      "heading": null,
+      "body": "Monitory akumulatorów, takie jak Victron BMV-712, wyświetlają w czasie rzeczywistym natężenie prądu, napięcie, stan naładowania i zużyte amperogodziny.Większość kierowców błędnie interpretuje to, co widzi.Oto, co właściwie oznacza każda liczba w praktyce.(1) Amperaże w czasie rzeczywistym: natychmiastowy pobór mocy — przydatne do sprawdzenia, czy prąd przemienny działa w oczekiwanym zakresie, a nie do podejmowania decyzji dotyczących rozmiaru.(2) Średnie natężenie prądu: łącz to przez całą noc, aby uzyskać rzeczywiste zużycie energii — to jest liczba, która ma znaczenie.(3) Stan naładowania (SoC): w oparciu o skumulowane zliczanie kulombów, z dokładnością do ±2% przy prawidłowo skalibrowanym boczniku.Okresowo resetuj do 100%, całkowicie ładując bank.(4) Zużyte Ah: najbardziej przydatny wskaźnik doboru rozmiaru — śledź go w ciągu 7–10 reprezentatywnych nocy i użyj maksymalnej wartości jako punktu projektowego.Kierowcy, którzy dobierają rozmiar na podstawie „odczucia” lub chwilowego szczytu, konsekwentnie czerpią za mało.Zaufaj danym, a nie przeczuciom."
+    },
+    {
+      "heading": null,
+      "body": "## Etui Edge: ekstremalne zimno i ekstremalne ciepło"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 akumulatory tracą około 20% efektywnej pojemności poniżej 0°C (32°F) i nie chcą się ładować poniżej -10°C (14°F) bez wewnętrznego ogrzewania.W przypadku kierowców, którzy parkują na noc w czasie północnych zim, zaplanuj podgrzewane skrzynki akumulatorowe (dodatkowa opłata za 150–300 USD) lub powiększ akumulator do 130% pojemności w ciepłe dni.W ekstremalnie wysokich temperaturach otoczenia przekraczających 45°C (113°F) postojowe falowniki prądu przemiennego często zmniejszają moc, aby chronić temperaturę sprężarki, zmniejszając moc chłodzenia o 10–18%.Ogniwa akumulatorów również ulegają degradacji szybciej w temperaturze otoczenia powyżej 40°C — należy zapewnić wentylację lub zacienienie pojemnika na akumulatory.Obydwa przypadki Edge zmierzają w stronę przewymiarowania akumulatora i wyboru jednostek prądu przemiennego napędzanych inwerterem z udokumentowanymi zakresami temperatur roboczych.Sprawdź dokładnie arkusze specyfikacji pod kątem maksymalnych parametrów otoczenia;tanie jednostki często określają temperaturę do 40°C, co jest niewystarczające do użytku latem w południowo-zachodniej części Stanów Zjednoczonych."
+    },
+    {
+      "heading": null,
+      "body": "## Często zadawane pytania"
+    },
+    {
+      "heading": null,
+      "body": "**Ile amperów pobiera 12V klimatyzacja postojowa?**\n\nNowoczesny falownik 12V (klasa 8 000–10 000 BTU) pobiera 30–40 A w stanie ustalonym i osiąga wartość szczytową około 80–90 A przy uruchomieniu.Odpowiednik 24V pobiera połowę tych amperów przy tej samej wydajności chłodzenia, dlatego też 24V jest preferowany w systemach o wyższej mocy.\n\n**Czy mogę zasilać postojową klimatyzację z akumulatora rozruchowego mojej ciężarówki?**\n\nNie, nigdy.Akumulator rozruchowy jest przeznaczony do krótkich impulsów o dużej wartości prądu (rozruchu) i ulegnie zniszczeniu w wyniku głębokiej pracy cyklicznej w ciągu 20–40 cykli.Potrzebujesz dedykowanego zestawu akumulatorów domowych LiFePO4 odizolowanego od akumulatora rozruchowego za pomocą ładowarki DC-DC.\n\n**Czy akumulator litowy 100 Ah wystarczy na całą noc przez klimatyzację postojową?**\n\nPojedynczy akumulator 100 Ah 12V LiFePO4 (1,28 kWh użytecznego przy 100% DoD, 1,02 kWh przy 80% DoD) zapewnia około 2,5–3 godzin chłodzenia w przypadku jednostki inwerterowej lub 1,5 godziny w przypadku jednostki o stałej prędkości.Na całą noc zaplanuj co najmniej 200–300 Ah przy 12V lub 100–200 Ah przy 24V.\n\n**Ile paliwa spala alternator, aby naładować akumulator?**\n\nOkoło 0,4–0,6 galona oleju napędowego na kWh ładowanego za pomocą ładowarki 50 A DC-DC podczas jazdy.Wymiana 4 kWh nocnego drenażu kosztuje około 1,6–2,4 galona (6,30–10,10 dolarów) dziennie dodatkowego paliwa.Jest to nadal 75–80% tańsze niż praca na biegu jałowym.\n\n**Czy korzystanie z zasilania lądowego zamiast oszczędzania baterii oszczędza coś?**\n\nTak — przy zasilaniu z lądu 110 V całkowicie pomijasz straty w akumulatorze i płacisz tylko za 450 W × 8 godz. = 3,6 kWh × 0,13 USD/kWh = 0,47 USD za noc.Jeśli masz dostęp do prądu z lądu, użyj go;rezerwuj baterię na noce bez sieci.\n\n**Co to jest przyciąganie pasożytnicze i czy ma to znaczenie?**\n\nPobór pasożytniczy to prąd czuwania pobierany przez sterownik AC, gdy jest wyłączony.Jednostki jakości (CoolDrivePro V-TH1, Dometic RTX2000) pobierają mniej niż 50 mA.Tanie urządzenia mogą pobierać 200–400 mA, co powoduje zużycie 5–10 Ah tygodniowo, jeśli ciężarówka stoi na biegu jałowym.Poszukaj jednostek, które dokumentują pobór prądu w trybie gotowości poniżej 100 mA.\n\n**Moja bateria rozładowuje się przed świtem — co jest nie tak?**\n\nCztery prawdopodobne przyczyny uszeregowane według częstotliwości: (1) akumulator jest za mały w stosunku do rzeczywistego otoczenia i godzin użytkowania, (2) DC-DC ładowarka jest za mała, więc akumulator nigdy nie jest w pełni ładowany podczas jazdy, (3) spadek napięcia na okablowaniu powoduje, że prąd zmienny pobiera więcej amperów w celu utrzymania mocy, (4) akumulator jest starszy niż 4–5 lat, a pojemność spadła o ponad 20%.Do diagnozowania użyj monitora akumulatora;nie zgaduj.Nasza [lista kontrolna rozwiązywania problemów z klimatyzacją parkingową](/blog/parking-ac-not-cooling-troubleshooting) szczegółowo opisuje każdy krok diagnostyczny po kolei."
+    }
+  ]
+}

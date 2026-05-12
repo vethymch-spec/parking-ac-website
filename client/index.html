@@ -10,8 +10,8 @@
     <link rel="dns-prefetch" href="https://d2xsxph8kpxj0f.cloudfront.net" />
 
     <!-- ===== PRIMARY SEO META TAGS ===== -->
-    <title>Parking Air Conditioner | 12V 24V No-Idle AC – CoolDrivePro</title>
-    <meta name="description" content="12V & 24V DC parking AC for trucks, RVs & vans. 10000–12000 BTU, no-idle operation. Free US shipping & 1-year warranty." />
+    <title>Parking Air Conditioner for Trucks & RVs | 12V 24V No-Idle AC – CoolDrivePro</title>
+    <meta name="description" content="Shop 12V/24V parking air conditioners for semi trucks, RVs, vans and pickups. Compare no-idle truck AC, RV parking AC, fitment and invoice options." />
     <meta name="keywords" content="parking air conditioner, 12V parking AC, no-idle AC, truck parking cooler, RV air conditioner, DC air conditioner" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="author" content="CoolDrivePro" />
@@ -20,8 +20,8 @@
     <!-- ===== OPEN GRAPH (Facebook / LinkedIn) ===== -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://cooldrivepro.com/" />
-    <meta property="og:title" content="Parking Air Conditioner | 12V 24V No-Idle Truck & RV AC – CoolDrivePro" />
-    <meta property="og:description" content="Best parking air conditioners for semi trucks, RVs, vans & campers. 12V & 24V DC no-idle AC units. 10000–12000 BTU. Free US shipping." />
+    <meta property="og:title" content="Parking Air Conditioner for Trucks & RVs | 12V 24V No-Idle AC – CoolDrivePro" />
+    <meta property="og:description" content="Shop 12V/24V parking air conditioners for semi trucks, RVs, vans and pickups. Compare no-idle truck AC, RV parking AC, fitment and invoice options." />
     <meta property="og:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -30,8 +30,8 @@
 
     <!-- ===== TWITTER CARD ===== -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Parking Air Conditioner | 12V 24V No-Idle Truck & RV AC – CoolDrivePro" />
-    <meta name="twitter:description" content="Best parking air conditioners for semi trucks, RVs, vans & campers. 12V & 24V DC no-idle AC units. Free US shipping." />
+    <meta name="twitter:title" content="Parking Air Conditioner for Trucks & RVs | 12V 24V No-Idle AC – CoolDrivePro" />
+    <meta name="twitter:description" content="Shop 12V/24V parking air conditioners for semi trucks, RVs, vans and pickups. Compare no-idle truck AC, RV parking AC, fitment and invoice options." />
     <meta name="twitter:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp" />
 
     <!-- ===== JSON-LD STRUCTURED DATA ===== -->
@@ -402,6 +402,40 @@
     <!-- Responsive hero image preload: mobile gets 20KB, desktop gets 88KB -->
     <link rel="preload" as="image" type="image/webp" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-640_fe5499d6.webp" media="(max-width: 640px)" fetchpriority="high" />
     <link rel="preload" as="image" type="image/webp" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp" media="(min-width: 641px)" fetchpriority="high" />
+
+    <!-- Google Ads conversion tracking: raw HTML so Ads and crawlers see it before React runs -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18126437861"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18126437861');
+
+      (function () {
+        var conversionSent = false;
+        function sendLeadConversion() {
+          if (conversionSent || typeof gtag !== 'function') return;
+          conversionSent = true;
+          gtag('event', 'conversion', {
+            send_to: 'AW-18126437861/LTqWCOzCqKQcEOX7rcND'
+          });
+        }
+
+        window.coolDriveProTrackLead = sendLeadConversion;
+
+        window.addEventListener('DOMContentLoaded', function () {
+          var target = document.body;
+          if (!target || typeof MutationObserver === 'undefined') return;
+          var observer = new MutationObserver(function () {
+            if ((target.innerText || '').includes('Thank you for reaching out.')) {
+              sendLeadConversion();
+              observer.disconnect();
+            }
+          });
+          observer.observe(target, { childList: true, subtree: true, characterData: true });
+        });
+      })();
+    </script>
   </head>
 
   <body>

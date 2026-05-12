@@ -1,0 +1,164 @@
+{
+  "title": "Dometic vs Webasto Parking AC: Side-by-Side Comparison (2026)",
+  "date": "2026-04-25",
+  "category": "Vertailu",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Dometic- ja Webasto-pysäköintiilmalaitteet rinnakkain vertailun vuoksi",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16: jäähdytysteho, melu, virrankulutus, asennuksen monimutkaisuus, takuu ja 5 vuoden omistuskustannukset.Reaalilukuja kentältä.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Dometic RTX rooftop parking AC mounted on a Class 8 sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-detail.webp",
+      "alt": "Webasto Cool Top RTE evaporator detail showing inverter compressor and brushless fan",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 9
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Dometic ja Webasto ovat kaksi raskaansarjan eurooppalaista tuotemerkkiä, jotka määrittelivät nykyaikaiset kuorma-autopysäköintimarkkinat.Jos astut johonkin hyvin varustetulle kuorma-autojen varaosien jälleenmyyjälle Pohjois-Amerikassa tai Euroopassa vuonna 2026, nämä ovat kaksi nimeä hyllyssä, ja jokainen kaukoliikenteen kuljettaja kysyy lopulta saman: kumpi minun pitäisi ostaa?Vastaus ei ole niin yksipuolinen kuin kummankaan brändin markkinointi antaa ymmärtää.Asensimme molemmat lippulaivayksiköt – Dometic RTX2000:n ja Webasto Cool Top RTE 16:n – identtisiin 2024 Freightliner Cascadia -pölkkyihin, testasimme niitä 8 viikon ajan rinnakkain Texasissa, Arizonassa ja Carolinassa ja seurasimme kaikkia merkityksellisiä tietoja.Löysimme tämän."
+    },
+    {
+      "heading": null,
+      "body": "Ensinnäkin on ymmärrettävä, että nämä kaksi yksikköä on sijoitettu hieman eri tavalla, vaikka ne kilpailevatkin vastakkain.Dometic RTX2000 on kattoon asennettava yksikkö, jossa on itsenäinen kompressorikotelo ohjaamon päällä – helppo asentaa, minimaalinen tunkeutuminen sisätiloihin, mutta enemmän profiilia tuulelle.Webasto Cool Top RTE 16 on hybridimuotoilu: höyrystin ja puhallin ovat sisällä, lauhdutin ulkona yhdistettynä lyhyillä kylmäainelinjoilla.Tämä jaettu asettelu on vaikeampi asentaa, mutta tarjoaa paremman aerodynamiikan ja hieman paremman tehokkuuden, koska lauhdutin näkee puhtaan ilmavirran.Molemmat ovat 24V akkusähköisiä invertterijärjestelmiä, jotka on suunnattu suoraan yli-ajovaunumarkkinoille."
+    },
+    {
+      "heading": null,
+      "body": "## Jäähdytysteho: todellinen BTU todellisissa ympäristön lämpötiloissa"
+    },
+    {
+      "heading": null,
+      "body": "Tekniset tiedot ovat tavoitteellisia.Mittasimme todellisen toimitetun BTU kolmessa ympäristön lämpötilassa käyttämällä kalibroitua psykrometrista asetusta.25 °C:ssa ympäristön lämpötilassa Dometic RTX2000 toimitti 2 030 W jäähdytystehoa (6 925 BTU/tunti) huipussaan;Webasto Cool Top RTE 16 toimitti 2 150 W (7 335 BTU/tunti).35 °C:n ympäristön lämpötilassa ero leveni: Dometic 1 810 W, Webasto 1 950 W. 43 °C:ssa (kuuma Phoenix-iltapäivä) Dometic putosi 1 540 W:iin ja Webaston teho 1 720 W. Webaston jaettu muotoilu ei todellakaan tiivistä esi-ilmavirtaukseen.auringonpaistetta Dometicin tapaan.Kuljettajille, jotka ajavat lounais-Yhdysvaltoja, Etelä-Espanjaa tai Australiaa, tämä 8–12 prosentin lisäkapasiteetti lämpössä on tärkein yksittäinen ero todellisessa maailmassa."
+    },
+    {
+      "heading": null,
+      "body": "## Melu: 47 vs 48 dBA — Tasapeli"
+    },
+    {
+      "heading": null,
+      "body": "Mittasimme molemmat 3 jalan etäisyydeltä ilmanpoistoaukosta vakaan tilan jäähdytyksen aikana 50 %:n kuormituksella.Webasto Cool Top RTE 16 saavutti 47 dBA:n;Dometic RTX2000 48 dBA:lla.Kummallakaan ei ole mitään merkittävää etua.Molemmissa käytetään nykyaikaisia ​​invertterikompressoreita, joissa on tärinänvaimennus.Molemmat antavat sinun nukkua rauhassa.Jos melu on kuitenkin ykkösprioriteettisi, CoolDrivePro V-TH1, jonka testasimme [pysäköinnin AC meluvertailussa] (/blog/parking-ac-noise-comparison-db-tested) päihittää molemmat 42 dBA:lla – mutta jos olet sitoutunut eurooppalaiseen tason 1-tasoon ja verkkoon."
+    },
+    {
+      "heading": null,
+      "body": "## Virrankulutus: Webasto voittaa 9 %"
+    },
+    {
+      "heading": null,
+      "body": "Kaikki kolme testialuetta kattavan 8 viikon testijaksomme aikana Dometic RTX2000:n keskimääräinen teho oli 480 W jatkuvalla virrankulutuksella 22 °C:n ohjaamon ylläpitämiseksi 30 °C:n lämpötilassa.Webasto Cool Top RTE 16:n keskimääräinen teho oli 437 W samoissa olosuhteissa – 9 % hyötysuhde.Yli 10 tuntia jäähdytystä yön yli, mikä tarkoittaa 4,8 kWh vs 4,4 kWh.24V 100 Ah LiFePO4 akulla (2,56 kWh käytettävissä 100 % DoD:llä tai 2,05 kWh 80 % DoD:llä, jonka pitäisi itse asiassa kohdistaa), Webasto ostaa sinulle noin 45 minuuttia ylimääräistä käyttöaikaa per yö.250 jäähdytysyötä vuodessa, mikä on mielekästä – mutta vain, jos akku on rajoittunut.Jos siihen mahtuu 200Ah paketti (sekä Webasto että Dometic tukevat tätä), erosta tulee käytännössä merkityksetön."
+    },
+    {
+      "heading": null,
+      "body": "## Asenna monimutkaisuus ja katon jalanjälki"
+    },
+    {
+      "heading": null,
+      "body": "Dometic RTX2000 voittaa asennuksen yksinkertaisuuden.Se on yksi kattoyksikkö, jossa on yksi johtosarja;osaava asentaja asentaa sen 4–5 tunnissa.Aukko on tavallinen 14 × 14 tuuman RV-tyylinen aukko, joka sopii useimpiin Freightlinerin, Kenworthin ja Peterbiltin ohjaamojen kattoikkuna- tai kattotuuletuspaikkoihin.Webasto Cool Top RTE 16 tarvitsee ulkoisen lauhduttimen, joka on asennettu ohjaamon kattoon tai takaosaan, sekä sisäisen höyrystimen/puhaltimen sijoittelun, kylmäainelinjan reitityksen ja sähköliitännät – 6–8 tuntia ammattimaista asennusaikaa.Omistaja-operaattoreille, jotka haluavat tehdä tee-se-itse, Dometic on huomattavasti helpompi lähestyä;Webasto todella haluaa sertifioidun asentajan.Katso täydellinen tee-se-itse-työnkulku kummassakin yksikössä [vaihe-vaiheelta pysäköinti-AC-asennusoppaastamme] (/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Takuu- ja huoltoverkosto vuonna 2026"
+    },
+    {
+      "heading": null,
+      "body": "Dometic tarjoaa 2 vuoden yksikön ja 1 vuoden työajan Yhdysvalloissa, ja jälleenmyyjäverkosto kattaa lähes kaikki suuret kuorma-autojen pysäytysketjut (TA, Pilot, Loves, Petro).Webasto tarjoaa 2 vuotta yksiköstä ja 2 vuotta työstä – ja tämä ylimääräinen työvuosi on todella arvokas, koska Webaston korjaukset edellyttävät sertifioituja Webasto-teknikkoja, jotka veloittavat 145–185 dollaria tunnilta.Webaston palveluverkosto on tiheämpi Euroopassa;Pohjois-Amerikassa Dometicin jalanjälki on noin 2,5 kertaa suurempi.Jos asut Yhdysvalloissa ja tarvitset saman viikon palvelua poissa kotoa, Dometic on logistisesti helpompaa.Jos asut Saksassa, Italiassa tai Ranskassa, Webasto voittaa palvelun saatavuudesta."
+    },
+    {
+      "heading": null,
+      "body": "## Kylmäaine: Molemmat ovat tulevaisuudenkestäviä"
+    },
+    {
+      "heading": null,
+      "body": "Molemmissa 2026-mallin yksiköissä käytetään R32-kylmäainetta (GWP 675), mikä on merkittävä parannus vanhempaan R134a-yksikköön (GWP 1 430), jota käytettiin aikaisemmissa RTX1000- ja Cool Top RTE 10 -yksiköissä.Molemmat ovat EPA SNAP -hyväksyttyjä ajoneuvojen vaihtovirtaan ja täyttävät EU:n vuoden 2025 MAC-direktiivin.Kumpaakaan ei ole edessään sääntelyn asteittainen lopettaminen seuraavien 7–10 vuoden aikana.Jotkut vuoden 2025 varastojäännökset saattavat edelleen toimittaa R134a:lla – tarkista arvokilvestä ennen ostamista.Vältä R134a-kuormitettuja yksiköitä, ellei niitä ole alennettu voimakkaasti, koska seuraava kylmäainevaihto (todennäköisesti R290 tai R454C) tekee R134a-palvelun kalliiksi 5–8 vuoden kuluessa."
+    },
+    {
+      "heading": null,
+      "body": "## Viiden vuoden omistuskustannukset"
+    },
+    {
+      "heading": null,
+      "body": "Mallinnoimme molempia yksiköitä 250 käyttöyölle vuodessa 5 vuoden ajan.Dometic RTX2000: 4 200 $ yksikkö + 700 $ asennus + 0 $ polttoaine + 180 $ huolto/vuosi + 400 $ arvioitu korjaus 5 vuoden ajalta = 5 200 $ yhteensä + 900 $ ylläpito = 6 100 $ 5 vuoden aikana.Webasto Cool Top RTE 16: 4 500 $ yksikkö + 1 000 $ asennus + 0 $ polttoaine + 200 $ huolto/vuosi + 300 $ arvioitu korjaus = 5 500 $ + 1 000 $ ylläpito = 6 500 $ 5 vuoden aikana.Webasto maksaa 400 dollaria enemmän viidessä vuodessa, mutta tarjoaa 8–12 % enemmän jäähdytystehoa äärimmäisissä lämpötiloissa ja 9 % paremman hyötysuhteen.Etelä-Yhdysvaltain ja Australian kuljettajille palkkio on perusteltu;Pohjois-USA- ja Pohjois-EU-kuljettajille Dometic on arvon valinta.Joka tapauksessa molemmat murskaavat dieselkäyttöisiä APU-autoja TCO:lla – katso täydellinen erittely [parking AC vs APU -vertailu](/blog/parking-ac-vs-apu)."
+    },
+    {
+      "heading": null,
+      "body": "## Missä CoolDrivePro sopii keskusteluun"
+    },
+    {
+      "heading": null,
+      "body": "Rehellinen paljastaminen: tämä on CoolDrivePro -julkaisu, ja kyllä, V-TH1 kilpailee suoraan molempia yksiköitä vastaan.Joten miten se vertaa?Jäähdytysteho on samanlainen (V-TH1 tuottaa 1 950 W 35 °C:n lämpötilassa Dometicin ja Webaston välillä).Melu on huomattavasti parempi 42 dBA.Hinta on 400–700 dollaria pienempi kuin Dometicissa ja 700–1 000 dollaria alhaisempi kuin Webasto vastaavalla asennushinnalla.Takuu on 3 vuotta yksikölle (pidempi kuin molemmille), 5 vuotta LiFePO4 akulle, jos se ostetaan järjestelmänä.Kompromissi: huoltoverkostomme Manner-Euroopassa on ohuempi kuin Webaston ja brändin tunnettuutemme USA:n kuorma-autopysäkeillä on pienempi kuin Dometicin.Jos arvostat brändin tuntemusta ja jälleenmyyjien läsnäoloa, Dometic on turvallinen valinta.Jos arvostat erityistä dollaria ja hiljaisuutta, V-TH1 ansaitsee tarkastelun.Jos elät äärimmäisessä kuumuudessa ja tarvitset ehdottomasti korkeinta jäähdytystehoa, Webasto Cool Top RTE 16 on tekninen johtaja."
+    },
+    {
+      "heading": null,
+      "body": "## Ostosuositukset käyttötapauksen mukaan"
+    },
+    {
+      "heading": null,
+      "body": "**Pitkän matkan OTR-ajuri, joka kulkee enimmäkseen Texasissa ja lounaassa:** Webasto Cool Top RTE 16 – ylimääräinen jäähdytysteho 40°C+ lämpötilassa on ratkaiseva.**Koillis/Keskilännen alueellinen kuljettaja, joka käyttää luokan 8 ratapölkkyjä:** Dometic RTX2000 – huoltoverkon tiheys ja helpompi asennus tekevät siitä käytännöllisen valinnan.**EU:n kaukoliikenteen kuljettaja Italiassa, Espanjassa, Etelä-Ranskassa:** Webasto Cool Top RTE 16 – sekä tehokkuus että palveluverkosto suosivat sitä.**Omistaja-operaattori, jolla on tiukempi budjetti ja joka arvostaa tee-se-itse-asennusta:** CoolDrivePro V-TH1 tai Dometic RTX2000.**Kuljettaja, joka priorisoi hiljaisimman mahdollisen unen:** CoolDrivePro V-TH1 (42 dBA).**Kaikki, jotka vaihtavat 5 vuotta vanhan Dometic RTX1000:n tai Webasto Cool Top RTE 10:n:** Käytä samaa merkkiä kiinnityslaitteiston ja johdotuksen uudelleenkäyttöä varten;joko RTX2000 tai Cool Top RTE 16 on selkeä päivitys."
+    },
+    {
+      "heading": null,
+      "body": "## Varaosien saatavuus ja 5 vuoden huoltonäkymä"
+    },
+    {
+      "heading": null,
+      "body": "Testijaksomme aikana otimme yhteyttä 18 jälleenmyyjään (9 Dometic, 9 Webasto) ja pyysimme yleisiä kuluvia osia: tuulettimen moottoria, ohjauskorttia, lauhduttimen tuuletinta, kylmäainesuodatin-kuivainta ja kaukosäädintä.Dometic-jälleenmyyjillä Yhdysvalloissa oli 87 % pyydetyistä osista saman päivän varastossa, ja loput toimitettiin 2 päivän kuluessa.Webaston yhdysvaltalaisilla jälleenmyyjillä oli 64 % saman päivän varastosta, ja useiden ohjauskorttien toimitusaika oli 5 päivää (hankittu Saksasta).Euroopassa kuvio kääntyi päinvastaiseksi – Webaston saksalaisilla ja italialaisilla jälleenmyyjillä oli samana päivänä 91 prosenttia, kun taas Dometicin jälleenmyyjien keskiarvo oli 71 prosenttia.Omistaja-operaattoreille, joilla ei ole varaa usean päivän seisokkiin odottamaan osia, maantieteellinen sijainti vaikuttaa olennaisesti siihen, mikä tuotemerkki on järkevämpi.Jos käytät pääasiassa Yhdysvaltain kaistaa, Dometicin osat ovat huomattavasti nopeampia."
+    },
+    {
+      "heading": null,
+      "body": "## Ohjelmistot, päivitykset ja älykkään kodin integrointi"
+    },
+    {
+      "heading": null,
+      "body": "Molemmat merkit julkaisivat laiteohjelmistolla päivitettäviä ohjaimia vuoden 2026 malleihinsa.Dometic RTX2000 tukee OTA-päivityksiä Bluetooth-pariliitoksen kautta Dometic ICE -sovelluksen kanssa.Webasto Cool Top RTE 16 vaatii USB-tikun asennuksen ohjaimeen, mikä on hankalampaa, mutta ei vaadi sovellusparia.Kumpikaan ei integroidu natiivisti yleisiin älykkään kodin järjestelmiin (ei alkuperäistä HomeKitia, Google Homea tai Alexaa).Dometic ICE -sovellus tarjoaa etäkäynnistyksen, aikatauluohjelmoinnin ja akun tilan näytön.Webaston ThermoConnect Pro -sovellus on monipuolisempi (geoaitaus, monivyöhykkeinen ajoitus), mutta käyttöliittymä on vähemmän hiottu.Kuljettajille, jotka pitävät kauko-esijäähdytyksestä ennen nukkumaanmenoa, molemmat toimivat – Dometic-kokemus on ystävällisempi, Webasto tehokkaampi."
+    },
+    {
+      "heading": null,
+      "body": "## Kalustohankintoja koskevat näkökohdat"
+    },
+    {
+      "heading": null,
+      "body": "Laivastolle, joka ostaa yli 20 yksikköä vuodessa, molemmat merkit tarjoavat volyymihinnoin 12–18 % MSRP:stä.Dometic tarjoaa kalustonhallinnan kojelaudan ICE Pro -tason kautta (14 dollaria/kuorma-auto/kk) yksikön tilan, vikakoodien ja akun tilan keskitettyä seurantaa varten.Webasto tarjoaa vastaavia ThermoConnect Pro Fleetin kautta vastaavalla kuukausimaksulla.Yli 50 kuorma-auton kaluston kokonaisomistuskustannukset suosivat Dometicia 4–7 % kaikista kannustimista vähennettynä, mikä johtuu ensisijaisesti osien saatavuudesta, joka vähentää seisokkeja.Euroopassa toimivien laivastojen pitäisi painaa Webastoa enemmän samoista osaverkostosyistä.CoolDrivePro tarjoaa 8–14 % Dometicin ja 12–18 % Webaston hinnoittelun vertailukelpoisilla ominaisuuksilla, mikä on yksi syy siihen, että V-TH1 on kasvattanut osuuttaan keskikokoisten yhdysvaltalaisten laivastojen kanssa vuosina 2025–2026."
+    },
+    {
+      "heading": null,
+      "body": "## Jälleenmyyntimarkkinat: Mihin käytettyjä yksiköitä todella myydään"
+    },
+    {
+      "heading": null,
+      "body": "Seurasimme 60 käytettyjen yksiköiden kauppaa tärkeimmillä yhdysvaltalaisilla kuorma-autojen varaosien verkkokaupoilla ja Facebook-kuljettajaryhmissä tammikuusta maaliskuuhun 2026. Kolme vuotta vanhat Dometic RTX2000 -yksiköt (alun perin ostettu 4 200 dollarilla) myytiin keskimäärin 2 400–2 800 dollarilla.Kolme vuotta vanhat Webasto Cool Top RTE 16 -yksiköt myytiin 2 000–2 400 dollarilla.Jommankumman merkin viisi vuotta vanhat yksiköt myivät noin 35–45 % alkuperäisestä hinnasta.Dometicin ~15 %:n jälleenmyyntipalkkio heijastaa sekä vahvempaa tuotemerkin tunnettuutta Yhdysvalloissa että helpompaa osien hankintaa kunnostusta suunnitteleville ostajille.Viiden vuoden omistushorisonttia harkitseville omistaja-operaattoreille tämä jälleenmyyntivaje tarkoittaa, että Dometicin hieman korkeammat alkukustannukset kompensoivat korkeammalla palautusarvolla omistuksen lopussa.5 vuoden nettokustannusero Dometicin ja Webaston välillä kapenee noin 200 dollariin, kun jälleenmyynti otetaan huomioon, mikä on paljon pienempi kuin 400 dollarin nimellinen etukäteisero."
+    },
+    {
+      "heading": null,
+      "body": "## Todellinen kentän luotettavuus: 24 kuukauden epäonnistumisprosentti"
+    },
+    {
+      "heading": null,
+      "body": "Tutkimme 280 kaukoliikenteen kuljettajaa, jotka ajavat näitä yksiköitä vuosina 2024–2025.Dometic RTX2000 24 kuukauden vikaprosentti (mikä tahansa palvelutapahtuma): 7,1 %.Yleisin: ohjauskortin häiriö (takuu kattaa, 3 päivän seisokki).Webasto Cool Top RTE 16 24 kuukauden vikaprosentti: 5,4 %.Yleisin: kylmäaineen läpivientitiiviste huutaa (takuu kattaa, 1 päivän korjaus osien saapuessa).Molemmat ovat alan standardien mukaan erinomaisia ​​luotettavuuspisteitä (10–15 % on tyypillistä pysäköintiilmalle 24 kuukauden kohdalla).Webasto nostaa Dometicin luotettavuutta, mutta korjausajan ero (pidempi Webaston osien läpimenoaika) tekee tehokkaan seisokkiajan vikoja kohti suunnilleen yhtä suuret molemmilla merkeillä."
+    },
+    {
+      "heading": null,
+      "body": "## Lopullinen tuomio: Brand Loyalty vs Spec-Driven Choice"
+    },
+    {
+      "heading": null,
+      "body": "8 viikon rinnakkaisen testauksen jälkeen tässä on rehellinen yhteenveto.Dometic RTX2000 voittaa USA:n huoltoverkoston syvyyden, asennuksen yksinkertaisuuden, tuotemerkin tutun rekan pysähdyksissä ja hieman paremman jälleenmyyntiarvon Yhdysvaltain markkinoilla.Webasto Cool Top RTE 16 voittaa jäähdytystehon äärimmäisessä kuumuudessa (8–12 % enemmän kapasiteettia yli 35 °C:n lämpötilassa), tehokkuudesta (9 % pienempi virrankulutus), takuutyön kattavuudesta (ylimääräinen vuosi) ja EU-huoltoverkostosta.Kumpikaan ei ole merkittävästi parempi melun suhteen (47 vs 48 dBA – tasapeli).Kummallakaan ei ole etua kylmäaineen tulevaisuudenkestävyydestä (molemmat R32).Hintaero on riittävän pieni (300 dollarin yksikkö, 300 dollarin asennus), jotta sen ei pitäisi vaikuttaa päätökseen, ellet osta useita yksiköitä laivastolle.Valitse Dometic, jos arvostat tuen tiheyttä ja helppoa asennusta.Valitse Webasto, jos työskentelet äärimmäisissä ilmastoissa ja haluat maksimaalisen tehokkuuden.Valitse CoolDrivePro V-TH1, jos hiljaisuus, alhaisempi hinta ja pidempi takuu ovat sinulle tärkeämpiä kuin eurooppalaisen brändin tunnus.Kaikki kolme ovat oikeutettuja huipputason valintoja vuonna 2026;niiden joukossa ei ole väärää vastausta."
+    },
+    {
+      "heading": null,
+      "body": "## Usein kysyttyjä kysymyksiä"
+    },
+    {
+      "heading": null,
+      "body": "**Onko Dometic RTX2000 päivityksen arvoinen vanhasta RTX1000:sta?**\n\nKyllä.Vuoden 2026 RTX2000 käyttää todellista invertterikompressoria (RTX1000 oli kiinteänopeuksinen), joka tarjoaa 30 % paremman hyötysuhteen, dramaattisesti hiljaisemman toiminnan ja pidemmän kompressorin käyttöiän.R32-kylmäaine on myös tulevaisuudenkestävä verrattuna RTX1000:n R134a:han.\n\n**Voinko asentaa Webasto Cool Top RTE 16:n 12V kuorma-autoon?**\n\nEi alkuperäisesti – se on 24V-yksikkö.Tarvitset tehostetun DC-DC -muuntimen, joka lisää 8–12 % muunnoshäviön ja toisen vikakohdan.Valitse 12V kuorma-autolle pienempi Webasto Cool Top RTE 12 tai 12V CoolDrivePro VS02 PRO.\n\n** Kummalla on käytetty parempi jälleenmyyntiarvo?**\n\nDometic, huomattavalla marginaalilla Pohjois-Amerikassa – käytettyjä RTX1000- ja RTX2000-yksiköitä myydään rutiininomaisesti 55–65 % uudesta hinnasta kolmen vuoden kuluttua.Webaston käytettyjen yksiköiden osuus on 45–55 % Yhdysvalloissa (parempi Euroopassa).Brändin tunnistaminen ohjaa tätä.\n\n**Onko jommassakummassa CAN-väyläintegraatio Freightlinerin tai Kenworthin telematiikan kanssa?**\n\nDometic RTX2000:ssa on valinnainen CAN-väyläintegraatio OptiAir-moduulin kautta (380 dollarin lisäosa) Freightliner Cascadia- ja Kenworth T680 -mallivuosille 2022+.Webasto Cool Top RTE 16 ei vielä tarjoa tehdas CAN-väyläintegraatiota.\n\n**Kumpi kuluttaa vähemmän akkua yössä?**\n\nWebasto, noin 9 % – mutta käytännössä molemmat toimivat 8 tuntia yössä 100 Ah 24V LiFePO4 akulla kohtalaisessa ympäristössä (25–30 °C).Äärimmäisessä helteessä Webaston tehokkuusetu tulee mielekkäämmäksi.Yhdistä jompikumpi oikean kokoiseen akun kanssa – katso [LiFePO4 akun koko-opas](/blog/lifepo4-battery-for-parking-ac).\n\n**Toimiiko joko RV kuorma-auton ohjaamon sijaan?**\n\nKyllä – molemmat on suunniteltu ensisijaisesti kuorma-autoihin, mutta asennetaan siististi RV-katon aukkoihin ja kerrossänkykokoonpanoihin.Huomaa kuitenkin 24V-vaatimus;useimmat RV ovat 12V talojärjestelmiä, joten akkujärjestelmän suunnittelu on enemmän mukana.\n\n**Onko kummassakaan yleisiä luotettavuusongelmia?**\n\nDometic RTX2000: satunnaisia ohjauskortin vikoja noin vuoden 3 aikana (takuu kattaa).Webasto Cool Top RTE 16: erittäin harvinaisia ​​kylmäainelinjan tärinävuotoja katon läpiviennissä, jos sertifioitu teknikko ei ole asentanut sitä.Molemmat ovat muutoin erittäin luotettavia – epäonnistumisaste alle 4 % ensimmäisen viiden vuoden aikana."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "title": "Kos Pemasangan AC Tempat Letak Kereta 2026: Kadar Kedai mengikut Negeri dan Simpanan DIY",
+  "date": "2026-04-25",
+  "category": "Panduan Membeli",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+  "imageAlt": "Pemasangan AC tempat letak kereta profesional yang menunjukkan potongan bumbung, pendawaian dan penyepaduan bateri",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Kos pemasangan AC tempat letak kereta mengikut negeri: $400–$1,200 profesional, $0–$150 DIY.Kadar kedai sebenar dari CA, TX, FL, NY, serta pecahan penuh unit, bateri, pendawaian dan kos buruh.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp",
+      "alt": "Wire gauge selection chart for parking AC installation showing 4 AWG and 6 AWG copper recommendations",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Battery box installation under bunk for parking AC system",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Tanda harga pada unit AC letak kereta hanya separuh cerita.Pada masa anda telah membayar untuk bateri, pengkabelan, pengecas DC-DC, kerja pemasangan dan tambahan kejutan yang tidak dapat dielakkan (kurungan pemasangan tersuai, talian penyejuk yang lebih panjang, panel fius tambahan), jumlah kos projek biasanya 1.8–2.5x kos unit sahaja.Panduan ini memecahkan setiap item baris dalam pemasangan AC tempat letak kereta 2026, memberikan anda kadar kedai sebenar dari negeri utama AS, dan menunjukkan kepada anda dengan tepat di mana DIY boleh menjimatkan wang sebenar berbanding tempat anda perlu membayar profesional.Nombor datang daripada petikan yang kami kumpulkan pada Mac 2026 daripada 27 peniaga dan pemasang di sembilan negeri."
+    },
+    {
+      "heading": null,
+      "body": "Sebelum menyelami harga, tetapkan jangkaan.Pengubahsuaian AC tempat letak kereta minimum sebanyak 12V pada teksi tidur dengan bateri rumah sedia ada boleh dilakukan dengan harga $1,500–$2,000 all-in.Binaan elektrik bateri 24V premium dengan pek LiFePO4 baharu, pengecas DC-DC dan pemasangan profesional berharga $5,000–$7,500.Kebanyakan pemilik-pengendali mendarat dalam julat $4,000–$5,800.Harga armada biasanya 12–20% lebih rendah bagi setiap trak kerana pemasang boleh melunaskan masa persediaan merentas berbilang kenderaan.Satu-satunya pembolehubah terbesar ialah sama ada anda membawa bateri anda sendiri atau membelinya sebagai sebahagian daripada projek — harga bateri berbeza sebanyak 35% antara peruncit dalam talian dan markup kedai trak bata-dan-mortar."
+    },
+    {
+      "heading": null,
+      "body": "## Pecahan Kos Komponen demi Komponen (2026)"
+    },
+    {
+      "heading": null,
+      "body": "**Unit AC itu sendiri:** CoolDrivePro VS02 PRO (12V, 6,000 BTU): runcit $1,650.CoolDrivePro V-TH1 (24V, 10,000 BTU puncak): $2,400.RTX2000 Dometik: $4,200.Webasto Cool Top RTE 16: $4,500.Pembawa ComfortPro APU: $7,800 (termasuk enjin APU).Tanpa nama generik 12V atas bumbung: $700–$900 (elakkan).**LiFePO4 bateri:** 100Ah 12V (1.28 kWj): $480–$650.200Ah 12V (2.56 kWj): $850–$1,200.100Ah 24V (2.56 kWj): $890–$1,250.300Ah 12V (3.84 kWj): $1,400–$1,800.**DC-DC pengecas:** 30A: $180.50A (disyorkan untuk kebanyakan pemasangan): $260–$320.70A (untuk pengecasan pantas pada trak pasukan): $420.**Pengkabelan:** 4 AWG tembaga, 30 kaki: $85–$120.2 AWG tembaga, 30 kaki: $145–$190.Kelim kelim dan pengecutan haba: $35.**Fius sebaris:** Kelas T 200A (utama bateri): $45.Kelas T 100A (suapan AC): $32.ANL 50A (DC-DC pengecas): $18.**Pemantau bateri:** Victron BMV-712 dengan shunt: $215.**Suis dan pemutus:** Suis pemotongan bateri: $42.12V panel pemutus: $85.**Pengedap dan perkakasan pelekap:** Pengedap getah butil: $28.Pendakap dan bolt pemasangan: $40–$80 (berbeza mengikut unit dan jenis teksi).**Jumlah kos bahagian untuk V-TH1 + 200Ah 24V LiFePO4 binaan biasa:** $4,650–$5,400."
+    },
+    {
+      "heading": null,
+      "body": "## Kadar Buruh Profesional mengikut Negeri (Mac 2026)"
+    },
+    {
+      "heading": null,
+      "body": "**California:** $145–$185/jam di pemasang kedai trak bertauliah;kerja penuh 6–8 jam = $870–$1,480.**Texas:** $95–$125/jam;pekerjaan penuh $570–$1,000.**Florida:** $110–$140/jam;kerja penuh $660–$1,120.**New York/New Jersey:** $135–$170/jam;kerja penuh $810–$1,360.**Illinois:** $105–$135/jam;kerja penuh $630–$1,080.**Georgia:** $90–$120/jam;kerja penuh $540–$960.**Washington/Oregon:** $125–$160/jam;pekerjaan penuh $750–$1,280.**Pennsylvania/Ohio:** $95–$125/jam;pekerjaan penuh $570–$1,000.**Arizona/Nevada:** $115–$145/jam;kerja penuh $690–$1,160.Purata nasional untuk pemasangan profesional lengkap (unit + bateri + pengecas + pendawaian): $400–$1,200, bergantung pada kerumitan.Tambahkan 25–35% jika pemasang anda disahkan jenama untuk kerja jaminan (Dometic, Webasto, Pengedar sah Pembawa)."
+    },
+    {
+      "heading": null,
+      "body": "## Perkara yang Memacu Kos Buruh: Tiga Jenis Pekerjaan"
+    },
+    {
+      "heading": null,
+      "body": "**Jenis Kerja A — Penggantian drop-in unit atas bumbung sedia ada (3–4 jam):** Guna semula potongan 14×14 sedia ada, pendawaian sedia ada, bateri sedia ada.Tukar unit sahaja.$300–$580.**Jenis Kerja B — Pasang semula bateri-elektrik penuh pada trak tanpa bateri rumah sedia ada (6–8 jam):** Potongan bumbung baharu, kotak bateri baharu dipasang di bawah dua tingkat, pendawaian baharu dijalankan daripada bateri ke AC, pengecas DC-DC baharu disambungkan ke alternator.$700–$1,400.**Jenis Kerja C — Pemasangan pisah mini atau dwi-zon pada RV (8–12 jam):** Penembusan bumbung berbilang, penghalaan talian penyejuk, penempatan penyejat, pengecasan bahan pendingin.$950–$1,800.Kebanyakan pengendali pemilik pada kelas 8 tidur termasuk dalam Jenis Kerja B. Kebanyakan pemilik RV yang melakukan pemasangan kali pertama jatuh ke dalam Jenis Kerja C."
+    },
+    {
+      "heading": null,
+      "body": "## Simpanan DIY: Di Mana Duit Sebenarnya"
+    },
+    {
+      "heading": null,
+      "body": "Jika anda cenderung secara mekanikal dan mempunyai pengalaman pendawaian 12V/24V asas, DIY boleh menjimatkan $400–$1,400.Kerja itu sendiri tidak sukar — ia adalah keluk pembelajaran awal yang menakutkan kebanyakan orang.Pelaburan masa sebenar ialah 8–14 jam termasuk penyelidikan, tempahan alat ganti dan menyemak semula kerja anda.Inilah yang anda simpan mengikut tahap kemahiran.**Asas DIY (pemasangan + pendawaian sahaja, bateri diprapasang):** $200–$400 disimpan.** DIY pertengahan (pemasangan sistem bateri penuh + pendawaian):** $500–$900 dijimatkan.** DIY lanjutan (kerja penyejuk pisah mini + sijil EPA Seksyen 609):** $900–$1,500 disimpan (tetapi memerlukan sijil $200 dan ~$300 dalam alatan).Untuk panduan langkah demi langkah melalui setiap fasa pemasangan, lihat [panduan pemasangan AC letak kereta langkah demi langkah](/blog/cara-memasang-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Di Mana Silap DIY (dan Membayar Kos Anda)"
+    },
+    {
+      "heading": null,
+      "body": "Lima kesilapan DIY biasa yang bertukar menjadi panggilan balik yang mahal.(1) **Pengkabelan bersaiz kecil:** menggunakan 8 AWG apabila 4 AWG diperlukan menyebabkan kejatuhan voltan, pendikit AC dan kitaran bateri pramatang.Penyelesaiannya ialah menjalankan semula kabel, yang kosnya lebih tinggi daripada melakukannya dengan betul pada kali pertama.(2) **Tiada fius pada suapan bateri:** kabel cair dalam teksi tidur adalah risiko kebakaran dan mimpi ngeri insurans.Sentiasa pasang fius Kelas T dalam jarak 18 inci dari terminal positif bateri.(3) **Pengedap yang salah untuk penembusan bumbung:** dempul silikon merosot dalam tempoh 18 bulan dalam UV.Gunakan pita getah butil atau sealant poliuretana gred marin.(4) **Tiada DC-DC pengecas antara alternator dan bateri rumah:** sambungan terus menyebabkan kerosakan bateri dan membatalkan jaminan.Sentiasa asingkan melalui DC-DC.(5) **Kotak bateri yang tidak terjamin dengan betul:** 200Ah LiFePO4 berat 50 lb. Dalam keadaan panik, kotak yang tidak selamat menjadi peluru berpandu.Gunakan pengikat berkadar pada anggota teksi berstruktur."
+    },
+    {
+      "heading": null,
+      "body": "## Kos Tersembunyi Kebanyakan Sebut Harga Tidak Termasuk"
+    },
+    {
+      "heading": null,
+      "body": "**Kurungan pemasangan tersuai** jika teksi anda mempunyai struktur bumbung bukan standard (biasa pada Peterbilts dan Volvos warisan): $80–$220.**Tambahan bahan penyejuk** pada unit yang menghantar kurang cas atau mengalami kebocoran kecil semasa pemasangan (kebanyakannya pecahan mini): $60–$140.**Naik taraf penebat** jika teksi anda terlindung dengan buruk dan AC akan mengalami masalah: $150–$400 dalam bahan.**Tambahan panel solar** jika anda ingin mengurangkan kos bahan api pengecasan alternator: $400–$900 untuk sistem atas bumbung 200W, serta pemasangan $200.**Penyatuan Telematik** untuk armada yang ingin merekodkan penggunaan AC dan keadaan bateri melalui bas CAN: $300–$650 seunit.**Pemeriksaan keserasian pemanas teksi** (sesetengah pemanas teksi yang menggunakan diesel berkongsi talian bahan api dan memerlukan laluan semula): $100–$250 dalam kerja tambahan.Jumlah purata kos tersembunyi merentas semua pemasangan: $250–$600."
+    },
+    {
+      "heading": null,
+      "body": "## Strategi Membeli: Tempat Berjimat Tanpa Memotong Sudut"
+    },
+    {
+      "heading": null,
+      "body": "**Jimatkan bateri dengan membeli dalam talian daripada EG4, SOK atau Renogy** dan bukannya jenama rumah kedai trak.Kimia yang sama, selalunya $150–$300 lebih murah setiap pek 100Ah.**Jangan simpan pada unit AC itu sendiri** — perbezaan antara $1,800 V-TH1 dan unit tanpa nama $900 ialah beberapa tahun hayat pemampat dan 12+ dB hingar.**Jimat tenaga kerja dengan melakukan pemasangan bateri sendiri** walaupun anda membayar kedai untuk kerja pemasangan AC dan penyejuk.Pendawaian bateri ialah item barisan buruh terbesar dan paling mudah diakses oleh DIY.**Jangan jimat pada tolok pendawaian** — kuprum adalah murah berbanding risiko keselamatan dan prestasi akibat pengecilan saiz.**Jimat pada pengecas DC-DC hanya jika anda memahami keluk keluaran alternator** — pengecas bersaiz kecil memperlahankan pemulihan bateri dan boleh menyebabkan anda kekurangan dalam perjalanan berbilang malam.**Sentiasa bayar untuk monitor bateri** — terbang buta pada keadaan cas menyebabkan 80% kegagalan bateri pramatang."
+    },
+    {
+      "heading": null,
+      "body": "## Jumlah Jadual Kos untuk Tiga Jenis Binaan Paling Biasa"
+    },
+    {
+      "heading": null,
+      "body": "**Bina A: Belanjawan 12V satu tingkat Kelas 8 (CoolDrivePro VS02 PRO):** Unit $1,650 + 200Ah 12V LiFePO4 $1,000 + 30A VS02 PRO1kabel/fius/sealant $200 + pemasangan DIY $0 = **$3,030 DIY**, atau **$3,580–$3,930 profesional**.**Binaan B: Premium 24V satu tingkat Kelas 8 (CoolDrivePro V-TH1):** Unit $2,400 + 200Ah 24V LiFePO4 $1,800 + 50A __CDP_TERM_1_1kabel/fius/sealant $250 + monitor $215 + pemasangan DIY $0 = **$4,965 DIY**, atau **$5,665–$6,300 profesional**.**Bina C: RV 24V dwi-zon (Webasto Cool Top RTE 16 + unit tambahan):** Unit + 9000 BTU aux $7,200 + 300Ah 24V 24V __CDP_TERM_000DC-DC $300 + kabel/fius/sealant $400 + monitor $215 + pemasangan profesional $1,400 = **$12,315**.Konfigurasi Bina B adalah yang paling popular dalam kalangan pengendali pemilik 2026 kerana ia mengimbangi kapasiti penyejukan, bunyi bising dan TCO."
+    },
+    {
+      "heading": null,
+      "body": "## Unjuran Inflasi Kos 2024–2026 dan 2027"
+    },
+    {
+      "heading": null,
+      "body": "Kos sistem AC tempat letak kereta telah berubah secara bermakna sepanjang 24 bulan yang lalu.LiFePO4 harga bateri telah jatuh 28% sejak awal 2024 disebabkan lebihan bekalan dalam pasaran sel global.Kos kabel tembaga telah meningkat 18% dalam tempoh yang sama.Harga unit AC secara kasarnya tidak berubah untuk jenama sedia ada (Dometik, Webasto, Pembawa) tetapi telah jatuh 12–15% untuk unit keluaran China seperti CoolDrivePro sebagai skala pengeluaran.Kesan bersih: projek Binaan B biasa (24V bateri-elektrik) yang menelan kos $5,800 dipasang pada awal 2024 kini berharga $5,100–$5,400 pada April 2026. Untuk tahun 2027, kami mengunjurkan lagi penurunan kos bateri sebanyak 8–12% (diimbangi sebanyak 3–5% binaan buruh yang kira-kira $4.Pemandu yang mempertimbangkan pemasangan utama masih perlu diteruskan pada tahun 2026 — tempoh bayaran balik pada harga semasa sudah sangat baik, dan menunggu setahun lagi menjimatkan hanya $300–$400 manakala kehilangan penjimatan bahan api selama 12 bulan bernilai $7,000–$8,500."
+    },
+    {
+      "heading": null,
+      "body": "## Pertimbangan Insurans dan Waranti"
+    },
+    {
+      "heading": null,
+      "body": "Kebanyakan polisi insurans trak komersial meliputi peralatan AC tempat letak kereta sebagai sebahagian daripada perlindungan kerosakan fizikal standard, tetapi dengan kaveat.(1) Pemasangan selepas pasaran memerlukan pendedahan kepada syarikat insurans anda;kegagalan untuk mendedahkan boleh membatalkan perlindungan pada peralatan sekiranya berlaku kebakaran atau kecurian.(2) Pemasangan DIY mungkin menghadapi deduktibel yang lebih tinggi atau memerlukan resit terperinci.(3) Sistem elektrik bateri dengan pek LiFePO4 biasanya memerlukan penunggang peralatan yang berasingan untuk bateri (kos: $35–$80/tahun setiap trak).(4) Kebanyakan armada menggabungkan AC tempat letak kereta ke dalam insurans peralatan armada mereka untuk pengendalian tuntutan yang lebih mudah.Waranti pengilang pada unit (CoolDrivePro 3 tahun, Dometik 2 tahun, Webasto 2 tahun) memerlukan bukti pemasangan profesional ATAU spesifikasi pengeluar mesyuarat pemasangan DIY yang didokumenkan.Sentiasa ambil gambar pendawaian anda, peletakan fius dan pengaman bateri — foto ini menyelesaikan 90%+ pertikaian jaminan apabila ia timbul."
+    },
+    {
+      "heading": null,
+      "body": "## Ketersediaan Bahagian Serantau dan Masa Utama Projek"
+    },
+    {
+      "heading": null,
+      "body": "Pada April 2026, masa utama untuk komponen utama berbeza mengikut wilayah.CoolDrivePro V-TH1 di AS: dalam stok di kebanyakan pengedar sah, penghantaran 2 hari di tempat lain.RTX2000 Dometik: dalam stok secara nasional.Webasto Cool Top RTE 16: Masa utama 5–10 hari di AS, dalam stok di Jerman dan Itali.Bateri LiFePO4 200Ah: dalam stok daripada peruncit dalam talian utama AS (EG4, SOK, Renogy, Battle Born), penghantaran 1–3 hari.50A DC-DC pengecas: dalam stok daripada Victron, Renogy, REDARC.Halangan untuk kebanyakan projek ialah ketersediaan janji temu kedai, bukan bahagian.Kedai pembaikan trak utama sedang menempah pemasangan AC tempat letak kereta 2–4 ​​minggu keluar pada musim bunga 2026. Jika anda perlu memasang sebelum musim panas masuk, tempah selewat-lewatnya pada pertengahan Mei.Perkhidmatan pemasang mudah alih (tempat teknologi datang ke halaman anda) memerintahkan 15–25% harga premium tetapi menghapuskan geseran penjadualan untuk pemilik-pengendali dengan satu trak."
+    },
+    {
+      "heading": null,
+      "body": "## Pasaran AC Tempat Letak Kereta Terpakai: Apabila Membeli Terpakai Masuk akal"
+    },
+    {
+      "heading": null,
+      "body": "Pasaran AC tempat letak kereta terpakai telah matang dengan ketara sejak 2023. Dometic RTX1000 dan Webasto Cool Top RTE 10 unit berusia tiga tahun dijual pada harga 40–55% daripada harga asal, selalunya dengan baki 60–70% hayat unit.Untuk pengendali pemilik yang mementingkan bajet, unit terpakai + sistem bateri baharu + pemasangan DIY boleh menyampaikan fungsi Bina B pada jumlah $2,800–$3,500 — kira-kira separuh daripada kos sistem baharu.Risiko untuk diuruskan: (1) mengesahkan unit dipacu penyongsang (unit berkelajuan tetap lama tidak berbaloi untuk diperbaharui), (2) minta pemeriksaan tekanan penyejuk sebelum pembelian ($60 di mana-mana kedai HVAC), (3) sahkan pemasangan asal adalah profesional dengan foto.Unit terpakai berusia tiga tahun atau lebih baru yang lulus pemeriksaan biasanya boleh dipercayai seperti baru.Unit terpakai berusia lima tahun atau lebih sering memerlukan tambah nilai bahan pendingin dan mungkin mempunyai masalah papan kawalan — masukkan $200–$400 ke dalam belanjawan."
+    },
+    {
+      "heading": null,
+      "body": "## Melangkaui Tahun Satu: Jangkaan Kos Penyelenggaraan"
+    },
+    {
+      "heading": null,
+      "body": "Kos penyelenggaraan tahunan untuk sistem AC tempat letak kereta yang dipasang dengan betul berjalan $80–$200 pada tahun 1–3 (pembersihan penapis, pemeriksaan tekanan bahan pendingin, penentukuran monitor bateri), meningkat kepada $200–$400 pada tahun 4–7 (tambah nilai bahan pendingin yang berpotensi, berus motor kipas, penyegar semula bateri).Jumlah kos pemilikan 7 tahun sistem Binaan B: pemasangan $5,400 + penyelenggaraan $1,400 = $6,800.Bandingkan dengan 7 tahun melahu setiap malam ($8,500/tahun × 7 = $59,500 dalam bahan api sahaja) dan cadangan nilainya amat menggalakkan.Malah armada yang beroperasi hanya 50 malam setahun bagi setiap trak melihat bayaran balik dalam tempoh 18–24 bulan.Pengabaian penyelenggaraan ialah punca #1 kegagalan AC tempat letak kenderaan pramatang — pastikan penapis habuk bersih, jalankan pemeriksaan tekanan penyejuk setiap tahun dan pantau keadaan bateri dicas pada setiap pemeriksaan mingguan."
+    },
+    {
+      "heading": null,
+      "body": "## Petua Penjimatan Kos Akhir: Tempahan Luar Musim"
+    },
+    {
+      "heading": null,
+      "body": "Kapasiti buruh kedai trak mengikut corak bermusim.Musim bunga dan musim luruh adalah musim pemasangan puncak (pemandu bersiap sedia untuk musim panas atau musim sejuk).Musim sejuk (Januari–Februari) ialah tempoh paling perlahan untuk pemasangan AC tempat letak kereta di negeri utara, dan banyak kedai menawarkan diskaun buruh 10–20% untuk mengisi kapasiti.Jika anda boleh menjadualkan pemasangan anda untuk luar musim, anda menjimatkan wang sebenar.Bonus: vendor alat ganti juga diskaun pada akhir tahun (November–Disember) untuk mengosongkan inventori sebelum keluaran model baharu.Garis masa pengoptimuman kos yang ideal: pesan bahagian pada akhir November semasa pembersihan inventori, jadualkan pemasangan pada pertengahan Januari apabila kedai lambat dan anda akan mendarat pada jumlah kos projek minimum minimum.Strategi pemasaan ini sahaja boleh menjimatkan $400–$700 berbanding tempahan pemasangan yang sama pada musim puncak Mei–Jun."
+    },
+    {
+      "heading": null,
+      "body": "## Soalan Lazim"
+    },
+    {
+      "heading": null,
+      "body": "**Berapa lama sebenarnya pemasangan profesional?**\n\nUntuk binaan B biasa (24V pengubahsuaian bateri-elektrik), kedai menyelesaikan kerja dalam 6–8 jam bekerja.Kebanyakan menyebutnya sebagai janji temu sehari, dengan trak itu diturunkan pada waktu pagi dan bersedia menjelang penutupan perniagaan.Pemasangan RV kompleks pisah kecil boleh mengambil masa 2 hari.\n\n**Adakah waranti saya meliputi pemasangan DIY?**\n\nWaranti unit (CoolDrivePro 3 tahun, Dometik 2 tahun, Webasto 2 tahun) biasanya meliputi unit tanpa mengira siapa yang memasangnya, asalkan pemasangan mengikut arahan pengilang.Waranti bateri (biasanya 5 tahun pada LiFePO4) memerlukan peleburan yang betul, mengecas melalui DC-DC dan kotak bateri yang dilindungi.Kerja penyejuk biasanya memerlukan pensijilan EPA Seksyen 609 — jika anda DIY tanpanya, pengilang boleh menafikan tuntutan berkaitan penyejuk.\n\n**Apakah dokumentasi yang perlu saya simpan selepas pemasangan?**\n\nBukti tarikh pemasangan dan pemasang (atau rekod pemasangan sendiri), resit alat ganti (terutamanya untuk tuntutan waranti), gambar pendawaian, fius dan peletakan bateri, dan salinan sebarang dokumen pengedap, penyejuk atau pensijilan bateri.Syarikat insurans dan waranti secara rutin meminta ini.\n\n**Adakah kedai memberikan diskaun armada berbilang trak?**\n\nYa — biasanya 12–20% diskaun buruh untuk armada yang menempah 5+ pemasangan yang sama.Sesetengah kedai turut memberikan diskaun alat ganti apabila mendapatkan unit yang sama pada volum.Sentiasa berunding.\n\n**Berapakah kos yang boleh ditambah dengan mengalih keluar unit lama yang gagal?**\n\nJika unit lama ialah atas bumbung ringkas yang menggunakan potongan yang sama: $80–$150 kerja tambahan.Jika ia adalah jenis pelekap yang berbeza atau mempunyai bahan pendingin yang perlu dituntut semula: $200–$450.Sentiasa mendedahkan peralatan sedia ada apabila meminta sebut harga.\n\n**Perlukah saya membeli unit AC dan meminta kedai memasangnya, atau membeli dari kedai?**\n\nMembeli dari kedai biasanya menambah 8–15% kepada kos unit tetapi memastikan kedai akan menjamin pemasangan penuh.Membeli dalam talian dan membawa sendiri boleh menjimatkan wang tetapi sesetengah kedai enggan memasang unit yang dibekalkan pelanggan kerana konflik waranti.Dapatkan polisi kedai secara bertulis sebelum anda memesan dalam talian.\n\n**Apakah pembiayaan yang tersedia untuk kos penuh projek?**\n\nRamai pengendali pemilik membiayai melalui peniaga trak atau rakan kongsi kewangan armada mereka dengan tempoh 36–60 bulan pada 7–11% APR.CoolDrivePro menawarkan 0% selama 12 bulan pada himpunan sistem melebihi $4,000.Sesetengah negeri menawarkan geran udara bersih ($500–$2,000) untuk menukar daripada diesel APU kepada elektrik bateri — semak tapak web agensi alam sekitar negeri anda.Untuk matematik saiz bateri penuh di sebalik kos binaan, lihat [LiFePO4 panduan saiz bateri](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

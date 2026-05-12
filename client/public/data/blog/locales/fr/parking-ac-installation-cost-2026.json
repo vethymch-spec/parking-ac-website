@@ -1,0 +1,156 @@
+{
+  "title": "Coût d'installation de la climatisation de stationnement 2026 : tarifs des magasins par État et économies de bricolage",
+  "date": "2026-04-25",
+  "category": "Guide d'achat",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+  "imageAlt": "Installation AC de stationnement professionnelle montrant la découpe du toit, le câblage et l'intégration de la batterie",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Coût d'installation de la climatisation de stationnement par État : 400 $ à 1 200 $ pour un professionnel, 0 $ à 150 $ pour le bricolage.Tarifs d'atelier réels de CA, TX, FL, NY, plus ventilation complète des coûts de l'unité, de la batterie, du câblage et de la main-d'œuvre.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp",
+      "alt": "Wire gauge selection chart for parking AC installation showing 4 AWG and 6 AWG copper recommendations",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Battery box installation under bunk for parking AC system",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Le prix d’une unité de climatisation de stationnement ne représente que la moitié de l’histoire.Une fois que vous avez payé les batteries, le câblage, le chargeur DC-DC, la main d'œuvre d'installation et les inévitables extras surprises (support de montage personnalisé, conduites de réfrigérant plus longues, panneau de fusibles supplémentaire), le coût total du projet est généralement de 1,8 à 2,5 fois le coût de l'unité seule.Ce guide détaille chaque élément d'une installation de climatisation de stationnement 2026, vous donne les tarifs réels des magasins dans les principaux États américains et vous montre exactement où le bricolage peut économiser de l'argent réel par rapport à celui où vous devriez payer un professionnel.Les chiffres proviennent de devis que nous avons collectés en mars 2026 auprès de 27 revendeurs et installateurs dans neuf États."
+    },
+    {
+      "heading": null,
+      "body": "Avant de vous plonger dans les prix, définissez vos attentes.Une rénovation minimale de la climatisation de stationnement 12V sur une cabine couchette avec les batteries existantes de la maison peut être réalisée pour 1 500 $ à 2 000 $ tout compris.Une construction électrique à batterie 24V haut de gamme avec un nouveau pack LiFePO4, un chargeur DC-DC et une installation professionnelle coûte entre 5 000 $ et 7 500 $.La plupart des propriétaires-exploitants atterrissent entre 4 000 et 5 800 $.Le prix du parc est généralement inférieur de 12 à 20 % par camion, car les installateurs peuvent amortir le temps de configuration sur plusieurs véhicules.La variable la plus importante est de savoir si vous apportez vos propres batteries ou si vous les achetez dans le cadre du projet : les prix des batteries varient de 35 % entre les détaillants en ligne et les majorations des magasins de camions physiques."
+    },
+    {
+      "heading": null,
+      "body": "## Répartition des coûts composant par composant (2026)"
+    },
+    {
+      "heading": null,
+      "body": "**L'unité AC elle-même :** CoolDrivePro VS02 PRO (12V, 6 000 BTU) : 1 650 $ au détail.CoolDrivePro V-TH1 (24V, 10 000 BTU pointe) : 2 400 $.Dometic RTX2000 : 4 200 $.Webasto Cool Top RTE 16 : 4 500 $.Carrier ComfortPro APU : 7 800 $ (comprend le moteur APU).Toit générique sans nom 12V : 700 $ à 900 $ (à éviter).**Batteries LiFePO4 :** 100 Ah 12V (1,28 kWh) : 480 $ à 650 $.200 Ah 12V (2,56 kWh) : 850 $ à 1 200 $.100 Ah 24V (2,56 kWh) : 890 $ à 1 250 $.300 Ah 12V (3,84 kWh) : 1 400 $ à 1 800 $.**Chargeur DC-DC :** 30A : 180 $.50A (recommandé pour la plupart des installations) : 260 $ à 320 $.70A (pour recharge rapide sur les camions des équipes) : 420 $.**Câblage :** Cuivre 4 AWG, 30 pieds : 85 $ à 120 $.Cuivre 2 AWG, 30 pieds : 145 $ à 190 $.Cosses à sertir et thermorétractables : 35 $.**Fusibles en ligne :** Classe T 200A (batterie principale) : 45 $.Classe T 100A (alimentation AC) : 32 $.ANL 50A (chargeur DC-DC) : 18 $.**Moniteur de batterie :** Victron BMV-712 avec shunt : 215 $.**Interrupteurs et disjoncteurs :** Coupe-batterie : 42 $.Panneau de disjoncteurs 12V : 85 $.**Mastic et matériel de montage :** Scellant en caoutchouc butyle : 28 $.Supports de montage et boulons : 40 $ à 80 $ (varie selon l'unité et le type de cabine).**Coût total des pièces pour une version typique V-TH1 + 200 Ah 24V LiFePO4 :** 4 650 $ à 5 400 $."
+    },
+    {
+      "heading": null,
+      "body": "## Taux de main-d'œuvre professionnelle par État (mars 2026)"
+    },
+    {
+      "heading": null,
+      "body": "**Californie :** 145 $ à 185 $/heure chez des installateurs d'ateliers de camions certifiés ;travail complet 6 à 8 heures = 870 $ à 1 480 $.**Texas :** 95 $ à 125 $/heure ;travail complet entre 570 et 1 000 $.**Floride :** 110 $ à 140 $/heure ;travail complet entre 660 et 1 120 $.**New York/New Jersey :** 135 $ à 170 $/heure ;travail complet entre 810 et 1 360 $.**Illinois :** 105 $ à 135 $/heure ;travail complet entre 630 et 1 080 $.**Géorgie :** 90 $ à 120 $/heure ;travail complet 540 $ à 960 $.**Washington/Oregon :** 125 $ à 160 $/heure ;travail complet entre 750 et 1 280 $.**Pennsylvanie/Ohio :** 95 $ à 125 $/heure ;travail complet entre 570 et 1 000 $.**Arizona/Nevada :** 115 $ à 145 $/heure ;travail complet entre 690 et 1 160 $.Moyenne nationale pour une installation professionnelle complète (unité + batterie + chargeur + câblage) : 400 $ à 1 200 $, selon la complexité.Ajoutez 25 à 35 % si votre installateur est certifié par la marque pour les travaux sous garantie (revendeurs agréés Dometic, Webasto, Carrier)."
+    },
+    {
+      "heading": null,
+      "body": "## Qu'est-ce qui détermine le coût de la main-d'œuvre : trois types d'emplois"
+    },
+    {
+      "heading": null,
+      "body": "**Type de travail A — Remplacement immédiat de l'unité de toit existante (3 à 4 heures) :** Réutilisez la découpe 14×14 existante, le câblage existant et les batteries existantes.Il suffit d'échanger l'unité.300 $ à 580 $.**Type de travail B — Rénovation électrique complète sur batterie sur un camion sans batterie domestique existante (6 à 8 heures) :** Nouvelle découpe du toit, nouveau boîtier de batterie installé sous la couchette, nouveau câblage allant de la batterie au secteur, nouveau chargeur DC-DC câblé à l'alternateur.700 $ à 1 400 $.**Travail de type C — Installation mini-split ou double zone sur un RV (8 à 12 heures) :** Pénétrations multiples dans le toit, acheminement des conduites de réfrigérant, placement de l'évaporateur, charge de réfrigérant.950 $ à 1 800 $.La plupart des propriétaires-exploitants de traverses de classe 8 appartiennent au type d'emploi B. La plupart des propriétaires RV effectuant de premières installations appartiennent au type d'emploi C."
+    },
+    {
+      "heading": null,
+      "body": "## Épargne DIY : où se trouve réellement l'argent"
+    },
+    {
+      "heading": null,
+      "body": "Si vous êtes passionné de mécanique et possédez une expérience de base en matière de câblage 12V/24V, le bricolage peut économiser entre 400 $ et 1 400 $.Le travail en lui-même n’est pas difficile : c’est la courbe d’apprentissage initial qui intimide la plupart des gens.L'investissement en temps réel est de 8 à 14 heures, y compris la recherche, la commande de pièces et la double vérification de votre travail.Voici ce que vous économisez par niveau de compétence.**Bricolage de base (montage + câblage uniquement, piles préinstallées) :** 200 $ à 400 $ d'économie.**Bricolage intermédiaire (installation complète du système de batterie + câblage) :** 500 $ à 900 $ économisés.**Bricolage avancé (travail avec un réfrigérant mini-split + certificat EPA Section 609) :** 900 $ à 1 500 $ d'économie (mais nécessite un certificat de 200 $ et environ 300 $ en outils).Pour obtenir des conseils étape par étape tout au long de chaque phase d'installation, consultez notre [guide d'installation étape par étape de la climatisation de stationnement](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Où le bricolage tourne mal (et vous coûte de l'argent)"
+    },
+    {
+      "heading": null,
+      "body": "Cinq erreurs courantes de bricolage qui se transforment en rappels coûteux.(1) **Câblage sous-dimensionné :** l'utilisation de 8 AWG alors que 4 AWG est requis entraîne une chute de tension, une limitation du courant alternatif et un cycle prématuré de la batterie.La solution consiste à réexécuter le câble, ce qui coûte plus cher que de le faire correctement du premier coup.(2) **Pas de fusible sur l'alimentation de la batterie :** un câble fondu dans une cabine couchette est un risque d'incendie et un cauchemar pour l'assurance.Installez toujours un fusible de classe T à moins de 18 pouces de la borne positive de la batterie.(3) **Mauvais scellant pour les pénétrations de toit :** le calfeutrage au silicone se dégrade en 18 mois sous l'effet des UV.Utilisez du ruban de caoutchouc butyle ou un mastic polyuréthane de qualité marine.(4) **Pas de chargeur DC-DC entre l'alternateur et la batterie domestique :** une connexion directe endommage la batterie et annule la garantie.Isolez-vous toujours via DC-DC.(5) **Boîtier de batterie mal sécurisé :** un LiFePO4 de 200 Ah pèse 50 lb. Lors d'un arrêt de panique, un boîtier non sécurisé devient un missile.Utilisez des attaches homologuées sur un élément structurel de la cabine."
+    },
+    {
+      "heading": null,
+      "body": "## Coûts cachés que la plupart des devis n'incluent pas"
+    },
+    {
+      "heading": null,
+      "body": "**Supports de montage personnalisés** si votre cabine a une structure de toit non standard (commune sur les Peterbilt et Volvo historiques) : 80 $ à 220 $.**Ajout de réfrigérant** sur les unités expédiées sous-chargées ou qui développent des fuites mineures lors de l'installation (principalement des mini-splits) : 60 $ à 140 $.**Amélioration de l'isolation** si votre cabine est mal isolée et que la climatisation aura du mal : 150 $ à 400 $ en matériaux.**Ajout d'un panneau solaire** si vous souhaitez réduire le coût du carburant de recharge de l'alternateur : 400 $ à 900 $ pour un système de toit de 200 W, plus 200 $ d'installation.**Intégration télématique** pour les flottes qui souhaitent enregistrer l'utilisation du secteur et l'état de la batterie via le bus CAN : 300 $ à 650 $ par unité.**Vérification de compatibilité des chauffages de cabine** (certains chauffages de cabine au diesel partagent des conduites de carburant et doivent être réacheminés) : 100 $ à 250 $ en main d'œuvre supplémentaire.Coût total caché moyen pour toutes les installations : 250 $ à 600 $."
+    },
+    {
+      "heading": null,
+      "body": "## Stratégie d'achat : où économiser sans lésiner sur les raccourcis"
+    },
+    {
+      "heading": null,
+      "body": "**Économisez sur les batteries en achetant en ligne auprès de EG4, SOK ou Renogy** plutôt que de la marque maison du magasin de camions.Même chimie, souvent 150 à 300 $ moins cher par pack de 100 Ah.**N'économisez pas sur l'unité de climatisation elle-même** : la différence entre une unité V-TH1 de 1 800 $ et une unité sans nom de 900 $ est de plusieurs années de durée de vie du compresseur et de plus de 12 dB de bruit.**Économisez sur la main d'œuvre en installant vous-même la batterie**, même si vous payez un magasin pour le montage du courant alternatif et les travaux de réfrigération.Le câblage de la batterie est le poste de travail le plus important et le plus accessible au bricolage.**N'économisez pas sur le calibre du câblage** : le cuivre est bon marché par rapport au risque de sécurité et aux performances liés au sous-dimensionnement.**Économisez sur le chargeur DC-DC uniquement si vous comprenez les courbes de sortie de l'alternateur** : les chargeurs sous-dimensionnés ralentissent la récupération de la batterie et peuvent vous laisser à court de voyages de plusieurs nuits.**Payez toujours pour un moniteur de batterie** : voler à l'aveugle lorsque l'état de charge est à l'origine de 80 % des pannes prématurées de la batterie."
+    },
+    {
+      "heading": null,
+      "body": "## Tableaux de coûts totaux pour les trois types de construction les plus courants"
+    },
+    {
+      "heading": null,
+      "body": "**Construire A : Budget 12V classe 8 à couchette unique (CoolDrivePro VS02 PRO) :** Unité 1 650 $ + 200 Ah 12V LiFePO4 1 000 $ + 30A DC-DC 180 $ +câblage/fusibles/produit d'étanchéité 200 $ + installation DIY 0 $ = **3 030 $ DIY**, ou **3 580 $ – 3 930 $ professionnel**.**Construction B : Premium 24V couchette simple Classe 8 (CoolDrivePro V-TH1) :** Unité 2 400 $ + 200 Ah 24V LiFePO4 1 800 $ + 50A DC-DC 300 $ +câblage/fusibles/produit d'étanchéité 250 $ + moniteur 215 $ + installation DIY 0 $ = **4 965 $ DIY**, ou **5 665 $ – 6 300 $ professionnel**.**Construction C : RV 24V bizone (Webasto Cool Top RTE 16 + unité auxiliaire) :** Unité + 9 000 BTU aux 7 200 $ + 300 Ah 24V LiFePO4 2 800 $ + 50 ADC-DC 300 $ + câblage/fusibles/produit d'étanchéité 400 $ + moniteur 215 $ + installation professionnelle 1 400 $ = **12 315 $**.La configuration Build B est la plus populaire parmi les 2026 propriétaires-exploitants car elle équilibre la capacité de refroidissement, le bruit et le TCO."
+    },
+    {
+      "heading": null,
+      "body": "## Tendances de l’inflation des coûts Projections 2024-2026 et 2027"
+    },
+    {
+      "heading": null,
+      "body": "Les coûts du système de climatisation de stationnement ont considérablement évolué au cours des 24 derniers mois.Les prix des batteries LiFePO4 ont chuté de 28 % depuis début 2024 en raison de l'offre excédentaire sur le marché mondial des cellules.Les coûts du câblage en cuivre ont augmenté de 18 % sur la même période.Les prix unitaires du climatiseur sont à peu près stables pour les marques établies (Dometic, Webasto, Carrier), mais ont chuté de 12 à 15 % pour les unités fabriquées en Chine comme CoolDrivePro à mesure que la production augmente.Effet net : un projet typique de construction B (électrique à batterie 24V) qui coûtait 5 800 $ installé au début de 2024 coûte désormais entre 5 100 et 5 400 $ en avril 2026. Pour 2027, nous prévoyons une baisse supplémentaire du coût des batteries de 8 à 12 % (compensée par une inflation de 3 à 5 % de la main-d'œuvre), ce qui porterait la même construction à environ 4 800 $.Les conducteurs qui envisagent une installation majeure devraient toujours procéder à une installation majeure en 2026 : les délais de récupération aux prix actuels sont déjà excellents, et attendre un an de plus ne permet d'économiser que 300 à 400 $ tout en perdant 12 mois d'économies de carburant d'une valeur de 7 000 à 8 500 $."
+    },
+    {
+      "heading": null,
+      "body": "## Considérations relatives à l'assurance et à la garantie"
+    },
+    {
+      "heading": null,
+      "body": "La plupart des polices d'assurance pour camions commerciaux couvrent les équipements de climatisation de stationnement dans le cadre de la couverture standard des dommages physiques, mais avec des mises en garde.(1) Les installations après-vente doivent être divulguées à votre assureur ;le défaut de divulgation peut annuler la couverture de l’équipement en cas d’incendie ou de vol.(2) Les installations de bricolage peuvent être confrontées à des franchises plus élevées ou nécessiter des reçus détaillés.(3) Les systèmes électriques à batterie avec packs LiFePO4 nécessitent généralement un équipement distinct pour la batterie (coût : 35 $ à 80 $/an par camion).(4) La plupart des flottes regroupent la climatisation de stationnement dans leur assurance équipement de flotte pour une gestion plus simple des réclamations.Les garanties du fabricant sur les unités (CoolDrivePro 3 ans, Dometic 2 ans, Webasto 2 ans) nécessitent une preuve d'installation professionnelle OU une installation DIY documentée répondant aux spécifications du fabricant.Photographiez toujours votre câblage, l'emplacement des fusibles et la fixation de la batterie : ces photos résolvent plus de 90 % des litiges de garantie lorsqu'ils surviennent."
+    },
+    {
+      "heading": null,
+      "body": "## Disponibilité régionale des pièces et délais de réalisation des projets"
+    },
+    {
+      "heading": null,
+      "body": "En avril 2026, les délais de livraison des principaux composants varient selon les régions.CoolDrivePro V-TH1 aux États-Unis : en stock chez la plupart des revendeurs agréés, livraison sous 2 jours ailleurs.Dometic RTX2000 : en stock à l’échelle nationale.Webasto Cool Top RTE 16 : délai de livraison de 5 à 10 jours aux États-Unis, en stock en Allemagne et en Italie.Batteries LiFePO4 200 Ah : en stock auprès des principaux détaillants en ligne américains (EG4, SOK, Renogy, Battle Born), expédition en 1 à 3 jours.Chargeurs 50A DC-DC : en stock de Victron, Renogy, REDARC.Le goulot d'étranglement pour la plupart des projets est la disponibilité des rendez-vous en atelier, et non des pièces.Les principaux ateliers de réparation de camions réservent des installations de climatisation de stationnement pendant 2 à 4 semaines au printemps 2026. Si vous avez besoin d'une installation avant l'arrivée de la chaleur estivale, réservez au plus tard à la mi-mai.Les services d'installation mobiles (où la technologie arrive dans votre cour) exigent des prix majorés de 15 à 25 %, mais éliminent les frictions de planification pour les propriétaires-exploitants possédant un seul camion."
+    },
+    {
+      "heading": null,
+      "body": "## Marché du stationnement AC d'occasion : quand l'achat d'occasion a du sens"
+    },
+    {
+      "heading": null,
+      "body": "Le marché de la climatisation pour parking d'occasion a considérablement mûri depuis 2023. Les unités Dometic RTX1000 et Webasto Cool Top RTE 10, vieilles de trois ans, se vendent entre 40 et 55 % du prix d'origine, avec souvent 60 à 70 % de la durée de vie de l'unité restante.Pour les propriétaires-exploitants soucieux de leur budget, une unité d'occasion + un nouveau système de batterie + une installation DIY peuvent offrir une fonctionnalité Build B pour un total de 2 800 à 3 500 $, soit environ la moitié du coût d'un nouveau système.Risques à gérer : (1) vérifiez que l'unité était entraînée par un inverseur (les anciennes unités à vitesse fixe ne valent pas la peine d'être remises à neuf), (2) exigez une vérification de la pression du réfrigérant avant l'achat (60 $ dans n'importe quel magasin HVAC), (3) confirmez que l'installation d'origine était professionnelle avec des photos.Les unités d'occasion vieilles de trois ans ou plus qui réussissent l'inspection sont généralement aussi fiables que les neuves.Les unités usagées vieilles de cinq ans ou plus nécessitent souvent un complément de réfrigérant et peuvent avoir des problèmes de tableau de commande – tenez compte de 200 à 400 $ dans le budget."
+    },
+    {
+      "heading": null,
+      "body": "## Au-delà de la première année : attentes en matière de coûts de maintenance"
+    },
+    {
+      "heading": null,
+      "body": "Les coûts d'entretien annuels pour un système de climatisation de stationnement correctement installé s'élèvent à 80 $ à 200 $ les années 1 à 3 (nettoyage du filtre, contrôle de la pression du réfrigérant, étalonnage du moniteur de batterie), et s'élèvent à 200 $ à 400 $ les années 4 à 7 (appoint potentiel en réfrigérant, balais du moteur du ventilateur, rafraîchissement de la batterie).Coût total de possession sur 7 ans d'un système Build B : 5 400 $ d'installation + 1 400 $ de maintenance = 6 800 $.Comparez à 7 ans de marche au ralenti la nuit (8 500 $/an × 7 = 59 500 $ en carburant seul) et la proposition de valeur est écrasante.Même les flottes qui ne fonctionnent que 50 nuits par an et par camion sont rentabilisées en 18 à 24 mois.La négligence en matière d'entretien est la première cause de panne prématurée du courant alternatif en stationnement : gardez les filtres à poussière propres, effectuez une vérification de la pression du réfrigérant chaque année et surveillez l'état de charge de la batterie à chaque inspection hebdomadaire."
+    },
+    {
+      "heading": null,
+      "body": "## Dernier conseil pour économiser : réservation hors saison"
+    },
+    {
+      "heading": null,
+      "body": "La capacité de main-d’œuvre des ateliers de camionnage suit des tendances saisonnières.Le printemps et l'automne sont les périodes de pointe pour l'installation (les conducteurs se préparent pour l'été ou l'hiver).L'hiver (janvier-février) est la période la plus lente pour le stationnement des installations de climatisation dans les États du nord, et de nombreux magasins offrent des remises sur la main-d'œuvre de 10 à 20 % pour remplir leur capacité.Si vous pouvez planifier votre installation hors saison, vous économisez de l’argent réel.Bonus : les vendeurs de pièces détachées bénéficient également de réductions en fin d'année (novembre-décembre) pour écouler les stocks avant la sortie de nouveaux modèles.Le calendrier idéal d'optimisation des coûts : commandez des pièces fin novembre lors du déstockage, planifiez l'installation à la mi-janvier lorsque les magasins sont lents, et vous atterrirez au coût total minimum absolu du projet.Cette stratégie de timing à elle seule peut permettre d'économiser entre 400 et 700 $ par rapport à la réservation de la même installation pendant la haute saison de mai à juin."
+    },
+    {
+      "heading": null,
+      "body": "## Questions fréquemment posées"
+    },
+    {
+      "heading": null,
+      "body": "**Combien de temps prend réellement une installation professionnelle ?**\n\nPour une construction B typique (rénovation électrique à batterie 24V), les ateliers effectuent le travail en 6 à 8 heures de travail.La plupart le citent comme un rendez-vous d'une journée, le camion étant déposé le matin et prêt à la fermeture des bureaux.Les installations mini-splitées complexes RV peuvent prendre 2 jours.\n\n**Ma garantie couvrira-t-elle l'installation par vous-même ?**\n\nLes garanties de l'unité (CoolDrivePro 3 ans, Dometic 2 ans, Webasto 2 ans) couvrent généralement l'unité, quelle que soit la personne qui l'installe, à condition que l'installation suive les instructions du fabricant.Les garanties de batterie (généralement 5 ans sur LiFePO4) nécessitent une fusion appropriée, une charge via DC-DC et un boîtier de batterie protégé.Les travaux avec réfrigérant nécessitent généralement la certification EPA Section 609 – si vous faites du bricolage sans cette certification, le fabricant peut refuser les réclamations liées au réfrigérant.\n\n**Quelle documentation dois-je conserver après l'installation ?**\n\nPreuve de la date d'installation et de l'installateur (ou dossiers d'auto-installation), reçus de pièces (en particulier pour les réclamations au titre de la garantie), photos du câblage, du fusible et de l'emplacement de la batterie, et copies de tout document de certification de produit d'étanchéité, de réfrigérant ou de batterie.Les compagnies d’assurance et de garantie les demandent régulièrement.\n\n**Les magasins offrent-ils des réductions pour les flottes multi-camions ?**\n\nOui, généralement 12 à 20 % de réduction sur la main d'œuvre pour les flottes réservant plus de 5 installations identiques.Certains magasins proposent également des remises sur les pièces lorsqu'ils s'approvisionnent en volume pour la même unité.Négociez toujours.\n\n**Dans quelle mesure le retrait d'une ancienne unité défaillante ajoute-t-il au coût ?**\n\nSi l’ancienne unité est un simple toit qui utilise la même découpe : 80 à 150 $ de main d’œuvre supplémentaire.S'il s'agit d'un type de montage différent ou s'il y a un réfrigérant à récupérer : 200 $ à 450 $.Divulguez toujours l’équipement existant lorsque vous demandez des devis.\n\n**Dois-je acheter le climatiseur et le faire installer par le magasin, ou l'acheter dans le magasin ?**\n\nL'achat dans le magasin ajoute généralement 8 à 15 % au coût unitaire, mais garantit que le magasin garantira l'installation complète.Acheter en ligne et apporter le vôtre peut permettre d'économiser de l'argent, mais certains magasins refusent d'installer les unités fournies par le client en raison de conflits de garantie.Obtenez la politique du magasin par écrit avant de commander en ligne.\n\n**Quel financement est disponible pour le coût total du projet ?**\n\nDe nombreux propriétaires exploitants financent par l'intermédiaire de leur concessionnaire de camions ou de leur partenaire de financement de flotte avec des durées de 36 à 60 mois à un TAEG de 7 à 11 %.CoolDrivePro offre 0 % pendant 12 mois sur les offres groupées système de plus de 4 000 $.Certains États offrent des subventions pour l'air pur (500 $ à 2 000 $) pour passer du diesel APU à l'électricité à batterie – consultez le site Web de l'agence environnementale de votre État.Pour obtenir des informations complètes sur le dimensionnement de la batterie derrière le coût de construction, consultez notre [guide de dimensionnement de la batterie LiFePO4](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

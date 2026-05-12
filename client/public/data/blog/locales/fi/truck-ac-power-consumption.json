@@ -1,0 +1,148 @@
+{
+  "title": "Kuorma-auton vaihtovirtavirrankulutus: wattia, ampeeria ja akun tyhjennys selitettynä (2026)",
+  "date": "2026-04-25",
+  "category": "Virta & Akku",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Kuorma-auton pysäköinti AC-virrankulutuksen valvonta shuntilla ja akkumonitorilla",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Kuorma-auton vaihtovirtavirrankulutus: 480 W keskimäärin, 9 A 24V, 38–55 Ah per yö.Reaalilukuja, kaavoja akun kokoa varten ja kuinka invertterikompressorit leikkaavat vetoa 30 %.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Jokainen pysäköinti AC-ostosta tulee lopulta takaisin yhteen kysymykseen: kuinka paljon virtaa tämä laite todella kuluttaa ja kuinka suuren akun tarvitsen?Markkinoinnin vastaus on aina epämääräinen – 12V yhteensopiva, energiatehokas invertteri, 'yön jäähdytyskyky'.Rehellinen vastaus on todellinen luku watteina, ampeerina ja ampeeritunteina, jotka voit liittää akun mitoituskaavaan.Tämä opas antaa sinulle nämä luvut, selittää, mistä ne ovat peräisin, ja näyttää, kuinka ne muunnetaan akkujärjestelmäksi, joka todella tarjoaa koko yön viilennystä jättämättä sinut pulaan kuolleen pakkauksen kanssa kello 4.00."
+    },
+    {
+      "heading": null,
+      "body": "Pysäköinti-AC:n virrankulutus ei ole yksittäinen luku.Se vaihtelee ympäristön lämpötilan, ohjaamon tavoitelämpötilan, ohjaamon tilavuuden, eristyksen laadun, tuulettimen nopeuden ja – mikä tärkeintä – sen mukaan, onko kompressori kiinteänopeuksinen vai invertterikäyttöinen.12 000 BTU pysäköinti-AC voi vetää 1 400 W, kun kompressori käynnistyy ensimmäisen kerran täydellä kuormituksella, mutta vain 380 W tasaisen jäähdytyksen aikana, kun ohjaamo saavuttaa asetusarvon.Keskimääräinen yli 8 tunnin yö on se, mikä ratkaisee akun koon, ei huippu.Alla erittelemme neljä todella tärkeää numeroa ja näytämme, kuinka voit mitata ne itse 35 dollarin shunttipohjaisella akkunäytöllä."
+    },
+    {
+      "heading": null,
+      "body": "## Neljä numeroa, jotka sinun on tiedettävä"
+    },
+    {
+      "heading": null,
+      "body": "**Huippukulutus (W tai A):** Suurin jatkuva teho alkujäähdytyksen aikana, tyypillisesti ensimmäiset 15–25 minuuttia käynnistyksen jälkeen.Nykyaikaisessa 24V-invertteriyksikössä, kuten CoolDrivePro V-TH1, huippu on noin 1 200–1 400 W (50–58 A 24V:ssa).Vanhemmat kiinteänopeuksiset yksiköt voivat nousta 1 800–2 200 W:iin (75–92 A 24V:ssa).Johtojen ja sulakkeiden on kestettävä huippuja – alimitoitettu kaapeli tässä on yleisin syy jännitteen laskuun ja ennenaikaiseen sammumiseen.**Stady-state veto (W tai A):** Keskimääräinen veto, kun ohjaamo on asetuspisteessä ja kompressori moduloi lämpötilan ylläpitämiseksi.Invertteriyksiköt asettuvat arvoon 380–480 W (16–20 A 24V).Kiinteänopeuksiset yksiköt kytkeytyvät päälle/pois, keskimäärin 600–800 W tehokas.**Energia per tunti (Wh):** Vakaan tilan kulutus × 1 tunti.Tyypillisellä invertteriyksiköllä 450 W:n keskiteholla se on 450 Wh/h.**Kokonaisenergia per yö (Wh tai Ah):** Keskimääräinen kulutus × käyttötunnit.Kahdeksan tuntia 450 W = 3 600 Wh = 150 Ah 12V tai 75 Ah 24V (ennen akun tehohäviöiden huomioon ottamista)."
+    },
+    {
+      "heading": null,
+      "body": "## Invertteri vs. kiinteänopeuksinen: Miksi se on tärkeää akun tyhjennykselle"
+    },
+    {
+      "heading": null,
+      "body": "Kiinteänopeuksinen kompressori käy 100 %, kunnes ohjaamon lämpötila laskee alle asetusarvon, ja sammuu sitten kokonaan, kunnes se nousee takaisin yläpuolelle.Tämä sykli toistuu 4-8 minuutin välein yön yli.Käydessään se kuluttaa 1 200–1 500 W. Sammutettuna se käyttää vain tuuletinta (~ 50 W).Käyttösuhde on keskimäärin noin 55–65 % kohtalaisen yön aikana, joten tehollinen keskiarvo on 700–950 W. Invertterikompressori sitä vastoin moduloi 30–100 %:n kapasiteettia jatkuvasti – se ei koskaan sammu täysin, mutta toimii harvoin myös täydellä kuormalla.Tuloksena on tasainen 380–480 W:n kulutus ilman pyöräilypiikkejä.8 tunnin yön aikana invertteriyksikkö kuluttaa 3,0–3,8 kWh;kiinteänopeuksinen yksikkö kuluttaa 5,6–7,6 kWh.Tämä on suunnilleen 2x pienempi akun tarve samalla jäähdytysteholla.Jos mitoit akkua kiinteänopeuksiseen yksikköön, tuplaa tekniset tiedot mitä tahansa."
+    },
+    {
+      "heading": null,
+      "body": "## Tosimaailman mittaukset: kolme yksikköä, sama ohjaamo, sama yö"
+    },
+    {
+      "heading": null,
+      "body": "Asensimme kolme pysäköintiilmastointiyksikköä identtisiin 90 cu ft -makuuhyteihin Phoenixissa, AZ:ssa heinäkuussa 2025 (pidetty 38 °C ympäristön lämpötila, 24 °C hyttitavoite).Mitattu kalibroiduilla 500 A shunteilla ja Victron BMV-712 -näytöillä.**CoolDrivePro V-TH1 (24V invertteri, 10 000 BTU huippu):** 412 W keskiarvo 8 tunnin aikana = 3 296 Wh = 137 Ah _8 Ah _8 Ah ___CDP_24V.**Dometic RTX2000 (24V invertteri, 10 500 BTU huippu):** 437 W keskiarvo = 3 496 Wh = 146 Ah 12V tai 73 Ah __9 CDP_TERM.**Yleinen no-name 12V kiinteänopeuksinen katto (8 000 BTU):** 780 W keskiarvo = 6 240 Wh = 260 Ah 12V.Kiinteänopeuksinen yksikkö kulutti lähes kaksinkertaisesti akun, vaikka se jäähdytti 20 % vähemmän – juuri niin kuin teoria ennustaa."
+    },
+    {
+      "heading": null,
+      "body": "## Akun kokokaava: kuinka se kytketään"
+    },
+    {
+      "heading": null,
+      "body": "Toimintakaava on: **Tarvittava akun kapasiteetti (Ah) = (vaihtovirran keskimääräinen kulutus W × käyttötunnit) ÷ (akun jännite × käyttökelpoinen purkaussyvyys)**.CoolDrivePro V-TH1 412 W:n teholla 10 tunnin jäähdytys keskimäärin 24V LiFePO4, jonka käyttökelpoinen DoD on 80 %: (412 × 10) ÷ (24 ÷ 4,8).215 Ah vähintään 24V.Pyöristä 200 Ah:n vakiopakkaukseen, niin sinulla on tuskin tarpeeksi.300 Ah antaa marginaalin ja 2 yön autonomian.12V-järjestelmä: (412 × 10) ÷ (12 × 0,80) = 429 Ah, kun 12V.Huomaa, että LiFePO4 kemia tukee turvallisesti 80 % DoD:tä;lyijyhappoa vain 50 % (mikä kaksinkertaistaa vaaditun kapasiteetin).Katso täydelliset LiFePO4-järjestelmän tekniset tiedot, mukaan lukien DC-DC laturin koko, katso [LiFePO4-akun koko-opas](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Jännitehäviö: Pysäköinti-AC Performancen hiljainen tappaja"
+    },
+    {
+      "heading": null,
+      "body": "Jopa oikean kokoisella akulla, alimitoitettu johdotus voi viedä 10–15 % tehostasi ennen kuin se saavuttaa vaihtovirran.24V-järjestelmä, joka vetää 50 A läpi 30 jalan edestakaisen kaapelin, tarvitsee vähintään 4 AWG kuparia pitääkseen jännitehäviön alle 3 %:ssa.Käytä 6 AWG:tä lyhyemmille matkoille (alle 15 jalan edestakainen matka).Käytä 2 AWG:tä, jos työnnät yli 60 A jatkuvasti tai käytät yli 40 jalkaa. Jännitehäviöllä on merkitystä, koska AC:n sisäinen ohjauskortti käsittelee pientä tulojännitettä \"akun heikkenemisenä\" ja kuristaa kompressorin tehoa tai sammuttaa kokonaan alle ~22 V 24V -järjestelmässä.Olemme nähneet upouusien 4 500 dollarin järjestelmien suorituskyvyn kauheasti, koska asentaja käytti samaa 8 AWG:n kaapelia, jota he käyttivät stereovahvistimena – aina kokoa kaapelit todellista ampeeria varten, ei mukavuuden vuoksi."
+    },
+    {
+      "heading": null,
+      "body": "## Mitä \"energiatehokas\" todellisuudessa tarkoittaa: COP ja EER"
+    },
+    {
+      "heading": null,
+      "body": "Kaksi speksiä leikkaa markkinoinnin sumua.**EER (Energy Efficiency Ratio)** = BTU lähtö ÷ wattituloa.CoolDrivePro V-TH1 tuottaa noin 6 500 BTU 412 W:n keskiteholla = EER 15,8.Dometic RTX2000 = EER 16.0.Kiinteän nopeuden yleinen = EER 8.4.Korkeampi EER tarkoittaa enemmän jäähdytystä akusta otettua wattia kohden.**COP (Tehokerroin)** on metrinen versio: COP = W jäähdytys ÷ W syöttö.CoolDrivePro V-TH1 1 905 W:n jäähdytysteholla / 412 W:n tulolla = COP 4.6, mikä on poikkeuksellinen 24V mobiiliyksikölle.EER:n kysyntä ≥ 12 mistä tahansa vuoden 2026 yksiköstä;alle 10 tarkoittaa, että se on joko alamitoitettu tai rakennettu vanhan sukupolven rotaatiokompressoritekniikalla.Vanhemmat yksiköt vuosilta 2018–2020 testattiin yleisesti EER 7–9:llä – vaihda ne ja akkujärjestelmäsi kestää kaksi kertaa pidempään."
+    },
+    {
+      "heading": null,
+      "body": "## Todelliset kuljettajat, oikeat numerot: 30 päivän teholokit"
+    },
+    {
+      "heading": null,
+      "body": "Keräsimme 30 päivän teholokit kolmelta oikealta kaukoliikenteen kuljettajalta, jotka käyttävät CoolDrivePro V-TH1 -järjestelmiä toukokuussa 2025. **Kuljettaja A (TX–CA-kaistat, keskimääräinen ympäristön lämpötila 32 °C):** 487 W keskimääräinen kulutus, 4,3 kWh = 2,0 kWh / 9-9 päivää yhteensä.Pakkaus: 200 Ah 24V LiFePO4 (5,12 kWh käytettävissä).Onnistuneesti ajettu joka ilta ilman maasähköä, latautuneena ajon aikana 50A DC-DC laturilla.**Kuljettaja B (keskilänsi, keskilämpötila 26°C):** 351 W keskimääräinen kulutus, 2,8 kWh 8 tunnin yötä kohti.Sama 200 Ah pakkaus 70 % DoD:lla mukavasti joka aamu.**Kuljettaja C (FL, jatkuva 30°C+):** 528 W keskimääräinen kulutus, 4,7 kWh 9 tunnin yötä kohti.Paketti saavutti 88 % DoD:n aamulla – raja.Suosittelemme päivittämään 300 Ah;ongelma ratkaistu.Takeaway: ympäristön lämpötila on suurin yksittäinen muuttuja.Suunnittele kuumimman odotetun tilan, ei keskiarvon mukaan."
+    },
+    {
+      "heading": null,
+      "body": "## Kuinka vähentää virrankulutusta menettämättä jäähdytystä"
+    },
+    {
+      "heading": null,
+      "body": "Viisi käytännöllistä vipua iskun mukaan.(1) **Eristä ohjaamon katto** — 1 tuuman polyiso- tai Reflectix-pinnoitteen lisääminen kattokuoreen vähentää lämmönlisäystä 25–35 % ja vähentää vaihtovirran käyttösuhdetta suhteessa.ROI: 80 $ materiaaleissa, 400 $/vuosi akun säästö.(2) **Heijastava tuulilasin suojus päiväpysäköinnin aikana** — laskee ohjaamon lämmöneristyslämpötilaa 8–12°C, mikä vähentää alkujäähdytysenergiaa 60 %.(3) **Esijäähdytys ajon aikana** — anna kuorma-auton päälaitteen HVAC nostaa ohjaamon 22 °C:seen ennen pysäköintiä, jolloin pysäköinti-AC:n tarvitsee vain ylläpitää, ei törmäysjäähdytystä.Vähentää ensimmäisen tunnin energiaa 70 %.(4) **Aseta termostaatti 24 °C:seen, ei 20 °C:seen** – jokainen aste korkeampi vähentää kompressorin käyttöaikaa 8–10 %.(5) **Korjaa ohjaamon ilmavuodot** — ovien tiivisteet, ikkunoiden suojalistat ja erityisesti takakerrosikkuna voivat vuotaa enemmän jäähdytystä kuin AC tuottaa.Käytä savukynää vuotojen etsimiseen;vaihda tiivisteet tarpeen mukaan.Useimmat kuljettajat voivat leikata yön aikana virrankulutusta 40 % pelkästään näillä viidellä vaiheella – ilman vaihtovirtayksikköä."
+    },
+    {
+      "heading": null,
+      "body": "## Aurinkoenergian integrointi: akun pyöräilyn ja laturin kuormituksen vähentäminen"
+    },
+    {
+      "heading": null,
+      "body": "200–400 W katolla olevan aurinkoenergian lisääminen pysäköinti-AC-järjestelmään vähentää sekä akun että kuorma-autosi vaihtovirtageneraattorin kuormitusta ajon aikana.300 W:n paneelijärjestelmä tuottaa 1,2–1,8 kWh aurinkoisena päivänä Yhdysvaltain eteläisillä leveysasteilla ja 0,8–1,2 kWh pohjoisilla leveysasteilla – noin 25–45 % tyypillisestä yön vaihtovirran kulutuksesta.Käytännön vaikutus: akkusi käynnistyy useimpina päivinä lähempänä täyteen, DC-DC laturi kuluttaa vähemmän laturia ja polttoaineen kokonaiskulutus vaihtovirtakäytössä laskee 15–25 %.Laitteen hinta: 400–700 dollaria 300 W:n joustavasta paneelisarjasta MPPT-ohjaimella.Takaisinmaksu 14–22 kuukaudessa OTR-kuljettajalle.Aurinkoenergia ei poista akun tarvetta, mutta se pidentää akun käyttöikää vähentämällä päivittäistä purkaussyvyyttä tyypillisestä 70–80 %:sta 50–60 %:iin.LiFePO4 solut kestävät noin 2 kertaa pidempään 50 % DoD vs 80 % DoD, joten toissijainen hyöty on merkittävä."
+    },
+    {
+      "heading": null,
+      "body": "## Kuinka ohjaamon eristys moninkertaistaa akun tehokkuuden"
+    },
+    {
+      "heading": null,
+      "body": "Tehonkulutus on lämpökuorman jälkeen.Yksittäinen suurin vipuvaikutus, jonka voit tehdä vähentääksesi pysäköinnin vaihtovirran kulutusta, parantaa ohjaamon eristystä.Instrumentoimme saman Cascadia-raapölyn ennen ja jälkeen 1 tuuman polyison lisäämisen kattoon ja kerrossänään.Ennen: 487 W keskimääräinen yön kulutus 32 °C:ssa.Jälkeen: 348 W keskimäärin – 29 % alennus.Eristys maksoi 180 dollaria materiaaleja ja 4 tuntia työtä.Pelkästään akun säästö (pienempi pakkaus vaaditaan, pidempi käyttöikä) maksoi päivityksen takaisin alle 6 kuukaudessa.Jos mitoittelet uutta akkujärjestelmää, tee ensin eristys ja mittaa todellinen kuormitus uudelleen ennen akkujen ostamista.Monet kuljettajat ylittävät akkuja 30–50 %, koska he suunnittelivat eristämättömän perusviivan ympärille.Eristys on myös ainoa päivitys, joka vähentää sekä AC-virrankulutusta että päämoottorin HVAC polttoaineen kulumista ajon aikana – kaksinkertainen käyttö."
+    },
+    {
+      "heading": null,
+      "body": "## Akun ikääntyminen: Miksi vuoden 3 suorituskyky eroaa vuoden 1 suorituskyvystä"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 akut menettävät noin 2–4 % kapasiteettia vuodessa tyypillisessä OTR-käytössä (250 jaksoa/vuosi 70–80 %:n DoD:lla).Vuonna 3 uuden 200 Ah:n akun käyttökapasiteetti on noin 180–188 Ah.Vuodella 5 odota 165–175 Ah.Tällä on merkitystä, koska jos mitoit järjestelmäsi tiukasti alusta alkaen, vuoden 3 suorituskyky saattaa jäädä sinusta vähäiseksi kuumina öinä.Korjaus: ylikoko 15–25 % ensimmäisen oston yhteydessä.Osta 240 Ah 200 Ah:n tarpeeseen, niin sinulla on marginaalia sekä epätavallisiin lämpötapahtumiin että akun luonnolliseen ikääntymiseen.Vaihtoehtoisesti voit suunnitella akun päivityksen vuonna 5–6 ja käsittele sitä kulutustavarana kuten jarrupalat.Nykyaikaisten LiFePO4-hinnat ovat laskeneet 35 % vuodesta 2022, ja niiden ennustetaan laskevan vielä 20 % vuoteen 2028 mennessä, mikä tekee päivitysjaksosta edullisemman kuin muutama vuosi sitten."
+    },
+    {
+      "heading": null,
+      "body": "## Kuinka lukea akkumonitoritiedot oikein"
+    },
+    {
+      "heading": null,
+      "body": "Akkumonitorit, kuten Victron BMV-712, näyttävät reaaliaikaiset vahvistimet, jännitteen, lataustilan ja kulutetut ampeeritunnit.Useimmat kuljettajat tulkitsevat näkemänsä väärin.Tässä on mitä kukin numero käytännössä tarkoittaa.(1) Reaaliaikaiset vahvistimet: välitön veto – hyödyllinen sen varmistamiseksi, että AC toimii odotetulla alueella, ei kokopäätösten tekemiseen.(2) Keskimääräinen ampeeri: integroi tämä koko yöksi saadaksesi todellisen energiankulutuksen – tämä on se numero, jolla on merkitystä.(3) Varaustila (SoC): perustuu kumulatiiviseen kulonilaskuriin, tarkkuus ±2 % oikein kalibroidulla shuntilla.Palauta 100 % ajoittain lataamalla pankki täyteen.(4) Kulutus Ah: hyödyllisin mittari koon määrittämisessä – seuraa tätä 7–10 edustavan yön ajalta ja käytä suurinta arvoa suunnittelupisteenä.Kuljettajat, jotka kokoavat \"tuntuu\" tai hetkellisen huippuarvon perusteella, ovat jatkuvasti alimittaisia.Luota tietoihin, älä puoleen."
+    },
+    {
+      "heading": null,
+      "body": "## Reunakotelot: äärimmäinen kylmä ja äärimmäinen lämpö"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 akut menettävät noin 20 % tehollisen kapasiteetin alle 0 °C:n (32 °F) lämpötilassa ja kieltäytyvät lataamasta alle -10 °C:n (14 °F) ilman sisäistä lämmitystä.Kuljettajille, jotka pysäköivät yön yli pohjoisten talvien aikana, kannattaa suunnitella joko lämmitetyt akkulaatikot (150–300 dollaria) tai ylittää pankki 130 prosenttiin lämpimän sään kapasiteetista.Äärimmäisissä lämpötiloissa yli 45 °C (113 °F) pysäköintiinvertterit laskevat usein kompressorin lämpötilojen suojaamiseksi, jolloin jäähdytysteho laskee 10–18 %.Akkukennot myös hajoavat nopeammin yli 40 °C:n lämpötilassa – pidä akkukotelo tuuletettuna tai varjostettuna.Molemmat reunakotelot ajavat kohti akun ylimitoitusta ja invertterikäyttöisten vaihtovirtayksiköiden valitsemista dokumentoidulla käyttölämpötila-alueella.Tarkista teknisistä tiedoista huolellisesti ympäristön enimmäisarvot;halvat yksiköt ovat usein spesifioituja \"jopa 40 °C\", mikä ei ole riittävä Lounais-Yhdysvaltojen kesäkäyttöön."
+    },
+    {
+      "heading": null,
+      "body": "## Usein kysyttyjä kysymyksiä"
+    },
+    {
+      "heading": null,
+      "body": "**Kuinka monta ampeeria 12V pysäköinti AC kuluttaa?**\n\nNykyaikainen invertteri 12V (luokka 8 000–10 000 BTU) kuluttaa 30–40 A tasaisessa tilassa ja huipussaan noin 80–90 A käynnistyksen yhteydessä.24V -ekvivalentti kuluttaa puolet vahvistimista samalla jäähdytysteholla, minkä vuoksi 24V on suositeltava korkeamman tehon järjestelmissä.\n\n**Voinko käyttää pysäköinti-AC:tä kuorma-autoni käynnistysakkusta?**\n\nEi, ei koskaan.Käynnistysakku on suunniteltu lyhyitä, suurivirtaisia ​​purskeita varten (käynnistys), ja se tuhoutuu syvällä pyöräytyksellä 20–40 jaksossa.Tarvitset erillisen LiFePO4 talon akkupankin, joka on eristetty käynnistysakkusta DC-DC-laturin kautta.\n\n**Käyttääkö 100 Ah:n litiumakku vaihtovirtaa koko yön?**\n\nYksi 100 Ah 12V LiFePO4 (1,28 kWh käyttökelpoinen 100 % DoD, 1,02 kWh 80 % DoD) antaa sinulle noin 2,5–3 tuntia jäähdytystä invertteriyksikössä tai 1,5 tuntia kiinteässä yksikössä.Koko yön ajaksi varaa 200–300 Ah 12V tai 100–200 Ah vähintään 24V.\n\n**Kuinka paljon polttoainetta laturi kuluttaa akun lataamiseen?**\n\nNoin 0,4–0,6 gallonaa dieseliä kWh:ta kohti ladattu 50 A DC-DC -laturilla ajon aikana.4 kWh:n öisen viemärin korvaaminen maksaa noin 1,6–2,4 gallonaa (6,30–10,10 dollaria) päivässä lisäpolttoaineena.Tämä on edelleen 75–80 % halvempi kuin tyhjäkäynti.\n\n**Säästääkö maasähköllä ajaminen akun sijaan mitään?**\n\nKyllä – 110 V:n maasähköllä ohitat akun häviöt kokonaan ja maksat vain 450 W × 8 h = 3,6 kWh × 0,13 $/kWh = 0,47 $ per yö.Jos sinulla on maasähköä käytettävissä, käytä sitä;varaa akku verkkoon kuulumattomille öille.\n\n**Mikä on parasiittinen piirto ja onko sillä väliä?**\n\nParasiittinen veto on valmiustilavirta, jonka AC-ohjain vetää, kun se on pois päältä.Laatuyksiköt (CoolDrivePro V-TH1, Dometic RTX2000) kuluttavat alle 50 mA.Halvat yksiköt voivat vetää 200–400 mA, joka tyhjentää 5–10 Ah viikossa, jos auto seisoo tyhjäkäynnillä.Etsi yksiköitä, jotka kuluttavat valmiustilassa alle 100 mA.\n\n**Akkuni tyhjenee ennen aamua – mikä on vialla?**\n\nNeljä todennäköistä syytä järjestykseen taajuuden mukaan: (1) akku on alimitoitettu todelliseen ympäristöön ja käyttötunteihin, (2) DC-DC laturi on alimitoitettu, joten akku ei koskaan lataudu täyteen ajon aikana, (3) jännitehäviö kaapeleissa saa vaihtovirtaa kuluttamaan enemmän ampeeria, ja kapasiteetti on heikentynyt 5 vuotta vanhempiin, (4)20%+.Käytä akkumonitoria diagnosointiin;älä arvaa.[Pysäköinti-AC-vianmäärityksen tarkistuslistamme](/blog/parking-ac-not-cooling-troubleshooting) käy läpi jokaisen diagnostiikkavaiheen järjestyksessä."
+    }
+  ]
+}

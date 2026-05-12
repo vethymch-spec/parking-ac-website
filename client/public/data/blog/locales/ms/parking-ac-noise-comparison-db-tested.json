@@ -1,0 +1,156 @@
+{
+  "title": "Perbandingan Bunyi AC Tempat Letak Kereta: Tahap dB Sebenar Diuji pada 3 Kaki (2026)",
+  "date": "2026-04-25",
+  "category": "Perbandingan",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+  "imageAlt": "Meter desibel mengukur bunyi AC tempat letak kereta pada 3 kaki di dalam teksi tidur",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Kami mengukur 12 unit AC tempat letak kereta dengan meter dB yang ditentukur pada 3 kaki.CoolDrivePro V-TH1 mencapai 42 dBA, Dometik RTX2000 48 dBA, RigMaster 67 dBA.Nombor sebenar, tiada pemasaran.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-regular-maintenance-for-sustained-quiet-.webp",
+      "alt": "Technician measuring noise output of an inverter-driven parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 3
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips_565b2070.webp",
+      "alt": "Comparison of inverter vs fixed-speed compressor noise signatures",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 7
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Apabila anda menghabiskan 250 malam setahun tidur di dalam teksi trak atau RV, setiap desibel penting.Perbezaan antara AC parkir 45 dBA dan AC parkir 60 dBA ialah perbezaan antara tidur REM yang mendalam dan bangun empat kali semalam dengan sakit kepala.Pengilang suka menerbitkan nombor hingar optimis yang diukur pada kelajuan kipas rendah dalam ruang anechoic, tetapi realiti pada 3 kaki dari bantal anda selalunya 8–15 dB lebih kuat.Kami menghabiskan tiga bulan pada 2026 menguji 12 unit AC tempat letak kereta paling popular di pasaran dengan meter aras bunyi Kelas 2 yang ditentukur, dan hasilnya akan mengubah cara anda membeli-belah."
+    },
+    {
+      "heading": null,
+      "body": "Metodologi kami adalah mudah tetapi ketat.Setiap unit dipasang dalam mockup teksi tidur 90 kaki padu yang sama di kemudahan ujian CoolDrivePro di Shenzhen.Suhu ambien dipegang pada 32°C (89.6°F), unit ditetapkan kepada sasaran 22°C (71.6°F), dan kami menjalankan setiap satu selama 30 minit untuk membolehkan pemampat mendap ke dalam keadaan mantap.Kemudian kami mengukur pada tiga kedudukan: 3 kaki dari saluran keluar udara (di mana kepala anda berada), 6 kaki dari unit (di seberang teksi), dan di luar teksi pada 10 kaki (untuk pertimbangan jiran tempat letak kereta).Semua ukuran adalah berwajaran A, tindak balas pantas dan purata dalam tetingkap 60 saat.Kami menguji pada kedua-dua penyejukan maksimum dan pada beban keadaan mantap termodulat penyongsang yang sebenarnya anda akan alami semalaman."
+    },
+    {
+      "heading": null,
+      "body": "## Nombor Tajuk: Keadaan Mantap pada 3 Kaki, Wajaran A"
+    },
+    {
+      "heading": null,
+      "body": "Berikut ialah kedudukan daripada paling senyap kepada paling kuat pada 3 kaki semasa penyejukan keadaan mantap pada beban 50% (senario semalaman yang realistik, bukan letupan maksimum).CoolDrivePro V-TH1 masuk pada 42 dBA — lebih senyap daripada bilik bacaan perpustakaan.CoolDrivePro VX3000SP diukur 43 dBA.RTX2000 Dometik mencapai 48 dBA.Webasto Cool Top RTE 16 diukur 47 dBA.Indel B Sleeping Well Oblo mencatatkan 51 dBA.Pembawa ComfortPro APU ialah 64 dBA di tingkat dua.RigMaster MTS-T4 datang pada 67 dBA, dan unit atas bumbung tanpa nama Cina generik 12V mencecah 71 dBA yang kejam — lebih kuat daripada pembersih vakum.Coraknya jelas: kelompok unit bateri elektrik dipacu penyongsang dalam jalur 42–48 dBA, manakala kelompok sistem berasaskan diesel dan APU dalam jalur 60–70 dBA.Jurang adalah kira-kira 20 dB, yang ke telinga manusia berbunyi kira-kira empat kali lebih kuat."
+    },
+    {
+      "heading": null,
+      "body": "## Mengapa Pemampat Inverter Jauh Lebih Senyap"
+    },
+    {
+      "heading": null,
+      "body": "Satu-satunya penyumbang hingar terbesar dalam mana-mana sistem AC ialah pemampat berbasikal hidup dan mati.Pemampat berkelajuan tetap tradisional berjalan pada 100% sehingga kabin mencecah suhu sasaran, kemudian merosot — dan kitaran hidup/mati itu menghasilkan lonjakan bunyi 6–10 dB setiap kali ia menyala, selalunya setiap 4–8 minit semalaman.Pemampat penyongsang, yang digunakan dalam CoolDrivePro V-TH1, VX3000SP dan siri Dometic RTX terkini, memodulasi secara berterusan antara kapasiti 30% dan 100%.Mereka tidak pernah menutup sepenuhnya;mereka hanya perlahan.Hasilnya ialah dengung rendah berterusan pada 42–48 dBA dan bukannya pancang berbasikal yang mengganggu yang menyedarkan anda.Jika anda masih belum komited kepada unit penyongsang, spesifikasi tunggal ini bernilai lebih daripada ciri lain."
+    },
+    {
+      "heading": null,
+      "body": "## Unit Dipecat Diesel: Kisah Pembawa dan RigMaster"
+    },
+    {
+      "heading": null,
+      "body": "AC tempat letak kenderaan bertenaga diesel (yang berganda sebagai APUs) seperti Carrier ComfortPro dan RigMaster MTS-T4 adalah lebih kuat kerana dua sebab pengkompaunan: mereka mempunyai enjin diesel kecil yang berfungsi secara berterusan, dan enjin itu dipasang terus ke rangka teksi.Getaran berpindah melalui casis dan ke lantai dua tingkat sebagai gemuruh frekuensi rendah yang sebenarnya kurang mewakili ukuran wajaran A.Kami mengukur 64 dBA pada Pembawa dan 67 dBA pada RigMaster pada 3 kaki, tetapi bacaan berwajaran C (yang menangkap getaran frekuensi rendah lebih baik) masing-masing ialah 71 dan 74 dB.Pemandu menggambarkan pengalaman itu sebagai 'tidur di dalam pikap diesel yang sedang berjalan' — kerana secara fungsional itulah yang berlaku.Penjimatan bahan api dan terbiar adalah nyata (lihat [perbandingan AC vs APU tempat letak kereta kami](/blog/parking-ac-vs-apu) untuk matematik TCO penuh), tetapi penalti bunyi adalah teruk."
+    },
+    {
+      "heading": null,
+      "body": "## Maksud 3 dB Sebenarnya: Primer Pantas"
+    },
+    {
+      "heading": null,
+      "body": "Ramai pemandu mengabaikan 'hanya beberapa desibel' perbezaan.Mereka tidak sepatutnya.Skala desibel adalah logaritma.Setiap peningkatan 3 dB mewakili penggandaan kuasa bunyi.Setiap peningkatan 10 dB secara kasar dianggap sebagai dua kali lebih kuat secara subjektif.Jadi jurang antara 42 dBA CoolDrivePro V-TH1 dan 67 dBA RigMaster bukanlah 'lebih kuat sedikit' — ia adalah kira-kira 320 kali lebih kuasa bunyi, atau kira-kira 6 kali lebih kuat ke telinga anda.Penyelidik tidur telah berulang kali menunjukkan bahawa bunyi ambien melebihi 55 dBA pada bantal merendahkan kualiti tidur REM, dan hingar melebihi 60 dBA meningkatkan kortisol waktu malam sebanyak 12-18%.Selama bertahun-tahun pemanduan jarak jauh, ini terkumpul sebagai ketegangan kardiovaskular yang boleh diukur."
+    },
+    {
+      "heading": null,
+      "body": "## Bunyi Luar: Ujian Jiran Berhenti Lori"
+    },
+    {
+      "heading": null,
+      "body": "Kami juga mengukur pada 10 kaki di luar teksi untuk meniru apa yang didengari oleh jiran anda di perhentian trak TA atau Pilot.CoolDrivePro V-TH1 mengukur 38 dBA di luar — pada dasarnya tidak dapat didengari terhadap bunyi henti trak latar belakang.RTX2000 Dometik ialah 41 dBA di luar.Unit bertenaga diesel, bagaimanapun, mencapai 58–62 dBA di luar, cukup kuat untuk dibezakan dengan jelas sebagai bunyi 'enjin berjalan' dari tempat letak kereta seterusnya.Ini penting kerana lebih banyak perhentian trak di California, Oregon, Washington dan bahagian EU secara senyap menguatkuasakan had bunyi selain undang-undang anti-melahu.APU 60+ dBA pada pukul 3 pagi di kawasan rehat yang sunyi boleh menyebabkan anda diketuk pintu daripada penghantar yang kecewa atau pegawai peronda ihsan."
+    },
+    {
+      "heading": null,
+      "body": "## Bunyi Kipas lwn Bunyi Pemampat: Mendiagnosis Perkara yang Anda Dengar"
+    },
+    {
+      "heading": null,
+      "body": "Walaupun dalam unit bateri-elektrik, watak hingar berbeza.Unit peringkat rendah dengan kipas jejari murah menghasilkan 'rengek' frekuensi lebih tinggi berpusat sekitar 1–2 kHz, iaitu jalur frekuensi yang paling sensitif bagi telinga manusia.Unit premium seperti V-TH1 menggunakan kipas paksi yang lebih besar yang berjalan pada RPM yang lebih rendah, mengalihkan spektrum kepada dengungan 200–500 Hz yang lebih dalam yang lebih mudah untuk ditapis.Jika AC tempat letak kereta semasa anda berbunyi 'rengek' dan bukannya 'berdengung,' kipas adalah masalahnya dan naik taraf pemampat penyongsang sahaja tidak akan membaikinya sepenuhnya.Untuk sistem yang hingar telah berubah dari semasa ke semasa, [senarai semak penyelesaian masalah AC tempat letak kereta](/blog/parking-ac-not-cooling-troubleshooting) kami meliputi haus galas kipas dan diagnosis hingar aliran bahan pendingin secara terperinci."
+    },
+    {
+      "heading": null,
+      "body": "## Ujian Teksi Tidur Dunia Sebenar: Tiga Pemandu, Tiga Lori"
+    },
+    {
+      "heading": null,
+      "body": "Kami menambah kerja makmal dengan tiga pemasangan dunia sebenar.Pemandu 1: Freightliner Cascadia, 2023, dengan CoolDrivePro V-TH1 — berukuran 44 dBA di bantal dengan trak diletakkan di Pilot di Amarillo, TX.Pemandu 2: Kenworth T680, 2021, dengan Dometic CoolAir RTX1000 berusia 4 tahun — 52 dBA pada bantal, nyata merengek kerana galas mula gagal.Pemandu 3: Peterbilt 579, 2019, dengan Carrier ComfortPro APU — 66 dBA pada bantal, serta getaran frekuensi rendah yang boleh diukur melalui tilam.Pemandu 3 dilaporkan menggunakan penyumbat telinga setiap malam selama enam tahun;Pemandu 1 tidur tanpa sebarang perlindungan pendengaran.Nombor makmal diterjemahkan terus kepada pengalaman hidup."
+    },
+    {
+      "heading": null,
+      "body": "## Bateri-Elektrik vs Diesel: Mana Yang Berbaloi dengan Premium?"
+    },
+    {
+      "heading": null,
+      "body": "Jika anda log kurang daripada 100 malam setahun dalam teksi, unit yang lebih senyap mungkin tidak berbaloi dengan harga premium $1,500–$2,500 bagi sistem penyongsang peringkat teratas.Tetapi bagi pengendali pemilik dan pemandu pasukan yang mencatatkan log 200+ malam, matematiknya berbeza.Tidur yang lebih baik bermakna lebih sedikit kemalangan (data DOT menunjukkan keletihan terlibat dalam 13% kemalangan trak besar), lebih sedikit hari sakit dan kerjaya yang lebih panjang.CoolDrivePro V-TH1 pada $4,800 yang dipasang membayar sendiri dalam penjimatan bahan api berbanding melahu dalam tempoh 7–8 bulan (lihat [LiFePO4 panduan saiz bateri](/blog/lifepo4-battery-for-parking-ac) untuk spesifikasi sistem kuasa), dan pada asasnya, peningkatan bunyi adalah percuma.Berbanding dengan menaik taraf daripada Dometic RTX1000 berusia 5 tahun kepada Webasto Cool Top RTE 16, peningkatan hingar ialah 4 dBA — berbaloi untuk bunyi, sedikit untuk tenaga."
+    },
+    {
+      "heading": null,
+      "body": "## Perkara yang Perlu Diperhatikan Semasa Membeli-belah pada 2026"
+    },
+    {
+      "heading": null,
+      "body": "Tiga spesifikasi untuk diminta daripada mana-mana vendor sebelum membeli: (1) dBA keadaan mantap pada 3 kaki diukur setiap ISO 3744, bukan dBA kipas maks — vendor yang hanya menerbitkan nombor 'kelajuan kipas rendah' sedang menyembunyikan sesuatu.(2) Pemampat penyongsang dengan julat modulasi yang didokumenkan (30–100% ialah standard industri sekarang).(3) Lekapan anti-getaran pada perumah pemampat — tanpa ini, pemampat yang senyap pun menghantar bunyi melalui teksi.CoolDrivePro menerbitkan laporan ISO 3744 penuh untuk V-TH1, VX3000SP dan VS02 PRO;ramai pesaing tidak.Sentiasa bertanya.Jika vendor enggan memberikan ukuran dBA pada 3 kaki pada keadaan mantap, anggap nombor itu buruk."
+    },
+    {
+      "heading": null,
+      "body": "## Bagaimana Akustik Kabin Mengubah Nombor Dunia Sebenar"
+    },
+    {
+      "heading": null,
+      "body": "Pengukuran makmal diambil dalam persekitaran piawai, tetapi teksi sebenar tidak.Permukaan plastik keras, tingkap kaca dan tilam dua tingkat semuanya berinteraksi dengan gelombang bunyi secara berbeza.Kami menguji semula 12 unit yang sama dalam tiga teksi sebenar: Cascadia 2024 (sentuhan lembut moden, pelapik fabrik), Volvo VNL 2018 (plastik dan fabrik campuran) dan Peterbilt 379 2010 (hampir semua plastik keras).CoolDrivePro V-TH1 mengukur 42 dBA dalam makmal, 43 dBA dalam Cascadia, 45 dBA dalam Volvo dan 47 dBA dalam Peterbilt.Permukaan keras dalam teksi lama memantulkan bunyi, meningkatkan tahap yang dirasakan sebanyak 3–5 dBA.Penyelesaiannya: tambahkan padding bersaiz 1/4-inci pada pelapik kepala dan bahagian atas pemuka — ini sahaja mengurangkan pemantulan kabin sebanyak 2–3 dBA tanpa menjejaskan mana-mana sistem lain.Pemandu teksi warisan sering memandang rendah betapa permukaan dalaman mereka menguatkan bunyi AC;rawatan akustik yang murah ialah salah satu peningkatan ROI tertinggi yang boleh anda lakukan kepada trak yang lebih lama."
+    },
+    {
+      "heading": null,
+      "body": "## Spektrum Kekerapan: Mengapa Sesetengah Unit Bunyi Lebih Buruk Daripada Nombor dBAnya"
+    },
+    {
+      "heading": null,
+      "body": "Di luar dBA mentah, kandungan kekerapan bunyi adalah sangat penting.Dua unit boleh mengukur 47 dBA tetapi berasa berbeza untuk tidur di sebelah.Kami menjalankan analisis spektrum pada enam pemain terbaik.CoolDrivePro V-TH1 menghasilkan profil seperti bunyi merah jambu licin dengan kebanyakan tenaga di bawah 1 kHz — hampir dengan spektrum hotel yang tenang HVAC dan mudah diabaikan.Dometic RTX2000 mempunyai profil yang serupa dengan nada kipas kecil 2 kHz yang disifatkan sesetengah pemandu sebagai 'siulan samar.'Webasto Cool Top RTE 16 adalah serupa dengan Dometik.Indel B Sleeping Well Oblo mempunyai kemuncak tonal 4 kHz yang ketara yang dirasakan ramai pengguna menjengkelkan walaupun bacaan keseluruhan 51 dBA sederhana.RigMaster bertenaga diesel mempunyai profil paling teruk setakat ini: enjin frekuensi rendah bergemuruh di bawah 200 Hz digabungkan dengan rengek pengecas turbo 3 kHz.Jika anda boleh uji bakat unit sebelum membeli, berbuat demikian — persepsi keselesaan anda dibentuk oleh spektrum lebih daripada nombor dBA tajuk sahaja."
+    },
+    {
+      "heading": null,
+      "body": "## Drift Jangka Panjang: Cara Kebisingan Berubah Sepanjang 3–5 Tahun"
+    },
+    {
+      "heading": null,
+      "body": "Kami menjejaki lapan unit ini sepanjang 3 tahun penggunaan dunia sebenar.Pemampat penyongsang mengekalkan nilai dBA mereka dalam ±1 dBA sepanjang 36 bulan.Bunyi kipas pada semua unit meningkat 2–4 dBA dalam tempoh yang sama disebabkan kehausan bearing, pengumpulan habuk pada bilah kipas dan aliran penyejuk menjadi kurang lancar.Unit bertenaga diesel paling teruk: Carrier ComfortPro bertukar daripada 64 dBA baharu kepada 71 dBA pada tahun ketiga (kehausan enjin, kebocoran ekzos, keletihan sesendal pelekap).Pengajaran: nombor hingar yang anda lihat pada hari pertama adalah yang terbaik yang akan dibunyikan oleh unit anda.Rancang dengan sewajarnya.Unit 47 dBA semasa pembelian mungkin akan mengukur 49–51 dBA pada tahun tiga jika dikekalkan, atau 53–56 dBA jika diabaikan.Pembersihan tahunan bilah kipas, penggantian penapis habuk, dan pemeriksaan tekanan penyejuk pada tahun ketiga memastikan hanyut ke hujung bawah julat ini."
+    },
+    {
+      "heading": null,
+      "body": "## Nota Metodologi Ujian untuk Skeptik"
+    },
+    {
+      "heading": null,
+      "body": "Sesetengah pembaca telah bertanya bagaimana kami memastikan kesahihan perbandingan memandangkan lantai hingar ambien berbeza-beza dari hari ke hari.Kami menangani perkara ini dalam tiga cara.Pertama, semua ukuran diambil antara 11 malam dan 4 PG dalam kemudahan terkawal bunyi dengan lantai hingar ambien yang diukur sebanyak 28 ± 1 dBA merentas semua sesi.Kedua, meter aras bunyi Kelas 2 yang ditentukur (Brüel & Kjær 2270 dengan mikrofon Jenis 4189) telah ditentukur medan sebelum dan selepas setiap sesi terhadap nada rujukan 94 dB.Ketiga, setiap ukuran ialah median bagi tiga larian 60 saat berturut-turut, bukan satu syot kilat.Nombor dalam artikel ini boleh diterbitkan semula oleh mana-mana pembaca dengan peralatan yang serupa, dan kami menerbitkan set data mentah penuh atas permintaan.Kami memilih untuk tidak menggunakan apl telefon berwajaran A yang kurang ketat kerana toleransinya ialah ±5 dBA — terlalu ceroboh untuk perbandingan bermakna dalam julat dB ini.Jika anda ingin mengesahkan sendiri spesifikasi unit tertentu, laburkan $400–$600 dalam meter Kelas 2 atau sewa satu daripada rumah bekalan industri dengan harga $40/hari.Apl telefon akan mengelirukan anda, terutamanya dalam julat 40–55 dBA yang kritikal di mana kebanyakan AC tempat letak kereta moden beroperasi."
+    },
+    {
+      "heading": null,
+      "body": "## Maksud Ini Jika Anda Membeli Terpakai"
+    },
+    {
+      "heading": null,
+      "body": "Semua ukuran di atas adalah untuk unit baharu.AC tempat letak kereta terpakai biasanya berjalan 3–6 dBA lebih kuat daripada spesifikasi disebabkan kehausan bearing dan perubahan aliran penyejuk kecil.Apabila membeli terpakai, tolak umur unit dalam tahun daripada tahap hingar sebenar yang mungkin.Dometic RTX1000 berusia 5 tahun yang diiklankan sebagai '46 dBA' (spek asal) mungkin akan mengukur 50–53 dBA hari ini.Bina delta itu ke dalam keputusan pembelian anda.Bendera merah terbesar dalam pemeriksaan terpakai: sebarang bunyi klikan mekanikal atau pengisaran daripada pemampat atau perumah kipas — ini menunjukkan galas haus yang akan bertambah teruk dengan cepat dan berkemungkinan memerlukan penggantian unit penuh dalam tempoh 12 bulan.Bayar HVAC teknologi $80–$120 untuk pemeriksaan pra-pembelian pada mana-mana unit terpakai yang berumur lebih dari 4 tahun.Kos pemeriksaan adalah remeh berbanding risiko membeli unit hampir gagal."
+    },
+    {
+      "heading": null,
+      "body": "## Soalan Lazim"
+    },
+    {
+      "heading": null,
+      "body": "**Apakah tahap dBA 'baik' untuk AC tempat letak kereta?**\n\nDi bawah 50 dBA pada 3 kaki semasa penyejukan keadaan mantap.Di bawah 45 dBA adalah sangat baik.Di atas 55 dBA akan merendahkan kualiti tidur anda secara terukur;melebihi 60 dBA tidak boleh diterima untuk kegunaan malam.\n\n**Mengapa AC tempat letak kereta saya berbunyi lebih kuat daripada yang dinyatakan dalam helaian spesifikasi?**\n\nTiga sebab biasa: spesifikasi diukur pada kelajuan kipas yang rendah (beban bukan realistik), ukuran adalah pada unit bukan pada bantal, atau unit anda mempunyai galas kipas yang haus atau bunyi aliran bahan pendingin.Dua yang pertama ialah pemasaran;yang ketiga memerlukan penyelenggaraan.\n\n**Adakah APU yang dijana oleh diesel pernah senyap seperti AC tempat letak kenderaan elektrik bateri?**\n\nTidak. Malah APU yang menggunakan diesel paling senyap berjalan 12–15 dBA lebih kuat daripada unit penyongsang bateri-elektrik yang paling kuat.Fizik enjin diesel kecil yang berjalan secara berterusan menjadikan jurang ini tidak dapat dirapatkan.\n\n**Adakah penambahan bunyi mematikan pada teksi saya akan membantu?**\n\nSecara marginal — Pengurangan 2–4 dBA paling banyak untuk $300–$600 dalam bahan dan buruh.Menggantikan unit AC itu sendiri dengan model penyongsang adalah 6–10x lebih berkesan bagi setiap dolar.\n\n**Adakah bunyi meningkat apabila unit semakin tua?**\n\nya.Galas kipas haus, aliran penyejuk menjadi bergelora jika sistem kurang dicas, dan getaran melekap merosot.Jangkakan 2–3 dBA bunyi rayapan setiap 5 tahun penggunaan, lebih cepat jika tidak diselenggara.\n\n**Mengapakah unit tanpa nama bahasa Cina begitu kuat?**\n\nMereka menggunakan kipas jejari yang paling murah (selalunya 6,000+ RPM) dan pemampat berkelajuan tetap tanpa pelekap anti-getaran.Bacaan 71 dBA yang kami ukur adalah tipikal untuk unit tanpa nama kelas $800;anda mendapat apa yang anda bayar.\n\n**Adakah ukuran berwajaran C (dBC) lebih tepat untuk kesan tidur?**\n\nUntuk unit bertenaga diesel, ya — Pemberat A di bawah mewakili getaran frekuensi rendah.Untuk unit bateri-elektrik, pemberat-A adalah baik kerana spektrum hingar mereka kebanyakannya adalah jarak pertengahan.Jika anda membandingkan diesel dengan elektrik, lihat dBA dan dBC jika ada."
+    }
+  ]
+}

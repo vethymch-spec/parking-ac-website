@@ -1,0 +1,148 @@
+{
+  "title": "Wisselstroomverbruik van vrachtwagens: watt, ampère en batterijverbruik uitgelegd (2026)",
+  "date": "2026-04-25",
+  "category": "Stroom en batterij",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Bewaking van het AC-stroomverbruik voor vrachtwagens met shunt- en batterijmonitor",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] AC-stroomverbruik van vrachtwagens uitgelegd: 480 W gemiddeld, 9 A bij 24V, 38–55 Ah per nacht.Echte cijfers, formules om uw batterij op maat te maken en hoe invertercompressoren besparen, trekken 30%.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Elke aankoop van parkeer-AC komt uiteindelijk neer op één vraag: hoeveel stroom verbruikt dit ding eigenlijk en hoe groot is de batterij die ik nodig heb?Het marketingantwoord is altijd vaag: '12V compatibel', 'energie-efficiënte omvormer', 'capaciteit voor nachtelijke koeling.'Het eerlijke antwoord is een reëel getal in watt, versterkers en ampère-uren dat u kunt aansluiten op een formule voor het formaat van de batterij.Deze gids geeft u die cijfers, legt uit waar ze vandaan komen en laat zien hoe u ze kunt vertalen naar een batterijsysteem dat daadwerkelijk een volledige nacht verkoeling levert zonder dat u om vier uur 's ochtends met een lege rugzak achterblijft."
+    },
+    {
+      "heading": null,
+      "body": "Het stroomverbruik in een parkeer-AC is geen enkel getal.Het varieert afhankelijk van de omgevingstemperatuur, de beoogde cabinetemperatuur, het cabinevolume, de kwaliteit van de isolatie, de ventilatorsnelheid en – het allerbelangrijkste – of de compressor een vast toerental of een invertergestuurde compressor heeft.Een parkeerairco van 12.000 BTU kan 1.400 W trekken wanneer de compressor voor het eerst op volle belasting aanslaat, maar slechts 380 W tijdens stabiele koeling zodra de cabine het instelpunt bereikt.Het gemiddelde over een nacht van 8 uur is van belang voor de batterijgrootte, niet voor de piek.Hieronder zetten we de vier cijfers uiteen die er echt toe doen en laten we zien hoe u ze zelf kunt meten met een op shunt gebaseerde batterijmonitor van $ 35."
+    },
+    {
+      "heading": null,
+      "body": "## De vier cijfers die u moet kennen"
+    },
+    {
+      "heading": null,
+      "body": "**Piekverbruik (W of A):** Het hoogste aanhoudende vermogen tijdens de initiële afkoeling, doorgaans de eerste 15-25 minuten na het opstarten.Voor een moderne 24V omvormereenheid zoals de CoolDrivePro V-TH1 is de piek ongeveer 1.200–1.400 W (50–58 A bij 24V).Oudere eenheden met een vaste snelheid kunnen oplopen tot 1.800–2.200 W (75–92 A bij 24V).Uw bedrading en zekeringen moeten pieken kunnen opvangen; ondermaatse kabels zijn hier de meest voorkomende oorzaak van spanningsval en voortijdige uitschakeling.**Steady-state verbruik (W of A):** Het gemiddelde verbruik zodra de cabine op het instelpunt is en de compressor moduleert om de temperatuur te handhaven.Omvormerunits blijven steken op 380–480 W (16–20 A bij 24V).Eenheden met een vaste snelheid cyclisch aan/uit, gemiddeld 600–800 W effectief.**Energie per uur (Wh):** Steady-state verbruik × 1 uur.Voor een typische inverterunit met een gemiddeld vermogen van 450 W is dat 450 Wh/uur.**Totale energie per nacht (Wh of Ah):** Gemiddeld verbruik × gebruiksuren.Acht uur bij 450 W = 3.600 Wh = 150 Ah bij 12V of 75 Ah bij 24V (zonder rekening te houden met verliezen aan accu-efficiëntie)."
+    },
+    {
+      "heading": null,
+      "body": "## Omvormer versus vaste snelheid: waarom het belangrijk is dat de batterij leegraakt"
+    },
+    {
+      "heading": null,
+      "body": "Een compressor met vast toerental draait op 100% totdat de cabinetemperatuur onder het instelpunt zakt, en schakelt vervolgens volledig uit totdat hij er weer boven komt.Die cyclus herhaalt zich 's nachts elke 4-8 minuten.Terwijl hij draait, verbruikt hij 1.200–1.500 W. Als hij uitgeschakeld is, verbruikt hij alleen de ventilator (~50 W).De inschakelduur bedraagt ​​gemiddeld ongeveer 55-65% gedurende een gematigde nacht, dus het effectieve gemiddelde is 700-950 W. Een invertercompressor moduleert daarentegen continu tussen 30% en 100% van de capaciteit - hij schakelt nooit volledig uit, maar draait ook zelden op volle belasting.Het resultaat is een stabiel verbruik van 380–480 W zonder fietspieken.Gedurende een nacht van 8 uur verbruikt de invertereenheid 3,0–3,8 kWh;de eenheid met vaste snelheid verbruikt 5,6–7,6 kWh.Dat is ongeveer een 2x lagere batterijbehoefte voor hetzelfde koelvermogen.Als u een batterij op maat maakt voor een eenheid met vaste snelheid, verdubbel dan wat het specificatieblad aangeeft."
+    },
+    {
+      "heading": null,
+      "body": "## Metingen in de praktijk: drie eenheden, dezelfde cabine, dezelfde nacht"
+    },
+    {
+      "heading": null,
+      "body": "We hebben in juli 2025 drie AC-units voor parkeren geïnstalleerd in identieke slaapcabines van 90 cu ft in Phoenix, Arizona (aanhoudende omgevingstemperatuur van 38 °C, cabinedoelstelling van 24 °C).Gemeten met gekalibreerde 500 A shunts en Victron BMV-712 monitoren.**CoolDrivePro V-TH1 (24V omvormer, 10.000 BTU piek):** 412 W gemiddeld over 8 uur = 3296 Wh = 137 Ah bij 12V equivalent of 69 Ah bij 24V.**Dometic RTX2000 (24V omvormer, 10.500 BTU piek):** 437 W gemiddeld = 3.496 Wh = 146 Ah bij 12V of 73 Ah bij 24V.**Generieke naamloze 12V rooftop met vaste snelheid (8.000 BTU):** 780 W gemiddeld = 6.240 Wh = 260 Ah bij 12V.De eenheid met vaste snelheid verbruikte bijna twee keer zoveel batterij, ondanks dat hij 20% minder koeling leverde – precies wat de theorie voorspelt."
+    },
+    {
+      "heading": null,
+      "body": "## Formule voor batterijgrootte: hoe u deze kunt aansluiten"
+    },
+    {
+      "heading": null,
+      "body": "De werkformule is: **Vereiste batterijcapaciteit (Ah) = (gemiddeld wisselstroomverbruik in W × gebruiksuren) ÷ (accuspanning × bruikbare ontladingsdiepte)**.Voor een CoolDrivePro V-TH1 bij 412 W gemiddeld gedurende 10 uur koeling op een 24V LiFePO4 met 80% bruikbare DoD: (412 × 10) ÷ (24 × 0,80) = 4.120 ÷ 19,2 = 215 Ah bij24V minimaal.Rond af op een standaardpakket van 200 Ah en je hebt net genoeg;300 Ah geeft u marge en autonomie van 2 nachten.Voor een 12V systeem: (412 × 10) ÷ (12 × 0,80) = 429 Ah bij 12V.Merk op dat de LiFePO4 chemie veilig 80% DoD ondersteunt;loodzuur slechts 50% (wat de benodigde capaciteit verdubbelt).Voor de volledige LiFePO4 systeemspecificaties, inclusief DC-DC afmetingen van de oplader, zie onze [LiFePO4 gids voor batterijgrootte](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Spanningsdaling: de stille moordenaar van AC-prestaties bij parkeren"
+    },
+    {
+      "heading": null,
+      "body": "Zelfs met een batterij van het juiste formaat kan te kleine bedrading 10-15% van uw stroom beroven voordat deze de AC bereikt.Een 24V systeem dat 50 A door 9 meter retourkabel trekt, heeft minimaal 4 AWG koper nodig om de spanningsval onder de 3% te houden.Gebruik 6 AWG voor kortere runs (minder dan 15 ft heen en terug).Gebruik 2 AWG als u continu voorbij de 60 A gaat of meer dan 12 meter rijdt. Spanningsval is van belang omdat de interne besturingskaart van de AC een lage ingangsspanning als 'batterij bijna leeg' beschouwt en de compressoruitgang zal smoren of volledig zal uitschakelen onder ~22 V op een 24V systeem.We hebben gezien dat gloednieuwe systemen van $ 4.500 vreselijk presteerden omdat de installateur dezelfde 8 AWG-kabel gebruikte die ze voor een stereoversterker zouden gebruiken - altijd kabels voor daadwerkelijke stroomsterkte, niet voor gemak."
+    },
+    {
+      "heading": null,
+      "body": "## Wat 'Energie-efficiënt' eigenlijk betekent: COP en EER"
+    },
+    {
+      "heading": null,
+      "body": "Twee specificaties doorbreken de marketingmist.**EER (Energie-efficiëntieverhouding)** = BTU uitgangsvermogen ÷ watt ingangsvermogen.De CoolDrivePro V-TH1 levert ongeveer 6.500 BTU bij een gemiddelde van 412 W = EER 15,8.De Dometic RTX2000 = EER 16,0.De generieke vaste snelheid = EER 8,4.Een hogere EER betekent meer koeling per watt uit uw accu.**COP (Coefficient of Performance)** is de metrische versie: COP = W koelen ÷ W input.CoolDrivePro V-TH1 bij 1.905 W koeling / 412 W ingang = COP 4,6, wat uitzonderlijk is voor een 24V mobiele unit.Vraag EER ≥ 12 van elke eenheid uit 2026;onder de 10 betekent dat het ofwel ondermaats is, ofwel gebouwd is met roterende compressortechnologie van de oude generatie.Oudere apparaten uit 2018–2020 zijn vaak getest op EER 7–9. Vervang ze en uw batterijsysteem gaat twee keer zo lang mee."
+    },
+    {
+      "heading": null,
+      "body": "## Echte coureurs, echte cijfers: energielogboeken van 30 dagen"
+    },
+    {
+      "heading": null,
+      "body": "We hebben energielogboeken van 30 dagen verzameld van drie echte langeafstandschauffeurs die in mei 2025 CoolDrivePro V-TH1 systemen gebruikten. **Bestuurder A (TX-CA rijstroken, gemiddelde omgevingstemperatuur 32°C):** Gemiddeld verbruik van 487 W, 4,3 kWh per nacht van 9 uur, 30 dagen = 129 kWh totaal.Pakket: 200 Ah 24V LiFePO4 (5,12 kWh bruikbaar).Elke nacht succesvol gereden zonder walstroom, opladen tijdens het rijden via 50A DC-DC lader.**Driver B (Midwesten, gemiddelde omgevingstemperatuur 26°C):** Gemiddeld verbruik 351 W, 2,8 kWh per nacht van 8 uur.Hetzelfde 200 Ah-pakket met 70% DoD, comfortabel elke ochtend.**Driver C (FL, aanhoudend 30°C+):** Gemiddeld verbruik van 528 W, 4,7 kWh per nacht van 9 uur.Pack bereikte tegen de ochtend 88% DoD - grens.Wij raden hem aan om te upgraden naar 300 Ah;probleem opgelost.De afhaalmogelijkheid: de omgevingstemperatuur is de grootste variabele.Plan uw meest verwachte conditie, niet uw gemiddelde."
+    },
+    {
+      "heading": null,
+      "body": "## Hoe u het stroomverbruik kunt verminderen zonder de koeling te verliezen"
+    },
+    {
+      "heading": null,
+      "body": "Vijf praktische hefbomen, gerangschikt op impact.(1) **Isoleer het cabinedak** — door 2,5 cm polyiso of Reflectix aan de hemelbekleding toe te voegen, wordt de warmtewinst met 25-35% verminderd en wordt de AC-werkcyclus proportioneel verlaagd.ROI: $80 aan materialen, $400/jaar aan batterijbesparing.(2) **Reflecterende voorruitafdekking tijdens parkeren overdag** — verlaagt de warmte-inwerkingstemperatuur van het interieur met 8–12°C, waardoor de initiële afkoelenergie met 60% wordt verminderd.(3) **Voorkoelen tijdens het rijden** — laat de hoofdkoelkast van de truck HVAC de cabine op 22°C brengen voordat u gaat parkeren. De parkeerairco hoeft dan alleen maar te blijven koelen en niet crash-cool.Vermindert de energie in het eerste uur met 70%.(4) **Stel de thermostaat in op 24°C, niet op 20°C** — elke graad hoger vermindert de looptijd van de compressor met 8–10%.(5) **Repareer eventuele luchtlekken in de cabine** — deurafdichtingen, tochtstrips van ramen en vooral het raam van het achterste stapelbed kunnen meer koeling lekken dan de airco produceert.Gebruik een rookpotlood om lekken te vinden;vervang de afdichtingen indien nodig.De meeste automobilisten kunnen het energieverbruik 's nachts met 40% verminderen, alleen al met deze vijf stappen – zonder de AC-unit te vervangen."
+    },
+    {
+      "heading": null,
+      "body": "## Integratie van zonne-energie: vermindering van batterijcycli en dynamobelasting"
+    },
+    {
+      "heading": null,
+      "body": "Door 200–400 W zonne-energie op het dak toe te voegen aan een AC-systeem voor parkeren, vermindert u de belasting van zowel uw accu als de dynamo van uw vrachtwagen tijdens het rijden.Een paneelarray van 300 W genereert 1,2–1,8 kWh per zonnige dag op de zuidelijke breedtegraden van de VS, en 0,8–1,2 kWh op de noordelijke breedtegraden – ongeveer 25–45% van het gemiddelde AC-verbruik 's nachts.Het praktische effect: uw accu start de meeste dagen dichter bij vol, uw DC-DC lader verbruikt minder van de dynamo en het totale brandstofverbruik bij gebruik op wisselstroom daalt met 15-25%.Apparatuurkosten: $400–$700 voor een flexibele paneelkit van 300 W met MPPT-controller.Terugverdientijd voor een OTR-chauffeur binnen 14-22 maanden.Zonne-energie elimineert uw batterijbehoefte niet, maar verlengt de levensduur van de batterij door de dagelijkse ontladingsdiepte te verminderen van normaal 70-80% naar 50-60%.LiFePO4 cellen gaan ongeveer 2x langer mee bij 50% DoD versus 80% DoD, dus het secundaire voordeel is aanzienlijk."
+    },
+    {
+      "heading": null,
+      "body": "## Hoe cabine-isolatie de effectiviteit van uw batterij vergroot"
+    },
+    {
+      "heading": null,
+      "body": "Het stroomverbruik vindt plaats stroomafwaarts van de warmtebelasting.De enige upgrade die u met de hoogste winst kunt maken om het AC-stroomverbruik bij parkeren te verminderen, is het verbeteren van de cabine-isolatie.We hebben dezelfde Cascadia-slaper geïnstrumenteerd voor en na het toevoegen van 2,5 cm polyiso aan het dak en de stapelbedmuur.Vroeger: 487 W gemiddeld verbruik gedurende de nacht bij een omgevingstemperatuur van 32°C.Na: 348 W gemiddeld – een reductie van 29%.De isolatie kostte $ 180 aan materialen en 4 uur arbeid.Alleen al de batterijbesparing (kleiner pakket nodig, langere levensduur) betaalde de upgrade in minder dan 6 maanden terug.Als u een nieuw batterijsysteem aan het dimensioneren bent, voer dan eerst de isolatie uit en meet uw werkelijke belasting opnieuw voordat u batterijen koopt.Veel chauffeurs maken hun batterijen 30 tot 50% te groot, omdat ze plannen rond een niet-geïsoleerde basislijn.Isolatie is ook de enige upgrade die zowel het wisselstroomverbruik als het brandstofverbruik van de hoofdmotor tijdens het rijden vermindert – dubbel werk."
+    },
+    {
+      "heading": null,
+      "body": "## Batterijveroudering: waarom de prestaties van jaar 3 verschillen van die van jaar 1"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 batterijen verliezen ongeveer 2–4% capaciteit per jaar bij normaal OTR-gebruik (250 cycli/jaar bij 70–80% DoD).Na jaar 3 zal een accu met een nieuw vermogen van 200 Ah ongeveer 180–188 Ah bruikbaar zijn.Verwacht in jaar 5 165–175 Ah.Dit is van belang, want als u uw systeem in het begin goed op maat hebt gemaakt, kunnen de prestaties van jaar 3 u op warme nachten tekort doen.De oplossing: 15-25% te groot bij de eerste aankoop.Koop 240 Ah voor een behoefte van 200 Ah, en u heeft marge voor zowel ongebruikelijke hittegebeurtenissen als natuurlijke batterijveroudering.U kunt ook een vervanging van de batterij plannen in het vijfde en zesde jaar, waarbij u de batterij beschouwt als een verbruiksartikel, zoals remblokken.De moderne LiFePO4 prijzen zijn sinds 2022 met 35% gedaald en zullen naar verwachting in 2028 nog eens met 20% dalen, waardoor de vernieuwingscyclus betaalbaarder wordt dan een paar jaar geleden."
+    },
+    {
+      "heading": null,
+      "body": "## Hoe u de gegevens van uw batterijmonitor correct kunt lezen"
+    },
+    {
+      "heading": null,
+      "body": "Batterijmonitors zoals de Victron BMV-712 geven real-time versterkers, spanning, laadstatus en verbruikte ampère-uren weer.De meeste automobilisten interpreteren verkeerd wat ze zien.Dit is wat elk getal in de praktijk feitelijk betekent.(1) Real-time versterkers: de onmiddellijke trekking - handig om te verifiëren dat de AC binnen het verwachte bereik werkt, niet om beslissingen over de grootte te nemen.(2) Gemiddelde versterkers: integreer dit over een volledige nacht om het werkelijke energieverbruik te krijgen – dit is het getal dat ertoe doet.(3) Laadtoestand (SoC): gebaseerd op cumulatieve coulombtelling, nauwkeurig tot ±2% met een goed gekalibreerde shunt.Periodiek resetten naar 100% door de bank volledig op te laden.(4) Verbruikte Ah: de nuttigste maatstaf voor de maatvoering. Houd dit bij gedurende zeven tot tien representatieve nachten en gebruik de maximale waarde als uw ontwerppunt.Chauffeurs die hun maat baseren op 'feels like' of momentane piek, zijn consequent ondermaats.Vertrouw op de data, niet op het gevoel."
+    },
+    {
+      "heading": null,
+      "body": "## Edge-hoesjes: extreme kou en extreme hitte"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 batterijen verliezen ruwweg 20% effectieve capaciteit onder 0°C (32°F) en weigeren op te laden onder -10°C (14°F) zonder interne verwarming.Voor chauffeurs die in de noordelijke winters 's nachts parkeren, kunt u het beste rekening houden met verwarmde accubakken ($150-$300 extra) of de bank groter maken tot 130% van de capaciteit bij warm weer.Bij extreme hitte boven de 45°C (113°F) verlagen AC-omvormers voor parkeren vaak de snelheid om de compressortemperaturen te beschermen, waardoor het koelvermogen met 10-18% afneemt.Batterijcellen gaan ook sneller achteruit boven een omgevingstemperatuur van 40°C. Zorg ervoor dat uw accubak geventileerd of in de schaduw ligt.Beide randgevallen streven ernaar om uw batterij te groot te maken en te kiezen voor invertergestuurde AC-units met gedocumenteerde bedrijfstemperatuurbereiken.Controleer de specificatiebladen zorgvuldig voor de maximale omgevingswaarden;Goedkope apparaten specificeren vaak 'tot 40°C', wat onvoldoende is voor gebruik in de zomer in het zuidwesten van de VS."
+    },
+    {
+      "heading": null,
+      "body": "## Veelgestelde vragen"
+    },
+    {
+      "heading": null,
+      "body": "**Hoeveel ampère verbruikt een 12V parkeer-AC?**\n\nEen moderne 12V-omvormer (8.000–10.000 BTU-klasse) verbruikt 30–40 A bij stabiele toestand en piekt rond de 80–90 A bij het opstarten.Een 24V-equivalent verbruikt de helft van de versterkers voor hetzelfde koelvermogen. Daarom verdient 24V de voorkeur voor systemen met een hoger vermogen.\n\n**Kan ik een parkeer-AC op de startaccu van mijn vrachtwagen laten draaien?**\n\nNee, nooit.Een startaccu is ontworpen voor korte uitbarstingen met hoge stroomsterkte (starten) en wordt binnen 20-40 cycli vernietigd door diep fietsen.U hebt een speciale LiFePO4 huisaccubank nodig die is geïsoleerd van de startaccu via een DC-DC oplader.\n\n**Zal een lithiumbatterij van 100 Ah de hele nacht een parkeerwisselstroom laten werken?**\n\nEén enkele 100Ah 12V LiFePO4 (1,28 kWh bruikbaar bij 100% DoD, 1,02 kWh bij 80% DoD) geeft u ongeveer 2,5–3 uur koeling op een inverterunit, of 1,5 uur op een unit met vaste snelheid.Voor een volledige nacht moet u rekenen op 200–300 Ah op 12V of 100–200 Ah op minimaal 24V.\n\n**Hoeveel brandstof verbruikt de dynamo om de accu op te laden?**\n\nOngeveer 0,4–0,6 liter diesel per kWh opgeladen via een 50A DC-DC lader tijdens het rijden.Het vervangen van een nachtelijke afvoer van 4 kWh kost ongeveer 1,6 tot 2,4 gallon ($ 6,30 tot $ 10,10) per dag aan extra brandstof.Dit is nog steeds 75-80% goedkoper dan stationair draaien.\n\n**Bespaart het gebruik van walstroom in plaats van accu iets?**\n\nJa, bij 110 V walstroom slaat u de batterijverliezen volledig over en betaalt u alleen voor de 450 W × 8 uur = 3,6 kWh × $ 0,13/kWh = $ 0,47 per nacht.Heeft u walstroom, maak daar dan gebruik van;reserveer de batterij voor off-grid-nachten.\n\n**Wat is parasitaire trekking en maakt het uit?**\n\nParasitaire stroom is de stand-bystroom die de AC-controller trekt wanneer deze 'uit' is.Kwaliteitsunits (CoolDrivePro V-TH1, Dometic RTX2000) verbruiken minder dan 50 mA.Goedkope units kunnen 200–400 mA trekken, wat 5–10 Ah per week verbruikt als de truck stilstaat.Zoek naar apparaten die het stand-byverbruik van minder dan 100 mA documenteren.\n\n**Mijn batterij is vóór de ochtend leeg. Wat is er aan de hand?**\n\nVier waarschijnlijke oorzaken gerangschikt op frequentie: (1) de batterij is te klein voor de werkelijke omgevings- en gebruiksuren, (2) de DC-DC de oplader is te klein, zodat de batterij nooit volledig wordt opgeladen tijdens het rijden, (3) spanningsval op de bekabeling zorgt ervoor dat AC meer ampère trekt om stroom te behouden, (4) de batterij is ouder dan 4–5 jaar en de capaciteit is met meer dan 20% afgenomen.Gebruik een batterijmonitor om een ​​diagnose te stellen;raad het niet.Onze [checklist voor het oplossen van problemen met parkeer-AC](/blog/parking-ac-not-cooling-troushooting) doorloopt elke diagnostische stap in volgorde."
+    }
+  ]
+}

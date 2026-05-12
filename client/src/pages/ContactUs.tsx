@@ -64,6 +64,9 @@ export default function ContactUs() {
       
       if (response.ok) {
         setSubmitted(true);
+        if (typeof window !== "undefined" && typeof (window as any).coolDriveProTrackLead === "function") {
+          (window as any).coolDriveProTrackLead();
+        }
         toast.success(t('contact.form.success'));
       } else {
         throw new Error('Failed to send');

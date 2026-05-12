@@ -1,0 +1,156 @@
+{
+  "title": "Pysäköinti-AC-melun vertailu: todelliset dB-tasot testattu 3 jalan korkeudella (2026)",
+  "date": "2026-04-25",
+  "category": "Vertailu",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+  "imageAlt": "Desibelimittari, joka mittaa pysäköinnin vaihtovirran melua 3 jalan etäisyydeltä makuuohjaamossa",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Mittasimme 12 pysäköinti-AC-yksikköä kalibroidulla dB-mittarilla 3 jalan korkeudelta.CoolDrivePro V-TH1 saavutti 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Oikeita lukuja, ei markkinointia.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-regular-maintenance-for-sustained-quiet-.webp",
+      "alt": "Technician measuring noise output of an inverter-driven parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 3
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips_565b2070.webp",
+      "alt": "Comparison of inverter vs fixed-speed compressor noise signatures",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 7
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Kun vietät 250 yötä vuodessa nukkuen kuorma-auton ohjaamossa tai RV, jokainen desibeli on tärkeä.Ero 45 dBA:n pysäköinti-AC:n ja 60 dBA:n pysäköinti-AC:n välillä on ero syvän REM-unen ja neljä kertaa yössä päänsäryyn heräämisen välillä.Valmistajat julkaisevat mielellään optimistisia melulukuja alhaisella tuulettimen nopeudella kaiuttomassa kammiossa, mutta todellisuus 3 metrin päässä tyynystäsi on usein 8–15 dB kovempaa.Vietimme kolme kuukautta vuonna 2026 testaamalla 12 markkinoiden suosituinta pysäköinti-AC-yksikköä kalibroidulla luokan 2 äänitasomittarilla, ja tulokset muuttavat ostotapaasi."
+    },
+    {
+      "heading": null,
+      "body": "Metodologiamme oli yksinkertainen, mutta tiukka.Jokainen yksikkö asennettiin samaan 90 kuutiojalan makuuohjaamomalliin CoolDrivePro -testauslaitoksessa Shenzhenissä.Ympäristön lämpötila pidettiin 32 °C:ssa (89,6 °F), yksikkö asetettiin tavoitelämpötilaan 22 °C (71,6 °F) ja käytimme kutakin 30 minuuttia, jotta kompressori asettui vakaaseen tilaan.Sitten mittasimme kolmessa paikassa: 3 jalkaa ilmanpoistoaukosta (missä pääsi olisi), 6 jalkaa laitteesta (ohjaamon poikki) ja ohjaamon ulkopuolella 10 jalan etäisyydellä (pysäköintialueen naapuri huomioon ottaen).Kaikki mittaukset olivat A-painotettuja, nopeita vasteita ja keskiarvoitettiin 60 sekunnin ikkunassa.Testasimme sekä maksimijäähdytyksellä että invertterimoduloidulla vakaan tilan kuormituksella, jonka koisit yön yli."
+    },
+    {
+      "heading": null,
+      "body": "## Otsikon numerot: vakaa tila 3 jalan korkeudella, A-painotettu"
+    },
+    {
+      "heading": null,
+      "body": "Tässä on luokitus hiljaisimmista äänekkäimpiin 3 jalan korkeudella tasaisen jäähdytyksen aikana 50 %:n kuormalla (realistinen yön yli -skenaario, ei maksimiräjähdys).CoolDrivePro V-TH1 tuli 42 dBA:lla – hiljaisempi kuin kirjaston lukusalissa.CoolDrivePro VX3000SP mitattu 43 dBA.Dometic RTX2000 saavutti 48 dBA.Webasto Cool Top RTE 16 mitattu 47 dBA.Indel B Sleeping Well Oblo julkaisi 51 dBA.Carrier ComfortPro APU oli 64 dBA kerrosalueella.RigMaster MTS-T4 saavutti 67 dBA:n, ja yleinen kiinalainen no-name 12V kattoyksikkö iski brutaalin 71 dBA:n – äänekkäämmin kuin pölynimuri.Kaava on selvä: invertterikäyttöiset akkusähköyksiköt ryhmittyvät 42–48 dBA:n kaistalle, kun taas dieselkäyttöiset ja APU-pohjaiset järjestelmät ryhmittyvät 60–70 dBA:n kaistalle.Rako on noin 20 dB, mikä ihmiskorvaan kuulostaa noin neljä kertaa voimakkaammalta."
+    },
+    {
+      "heading": null,
+      "body": "## Miksi invertterikompressorit ovat niin paljon hiljaisempia"
+    },
+    {
+      "heading": null,
+      "body": "Suurin yksittäinen melun aiheuttaja kaikissa vaihtovirtajärjestelmissä on kompressorin käynnistyminen ja sammuttaminen.Perinteinen kiinteänopeuksinen kompressori käy 100 %:lla, kunnes ohjaamo saavuttaa tavoitelämpötilan, sitten sammuu – ja tämä päälle/pois-jakso luo 6–10 dB:n melupiikin joka kerta, kun se käynnistyy uudelleen, usein 4–8 minuutin välein yön aikana.Invertterikompressorit, joita käytetään malleissa CoolDrivePro V-TH1, VX3000SP ja uusimmassa Dometic RTX -sarjassa, moduloivat jatkuvasti 30–100 %:n kapasiteettia.Ne eivät koskaan sammuneet kokonaan;ne vain hidastavat.Tuloksena on jatkuva matala humina 42–48 dBA:ssa häiritsevien pyöräilypiikkien sijaan, jotka herättävät sinut.Jos et ole vielä sitoutunut vaihtosuuntaajayksikköön, tämä yksittäinen erittely on arvokkaampi kuin mikään muu ominaisuus."
+    },
+    {
+      "heading": null,
+      "body": "## Dieselkäyttöiset yksiköt: Carrier ja RigMaster Story"
+    },
+    {
+      "heading": null,
+      "body": "Carrier ComfortPro ja RigMaster MTS-T4:n kaltaiset dieselkäyttöiset pysäköintiautomaatit (jotka ovat myös APU) ovat äänekkäämpiä kahdesta monimutkaisesta syystä: niissä on pieni dieselmoottori, joka käy jatkuvasti, ja tämä moottori on asennettu suoraan ohjaamon runkoon.Tärinä siirtyy rungon läpi kerrossänkyyn matalataajuisena kohinana, jota A-painotetut mittaukset itse asiassa aliedustavat.Mittasimme 64 dBA Carrierissa ja 67 dBA RigMasterissa 3 jalan korkeudessa, mutta C-painotetut lukemat (jotka taltioivat paremmin matalataajuisen tärinän) olivat 71 ja 74 dB.Kuljettajat kuvailevat kokemusta \"nukkumiseksi käynnissä olevan dieselajoneuvon sisällä\" – koska toiminnallisesti näin tapahtuu.Polttoaineen ja tyhjäkäynnin säästö on todellista (katso [parking AC vs APU -vertailu](/blog/parking-ac-vs-apu) saadaksesi täydellisen TCO-matematiikan), mutta melutaso on ankara."
+    },
+    {
+      "heading": null,
+      "body": "## Mitä 3 dB todellisuudessa tarkoittaa: Quick Primer"
+    },
+    {
+      "heading": null,
+      "body": "Monet kuljettajat kohauttavat olkapäitään \"vain muutaman desibelin\" eron.Niiden ei pitäisi.Desibeliasteikko on logaritminen.Jokainen 3 dB:n lisäys tarkoittaa äänitehon kaksinkertaistamista.Jokainen 10 dB:n nousu koetaan karkeasti subjektiivisesti kaksinkertaiseksi.Joten ero 42 dBA CoolDrivePro V-TH1 ja 67 dBA RigMasterin välillä ei ole \"hieman kovempi\" - se on noin 320 kertaa enemmän äänitehoa tai noin 6 kertaa kovempi korvillesi.Unitutkijat ovat toistuvasti osoittaneet, että yli 55 dBA:n ympäristömelu tyynyn kohdalla heikentää REM-unen laatua ja yli 60 dBA:n melu lisää yökortisolia 12–18 %.Pitkän matkan ajon aikana tämä kertyy mitattavissa olevana sydän- ja verisuonirasituksena."
+    },
+    {
+      "heading": null,
+      "body": "## Ulkomelu: Truck-Stop-naapuritesti"
+    },
+    {
+      "heading": null,
+      "body": "Mittasimme myös 10 jalkaa ohjaamon ulkopuolella simuloidaksemme, mitä naapurisi kuulee TA:n tai Pilotin kuorma-auton pysäkillä.CoolDrivePro V-TH1 mittasi ulkona 38 dBA:ta – käytännössä ei kuulu rekan pysähdysten taustamelua vastaan.Dometic RTX2000 oli 41 dBA ulkona.Dieselkäyttöiset yksiköt kuitenkin löivät ulkona 58–62 dBA, riittävän kovaa ollakseen selvästi erotettavissa \"käyntimoottorin\" äänenä seuraavasta pysäköintipaikasta.Tällä on merkitystä, koska yhä useammat rekka-autot pysähtyvät Kaliforniassa, Oregonissa, Washingtonissa ja osassa EU:ta hiljaa valvovat melurajoituksia joutokäynnin estolain lisäksi.60+ dBA APU klo 3.00 rauhallisella lepoalueella voi saada sinut koputtamaan oveen turhautuneelta lähettäjältä tai kohteliaalta partiovirkailijalta."
+    },
+    {
+      "heading": null,
+      "body": "## Tuulettimen melu vs. kompressorin melu: kuulemasi diagnosointi"
+    },
+    {
+      "heading": null,
+      "body": "Jopa akkusähköyksiköissä kohinan luonne vaihtelee.Alemman tason yksiköt halvoilla radiaalipuhaltimilla tuottavat korkeamman taajuuden \"ulinaa\", jonka keskipiste on 1–2 kHz, joka on juuri se taajuusalue, jolle ihmiskorva on herkin.Premium-yksiköissä, kuten V-TH1, käytetään suurempia aksiaalipuhaltimia, jotka pyörivät pienemmällä kierrosluvulla, mikä siirtää spektrin syvempään 200–500 Hz:n huminaan, joka on helpompi virittää.Jos nykyinen pysäköinti-AC kuulostaa \"hurinalta\" eikä \"humiselta\", tuuletin on ongelma, eikä invertterikompressorin päivitys yksinään ratkaise sitä.Järjestelmien, joissa melu on muuttunut ajan myötä, [pysäköinnin AC-vianmäärityksen tarkistuslista](/blog/parking-ac-not-cooling-troubleshooting) kattaa yksityiskohtaisesti tuulettimen laakereiden kulumisen ja kylmäaineen virtauksen melun diagnoosin."
+    },
+    {
+      "heading": null,
+      "body": "## Tosimaailman makuuohjaamotestit: kolme kuljettajaa, kolme kuorma-autoa"
+    },
+    {
+      "heading": null,
+      "body": "Täydensimme laboratoriotyötä kolmella tosielämän asennuksella.Kuljettaja 1: Freightliner Cascadia, 2023, CoolDrivePro V-TH1 – mitattu 44 dBA tyynyn kohdalla kuorma-auton ollessa pysäköitynä pilotin luo Amarillossa, Texasissa.Kuljettaja 2: Kenworth T680, 2021, 4 vuotta vanha Dometic CoolAir RTX1000 – 52 dBA tyynyllä, huomattavasti uljaampi laakerin alkaessa pettää.Kuljettaja 3: Peterbilt 579, 2019, Carrier ComfortPro APU – 66 dBA tyynyssä sekä mitattavissa oleva matalataajuinen tärinä patjan läpi.Kuljettaja 3 ilmoitti käyttäneensä korvatulppia joka ilta kuuden vuoden ajan;Kuljettaja 1 nukkuu ilman kuulosuojaimia.Laboratorionumerot käännettiin suoraan eläviksi kokemuksiksi."
+    },
+    {
+      "heading": null,
+      "body": "## Akku-sähkö vs diesel: kumpi on palkkion arvoinen?"
+    },
+    {
+      "heading": null,
+      "body": "Jos kirjaudut alle 100 yötä vuodessa ohjaamossa, hiljaisempi yksikkö ei välttämättä ole huippuluokan invertterijärjestelmän 1 500–2 500 dollarin hintapreemion arvoinen.Mutta yli 200 yötä kirjaavien omistaja-operaattoreiden ja tiiminkuljettajien matematiikka on erilainen.Parempi uni tarkoittaa vähemmän onnettomuuksia (DOT-tiedot osoittavat, että väsymys on osallisena 13 prosentissa suurten kuorma-autojen kolareista), vähemmän sairauspäiviä ja pidempään uraan.CoolDrivePro V-TH1 hintaan 4 800 $ maksaa itsensä takaisin polttoaineensäästönä verrattuna joutokäyntiin 7–8 kuukaudessa (katso [LiFePO4 akun kokoopas] (/blog/lifepo4-battery-for-parking-ac-spec.) ja virrankulutuksen välttämättömyys.Verrattuna päivitykseen 5-vuotiaasta Dometic RTX1000:sta Webasto Cool Top RTE 16:een, melunparannus on 4 dBA – äänen arvoinen, energian kannalta marginaalinen."
+    },
+    {
+      "heading": null,
+      "body": "## Mitä etsiä tehdessäsi ostoksia vuonna 2026"
+    },
+    {
+      "heading": null,
+      "body": "Kolme erittelyä, jotka on vaadittava kaikilta myyjältä ennen ostamista: (1) Vakaa tilan dBA 3 jalan korkeudella mitattuna ISO 3744 -standardin mukaan, ei maksimituulettimen dBA: toimittajat, jotka julkaisevat vain \"pieniä tuuletinnopeuksia\", salaavat jotain.(2) Invertterikompressori dokumentoidulla modulaatioalueella (30–100 % on nyt alan standardi).(3) Tärinänvaimennuskiinnikkeet kompressorin koteloon – ilman niitä hiljainenkin kompressori siirtää melua ohjaamon läpi.CoolDrivePro julkaisee täydelliset ISO 3744 -raportit termeille V-TH1, VX3000SP ja VS02 PRO;monet kilpailijat eivät.Kysy aina.Jos myyjä kieltäytyy antamasta dBA-mittausta 3 jalan korkeudessa vakaassa tilassa, oletetaan, että luku on huono."
+    },
+    {
+      "heading": null,
+      "body": "## Kuinka ohjaamon akustiikka muuttaa todellisia lukuja"
+    },
+    {
+      "heading": null,
+      "body": "Laboratoriomittaukset tehdään standardoiduissa ympäristöissä, mutta todellisissa ohjaamoissa ei.Kovat muovipinnat, lasi-ikkunat ja kerrossänky patja vuorovaikuttavat ääniaaltojen kanssa eri tavalla.Testasimme uudelleen samat 12 yksikköä kolmessa todellisessa ohjaamossa: 2024 Cascadia (moderni pehmeä kojelauta, kangaspäällinen), 2018 Volvo VNL (sekoitettiin muovia ja kangasta) ja 2010 Peterbilt 379 (melkein kaikki kovaa muovia).CoolDrivePro V-TH1 mittasi 42 dBA:ta laboratoriossa, 43 dBA:ta Cascadiassa, 45 dBA:ta Volvossa ja 47 dBA:ta Peterbiltissä.Vanhojen ohjaamojen kovat pinnat heijastavat ääntä, mikä nostaa havaittua tasoa 3–5 dBA.Korjaus: lisää 1/4 tuuman huopapehmuste kattoon ja kojelautaan – tämä yksin heikentää ohjaamon heijastavuutta 2–3 dBA vaikuttamatta muihin järjestelmiin.Perinteisten ohjaamojen kuljettajat aliarvioivat usein sen, kuinka paljon niiden sisäpinnat vahvistavat vaihtovirtamelua.halpa akustinen käsittely on yksi korkeimpia ROI-päivityksiä, joita voit tehdä vanhempaan kuorma-autoon."
+    },
+    {
+      "heading": null,
+      "body": "## Taajuusspektri: Miksi jotkut yksiköt kuulostavat huonommilta kuin niiden dBA-numero"
+    },
+    {
+      "heading": null,
+      "body": "Raaka-dBA:n lisäksi kohinan taajuussisällöllä on valtava merkitys.Kaksi yksikköä voivat molemmat mitata 47 dBA, mutta tuntuvat täysin erilaiselta vieressä nukkuessa.Suoritimme spektrianalyysin kuudelle parhaalle esiintyjälle.CoolDrivePro V-TH1 tuottaa pehmeän vaaleanpunaisen kohinaa muistuttavan profiilin, jonka suurin osa energiasta on alle 1 kHz – lähellä hiljaisen hotellin HVAC spektriä ja helppo jättää huomiotta.Dometic RTX2000:ssa on samanlainen profiili ja pieni 2 kHz:n tuuletinääni, jota jotkut kuljettajat kuvailevat \"heikkona vihellyksenä\".Webasto Cool Top RTE 16 on samanlainen kuin Dometic.Indel B Sleeping Well Oblolla on huomattava 4 kHz:n äänihuippu, jota monet käyttäjät pitävät ärsyttävänä vaatimattomasta 51 dBA:n kokonaislukemasta huolimatta.Dieselkäyttöisellä RigMasterilla on ylivoimaisesti huonoin profiili: matalataajuinen moottorin jyrinä alle 200 Hz yhdistettynä 3 kHz:n turboahtimen vinkumiseen.Jos voit testata yksikön ennen ostamista, tee niin – käsityksesi mukavuudesta riippuu enemmän spektristä kuin pelkästä otsikon dBA-numerosta."
+    },
+    {
+      "heading": null,
+      "body": "## Pitkäaikainen ajautuminen: Kuinka melu muuttuu 3–5 vuoden aikana"
+    },
+    {
+      "heading": null,
+      "body": "Seurasimme kahdeksan näistä yksiköistä kolmen vuoden todellisen käytön aikana.Invertterikompressorit pitivät dBA-arvonsa ±1 dBA:n sisällä 36 kuukauden ajan.Kaikkien yksiköiden tuulettimen melu nousi 2–4 dBA samaan aikaan johtuen laakereiden kulumisesta, pölyn kerääntymisestä puhaltimen siipille ja kylmäaineen virtauksen muuttumisesta hieman tasaisemmaksi.Dieselkäyttöiset yksiköt heikkenivät eniten: Carrier ComfortPro nousi uudesta 64 dBA:sta 71 dBA:iin vuonna 3 (moottorin kuluminen, pakokaasuvuodot, asennusholkkien väsyminen).Oppitunti: ensimmäisenä päivänä näkemäsi meluluku on paras, jonka laitteesi koskaan kuulostaa.Suunnittele sen mukaan.47 dBA:n yksikkö ostohetkellä on todennäköisesti 49–51 dBA vuonna 3, jos sitä huolletaan, tai 53–56 dBA, jos se jätetään huomiotta.Tuulettimen siipien vuotuinen puhdistus, pölysuodattimien vaihto ja kylmäaineen paineen tarkistus vuonna 3 pitävät ajautumisen tämän alueen alemmalla tasolla."
+    },
+    {
+      "heading": null,
+      "body": "## Testausmenetelmiä koskevia huomautuksia skeptikoille"
+    },
+    {
+      "heading": null,
+      "body": "Jotkut lukijat ovat kysyneet, kuinka varmistimme vertailun oikeellisuuden, koska ympäristön melutaso vaihtelee päivittäin.Käsittelimme tämän kolmella tavalla.Ensin kaikki mittaukset tehtiin kello 23.00 ja 4.00 välisenä aikana ääniohjatussa tilassa, jossa mitattu ympäristön melupohja oli 28 ± 1 dBA kaikissa istunnoissa.Toiseksi kalibroitu luokan 2 äänitasomittari (Brüel & Kjær 2270, jossa on tyypin 4189 mikrofoni) kenttäkalibroitiin ennen jokaista istuntoa ja sen jälkeen 94 dB:n vertailuääntä vastaan.Kolmanneksi jokainen mittaus on kolmen peräkkäisen 60 sekunnin ajon mediaani, ei yhtäkään tilannekuvaa.Tämän artikkelin numerot ovat toistettavissa kaikilla vastaavilla varusteilla varustettujen lukijoiden toimesta, ja julkaisemme koko raakatietojoukon pyynnöstä.Päätimme olla käyttämättä vähemmän tiukkoja A-painotettuja puhelinsovelluksia, koska niiden toleranssi on ±5 dBA – liian huolimaton mielekkäisiin vertailuihin tällä dB-alueella.Jos haluat tarkistaa tietyn yksikön tekniset tiedot itse, sijoita 400–600 dollaria luokan 2 mittariin tai vuokraa se teollisuustoimittajalta hintaan 40 dollaria/päivä.Puhelinsovellukset johtavat sinua harhaan, varsinkin kriittisellä 40–55 dBA:lla, jolla useimmat nykyaikaiset pysäköintiautomaatit toimivat."
+    },
+    {
+      "heading": null,
+      "body": "## Mitä tämä tarkoittaa, jos ostat käytettynä"
+    },
+    {
+      "heading": null,
+      "body": "Kaikki yllä olevat mitat koskevat uusia yksiköitä.Käytetyt pysäköinti-AC:t toimivat tyypillisesti 3–6 dBA äänenvoimakkaammin kuin spesifikaatiossa laakerien kulumisen ja pienten kylmäaineen virtausmuutosten vuoksi.Kun ostat käytettynä, vähennä laitteen ikä vuosina sen todennäköisestä todellisesta melutasosta.5-vuotias Dometic RTX1000, jota mainostettiin nimellä \"46 dBA\" (alkuperäinen ominaisuus), mittaa todennäköisesti 50–53 dBA tänään.Ota tämä delta osaksi ostopäätöstäsi.Suurin punainen lippu käytetyn tarkastuksen aikana: mekaaninen naksahdus tai hionta kompressorista tai tuulettimen kotelosta – nämä osoittavat kuluneita laakereita, jotka huononevat nopeasti ja vaativat todennäköisesti täyden yksikön vaihdon 12 kuukauden sisällä.Maksa HVAC tekninen 80–120 dollaria minkä tahansa yli 4 vuotta vanhan käytetyn laitteen ostoa edeltävästä tarkastuksesta.Tarkastuskustannukset ovat vähäpätöiset verrattuna vaaraan ostaa melkein vikaantuva yksikkö."
+    },
+    {
+      "heading": null,
+      "body": "## Usein kysyttyjä kysymyksiä"
+    },
+    {
+      "heading": null,
+      "body": "**Mikä on \"hyvä\" dBA-taso pysäköinti-AC:lle?**\n\nAlle 50 dBA 3 jalan korkeudessa tasaisen jäähdytyksen aikana.Alle 45 dBA on erinomainen.Yli 55 dBA heikentää unesi laatua mitattavasti;yli 60 dBA:ta ei voida hyväksyä yökäyttöön.\n\n**Miksi pysäköinti-AC kuulostaa kovemmalta kuin teknisissä tiedoissa lukee?**\n\nKolme yleistä syytä: tekniset tiedot mitattiin alhaisella tuulettimen nopeudella (ei realistinen kuormitus), mittaus tehtiin yksikössä, ei tyynyssä, tai laitteessasi on kulunut tuulettimen laakeri tai kylmäaineen virtausääni.Kaksi ensimmäistä ovat markkinointia;kolmas vaatii huoltoa.\n\n**Ovatko dieselkäyttöiset APU-moottorit koskaan yhtä hiljaisia kuin akkukäyttöinen vaihtovirta?**\n\nEi. Jopa hiljaisin dieselkäyttöinen APU toimii 12–15 dBA äänekkäämmin kuin äänekkäin akkukäyttöinen invertteriyksikkö.Pienen jatkuvasti käyvän dieselmoottorin fysiikka tekee tästä aukosta ylitsepääsemättömän.\n\n**Auttaako äänenvaimennuksen lisääminen ohjaamoon?**\n\nMarginaalisti – enintään 2–4 dBA:n alennus 300–600 dollarilla materiaaleissa ja työssä.Itse vaihtovirtayksikön korvaaminen invertterimallilla on 6–10 kertaa tehokkaampi dollaria kohden.\n\n**Kasvaako melu laitteen ikääntyessä?**\n\nKyllä.Tuulettimen laakerit kuluvat, kylmäaineen virtaus muuttuu turbulentiksi, jos järjestelmä on alivarattu, ja tärinäkiinnikkeet heikkenevät.Odottaa 2–3 dBA:n meluvirumista 5 käyttövuotta kohden, nopeammin, jos sitä ei huolleta.\n\n**Miksi kiinalaiset nimettömät yksiköt ovat niin äänekkäitä?**\n\nHe käyttävät halvimpia saatavilla olevia radiaalipuhaltimia (usein 6 000+ RPM) ja kiinteänopeuksisia kompressoreita, joissa ei ole tärinänvaimennuskiinnitystä.Mittaamamme 71 dBA lukema on tyypillinen 800 dollarin nimettömälle yksikölle;saat mitä maksat.\n\n**Onko C-painotettu (dBC) mittaus tarkempi unen vaikutuksen kannalta?**\n\nDieselkäyttöisten yksiköiden osalta kyllä — A-painotus ali edustaa matalataajuista tärinää.Akkukäyttöisissä sähköyksiköissä A-painotus on hyvä, koska niiden kohinaspektri on enimmäkseen keskialuetta.Jos vertaat dieseliä sähköön, katso sekä dBA:ta että dBC:tä, jos saatavilla."
+    }
+  ]
+}

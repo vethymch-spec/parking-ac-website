@@ -1,0 +1,156 @@
+{
+  "title": "Perbandingan Kebisingan AC Parkir: Tingkat dB Nyata Diuji pada 3 Kaki (2026)",
+  "date": "2026-04-25",
+  "category": "Perbandingan",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+  "imageAlt": "Pengukur desibel mengukur kebisingan AC parkir pada jarak 3 kaki di dalam kabin tidur",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Kami mengukur 12 unit AC parkir dengan dB meter yang dikalibrasi pada jarak 3 kaki.CoolDrivePro V-TH1 mencapai 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Bilangan nyata, tanpa pemasaran.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-regular-maintenance-for-sustained-quiet-.webp",
+      "alt": "Technician measuring noise output of an inverter-driven parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 3
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips_565b2070.webp",
+      "alt": "Comparison of inverter vs fixed-speed compressor noise signatures",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 7
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Saat Anda menghabiskan 250 malam dalam setahun untuk tidur di dalam kabin truk atau RV, setiap desibel berarti.Perbedaan antara AC parkir 45 dBA dan AC parkir 60 dBA adalah perbedaan antara tidur REM nyenyak dan terbangun empat kali semalam dengan sakit kepala.Produsen suka mempublikasikan angka kebisingan optimis yang diukur pada kecepatan kipas rendah di ruang anechoic, namun kenyataannya pada jarak 3 kaki dari bantal Anda sering kali lebih keras 8–15 dB.Kami menghabiskan tiga bulan pada tahun 2026 untuk menguji 12 unit AC parkir paling populer di pasaran dengan pengukur tingkat suara Kelas 2 yang terkalibrasi, dan hasilnya akan mengubah cara Anda berbelanja."
+    },
+    {
+      "heading": null,
+      "body": "Metodologi kami sederhana namun ketat.Setiap unit dipasang pada mockup kabin tidur berukuran 90 kaki kubik yang sama di fasilitas pengujian CoolDrivePro di Shenzhen.Suhu sekitar dijaga pada 32°C (89,6°F), unit disetel ke target 22°C (71,6°F), dan kami menjalankan masing-masing unit selama 30 menit agar kompresor stabil pada kondisi stabil.Kemudian kami mengukur pada tiga posisi: 3 kaki dari saluran keluar udara (tempat kepala Anda berada), 6 kaki dari unit (di seberang kabin), dan di luar kabin pada jarak 10 kaki (untuk pertimbangan tetangga di tempat parkir).Semua pengukuran berbobot A, respons cepat, dan rata-rata dalam jangka waktu 60 detik.Kami menguji pada pendinginan maksimum dan pada beban kondisi stabil termodulasi inverter yang sebenarnya akan Anda alami dalam semalam."
+    },
+    {
+      "heading": null,
+      "body": "## Nomor Judul: Keadaan Mantap pada 3 Kaki, Berbobot A"
+    },
+    {
+      "heading": null,
+      "body": "Berikut adalah peringkat dari yang paling senyap hingga paling keras pada ketinggian 3 kaki selama pendinginan kondisi stabil pada beban 50% (skenario realistis dalam semalam, bukan ledakan maksimal).CoolDrivePro V-TH1 hadir pada 42 dBA — lebih senyap dibandingkan ruang baca perpustakaan.CoolDrivePro VX3000SP diukur 43 dBA.Dometic RTX2000 mencapai 48 dBA.Webasto Cool Top RTE 16 diukur 47 dBA.Indel B Sleeping Well Oblo membukukan 51 dBA.Carrier ComfortPro APU adalah 64 dBA di tempat tidur.RigMaster MTS-T4 hadir dengan kekuatan 67 dBA, dan unit rooftop 12V tanpa nama asal Tiongkok mencapai 71 dBA — lebih keras daripada penyedot debu.Polanya jelas: unit baterai-listrik yang digerakkan oleh inverter dikelompokkan pada pita 42–48 dBA, sedangkan sistem berbahan bakar diesel dan berbasis APU dikelompokkan pada pita 60–70 dBA.Kesenjangannya kira-kira 20 dB, yang bagi telinga manusia terdengar empat kali lebih keras."
+    },
+    {
+      "heading": null,
+      "body": "## Mengapa Kompresor Inverter Jauh Lebih Tenang"
+    },
+    {
+      "heading": null,
+      "body": "Satu-satunya penyumbang kebisingan terbesar dalam sistem AC mana pun adalah siklus hidup dan mati kompresor.Kompresor tradisional berkecepatan tetap bekerja pada 100% hingga kabin mencapai suhu target, lalu mati — dan siklus hidup/mati tersebut menghasilkan lonjakan kebisingan 6–10 dB setiap kali dihidupkan kembali, seringkali setiap 4–8 menit dalam semalam.Kompresor inverter, yang digunakan pada CoolDrivePro V-TH1, VX3000SP, dan seri Dometic RTX terbaru, memodulasi secara terus menerus antara kapasitas 30% dan 100%.Mereka tidak pernah mati sepenuhnya;mereka hanya melambat.Hasilnya adalah dengungan rendah yang konstan pada 42–48 dBA, bukan lonjakan siklus yang mengganggu yang membangunkan Anda.Jika Anda belum berkomitmen untuk menggunakan unit inverter, spesifikasi tunggal ini lebih berharga daripada fitur lainnya."
+    },
+    {
+      "heading": null,
+      "body": "## Unit Berbahan Bakar Diesel: Kisah Pengangkut dan RigMaster"
+    },
+    {
+      "heading": null,
+      "body": "AC parkir berbahan bakar diesel (yang berfungsi ganda sebagai APUs) seperti Carrier ComfortPro dan RigMaster MTS-T4 lebih keras karena dua alasan tambahan: AC tersebut memiliki mesin diesel kecil yang bekerja terus menerus, dan mesin tersebut dipasang langsung ke rangka kabin.Getaran berpindah melalui sasis dan ke lantai susun sebagai gemuruh frekuensi rendah yang sebenarnya kurang terwakili dalam pengukuran berbobot A.Kami mengukur 64 dBA pada Carrier dan 67 dBA pada RigMaster pada jarak 3 kaki, namun pembacaan berbobot C (yang menangkap getaran frekuensi rendah dengan lebih baik) masing-masing adalah 71 dan 74 dB.Para pengemudi menggambarkan pengalaman tersebut sebagai 'tidur di dalam truk pikap diesel yang sedang berjalan' — karena secara fungsional itulah yang terjadi.Penghematan bahan bakar dan waktu menganggur memang nyata (lihat [perbandingan AC parkir vs APU](/blog/parking-ac-vs-apu) untuk perhitungan TCO selengkapnya), namun penalti kebisingannya sangat parah."
+    },
+    {
+      "heading": null,
+      "body": "## Arti Sebenarnya 3 dB: Primer Cepat"
+    },
+    {
+      "heading": null,
+      "body": "Banyak pengemudi mengabaikan perbedaan 'hanya beberapa desibel'.Seharusnya tidak.Skala desibel adalah logaritmik.Setiap peningkatan 3 dB mewakili penggandaan kekuatan suara.Setiap peningkatan 10 dB secara kasar dianggap dua kali lebih keras secara subyektif.Jadi jarak antara 42 dBA CoolDrivePro V-TH1 dan 67 dBA RigMaster tidak 'sedikit lebih keras' — kekuatan suaranya kira-kira 320 kali lebih besar, atau sekitar 6 kali lebih keras di telinga Anda.Peneliti tidur telah berulang kali menunjukkan bahwa kebisingan sekitar di atas 55 dBA pada bantal menurunkan kualitas tidur REM, dan kebisingan di atas 60 dBA meningkatkan kortisol malam hari sebesar 12–18%.Selama bertahun-tahun mengemudi jarak jauh, hal ini terakumulasi sebagai ketegangan kardiovaskular yang dapat diukur."
+    },
+    {
+      "heading": null,
+      "body": "## Kebisingan Luar Ruangan: Tes Tetangga Halte Truk"
+    },
+    {
+      "heading": null,
+      "body": "Kami juga mengukur pada jarak 10 kaki di luar kabin untuk menyimulasikan apa yang didengar tetangga Anda di halte TA atau truk Pilot.CoolDrivePro V-TH1 mengukur 38 dBA di luar — pada dasarnya tidak terdengar dengan latar belakang kebisingan halte truk.Dometic RTX2000 memiliki 41 dBA di luar.Namun, unit berbahan bakar diesel mencapai 58–62 dBA di luar, cukup keras untuk dapat dibedakan dengan jelas sebagai suara 'mesin menyala' dari tempat parkir berikutnya.Hal ini penting karena semakin banyak truk yang berhenti di California, Oregon, Washington, dan sebagian wilayah UE yang secara diam-diam menerapkan batas kebisingan selain undang-undang anti-idling.60+ dBA APU pada jam 3 pagi di tempat istirahat yang tenang dapat membuat Anda mendapat ketukan dari petugas operator yang frustrasi atau petugas patroli kesopanan."
+    },
+    {
+      "heading": null,
+      "body": "## Kebisingan Kipas vs Kebisingan Kompresor: Mendiagnosis Apa yang Anda Dengar"
+    },
+    {
+      "heading": null,
+      "body": "Bahkan dalam unit baterai-listrik, karakter kebisingannya berbeda-beda.Unit tingkat rendah dengan kipas radial yang murah menghasilkan 'rengekan' dengan frekuensi lebih tinggi yang berpusat di sekitar 1–2 kHz, yang merupakan pita frekuensi yang paling sensitif bagi telinga manusia.Unit premium seperti V-TH1 menggunakan kipas aksial lebih besar yang bekerja pada RPM lebih rendah, sehingga menggeser spektrum ke dengungan 200–500 Hz yang lebih dalam sehingga lebih mudah untuk dihilangkan.Jika AC parkir Anda saat ini terdengar 'cengeng' dan bukan 'berdengung', masalahnya adalah kipas angin dan peningkatan kompresor inverter saja tidak akan sepenuhnya memperbaikinya.Untuk sistem yang kebisingannya berubah seiring waktu, [daftar periksa pemecahan masalah AC parkir](/blog/parking-ac-not-cooling-troubleshooting) kami mencakup diagnosis keausan bantalan kipas dan kebisingan aliran zat pendingin secara mendetail."
+    },
+    {
+      "heading": null,
+      "body": "## Tes Kabin Tidur di Dunia Nyata: Tiga Pengemudi, Tiga Truk"
+    },
+    {
+      "heading": null,
+      "body": "Kami melengkapi pekerjaan lab dengan tiga instalasi di dunia nyata.Pengemudi 1: Freightliner Cascadia, 2023, dengan CoolDrivePro V-TH1 — diukur 44 dBA di bantal dengan truk yang diparkir di Pilot di Amarillo, TX.Pengemudi 2: Kenworth T680, 2021, dengan Dometic CoolAir RTX1000 berusia 4 tahun — 52 dBA di bantalan, terasa lebih merengek karena bantalan mulai rusak.Pengemudi 3: Peterbilt 579, 2019, dengan Carrier ComfortPro APU — 66 dBA pada bantalan, ditambah getaran frekuensi rendah yang terukur melalui kasur.Pengemudi 3 melaporkan menggunakan penutup telinga setiap malam selama enam tahun;Pengemudi 1 tidur tanpa pelindung pendengaran.Nomor lab diterjemahkan langsung ke pengalaman hidup."
+    },
+    {
+      "heading": null,
+      "body": "## Baterai-Listrik vs Diesel: Mana yang Lebih Premium?"
+    },
+    {
+      "heading": null,
+      "body": "Jika Anda menginap kurang dari 100 malam dalam setahun di dalam kabin, unit yang lebih senyap mungkin tidak sebanding dengan harga premium sistem inverter tingkat atas sebesar $1.500–$2.500.Namun bagi pemilik-operator dan pengemudi tim yang melakukan perjalanan selama 200+ malam, perhitungannya berbeda.Tidur yang lebih baik berarti lebih sedikit kecelakaan (data DOT menunjukkan kelelahan berdampak pada 13% kecelakaan truk besar), lebih sedikit hari sakit, dan karier yang lebih panjang.CoolDrivePro V-TH1 dengan harga terpasang $4.800 menghasilkan penghematan bahan bakar vs idle dalam waktu 7–8 bulan (lihat [panduan ukuran baterai LiFePO4](/blog/lifepo4-battery-for-parking-ac) untuk spesifikasi sistem tenaga), dan peningkatan kebisingan pada dasarnya gratis sebagai bonus.Dibandingkan dengan peningkatan dari Dometic RTX1000 yang berusia 5 tahun ke Webasto Cool Top RTE 16, peningkatan kebisingannya sebesar 4 dBA — sepadan untuk suara, namun terbatas untuk energi."
+    },
+    {
+      "heading": null,
+      "body": "## Yang Perlu Diperhatikan Saat Berbelanja di Tahun 2026"
+    },
+    {
+      "heading": null,
+      "body": "Tiga spesifikasi yang harus diminta dari vendor mana pun sebelum membeli: (1) DBA kondisi stabil pada jarak 3 kaki yang diukur per ISO 3744, bukan dBA kipas maksimal — vendor yang hanya mempublikasikan angka 'kecepatan kipas rendah' menyembunyikan sesuatu.(2) Kompresor inverter dengan rentang modulasi yang terdokumentasi (30–100% adalah standar industri saat ini).(3) Dudukan anti-getaran pada rumah kompresor — tanpa dudukan ini, kompresor yang senyap sekalipun akan meneruskan kebisingan melalui kabin.CoolDrivePro menerbitkan laporan lengkap ISO 3744 untuk V-TH1, VX3000SP, dan VS02 PRO;banyak pesaing tidak.Selalu bertanya.Jika vendor menolak memberikan pengukuran dBA pada 3 kaki pada kondisi stabil, asumsikan angka tersebut buruk."
+    },
+    {
+      "heading": null,
+      "body": "## Bagaimana Akustik Kabin Mengubah Angka di Dunia Nyata"
+    },
+    {
+      "heading": null,
+      "body": "Pengukuran laboratorium dilakukan di lingkungan terstandar, namun kabin sebenarnya tidak.Permukaan plastik keras, jendela kaca, dan kasur susun semuanya berinteraksi dengan gelombang suara secara berbeda.Kami menguji ulang 12 unit yang sama di tiga kabin asli: Cascadia 2024 (dasbor sentuhan lembut modern, headliner berbahan kain), Volvo VNL 2018 (campuran plastik dan kain), dan Peterbilt 379 2010 (hampir semuanya plastik keras).CoolDrivePro V-TH1 mengukur 42 dBA di lab, 43 dBA di Cascadia, 45 dBA di Volvo, dan 47 dBA di Peterbilt.Permukaan keras pada kabin lama memantulkan suara, sehingga meningkatkan tingkat persepsi suara sebesar 3–5 dBA.Cara mengatasinya: tambahkan bantalan flanel berukuran 1/4 inci pada headliner dan dasbor atas — hal ini saja akan menurunkan reflektivitas kabin sebesar 2–3 dBA tanpa memengaruhi sistem lainnya.Pengemudi di kabin kuno sering kali meremehkan seberapa besar permukaan interiornya memperkuat kebisingan AC;perawatan akustik murah adalah salah satu peningkatan ROI tertinggi yang dapat Anda lakukan pada truk tua."
+    },
+    {
+      "heading": null,
+      "body": "## Spektrum Frekuensi: Mengapa Beberapa Unit Kedengarannya Lebih Buruk Dibandingkan Nomor dBAnya"
+    },
+    {
+      "heading": null,
+      "body": "Selain dBA mentah, kandungan frekuensi kebisingan juga sangat penting.Dua unit dapat mengukur 47 dBA tetapi terasa sangat berbeda untuk tidur di sebelahnya.Kami menjalankan analisis spektrum pada enam pemain dengan kinerja terbaik.CoolDrivePro V-TH1 menghasilkan profil halus seperti derau merah muda dengan sebagian besar energi di bawah 1 kHz — mendekati spektrum hotel yang tenang HVAC dan mudah diabaikan.Dometic RTX2000 memiliki profil serupa dengan nada kipas kecil 2 kHz yang oleh beberapa pengemudi digambarkan sebagai 'peluit samar'.Webasto Cool Top RTE 16 mirip dengan Dometic.Indel B Sleeping Well Oblo memiliki puncak nada 4 kHz yang mengganggu banyak pengguna meskipun pembacaan keseluruhannya sederhana yaitu 51 dBA.RigMaster berbahan bakar diesel memiliki profil terburuk sejauh ini: mesin berfrekuensi rendah bergemuruh di bawah 200 Hz dikombinasikan dengan rengekan turbocharger 3 kHz.Jika Anda dapat mengikuti audisi suatu unit sebelum membeli, lakukanlah — persepsi Anda tentang kenyamanan lebih ditentukan oleh spektrum dibandingkan oleh nomor dBA utama saja."
+    },
+    {
+      "heading": null,
+      "body": "## Penyimpangan Jangka Panjang: Bagaimana Kebisingan Berubah Selama 3–5 Tahun"
+    },
+    {
+      "heading": null,
+      "body": "Kami melacak delapan unit ini selama 3 tahun penggunaan di dunia nyata.Kompresor inverter mempertahankan nilai dBA dalam ±1 dBA selama 36 bulan.Kebisingan kipas di semua unit meningkat 2–4 dBA dalam periode yang sama karena keausan bantalan, penumpukan debu pada bilah kipas, dan aliran zat pendingin menjadi sedikit kurang lancar.Unit berbahan bakar diesel mengalami kondisi paling buruk: Carrier ComfortPro naik dari 64 dBA baru menjadi 71 dBA pada tahun ketiga (keausan mesin, kebocoran knalpot, kelelahan bushing).Pelajarannya: jumlah kebisingan yang Anda lihat pada hari pertama adalah suara terbaik yang pernah dihasilkan unit Anda.Rencanakan dengan tepat.Unit 47 dBA saat pembelian kemungkinan besar akan menghasilkan 49–51 dBA pada tahun ketiga jika dipertahankan, atau 53–56 dBA jika diabaikan.Pembersihan tahunan bilah kipas, penggantian filter debu, dan pemeriksaan tekanan zat pendingin pada tahun ketiga menjaga penyimpangan ke batas bawah kisaran ini."
+    },
+    {
+      "heading": null,
+      "body": "## Catatan Metodologi Tes untuk Skeptis"
+    },
+    {
+      "heading": null,
+      "body": "Beberapa pembaca bertanya bagaimana kami memastikan validitas perbandingan mengingat tingkat kebisingan sekitar bervariasi dari hari ke hari.Kami mengatasi hal ini dengan tiga cara.Pertama, semua pengukuran dilakukan antara pukul 23.00 dan 04.00 di fasilitas yang dikontrol suara dengan tingkat kebisingan sekitar 28 ± 1 dBA di semua sesi.Kedua, pengukur tingkat suara Kelas 2 yang telah dikalibrasi (Brüel & Kjær 2270 dengan mikrofon Tipe 4189) dikalibrasi di lapangan sebelum dan sesudah setiap sesi terhadap nada referensi 94 dB.Ketiga, setiap pengukuran adalah median dari tiga kali proses 60 detik berturut-turut, bukan satu snapshot.Angka-angka dalam artikel ini dapat direproduksi oleh pembaca mana pun dengan peralatan serupa, dan kami menerbitkan kumpulan data mentah lengkap berdasarkan permintaan.Kami memilih untuk tidak menggunakan aplikasi telepon berbobot A yang kurang ketat karena toleransinya ±5 dBA — terlalu ceroboh untuk perbandingan yang berarti dalam rentang dB ini.Jika Anda ingin memverifikasi sendiri spesifikasi unit tertentu, investasikan $400–$600 pada meteran Kelas 2 atau sewa satu dari rumah pasokan industri seharga $40/hari.Aplikasi telepon akan menyesatkan Anda, terutama pada kisaran kritis 40–55 dBA tempat sebagian besar AC parkir modern beroperasi."
+    },
+    {
+      "heading": null,
+      "body": "## Apa Artinya Jika Anda Membeli Bekas"
+    },
+    {
+      "heading": null,
+      "body": "Semua pengukuran di atas adalah untuk unit baru.AC parkir bekas biasanya menghasilkan 3–6 dBA lebih keras dari spesifikasi karena keausan bantalan dan sedikit perubahan aliran zat pendingin.Saat membeli barang bekas, kurangi usia unit dalam beberapa tahun dari kemungkinan tingkat kebisingan sebenarnya.Dometic RTX1000 berusia 5 tahun yang diiklankan sebagai '46 dBA' (spesifikasi asli) mungkin akan mengukur 50–53 dBA saat ini.Bangun delta itu ke dalam keputusan pembelian Anda.Tanda bahaya terbesar dalam pemeriksaan bekas: setiap bunyi klik atau gerinda mekanis yang terdengar dari kompresor atau rumah kipas — ini menunjukkan bantalan yang aus yang akan memburuk dengan cepat dan kemungkinan memerlukan penggantian unit penuh dalam waktu 12 bulan.Bayar teknisi HVAC $80–$120 untuk pemeriksaan pra-pembelian pada unit bekas mana pun yang berusia lebih dari 4 tahun.Biaya inspeksinya kecil dibandingkan risiko membeli unit yang hampir rusak."
+    },
+    {
+      "heading": null,
+      "body": "## Pertanyaan yang Sering Diajukan"
+    },
+    {
+      "heading": null,
+      "body": "**Berapa tingkat dBA yang 'baik' untuk AC parkir?**\n\nDi bawah 50 dBA pada jarak 3 kaki selama pendinginan kondisi stabil.Di bawah 45 dBA sangat baik.Di atas 55 dBA akan menurunkan kualitas tidur Anda secara signifikan;di atas 60 dBA tidak dapat diterima untuk penggunaan malam hari.\n\n**Mengapa AC parkir saya terdengar lebih keras dari yang tertulis di lembar spesifikasi?**\n\nTiga alasan umum: spesifikasi diukur pada kecepatan kipas rendah (bukan beban realistis), pengukuran dilakukan pada unit bukan pada bantalan, atau unit Anda memiliki bantalan kipas yang aus atau kebisingan aliran zat pendingin.Dua yang pertama adalah pemasaran;yang ketiga membutuhkan pemeliharaan.\n\n**Apakah APU berbahan bakar diesel senyap seperti AC parkir baterai-listrik?**\n\nTidak. Bahkan APU berbahan bakar diesel yang paling senyap pun menghasilkan 12–15 dBA lebih keras daripada unit inverter baterai-listrik yang paling keras.Fisika mesin diesel kecil yang bekerja terus menerus membuat kesenjangan ini tidak dapat dijembatani.\n\n**Apakah menambahkan peredam suara pada taksi saya akan membantu?**\n\nSecara marginal — pengurangan paling banyak 2–4 dBA untuk material dan tenaga kerja sebesar $300–$600.Mengganti unit AC itu sendiri dengan model inverter memiliki dampak 6–10x lebih besar per dolar.\n\n**Apakah kebisingan meningkat seiring bertambahnya usia unit?**\n\nYa.Bantalan kipas aus, aliran zat pendingin menjadi bergejolak jika sistem kekurangan daya, dan dudukan getaran menurun.Diperkirakan akan terjadi peningkatan kebisingan sebesar 2–3 dBA per 5 tahun penggunaan, lebih cepat jika tidak dipertahankan.\n\n**Mengapa unit tanpa nama di Tiongkok begitu berisik?**\n\nMereka menggunakan kipas radial termurah yang tersedia (seringkali 6.000+ RPM) dan kompresor berkecepatan tetap tanpa pemasangan anti-getaran.Pembacaan 71 dBA yang kami ukur adalah tipikal untuk unit tanpa nama kelas $800;Anda mendapatkan apa yang Anda bayar.\n\n**Apakah pengukuran C-weighted (dBC) lebih akurat untuk dampak tidur?**\n\nUntuk unit berbahan bakar diesel, ya — bobot A kurang mewakili getaran frekuensi rendah.Untuk unit baterai-listrik, pembobotan A baik-baik saja karena spektrum kebisingannya sebagian besar berada pada kisaran menengah.Jika Anda membandingkan solar dengan listrik, lihat dBA dan dBC jika tersedia."
+    }
+  ]
+}
