@@ -75,6 +75,10 @@ jobs:
         run: node scripts/competitor-keyword-scan.mjs --domains="${COMPETITOR_DOMAINS}"
         continue-on-error: true
 
+      - name: Feed GSC + competitor signals into topic queue
+        run: node scripts/seo-feed-topics.mjs --max=5
+        continue-on-error: true
+
       - name: Run daily content pipeline (write + refresh + translate + build + deploy + indexnow)
         run: bash scripts/daily-content-pipeline.sh
 
