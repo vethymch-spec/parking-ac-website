@@ -106,16 +106,16 @@ function toOpenGraphLocale(language) {
 const PRODUCT_PAGES = [
   {
     route: "/products/top-mounted-ac",
-    title: "12000 BTU Top-Mounted Parking AC | 12V 24V No-Idle Cooling - CoolDrivePro",
-    description: "VS02 PRO 12000 BTU top-mounted parking AC for semi trucks, RVs and vans. 12V/24V DC, no-idle operation, 45 dB quiet, fitment support and fleet pricing.",
+    title: "12V/24V 12000 BTU Rooftop Parking AC for Trucks, RVs and Vans - CoolDrivePro",
+    description: "The CoolDrivePro VS02 PRO is a 12V/24V DC rooftop parking air conditioner that delivers 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans, campers and fleet vehicles. It runs from the vehicle battery instead of shore power or engine idling, using a DC dual rotary compressor, undervoltage protection and 45 dB quiet operation for parked-cab cooling.",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-product-right_1b53506e.webp",
     schema: {
-      name: "12000 BTU Top-Mounted Parking Air Conditioner - 12V/24V DC",
+      name: "12V/24V 12000 BTU Rooftop Parking AC for Trucks, RVs and Vans",
       sku: "VS02-PRO",
       price: "1299.00",
       ratingValue: "4.8",
       reviewCount: "127",
-      description: "12V/24V DC powered top-mounted parking air conditioner for RVs, semi trucks, vans and campers. 12000 BTU cooling, no-idle operation and battery protection.",
+      description: "The CoolDrivePro VS02 PRO is a 12V/24V DC rooftop parking air conditioner delivering 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans, campers and fleet vehicles. DC dual rotary compressor, undervoltage protection, 45 dB quiet operation.",
     },
   },
   {

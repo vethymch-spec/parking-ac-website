@@ -22,51 +22,53 @@ interface ProductData {
 const PRODUCTS: Record<string, ProductData> = {
   "top-mounted-ac": {
     slug: "top-mounted-ac",
-    title: "VS02 PRO Top-Mounted Parking Air Conditioner",
-    metaTitle: "VS02 PRO Top-Mounted Parking AC | 12V 24V No-Idle – CoolDrivePro",
-    metaDescription: "CoolDrivePro VS02 PRO top-mounted parking air conditioner. 12V/24V DC, 9000 BTU, runs all night on batteries. No-idle cooling for semi trucks, RVs, and vans.",
-    keywords: "top mounted parking AC, VS02 PRO, 12V parking air conditioner, no-idle AC semi truck, roof mount parking AC",
+    title: "12V/24V 12000 BTU Rooftop Parking AC for Trucks, RVs and Vans",
+    metaTitle: "12V/24V 12000 BTU Rooftop Parking AC | No-Idle Cooling – CoolDrivePro",
+    metaDescription: "CoolDrivePro VS02 PRO is a 12V/24V DC rooftop parking air conditioner delivering 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans and campers. DC dual rotary compressor, undervoltage protection, ≤45 dB quiet operation.",
+    keywords: "top mounted parking AC, VS02 PRO, 12V parking air conditioner, no-idle AC semi truck, roof mount parking AC, rooftop parking ac, 12000 BTU 12V AC",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663461681008/c5y7gxfLueWgEWeo3GX4pK/top-mounted-ac-hero.webp",
     price: "1299",
     breadcrumb: "Top-Mounted AC",
-    description: "The CoolDrivePro VS02 PRO is a professional-grade top-mounted parking air conditioner designed for semi trucks, RVs, camper vans, and specialty vehicles. Operating on 12V or 24V DC power, it delivers 9000 BTU of cooling capacity while drawing only 8–12A at cruise — making it ideal for solar-powered and battery-based setups. The VS02 PRO eliminates engine idling, saving fuel costs and reducing emissions while keeping your cab comfortable all night long.",
+    description: "The CoolDrivePro VS02 PRO is a 12V/24V DC rooftop parking air conditioner that delivers 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans, campers and fleet vehicles. It runs from the vehicle battery instead of shore power or engine idling, using a DC dual rotary compressor, undervoltage protection and ≤45 dB quiet operation for parked-cab cooling. Manufactured by CoolDrivePro and shown at international HVAC and trucking trade exhibitions, the unit ships with CE, FCC and RoHS conformity documentation.",
     features: [
-      "9000 BTU cooling capacity — cools a standard truck cab from 95°F to 68°F in under 20 minutes",
-      "12V and 24V DC operation — compatible with all standard truck and RV electrical systems",
-      "Ultra-low power draw of 8–12A at cruise — runs all night on a 200Ah LiFePO4 battery bank",
-      "Whisper-quiet operation at 45dB — quieter than a normal conversation",
-      "Integrated sleep mode — automatically adjusts temperature throughout the night",
-      "IP55 weather resistance — handles rain, dust, and road debris",
-      "Remote control + smartphone app connectivity via Bluetooth",
-      "Rapid installation — mounts in the standard 14×14 inch roof opening in under 3 hours",
-      "Compatible with solar panels — low current draw enables off-grid operation",
-      "2-year manufacturer warranty with US-based technical support",
+      "12,000 BTU/h cooling capacity — sized for semi truck sleeper cabs, RVs, vans and campers",
+      "12V and 24V DC operation — compatible with all standard truck, RV and van electrical systems",
+      "DC dual rotary compressor for higher efficiency and lower vibration than piston compressors",
+      "Whisper-quiet operation at ≤45 dB — comparable to a quiet library",
+      "Undervoltage battery protection with auto cutoff protects deep-cycle and lithium banks",
+      "IP54-rated outdoor unit — handles rain, dust and road debris",
+      "Pre-charged refrigerant lines — plug-and-play installation in 2–4 hours",
+      "Fits approved roof-opening range; standard 14\" (356 mm) RV openings usually qualify",
+      "Compatible with lithium, AGM and lead-acid battery banks plus 12V/24V solar systems",
+      "1-year manufacturer warranty (optional 2-year extended warranty available within 30 days)",
     ],
     specs: [
-      { label: "Cooling Capacity", value: "9000 BTU/h" },
+      { label: "Cooling Capacity", value: "12,000 BTU/h" },
       { label: "Power Supply", value: "12V / 24V DC" },
-      { label: "Current Draw (Cooling)", value: "8–12A at 12V" },
+      { label: "Rated Current (12V)", value: "≤ 45A" },
+      { label: "Rated Current (24V)", value: "≤ 10A" },
+      { label: "Compressor Type", value: "DC dual rotary" },
       { label: "Noise Level", value: "≤45 dB(A)" },
-      { label: "Operating Temperature", value: "-4°F to 131°F (-20°C to 55°C)" },
-      { label: "Refrigerant", value: "R134a (eco-friendly)" },
-      { label: "Dimensions (Unit)", value: "23.6\" × 23.6\" × 8.3\" (600×600×210mm)" },
-      { label: "Weight", value: "33 lbs (15 kg)" },
-      { label: "Roof Opening Required", value: "14\" × 14\" (356×356mm)" },
-      { label: "Warranty", value: "2 years" },
+      { label: "Operating Temperature", value: "32°F to 131°F (0°C to 55°C)" },
+      { label: "Refrigerant", value: "R410a" },
+      { label: "Dimensions (Unit)", value: "980 × 680 × 190 mm" },
+      { label: "Weight", value: "75 lbs (34 kg)" },
+      { label: "Roof Opening Required", value: "Standard 14\" (356 mm)" },
+      { label: "Warranty", value: "1 year (optional 2-year extended)" },
       { label: "Certifications", value: "CE, FCC, RoHS" },
     ],
     faqs: [
       {
-        question: "How long will the VS02 PRO run on a 200Ah battery?",
-        answer: "At typical cruise draw (10A at 12V), the VS02 PRO consumes approximately 120Wh per hour. A 200Ah LiFePO4 battery (at 80% usable capacity) provides about 1920Wh, giving you roughly 16 hours of runtime — more than enough for a full night's sleep."
+        question: "What is the CoolDrivePro VS02 PRO 12V/24V rooftop parking AC?",
+        answer: "The CoolDrivePro VS02 PRO is a 12V/24V DC rooftop parking air conditioner that delivers 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans, campers and fleet vehicles. It runs from the vehicle battery instead of shore power or engine idling, using a DC dual rotary compressor, undervoltage protection and ≤45 dB quiet operation for parked-cab cooling."
       },
       {
-        question: "Is the VS02 PRO compatible with solar panels?",
-        answer: "Yes. The VS02 PRO's low power consumption (8–12A at cruise) makes it ideal for solar integration. A 400W solar array can often run the unit continuously during daylight hours while simultaneously charging your battery bank."
+        question: "Is the VS02 PRO compatible with solar panels and battery banks?",
+        answer: "Yes. The VS02 PRO works with 12V and 24V battery banks (lithium, AGM or lead-acid) and integrates with 12V/24V solar systems. A 400W solar array can extend runtime during daytime parking, and the unit's undervoltage cutoff protects the battery from deep discharge."
       },
       {
         question: "What warranty does the VS02 PRO come with?",
-        answer: "The CoolDrivePro VS02 PRO comes with a 2-year manufacturer warranty covering defects in materials and workmanship. CoolDrivePro also offers a 30-day easy return policy. Technical support is available at support@cooldrivepro.com."
+        answer: "The CoolDrivePro VS02 PRO comes with a 1-year manufacturer warranty covering defects in materials and workmanship on the compressor, fan motors, control board and all factory-installed components. An optional 2-year extended warranty is available within 30 days of original purchase. CoolDrivePro also offers a 30-day easy return policy. Technical support is available at support@cooldrivepro.com."
       },
       {
         question: "Can I install the VS02 PRO myself?",

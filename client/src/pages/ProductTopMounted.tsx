@@ -65,7 +65,7 @@ const vs02Faqs = [
   },
   {
     question: "What warranty does the VS02 PRO come with?",
-    answer: "The CoolDrivePro VS02 PRO comes with a 2-year manufacturer warranty covering defects in materials and workmanship. CoolDrivePro also offers a 30-day easy return policy. Technical support is available at support@cooldrivepro.com. Full warranty terms are available at cooldrivepro.com/warranty.",
+    answer: "The CoolDrivePro VS02 PRO comes with a 1-year manufacturer warranty covering defects in materials and workmanship on the compressor, fan motors, control board, and all factory-installed components. An optional 2-year extended warranty is available for purchase within 30 days of the original purchase date. CoolDrivePro also offers a 30-day easy return policy. Technical support is available at support@cooldrivepro.com. Full warranty terms are available at cooldrivepro.com/warranty.",
     category: "Warranty",
   },
 ];
@@ -126,8 +126,8 @@ export default function ProductTopMounted() {
   const { t } = useTranslation();
 
   useSEO({
-    title: "12000 BTU Top-Mounted Parking Air Conditioner | 12V/24V DC – CoolDrivePro",
-    description: "VS02 PRO 12000 BTU top-mounted parking AC for semi trucks, RVs & vans. 12V/24V DC, no-idle operation, 45 dB quiet. $1,299 with free US shipping.",
+    title: "12V/24V 12000 BTU Rooftop Parking AC for Trucks, RVs and Vans – CoolDrivePro",
+    description: "CoolDrivePro VS02 PRO is a 12V/24V DC rooftop parking AC that delivers 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans and campers. DC dual rotary compressor, undervoltage protection, ≤45 dB quiet operation. $1,299 with free US shipping.",
     ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-01-hero_d84a64e3.webp",
     jsonLd: {
       "@context": "https://schema.org",
@@ -274,10 +274,39 @@ export default function ProductTopMounted() {
             className="text-3xl lg:text-4xl font-extrabold mb-3 leading-tight"
             style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
           >
-            {t('products.topMounted.title')}
+            12V/24V 12000 BTU Rooftop Parking AC for Trucks, RVs and Vans
           </h1>
           <p
-            className="text-base mb-4"
+            className="text-base mb-4 leading-relaxed"
+            style={{ color: "oklch(0.35 0.05 250)", fontFamily: "'Inter', sans-serif" }}
+          >
+            The CoolDrivePro VS02 PRO is a 12V/24V DC rooftop parking air conditioner that delivers 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans, campers and fleet vehicles. It runs from the vehicle battery instead of shore power or engine idling, using a DC dual rotary compressor, undervoltage protection and ≤45 dB quiet operation for parked-cab cooling.
+          </p>
+          <ul
+            className="mb-4 space-y-1.5 text-sm leading-relaxed"
+            style={{ color: "oklch(0.35 0.05 250)", fontFamily: "'Inter', sans-serif" }}
+          >
+            <li className="flex items-start gap-2">
+              <Check size={16} className="flex-shrink-0 mt-0.5" style={{ color: "oklch(0.45 0.18 255)" }} />
+              <span>The VS02 PRO is a 12V/24V DC rooftop parking AC built for no-idle cooling in semi trucks, RVs, vans and campers.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <Check size={16} className="flex-shrink-0 mt-0.5" style={{ color: "oklch(0.45 0.18 255)" }} />
+              <span>It provides 12,000 BTU/h cooling, uses a DC dual rotary compressor, and is rated at ≤45 dB for quiet parked-vehicle operation.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <Check size={16} className="flex-shrink-0 mt-0.5" style={{ color: "oklch(0.45 0.18 255)" }} />
+              <span>Before quoting, CoolDrivePro confirms vehicle type, voltage, roof opening, battery setup and order quantity to reduce fitment risk.</span>
+            </li>
+          </ul>
+          <p
+            className="text-xs mb-4 italic"
+            style={{ color: "oklch(0.50 0.05 250)", fontFamily: "'Inter', sans-serif" }}
+          >
+            Manufactured by CoolDrivePro at its own factory; units have been shown at international HVAC and trucking trade exhibitions and ship with CE, FCC and RoHS conformity documentation.
+          </p>
+          <p
+            className="text-sm mb-4"
             style={{ color: "oklch(0.45 0.05 250)", fontFamily: "'Inter', sans-serif" }}
           >
             {t('products.topMounted.subtitle')}
