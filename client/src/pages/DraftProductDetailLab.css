@@ -1,0 +1,507 @@
+@keyframes draftPdpFanSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes draftPdpColdFlow {
+  0% {
+    opacity: 0;
+    transform: translateX(-18px);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(118px);
+  }
+}
+
+@keyframes draftPdpHeatFlow {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-86px);
+  }
+}
+
+@keyframes draftPdpWirePulse {
+  0%,
+  100% {
+    opacity: 0.35;
+    box-shadow: 0 0 0 rgba(251, 191, 36, 0);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 18px rgba(251, 191, 36, 0.65);
+  }
+}
+
+@keyframes draftPdpSealPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 rgba(52, 211, 153, 0);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(52, 211, 153, 0.65);
+  }
+}
+
+@keyframes draftPdpProgress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.draft-pdp-progress-fill {
+  animation: draftPdpProgress 15s linear forwards;
+  background: linear-gradient(90deg, rgba(125, 211, 252, 0.95), rgba(52, 211, 153, 0.95), rgba(251, 191, 36, 0.95));
+  height: 0.35rem;
+  transform-origin: left center;
+  width: 100%;
+}
+
+.draft-pdp-progress-paused {
+  animation-play-state: paused;
+}
+
+.draft-pdp-animation-stage {
+  background:
+    radial-gradient(circle at 22% 22%, rgba(59, 130, 246, 0.32), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(16, 185, 129, 0.2), transparent 26%),
+    linear-gradient(145deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.92));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  isolation: isolate;
+  min-height: 460px;
+  overflow: hidden;
+  perspective: 900px;
+  position: relative;
+}
+
+.draft-pdp-stage-header {
+  align-items: center;
+  color: rgba(226, 232, 240, 0.82);
+  display: flex;
+  font-size: 0.68rem;
+  font-weight: 800;
+  inset: 16px 18px auto;
+  justify-content: space-between;
+  letter-spacing: 0;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+.draft-pdp-stage-grid {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.11) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.11) 1px, transparent 1px);
+  background-size: 26px 26px;
+  inset: 0;
+  -webkit-mask-image: linear-gradient(to bottom, black 15%, transparent 95%);
+  mask-image: linear-gradient(to bottom, black 15%, transparent 95%);
+  opacity: 0.42;
+  position: absolute;
+}
+
+.draft-pdp-roof-plane {
+  background: linear-gradient(135deg, rgba(226, 232, 240, 0.32), rgba(100, 116, 139, 0.18));
+  border: 1px solid rgba(226, 232, 240, 0.28);
+  border-radius: 1.25rem;
+  bottom: 96px;
+  box-shadow: 0 24px 60px rgba(2, 6, 23, 0.38);
+  height: 118px;
+  left: 12%;
+  position: absolute;
+  right: 12%;
+  transform: rotateX(60deg) rotateZ(-4deg);
+  transform-origin: center;
+}
+
+.draft-pdp-roof-opening {
+  background: rgba(15, 23, 42, 0.72);
+  border: 2px solid rgba(125, 211, 252, 0.45);
+  border-radius: 0.75rem;
+  bottom: 146px;
+  height: 52px;
+  left: 41%;
+  position: absolute;
+  transform: rotateX(60deg) rotateZ(-4deg);
+  width: 18%;
+}
+
+.draft-pdp-unit-stack {
+  height: 150px;
+  left: 50%;
+  position: absolute;
+  top: 38%;
+  transform: translate(-50%, -50%) rotateX(58deg) rotateZ(-10deg);
+  transform-style: preserve-3d;
+  width: 220px;
+}
+
+.draft-pdp-rooftop-shell,
+.draft-pdp-condenser-deck,
+.draft-pdp-seal-ring,
+.draft-pdp-indoor-cassette,
+.draft-pdp-fan-wheel {
+  position: absolute;
+  transition: opacity 480ms ease, transform 900ms ease;
+}
+
+.draft-pdp-rooftop-shell {
+  background: linear-gradient(145deg, rgba(147, 197, 253, 0.74), rgba(59, 130, 246, 0.28));
+  border: 1px solid rgba(191, 219, 254, 0.72);
+  border-radius: 1rem;
+  box-shadow: 0 18px 44px rgba(59, 130, 246, 0.28);
+  height: 70px;
+  inset: 4px 10px auto;
+  transform: translateZ(70px);
+}
+
+.draft-pdp-condenser-deck {
+  background: rgba(226, 232, 240, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 0.875rem;
+  height: 62px;
+  inset: 38px 38px auto;
+  transform: translateZ(38px);
+}
+
+.draft-pdp-fan-wheel {
+  animation: draftPdpFanSpin 9s linear infinite;
+  background: repeating-conic-gradient(from 0deg, rgba(226, 232, 240, 0.78) 0 18deg, rgba(15, 23, 42, 0.75) 18deg 38deg);
+  border: 7px solid rgba(226, 232, 240, 0.7);
+  border-radius: 999px;
+  height: 64px;
+  top: 18px;
+  transform: translateZ(88px);
+  width: 64px;
+}
+
+.draft-pdp-fan-wheel-left {
+  left: 24px;
+}
+
+.draft-pdp-fan-wheel-right {
+  right: 24px;
+}
+
+.draft-pdp-seal-ring {
+  background: rgba(52, 211, 153, 0.35);
+  border: 1px solid rgba(110, 231, 183, 0.75);
+  border-radius: 0.75rem;
+  bottom: 30px;
+  height: 22px;
+  left: 42px;
+  right: 42px;
+  transform: translateZ(4px);
+}
+
+.draft-pdp-indoor-cassette {
+  background: rgba(248, 250, 252, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.46);
+  border-radius: 0.75rem;
+  bottom: 0;
+  height: 34px;
+  left: 54px;
+  right: 54px;
+  transform: translateZ(-34px);
+}
+
+.draft-pdp-battery-pack {
+  align-items: center;
+  background: rgba(15, 23, 42, 0.86);
+  border: 1px solid rgba(251, 191, 36, 0.46);
+  border-radius: 0.5rem;
+  bottom: 90px;
+  display: flex;
+  gap: 4px;
+  height: 46px;
+  opacity: 0.12;
+  padding: 7px;
+  position: absolute;
+  right: 30px;
+  transition: opacity 420ms ease, transform 760ms ease;
+  width: 92px;
+}
+
+.draft-pdp-battery-pack span {
+  background: rgba(250, 204, 21, 0.55);
+  border-radius: 0.2rem;
+  flex: 1;
+  height: 100%;
+}
+
+.draft-pdp-fuse-box,
+.draft-pdp-controller-chip {
+  border-radius: 0.375rem;
+  font-size: 0.65rem;
+  font-weight: 800;
+  opacity: 0.12;
+  padding: 0.35rem 0.45rem;
+  position: absolute;
+  text-transform: uppercase;
+  transition: opacity 260ms ease, transform 420ms ease;
+}
+
+.draft-pdp-fuse-box {
+  background: rgba(251, 191, 36, 0.22);
+  border: 1px solid rgba(251, 191, 36, 0.5);
+  bottom: 154px;
+  right: 120px;
+}
+
+.draft-pdp-controller-chip {
+  background: rgba(45, 212, 191, 0.2);
+  border: 1px solid rgba(45, 212, 191, 0.5);
+  bottom: 206px;
+  right: 78px;
+}
+
+.draft-pdp-cold-air,
+.draft-pdp-heat-air,
+.draft-pdp-wire-line {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 240ms ease;
+}
+
+.draft-pdp-cold-air {
+  animation: draftPdpColdFlow 4.4s ease-in-out infinite;
+  background: rgba(125, 211, 252, 0.86);
+  border-radius: 999px;
+  height: 4px;
+  left: 24%;
+  width: 120px;
+}
+
+.draft-pdp-cold-air-1 {
+  top: 248px;
+}
+
+.draft-pdp-cold-air-2 {
+  animation-delay: 0.75s;
+  top: 274px;
+}
+
+.draft-pdp-cold-air-3 {
+  animation-delay: 1.5s;
+  top: 300px;
+}
+
+.draft-pdp-heat-air {
+  animation: draftPdpHeatFlow 4.2s ease-in-out infinite;
+  background: rgba(251, 146, 60, 0.85);
+  border-radius: 999px;
+  height: 82px;
+  top: 98px;
+  width: 4px;
+}
+
+.draft-pdp-heat-air-1 {
+  left: 43%;
+}
+
+.draft-pdp-heat-air-2 {
+  animation-delay: 0.9s;
+  left: 57%;
+}
+
+.draft-pdp-wire-line {
+  animation: draftPdpWirePulse 3.6s ease-in-out infinite;
+  background: rgba(251, 191, 36, 0.78);
+  border-radius: 999px;
+  height: 4px;
+  transform-origin: left center;
+}
+
+.draft-pdp-wire-line-1 {
+  bottom: 133px;
+  right: 112px;
+  transform: rotate(-22deg);
+  width: 110px;
+}
+
+.draft-pdp-wire-line-2 {
+  bottom: 182px;
+  right: 152px;
+  transform: rotate(-32deg);
+  width: 104px;
+}
+
+.draft-pdp-wire-line-3 {
+  animation-delay: 0.7s;
+  bottom: 224px;
+  right: 118px;
+  transform: rotate(-52deg);
+  width: 82px;
+}
+
+.draft-pdp-callout {
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: rgba(226, 232, 240, 0.92);
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 0.35rem 0.65rem;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.draft-pdp-callout-1 {
+  left: 8%;
+  top: 34px;
+}
+
+.draft-pdp-callout-2 {
+  left: 10%;
+  top: 214px;
+}
+
+.draft-pdp-callout-3 {
+  bottom: 92px;
+  left: 18%;
+}
+
+.draft-pdp-callout-4 {
+  bottom: 92px;
+  right: 8%;
+}
+
+.draft-pdp-scene-exploded .draft-pdp-rooftop-shell {
+  transform: translateY(-46px) translateZ(82px);
+}
+
+.draft-pdp-scene-exploded .draft-pdp-condenser-deck {
+  transform: translateY(-4px) translateZ(48px);
+}
+
+.draft-pdp-scene-exploded .draft-pdp-seal-ring {
+  transform: translateY(34px) translateZ(8px);
+}
+
+.draft-pdp-scene-exploded .draft-pdp-indoor-cassette {
+  transform: translateY(74px) translateZ(-42px);
+}
+
+.draft-pdp-scene-airflow .draft-pdp-cold-air,
+.draft-pdp-scene-airflow .draft-pdp-heat-air {
+  opacity: 1;
+}
+
+.draft-pdp-scene-airflow .draft-pdp-fan-wheel {
+  animation-duration: 2.4s;
+}
+
+.draft-pdp-scene-install .draft-pdp-seal-ring {
+  animation: draftPdpSealPulse 3.8s ease-in-out infinite;
+  transform: translateY(20px) translateZ(12px);
+}
+
+.draft-pdp-scene-install .draft-pdp-rooftop-shell {
+  transform: translateY(10px) translateZ(58px);
+}
+
+.draft-pdp-scene-install .draft-pdp-indoor-cassette {
+  transform: translateY(26px) translateZ(-26px);
+}
+
+.draft-pdp-scene-install .draft-pdp-roof-opening {
+  border-color: rgba(52, 211, 153, 0.8);
+}
+
+.draft-pdp-scene-wiring .draft-pdp-battery-pack,
+.draft-pdp-scene-wiring .draft-pdp-fuse-box,
+.draft-pdp-scene-wiring .draft-pdp-controller-chip,
+.draft-pdp-scene-wiring .draft-pdp-wire-line {
+  opacity: 1;
+}
+
+.draft-pdp-scene-wiring .draft-pdp-unit-stack {
+  transform: translate(-58%, -54%) rotateX(58deg) rotateZ(-10deg) scale(0.86);
+}
+
+.draft-pdp-step-strip {
+  bottom: 16px;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  left: 16px;
+  position: absolute;
+  right: 16px;
+  z-index: 4;
+}
+
+.draft-pdp-step-card {
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 0.5rem;
+  color: rgba(226, 232, 240, 0.95);
+  display: grid;
+  gap: 0.25rem;
+  min-height: 4.25rem;
+  padding: 0.75rem;
+}
+
+.draft-pdp-step-card span {
+  color: rgba(147, 197, 253, 0.95);
+  font-size: 0.68rem;
+  font-weight: 900;
+}
+
+.draft-pdp-step-card strong {
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+@media (max-width: 640px) {
+  .draft-pdp-animation-stage {
+    min-height: 470px;
+  }
+
+  .draft-pdp-unit-stack {
+    transform: translate(-50%, -50%) rotateX(58deg) rotateZ(-10deg) scale(0.78);
+  }
+
+  .draft-pdp-callout-1,
+  .draft-pdp-callout-2,
+  .draft-pdp-callout-3,
+  .draft-pdp-callout-4 {
+    display: none;
+  }
+
+  .draft-pdp-battery-pack {
+    right: 16px;
+    width: 76px;
+  }
+
+  .draft-pdp-wire-line-1,
+  .draft-pdp-wire-line-2,
+  .draft-pdp-wire-line-3 {
+    right: 84px;
+  }
+
+  .draft-pdp-step-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .draft-pdp-step-card {
+    min-height: 0;
+    padding: 0.55rem 0.65rem;
+  }
+}

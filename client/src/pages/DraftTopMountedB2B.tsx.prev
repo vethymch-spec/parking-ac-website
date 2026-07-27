@@ -1,0 +1,794 @@
+/**
+ * DRAFT — B2B Product Detail Layout for VS02 PRO / V-TH1 Top-Mounted Parking AC
+ *
+ * Layout intent:
+ *  - Two-column desktop: LEFT scrolls (gallery + specs + factory video + certs + install/application photos + exhibition trust + reviews)
+ *  - RIGHT is sticky (always visible): inquiry form + WhatsApp + email/phone + key facts
+ *  - NO prices anywhere
+ *  - Mobile: stacks (form moved to top as anchor + repeated at bottom)
+ *
+ * Route: /drafts/top-mounted-b2b (DEV only)
+ */
+import { useState, useCallback } from "react";
+import { Link } from "wouter";
+import {
+  ChevronRight,
+  ChevronLeft,
+  Check,
+  ShieldCheck,
+  FileText,
+  Award,
+  Factory,
+  Wrench,
+  Mail,
+  Phone,
+  MapPin,
+  X,
+  Star,
+} from "lucide-react";
+import PageLayout from "@/components/PageLayout";
+import CompactInquiryForm from "@/components/CompactInquiryForm";
+import { useSEO } from "@/hooks/useSEO";
+
+/* ----------------------------- assets ----------------------------- */
+
+const productImages = [
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-01-hero_d84a64e3.webp", alt: "VS02 PRO Top-Mounted Parking AC – 3/4 angle hero" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-02-front-side_ae7ed14d.webp", alt: "Front side view" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-03-top-fans_d671776f.webp", alt: "Top view with dual condenser fans" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-04-front-flat_2b4ac31a.webp", alt: "Front flat view – slim profile" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-05-rear-cables_39b2daae.webp", alt: "Rear view with cable connections" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-06-top-profile_8e7be5ad.webp", alt: "Top profile view" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-07-side-long_7cbdc66d.webp", alt: "Side profile – slim height" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-08-angle-rear_57ecf5b9.webp", alt: "Angled rear view" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-09-grille-closeup_6996f19a.webp", alt: "Honeycomb grille close-up" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-10-indoor-closeup_0a1edaa8.webp", alt: "Indoor unit control panel close-up" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-11-bottom-mount_eadb393f.webp", alt: "Bottom mounting plate with evaporator" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-12-indoor-unit_ae099200.webp", alt: "Indoor evaporator with digital display" },
+];
+
+const factoryPhotos = [
+  { src: "/images/factory/cooldrivepro-production-line-assembly.webp", alt: "Production line assembly – parking AC PCB and compressor build" },
+  { src: "/images/factory/cooldrivepro-factory-pallet-yard.webp", alt: "Factory pallet yard – packed parking AC units ready for shipping" },
+  { src: "/images/factory/cooldrivepro-warehouse-container-loading.webp", alt: "Warehouse container loading bay" },
+  { src: "/images/factory/cooldrivepro-real-pallet-stacks.webp", alt: "Real pallet stacks before container stuffing" },
+  { src: "/images/factory/cooldrivepro-wholesale-loading-yard.webp", alt: "Wholesale loading yard with multiple containers" },
+  { src: "/images/factory/cooldrivepro-container-loading-yard.webp", alt: "Container loading yard at the factory gate" },
+];
+
+const certifications = [
+  { src: "/images/trust/certifications/cooldrivepro-iso-9001-2015-certificate.png", alt: "ISO 9001:2015 quality management certificate", title: "ISO 9001:2015", body: "Quality management system certification for production and after-sales processes." },
+  { src: "/images/trust/certifications/cooldrivepro-cnas-quality-certificate.png", alt: "CNAS quality testing certificate", title: "CNAS Test Report", body: "Independent CNAS-accredited lab test report available for technical due-diligence." },
+  { src: "/images/trust/certifications/cooldrivepro-trademark-registration.png", alt: "Registered trademark certificate", title: "Registered Trademark", body: "Brand and trademark registration certificate of the manufacturing entity." },
+  { src: "/images/trust/certifications/cooldrivepro-design-patent-certificate.png", alt: "Design patent certificate", title: "Design Patent", body: "Granted industrial design patent for the top-mounted parking AC housing." },
+];
+
+const installApplicationPhotos = [
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-11-bottom-mount_eadb393f.webp", alt: "Bottom mounting plate showing roof-cutout interface" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-12-indoor-unit_ae099200.webp", alt: "Indoor evaporator cassette mounted to cab ceiling" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-10-indoor-closeup_0a1edaa8.webp", alt: "Indoor control panel after installation" },
+  { src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-05-rear-cables_39b2daae.webp", alt: "Rear DC power and harness routing during install" },
+  { src: "/images/trust/vethy-factory-loading-yard-01.jpg", alt: "Pre-installed units on pallets ready for dealer dispatch" },
+  { src: "/images/trust/vethy-packed-unit-pallets.jpg", alt: "Packed VS02 PRO units staged for fleet shipment" },
+];
+
+const exhibitionPhotos = Array.from({ length: 8 }, (_, i) => ({
+  src: `/images/trust/exhibitions/cooldrivepro-trade-show-0${i + 1}.jpg`,
+  alt: `CoolDrivePro trade show booth photo ${i + 1} – B2B distributor engagement`,
+}));
+
+/* ----------------------------- product copy ----------------------------- */
+
+const PRODUCT_NAME = "VS02 PRO Top-Mounted Parking Air Conditioner";
+const PRODUCT_TAGLINE =
+  "12,000 BTU 12V/24V DC rooftop parking AC for semi trucks, RVs, vans, and off-grid fleet vehicles. No engine idling required.";
+
+const keyChips = [
+  { label: "Cooling", value: "12,000 BTU/h" },
+  { label: "Voltage", value: "12V / 24V DC" },
+  { label: "Current", value: "10 – 45A" },
+  { label: "Noise", value: "≤ 45 dB" },
+  { label: "Roof opening", value: 'Standard 14" (356 mm)' },
+  { label: "Weight", value: "34 kg" },
+];
+
+const fullSpecs: Array<{ label: string; value: string }> = [
+  { label: "Cooling Capacity", value: "12,000 BTU/h (3.5 kW)" },
+  { label: "Power Supply", value: "12V DC / 24V DC" },
+  { label: "Rated Current @ 12V", value: "≤ 45 A" },
+  { label: "Rated Current @ 24V", value: "≤ 10 A" },
+  { label: "Current Range", value: "10 – 45 A" },
+  { label: "Compressor", value: "DC inverter dual-rotary" },
+  { label: "Refrigerant", value: "R134a (factory pre-charged)" },
+  { label: "Fan Motor", value: "Brushless DC" },
+  { label: "Noise Level", value: "≤ 45 dB" },
+  { label: "Battery Protection", value: "Undervoltage cutoff @ 11 V (12 V system)" },
+  { label: "Operating Temperature", value: "0 °C to +55 °C" },
+  { label: "Ingress Protection", value: "IP54 (dust & splash resistant)" },
+  { label: "Outdoor Dimensions", value: "980 × 680 × 190 mm" },
+  { label: "Net Weight", value: "34 kg" },
+  { label: "Roof Opening (max)", value: "800 × 490 mm" },
+  { label: "Roof Opening (min)", value: "510 × 380 mm" },
+  { label: "Warranty (B2B)", value: "12 months, defects in materials & workmanship" },
+  { label: "Packaging", value: "Reinforced carton on wooden pallet, 4 units / pallet" },
+];
+
+const advantages = [
+  {
+    title: "No-idle DC operation",
+    body: "Runs directly off the vehicle battery bank — no generator, no shore power, no engine idling. Fleet customers report reduced anti-idle compliance risk and lower fuel cost per parked hour.",
+  },
+  {
+    title: "Inverter DC dual-rotary compressor",
+    body: "Variable-speed compressor maintains cabin temperature with lower peak current than fixed-speed competitors. Tested in 0 °C – 55 °C ambient range.",
+  },
+  {
+    title: "Whisper-quiet under 45 dB",
+    body: "Brushless fan motor and vibration-decoupled mount keep cabin and truck-stop noise well below typical anti-idling ordinances.",
+  },
+  {
+    title: "Wide roof-opening compatibility",
+    body: "Accepts roof openings from 510 × 380 mm up to 800 × 490 mm. Compatible with most existing sunroof / hatch cutouts on semi trucks, RVs, and van conversions.",
+  },
+  {
+    title: "Battery-bank aware",
+    body: "Undervoltage cutoff at 11 V protects lead-acid and lithium battery banks from deep discharge. Works with LiFePO4, AGM, and flooded batteries.",
+  },
+  {
+    title: "B2B logistics ready",
+    body: "Sea / rail / express shipping from Qingdao port. MOQ and dealer pricing tiers available. English ISO 9001 and CNAS test documents shared on request.",
+  },
+];
+
+const reviews = [
+  {
+    name: "Mike T.",
+    role: "Owner-Operator, Peterbilt 579 — Texas, USA",
+    rating: 5,
+    title: "Best investment for my Peterbilt",
+    body: "15 years long-haul and this is the best parking AC I've used. Holds 72 °F when it's 105 °F outside in Texas. 200 Ah LiFePO4 lasts the full night. Zero noise complaints at the truck stop.",
+  },
+  {
+    name: "Sarah K.",
+    role: "Class-B Van Builder — Arizona, USA",
+    rating: 5,
+    title: "Game-changer for desert summers",
+    body: "Phoenix means brutal summers. This unit handles 115 °F without breaking a sweat. Installation was about 3 hours with basic tools. Remote control is a nice touch.",
+  },
+  {
+    name: "Lukas H.",
+    role: "Fleet HVAC Procurement — Germany",
+    rating: 5,
+    title: "Solid for retrofit programs",
+    body: "We tested 6 units across a regional fleet. The 24 V wiring kit and undervoltage cutoff made integration with our existing AGM banks simple. Documentation in English helped our installers.",
+  },
+];
+
+/* ----------------------------- component ----------------------------- */
+
+export default function DraftTopMountedB2B() {
+  useSEO({
+    title: "DRAFT · VS02 PRO Top-Mounted Parking AC – B2B Detail Layout",
+    description:
+      "Internal preview of the B2B-focused product detail layout: scrolling left content, sticky right inquiry form, no prices.",
+    canonical: "https://cooldrivepro.com/drafts/top-mounted-b2b/",
+  });
+
+  const [selectedImg, setSelectedImg] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
+
+  const nextImg = useCallback(
+    () => setSelectedImg((i) => (i + 1) % productImages.length),
+    []
+  );
+  const prevImg = useCallback(
+    () => setSelectedImg(
+      (i) => (i - 1 + productImages.length) % productImages.length
+    ),
+    []
+  );
+
+  const openLightbox = useCallback((src: string) => {
+    setLightboxSrc(src);
+    setLightboxOpen(true);
+  }, []);
+
+  const handleWhatsApp = () => {
+    window.open(
+      "https://wa.me/8615314252983?text=Hi%2C%20I%27m%20interested%20in%20the%20CoolDrivePro%20VS02%20PRO%20Top-Mounted%20Parking%20AC.%20Please%20share%20fitment%20and%20dealer%20quote.%0AVehicle%3A%0AVoltage%3A%0AQuantity%3A",
+      "_blank",
+      "noopener"
+    );
+  };
+
+  /* ---------- shared color tokens ---------- */
+  const ink = "oklch(0.24 0.10 250)";
+  const ink2 = "oklch(0.34 0.08 250)";
+  const muted = "oklch(0.50 0.05 250)";
+  const accent = "oklch(0.45 0.18 255)";
+  const surface = "oklch(0.98 0.012 240)";
+  const border = "oklch(0.90 0.03 240)";
+
+  /* ---------- Section helper ---------- */
+  const Section = ({
+    eyebrow,
+    icon: Icon,
+    title,
+    children,
+    id,
+  }: {
+    eyebrow: string;
+    icon: React.ComponentType<{ size?: number; className?: string; style?: React.CSSProperties }>;
+    title: string;
+    children: React.ReactNode;
+    id?: string;
+  }) => (
+    <section id={id} className="py-10 border-t" style={{ borderColor: border }}>
+      <div className="flex items-center gap-2 mb-2">
+        <Icon size={16} style={{ color: accent }} />
+        <span
+          className="text-xs font-extrabold uppercase tracking-wider"
+          style={{ color: accent, fontFamily: "'Montserrat', sans-serif" }}
+        >
+          {eyebrow}
+        </span>
+      </div>
+      <h2
+        className="text-2xl lg:text-3xl font-extrabold leading-tight mb-5"
+        style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+      >
+        {title}
+      </h2>
+      {children}
+    </section>
+  );
+
+  return (
+    <PageLayout>
+      {/* DRAFT banner */}
+      <div
+        className="w-full text-center text-xs font-semibold py-2"
+        style={{ backgroundColor: "oklch(0.94 0.10 90)", color: "oklch(0.30 0.10 80)" }}
+      >
+        DRAFT PREVIEW — B2B product detail layout · not linked from production nav
+      </div>
+
+      {/* Breadcrumb */}
+      <nav
+        aria-label="Breadcrumb"
+        className="max-w-[1440px] mx-auto px-4 lg:px-8 py-3 flex items-center gap-1.5 text-sm"
+        style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+      >
+        <Link href="/" className="hover:underline">Home</Link>
+        <ChevronRight size={14} />
+        <Link href="/products" className="hover:underline">Products</Link>
+        <ChevronRight size={14} />
+        <span style={{ color: ink2 }}>Top-Mounted Parking AC (B2B preview)</span>
+      </nav>
+
+      {/* Two-column layout */}
+      <div className="max-w-[1440px] mx-auto px-4 lg:px-8 pb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_440px] gap-8 lg:gap-10 items-start">
+
+          {/* ============================== LEFT (scrolls) ============================== */}
+          <div className="min-w-0">
+
+            {/* Hero / Overview */}
+            <section className="pt-4">
+              <span
+                className="inline-block text-[11px] font-extrabold tracking-wider uppercase px-2 py-1 rounded"
+                style={{ backgroundColor: "oklch(0.94 0.06 255)", color: accent, fontFamily: "'Montserrat', sans-serif" }}
+              >
+                Top-Mounted · 12V/24V DC · No-Idle
+              </span>
+              <h1
+                className="mt-3 text-3xl lg:text-4xl xl:text-5xl font-extrabold leading-tight"
+                style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+              >
+                {PRODUCT_NAME}
+              </h1>
+              <p
+                className="mt-3 text-base lg:text-lg leading-7 max-w-3xl"
+                style={{ color: ink2, fontFamily: "'Inter', sans-serif" }}
+              >
+                {PRODUCT_TAGLINE}
+              </p>
+
+              {/* Key spec chips */}
+              <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {keyChips.map((c) => (
+                  <div
+                    key={c.label}
+                    className="rounded-lg px-4 py-3"
+                    style={{ backgroundColor: surface, border: `1px solid ${border}` }}
+                  >
+                    <div
+                      className="text-[10px] font-semibold uppercase tracking-wider mb-0.5"
+                      style={{ color: muted, fontFamily: "'Montserrat', sans-serif" }}
+                    >
+                      {c.label}
+                    </div>
+                    <div
+                      className="text-sm font-extrabold"
+                      style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+                    >
+                      {c.value}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* Gallery — large + thumbs */}
+            <section className="mt-8">
+              <div
+                className="rounded-2xl overflow-hidden bg-white border flex items-center justify-center cursor-zoom-in relative group"
+                style={{ borderColor: border, minHeight: 420 }}
+                onClick={() => openLightbox(productImages[selectedImg].src)}
+              >
+                <img
+                  src={productImages[selectedImg].src}
+                  alt={productImages[selectedImg].alt}
+                  className="w-full h-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+                  style={{ maxHeight: 560 }}
+                  loading="eager"
+                />
+                <button
+                  onClick={(e) => { e.stopPropagation(); prevImg(); }}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/85 backdrop-blur flex items-center justify-center shadow opacity-0 group-hover:opacity-100 transition-opacity hover:bg-white"
+                  aria-label="Previous image"
+                >
+                  <ChevronLeft size={18} style={{ color: ink2 }} />
+                </button>
+                <button
+                  onClick={(e) => { e.stopPropagation(); nextImg(); }}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/85 backdrop-blur flex items-center justify-center shadow opacity-0 group-hover:opacity-100 transition-opacity hover:bg-white"
+                  aria-label="Next image"
+                >
+                  <ChevronRight size={18} style={{ color: ink2 }} />
+                </button>
+                <span className="absolute bottom-3 right-3 text-xs font-medium px-2 py-1 rounded-full bg-black/55 text-white backdrop-blur">
+                  {selectedImg + 1} / {productImages.length}
+                </span>
+              </div>
+              <div className="mt-3 grid grid-cols-6 sm:grid-cols-8 gap-2">
+                {productImages.map((img, i) => (
+                  <button
+                    key={img.src}
+                    onClick={() => setSelectedImg(i)}
+                    className="aspect-square rounded-md overflow-hidden transition-all bg-white"
+                    style={{
+                      border: selectedImg === i ? `2px solid ${accent}` : `1px solid ${border}`,
+                      opacity: selectedImg === i ? 1 : 0.75,
+                    }}
+                    aria-label={`Show image ${i + 1}`}
+                  >
+                    <img src={img.src} alt={img.alt} className="w-full h-full object-cover" loading="lazy" />
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            {/* Key advantages */}
+            <Section eyebrow="Why B2B buyers choose VS02 PRO" icon={ShieldCheck} title="Engineered for fleet, dealer, and upfitter use">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {advantages.map((a) => (
+                  <div
+                    key={a.title}
+                    className="rounded-xl border bg-white p-5"
+                    style={{ borderColor: border }}
+                  >
+                    <div className="flex items-start gap-3">
+                      <div
+                        className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0"
+                        style={{ backgroundColor: "oklch(0.94 0.06 255)" }}
+                      >
+                        <Check size={14} style={{ color: accent }} />
+                      </div>
+                      <div>
+                        <h3
+                          className="text-sm font-extrabold mb-1"
+                          style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+                        >
+                          {a.title}
+                        </h3>
+                        <p
+                          className="text-sm leading-6"
+                          style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+                        >
+                          {a.body}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </Section>
+
+            {/* Full specs */}
+            <Section eyebrow="Technical specifications" icon={FileText} title="Complete spec sheet">
+              <div className="rounded-xl border overflow-hidden" style={{ borderColor: border }}>
+                <table className="w-full text-sm">
+                  <tbody>
+                    {fullSpecs.map((s, i) => (
+                      <tr
+                        key={s.label}
+                        style={{ backgroundColor: i % 2 === 0 ? "white" : surface }}
+                      >
+                        <td
+                          className="py-2.5 px-4 font-medium"
+                          style={{ color: muted, fontFamily: "'Inter', sans-serif", width: "48%" }}
+                        >
+                          {s.label}
+                        </td>
+                        <td
+                          className="py-2.5 px-4 font-semibold"
+                          style={{ color: ink, fontFamily: "'Inter', sans-serif" }}
+                        >
+                          {s.value}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p
+                className="mt-3 text-xs"
+                style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+              >
+                Specs are typical values. Final spec sheet is confirmed on the pro-forma invoice based on production batch.
+              </p>
+            </Section>
+
+            {/* Factory video + photos */}
+            <Section eyebrow="Manufacturing capability" icon={Factory} title="Inside the CoolDrivePro factory">
+              <div
+                className="rounded-2xl overflow-hidden border bg-black"
+                style={{ borderColor: border }}
+              >
+                <video
+                  className="w-full h-auto block"
+                  src="/videos/cooldrivepro-factory-tour.mp4"
+                  poster="/images/factory/cooldrivepro-production-line-assembly.webp"
+                  controls
+                  preload="metadata"
+                  playsInline
+                />
+              </div>
+              <p
+                className="mt-3 text-sm leading-6"
+                style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+              >
+                Production-line, packing, and container-loading footage from the Qingdao manufacturing site. The same line ships VS02 PRO units to dealers, fleet operators, and upfitters worldwide.
+              </p>
+
+              <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {factoryPhotos.map((p) => (
+                  <button
+                    key={p.src}
+                    type="button"
+                    onClick={() => openLightbox(p.src)}
+                    className="aspect-[4/3] overflow-hidden rounded-lg border bg-white"
+                    style={{ borderColor: border }}
+                  >
+                    <img
+                      src={p.src}
+                      alt={p.alt}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.04]"
+                    />
+                  </button>
+                ))}
+              </div>
+            </Section>
+
+            {/* Certifications */}
+            <Section eyebrow="Certifications & documentation" icon={Award} title="Quality, IP, and brand registrations">
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                {certifications.map((c) => (
+                  <article
+                    key={c.src}
+                    className="rounded-xl border bg-white overflow-hidden"
+                    style={{ borderColor: border }}
+                  >
+                    <button
+                      type="button"
+                      onClick={() => openLightbox(c.src)}
+                      className="block w-full bg-white p-3"
+                    >
+                      <img
+                        src={c.src}
+                        alt={c.alt}
+                        loading="lazy"
+                        className="w-full h-44 object-contain"
+                      />
+                    </button>
+                    <div className="px-4 pb-4">
+                      <h3
+                        className="text-sm font-extrabold mb-1"
+                        style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+                      >
+                        {c.title}
+                      </h3>
+                      <p
+                        className="text-xs leading-5"
+                        style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+                      >
+                        {c.body}
+                      </p>
+                    </div>
+                  </article>
+                ))}
+              </div>
+              <p
+                className="mt-3 text-xs"
+                style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+              >
+                Original-language PDF copies of ISO 9001, CNAS test reports, trademark, and design patents are emailed to verified B2B buyers under NDA.
+              </p>
+            </Section>
+
+            {/* Real install / application */}
+            <Section eyebrow="Application & installation" icon={Wrench} title="Real install and packed-unit photos">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {installApplicationPhotos.map((p) => (
+                  <button
+                    key={p.src}
+                    type="button"
+                    onClick={() => openLightbox(p.src)}
+                    className="aspect-[4/3] overflow-hidden rounded-lg border bg-white"
+                    style={{ borderColor: border }}
+                  >
+                    <img
+                      src={p.src}
+                      alt={p.alt}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.04]"
+                    />
+                  </button>
+                ))}
+              </div>
+              <p
+                className="mt-3 text-sm leading-6"
+                style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+              >
+                Pre-charged refrigerant lines, bottom-mount cassette, and DC harness make the VS02 PRO retrofit-friendly for qualified installers. Typical install time: 2 – 4 hours per vehicle.
+              </p>
+            </Section>
+
+            {/* Exhibition trust */}
+            <Section eyebrow="Trust & visibility" icon={ShieldCheck} title="Trade shows and dealer engagement">
+              <div
+                className="rounded-2xl overflow-hidden border bg-black"
+                style={{ borderColor: border }}
+              >
+                <video
+                  className="w-full h-auto block"
+                  src="/videos/cooldrivepro-exhibitions-hero-bg.mp4"
+                  poster="/images/trust/exhibitions/cooldrivepro-trade-show-01.jpg"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                />
+              </div>
+              <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
+                {exhibitionPhotos.map((p) => (
+                  <button
+                    key={p.src}
+                    type="button"
+                    onClick={() => openLightbox(p.src)}
+                    className="aspect-square overflow-hidden rounded-lg border bg-white"
+                    style={{ borderColor: border }}
+                  >
+                    <img
+                      src={p.src}
+                      alt={p.alt}
+                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.04]"
+                    />
+                  </button>
+                ))}
+              </div>
+              <p
+                className="mt-3 text-sm leading-6"
+                style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+              >
+                CoolDrivePro exhibits at international truck, RV, and aftermarket shows. Dealer and distributor meetings can be scheduled at upcoming events on request.
+              </p>
+            </Section>
+
+            {/* Reviews */}
+            <Section eyebrow="Customer voice" icon={Star} title="What buyers and installers say">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {reviews.map((r) => (
+                  <article
+                    key={r.name + r.title}
+                    className="rounded-xl border bg-white p-5 flex flex-col"
+                    style={{ borderColor: border }}
+                  >
+                    <div className="flex items-center gap-1 mb-2">
+                      {Array.from({ length: 5 }).map((_, i) => (
+                        <Star
+                          key={i}
+                          size={14}
+                          fill={i < r.rating ? "oklch(0.75 0.18 80)" : "none"}
+                          stroke="oklch(0.75 0.18 80)"
+                        />
+                      ))}
+                    </div>
+                    <h3
+                      className="text-sm font-extrabold mb-1"
+                      style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+                    >
+                      {r.title}
+                    </h3>
+                    <p
+                      className="text-sm leading-6 mb-3 flex-1"
+                      style={{ color: ink2, fontFamily: "'Inter', sans-serif" }}
+                    >
+                      “{r.body}”
+                    </p>
+                    <div
+                      className="text-xs pt-3 border-t"
+                      style={{ color: muted, borderColor: border, fontFamily: "'Inter', sans-serif" }}
+                    >
+                      <span className="font-semibold" style={{ color: ink2 }}>{r.name}</span> · {r.role}
+                    </div>
+                  </article>
+                ))}
+              </div>
+              <p
+                className="mt-3 text-xs"
+                style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+              >
+                Reviews are translated for clarity; original-language sources can be shared on request under NDA.
+              </p>
+            </Section>
+
+            {/* Mobile inquiry repeat (only visible on small screens) */}
+            <div className="lg:hidden mt-8">
+              <CompactInquiryForm
+                source="draft_top_mounted_b2b_bottom"
+                productName={PRODUCT_NAME}
+                title="Request fitment & dealer quote"
+                subtitle="Send vehicle type, voltage, and quantity. We will reply with model guidance and quote steps."
+              />
+            </div>
+          </div>
+
+          {/* ============================== RIGHT (sticky) ============================== */}
+          <aside className="hidden lg:block">
+            <div className="sticky top-24 space-y-4">
+              {/* Inquiry form card */}
+              <div
+                className="rounded-2xl border bg-white shadow-sm p-5"
+                style={{ borderColor: border }}
+              >
+                <div className="mb-3">
+                  <span
+                    className="inline-block text-[10px] font-extrabold tracking-wider uppercase px-2 py-0.5 rounded"
+                    style={{ backgroundColor: "oklch(0.94 0.06 255)", color: accent, fontFamily: "'Montserrat', sans-serif" }}
+                  >
+                    B2B Inquiry
+                  </span>
+                  <h2
+                    className="mt-2 text-lg font-extrabold leading-snug"
+                    style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+                  >
+                    Request fitment & dealer quote
+                  </h2>
+                  <p
+                    className="text-xs leading-5 mt-1"
+                    style={{ color: muted, fontFamily: "'Inter', sans-serif" }}
+                  >
+                    Send vehicle type, voltage, roof opening, and quantity. Our team replies with fitment confirmation and a quote — no price exposed publicly.
+                  </p>
+                </div>
+                <CompactInquiryForm
+                  source="draft_top_mounted_b2b_sticky"
+                  productName={PRODUCT_NAME}
+                  title=""
+                  subtitle=""
+                  className=""
+                />
+              </div>
+
+              {/* WhatsApp button */}
+              <button
+                onClick={handleWhatsApp}
+                className="w-full py-3 px-4 rounded-xl font-bold text-white text-sm transition-all hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-2 shadow-sm"
+                style={{ backgroundColor: "#25D366", fontFamily: "'Montserrat', sans-serif" }}
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+                Chat on WhatsApp
+              </button>
+
+              {/* Contact card */}
+              <div
+                className="rounded-2xl border bg-white p-5 text-sm space-y-3"
+                style={{ borderColor: border, color: ink2, fontFamily: "'Inter', sans-serif" }}
+              >
+                <h3
+                  className="text-sm font-extrabold mb-1"
+                  style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+                >
+                  Talk to the B2B team
+                </h3>
+                <div className="flex items-start gap-2">
+                  <Mail size={16} className="mt-0.5 flex-shrink-0" style={{ color: accent }} />
+                  <a href="mailto:sales@cooldrivepro.com" className="hover:underline" style={{ color: ink2 }}>
+                    sales@cooldrivepro.com
+                  </a>
+                </div>
+                <div className="flex items-start gap-2">
+                  <Phone size={16} className="mt-0.5 flex-shrink-0" style={{ color: accent }} />
+                  <a href="tel:+8615314252983" className="hover:underline" style={{ color: ink2 }}>
+                    +86 153 1425 2983
+                  </a>
+                </div>
+                <div className="flex items-start gap-2">
+                  <MapPin size={16} className="mt-0.5 flex-shrink-0" style={{ color: accent }} />
+                  <span>Qingdao, Shandong, China — global B2B shipping</span>
+                </div>
+              </div>
+
+              {/* Trust strip */}
+              <div
+                className="rounded-2xl border bg-white p-5"
+                style={{ borderColor: border }}
+              >
+                <h3
+                  className="text-sm font-extrabold mb-3"
+                  style={{ color: ink, fontFamily: "'Montserrat', sans-serif" }}
+                >
+                  Why work with CoolDrivePro
+                </h3>
+                <ul className="space-y-2 text-sm" style={{ color: ink2, fontFamily: "'Inter', sans-serif" }}>
+                  <li className="flex items-start gap-2">
+                    <ShieldCheck size={16} className="mt-0.5 flex-shrink-0" style={{ color: accent }} />
+                    <span>12-month B2B warranty, defects in materials & workmanship.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Factory size={16} className="mt-0.5 flex-shrink-0" style={{ color: accent }} />
+                    <span>Own factory and tested production line in Qingdao.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Award size={16} className="mt-0.5 flex-shrink-0" style={{ color: accent }} />
+                    <span>ISO 9001:2015, CNAS lab test reports, registered IP.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      {/* Lightbox */}
+      {lightboxOpen && lightboxSrc && (
+        <div
+          className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-6"
+          onClick={() => setLightboxOpen(false)}
+        >
+          <button
+            className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center"
+            onClick={() => setLightboxOpen(false)}
+            aria-label="Close lightbox"
+          >
+            <X size={22} className="text-white" />
+          </button>
+          <img
+            src={lightboxSrc}
+            alt=""
+            className="max-w-[92vw] max-h-[88vh] object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
+    </PageLayout>
+  );
+}
