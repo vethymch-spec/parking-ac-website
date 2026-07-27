@@ -111,3 +111,6 @@ temp/
 
 # Local Netlify folder
 .netlify
+
+# Agent skills (dev-only)
+.agents/

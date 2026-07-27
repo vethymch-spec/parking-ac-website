@@ -1,0 +1,551 @@
+{
+  "title": "Legile împotriva mersului în gol pentru stat cu stat 2026: Căutare în 50 de state + Calculator ROI AC pentru parcare",
+  "date": "2026-06-08",
+  "category": "Reglementări și conformitate",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Harta SUA care arată legile împotriva mersului în gol de la stat în 2026, cu suprapunere de conformitate cu AC pentru parcare",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Toate cele 50 de legi de stat americane împotriva mersului în gol pentru 2026 într-un singur tabel — intervale de amendă, limite de 5 față de 15 minute, scutiri de dormitor/DEF și un ROI funcțional care arată modul în care un AC de parcare a bateriei se rambursează în 9-14 luni față de amenzile la ralanti plus costul combustibilului.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Dacă conduceți clasa 8 în 2026, **stat prin legile anti-ralanti din 2026** nu mai este ceva pe care îl puteți ignora.Patruzeci și unu de state din SUA și cele mai mari metrouri limitează acum timpul de inactivitate a motorului în repaus parcat, amenzile variază de la 50 USD la peste 25.000 USD per încălcare, iar aplicarea la opririle de camioane, stațiile de cântărire și zonele de odihnă a crescut brusc de la reîmprospătarea programului EPA SmartWay din 2024."
+    },
+    {
+      "heading": null,
+      "body": "Această pagină este referința de lucru pe care o trimitem managerilor de flote și proprietarilor-operatori care pun trei întrebări: *ce spune de fapt statul meu în 2026, AC-ul meu de parcare este considerat conform și care este costul anual real de a rămâne neconform față de cheltuirea de 2.800 USD pe un AC de parcare cu baterie*.Răspundem la toate trei mai jos - cu un tabel de căutare în 50 de stări, o defalcare numerică a rentabilității investiției și o coloană sinceră care arată unde se potrivește AC de parcare a bateriei și unde nu."
+    },
+    {
+      "heading": null,
+      "body": "Navigare rapidă: accesați [tabelul cu 50 de stări](#tabelul-de-căutare-50-state), [calculatorul ROI](#calculator-roi-cost-inactiv-vs-parcare-ac) sau [clasamentul conformității](#căi-conformitate-clasat-după-costul-total)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR — Cele mai stricte 10 state și ce amendează în 2026"
+    },
+    {
+      "heading": null,
+      "body": "Dacă citiți doar un paragraf: California, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah și Colorado au cel mai strict 2026 de aplicare.Limitele de inactivitate din acest grup sunt de **5 minute** (CA, NJ, MA, CT, MD) sau **3 minute** (districtele comerciale din NYC, NJ) când temperatura ambiantă este între aproximativ 25°F și 75°F.Limitele mai laxe de 10 minute și **15 minute** din Nevada, Virginia de Vest și părți din Illinois se aplică în continuare camioanelor comerciale - împărțirea **5 minute față de 15 minute** este singurul fapt cel mai confuz în îmbarcarea flotei.În afara acestei benzi, de obicei intră în vigoare scutiri pentru dormitoare, dar numai dacă operatorul poate dovedi scutirea, care este locul în care se întâmplă de fapt cele mai multe încălcări."
+    },
+    {
+      "heading": null,
+      "body": "Structura fină în 2026 este ceea ce s-a schimbat cel mai mult.Vechea epocă „Bilet de 100 USD și mergeți mai departe” s-a încheiat pentru recidivitorii.**California ATCM** în conformitate cu [Regula de inactivitate pentru sarcini grele CARB](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) stivuiește penalități: 300 USD prima încălcare, 1.000 USD a doua în 36 de luni, până la 25.000 USD pentru modele la nivelul întregii flote.**New Jersey** dublează amenzile pentru a doua abatere în decurs de 12 luni.**Legea locală 5 din NYC** autorizează bilete raportate de cetățeni la 350 USD–2.000 USD."
+    },
+    {
+      "heading": null,
+      "body": "Cele patru exceptări care apar peste tot: (1) **costă de dormit** se odihnește cu o temperatură ambientală sub 25 °F sau peste 75 °F (cel mai frecvent), (2) **protecție la îngheț DEF** atunci când ambientul scade sub ~30 °F, (3) **trafic oprit** la ralanti, (4) **EPA SmartWay-verificată_** parcare AC_________CDP_**lacuna în care este construit restul acestei pagini."
+    },
+    {
+      "heading": null,
+      "body": "## Cum au ajuns aici legile anti-ralanti din SUA (istoric cu 1 paragraf)"
+    },
+    {
+      "heading": null,
+      "body": "Coloana vertebrală legală se întoarce la amendamentele **Clean Air Act 1990** (**CAA 1990**) care acordă autoritate EPA asupra emisiilor de la sursele mobile.În 2004, EPA a lansat **SmartWay**, un program de verificare voluntară pentru tehnologiile de reducere a inactivității care a devenit lista de referință de facto pe care statele o citează atunci când au stabilit scutiri.California **CARB** a mers cel mai departe în 2008 cu **Măsura de control al toxicelor aeropurtate (ATCM)** pentru vehiculele comerciale cu motor diesel în uz – o limită de 5 minute la nivel de stat cu dinți de aplicare.Prevederea federală **FMCSA Hours-of-Service (HOS)** pentru dana pentru dormitor, modernizată în 2020 și reîmprospătată în 2024, impune șoferilor să se odihnească într-o dană pentru dormitor care, în practică, trebuie să fie controlată la temperatură pentru a fi locuibilă - care este exact conflictul creat de legile anti-ralanti și soluționat AC de parcare."
+    },
+    {
+      "heading": null,
+      "body": "## Tabelul de căutare cu 50 de stări {#tabelul-de-căutări cu 50 de stări}"
+    },
+    {
+      "heading": null,
+      "body": "Actualizat pentru **execuție 2026** pe baza [Compilation of State Idling Regulations EPA](https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) și buletinele DOT de stat emise până în Q1 2026. „Conformitatea cu sistemul de parcare a bateriei AC sau echivalentul echivalentului bateriei” înseamnă o baterie de răcire echivalentă sau o baterie echivalentă cu SmartW.scutire fără motor la ralanti."
+    },
+    {
+      "heading": null,
+      "body": "|Stat |Limita inactiv |Gamă fină |Dormitor scutit |APU scutit |Parcare cu baterie compatibilă AC |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Niciuna la nivel statal |— |— |— |✅ (fără regulă) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 min (Maricopa) |300 USD–1.500 USD |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|California |5 min (CARB ATCM) |300 USD–25.000 USD |Y >75°F sau <25°F |Y (verificat) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 min (Denver/local) |100 USD–500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 min |250 USD–5.000 USD |Y <20°F sau >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 min |50$–500$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida |5 min (Miami-Dade) |150 USD–500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Georgia |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaii |3 min |100 USD–1.000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 min (Chicago) |50$–500$ |Y <32°F sau >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 min |150 USD–1.500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 min |500 USD–25.000 USD |Y <40°F sau >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 min |100 USD–25.000 USD |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 min (Mpls/Sf. Paul) |25 USD–1.000 USD |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 min (Clark/Washoe) |100 USD–500 USD |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 min |100 USD–1.000 USD |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 min |250 USD–5.000 USD |Y <25°F sau >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Mexico |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 min stare / 3 min NYC |350 USD–2.000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Carolina de Nord |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dakota de Nord |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 min |190 USD–2.000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvania |5 min (Legea la ralanti diesel) |150 USD–1.000 USD |Y <40°F sau >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Rhode Island |5 min |100 USD–500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Carolina de Sud |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dakota de Sud |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texas |5 min (județele TCEQ) |200 USD–2.000 USD |Y <40°F sau >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 min (Lacul Sărat) |115 USD–300 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 min |100 USD–1.000 USD |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia |10 min stare / 3 min N. VA |250 USD–25.000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia de Vest |15 min |150 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Niciuna la nivel statal |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 min vara / 5 min iarna |500 USD–5.000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Rețineți modelul structural: **fiecare stare cu o regulă activă acordă o cale de conformitate AC de parcare a bateriei**.Acesta nu este un accident - atunci când CARB și EPA au scris regulile modelului, au inclus în mod explicit „tehnologie alternativă care oferă confort cabinei fără funcționarea motorului principal”, astfel încât flotele să se conformeze fără parcarea camioanelor diesel în loturi de 100°F fără răcire.Dana pentru dormitor și scutirile DEF sunt trapa de evacuare moștenită;parcare baterie AC este cel modern."
+    },
+    {
+      "heading": null,
+      "body": "## Stratul federal: interacțiunea EPA SmartWay + FMCSA HOS"
+    },
+    {
+      "heading": null,
+      "body": "Nu există **nu există o singură lege federală anti-ralanti pentru camioane** în 2026. Ceea ce pare federal sunt de fapt două programe care se suprapun cu regulile de stat:"
+    },
+    {
+      "heading": null,
+      "body": "**Lista verificată EPA SmartWay.** SmartWay menține o [listă verificată de tehnologii de reducere a inactivității](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies) care menționează referință atunci când se definesc scutiri.Dacă AC parcarea dvs. este pe această listă, aveți o apărare în instanță în fiecare stat care îl recunoaște - care în 2026 sunt toate cele 19 state cu reguli active de inactivitate.Sistemele AC de parcare cu baterii de la Webasto, Dometic, Bergstrom NITE și CoolDrivePro VTH1 sunt toate pe listă sau sunt eligibile pentru listare."
+    },
+    {
+      "heading": null,
+      "body": "**FMCSA Hours-of-Service (HOS).** [Prevederea federală pentru dana pentru dormitor](https://www.fmcsa.dot.gov/regulations/hours-of-service) impune șoferilor să treacă cel puțin 7 ore consecutive în dana pentru dormitor, ca parte a resetei de 10 ore în afara serviciului.O dană de dormit la 95 ° F nu este un mediu de odihnă legitim, iar inspectorii DOT au început să noteze constatări de temperatură nesigură în cabină în rapoartele de inspecție pe marginea drumului din 2023. Acesta este motivul practic pentru care managerii de flotă nu mai pot spune „doar spuneți șoferilor să spargă geamul” – regulatorul de siguranță și regulatorul de aer sunt acum la același punct."
+    },
+    {
+      "heading": null,
+      "body": "**Efectul de interacțiune** contează pentru auditurile de conformitate: o flotă lovită cu încălcări repetate ale regulilor de mers în gol în CA sau NJ ridică, de asemenea, un semnal de evaluare a siguranței FMCSA, deoarece modelul de comportament subiacent (șoferii care lasă motoarele în funcțiune pentru confortul cabinei în timpul odihnei HOS) creează atât o încălcare a emisiilor, cât și o problemă de oboseală/inspecție.Rezolvarea unuia le rezolvă pe amândouă."
+    },
+    {
+      "heading": null,
+      "body": "## Calculator ROI: cost inactiv vs parcare AC {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Documentele Wikipedia și EPA descriu legile, dar niciuna nu publică un ROI real.Iată matematica, folosind **ipoteze de intrare 2026**, orice proprietar-operator sau planificator de flotă le poate înlocui cu propriile numere."
+    },
+    {
+      "heading": null,
+      "body": "**Intrari (medii naționale 2026):**"
+    },
+    {
+      "heading": null,
+      "body": "- Arderea combustibilului la ralanti a motorului principal pentru dormitoare de clasa 8: **0,8 gal/oră** ([date ATRI privind costul la ralanti](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Prețul motorinei pe autostradă (mai 2026): **3,95 USD/gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Ore inactiv pe noapte (sezon de răcire, mai-septembrie): **9 ore**"
+    },
+    {
+      "heading": null,
+      "body": "- Nopți inactiv pe an (relevante pentru răcire): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Risc mediu de amendă pe an neconform (ruta din 4 state de executare, date privind aplicarea 2026): **420 USD**"
+    },
+    {
+      "heading": null,
+      "body": "- Costul uzurii la ralanti al motorului principal: **0,30 USD / oră inactiv** (accelerare intervalul de schimbare a uleiului + stres EGR/DPF, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Cost anual de ralanti pentru răcirea cabinei (calea fără a face nimic):**"
+    },
+    {
+      "heading": null,
+      "body": "|Componenta cost |Matematică |Anual $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Combustibil |9 ore × 140 nopți × 0,8 gal × 3,95 USD |**3.981 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|Uzura motorului |9 ore × 140 nopți × 0,30 USD |**378 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|Risc amendat (media națională) |mix de executare-stat |**420 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Costul total anual inactiv** ||**4.779 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "**Costul anual de parcare a bateriei conform AC:**"
+    },
+    {
+      "heading": null,
+      "body": "|Componenta cost |Matematică |Anual $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Hardware amortizat (durată de viață de 3 ani cu un 12V/24V de parcare a bateriei de 2.800 USD, cum ar fi [CoolDrivePro VTH1](/products/vth1)) |2.800 USD / 3 |**933 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|Adăugat încărcare la mal / timp alternator |~110 kWh × 0,15 USD |**17 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|Amortizarea băncii bateriei (LiFePO4 celule adăugate peste 5 ani) |1.200 USD / 5 |**240 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Cost anual total de parcare AC** ||**1.190 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "**Economii anuale nete: 4.779 USD − 1.190 USD = 3.589 USD per camion pe an.**"
+    },
+    {
+      "heading": null,
+      "body": "**Rambursare simplă pentru o unitate de 2.800 USD + upgrade de baterie de 1.200 USD = 13,4 luni** la media națională.În statele cu aplicare ridicată (CA, NJ, NY, MD) rambursarea se comprimă la mai puțin de 9 luni, deoarece linia de risc fin sare de la 420 USD la 1.800 USD+ pe an."
+    },
+    {
+      "heading": null,
+      "body": "Pentru o flotă regională de 50 de camioane care rulează o bandă CA + NV + AZ, adică **179.000 USD economisiți pe an** - motiv pentru care fiecare transportator mare căruia i-am vândut din 2024 integrează elementul de linie de parcare AC direct în specificații atunci când reîmprospătează camioanele."
+    },
+    {
+      "heading": null,
+      "body": "## Căi de conformitate clasate după costul total {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Există patru căi pentru a rămâne în interiorul setului de reguli din 2026.Listat de la cel mai ieftin la cel mai scump pe un orizont de proprietate de 3 ani:"
+    },
+    {
+      "heading": null,
+      "body": "**1.AC parcare cu baterie (cel mai ieftin, ~1.190 USD/an).** Exemple: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Avantaje: cea mai ușoară greutate (45–80 lb), silențios (<48 dB cabină), fără întreținere dincolo de curățarea filtrului, acoperire completă SmartWay.Contra: depinde de capacitatea bateriei pentru timpul de funcționare peste noapte — o singură AGM Grup 31 nu este suficientă;Este necesară o bancă AGM LiFePO4 sau 200+ Ah.Consultați [12V vs 24V comparație pentru parcare AC](/compare/12v-vs-24v-parking-ac/) pentru dimensionare."
+    },
+    {
+      "heading": null,
+      "body": "**2.Electric APU (la mijloc, ~1.800 USD–2.400 USD/an).** Exemple: Bergstrom NITE, Idle Free.Pro: alimentează și aparate de 120 V (cuptor cu microunde, frigider), autonomie mai mare decât numai cu baterie.Contra: mai greu (~250 lb), mai scump (6.000 USD–9.500 USD), mai multe puncte de eșec.Cel mai bun pentru șoferii care au nevoie de încărcături electrice complete în modul hotel."
+    },
+    {
+      "heading": null,
+      "body": "**3.Diesel APU (cel mai mare, ~2.600 USD–3.800 USD/an).** Exemple: Thermo King TriPac, Carrier ComfortPro.Pro: timp de funcționare nelimitat atâta timp cât există combustibil, bine înțeles de către tehnicienii de flotă.Dezavantaje: încă emite — scutit numai în conformitate cu regulă dacă este verificat prin SmartWay, arde ~0,2 gal/h, 9.500 USD–13.000 USD instalat, este necesar un service regulat.[Peisajul alternativ TriPac](/blog/dometic-vs-webasto-parking-ac/) s-a mutat puternic către baterie în 2024–2026."
+    },
+    {
+      "heading": null,
+      "body": "**4.Nu faceți nimic (cel mai scump, ~4.779 USD/an + risc de amendă în creștere).** Nu este o opțiune reală pentru flotele care circulă pe benzile de coridor CA sau NE;pentru proprietarii-operatori din afara statelor de aplicare a legii, acesta încă se întinde timp de 1-2 ani până la următoarea escaladă majoră a prețului combustibilului inactiv.Nu îl recomandăm pentru nicio achiziție de camion din 2026+."
+    },
+    {
+      "heading": null,
+      "body": "## Lista de verificare a șoferului și a dispecerului (printabilă)"
+    },
+    {
+      "heading": null,
+      "body": "Tratați gloanțele de mai jos ca pe un jurnal de conformitate din partea cabinei.Purtați o copie tipărită laminată;Inspectorii DOT care văd șoferii purtând propria documentație tind să se miște mai repede:"
+    },
+    {
+      "heading": null,
+      "body": "- **Introducere zilnică în jurnal** atunci când parcarea AC este utilizată în locul motorului în gol: timp pornit, timp oprit, temperatura ambiantă, locație, codul SKU al sistemului și numărul de serie."
+    },
+    {
+      "heading": null,
+      "body": "- **Dovada foto** a autocolantului de verificare SmartWay de pe unitatea de parcare AC - salvează certurile cu un inspector care nu a memorat lista verificată."
+    },
+    {
+      "heading": null,
+      "body": "- **Citirile stării de încărcare a bateriei** la începutul și la sfârșitul perioadei de odihnă, dacă sunt provocate - dovedește că AC funcționa de fapt pe baterie și nu a fost o poveste de acoperire pentru motorul la ralanti."
+    },
+    {
+      "heading": null,
+      "body": "- **Cartele de cheat cu regulile de stat** pentru benzile pe care le rulați — este suficientă imprimarea laminată de 2 pagini din tabelul cu 50 de state de mai sus;le distribuim la expozițiile comerciale."
+    },
+    {
+      "heading": null,
+      "body": "- **Limba cererii de scutire** memorată: „Acest vehicul operează un sistem de aer condiționat cu baterii verificat prin SmartWay în temeiul scutirii [statul dvs.] pentru tehnologia alternativă de confort al cabinei”.Acea singură propoziție încheie 80% din conversațiile de pe marginea drumului."
+    },
+    {
+      "heading": null,
+      "body": "- **Jurnal de service** pentru AC parcare: curățare filtrul trimestrial, verificare anuală a stării bateriei.O unitate care nu reușește la mijlocul odihnei creează tentația de a merge în gol, ceea ce creează încălcarea."
+    },
+    {
+      "heading": null,
+      "body": "- **Escaladarea dispecerului**: orice bilet de drum primește o fotografie în aceeași zi a citației trimise la expediere.Multiplicatorii amenzilor pentru recidivă în NJ, MD și CA se resetează după 12-36 de luni — flotele trebuie să urmărească ce camioane sunt la curent."
+    },
+    {
+      "heading": null,
+      "body": "## Întrebări frecvente"
+    },
+    {
+      "heading": null,
+      "body": "**Care state din SUA au cele mai stricte legi împotriva mersului în gol în 2026?**"
+    },
+    {
+      "heading": null,
+      "body": "California (CARB ATCM, 300 USD–25.000 USD), New Jersey (limită de 3 minute, dublarea pentru repetare), New York (Legea locală NYC 5 cu raportarea cetățenilor la 350 USD–2.000 USD), Massachusetts și Maryland (ambele 5 minute cu plafonuri fine de aproape 25.000 USD pentru modele de flotă) și Connecticut (200-5 USD).DC se află în fruntea listei pentru încălcări, cu 500-5.000 USD plus aplicarea agresivă."
+    },
+    {
+      "heading": null,
+      "body": "**Contează un AC de parcare ca fiind conform cu regulile anti-ralanti?**"
+    },
+    {
+      "heading": null,
+      "body": "Da, în fiecare stat cu o regulă activă, cu condiția ca unitatea să fie verificată prin SmartWay sau recunoscută în conformitate cu excluderea „tehnologiei alternative” a statului.Parcarea numai cu baterie AC (fără motor principal în funcțiune) este cea mai curată postură de conformitate și este ceea ce California, NJ, NY, MD și CA denumesc în mod explicit în textul regulamentului.Consultați [no idle truck AC primer](/blog/no-idle-truck-ac/) pentru baza legală în limba engleză simplă."
+    },
+    {
+      "heading": null,
+      "body": "**Există o lege federală anti-ralanti pentru camioane?**"
+    },
+    {
+      "heading": null,
+      "body": "Nu există o singură lege federală inactivă, dar cadrul EPA Clean Air Act și programul de listă verificată SmartWay standardizează efectiv ceea ce contează drept conformitate în cele 19 state cu regulile active.Regulile FMCSA HOS necesită în mod separat odihna locuibilă pentru dormitor, care interacționează cu regulile anti-ralanti în practică."
+    },
+    {
+      "heading": null,
+      "body": "**Care este costul mediu al combustibilului la ralanti unui camion de clasa 8 timp de 10 ore?**"
+    },
+    {
+      "heading": null,
+      "body": "La 0,8 gal/oră la ralanti al motorului principal și media națională diesel din mai 2026 de 3,95 USD/gal, o odihnă de 10 ore costă **31,60 USD numai în combustibil** - plus aproximativ 3 USD în uzura accelerată a motorului și riscul amendat dacă vă aflați într-un lot reglementat.Peste 140 de nopți de răcire pe an care se adaugă la numărul de 4.779 USD folosit în calculatorul de rentabilitate a investiției de mai sus."
+    },
+    {
+      "heading": null,
+      "body": "**Cât de mult poate economisi o flotă pe camion pe an cu un AC de parcare?**"
+    },
+    {
+      "heading": null,
+      "body": "Media națională este de **3.589 USD/camion/an** fără amortizarea hardware-ului.În statele cu aplicare ridicată, numărul crește la 4.500 USD+, deoarece componenta de risc amenzii crește.O flotă de 50 de camioane pe benzile grele din CA economisește de obicei peste 200.000 USD pe an.Consultați [calculatorul de economii de combustibil pentru parcare AC](/blog/parking-ac-fuel-savings-calculator/) pentru un model cu intrări editabile și [prezentarea generală a legii anti-idling](/blog/no-idle-ac-anti-idling-laws/) pentru contextul de reglementare."
+    },
+    {
+      "heading": null,
+      "body": "**Ce zici de înghețul DEF în state cu vreme rece?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (lichidul de evacuare diesel) începe să se cristalizeze aproape de 12°F.Majoritatea regulilor de inactivitate pentru starea rece (NJ, NH, VT, Minnesota Twin Cities) includ o scutire de sub 25°F care acoperă în mod explicit protecția DEF, dar răspunsul mai curat în 2026 este un combo de încălzire de suprafață cu motor diesel verificat prin SmartWay + parcare baterie AC, care se ocupă atât de riscul de ralanti din sezonul de răcire, cât și de funcționarea DEF a motorului.Această combinație este ceea ce specifica acum majoritatea cererilor de propuneri ale flotei nordice."
+    },
+    {
+      "heading": null,
+      "body": "## Concluzie"
+    },
+    {
+      "heading": null,
+      "body": "Legile împotriva mersului la ralanti de la stat la stat în 2026 nu devin mai laxe - amenzile cresc, instrumentele de raportare a cetățenilor se răspândesc din NYC în alte metrouri, iar FMCSA începe să facă referințe încrucișate cu evaluările de siguranță.Matematica este acum solid de partea parcării cu baterie AC: sub 1.200 de dolari pe an all-in vs aproape 5.000 de dolari pe an pentru calea fără a face nimic, cu rambursare în mai puțin de 14 luni la nivel național și sub 9 luni pe benzile de pe Coasta de Vest."
+    },
+    {
+      "heading": null,
+      "body": "Dacă doriți ajutor pentru specificarea unei unități pentru camionul sau flota dvs., [CoolDrivePro VTH1 12V/24V acumulator de parcare AC](/products/vth1) este recomandarea noastră eligibilă pentru SmartWay, iar [__CDP_TERM____TERM______TERM______TERM______comparație](/compare/12v-vs-24v-parking-ac/) este locul potrivit pentru a începe dimensionarea."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

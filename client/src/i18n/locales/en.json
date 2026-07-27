@@ -21,51 +21,38 @@
     "supportPortal": "My Support Portal",
     "logout": "Logout",
     "login": "Login",
-    "ticketManagement": "Ticket Management",
-    "customerManagement": "Customer Management",
     "adminLogout": "Admin Logout",
     "customerLogout": "Customer Logout",
     "mySupportPortal": "My Support Portal",
     "adminPanel": "Admin Panel",
-    "search": "Search",
-    "account": "Account",
     "menu": "Menu",
     "shoppingCart": "Shopping cart",
     "brandKnowledge": "Brand Knowledge",
     "paymentMethod": "Payment Method",
     "billingTerms": "Billing Terms",
     "trackOrder": "Track Order",
-    "supportAvailability": "Support Availability: 11 AM - 9 PM Pacific Time (PT), we will reply to you within 1-12 hours."
+    "supportAvailability": "US Sales & Support: Mon–Fri 9 AM – 6 PM PT · Reply within 1–12 hours"
   },
   "hero": {
-    "title": "Parking Air Conditioner for Off-Grid Life & Mobile Comfort",
-    "subtitle": "12V & 24V DC No-Idle Parking AC for Semi Trucks, RVs, Vans & Campers — Cool Without Idling",
-    "ctaPrimary": "Shop Products",
-    "ctaSecondary": "Learn More",
+    "title": "12V/24V Parking Air Conditioners for Trucks, RVs, Vans and Fleets",
+    "subtitle": "CoolDrivePro builds 12V/24V DC parking air conditioners and no-idle cooling systems for semi trucks, RVs, vans, campers, fleets, dealers and installers \u2014 with B2B pricing, US-based warranty support and fitment guidance.",
+    "ctaPrimary": "Get Fitment Recommendation",
+    "ctaSecondary": "Request Dealer Quote",
     "badge": "New Arrival",
     "trustedBy": "Trusted by 10,000+ drivers worldwide"
   },
   "products": {
     "title": "Our Products",
     "subtitle": "Parking Air Conditioner",
-    "mainTitle": "12V & 24V DC No-Idle Parking AC Units",
-    "description": "Battery-powered parking air conditioners for semi trucks, RVs, vans and campers. Cool without idling — save fuel, reduce emissions, stay comfortable.",
+    "mainTitle": "12V & 24V Truck AC Units for Trucks, Semi Trucks and RVs",
+    "description": "Compare 12 volt air conditioner options for trucks, semi truck AC units, RV parking air conditioners, van parking AC and no-idle truck cab air conditioner models. Cool without idling, confirm fitment, then request an invoice.",
     "viewDetails": "Shop Now",
-    "addToCart": "Add to Cart",
-    "specs": "Specifications",
-    "features": "Features",
-    "reviews": "Customer Reviews",
-    "warranty": "Warranty",
-    "freeShipping": "Free Shipping",
-    "support": "24/7 Support",
-    "learnMore": "Learn More",
-    "cooling": "Cooling",
-    "heating": "Heating",
-    "heatingCooling": "Heating & Cooling",
+    "addToCart": "Request Invoice",
     "specs": {
       "coolingCapacity": "Cooling Capacity",
       "heatingCapacity": "Heating Capacity",
       "current": "Current",
+      "voltage": "Voltage",
       "powerSupply": "Power Supply",
       "noiseLevel": "Noise Level",
       "batteryRuntime": "Battery Runtime",
@@ -75,24 +62,33 @@
       "heatingSpeed": "Heating Speed",
       "airOutput": "Air Output"
     },
+    "features": "Features",
+    "reviews": "Customer Reviews",
+    "warranty": "Warranty",
+    "freeShipping": "Invoice Support",
+    "support": "24/7 Support",
+    "learnMore": "Learn More",
+    "cooling": "Cooling",
+    "heating": "Heating",
+    "heatingCooling": "Heating & Cooling",
     "topMounted": {
       "title": "12000 BTU Top-Mounted Parking Air Conditioner",
-      "subtitle": "12V/24V DC No-Idle RV & Truck Parking AC",
-      "description": "The ultimate R410A dual rotary compressor parking air conditioner for RVs, semi trucks, and vans. This 12V/24V DC no-idle parking AC delivers 12000 BTU cooling — keeping your cab or camper comfortable without running the engine. Features undervoltage battery protection and whisper-quiet operation at 45 dB.",
+      "subtitle": "12V/24V DC No-Idle AC for Fleets, Dealers & Installers",
+      "description": "A R410A dual rotary compressor truck AC unit for RVs, semi trucks, vans, truck campers and work vehicles. This 12V/24V DC no-idle parking AC delivers 12000 BTU cooling — keeping your cab or camper comfortable without running the engine. Features undervoltage battery protection and whisper-quiet operation at 45 dB.",
       "btu": "12,000 BTU",
       "voltage": "12V / 24V DC",
       "coverage": "Cools up to 80 sq ft",
       "imageAlt": "10000 BTU top-mounted parking air conditioner exploded view – 12V/24V DC no-idle RV truck AC"
     },
     "miniSplit": {
-      "title": "12000 BTU Mini Split Parking Air Conditioner",
-      "subtitle": "12V DC No-Idle AC for Semi Trucks & RVs",
-      "description": "High-capacity 12V DC mini split parking air conditioner designed for semi truck cabs, RVs, and cargo vans. With 12000 BTU of no-idle cooling power, this ductless parking AC runs directly off your vehicle battery — no generator, no shore power needed. Horizontal rooftop installation fits most trucks and campers.",
+      "title": "12V/24V Mini Split Parking AC for Semi Sleeper Cabs and RVs",
+      "subtitle": "The CoolDrivePro VX3000SP is a 12V/24V DC mini split parking air conditioner that delivers 12,000 BTU/h no-idle cooling for semi sleeper cabs, RVs, vans and campers. The indoor evaporator runs at ≤32 dB using a GMCC twin-rotary inverter compressor, so drivers can sleep through a parked night without idling the engine.",
+      "description": "High-capacity 12V/24V DC mini split parking air conditioner for semi truck sleeper cabs, truck cab air conditioner upgrades, RVs, and cargo vans. With 12,000 BTU battery-powered no-idle cooling, a quiet 32 dB indoor unit, and split-system fitment support, VX3000SP is built for overnight cab comfort.",
       "btu": "12,000 BTU",
-      "voltage": "12V DC",
+      "voltage": "12V / 24V DC",
       "runtime": "8–10 hours",
       "coverage": "Cools up to 60 sq ft",
-      "imageAlt": "12000 BTU mini split parking air conditioner for semi truck and RV – 12V DC no-idle"
+      "imageAlt": "12000 BTU mini split parking air conditioner for semi truck and RV – 12V/24V DC no-idle"
     },
     "waterHeater": {
       "title": "65000 BTU Tankless Water Heater for RV & Truck",
@@ -101,27 +97,28 @@
       "imageAlt": "65000 BTU tankless water heater for RV and semi truck – off-grid hot water"
     },
     "heatingCoolingAC": {
-      "title": "V-TH1 Heating & Cooling Parking Air Conditioner",
-      "subtitle": "12V/24V DC Dual-Mode Rotor AC — Year-Round Comfort",
+        "title": "12V/24V Heating and Cooling Parking AC for Trucks and RVs",
+        "subtitle": "The CoolDrivePro V-TH1 is a 12V/24V DC heat-pump parking air conditioner that delivers 2,000 W cooling and heating for semi trucks, RVs, vans and special vehicles. It uses a GMCC twin-rotary compressor with R134a refrigerant and can raise cab temperature from 5°C to 30°C in about 30 minutes — no engine idling and no shore power required.",
       "description": "The first dual-mode parking air conditioner from CoolDrivePro. The V-TH1 delivers up to 2,000W cooling in summer and heats your cab from 5°C to 30°C in just 30 minutes during winter. Powered by a GMCC twin-rotary compressor with R134A refrigerant, this 12V/24V DC rotor AC provides year-round climate control for trucks, RVs, vans, and special vehicles — no engine idling required.",
       "imageAlt": "V-TH1 heating and cooling parking air conditioner – 12V/24V DC dual-mode rotor AC"
     },
     "detail": {
-      "addToCart": "Add to Cart",
-      "buyNow": "Buy Now",
+      "addToCart": "Request Invoice",
+      "buyNow": "Request Invoice",
+      "requestInvoice": "Request Invoice",
       "specifications": "Specifications",
       "reviews": "Customer Reviews",
       "faq": "Frequently Asked Questions",
-      "freeShipping": "Free Shipping",
-      "warranty": "2-Year Warranty",
+      "freeShipping": "Invoice Support",
+      "warranty": "1-Year Warranty",
       "returns": "30-Day Returns",
       "inStock": "In Stock",
       "outOfStock": "Out of Stock",
       "quantity": "Quantity",
       "shipping": "Shipping",
-      "shippingDesc": "Free shipping on orders over $500 to continental US. 3-5 business days delivery.",
-      "warrantyDesc": "2-year manufacturer warranty covering defects in materials and workmanship.",
-      "returnsDesc": "30-day easy return policy. Full refund if not satisfied.",
+      "shippingDesc": "Shipping is coordinated after invoice confirmation. Delivery timing depends on destination and order details.",
+      "warrantyDesc": "1-year manufacturer warranty covering defects in materials and workmanship.",
+      "returnsDesc": "Eligible returns are handled under the published return policy. Contact support before return shipping.",
       "techSpecs": "Technical Specifications",
       "reviewsTitle": "What Our Customers Say",
       "verifiedPurchase": "Verified Purchase",
@@ -190,14 +187,14 @@
     "sectionLabel": "Parking Air Conditioner Applications",
     "applications": "Applications",
     "mainTitle": "Parking Air Conditioner for Every Vehicle",
-    "semiTrucksKeyword": "Truck Parking Air Conditioner",
-    "semiTrucksDesc": "Designed for Class 8 semi truck cabs. Our 12V/24V parking air conditioner keeps drivers cool during mandatory rest periods — no idling required. Compliant with anti-idling regulations in all 50 US states.",
+    "semiTrucksKeyword": "Semi Truck Parking Air Conditioner",
+    "semiTrucksDesc": "Designed for Class 8 semi truck cabs. Our 12V/24V semi truck air conditioner and semi truck AC unit options keep drivers cool during mandatory rest periods — no idling required. Built for anti-idling rules, sleeper comfort, and hot freight lanes.",
     "rvsKeyword": "RV Parking Air Conditioner",
     "rvsDesc": "Off-grid cooling for Class A, B, and C motorhomes, travel trailers, and fifth wheels. Run your parking AC directly from your lithium battery bank or solar system — no shore power needed.",
-    "vansKeyword": "Van Parking Air Conditioner",
-    "vansDesc": "Compact 12V parking air conditioner units perfect for cargo van conversions, Sprinter vans, and camper vans. Low-profile design fits standard van roof heights without modification.",
+    "vansKeyword": "12V Air Conditioner for Truck, Van and Camper Builds",
+    "vansDesc": "Compact 12V parking air conditioner units for cargo van conversions, Sprinter vans, truck campers, truck caps and service vehicles. Low-profile parking AC options help cool small cabins, truck bed workspaces and camper builds without relying on hose-style portable AC.",
     "noIdle": "No-Idle Cooling System",
-    "noIdleKeyword": "No-Idle Air Conditioner",
+    "noIdleKeyword": "No-Idle Truck Air Conditioner",
     "noIdleDesc": "Replace costly engine idling with battery-powered no-idle parking AC. Save up to $8–12 per hour in fuel costs. Reduce engine wear and lower carbon emissions at truck stops and rest areas.",
     "solar": "Solar-Powered Parking AC",
     "solarKeyword": "Solar Parking Air Conditioner",
@@ -209,7 +206,7 @@
   "shopWithUs": {
     "title": "Shop With Confidence",
     "warranty": {
-      "title": "2-Year Warranty",
+      "title": "1-Year Warranty",
       "description": "Full coverage on all parts and labor"
     },
     "returns": {
@@ -217,8 +214,8 @@
       "description": "Hassle-free returns if you're not satisfied"
     },
     "shipping": {
-      "title": "Free Shipping",
-      "description": "On orders over $500 to continental US"
+      "title": "Fitment Support",
+      "description": "Confirm vehicle compatibility before invoice."
     }
   },
   "blog": {
@@ -246,7 +243,7 @@
       "notFound": "Article Not Found",
       "backToBlog": "← Back to Blog",
       "readyToExperience": "Ready to Experience No-Idle Cooling?",
-      "exploreOur": "Explore our 12V/24V parking air conditioners — free shipping on all US orders.",
+      "exploreOur": "Explore our 12V/24V parking air conditioners and request a fitment-based invoice.",
       "shopTopMounted": "Shop VS02 PRO Top-Mounted AC",
       "shopMiniSplit": "Shop VX3000SP Mini Split AC"
     }
@@ -304,7 +301,7 @@
   "contact": {
     "title": "Contact Us",
     "subtitle": "We're here to help with any questions",
-    "getInTouch": "Get in Touch",
+    "getInTouch": "Sales & Support",
     "form": {
       "name": "Your Name",
       "email": "Email Address",
@@ -317,20 +314,29 @@
     },
     "emailSupport": {
       "title": "Email Support",
-      "lines": ["support@cooldrivepro.com", "We reply within 1–12 hours"]
+      "lines": [
+        "support@cooldrivepro.com",
+        "We reply within 1–12 hours"
+      ]
     },
     "supportHours": {
       "title": "Support Hours",
-      "lines": ["Monday – Friday: 9 AM – 6 PM PT", "Saturday: 10 AM – 4 PM PT"]
+      "lines": [
+        "Monday – Friday: 9 AM – 6 PM PT",
+        "Saturday: 10 AM – 4 PM PT"
+      ]
     },
     "liveChat": {
       "title": "Live Chat",
-      "lines": ["Available on our website", "Mon–Fri, 9 AM – 5 PM PT"]
+      "lines": [
+        "Available on our website",
+        "Mon–Fri, 9 AM – 6 PM PT"
+      ]
     },
     "breadcrumb": "Contact Us",
-    "hereToHelp": "We're Here to Help",
-    "description": "Have questions about our parking air conditioners? Need help choosing between the 12V Top-Mounted AC and Mini Split? Our team of parking AC specialists is ready to assist.",
-    "sendMessage": "Send a Message",
+    "hereToHelp": "Request a Parking AC Quote",
+    "description": "Tell us your truck make, voltage, country and estimated quantity. Our sales team will recommend the right 12V/24V parking AC model and reply with pricing, lead time and invoice steps.",
+    "sendMessage": "Request a Quote",
     "messageSent": "Message Sent!",
     "thankYou": "Thank you for reaching out. We'll get back to you within 12 hours."
   },
@@ -369,11 +375,26 @@
     "statesServed": "States Served",
     "avgRating": "Average Rating",
     "readyToStop": "Ready to Stop Idling?",
-    "joinDrivers": "Join 15,000+ drivers who've switched to CoolDrivePro parking air conditioners. Free shipping on all US orders.",
+    "joinDrivers": "Join 15,000+ drivers who've switched to CoolDrivePro parking air conditioners. Request a vehicle-fitment invoice when you are ready.",
     "shopTop": "Shop Top-Mounted AC",
     "partnerNetwork": "Our Partner Network",
     "partnerDesc": "CoolDrivePro works alongside trusted partners to bring the best mobile comfort solutions to drivers worldwide.",
-    "officialPartner": "Official Partner Website"
+    "officialPartner": "Official Partner Website",
+    "proofTitle": "Proof you can verify",
+    "proofHeading": "Inside the factory, on the certificates, on the show floor",
+    "proofDesc": "CoolDrivePro is built and shipped by Qingdao Vethy Industrial Co., Ltd. Browse the workshop, certifications and trade-show presence behind every 12V/24V parking AC.",
+    "factoryCard": "Factory tour",
+    "factoryCardDesc": "In-house R&D, SMT and assembly lines with 100% pre-shipment QC for every parking AC unit.",
+    "factoryAlt": "CoolDrivePro / Vethy parking air conditioner manufacturing workshop",
+    "tourFactory": "Tour the factory",
+    "certCard": "Certifications & IP",
+    "certCardDesc": "ISO 9001:2015, CNAS-accredited lab, registered trademark and granted design patent.",
+    "certAlt": "CoolDrivePro ISO 9001 quality certificate and design patent",
+    "viewCerts": "View certificates",
+    "expoCard": "Trade shows",
+    "expoCardDesc": "Live booth demos and distributor meetings across North America, Europe, ANZ and the Middle East.",
+    "expoAlt": "CoolDrivePro parking AC trade show booth and exhibitions",
+    "seeExpos": "See exhibitions"
   },
   "support": {
     "title": "After-Sales Support",
@@ -391,7 +412,7 @@
     "company": "Company",
     "legal": "Legal",
     "warranty": "Warranty",
-    "returns": "Return Policy",
+    "returns": "Return & Refund Policy",
     "shipping": "Shipping Policy",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
@@ -432,7 +453,7 @@
     "comingSoon": "Coming Soon",
     "learnMore": "Learn More",
     "shopNow": "Shop Now",
-    "buyNow": "Buy Now",
+    "buyNow": "Request Invoice",
     "cancel": "Cancel",
     "posting": "Posting...",
     "model": "MODEL"

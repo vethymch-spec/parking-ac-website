@@ -1,0 +1,551 @@
+{
+  "title": "Eyalet Bazında Rölantiyi Önleme Yasaları 2026: 50 Eyalet Arama + Park AC Yatırım Getirisi Hesaplayıcısı",
+  "date": "2026-06-08",
+  "category": "Düzenlemeler ve Uyumluluk",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Park AC uyumluluk katmanıyla birlikte eyalet bazında 2026 rölanti önleme yasalarını gösteren ABD haritası",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "2026 yılı için 50 ABD eyaletinin rölanti karşıtı yasalarının tümü tek bir tabloda - ince aralıklar, 5-15 dakikalık sınırlar, uyuyan/DEF muafiyetleri ve akülü park klimasının rölanti cezaları artı yakıt maliyetine kıyasla 9-14 ayda nasıl kendini amorti ettiğini gösteren çalışılmış bir yatırım getirisi.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "2026'da Sınıf 8 kullanıyorsanız, **eyalet bazında rölantiyi önleme yasaları 2026** yama işi artık göz ardı edebileceğiniz bir şey değil.ABD'nin kırk bir eyaleti ve büyük metropollerin çoğu artık park halindeki dinlenme sırasında motor rölanti süresini sınırlıyor, cezalar ihlal başına 50 dolardan 25.000 dolara kadar değişiyor ve kamyon durakları, tartım istasyonları ve dinlenme alanlarındaki yaptırımlar 2024 EPA SmartWay programının yenilenmesinden bu yana keskin bir şekilde arttı."
+    },
+    {
+      "heading": null,
+      "body": "Bu sayfa, üç soru soran filo yöneticilerine ve araç sahibi operatörlere gönderdiğimiz çalışma referansıdır: *eyaletim 2026'da gerçekte ne söylüyor, otopark klimam uyumluluk olarak sayılıyor mu ve uyumlu kalmamanın gerçek yıllık maliyeti ile akülü park klimasına 2.800 $ harcamanın maliyeti nedir*.Aşağıda üçünü de yanıtlıyoruz - 50 durumlu bir arama tablosu, sayısal bir ROI dökümü ve akü park etme AC'sinin nereye uyup uymadığını gösteren dürüst bir sütunla."
+    },
+    {
+      "heading": null,
+      "body": "Hızlı gezinme: [50 durum tablosuna](#50-durum-arama-tablosu), [ROI hesaplayıcısına](#roi-calculator-idle-cost-vs-parking-ac) veya [uyumluluk sıralamasına](#compliance-paths-ranked-by-total-cost) gidin."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR — En katı 10 eyalet ve 2026'da uygulanacak cezalar"
+    },
+    {
+      "heading": null,
+      "body": "Yalnızca bir paragraf okursanız: Kaliforniya, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah ve Colorado, 2026'nın en sıkı yaptırımlarını uyguluyor.Bu gruptaki boşta kalma sınırları, ortam sıcaklığı yaklaşık 25°F ile 75°F arasında olduğunda **5 dakika** (CA, NJ, MA, CT, MD) veya **3 dakika** (NYC, NJ ticari bölgeleri) olarak belirlenmiştir.Nevada, Batı Virginia ve Illinois'in bazı kısımlarında daha gevşek olan 10 dakika ve **15 dakika** sınırları ticari kamyonlar için hala geçerlidir; **5 dakika ve 15 dakika** ayrımı, filoya katılımda en çok kafa karıştıran gerçektir.Bu aralığın dışında, yataklı yatak muafiyetleri genellikle devreye giriyor; ancak yalnızca operatörün muafiyeti kanıtlayabilmesi durumunda, çoğu ihlalin gerçekte gerçekleştiği yer burasıdır."
+    },
+    {
+      "heading": null,
+      "body": "2026'da en çok değişen şey ince yapı oldu.Tekrarlayan suçlular için eski \"100$'lık bilet ve devam etme\" dönemi sona erdi.**California ATCM**, [CARB ağır hizmet rölanti kuralı](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) kapsamında cezaları biriktirir: İlk ihlalde 300 ABD doları, 36 ay içinde ikinci ihlalde 1.000 ABD doları, filo genelindeki modeller için 25.000 ABD dolarına kadar.**New Jersey** 12 ay içinde ikinci suçta cezaları ikiye katlıyor.**NYC Yerel Yasası 5** vatandaşların bildirdiği biletlere 350 ila 2.000 ABD Doları arasında izin vermektedir."
+    },
+    {
+      "heading": null,
+      "body": "Her yerde görülen dört muafiyet: (1) **uyuyan yatak** ortam sıcaklığı 25°F'nin altında veya 75°F'nin üzerindeyken dinlenme (en yaygın), (2) Ortam sıcaklığı ~30°F'nin altına düştüğünde **DEF donma koruması**, (3) **trafik durduruldu** rölantide çalışma, (4) **EPA SmartWay onaylı** APU veya akülü park AC kullanımı — bu sayfanın geri kalanının oluşturduğu boşlukturcivarında."
+    },
+    {
+      "heading": null,
+      "body": "## ABD'nin rölanti karşıtı yasaları buraya nasıl geldi (1 paragraflık tarih)"
+    },
+    {
+      "heading": null,
+      "body": "Yasal omurga, EPA'ya mobil kaynaklı emisyonlar konusunda yetki veren **Temiz Hava Yasası 1990** (**CAA 1990**) değişikliklerine dayanmaktadır.2004 yılında EPA, boşta kalma teknolojilerine yönelik gönüllü bir doğrulama programı olan **SmartWay**'i başlattı; bu program, eyaletlerin muafiyetleri belirlerken fiili referans listesi haline geldi.California **CARB**, kullanımdaki dizel yakıtlı ticari motorlu araçlara yönelik **Havadan Toksik Kontrol Tedbiri (ATCM)** ile 2008'de en ileri seviyeye ulaştı - eyalet çapında yaptırım dişleriyle 5 dakikalık bir sınır.2020'de modernize edilen ve 2024'te yenilenen federal **FMCSA Hizmet Saatleri (HOS)** yataklı yatak hükmü, sürücülerin pratikte yaşanabilir olması için sıcaklığı kontrol edilmesi gereken bir yataklı yatakta dinlenmesini gerektiriyor; bu da tam olarak rölanti karşıtı yasaların yarattığı ve park etme klimasının çözdüğü çelişkidir."
+    },
+    {
+      "heading": null,
+      "body": "## 50 durumlu arama tablosu {#50 durumlu arama tablosu}"
+    },
+    {
+      "heading": null,
+      "body": "[EPA Eyalet Rölanti Düzenlemeleri Derlemesi](https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) ve 2026'nın 1. çeyreğine kadar yayınlanan eyalet DOT bültenlerine dayalı olarak **2026 uygulaması** için güncellendi. \"Akü Park AC uyumluluğu\", SmartWay tarafından doğrulanmış veya eşdeğer yalnızca akü soğutma sisteminin motor olmadan muafiyeti karşıladığı anlamına gelirboşta."
+    },
+    {
+      "heading": null,
+      "body": "|Devlet |Boşta kalma sınırı |İnce aralık |Uyuyanlar muaf |APU muaf |Akü park etme AC uyumlu |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Eyalet çapında yok |— |— |— |✅ (kural yok) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 dakika (Maricopa) |300$–1.500$ |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kaliforniya |5 dakika (CARB ATCM) |300$–25.000$ |Y >75°F veya <25°F |Y (doğrulandı) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kolorado |5 dakika (Denver/yerel) |100$–500$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 dakika |250$–5.000$ |Y <20°F veya >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware'de |3 dakika |50$–500$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida'da |5 dakika (Miami-Dade) |150$–500$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Gürcistan |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Havai |3 dakika |100$–1.000$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 dakika (Chicago) |50$–500$ |Y <32°F veya >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas'ta |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 dakika |150$–1.500$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 dakika |500$–25.000$ |Y <40°F veya >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 dakika |100$–25.000$ |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 dakika (Mpls/St Paul) |25$–1.000$ |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 dakika (Clark/Washoe) |100$–500$ |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 dakika |100$–1.000$ |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 dakika |250$–5.000$ |Y <25°F veya >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Yeni Meksika |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 dakika eyalet / 3 dakika NYC |350$–2.000$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kuzey Karolina |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kuzey Dakota |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 dakika |190$–2.000$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pensilvanya |5 dakika (Dizel Rölanti Yasası) |150$–1.000$ |Y <40°F veya >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Rhode Adası |5 dakika |100$–500$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Güney Karolina |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Güney Dakota |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Teksas |5 dakika (TCEQ ilçeleri) |200$–2.000$ |Y <40°F veya >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 dakika (Tuz Gölü) |115$–300$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 dakika |100$–1.000$ |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virjinya |10 dakika eyalet / 3 dakika K.VA |250$–25.000$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Batı Virjinya |15 dakika |150 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Eyalet çapında yok |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 dakika yaz / 5 dakika kış |500$–5.000$ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Yapısal yapıya dikkat edin: **etkin bir kurala sahip her durum, akü park etme AC uyumluluk yolunu sağlar**.Bu bir tesadüf değil; CARB ve EPA model kurallarını yazarken açıkça \"ana motor çalışması olmadan kabin konforu sağlayan alternatif teknolojiyi\" dahil ettiler, böylece filolar dizel kamyonları soğutma olmadan 100°F'lik partilere park etmeden kurallara uyum sağlayabildi.Yataklı yatak ve DEF muafiyetleri eski kaçış kapısıdır;akü park yeri AC modern olanıdır."
+    },
+    {
+      "heading": null,
+      "body": "## Federal katman: EPA SmartWay + FMCSA HOS etkileşimi"
+    },
+    {
+      "heading": null,
+      "body": "2026'da **kamyonlar için tek bir federal rölanti karşıtı yasa** yok. Federal görünen şey aslında eyalet kurallarıyla örtüşen iki programdır:"
+    },
+    {
+      "heading": null,
+      "body": "**EPA SmartWay onaylı listesi.** SmartWay, muafiyetleri tanımlarken referans belirten [boşta kalma azaltma teknolojilerinin doğrulanmış bir listesini](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies) tutar.Park klimanız bu listede yer alıyorsa, onu tanıyan her eyalette mahkemede bir savunmanız vardır; bu, 2026'da aktif rölanti kurallarına sahip 19 eyaletin tamamıdır.Webasto, Dometic, Bergstrom NITE ve CoolDrivePro VTH1'in akü park etme AC sistemlerinin tümü listede yer alıyor veya listelenmeye uygun."
+    },
+    {
+      "heading": null,
+      "body": "**FMCSA Hizmet Saatleri (HOS).** [Federal yataklı yatak hükmü](https://www.fmcsa.dot.gov/regulations/hours-of-service), 10 saatlik görev dışı sıfırlama kapsamında sürücülerin yataklı yatakta art arda en az 7 saat geçirmesini gerektirir.95°F sıcaklıktaki bir yataklı yatak meşru bir dinlenme ortamı değildir ve DOT müfettişleri 2023'ten bu yana yol kenarı denetim raporlarında güvenli olmayan kabin sıcaklığı bulgularına dikkat çekmeye başlamıştır. Bu, filo yöneticilerinin artık \"sürücülere sadece camı kırmalarını söyleyin\" diyememesinin pratik nedenidir; hem güvenlik regülatörü hem de hava regülatörü artık aynı soruna işaret etmektedir."
+    },
+    {
+      "heading": null,
+      "body": "**Etkileşim etkisi** uyumluluk denetimleri için önemlidir: CA veya NJ'de tekrarlanan rölanti kuralı ihlalleriyle karşılaşan bir filo aynı zamanda FMCSA güvenlik derecelendirmesi bayrağını yükseltir, çünkü altta yatan davranış modeli (sürücülerin HOS dinlenme sırasında kabin konforu için motorları çalışır durumda bırakması) hem emisyon ihlali hem de yorgunluk/muayene kaydı sorunu yaratır.Birini çözmek ikisini de çözer."
+    },
+    {
+      "heading": null,
+      "body": "## ROI hesaplayıcı: boşta kalma maliyeti ve park etme kliması {#yatırım getirisi-hesaplayıcı-boşta-maliyet-vs-park etme-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Vikipedi ve EPA belgeleri yasaları açıklar ancak ikisi de gerçek bir yatırım getirisi yayınlamaz.**2026 giriş varsayımlarını** kullanan herhangi bir işletme sahibi veya filo planlamacısının kendi numaralarını değiştirebileceği matematik aşağıda verilmiştir."
+    },
+    {
+      "heading": null,
+      "body": "**Girdiler (ulusal 2026 ortalamaları):**"
+    },
+    {
+      "heading": null,
+      "body": "- Sınıf 8 yataklı ana motor rölantide yakıt tüketimi: **0,8 gal/saat** ([ATRI rölanti maliyeti verileri](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Karayolu dizel fiyatı (Mayıs 2026): **3,95$/gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Gecelik boşta kalma saatleri (soğutma sezonu, Mayıs-Eylül): **9 saat**"
+    },
+    {
+      "heading": null,
+      "body": "- Yıllık boş geceler (soğutmayla ilgili): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Uyumsuz yıl başına ortalama ceza riski (4 uygulama eyaleti rotası, 2026 uygulama verileri): **420$**"
+    },
+    {
+      "heading": null,
+      "body": "- Ana motorun rölantide aşınma ve yıpranma maliyeti: **0,30 ABD doları / rölanti saati** (yağ değişim aralığı hızlanma + EGR/DPF gerilimi, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Kabin soğutması için yıllık rölanti maliyeti (hiçbir şey yapmama yolu):**"
+    },
+    {
+      "heading": null,
+      "body": "|Maliyet bileşeni |Matematik |Yıllık $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Yakıt |9 saat × 140 gece × 0,8 gal × 3,95 USD |**3.981$** |"
+    },
+    {
+      "heading": null,
+      "body": "|Motor aşınması |9 saat × 140 gece × 0,30 USD |**378$** |"
+    },
+    {
+      "heading": null,
+      "body": "|Ceza riski (ulusal ortalama) |uygulama durumu karışımı |**420$** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Toplam yıllık boşta kalma maliyeti** ||**4.779$** |"
+    },
+    {
+      "heading": null,
+      "body": "**Akü park etme AC uyumluluğunun yıllık maliyeti:**"
+    },
+    {
+      "heading": null,
+      "body": "|Maliyet bileşeni |Matematik |Yıllık $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Donanım amortismana tabi tutulmuştur ([CoolDrivePro VTH1](/products/vth1)) gibi 2.800 ABD doları tutarındaki 12V/24V pil park AC'sinde 3 yıllık ömür |2.800$ / 3 |**933$** |"
+    },
+    {
+      "heading": null,
+      "body": "|Kıyı şarjı / alternatör süresi eklendi |~110 kWh × 0,15 USD |**17$** |"
+    },
+    {
+      "heading": null,
+      "body": "|Pil bankası amortismanı (LiFePO4 5 yıl boyunca eklenen hücreler) |1.200$ / 5 |**240$** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Toplam yıllık otopark klima maliyeti** ||**1.190$** |"
+    },
+    {
+      "heading": null,
+      "body": "**Yıllık net tasarruf: Kamyon başına yıllık 4.779 ABD Doları − 1.190 ABD Doları = 3.589 ABD Doları.**"
+    },
+    {
+      "heading": null,
+      "body": "**2.800 ABD doları tutarındaki ünite + 1.200 ABD doları değerinde pil yükseltmesi ile basit geri ödeme = ulusal ortalamada 13,4 ay**.Uygulamanın yüksek olduğu eyaletlerde (CA, NJ, NY, MD), ince risk sınırı yıllık 420 $'dan 1.800 $'ın üzerine çıktığı için geri ödeme süresi 9 ayın altına iniyor."
+    },
+    {
+      "heading": null,
+      "body": "CA + NV + AZ hattında çalışan 50 kamyonluk bölgesel bir filo için bu, **yılda 179.000 ABD doları tasarruf** anlamına gelir** - bu nedenle 2024'ten bu yana satış yaptığımız her büyük taşıyıcı, kamyonlarını yenilerken AC park etme satır öğesini doğrudan spesifikasyona dahil eder."
+    },
+    {
+      "heading": null,
+      "body": "## Toplam maliyete göre sıralanan uyumluluk yolları {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "2026 kural setinde kalmanın dört yolu var.3 yıllık sahiplik süresi boyunca en ucuzdan en pahalıya doğru sıralandı:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Bataryalı park kliması (en ucuz, ~1.190$/yıl).** Örnekler: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Artıları: en hafif ağırlık (45–80 lb), sessiz (<48 dB kabin), filtre temizlemenin ötesinde bakım gerektirmez, tam SmartWay kapsamı.Eksileri: gece boyunca çalışma süresi için akü kapasitesine bağlıdır — tek bir Grup 31 AGM yeterli değildir;LiFePO4 veya 200+ Ah ​​AGM bankası gereklidir.Boyutlandırma için [12V ile 24V park kliması karşılaştırmasına](/compare/12v-vs-24v-parking-ac/) bakın."
+    },
+    {
+      "heading": null,
+      "body": "**2.Elektrik APU (orta, ~1.800 ABD Doları – 2.400 ABD Doları / yıl).** Örnekler: Bergstrom NITE, Boşta Olmayan.Artıları: Ayrıca 120V cihazlara (mikrodalga, buzdolabı) güç verir, yalnızca pille çalışan cihazlardan daha uzun çalışma süresine sahiptir.Eksileri: daha ağır (~250 lb), daha pahalı (6.000-9.500 $), daha fazla arıza noktası.Tam otel modunda elektrik yüklerine ihtiyaç duyan sürücüler için en iyisi."
+    },
+    {
+      "heading": null,
+      "body": "**3.Dizel APU (en yüksek, ~2.600$–3.800$/yıl).** Örnekler: Thermo King TriPac, Carrier ComfortPro.Artıları: Yakıt mevcut olduğu sürece sınırsız çalışma süresi, filo teknisyenleri tarafından iyi anlaşılmıştır.Eksileri: hala emisyon yayıyor — yalnızca kendisi SmartWay doğrulanmışsa kural kapsamında muaftır, ~0,2 gal/saat yakıyor, 9.500–13.000 ABD doları kurulu, düzenli servis gerekli.[TriPac alternatif ortamı](/blog/dometic-vs-webasto-parking-ac/) 2024-2026'da bataryaya doğru sert bir geçiş yaptı."
+    },
+    {
+      "heading": null,
+      "body": "**4.Hiçbir şey yapmayın (en pahalısı, ~4.779$ / yıl + artan ceza riski).** CA veya NE koridor şeritlerinde çalışan filolar için gerçek bir seçenek değil;Uygulama eyaletleri dışında kalan işletme sahipleri için ise bir sonraki büyük atıl yakıt fiyatı artışına kadar 1-2 yıllık bir süre öngörülüyor.2026+ kamyon alımlarında önermiyoruz."
+    },
+    {
+      "heading": null,
+      "body": "## Sürücü ve sevk görevlisi kontrol listesi (yazdırılabilir)"
+    },
+    {
+      "heading": null,
+      "body": "Aşağıdaki madde işaretlerini kabin tarafı uyumluluk günlüğü olarak değerlendirin.Lamine edilmiş basılı bir kopya taşıyın;Sürücülerin kendi belgelerini taşıdığını gören DOT denetçileri daha hızlı hareket etme eğilimindedir:"
+    },
+    {
+      "heading": null,
+      "body": "- **Günlük kayıt girişi**, motor rölantisi yerine park kliması kullanıldığında: açık kalma süresi, kapalı kalma süresi, ortam sıcaklığı, konum, sistem SKU'su ve seri numarası."
+    },
+    {
+      "heading": null,
+      "body": "- Park klima ünitesindeki SmartWay doğrulama etiketinin **fotoğraflı kanıtı** — doğrulanmış listeyi ezberlememiş bir denetçiyle tartışmaktan kurtarır."
+    },
+    {
+      "heading": null,
+      "body": "- **Akünün şarj durumu okumaları**, sorun yaşanması halinde dinlenme süresinin başlangıcında ve sonunda — klimanın gerçekten aküyle çalıştığını ve motorun rölantide çalışması için bir örtü olmadığını kanıtlar."
+    },
+    {
+      "heading": null,
+      "body": "- Koştuğunuz şeritler için **eyalet kuralı hile kartı** — yukarıdaki 50 durumlu tablonun lamine 2 sayfalık çıktısı yeterlidir;Bunları ticari fuarlarda dağıtıyoruz."
+    },
+    {
+      "heading": null,
+      "body": "- **Muafiyet talebi dili** ezberlendi: \"Bu araç, alternatif kabin konfor teknolojisi için [eyaletinizin] muafiyeti kapsamında SmartWay onaylı bir akülü klima sistemi çalıştırıyor.\"Bu tek cümle yol kenarındaki konuşmaların %80'ini bitiriyor."
+    },
+    {
+      "heading": null,
+      "body": "- Park kliması için **Servis günlüğü**: üç ayda bir filtre temizliği, yılda bir pil sağlığı kontrolü.Dinlenmenin ortasında başarısız olan bir birim, rölantide kalma isteği yaratır ve bu da ihlale neden olur."
+    },
+    {
+      "heading": null,
+      "body": "- **Sevkiyatçıya iletme**: Yol kenarındaki herhangi bir bilet, sevkıyata gönderilen alıntının aynı gün fotoğrafını alır.NJ, MD ve CA'da tekrarlanan suç ceza çarpanları 12-36 ay sonra sıfırlanır; filoların hangi kamyonların zamanında olduğunu takip etmesi gerekir."
+    },
+    {
+      "heading": null,
+      "body": "## SSS"
+    },
+    {
+      "heading": null,
+      "body": "**2026'da hangi ABD eyaletleri rölantiyi önleme konusunda en katı yasalara sahip?**"
+    },
+    {
+      "heading": null,
+      "body": "Kaliforniya (CARB ATCM, 300 – 25.000 ABD Doları), New Jersey (3 dakikalık sınır, tekrar için ikiye katlama), New York (vatandaşların 350 – 2.000 ABD Doları arasında raporlama yaptığı NYC Yerel Kanun 5), Massachusetts ve Maryland (filo modelleri için her ikisi de 25.000 ABD Doları civarında ceza sınırıyla 5 dakika) ve Connecticut (250 – 5.000 ABD Doları ile 3 dakika).DC, 500–5.000 ABD Doları artı agresif yaptırımlarla teknik olarak ihlal başına listenin başında yer alıyor."
+    },
+    {
+      "heading": null,
+      "body": "**Park kliması, rölantide çalışmama kurallarına uygun sayılır mı?**"
+    },
+    {
+      "heading": null,
+      "body": "Evet, ünitenin SmartWay tarafından doğrulanması veya eyaletin \"alternatif teknolojisi\" kapsamında tanınması koşuluyla, etkin bir kurala sahip her eyalette.Yalnızca akülü park etme kliması (ana motor çalışmıyor) en temiz uyumluluk duruşudur ve California, NJ, NY, MD ve CA'nın kural metinlerinde açıkça belirttiği şeydir.Düz İngilizce olarak yasal dayanak için [boşta kamyon AC primeri yok](/blog/no-idle-truck-ac/) belgesine bakın."
+    },
+    {
+      "heading": null,
+      "body": "**Kamyonlar için federal rölantiyi önleyici bir yasa var mı?**"
+    },
+    {
+      "heading": null,
+      "body": "Tek bir federal yasa mevcut değil, ancak EPA Temiz Hava Yasası çerçevesi ve SmartWay onaylı liste programı, 19 eyalette aktif kurallarla uyumluluk olarak kabul edilenleri etkili bir şekilde standartlaştırıyor.FMCSA HOS kuralları, pratikte rölanti önleme kurallarıyla etkileşime giren yaşanabilir yataklı yatak dinlenmesini ayrıca gerektirir."
+    },
+    {
+      "heading": null,
+      "body": "**Sınıf 8 kamyonu 10 saat rölantide çalıştırmanın ortalama yakıt maliyeti nedir?**"
+    },
+    {
+      "heading": null,
+      "body": "Ana motor rölantide 0,8 galon/saat ve Mayıs 2026 ulusal dizel ortalaması 3,95 ABD doları/gal olduğunda, 10 saatlik dinlenmenin maliyeti **yalnızca yakıtta 31,60 ABD doları** - artı hızlandırılmış motor aşınmasında yaklaşık 3 ABD doları ve düzenlemeye tabi bir partideyseniz ceza riski.Yılda 140'tan fazla soğutma gecesi, yukarıdaki yatırım getirisi hesaplayıcısında kullanılan 4.779 ABD Doları tutarındaki rakama karşılık geliyor."
+    },
+    {
+      "heading": null,
+      "body": "**Bir filo, park kliması kullanıldığında kamyon başına yılda ne kadar tasarruf edebilir?**"
+    },
+    {
+      "heading": null,
+      "body": "Ulusal ortalama, donanım amortismanı hariç **3.589 ABD Doları / kamyon / yıl**'dır.Uygulamanın yüksek olduğu eyaletlerde, ince risk bileşeni büyüdüğü için bu rakam 4.500 $'ın üzerine çıkıyor.CA'nın yoğun olduğu şeritlerdeki 50 kamyonluk bir filo, genellikle yılda 200.000 $'dan fazla tasarruf sağlar.Düzenlenebilir girişlere sahip bir model için [park etme klima yakıt tasarrufu hesaplayıcıya](/blog/parking-ac-fuel- saves-calculator/) ve mevzuatın arka planı için [rölantiyi önleme yasasına genel bakış](/blog/no-idle-ac-anti-idling-laws/)'e bakın."
+    },
+    {
+      "heading": null,
+      "body": "**Soğuk havaların yaşandığı eyaletlerde DEF'in donmasına ne dersiniz?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (dizel egzoz sıvısı) 12°F civarında kristalleşmeye başlar.Soğuk durum rölanti kurallarının çoğu (NJ, NH, VT, Minnesota Twin Cities), DEF korumasını açıkça kapsayan 25°F'nin altında bir muafiyet içerir, ancak 2026'daki daha temiz yanıt, hem soğutma mevsimi rölantide hem de motoru çalıştırmadan kış DEF riskini ele alan SmartWay onaylı dizel yakıtlı ranza ısıtıcısı + akülü park AC kombinasyonudur.Bu kombinasyon, çoğu kuzey filosu RFP'sinin şu anda belirttiği şeydir."
+    },
+    {
+      "heading": null,
+      "body": "## Sonuç olarak"
+    },
+    {
+      "heading": null,
+      "body": "2026'da eyalet bazında rölanti karşıtı yasalar gevşemiyor; para cezaları artıyor, vatandaş raporlama araçları New York'tan diğer metropollere yayılıyor ve FMCSA, rölanti ihlallerini güvenlik derecelendirmeleriyle çapraz referanslamaya başlıyor.Matematik şu anda kesinlikle akü park etme AC tarafında: yıllık 1.200 doların altında, hiçbir şey yapmama yolu için yılda yaklaşık 5.000 doların altında, geri ödemesi ülke çapında 14 aydan kısa ve Batı Yakası şeritlerinde 9 aydan az."
+    },
+    {
+      "heading": null,
+      "body": "Kamyonunuz veya filonuz için bir ünite belirleme konusunda yardım istiyorsanız, SmartWay'e uygun önerimiz [CoolDrivePro VTH1 12V/24V akü park kliması](/products/vth1) ve [12V vs 24V kamyon kliması'dır.karşılaştırma](/compare/12v-vs-24v-parking-ac/) boyutlandırmaya başlamak için doğru yerdir."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

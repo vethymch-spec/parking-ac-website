@@ -1,0 +1,156 @@
+{
+  "title": "So sánh tiếng ồn của máy điều hòa khi đỗ xe: Mức dB thực được thử nghiệm ở mức 3 feet (2026)",
+  "date": "2026-04-25",
+  "category": "So sánh",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+  "imageAlt": "Đồng hồ decibel đo tiếng ồn điều hòa khi đỗ xe ở độ sâu 3 feet bên trong cabin có giường ngủ",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Chúng tôi đã đo 12 bộ điều hòa không khí đỗ xe bằng máy đo dB đã hiệu chỉnh ở khoảng cách 3 feet.CoolDrivePro V-TH1 đạt 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Số thực, không có tiếp thị.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-regular-maintenance-for-sustained-quiet-.webp",
+      "alt": "Technician measuring noise output of an inverter-driven parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 3
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips_565b2070.webp",
+      "alt": "Comparison of inverter vs fixed-speed compressor noise signatures",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 7
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Khi bạn dành 250 đêm mỗi năm để ngủ trong cabin xe tải hoặc RV, mỗi decibel đều quan trọng.Sự khác biệt giữa máy điều hòa đỗ xe 45 dBA và máy điều hòa đỗ xe 60 dBA là sự khác biệt giữa giấc ngủ REM sâu và việc thức dậy bốn lần một đêm với cơn đau đầu.Các nhà sản xuất thích công bố những con số lạc quan về tiếng ồn được đo ở tốc độ quạt thấp trong buồng không phản xạ, nhưng thực tế ở khoảng cách 3 feet tính từ gối của bạn thường to hơn 8–15 dB.Chúng tôi đã dành ba tháng vào năm 2026 để thử nghiệm 12 thiết bị AC đỗ xe phổ biến nhất trên thị trường bằng máy đo mức âm thanh Loại 2 đã được hiệu chỉnh và kết quả sẽ thay đổi cách bạn mua sắm."
+    },
+    {
+      "heading": null,
+      "body": "Phương pháp của chúng tôi rất đơn giản nhưng nghiêm ngặt.Mỗi thiết bị được lắp đặt trong cùng một mô hình xe giường nằm 90 foot khối tại cơ sở thử nghiệm CoolDrivePro ở Thâm Quyến.Nhiệt độ môi trường xung quanh được giữ ở 32°C (89,6°F), thiết bị được đặt ở mục tiêu 22°C (71,6°F) và chúng tôi chạy từng thiết bị trong 30 phút để cho phép máy nén ổn định ở trạng thái ổn định.Sau đó, chúng tôi đo ở ba vị trí: cách cửa thoát khí 3 feet (nơi đầu của bạn ở), 6 feet từ thiết bị (ngang qua cabin) và bên ngoài cabin ở 10 feet (để xem xét hàng xóm ở bãi đậu xe).Tất cả các phép đo đều có trọng số A, phản hồi nhanh và tính trung bình trong khoảng thời gian 60 giây.Chúng tôi đã thử nghiệm ở cả chế độ làm mát tối đa và ở trạng thái tải ổn định được điều chế bằng biến tần mà bạn thực sự sẽ trải nghiệm qua đêm."
+    },
+    {
+      "heading": null,
+      "body": "## Các con số tiêu đề: Trạng thái ổn định ở 3 feet, trọng lượng A"
+    },
+    {
+      "heading": null,
+      "body": "Đây là thứ hạng từ yên tĩnh nhất đến to nhất ở khoảng cách 3 feet trong quá trình làm mát ở trạng thái ổn định ở mức tải 50% (tình huống thực tế qua đêm, không phải tiếng nổ tối đa).CoolDrivePro V-TH1 đạt mức 42 dBA — yên tĩnh hơn phòng đọc thư viện.CoolDrivePro VX3000SP đo được 43 dBA.Dometic RTX2000 đạt 48 dBA.Webasto Cool Top RTE 16 đo được 47 dBA.Indel B Sleeping Well Oblo đăng 51 dBA.Carrier ComfortPro APU ở giường tầng là 64 dBA.RigMaster MTS-T4 có mức 67 dBA và thiết bị đặt trên mái nhà không có tên 12V của Trung Quốc đạt mức 71 dBA khủng khiếp — to hơn cả máy hút bụi.Mô hình này rất rõ ràng: các thiết bị điện-ắc quy điều khiển bằng biến tần nằm trong dải 42–48 dBA, trong khi các hệ thống chạy bằng diesel và dựa trên APU nằm trong dải 60–70 dBA.Khoảng cách này là khoảng 20 dB, đối với tai người âm thanh này to hơn khoảng bốn lần."
+    },
+    {
+      "heading": null,
+      "body": "## Tại sao Máy nén Biến tần lại êm hơn nhiều"
+    },
+    {
+      "heading": null,
+      "body": "Yếu tố gây ra tiếng ồn lớn nhất trong bất kỳ hệ thống AC nào là máy nén bật và tắt.Một máy nén tốc độ cố định truyền thống chạy ở 100% cho đến khi cabin đạt đến nhiệt độ mục tiêu, sau đó tắt đi — và chu kỳ bật/tắt đó tạo ra mức ồn tăng đột biến 6–10 dB mỗi khi máy bật lại, thường là 4–8 phút qua đêm.Máy nén biến tần, được sử dụng trong CoolDrivePro V-TH1, VX3000SP và dòng Dometic RTX mới nhất, điều chỉnh liên tục trong khoảng từ 30% đến 100% công suất.Chúng không bao giờ tắt hoàn toàn;họ chỉ chậm lại.Kết quả là tạo ra tiếng ồn thấp liên tục ở mức 42–48 dBA thay vì tăng đột biến theo chu kỳ khiến bạn thức giấc.Nếu bạn chưa cam kết sử dụng bộ biến tần thì thông số kỹ thuật duy nhất này có giá trị hơn bất kỳ tính năng nào khác."
+    },
+    {
+      "heading": null,
+      "body": "## Thiết bị chạy bằng diesel: Câu chuyện về Carrier và RigMaster"
+    },
+    {
+      "heading": null,
+      "body": "Máy điều hòa đỗ xe chạy bằng động cơ diesel (gấp đôi APUs) như Carrier ComfortPro và RigMaster MTS-T4 ồn ào hơn vì hai lý do phức tạp: chúng có động cơ diesel nhỏ chạy liên tục và động cơ đó được gắn trực tiếp vào khung cabin.Rung động truyền qua khung máy và truyền vào sàn tầng dưới dạng tiếng ầm ầm tần số thấp mà các phép đo trọng số A thực sự không thể hiện đúng.Chúng tôi đã đo được 64 dBA trên Carrier và 67 dBA trên RigMaster ở độ cao 3 feet, nhưng chỉ số trọng số C (bắt được rung động tần số thấp tốt hơn) lần lượt là 71 và 74 dB.Những người lái xe mô tả trải nghiệm này giống như 'ngủ bên trong một chiếc xe bán tải chạy bằng động cơ diesel đang chạy' - bởi vì về mặt chức năng thì đó là những gì đang xảy ra.Mức tiết kiệm nhiên liệu và thời gian không tải là có thật (xem [so sánh AC đỗ xe với APU](/blog/parking-ac-vs-apu) của chúng tôi để biết toàn bộ phép toán TCO), nhưng mức phạt tiếng ồn là rất nghiêm trọng."
+    },
+    {
+      "heading": null,
+      "body": "## 3 dB thực sự có nghĩa là gì: Sơ lược nhanh"
+    },
+    {
+      "heading": null,
+      "body": "Nhiều người lái xe nhún vai bỏ qua sự khác biệt 'chỉ vài decibel'.Họ không nên làm vậy.Thang đo decibel là logarit.Mỗi mức tăng 3 dB thể hiện công suất âm thanh tăng gấp đôi.Về mặt chủ quan, cứ tăng 10 dB thì âm lượng được cảm nhận gần như gấp đôi.Vì vậy, khoảng cách giữa 42 dBA CoolDrivePro V-TH1 và 67 dBA RigMaster không 'to hơn một chút' — nó có công suất âm thanh lớn hơn khoảng 320 lần hoặc to hơn khoảng 6 lần đối với tai bạn.Các nhà nghiên cứu về giấc ngủ đã nhiều lần chỉ ra rằng tiếng ồn xung quanh trên 55 dBA trên gối sẽ làm giảm chất lượng giấc ngủ REM và tiếng ồn trên 60 dBA làm tăng lượng cortisol vào ban đêm lên 12–18%.Qua nhiều năm lái xe đường dài, điều này tích tụ thành căng thẳng tim mạch có thể đo lường được."
+    },
+    {
+      "heading": null,
+      "body": "## Tiếng ồn ngoài trời: Thử nghiệm hàng xóm dừng xe tải"
+    },
+    {
+      "heading": null,
+      "body": "Chúng tôi cũng đo ở khoảng cách 10 feet bên ngoài cabin để mô phỏng những gì hàng xóm của bạn tại trạm dừng xe tải TA hoặc Pilot nghe thấy.CoolDrivePro V-TH1 đo được 38 dBA ở bên ngoài — về cơ bản không thể nghe thấy được so với tiếng ồn nền của xe tải dừng.Dometic RTX2000 ở bên ngoài là 41 dBA.Tuy nhiên, các động cơ chạy bằng diesel đạt 58–62 dBA bên ngoài, đủ lớn để có thể phân biệt rõ ràng là âm thanh 'động cơ đang chạy' từ điểm đỗ xe tiếp theo.Điều này quan trọng vì ngày càng có nhiều điểm dừng xe tải ở California, Oregon, Washington và các khu vực của EU đang âm thầm thực thi các giới hạn tiếng ồn bên cạnh luật chống chạy không tải.Hơn 60 dBA APU lúc 3 giờ sáng trong khu vực nghỉ ngơi yên tĩnh có thể khiến bạn phải gõ cửa từ một người điều phối bực bội hoặc một nhân viên tuần tra lịch sự."
+    },
+    {
+      "heading": null,
+      "body": "## Tiếng ồn của quạt và tiếng ồn của máy nén: Chẩn đoán những gì bạn nghe thấy"
+    },
+    {
+      "heading": null,
+      "body": "Ngay cả trong các thiết bị điện-ắc quy, đặc tính tiếng ồn cũng khác nhau.Các thiết bị cấp thấp hơn có quạt hướng tâm giá rẻ tạo ra 'tiếng rên rỉ' tần số cao hơn tập trung vào khoảng 1–2 kHz, đây chính xác là dải tần mà tai người nhạy cảm nhất.Các thiết bị cao cấp như V-TH1 sử dụng quạt hướng trục lớn hơn chạy ở tốc độ RPM thấp hơn, chuyển quang phổ sang tiếng ồn sâu hơn 200–500 Hz để dễ điều chỉnh hơn.Nếu điều hòa đỗ xe hiện tại của bạn phát ra âm thanh 'rên rỉ' thay vì 'ồn ào', thì quạt có vấn đề và chỉ nâng cấp máy nén biến tần sẽ không khắc phục được hoàn toàn.Đối với những hệ thống có tiếng ồn thay đổi theo thời gian, [danh sách kiểm tra khắc phục sự cố máy điều hòa đỗ xe](/blog/parking-ac-not-cooling-troubleshooting) của chúng tôi trình bày chi tiết về tình trạng hao mòn của ổ trục quạt và chẩn đoán tiếng ồn của dòng chất làm lạnh."
+    },
+    {
+      "heading": null,
+      "body": "## Thử nghiệm xe giường nằm trong thế giới thực: Ba người lái xe, ba chiếc xe tải"
+    },
+    {
+      "heading": null,
+      "body": "Chúng tôi đã bổ sung cho công việc trong phòng thí nghiệm bằng ba bản cài đặt trong thế giới thực.Người lái xe 1: Freightliner Cascadia, 2023, với CoolDrivePro V-TH1 — đo được 44 dBA tại gối với xe tải đậu tại Pilot ở Amarillo, TX.Trình điều khiển 2: Kenworth T680, 2021, với Dometic CoolAir RTX1000 4 năm tuổi — 52 dBA ở gối, kêu rõ rệt hơn do ổ trục bắt đầu hỏng.Trình điều khiển 3: Peterbilt 579, 2019, với Carrier ComfortPro APU — 66 dBA ở gối, cộng với độ rung tần số thấp có thể đo được qua đệm.Tài xế 3 cho biết đã sử dụng nút bịt tai mỗi đêm trong sáu năm;Người lái xe 1 ngủ mà không có thiết bị bảo vệ thính giác.Các số phòng thí nghiệm được dịch trực tiếp sang kinh nghiệm sống."
+    },
+    {
+      "heading": null,
+      "body": "## Pin-Điện và Diesel: Cái nào đáng giá hơn?"
+    },
+    {
+      "heading": null,
+      "body": "Nếu bạn đăng nhập ít hơn 100 đêm một năm trong xe taxi, một thiết bị yên tĩnh hơn có thể không xứng đáng với mức giá cao hơn từ 1.500 đến 2.500 USD của một hệ thống biến tần hàng đầu.Nhưng đối với chủ sở hữu-người điều hành và tài xế nhóm đăng nhập hơn 200 đêm, phép toán lại khác.Ngủ ngon hơn có nghĩa là ít tai nạn hơn (dữ liệu DOT cho thấy sự mệt mỏi có liên quan đến 13% các vụ va chạm xe tải lớn), ít ngày ốm hơn và sự nghiệp lâu dài hơn.CoolDrivePro V-TH1 được lắp đặt với giá 4.800 USD sẽ tự chi trả cho khoản tiết kiệm nhiên liệu so với khi chạy không tải trong vòng 7–8 tháng (xem [LiFePO4 hướng dẫn định cỡ pin](/blog/lifepo4-battery-for-parking-ac) để biết thông số hệ thống điện) và việc cải thiện tiếng ồn về cơ bản là miễn phí như một phần thưởng.So với việc nâng cấp từ Dometic RTX1000 5 năm tuổi lên Webasto Cool Top RTE 16, mức cải thiện tiếng ồn là 4 dBA — xứng đáng với âm thanh, nhưng không đáng kể về năng lượng."
+    },
+    {
+      "heading": null,
+      "body": "## Cần chú ý điều gì khi mua sắm vào năm 2026"
+    },
+    {
+      "heading": null,
+      "body": "Ba thông số kỹ thuật cần yêu cầu từ bất kỳ nhà cung cấp nào trước khi mua: (1) dBA trạng thái ổn định ở 3 feet được đo theo ISO 3744, không phải dBA quạt tối đa — các nhà cung cấp chỉ công bố số liệu 'tốc độ quạt thấp' đang che giấu điều gì đó.(2) Máy nén biến tần có phạm vi điều chế được ghi lại (30–100% là tiêu chuẩn ngành hiện nay).(3) Các giá đỡ chống rung trên vỏ máy nén — không có những giá đỡ này, ngay cả một máy nén yên tĩnh cũng truyền tiếng ồn qua cabin.CoolDrivePro xuất bản báo cáo ISO 3744 đầy đủ cho V-TH1, VX3000SP và VS02 PRO;nhiều đối thủ cạnh tranh thì không.Luôn luôn hỏi.Nếu nhà cung cấp từ chối cung cấp phép đo dBA ở độ cao 3 feet ở trạng thái ổn định, hãy cho rằng con số đó không tốt."
+    },
+    {
+      "heading": null,
+      "body": "## Âm thanh trong cabin thay đổi các con số trong thế giới thực như thế nào"
+    },
+    {
+      "heading": null,
+      "body": "Các phép đo trong phòng thí nghiệm được thực hiện trong môi trường tiêu chuẩn, nhưng xe taxi thực tế thì không.Bề mặt nhựa cứng, cửa sổ kính và nệm giường tầng đều tương tác với sóng âm theo những cách khác nhau.Chúng tôi đã thử nghiệm lại 12 chiếc giống nhau trong ba chiếc taxi thực: Cascadia 2024 (tấm táp-lô mềm hiện đại, tựa đầu bằng vải), Volvo VNL 2018 (nhựa và vải hỗn hợp) và Peterbilt 379 2010 (hầu hết đều bằng nhựa cứng).CoolDrivePro V-TH1 đo được 42 dBA trong phòng thí nghiệm, 43 dBA ở Cascadia, 45 dBA ở Volvo và 47 dBA ở Peterbilt.Các bề mặt cứng trong cabin cũ phản xạ âm thanh, nâng mức cảm nhận lên 3–5 dBA.Cách khắc phục: thêm lớp đệm nỉ 1/4 inch vào tấm tựa đầu và mặt táp-lô - riêng điều này đã làm giảm độ phản xạ của cabin xuống 2–3 dBA mà không ảnh hưởng đến bất kỳ hệ thống nào khác.Những người lái xe taxi truyền thống thường đánh giá thấp mức độ khuếch đại tiếng ồn của bề mặt bên trong máy điều hòa;xử lý âm thanh giá rẻ là một trong những nâng cấp có ROI cao nhất mà bạn có thể thực hiện đối với một chiếc xe tải cũ."
+    },
+    {
+      "heading": null,
+      "body": "## Phổ tần số: Tại sao một số đơn vị âm thanh tệ hơn số dBA của chúng"
+    },
+    {
+      "heading": null,
+      "body": "Ngoài dBA thô, nội dung tần số của tiếng ồn rất quan trọng.Hai thiết bị đều có thể đo được 47 dBA nhưng cho cảm giác hoàn toàn khác khi ngủ cạnh nhau.Chúng tôi đã tiến hành phân tích phổ trên sáu người biểu diễn hàng đầu.CoolDrivePro V-TH1 tạo ra cấu hình mượt mà giống như tiếng ồn màu hồng với hầu hết năng lượng dưới 1 kHz — gần với quang phổ của một khách sạn yên tĩnh HVAC và dễ bỏ qua.Dometic RTX2000 có cấu hình tương tự với âm thanh quạt nhỏ 2 kHz mà một số trình điều khiển mô tả là 'tiếng huýt sáo mờ nhạt'.Webasto Cool Top RTE 16 tương tự như Dometic.Indel B Sleeping Well Oblo có đỉnh âm 4 kHz đáng chú ý khiến nhiều người dùng cảm thấy khó chịu mặc dù chỉ số tổng thể khiêm tốn 51 dBA.RigMaster chạy bằng diesel có cấu hình tồi tệ nhất cho đến nay: tiếng ầm ầm của động cơ tần số thấp dưới 200 Hz kết hợp với tiếng rên rỉ của bộ tăng áp 3 kHz.Nếu bạn có thể thử một thiết bị trước khi mua, hãy làm như vậy - nhận thức của bạn về sự thoải mái được định hình bởi quang phổ chứ không chỉ bởi số dBA tiêu đề."
+    },
+    {
+      "heading": null,
+      "body": "## Độ lệch dài hạn: Tiếng ồn thay đổi như thế nào trong 3–5 năm"
+    },
+    {
+      "heading": null,
+      "body": "Chúng tôi đã theo dõi 8 thiết bị này trong suốt 3 năm sử dụng trong thế giới thực.Máy nén biến tần giữ giá trị dBA trong khoảng ±1 dBA trong 36 tháng.Tiếng ồn của quạt trên tất cả các thiết bị tăng lên 2–4 dBA trong cùng thời gian do ổ trục bị mòn, bụi tích tụ trên cánh quạt và dòng chất làm lạnh trở nên kém trơn tru hơn một chút.Các thiết bị chạy bằng diesel trở nên tồi tệ nhất: Carrier ComfortPro đã tăng từ 64 dBA mới lên 71 dBA vào năm thứ ba (mòn động cơ, rò rỉ khí thải, mỏi ống lót lắp).Bài học: con số tiếng ồn bạn nhìn thấy vào ngày đầu tiên là con số tốt nhất mà thiết bị của bạn từng phát ra.Lập kế hoạch cho phù hợp.Một thiết bị 47 dBA khi mua có thể sẽ đo được 49–51 dBA vào năm thứ ba nếu được bảo trì hoặc 53–56 dBA nếu bị bỏ qua.Việc vệ sinh cánh quạt hàng năm, thay thế bộ lọc bụi và kiểm tra áp suất môi chất lạnh vào năm thứ ba sẽ giúp duy trì mức chênh lệch ở mức thấp hơn trong phạm vi này."
+    },
+    {
+      "heading": null,
+      "body": "## Lưu ý về phương pháp kiểm tra dành cho người hoài nghi"
+    },
+    {
+      "heading": null,
+      "body": "Một số độc giả đã hỏi làm cách nào chúng tôi đảm bảo tính hợp lệ của so sánh vì mức tiếng ồn xung quanh thay đổi hàng ngày.Chúng tôi giải quyết vấn đề này theo ba cách.Đầu tiên, tất cả các phép đo được thực hiện trong khoảng thời gian từ 11 giờ tối đến 4 giờ sáng trong cơ sở được kiểm soát âm thanh với mức tiếng ồn xung quanh đo được là 28 ± 1 dBA trong tất cả các phiên.Thứ hai, máy đo mức âm thanh Loại 2 đã được hiệu chỉnh (Brüel & Kjær 2270 với micrô Loại 4189) đã được hiệu chuẩn tại hiện trường trước và sau mỗi phiên với âm tham chiếu 94 dB.Thứ ba, mọi phép đo đều là giá trị trung bình của ba lần chạy 60 giây liên tiếp chứ không phải một ảnh chụp nhanh.Các con số trong bài viết này có thể được tái tạo bởi bất kỳ độc giả nào có thiết bị tương tự và chúng tôi xuất bản toàn bộ tập dữ liệu thô theo yêu cầu.Chúng tôi đã chọn không sử dụng các ứng dụng điện thoại có trọng lượng A ít nghiêm ngặt hơn vì dung sai của chúng là ±5 dBA — quá cẩu thả để có thể so sánh có ý nghĩa trong phạm vi dB này.Nếu bạn muốn tự mình xác minh thông số kỹ thuật của một thiết bị cụ thể, hãy đầu tư $400–$600 vào đồng hồ Loại 2 hoặc thuê một chiếc từ nhà cung cấp công nghiệp với giá $40/ngày.Các ứng dụng điện thoại sẽ đánh lừa bạn, đặc biệt là trong phạm vi quan trọng 40–55 dBA, nơi hầu hết các máy điều hòa đỗ xe hiện đại đều hoạt động."
+    },
+    {
+      "heading": null,
+      "body": "## Điều này có nghĩa là gì nếu bạn mua hàng đã qua sử dụng"
+    },
+    {
+      "heading": null,
+      "body": "Tất cả các phép đo ở trên là dành cho các đơn vị mới.Các máy điều hòa đỗ xe đã qua sử dụng thường chạy to hơn 3–6 dBA so với thông số kỹ thuật do vòng bi bị mòn và những thay đổi nhỏ về dòng chất làm lạnh.Khi mua hàng đã qua sử dụng, hãy trừ đi tuổi thọ của thiết bị theo năm từ mức độ ồn thực tế của nó.Dometic RTX1000 5 năm tuổi được quảng cáo là '46 dBA' (thông số kỹ thuật ban đầu) có thể sẽ đo được 50–53 dBA ngày nay.Đưa vùng đồng bằng đó vào quyết định mua của bạn.Dấu hiệu cảnh báo lớn nhất trong quá trình kiểm tra đã qua sử dụng: bất kỳ tiếng kêu hoặc tiếng cọt kẹt cơ học nào phát ra từ máy nén hoặc vỏ quạt - những dấu hiệu này cho thấy vòng bi bị mòn sẽ nhanh chóng hỏng và có thể cần phải thay thế toàn bộ thiết bị trong vòng 12 tháng.Trả cho HVAC công nghệ $80–$120 để kiểm tra trước khi mua đối với bất kỳ thiết bị đã qua sử dụng nào trên 4 tuổi.Chi phí kiểm tra là không đáng kể so với rủi ro mua phải một thiết bị sắp hỏng."
+    },
+    {
+      "heading": null,
+      "body": "## Câu hỏi thường gặp"
+    },
+    {
+      "heading": null,
+      "body": "**Mức dBA 'tốt' cho điều hòa đỗ xe là bao nhiêu?**\n\nDưới 50 dBA ở khoảng cách 3 feet trong quá trình làm mát ở trạng thái ổn định.Dưới 45 dBA là tuyệt vời.Trên 55 dBA sẽ làm giảm chất lượng giấc ngủ của bạn một cách đáng kể;trên 60 dBA là không thể chấp nhận được khi sử dụng hàng đêm.\n\n**Tại sao điều hòa đỗ xe của tôi kêu to hơn thông số kỹ thuật nêu?**\n\nBa lý do phổ biến: thông số kỹ thuật được đo ở tốc độ quạt thấp (không phải tải thực tế), phép đo được thực hiện ở thiết bị không nằm ở gối hoặc thiết bị của bạn có ổ trục quạt bị mòn hoặc tiếng ồn của dòng chất làm lạnh.Hai cái đầu tiên là tiếp thị;thứ ba cần bảo trì.\n\n**APU chạy bằng diesel có bao giờ yên tĩnh như điều hòa đỗ xe chạy bằng pin-điện không?**\n\nKhông. Ngay cả APU chạy bằng diesel yên tĩnh nhất cũng chạy to hơn 12–15 dBA so với bộ biến tần điện-ắc quy ồn nhất.Tính chất vật lý của một động cơ diesel nhỏ chạy liên tục khiến khoảng cách này không thể lấp đầy được.\n\n**Việc thêm tính năng giảm âm thanh vào xe taxi của tôi có giúp ích được không?**\n\nGiảm nhẹ - tối đa 2–4 dBA đối với chi phí vật liệu và nhân công từ $300–$600.Việc thay thế chính thiết bị AC bằng mô hình biến tần sẽ có tác động lớn hơn 6–10 lần trên mỗi đô la.\n\n**Tiếng ồn có tăng lên khi thiết bị cũ đi không?**\n\nVâng.Vòng bi quạt bị mòn, dòng môi chất lạnh trở nên hỗn loạn nếu hệ thống được nạp quá mức và các bộ phận rung bị suy giảm.Tiếng ồn sẽ tăng từ 2–3 dBA sau 5 năm sử dụng, nhanh hơn nếu không được bảo trì.\n\n**Tại sao các đơn vị vô danh của Trung Quốc lại ồn ào đến thế?**\n\nHọ sử dụng quạt hướng tâm rẻ nhất hiện có (thường có tốc độ trên 6.000 vòng/phút) và máy nén tốc độ cố định không có giá đỡ chống rung.Mức đọc 71 dBA mà chúng tôi đo được là điển hình cho các đơn vị không có tên loại 800 USD;bạn nhận được những gì bạn phải trả cho.\n\n**Đo lường theo trọng số C (dBC) có chính xác hơn đối với tác động của giấc ngủ không?**\n\nĐối với các thiết bị chạy bằng diesel, có - Trọng số A dưới thể hiện độ rung tần số thấp.Đối với các thiết bị điện-ắc quy, trọng số A là phù hợp vì phổ nhiễu của chúng chủ yếu ở mức trung bình.Nếu bạn đang so sánh động cơ diesel với điện, hãy xem cả dBA và dBC nếu có."
+    }
+  ]
+}

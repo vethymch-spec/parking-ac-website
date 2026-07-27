@@ -18,10 +18,10 @@
     "logout": "Log Keluar"
   },
   "hero": {
-    "title": "Penghawa Dingin Tempat Letak Kereta untuk Kehidupan Off-Grid dan Selesa Bergerak",
-    "subtitle": "Penghawa Dingin 12V dan 24V DC tanpa idle untuk treler semi, RV, van dan khemah — Sejuk tanpa idle",
-    "ctaPrimary": "Beli Produk",
-    "ctaSecondary": "Ketahui Lebih Lanjut",
+    "title": "Penyaman Udara Tempat Letak Kereta 12V/24V untuk Lori, RV, Van dan Armada",
+    "subtitle": "CoolDrivePro membina penghawa dingin tempat letak kereta 12V/24V DC dan sistem penyejukan tanpa melahu untuk trak separuh, RV, van, perkhemahan, armada, pengedar dan pemasang — dengan penetapan harga B2B, sokongan waranti berasaskan AS dan panduan kesesuaian.",
+    "ctaPrimary": "Dapatkan Syor Kesesuaian",
+    "ctaSecondary": "Minta Sebut Harga Peniaga",
     "badge": "Ketibaan Baru",
     "trustedBy": "Dipercayai oleh lebih 10,000 pemandu di seluruh dunia"
   },
@@ -36,7 +36,7 @@
     "features": "Ciri-ciri",
     "reviews": "Ulasan Pelanggan",
     "warranty": "Waranti",
-    "freeShipping": "Penghantaran Percuma",
+    "freeShipping": "Sokongan invois",
     "support": "Sokongan 24/7",
     "topMounted": {
       "title": "Penghawa Dingin Bumbung 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Menyejukkan sehingga 80 kaki persegi"
     },
     "miniSplit": {
-      "title": "Penghawa Dingin Mini Split 12000 BTU",
-      "subtitle": "Penghawa Dingin 12V DC tanpa idle untuk treler semi dan RV",
+      "title": "12V/24V Mini Split Parking AC untuk Teksi Separuh Tidur dan RV",
+      "subtitle": "CoolDrivePro VX3000SP ialah penghawa dingin tempat letak kereta pisah mini 12V/24V DC yang memberikan penyejukan tanpa melahu 12,000 BTU/j untuk teksi separuh tidur, RV, van dan perkhemahan.Penyejat dalaman berjalan pada ≤32 dB menggunakan pemampat penyongsang berputar berkembar GMCC, jadi pemandu boleh tidur sepanjang malam tanpa melahu enjin.",
       "btu": "12,000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 jam",
@@ -59,14 +59,19 @@
       "specifications": "Spesifikasi",
       "reviews": "Ulasan Pelanggan",
       "faq": "Soalan Lazim",
-      "freeShipping": "Penghantaran Percuma",
-      "warranty": "Waranti 2 Tahun",
+      "freeShipping": "Sokongan invois",
+      "warranty": "Waranti 1 Tahun",
       "returns": "Pulangan 30 Hari",
       "inStock": "Dalam Stok",
       "outOfStock": "Habis Stok",
       "quantity": "Kuantiti",
       "techSpecs": "Spesifikasi Teknikal",
-      "relatedProducts": "Anda Mungkin Juga Suka"
+      "relatedProducts": "Anda Mungkin Juga Suka",
+      "warrantyDesc": "Waranti pengilang 1 tahun meliputi kecacatan pada bahan dan mutu kerja."
+    },
+    "heatingCoolingAC": {
+      "title": "12V/24V Pemanasan dan Penyejukan Parking AC untuk Lori dan RV",
+      "subtitle": "CoolDrivePro V-TH1 ialah penghawa dingin tempat letak pam haba 12V/24V DC yang memberikan penyejukan dan pemanasan 2,000 W untuk trak separuh, RV, van dan kenderaan khas.Ia menggunakan pemampat pusingan berkembar GMCC dengan penyejuk R134a dan boleh menaikkan suhu teksi daripada 5°C kepada 30°C dalam masa kira-kira 30 minit — tiada enjin melahu dan tiada kuasa pantai diperlukan."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Batal",
     "posting": "Menyiarkan...",
     "model": "Model"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "Waranti 1 Tahun"
+    }
   }
 }

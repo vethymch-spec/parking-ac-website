@@ -38,6 +38,8 @@ const topicLinks = [
   { patterns: ['off-grid', 'off grid', 'boondocking'], slug: 'off-grid-rv-air-conditioning' },
   { patterns: ['extreme heat', 'high temperature', 'desert heat'], slug: 'parking-ac-in-extreme-heat' },
   { patterns: ['carbon footprint', 'emissions reduction', 'eco-friendly'], slug: 'parking-ac-carbon-footprint' },
+  { patterns: ['best parking AC', 'top parking AC', 'best parking air conditioner', 'parking AC comparison', 'compare parking AC'], slug: 'best-parking-ac-2026' },
+  { patterns: ['Dometic RTX', 'Webasto Cool Top', 'RigMaster', 'diesel APU'], slug: 'best-parking-ac-2026' },
 ];
 
 // Load list.json for article titles

@@ -1,0 +1,156 @@
+{
+  "title": "Parkolási klíma beszerelési költsége 2026: bolti árak államonként és barkácsmegtakarítás",
+  "date": "2026-04-25",
+  "category": "Vásárlási útmutató",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+  "imageAlt": "Professzionális parkoló AC telepítés, amely bemutatja a tetőkivágást, a vezetékeket és az akkumulátor integrációját",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] A parkoló AC telepítési költsége államonként: 400–1200 USD profi, 0–150 USD barkácsolás.Valós bolti árak CA, TX, FL, NY-ból, plusz az egység, az akkumulátor, a vezetékek és a munkaerőköltségek teljes lebontása.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp",
+      "alt": "Wire gauge selection chart for parking AC installation showing 4 AWG and 6 AWG copper recommendations",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Battery box installation under bunk for parking AC system",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "A parkoló AC egység ára csak a történet fele.Mire kifizette az akkumulátorokat, a kábelezést, a DC-DC töltőt, a telepítési munkát és az elkerülhetetlen meglepetés extrákat (egyedi rögzítő konzol, hosszabb hűtőközeg-vezetékek, extra biztosítékpanel), a projekt teljes költsége általában az egység költségének 1,8-2,5-szerese.Ez az útmutató lebontja a 2026-os parkoló AC telepítés minden sorát, valós bolti árakat ad meg az Egyesült Államok nagyobb államaiból, és pontosan megmutatja, hol takaríthat meg valódi pénzt a barkácsolás, és hol érdemes fizetnie egy profinak.A számok kilenc állam 27 kereskedőjétől és telepítőjétől 2026 márciusában összegyűjtött árajánlatokból származnak."
+    },
+    {
+      "heading": null,
+      "body": "Mielőtt belevágna az árakba, határozzon meg elvárásokat.Egy minimális 12V parkoló AC utólagos felszerelése egy hálófülkére a meglévő ház akkumulátoraival 1500–2000 dollár összköltségért elvégezhető.A prémium 24V akkumulátoros elektromos konstrukció új LiFePO4 csomaggal, DC-DC-DC töltővel és professzionális telepítéssel 5000–7500 dollárba kerül.A legtöbb tulajdonos-üzemeltető a 4000 és 5800 dollár közötti tartományban landol.A flottaárak jellemzően 12–20%-kal alacsonyabbak teherautónként, mivel a telepítők több jármű esetében is leírhatják a beállítási időt.A legnagyobb változó az, hogy saját akkumulátorokat visz-e magával, vagy a projekt részeként vásárolja meg őket – az akkumulátorok ára 35%-kal eltér az online kiskereskedők és a tégla-és habarcsos teherautó-boltok felárai között."
+    },
+    {
+      "heading": null,
+      "body": "## Költségbontás komponensenként (2026)"
+    },
+    {
+      "heading": null,
+      "body": "**Maga a váltakozó áramú egység:** CoolDrivePro VS02 PRO (12V, 6000 BTU): 1650 USD kiskereskedelmi ár.CoolDrivePro V-TH1 (24V, 10 000 BTU csúcs): 2400 USD.Dometic RTX2000: 4200 dollár.Webasto Cool Top RTE 16: 4500 dollár.Carrier ComfortPro APU: 7800 USD (a APU motort tartalmazza).Általános név nélküli 12V tetőtéri: 700–900 USD (elkerülje).**LiFePO4 akkumulátorok:** 100Ah 12V (1,28 kWh): 480–650 USD.200Ah 12V (2,56 kWh): 850–1200 USD.100Ah 24V (2,56 kWh): 890–1250 USD.300Ah 12V (3,84 kWh): 1400–1800 USD.**DC-DC töltő:** 30A: 180 USD.50 A (a legtöbb telepítéshez ajánlott): 260–320 USD.70A (gyors újratöltés csapat teherautóin): 420 USD.**Kábelezés:** 4 AWG réz, 30 láb: 85–120 USD.2 AWG réz, 30 láb: 145–190 USD.Crimp lugs and heat-shrink: $35.**Beépített biztosítékok:** T 200A osztály (akkumulátor fő): 45 USD.T 100A osztály (AC táp): 32 USD.ANL 50A (DC-DC töltő): 18 USD.**Akkumulátorfigyelő:** Victron BMV-712 sönttel: 215 USD.**Kapcsolók és megszakítók:** Akkumulátorkapcsoló: 42 USD.12V megszakító panel: 85 USD.**Tömítőanyagok és rögzítőelemek:** Butil-gumi tömítőanyag: 28 USD.Rögzítőkonzolok és csavarok: 40–80 USD (egységtől és fülketípustól függően).**A teljes alkatrészköltség egy tipikus V-TH1 + 200Ah 24V LiFePO4 összeállításhoz:** 4650–5400 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Szakmai munkaerő aránya államonként (2026. március)"
+    },
+    {
+      "heading": null,
+      "body": "**Kalifornia:** 145–185 USD/óra minősített teherautó-műhely-szerelőknél;teljes munka 6–8 óra = 870–1480 USD.**Texas:** 95–125 USD/óra;teljes munka 570–1000 dollár.**Florida:** $110–$140/hr;teljes munka 660–1120 dollár.**New York/New Jersey:** 135–170 USD/óra;teljes munka 810–1360 dollár.**Illinois:** $105–$135/hr;teljes munka 630–1080 dollár.**Georgia:** $90–$120/hr;teljes munka 540–960 dollár.**Washington/Oregon:** 125–160 USD/óra;teljes munka 750–1280 dollár.**Pennsylvania/Ohio:** $95–$125/hr;teljes munka 570–1000 dollár.**Arizona/Nevada:** $115–$145/hr;teljes munka 690–1160 dollár.A teljes professzionális telepítés országos átlaga (egység + akkumulátor + töltő + vezetékek): 400–1200 USD, a bonyolultságtól függően.Adjon hozzá 25–35%-ot, ha telepítője márkatanúsítvánnyal rendelkezik a garanciális munkákra (Dometic, Webasto, Carrier hivatalos márkakereskedői)."
+    },
+    {
+      "heading": null,
+      "body": "## Mi határozza meg a munkaerőköltséget: három munkatípus"
+    },
+    {
+      "heading": null,
+      "body": "**A munkatípus – a meglévő tetőtéri egység bedobható cseréje (3–4 óra):** Használja újra a meglévő 14×14-es kivágást, a meglévő vezetékeket, a meglévő akkumulátorokat.Csak cserélje ki az egységet.300-580 dollár.**B típusú feladat – Teljes akkumulátor-elektromos utólagos felszerelés egy teherautóra, ahol nincsenek meglévő házi akkumulátorok (6–8 óra):** Új tetőkivágás, új akkumulátordoboz behelyezése a fekhely alá, új vezetékek az akkumulátortól az AC-ig, új DC-DC töltő csatlakoztatva a generátorhoz.700–1400 dollár.**C típusú feladat – Mini-osztott vagy kétzónás telepítés RV-ra (8–12 óra):** Több tetőátvezetés, hűtőközeg-vezetékek elvezetése, elpárologtató elhelyezése, hűtőközeg-töltés.950–1800 USD.Most owner-operators on Class 8 sleepers fall into Job Type B. Most RV owners doing first-time installs fall into Job Type C."
+    },
+    {
+      "heading": null,
+      "body": "## DIY megtakarítás: hol van valójában a pénz"
+    },
+    {
+      "heading": null,
+      "body": "If you are mechanically inclined and have basic 12V/24V wiring experience, DIY can save $400–$1,400.The work itself is not difficult — it is the upfront learning curve that intimidates most people.The actual time investment is 8–14 hours including research, parts ordering, and double-checking your work.Itt van, mit takaríthat meg képzettségi szint szerint.**Basic DIY (mounting + wiring only, batteries pre-installed):** $200–$400 saved.**Intermediate DIY (full battery system install + wiring):** $500–$900 saved.**Advanced DIY (mini-split refrigerant work + EPA Section 609 cert):** $900–$1,500 saved (but requires a $200 cert and ~$300 in tools).For step-by-step guidance through every install phase, see our [step-by-step parking AC installation guide](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Ahol a barkácsolás rosszul megy (és pénzbe kerül)"
+    },
+    {
+      "heading": null,
+      "body": "Five common DIY mistakes that turn into expensive callbacks.(1) **Undersized cabling:** using 8 AWG when 4 AWG is required causes voltage drop, AC throttling, and premature battery cycling.The fix is rerunning the cable, which costs more than doing it right the first time.(2) **No fuse on the battery feed:** a melted cable in a sleeper cab is a fire risk and an insurance nightmare.Always install a Class T fuse within 18 inches of the battery positive terminal.(3) **Wrong sealant for roof penetrations:** silicone caulk degrades within 18 months in UV.Use butyl rubber tape or marine-grade polyurethane sealant.(4) **Nincs DC-DC töltő a generátor és a házi akkumulátor között:** a közvetlen csatlakoztatás károsítja az akkumulátort, és érvényteleníti a garanciát.Always isolate via DC-DC.(5) **Nem megfelelően rögzített akkumulátordoboz:** egy 200 Ah-s LiFePO4 50 fontot nyom. Pánikmegállás esetén a nem biztosított doboz rakétává válik.Használjon névleges rögzítést a fülke szerkezeti eleméhez."
+    },
+    {
+      "heading": null,
+      "body": "## A rejtett költségeket a legtöbb árajánlat nem tartalmazza"
+    },
+    {
+      "heading": null,
+      "body": "**Egyedi tartókonzolok**, ha a fülkéje nem szabványos tetőszerkezettel rendelkezik (általános a régi Peterbilt-eken és Volvókon): 80–220 USD.**Hűtőközeg-feltöltés** azokon az egységeken, amelyeket alul töltött vagy a telepítés során kisebb szivárgást észlelnek (többnyire mini split): 60–140 USD.**Szigetelés korszerűsítése**, ha a fülke rosszul szigetelt, és az AC nehézségekbe ütközik: 150–400 USD anyagköltséggel.**Napelem kiegészítés**, ha csökkenteni szeretné a generátor újratöltésének üzemanyagköltségét: 400–900 USD egy 200 W-os tetőtéri rendszer esetén, plusz 200 USD telepítés.**Telematikai integráció** azon flották számára, amelyek CAN-buszon keresztül szeretnék naplózni az AC-használatot és az akkumulátor állapotát: 300–650 USD egységenként.**A fülkefűtés kompatibilitási ellenőrzése** (néhány dízel tüzelésű fülkefűtés megosztja az üzemanyag-vezetékeket, és át kell vezetni): 100–250 USD többletmunka.A teljes rejtett költség átlaga az összes telepítésre vonatkoztatva: 250–600 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Vásárlási stratégia: Hol spórolhatunk a sarkok levágása nélkül"
+    },
+    {
+      "heading": null,
+      "body": "**Spóroljon az akkumulátorokon, ha az EG4-től, a SOK-tól vagy a Renogy-tól** vásárol online, nem pedig a teherautó-üzlet saját márkájától.Ugyanaz a kémia, gyakran 150–300 dollárral olcsóbb 100 Ah-s csomagonként.**Ne spóroljon magán a váltakozó áramú egységen** – az 1800 dolláros V-TH1 és a 900 dolláros névtelen egység közötti különbség a kompresszor több éves élettartama és 12+ dB zajszint.**Takarítson meg munkát az akkumulátor beszerelésével**, még akkor is, ha a váltóáramú szerelésért és a hűtőközeg munkáért egy boltnak fizet.Az akkumulátor kábelezése a legnagyobb munkaerő-sor, és a barkácsolás számára a leginkább hozzáférhető.**Ne spóroljon a kábelezési mérőszámon** – a réz olcsó az alulméretezés biztonsági kockázatához és teljesítményéhez képest.**Csak akkor spóroljon a DC-DC töltőn, ha tisztában van a generátor kimeneti görbéivel** – az alulméretezett töltők lassítják az akkumulátor helyreállítását, és a többéjszakás utakon is kevesebbet tehetnek.**Mindig fizessen az akkumulátormonitorért** — a töltött állapotban vakon repülés az akkumulátor idő előtti meghibásodásának 80%-át okozza."
+    },
+    {
+      "heading": null,
+      "body": "## Teljes költség táblázatok a három leggyakoribb építési típushoz"
+    },
+    {
+      "heading": null,
+      "body": "**A Build: Költségkeret 12V egyágyas, 8. osztály (CoolDrivePro VS02 PRO):** Egység: 1650 USD + 200 Ah 12V LiFePO4 + 1,0 ADC-DC 180 USD + kábelezés/biztosítékok/tömítés 200 USD + DIY telepítés 0 USD = **3030 USD, barkácsolás** vagy **3580–3930 professzionális**.**B építmény: Prémium 24V egyágyas, 8. osztály (CoolDrivePro V-TH1):** Egység: 2400 USD + 200 Ah 24V LiFePO4 + 1,0 AhDC-DC 300 USD + kábelezés/biztosítékok/tömítés 250 USD + monitor 215 USD + DIY telepítés 0 USD = **4965 USD, barkácsolás** vagy **5665–6300 professzionális**.**C Build: RV 24V kétzónás (Webasto Cool Top RTE 16 + kiegészítő egység):** Egység + 9000 BTU aux 7200 $ + 300 DP___TER_M __CTER2800 USD + 50A DC-DC 300 USD + kábelezés/biztosítékok/tömítés 400 USD + monitor 215 USD + professzionális telepítés 1400 USD = **12 315 USD**.A Build B konfiguráció a legnépszerűbb a 2026 tulajdonos-üzemeltetők körében, mert egyensúlyban tartja a hűtési kapacitást, a zajt és a TCO-t."
+    },
+    {
+      "heading": null,
+      "body": "## Költséginflációs trendek 2024–2026 és 2027 előrejelzései"
+    },
+    {
+      "heading": null,
+      "body": "Az elmúlt 24 hónapban a parkolási klímarendszer költségei jelentős mértékben változtak.LiFePO4 az akkumulátorárak 28%-kal estek 2024 eleje óta a globális cellapiacon tapasztalható túlkínálat miatt.A rézkábelezés költségei 18%-kal emelkedtek ugyanebben az időszakban.A váltakozó áramú egységárak nagyjából változatlanok a bevett márkák (Dometic, Webasto, Carrier) esetében, de 12–15%-kal estek a Kínában gyártott egységek, például a CoolDrivePro gyártási méretek esetében.Nettó hatás: egy tipikus Build B (24V akkumulátor-elektromos) projekt, amely 5800 dollárba került 2024 elején telepítve, most 5100–5400 dollárba kerül 2026 áprilisában. 2027-re további 8–12%-os akkumulátorköltség-csökkenést tervezünk (kiegyenlítve 3–50%-os munkaerõvel 4 dollárt).A nagyobb telepítést fontolgató járművezetőknek 2026-ban is folytatniuk kell – a megtérülési idők a jelenlegi árak mellett már most is kiválóak, és ha még egy évet várunk, csak 300–400 USD takarítható meg, miközben 12 hónapnyi üzemanyag-megtakarítást veszítenek 7000–8500 USD értékben."
+    },
+    {
+      "heading": null,
+      "body": "## Biztosítási és jótállási szempontok"
+    },
+    {
+      "heading": null,
+      "body": "A legtöbb kereskedelmi teherautó-biztosítás fedezi a parkoló AC berendezéseket a normál fizikai károk fedezeteként, de bizonyos kitételekkel.(1) Az utólagos üzembe helyezéseket meg kell adni a biztosítónak;a közzététel elmulasztása tűz vagy lopás esetén érvénytelenítheti a berendezésre vonatkozó fedezetet.(2) A barkácslétesítmények magasabb önrészekkel szembesülhetnek, vagy tételes nyugtákat igényelhetnek.(3) A LiFePO4 csomaggal rendelkező akkumulátoros elektromos rendszerek általában külön felszerelést igényelnek az akkumulátorhoz (költség: 35–80 USD/év teherautónként).(4) A legtöbb flotta a parkolási AC-t a flottafelszerelés-biztosításba köti az egyszerűbb kárkezelés érdekében.Az egységek gyártói garanciáihoz (CoolDrivePro 3 év, Dometic 2 év, Webasto 2 év) a professzionális telepítés igazolása VAGY dokumentált, a gyártó specifikációinak megfelelő barkácstelepítés szükséges.Mindig fényképezze le a vezetékeket, a biztosítékok elhelyezését és az akkumulátorrögzítést – ezek a képek megoldják a garanciális viták 90%-át, amikor felmerülnek."
+    },
+    {
+      "heading": null,
+      "body": "## A regionális alkatrészek elérhetősége és a projekt átfutási ideje"
+    },
+    {
+      "heading": null,
+      "body": "2026 áprilisában a főbb összetevők átfutási ideje régiónként változik.CoolDrivePro V-TH1 az Egyesült Államokban: raktáron a legtöbb hivatalos márkakereskedőnél, máshol 2 napos szállítás.Dometic RTX2000: országosan raktáron.Webasto Cool Top RTE 16: 5-10 napos átfutási idő az Egyesült Államokban, készleten Németországban és Olaszországban.200Ah LiFePO4 akkumulátorok: raktáron a nagyobb amerikai online kiskereskedőktől (EG4, SOK, Renogy, Battle Born), 1-3 napos szállítás.50A DC-DC töltők: raktáron a Victron, Renogy, REDARC cégtől.A legtöbb projekt szűk keresztmetszete a bolti időpontok elérhetősége, nem pedig az alkatrészek.A nagyobb teherautó-javító műhelyek 2026 tavaszán 2–4 hétig foglalnak parkolóhelyiséget. Ha a nyári hőség beállta előtt telepíteni kell, legkésőbb május közepéig foglaljon.A mobilszerelő szolgáltatások (ahol a technológia az Ön udvarára érkezik) 15–25%-os prémium árat írnak elő, de kiküszöbölik az ütemezési súrlódásokat a tulajdonosok és az üzemeltetők számára egyetlen teherautóval."
+    },
+    {
+      "heading": null,
+      "body": "## Használt parkoló AC Market: Ha van értelme használtat vásárolni"
+    },
+    {
+      "heading": null,
+      "body": "A használt parkoló AC piac 2023 óta jelentősen kiforrott. A három éves Dometic RTX1000 és Webasto Cool Top RTE 10 egységek az eredeti ár 40–55%-áért kelnek el, gyakran az egység élettartamának 60–70%-ával.A költségvetés-tudatos tulajdonos-üzemeltetők számára egy használt egység + új akkumulátorrendszer + barkácstelepítés biztosítja a Build B funkcionalitását összesen 2800 és 3500 dollár között – ez nagyjából egy új rendszer költségének a fele.Kezelendő kockázatok: (1) ellenőrizze, hogy az egység inverteres volt-e (a régebbi, fix fordulatszámú egységeket nem érdemes felújítani), (2) vásárlás előtt kérje meg a hűtőközeg nyomásának ellenőrzését (60 USD bármely HVAC üzletben), (3) fényképekkel ellenőrizze, hogy az eredeti telepítés profi volt.A három éves vagy újabb használt egységek, amelyek átmennek az ellenőrzésen, általában ugyanolyan megbízhatóak, mint az újak.Az ötéves vagy régebbi használt egységek gyakran hűtőközeg-utántöltést igényelnek, és vezérlőpanel-problémáik lehetnek – ez 200–400 dollárt jelent a költségvetésben."
+    },
+    {
+      "heading": null,
+      "body": "## Az első éven túl: a karbantartási költségekre vonatkozó elvárások"
+    },
+    {
+      "heading": null,
+      "body": "A megfelelően telepített parkoló AC rendszer éves karbantartási költsége 80–200 USD az 1–3. évben (szűrőtisztítás, hűtőközegnyomás-ellenőrzés, akkumulátor-monitor kalibrálása), 200–400 USD-ra emelkedik a 4–7. években (potenciális hűtőközeg-feltöltés, ventilátormotor kefék, akkumulátorfrissítés).A Build B rendszer teljes 7 éves tulajdonlási költsége: 5400 USD telepítés + 1400 USD karbantartás = 6800 USD.Hasonlítsa össze 7 év éjszakai alapjárattal (8500 USD/év × 7 = 59 500 USD csak üzemanyagban), és az értékajánlat elsöprő.Még az évente mindössze 50 éjszakát üzemelő flották is 18–24 hónapon belül megtérülnek.A karbantartás elhanyagolása az első számú oka az idő előtti parkolási váltakozó áramú meghibásodásnak – tartsa tisztán a porszűrőket, végezze el a hűtőközegnyomás-ellenőrzést évente, és ellenőrizze az akkumulátor töltöttségi állapotát minden heti ellenőrzéskor."
+    },
+    {
+      "heading": null,
+      "body": "## Végső költségmegtakarítási tipp: Szezonon kívüli foglalás"
+    },
+    {
+      "heading": null,
+      "body": "A teherautó-üzletek munkaerő-kapacitása szezonális mintákat követ.A tavasz és az ősz a telepítés csúcsszezonja (a járművezetők nyárra vagy télre készülnek).Az északi államokban a tél (január-február) a leglassabb időszak a parkolási klímaberendezések beépítésére, és sok üzlet 10-20%-os munkaerő-kedvezményt kínál a kapacitás feltöltésére.Ha beütemezheti a telepítést a szezonon kívülre, valódi pénzt takaríthat meg.Bónusz: az alkatrészgyártók év végén (november–december) is kedvezményt adnak, hogy az új modellek megjelenése előtt kiürítsék a készletet.Az ideális költségoptimalizálási ütemterv: rendeljen alkatrészeket november végén a készletnyilvántartás során, ütemezze be a telepítést január közepére, amikor a boltok lassúak, és a projekt abszolút minimális összköltségével fog leszállni.Ez az időzítési stratégia önmagában 400–700 dollárt takaríthat meg, ha ugyanazt a telepítést lefoglalja a május–júniusi csúcsszezonban."
+    },
+    {
+      "heading": null,
+      "body": "## Gyakran Ismételt Kérdések"
+    },
+    {
+      "heading": null,
+      "body": "**Tulajdonképpen mennyi ideig tart egy professzionális telepítés?**\n\nEgy tipikus Build B (24V akkumulátoros elektromos utólagos felszerelés) esetén az üzletek 6–8 munkaórán belül elvégzik a munkát.A legtöbben egynapos találkozóként idézik, a teherautó reggel leszállt, és az üzlet zárására készen áll.Az összetett RV mini-osztott telepítések 2 napot vehetnek igénybe.\n\n**A garanciám kiterjed a barkácsszerelésre?**\n\nAz egységgarancia (CoolDrivePro 3 év, Dometic 2 év, Webasto 2 év) jellemzően az egységre vonatkozik, függetlenül attól, hogy ki telepíti, amennyiben a telepítés a gyártó utasításait követi.Az akkumulátorra vonatkozó garancia (jellemzően 5 év LiFePO4 esetén) megfelelő biztosítékot, DC-DC-on keresztüli töltést és védett akkumulátordobozt igényel.A hűtőközeggel végzett munkához általában az EPA 609. szakasza szerinti tanúsítvány szükséges – ha enélkül barkácsol, a gyártó megtagadhatja a hűtőközeggel kapcsolatos állításokat.\n\n**Milyen dokumentációt kell megőriznem a telepítés után?**\n\nA beszerelés dátumának és a telepítőnek (vagy az öntelepítési feljegyzések) igazolása, az alkatrészek nyugtái (különösen a garanciális igények esetén), a vezetékek, a biztosítékok és az akkumulátor elhelyezésének fényképei, valamint minden tömítőanyag, hűtőközeg vagy akkumulátor tanúsítványának másolata.A biztosító- és garanciatársaságok rendszeresen kérik ezeket.\n\n**Adnak az üzletek kedvezményeket több teherautó flottára?**\n\nIgen – általában 12–20% munkaerő-kedvezmény az 5+ azonos telepítést lefoglaló flották esetében.Egyes üzletek az alkatrészeket is leértékelik, ha ugyanazt az egységet mennyiségben szerzik be.Mindig tárgyaljon.\n\n**Mennyivel növeli a költséget egy régi meghibásodott egység eltávolítása?**\n\nHa a régi egység egy egyszerű tetőtéri egység, amely ugyanazt a kivágást használja: 80–150 USD többletmunka.Ha más típusú rögzítésről van szó, vagy visszanyerésre szoruló hűtőközeget tartalmaz: 200–450 USD.Árajánlatkéréskor mindig közölje a meglévő berendezéseket.\n\n**Vegyem meg a váltakozó áramú egységet, és szereltessem be a boltba, vagy vegyem a boltban?**\n\nA bolti vásárlás általában 8–15%-kal növeli az egységköltséget, de biztosítja, hogy az üzlet garantálja a teljes telepítést.Az online vásárlással és a sajátjával pénzt takaríthat meg, de néhány üzlet megtagadja a vásárló által biztosított egységek beszerelését a garanciális konfliktusok miatt.Olvassa el írásban az üzlet szabályzatát, mielőtt online rendel.\n\n**Milyen finanszírozás érhető el a projekt teljes költségére?**\n\nSok tulajdonos-üzemeltető teherautó-kereskedőjén vagy flottafinanszírozó partnerén keresztül finanszíroz 36–60 hónapos futamidővel, 7–11%-os THM mellett.CoolDrivePro 0%-ot kínál 12 hónapig a 4000 USD feletti rendszercsomagokra.Egyes államok tiszta levegő támogatást (500–2000 USD) kínálnak a dízel APU-ról akkumulátoros elektromosra való átálláshoz – tekintse meg az állam környezetvédelmi hivatalának webhelyét.Az építési költség mögött meghúzódó teljes akkumulátorméret-számításért tekintse meg [LiFePO4 akkumulátorméretezési útmutatónkat](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

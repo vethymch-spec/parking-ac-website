@@ -18,10 +18,10 @@
     "logout": "Keluar"
   },
   "hero": {
-    "title": "AC Parkir untuk Hidup Off-Grid dan Kenyamanan Mobile",
-    "subtitle": "AC Parkir 12V dan 24V DC tanpa idle untuk truk semi, RV, van, dan camper — Sejuk tanpa idle",
-    "ctaPrimary": "Beli Produk",
-    "ctaSecondary": "Pelajari Lebih Lanjut",
+    "title": "AC Parkir 12V/24V untuk Truk, RV, Van, dan Armada",
+    "subtitle": "CoolDrivePro membuat AC parkir 12V/24V DC dan sistem pendingin tanpa idle untuk semi truk, RV, van, camper, armada, dealer, dan pemasang — dengan harga B2B, dukungan garansi yang berbasis di AS, dan panduan pemasangan.",
+    "ctaPrimary": "Dapatkan Rekomendasi Fitment",
+    "ctaSecondary": "Minta Penawaran Dealer",
     "badge": "Produk Baru",
     "trustedBy": "Dipercaya oleh lebih dari 10.000 pengemudi di seluruh dunia"
   },
@@ -36,7 +36,7 @@
     "features": "Fitur",
     "reviews": "Ulasan Pelanggan",
     "warranty": "Garansi",
-    "freeShipping": "Gratis Ongkir",
+    "freeShipping": "Dukungan faktur",
     "support": "Dukungan 24/7",
     "topMounted": {
       "title": "AC Mounted Atas 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Mendinginkan hingga 80 kaki persegi"
     },
     "miniSplit": {
-      "title": "AC Mini Split 12000 BTU",
-      "subtitle": "AC 12V DC tanpa idle untuk truk semi dan RV",
+      "title": "AC Parkir Mini Split 12V/24V untuk Kabin Semi Tidur dan RV",
+      "subtitle": "CoolDrivePro VX3000SP adalah AC parkir mini split 12V/24V DC yang menghasilkan pendinginan tanpa idle 12.000 BTU/jam untuk kabin semi tidur, RV, van, dan berkemah.Evaporator dalam ruangan bekerja pada ≤32 dB menggunakan kompresor inverter putar ganda GMCC, sehingga pengemudi dapat tidur sepanjang malam tanpa mematikan mesin.",
       "btu": "12.000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 jam",
@@ -59,14 +59,19 @@
       "specifications": "Spesifikasi",
       "reviews": "Ulasan Pelanggan",
       "faq": "FAQ",
-      "freeShipping": "Gratis Ongkir",
-      "warranty": "Garansi 2 Tahun",
+      "freeShipping": "Dukungan faktur",
+      "warranty": "Garansi 1 Tahun",
       "returns": "Pengembalian 30 Hari",
       "inStock": "Tersedia",
       "outOfStock": "Habis",
       "quantity": "Jumlah",
       "techSpecs": "Spesifikasi Teknis",
-      "relatedProducts": "Anda Mungkin Juga Suka"
+      "relatedProducts": "Anda Mungkin Juga Suka",
+      "warrantyDesc": "Garansi pabrik 1 tahun mencakup cacat bahan dan pengerjaan."
+    },
+    "heatingCoolingAC": {
+      "title": "AC Parkir Pemanas dan Pendingin 12V/24V untuk Truk dan RV",
+      "subtitle": "CoolDrivePro V-TH1 adalah AC parkir pompa panas 12V/24V DC yang menghasilkan pendinginan dan pemanas 2.000 W untuk semi truk, RV, van, dan kendaraan khusus.Ia menggunakan kompresor putar ganda GMCC dengan zat pendingin R134a dan dapat menaikkan suhu kabin dari 5°C hingga 30°C dalam waktu sekitar 30 menit — tanpa memerlukan mesin dalam keadaan idle dan tidak memerlukan tenaga darat."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Batal",
     "posting": "Mengirim...",
     "model": "Model"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "Garansi 1 Tahun"
+    }
   }
 }

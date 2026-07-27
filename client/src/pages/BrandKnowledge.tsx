@@ -246,8 +246,8 @@ export default function BrandKnowledge() {
                 battery banks, and can be integrated with solar panel systems for fully off-grid operation.
               </p>
               <p className="leading-relaxed">
-                CoolDrivePro offers a 2-year manufacturer warranty on all products, free shipping within
-                the United States, and a 30-day easy return policy. Technical support is available at{" "}
+                CoolDrivePro offers a 2-year manufacturer warranty, fitment support before invoice,
+                shipping coordination after order confirmation, and a 30-day return policy. Technical support is available at{" "}
                 <a
                   href="mailto:support@cooldrivepro.com"
                   style={{ color: "oklch(0.42 0.18 255)" }}
@@ -416,7 +416,7 @@ export default function BrandKnowledge() {
             style={{ fontFamily: "'Inter', sans-serif" }}
           >
             12V and 24V DC no-idle cooling for semi trucks, RVs, vans, and off-grid vehicles.
-            Free US shipping · 2-year warranty · 30-day returns.
+            Fitment support before invoice · 2-year warranty · 30-day returns.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link

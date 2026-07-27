@@ -15,6 +15,7 @@ interface SEOProps {
   canonical?: string;
   ogImage?: string;
   jsonLd?: Record<string, unknown>;
+  alternateLanguages?: readonly string[];
 }
 
 const BASE_URL = "https://cooldrivepro.com";
@@ -22,7 +23,7 @@ const BASE_URL = "https://cooldrivepro.com";
 // Translated page titles for each language
 const PAGE_TITLES: Record<string, Record<string, string>> = {
   "/": {
-    en: "Parking Air Conditioner | 12V 24V No-Idle AC – CoolDrivePro",
+    en: "Truck Air Conditioner & Parking AC | 12V/24V - CoolDrivePro",
     "zh-CN": "驻车空调 | 12V 24V 免怠速空调 - CoolDrivePro",
     "zh-TW": "駐車空調 | 12V 24V 免怠速空調 - CoolDrivePro",
     ja: "駐車エアコン | 12V 24V アイドリングストップ対応 - CoolDrivePro",
@@ -86,7 +87,7 @@ const PAGE_TITLES: Record<string, Record<string, string>> = {
     ms: "Hubungi | CoolDrivePro Sokongan AC",
   },
   "/products": {
-    en: "Parking AC Products | 12V 24V Truck & RV Air Conditioners – CoolDrivePro",
+    en: "12V Air Conditioner & Truck AC Units | Parking AC Products - CoolDrivePro",
     "zh-CN": "驻车空调产品 | 12V 24V 卡车和房车空调 - CoolDrivePro",
     "zh-TW": "駐車空調產品 | 12V 24V 卡車和房車空調 - CoolDrivePro",
     ja: "駐車エアコン製品 | 12V 24V トラック・RV用 - CoolDrivePro",
@@ -137,21 +138,66 @@ const PAGE_TITLES: Record<string, Record<string, string>> = {
     ru: "Форум Сообщества | Обсуждения Кондиционеров - CoolDrivePro",
     ar: "منتدى المجتمع | مناقشات مكيف السيارات - CoolDrivePro",
   },
+  "/warranty": {
+    en: "Warranty Policy | CoolDrivePro",
+  },
+  "/return-policy": {
+    en: "Return & Refund Policy | CoolDrivePro",
+  },
+  "/shipping-policy": {
+    en: "Shipping Policy | CoolDrivePro",
+  },
+  "/privacy-policy": {
+    en: "Privacy Policy | CoolDrivePro",
+  },
+  "/terms-of-service": {
+    en: "Terms of Service | CoolDrivePro",
+  },
+  "/payment-method": {
+    en: "Payment Method | CoolDrivePro",
+  },
+  "/billing-terms": {
+    en: "Billing Terms | CoolDrivePro",
+  },
 };
 
 const PAGE_DESCRIPTIONS: Record<string, Record<string, string>> = {
   "/": {
-    en: "12V & 24V DC parking AC for trucks, RVs & vans. 10000–12000 BTU, no-idle operation. Free US shipping & 1-year warranty.",
-    "zh-CN": "适用于卡车、房车和面包车的 12V 和 24V 直流驻车空调。10000-12000 BTU，免怠速运行。美国境内免费配送，1年质保。",
-    "zh-TW": "適用於卡車、房車和廂型車的 12V 和 24V 直流駐車空調。10000-12000 BTU，免怠速運行。美國境內免費配送，1年質保。",
-    ja: "トラック、RV、バン用の12V・24V DC駐車エアコン。10000-12000 BTU、アイドリングストップ対応。米国本土送料無料、1年保証。",
-    de: "12V & 24V DC Standklimaanlage für LKWs, Wohnmobile & Vans. 10000-12000 BTU, Leerlauf-freier Betrieb. Kostenloser Versand in den USA & 1-Jahres-Garantie.",
-    fr: "Climatisation 12V et 24V DC pour camions, camping-cars et vans. 10000-12000 BTU, fonctionnement sans ralenti. Livraison gratuite aux États-Unis et garantie d'un an.",
-    es: "Aire acondicionado 12V y 24V DC para camiones, RVs y furgonetas. 10000-12000 BTU, funcionamiento sin ralentí. Envío gratuito en EE.UU. y garantía de 1 año.",
-    it: "Condizionatore 12V e 24V DC per camion, camper e furgoni. 10000-12000 BTU, funzionamento senza minimo. Spedizione gratuita negli Stati Uniti e garanzia di 1 anno.",
-    pt: "Ar condicionado 12V e 24V DC para caminhões, RVs e vans. 10000-12000 BTU, funcionamento sem marcha lenta. Frete grátis nos EUA e garantia de 1 ano.",
-    ru: "Стоянковый кондиционер 12V и 24V DC для грузовиков, домов на колесах и фургонов. 10000-12000 BTU, работа без холостого хода. Бесплатная доставка по США и 1-годичная гарантия.",
-    ar: "مكيف وقوف السيارات 12V و 24V DC للشاحنات والمنازل المتنقلة والفانات. 10000-12000 BTU، تشغيل بدون دوران. شحن مجاني في الولايات المتحدة وضمان لمدة سنة.",
+    en: "Shop 12V/24V parking air conditioners and truck air conditioner systems for semi trucks, RVs, vans, pickups, truck campers, caps and no-idle cab cooling.",
+    "zh-CN": "适用于卡车、房车和面包车的 12V 和 24V 直流驻车空调。10000-12000 BTU，免怠速运行，支持车型适配和发票报价。",
+    "zh-TW": "適用於卡車、房車和廂型車的 12V 和 24V 直流駐車空調。10000-12000 BTU，免怠速運行，支援車型適配與發票報價。",
+    ja: "トラック、RV、バン向け12V・24V DC駐車エアコン。10000-12000 BTU、アイドリング不要、車両適合確認と請求書ベースの注文に対応。",
+    de: "12V & 24V DC Standklimaanlage für LKWs, Wohnmobile & Vans. 10000-12000 BTU, Leerlauf-frei, mit Fahrzeug-Fitment und Rechnungsbestellung.",
+    fr: "Climatisation 12V et 24V DC pour camions, camping-cars et vans. 10000-12000 BTU, sans ralenti, avec assistance compatibilité et commande sur facture.",
+    es: "Aire acondicionado 12V y 24V DC para camiones, RVs y furgonetas. 10000-12000 BTU, sin ralentí, con soporte de compatibilidad y pedido por factura.",
+    it: "Condizionatore 12V e 24V DC per camion, camper e furgoni. 10000-12000 BTU, senza minimo, con supporto fitment e ordine tramite fattura.",
+    pt: "Ar condicionado 12V e 24V DC para caminhões, RVs e vans. 10000-12000 BTU, sem marcha lenta, com suporte de compatibilidade e pedido por fatura.",
+    ru: "Стоянковый кондиционер 12V и 24V DC для грузовиков, домов на колесах и фургонов. 10000-12000 BTU, без холостого хода, с поддержкой совместимости и заказом по счету.",
+    ar: "مكيف وقوف السيارات 12V و 24V DC للشاحنات والمنازل المتنقلة والفانات. 10000-12000 BTU، تشغيل بدون دوران، مع دعم التوافق والطلب عبر الفاتورة.",
+  },
+  "/products": {
+    en: "Compare 12V air conditioner, 24V truck AC unit, rooftop parking AC, mini split AC, compact no-idle AC and heating/cooling models for trucks, RVs and vans.",
+  },
+  "/warranty": {
+    en: "Review CoolDrivePro parking AC warranty coverage, service requirements and support steps for eligible products.",
+  },
+  "/return-policy": {
+    en: "Read the CoolDrivePro return and refund policy for parking air conditioners, including eligibility, return steps, refund timing and support contact details.",
+  },
+  "/shipping-policy": {
+    en: "Learn about CoolDrivePro shipping options, delivery timelines and order handling for parking AC products.",
+  },
+  "/privacy-policy": {
+    en: "Read how CoolDrivePro collects, uses and protects personal information for parking AC shoppers, customers and support requests.",
+  },
+  "/terms-of-service": {
+    en: "Read CoolDrivePro terms for website use, parking AC product information, orders, installation responsibility, warranty, returns and support.",
+  },
+  "/payment-method": {
+    en: "See accepted CoolDrivePro payment methods, secure payment processing, authorization timing, sales tax handling and payment support guidance.",
+  },
+  "/billing-terms": {
+    en: "Review CoolDrivePro billing terms for USD pricing, invoices, receipts, billing information, order adjustments, refunds and billing support.",
   },
 };
 
@@ -166,7 +212,8 @@ export function useSEO(overrides?: SEOProps) {
   useEffect(() => {
     // `location` from wouter is already relative to <Router base>, i.e. WITHOUT the locale prefix.
     // We use this as the canonical SEO path key.
-    const seoPath = location || "/";
+    const rawPath = location || "/";
+    const seoPath = rawPath === "/" ? "/" : rawPath.replace(/\/+$/, "") || "/";
 
     // Get translated title or fallback to English
     const pageTitles = PAGE_TITLES[seoPath] || {};
@@ -194,7 +241,8 @@ export function useSEO(overrides?: SEOProps) {
     
     // Build locale-prefixed hreflang URLs
     // English (default) uses the bare path, all others use /{lang}/ prefix
-    supportedLanguages.forEach(lang => {
+    const alternateLanguages = overrides?.alternateLanguages || supportedLanguages;
+    alternateLanguages.forEach(lang => {
       const link = document.createElement("link");
       link.rel = "alternate";
       link.hreflang = lang;
@@ -247,7 +295,11 @@ export function useSEO(overrides?: SEOProps) {
     // Inject page-specific JSON-LD structured data
     const existingPageLd = document.querySelector<HTMLScriptElement>('script[data-page-ld]');
     if (existingPageLd) existingPageLd.remove();
-    if (overrides?.jsonLd) {
+    const jsonLdId = overrides?.jsonLd?.["@id"];
+    const hasStaticJsonLd = typeof jsonLdId === "string" && Array.from(
+      document.querySelectorAll<HTMLScriptElement>('script[type="application/ld+json"]:not([data-page-ld])'),
+    ).some((script) => script.textContent?.includes(jsonLdId));
+    if (overrides?.jsonLd && !hasStaticJsonLd) {
       const script = document.createElement("script");
       script.type = "application/ld+json";
       script.setAttribute("data-page-ld", "true");

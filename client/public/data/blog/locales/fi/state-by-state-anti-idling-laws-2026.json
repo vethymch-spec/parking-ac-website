@@ -1,0 +1,551 @@
+{
+  "title": "Osavaltiokohtaiset joutokäyntiä estävät lait 2026: 50 osavaltion haku + pysäköinti AC ROI -laskin",
+  "date": "2026-06-08",
+  "category": "Säännöt ja noudattaminen",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Yhdysvaltain kartta, jossa näkyvät osavaltiokohtaiset joutokäynnin estolainsäädäntö 2026 ja pysäköinti-AC-vaatimustenmukaisuus",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Kaikki 50 Yhdysvaltain osavaltion joutokäyntiä estävää lakia vuodelle 2026 yhdessä taulukossa – hienot vaihteluvälit, 5–15 minuutin rajat, nukkuja/DEF-vapautukset ja toimiva ROI, joka näyttää kuinka akun pysäköity AC maksaa takaisin 9–14 kuukaudessa verrattuna joutokäyntisakkoihin plus polttoainekustannuksiin.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Jos ajat luokkaa 8 vuonna 2026, **valtion vuoden 2026 joutokäynnin vastaisten lakien** tilkkutäkki ei ole enää jotain, jota et voi sivuuttaa.Forty-one US states and most major metros now cap engine idle time at parked rest, fines range from $50 to over $25,000 per violation, and enforcement at truck stops, weigh stations, and rest areas has stepped up sharply since the 2024 EPA SmartWay program refresh."
+    },
+    {
+      "heading": null,
+      "body": "This page is the working reference we send to fleet managers and owner-operators who ask three questions: *what does my state actually say in 2026, does my parking AC count as compliance, and what's the real annual cost of staying non-compliant vs spending $2,800 on a battery parking AC*.We answer all three below — with a 50-state lookup table, a numeric ROI breakdown, and an honest column showing where battery parking AC fits and where it doesn't."
+    },
+    {
+      "heading": null,
+      "body": "Quick navigation: jump to the [50-state table](#the-50-state-lookup-table), the [ROI calculator](#roi-calculator-idle-cost-vs-parking-ac), or the [compliance ranking](#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR – 10 tiukinta osavaltiota ja niiden sakkoja vuonna 2026"
+    },
+    {
+      "heading": null,
+      "body": "If you only read one paragraph: California, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah, and Colorado run the tightest 2026 enforcement.Idle limits in this group sit at **5 minutes** (CA, NJ, MA, CT, MD) or **3 minutes** (NYC, NJ commercial districts) when ambient temperature is between roughly 25°F and 75°F.The looser 10-minute and **15-minute** limits in Nevada, West Virginia, and parts of Illinois still apply to commercial trucks — the **5-minute vs 15-minute** split is the single most-confused fact in fleet onboarding.Outside that band, sleeper-berth exemptions usually kick in — but only if the operator can prove the exemption, which is where most violations actually happen."
+    },
+    {
+      "heading": null,
+      "body": "Hieno rakenne vuonna 2026 on se, mikä muuttui eniten.Vanha \"100 dollarin lippu ja jatka\" -aika on ohi uusiutuvien rikkojien osalta.**California ATCM** under [CARB heavy-duty idle rule](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) stacks penalties: $300 first violation, $1,000 second within 36 months, up to $25,000 for fleet-wide patterns.**New Jersey** kaksinkertaistaa sakot toisesta rikkomuksesta 12 kuukauden sisällä.**NYC Local Law 5** sallii kansalaisten ilmoittamat liput hintaan 350–2 000 dollaria."
+    },
+    {
+      "heading": null,
+      "body": "The four exemptions that show up everywhere: (1) **sleeper berth** rest with ambient below 25°F or above 75°F (most common), (2) **DEF freezing protection** when ambient drops below ~30°F, (3) **traffic-stopped** idling, (4) **EPA SmartWay-verified** APUtai akun pysäköinti AC-käyttö – jonka ympärille tämän sivun loppuosa on rakennettu."
+    },
+    {
+      "heading": null,
+      "body": "## Kuinka Yhdysvaltain joutokäyntiä estävät lait tulivat tänne (yhden kappaleen historia)"
+    },
+    {
+      "heading": null,
+      "body": "Oikeudellinen selkäranka juontaa juurensa **Clean Air Act 1990 -lain** (**CAA 1990**) muutoksiin, jotka antavat EPA:lle valtuudet mobiililähteiden päästöistä.Vuonna 2004 EPA käynnisti **SmartWayn**, vapaaehtoisen tarkastusohjelman käyttämättömän toiminnan vähentämistekniikoille, josta tuli de facto viiteluettelo, johon valtiot viittaavat poikkeuksia myöntäessään.Kalifornian **CARB** saavutti pisimmälle vuonna 2008 käytössä olevien dieselkäyttöisten hyötyajoneuvojen **Airborne Toxic Control Measure (ATCM)** -rajoituksen, joka on 5 minuutin osavaltion raja, jossa on rajoituksia.Liittovaltion **FMCSA Hours-of-Service (HOS)** -makuupaikkapalvelu, joka uusittiin vuonna 2020 ja uudistettiin vuonna 2024, edellyttää kuljettajien lepäämistä makuupaikassa, jonka on käytännössä oltava lämpötilasäädelty, jotta se olisi asumiskelpoinen – juuri tämän ristiriidan joutokäyntiä estävät lait luovat ja pysäköinnin AC ratkaisevat."
+    },
+    {
+      "heading": null,
+      "body": "## 50-tilan hakutaulukko {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Päivitetty vuoden 2026 täytäntöönpanoa varten** [EPA Compilation of State Idling Regulations -säädösten] (https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) ja valtion DOT-tiedotteiden perusteella, jotka on julkaistu vuoden 2026 1. kvartaalin aikana. \"Battery Parking tai vastaava jäähdytysjärjestelmän noudattaminen\" tarkoittaa, että se on varmistettu.vapautus ilman moottorin joutokäyntiä."
+    },
+    {
+      "heading": null,
+      "body": "|valtio |Tyhjäkäyntiraja |Hieno valikoima |Vapautettu nukkuja |APU vapautettu |Akun pysäköinti AC-yhteensopiva |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Ei mitään osavaltion |— |— |— |✅ (ei sääntöä) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 min (Maricopa) |300–1 500 $ |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kalifornia |5 min (CARB ATCM) |300–25 000 dollaria |Y >75°F tai <25°F |K (varmennettu) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 min (Denver/paikallinen) |100–500 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 min |250–5 000 $ |Y <20°F tai >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 min |50–500 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida |5 min (Miami-Dade) |150–500 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Georgia |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Havaiji |3 min |100–1 000 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 min (Chicago) |50–500 dollaria |Y <32°F tai >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 min |150–1 500 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 min |500–25 000 dollaria |Y <40°F tai >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 min |100–25 000 dollaria |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 min (Mpls/St Paul) |25–1 000 dollaria |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 min (Clark/Washoe) |100–500 dollaria |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 min |100–1 000 dollaria |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 min |250–5 000 $ |Y <25°F tai >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Mexico |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 min tila / 3 min NYC |350–2 000 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pohjois-Carolina |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pohjois-Dakota |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 min |190–2 000 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvania |5 min (Diesel Idling Act) |150–1 000 $ |Y <40°F tai >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Rhode Island |5 min |100–500 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Etelä-Carolina |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Etelä-Dakota |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texas |5 min (TCEQ-maakunnat) |200–2 000 dollaria |Y <40°F tai >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 min (Suolajärvi) |115–300 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 min |100–1 000 dollaria |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia |10 min tila / 3 min N. VA |250–25 000 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Länsi-Virginia |15 min |150 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Ei mitään osavaltion |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 min kesällä / 5 min talvella |500–5 000 dollaria |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Huomaa rakenteellinen malli: **jokainen tila, jossa on aktiivinen sääntö, myöntää akun pysäköinnin AC-yhteensopivuuspolun**.Tämä ei ole sattuma – kun CARB ja EPA kirjoittivat mallisäännöt, ne sisälsivät nimenomaisesti \"vaihtoehtoisen tekniikan, joka tarjoaa ohjaamon mukavuuden ilman päämoottorin toimintaa\", jotta kalustot voisivat noudattaa vaatimuksia pysäköimättä dieselautoja 100 °F:n lämpötiloihin ilman jäähdytystä.Vuodepaikka- ja DEF-vapautukset ovat perinteinen poistumisluukku;akun pysäköinti AC on nykyaikainen."
+    },
+    {
+      "heading": null,
+      "body": "## Liittovaltion taso: EPA SmartWay + FMCSA HOS -vuorovaikutus"
+    },
+    {
+      "heading": null,
+      "body": "Vuonna 2026 **ei ole olemassa yhtä liittovaltion joutokäyntiä estävää lakia**. Liittovaltion näköinen on itse asiassa kaksi ohjelmaa, jotka ovat päällekkäisiä osavaltion sääntöjen kanssa:"
+    },
+    {
+      "heading": null,
+      "body": "**EPA SmartWay -vahvistettu luettelo.** SmartWay ylläpitää [vahvistettua luetteloa käyttämättömän toiminnan vähentämistekniikoista](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies), jossa mainitaan poikkeuksia määritettäessä.Jos pysäköinti-AC:si on tässä luettelossa, sinulla on oikeus puolustaa jokaisessa sen tunnustavassa osavaltiossa – vuonna 2026 kaikki 19 osavaltiota, joilla on aktiiviset joutokäyntisäännöt.Webaston, Dometicin, Bergstrom NITE:n ja CoolDrivePro VTH1:n akkupysäköintijärjestelmät ovat kaikki luettelossa tai kelvollisia listalle."
+    },
+    {
+      "heading": null,
+      "body": "**FMCSA Hours-of-Service (HOS).** [liittovaltion makuupaikkaa koskeva määräys](https://www.fmcsa.dot.gov/regulations/hours-of-service) edellyttää, että kuljettajat viettävät vähintään 7 peräkkäistä tuntia makuupaikassa osana 10 tunnin poissaoloaikaa.Vuodepaikka 95°F:ssa ei ole laillinen lepoympäristö, ja DOT-tarkastajat ovat alkaneet huomata vaarallisia ohjaamon lämpötilahavaintoja tienvarsitarkastusraporteissa vuodesta 2023 lähtien. Tämä on käytännön syy, jonka vuoksi kalustopäälliköt eivät voi enää sanoa \"käske vain kuljettajia särkemään ikkuna\" – turvasäädin ja ilmansäädin osoittavat nyt molemmat samaan ongelmaan."
+    },
+    {
+      "heading": null,
+      "body": "**Vuorovaikutusvaikutuksella** on merkitystä vaatimustenmukaisuustarkastuksissa: toistuviin joutokäyntisääntörikkomuksiin CA tai NJ:ssä osuma laivasto nostaa myös FMCSA:n turvallisuusluokituslipun, koska taustalla oleva käyttäytymismalli (kuljettajat jättävät moottorin käymään ohjaamon mukavuuden vuoksi HOS-levon aikana) aiheuttaa sekä päästöjen rikkomisen että väsymis-/tarkastustietueen ongelman.Yhden ratkaiseminen ratkaisee molemmat."
+    },
+    {
+      "heading": null,
+      "body": "## ROI calculator: idle cost vs parking AC {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Wikipedia and the EPA documents describe the laws but neither publishes a real ROI.Tässä on matematiikka, jossa käytetään **2026-syöteoletuksia**, jotka jokainen omistaja-operaattori tai kaluston suunnittelija voi korvata omilla numeroillaan."
+    },
+    {
+      "heading": null,
+      "body": "**Syötteet (kansalliset vuoden 2026 keskiarvot):**"
+    },
+    {
+      "heading": null,
+      "body": "- Luokan 8 ratapölkyn päämoottorin polttoaineenkulutus tyhjäkäynnillä: **0,8 gal/tunti** ([ATRI:n joutokäyntikustannustiedot](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Dieselin hinta moottoritiellä (toukokuu 2026): **3,95 dollaria/gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Joutokäyntitunteja per yö (jäähdytyskausi, touko-syyskuu): **9 tuntia**"
+    },
+    {
+      "heading": null,
+      "body": "- Idle nights per year (cooling-relevant): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Keskimääräinen sakkojen riski säännösten vastaista vuotta kohti (4 täytäntöönpanovaltion reitti, 2026 täytäntöönpanotiedot): **420 $**"
+    },
+    {
+      "heading": null,
+      "body": "- Päämoottorin joutokäynnin kulumiskustannukset: **0,30 $ / tyhjäkäyntitunti** (öljynvaihtovälin kiihtyvyys + EGR/DPF-rasitus, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Vuotuiset joutokäynnin kustannukset ohjaamon jäähdytyksessä (ei tee mitään):**"
+    },
+    {
+      "heading": null,
+      "body": "|Kustannuskomponentti |Matematiikka |Vuotuinen $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Polttoaine |9 h × 140 yötä × 0,8 gal × 3,95 $ |**3 981 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|Moottorin kuluminen |9 h × 140 yötä × 0,30 $ |**378 dollaria** |"
+    },
+    {
+      "heading": null,
+      "body": "|Hieno riski (kansallinen keskiarvo) |täytäntöönpanon ja valtion yhdistelmä |**420 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Vuotuiset joutokäyntikulut yhteensä** ||**4 779 $** |"
+    },
+    {
+      "heading": null,
+      "body": "**Akun pysäköinnin vuotuiset kustannukset AC-yhteensopivuudesta:**"
+    },
+    {
+      "heading": null,
+      "body": "|Kustannuskomponentti |Matematiikka |Vuotuinen $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Laitteisto kuoletettu (3 vuotta 2 800 dollarin 12V/24V akun vaihtovirtalähteellä, kuten [CoolDrivePro VTH1](/products/vth1)) |2 800 $ / 3 |**933 dollaria** |"
+    },
+    {
+      "heading": null,
+      "body": "|Lisätty maalataus / vaihtovirtageneraattorin aika |~110 kWh × 0,15 $ |**17 dollaria** |"
+    },
+    {
+      "heading": null,
+      "body": "|Akkupankin kulut (LiFePO4 lisätyt solut yli 5 vuotta) |1 200 $ / 5 |**240 dollaria** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Vuotuinen pysäköinti AC-hinta** ||**1 190 $** |"
+    },
+    {
+      "heading": null,
+      "body": "**Vuotuinen nettosäästö: 4 779 $ – 1 190 $ = 3 589 $ kuorma-autoa kohti vuodessa.**"
+    },
+    {
+      "heading": null,
+      "body": "**Yksinkertainen takaisinmaksuaika 2 800 dollarin yksiköstä + 1 200 dollarin akun päivitys = 13,4 kuukautta** kansallisesti keskimäärin.Korkean täytäntöönpanon osavaltioissa (CA, NJ, NY, MD) takaisinmaksuaika tiivistyy alle 9 kuukauteen, koska hienoriskiraja hyppää 420 dollarista 1 800 dollariin + vuodessa."
+    },
+    {
+      "heading": null,
+      "body": "CA + NV + AZ -kaistaa kuljettava 50-kuorma-auton kalusto tarkoittaa **179 000 dollarin säästöä vuodessa** – minkä vuoksi jokainen suuri kuljetusliike, jolle olemme myyneet vuodesta 2024 lähtien, rakentaa pysäköinnin AC-sarjan suoraan teknisiin tietoihin, kun he päivittävät kuorma-autoja."
+    },
+    {
+      "heading": null,
+      "body": "## Vaatimustenmukaisuuspolut kokonaiskustannusten perusteella järjestetyssä {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Vuoden 2026 sääntöjoukon sisällä pysymiseen on olemassa neljä polkua.Listattu halvimmasta kalleimpaan 3 vuoden omistushorisontin aikana:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Akkupysäköinti AC (halvin, ~1 190 $ / vuosi).** Esimerkkejä: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Plussat: kevyin (45–80 lb), hiljainen (<48 dB ohjaamo), ei huoltoa suodattimen puhdistuksen lisäksi, täysi SmartWay-peitto.Miinukset: riippuu akun kapasiteetista yön yli - yksi Group 31 AGM ei riitä;LiFePO4 tai 200+ Ah ​​AGM-pankki vaaditaan.Katso [12V vs 24V pysäköinti-AC-vertailu](/compare/12v-vs-24v-parking-ac/) mitoitusta varten."
+    },
+    {
+      "heading": null,
+      "body": "**2.Sähköinen APU (kesk., ~1 800–2 400 $ / vuosi).** Esimerkkejä: Bergstrom NITE, tyhjäkäynti vapaa.Plussat: toimii myös 120 V:n laitteissa (mikroaaltouuni, jääkaappi), pidempi käyttöaika kuin pelkällä akulla.Miinukset: raskaampi (~ 250 lb), kalliimpi ($ 6 000 - $ 9 500), enemmän vikapisteitä.Paras kuljettajille, jotka tarvitsevat täyden hotellitilan sähkökuorman."
+    },
+    {
+      "heading": null,
+      "body": "**3.Diesel APU (korkein, ~2 600–3 800 $ / vuosi).** Esimerkkejä: Thermo King TriPac, Carrier ComfortPro.Plussat: rajoittamaton käyttöaika niin kauan kuin polttoainetta on olemassa. Laivastoteknikot ymmärtävät sen hyvin.Huonot puolet: Edelleen päästää – vapautetaan säännön mukaan vain, jos se itse on SmartWay-varmennettu, polttaa ~0,2 gal/h, 9 500–13 000 dollaria asennettuna, säännöllinen huolto vaaditaan.[TriPacin vaihtoehtoinen maisema](/blog/dometic-vs-webasto-parking-ac/) on siirtynyt voimakkaasti kohti akkua vuosina 2024–2026."
+    },
+    {
+      "heading": null,
+      "body": "**4.Älä tee mitään (kallein, ~4 779 dollaria / vuosi + kasvava hieno riski).** Ei todellinen vaihtoehto laivastoille, jotka käyttävät CA- tai NE-käytäväkaistaa;lainvalvontavaltioiden ulkopuolisille omistaja-operaattoreille se kestää vielä 1–2 vuotta seuraavaan suureen tyhjäkäynnin polttoaineen hinnan nousuun.Emme suosittele sitä vuoden 2026+ kuorma-auton ostoon."
+    },
+    {
+      "heading": null,
+      "body": "## Kuljettajan ja lähettäjän tarkistuslista (tulostettava)"
+    },
+    {
+      "heading": null,
+      "body": "Käsittele alla olevia luoteja ohjaamon puolen vaatimustenmukaisuuslokina.Painettu kopio laminoitu;DOT-tarkastajat, jotka näkevät kuljettajien kantavan omat asiakirjansa, liikkuvat yleensä nopeammin:"
+    },
+    {
+      "heading": null,
+      "body": "- **Päivittäinen lokikirjaus**, kun pysäköinti-AC:tä käytetään moottorin joutokäynnin sijasta: käynnistysaika, sammutusaika, ympäristön lämpötila, sijainti, järjestelmän SKU ja sarjanumero."
+    },
+    {
+      "heading": null,
+      "body": "- **Photoproof** SmartWay-vahvistustarrasta pysäköinti-AC-yksikössä – säästää riitelyn tarkastajan kanssa, joka ei ole muistanut vahvistettua luetteloa."
+    },
+    {
+      "heading": null,
+      "body": "- **Akun varaustilalukemat** lepoajan alussa ja lopussa, jos ne haastetaan - todistaa, että vaihtovirta todella käytti akkua, eikä se ollut peitetarina moottorin joutokäynnistä."
+    },
+    {
+      "heading": null,
+      "body": "- **Valtion sääntöjen mukainen huijauskortti** juoksemillesi raiteille – laminoitu 2-sivuinen tuloste yllä olevasta 50 osavaltion taulukosta riittää;jaamme nämä messuilla."
+    },
+    {
+      "heading": null,
+      "body": "- **Poikkeusvaatimuksen kieli** muistiin: \"Tässä ajoneuvossa on SmartWay-vahvistettu akkuilmastointijärjestelmä [omavaltiosi] vaihtoehtoisen ohjaamon mukavuustekniikan poikkeuksen mukaisesti.\"Tämä yksittäinen lause päättää 80 % tienvarsikeskusteluista."
+    },
+    {
+      "heading": null,
+      "body": "- Pysäköinti-AC:n **huoltoloki**: suodattimen puhdistus neljännesvuosittain, akun kuntotarkastus vuosittain.Yksikkö, joka epäonnistuu keskellä lepoa, luo kiusauksen toimia tyhjäkäynnillä, mikä aiheuttaa rikkomuksen."
+    },
+    {
+      "heading": null,
+      "body": "- **Dispatcher-eskalaatio**: kaikki tienvarsiliput saavat saman päivän kuvan lähetettävästä lainauksesta.Toistuvien rikosten sakkojen kertoimet NJ:ssä, MD:ssä ja CA:ssa nollataan 12–36 kuukauden kuluttua – laivaston on seurattava, mitkä kuorma-autot ovat ajan tasalla."
+    },
+    {
+      "heading": null,
+      "body": "## UKK"
+    },
+    {
+      "heading": null,
+      "body": "**Missä Yhdysvaltojen osavaltioissa on tiukimmat joutokäyntiä estävät lait vuonna 2026?**"
+    },
+    {
+      "heading": null,
+      "body": "Kalifornia (CARB ATCM, 300–25 000 dollaria), New Jersey (3 minuutin raja, toiston kaksinkertaistaminen), New York (NYC:n paikallinen laki 5, kansalaisten ilmoitus 350–2 000 dollaria), Massachusetts ja Maryland (molemmat 5 minuuttia hienoilla korkilla lähellä 25 000 dollaria), ja Connectic-kuviot (3) minuutilla250–5 000 dollaria).DC on teknisesti rikkomuskohtaisen listan kärjessä 500–5 000 dollarilla plus aggressiivisella täytäntöönpanolla."
+    },
+    {
+      "heading": null,
+      "body": "**Lasketaanko pysäköintiilmastointi joutokäynnin estosääntöjen mukaiseksi?**"
+    },
+    {
+      "heading": null,
+      "body": "Kyllä kaikissa tiloissa, joissa on aktiivinen sääntö, edellyttäen, että yksikkö on SmartWay-sertifioitu tai tunnustettu osavaltion \"vaihtoehtoisen teknologian\" mukaisesti.Vain akkukäyttöinen pysäköinti AC (ei pääkonetta käynnissä) on puhtain vaatimustenmukaisuusasento, ja Kalifornia, NJ, NY, MD ja CA nimeävät sen sääntötekstissään.Katso [no idle truck AC primer](/blog/no-idle-truck-ac/) oikeusperustasta englanniksi."
+    },
+    {
+      "heading": null,
+      "body": "**Onko kuorma-autoille olemassa liittovaltion joutokäynnin estolaki?**"
+    },
+    {
+      "heading": null,
+      "body": "Yhtä ainoaa liittovaltion käyttämättömyyttä koskevaa lakia ei ole, mutta EPA Clean Air Act -kehys ja SmartWay-verified-lista -ohjelma standardoivat tehokkaasti sen, mikä lasketaan aktiivisten sääntöjen noudattamiselle 19 osavaltiossa.FMCSA HOS:n säännöt edellyttävät erikseen asuttavaa makuupaikkaa, mikä on käytännössä vuorovaikutuksessa joutokäynnin estosääntöjen kanssa."
+    },
+    {
+      "heading": null,
+      "body": "**Mikä on keskimääräinen polttoainehinta, jos luokan 8 kuorma-autoa käytetään joutokäynnillä 10 tuntia?**"
+    },
+    {
+      "heading": null,
+      "body": "Päämoottorin tyhjäkäynnillä 0,8 gal/tunti ja toukokuun 2026 kansallisella dieselin keskiarvolla 3,95 dollaria/gal, 10 tunnin lepo maksaa **31,60 dollaria pelkällä polttoaineella** – plus noin 3 dollaria kiihdytetystä moottorin kulumisesta ja hienosta riskistä, jos olet säännellyllä alueella.Yli 140 viilennysyötä vuodessa, mikä yhdistetään yllä olevassa ROI-laskimessa käytettyyn 4 779 dollarin numeroon."
+    },
+    {
+      "heading": null,
+      "body": "**Kuinka paljon autokalusto voi säästää vuodessa kuorma-autoa kohden pysäköintiilmastolla?**"
+    },
+    {
+      "heading": null,
+      "body": "Kansallinen keskiarvo on **3 589 dollaria / kuorma-auto / vuosi** ilman laitteiston poistoja.Korkean täytäntöönpanon osavaltioissa luku nousee yli 4 500 dollariin, koska hienoriskikomponentti kasvaa.50 kuorma-auton laivasto CA:n raskailla teillä säästää tyypillisesti yli 200 000 dollaria vuodessa.Katso [parking AC-polttoaineen säästölaskuri](/blog/parking-ac-fuel-savings-calculator/) mallista, jossa on muokattavissa olevat syötteet, ja [anti-idling law overview](/blog/no-idle-ac-anti-idling-laws/) saadaksesi säädösten taustaa."
+    },
+    {
+      "heading": null,
+      "body": "**Entä DEF-jäädytys kylmällä säällä?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (diesel pakoneste) alkaa kiteytyä lähellä 12°F.Useimmat kylmän tilan joutokäyntisäännöt (NJ, NH, VT, Minnesota Twin Cities) sisältävät alle 25 °F:n poikkeuksen, joka kattaa nimenomaisesti DEF-suojauksen, mutta puhtaampi vastaus vuonna 2026 on SmartWay-sertifioitu dieselkäyttöinen kerroslämmitin + akun pysäköinti AC-yhdistelmä, joka hoitaa sekä jäähdytysriskin että talvikauden DEF-moottorin joutokäynnin.Tämä yhdistelmä on se, mitä useimmat pohjoisen laivaston tarjouspyynnöt nyt määrittävät."
+    },
+    {
+      "heading": null,
+      "body": "## Lopputulos"
+    },
+    {
+      "heading": null,
+      "body": "Osavaltiokohtaiset joutokäynnin vastaiset lait vuonna 2026 eivät ole löystymässä – sakot nousevat, kansalaisten ilmoittamistyökalut leviävät NYC:stä muihin metroihin, ja FMCSA alkaa vertailla joutokäyntirikkomuksia turvallisuusluokitteluihin.Matematiikka on nyt vakaasti akun pysäköinnin puolella: alle 1 200 dollaria vuodessa all-in vs. lähes 5 000 dollaria vuodessa ei-tee-mitään-polussa, takaisinmaksuaika alle 14 kuukaudessa kansallisesti ja alle 9 kuukaudessa länsirannikon kaistalla."
+    },
+    {
+      "heading": null,
+      "body": "Jos haluat apua yksikön määrittämisessä kuorma-autollesi tai kalustollesi, [CoolDrivePro VTH1 12V/24V akkuparkki AC](/products/vth1) on SmartWay-kelpoinen suosituksemme, ja [__CDP_DP__TERM_9_C_9_M_8vertailu](/compare/12v-vs-24v-parking-ac/) on oikea paikka aloittaa koon määrittäminen."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "title": "Undang-undang Anti-Melahu Negeri demi Negeri 2026: Carian 50 Negeri + Kalkulator AC ROI Tempat Letak Kereta",
+  "date": "2026-06-08",
+  "category": "Peraturan & Pematuhan",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Peta AS menunjukkan undang-undang anti-melahu negeri demi negeri 2026 dengan tindanan pematuhan AC tempat letak kereta",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Kesemua 50 undang-undang anti-melahu negeri AS untuk 2026 dalam satu jadual — julat halus, had 5- lwn 15 minit, pengecualian tidur/DEF dan ROI yang berjaya menunjukkan cara AC letak bateri membayar balik dalam 9–14 bulan berbanding denda melahu serta kos bahan api.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Jika anda memandu Kelas 8 pada 2026, **undang-undang anti-melahu negeri mengikut negeri 2026** bukan lagi sesuatu yang boleh anda abaikan.Empat puluh satu negeri AS dan kebanyakan metro utama kini mengehadkan masa melahu enjin pada rehat yang diparkir, denda berkisar antara $50 hingga lebih $25,000 setiap pelanggaran, dan penguatkuasaan di perhentian trak, stesen timbang dan kawasan rehat telah meningkat dengan mendadak sejak penyegaran semula program EPA SmartWay 2024."
+    },
+    {
+      "heading": null,
+      "body": "Halaman ini ialah rujukan kerja yang kami hantar kepada pengurus armada dan pengendali pemilik yang bertanya tiga soalan: *apakah yang sebenarnya dinyatakan oleh negeri saya pada tahun 2026, adakah AC tempat letak kereta saya dikira sebagai pematuhan dan berapakah kos tahunan sebenar untuk kekal tidak patuh berbanding membelanjakan $2,800 pada AC tempat letak kereta bateri*.Kami menjawab ketiga-tiga di bawah — dengan jadual carian 50 keadaan, pecahan ROI berangka dan lajur jujur ​​yang menunjukkan tempat AC letak bateri sesuai dan tempat yang tidak sesuai."
+    },
+    {
+      "heading": null,
+      "body": "Navigasi pantas: lompat ke [jadual 50 keadaan](jadual #the-50-state-lookup-table), [kalkulator ROI](#roi-calculator-idle-cost-vs-parking-ac), atau [peringkat pematuhan](#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR — 10 negeri yang paling ketat dan apa yang mereka denda pada 2026"
+    },
+    {
+      "heading": null,
+      "body": "Jika anda hanya membaca satu perenggan: California, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah dan Colorado menjalankan penguatkuasaan 2026 yang paling ketat.Had melahu dalam kumpulan ini ialah **5 minit** (CA, NJ, MA, CT, MD) atau **3 minit** (NYC, daerah komersial NJ) apabila suhu ambien adalah antara kira-kira 25°F dan 75°F.Had 10 minit dan **15 minit** yang lebih longgar di Nevada, Virginia Barat dan beberapa bahagian Illinois masih digunakan untuk trak komersial — pemisahan **5 minit berbanding 15 minit** ialah satu-satunya fakta yang paling mengelirukan dalam menaiki pesawat.Di luar band itu, pengecualian tempat tidur tidur biasanya bermula — tetapi hanya jika pengendali boleh membuktikan pengecualian itu, di mana kebanyakan pelanggaran sebenarnya berlaku."
+    },
+    {
+      "heading": null,
+      "body": "Struktur halus pada tahun 2026 adalah yang paling berubah.Era \"tiket $100 dan teruskan\" telah berakhir untuk pesalah berulang.**California ATCM** di bawah [peraturan terbiar tugas berat CARB](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) menyusun penalti: $300 pelanggaran pertama, $1,000 saat dalam tempoh 36 bulan, sehingga $25,000 untuk corak seluruh armada.**New Jersey** menggandakan denda atas kesalahan kedua dalam tempoh 12 bulan.**NYC Local Law 5** membenarkan tiket yang dilaporkan warganegara pada harga $350–$2,000."
+    },
+    {
+      "heading": null,
+      "body": "Empat pengecualian yang muncul di mana-mana: (1) **tempat tidur** berehat dengan ambien di bawah 25°F atau di atas 75°F (paling biasa), (2) **Perlindungan pembekuan DEF** apabila ambien menurun di bawah ~30°F, (3) **berhenti lalu lintas** melahu, (4) —penggunaan EPA SmartWay_TERM_0DP_TERM_1CDP yang telah disahkan oleh bateri** __1CDPselebihnya halaman ini dibina di sekeliling."
+    },
+    {
+      "heading": null,
+      "body": "## Bagaimana undang-undang anti-melahu AS sampai di sini (sejarah 1 perenggan)"
+    },
+    {
+      "heading": null,
+      "body": "Tulang belakang undang-undang kembali kepada pindaan **Clean Air Act 1990** (**CAA 1990**) yang memberikan kuasa EPA ke atas pelepasan sumber mudah alih.Pada tahun 2004 EPA melancarkan **SmartWay**, program pengesahan sukarela untuk teknologi pengurangan terbiar yang menjadi senarai rujukan de facto yang dinyatakan semasa mengukir pengecualian.California **CARB** pergi paling jauh pada tahun 2008 dengan **Airborne Toxic Control Measure (ATCM)** untuk kenderaan bermotor komersil bahan api diesel yang sedang digunakan — had 5 minit di seluruh negeri dengan gigi penguatkuasaan.Peruntukan **FMCSA Hours-of-Service (HOS)** persekutuan tempat tidur tidur, dimodenkan pada tahun 2020 dan disegarkan semula pada tahun 2024, memerlukan pemandu untuk berehat di tempat tidur tidur yang, dalam praktiknya, mesti dikawal suhu supaya boleh didiami — iaitu undang-undang anti-melahu konflik yang dicipta dan penyelesaian AC meletak kenderaan."
+    },
+    {
+      "heading": null,
+      "body": "## Jadual carian 50 keadaan {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Dikemas kini untuk **penguatkuasaan **2026** berdasarkan [Kompilasi EPA Peraturan Melahu Negeri](https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) dan buletin DOT negeri yang dikeluarkan melalui Q1 2026. \"Sistem Pematuhan AC Tempat Letak Bateri yang disejukkan\" bermaksud sistem pematuhan AC Pintar Letak Bateri yang disejukkan\"memenuhi pengecualian tanpa enjin melahu."
+    },
+    {
+      "heading": null,
+      "body": "|Negeri |Had terbiar |Julat halus |Pengecualian tidur |APU dikecualikan |Tempat letak bateri mematuhi AC |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Tiada di seluruh negeri |— |— |— |✅ (tiada peraturan) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 min (Maricopa) |$300–$1,500 |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|California |5 min (CARB ATCM) |$300–$25,000 |Y >75°F atau <25°F |Y (disahkan) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 min (Denver/tempatan) |$100–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 min |$250–$5,000 |Y <20°F atau >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 min |$50–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida |5 min (Miami-Dade) |$150–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Georgia |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaii |3 min |$100–$1,000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 min (Chicago) |$50–$500 |Y <32°F atau >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 min |$150–$1,500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 min |$500–$25,000 |Y <40°F atau >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 min |$100–$25,000 |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 min (Mpls/St Paul) |$25–$1,000 |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 min (Clark/Washoe) |$100–$500 |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 min |$100–$1,000 |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 min |$250–$5,000 |Y <25°F atau >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Mexico |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |Negeri 5 minit / 3 minit NYC |$350–$2,000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Carolina Utara |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dakota Utara |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 min |$190–$2,000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvania |5 min (Akta Melahu Diesel) |$150–$1,000 |Y <40°F atau >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pulau Rhode |5 min |$100–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Carolina Selatan |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dakota Selatan |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texas |5 min (daerah TCEQ) |$200–$2,000 |Y <40°F atau >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 min (Tasik Garam) |$115–$300 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 min |$100–$1,000 |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia |10 min keadaan / 3 min N. VA |$250–$25,000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia Barat |15 min |$150 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Tiada di seluruh negeri |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 min musim panas / 5 min musim sejuk |$500–$5,000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Perhatikan corak struktur: **setiap keadaan dengan peraturan aktif memberikan laluan pematuhan AC letak bateri**.Ini bukan satu kemalangan — apabila CARB dan EPA menulis peraturan model, mereka secara jelas memasukkan \"teknologi alternatif yang memberikan keselesaan teksi tanpa operasi enjin utama\" supaya armada boleh mematuhi tanpa meletakkan trak diesel di lot 100°F tanpa penyejukan.Pengecualian tempat tidur dan DEF adalah pintu keluar warisan;tempat letak bateri AC adalah yang moden."
+    },
+    {
+      "heading": null,
+      "body": "## Lapisan persekutuan: Interaksi EPA SmartWay + FMCSA HOS"
+    },
+    {
+      "heading": null,
+      "body": "**Tiada undang-undang anti-melahu persekutuan tunggal untuk trak** pada tahun 2026. Apa yang kelihatan persekutuan sebenarnya adalah dua program yang bertindih dengan peraturan negeri:"
+    },
+    {
+      "heading": null,
+      "body": "**Senarai sah EPA SmartWay.** SmartWay mengekalkan [senarai teknologi pengurangan terbiar yang disahkan](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies) yang menyatakan rujukan semasa mentakrifkan pengecualian.Jika AC tempat letak kereta anda berada dalam senarai ini, anda mempunyai pembelaan di mahkamah di setiap negeri yang mengiktirafnya — yang mana pada 2026 ialah kesemua 19 negeri dengan peraturan terbiar aktif.Sistem AC letak bateri daripada Webasto, Dometic, Bergstrom NITE dan CoolDrivePro VTH1 semuanya ada dalam senarai atau layak untuk penyenaraian."
+    },
+    {
+      "heading": null,
+      "body": "**Waktu Perkhidmatan (HOS) FMCSA.** [peruntukan tempat tidur persekutuan](https://www.fmcsa.dot.gov/regulations/hours-of-service) memerlukan pemandu mengambil sekurang-kurangnya 7 jam berturut-turut di tempat tidur sebagai sebahagian daripada tetapan semula 10 jam tidak bertugas.Tempat tidur pada suhu 95°F bukanlah persekitaran rehat yang sah, dan pemeriksa DOT telah mula mencatat penemuan suhu teksi yang tidak selamat pada laporan pemeriksaan tepi jalan sejak 2023. Inilah sebab praktikal pengurus armada tidak boleh lagi mengatakan \"hanya beritahu pemandu untuk memecahkan tingkap\" — pengawal selia masalah keselamatan dan pengawal selia udara kini kedua-duanya menunjuk ke arah yang sama."
+    },
+    {
+      "heading": null,
+      "body": "**kesan interaksi** penting untuk audit pematuhan: serangan armada dengan pelanggaran peraturan terbiar berulang di CA atau NJ juga menaikkan bendera penarafan keselamatan FMCSA, kerana corak tingkah laku asas (pemandu membiarkan enjin berjalan untuk keselesaan teksi semasa rehat HOS) mewujudkan pelanggaran pelepasan dan masalah rekod keletihan/pemeriksaan.Menyelesaikan satu menyelesaikan kedua-duanya."
+    },
+    {
+      "heading": null,
+      "body": "## Kalkulator ROI: kos terbiar lwn tempat letak kereta AC {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Wikipedia dan dokumen EPA menerangkan undang-undang tetapi tidak menerbitkan ROI sebenar.Berikut ialah matematiknya, menggunakan **andaian input 2026** mana-mana pemilik-pengendali atau perancang armada boleh menggantikan dengan nombor mereka sendiri."
+    },
+    {
+      "heading": null,
+      "body": "**Input (purata kebangsaan 2026):**"
+    },
+    {
+      "heading": null,
+      "body": "- Pembakaran bahan api melahu enjin utama tidur kelas 8: **0.8 gal/jam** ([Data kos melahu ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Harga diesel di lebuh raya (Mei 2026): **$3.95 / gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Waktu terbiar setiap malam (musim sejuk, Mei–Sept): **9 jam**"
+    },
+    {
+      "heading": null,
+      "body": "- Malam terbiar setahun (berkaitan penyejukan): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Purata risiko denda setiap tahun tidak mematuhi (laluan negeri penguatkuasaan, data penguatkuasaan 2026): **$420**"
+    },
+    {
+      "heading": null,
+      "body": "- Kos haus dan lusuh bagi melahu enjin utama: **$0.30 / jam terbiar** (pecutan selang pertukaran minyak + tegasan EGR/DPF, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Kos tahunan melahu untuk penyejukan teksi (laluan tidak melakukan apa-apa):**"
+    },
+    {
+      "heading": null,
+      "body": "|Komponen kos |Matematik |$ tahunan |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Bahan api |9 jam × 140 malam × 0.8 gal × $3.95 |**$3,981** |"
+    },
+    {
+      "heading": null,
+      "body": "|Kehausan enjin |9 jam × 140 malam × $0.30 |**$378** |"
+    },
+    {
+      "heading": null,
+      "body": "|Risiko denda (purata kebangsaan) |campuran negeri penguatkuasaan |**$420** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Jumlah kos terbiar tahunan** ||**$4,779** |"
+    },
+    {
+      "heading": null,
+      "body": "**Kos tahunan pematuhan AC letak bateri:**"
+    },
+    {
+      "heading": null,
+      "body": "|Komponen kos |Matematik |$ tahunan |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Perkakasan dilunaskan (hayat 3 tahun pada $2,800 12V/24V tempat letak kenderaan bateri AC seperti [CoolDrivePro VTH1](/products/vth1)) |$2,800 / 3 |**$933** |"
+    },
+    {
+      "heading": null,
+      "body": "|Menambahkan caj pantai / masa alternator |~110 kWj × $0.15 |**$17** |"
+    },
+    {
+      "heading": null,
+      "body": "|Pelunasan bank bateri (LiFePO4 sel ditambah lebih 5 tahun) |$1,200 / 5 |**$240** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Jumlah kos AC tempat letak kereta tahunan** ||**$1,190** |"
+    },
+    {
+      "heading": null,
+      "body": "**Penjimatan tahunan bersih: $4,779 − $1,190 = $3,589 setiap trak setahun.**"
+    },
+    {
+      "heading": null,
+      "body": "**Bayaran balik mudah pada $2,800 unit + $1,200 naik taraf bateri = 13.4 bulan** pada purata kebangsaan.Di negeri penguatkuasaan tinggi (CA, NJ, NY, MD) bayaran balik memampatkan kepada bawah 9 bulan kerana garis berisiko halus melonjak daripada $420 kepada $1,800+ setahun."
+    },
+    {
+      "heading": null,
+      "body": "Untuk armada serantau 50 trak yang menjalankan lorong CA + NV + AZ, iaitu **$179,000 dijimatkan setiap tahun** — itulah sebabnya setiap pembawa besar yang kami jual sejak 2024 membina item baris AC tempat letak kereta terus ke dalam spesifikasi apabila mereka menyegarkan trak."
+    },
+    {
+      "heading": null,
+      "body": "## Laluan pematuhan ditarafkan mengikut jumlah kos {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Empat laluan wujud untuk kekal dalam set peraturan 2026.Disenaraikan paling murah hingga paling mahal sepanjang tempoh pemilikan 3 tahun:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Tempat letak bateri AC (paling murah, ~$1,190 / thn).** Contoh: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Kelebihan: berat paling ringan (45–80 lb), senyap (<48 dB kabin), tiada penyelenggaraan selain pembersihan penapis, liputan SmartWay penuh.Keburukan: bergantung pada kapasiti bateri untuk masa jalan semalaman — satu AGM Kumpulan 31 tidak mencukupi;LiFePO4 atau 200+ Ah ​​bank AGM diperlukan.Lihat [12V lwn 24V perbandingan AC tempat letak kereta](/compare/12v-vs-24v-parking-ac/) untuk saiz."
+    },
+    {
+      "heading": null,
+      "body": "**2.Elektrik APU (pertengahan, ~$1,800–$2,400 / thn).** Contoh: Bergstrom NITE, Idle Free.Kelebihan: juga menguasakan peralatan 120V (gelombang mikro, peti sejuk), masa jalan yang lebih lama daripada bateri sahaja.Kekurangan: lebih berat (~250 lb), lebih mahal ($6,000–$9,500), lebih banyak mata kegagalan.Terbaik untuk pemandu yang memerlukan beban elektrik mod hotel penuh."
+    },
+    {
+      "heading": null,
+      "body": "**3.Diesel APU (tertinggi, ~$2,600–$3,800 / tahun).** Contoh: Thermo King TriPac, Carrier ComfortPro.Kelebihan: masa jalan tanpa had selagi bahan api wujud, difahami dengan baik oleh juruteknik armada.Keburukan: masih mengeluarkan — hanya dikecualikan di bawah peraturan jika ia sendiri disahkan SmartWay, terbakar ~0.2 gal/jam, $9,500–$13,000 dipasang, perkhidmatan tetap diperlukan.[landskap alternatif TriPac](/blog/dometic-vs-webasto-parking-ac/) telah beralih dengan kuat ke arah bateri pada 2024–2026."
+    },
+    {
+      "heading": null,
+      "body": "**4.Jangan lakukan apa-apa (paling mahal, ~$4,779 / tahun + risiko denda yang semakin meningkat).** Bukan pilihan sebenar untuk armada yang menjalankan lorong koridor CA atau NE;bagi pemilik-pengendali di luar penguatkuasaan menyatakan ia masih berhenti selama 1–2 tahun sehingga kenaikan harga bahan api terbiar utama seterusnya.Kami tidak mengesyorkannya untuk sebarang pembelian trak 2026+."
+    },
+    {
+      "heading": null,
+      "body": "## Senarai semak pemandu dan penghantar (boleh dicetak)"
+    },
+    {
+      "heading": null,
+      "body": "Anggap peluru di bawah sebagai log pematuhan bahagian teksi.Membawa salinan bercetak berlamina;Pemeriksa DOT yang melihat pemandu membawa dokumentasi mereka sendiri cenderung untuk bergerak lebih pantas:"
+    },
+    {
+      "heading": null,
+      "body": "- **Masukan log harian** apabila AC tempat letak kereta digunakan sebagai ganti enjin melahu: masa hidup, masa rehat, suhu persekitaran, lokasi, SKU sistem dan nombor siri."
+    },
+    {
+      "heading": null,
+      "body": "- **Bukti foto** pelekat pengesahan SmartWay pada unit AC tempat letak kereta — menjimatkan pertengkaran dengan pemeriksa yang belum menghafal senarai yang disahkan."
+    },
+    {
+      "heading": null,
+      "body": "- **Bacaan keadaan cas bateri** pada permulaan dan akhir tempoh rehat jika dicabar — membuktikan AC benar-benar berjalan pada bateri dan bukan cerita penutup untuk melahu enjin."
+    },
+    {
+      "heading": null,
+      "body": "- **Kad tipu peraturan negeri** untuk lorong yang anda jalankan — cetakan 2 halaman berlamina bagi jadual 50 keadaan di atas sudah memadai;kami menyerahkannya di pameran perdagangan."
+    },
+    {
+      "heading": null,
+      "body": "- **Bahasa tuntutan pengecualian** dihafal: \"Kenderaan ini mengendalikan sistem penghawa dingin bateri yang disahkan SmartWay di bawah pengecualian [negeri anda] untuk teknologi keselesaan teksi alternatif.\"Ayat tunggal itu menamatkan 80% perbualan di tepi jalan."
+    },
+    {
+      "heading": null,
+      "body": "- **Log perkhidmatan** untuk AC tempat letak kereta: pembersihan penapis setiap suku tahun, pemeriksaan kesihatan bateri setiap tahun.Unit yang gagal pada pertengahan rehat mewujudkan godaan untuk melahu, yang mewujudkan pelanggaran."
+    },
+    {
+      "heading": null,
+      "body": "- **Peningkatan penghantar**: mana-mana tiket tepi jalan mendapat foto hari yang sama bagi petikan yang dihantar untuk dihantar.Pengganda denda kesalahan berulang dalam NJ, MD dan CA ditetapkan semula selepas 12–36 bulan — armada perlu menjejaki trak yang ada pada masa itu."
+    },
+    {
+      "heading": null,
+      "body": "## Soalan Lazim"
+    },
+    {
+      "heading": null,
+      "body": "**Negeri AS manakah yang mempunyai undang-undang anti-melahu yang paling ketat pada tahun 2026?**"
+    },
+    {
+      "heading": null,
+      "body": "California (CARB ATCM, $300–$25,000), New Jersey (had 3 minit, dua kali ganda untuk ulangan), New York (Undang-undang Tempatan NYC 5 dengan warganegara melaporkan pada $350–$2,000), Massachusetts dan Maryland (kedua-duanya 5 minit dengan penutup halus hampir $25,000 untuk corak armada), dan Connecticut (3–$50 dengan $2, Connecticut).DC secara teknikal mendahului senarai setiap pelanggaran dengan $500–$5,000 serta penguatkuasaan yang agresif."
+    },
+    {
+      "heading": null,
+      "body": "**Adakah AC tempat letak kereta dikira sebagai mematuhi peraturan anti melahu?**"
+    },
+    {
+      "heading": null,
+      "body": "Ya di setiap negeri dengan peraturan aktif, dengan syarat unit itu disahkan atau diiktiraf oleh SmartWay di bawah ukiran \"teknologi alternatif\" negeri.Tempat letak kenderaan menggunakan bateri sahaja AC (tiada enjin utama yang dihidupkan) ialah postur pematuhan paling bersih dan inilah yang dinyatakan secara jelas oleh California, NJ, NY, MD dan CA dalam teks peraturan mereka.Lihat [primer AC tanpa trak terbiar](/blog/no-idle-truck-ac/) untuk mendapatkan asas undang-undang dalam bahasa Inggeris biasa."
+    },
+    {
+      "heading": null,
+      "body": "**Adakah terdapat undang-undang anti-melahu persekutuan untuk trak?**"
+    },
+    {
+      "heading": null,
+      "body": "Tiada satu undang-undang terbiar persekutuan wujud, tetapi rangka kerja Akta Udara Bersih EPA dan program senarai disahkan SmartWay secara berkesan menyeragamkan perkara yang dikira sebagai pematuhan merentas 19 negeri dengan peraturan aktif.Peraturan FMCSA HOS secara berasingan memerlukan rehat tidur yang boleh didiami, yang berinteraksi dengan peraturan anti melahu dalam amalan."
+    },
+    {
+      "heading": null,
+      "body": "**Berapakah purata kos bahan api untuk melahu trak Kelas 8 selama 10 jam?**"
+    },
+    {
+      "heading": null,
+      "body": "Pada 0.8 gal/jam enjin utama melahu dan purata diesel nasional Mei 2026 sebanyak $3.95/gal, rehat 10 jam berharga **$31.60 dalam bahan api sahaja** — ditambah kira-kira $3 dalam kehausan enjin dipercepatkan dan risiko yang baik jika anda berada di lot terkawal.Lebih 140 malam penyejukan setiap tahun yang digabungkan dengan nombor $4,779 yang digunakan dalam kalkulator ROI di atas."
+    },
+    {
+      "heading": null,
+      "body": "**Berapa banyak yang boleh dijimatkan oleh armada bagi setiap trak setahun dengan AC tempat letak kereta?**"
+    },
+    {
+      "heading": null,
+      "body": "Purata nasional ialah **$3,589 / trak / tahun** bersih daripada pelunasan perkakasan.Dalam negeri penguatkuasaan tinggi, jumlahnya meningkat kepada $4,500+ kerana komponen berisiko halus meningkat.Armada 50 trak di lorong berat CA biasanya menjimatkan $200,000+ setahun.Lihat [kalkulator penjimatan bahan api AC parking](/blog/parking-ac-fuel-savings-calculator/) untuk model dengan input boleh diedit dan [gambaran keseluruhan undang-undang anti-melahu](/blog/no-idle-ac-anti-idling-laws/) untuk latar belakang pengawalseliaan."
+    },
+    {
+      "heading": null,
+      "body": "**Bagaimana pula dengan pembekuan DEF dalam keadaan cuaca sejuk?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (cecair ekzos diesel) mula menghablur hampir 12°F.Kebanyakan peraturan melahu keadaan sejuk (NJ, NH, VT, Minnesota Twin Cities) termasuk pengecualian sub-25°F yang secara eksplisit meliputi perlindungan DEF, tetapi jawapan yang lebih bersih pada tahun 2026 ialah kombo pemanas dua tingkat bertenaga diesel + tempat letak bateri yang disahkan SmartWay yang mengendalikan kedua-dua melahu musim penyejukan dan risiko DEF musim sejuk tanpa operasi enjin.Kombo ini ialah spesifikasi kebanyakan RFP armada utara sekarang."
+    },
+    {
+      "heading": null,
+      "body": "## Intinya"
+    },
+    {
+      "heading": null,
+      "body": "Undang-undang anti-melahu negeri demi negeri pada tahun 2026 tidak semakin longgar — denda semakin meningkat, alat pelaporan rakyat merebak dari NYC ke metro lain, dan FMCSA mula merujuk silang pelanggaran terbiar dengan penilaian keselamatan.Matematik kini kukuh di sebelah tempat letak kereta bateri AC: di bawah $1,200 setahun all-in vs hampir $5,000 setahun untuk laluan tidak melakukan apa-apa, dengan bayaran balik di bawah 14 bulan secara nasional dan di bawah 9 bulan di lorong Pantai Barat."
+    },
+    {
+      "heading": null,
+      "body": "Jika anda mahukan bantuan untuk menentukan unit untuk trak atau armada anda, [CoolDrivePro VTH1 12V/24V tempat letak bateri AC](/products/vth1) ialah pengesyoran layak SmartWay kami dan [12V vs __CDP_TERM_TERMperbandingan](/compare/12v-vs-24v-parking-ac/) ialah tempat yang sesuai untuk memulakan saiz."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

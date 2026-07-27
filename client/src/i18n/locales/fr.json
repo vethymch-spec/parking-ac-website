@@ -2,9 +2,9 @@
   "nav": {
     "home": "Accueil",
     "products": "Produits",
-    "topMountedAC": "Climatisation de toit",
-    "miniSplitAC": "Climatisation mini-split",
-    "heatingCoolingAC": "Climatisation chaud/froid",
+    "topMountedAC": "AC de toit",
+    "miniSplitAC": "AC mini-split",
+    "heatingCoolingAC": "AC chaud/froid",
     "allProducts": "Tous les produits",
     "forum": "Forum",
     "blog": "Blog",
@@ -34,10 +34,10 @@
     "supportAvailability": "Disponibilité du support : 11h-21h heure du Pacifique (PT), nous vous répondrons dans les 1-12 heures."
   },
   "hero": {
-    "title": "Climatisation de stationnement pour vie hors réseau et confort mobile",
-    "subtitle": "Climatisation 12V et 24V DC sans ralenti pour camions semi-remorques, VR, fourgons et camping-cars — Refroidissement sans ralenti",
-    "ctaPrimary": "Acheter des produits",
-    "ctaSecondary": "En savoir plus",
+    "title": "Climatiseurs de stationnement 12 V/24 V pour camions, camping-cars, fourgonnettes et flottes",
+    "subtitle": "CoolDrivePro fabrique des climatiseurs de stationnement 12V/24V DC et des systèmes de refroidissement sans ralenti pour les semi-remorques, les RV, les fourgonnettes, les camping-cars, les flottes, les concessionnaires et les installateurs — avec des tarifs B2B, une assistance sous garantie basée aux États-Unis et des conseils d'installation.",
+    "ctaPrimary": "Obtenez une recommandation de compatibilité",
+    "ctaSecondary": "Demander un devis au concessionnaire",
     "badge": "Nouvelle arrivée",
     "trustedBy": "Fait confiance par plus de 10 000 conducteurs dans le monde"
   },
@@ -48,16 +48,6 @@
     "description": "Climatisation de stationnement alimentée par batterie pour camions semi-remorques, VR, fourgons et camping-cars. Refroidissement sans ralenti — Économisez du carburant, réduisez les émissions, restez confortable.",
     "viewDetails": "Acheter maintenant",
     "addToCart": "Ajouter au panier",
-    "specs": "Spécifications",
-    "features": "Caractéristiques",
-    "reviews": "Avis clients",
-    "warranty": "Garantie",
-    "freeShipping": "Livraison gratuite",
-    "support": "Support 24/7",
-    "learnMore": "En savoir plus",
-    "cooling": "Refroidissement",
-    "heating": "Chauffage",
-    "heatingCooling": "Chaud et froid",
     "specs": {
       "coolingCapacity": "Capacité de refroidissement",
       "heatingCapacity": "Capacité de chauffage",
@@ -71,6 +61,15 @@
       "heatingSpeed": "Vitesse de chauffage",
       "airOutput": "Débit d'air"
     },
+    "features": "Caractéristiques",
+    "reviews": "Avis clients",
+    "warranty": "Garantie",
+    "freeShipping": "Assistance facture",
+    "support": "Support 24/7",
+    "learnMore": "En savoir plus",
+    "cooling": "Refroidissement",
+    "heating": "Chauffage",
+    "heatingCooling": "Chaud et froid",
     "topMounted": {
       "title": "Climatisation de toit 12000 BTU",
       "subtitle": "Climatisation 12V/24V DC sans ralenti pour VR et camions",
@@ -81,8 +80,8 @@
       "imageAlt": "Vue éclatée climatisation de toit 10000 BTU — Climatisation 12V/24V DC sans ralenti pour VR et camions"
     },
     "miniSplit": {
-      "title": "Climatisation mini-split 12000 BTU",
-      "subtitle": "Climatisation 12V DC sans ralenti pour camions semi-remorques et VR",
+      "title": "Mini climatiseur de stationnement divisé 12 V/24 V pour cabines semi-couchettes et camping-cars",
+      "subtitle": "Le CoolDrivePro VX3000SP est un mini climatiseur de stationnement divisé 12 V/24 V CC qui offre un refroidissement sans ralenti de 12 000 BTU/h pour les cabines semi-couchettes, les camping-cars, les fourgonnettes et les camping-cars.L'évaporateur intérieur fonctionne à ≤32 dB à l'aide d'un compresseur inverseur double rotatif GMCC, afin que les conducteurs puissent dormir toute la nuit en stationnement sans faire tourner le moteur au ralenti.",
       "description": "Climatisation mini-split 12V DC haute capacité pour cabines de camions semi-remorques, VR et fourgons. Avec 12000 BTU de puissance de refroidissement sans ralenti, cette climatisation sans conduit fonctionne directement sur la batterie du véhicule — pas de générateur, pas de branchement électrique nécessaire. Installation horizontale sur toit adaptée à la plupart des camions et camping-cars.",
       "btu": "12 000 BTU",
       "voltage": "12V DC",
@@ -97,8 +96,8 @@
       "imageAlt": "Chauffe-eau instantané 65000 BTU pour VR et camions semi-remorques — Eau chaude hors réseau"
     },
     "heatingCoolingAC": {
-      "title": "Climatisation chaud/froid V-TH1",
-      "subtitle": "Climatisation rotative 12V/24V DC double mode — Confort toute l'année",
+      "title": "Chauffage et refroidissement 12V/24V, climatisation de stationnement pour camions et camping-cars",
+      "subtitle": "Le CoolDrivePro V-TH1 est un climatiseur de stationnement à pompe à chaleur 12 V/24 V CC qui fournit un refroidissement et un chauffage de 2 000 W pour les semi-camions, les camping-cars, les fourgonnettes et les véhicules spéciaux.Il utilise un compresseur bi-rotatif GMCC avec le réfrigérant R134a et peut augmenter la température de la cabine de 5°C à 30°C en 30 minutes environ — aucun moteur au ralenti et aucune alimentation à quai requise.",
       "description": "La première climatisation de stationnement double mode de CoolDrivePro. La V-TH1 offre jusqu'à 2 000W de refroidissement en été et chauffe votre cabine de 5°C à 30°C en seulement 30 minutes en hiver. Avec compresseur rotatif double GMCC et réfrigérant R134A, cette climatisation rotative 12V/24V DC offre un contrôle climatique toute l'année pour camions, VR, fourgons et véhicules spéciaux — sans ralenti du moteur.",
       "imageAlt": "Climatisation chaud/froid V-TH1 — Climatisation rotative 12V/24V DC double mode"
     },
@@ -108,15 +107,15 @@
       "specifications": "Spécifications",
       "reviews": "Avis clients",
       "faq": "Questions fréquentes",
-      "freeShipping": "Livraison gratuite",
-      "warranty": "Garantie 2 ans",
+      "freeShipping": "Assistance facture",
+      "warranty": "Garantie 1 an",
       "returns": "Retours 30 jours",
       "inStock": "En stock",
       "outOfStock": "Rupture de stock",
       "quantity": "Quantité",
       "shipping": "Expédition",
-      "shippingDesc": "Livraison gratuite pour les commandes de plus de 500 $ aux États-Unis continentaux. Livraison en 3-5 jours ouvrables.",
-      "warrantyDesc": "Garantie constructeur de 2 ans couvrant les défauts de matériaux et de fabrication.",
+      "shippingDesc": "L’expédition est coordonnée après confirmation de la facture. Les délais dépendent de la destination et des détails de commande.",
+      "warrantyDesc": "Garantie fabricant d'un an couvrant les défauts de matériaux et de fabrication.",
       "returnsDesc": "Politique de retour facile de 30 jours. Remboursement complet si insatisfait.",
       "techSpecs": "Spécifications techniques",
       "reviewsTitle": "Ce que disent nos clients",
@@ -205,7 +204,7 @@
   "shopWithUs": {
     "title": "Achetez en confiance",
     "warranty": {
-      "title": "Garantie 2 ans",
+      "title": "Garantie 1 an",
       "description": "Couverture complète de toutes les pièces et main-d'œuvre"
     },
     "returns": {
@@ -213,8 +212,8 @@
       "description": "Retour facile sans questions si insatisfait"
     },
     "shipping": {
-      "title": "Livraison gratuite",
-      "description": "Gratuite pour les commandes de plus de 500 $ aux États-Unis"
+      "title": "Assistance compatibilité",
+      "description": "Confirmez la compatibilité du véhicule avant la facture."
     }
   },
   "blog": {
@@ -242,7 +241,7 @@
       "notFound": "Article non trouvé",
       "backToBlog": "← Retour au blog",
       "readyToExperience": "Prêt à découvrir le refroidissement sans ralenti ?",
-      "exploreOur": "Découvrez nos climatisations 12V/24V — Livraison gratuite pour toutes les commandes aux États-Unis.",
+      "exploreOur": "Découvrez nos climatiseurs 12V/24V et demandez une facture basée sur la compatibilité du véhicule.",
       "shopTopMounted": "Acheter la climatisation VS02 PRO de toit",
       "shopMiniSplit": "Acheter la climatisation VX3000SP mini-split"
     }
@@ -357,7 +356,22 @@
     "readyToStop": "Prêt à arrêter le ralenti ?",
     "joinDrivers": "Rejoignez plus de 10 000 conducteurs dans le monde qui sont passés aux climatisations CoolDrivePro.",
     "shopTop": "Acheter une climatisation de toit",
-    "shopMini": "Acheter une climatisation mini-split"
+    "shopMini": "Acheter une climatisation mini-split",
+    "proofTitle": "Proof you can verify",
+    "proofHeading": "Inside the factory, on the certificates, on the show floor",
+    "proofDesc": "CoolDrivePro is built and shipped by Qingdao Vethy Industrial Co., Ltd. Browse the workshop, certifications and trade-show presence behind every 12V/24V parking AC.",
+    "factoryCard": "Factory tour",
+    "factoryCardDesc": "In-house R&D, SMT and assembly lines with 100% pre-shipment QC for every parking AC unit.",
+    "factoryAlt": "CoolDrivePro / Vethy parking air conditioner manufacturing workshop",
+    "tourFactory": "Tour the factory",
+    "certCard": "Certifications & IP",
+    "certCardDesc": "ISO 9001:2015, CNAS-accredited lab, registered trademark and granted design patent.",
+    "certAlt": "CoolDrivePro ISO 9001 quality certificate and design patent",
+    "viewCerts": "View certificates",
+    "expoCard": "Trade shows",
+    "expoCardDesc": "Live booth demos and distributor meetings across North America, Europe, ANZ and the Middle East.",
+    "expoAlt": "CoolDrivePro parking AC trade show booth and exhibitions",
+    "seeExpos": "See exhibitions"
   },
   "seo": {
     "homeTitle": "Climatisation de stationnement | Climatisation 12V et 24V DC sans ralenti pour camions et VR | CoolDrivePro",

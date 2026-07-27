@@ -2,9 +2,9 @@
   "nav": {
     "home": "Inicio",
     "products": "Productos",
-    "topMountedAC": "Aire acondicionado de techo",
-    "miniSplitAC": "Aire acondicionado mini split",
-    "heatingCoolingAC": "Aire acondicionado calefacción/refrigeración",
+    "topMountedAC": "AC de techo",
+    "miniSplitAC": "AC mini split",
+    "heatingCoolingAC": "AC calor/frío",
     "allProducts": "Todos los productos",
     "forum": "Foro",
     "blog": "Blog",
@@ -34,10 +34,10 @@
     "supportAvailability": "Disponibilidad de soporte: 11 AM - 9 PM Hora del Pacífico (PT), responderemos dentro de 1-12 horas."
   },
   "hero": {
-    "title": "Aire acondicionado de estacionamiento para vida off-grid y confort móvil",
-    "subtitle": "Aire acondicionado 12V y 24V DC sin ralentí para camiones semirremolque, RV, furgonetas y autocaravanas — Fresco sin ralentí",
-    "ctaPrimary": "Comprar productos",
-    "ctaSecondary": "Más información",
+    "title": "Aires acondicionados de estacionamiento de 12 V/24 V para camiones, vehículos recreativos, furgonetas y flotas",
+    "subtitle": "CoolDrivePro fabrica aires acondicionados de estacionamiento 12V/24V DC y sistemas de refrigeración sin ralentí para semirremolques, RV, furgonetas, caravanas, flotas, distribuidores e instaladores, con precios B2B, soporte de garantía con sede en EE. UU. y orientación sobre instalación.",
+    "ctaPrimary": "Obtener recomendación de ajuste",
+    "ctaSecondary": "Solicitar cotización del distribuidor",
     "badge": "Nueva llegada",
     "trustedBy": "Confiado por más de 10,000 conductores en todo el mundo"
   },
@@ -48,16 +48,6 @@
     "description": "Aires acondicionados de estacionamiento alimentados por batería para camiones semirremolque, RV, furgonetas y autocaravanas. Fresco sin ralentí — Ahorre combustible, reduzca emisiones, manténgase cómodo.",
     "viewDetails": "Comprar ahora",
     "addToCart": "Añadir al carrito",
-    "specs": "Especificaciones",
-    "features": "Características",
-    "reviews": "Reseñas de clientes",
-    "warranty": "Garantía",
-    "freeShipping": "Envío gratis",
-    "support": "Soporte 24/7",
-    "learnMore": "Más información",
-    "cooling": "Refrigeración",
-    "heating": "Calefacción",
-    "heatingCooling": "Calefacción y refrigeración",
     "specs": {
       "coolingCapacity": "Capacidad de refrigeración",
       "heatingCapacity": "Capacidad de calefacción",
@@ -71,6 +61,15 @@
       "heatingSpeed": "Velocidad de calefacción",
       "airOutput": "Salida de aire"
     },
+    "features": "Características",
+    "reviews": "Reseñas de clientes",
+    "warranty": "Garantía",
+    "freeShipping": "Soporte de factura",
+    "support": "Soporte 24/7",
+    "learnMore": "Más información",
+    "cooling": "Refrigeración",
+    "heating": "Calefacción",
+    "heatingCooling": "Calefacción y refrigeración",
     "topMounted": {
       "title": "Aire acondicionado de techo 12000 BTU",
       "subtitle": "Aire acondicionado 12V/24V DC sin ralentí para RV y camiones",
@@ -81,8 +80,8 @@
       "imageAlt": "Vista explosionada aire acondicionado de techo 10000 BTU — Aire acondicionado 12V/24V DC sin ralentí para RV y camiones"
     },
     "miniSplit": {
-      "title": "Aire acondicionado mini split 12000 BTU",
-      "subtitle": "Aire acondicionado 12V DC sin ralentí para camiones semirremolque y RV",
+      "title": "Aire acondicionado de estacionamiento mini dividido de 12 V/24 V para cabinas semi-dormitorios y vehículos recreativos",
+      "subtitle": "El CoolDrivePro VX3000SP es un aire acondicionado de estacionamiento mini split de 12 V/24 V CC que ofrece refrigeración sin ralentí de 12 000 BTU/h para cabinas semi-cama, vehículos recreativos, furgonetas y campers.El evaporador interior funciona a ≤32 dB utilizando un compresor inversor de doble rotación GMCC, por lo que los conductores pueden dormir toda la noche estacionado sin tener el motor en ralentí.",
       "description": "Aire acondicionado mini split 12V DC de alta capacidad para cabinas de camiones semirremolque, RV y furgonetas. Con 12000 BTU de potencia de refrigeración sin ralentí, este aire acondicionado sin ductos funciona directamente desde la batería del vehículo — no necesita generador ni conexión a tierra. Instalación horizontal en techo apta para la mayoría de camiones y autocaravanas.",
       "btu": "12,000 BTU",
       "voltage": "12V DC",
@@ -97,8 +96,8 @@
       "imageAlt": "Calentador de agua instantáneo 65000 BTU para RV y camiones semirremolque — Agua caliente off-grid"
     },
     "heatingCoolingAC": {
-      "title": "Aire acondicionado calefacción/refrigeración V-TH1",
-      "subtitle": "Aire acondicionado rotativo 12V/24V DC modo dual — Confort durante todo el año",
+      "title": "Aire acondicionado de estacionamiento con calefacción y refrigeración de 12 V/24 V para camiones y vehículos recreativos",
+      "subtitle": "El CoolDrivePro V-TH1 es un aire acondicionado para estacionamiento con bomba de calor de 12 V/24 V CC que ofrece refrigeración y calefacción de 2000 W para semirremolques, vehículos recreativos, furgonetas y vehículos especiales.Utiliza un compresor rotativo doble GMCC con refrigerante R134a y puede elevar la temperatura de la cabina de 5 °C a 30 °C en aproximadamente 30 minutos, sin tener el motor en ralentí ni necesidad de conexión a tierra.",
       "description": "El primer aire acondicionado de estacionamiento modo dual de CoolDrivePro. El V-TH1 ofrece hasta 2,000W de refrigeración en verano y calienta su cabina de 5°C a 30°C en solo 30 minutos en invierno. Con compresor rotativo doble GMCC y refrigerante R134A, este aire acondicionado rotativo 12V/24V DC proporciona control climático durante todo el año para camiones, RV, furgonetas y vehículos especiales — sin necesidad de ralentí del motor.",
       "imageAlt": "Aire acondicionado calefacción/refrigeración V-TH1 — Aire acondicionado rotativo 12V/24V DC modo dual"
     },
@@ -108,15 +107,15 @@
       "specifications": "Especificaciones",
       "reviews": "Reseñas de clientes",
       "faq": "Preguntas frecuentes",
-      "freeShipping": "Envío gratis",
-      "warranty": "Garantía 2 años",
+      "freeShipping": "Soporte de factura",
+      "warranty": "Garantía de 1 año",
       "returns": "Devoluciones 30 días",
       "inStock": "En stock",
       "outOfStock": "Agotado",
       "quantity": "Cantidad",
       "shipping": "Envío",
-      "shippingDesc": "Envío gratis en pedidos superiores a $500 a Estados Unidos continental. Entrega en 3-5 días hábiles.",
-      "warrantyDesc": "Garantía del fabricante de 2 años que cubre defectos de materiales y mano de obra.",
+      "shippingDesc": "El envío se coordina después de confirmar la factura. Los plazos dependen del destino y los detalles del pedido.",
+      "warrantyDesc": "Garantía del fabricante de 1 año que cubre defectos de materiales y mano de obra.",
       "returnsDesc": "Política de devolución fácil de 30 días. Reembolso completo si no está satisfecho.",
       "techSpecs": "Especificaciones técnicas",
       "reviewsTitle": "Lo que dicen nuestros clientes",
@@ -201,5 +200,10 @@
     "cancel": "Cancelar",
     "posting": "Publicando...",
     "model": "Modelo"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "Garantía de 1 año"
+    }
   }
 }

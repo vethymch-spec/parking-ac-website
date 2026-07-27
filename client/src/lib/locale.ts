@@ -57,8 +57,9 @@ export function detectLocaleFromPath(pathname?: string): LocaleInfo {
  */
 export function buildLocalizedPath(lang: string, pathWithoutLocale: string): string {
   const clean = pathWithoutLocale.startsWith("/") ? pathWithoutLocale : `/${pathWithoutLocale}`;
-  if (lang === DEFAULT_LANG) return clean;
-  return `/${lang}${clean === "/" ? "" : clean}` || `/${lang}`;
+  const withSlash = clean === "/" ? "/" : clean.endsWith("/") ? clean : `${clean}/`;
+  if (lang === DEFAULT_LANG) return withSlash;
+  return `/${lang}${withSlash}`;
 }
 
 export { PREFIXED_LANGS };

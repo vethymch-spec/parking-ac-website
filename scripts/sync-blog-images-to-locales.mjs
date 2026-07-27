@@ -18,6 +18,7 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, '..');
 const BLOG_DIR = path.join(ROOT, 'client/public/data/blog');
 const LOCALES_DIR = path.join(BLOG_DIR, 'locales');
+const EXCLUDED_BLOG_FILES = new Set(['list.json', 'manifest.json', 'locale-availability.json', 'related-posts.json']);
 
 const args = process.argv.slice(2);
 const FORCE = args.includes('--force');
@@ -83,7 +84,7 @@ function syncOne(slug, enArticle, locale) {
 }
 
 function main() {
-  const enFiles = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.json') && !f.startsWith('_'));
+  const enFiles = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.json') && !f.startsWith('_') && !EXCLUDED_BLOG_FILES.has(f));
   const locales = onlyLocale
     ? [onlyLocale]
     : fs.readdirSync(LOCALES_DIR).filter(d => fs.statSync(path.join(LOCALES_DIR, d)).isDirectory());

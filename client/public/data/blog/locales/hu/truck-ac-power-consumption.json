@@ -1,0 +1,148 @@
+{
+  "title": "Teherautó váltóáramú energiafogyasztása: watt, amper és akkumulátorlemerülés magyarázata (2026)",
+  "date": "2026-04-25",
+  "category": "Tápellátás és akkumulátor",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Teherautóparkoló AC energiafogyasztás figyelése sönttel és akkumulátorfigyelővel",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Teherautó váltóáramú energiafogyasztása: átlagosan 480 W, 9 A 24V mellett, 38–55 Ah éjszakánként.Valós számok, képletek az akkumulátor méretéhez, és hogyan csökkentik az inverteres kompresszorok a 30%-ot.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Minden parkoló AC vásárlás végül egy kérdésre tér vissza: mennyi energiát használ ez a dolog, és mekkora akkumulátorra van szükségem?A marketing válasz mindig homályos – „12V kompatibilis”, „energiatakarékos inverter”, „éjszakai hűtési képesség”.Az őszinte válasz egy valós szám wattban, amperben és amperórában, amelyet csatlakoztathat egy akkumulátorméret-képlethez.Ez az útmutató megadja ezeket a számokat, elmagyarázza, honnan származnak, és megmutatja, hogyan alakíthatja át őket olyan akkumulátorrendszerré, amely egy teljes éjszakai hűtést biztosít anélkül, hogy hajnali 4-kor egy halott csomaggal rekedne."
+    },
+    {
+      "heading": null,
+      "body": "A parkoló AC energiafogyasztása nem egy szám.Változik a környezeti hőmérséklettől, a kabin célhőmérsékletétől, a kabin térfogatától, a szigetelés minőségétől, a ventilátor sebességétől és – ami a legfontosabb – attól függően, hogy a kompresszor fix fordulatszámú vagy inverteres.A 12 000 BTU parkoló váltóáram 1400 W-ot húzhat, amikor a kompresszor először teljes terhelésen elindul, de csak 380 W-ot az állandósult hűtés során, amikor a fülke eléri az alapértéket.Az akkumulátor mérete szempontjából a 8 órás éjszakai átlag számít, nem a csúcs.Az alábbiakban lebontjuk a négy számot, amelyek valóban számítanak, és megmutatjuk, hogyan mérheti meg őket egy 35 dolláros shunt alapú akkumulátor-monitorral."
+    },
+    {
+      "heading": null,
+      "body": "## A négy szám, amit tudnod kell"
+    },
+    {
+      "heading": null,
+      "body": "**Csúcsfogyasztás (W vagy A):** A legnagyobb tartós teljesítmény a kezdeti lehűlés során, jellemzően az indítás utáni első 15–25 percben.Egy modern 24V inverter egységnél, mint például a CoolDrivePro V-TH1, a csúcs nagyjából 1200–1400 W (50–58 A 24V esetén).A régebbi fix sebességű egységek 1800–2200 W-ra (75–92 A 24V esetén) emelkedhetnek.A vezetékeknek és a biztosítékoknak ki kell bírniuk a csúcsot – itt az alulméretezett kábelek a leggyakoribb okai a feszültségesésnek és az idő előtti leállásnak.**Általános állapotú húzás (W vagy A):** Az átlagos fogyasztás, amikor a fülke az alapjelen van, és a kompresszor modulál a hőmérséklet fenntartása érdekében.Az inverteres egységek 380–480 W-ra (16–20 A 24V esetén) állnak be.A fix sebességű egységek ciklusosan be- és kikapcsolnak, átlagosan 600–800 W hatékony.**Óránkénti energia (Wh):** Állandó fogyasztás × 1 óra.Egy tipikus inverter egységnél átlagosan 450 W-nál ez 450 Wh/óra.**Összes energia éjszakánként (Wh vagy Ah):** Átlagos fogyasztás × használati óra.Nyolc óra 450 W = 3600 Wh = 150 Ah 12V vagy 75 Ah 24V mellett (az akkumulátor hatékonysági veszteségének figyelembe vétele előtt)."
+    },
+    {
+      "heading": null,
+      "body": "## Inverter vs fix sebességű: miért fontos az akkumulátor lemerülése?"
+    },
+    {
+      "heading": null,
+      "body": "A fix fordulatszámú kompresszor 100%-on működik, amíg a kabin hőmérséklete az alapjel alá nem esik, majd teljesen lekapcsol, amíg vissza nem emelkedik.Ez a ciklus 4-8 percenként ismétlődik éjszaka.Működés közben 1200–1500 W-ot fogyaszt. Kikapcsolt állapotban csak a ventilátort fogyaszt (~50 W).A munkaciklus átlagosan 55–65% egy mérsékelt éjszaka alatt, tehát a tényleges átlag 700–950 W. Ezzel szemben az inverteres kompresszor 30% és 100% közötti kapacitást folyamatosan modulál – soha nem kapcsol ki teljesen, de ritkán működik teljes terhelésen sem.Az eredmény egy egyenletes 380–480 W-os fogyasztás kerékpározási tüskék nélkül.Egy 8 órás éjszaka alatt az inverteres egység 3,0–3,8 kWh-t fogyaszt;a fix fordulatszámú egység 5,6–7,6 kWh-t fogyaszt.Ez nagyjából kétszeresére csökkenti az akkumulátorigényt ugyanazon hűtési teljesítmény mellett.Ha az akkumulátort fix sebességű egységhez méretezi, duplázza meg a specifikációs lapon feltüntetett mennyiséget."
+    },
+    {
+      "heading": null,
+      "body": "## Valós mérések: három egység, ugyanaz a fülke, ugyanaz az éjszaka"
+    },
+    {
+      "heading": null,
+      "body": "2025 júliusában három parkoló AC egységet telepítettünk egyforma 90 cu ft hálófülkébe Phoenixben, AZ 2025 júliusában (tartós 38°C-os környezeti hőmérséklet, 24°C-os kabincél).Kalibrált 500 A-es söntekkel és Victron BMV-712 monitorokkal mérve.**CoolDrivePro V-TH1 (24V inverter, 10 000 BTU csúcs):** 412 W átlag 8 órán keresztül = 3296 Wh = 137 Ah ekvivalens 6_9 AH-nál __CDP__ mellett24V.**Dometic RTX2000 (24V inverter, 10 500 BTU csúcs):** 437 W átlagos = 3 496 Wh = 146 Ah 12V vagy 73 Ah __CDP_TERM __CDP_TER mellett.**Általános, névtelen 12V fix sebességű tetőtéri (8000 BTU):** 780 W átlagos = 6240 Wh = 260 Ah 12V mellett.A fix sebességű egység közel kétszer annyit fogyasztott, mint az akkumulátor, annak ellenére, hogy 20%-kal kevesebb hűtést biztosít – pontosan az elmélet szerint."
+    },
+    {
+      "heading": null,
+      "body": "## Akkumulátor méretezési képlete: Hogyan csatlakoztassa"
+    },
+    {
+      "heading": null,
+      "body": "A működési képlet a következő: **Szükséges akkumulátorkapacitás (Ah) = (AC átlagos fogyasztás W × használati óra) ÷ (akkumulátorfeszültség × használható kisütési mélység)**.Egy CoolDrivePro V-TH1 esetén 412 W-on átlagosan 10 órányi hűtéssel 24V LiFePO4 80%-os felhasználható DoD mellett: (412 × 10) ÷ (24 ÷ 4,8).215 Ah 24V minimumon.Kerekítse fel egy normál 200 Ah-s csomagra, és már alig van elég;A 300 Ah árrést és 2 éjszakás autonómiát biztosít.12V rendszer esetén: (412 × 10) ÷ (12 × 0,80) = 429 Ah 12V mellett.Vegye figyelembe, hogy a LiFePO4 kémia biztonságosan támogatja a DoD 80%-át;ólom-sav csak 50% (ami megduplázza a szükséges kapacitást).A teljes LiFePO4 rendszerspecifikációért, beleértve a DC-DC töltőméretet, tekintse meg [LiFePO4 akkumulátorméretezési útmutatónkat] (/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Feszültségesés: A parkolási AC teljesítmény csendes gyilkosa"
+    },
+    {
+      "heading": null,
+      "body": "Még megfelelő méretű akkumulátor esetén is az alulméretezett vezetékek az energia 10–15%-át megfoszthatják, mielőtt elérnék a váltakozó áramot.Egy 24V rendszerhez, amely 50 A-t húz 30 láb hosszúságú oda-vissza kábelen keresztül, legalább 4 AWG rézre van szüksége ahhoz, hogy a feszültségesést 3% alatt tartsa.Használjon 6 AWG-t rövidebb távokhoz (15 láb alatti oda-vissza út).Használjon 2 AWG-t, ha folyamatosan 60 A fölé tolja, vagy 40 lábnál többet fut. A feszültségesés számít, mert az AC belső vezérlőkártyája az alacsony bemeneti feszültséget „alacsony akkumulátorként” kezeli, és lefojtja a kompresszor kimenetét, vagy ~22 V alatt teljesen lekapcsol 24V rendszeren.Láttuk, hogy a vadonatúj, 4500 dolláros rendszerek borzasztóan teljesítenek, mert a telepítő ugyanazt a 8 AWG-s kábelt használta, mint egy sztereó erősítőhöz – mindig a tényleges áramerősségnek megfelelő méretet, nem a kényelem érdekében."
+    },
+    {
+      "heading": null,
+      "body": "## Mit jelent valójában az „energiahatékony”: COP és EER"
+    },
+    {
+      "heading": null,
+      "body": "Két specifikáció vágott át a marketing ködön.**EER (Energy Efficiency Ratio)** = BTU kimenet ÷ watt bemenet.A CoolDrivePro V-TH1 nagyjából 6500 BTU teljesítményt ad le 412 W átlagos = EER 15,8 mellett.A Dometic RTX2000 = EER 16.0.A fix sebességű generikus = EER 8.4.A magasabb EER több hűtést jelent az akkumulátorból levont wattonként.A **COP (teljesítménytényező)** a metrikus változat: COP = W hűtés ÷ W bemenet.CoolDrivePro V-TH1 1905 W hűtésnél / 412 W bemenet = COP 4.6, ami kivételes a 24V mobilegységeknél.Bármely 2026-os egységtől ≥ 12 EER-igény;A 10 alatti azt jelenti, hogy vagy alulméretezett, vagy régi generációs rotációs kompresszoros technológiával készült.A régebbi, 2018–2020-as egységek általában EER 7–9-et teszteltek – cserélje ki őket, és az akkumulátorrendszere kétszer olyan sokáig bírja."
+    },
+    {
+      "heading": null,
+      "body": "## Valódi illesztőprogramok, valós számok: 30 napos teljesítménynaplók"
+    },
+    {
+      "heading": null,
+      "body": "2025 májusában 30 napos teljesítménynaplókat gyűjtöttünk három, CoolDrivePro V-TH1 rendszert futtató valós távolsági járművezetőtől. **A vezető (TX–CA sávok, átlagos környezeti hőmérséklet 32°C):** 487 W átlagos fogyasztás, 4,3 kWh = 13 kWh összesen 9-9 óránként.Kiszerelés: 200 Ah 24V LiFePO4 (5,12 kWh használható).Sikeresen futott minden este parti áram nélkül, vezetés közben töltés közben 50A DC-DC töltőn keresztül.**B vezető (középnyugat, átlagos környezeti hőmérséklet 26°C):** 351 W átlagos fogyasztás, 2,8 kWh 8 órás éjszakánként.Ugyanaz a 200 Ah-s csomag 70% DoD-vel kényelmesen minden reggel.**C vezérlő (FL, tartósan 30°C+):** 528 W átlagos fogyasztás, 4,7 kWh 9 órás éjszakánként.Reggelre a csomag elérte a 88%-ot – határvonal.Javasoltuk, hogy frissítse 300 Ah-ra;probléma megoldva.Az elvihető: a környezeti hőmérséklet az egyetlen legnagyobb változó.Tervezze a legmelegebb várható állapotot, ne az átlagosat."
+    },
+    {
+      "heading": null,
+      "body": "## Hogyan csökkenthető az energiafogyasztás a hűtés elvesztése nélkül"
+    },
+    {
+      "heading": null,
+      "body": "Öt praktikus kar, ütközés szerint rangsorolva.(1) **A fülke tetejének szigetelése** – 1 hüvelyk polyiso vagy Reflectix hozzáadása a tetőburkolathoz 25–35%-kal csökkenti a hőnyereséget, és arányosan csökkenti a váltakozó áramú munkaciklust.ROI: 80 USD anyagokban, 400 USD/év akkumulátor-megtakarítás.(2) **Fényvisszaverő szélvédőborítás nappali parkolás közben** – 8–12°C-kal csökkenti az utastér hőelvezetési hőmérsékletét, 60%-kal csökkentve a kezdeti hűtési energiát.(3) **Előhűtés vezetés közben** — hagyja, hogy a teherautó fő HVAC hőmérséklete a kabint 22°C-ra melegítse a parkolás előtt, ekkor a parkoló AC-t csak karban kell tartani, nem ütközésig hűteni.70%-kal csökkenti az első óra energiáját.(4) **A termosztátot 24°C-ra állítsa, ne 20°C-ra** – minden fokkal magasabbra 8-10%-kal csökkenti a kompresszor üzemidejét.(5) **Javítsa meg a fülke levegőjének szivárgását** – az ajtótömítések, az ablakvédő szalagok, és különösen a hátsó emeletes ablak több hűtést szivároghat, mint amennyit az AC biztosít.Használjon füstceruzát a szivárgások megtalálásához;szükség szerint cserélje ki a tömítéseket.A legtöbb járművezető 40%-kal csökkentheti éjszakai energiafogyasztását önmagában ezzel az öt lépéssel – anélkül, hogy cserélné a váltakozó áramú egységet."
+    },
+    {
+      "heading": null,
+      "body": "## Napelemes integráció: Az akkumulátor ciklusának és a generátor terhelésének csökkentése"
+    },
+    {
+      "heading": null,
+      "body": "Ha 200–400 W-os tetőtéri napelemet ad egy parkoló AC rendszerhez, az csökkenti az akkumulátor és a teherautó generátorának terhelését vezetés közben.Egy 300 W-os paneltömb 1,2–1,8 kWh-t termel napsütéses napon az Egyesült Államok déli szélességein, 0,8–1,2 kWh-t az északi szélességi körökön – ez a tipikus éjszakai AC-fogyasztás nagyjából 25–45%-a.A gyakorlati hatás: az akkumulátor a legtöbb napon közelebb indul a töltéshez, a DC-DC töltő kevesebbet fogyaszt a generátorból, és a váltakozó áramú működéshez szükséges üzemanyag-fogyasztás 15-25%-kal csökken.Berendezés költsége: 400–700 USD egy 300 W-os, MPPT vezérlővel ellátott rugalmas panelkészletért.14-22 hónap alatt megtérül egy OTR sofőrnek.A napenergia nem csökkenti az akkumulátorszükségletet, de meghosszabbítja az akkumulátor élettartamát azáltal, hogy a napi kisütési mélységet a szokásos 70–80%-ról 50–60%-ra csökkenti.A LiFePO4 sejtek nagyjából 2-szer hosszabb élettartamúak 50% DoD és 80% DoD mellett, így a másodlagos előny jelentős."
+    },
+    {
+      "heading": null,
+      "body": "## Hogyan növeli a fülke szigetelése az akkumulátor hatékonyságát"
+    },
+    {
+      "heading": null,
+      "body": "Az energiafogyasztás a hőterhelés után van.Az egyetlen legnagyobb tőkeáttételű frissítés, amelyet a parkolási váltóáram-fogyasztás csökkentése érdekében végrehajthat, a fülke szigetelésének javítása.Ugyanazt a Cascadia talpfát műszereztük, mielőtt és miután a tetőre és az emeletes falra 1 hüvelyk poliizoréteget adtunk.Előtte: 487 W átlagos éjszakai fogyasztás 32°C környezeti hőmérsékleten.Utána: 348 W átlag – 29%-os csökkenés.A szigetelés anyagára 180 dollárba és 4 óra munkába került.Az akkumulátor megtakarítás önmagában (kisebb csomag szükséges, hosszabb élettartam) kevesebb mint 6 hónap alatt megtérült a frissítés.Ha új akkumulátorrendszert méretez, először végezze el a szigetelést, és mérje meg újra a tényleges terhelést, mielőtt akkumulátort vásárolna.Sok járművezető 30–50%-kal túlméretezi az akkumulátorokat, mert szigeteletlen alapvonalat terveztek.A szigetelés egyben az egyetlen olyan fejlesztés, amely csökkenti mind a váltakozó áramú áramfelvételt, mind a főmotor HVAC üzemanyag-elégését vezetés közben – kettős igénybevétel."
+    },
+    {
+      "heading": null,
+      "body": "## Az akkumulátor öregedése: Miért különbözik a 3. év teljesítménye az 1. évtől"
+    },
+    {
+      "heading": null,
+      "body": "A LiFePO4 akkumulátorok évente nagyjából 2–4%-ot veszítenek kapacitásukból tipikus OTR használat mellett (250 ciklus/év 70–80%-os DoD mellett).A 3. évben egy új 200 Ah-s akkumulátor körülbelül 180–188 Ah használhatóságot biztosít.Az 5. évben 165–175 Ah-ra kell számítani.Ez azért számít, mert ha kezdetben szigorúan méretezte meg a rendszert, akkor a 3. év teljesítménye hiányos lehet a forró éjszakákon.Javítás: 15-25%-os túlméretezés az első vásárláskor.Vásároljon 240 Ah-t 200 Ah-ra, és van ráhagyása a szokatlan hőhatásokra és az akkumulátor természetes öregedésére.Alternatív megoldásként tervezze meg az akkumulátor 5–6. évre történő frissítését, és kezelje fogyóeszközként, mint a fékbetétek.A modern LiFePO4 árak 35%-ot estek 2022 óta, és az előrejelzések szerint 2028-ra további 20%-kal esnek vissza, így a frissítési ciklus megfizethetőbb, mint néhány évvel ezelőtt."
+    },
+    {
+      "heading": null,
+      "body": "## Az akkumulátormonitor adatainak helyes olvasása"
+    },
+    {
+      "heading": null,
+      "body": "Az olyan akkumulátor-monitorok, mint a Victron BMV-712, valós idejű erősítőket, feszültséget, töltöttségi állapotot és fogyasztott amperórákat jelenítenek meg.A legtöbb sofőr rosszul értelmezi a látottakat.Íme, mit jelentenek az egyes számok a gyakorlatban.(1) Valós idejű erősítők: az azonnali húzás – hasznos annak ellenőrzésére, hogy az AC a várt tartományban működik-e, nem pedig a méretezési döntésekhez.(2) Átlagos erősítők: integrálja ezt egy teljes éjszakára a valódi energiafogyasztás eléréséhez – ez a szám, ami számít.(3) Töltési állapot (SoC): kumulatív coulomb-számláláson alapul, ±2%-os pontossággal, megfelelően kalibrált sönttel.Időnként állítsa vissza 100%-ra a bank teljes feltöltésével.(4) Elfogyasztott Ah: a leghasznosabb mérőszám a méretezéshez – kövesse ezt 7–10 reprezentatív éjszakán keresztül, és a maximális értéket használja tervezési pontként.Azok a sofőrök, akik a „kedves” vagy a pillanatnyi csúcspont alapján méreteznek, folyamatosan alulméreteznek.Bízzon az adatokban, ne a zsigerekben."
+    },
+    {
+      "heading": null,
+      "body": "## Edge-tokok: Extrém hideg és extrém meleg"
+    },
+    {
+      "heading": null,
+      "body": "A LiFePO4 akkumulátorok 0°C (32°F) alatt nagyjából 20%-ot veszítenek effektív kapacitásukból, és -10°C (14°F) alatt nem hajlandók tölteni belső fűtés nélkül.Azok a sofőrök, akik éjszakára parkolnak az északi télen, tervezzenek fűtött akkumulátordobozokat (150–300 USD-s kiegészítő), vagy méretezzék túl a bankot a meleg időjárási kapacitás 130%-ára.Szélsőséges, 45°C (113°F) feletti környezeti melegben a parkoló AC inverterek gyakran lelassulnak a kompresszor hőmérsékletének védelme érdekében, és 10-18%-kal csökkentik a hűtési teljesítményt.Az akkumulátorcellák is gyorsabban bomlanak le 40°C környezeti hőmérséklet felett – tartsa szellőzve vagy árnyékolva az akkumulátortartót.Mindkét szélső tok az akkumulátor túlméretezése és az inverteres váltóáramú egységek kiválasztása, dokumentált üzemi hőmérséklet-tartományokkal.Gondosan ellenőrizze a specifikációs lapokat a maximális környezeti értékek tekintetében;Az olcsó egységek gyakran „40°C-ig” jellemzőek, ami nem megfelelő az USA délnyugati részének nyári használatra."
+    },
+    {
+      "heading": null,
+      "body": "## Gyakran Ismételt Kérdések"
+    },
+    {
+      "heading": null,
+      "body": "**Hány ampert fogyaszt egy 12V parkoló AC?**\n\nEgy modern 12V inverter egység (8000–10000 BTU osztály) 30–40 A-t vesz fel állandósult állapotban, és 80–90 A körül éri el a csúcsértéket az indításkor.A 24V ekvivalens feleannyi erősítőt fogyaszt ugyanarra a hűtési kimenetre, ezért a 24V a nagyobb teljesítményű rendszerekben előnyös.\n\n**A teherautó indítóakkumulátoráról működtethetek parkoló váltóáramot?**\n\nNem, soha.Az indítóakkumulátort rövid, nagy áramerősségű kitörésekre (indítóindításra) tervezték, és 20–40 cikluson belül tönkremegy a mély ciklusok hatására.Szüksége van egy dedikált LiFePO4 házi akkumulátorra, amelyet az indítóakkumulátortól DC-DC töltőn keresztül különítenek el.\n\n**Egy 100 Ah-s lítium akkumulátor egész éjjel üzemelteti a parkoló AC-t?**\n\nEgyetlen 100 Ah 12V LiFePO4 (1,28 kWh használható 100% DoD-nél, 1,02 kWh 80% DoD-nél) körülbelül 2,5-3 órányi hűtést biztosít inverteres egységen, vagy 1,5 órát fixen.A teljes éjszakára tervezzen 200–300 Ah-t 12V vagy 100-200 Ah-t 24V esetén.\n\n**Mennyi üzemanyagot éget el a generátor az akkumulátor feltöltéséhez?**\n\nKörülbelül 0,4–0,6 gallon gázolaj kWh-nként 50 A-es DC-DC töltővel töltve vezetés közben.Egy 4 kWh-s éjszakai leeresztő cseréje nagyjából napi 1,6–2,4 gallonba (6,30–10,10 USD) kerül plusz üzemanyagként.Ez még mindig 75-80%-kal olcsóbb, mint az alapjáraton.\n\n**Spórol valamit, ha az akkumulátor helyett a partról fut?**\n\nIgen – 110 V-os parti áram mellett teljesen kihagyja az akkumulátor veszteségeit, és csak a 450 W × 8 óra = 3,6 kWh × 0,13 USD/kWh = 0,47 USD éjszakánkénti árért kell fizetnie.Ha van parti áram, használja azt;tartalékolja az akkumulátort a hálózaton kívüli éjszakákra.\n\n**Mi az a parazita húzás, és számít?**\n\nA parazita húzás az a készenléti áram, amelyet az AC vezérlő húz, amikor „kikapcsolt”.A minőségi egységek (CoolDrivePro V-TH1, Dometic RTX2000) 50 mA alatt fogyasztanak.Az olcsó egységek 200–400 mA-t tudnak húzni, ami heti 5–10 Ah-t vesz igénybe, ha a teherautó tétlenül áll.Keressen olyan egységeket, amelyek készenléti állapotban 100 mA alatt fogyasztanak.\n\n** Reggel előtt lemerül az akkumulátorom – mi a baj?**\n\nNégy valószínű ok gyakoriság szerint rangsorolva: (1) az akkumulátor a tényleges környezeti és használati órákhoz képest alulméretezett, (2) a DC-DC töltő alulméretezett, így az akkumulátor soha nem töltődik fel teljesen meghajtók közben, (3) a kábelezési feszültségesés miatt az AC akkumulátor több ampert vesz fel, hogy fenntartsa a teljesítményt, (4 kapacitása pedig 5 évnél régebbi)20%+.Használjon akkumulátor-monitort a diagnosztizáláshoz;ne tippelj.A [parkolási AC hibaelhárítási ellenőrzőlistánk](/blog/parking-ac-not-cooling-troubleshooting) sorrendben végigjárja az egyes diagnosztikai lépéseket."
+    }
+  ]
+}

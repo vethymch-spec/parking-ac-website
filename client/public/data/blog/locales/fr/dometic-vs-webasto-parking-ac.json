@@ -1,0 +1,164 @@
+{
+  "title": "Dometic vs Webasto Parking AC : comparaison côte à côte (2026)",
+  "date": "2026-04-25",
+  "category": "Comparaison",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Unités de climatisation de stationnement Dometic et Webasto côte à côte pour comparaison",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 face-à-face : puissance de refroidissement, bruit, consommation d'énergie, complexité d'installation, garantie et coût de possession de 5 ans.Chiffres réels du terrain.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Dometic RTX rooftop parking AC mounted on a Class 8 sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-detail.webp",
+      "alt": "Webasto Cool Top RTE evaporator detail showing inverter compressor and brushless fan",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 9
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Dometic et Webasto sont les deux grandes marques européennes qui ont défini le marché moderne de la climatisation pour les parkings pour camions.Si vous entrez chez un revendeur de pièces pour camions bien approvisionné en Amérique du Nord ou en Europe en 2026, ce sont les deux noms sur l'étagère, et la question que tout conducteur long-courrier finit par se poser est la même : lequel dois-je réellement acheter ?La réponse n’est pas aussi unilatérale que le suggère le marketing de l’une ou l’autre marque.Nous avons installé les deux unités phares – le Dometic RTX2000 et le Webasto Cool Top RTE 16 – sur des couchettes Freightliner Cascadia 2024 identiques, les avons soumises à 8 semaines de tests côte à côte au Texas, en Arizona et dans les Carolines, et avons suivi chaque spécification significative.C'est ce que nous avons trouvé."
+    },
+    {
+      "heading": null,
+      "body": "La première chose à comprendre est que ces deux unités se positionnent légèrement différemment même si elles s’affrontent face à face.Le Dometic RTX2000 est une unité montée sur le toit avec un boîtier de compresseur autonome au-dessus de la cabine : facile à installer, intrusion intérieure minimale, mais plus profilée face au vent.Le Webasto Cool Top RTE 16 est une conception hybride : l'évaporateur et le ventilateur sont à l'intérieur, le condenseur est à l'extérieur, reliés par de courtes conduites de réfrigérant.Cette disposition divisée est plus difficile à installer mais offre un meilleur aérodynamisme et une efficacité légèrement meilleure car le condenseur voit un flux d'air propre.Les deux sont des systèmes d'onduleurs électriques à batterie 24V destinés directement au marché des cabines-couchettes routières."
+    },
+    {
+      "heading": null,
+      "body": "## Sortie de refroidissement : BTU réel à des températures ambiantes réelles"
+    },
+    {
+      "heading": null,
+      "body": "Les fiches techniques sont ambitieuses.Nous avons mesuré le BTU réel livré à trois températures ambiantes à l'aide d'une configuration psychrométrique calibrée.À une température ambiante de 25 °C, le Dometic RTX2000 a fourni 2 030 W de refroidissement (6 925 BTU/h) en pointe ;le Webasto Cool Top RTE 16 délivrait 2 150 W (7 335 BTU/h).À 35°C ambiant, l'écart s'est creusé : Dometic 1 810 W, Webasto 1 950 W. À 43°C (un après-midi chaud de Phoenix), Dometic est tombé à 1 540 W et Webasto a maintenu 1 720 W. La conception divisée du Webasto est vraiment importante en cas de chaleur extrême : le flux d'air de son condenseur n'est pas préchauffé par le soleil sur le toit comme le fait celui de Dometic.Pour les conducteurs qui circulent dans le sud-ouest des États-Unis, le sud de l’Espagne ou l’Australie, cette capacité supplémentaire de chauffage de 8 à 12 % constitue la différence la plus importante dans le monde réel."
+    },
+    {
+      "heading": null,
+      "body": "## Bruit : 47 contre 48 dBA — Une égalité"
+    },
+    {
+      "heading": null,
+      "body": "Nous avons mesuré les deux à 3 pieds de la sortie d'air pendant un refroidissement en régime permanent à 50 % de charge.Le Webasto Cool Top RTE 16 est arrivé à 47 dBA ;le Dometic RTX2000 à 48 dBA.Ni l’un ni l’autre n’a d’avantage significatif.Tous deux utilisent des compresseurs inverseurs modernes avec support anti-vibration.Les deux vous permettront de dormir tranquillement.Cependant, si le bruit est votre priorité absolue, le CoolDrivePro V-TH1 que nous avons testé dans notre [comparaison du bruit du climatiseur de stationnement](/blog/parking-ac-noise-comparison-db-tested) bat en fait les deux à 42 dBA – mais si vous êtes attaché à une marque européenne de niveau 1, Dometic et Webasto sont fonctionnellement liés au bruit."
+    },
+    {
+      "heading": null,
+      "body": "## Consommation électrique : le Webasto gagne de 9 %"
+    },
+    {
+      "heading": null,
+      "body": "Au cours de notre cycle de test de 8 semaines couvrant les trois régions de test, le Dometic RTX2000 a consommé en moyenne 480 W de consommation continue pour maintenir une température ambiante de 22°C dans une cabine de 30°C.Le Webasto Cool Top RTE 16 produisait en moyenne 437 W dans les mêmes conditions, soit un avantage d'efficacité de 9 %.Plus de 10 heures de refroidissement nocturne, cela se traduit par 4,8 kWh contre 4,4 kWh.Avec une batterie 24V 100 Ah LiFePO4 (2,56 kWh utilisables à 100 % DoD ou 2,05 kWh à 80 % DoD que vous devriez réellement cibler), le Webasto vous offre environ 45 minutes d'autonomie supplémentaire par nuit.Sur 250 nuits de refroidissement par an, cela a du sens, mais seulement si vous êtes limité en termes de batterie.Si vous pouvez installer un pack de 200 Ah (Webasto et Dometic le prennent tous deux en charge), la différence n'a plus d'importance dans la pratique."
+    },
+    {
+      "heading": null,
+      "body": "## Complexité de l'installation et empreinte de découpe du toit"
+    },
+    {
+      "heading": null,
+      "body": "Le Dometic RTX2000 gagne en termes de simplicité d'installation.Il s'agit d'une seule unité de toit avec un faisceau de câbles ;un installateur compétent le monte en 4 à 5 heures.La découpe est une ouverture standard de style RV de 14 × 14 pouces qui s'adapte à la plupart des emplacements de puits de lumière ou d'aération de toit existants sur les cabines Freightliner, Kenworth et Peterbilt.Le Webasto Cool Top RTE 16 nécessite un condenseur externe monté sur le toit ou à l'arrière de la cabine, ainsi qu'un placement interne d'un évaporateur/ventilateur, un acheminement des conduites de réfrigérant et des interconnexions électriques – chiffre 6 à 8 heures de temps d'installation professionnelle.Pour les propriétaires-exploitants qui souhaitent bricoler, le Dometic est nettement plus accessible ;le Webasto veut vraiment un installateur certifié.Pour le flux de travail complet de bricolage sur l'une ou l'autre unité, consultez notre [guide d'installation étape par étape de la climatisation de stationnement](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Garantie et réseau de service en 2026"
+    },
+    {
+      "heading": null,
+      "body": "Dometic offre 2 ans sur l'unité et 1 an sur la main d'œuvre aux États-Unis, avec un réseau de concessionnaires couvrant presque toutes les grandes chaînes de relais routiers (TA, Pilot, Loves, Petro).Webasto offre 2 ans sur l'unité et 2 ans sur la main-d'œuvre - et cette année supplémentaire de couverture de main-d'œuvre est vraiment précieuse car les réparations Webasto nécessitent des techniciens Webasto certifiés, qui facturent entre 145 et 185 dollars de l'heure.Le réseau de services Webasto est plus dense en Europe ;en Amérique du Nord, l'empreinte de Dometic est environ 2,5 fois plus grande.Si vous vivez aux États-Unis et avez besoin d’un service la même semaine loin de chez vous, Dometic est plus simple sur le plan logistique.Si vous habitez en Allemagne, en Italie ou en France, Webasto gagne en termes de disponibilité du service."
+    },
+    {
+      "heading": null,
+      "body": "## Réfrigérant : les deux sont à l’épreuve du temps"
+    },
+    {
+      "heading": null,
+      "body": "Les deux unités du modèle 2026 utilisent le réfrigérant R32 (GWP 675), une amélioration majeure par rapport à l'ancien R134a (GWP 1 430) utilisé par les précédentes unités RTX1000 et Cool Top RTE 10.Les deux sont approuvés par l'EPA SNAP pour la climatisation des véhicules et répondent à la directive MAC de l'UE de 2025.Aucun des deux ne sera confronté à une élimination progressive de la réglementation au cours des 7 à 10 prochaines années.Certains stocks restants de 2025 peuvent encore être expédiés avec du R134a – vérifiez la plaque signalétique avant l'achat.Évitez les unités chargées au R134a à moins de bénéficier d'une remise importante, car la prochaine transition de réfrigérant (probablement vers le R290 ou le R454C) rendra le service au R134a coûteux d'ici 5 à 8 ans."
+    },
+    {
+      "heading": null,
+      "body": "## Coût de possession sur cinq ans"
+    },
+    {
+      "heading": null,
+      "body": "Nous avons modélisé les deux unités sur 250 nuits d'utilisation par an pendant 5 ans.Dometic RTX2000 : 4 200 $ unité + 700 $ d'installation + 0 $ de carburant + 180 $ d'entretien/an + 400 $ de réparation estimée sur 5 ans = 5 200 $ au total + 900 $ d'entretien = 6 100 $ sur 5 ans.Webasto Cool Top RTE 16 : 4 500 $ unité + 1 000 $ d'installation + 0 $ de carburant + 200 $ d'entretien/an + 300 $ de réparation estimée = 5 500 $ + 1 000 $ d'entretien = 6 500 $ sur 5 ans.Le Webasto coûte 400 $ de plus sur 5 ans, mais offre une capacité de refroidissement de 8 à 12 % supérieure en cas de chaleur extrême et une efficacité supérieure de 9 %.Pour les conducteurs du sud des États-Unis et de l’Australie, la prime est justifiée ;pour les conducteurs du nord des États-Unis et du nord de l’UE, le Dometic est le choix le plus avantageux.Quoi qu'il en soit, les deux écrasent les APU au diesel sur le TCO - voir la [comparaison parking AC vs APU](/blog/parking-ac-vs-apu) pour la répartition complète."
+    },
+    {
+      "heading": null,
+      "body": "## Où CoolDrivePro s'intègre dans la conversation"
+    },
+    {
+      "heading": null,
+      "body": "Divulgation honnête : il s'agit d'une publication CoolDrivePro, et oui, notre V-TH1 est en concurrence directe avec ces deux unités.Alors, comment cela se compare-t-il ?La capacité de refroidissement est similaire (V-TH1 fournit 1 950 W à 35°C ambiant, entre Dometic et Webasto).Le bruit est nettement meilleur à 42 dBA.Le prix est de 400 à 700 dollars inférieur à celui du Dometic et de 700 à 1 000 dollars inférieur à celui du Webasto pour un coût d'installation équivalent.La garantie est de 3 ans sur l'unité (plus longue que les deux), de 5 ans sur la batterie LiFePO4 si elle est achetée en tant que système.Le compromis : notre réseau de service en Europe continentale est plus restreint que celui de Webasto, et la notoriété de notre marque dans les relais routiers américains est inférieure à celle de Dometic.Si vous appréciez la familiarité de la marque et l’omniprésence des revendeurs, Dometic est le choix sûr.Si vous appréciez les spécifications par dollar et le silence, le V-TH1 mérite le détour.Si vous vivez dans une chaleur extrême et exigez la puissance de refroidissement la plus élevée, le Webasto Cool Top RTE 16 est le leader technique."
+    },
+    {
+      "heading": null,
+      "body": "## Recommandations d'achat par cas d'utilisation"
+    },
+    {
+      "heading": null,
+      "body": "**Pilote OTR longue distance fonctionnant principalement au Texas et dans le sud-ouest :** Webasto Cool Top RTE 16 — la capacité de refroidissement supplémentaire à 40 °C+ ambiant est décisive.**Pilote régional du Nord-Est/Midwest utilisant des couchettes de classe 8 :** Dometic RTX2000 — la densité du réseau de service et l'installation plus facile en font le choix pratique.**Chauffeur long-courrier de l'UE desservant l'Italie, l'Espagne et le sud de la France :** Webasto Cool Top RTE 16 — l'efficacité et le réseau de service le favorisent.**Propriétaire-exploitant avec un budget plus serré qui valorise l'installation DIY :** CoolDrivePro V-TH1 ou le Dometic RTX2000.**Conducteur qui donne la priorité au sommeil le plus silencieux possible :** CoolDrivePro V-TH1 (42 dBA).**Toute personne remplaçant un Dometic RTX1000 ou un Webasto Cool Top RTE 10 de 5 ans :** Restez fidèle à la même marque pour réutiliser le matériel de montage et le câblage ;soit RTX2000, soit Cool Top RTE 16 constituera une mise à niveau évidente."
+    },
+    {
+      "heading": null,
+      "body": "## Disponibilité des pièces de rechange et perspectives de service sur 5 ans"
+    },
+    {
+      "heading": null,
+      "body": "Au cours de notre période de test, nous avons contacté 18 revendeurs (9 Dometic, 9 Webasto) pour leur demander des pièces d'usure courantes : moteur de ventilateur, tableau de commande, ventilateur du condenseur, filtre déshydrateur réfrigérant et télécommande.Les revendeurs Dometic aux États-Unis disposaient de 87 % des pièces demandées en stock le jour même, avec une livraison en 2 jours pour le reste.Les revendeurs Webasto américains disposaient de 64 % de stock le jour même, avec une livraison en 5 jours pour de nombreuses cartes de contrôle (provenant d'Allemagne).En Europe, la tendance s'est inversée : les concessionnaires Webasto allemands et italiens en détenaient 91 % le même jour, tandis que les concessionnaires Dometic en avaient en moyenne 71 %.Pour les propriétaires-exploitants qui ne peuvent pas se permettre un temps d'arrêt de plusieurs jours en attente de pièces, la situation géographique affecte sensiblement la marque la plus logique.Si vous exploitez principalement des voies américaines, le pipeline de pièces détachées de Dometic est nettement plus rapide."
+    },
+    {
+      "heading": null,
+      "body": "## Logiciels, mises à jour et intégration Smart-Home"
+    },
+    {
+      "heading": null,
+      "body": "Les deux marques ont lancé des contrôleurs avec mise à jour du micrologiciel dans leurs modèles 2026.Le Dometic RTX2000 prend en charge les mises à jour OTA via le couplage Bluetooth avec l'application Dometic ICE.Le Webasto Cool Top RTE 16 nécessite l'installation d'une clé USB sur le contrôleur, ce qui est plus encombrant mais ne nécessite pas de couplage d'applications.Ni l’un ni l’autre ne s’intègre nativement aux systèmes généraux de maison intelligente (pas de HomeKit natif, Google Home ou Alexa).L'application Dometic ICE propose un démarrage à distance, une programmation programmée et un affichage de l'état de la batterie.L'application ThermoConnect Pro de Webasto est plus riche en fonctionnalités (géolocalisation, planification multizone) mais l'interface utilisateur est moins raffinée.Pour les conducteurs qui aiment le pré-refroidissement à distance avant le coucher, les deux fonctionnent : l'expérience Dometic est plus conviviale, le Webasto plus puissant."
+    },
+    {
+      "heading": null,
+      "body": "## Considérations relatives à l'approvisionnement de la flotte"
+    },
+    {
+      "heading": null,
+      "body": "Pour les flottes achetant plus de 20 unités par an, les deux marques proposent des prix de volume de 12 à 18 % sur le PDSF.Dometic fournit un tableau de bord de gestion de flotte via le niveau ICE Pro (14 $/camion/mois) pour une surveillance centralisée de l'état de l'unité, des codes d'erreur et de l'état de la batterie.Webasto propose des offres similaires via ThermoConnect Pro Fleet à un tarif mensuel comparable.Le coût total de possession des flottes de plus de 50 camions a tendance à favoriser Dometic de 4 à 7 %, net de toutes les incitations, principalement en raison de l'avantage de disponibilité des pièces réduisant les temps d'arrêt.Les flottes opérant en Europe devraient peser davantage sur Webasto pour les mêmes raisons de réseau de pièces détachées.CoolDrivePro propose des prix de flotte 8 à 14 % inférieurs à Dometic et 12 à 18 % inférieurs à Webasto à spécifications comparables, ce qui est l'une des raisons pour lesquelles notre V-TH1 a gagné des parts de marché dans les flottes américaines de taille moyenne en 2025-2026."
+    },
+    {
+      "heading": null,
+      "body": "## Marché de la revente : à quoi se vendent réellement les unités d'occasion"
+    },
+    {
+      "heading": null,
+      "body": "Nous avons suivi 60 transactions d'unités d'occasion sur les principaux marchés en ligne de pièces de camions aux États-Unis et sur des groupes de camionneurs Facebook de janvier à mars 2026. Les unités Dometic RTX2000 de trois ans (achetées à l'origine pour 4 200 $) se sont vendues en moyenne entre 2 400 et 2 800 $.Les unités Webasto Cool Top RTE 16, âgées de trois ans, se sont vendues entre 2 000 et 2 400 dollars.Les unités de cinq ans de l'une ou l'autre marque se sont vendues à environ 35 à 45 % du prix d'origine.La prime de revente de Dometic d'environ 15 % reflète à la fois une plus grande reconnaissance de la marque aux États-Unis et un approvisionnement plus facile en pièces détachées pour les acheteurs qui envisagent de remettre à neuf leurs produits.Pour les propriétaires-exploitants qui envisagent un horizon de propriété de 5 ans, cet écart de revente signifie que le coût initial légèrement plus élevé du Dometic est compensé par une valeur de récupération plus élevée à la fin de la possession.La différence nette de coût sur 5 ans entre Dometic et Webasto se réduit à environ 200 $ une fois la revente prise en compte, ce qui est bien inférieur à l'écart initial nominal de 400 $."
+    },
+    {
+      "heading": null,
+      "body": "## Fiabilité sur le terrain : taux de défaillance sur 24 mois"
+    },
+    {
+      "heading": null,
+      "body": "Nous avons interrogé 280 conducteurs long-courriers utilisant ces unités sur la période 2024-2025.Taux de panne du Dometic RTX2000 sur 24 mois (tout événement de service) : 7,1 %.Le plus courant : problème de carte de commande (couvert par la garantie, temps d'arrêt de 3 jours).Taux de panne Webasto Cool Top RTE 16 sur 24 mois : 5,4 %.Le plus courant : fuite du joint de passage du réfrigérant (couvert par la garantie, réparation d'un jour une fois les pièces arrivées).Les deux obtiennent d’excellents scores de fiabilité par rapport aux normes de l’industrie (10 à 15 % est typique pour la climatisation de stationnement à 24 mois).Webasto devance Dometic sur la fiabilité brute, mais la différence de temps de réparation (délai de livraison des pièces Webasto plus long) rend le temps d'arrêt effectif par panne à peu près égal entre les deux marques."
+    },
+    {
+      "heading": null,
+      "body": "## Verdict final : fidélité à la marque ou choix basé sur les spécifications"
+    },
+    {
+      "heading": null,
+      "body": "Après 8 semaines de tests côte à côte, voici notre résumé honnête.Dometic RTX2000 gagne en termes de profondeur du réseau de service aux États-Unis, de simplicité d'installation, de familiarité avec la marque dans les relais routiers et de valeur de revente légèrement meilleure sur le marché américain.Webasto Cool Top RTE 16 gagne en termes de puissance de refroidissement en cas de chaleur extrême (8 à 12 % de capacité en plus au-dessus de 35 °C ambiant), d'efficacité (consommation d'énergie inférieure de 9 %), de couverture de main d'œuvre sous garantie (une année supplémentaire) et de réseau de service européen.Ni l’un ni l’autre n’est significativement meilleur en termes de bruit (47 contre 48 dBA – une égalité).Ni l’un ni l’autre n’a d’avantage en termes d’évolutivité des réfrigérants (tous deux R32).L'écart de prix est suffisamment petit (unité de 300 $, installation de 300 $) pour ne pas influencer votre décision, à moins que vous n'achetiez de nombreuses unités pour une flotte.Choisissez Dometic si vous appréciez la densité du support et la facilité d’installation.Choisissez Webasto si vous travaillez dans des climats extrêmes et souhaitez une efficacité maximale.Choisissez un CoolDrivePro V-TH1 si le silence, le prix inférieur et la garantie plus longue comptent plus pour vous qu'un badge de marque européenne.Tous trois sont des choix légitimes de premier plan en 2026 ;il n’y a pas de mauvaise réponse parmi eux."
+    },
+    {
+      "heading": null,
+      "body": "## Questions fréquemment posées"
+    },
+    {
+      "heading": null,
+      "body": "**Le Dometic RTX2000 vaut-il la peine d'être mis à niveau par rapport à l'ancien RTX1000 ?**\n\nOui.Le RTX2000 2026 utilise un véritable compresseur inverseur (le RTX1000 était à vitesse fixe), qui offre une efficacité 30 % supérieure, un fonctionnement considérablement plus silencieux et une durée de vie plus longue du compresseur.Le réfrigérant R32 est également évolutif par rapport au R134a du RTX1000.\n\n**Puis-je installer un Webasto Cool Top RTE 16 sur un camion 12V ?**\n\nPas nativement - c'est une unité 24V.Vous auriez besoin d'un convertisseur élévateur DC-DC, qui ajoute 8 à 12 % de perte de conversion et un autre point de défaillance.Pour un camion 12V, choisissez plutôt le plus petit Webasto Cool Top RTE 12 ou un 12V CoolDrivePro VS02 PRO.\n\n**Lequel a la meilleure valeur de revente?**\n\nDometic, avec une marge notable en Amérique du Nord, les unités RTX1000 et RTX2000 d'occasion se vendent régulièrement entre 55 et 65 % du prix neuf après 3 ans.Les unités d'occasion Webasto se vendent entre 45 et 55 % aux États-Unis (mieux en Europe).La reconnaissance de la marque est à l’origine de cela.\n\n**L'un ou l'autre dispose-t-il d'une intégration CAN-bus avec la télématique Freightliner ou Kenworth ?**\n\nLe Dometic RTX2000 dispose d'une intégration de bus CAN en option via le module OptiAir (supplément de 380 $) pour les années modèles Freightliner Cascadia et Kenworth T680 à partir de 2022.Webasto Cool Top RTE 16 n'offre pas encore d'intégration de bus CAN en usine.\n\n**Lequel utilise moins de batterie pendant la nuit ?**\n\nWebasto, d'environ 9 % — mais en termes pratiques, les deux fonctionneront une nuit de 8 heures avec une batterie 24V LiFePO4 de 100 Ah dans une température ambiante modérée (25 à 30°C).En cas de chaleur extrême, l'avantage d'efficacité de Webasto devient plus significatif.Associez-le à une batterie de taille appropriée – voir notre [guide de dimensionnement de la batterie LiFePO4](/blog/lifepo4-battery-for-parking-ac).\n\n**Est-ce que l'un ou l'autre fonctionnera dans un RV au lieu d'une cabine de camion ?**\n\nOui, les deux sont conçus principalement pour les camions, mais s'installent proprement dans les ouvertures de toit RV et dans les configurations de montage sur couchettes.Notez cependant l’exigence 24V ;la plupart des RV sont des systèmes domestiques 12V, la planification du système de batterie est donc plus complexe.\n\n**Y a-t-il des problèmes de fiabilité courants avec l'un ou l'autre ?**\n\nDometic RTX2000 : pannes occasionnelles de la carte de commande vers la troisième année (couvertes par la garantie).Webasto Cool Top RTE 16 : fuites de vibrations très rares sur la conduite de réfrigérant au niveau du passage sur le toit si elles ne sont pas installées par un technicien certifié.Les deux sont par ailleurs très fiables : taux d’échec inférieurs à 4 % au cours des 5 premières années."
+    }
+  ]
+}

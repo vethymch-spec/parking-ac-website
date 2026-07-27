@@ -2,9 +2,9 @@
   "nav": {
     "home": "Hem",
     "products": "Produkter",
-    "topMountedAC": "Takmonterad AC",
-    "miniSplitAC": "Mini split AC",
-    "heatingCoolingAC": "Uppvärmning/kylning AC",
+    "topMountedAC": "Tak-AC",
+    "miniSplitAC": "Mini split",
+    "heatingCoolingAC": "Värme/kyla",
     "allProducts": "Alla produkter",
     "forum": "Forum",
     "blog": "Blogg",
@@ -18,10 +18,10 @@
     "logout": "Logga ut"
   },
   "hero": {
-    "title": "Parkeringsklimatanläggning för off-grid-liv och mobilt komfort",
-    "subtitle": "12V och 24V DC klimatanläggning utan tomgång för lastbilar, husbilar och skåpbilar — Svalka utan tomgång",
-    "ctaPrimary": "Köp produkter",
-    "ctaSecondary": "Läs mer",
+    "title": "12V/24V parkeringsluftkonditionering för lastbilar, husbilar, skåpbilar och flottor",
+    "subtitle": "CoolDrivePro bygger 12V/24V DC parkeringsklimatanläggningar och kylsystem utan tomgång för semi-lastbilar, RVs, skåpbilar, husbilar, flottor, återförsäljare och installatörer — med B2B-priser, USA-baserad garantisupport och monteringsvägledning.",
+    "ctaPrimary": "Få passningsrekommendation",
+    "ctaSecondary": "Begär offert för återförsäljare",
     "badge": "Nyhet",
     "trustedBy": "Betrodd av över 10 000 förare världen över"
   },
@@ -36,7 +36,7 @@
     "features": "Funktioner",
     "reviews": "Kundrecensioner",
     "warranty": "Garanti",
-    "freeShipping": "Gratis frakt",
+    "freeShipping": "Fakturasupport",
     "support": "Support 24/7",
     "topMounted": {
       "title": "Takmonterad klimatanläggning 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Kyler upp till 80 kvadratfot"
     },
     "miniSplit": {
-      "title": "Mini split klimatanläggning 12000 BTU",
-      "subtitle": "12V DC klimatanläggning utan tomgång för lastbilar och husbilar",
+      "title": "12V/24V Mini Split Parkering AC för halvsovhytter och husbilar",
+      "subtitle": "CoolDrivePro VX3000SP är en 12V/24V DC mini delad parkeringsluftkonditionering som levererar 12 000 BTU/h utan tomgångskylning för semi-sovhytter, husbilar, skåpbilar och husbilar.Inomhusförångaren går på ≤32 dB med en GMCC dubbelroterande inverterkompressor, så förare kan sova en parkerad natt utan att gå på tomgång.",
       "btu": "12 000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 timmar",
@@ -59,14 +59,19 @@
       "specifications": "Specifikationer",
       "reviews": "Kundrecensioner",
       "faq": "Vanliga frågor",
-      "freeShipping": "Gratis frakt",
-      "warranty": "Garanti 2 år",
+      "freeShipping": "Fakturasupport",
+      "warranty": "1-års garanti",
       "returns": "Retur 30 dagar",
       "inStock": "I lager",
       "outOfStock": "Slut i lager",
       "quantity": "Antal",
       "techSpecs": "Tekniska specifikationer",
-      "relatedProducts": "Du kanske också gillar"
+      "relatedProducts": "Du kanske också gillar",
+      "warrantyDesc": "1 års tillverkargaranti som täcker defekter i material och utförande."
+    },
+    "heatingCoolingAC": {
+      "title": "12V/24V Värme och kyla Parkerings AC för lastbilar och husbilar",
+      "subtitle": "CoolDrivePro V-TH1 är en 12V/24V DC värmepump parkeringsluftkonditioneringssystem som levererar 2 000 W kylning och värme för semi-lastbilar, husbilar, skåpbilar och specialfordon.Den använder en GMCC dubbelroterande kompressor med R134a kylmedel och kan höja hyttens temperatur från 5°C till 30°C på cirka 30 minuter — ingen motor går på tomgång och ingen landström krävs."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Avbryt",
     "posting": "Postar...",
     "model": "Modell"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1-års garanti"
+    }
   }
 }

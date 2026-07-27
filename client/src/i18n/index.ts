@@ -1,115 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
 
-// Country to language mapping for geo-detection
-const countryToLanguage: Record<string, string> = {
-  // North America
-  'US': 'en', 'CA': 'en', 'MX': 'es',
-  // Europe
-  'GB': 'en', 'DE': 'de', 'FR': 'fr', 'IT': 'it', 'ES': 'es', 'PT': 'pt',
-  'NL': 'nl', 'BE': 'nl', 'CH': 'de', 'AT': 'de', 'SE': 'sv', 'NO': 'no',
-  'DK': 'da', 'FI': 'fi', 'PL': 'pl', 'CZ': 'cs', 'HU': 'hu', 'RO': 'ro',
-  'GR': 'el', 'RU': 'ru', 'UA': 'uk', 'TR': 'tr',
-  // Asia
-  'CN': 'zh-CN', 'HK': 'zh-TW', 'TW': 'zh-TW', 'JP': 'ja', 'KR': 'ko',
-  'TH': 'th', 'VN': 'vi', 'ID': 'id', 'MY': 'ms', 'PH': 'en', 'SG': 'en',
-  'IN': 'hi', 'PK': 'en', 'BD': 'en', 'AE': 'ar', 'SA': 'ar', 'IL': 'he',
-  // Africa
-  'ZA': 'en', 'EG': 'ar', 'NG': 'en', 'KE': 'en', 'GH': 'en', 'MA': 'ar',
-  // Oceania
-  'AU': 'en', 'NZ': 'en',
-  // South America
-  'BR': 'pt', 'AR': 'es', 'CL': 'es', 'CO': 'es', 'PE': 'es',
-};
-
-// Detect language from IP geolocation using Cloudflare headers
-async function detectLanguageFromGeo(): Promise<string | null> {
-  try {
-    // Try to get country from Cloudflare headers via a simple request
-    const response = await fetch('/cdn-cgi/trace', { method: 'GET' });
-    if (response.ok) {
-      const text = await response.text();
-      const match = text.match(/loc=([A-Z]{2})/);
-      if (match) {
-        const countryCode = match[1];
-        const lang = countryToLanguage[countryCode];
-        if (lang) {
-          console.log(`[i18n] Geo-detected country: ${countryCode}, language: ${lang}`);
-          return lang;
-        }
-      }
-    }
-  } catch (e) {
-    // Silently fail and return null
-  }
-  return null;
-}
-
-// Import all language files
 import en from './locales/en.json';
-import zhCN from './locales/zh-CN.json';
-import zhTW from './locales/zh-TW.json';
-import ja from './locales/ja.json';
-import ko from './locales/ko.json';
-import de from './locales/de.json';
-import fr from './locales/fr.json';
-import es from './locales/es.json';
-import it from './locales/it.json';
-import pt from './locales/pt.json';
-import ru from './locales/ru.json';
-import ar from './locales/ar.json';
-import hi from './locales/hi.json';
-import th from './locales/th.json';
-import vi from './locales/vi.json';
-import id from './locales/id.json';
-import tr from './locales/tr.json';
-import pl from './locales/pl.json';
-import nl from './locales/nl.json';
-import sv from './locales/sv.json';
-import no from './locales/no.json';
-import da from './locales/da.json';
-import fi from './locales/fi.json';
-import el from './locales/el.json';
-import cs from './locales/cs.json';
-import hu from './locales/hu.json';
-import ro from './locales/ro.json';
-import uk from './locales/uk.json';
-import he from './locales/he.json';
-import ms from './locales/ms.json';
-
-const resources = {
-  en: { translation: en },
-  'zh-CN': { translation: zhCN },
-  'zh-TW': { translation: zhTW },
-  ja: { translation: ja },
-  ko: { translation: ko },
-  de: { translation: de },
-  fr: { translation: fr },
-  es: { translation: es },
-  it: { translation: it },
-  pt: { translation: pt },
-  ru: { translation: ru },
-  ar: { translation: ar },
-  hi: { translation: hi },
-  th: { translation: th },
-  vi: { translation: vi },
-  id: { translation: id },
-  tr: { translation: tr },
-  pl: { translation: pl },
-  nl: { translation: nl },
-  sv: { translation: sv },
-  no: { translation: no },
-  da: { translation: da },
-  fi: { translation: fi },
-  el: { translation: el },
-  cs: { translation: cs },
-  hu: { translation: hu },
-  ro: { translation: ro },
-  uk: { translation: uk },
-  he: { translation: he },
-  ms: { translation: ms },
-};
 
 // Language display names for the switcher
 export const languageNames: Record<string, string> = {
@@ -146,58 +38,101 @@ export const languageNames: Record<string, string> = {
 };
 
 // Supported languages for SEO
-export const supportedLanguages = Object.keys(resources);
+export const supportedLanguages = Object.keys(languageNames);
 
-// Custom language detector that checks geo first
-const customLanguageDetector = {
-  type: 'languageDetector' as const,
-  async: true,
-  init: () => {},
-  detect: async (callback: (lng: string) => void) => {
-    // Priority 1: Check if user has previously selected a language
-    const savedLang = localStorage.getItem('i18nextLng');
-    if (savedLang && supportedLanguages.includes(savedLang)) {
-      callback(savedLang);
-      return;
-    }
+type LocaleModule = { default: Record<string, unknown> };
 
-    // Priority 2: Detect from IP geolocation
-    const geoLang = await detectLanguageFromGeo();
-    if (geoLang && supportedLanguages.includes(geoLang)) {
-      callback(geoLang);
-      return;
-    }
-
-    // Priority 3: Fall back to browser language
-    const browserLang = navigator.language;
-    if (browserLang) {
-      // Check exact match first
-      if (supportedLanguages.includes(browserLang)) {
-        callback(browserLang);
-        return;
-      }
-      // Check base language (e.g., 'en-US' -> 'en')
-      const baseLang = browserLang.split('-')[0];
-      if (supportedLanguages.includes(baseLang)) {
-        callback(baseLang);
-        return;
-      }
-    }
-
-    // Priority 4: Default to English
-    callback('en');
-  },
-  cacheUserLanguage: (lng: string) => {
-    localStorage.setItem('i18nextLng', lng);
-  },
+const localeLoaders: Record<string, () => Promise<LocaleModule>> = {
+  'zh-CN': () => import('./locales/zh-CN.json'),
+  'zh-TW': () => import('./locales/zh-TW.json'),
+  ja: () => import('./locales/ja.json'),
+  ko: () => import('./locales/ko.json'),
+  de: () => import('./locales/de.json'),
+  fr: () => import('./locales/fr.json'),
+  es: () => import('./locales/es.json'),
+  it: () => import('./locales/it.json'),
+  pt: () => import('./locales/pt.json'),
+  ru: () => import('./locales/ru.json'),
+  ar: () => import('./locales/ar.json'),
+  hi: () => import('./locales/hi.json'),
+  th: () => import('./locales/th.json'),
+  vi: () => import('./locales/vi.json'),
+  id: () => import('./locales/id.json'),
+  tr: () => import('./locales/tr.json'),
+  pl: () => import('./locales/pl.json'),
+  nl: () => import('./locales/nl.json'),
+  sv: () => import('./locales/sv.json'),
+  no: () => import('./locales/no.json'),
+  da: () => import('./locales/da.json'),
+  fi: () => import('./locales/fi.json'),
+  el: () => import('./locales/el.json'),
+  cs: () => import('./locales/cs.json'),
+  hu: () => import('./locales/hu.json'),
+  ro: () => import('./locales/ro.json'),
+  uk: () => import('./locales/uk.json'),
+  he: () => import('./locales/he.json'),
+  ms: () => import('./locales/ms.json'),
 };
 
+const loadedLanguages = new Set(['en']);
+
+function normalizeLanguage(lang?: string | null): string {
+  if (!lang) return 'en';
+  if (supportedLanguages.includes(lang)) return lang;
+
+  const baseLang = lang.split('-')[0];
+  if (supportedLanguages.includes(baseLang)) return baseLang;
+
+  return 'en';
+}
+
+function detectLanguageFromPath(): string | null {
+  if (typeof window === 'undefined') return null;
+
+  const match = window.location.pathname.match(/^\/([^/]+)(?:\/|$)/);
+  if (!match) return null;
+
+  const segment = match[1];
+  return supportedLanguages.includes(segment) && segment !== 'en' ? segment : null;
+}
+
+function getInitialLanguage(): string {
+  const pathLanguage = detectLanguageFromPath();
+  if (pathLanguage) return pathLanguage;
+
+  try {
+    const savedLang = localStorage.getItem('i18nextLng');
+    if (savedLang) return normalizeLanguage(savedLang);
+  } catch {}
+
+  return 'en';
+}
+
+export async function loadLanguageResources(lang: string) {
+  const normalizedLanguage = normalizeLanguage(lang);
+  if (loadedLanguages.has(normalizedLanguage)) return normalizedLanguage;
+
+  const loader = localeLoaders[normalizedLanguage];
+  if (!loader) return 'en';
+
+  const localeModule = await loader();
+  i18n.addResourceBundle(normalizedLanguage, 'translation', localeModule.default, true, true);
+  loadedLanguages.add(normalizedLanguage);
+  return normalizedLanguage;
+}
+
+const initialLanguage = getInitialLanguage();
+
 i18n
-  .use(customLanguageDetector)
   .use(initReactI18next)
   .init({
-    resources,
+    resources: {
+      en: { translation: en },
+    },
+    lng: initialLanguage,
     fallbackLng: 'en',
+    supportedLngs: supportedLanguages,
+    partialBundledLanguages: true,
     debug: false,
 
     interpolation: {
@@ -208,6 +143,12 @@ i18n
       useSuspense: false,
     },
   });
+
+if (initialLanguage !== 'en') {
+  void loadLanguageResources(initialLanguage).then((loadedLanguage) => {
+    void i18n.changeLanguage(loadedLanguage);
+  });
+}
 
 export default i18n;
 

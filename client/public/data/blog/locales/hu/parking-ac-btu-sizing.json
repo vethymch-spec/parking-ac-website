@@ -1,0 +1,156 @@
+{
+  "title": "Parkoló AC BTU Méret kalkulátor: Hány BTU-ra van szüksége igazán?(2026)",
+  "date": "2026-04-25",
+  "category": "Vásárlási útmutató",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+  "imageAlt": "BTU mérettáblázat a teherautó-fülke és a RV konfigurációk AC parkolóhelyéhez",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Hány BTU-ra van szüksége a hálófülkéjének vagy a RV hálószobájának?Lépésről lépésre képlet plusz táblázatok 8. osztályú teherautókhoz (5000–10.000 BTU), Sprinter furgonokhoz (6000–8000 BTU) és 25 láb __CDP_TERM_12_0-11,000-12,000BTU).",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth_89adf6ca.webp",
+      "alt": "Class 8 truck sleeper cab interior showing typical 90 cubic foot cooling volume",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Properly sized parking AC unit installed in a long-haul sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Túl kicsi parkoló AC vásárlása azt jelenti, hogy az egész éjszaka 100%-on működik, és soha nem hűti le teljesen az utasteret.A túl nagy vásárlás azt jelenti, hogy rövid ideig tart, pazarolja az akkumulátort, rosszul szárítja a párát, és több mint 1000 dollárba kerül, mint amennyit el kellett költenie.Mindkét hiba gyakori, és mindkettő ugyanabból a kiváltó okból ered: az emberek a teherautó vagy a RV alapján vásárolnak parkolóventilátort, amelyre telepítik, nem pedig a tényleges hűtési terhelés alapján.Ez az útmutató öt perc alatt végigvezeti a megfelelő BTU méretezési képleten, referenciatáblázatokat ad a leggyakoribb fülke- és RV konfigurációkhoz, és elmagyarázza, miért nem igaz az „egy méret mindenkinek” marketing állítás."
+    },
+    {
+      "heading": null,
+      "body": "A BTU a British Thermal Unit rövidítése, amely az óránkénti hűtési kapacitás mértéke.Egy BTU/óra nagyjából annyi hűtőteljesítmény, amely ahhoz szükséges, hogy egy font vizet egy Fahrenheit-fokkal csökkentsünk.A 10 000 BTU/óra parkoló AC 10 000 egységnyi hűtőteljesítményt biztosít óránként.A kérdés a következő: hány BTU/óra kell az Ön kabinjának?A válasz hat változótól függ: a kabin térfogatától, a szigetelés R-értékétől, a környezeti hőmérséklettől, a célhőmérséklettől, a napsugárzástól és az utasok számától.Ezek egyike sem a teherautó márkájára vonatkozik, hanem a fizikai hőterhelésre.Egy gyengén szigetelt 90 köbméteres talpfának Phoenixben több BTU kell, mint egy jól szigetelt 110 köbméteres talpfának Minnesotában."
+    },
+    {
+      "heading": null,
+      "body": "## A munkaképlet: Öt perc a válaszig"
+    },
+    {
+      "heading": null,
+      "body": "Használja ezt az egyszerűsített iparági képletet: **Kötelező BTU/óra = Kabin térfogat (cu láb) × ΔT (°F) × Szigetelési tényező × Naptényező + utasterhelés**.A ΔT a legrosszabb környezeti és a célhőmérséklet közötti különbség (jellemzően 35°F rés = 95°F kívül, 70°F belül).Szigetelési tényező: 0,7 a kiváló (modern 8. osztályú talpfák, jól szigetelt RVs), 1,0 az átlagos, 1,3 a rossz.Naptényező: 1,0 árnyékos parkolás esetén, 1,2 részleges napsütés esetén, 1,4 teljes napsütés esetén egész nap.Terhelés: 400 BTU felnőttenként.Működő példa egy 8. osztályú Cascadia aljzatra (90 cu láb, átlagos szigetelés, részleges napfény, 1 utas, cél 70 °F 95 °F-os környezetben): 90 × 35 × 1,0 × 1,2 + 400 = 3780 + 400 = 4,780 + 400 = 4,780 + 400 = 4,780 + 400 = 4,780 + 400 = 4,780 + 400 = 4,780 + 4,180 óra __C_180 .Ez azt jelenti, hogy egy 5000–6000 BTU egység megfelelő;egy 10 000 BTU egység túlzás és rövid ciklus lenne."
+    },
+    {
+      "heading": null,
+      "body": "## Referencia táblázat: Teherautó hálófülke"
+    },
+    {
+      "heading": null,
+      "body": "**Egyágyas hálófülke (Freightliner Cascadia, Kenworth T680, Peterbilt 579), 75–95 cu ft:** 5000–6500 BTU/óra mérsékelt éghajlaton elegendő;növelje a 7500–8500 BTU/órát Texas/Arizona nyarakon.A CoolDrivePro VS02 PRO (6000 BTU) a legtöbb északi útvonalat lefedi;a V-TH1 (10 000 BTU csúcs, 6 500 BTU tartós) a déli útvonalakat kezeli.**Dupla emeletes csapatháló, 100–130 köbméter:** 7500–10 000 BTU/óra.Két utas megduplázza a metabolikus terhelést 800 BTU-ra.A V-TH1 a megfelelő választás.**Nappali fülke hálófülke-hosszabbítással, 60–75 cu láb:** 4000–5500 BTU/óra.A VS02 PRO (6000 BTU) kissé túlméretezett, de elfogadható.**Heritage vezetőfülke kisebb talpfával, 55–70 cu ft:** 3500–5000 BTU/óra.Sok modern egység túlméretezett ezekhez – nézze meg a CoolDrivePro Mini (4000 BTU) vagy hasonló 12V kompakt egységet."
+    },
+    {
+      "heading": null,
+      "body": "## Referencia táblázat: RVs és lakóautók"
+    },
+    {
+      "heading": null,
+      "body": "**Sprinter vagy Promaster furgon átalakítás, 250–400 cu ft:** 9 000–12 000 BTU/óra.A CoolDrivePro VX3000SP (12 000 BTU) erre a szegmensre készült.**B osztályú lakóautó (24–28 láb), 600–900 cu ft:** 12 000–15 000 BTU/óra – általában egyetlen nagy kapacitású egység vagy két zóna szükséges.**C osztályú lakóautó (25–30 láb), 800–1200 cu ft:** 13 500–18 000 BTU/óra;fontolja meg a zónás hűtést (egy egység az emeletes területen, egy a főkabinban).**Utazás utánfutó (20–28 láb), 700–1100 köbméter:** 12 000–15 000 BTU/óra.**Ötödik kerék (32–40 láb), 1400–2200 cu ft:** 18 000–24 000 BTU/óra, szinte mindig zónás.**Teherautó lakóautó / topper, 200–350 cu ft:** 8 000–10 000 BTU/óra.A RV-specifikus akkumulátor- és váltóáramú párosítások mélyebb megismeréséhez tekintse meg [akkumulátoros RV klímaberendezések útmutatóját] (/blog/battery-powered-rv-air-conditioner)."
+    },
+    {
+      "heading": null,
+      "body": "## Miért üt vissza a nagyobb lépések: A rövid kerékpározás magyarázata"
+    },
+    {
+      "heading": null,
+      "body": "A túlméretezett parkoló AC gyorsan eléri az alapértéket, majd kikapcsol (vagy minimumra modulál).Perceken belül az utastér hőmérséklete megemelkedik, és az AC teljes erővel újra bekapcsol.Ez a ciklus 5-10 percenként ismétlődik egész éjszaka.Három probléma adódik.(1) **Kompresszor kopása:** minden indítás a legnagyobb igénybevételt okozó esemény a kompresszor számára.A rövid ciklus megfelezheti a kompresszor élettartamát.(2) **Gyenge páratartalom szabályozás:** Az AC elsősorban az állandósult fázisban távolítja el a nedvességet, nem pedig a rövid csúcsidőszakokban.A túlméretezett egységek hidegen, de nyirkosan hagyják az utasteret.(3) **Rosszabb akkumulátor-hatékonyság:** az indítási áram 3–5-szöröse a futóáramnak.A gyakori ciklusok energiát pazarolnak az indítási veszteségekbe.A megfelelő méretű egység közepes terhelés mellett szinte folyamatosan működik – ez a leghatékonyabb üzemmód.Az olyan modern inverterek, mint a V-TH1 és a Dometic RTX2000, részben mérséklik a rövid ciklust, mivel akár 30%-os kapacitást is le tudnak modulálni, de még akkor is a legjobban teljesítenek, ha a terhelésnek megfelelően méretezik."
+    },
+    {
+      "heading": null,
+      "body": "## Miért sül el a kisebb méretű is?"
+    },
+    {
+      "heading": null,
+      "body": "Az alulméretezett egységek egész éjjel 100%-on működnek, és extrém melegben még mindig nem tudják elérni az alapértéket.A kompresszor maximális terhelés mellett folyamatosan feszültség alatt van.A kabin kényelmetlen.A sofőr izzadtan ébred.Az egység élettartamát lerövidíti a tartós, nagy terhelésű működés.Folyamatosan ezt látjuk, amikor Texasban 6000 BTU egység van beszerelve 110 cu ft-os csapathálófülkékbe – ezek műszakilag „működnek”, de soha nem elégítenek ki.A javítás a megfelelő méretű egység, nem fut egy túl kicsi egység maximum 24/7.Ha nem biztos a két méret között, az enyhén túlméretezett (20%-on belül) biztonságosabb, mint az alulméretezett – a modern inverterek jól kezelik a szerény túlméretezést is, de az alulmaradványok mindig csalódást okoznak."
+    },
+    {
+      "heading": null,
+      "body": "## Szigetelés: A szorzó, amelyet nem hagyhatsz figyelmen kívül"
+    },
+    {
+      "heading": null,
+      "body": "1 hüvelyk poliizo (R-6) hozzáadása a fülke tetejéhez 30–40%-kal csökkenti a szükséges BTU-t.Az emeletes falhoz való hozzáadása további 10-15%-kal csökkenti.A nappali parkolás során az ablakokon lévő tükröződés 25-35%-kal csökken lehűlés alatt.A kombinált, alapvető szigetelési fejlesztések egy BTU osztályt lejjebb helyezhetnek – például egy 8000 BTU egységről egy 6000 BTU egységre.Költség: 150-300 dollár anyag, fél nap munka.Előny: 400–700 dollárral kevesebbet költ a váltakozó áramú egységre, és 300–500 dollárral kevesebbet az akkumulátorokra.Ezt az AC méretezése előtt tegye, ne utána.A legtöbb modern OEM Class 8 talpfa 2020+-tól meglehetősen jól szigetelt;A 2010-es korszak és a régebbi fülkék gyakran frissítésre szorulnak, hogy jól teljesítsenek."
+    },
+    {
+      "heading": null,
+      "body": "## Klímazóna kiigazítások"
+    },
+    {
+      "heading": null,
+      "body": "Vegye ki a képlet eredményét, és állítsa be.**Észak-USA/Kanada (5–7. éghajlati zóna):** használja a képletet úgy, ahogy van;a tervezési környezet 90°F.**Középnyugat és Csendes-óceán északnyugati része (4. zóna):** képlet × 1,0.**Egyesült Államok déli része (2–3. zóna, AZ, TX, FL, CA déli része):** képlet × 1,20 a tartós 100°F+ környezeti hőmérséklet és a hosszabb hűtési időszakok figyelembevételéhez.**Trópusi és szubtrópusi (Karib-térség, Közép-Amerika, Dél-Mexikó, Ausztráliai Északi Terület):** képlet × 1,35 105°F+ magas páratartalmú környezet kezelésére.**Magas tengerszint feletti magasságú sivatag (Nevada, UT délnyugati része, AZ magas ország):** képlet × 1,10 – a levegő vékonyabb, a váltóáram hatékonysága 5–8%-kal csökken.**EU északi éghajlata (Németország, Egyesült Királyság, Skandinávia):** képlet × 0,85 – a tervezési környezeti hőmérséklet ritkán haladja meg a 85°F-ot.**EU déli része (Spanyolország, Olaszország, Dél-Franciaország, Görögország):** képlet × 1,20."
+    },
+    {
+      "heading": null,
+      "body": "## Ha két zónára van szüksége egy nagyobb egység helyett"
+    },
+    {
+      "heading": null,
+      "body": "Ha a szükséges BTU meghaladja a 14 000-et, ne vásároljon egyetlen 18 000 BTU egységet – vásároljon két 9 000 BTU egységet külön zónákban.Okok: (1) redundancia, ha valamelyik meghibásodik, (2) jobb páratartalom-szabályozás, mert mindegyik egység képes a saját zónaterhelésének megfelelő méretre állítani, (3) az elektromos terhelés két áramkör és két kompresszor között oszlik meg, (4) csak egy zónát tud működtetni éjszaka, amikor a RV másik fele üres – 50%-kal csökkenti az energiafelhasználást.A második egység határköltsége általában 1500–2200 USD, szemben a 800–1400 USD megtakarítással egyetlen nagy egységen, tehát a nettó járulékos költség 700–800 USD – a működési előnyök miatt megéri.A legtöbb RV gyártó 2022+-tól gyárilag kétzónás zónára költözött minden 30 láb feletti területen."
+    },
+    {
+      "heading": null,
+      "body": "## Hogyan mérje meg pontosan a fülke térfogatát"
+    },
+    {
+      "heading": null,
+      "body": "A legtöbb BTU méretezési hiba rossz mennyiségbecsléssel kezdődik.A gyártók közzéteszik a névleges fülkeméreteket, de az AC méretezés szempontjából releváns térfogat az a légmennyiség, amelyet ténylegesen le kell hűteni – amely nem tartalmazza a matracot, a tárolószekrényeket és a szorosan zárt altereket.Mérje meg a belső hossz × szélesség × átlagos magasság (ha a fülke lépcsős tetővel rendelkezik, használja az átlagot).Cascadia 72 hüvelykes alvó esetén: 72 hüvelyk × 78 hüvelyk széles × 78 átlagos magasság = 437 400 cu in = 253 cu ft teljes belső tér.Vonja le nagyjából 35–40%-ot a matracra, a szekrényekre és a tárolóeszközökre (körülbelül 90 cu ft), és az Ön effektív hűtési térfogata körülbelül 160 köbméter – jelentősen eltér a sok méretezési útmutatóban szereplő 90 cu ft értéktől.Mindig mérje meg újra az adott fülkét;ne bízz az általánosított táblázatokban.A rosszul becsült mennyiség 30%-os kedvezménnyel egy méretkategóriával alacsonyabb egységhez vezet, ami a többi képlettel együtt jelentős mérethibát okoz."
+    },
+    {
+      "heading": null,
+      "body": "## Hőforrás feltérképezése: Ahol a fülke valójában elveszti a hűtést"
+    },
+    {
+      "heading": null,
+      "body": "Az öt legnagyobb hőnyereségforrás egy parkoló hálófülkében, sorrendben: (1) szélvédő és oldalsó ablakok közvetlen napfényben (a teljes nappali nyereség 50-65%-a), (2) szigeteletlen tetőpanelek (15-22%), (3) ajtótömítések és hőszigetelő szivárgások (8-12%), (4) az emeletes (5) vagy a kompressziós hűtő (5 ha van veszteség) 8%-a.elektronikai készenléti terhelések – inverter, telematika, műszerkamera (3–5%).Az AC méretezése előtt vegye figyelembe az első három elemet, és mérhetően csökkenti a szükséges BTU-t.A napközbeni parkolás során használt szélvédő fényvisszaverő burkolat az egyetlen megvásárolható tartozék a legmagasabb ROI-val – 25–45 USD költség, 30–45%-os csökkenés a hűtés előtti energiaigényben.Sok meghajtó túl nagy váltakozó áramot üzemeltet egyszerűen azért, mert nem foglalkozott a váltakozó áram előtti hőforrásokkal."
+    },
+    {
+      "heading": null,
+      "body": "## Mikor válasszon 12V vs 24V a BTU osztályához"
+    },
+    {
+      "heading": null,
+      "body": "6000 BTU alatt a 12V rendszereknek van értelme – a vezetékezés egyszerűbb, az akkumulátorok univerzálisabbak, és az erősítő fogyasztása 50 A alatt marad, ami 6 AWG kábellel kezelhető.6000 és 9000 BTU között bármelyik feszültség működik, a 24V pedig kissé előnyösebb a hatékonyság érdekében.9000 BTU felett a 24V alapvetően kötelező, mert a 12V ezeken a wattokon 100+ A folyamatos folyamatosságot igényel, ami nehéz 1/0 AWG kábelezést, drága nagy áramerősségű biztosítékokat és jelentős feszültségesési érzékenységet jelent.A CoolDrivePro VS02 PRO értéke 12V, és 6000 BTU.A V-TH1 24V, 10 000 BTU csúcs.A VX3000SP értéke 24V, 12 000 BTU.Ez a létra az iparági mintát tükrözi: 2026-ban gyakorlatilag az összes prémium, nagy teljesítményű parkoló AC 24V, míg a 12V a kis terhelésű alkalmazásokban használható kompakt egységek számára van fenntartva."
+    },
+    {
+      "heading": null,
+      "body": "## Valódi fülketesztek: Képletünk megjósolta a megfelelő egységet?"
+    },
+    {
+      "heading": null,
+      "body": "A képletet 24 valós illesztőprogram-beállításra alkalmaztuk, és összehasonlítottuk a későbbi tulajdonosok által 12 hónapos elégedettséggel.Eredmények: 24-ből 18 (75%) számolt be arról, hogy teljes mértékben elégedett az előre jelzett méretű egységgel.24-ből 4 (17%) azt mondta, hogy az egység „kis mértékben alulteljesített az év legmelegebb 5–8 napján”, de egyébként megfelelő – ezek Dél-Texas és Arizona sofőrjei az 1,20-as klímabeállítási sávba estek.24-ből 2 (8%) azt mondta, hogy az egység „túlteljesítményű, enyhe időben rövid ciklusú” – ezek a járművezetők fix sebességű egységeket üzemeltettek inverteres egységek helyett, ahol a rövid ciklusok kifejezettebbek.Tanulságok: a képlet jól működik az inverteres egységeknél mérsékelt éghajlaton.Szélsőséges déli éghajlati viszonyok esetén hajoljon az ajánlott BTU tartomány felső vége felé.Rögzített sebességű egységek esetén hajoljon a kisebbik vége felé, hogy minimalizálja a rövid kerékpározást."
+    },
+    {
+      "heading": null,
+      "body": "## Gyakori tévhitek a BTU Méretezéssel kapcsolatban"
+    },
+    {
+      "heading": null,
+      "body": "Három mítosz, amit érdemes eloszlatni.(1) \"A nagyobb mindig jobb.\"Hamis – a túlméretezett egységek rövid ciklusúak, rosszul páramentesítenek, és elhasználják az akkumulátort.(2) \"Meg kell egyeznie az otthoni váltóáram BTU értékével, hangerő szerint skálázva.\"Félrevezető – az otthoni váltóáramú hálózatok hálózati áramról működnek, és ritkán érvényesülnek az akkumulátorral működő mobil váltakozó áramú váltóáramra vonatkozó korlátok.A mobil környezet a megfelelő méretű inverter működését részesíti előnyben, nem a nyers BTU.(3) \"A barátom teherautójának 12 000 BTU egysége van, és kiválóan működik, ezért nekem is ugyanazt kellene vennem.\"Lehetséges, hogy helytelen – barátja vezetőfülkéjének más a szigetelése, más a napsugárzás, más az utasok terhelése és más éghajlati zóna, mint az Öné.Mindig futtassa az adott helyzetnek megfelelő képletet.Ebben a kategóriában az anekdotikus méretezés a vevő lelkiismeret-furdalásának egyetlen leggyakoribb oka."
+    },
+    {
+      "heading": null,
+      "body": "## Mindent összerakni: használható méretezési munkalap"
+    },
+    {
+      "heading": null,
+      "body": "Itt található a teljes lépésről lépésre, amelyet 10 perc alatt futtathat az adott fülkében vagy RV.1. lépés: Mérje meg a belső hosszt, szélességet és átlagos magasságot hüvelykben.2. lépés: szorozd meg, hogy köbhüvelyket kapj, oszd el 1728-cal, hogy köblábot kapj.3. lépés: vonjon le nagyjából 35–40%-ot a matracra, a szekrényekre és a tárolóre a hatékony hűtési térfogat eléréséhez.4. lépés: határozza meg a ΔT értéket – a legrosszabb környezeti hőmérsékletet, mínusz a célhőmérsékletet, Fahrenheit-fokban.5. lépés: válassza ki a szigetelési tényezőt (0,7 kiváló / 1,0 átlagos / 1,3 gyenge).6. lépés: válassza ki a napfénytényezőt (1,0 árnyékos / 1,2 részleges napsütés / 1,4 teljes nap).7. lépés: számolja meg a lakókat × 400 BTU.8. lépés: szorozza meg a térfogat × ΔT × szigetelés × nap értékét, majd adja hozzá az utasterhelést.9. lépés: alkalmazza a klímazóna beállítását a fenti szakaszból.10. lépés: kerekítse fel a legközelebbi kereskedelmi forgalomban kapható BTU osztályra.Dokumentálja a számait;Ez az a munkalap, amelyet bármely szállítónak átadhat, hogy pontos árajánlatot kapjon.Az eladók tiszteletben tartják azt a vevőt, aki elvégezte ezt a házi feladatot, és Ön elkerüli, hogy egy olyan egységre továbbértékesítsen, amelyre nincs szüksége."
+    },
+    {
+      "heading": null,
+      "body": "## Gyakran Ismételt Kérdések"
+    },
+    {
+      "heading": null,
+      "body": "**Elegendő 5000 BTU egy egyágyas, 8. osztályú alvóhelyhez?**\n\nAz Egyesült Államok északi részén gyakran igen.Texasban, Arizonában vagy Floridában a nyarak nem – 100°F+ környezeti hőmérséklet mellett nehezen fog tartani a 70°F-ot.Lépjen 6500–8000 BTU-ra a déli útvonalakon.\n\n**Túlméretezhetem \"csak abban az esetben\" a forró napokra?**\n\nAz enyhe túlméretezés (10-20%) biztonságos a modern, lefelé moduláló inverterekkel.A fix fordulatszámú egységek jelentős túlméretezése (40%+) rövid ciklust, gyenge párátlanítást és rövidebb kompresszor élettartamot okoz.Megfelelő méretű, ne méretezz túl.\n\n**Újra kell számolnom a BTU összeget, ha napelemeket adok a tetőre?**\n\nNem – a napenergia nem változtatja meg a hűtési terhelést.A napelemek elhelyezése azonban árnyékolhatja a tetőt, ami némileg csökkenti a hőnyereséget (5–8%-os csökkenés).A napenergia legnagyobb előnye, hogy helyettesíti a váltakozó áramú áramot.\n\n**Hogyan befolyásolja a páratartalom a BTU méretét?**\n\nA magas páratartalom (70% feletti relatív páratartalom) növeli a látens hűtési terhelést – az AC-nak a hőmérséklet csökkentése mellett el kell távolítania a vízgőzt is.Adjon hozzá 10–15%-ot a BTU kiszámításához nedves éghajlaton (öböl partvidéke, Délkelet-Ázsia, trópusi övezetek).\n\n**Eltérnek a RV BTU ajánlásai a teherautófülkére vonatkozó ajánlásoktól?**\n\nIgen, jelentősen.A RV-ek általában nagyobb térfogattal (3–10-szer egy hálófülke), több ablakkal, több utassal és hosszabb használati idővel rendelkeznek.Használja a fenti RV táblázatot;ne extrapoláljon a teherautófülke-számokból.\n\n**A jelenlegi váltóáram rossz méretű – cseréljem ki?**\n\nHa alulméretezett: igen, cserélje ki.Az energiapazarlás, a kényelmetlenség és a túl kicsi egység 100%-os üzemeltetése miatti rövidebb élettartam indokolja a cserét.Ha túlméretezett: ellenőrizze, hogy ez egy inverter egység (akkor valószínűleg megfelelően le tud modulálni) vagy fix fordulatszámú (akkor a rövid ciklus folyamatosan rontja; az élettartam végén fontolja meg a cserét).\n\n**Hogyan hasonlít egy 12 000 BTU mini split egy 12 000 BTU tetőtérihez?**\n\nUgyanazon adattáblán (BTU) a mini splitek általában 5–10%-kal több használható hűtést biztosítanak, mivel a kondenzátor jobb légáramlást lát.Halkabbak is (a kompresszor a kabinon kívül van).A RVs és nagyobb terek esetében, ahol a telepítés bonyolultsága elfogadható, a mini-felosztás gyakran a jobb technikai választás.Azoknál a teherautóknál, ahol a tetőre szerelhető egyszerűség számít, a tetők dominálnak.A telepítési útmutatásért tekintse meg [lépésről lépésre szóló parkolási AC telepítési útmutatónkat] (/blog/how-to-install-parking-ac)."
+    }
+  ]
+}

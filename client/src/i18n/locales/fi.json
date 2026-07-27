@@ -2,9 +2,9 @@
   "nav": {
     "home": "Koti",
     "products": "Tuotteet",
-    "topMountedAC": "Katon AC",
-    "miniSplitAC": "Mini split AC",
-    "heatingCoolingAC": "Lämmitys/jäähdytys AC",
+    "topMountedAC": "Katto-AC",
+    "miniSplitAC": "Mini split",
+    "heatingCoolingAC": "Lämmitys/jäähdytys",
     "allProducts": "Kaikki tuotteet",
     "forum": "Foorumi",
     "blog": "Blogi",
@@ -18,10 +18,10 @@
     "logout": "Kirjaudu ulos"
   },
   "hero": {
-    "title": "Pysäköintijäähdytys off-grid-elämään ja mobiiliin mukavuuteen",
-    "subtitle": "12V ja 24V DC ilmastointi ilman tyhjäkäyntiä puoliperävaunuille, asuntovaunuille ja pakettiautoille — Viilennys ilman tyhjäkäyntiä",
-    "ctaPrimary": "Osta tuotteita",
-    "ctaSecondary": "Lue lisää",
+    "title": "12V/24V pysäköintiilmastointilaitteet kuorma-autoihin, matkailuautoihin, pakettiautoihin ja laivastoihin",
+    "subtitle": "CoolDrivePro rakentaa 12V/24V DC -pysäköintiilmastointilaitteita ja tyhjäkäynnillä olevia jäähdytysjärjestelmiä puolikuorma-autoille, RV-autoille, pakettiautoille, asuntovaunuille, kalustoille, jälleenmyyjille ja asentajille – B2B-hinnoittelulla, yhdysvaltalaisella takuutuella ja asennusohjeilla.",
+    "ctaPrimary": "Hanki sovitussuositus",
+    "ctaSecondary": "Pyydä tarjous jälleenmyyjältä",
     "badge": "Uutuus",
     "trustedBy": "Yli 10 000 kuljettajan luottama maailmanlaajuisesti"
   },
@@ -36,7 +36,7 @@
     "features": "Ominaisuudet",
     "reviews": "Asiakasarviot",
     "warranty": "Takuu",
-    "freeShipping": "Ilmainen toimitus",
+    "freeShipping": "Laskutustuki",
     "support": "Tuki 24/7",
     "topMounted": {
       "title": "Katon jäähdytys 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Jäähdyttää jopa 80 neliöjalkaa"
     },
     "miniSplit": {
-      "title": "Mini split jäähdytys 12000 BTU",
-      "subtitle": "12V DC ilmastointi ilman tyhjäkäyntiä puoliperävaunuille ja asuntovaunuille",
+      "title": "12V/24V minijaettu pysäköinti-AC puolivuodeohjaamille ja matkailuautoille",
+      "subtitle": "CoolDrivePro VX3000SP on 12 V/24 V DC minijaettu pysäköintiilmastointilaite, joka tarjoaa 12 000 BTU/h tyhjäkäynnin jäähdytystä puolivuodeohjaamoihin, matkailuautoihin, pakettiautoihin ja matkailuautoihin.Sisähöyrystin toimii ≤32 dB:llä käyttämällä GMCC-kaksoispyörivää invertterikompressoria, joten kuljettajat voivat nukkua pysäköityyön ilman moottorin joutokäyntiä.",
       "btu": "12 000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 tuntia",
@@ -59,14 +59,19 @@
       "specifications": "Tekniset tiedot",
       "reviews": "Asiakasarviot",
       "faq": "UKK",
-      "freeShipping": "Ilmainen toimitus",
-      "warranty": "Takuu 2 vuotta",
+      "freeShipping": "Laskutustuki",
+      "warranty": "1 vuoden takuu",
       "returns": "Palautus 30 päivää",
       "inStock": "Varastossa",
       "outOfStock": "Loppu varastosta",
       "quantity": "Määrä",
       "techSpecs": "Tekniset tiedot",
-      "relatedProducts": "Saatat pitää myös näistä"
+      "relatedProducts": "Saatat pitää myös näistä",
+      "warrantyDesc": "1 vuoden valmistajan takuu, joka kattaa materiaali- ja valmistusvirheet."
+    },
+    "heatingCoolingAC": {
+      "title": "12V/24V Lämmitys ja jäähdytys PysäköintiAC kuorma- ja matkailuautoille",
+      "subtitle": "CoolDrivePro V-TH1 on 12V/24V DC-lämpöpumpulla varustettu pysäköintiilmastointilaite, joka tuottaa 2000 W jäähdytyksen ja lämmityksen puolikuorma-autoihin, matkailuautoihin, pakettiautoihin ja erikoisajoneuvoihin.Se käyttää GMCC-kaksoispyörivää kompressoria ja R134a-kylmäainetta ja voi nostaa ohjaamon lämpötilan 5 °C:sta 30 °C:seen noin 30 minuutissa – moottoria ei käytetä joutokäynnillä eikä maavoimaa tarvita."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Peruuta",
     "posting": "Lähetetään...",
     "model": "Malli"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1 vuoden takuu"
+    }
   }
 }

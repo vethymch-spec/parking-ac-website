@@ -21,8 +21,8 @@ export default function HeroSection() {
     >
       {/* LCP Image - using <img> with srcSet for responsive loading */}
       <img
-        src="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp"
-        srcSet="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-640_fe5499d6.webp 640w, https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp 1280w"
+        src="/images/home/hero-bg-1280.webp"
+        srcSet="/images/home/hero-bg-640.webp 640w, /images/home/hero-bg-1280.webp 1280w"
         sizes="100vw"
         alt={t('hero.title')}
         className="absolute inset-0 w-full h-full object-cover"
@@ -39,30 +39,58 @@ export default function HeroSection() {
         }}
       />
 
-      {/* Content */}
+      {/* Content — paddingTop clears the fixed 64px navbar with breathing room so the H1 can never overlap the menu */}
       <div
         className="relative z-10 flex flex-col justify-end"
-        style={{ minHeight: "calc(100vh + 100px)", paddingBottom: "5rem" }}
+        style={{ minHeight: "calc(100vh + 100px)", paddingTop: "7rem", paddingBottom: "4rem" }}
       >
         <div className="max-w-[1280px] mx-auto px-4 lg:px-8 w-full">
-          <div className="max-w-xl">
+          <div className="max-w-2xl">
             {/* H1: Primary keyword "parking air conditioner" prominently placed */}
             <h1
-              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-4"
-              style={{ fontFamily: "'Montserrat', sans-serif", textShadow: "0 2px 12px rgba(0,0,0,0.4)" }}
+              className="text-3xl sm:text-4xl lg:text-[40px] font-extrabold text-white mb-6 sm:mb-7"
+              style={{ fontFamily: "'Montserrat', sans-serif", textShadow: "0 2px 12px rgba(0,0,0,0.4)", lineHeight: 1.15 }}
             >
               {t('hero.title')}
             </h1>
             {/* Keyword-rich subtitle */}
             <p
-              className="text-base sm:text-lg text-white/90 mb-8 font-light"
-              style={{ fontFamily: "'Inter', sans-serif", textShadow: "0 1px 6px rgba(0,0,0,0.4)" }}
+              className="text-base sm:text-lg text-white/90 mb-9 sm:mb-10 font-light max-w-xl"
+              style={{ fontFamily: "'Inter', sans-serif", textShadow: "0 1px 6px rgba(0,0,0,0.4)", lineHeight: 1.6 }}
             >
               {t('hero.subtitle')}
             </p>
-            <nav aria-label={t('products.title')} className="flex flex-wrap gap-3">
+            {/* Primary CTAs: fitment recommendation + dealer quote */}
+            <div className="flex flex-wrap gap-4 mb-10 sm:mb-12">
               <a
-                href="/products/top-mounted-ac"
+                href="/contact/?intent=fitment"
+                className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
+                style={{
+                  backgroundColor: "oklch(0.62 0.21 35)",
+                  fontFamily: "'Montserrat', sans-serif",
+                  letterSpacing: "0.02em",
+                  minHeight: "48px",
+                }}
+              >
+                {t('hero.ctaPrimary')}
+              </a>
+              <a
+                href="/contact/?intent=dealer-quote"
+                className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
+                style={{
+                  backgroundColor: "rgba(255,255,255,0.92)",
+                  color: "oklch(0.20 0 0)",
+                  fontFamily: "'Montserrat', sans-serif",
+                  letterSpacing: "0.02em",
+                  minHeight: "48px",
+                }}
+              >
+                {t('hero.ctaSecondary')}
+              </a>
+            </div>
+            <nav aria-label={t('products.title')} className="flex flex-wrap gap-3 pt-2 border-t border-white/15">
+              <a
+                href="/products/top-mounted-ac/"
                 className="inline-block px-6 py-3 text-sm font-bold text-white rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
                 style={{
                   backgroundColor: "oklch(0.45 0.18 255)",
@@ -74,7 +102,7 @@ export default function HeroSection() {
                 {t('nav.topMountedAC')}
               </a>
               <a
-                href="/products/mini-split-ac"
+                href="/products/mini-split-ac/"
                 className="inline-block px-6 py-3 text-sm font-bold text-white rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
                 style={{
                   backgroundColor: "oklch(0.45 0.18 255)",
@@ -86,7 +114,7 @@ export default function HeroSection() {
                 {t('nav.miniSplitAC')}
               </a>
               <a
-                href="/products/heating-cooling-ac"
+                href="/products/heating-cooling-ac/"
                 className="relative inline-block px-6 py-3 text-sm font-bold text-white rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
                 style={{
                   background: "linear-gradient(135deg, oklch(0.55 0.20 25), oklch(0.50 0.22 15))",
@@ -104,7 +132,7 @@ export default function HeroSection() {
                 {t('nav.heatingCoolingAC')}
               </a>
               <a
-                href="/products/nano-max"
+                href="/products/nano-max/"
                 className="relative inline-block px-6 py-3 text-sm font-bold text-white rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
                 style={{
                   background: "linear-gradient(135deg, oklch(0.55 0.20 25), oklch(0.50 0.22 15))",

@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "B2B パーキング AC サプライヤー バイヤーズガイド: 9 次元ルーブリック + 比較されたトップ 10 ブランド (2026)",
+    "category": "購入ガイド",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "フリート、ディーラー、OEM、卸売バイヤーは、2026 年にパーキング AC サプライヤーをどのように評価すべきか。9 次元のスコアリングルーブリック、MOQ + リードタイム + 認証ベンチマーク、および 10 ブランド (Webasto、Dometic、Thermo King、Eberspächer、Bergstrom NITE、Indel B、Dirna、Kingclima、Guchen、CoolDrivePro) の正直な..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "2026 年州別アイドリング禁止法: 50 州ルックアップ + 駐車場 AC ROI 計算ツール",
+    "category": "規制とコンプライアンス",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "2026 年に適用される米国の 50 州のアイドリング禁止法すべてが 1 つの表にまとめられています。細かい範囲、5 分と 15 分の制限、スリーパー/DEF の免除、およびアイドリング罰金と燃料コストと比較して、バッテリー パーキングエアコンが 9 ～ 14 か月でどのように返済できるかを示す実際の ROI が示されています。"
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "ベトナムのトラック駐車用エアコン完全ガイド (2026)",
+    "category": "購入ガイド",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "ベトナムのトラック駐車場 AC の 2026 年ガイド: 南北高速道路用の 9,000 台の BTU システム、燃料節約 (12 ～ 18 L/日)、設置コスト、ハノイからホーチミン市までの地域の気候への考慮事項。"
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "ホーチミン市港湾およびコンテナドライバー用駐車場AC（カットライ、カイメップ）",
+    "category": "地域ガイド",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "ホーチミン市のカットライとカイメップのコンテナドライバーに 9000 BTU の駐車場エアコンが必要な理由: 長い待ち時間、アイドル状態防止圧力、ベトナム南部の港物流におけるキャブ冷却の ROI。"
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "メコンデルタ農業トラックおよびコールドチェーントラック用パーキングAC",
+    "category": "地域ガイド",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "カントー、ティエンザン、ロンアンのメコンデルタ農業トラックとコールドチェーントラックの運行会社は、ベトナム南部でのフェリーの長時間の待ち時間や湿気の多い夜間の停車中にドライバーの休息を保つために、パーキングエアコンを利用しています。"
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Parking AC for the North-South Expressway (CT.01): Long-Haul Driver Guide",
+    "category": "地域ガイド",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "ベトナムの CT.01 南北高速道路の長距離ドライバーは、9000 BTU パーキングエアコンを使用して合法的に休憩し、一晩あたり 12 ～ 18 L のディーゼルを節約し、38°C の熱帯熱を乗り切っています。"
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "ベトナム観光バスおよび寝台バス用駐車場AC (ダナン、ニャチャン、フーコック)",
+    "category": "地域ガイド",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "ダナン、ニャチャン、ホイアン、フーコックの観光バスと寝台バスの運行会社は、ドライバーの休息を確保し、車両をホテルやリゾートのアイドル防止ポリシーに準拠させるために、パーキングエアコンをどのように使用しているか。"
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "移動式ヨガスタジオとウェルネスバン用のエアコン",
+    "category": "専門分野",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "移動式ヨガスタジオやウェルネスバンに不可欠な空調ソリューションをご覧ください。信頼性の高いパーキングエアコンにより、最適な温度制御 (68 ～ 72°F) を確保します。"
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "RVs に住むデジタルノマド向けのパーキングエアコン: どこからでも快適に仕事ができる",
+    "category": "ライフスタイル",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "RV デジタル遊牧民向けの駐車場エアコンに関する重要なガイド。適切な気候制御を使用して、RV からリモートで作業しながら、涼しく生産性を保ちます。"
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "RV ラリーやフェスティバルで涼しく過ごす: イベント向け駐車場 AC のヒント",
+    "category": "ライフスタイル",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "マスター RV はパーキングエアコンを使用してラリーを行います。快適なイベント体験のための補助冷却、バッテリーのサイジング、設置に関する専門家のヒントを入手してください。"
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Van Dweller によるパーキング AC ガイド: 車内でフルタイムで生活する",
+    "category": "バンライフ",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "バン居住者向けのパーキングエアコンの選択と設置に関する重要なガイド。専門家のヒントを参考に、トレーラーハウスで涼しく快適に過ごしましょう。"
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "次世代パーキングエアコンの R32 冷媒: GWP の低下と効率の向上",
+    "category": "テクノロジー",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Discover why R32 refrigerant is becoming the preferred choice for next-gen parking ACs, offering lower GWP and improved efficiency for commercial vehicles."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "ドメティック vs ベバストパーキング AC: 並べて比較 (2026)",
+    "category": "比較",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 対 Webasto Cool Top RTE 16 の対決: 冷却出力、騒音、消費電力、設置の複雑さ、保証、5 年間の所有コスト。フィールドからの実数。"
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "ノーアイドルトラック空調システム: 州のアイドリング禁止法を遵守する方法 (2026 年)",
+    "category": "コンプライアンス",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026 年] 州ごとのアイドリング禁止法とノーアイドリングトラック AC の遵守方法。CARB (罰金 300 ～ 1,000 ドル)、30 以上の州の制限、EPA SmartWay、および 2026 年の要件を満たす 5 つのシステム。"
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "駐車場エアコン BTU サイズ計算ツール: BTU は実際に何台必要ですか?(2026年)",
+    "category": "購入ガイド",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] 寝台車または RV の寝室には BTU が何台必要ですか?クラス 8 トラック (5,000 ～ 10,000 BTU)、スプリンター バン (6,000 ～ 8,000 BTU)、および 25 フィート RV (12,000 ～ 14,000 BTU) の段階的な式と表。"
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "2026 年の駐車場エアコン設置費用: 州別のショップ料金と DIY の節約額",
+    "category": "購入ガイド",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026 年] 州ごとのパーキングエアコン設置費用: 専門家は 400 ～ 1,200 ドル、DIY は 0 ～ 150 ドル。カリフォルニア州、テキサス州、フロリダ州、ニューヨーク州の実店舗の料金に加え、ユニット、バッテリー、配線、人件費の完全な内訳。"
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "駐車場の AC 騒音の比較: 3 フィートでテストされた実際の dB レベル (2026 年)",
+    "category": "比較",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026 年] 3 フィートの位置で、校正済みの dB メーターを使用して 12 台のパーキング AC ユニットを測定しました。CoolDrivePro V-TH1 は 42 dBA、Dometic RTX2000 は 48 dBA、RigMaster は 67 dBA に達しました。実際の数字であり、マーケティングは必要ありません。"
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "トラックの AC 電力消費: ワット、アンペア、バッテリーの消耗について説明 (2026 年)",
+    "category": "電源とバッテリー",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] トラックの AC 消費電力の説明: 平均 480 W、24V で 9A、一晩あたり 38 ～ 55Ah。実際の数値、バッテリーのサイズを決定する公式、インバーター コンプレッサーがどのように消費電力を 30% カットするのかを説明します。"
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "バッテリー駆動 RV エアコン: 2026 年完全購入者ガイド",
+    "category": "購入ガイド",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "バッテリー駆動の RV エアコンに関する 2026 年の完全なガイド。ネイティブ 12V/24V DC とインバーター設定、実際の LiFePO4 ランタイムデータ (220Ah → 8 ～ 11 時間)、1,500 ～ 3,800 ドルの価格帯、ソーラー オフセット計算。"
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "パーキングエアコンの設置方法: 2026 年のステップバイステップガイド",
+    "category": "インストールガイド",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "パーキングエアコンを設置するための 2026 年の段階的なガイド: 屋根の準備、14x14 カットアウト、ガスケット、配線 (4 AWG、80A ヒューズ)、試運転。DIY は 6 ～ 9 時間、ユニット以外の部品代は 325 ドル。"
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 パーキング AC 用バッテリー: 2026 サイジングおよび配線ガイド",
+    "category": "ハウツーガイド",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 パーキング AC のサイジングガイド: 220Ah ($1,400)、280Ah ($1,750)、400Ah ($2,400) オプション (8 時間の実行時間計算、BMS/ヒューズ/ケーブル仕様)。"
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "駐車場のエアコンが冷えない？2026 トラブルシューティングガイド (ステップバイステップ)",
+    "category": "トラブルシューティング",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "冷えないパーキングエアコンを修理するための 2026 年のステップバイステップガイド。電圧降下、冷媒、コンデンサーの汚れ、サーモスタット、BMS — 30 分で診断し、0 ～ 280 ドルで修理します。"
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "パーキング AC と APU: 2026 年のフリートのコストとパフォーマンスの比較",
+    "category": "レビューと比較",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "2026 年のフリート決定ガイド: パーキング AC と APU。4.05 ドルのディーゼルで 5 年間の TCO — DC パーキングエアコンは、ディーゼル APU と比較してトラック 1 台あたり 9,800 ～ 14,200 ドル、アイドリングと比較して 3,200 ～ 5,400 ドル節約します。"
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V 対 24V 2026 年のパーキング AC: トラック、RV、バンの決定ガイド",
+    "category": "バイヤーズガイド",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V と 24V の 2026 年のパーキング AC: 車両のネイティブ電圧と一致します。ケーブルのゲージ、バッテリーのコスト、効率、実行時間、コンバーターが適切な場合などの詳細な内訳。内部の意思決定マトリックス。"
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "2026 年のベストパーキングエアコン: 比較した上位 9 台 (トラック、RV、バン)",
+    "category": "バイヤーズガイド",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "2026 年に向けてテストされた 9 つの最高のパーキングエアコン: サイドバイサイド BTU、騒音、吸引力、価格、セミトラック、RV、スプリンター バン、フリートの実際のパフォーマンス。ユースケース別に勝者を選出します。"
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "パーキングエアコン購入ガイド 2026: 適切なユニットの選び方 (1,500 ドルを無駄にしない)",
+    "category": "バイヤーズガイド",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "2026 年の駐車場用エアコン購入ガイド: 7 段階の意思決定フレームワーク、BTU サイジングテーブル、仕様のしきい値、階層別のコスト予算、および 1,500 ドルのエアコンをスクラップにする 5 つの間違い。購入する前にお読みください。"
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "駐車場空調の燃料節約計算ツール 2026: アイドルコストと DC 駐車場空調と APU",
+    "category": "ツールと計算機",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "DC パーキングエアコン、アイドリング、ディーゼル APU から正確な燃料節約量を計算します。2026 年の燃料価格、実際のデューティサイクル、生涯 ROI。オーナーオペレーターおよび 100 台のトラックフリートでの実際の例。"
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "アレクサンドリアの沿岸湿度に対応したパーキングエアコン: エジプトの地中海性気候の課題と闘う",
     "category": "フリートアプリケーション",
@@ -744,52 +976,12 @@
     "excerpt": "信頼性の高いパーキング AC ソリューションにより、移動動物診療所における動物と設備の安全性を確保します。医療と福祉にとって重要です。"
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "移動式ヨガスタジオとウェルネスバン用のエアコン",
-    "category": "専門分野",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "移動式ヨガスタジオやウェルネスバンに不可欠な空調ソリューションをご覧ください。信頼性の高いパーキングエアコンにより、最適な温度制御 (68 ～ 72°F) を確保します。"
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "RVs に住むデジタルノマド向けのパーキングエアコン: どこからでも快適に仕事ができる",
-    "category": "ライフスタイル",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "RV デジタル遊牧民向けの駐車場エアコンに関する重要なガイド。適切な気候制御を使用して、RV からリモートで作業しながら、涼しく生産性を保ちます。"
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "RV ラリーやフェスティバルで涼しく過ごす: イベント向け駐車場 AC のヒント",
-    "category": "ライフスタイル",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "マスター RV はパーキングエアコンを使用してラリーを行います。快適なイベント体験のための補助冷却、バッテリーのサイジング、設置に関する専門家のヒントを入手してください。"
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Van Dweller によるパーキング AC ガイド: 車内でフルタイムで生活する",
-    "category": "バンライフ",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "バン居住者向けのパーキングエアコンの選択と設置に関する重要なガイド。専門家のヒントを参考に、トレーラーハウスで涼しく快適に過ごしましょう。"
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "パーキングエアコン設置費用の全価格内訳 2025",
     "category": "金融",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "2025 年のパーキングエアコン設置費用全体を分析します。ユニットの種類から電気設備のアップグレードまで、価格に影響を与える要因について洞察を得ることができます。"
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "次世代パーキングエアコンの R32 冷媒: GWP の低下と効率の向上",
-    "category": "テクノロジー",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Discover why R32 refrigerant is becoming the preferred choice for next-gen parking ACs, offering lower GWP and improved efficiency for commercial vehicles."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -806,14 +998,6 @@
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "excerpt": "パーキング AC サブスクリプションモデルが車両の運用をどのように変革し、コスト削減とドライバーの快適性の向上を実現しているかをご覧ください。サービスとしての気候制御の未来について学びましょう。"
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V と 24V 駐車場用 AC: トラック、RV、またはバンにはどの電圧が最適ですか?",
-    "category": "テクニカルガイド",
-    "date": "2025 年 3 月 8 日",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "購入する前に、12V および 24V パーキング AC システムを、車両への適合性、消費電流、配線、バッテリーの稼働時間、設置の複雑さによって比較してください。"
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -904,14 +1088,6 @@
     "excerpt": "オフグリッド RV 冷却を計画していますか?接続や発電機のノイズを発生させずにボンドッキングするために、太陽電池、リチウム電池、12V パーキング AC ランタイムのサイズを決定する方法を学びます。"
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "パーキングエアコン購入ガイド 2025: トラック、RV、またはバンに適したユニットを選択する方法",
-    "category": "バイヤーズガイド",
-    "date": "2024 年 11 月 20 日",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "パーキングエアコンを購入しますか?購入する前に、ルーフトップとミニスプリット、12V と 24V、BTU のサイズ、バッテリー駆動時間、設置のトレードオフを比較してください。"
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "パーキングエアコンはエンジンのアイドリングと比べて二酸化炭素排出量をどのように削減するのか",
     "category": "環境",
@@ -990,14 +1166,6 @@
     "date": "2024 年 12 月 22 日",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "excerpt": "スクーリーで涼しく過ごしましょう！当社のガイドでは、屋上、ミニスプリット、12V オプションなど、スクールバスの改造に最適なパーキングエアコンについて説明しています。設置や電源などについて学びましょう。"
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "パーキングエアコンはどのくらい燃料を節約できますか?実数と ROI 計算ツール",
-    "category": "ガイド",
-    "date": "2025 年 2 月 15 日",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "パーキングエアコンがどれだけ燃料を節約できるかをご覧ください。私たちのガイドでは、実数、ROI 計算ツール、トラック、RV、バンに関するヒントを提供します。"
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1118,10 +1286,6 @@
     "date": "2024 年 12 月 8 日",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "excerpt": "トラック、RV、バンの安全な 12V/24V 駐車場の AC 配線と電気設備に関する包括的なガイド。コンポーネント、電圧降下、バッテリー管理、CoolDrivePro ユニットのトラブルシューティングについて説明します。"
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

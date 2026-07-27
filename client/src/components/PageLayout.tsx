@@ -1,8 +1,7 @@
 /**
  * PageLayout – shared wrapper for all inner pages
- * Includes AnnouncementBar + Navbar (scrolled=white) + Footer
+ * Includes Navbar (scrolled=white) + Footer
  */
-import AnnouncementBar from "./AnnouncementBar";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -13,10 +12,8 @@ interface PageLayoutProps {
 export default function PageLayout({ children }: PageLayoutProps) {
   return (
     <div className="min-h-screen flex flex-col">
-      <AnnouncementBar />
       <Navbar forceScrolled />
-      {/* 36px announcement + 64px navbar */}
-      <main style={{ paddingTop: "100px", flex: 1 }}>
+      <main className="flex-1 pt-16">
         {children}
       </main>
       <Footer />

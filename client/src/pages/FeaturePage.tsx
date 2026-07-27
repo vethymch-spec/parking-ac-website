@@ -5,6 +5,7 @@
 import { Link, useParams } from "wouter";
 import { ChevronRight, Check } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
+import { useSEO } from "@/hooks/useSEO";
 
 const featureData: Record<string, {
   badge: string;
@@ -204,6 +205,12 @@ export default function FeaturePage() {
   const params = useParams<{ id: string }>();
   const feature = featureData[params.id || ""];
 
+  useSEO({
+    title: feature ? `${feature.title} | CoolDrivePro` : "Feature Not Found | CoolDrivePro",
+    description: feature?.intro || "Explore CoolDrivePro parking air conditioner features for power, efficiency, installation, battery protection, durability, and low-noise operation.",
+    ogImage: feature?.image,
+  });
+
   if (!feature) {
     return (
       <PageLayout>
@@ -289,7 +296,7 @@ export default function FeaturePage() {
             Experience This Feature in Action
           </h2>
           <p className="text-base mb-8" style={{ color: "oklch(0.50 0.05 250)", fontFamily: "'Inter', sans-serif" }}>
-            All CoolDrivePro parking air conditioners include this feature. Free shipping on all US orders.
+            All CoolDrivePro parking air conditioners include this feature. Request a vehicle-fitment invoice when you are ready.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link

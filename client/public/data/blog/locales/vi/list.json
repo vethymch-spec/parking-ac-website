@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Hướng dẫn dành cho người mua nhà cung cấp máy điều hòa đỗ xe B2B: Thang đánh giá 9 chiều + So sánh 10 thương hiệu hàng đầu (2026)",
+    "category": "Hướng dẫn mua hàng",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Đội xe, đại lý, OEM và người mua bán buôn nên đánh giá các nhà cung cấp máy điều hòa đỗ xe như thế nào vào năm 2026. Tiêu chí chấm điểm 9 chiều, điểm chuẩn MOQ + thời gian giao hàng + chứng nhận và đánh giá trung thực..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Luật chống chạy không tải theo từng tiểu bang năm 2026: Tra cứu 50 tiểu bang + Công cụ tính ROI AC đỗ xe",
+    "category": "Quy định & Tuân thủ",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Tất cả 50 luật chống chạy không tải của tiểu bang Hoa Kỳ cho năm 2026 trong một bảng - phạm vi phạt, giới hạn 5 so với 15 phút, miễn trừ tà vẹt/DEF và ROI đã hoạt động cho thấy mức hoàn vốn của AC đỗ xe bằng pin sau 9..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Hướng dẫn đầy đủ về máy lạnh đậu xe tải tại Việt Nam (2026)",
+    "category": "Hướng dẫn mua hàng",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Hướng dẫn 2026 về máy lạnh đậu xe tải tại Việt Nam: hệ thống 9000 BTU cho cao tốc Bắc-Nam, tiết kiệm 12-18L dầu/đêm, chi phí lắp đặt và lưu ý khí hậu từ Hà Nội đến TP. Hồ Chí Minh."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Máy lạnh đậu xe cho tài xế container TP. HCM (Cát Lái, Cái Mép)",
+    "category": "Hướng dẫn khu vực",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Vì sao tài xế container Cát Lái và Cái Mép tại TP. HCM cần máy lạnh đậu xe 9000 BTU: thời gian xếp hàng dài, áp lực chống nổ máy chờ và ROI của làm mát cabin cho logistics cảng phía Nam."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Máy lạnh đậu xe cho xe tải nông sản & lạnh tại Đồng bằng sông Cửu Long",
+    "category": "Hướng dẫn khu vực",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Các nhà vận tải nông sản và chuỗi lạnh tại Cần Thơ, Tiền Giang, Long An cần máy lạnh đậu xe để giúp tài xế nghỉ ngơi trong những lần chờ phà dài và đêm ẩm tại miền Tây Việt Nam."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Máy lạnh đậu xe trên cao tốc Bắc-Nam (CT.01): Hướng dẫn cho tài xế đường dài",
+    "category": "Hướng dẫn khu vực",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Cách tài xế đường dài trên cao tốc CT.01 Bắc-Nam sử dụng máy lạnh đậu xe 9000 BTU để nghỉ hợp pháp, tiết kiệm 12-18 lít dầu mỗi đêm và vượt qua cái nóng nhiệt đới 38°C."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Máy lạnh đậu xe cho xe khách du lịch & xe giường nằm Việt Nam (Đà Nẵng, Nha Trang, Phú Quốc)",
+    "category": "Hướng dẫn khu vực",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Các nhà khai thác xe khách du lịch và xe giường nằm tại Đà Nẵng, Nha Trang, Hội An và Phú Quốc sử dụng máy lạnh đậu xe để tài xế nghỉ ngơi và tuân thủ chính sách chống nổ máy của khách sạn và khu nghỉ dưỡng."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Điều hòa không khí cho phòng tập Yoga di động và xe tải chăm sóc sức khỏe",
+    "category": "Đặc sản",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "Khám phá các giải pháp điều hòa không khí thiết yếu cho phòng tập yoga di động và xe tải chăm sóc sức khỏe.Đảm bảo kiểm soát nhiệt độ tối ưu (68-72°F) với điều hòa đỗ xe đáng tin cậy."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Đỗ xe điều hòa cho những người du mục kỹ thuật số sống ở RVs: Sự thoải mái khi làm việc ở mọi nơi",
+    "category": "Phong cách sống",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "Hướng dẫn cần thiết về điều hòa đỗ xe cho RV những người du mục kỹ thuật số.Luôn mát mẻ và làm việc hiệu quả khi làm việc từ xa từ RV của bạn với điều khiển khí hậu phù hợp."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Giữ bình tĩnh tại RV Các cuộc biểu tình và lễ hội: Mẹo đỗ xe AC cho các sự kiện",
+    "category": "Phong cách sống",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "Bậc thầy RV biểu tình với bãi đậu xe AC!Nhận lời khuyên của chuyên gia về cách làm mát bổ sung, định cỡ pin và lắp đặt để có trải nghiệm sự kiện thoải mái."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Hướng dẫn đỗ xe AC của Van Dweller: Sống toàn thời gian trên xe của bạn",
+    "category": "Vân Đời",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "Hướng dẫn cần thiết để lựa chọn và lắp đặt điều hòa đỗ xe cho người đi xe tải.Luôn mát mẻ và thoải mái trong ngôi nhà di động của bạn với những lời khuyên của chuyên gia."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Chất làm lạnh R32 trong điều hòa đỗ xe thế hệ tiếp theo: GWP thấp hơn và hiệu quả tốt hơn",
+    "category": "Công nghệ",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Khám phá lý do tại sao chất làm lạnh R32 đang trở thành lựa chọn ưu tiên cho điều hòa đỗ xe thế hệ tiếp theo, mang lại GWP thấp hơn và cải thiện hiệu suất cho xe thương mại."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Đỗ xe AC: So sánh song song (2026)",
+    "category": "So sánh",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Đối đầu giữa Dometic RTX2000 và Webasto Cool Top RTE 16: hiệu suất làm mát, tiếng ồn, tiêu thụ điện năng, độ phức tạp khi lắp đặt, bảo hành và chi phí sở hữu 5 năm.Số thực từ hiện trường."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Hệ thống điều hòa không tải cho xe tải: Cách tuân thủ luật chống chạy không tải của tiểu bang (2026)",
+    "category": "Tuân thủ",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Luật chống chạy không tải của từng tiểu bang và cách tuân thủ điều hòa không tải cho xe tải không chạy.CARB ($300–$1.000 tiền phạt), hơn 30 giới hạn của tiểu bang, EPA SmartWay và 5 hệ thống đáp ứng các yêu cầu..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Máy tính định cỡ AC đậu xe BTU: Bạn thực sự cần bao nhiêu BTU?(2026)",
+    "category": "Hướng dẫn mua hàng",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] Xe giường nằm hoặc phòng ngủ RV của bạn cần bao nhiêu BTU?Công thức từng bước cộng với bảng dành cho xe tải Loại 8 (5.000–10.000 BTU), xe tải chạy nước rút (6.000–8.000 BTU) và xe tải 25 ft RVs (12.000–14.000 B..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Chi phí lắp đặt điều hòa cho bãi đỗ xe năm 2026: Giá cửa hàng theo tiểu bang và khoản tiết kiệm tự làm",
+    "category": "Hướng dẫn mua hàng",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Chi phí lắp đặt máy điều hòa cho bãi đậu xe theo tiểu bang: $400–$1.200 chuyên nghiệp, $0–$150 DIY.Giá thực tế tại cửa hàng từ CA, TX, FL, NY, cộng với chi tiết đầy đủ về thiết bị, pin, hệ thống dây điện và chi..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "So sánh tiếng ồn của máy điều hòa khi đỗ xe: Mức dB thực được thử nghiệm ở mức 3 feet (2026)",
+    "category": "So sánh",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Chúng tôi đã đo 12 bộ điều hòa không khí đỗ xe bằng máy đo dB đã hiệu chỉnh ở khoảng cách 3 feet.CoolDrivePro V-TH1 đạt 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Số thực, không có tiếp thị."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Mức tiêu thụ điện xoay chiều của xe tải: Giải thích về Watt, Ampe và mức tiêu hao pin (2026)",
+    "category": "Nguồn & Pin",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Giải thích mức tiêu thụ điện xoay chiều của xe tải: trung bình 480W, 9A ở 24V, 38–55Ah mỗi đêm.Các số thực, công thức tính kích thước pin của bạn và cách máy nén biến tần cắt giảm 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Máy điều hòa chạy bằng pin RV: Hướng dẫn đầy đủ cho người mua năm 2026",
+    "category": "Hướng dẫn mua hàng",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Hướng dẫn đầy đủ năm 2026 về máy điều hòa không khí chạy bằng pin RV.Thiết lập gốc 12V/24V DC so với thiết lập biến tần, dữ liệu thời gian chạy LiFePO4 thực (220Ah → 8–11 giờ), phạm vi giá $1.500–$3.800, phép toán bù..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Cách lắp đặt điều hòa đỗ xe: Hướng dẫn từng bước cho năm 2026",
+    "category": "Hướng dẫn cài đặt",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Hướng dẫn từng bước năm 2026 để lắp đặt điều hòa cho bãi đậu xe: chuẩn bị mái nhà, lỗ cắt 14x14, miếng đệm, hệ thống dây điện (4 AWG, cầu chì 80A), vận hành thử.6–9 giờ tự làm, $325 cho các bộ phận ngoài thiết bị."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Pin cho điều hòa đỗ xe: Hướng dẫn định cỡ và nối dây 2026",
+    "category": "Hướng dẫn cách thực hiện",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "Hướng dẫn định cỡ 2026 LiFePO4 cho AC đỗ xe: các tùy chọn 220Ah ($1.400), 280Ah ($1.750), 400Ah ($2.400) với phép toán thời gian chạy 8 giờ, thông số kỹ thuật BMS/cầu chì/cáp."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Điều hòa đỗ xe không làm mát?Hướng dẫn khắc phục sự cố năm 2026 (Từng bước)",
+    "category": "Khắc phục sự cố",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "Hướng dẫn từng bước năm 2026 để sửa điều hòa đỗ xe không mát.Sụt điện áp, chất làm lạnh, bình ngưng bẩn, bộ điều chỉnh nhiệt, BMS — chẩn đoán trong 30 phút, sửa chữa từ $0–$280."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Đỗ xe AC và APU: So sánh chi phí và hiệu suất năm 2026 cho đội xe",
+    "category": "Đánh giá & so sánh",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Hướng dẫn quyết định đội xe năm 2026: đỗ xe AC so với APU.TCO 5 năm với động cơ diesel $4,05 — DC điều hòa đỗ xe tiết kiệm $9.800–$14.200/xe tải so với động cơ diesel APU, $3.200–$5.400 so với chạy không tải."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs 24V Đỗ xe AC vào năm 2026: Xe tải, RV & Hướng dẫn quyết định xe tải",
+    "category": "Hướng dẫn người mua",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V so với 24V điều hòa đỗ xe vào năm 2026: phù hợp với điện áp gốc của xe bạn.Phân tích đầy đủ về thước đo cáp, chi phí pin, hiệu suất, thời gian chạy và khi nào bộ chuyển đổi có ý nghĩa.Ma trận quyết định bên trong."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Máy điều hòa không khí đỗ xe tốt nhất năm 2026: 9 lựa chọn hàng đầu được so sánh (Xe tải, RVs & Xe tải)",
+    "category": "Hướng dẫn người mua",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 máy điều hòa không khí đỗ xe tốt nhất được thử nghiệm cho năm 2026: BTU song song, tiếng ồn, độ kéo, giá cả và hiệu suất thực tế dành cho xe bán tải, RV, xe tải chạy nước rút và đội xe.Người chiến thắng chọn theo tr..."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Hướng dẫn mua máy điều hòa không khí đỗ xe năm 2026: Cách chọn thiết bị phù hợp (Không lãng phí 1.500 USD)",
+    "category": "Hướng dẫn người mua",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "Hướng dẫn mua AC đỗ xe năm 2026: khung quyết định 7 bước, bảng kích thước BTU, ngưỡng thông số kỹ thuật, ngân sách chi phí theo cấp và 5 sai lầm biến AC trị giá 1.500 đô la thành phế liệu.Đọc trước khi bạn mua."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Máy tính tiết kiệm nhiên liệu điều hòa đỗ xe 2026: Chi phí nhàn rỗi so với DC AC đỗ xe so với APU",
+    "category": "Công cụ & Máy tính",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "Tính toán chính xác mức tiết kiệm nhiên liệu từ DC điều hòa đỗ xe so với chạy không tải so với động cơ diesel APU.Giá nhiên liệu năm 2026, chu kỳ nhiệm vụ thực tế, ROI trọn đời.Ví dụ hoạt động cho chủ sở hữu-người điề..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Điều hòa không khí đỗ xe cho độ ẩm ven biển của Alexandria: Chống lại những thách thức về khí hậu Địa Trung Hải của Ai Cập",
     "category": "Ứng dụng đội tàu",
@@ -744,52 +976,12 @@
     "excerpt": "Đảm bảo an toàn cho động vật và thiết bị tại các phòng khám thú y di động với các giải pháp điều hòa đỗ xe đáng tin cậy.Quan trọng đối với thuốc men và phúc lợi."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Điều hòa không khí cho phòng tập Yoga di động và xe tải chăm sóc sức khỏe",
-    "category": "Đặc sản",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "Khám phá các giải pháp điều hòa không khí thiết yếu cho phòng tập yoga di động và xe tải chăm sóc sức khỏe.Đảm bảo kiểm soát nhiệt độ tối ưu (68-72°F) với điều hòa đỗ xe đáng tin cậy."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Đỗ xe điều hòa cho những người du mục kỹ thuật số sống ở RVs: Sự thoải mái khi làm việc ở mọi nơi",
-    "category": "Phong cách sống",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "Hướng dẫn cần thiết về điều hòa đỗ xe cho RV những người du mục kỹ thuật số.Luôn mát mẻ và làm việc hiệu quả khi làm việc từ xa từ RV của bạn với điều khiển khí hậu phù hợp."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Giữ bình tĩnh tại RV Các cuộc biểu tình và lễ hội: Mẹo đỗ xe AC cho các sự kiện",
-    "category": "Phong cách sống",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "Bậc thầy RV biểu tình với bãi đậu xe AC!Nhận lời khuyên của chuyên gia về cách làm mát bổ sung, định cỡ pin và lắp đặt để có trải nghiệm sự kiện thoải mái."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Hướng dẫn đỗ xe AC của Van Dweller: Sống toàn thời gian trên xe của bạn",
-    "category": "Vân Đời",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "Hướng dẫn cần thiết để lựa chọn và lắp đặt điều hòa đỗ xe cho người đi xe tải.Luôn mát mẻ và thoải mái trong ngôi nhà di động của bạn với những lời khuyên của chuyên gia."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Chi phí lắp đặt điều hòa không khí ở bãi đậu xe: Phân tích giá đầy đủ năm 2025",
     "category": "Tài chính",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Phân tích toàn bộ chi phí lắp đặt máy điều hòa không khí ở bãi đậu xe cho năm 2025. Nhận thông tin chi tiết về các yếu tố ảnh hưởng đến giá cả, từ loại thiết bị đến nâng cấp điện."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Chất làm lạnh R32 trong điều hòa đỗ xe thế hệ tiếp theo: GWP thấp hơn và hiệu quả tốt hơn",
-    "category": "Công nghệ",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Khám phá lý do tại sao chất làm lạnh R32 đang trở thành lựa chọn ưu tiên cho điều hòa đỗ xe thế hệ tiếp theo, mang lại GWP thấp hơn và cải thiện hiệu suất cho xe thương mại."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -806,14 +998,6 @@
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "excerpt": "Khám phá cách các mô hình đăng ký AC đỗ xe đang chuyển đổi hoạt động của đội xe, giúp tiết kiệm chi phí và nâng cao sự thoải mái cho người lái.Tìm hiểu về tương lai của việc kiểm soát khí hậu như một dịch vụ."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V so với 24V Máy điều hòa không khí đỗ xe: Cái nào phù hợp với xe tải của bạn hay RV?",
-    "category": "Công nghệ",
-    "date": "Ngày 8 tháng 3 năm 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "Chọn giữa 12V và 24V đỗ điều hòa cho xe tải của bạn hay RV?Hướng dẫn toàn diện này nêu chi tiết những ưu, nhược điểm và ứng dụng lý tưởng của từng hệ thống, giúp bạn đưa ra quyết định sáng suốt để mang lại sự thoải má..."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -904,14 +1088,6 @@
     "excerpt": "Hướng dẫn đầy đủ về RV điều hòa không khí không nối lưới sử dụng năng lượng mặt trời và 12V điều hòa không khí khi đỗ xe.Tìm hiểu kích thước hệ thống, lựa chọn pin và các mẹo về hiệu suất trong thế giới thực."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Hướng dẫn mua điều hòa đỗ xe 2025: Mọi điều bạn cần biết trước khi mua",
-    "category": "Hướng dẫn người mua",
-    "date": "Ngày 20 tháng 11 năm 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "Hướng dẫn mua máy điều hòa không khí đỗ xe hoàn chỉnh năm 2025.So sánh xếp hạng BTU, 12V với 24V, gắn trên cùng và chia nhỏ và tìm điều hòa đỗ xe tốt nhất cho xe tải của bạn hoặc RV."
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "Làm thế nào một máy điều hòa không khí đỗ xe làm giảm lượng khí thải carbon của bạn so với động cơ chạy không tải",
     "category": "Môi trường",
@@ -990,14 +1166,6 @@
     "date": "Ngày 22 tháng 12 năm 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "excerpt": "Giữ bình tĩnh trong skoolie của bạn!Hướng dẫn của chúng tôi bao gồm các điều hòa đỗ xe tốt nhất để chuyển đổi xe buýt trường học, bao gồm các tùy chọn trên mái nhà, chia nhỏ và 12V.Tìm hiểu về cách cài đặt, nguồn điện..."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Máy điều hòa không khí đỗ xe tiết kiệm được bao nhiêu nhiên liệu?Máy tính số thực & ROI",
-    "category": "hướng dẫn",
-    "date": "Ngày 15 tháng 2 năm 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "Khám phá xem máy điều hòa không khí đỗ xe có thể giúp bạn tiết kiệm bao nhiêu nhiên liệu.Hướng dẫn của chúng tôi cung cấp số thực, công cụ tính ROI và mẹo dành cho xe tải, RVs và xe tải nhỏ."
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1118,10 +1286,6 @@
     "date": "Ngày 8 tháng 12 năm 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "excerpt": "Hướng dẫn toàn diện về cách lắp đặt điện và dây điện AC khi đỗ xe 12V/24V an toàn trong xe tải, RV và xe tải nhỏ.Tìm hiểu về các thành phần, sụt áp, quản lý pin và khắc phục sự cố cho thiết bị CoolDrivePro."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

@@ -1,5 +1,261 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "imageAlt": "Outdoor unit of a parking air conditioner with compressor service access",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "imageAlt": "Parking air conditioner split-system installation and service access",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "B2B 주차 AC 공급업체 구매자 가이드: 9차원 루브릭 + 상위 10개 브랜드 비교(2026)",
+    "date": "2026-06-08",
+    "category": "구매 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "B2B 주차 AC 공급업체 비교 — 차량, 딜러 및 OEM 구매자를 위한 9차원 채점 기준표",
+    "excerpt": "2026년 차량, 딜러, OEM 및 도매 구매자가 주차 AC 공급업체를 평가하는 방법. 9차원 채점 기준표, MOQ + 리드 타임 + 인증 벤치마크, 10개 브랜드(Webasto, Dometic, Thermo King, Eberspächer, Bergstrom NITE, Indel B, Dirna, Kingclima, Guchen, CoolDrivePro)에 대한 솔직한 리뷰 — 각 브..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "주별 공회전 방지법 2026: 50개 주 조회 + 주차 AC ROI 계산기",
+    "date": "2026-06-08",
+    "category": "규제 및 규정 준수",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "주차 AC 규정 준수 오버레이와 함께 2026년 주별 공회전 방지법을 보여주는 미국 지도",
+    "excerpt": "2026년 미국 주 공회전 방지법 50개를 모두 하나의 테이블에 표시합니다. 정밀 주행 거리, 5분 대 15분 제한, 수면/DEF 면제, 공회전 벌금과 연료비에 비해 배터리 주차 AC가 9~14개월 만에 어떻게 갚는지 보여주는 실제 ROI입니다."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "베트남의 트럭 주차 에어컨에 대한 전체 가이드(2026)",
+    "date": "2026-05-20",
+    "category": "구매 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "2026년 베트남 트럭 주차 AC 안내: 남북 고속도로용 9000 BTU 시스템, 연료 절감(12-18L/일), 설치 비용 및 하노이에서 호치민까지의 지역 기후 고려 사항."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "호치민시 항구 및 컨테이너 운전사를 위한 주차 AC(Cat Lai, Cai Mep)",
+    "date": "2026-05-20",
+    "category": "지역 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "호치민시의 Cat Lai 및 Cai Mep 컨테이너 운전자에게 9000 BTU 주차 AC가 필요한 이유: 긴 대기 시간, 공회전 방지 압력 및 베트남 남부 항구 물류를 위한 운전실 냉각 ROI."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "메콩 삼각주 농업 및 저온 유통 트럭용 주차 AC",
+    "date": "2026-05-20",
+    "category": "지역 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Can Tho, Tien Giang 및 Long An의 메콩 삼각주 농업 및 저온 유통 트럭 운영업체는 주차 AC를 사용하여 베트남 남부에서 긴 페리 대기 시간과 습한 밤새 정차하는 동안 운전자가 휴식을 취할 수 있도록 합니다."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "남북고속도로(CT.01) 주차AC : 장거리 운전자 안내",
+    "date": "2026-05-20",
+    "category": "지역 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "베트남 CT.01 남북 고속도로의 장거리 운전자가 9000 BTU 주차 에어컨을 사용하여 합법적으로 휴식을 취하고, 하룻밤에 12-18L의 디젤을 절약하고, 38°C 열대 더위에서 살아남는 방법입니다."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "베트남 관광 버스 및 슬리퍼 버스용 주차 AC(다낭, 나트랑, 푸꾸옥)",
+    "date": "2026-05-20",
+    "category": "지역 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "다낭, 나트랑, 호이안, 푸꾸옥의 관광 버스 및 슬리퍼 버스 운영업체가 주차 AC를 사용하여 운전자의 휴식을 유지하고 차량이 호텔 및 리조트 공회전 방지 정책을 준수하는 방법."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "이동식 요가 스튜디오 및 웰니스 밴용 에어컨",
+    "date": "2026-04-29",
+    "category": "전문 분야",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "imageAlt": "이동식 요가 스튜디오 및 웰니스 밴용 에어컨",
+    "excerpt": "이동식 요가 스튜디오 및 웰니스 밴을 위한 필수 에어컨 솔루션을 찾아보세요.안정적인 주차 AC로 최적의 온도 제어(68~72°F)를 보장합니다."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "RVs에 거주하는 디지털 유목민을 위한 주차 AC: 어디서나 편안하게 작업 가능",
+    "date": "2026-04-29",
+    "category": "라이프 스타일",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "imageAlt": "RVs에 거주하는 디지털 유목민을 위한 주차 AC: 어디서나 편안하게 작업 가능",
+    "excerpt": "RV 디지털 유목민을 위한 주차 AC 필수 가이드입니다.적절한 실내 온도 조절 장치를 사용하여 RV에서 원격으로 작업하면서 시원함과 생산성을 유지하세요."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "RV 집회 및 축제에서 시원하게 지내기: 행사를 위한 주차 AC 팁",
+    "date": "2026-04-29",
+    "category": "라이프 스타일",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "imageAlt": "RV 집회 및 축제에서 시원하게 지내기: 행사를 위한 주차 AC 팁",
+    "excerpt": "마스터 RV 주차 AC로 집결하세요!편안한 이벤트 경험을 위한 보충 냉각, 배터리 크기 및 설치에 대한 전문가의 팁을 얻으십시오."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Van Dweller의 주차 AC 가이드: 차량 내 풀타임 생활",
+    "date": "2026-04-29",
+    "category": "반 라이프",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "imageAlt": "Van Dweller의 주차 AC 가이드: 차량 내 풀타임 생활",
+    "excerpt": "승합차 거주자를 위한 주차 AC 선택 및 설치에 대한 필수 가이드입니다.전문가의 팁을 통해 이동 주택에서 시원하고 편안하게 지내세요."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "차세대 주차 AC의 R32 냉매: 낮은 GWP 및 향상된 효율성",
+    "date": "2026-04-29",
+    "category": "기술",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "imageAlt": "차세대 주차 AC의 R32 냉매: 낮은 GWP 및 향상된 효율성",
+    "excerpt": "R32 냉매가 상업용 차량에 더 낮은 GWP와 향상된 효율성을 제공하여 차세대 주차 AC에서 선호되는 선택이 되고 있는 이유를 알아보세요."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: 나란히 비교(2026)",
+    "date": "2026-04-25",
+    "category": "비교",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "비교를 위해 Dometic 및 Webasto 주차 AC 장치를 나란히 배치",
+    "excerpt": "[2026] Dometic RTX2000 대 Webasto Cool Top RTE 16 정면 대결: 냉각 출력, 소음, 전력 소모, 설치 복잡성, 보증 및 5년 소유 비용.현장의 실수."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "공회전 없는 트럭 AC 시스템: 주 공회전 방지법(2026)을 준수하는 방법",
+    "date": "2026-04-25",
+    "category": "규정 준수",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "공회전 방지 규정 준수를 위해 설치된 배터리 전기 공회전 없는 트럭 AC 시스템",
+    "excerpt": "[2026] 주별 공회전 방지법 및 공회전 금지 트럭 AC 준수 방법.CARB($300~$1,000 벌금), 30개 이상의 주 제한, EPA SmartWay 및 2026년 요구 사항을 충족하는 5개 시스템."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "주차 AC BTU 크기 계산기: 실제로 몇 개의 BTU이 필요합니까?(2026)",
+    "date": "2026-04-25",
+    "category": "구매 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU 트럭 운전실 전체에 AC 주차 공간 및 RV 구성을 위한 크기 차트",
+    "excerpt": "[2026] 침대칸이나 RV 침실에는 몇 개의 BTU이 필요합니까?클래스 8 트럭(5,000~10,000 BTU), 스프린터 밴(6,000~8,000 BTU) 및 25피트 RV(12,000~14,000 BTU)에 대한 단계별 공식과 표."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "주차 AC 설치 비용 2026년: 주별 매장 요금 및 DIY 절감액",
+    "date": "2026-04-25",
+    "category": "구매 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "지붕 컷아웃, 배선 및 배터리 통합을 보여주는 전문 주차 AC 설치",
+    "excerpt": "[2026] 주별 주차 AC 설치 비용: 전문가 $400~$1,200, DIY $0~$150.CA, TX, FL, NY의 실제 매장 가격과 장치, 배터리, 배선 및 인건비에 대한 전체 분석이 포함됩니다."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "주차 AC 소음 비교: 3피트에서 테스트된 실제 dB 수준(2026년)",
+    "date": "2026-04-25",
+    "category": "비교",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "슬리퍼 캡 내부 3피트의 주차 AC 소음을 측정하는 데시벨 측정기",
+    "excerpt": "우리는 3피트에서 보정된 dB 미터를 사용하여 12개의 주차 AC 장치를 측정했습니다.CoolDrivePro V-TH1 히트 42dBA, Dometic RTX2000 48dBA, RigMaster 67dBA.실제 숫자, 마케팅 없음."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "트럭 AC 전력 소비: 와트, 암페어 및 배터리 소모 설명(2026)",
+    "date": "2026-04-25",
+    "category": "전원 및 배터리",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "션트 및 배터리 모니터를 통한 트럭 주차 AC 전력 소비 모니터링",
+    "excerpt": "[2026] 트럭 AC 전력 소비 설명: 평균 480W, 24V에서 9A, 1박당 38~55Ah.실수, 배터리 크기 공식, 인버터 압축기의 절단 방식으로 인해 30%가 소모됩니다."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "배터리 구동식 RV 에어컨: 2026년 구매자 가이드 완료",
+    "date": "2026-04-24",
+    "category": "구매 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "배터리 구동 RV 에어컨 2026 — 옥상이 있는 야간 클래스 B 캠핑카 내부 12V DC 주차 AC가 LiFePO4 배터리 뱅크에서 작동, 모니터에 220Ah 용량 및 9.5시간 남은 런타임 표시",
+    "excerpt": "배터리 구동식 RV 에어컨에 대한 2026년 전체 가이드.기본 12V/24V DC 대 인버터 설정, 실제 LiFePO4 런타임 데이터(220Ah → 8~11시간), $1,500~$3,800 가격대, 태양광 오프셋 수학."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "주차 AC 설치 방법: 2026년 단계별 가이드",
+    "date": "2026-04-24",
+    "category": "설치 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "주차 AC 2026 설치 방법 — 트럭 옆 작업대에 배치된 CoolDrivePro VS02 PRO 12V DC 장치, 부틸 개스킷 및 4 AWG 케이블을 사용하여 퍼즐을 사용하여 Sprinter 밴의 14x14인치 지붕 개구부를 절단하는 설치 프로그램",
+    "excerpt": "주차 AC 설치에 대한 단계별 2026 가이드: 지붕 준비, 14x14 컷아웃, 개스킷, 배선(4 AWG, 80A 퓨즈), 시운전.6~9시간 DIY, 장치 이외의 부품 구입 시 $325."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 주차용 배터리 AC: 2026 크기 및 배선 가이드",
+    "date": "2026-04-24",
+    "category": "방법 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "LiFePO4 주차용 배터리 AC 2026 — 2/0 AWG 케이블, 200A 클래스 T 퓨즈, 버스바 및 13.4V에서 87% SOC를 판독하는 Victron BMV-712 모니터와 병렬로 연결된 220Ah Battle Born LiFePO4 배터리 2개를 보여주는 Sprinter 밴의 개방형 배터리 칸",
+    "excerpt": "2026 LiFePO4 주차 AC 크기 조정 가이드: 220Ah($1,400), 280Ah($1,750), 400Ah($2,400) 옵션(8시간 런타임 수학, BMS/퓨즈/케이블 사양 포함)."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "주차 AC가 냉각되지 않습니까?2026년 문제 해결 가이드(단계별)",
+    "date": "2026-04-24",
+    "category": "문제 해결",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "주차 AC가 냉각되지 않음 문제 해결 2026 - 11.4V에서 12V DC 주차 AC 전원 커넥터를 조사하는 멀티미터가 있는 세미 트럭 침목 내부의 운전자, 온도계 판독값 78°F 공급 공기 대 79°F 복귀, 콘덴서 핫스팟을 보여주는 적외선 이미지",
+    "excerpt": "냉각되지 않는 주차 에어컨을 수리하기 위한 2026년 단계별 가이드입니다.전압 강하, 냉매, 더러운 콘덴서, 온도 조절기, BMS — 30분 내에 진단, $0~$280 수정."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "주차 AC 대 APU: 2026년 차량 비용 및 성능 비교",
+    "date": "2026-04-24",
+    "category": "리뷰 및 비교",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "주차 AC 대 APU 2026 — 배터리 구동식 DC 주차 AC가 있는 Freightliner Cascadia와 프레임 레일에 RigMaster APU이 장착된 침목 트럭의 나란히 비교, $4.05/gal 디젤을 보여주는 연료 펌프 디스플레이 및 5년 비용 오버레이",
+    "excerpt": "2026년 차량 결정 가이드: 주차 AC 대 APU.디젤 $4.05의 5년 TCO — DC 주차 AC는 디젤 대비 트럭당 $9,800~$14,200를 절약합니다. APU, 공회전 대비 $3,200~$5,400."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V 대 24V 2026년 주차 AC: 트럭, RV 및 밴 결정 가이드",
+    "date": "2026-04-23",
+    "category": "구매자 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "imageAlt": "12V 대 24V 주차 AC 비교 — 트럭의 12V 및 24V 전기 시스템과 RV에 병렬로 연결된 옥상 주차 에어컨",
+    "excerpt": "2026년 12V 대 24V 주차 AC: 차량의 기본 전압과 일치합니다.케이블 게이지, 배터리 비용, 효율성, 런타임 및 변환기가 적합한 경우에 대한 전체 분석입니다.내부 결정 매트릭스."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "2026년 최고의 주차 에어컨: 9가지 최고 선택 비교(트럭, RVs 및 밴)",
+    "date": "2026-04-23",
+    "category": "구매자 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "최고의 주차 에어컨 2026 — 맑은 하늘 아래 세미 트럭에 장착된 옥상 및 분할 시스템 DC 주차 AC 장치, RV 및 스프린터 밴 라인업",
+    "excerpt": "2026년에 테스트된 최고의 주차 에어컨 9개: 병렬 BTU, 소음, 견인력, 가격 및 세미 트럭, RV, 스프린터 밴 및 차량에 대한 실제 성능.승자는 사용 사례별로 선택합니다."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "주차 에어컨 구매 가이드 2026: 올바른 장치를 선택하는 방법($1,500 낭비 없이)",
+    "date": "2026-04-23",
+    "category": "구매자 가이드",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "imageAlt": "주차 에어컨 구매 가이드 2026 — 나란히 비교하기 위해 트럭, RV 및 밴에 장착된 옥상 및 미니 분할 DC 주차 AC 장치",
+    "excerpt": "2026년 주차 AC 구매 가이드: 7단계 결정 프레임워크, BTU 크기 조정 테이블, 사양 임계값, 계층별 비용 예산, 1,500달러짜리 AC를 폐기품으로 만드는 5가지 실수.구매하기 전에 읽어보세요."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "주차 AC 연료 절감 계산기 2026: 유휴 비용 대 DC 주차 AC 대 APU",
+    "date": "2026-04-23",
+    "category": "도구 및 계산기",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "imageAlt": "주차 AC 연료 절약 계산기 2026 — 공회전, 디젤 APU 및 DC 주차 에어컨 간의 공회전 시간, 연료 소비 및 연간 절약 비교를 보여주는 세미 트럭 대시보드",
+    "excerpt": "DC 주차 AC, 공회전 및 디젤 APU에서 정확한 연료 절감액을 계산하세요.2026년 연료 가격, 실제 듀티 사이클, 평생 ROI.자영업자 및 100대 트럭 차량에 대한 작업 사례입니다."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "알렉산드리아 해안 습도를 위한 주차 에어컨: 이집트의 지중해 기후 문제에 맞서기",
     "date": "2026-03-31",
@@ -113,6 +369,7 @@
     "date": "2026-01-10",
     "category": "기술",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp",
+    "imageAlt": "Parking AC 스마트 홈 통합: 어디서나 차량 AC 제어",
     "excerpt": "주차 AC 스마트 홈 통합을 통해 어디에서나 차량의 온도를 제어하고 RV 및 트럭의 편안함과 효율성을 높일 수 있는 방법을 알아보세요."
   },
   {
@@ -130,6 +387,7 @@
     "date": "2025-12-29",
     "category": "운전자 안전",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
+    "imageAlt": "전자 주차 AC 시스템으로 운전자의 열 스트레스를 줄이는 방법",
     "excerpt": "전기 주차 AC 시스템이 아프리카 기후에서 열 스트레스로부터 운전자를 보호하는 방법을 알아보세요.효과적인 실내 냉각으로 안전성, 유지력, 생산성을 향상시키세요."
   },
   {
@@ -138,6 +396,7 @@
     "date": "2025-12-28",
     "category": "설치 가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
+    "imageAlt": "아프리카의 트럭 에어컨에 대한 일반적인 설치 실수",
     "excerpt": "아프리카에서 가장 흔한 트럭 AC 설치 실수를 배워 비용이 많이 드는 실패를 피하십시오.적절한 장착, 배선 및 밀봉 절차에 대한 전문가 지침."
   },
   {
@@ -146,6 +405,7 @@
     "date": "2025-12-27",
     "category": "기술 가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
+    "imageAlt": "먼지, 도로 진동 및 열이 주차 AC 성능에 미치는 영향",
     "excerpt": "아프리카 환경 문제가 트럭 주차 AC 성능에 어떤 영향을 미치는지 이해하고 열악한 조건에서 안정적인 냉각을 보장하기 위한 유지 관리 전략을 알아보세요."
   },
   {
@@ -154,6 +414,7 @@
     "date": "2025-12-26",
     "category": "기술 가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
+    "imageAlt": "저전압 보호: 아프리카 함대 구매자가 알아야 할 사항",
     "excerpt": "트럭 주차 AC 시스템의 저전압 보호에 대한 필수 가이드입니다.배터리 보호가 어떻게 작동하는지, 그리고 그것이 아프리카 차량 운영에 중요한 이유를 알아보세요."
   },
   {
@@ -162,6 +423,7 @@
     "date": "2025-12-25",
     "category": "문제 해결",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
+    "imageAlt": "극심한 더위에서 트럭 AC 냉각이 약해지는 이유(및 해결 방법)",
     "excerpt": "극심한 더위 속에서 트럭 에어컨의 냉각 능력이 떨어지는 이유를 알아보고 아프리카 사막 환경에서 성능을 복원할 수 있는 검증된 솔루션을 알아보세요."
   },
   {
@@ -170,6 +432,7 @@
     "date": "2025-12-24",
     "category": "설치 가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
+    "imageAlt": "아프리카 트럭 주차 AC 전문 설치 가이드",
     "excerpt": "아프리카 환경의 트럭 주차 에어컨을 위한 단계별 전문 설치 가이드입니다.안정적인 성능을 위한 장착, 배선 및 시운전 절차를 알아보세요."
   },
   {
@@ -187,6 +450,7 @@
     "date": "2025-12-19",
     "category": "함대 솔루션",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp",
+    "imageAlt": "튀니지 운송 차량을 위한 도매 트럭 에어컨",
     "excerpt": "튀니지 운송용 트럭 에어컨 도매.안정적인 냉각 기술을 원하는 북아프리카 물류 운영업체를 위한 대량 가격 책정 및 차량 솔루션입니다."
   },
   {
@@ -213,6 +477,7 @@
     "date": "2025-12-16",
     "category": "지역 가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp",
+    "imageAlt": "에티오피아의 고고도 운송 작업을 위한 트럭 에어컨",
     "excerpt": "에티오피아의 고지대 운송 작업을 위한 특수 트럭 에어컨입니다.아프리카의 뿔(Horn of Africa)의 고가 물류 통로의 독특한 과제를 해결하기 위해 설계되었습니다."
   },
   {
@@ -230,6 +495,7 @@
     "date": "2025-12-14",
     "category": "지역 가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp",
+    "imageAlt": "우간다의 성장하는 운송 차량을 위한 전기 트럭 에어컨",
     "excerpt": "우간다의 확장되는 운송 차량을 위한 전기 트럭 에어컨.동아프리카의 신흥 물류 허브와 국경 간 운영을 위한 효율적인 냉각 솔루션입니다."
   },
   {
@@ -238,6 +504,7 @@
     "date": "2025-12-13",
     "category": "특수 용도",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp",
+    "imageAlt": "탄자니아 사파리 관광 차량용 주차 에어컨",
     "excerpt": "탄자니아의 사파리 관광 차량용 주차 에어컨 솔루션을 찾아보세요.동아프리카 최고의 사파리 여행지에서 야생 동물 체험을 보존하면서 손님들을 편안하게 유지하세요."
   },
   {
@@ -327,6 +594,7 @@
     "date": "2025-12-06",
     "category": "관광 응용",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp",
+    "imageAlt": "탄자니아 사파리 관광을 위한 주차 에어컨: 세렝게티에서 잔지바르까지 컴포트",
     "excerpt": "주차 AC 시스템으로 탄자니아의 사파리 관광을 향상시키십시오.Serengeti, Ngorongoro 및 Zanzibar로 향하는 해안 경로에서 운행되는 야생 동물 투어 차량에 필수적인 냉각 장치입니다."
   },
   {
@@ -344,6 +612,7 @@
     "date": "2025-12-05",
     "category": "사업 기회",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
+    "imageAlt": "아프리카에서 트럭 에어컨 유통업체가 되세요",
     "excerpt": "아프리카에서 트럭 에어컨 유통업체가 되기 위해 우리와 협력하십시오.지역 파트너를 위한 독점 영토, 마케팅 지원 및 기술 교육."
   },
   {
@@ -352,6 +621,7 @@
     "date": "2025-12-05",
     "category": "지원 서비스",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
+    "imageAlt": "아프리카 트럭 AC용 예비 부품 및 애프터 서비스 지원",
     "excerpt": "아프리카의 트럭 에어컨에 대한 포괄적인 예비 부품 및 판매 후 지원.필터, 압축기, 냉매 및 기술 지원이 가능합니다."
   },
   {
@@ -414,6 +684,7 @@
     "date": "2025-12-03",
     "category": "지역 가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp",
+    "imageAlt": "짐바브웨 함대 운영자를 위한 국경 간 운송 냉각",
     "excerpt": "짐바브웨의 국경 간 운송 차량용 주차 에어컨.하라레, 불라와요 및 지역 시장을 연결하는 노선의 운전자 편의성을 최적화합니다."
   },
   {
@@ -449,6 +720,7 @@
     "date": "2025-12-02",
     "category": "지역 가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp",
+    "imageAlt": "케냐 물류 차량을 위한 주차 에어컨 솔루션: 나이로비에서 몸바사 복도까지",
     "excerpt": "케냐 물류 회사를 위한 차량 솔루션.주차 AC 시스템이 혼잡한 나이로비-몸바사 교통 통로와 그 너머에서 운전자 복지를 어떻게 향상시키는지 알아보세요."
   },
   {
@@ -511,6 +783,7 @@
     "date": "2025-11-20",
     "category": "라이프 스타일",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp",
+    "imageAlt": "1인용 주차 공간 RV 여행자: 안전, 편안함 및 독립성",
     "excerpt": "1인 RV 여행자 여러분, 안정적인 주차 AC로 안전, 편안함, 독립성을 높이세요.분 도킹과 마음의 평화에 필수적입니다."
   },
   {
@@ -744,6 +1017,7 @@
     "date": "2025-10-26",
     "category": "가이드",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp",
+    "imageAlt": "겨울 RV 캠핑을 위해 주차 AC 히트 펌프 사용하기",
     "excerpt": "주차 AC의 열 펌프가 겨울 RV 캠핑을 어떻게 변화시킬 수 있는지 알아보세요.효율성, 배터리 요구 사항, 추운 날씨에도 따뜻하게 지내는 방법에 대해 알아보세요."
   },
   {
@@ -779,6 +1053,7 @@
     "date": "2025-10-15",
     "category": "기술",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp",
+    "imageAlt": "주차 AC의 에너지 효율 등급: EER, COP 및 SEER 이해",
     "excerpt": "주차 AC 에너지 효율 등급: EER, COP 및 SEER.이 숫자가 귀하의 지갑과 이동 중에 편안함을 의미하는 것이 무엇인지 알아보세요."
   },
   {
@@ -818,42 +1093,6 @@
     "excerpt": "안정적인 주차 AC 솔루션으로 이동 동물병원의 동물 및 장비 안전을 보장하세요.약물치료와 복지에 매우 중요합니다."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "이동식 요가 스튜디오 및 웰니스 밴용 에어컨",
-    "date": "2025-10-15",
-    "category": "전문 분야",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "imageAlt": "이동식 요가 스튜디오 및 웰니스 밴용 에어컨",
-    "excerpt": "이동식 요가 스튜디오 및 웰니스 밴을 위한 필수 에어컨 솔루션을 찾아보세요.안정적인 주차 AC로 최적의 온도 제어(68~72°F)를 보장합니다."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "RVs에 거주하는 디지털 유목민을 위한 주차 AC: 어디서나 편안하게 작업 가능",
-    "date": "2025-10-15",
-    "category": "라이프 스타일",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "imageAlt": "RVs에 거주하는 디지털 유목민을 위한 주차 AC: 어디서나 편안하게 작업 가능",
-    "excerpt": "RV 디지털 유목민을 위한 주차 AC 필수 가이드입니다.적절한 실내 온도 조절 장치를 사용하여 RV에서 원격으로 작업하면서 시원함과 생산성을 유지하세요."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "RV 집회 및 축제에서 시원하게 지내기: 행사를 위한 주차 AC 팁",
-    "date": "2025-10-15",
-    "category": "라이프 스타일",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "imageAlt": "RV 집회 및 축제에서 시원하게 지내기: 행사를 위한 주차 AC 팁",
-    "excerpt": "마스터 RV 주차 AC로 집결하세요!편안한 이벤트 경험을 위한 보충 냉각, 배터리 크기 및 설치에 대한 전문가의 팁을 얻으십시오."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Van Dweller의 주차 AC 가이드: 차량 내 풀타임 생활",
-    "date": "2025-10-15",
-    "category": "반 라이프",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "imageAlt": "Van Dweller의 주차 AC 가이드: 차량 내 풀타임 생활",
-    "excerpt": "승합차 거주자를 위한 주차 AC 선택 및 설치에 대한 필수 가이드입니다.전문가의 팁을 통해 이동 주택에서 시원하고 편안하게 지내세요."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "주차 에어컨 설치 비용: 2025년 전체 가격 분석",
     "date": "2025-10-15",
@@ -861,15 +1100,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "imageAlt": "주차 에어컨 설치 비용: 2025년 전체 가격 분석",
     "excerpt": "2025년 전체 주차 에어컨 설치 비용을 분석하세요. 장치 유형부터 전기 업그레이드까지 가격에 영향을 미치는 요소에 대한 통찰력을 얻으세요."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "차세대 주차 AC의 R32 냉매: 낮은 GWP 및 향상된 효율성",
-    "date": "2025-10-15",
-    "category": "기술",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "imageAlt": "차세대 주차 AC의 R32 냉매: 낮은 GWP 및 향상된 효율성",
-    "excerpt": "R32 냉매가 상업용 차량에 더 낮은 GWP와 향상된 효율성을 제공하여 차세대 주차 AC에서 선호되는 선택이 되고 있는 이유를 알아보세요."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -888,15 +1118,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "imageAlt": "서비스형 주차 AC: 차량 운영자를 위한 구독 모델",
     "excerpt": "주차 AC 구독 모델이 어떻게 차량 운영을 변화시켜 비용 절감과 향상된 운전자 편의성을 제공하는지 알아보세요.서비스형 온도 조절의 미래에 대해 알아보세요."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V 대 24V 주차 에어컨: 트럭과 RV 중 어느 것이 적합합니까?",
-    "date": "2025년 3월 8일",
-    "category": "기술",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "imageAlt": "12V 대 24V 주차 에어컨: 트럭과 RV 중 어느 것이 적합합니까?",
-    "excerpt": "트럭의 12V과 24V 주차 AC 또는 RV 중에서 선택하시겠습니까?이 포괄적인 가이드는 각 시스템의 장단점 및 이상적인 적용을 자세히 설명하여 최적의 편안함과 효율성을 위한 현명한 결정을 내리는 데 도움을 줍니다."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -998,15 +1219,6 @@
     "excerpt": "태양광 발전을 사용하는 독립형 RV 에어컨 및 12V 주차 AC에 대한 전체 가이드입니다.시스템 크기 조정, 배터리 선택 및 실제 성능 팁을 알아보세요."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "주차 에어컨 구매 가이드 2025: 구매하기 전에 알아야 할 모든 것",
-    "date": "2024년 11월 20일",
-    "category": "구매자 가이드",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "imageAlt": "주차 에어컨 구매 가이드 2025: 구매하기 전에 알아야 할 모든 것",
-    "excerpt": "2025년 주차에어컨 구매가이드를 완성해보세요.BTU 등급, 12V 및 24V, 상단 장착형 및 미니 분할형을 비교하고 트럭 또는 RV에 가장 적합한 주차 AC를 찾으세요."
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "주차 에어컨이 탄소 배출량과 엔진 공회전을 줄이는 방법",
     "date": "2024년 12월 10일",
@@ -1095,15 +1307,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "imageAlt": "스쿨 버스 전환을 위한 주차 AC(Skoolies): 최상의 옵션 및 설치 가이드",
     "excerpt": "스쿠리에서 시원함을 유지하세요!우리 가이드는 옥상, 미니 분할 및 12V 옵션을 포함하여 스쿨 버스 전환을 위한 최고의 주차 AC를 다룹니다.설치, 전원 등에 대해 알아보세요."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "주차 에어컨은 얼마나 많은 연료를 절약합니까?실수 및 ROI 계산기",
-    "date": "2025년 2월 15일",
-    "category": "가이드",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "imageAlt": "주차 에어컨은 얼마나 많은 연료를 절약합니까?실수 및 ROI 계산기",
-    "excerpt": "주차 에어컨으로 얼마나 많은 연료를 절약할 수 있는지 알아보세요.우리 가이드는 실수, ROI 계산기, 트럭, RVs 및 밴에 대한 팁을 제공합니다."
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1239,10 +1442,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "imageAlt": "주차 에어컨 배선 가이드: 안전 12V/24V 전기 설치 - 주차 에어컨 가이드",
     "excerpt": "안전한 12V/24V 주차를 위한 종합 가이드 트럭, RVs 및 밴의 AC 배선 및 전기 설치.CoolDrivePro 장치의 구성 요소, 전압 강하, 배터리 관리 및 문제 해결에 대해 알아보세요."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

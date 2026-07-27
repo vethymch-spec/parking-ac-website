@@ -21,14 +21,10 @@
     "supportPortal": "マイサポートポータル",
     "logout": "ログアウト",
     "login": "ログイン",
-    "ticketManagement": "チケット管理",
-    "customerManagement": "顧客管理",
     "adminLogout": "管理者ログアウト",
     "customerLogout": "顧客ログアウト",
     "mySupportPortal": "マイサポートポータル",
     "adminPanel": "管理者パネル",
-    "search": "検索",
-    "account": "アカウント",
     "menu": "メニュー",
     "shoppingCart": "ショッピングカート",
     "brandKnowledge": "ブランドナレッジ",
@@ -38,10 +34,10 @@
     "supportAvailability": "サポート時間：太平洋時間午前11時～午後9時、1～12時間以内にご返信いたします。"
   },
   "hero": {
-    "title": "オフグリッド生活とモバイル快適性のための駐車エアコン",
-    "subtitle": "セミトラック、RV、バン、キャンピングカー用の12Vおよび24V DCアイドリングストップ対応駐車エアコン — アイドリングなしで涼しく",
-    "ctaPrimary": "製品を購入",
-    "ctaSecondary": "詳細を見る",
+    "title": "トラック、RV、バン、車両用の 12V/24V パーキング エアコン",
+    "subtitle": "CoolDrivePro は、セミトラック、RV、バン、キャンピングカー、フリート、ディーラー、設置業者向けの 12V/24V DC パーキング エアコンとノーアイドリング冷却システムを構築します。B2B 価格設定、米国ベースの保証サポート、および取り付けガイダンスが提供されます。",
+    "ctaPrimary": "適合に関する推奨事項を取得する",
+    "ctaSecondary": "ディーラー見積もりをリクエストする",
     "badge": "新登場",
     "trustedBy": "世界中で10,000人以上のドライバーに信頼されています"
   },
@@ -52,16 +48,6 @@
     "description": "セミトラック、RV、バン、キャンピングカー向けのバッテリー駆動駐車エアコン。アイドリングなしで涼しく — 燃料を節約し、排出ガスを削減し、快適に過ごせます。",
     "viewDetails": "今すぐ購入",
     "addToCart": "カートに追加",
-    "specs": "仕様",
-    "features": "特徴",
-    "reviews": "カスタマーレビュー",
-    "warranty": "保証",
-    "freeShipping": "送料無料",
-    "support": "24時間365日サポート",
-    "learnMore": "詳細を見る",
-    "cooling": "冷房",
-    "heating": "暖房",
-    "heatingCooling": "冷暖房",
     "specs": {
       "coolingCapacity": "冷房能力",
       "heatingCapacity": "暖房能力",
@@ -75,6 +61,15 @@
       "heatingSpeed": "暖房速度",
       "airOutput": "風量"
     },
+    "features": "特徴",
+    "reviews": "カスタマーレビュー",
+    "warranty": "保証",
+    "freeShipping": "請求書サポート",
+    "support": "24時間365日サポート",
+    "learnMore": "詳細を見る",
+    "cooling": "冷房",
+    "heating": "暖房",
+    "heatingCooling": "冷暖房",
     "topMounted": {
       "title": "12000 BTU天井置き型駐車エアコン",
       "subtitle": "12V/24V DCアイドリングストップ対応RV＆トラック用エアコン",
@@ -85,8 +80,8 @@
       "imageAlt": "10000 BTU天井置き型駐車エアコンの分解図 – 12V/24V DCアイドリングストップ対応RVトラック用エアコン"
     },
     "miniSplit": {
-      "title": "12000 BTUミニスプリット駐車エアコン",
-      "subtitle": "セミトラック＆RV用12V DCアイドリングストップ対応エアコン",
+      "title": "セミスリーパー キャブおよび RV 用の 12V/24V ミニ スプリット パーキング AC",
+      "subtitle": "CoolDrivePro VX3000SP は、セミスリーパー キャブ、RV、バン、キャンピングカーに 12,000 BTU/h のノーアイドル冷却を提供する 12V/24V DC ミニ スプリット パーキング エアコンです。室内エバポレーターは、GMCC ツインロータリー インバーター コンプレッサーを使用して 32 dB 以下で動作するため、ドライバーはエンジンをアイドリングせずに駐車中一晩中眠ることができます。",
       "description": "セミトラックのキャブ、RV、カーゴバン向けに設計された大容量12V DCミニスプリット駐車エアコン。12000 BTUのアイドリングストップ対応冷却力で、車載バッテリーから直接動作 — 発電機や外部電源は不要です。水平方向の屋根設置で、ほとんどのトラックやキャンピングカーに対応します。",
       "btu": "12,000 BTU",
       "voltage": "12V DC",
@@ -101,8 +96,8 @@
       "imageAlt": "RVとセミトラック用65000 BTU瞬間湯沸かし器 – オフグリッド温水"
     },
     "heatingCoolingAC": {
-      "title": "V-TH1冷暖房駐車エアコン",
-      "subtitle": "12V/24V DCデュアルモードローターエアコン — 一年中の快適性",
+      "title": "トラックおよび RV 用 12V/24V 冷暖房パーキング AC",
+      "subtitle": "CoolDrivePro V-TH1 は、セミトラック、RV、バン、特殊車両に 2,000 W の冷暖房を提供する 12V/24V DC ヒートポンプ パーキング エアコンです。R134a 冷媒を備えた GMCC ツインロータリー コンプレッサーを使用し、エンジンのアイドリングや陸上電力を必要とせず、キャブ温度を約 30 分で 5°C から 30°C に上昇させることができます。",
       "description": "CoolDrivePro初のデュアルモード駐車エアコン。V-TH1は夏に最大2,000Wの冷却を提供し、冬には30分でキャブを5°Cから30°Cに暖めます。GMCCツインロータリーコンプレッサーとR134A冷媒を搭載し、この12V/24V DCローターエアコンはトラック、RV、バン、特殊車両のためにエンジンアイドリングなしで一年中の空調制御を提供します。",
       "imageAlt": "V-TH1冷暖房駐車エアコン – 12V/24V DCデュアルモードローターエアコン"
     },
@@ -112,15 +107,15 @@
       "specifications": "仕様",
       "reviews": "カスタマーレビュー",
       "faq": "よくある質問",
-      "freeShipping": "送料無料",
-      "warranty": "2年保証",
+      "freeShipping": "請求書サポート",
+      "warranty": "1年間の保証",
       "returns": "30日間返品",
       "inStock": "在庫あり",
       "outOfStock": "在庫切れ",
       "quantity": "数量",
       "shipping": "配送",
-      "shippingDesc": "米国本土への$500以上の注文で送料無料。3～5営業日でお届け。",
-      "warrantyDesc": "材料および製造上の欠陥をカバーする2年間のメーカー保証。",
+      "shippingDesc": "請求書確認後に配送を調整します。納期は配送先と注文内容により異なります。",
+      "warrantyDesc": "材料および製造上の欠陥をカバーする 1 年間のメーカー保証。",
       "returnsDesc": "30日間の簡単返品ポリシー。満足できない場合は全額返金。",
       "techSpecs": "技術仕様",
       "reviewsTitle": "お客様の声",
@@ -209,7 +204,7 @@
   "shopWithUs": {
     "title": "安心してお買い物",
     "warranty": {
-      "title": "2年保証",
+      "title": "1年間の保証",
       "description": "すべての部品と労働を完全カバー"
     },
     "returns": {
@@ -217,8 +212,8 @@
       "description": "満足できない場合は簡単に返品"
     },
     "shipping": {
-      "title": "送料無料",
-      "description": "米国本土への$500以上の注文で"
+      "title": "車両適合サポート",
+      "description": "請求書発行前に車両適合性を確認します。"
     }
   },
   "blog": {
@@ -246,7 +241,7 @@
       "notFound": "記事が見つかりません",
       "backToBlog": "← ブログに戻る",
       "readyToExperience": "無アイドリング冷却を体験する準備はできましたか？",
-      "exploreOur": "当社の12V/24V駐車エアコンをご覧ください — 米国の注文は全て送料無料。",
+      "exploreOur": "12V/24V駐車エアコンを確認し、車両適合に基づく請求書見積もりを依頼してください。",
       "shopTopMounted": "VS02 PRO天井置き型エアコンを購入",
       "shopMiniSplit": "VX3000SPミニスプリットエアコンを購入"
     }
@@ -284,7 +279,6 @@
     "backToForum": "フォーラムに戻る",
     "helpful": "役に立った",
     "reply": "返信",
-    "replies": "返信",
     "acceptedAnswer": "承認された回答",
     "replyBtn": "返信",
     "noRepliesYet": "まだ返信はありません。最初に回答しましょう！",
@@ -318,15 +312,24 @@
     },
     "emailSupport": {
       "title": "メールサポート",
-      "lines": ["support@cooldrivepro.com", "1～12時間以内に返信します"]
+      "lines": [
+        "support@cooldrivepro.com",
+        "1～12時間以内に返信します"
+      ]
     },
     "supportHours": {
       "title": "サポート時間",
-      "lines": ["月曜日～金曜日：午前9時～午後6時（太平洋時間）", "土曜日：午前10時～午後4時（太平洋時間）"]
+      "lines": [
+        "月曜日～金曜日：午前9時～午後6時（太平洋時間）",
+        "土曜日：午前10時～午後4時（太平洋時間）"
+      ]
     },
     "liveChat": {
       "title": "ライブチャット",
-      "lines": ["ウェブサイトでご利用いただけます", "月～金、午前9時～午後5時（太平洋時間）"]
+      "lines": [
+        "ウェブサイトでご利用いただけます",
+        "月～金、午前9時～午後5時（太平洋時間）"
+      ]
     },
     "breadcrumb": "お問い合わせ",
     "hereToHelp": "お手伝いします",
@@ -370,11 +373,26 @@
     "statesServed": "サービス提供地域",
     "avgRating": "平均評価",
     "readyToStop": "アイドリングを止める準備はできましたか？",
-    "joinDrivers": "CoolDrivePro駐車エアコンに切り替えた15,000人以上の運転手に参加しましょう。米国の注文は全て送料無料。",
+    "joinDrivers": "CoolDrivePro駐車エアコンに切り替えたドライバーに続き、準備ができたら車両適合に基づく請求書を依頼してください。",
     "shopTop": "天井置き型エアコンを購入",
     "partnerNetwork": "パートナーネットワーク",
     "partnerDesc": "CoolDriveProは信頼できるパートナーと協力して、世界中の運転手に最高のモバイル快適ソリューションを提供します。",
-    "officialPartner": "公式パートナーウェブサイト"
+    "officialPartner": "公式パートナーウェブサイト",
+    "proofTitle": "Proof you can verify",
+    "proofHeading": "Inside the factory, on the certificates, on the show floor",
+    "proofDesc": "CoolDrivePro is built and shipped by Qingdao Vethy Industrial Co., Ltd. Browse the workshop, certifications and trade-show presence behind every 12V/24V parking AC.",
+    "factoryCard": "Factory tour",
+    "factoryCardDesc": "In-house R&D, SMT and assembly lines with 100% pre-shipment QC for every parking AC unit.",
+    "factoryAlt": "CoolDrivePro / Vethy parking air conditioner manufacturing workshop",
+    "tourFactory": "Tour the factory",
+    "certCard": "Certifications & IP",
+    "certCardDesc": "ISO 9001:2015, CNAS-accredited lab, registered trademark and granted design patent.",
+    "certAlt": "CoolDrivePro ISO 9001 quality certificate and design patent",
+    "viewCerts": "View certificates",
+    "expoCard": "Trade shows",
+    "expoCardDesc": "Live booth demos and distributor meetings across North America, Europe, ANZ and the Middle East.",
+    "expoAlt": "CoolDrivePro parking AC trade show booth and exhibitions",
+    "seeExpos": "See exhibitions"
   },
   "support": {
     "title": "アフターサービスサポート",

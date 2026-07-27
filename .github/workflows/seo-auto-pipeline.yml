@@ -1,13 +1,10 @@
-name: SEO Auto Pipeline
+name: SEO Opportunity Signals
 
 # Every other day at 04:00 UTC (= 12:00 Asia/Shanghai)
-# Steps: GSC opportunity scan → competitor keyword scan → daily content pipeline
-#        (new article + refresh + translate + build + deploy + indexnow)
-# Then commits the generated data files back to main.
 #
-# Required GitHub repo secrets:
-#   CLOUDFLARE_API_TOKEN       (for wrangler pages deploy)
-#   ANTHROPIC_API_KEY          (so content-pipeline-run.mjs uses claude-sonnet-4-5)
+# The scheduled workflow only gathers SEO signals. It never generates article
+# drafts, builds, deploys, submits IndexNow, or changes a production release.
+#
 # Optional secrets (script skips gracefully if missing):
 #   GSC_SERVICE_ACCOUNT_JSON   (raw JSON of a service account with GSC access)
 #   INDEXNOW_KEY               (if not committed in repo)
@@ -31,8 +28,7 @@ on:
         default: 'outequippro.com'
 
 permissions:
-  contents: write
-  deployments: write
+  contents: read
 
 concurrency:
   group: seo-auto-pipeline
@@ -46,8 +42,6 @@ jobs:
       PIPELINE_MAX_NEW: ${{ github.event.inputs.maxNew || '1' }}
       PIPELINE_MAX_REFRESH: ${{ github.event.inputs.maxRefresh || '3' }}
       COMPETITOR_DOMAINS: ${{ github.event.inputs.competitors || 'outequippro.com' }}
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
       GSC_SITE_URL: ${{ secrets.GSC_SITE_URL || 'sc-domain:cooldrivepro.com' }}
 
@@ -75,40 +69,12 @@ jobs:
         run: node scripts/competitor-keyword-scan.mjs --domains="${COMPETITOR_DOMAINS}"
         continue-on-error: true
 
-      - name: Feed GSC + competitor signals into topic queue
-        run: node scripts/seo-feed-topics.mjs --max=5
-        continue-on-error: true
-
-      - name: Run daily content pipeline (write + refresh + translate + build + deploy + indexnow)
-        run: bash scripts/daily-content-pipeline.sh
-
-      - name: Commit generated artifacts back to main
-        if: always()
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A \
-            client/public/data/blog \
-            client/public/sitemap*.xml \
-            client/public/feed.xml \
-            client/public/atom.xml \
-            .omc/content-pipeline \
-            .omc/seo \
-            logs || true
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "chore(seo): auto pipeline run $(date -u +%Y-%m-%d)"
-            git push origin HEAD:main
-          fi
-
-      - name: Upload run logs as artifact
+      - name: Upload SEO signal results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: seo-pipeline-logs-${{ github.run_id }}
           path: |
-            .omc/content-pipeline/daily-log
             .omc/seo
             logs
           if-no-files-found: ignore

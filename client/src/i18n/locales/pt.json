@@ -2,9 +2,9 @@
   "nav": {
     "home": "Início",
     "products": "Produtos",
-    "topMountedAC": "Ar condicionado de teto",
-    "miniSplitAC": "Ar condicionado mini split",
-    "heatingCoolingAC": "Ar condicionado aquecimento/resfriamento",
+    "topMountedAC": "AC de teto",
+    "miniSplitAC": "AC mini split",
+    "heatingCoolingAC": "AC quente/frio",
     "allProducts": "Todos os produtos",
     "forum": "Fórum",
     "blog": "Blog",
@@ -34,10 +34,10 @@
     "supportAvailability": "Disponibilidade de suporte: 11h-21h Horário do Pacífico (PT), responderemos em 1-12 horas."
   },
   "hero": {
-    "title": "Ar condicionado de estacionamento para vida off-grid e conforto móvel",
-    "subtitle": "Ar condicionado 12V e 24V DC sem marcha lenta para caminhões semirreboque, RVs, vans e campistas — Refrigeração sem marcha lenta",
-    "ctaPrimary": "Comprar produtos",
-    "ctaSecondary": "Saiba mais",
+    "title": "Ar condicionado de estacionamento 12V/24V para caminhões, trailers, vans e frotas",
+    "subtitle": "CoolDrivePro constrói condicionadores de ar de estacionamento 12V/24V DC e sistemas de resfriamento sem inatividade para semi-caminhões, RVs, vans, campistas, frotas, revendedores e instaladores - com preços B2B, suporte de garantia baseado nos EUA e orientação de instalação.",
+    "ctaPrimary": "Obtenha recomendação de instalação",
+    "ctaSecondary": "Solicitar cotação do revendedor",
     "badge": "Nova chegada",
     "trustedBy": "Confiado por mais de 10.000 motoristas em todo o mundo"
   },
@@ -48,16 +48,6 @@
     "description": "Ar condicionados de estacionamento alimentados por bateria para caminhões semirreboque, RVs, vans e campistas. Refrigeração sem marcha lenta — Economize combustível, reduza emissões, mantenha-se confortável.",
     "viewDetails": "Comprar agora",
     "addToCart": "Adicionar ao carrinho",
-    "specs": "Especificações",
-    "features": "Características",
-    "reviews": "Avaliações de clientes",
-    "warranty": "Garantia",
-    "freeShipping": "Frete grátis",
-    "support": "Suporte 24/7",
-    "learnMore": "Saiba mais",
-    "cooling": "Resfriamento",
-    "heating": "Aquecimento",
-    "heatingCooling": "Aquecimento e resfriamento",
     "specs": {
       "coolingCapacity": "Capacidade de resfriamento",
       "heatingCapacity": "Capacidade de aquecimento",
@@ -71,6 +61,15 @@
       "heatingSpeed": "Velocidade de aquecimento",
       "airOutput": "Saída de ar"
     },
+    "features": "Características",
+    "reviews": "Avaliações de clientes",
+    "warranty": "Garantia",
+    "freeShipping": "Suporte de fatura",
+    "support": "Suporte 24/7",
+    "learnMore": "Saiba mais",
+    "cooling": "Resfriamento",
+    "heating": "Aquecimento",
+    "heatingCooling": "Aquecimento e resfriamento",
     "topMounted": {
       "title": "Ar condicionado de teto 12000 BTU",
       "subtitle": "Ar condicionado 12V/24V DC sem marcha lenta para RVs e caminhões",
@@ -81,8 +80,8 @@
       "imageAlt": "Vista explodida ar condicionado de teto 10000 BTU — Ar condicionado 12V/24V DC sem marcha lenta para RVs e caminhões"
     },
     "miniSplit": {
-      "title": "Ar condicionado mini split 12000 BTU",
-      "subtitle": "Ar condicionado 12V DC sem marcha lenta para caminhões semirreboque e RVs",
+      "title": "12V/24V Mini Split Parking AC para cabines semi-leito e RVs",
+      "subtitle": "O CoolDrivePro VX3000SP é um mini ar condicionado split para estacionamento de 12V/24V DC que oferece 12.000 BTU/h de resfriamento sem inatividade para cabines semi-leito, trailers, vans e campistas.O evaporador interno funciona a ≤32 dB usando um compressor inversor rotativo duplo GMCC, para que os motoristas possam dormir durante uma noite estacionado sem deixar o motor em marcha lenta.",
       "description": "Ar condicionado mini split 12V DC de alta capacidade para cabines de caminhões semirreboque, RVs e vans. Com 12000 BTU de potência de resfriamento sem marcha lenta, este ar condicionado sem dutos funciona diretamente da bateria do veículo — sem gerador, sem energia da rede necessária. Instalação horizontal no teto adequada para a maioria dos caminhões e campistas.",
       "btu": "12.000 BTU",
       "voltage": "12V DC",
@@ -97,8 +96,8 @@
       "imageAlt": "Aquecedor de água instantâneo 65000 BTU para RVs e caminhões semirreboque — Água quente off-grid"
     },
     "heatingCoolingAC": {
-      "title": "Ar condicionado aquecimento/resfriamento V-TH1",
-      "subtitle": "Ar condicionado rotativo 12V/24V DC modo duplo — Conforto durante todo o ano",
+      "title": "12V/24V Aquecimento e Arrefecimento AC de Estacionamento para Caminhões e RVs",
+      "subtitle": "O CoolDrivePro V-TH1 é um ar condicionado de estacionamento com bomba de calor de 12V/24V DC que fornece refrigeração e aquecimento de 2.000 W para semi-caminhões, trailers, vans e veículos especiais.Ele usa um compressor rotativo duplo GMCC com refrigerante R134a e pode aumentar a temperatura da cabine de 5°C para 30°C em cerca de 30 minutos — sem necessidade de motor em marcha lenta e sem necessidade de energia em terra.",
       "description": "O primeiro ar condicionado de estacionamento modo duplo da CoolDrivePro. O V-TH1 oferece até 2.000W de resfriamento no verão e aquece sua cabine de 5°C a 30°C em apenas 30 minutos no inverno. Com compressor rotativo duplo GMCC e refrigerante R134A, este ar condicionado rotativo 12V/24V DC fornece controle climático durante todo o ano para caminhões, RVs, vans e veículos especiais — sem marcha lenta do motor.",
       "imageAlt": "Ar condicionado aquecimento/resfriamento V-TH1 — Ar condicionado rotativo 12V/24V DC modo duplo"
     },
@@ -108,15 +107,15 @@
       "specifications": "Especificações",
       "reviews": "Avaliações de clientes",
       "faq": "Perguntas frequentes",
-      "freeShipping": "Frete grátis",
-      "warranty": "Garantia 2 anos",
+      "freeShipping": "Suporte de fatura",
+      "warranty": "Garantia de 1 ano",
       "returns": "Devoluções 30 dias",
       "inStock": "Em estoque",
       "outOfStock": "Fora de estoque",
       "quantity": "Quantidade",
       "shipping": "Envio",
-      "shippingDesc": "Frete grátis em pedidos acima de $500 para Estados Unidos continental. Entrega em 3-5 dias úteis.",
-      "warrantyDesc": "Garantia do fabricante de 2 anos cobrindo defeitos de materiais e mão de obra.",
+      "shippingDesc": "O envio é coordenado após a confirmação da fatura. Os prazos dependem do destino e dos detalhes do pedido.",
+      "warrantyDesc": "Garantia do fabricante de 1 ano cobrindo defeitos de materiais e de fabricação.",
       "returnsDesc": "Política de devolução fácil de 30 dias. Reembolso completo se não satisfeito.",
       "techSpecs": "Especificações técnicas",
       "reviewsTitle": "O que nossos clientes dizem",
@@ -201,5 +200,10 @@
     "cancel": "Cancelar",
     "posting": "Postando...",
     "model": "Modelo"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "Garantia de 1 ano"
+    }
   }
 }

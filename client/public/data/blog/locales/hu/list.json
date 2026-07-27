@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "B2B parkoló AC beszállítói útmutató vevőnek: 9 dimenziós rubrika + 10 legjobb márka összehasonlítása (2026)",
+    "category": "Vásárlási útmutatók",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Hogyan értékeljék a flotta, a kereskedő, az OEM és a nagykereskedelmi vásárlók a parkoló AC beszállítókat 2026-ban? 9-dimenziós pontozási rubrika, MOQ + átfutási idő + tanúsítási referenciaértékek és a 10 márka őszint..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "2026-os, államonkénti alapjárat-ellenes törvények: 50 állam keresése + parkolási AC ROI-kalkulátor",
+    "category": "Szabályok és megfelelés",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Az Egyesült Államok 2026-ra vonatkozó, mind az 50 alapjárat-ellenes törvénye egy táblázatban – finom tartományok, 5-15 perces korlátok, alvó/DEF-mentességek és egy működő ROI, amely bemutatja, hogyan térül meg az akku..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Teljes útmutató a kamionparkoló légkondicionálókhoz Vietnamban (2026)",
+    "category": "Vásárlási útmutatók",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "2026-os útmutató a kamionparkoló AC Vietnamban: 9000 BTU rendszer az észak-déli gyorsforgalmi úthoz, üzemanyag-megtakarítás (12-18 liter/nap), telepítési költségek és regionális éghajlati megfontolások Hanoitól Ho Si..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Parkoló klíma Ho Si Minh-város kikötői és konténervezetői számára (Cat Lai, Cai Mep)",
+    "category": "Regionális útmutatók",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Miért van szükségük a Ho Si Minh-városban tartózkodó Cat Lai és Cai Mep konténeres sofőreinek 9000 BTU parkoló AC: hosszú sorban állási idők, alapjárati nyomás és a fülke hűtésének ROI-ja a dél-vietnami kikötői logisz..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Parkoló klíma a Mekong Delta mezőgazdasági és hidegláncos teherautók számára",
+    "category": "Regionális útmutatók",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "A Mekong Delta mezőgazdasági és hidegláncos teherautó-üzemeltetői Can Tho-ban, Tien Giangban és Long An-ban a parkoló AC-ra támaszkodnak, hogy a sofőrök pihenjenek a hosszú kompvárakozások és a párás éjszakai megállás..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Parkoló AC az észak-déli gyorsforgalmi úthoz (CT.01): Long-Haul Driver Guide",
+    "category": "Regionális útmutatók",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Hogyan használnak a vietnami CT.01 North-South gyorsforgalmi úton a távolsági fuvarozást végző sofőrök egy 9000 BTU parkolóklímát, hogy legálisan pihenjenek, éjszakánként 12-18 liter gázolajat takarítsanak meg, és túl..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Parkoló klíma vietnami turistabuszok és alvóbuszok számára (Da Nang, Nha Trang, Phu Quoc)",
+    "category": "Regionális útmutatók",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Hogyan használják a turistabusz- és hálóbuszok üzemeltetői Da Nangban, Nha Trangban, Hoi Anban és Phu Quocban a parkoló AC-t, hogy pihentessék a sofőröket, és hogy a járművek megfeleljenek a szállodák és üdülőhelyek ü..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Légkondicionálás mobil jógastúdiókhoz és wellness furgonokhoz",
+    "category": "Specialitás",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "Fedezze fel az alapvető légkondicionáló megoldásokat mobil jógastúdiókhoz és wellness furgonokhoz.Biztosítsa az optimális hőmérséklet-szabályozást (68-72°F) megbízható parkoló AC-vel."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Parkoló klíma digitális nomádok számára, akik RVs környezetben élnek: Kényelmes munkavégzés bárhonnan",
+    "category": "Életmód",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "Alapvető útmutató az AC parkoláshoz RV digitális nomádok számára.Maradjon hűvös és produktív, miközben távolról dolgozik a RV készülékéről a megfelelő klímaberendezéssel."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Maradjon hideg a RV Rallye-n és fesztiválokon: parkolási klíma tippek rendezvényekhez",
+    "category": "Életmód",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "Mester RV rally parkoló AC!Szakértői tippeket kaphat a kiegészítő hűtéssel, az akkumulátor méretével és a telepítéssel kapcsolatban a kényelmes rendezvényélmény érdekében."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Van Dweller Útmutató a parkoláshoz AC: Teljes munkaidős élet a járműben",
+    "category": "Van Life",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "Alapvető útmutató a parkoló AC kiválasztásához és telepítéséhez furgonok lakói számára.Maradjon hűvös és kényelmes mobilházában szakértői tippek segítségével."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "R32 hűtőközeg a következő generációs parkoló AC-kban: alacsonyabb GWP és jobb hatékonyság",
+    "category": "Technológia",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Fedezze fel, hogy az R32 hűtőközeg miért válik a következő generációs parkoló AC-k preferált választásává, mivel alacsonyabb GWP-t és jobb hatékonyságot kínál a haszongépjárművek számára."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: Egymás melletti összehasonlítás (2026)",
+    "category": "Összehasonlítás",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16: hűtési teljesítmény, zaj, teljesítményfelvétel, telepítés bonyolultsága, garancia és 5 éves fenntartási költség.Valós számok a mezőnyből."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Üresjárat nélküli váltóáramú teherautó-rendszerek: Hogyan kell megfelelni az állami alapjárat-ellenes törvényeknek (2026)",
+    "category": "Megfelelés",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Államonkénti alapjárat-ellenes törvények és az üresjárat nélküli tehergépjárművek AC követelményeinek való megfelelés.CARB (300–1000 dollár bírság), 30+ állami korlát, EPA SmartWay és az 5 rendszer, amely megfe..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Parkoló AC BTU Méret kalkulátor: Hány BTU-ra van szüksége igazán?(2026)",
+    "category": "Vásárlási útmutató",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] Hány BTU-ra van szüksége a hálófülkéjének vagy a RV hálószobájának?Lépésről lépésre képlet plusz táblázatok 8. osztályú teherautókhoz (5000–10.000 BTU), Sprinter furgonokhoz (6000–8000 BTU) és 25 láb __CDP_TERM..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Parkolási klíma beszerelési költsége 2026: bolti árak államonként és barkácsmegtakarítás",
+    "category": "Vásárlási útmutató",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] A parkoló AC telepítési költsége államonként: 400–1200 USD profi, 0–150 USD barkácsolás.Valós bolti árak CA, TX, FL, NY-ból, plusz az egység, az akkumulátor, a vezetékek és a munkaerőköltségek teljes lebontása."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Parkolási AC zaj összehasonlítása: Valós dB-szintek 3 lábon tesztelve (2026)",
+    "category": "Összehasonlítás",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] 12 parkoló AC egységet mértünk kalibrált dB mérővel 3 láb magasságban.CoolDrivePro V-TH1 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Valós számok, marketing nélkül."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Teherautó váltóáramú energiafogyasztása: watt, amper és akkumulátorlemerülés magyarázata (2026)",
+    "category": "Tápellátás és akkumulátor",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Teherautó váltóáramú energiafogyasztása: átlagosan 480 W, 9 A 24V mellett, 38–55 Ah éjszakánként.Valós számok, képletek az akkumulátor méretéhez, és hogyan csökkentik az inverteres kompresszorok a 30%-ot."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Elemes RV Légkondicionáló: Teljes 2026-os vásárlói útmutató",
+    "category": "Vásárlási útmutatók",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Teljes 2026-os útmutató az akkumulátoros RV klímaberendezésekhez.Natív 12V/24V DC vs inverterbeállítások, valós LiFePO4 futásidejű adatok (220Ah → 8-11 óra), 1500-3800 dolláros ártartományok, így."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Parkolóklima felszerelése: 2026-os útmutató lépésről lépésre",
+    "category": "Telepítési útmutatók",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Lépésről lépésre 2026-os útmutató a parkoló AC felszereléséhez: tető előkészítése, 14x14-es kivágás, tömítés, vezetékek (4 AWG, 80A biztosíték), üzembe helyezés.6–9 óra barkácsolás, 325 dollár az egységen túli részeken."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Akkumulátor parkoláshoz AC: 2026 Méretezési és bekötési útmutató",
+    "category": "Útmutatók",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026. évi LiFePO4 méretezési útmutató parkolási váltakozó áramhoz: 220 Ah (1400 USD), 280 Ah (1750 USD), 400 Ah (2400 USD) 8 órás futásidejű matematikai, BMS/biztosíték/kábel specifikációkkal."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Parkoló klíma nem hűt?2026-os hibaelhárítási útmutató (lépésről lépésre)",
+    "category": "Hibaelhárítás",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "2026-os, lépésről lépésre szóló útmutató a nem hűthető parkoló AC javításához.Feszültségesés, hűtőközeg, szennyezett kondenzátor, termosztát, BMS – diagnosztizálás 30 perc alatt, 0–280 dolláros javítás."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parkoló AC vs APU: 2026-os költség- és teljesítmény-összehasonlítás a flottáknál",
+    "category": "Vélemények és összehasonlítások",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "2026-os flottadöntési útmutató: parkolási AC vs APU.5 éves TCO 4,05 dolláros dízellel – DC parkoló AC 9800–14200 USD/teherautó megtakarítás a dízel APU, 3200–5400 USD az alapjárathoz képest."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs 24V Parkolási klímaberendezés 2026-ban: teherautó, RV és kisteherautó döntési útmutató",
+    "category": "Vevői útmutató",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V vs 24V parkoló AC 2026-ban: igazítsa járműve natív feszültségét.A kábelhossz, az akkumulátor költsége, a hatékonyság, a működési idő és az átalakító értelmének teljes lebontása.Döntési mátrix belül."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Legjobb parkoló légkondicionáló 2026: 9 legjobb választás összehasonlítva (teherautók, RVs és furgonok)",
+    "category": "Vevői útmutató",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 legjobb parkolóklíma, amelyet 2026-ra teszteltek: egymás mellett BTU, zaj, húzás, ár és valós teljesítmény félteherautók, RV, sprinter furgonok és flották esetében.A nyertest használati eset alapján választják ki."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Parkoló légkondicionáló vásárlási útmutató 2026: Hogyan válasszuk ki a megfelelő egységet (1500 USD pazarlás nélkül)",
+    "category": "Vevői útmutató",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "2026-os parkolási AC vásárlási útmutató: 7 lépésből álló döntési keret, BTU mérettáblázat, specifikációs küszöbök, költségkeretek szintenként, és az 5 hiba, amely egy 1500 dolláros váltóáramot selejtté változtat.Vásár..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Parkolási AC üzemanyag-megtakarítási kalkulátor 2026: Üresjárati költség vs DC Parkolás AC vs APU",
+    "category": "Eszközök és számológépek",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "Számítsa ki a pontos üzemanyag-megtakarítást a DC parkoló AC vs. alapjárati és dízel APU esetén.2026-os üzemanyagárak, valós kitöltési ciklusok, élettartamra vetített ROI.Működő példák tulajdonos-üzemeltetők és 100 te..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Parkoló légkondicionálás Alexandria tengerparti páratartalmához: Egyiptom mediterrán éghajlati kihívásai elleni küzdelem",
     "category": "Flotta alkalmazások",
@@ -744,52 +976,12 @@
     "excerpt": "Biztosítsa az állatok és felszerelések biztonságát a mobil állatorvosi rendelőkben megbízható parkoló AC megoldásokkal.Kritikus a gyógyszeres kezelés és a jólét szempontjából."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Légkondicionálás mobil jógastúdiókhoz és wellness furgonokhoz",
-    "category": "Specialitás",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "Fedezze fel az alapvető légkondicionáló megoldásokat mobil jógastúdiókhoz és wellness furgonokhoz.Biztosítsa az optimális hőmérséklet-szabályozást (68-72°F) megbízható parkoló AC-vel."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Parkoló klíma digitális nomádok számára, akik RVs környezetben élnek: Kényelmes munkavégzés bárhonnan",
-    "category": "Életmód",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "Alapvető útmutató az AC parkoláshoz RV digitális nomádok számára.Maradjon hűvös és produktív, miközben távolról dolgozik a RV készülékéről a megfelelő klímaberendezéssel."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Maradjon hideg a RV Rallye-n és fesztiválokon: parkolási klíma tippek rendezvényekhez",
-    "category": "Életmód",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "Mester RV rally parkoló AC!Szakértői tippeket kaphat a kiegészítő hűtéssel, az akkumulátor méretével és a telepítéssel kapcsolatban a kényelmes rendezvényélmény érdekében."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Van Dweller Útmutató a parkoláshoz AC: Teljes munkaidős élet a járműben",
-    "category": "Van Life",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "Alapvető útmutató a parkoló AC kiválasztásához és telepítéséhez furgonok lakói számára.Maradjon hűvös és kényelmes mobilházában szakértői tippek segítségével."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Parkoló klíma beszerelési költsége: Teljes árlebontás 2025",
     "category": "Pénzügy",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Bontsa le a parkolóklíma teljes telepítési költségét 2025-re. Szerezzen betekintést az árat befolyásoló tényezőkbe, az egység típusától az elektromos frissítésig."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "R32 hűtőközeg a következő generációs parkoló AC-kban: alacsonyabb GWP és jobb hatékonyság",
-    "category": "Technológia",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Fedezze fel, hogy az R32 hűtőközeg miért válik a következő generációs parkoló AC-k preferált választásává, mivel alacsonyabb GWP-t és jobb hatékonyságot kínál a haszongépjárművek számára."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -838,14 +1030,6 @@
     "date": "2025. február 18",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
     "excerpt": "Fedezze fel, hogy a DC motoros légkondicionálók miért változtatják meg a RV és a teherautó hűtését.Ismerje meg a hatékonyságot, az akkumulátor-kompatibilitást és a legjobb 12V DC parkolási AC lehetőségeket."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Mennyi üzemanyagot takarít meg egy parkoló klíma?Valós számok és ROI kalkulátor",
-    "category": "Útmutató",
-    "date": "2025. február 15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "Fedezze fel, mennyi üzemanyagot takaríthat meg egy parkolóklíma.Útmutatónk valós számokat, ROI-kalkulátort és tippeket tartalmaz teherautók, RV és kisteherautók számára."
   },
   {
     "slug": "cleaning-maintaining-rv-ac",
@@ -1008,14 +1192,6 @@
     "excerpt": "Tartsa hűvösen élelmiszerszállító teherautóját, és megfeleljen a megfelelő parkoló AC-nek.Útmutatónk lefedi a BTU igényeket, a telepítést és a legjobb modelleket, például a CoolDrivePro VS02 PRO és a VX3000SP."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Parkolólégkondicionáló vásárlási útmutató 2025: Minden, amit tudnia kell a vásárlás előtt",
-    "category": "Vevői útmutató",
-    "date": "2024. november 20",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "Teljes 2025-ös parkolóklíma vásárlási útmutató.Hasonlítsa össze a BTU értékeléseket, a 12V és a 24V, felülre szerelt és mini split, és találja meg teherautójához vagy RV legjobb parkolóhelyiségét."
-  },
-  {
     "slug": "mppt-solar-controller-rv-ac",
     "title": "MPPT napelemes töltésvezérlők RV légkondicionáláshoz: a legjobb választási és beállítási útmutató",
     "category": "Solar",
@@ -1046,14 +1222,6 @@
     "date": "2024. november 3",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership-hero.webp",
     "excerpt": "Fedezze fel a parkolóklímák valódi megtérülését a motor alapjáratával szemben 5 év alatt.Ismerje meg a TCO-t, a megtakarításokat és a CoolDrivePro megoldásokat teherautó-sofőröknek, RV-oknak és kisteherautóknak."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V vs 24V Parkoló légkondicionáló: melyik a megfelelő teherautójához vagy RV?",
-    "category": "Technológia",
-    "date": "2025. március 8",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "A 12V és a 24V parkoló AC vagy a RV közötti választást választja teherautójához?Ez az átfogó útmutató részletesen ismerteti az egyes rendszerek előnyeit, hátrányait és ideális alkalmazási lehetőségeit, segítve Önt a t..."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -1158,10 +1326,6 @@
     "date": "2025. március 29",
     "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200&q=80",
     "excerpt": "Fedezze fel a parkolóklíma megoldásokat az idegenforgalmi közlekedéshez Zanzibárban, Tanzániában.Küzdj a trópusi páratartalom és a tengerparti hőség ellen a CoolDrivePro VS02 PRO technológiával."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-parking-ac-installation-guide",

@@ -8,11 +8,15 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
 import { toast } from "sonner";
-import { ChevronRight, Check, Star, ShieldCheck, Truck, RotateCcw, Zap, Flame, Snowflake } from "lucide-react";
+import { ChevronRight, Check, Star, ShieldCheck, FileText, RotateCcw, Zap, Flame, Snowflake, Loader2 } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
+import ProductLineSwitcher from "@/components/ProductLineSwitcher";
 import ProductReviews from "@/components/ProductReviews";
 import ProductFAQ from "@/components/ProductFAQ";
+import CheckoutAssurance from "@/components/CheckoutAssurance";
+import CompactInquiryForm from "@/components/CompactInquiryForm";
 import { useSEO } from "@/hooks/useSEO";
+import { startCheckout } from "@/lib/checkout";
 
 /* CDN image URLs (CloudFront) */
 const VTH1_IMG = {
@@ -133,8 +137,8 @@ export default function ProductHeatingCooling() {
   const { t } = useTranslation();
 
   useSEO({
-    title: "V-TH1 Heating & Cooling Parking Air Conditioner | 12V/24V DC – CoolDrivePro",
-    description: "V-TH1 dual-mode heating & cooling parking AC. 2000W cooling, heats cab from 5°C to 30°C in 30 min. GMCC twin-rotary compressor, 12V/24V DC. Year-round comfort.",
+    title: "12V/24V Heating and Cooling Parking AC for Trucks and RVs | CoolDrivePro",
+    description: "CoolDrivePro V-TH1 is a 12V/24V DC heating and cooling parking air conditioner for trucks, RVs, vans and special vehicles. 2000W heat-pump cooling and heating with GMCC twin-rotary compressor, R134a refrigerant and dealer fitment support.",
     ogImage: VTH1_IMG.hero,
     jsonLd: {
       "@context": "https://schema.org",
@@ -164,17 +168,24 @@ export default function ProductHeatingCooling() {
   const [qty, setQty] = useState(1);
   const [voltage, setVoltage] = useState<"dc" | "ac">("dc");
   const [activeImg, setActiveImg] = useState(0);
+  const [isCheckingOut, setIsCheckingOut] = useState(false);
 
   const currentSpecs = voltage === "dc" ? dcSpecs : acSpecs;
   const quickSpecs = getQuickSpecs(voltage);
 
-  const handleAddToCart = () => {
-    const voltageLabel = voltage === "dc" ? "12V/24V" : "110V";
-    toast(`${qty} × V-TH1 (${voltageLabel}) ${t('products.detail.addToCart')} — ${t('common.comingSoon')}`);
+  const handleAddToCart = async () => {
+    setIsCheckingOut(true);
+    try {
+      await startCheckout({ productId: voltage === "dc" ? "vth1-dc" : "vth1-110v", quantity: qty });
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : "Order request is unavailable. Please contact support@cooldrivepro.com.");
+      setIsCheckingOut(false);
+    }
   };
 
   return (
     <PageLayout>
+      <ProductLineSwitcher activeSlug="heating-cooling-ac" />
       {/* Breadcrumb */}
       <nav className="max-w-[1280px] mx-auto px-4 lg:px-8 py-3 flex items-center gap-1.5 text-sm" style={{ color: "oklch(0.55 0.05 250)" }}>
         <Link href="/" className="hover:underline">{t('nav.home')}</Link>
@@ -313,23 +324,34 @@ export default function ProductHeatingCooling() {
             ))}
           </ul>
 
-          {/* Qty + Add to Cart */}
+          {/* Qty + Request invoice */}
           <div className="flex items-center gap-4 mb-6">
             <div className="flex items-center border rounded-lg overflow-hidden" style={{ borderColor: "oklch(0.85 0.04 240)" }}>
               <button className="w-10 h-10 flex items-center justify-center text-lg font-bold hover:bg-gray-50" onClick={() => setQty(q => Math.max(1, q - 1))}>−</button>
               <span className="w-10 text-center font-semibold">{qty}</span>
               <button className="w-10 h-10 flex items-center justify-center text-lg font-bold hover:bg-gray-50" onClick={() => setQty(q => q + 1)}>+</button>
             </div>
-            <button onClick={handleAddToCart} className="flex-1 py-3 rounded-lg font-bold text-white text-sm" style={{ backgroundColor: "oklch(0.45 0.18 255)" }}>
-              {t('products.detail.addToCart')}
+            <button onClick={handleAddToCart} disabled={isCheckingOut} className="flex-1 py-3 rounded-lg font-bold text-white text-sm" style={{ backgroundColor: "oklch(0.45 0.18 255)", opacity: isCheckingOut ? 0.8 : 1 }}>
+              {isCheckingOut ? <Loader2 size={16} className="inline mr-2 animate-spin" /> : null}
+              {t('products.detail.requestInvoice', { defaultValue: 'Request Invoice' })}
             </button>
           </div>
+
+          <CheckoutAssurance />
+          <CompactInquiryForm
+            source="product_vth1"
+            productName="V-TH1 Heating & Cooling Parking AC"
+            title="Check voltage and climate fit"
+            subtitle="Send vehicle type, voltage choice, and quantity. We will confirm the right version before invoice."
+            className="mb-6"
+            successMessage="Thanks. CoolDrivePro will review your vehicle type, voltage choice, climate use case and quantity before sending a fitment-confirmed quote for the V-TH1 heat-pump parking AC."
+          />
 
           {/* Trust badges */}
           <div className="grid grid-cols-3 gap-3 pt-4 border-t" style={{ borderColor: "oklch(0.90 0.03 240)" }}>
             {[
               { icon: ShieldCheck, label: t('products.detail.warranty') },
-              { icon: Truck, label: t('products.detail.freeShipping') },
+              { icon: FileText, label: t('products.detail.requestInvoice') },
               { icon: RotateCcw, label: t('products.detail.returns') },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex flex-col items-center gap-1 text-center">

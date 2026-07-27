@@ -1,7 +1,7 @@
 import process from "node:process";
 import { spawn } from "node:child_process";
 
-const WORKFLOW_NAMES = ["seo-batch", "locale-qa", "code-review"];
+const WORKFLOW_NAMES = ["locale-qa", "code-review"];
 
 function parseArgs(argv) {
   const [workflowName, ...rest] = argv;
@@ -10,7 +10,6 @@ function parseArgs(argv) {
     ask: false,
     provider: "claude",
     agent: null,
-    langs: null,
     scope: "changed-files",
   };
 
@@ -30,11 +29,6 @@ function parseArgs(argv) {
       continue;
     }
 
-    if (arg.startsWith("--langs=")) {
-      options.langs = arg.slice("--langs=".length).trim();
-      continue;
-    }
-
     if (arg.startsWith("--scope=")) {
       options.scope = arg.slice("--scope=".length).trim() || options.scope;
     }
@@ -44,31 +38,7 @@ function parseArgs(argv) {
 }
 
 function getWorkflowSpec(options) {
-  const langs = options.langs || "fr,de,es,it,pt,ja,ko";
-
   const specs = {
-    "seo-batch": {
-      defaultAgent: "planner",
-      title: "SEO Batch Workflow",
-      inSessionCommands: [
-        '/ralplan "Plan and execute CoolDrivePro blog localization batch for languages: ' + langs + '. Keep existing SEO path conventions and regenerate static SEO outputs."',
-        '/autopilot "Run CoolDrivePro SEO batch: translate blog locales in safe chunks, sync blog index, regenerate static SEO pages, then verify sitemap/canonical/hreflang consistency."',
-      ],
-      prompt: [
-        "You are preparing an execution plan for CoolDrivePro SEO batch work.",
-        "Project constraints:",
-        "- Repo: cooldrivepro",
-        "- Core scripts: npm run translate:blog-locales, npm run sync:blog-index, npm run build",
-        "- Keep blog URL rule: English uses /blog/... and non-English uses /<lang>/blog/...",
-        "- Respect locale fallback architecture and locale-availability.json",
-        "Execution target:",
-        `- Languages: ${langs}`,
-        "- Translate in small batches to reduce translator API failure risk",
-        "- After translation, run sync index + build",
-        "- Validate sitemap and hreflang output for localized entries",
-        "Return a concise, ordered plan with command list and rollback points.",
-      ].join("\n"),
-    },
     "locale-qa": {
       defaultAgent: "verifier",
       title: "Locale Validation Workflow",
@@ -117,7 +87,7 @@ function getWorkflowSpec(options) {
 }
 
 function printUsage() {
-  console.log("Usage: node scripts/omc-workflow.mjs <seo-batch|locale-qa|code-review> [--ask] [--provider=claude|codex|gemini] [--agent=name] [--langs=fr,de] [--scope=changed-files]");
+  console.log("Usage: node scripts/omc-workflow.mjs <locale-qa|code-review> [--ask] [--provider=claude|codex|gemini] [--agent=name] [--scope=changed-files]");
 }
 
 function runAsk(options, spec) {

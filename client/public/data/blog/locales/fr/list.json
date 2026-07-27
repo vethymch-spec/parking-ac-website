@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Guide d'achat des fournisseurs de climatisation de stationnement B2B : rubrique en 9 dimensions + 10 meilleures marques comparées (2026)",
+    "category": "Guides d'achat",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Comment les acheteurs de flotte, de concessionnaires, d'équipementiers et de gros devraient évaluer les fournisseurs de climatisation de stationnement en 2026. Rubrique de notation en 9 dimensions, MOQ + délai de livr..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Lois anti-ralenti État par État 2026 : recherche dans 50 États + calculateur de retour sur investissement du stationnement AC",
+    "category": "Réglementations et conformité",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Toutes les lois anti-ralenti des 50 États américains pour 2026 dans un seul tableau : plages fines, limites de 5 minutes contre 15 minutes, exemptions pour les dormeurs/DEF et un retour sur investissement calculé mont..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Guide complet des climatiseurs de stationnement pour camions au Vietnam (2026)",
+    "category": "Guides d'achat",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Guide 2026 de la climatisation du stationnement des camions au Vietnam : 9 000 systèmes BTU pour l'autoroute Nord-Sud, économies de carburant (12-18 L/jour), coûts d'installation et considérations climatiques régional..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Parking AC pour les chauffeurs du port et des conteneurs de Ho Chi Minh-Ville (Cat Lai, Cai Mep)",
+    "category": "Guides régionaux",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Pourquoi les chauffeurs de conteneurs Cat Lai et Cai Mep à Hô Chi Minh-Ville ont besoin d'un parking climatisé de 9 000 BTU : longs temps d'attente, pression anti-ralenti et retour sur investissement du refroidissemen..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Parking AC pour les camions agricoles et de la chaîne du froid du delta du Mékong",
+    "category": "Guides régionaux",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Les exploitants de camions agricoles et de la chaîne du froid du delta du Mékong à Can Tho, Tien Giang et Long An comptent sur la climatisation des parkings pour permettre aux conducteurs de se reposer pendant les lon..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Parking AC pour l'autoroute Nord-Sud (CT.01) : Guide du conducteur longue distance",
+    "category": "Guides régionaux",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Comment les conducteurs long-courriers de l'autoroute Nord-Sud CT.01 au Vietnam utilisent un climatiseur de stationnement 9 000 BTU pour se reposer légalement, économiser 12 à 18 litres de diesel par nuit et survivre..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Parking AC pour les autocars touristiques vietnamiens et les bus-couchettes (Da Nang, Nha Trang, Phu Quoc)",
+    "category": "Guides régionaux",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Comment les opérateurs d'autocars touristiques et de bus couchettes à Da Nang, Nha Trang, Hoi An et Phu Quoc utilisent la climatisation du parking pour garder les conducteurs reposés et les véhicules conformes aux pol..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Climatisation pour studios de yoga mobiles et camionnettes de bien-être",
+    "category": "Spécialité",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "Découvrez les solutions de climatisation essentielles pour les studios de yoga mobiles et les vans bien-être.Assurez un contrôle optimal de la température (68-72°F) avec une climatisation de stationnement fiable."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Parking climatisé pour les nomades numériques vivant dans des RV : confort de travail depuis n'importe où",
+    "category": "Mode de vie",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "Guide essentiel du stationnement AC pour les nomades numériques RV.Restez au frais et productif tout en travaillant à distance depuis votre RV avec la bonne climatisation."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Rester au frais lors des RV rassemblements et festivals : conseils sur le stationnement AC pour les événements",
+    "category": "Mode de vie",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "Maître RV rallyes avec parking AC !Obtenez des conseils d’experts sur le refroidissement supplémentaire, le dimensionnement de la batterie et l’installation pour une expérience événementielle confortable."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Guide du Van Dweller sur le stationnement AC : vivre à temps plein dans votre véhicule",
+    "category": "La vie en fourgonnette",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "Guide essentiel pour choisir et installer la climatisation de stationnement pour les habitants des fourgons.Restez au frais et à l'aise dans votre mobil-home grâce aux conseils d'experts."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Réfrigérant R32 dans les climatiseurs de stationnement de nouvelle génération : GWP réduit et meilleure efficacité",
+    "category": "Technologie",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Découvrez pourquoi le réfrigérant R32 devient le choix privilégié pour les climatiseurs de stationnement de nouvelle génération, offrant un PRP inférieur et une efficacité améliorée pour les véhicules commerciaux."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC : comparaison côte à côte (2026)",
+    "category": "Comparaison",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 face-à-face : puissance de refroidissement, bruit, consommation d'énergie, complexité d'installation, garantie et coût de possession de 5 ans.Chiffres réels du terrain."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Systèmes de climatisation pour camions sans ralenti : comment se conformer aux lois nationales anti-ralenti (2026)",
+    "category": "Conformité",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Lois anti-ralenti État par État et comment se conformer à la climatisation des camions sans ralenti.CARB (amendes de 300 à 1 000 $), plus de 30 limites d'État, EPA SmartWay et les 5 systèmes qui répondent aux e..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Parking AC BTU Calculateur de dimensionnement : de combien de BTU avez-vous vraiment besoin ?(2026)",
+    "category": "Guide d'achat",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] De combien de BTU votre cabine couchette ou votre chambre RV a-t-elle besoin ?Formule étape par étape et tableaux pour les camions de classe 8 (5 000 à 10 000 BTU), les fourgonnettes Sprinter (6 000 à 8 000 BTU..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Coût d'installation de la climatisation de stationnement 2026 : tarifs des magasins par État et économies de bricolage",
+    "category": "Guide d'achat",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Coût d'installation de la climatisation de stationnement par État : 400 $ à 1 200 $ pour un professionnel, 0 $ à 150 $ pour le bricolage.Tarifs d'atelier réels de CA, TX, FL, NY, plus ventilation complète des c..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Comparaison du bruit de climatisation dans le stationnement : niveaux de dB réels testés à 3 pieds (2026)",
+    "category": "Comparaison",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Nous avons mesuré 12 unités AC de stationnement avec un dB-mètre calibré à 3 pieds.CoolDrivePro V-TH1 atteint 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.De vrais chiffres, pas de marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Consommation d'énergie CA des camions : explication des watts, des ampères et de la décharge de la batterie (2026)",
+    "category": "Alimentation et batterie",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Explication de la consommation électrique CA des camions : 480 W en moyenne, 9 A à 24V, 38 à 55 Ah par nuit.Des chiffres réels, des formules pour dimensionner votre batterie et la façon dont les compresseurs in..."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Climatiseur RV alimenté par batterie : Guide d'achat complet 2026",
+    "category": "Guides d'achat",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Guide complet 2026 des climatiseurs RV alimentés par batterie.Configurations natives 12V/24V DC par rapport à l'onduleur, données d'exécution réelles LiFePO4 (220 Ah → 8 à 11 heures), fourchettes de prix de 1 500 $ à..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Comment installer une climatisation de stationnement : guide étape par étape pour 2026",
+    "category": "Guides d'installation",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Guide étape par étape 2026 pour l'installation d'un climatiseur de stationnement : préparation du toit, découpe 14x14, joint, câblage (4 AWG, fusible 80A), mise en service.6 à 9 heures de bricolage, 325 $ en pièces au..."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Batterie pour stationnement AC : Guide de dimensionnement et de câblage 2026",
+    "category": "Guides pratiques",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "Guide des tailles 2026 LiFePO4 pour le stationnement AC : options 220 Ah (1 400 $), 280 Ah (1 750 $), 400 Ah (2 400 $) avec calcul d'autonomie de 8 heures, spécifications BMS/fusible/câble."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "La climatisation du parking ne refroidit pas ?Guide de dépannage 2026 (étape par étape)",
+    "category": "Dépannage",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "Guide étape par étape 2026 pour réparer une climatisation de stationnement qui ne refroidit pas.Chute de tension, réfrigérant, condenseur sale, thermostat, BMS — diagnostiquez en 30 minutes, réparations de 0 à 280 $."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC vs APU : comparaison des coûts et des performances des flottes en 2026",
+    "category": "Commentaires et comparaisons",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Guide de décision de flotte 2026 : stationnement AC vs APU.Coût total de possession sur 5 ans avec 4,05 $ de diesel — DC La climatisation de stationnement permet d'économiser 9 800 $ à 14 200 $/camion par rapport au d..."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs 24V Climatisation de stationnement en 2026 : Guide de décision pour camions, RV et fourgonnettes",
+    "category": "Guide de l'acheteur",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V vs 24V parking AC en 2026 : correspond à la tension native de votre véhicule.Analyse complète du calibre du câble, du coût de la batterie, de l'efficacité, de la durée d'exécution et du moment où un convertisseur..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Meilleur climatiseur de stationnement 2026 : 9 meilleurs choix comparés (camions, RV et fourgonnettes)",
+    "category": "Guide de l'acheteur",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 meilleurs climatiseurs de stationnement testés pour 2026 : côte à côte BTU, bruit, tirage, prix et performances réelles pour les semi-remorques, les RV, les fourgonnettes sprinter et les flottes.Choix du gagnant par..."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Guide d'achat de climatiseurs de stationnement 2026 : Comment choisir la bonne unité (sans gaspiller 1 500 $)",
+    "category": "Guide de l'acheteur",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "Guide d'achat de climatisation de stationnement 2026 : cadre décisionnel en 7 étapes, tableau de dimensionnement BTU, seuils de spécifications, budgets de coûts par niveau et les 5 erreurs qui transforment une climati..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Calculateur d'économies de carburant pour le stationnement AC 2026 : coût d'inactivité par rapport à DC Parking AC par rapport à APU",
+    "category": "Outils et calculatrices",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "Calculez les économies de carburant exactes à partir d'un DC climatisation de stationnement par rapport au ralenti ou au diesel APU.Prix ​​du carburant 2026, cycles d’utilisation réels, retour sur investissement sur l..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Climatisation des parkings pour l'humidité côtière d'Alexandrie : lutter contre les défis climatiques méditerranéens de l'Égypte",
     "category": "Applications de flotte",
@@ -744,52 +976,12 @@
     "excerpt": "Garantissez la sécurité des animaux et des équipements dans les cliniques vétérinaires mobiles grâce à des solutions de climatisation de stationnement fiables.Critique pour les médicaments et le bien-être."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Climatisation pour studios de yoga mobiles et camionnettes de bien-être",
-    "category": "Spécialité",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "Découvrez les solutions de climatisation essentielles pour les studios de yoga mobiles et les vans bien-être.Assurez un contrôle optimal de la température (68-72°F) avec une climatisation de stationnement fiable."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Parking climatisé pour les nomades numériques vivant dans des RV : confort de travail depuis n'importe où",
-    "category": "Mode de vie",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "Guide essentiel du stationnement AC pour les nomades numériques RV.Restez au frais et productif tout en travaillant à distance depuis votre RV avec la bonne climatisation."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Rester au frais lors des RV rassemblements et festivals : conseils sur le stationnement AC pour les événements",
-    "category": "Mode de vie",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "Maître RV rallyes avec parking AC !Obtenez des conseils d’experts sur le refroidissement supplémentaire, le dimensionnement de la batterie et l’installation pour une expérience événementielle confortable."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Guide du Van Dweller sur le stationnement AC : vivre à temps plein dans votre véhicule",
-    "category": "La vie en fourgonnette",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "Guide essentiel pour choisir et installer la climatisation de stationnement pour les habitants des fourgons.Restez au frais et à l'aise dans votre mobil-home grâce aux conseils d'experts."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Coût d’installation du climatiseur de stationnement : ventilation complète des prix 2025",
     "category": "Finances",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Décomposez le coût complet d'installation du climatiseur de stationnement pour 2025. Obtenez des informations sur les facteurs affectant le prix, du type d'unité aux mises à niveau électriques."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Réfrigérant R32 dans les climatiseurs de stationnement de nouvelle génération : GWP réduit et meilleure efficacité",
-    "category": "Technologie",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Découvrez pourquoi le réfrigérant R32 devient le choix privilégié pour les climatiseurs de stationnement de nouvelle génération, offrant un PRP inférieur et une efficacité améliorée pour les véhicules commerciaux."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -896,14 +1088,6 @@
     "excerpt": "Découvrez les meilleurs climatiseurs de stationnement pour semi-camions en 2025. Notre guide de l'acheteur couvre les meilleurs choix, types et facteurs essentiels pour les chauffeurs de camion."
   },
   {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "Climatiseur de stationnement 12V vs 24V : lequel convient le mieux à votre camion ou RV ?",
-    "category": "Technologie",
-    "date": "8 mars 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "Choisir entre 12V et 24V climatisation de stationnement pour votre camion ou RV ?Ce guide complet détaille les avantages, les inconvénients et les applications idéales de chaque système, vous aidant à prendre une déci..."
-  },
-  {
     "slug": "no-idle-ac-anti-idling-laws",
     "title": "Climatisation sans ralenti : comment les climatiseurs de stationnement aident les chauffeurs de camion à se conformer aux lois anti-ralenti",
     "category": "Règlements",
@@ -998,14 +1182,6 @@
     "date": "25 novembre 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-food-trucks-hero.webp",
     "excerpt": "Gardez votre food truck au frais et conforme à la bonne climatisation de stationnement.Notre guide couvre les besoins de BTU, l'installation et les meilleurs modèles comme le CoolDrivePro VS02 PRO et VX3000SP."
-  },
-  {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Guide d’achat de climatiseurs de stationnement 2025 : tout ce que vous devez savoir avant d’acheter",
-    "category": "Guide de l'acheteur",
-    "date": "20 novembre 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "Guide d’achat complet des climatiseurs de stationnement 2025.Comparez les cotes BTU, 12V contre 24V, monté sur le dessus ou mini split, et trouvez le meilleur climatiseur de stationnement pour votre camion ou RV."
   },
   {
     "slug": "mppt-solar-controller-rv-ac",
@@ -1104,14 +1280,6 @@
     "excerpt": "Reste au frais dans ton skoolie !Notre guide couvre la meilleure climatisation de stationnement pour les conversions d'autobus scolaires, y compris les options sur le toit, le mini-split et 12V.Apprenez-en davantage s..."
   },
   {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Combien de carburant un climatiseur de stationnement permet-il d'économiser ?Calculateur de chiffres réels et de retour sur investissement",
-    "category": "Guider",
-    "date": "15 février 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "Découvrez combien de carburant un climatiseur de stationnement peut vous faire économiser.Notre guide fournit des chiffres réels, un calculateur de retour sur investissement et des conseils pour les camions, les RV et..."
-  },
-  {
     "slug": "parking-ac-vs-generator",
     "title": "Climatiseur de stationnement ou générateur : quel est le meilleur pour les chauffeurs de camion ?",
     "category": "Comparaison",
@@ -1134,10 +1302,6 @@
     "date": "8 décembre 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "excerpt": "Guide complet pour le câblage CA et l'installation électrique du stationnement 12V/24V en toute sécurité dans les camions, les RV et les fourgonnettes.Découvrez les composants, la chute de tension, la gestion de la ba..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

@@ -7,8 +7,26 @@
     "node": ">=20.11.0"
   },
   "scripts": {
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build && find dist/client -type f \\( -name '*.bak' -o -name '*.prev' \\) -delete && node scripts/generate-redirects.mjs && node scripts/generate-sitemap.mjs && node scripts/generate-feed.mjs && cp client/public/sitemap*.xml dist/client/ && cp client/public/feed.xml dist/client/ && cp client/public/atom.xml dist/client/ && cp client/public/_redirects dist/client/_redirects && node scripts/prerender.mjs && cp workers/pages-worker.js dist/client/_worker.js && node scripts/verify-compatibility-seo.mjs",
+    "build:fast": "vite build",
+    "prerender": "node scripts/prerender.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "feed": "node scripts/generate-feed.mjs",
+    "indexnow": "node scripts/indexnow.mjs",
+    "campaign:plan": "node scripts/content-campaign-plan.mjs",
+    "campaign:prepare": "node scripts/content-campaign-run.mjs --company-assets-only --no-ai-media",
+    "campaign:write": "node scripts/content-campaign-write.mjs --company-assets-only --no-ai-media",
+    "campaign:migrate-assets": "node scripts/content-campaign-migrate-assets.mjs",
+    "campaign:promote": "node scripts/content-campaign-promote.mjs",
+    "campaign:verify": "node scripts/verify-campaign-production.mjs",
+    "campaign:daily": "node scripts/content-campaign-daily.mjs",
+    "keyword:prioritize": "node scripts/keyword-research-prioritize.mjs",
+    "sync:blog-index": "node scripts/sync-blog-index.mjs",
+    "validate:blog-locales": "node scripts/validate-blog-locales.mjs",
+    "verify:compatibility-seo": "node scripts/verify-compatibility-seo.mjs",
+    "verify:production-hosts": "node scripts/verify-production-hosts.mjs",
+    "preview": "vite preview",
+    "deploy:production": "npm run build && npx wrangler pages deploy dist/client --project-name cooldrivepro --branch main"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -83,7 +101,6 @@
     "prettier": "^3.6.2",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.1",
-    "translate-google": "^1.5.0",
     "typescript": "5.9.3",
     "vite": "^7.1.7"
   }

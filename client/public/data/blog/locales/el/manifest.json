@@ -1,5 +1,261 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "imageAlt": "Outdoor unit of a parking air conditioner with compressor service access",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "imageAlt": "Parking air conditioner split-system installation and service access",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "B2B Parking AC Supplier Οδηγός αγοραστή: Ρουμπρίκα 9 διαστάσεων + 10 κορυφαίες μάρκες που συγκρίθηκαν (2026)",
+    "date": "2026-06-08",
+    "category": "Οδηγοί αγοράς",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Σύγκριση προμηθευτών AC parking B2B — ρουμπρίκα βαθμολόγησης 9 διαστάσεων για αγοραστές στόλου, αντιπροσώπου και OEM",
+    "excerpt": "Πώς ο στόλος, οι έμποροι, οι OEM και οι αγοραστές χονδρικής θα πρέπει να αξιολογούν τους προμηθευτές AC στάθμευσης στάθμευσης το 2026. Ρουμπρίκα βαθμολόγησης 9 διαστάσεων, σημεία αναφοράς πιστοποίησης MOQ + χρόνος παρ..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Νόμοι κατά της αδράνειας κατά κράτος 2026: Αναζήτηση 50 πολιτειών + Υπολογιστής ROI AC",
+    "date": "2026-06-08",
+    "category": "Κανονισμοί & Συμμόρφωση",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Χάρτης των ΗΠΑ που δείχνει νόμους κατά του ρελαντί κατά πολιτεία 2026 με επικάλυψη συμμόρφωσης AC στάθμευσης",
+    "excerpt": "Και οι 50 νόμοι κατά του ρελαντί της πολιτείας των ΗΠΑ για το 2026 σε έναν πίνακα — εύρη προστίμων, όρια 5- έναντι 15 λεπτών, εξαιρέσεις ύπνου/DEF και λειτουργική απόδοση επένδυσης που δείχνει πώς αποπληρώνει ένα AC σ..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Πλήρης οδηγός για κλιματιστικά στάθμευσης φορτηγών στο Βιετνάμ (2026)",
+    "date": "2026-05-20",
+    "category": "Οδηγοί αγοράς",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Οδηγός 2026 για τη στάθμευση φορτηγών AC στο Βιετνάμ: 9000 συστήματα BTU για τον αυτοκινητόδρομο Βορρά-Νότου, εξοικονόμηση καυσίμου (12-18 λίτρα/ημέρα), κόστος εγκατάστασης και τοπικές κλιματικές εκτιμήσεις από το Ανό..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Κλιματισμός στάθμευσης για το λιμάνι του Χο Τσι Μινχ και τους οδηγούς εμπορευματοκιβωτίων (Cat Lai, Cai Mep)",
+    "date": "2026-05-20",
+    "category": "Περιφερειακοί Οδηγοί",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Γιατί οι οδηγοί εμπορευματοκιβωτίων Cat Lai και Cai Mep στην πόλη Χο Τσι Μινχ χρειάζονται ένα AC στάθμευσης 9000 BTU: μεγάλοι χρόνοι αναμονής, πίεση κατά του ρελαντί και το ROI της ψύξης καμπίνας για την εφοδιαστική λ..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Στάθμευση AC για Mekong Delta Agricultural & Cold-Chain φορτηγά",
+    "date": "2026-05-20",
+    "category": "Περιφερειακοί Οδηγοί",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Οι χειριστές φορτηγών γεωργικών και ψυχρών αλυσίδων της Mekong Delta στο Can Tho, Tien Giang και Long An βασίζονται στο σύστημα κλιματισμού στάθμευσης για να κρατούν τους οδηγούς ξεκούραστους κατά τη διάρκεια μακρών α..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Parking AC for the North-South Expressway (CT.01): Οδηγός οδήγησης μεγάλων αποστάσεων",
+    "date": "2026-05-20",
+    "category": "Περιφερειακοί Οδηγοί",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Πώς οι οδηγοί μεγάλων αποστάσεων στον αυτοκινητόδρομο CT.01 North-South του Βιετνάμ χρησιμοποιούν ένα κλιματιστικό στάθμευσης 9000 BTU για να ξεκουραστούν νόμιμα, να εξοικονομήσουν 12-18 λίτρα ντίζελ ανά νύχτα και να..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Κλιματισμός στάθμευσης για βιετναμέζικα τουριστικά πούλμαν και λεωφορεία ύπνου (Ντα Νανγκ, Να Τρανγκ, Που Κουόκ)",
+    "date": "2026-05-20",
+    "category": "Περιφερειακοί Οδηγοί",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Πώς οι χειριστές τουριστικών πούλμαν και λεωφορείων ύπνου στο Da Nang, Nha Trang, Hoi An και Phu Quoc χρησιμοποιούν το AC στάθμευσης για να κρατούν τους οδηγούς ξεκούραστους και τα οχήματα να συμμορφώνονται με τις πολ..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Κλιματισμός για κινητά στούντιο γιόγκα και βαν ευεξίας",
+    "date": "2026-04-29",
+    "category": "Ειδικότητα",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "imageAlt": "Κλιματισμός για κινητά στούντιο γιόγκα και βαν ευεξίας",
+    "excerpt": "Ανακαλύψτε βασικές λύσεις κλιματισμού για κινητά στούντιο γιόγκα και βαν ευεξίας.Εξασφαλίστε βέλτιστο έλεγχο θερμοκρασίας (68-72°F) με αξιόπιστο AC στάθμευσης."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Κλιματισμός στάθμευσης για Digital Nomads Living in RVs: Work-From-Anywhere Comfort",
+    "date": "2026-04-29",
+    "category": "Τρόπος ζωής",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "imageAlt": "Κλιματισμός στάθμευσης για Digital Nomads Living in RVs: Work-From-Anywhere Comfort",
+    "excerpt": "Βασικός οδηγός για τη στάθμευση AC για RV ψηφιακούς νομάδες.Μείνετε ψύχραιμοι και παραγωγικοί ενώ εργάζεστε εξ αποστάσεως από το RV σας με τον κατάλληλο έλεγχο κλιματισμού."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Παραμένοντας ψύχραιμοι σε RV Ράλλυ και Φεστιβάλ: Συμβουλές στάθμευσης AC για εκδηλώσεις",
+    "date": "2026-04-29",
+    "category": "Τρόπος ζωής",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "imageAlt": "Παραμένοντας ψύχραιμοι σε RV Ράλλυ και Φεστιβάλ: Συμβουλές στάθμευσης AC για εκδηλώσεις",
+    "excerpt": "Master RV ράλι με πάρκινγκ AC!Λάβετε συμβουλές από ειδικούς σχετικά με τη συμπληρωματική ψύξη, το μέγεθος της μπαταρίας και την εγκατάσταση για μια άνετη εμπειρία εκδήλωσης."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Van Dweller's Guide to Parking AC: Full-time Living in Your Vehicle",
+    "date": "2026-04-29",
+    "category": "Van Life",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "imageAlt": "Van Dweller's Guide to Parking AC: Full-time Living in Your Vehicle",
+    "excerpt": "Βασικός οδηγός για την επιλογή και την εγκατάσταση AC στάθμευσης για τους κατοίκους βαν.Μείνετε ψύχραιμοι και άνετοι στο τροχόσπιτο σας με συμβουλές από ειδικούς."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Ψυκτικό R32 σε AC στάθμευσης επόμενης γενιάς: χαμηλότερο GWP και καλύτερη απόδοση",
+    "date": "2026-04-29",
+    "category": "Τεχνολογία",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "imageAlt": "Ψυκτικό R32 σε AC στάθμευσης επόμενης γενιάς: χαμηλότερο GWP και καλύτερη απόδοση",
+    "excerpt": "Ανακαλύψτε γιατί το ψυκτικό R32 γίνεται η προτιμώμενη επιλογή για AC στάθμευσης επόμενης γενιάς, προσφέροντας χαμηλότερο GWP και βελτιωμένη απόδοση για επαγγελματικά οχήματα."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: Side-by-Side Comparison (2026)",
+    "date": "2026-04-25",
+    "category": "Σύγκριση",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Μονάδες AC στάθμευσης Dometic και Webasto δίπλα-δίπλα για σύγκριση",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 head-to-head: έξοδος ψύξης, θόρυβος, τροφοδοσία, πολυπλοκότητα εγκατάστασης, εγγύηση και κόστος ιδιοκτησίας 5 ετών.Πραγματικοί αριθμοί από το πεδίο."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Συστήματα AC για φορτηγά χωρίς ρελαντί: Πώς να συμμορφωθείτε με τους νόμους κατά του ρελαντί της πολιτείας (2026)",
+    "date": "2026-04-25",
+    "category": "Συμμόρφωση",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "Εγκατεστημένο σύστημα AC φορτηγού χωρίς ρελαντί με μπαταρία-ηλεκτρικό για συμμόρφωση κατά του ρελαντί",
+    "excerpt": "[2026] Νόμοι κατά του ρελαντί κατά κράτος και πώς να συμμορφώνεστε με το AC για φορτηγά χωρίς ρελαντί.CARB (300$–1.000$ πρόστιμα), 30+ κρατικά όρια, EPA SmartWay και τα 5 συστήματα που πληρούν τις απαιτήσεις του 2026."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Στάθμευση AC BTU Υπολογιστής μεγέθους: Πόσα BTUs Χρειάζεστε πραγματικά;(2026)",
+    "date": "2026-04-25",
+    "category": "Οδηγός αγοράς",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU διάγραμμα μεγεθών για στάθμευση AC στην καμπίνα φορτηγού και διαμορφώσεις RV",
+    "excerpt": "[2026] Πόσες BTUs χρειάζεται η καμπίνα ύπνου ή η RV κρεβατοκάμαρά σας;Βήμα προς βήμα τύπος συν πίνακες για φορτηγά κατηγορίας 8 (5.000–10.000 BTU), φορτηγά Sprinter (6.000–8.000 BTU) και 25-ft RVs (12_7_000-M)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Κόστος εγκατάστασης AC Parking 2026: Τιμές καταστημάτων ανά κράτος και εξοικονόμηση DIY",
+    "date": "2026-04-25",
+    "category": "Οδηγός αγοράς",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "Επαγγελματική εγκατάσταση εναλλασσόμενου ρεύματος στάθμευσης που δείχνει την αποκοπή οροφής, την καλωδίωση και την ενσωμάτωση της μπαταρίας",
+    "excerpt": "[2026] Κόστος εγκατάστασης AC στάθμευσης ανά πολιτεία: $400–$1.200 επαγγελματικά, $0–$150 DIY.Πραγματικές τιμές καταστημάτων από CA, TX, FL, NY, συν την πλήρη ανάλυση του κόστους μονάδας, μπαταρίας, καλωδίωσης και εργ..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Σύγκριση θορύβου AC στάθμευσης: Επίπεδα πραγματικών dB δοκιμασμένα στα 3 πόδια (2026)",
+    "date": "2026-04-25",
+    "category": "Σύγκριση",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "Μετρητής ντεσιμπέλ που μετρά τον θόρυβο AC στάθμευσης στα 3 πόδια μέσα σε μια καμπίνα κρεβατιού",
+    "excerpt": "[2026] Μετρήσαμε 12 μονάδες εναλλασσόμενου ρεύματος στάθμευσης με ένα βαθμονομημένο μετρητή dB στα 3 πόδια.CoolDrivePro V-TH1 χτύπησε 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Πραγματικά νούμερα, χωρίς μάρκετινγκ."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Κατανάλωση εναλλασσόμενου ρεύματος φορτηγού: Watt, amp, και εξάτμιση μπαταρίας (2026)",
+    "date": "2026-04-25",
+    "category": "Τροφοδοσία & Μπαταρία",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Στάθμευση φορτηγών Παρακολούθηση κατανάλωσης ρεύματος AC με διακλάδωση και παρακολούθηση μπαταρίας",
+    "excerpt": "[2026] Εξήγηση κατανάλωσης ρεύματος AC φορτηγού: 480 W κατά μέσο όρο, 9A σε 24V, 38–55 Ah ανά νύχτα.Οι πραγματικοί αριθμοί, οι τύποι για το μέγεθος της μπαταρίας σας και ο τρόπος με τον οποίο κόβονται οι συμπιεστές in..."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Battery Powered RV Air Conditioner: Πλήρης οδηγός αγοραστή 2026",
+    "date": "2026-04-24",
+    "category": "Οδηγοί αγοράς",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "Κλιματιστικό RV με μπαταρίες 2026 — Εσωτερικό βαν camper κατηγορίας Β τη νύχτα με στέγη 12V DC parking AC σε λειτουργία LiFePO4 τράπεζα μπαταρίας, οθόνη που δείχνει χωρητικότητα 220 Ah και χρόνο λειτουργίας 9.5 ώρες που απομένουν.",
+    "excerpt": "Πλήρης οδηγός 2026 για κλιματιστικά RV με μπαταρία.Εγγενές 12V/24V DC έναντι ρυθμίσεων μετατροπέα, πραγματικά δεδομένα χρόνου εκτέλεσης LiFePO4 (220Ah → 8–11 ώρες), εύρη τιμών 1.500-3.800 $, ηλιακή μετατόπιση."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Πώς να εγκαταστήσετε ένα AC Parking: Οδηγός βήμα προς βήμα για το 2026",
+    "date": "2026-04-24",
+    "category": "Οδηγοί εγκατάστασης",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Πώς να εγκαταστήσετε ένα parking AC 2026 — εγκαταστάτης που κόβει ένα άνοιγμα οροφής 14 x 14 ιντσών σε ένα φορτηγό Sprinter χρησιμοποιώντας μια σέγα, με το CoolDrivePro VS02 PRO 12V DC, τη μονάδα βουτυλίου στο πλάι του φορτηγού και το παρέμβυσμα με δυνατότητα εργασίας",
+    "excerpt": "Οδηγός βήμα προς βήμα 2026 για την εγκατάσταση AC στάθμευσης: προετοιμασία οροφής, διακοπή 14x14, φλάντζα, καλωδίωση (4 AWG, ασφάλεια 80A), θέση σε λειτουργία.6–9 ώρες DIY, 325 $ σε μέρη πέρα ​​από τη μονάδα."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Battery for Parking AC: 2026 Sizing & Wiring Guide",
+    "date": "2026-04-24",
+    "category": "Οδηγοί Πώς να",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "LiFePO4 μπαταρία για στάθμευση AC 2026 — ανοιχτή θήκη μπαταριών ενός φορτηγού Sprinter που εμφανίζει δύο μπαταρίες 220Ah Battle Born LiFePO4 παράλληλα με καλώδια AWG 2/0, ασφάλεια κατηγορίας T 200A, ράβδο διαύλου και οθόνη ανάγνωσης SV 712%13,4V",
+    "excerpt": "Οδηγός μεγέθους LiFePO4 2026 για AC στάθμευσης: 220 Ah (1.400 $), 280 Ah (1.750 $), 400 Ah (2.400 $) με μαθηματικά χρόνου εκτέλεσης 8 ωρών, προδιαγραφές BMS/ασφάλειας/καλωδίου."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Στάθμευση AC Δεν ψύχεται;Οδηγός αντιμετώπισης προβλημάτων 2026 (Βήμα προς βήμα)",
+    "date": "2026-04-24",
+    "category": "Αντιμετώπιση προβλημάτων",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "Αντιμετώπιση προβλημάτων AC στάθμευσης χωρίς ψύξη 2026 — οδηγός μέσα σε θέση κρεβατοκάμαρας ημιφορτηγού με πολύμετρο που ανιχνεύει το 12V DC υποδοχή τροφοδοσίας εναλλασσόμενου ρεύματος στάθμευσης στα 11,4 V, ένδειξη θερμόμετρου 78°F παροχής αέρα έναντι 79°F επιστροφής, εμφάνιση θερμού σημείου υπερύθρου",
+    "excerpt": "2026 βήμα προς βήμα οδηγός για τη διόρθωση ενός κλιματιστικού χώρου στάθμευσης που δεν θα κρυώσει.Πτώση τάσης, ψυκτικό, βρώμικο συμπυκνωτή, θερμοστάτη, BMS — διάγνωση σε 30 λεπτά, διορθώσεις 0–280 $."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC έναντι APU: Σύγκριση κόστους και απόδοσης 2026 για στόλους",
+    "date": "2026-04-24",
+    "category": "Κριτικές & Συγκρίσεις",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "Parking AC έναντι APU 2026 — παράπλευρη σύγκριση ενός Freightliner Cascadia με μπαταρία DC parking AC έναντι ενός φορτηγού-κρεβάτι με RigMaster APU τοποθετημένο στην οθόνη αντλίας 50$4 καυσίμου.επικάλυψη",
+    "excerpt": "Οδηγός απόφασης στόλου 2026: στάθμευση AC έναντι APU.TCO 5 ετών με ντίζελ 4,05 $ — DC AC στάθμευσης εξοικονομεί 9.800–14.200 $/φορτηγό έναντι ντίζελ APU, 3.200 $–5.400 $ έναντι ρελαντί."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V έναντι 24V Parking AC το 2026: Truck, RV & Van Decision Guide",
+    "date": "2026-04-23",
+    "category": "Οδηγός αγοραστή",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "imageAlt": "12V έναντι 24V Σύγκριση εναλλασσόμενου ρεύματος στάθμευσης — κλιματιστικά στον τελευταίο όροφο στάθμευσης δίπλα-δίπλα με καλώδιο για 12V και 24V ηλεκτρικά συστήματα σε φορτηγό και RV",
+    "excerpt": "12V έναντι 24V AC στάθμευσης το 2026: αντιστοιχίστε την εγγενή τάση του οχήματός σας.Πλήρης ανάλυση του μετρητή καλωδίου, του κόστους της μπαταρίας, της απόδοσης, του χρόνου εκτέλεσης και του πότε έχει νόημα ένας μετα..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Καλύτερο κλιματιστικό στάθμευσης 2026: 9 κορυφαίες επιλογές σε σύγκριση (Φορτηγά, RVs και φορτηγά)",
+    "date": "2026-04-23",
+    "category": "Οδηγός αγοραστή",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "Καλύτερο κλιματιστικό πάρκινγκ 2026 — σειρά μονάδων AC στάθμευσης οροφής και split-system DC τοποθετημένες σε ημι-φορτηγό, RV και βαν σπρίντερ κάτω από καθαρό ουρανό",
+    "excerpt": "9 καλύτερα κλιματιστικά στάθμευσης που δοκιμάστηκαν για το 2026: δίπλα-δίπλα BTU, θόρυβος, ισοπαλία, τιμή και πραγματικές επιδόσεις για ημιφορτηγά, RVs, φορτηγά σπρίντερ και στόλους.Ο νικητής επιλέγει ανά περίπτωση χρ..."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Οδηγός αγοράς κλιματιστικών στάθμευσης 2026: Πώς να επιλέξετε τη σωστή μονάδα (χωρίς να σπαταλάτε 1.500 $)",
+    "date": "2026-04-23",
+    "category": "Οδηγός αγοραστή",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "imageAlt": "Οδηγός αγοράς κλιματιστικού στάθμευσης 2026 — στον τελευταίο όροφο και mini-split DC μονάδες AC στάθμευσης τοποθετημένες σε φορτηγό, RV και φορτηγό για σύγκριση δίπλα-δίπλα",
+    "excerpt": "Οδηγός αγοράς AC στάθμευσης 2026: πλαίσιο απόφασης 7 βημάτων, πίνακας μεγεθών BTU, όρια προδιαγραφών, προϋπολογισμοί κόστους ανά βαθμίδα και τα 5 λάθη που μετατρέπουν ένα AC 1.500 $ σε παλιοσίδερα.Διαβάστε πριν αγοράσ..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Υπολογιστής εξοικονόμησης καυσίμου στάθμευσης AC 2026: Κόστος αδράνειας έναντι DC Στάθμευση AC έναντι APU",
+    "date": "2026-04-23",
+    "category": "Εργαλεία & Αριθμομηχανές",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "imageAlt": "Υπολογιστής εξοικονόμησης καυσίμου Parking AC 2026 — ταμπλό ημιφορτηγού που δείχνει τις ώρες αδράνειας, την κατανάλωση καυσίμου και τη σύγκριση ετήσιας εξοικονόμησης μεταξύ ρελαντί, ντίζελ APU και DC κλιματιστικού στάθμευσης",
+    "excerpt": "Υπολογίστε την ακριβή εξοικονόμηση καυσίμου από DC στάθμευση AC έναντι ρελαντί έναντι ντίζελ APU.Τιμές καυσίμων 2026, πραγματικοί κύκλοι λειτουργίας, απόδοση επένδυσης (ROI) διάρκειας ζωής.Δουλευμένα παραδείγματα για..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Κλιματισμός στάθμευσης για την υγρασία των ακτών της Αλεξάνδρειας: Καταπολέμηση των μεσογειακών κλιματικών προκλήσεων της Αιγύπτου",
     "date": "2026-03-31",
@@ -113,6 +369,7 @@
     "date": "2026-01-10",
     "category": "Τεχνολογία",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp",
+    "imageAlt": "Ενσωμάτωση έξυπνου σπιτιού AC Parking: Ελέγξτε το AC του οχήματός σας από οπουδήποτε",
     "excerpt": "Ανακαλύψτε πώς η ενσωμάτωση έξυπνου σπιτιού AC σάς επιτρέπει να ελέγχετε το κλίμα του οχήματός σας από οπουδήποτε, ενισχύοντας την άνεση και την αποτελεσματικότητα για RVs και φορτηγά."
   },
   {
@@ -130,6 +387,7 @@
     "date": "2025-12-29",
     "category": "Ασφάλεια οδηγού",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
+    "imageAlt": "Πώς να μειώσετε τη θερμική καταπόνηση του οδηγού με ηλεκτρικά συστήματα AC στάθμευσης",
     "excerpt": "Μάθετε πώς τα ηλεκτρικά συστήματα AC στάθμευσης προστατεύουν τους οδηγούς από το θερμικό στρες σε αφρικανικά κλίματα.Βελτιώστε την ασφάλεια, τη συγκράτηση και την παραγωγικότητα με αποτελεσματική ψύξη καμπίνας."
   },
   {
@@ -138,6 +396,7 @@
     "date": "2025-12-28",
     "category": "Οδηγοί εγκατάστασης",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
+    "imageAlt": "Συνήθη λάθη εγκατάστασης κλιματιστικών φορτηγών στην Αφρική",
     "excerpt": "Αποφύγετε δαπανηρές βλάβες μαθαίνοντας τα πιο συνηθισμένα λάθη εγκατάστασης AC φορτηγού στην Αφρική.Οδηγίες ειδικών σχετικά με τις σωστές διαδικασίες τοποθέτησης, καλωδίωσης και στεγανοποίησης."
   },
   {
@@ -146,6 +405,7 @@
     "date": "2025-12-27",
     "category": "Τεχνικοί Οδηγοί",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
+    "imageAlt": "Πώς η σκόνη, οι κραδασμοί του δρόμου και η θερμότητα επηρεάζουν την απόδοση του AC στο χώρο στάθμευσης",
     "excerpt": "Κατανοήστε πώς οι αφρικανικές περιβαλλοντικές προκλήσεις επηρεάζουν την απόδοση AC στάθμευσης φορτηγών και μάθετε στρατηγικές συντήρησης για να εξασφαλίσετε αξιόπιστη ψύξη σε δύσκολες συνθήκες."
   },
   {
@@ -154,6 +414,7 @@
     "date": "2025-12-26",
     "category": "Τεχνικοί Οδηγοί",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
+    "imageAlt": "Προστασία χαμηλής τάσης: Τι πρέπει να γνωρίζουν οι αγοραστές του αφρικανικού στόλου",
     "excerpt": "Βασικός οδηγός για προστασία χαμηλής τάσης σε συστήματα AC στάθμευσης φορτηγών.Μάθετε πώς λειτουργεί η προστασία της μπαταρίας και γιατί είναι σημαντική για τις λειτουργίες του αφρικανικού στόλου."
   },
   {
@@ -162,6 +423,7 @@
     "date": "2025-12-25",
     "category": "Αντιμετώπιση προβλημάτων",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
+    "imageAlt": "Γιατί η ψύξη AC του φορτηγού σας γίνεται αδύναμη σε υπερβολική ζέστη (και πώς να το διορθώσετε)",
     "excerpt": "Ανακαλύψτε γιατί τα κλιματιστικά φορτηγών χάνουν την ισχύ ψύξης σε υπερβολική ζέστη και μάθετε δοκιμασμένες λύσεις για την αποκατάσταση της απόδοσης σε συνθήκες αφρικανικής ερήμου."
   },
   {
@@ -170,6 +432,7 @@
     "date": "2025-12-24",
     "category": "Οδηγοί εγκατάστασης",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
+    "imageAlt": "Επαγγελματικός Οδηγός εγκατάστασης για AC Parking φορτηγών στην Αφρική",
     "excerpt": "Βήμα-βήμα επαγγελματικός οδηγός εγκατάστασης κλιματιστικών χώρων στάθμευσης φορτηγών σε συνθήκες Αφρικής.Μάθετε τις διαδικασίες τοποθέτησης, καλωδίωσης και θέσης σε λειτουργία για αξιόπιστη απόδοση."
   },
   {
@@ -187,6 +450,7 @@
     "date": "2025-12-19",
     "category": "Fleet Solutions",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp",
+    "imageAlt": "Χονδρική πώληση κλιματιστικών φορτηγών για τον στόλο μεταφορών της Τυνησίας",
     "excerpt": "Χονδρική πώληση κλιματιστικών φορτηγών για τον στόλο μεταφορών της Τυνησίας.Λύσεις μαζικής τιμολόγησης και στόλου για εταιρείες logistics της Βόρειας Αφρικής που αναζητούν αξιόπιστη τεχνολογία ψύξης."
   },
   {
@@ -213,6 +477,7 @@
     "date": "2025-12-16",
     "category": "Περιφερειακοί Οδηγοί",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp",
+    "imageAlt": "Κλιματιστικά φορτηγών για τις μεταφορές σε μεγάλο υψόμετρο της Αιθιοπίας",
     "excerpt": "Εξειδικευμένα κλιματιστικά φορτηγών για τις μεταφορές σε μεγάλο υψόμετρο της Αιθιοπίας.Σχεδιασμένο για τις μοναδικές προκλήσεις των ανυψωμένων διαδρόμων εφοδιαστικής στο Κέρας της Αφρικής."
   },
   {
@@ -230,6 +495,7 @@
     "date": "2025-12-14",
     "category": "Περιφερειακοί Οδηγοί",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp",
+    "imageAlt": "Κλιματιστικά ηλεκτρικών φορτηγών για τον αυξανόμενο στόλο μεταφορών της Ουγκάντα",
     "excerpt": "Ηλεκτρικά κλιματιστικά φορτηγών για τον επεκτεινόμενο στόλο μεταφορών της Ουγκάντα.Αποτελεσματικές λύσεις ψύξης για τον αναδυόμενο κόμβο εφοδιαστικής και τις διασυνοριακές επιχειρήσεις της Ανατολικής Αφρικής."
   },
   {
@@ -238,6 +504,7 @@
     "date": "2025-12-13",
     "category": "Ειδικές Εφαρμογές",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp",
+    "imageAlt": "Χώρος στάθμευσης κλιματιστικών για τουριστικά οχήματα Safari της Τανζανίας",
     "excerpt": "Ανακαλύψτε λύσεις κλιματιστικών στάθμευσης για οχήματα τουρισμού σαφάρι της Τανζανίας.Διατηρήστε τους επισκέπτες άνετα, διατηρώντας παράλληλα τις εμπειρίες άγριας ζωής στον κορυφαίο προορισμό σαφάρι της Ανατολικής Αφρ..."
   },
   {
@@ -327,6 +594,7 @@
     "date": "2025-12-06",
     "category": "Εφαρμογές Τουρισμού",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp",
+    "imageAlt": "Χώρος στάθμευσης Κλιματιστικά για Τουρισμό Σαφάρι Τανζανίας: Σερενγκέτι στη Ζανζιβάρη Comfort",
     "excerpt": "Αναβαθμίστε τον τουρισμό σαφάρι της Τανζανίας με συστήματα AC στάθμευσης.Απαραίτητη ψύξη για οχήματα περιήγησης άγριας ζωής που λειτουργούν στο Serengeti, Ngorongoro και στις παράκτιες διαδρομές προς τη Ζανζιβάρη."
   },
   {
@@ -344,6 +612,7 @@
     "date": "2025-12-05",
     "category": "Επιχειρηματική Ευκαιρία",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
+    "imageAlt": "Γίνετε διανομέας κλιματιστικών φορτηγών στην Αφρική",
     "excerpt": "Συνεργαστείτε μαζί μας για να γίνετε διανομέας κλιματιστικών φορτηγών στην Αφρική.Αποκλειστικές περιοχές, υποστήριξη μάρκετινγκ και τεχνική εκπαίδευση για περιφερειακούς εταίρους."
   },
   {
@@ -352,6 +621,7 @@
     "date": "2025-12-05",
     "category": "Υπηρεσίες Υποστήριξης",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
+    "imageAlt": "Ανταλλακτικά και υποστήριξη μετά την πώληση για Truck AC στην Αφρική",
     "excerpt": "Ολοκληρωμένη υποστήριξη ανταλλακτικών και μετά την πώληση για κλιματιστικά φορτηγών στην Αφρική.Διατίθενται φίλτρα, συμπιεστές, ψυκτικό μέσο και τεχνική βοήθεια."
   },
   {
@@ -414,6 +684,7 @@
     "date": "2025-12-03",
     "category": "Περιφερειακοί Οδηγοί",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp",
+    "imageAlt": "Ψύξη διασυνοριακών μεταφορών για τους φορείς εκμετάλλευσης στόλου της Ζιμπάμπουε",
     "excerpt": "Χώρος στάθμευσης κλιματιστικών για τους στόλους διασυνοριακών μεταφορών της Ζιμπάμπουε.Βελτιστοποιήστε την άνεση του οδηγού για διαδρομές που συνδέουν το Harare, το Bulawayo και τις περιφερειακές αγορές."
   },
   {
@@ -449,6 +720,7 @@
     "date": "2025-12-02",
     "category": "Περιφερειακοί Οδηγοί",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp",
+    "imageAlt": "Λύσεις κλιματιστικών στάθμευσης για τον στόλο Logistics της Κένυας: Διάδρομος Ναϊρόμπι προς Μομπάσα",
     "excerpt": "Λύσεις στόλου για εταιρείες logistics της Κένυας.Ανακαλύψτε πώς τα συστήματα AC στάθμευσης βελτιώνουν την ευημερία του οδηγού στον πολυσύχναστο μεταφορικό διάδρομο Nairobi-Mombasa και όχι μόνο."
   },
   {
@@ -511,6 +783,7 @@
     "date": "2025-11-20",
     "category": "Τρόπος ζωής",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp",
+    "imageAlt": "Κλιματισμός στάθμευσης για μεμονωμένους ταξιδιώτες RV: Ασφάλεια, άνεση και ανεξαρτησία",
     "excerpt": "Μεμονωμένοι ταξιδιώτες RV, βελτιώστε την ασφάλεια, την άνεση και την ανεξαρτησία σας με αξιόπιστο κλιματισμό στάθμευσης.Απαραίτητο για boondocking και ηρεμία."
   },
   {
@@ -744,6 +1017,7 @@
     "date": "2025-10-26",
     "category": "Οδηγός",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp",
+    "imageAlt": "Χρήση της αντλίας θερμότητας του AC του πάρκινγκ σας για το χειμώνα RV Κάμπινγκ",
     "excerpt": "Ανακαλύψτε πώς η αντλία θερμότητας του AC του πάρκινγκ σας μπορεί να μεταμορφώσει το χειμερινό κάμπινγκ RV.Μάθετε για την αποδοτικότητα, τις ανάγκες μπαταρίας και τη ζεστασιά στο κρύο."
   },
   {
@@ -779,6 +1053,7 @@
     "date": "2025-10-15",
     "category": "Τεχνολογία",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp",
+    "imageAlt": "Αξιολογήσεις ενεργειακής απόδοσης για AC Parking: Κατανόηση EER, COP & SEER",
     "excerpt": "Απομυθοποιώντας τις αξιολογήσεις ενεργειακής απόδοσης εναλλασσόμενου ρεύματος στάθμευσης: EER, COP και SEER.Μάθετε τι σημαίνουν αυτοί οι αριθμοί για το πορτοφόλι σας και την άνεσή σας στο δρόμο."
   },
   {
@@ -818,42 +1093,6 @@
     "excerpt": "Εξασφαλίστε την ασφάλεια των ζώων και του εξοπλισμού σε κινητές κτηνιατρικές κλινικές με αξιόπιστες λύσεις κλιματισμού στάθμευσης.Κρίσιμο για τη φαρμακευτική αγωγή και την ευημερία."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Κλιματισμός για κινητά στούντιο γιόγκα και βαν ευεξίας",
-    "date": "2025-10-15",
-    "category": "Ειδικότητα",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "imageAlt": "Κλιματισμός για κινητά στούντιο γιόγκα και βαν ευεξίας",
-    "excerpt": "Ανακαλύψτε βασικές λύσεις κλιματισμού για κινητά στούντιο γιόγκα και βαν ευεξίας.Εξασφαλίστε βέλτιστο έλεγχο θερμοκρασίας (68-72°F) με αξιόπιστο AC στάθμευσης."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Κλιματισμός στάθμευσης για Digital Nomads Living in RVs: Work-From-Anywhere Comfort",
-    "date": "2025-10-15",
-    "category": "Τρόπος ζωής",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "imageAlt": "Κλιματισμός στάθμευσης για Digital Nomads Living in RVs: Work-From-Anywhere Comfort",
-    "excerpt": "Βασικός οδηγός για τη στάθμευση AC για RV ψηφιακούς νομάδες.Μείνετε ψύχραιμοι και παραγωγικοί ενώ εργάζεστε εξ αποστάσεως από το RV σας με τον κατάλληλο έλεγχο κλιματισμού."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Παραμένοντας ψύχραιμοι σε RV Ράλλυ και Φεστιβάλ: Συμβουλές στάθμευσης AC για εκδηλώσεις",
-    "date": "2025-10-15",
-    "category": "Τρόπος ζωής",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "imageAlt": "Παραμένοντας ψύχραιμοι σε RV Ράλλυ και Φεστιβάλ: Συμβουλές στάθμευσης AC για εκδηλώσεις",
-    "excerpt": "Master RV ράλι με πάρκινγκ AC!Λάβετε συμβουλές από ειδικούς σχετικά με τη συμπληρωματική ψύξη, το μέγεθος της μπαταρίας και την εγκατάσταση για μια άνετη εμπειρία εκδήλωσης."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Van Dweller's Guide to Parking AC: Full-time Living in Your Vehicle",
-    "date": "2025-10-15",
-    "category": "Van Life",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "imageAlt": "Van Dweller's Guide to Parking AC: Full-time Living in Your Vehicle",
-    "excerpt": "Βασικός οδηγός για την επιλογή και την εγκατάσταση AC στάθμευσης για τους κατοίκους βαν.Μείνετε ψύχραιμοι και άνετοι στο τροχόσπιτο σας με συμβουλές από ειδικούς."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Κόστος εγκατάστασης κλιματιστικού στάθμευσης: Πλήρης ανάλυση τιμής 2025",
     "date": "2025-10-15",
@@ -861,15 +1100,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "imageAlt": "Κόστος εγκατάστασης κλιματιστικού στάθμευσης: Πλήρης ανάλυση τιμής 2025",
     "excerpt": "Αναλύστε το πλήρες κόστος εγκατάστασης του κλιματιστικού στάθμευσης για το 2025. Λάβετε πληροφορίες σχετικά με παράγοντες που επηρεάζουν την τιμή, από τον τύπο της μονάδας έως τις ηλεκτρικές αναβαθμίσεις."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Ψυκτικό R32 σε AC στάθμευσης επόμενης γενιάς: χαμηλότερο GWP και καλύτερη απόδοση",
-    "date": "2025-10-15",
-    "category": "Τεχνολογία",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "imageAlt": "Ψυκτικό R32 σε AC στάθμευσης επόμενης γενιάς: χαμηλότερο GWP και καλύτερη απόδοση",
-    "excerpt": "Ανακαλύψτε γιατί το ψυκτικό R32 γίνεται η προτιμώμενη επιλογή για AC στάθμευσης επόμενης γενιάς, προσφέροντας χαμηλότερο GWP και βελτιωμένη απόδοση για επαγγελματικά οχήματα."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -888,15 +1118,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "imageAlt": "Parking AC ως υπηρεσία: Μοντέλα συνδρομής για χειριστές στόλου",
     "excerpt": "Εξερευνήστε πώς τα συνδρομητικά μοντέλα στάθμευσης AC μεταμορφώνουν τις λειτουργίες του στόλου, προσφέροντας εξοικονόμηση κόστους και βελτιωμένη άνεση του οδηγού.Μάθετε για το μέλλον του κλιματισμού ως υπηρεσίας."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V έναντι 24V Εναλλασσόμενο ρεύμα στάθμευσης: Ποια τάση είναι καλύτερη για φορτηγό, RV ή φορτηγό;",
-    "date": "8 Μαρτίου 2025",
-    "category": "Τεχνικός Οδηγός",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "imageAlt": "12V έναντι 24V Εναλλασσόμενο ρεύμα στάθμευσης: Ποια τάση είναι καλύτερη για φορτηγό, RV ή φορτηγό;",
-    "excerpt": "Συγκρίνετε 12V και 24V συστήματα AC στάθμευσης με βάση την προσαρμογή του οχήματος, την τρέχουσα έλξη, την καλωδίωση, τον χρόνο λειτουργίας της μπαταρίας και την πολυπλοκότητα της εγκατάστασης πριν αγοράσετε."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -998,15 +1219,6 @@
     "excerpt": "Πλήρης οδηγός για κλιματισμό εκτός δικτύου RV με χρήση ηλιακής ενέργειας και 12V AC στάθμευσης.Μάθετε το μέγεθος του συστήματος, την επιλογή της μπαταρίας και συμβουλές απόδοσης πραγματικού κόσμου."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Οδηγός αγοράς κλιματιστικών στάθμευσης 2025: Όλα όσα πρέπει να γνωρίζετε πριν αγοράσετε",
-    "date": "20 Νοεμβρίου 2024",
-    "category": "Οδηγός αγοραστή",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "imageAlt": "Οδηγός αγοράς κλιματιστικών στάθμευσης 2025: Όλα όσα πρέπει να γνωρίζετε πριν αγοράσετε",
-    "excerpt": "Πλήρης οδηγός αγοράς κλιματιστικού στάθμευσης 2025.Συγκρίνετε τις βαθμολογίες BTU, 12V έναντι 24V, τοποθετημένο στο επάνω μέρος έναντι mini split και βρείτε το καλύτερο AC στάθμευσης για το φορτηγό σας ή RV."
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "Πώς ένα κλιματιστικό στάθμευσης μειώνει το αποτύπωμα άνθρακα έναντι του κινητήρα στο ρελαντί",
     "date": "10 Δεκεμβρίου 2024",
@@ -1095,15 +1307,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "imageAlt": "Κλιματισμός στάθμευσης για μετατροπές σχολικών λεωφορείων (Skoolies): Βέλτιστες επιλογές και οδηγός εγκατάστασης",
     "excerpt": "Μείνετε ψύχραιμοι στο skoolie σας!Ο οδηγός μας καλύπτει το καλύτερο AC στάθμευσης για μετατροπές σχολικών λεωφορείων, συμπεριλαμβανομένων των επιλογών στον τελευταίο όροφο, mini split και 12V.Μάθετε σχετικά με την εγκ..."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Πόσο καύσιμο εξοικονομεί ένα κλιματιστικό στάθμευσης;Υπολογιστής πραγματικών αριθμών και απόδοσης επένδυσης",
-    "date": "15 Φεβρουαρίου 2025",
-    "category": "Οδηγός",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "imageAlt": "Πόσο καύσιμο εξοικονομεί ένα κλιματιστικό στάθμευσης;Υπολογιστής πραγματικών αριθμών και απόδοσης επένδυσης",
-    "excerpt": "Ανακαλύψτε πόσα καύσιμα μπορεί να σας εξοικονομήσει ένα κλιματιστικό στάθμευσης.Ο οδηγός μας παρέχει πραγματικούς αριθμούς, έναν υπολογιστή απόδοσης επένδυσης (ROI) και συμβουλές για φορτηγά, RVs και φορτηγά."
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1239,10 +1442,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "imageAlt": "Οδηγός καλωδίωσης κλιματιστικού στάθμευσης: Ασφαλής 12V/24V Ηλεκτρική εγκατάσταση - Οδηγός κλιματιστικού στάθμευσης",
     "excerpt": "Πλήρης οδηγός για ασφαλή 12V/24V στάθμευση Καλωδίωση AC και ηλεκτρική εγκατάσταση σε φορτηγά, RVs και φορτηγά.Μάθετε σχετικά με τα εξαρτήματα, την πτώση τάσης, τη διαχείριση της μπαταρίας και την αντιμετώπιση προβλημά..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

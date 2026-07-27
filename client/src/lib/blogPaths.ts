@@ -30,6 +30,9 @@ const LOCALIZABLE_STATIC_ROUTE_PREFIXES = [
   "/return-policy",
   "/shipping-policy",
   "/privacy-policy",
+  "/terms-of-service",
+  "/payment-method",
+  "/billing-terms",
 ];
 
 const NON_LOCALIZABLE_ROUTE_PREFIXES = [

@@ -1,0 +1,551 @@
+{
+  "title": "Bundesstaatliche Anti-Leerlauf-Gesetze 2026: 50-Staaten-Suche + Park-AC-ROI-Rechner",
+  "date": "2026-06-08",
+  "category": "Vorschriften und Compliance",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "US-Karte mit bundesstaatlichen Anti-Leerlauf-Gesetzen 2026 mit Überlagerung der Park-AC-Konformität",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Alle 50 Anti-Leerlauf-Gesetze der US-Bundesstaaten für 2026 in einer Tabelle – Feinbereiche, 5- oder 15-Minuten-Grenzwerte, Sleeper-/DEF-Ausnahmen und ein berechneter ROI, der zeigt, wie sich eine batteriebetriebene Klimaanlage in 9–14 Monaten amortisiert, im Vergleich zu Leerlaufstrafen plus Kraftstoffkosten.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Wenn Sie im Jahr 2026 Klasse 8 fahren, können Sie den Flickenteppich der **bundesstaatlichen Anti-Leerlauf-Gesetze 2026** nicht länger ignorieren.41 US-Bundesstaaten und die meisten großen Metropolen begrenzen inzwischen die Motorstillstandszeiten auf geparkten Parkplätzen, die Bußgelder liegen zwischen 50 und über 25.000 US-Dollar pro Verstoß, und die Durchsetzung an Raststätten, Wiegestationen und Rastplätzen hat seit der Aktualisierung des EPA SmartWay-Programms im Jahr 2024 deutlich zugenommen."
+    },
+    {
+      "heading": null,
+      "body": "Diese Seite ist die Arbeitsreferenz, die wir an Fuhrparkmanager und Eigentümer-Betreiber senden, die drei Fragen stellen: *Was sagt mein Bundesstaat eigentlich im Jahr 2026, zählt meine Park-Klimaanlage als Konformität und wie hoch sind die tatsächlichen jährlichen Kosten, wenn ich nicht konform bleibe, verglichen mit der Ausgabe von 2.800 US-Dollar für eine Batterie-Park-Klimaanlage*.Nachfolgend beantworten wir alle drei Fragen – mit einer Nachschlagetabelle für 50 Bundesstaaten, einer numerischen ROI-Aufschlüsselung und einer ehrlichen Spalte, die zeigt, wo Batteriepark-AC passt und wo nicht."
+    },
+    {
+      "heading": null,
+      "body": "Schnelle Navigation: Springen Sie zur [50-Staaten-Tabelle](#the-50-state-lookup-table), zum [ROI-Rechner](#roi-calculator-idle-cost-vs-parking-ac) oder zum [Compliance-Ranking](#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR – Die zehn strengsten Bundesstaaten und ihre Strafen im Jahr 2026"
+    },
+    {
+      "heading": null,
+      "body": "Wenn Sie nur einen Absatz lesen: In Kalifornien, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah und Colorado gelten im Jahr 2026 die strengsten Durchsetzungsmaßnahmen.Die Leerlaufgrenzen in dieser Gruppe liegen bei **5 Minuten** (CA, NJ, MA, CT, MD) oder **3 Minuten** (Geschäftsviertel von NYC, NJ), wenn die Umgebungstemperatur zwischen etwa 25 °F und 75 °F liegt.Die lockereren 10-Minuten- und 15-Minuten-Grenzwerte in Nevada, West Virginia und Teilen von Illinois gelten immer noch für Nutzfahrzeuge – die Aufteilung zwischen 5 und 15 Minuten ist die am meisten verwirrende Tatsache beim Flotten-Onboarding.Außerhalb dieses Bereichs treten in der Regel Ausnahmen für Schlafplätze in Kraft – allerdings nur, wenn der Betreiber die Ausnahme nachweisen kann, wo es tatsächlich zu den meisten Verstößen kommt."
+    },
+    {
+      "heading": null,
+      "body": "Die Feinstruktur im Jahr 2026 hat sich am meisten verändert.Die alte „100-Dollar-Ticket und weiterziehen“-Ära ist für Wiederholungstäter vorbei.**California ATCM** unter [CARB-Heavy-Duty-Leerlaufregel](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) stapelt Strafen: 300 US-Dollar beim ersten Verstoß, 1.000 US-Dollar beim zweiten Verstoß innerhalb von 36 Monaten, bis zu 25.000 US-Dollar für flottenweite Muster.**New Jersey** verdoppelt die Geldstrafen für den zweiten Verstoß innerhalb von 12 Monaten.**NYC Local Law 5** erlaubt von Bürgern gemeldete Tickets für 350–2.000 US-Dollar."
+    },
+    {
+      "heading": null,
+      "body": "Die vier Ausnahmen, die überall auftauchen: (1) **Schlafkojen** ruhen bei Umgebungstemperaturen unter 25 °F oder über 75 °F (am häufigsten), (2) **DEF-Gefrierschutz**, wenn die Umgebungstemperatur unter ~30 °F fällt, (3) **Verkehrsstopp** im Leerlauf, (4) **EPA SmartWay-verifiziert** APU oder Batteriepark-AC-Nutzung – das ist die Lücke, die der Rest dieser Seite schließtherum."
+    },
+    {
+      "heading": null,
+      "body": "## Wie es in den USA zu Anti-Leerlauf-Gesetzen kam (1-Absatz-Geschichte)"
+    },
+    {
+      "heading": null,
+      "body": "Das rechtliche Rückgrat geht auf die Änderungen des **Clean Air Act 1990** (**CAA 1990**) zurück, die der EPA Autorität über Emissionen aus mobilen Quellen verleihen.Im Jahr 2004 startete die EPA **SmartWay**, ein freiwilliges Verifizierungsprogramm für Technologien zur Leerlaufreduzierung, das de facto zur Referenzliste wurde, die Staaten bei der Ausarbeitung von Ausnahmen zitieren.Kalifornien **CARB** kam 2008 mit der **Airborne Toxic Control Measure (ATCM)** für im Einsatz befindliche dieselbetriebene Nutzfahrzeuge am weitesten – eine landesweite 5-Minuten-Grenze mit Durchsetzungsmaßnahmen.Die bundesstaatliche **FMCSA Hours-of-Service (HOS)**-Regelung für Schlafplätze, die im Jahr 2020 modernisiert und im Jahr 2024 aktualisiert wurde, verlangt von den Fahrern, dass sie sich in einem Schlafplatz ausruhen, der in der Praxis temperaturgeregelt sein muss, um bewohnbar zu sein – und genau das ist der Konflikt, den Anti-Leerlauf-Gesetze schaffen und Park-AC löst."
+    },
+    {
+      "heading": null,
+      "body": "## Die 50-State-Lookup-Tabelle {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Aktualisiert für die **Durchsetzung im Jahr 2026** basierend auf der [EPA Compilation of State Idling Regulations] (https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) und den bis zum 1. Quartal 2026 herausgegebenen bundesstaatlichen DOT-Bulletins. „Batteriepark-AC-Konformität“ bedeutet, dass ein von SmartWay verifiziertes oder gleichwertiges, nur auf die Batterie beschränktes Kühlsystem die Ausnahme ohne Motorleerlauf erfüllt."
+    },
+    {
+      "heading": null,
+      "body": "|Staat |Leerlaufgrenze |Feines Sortiment |Schwellen befreit |APU ausgenommen |Batterieparkplatz AC-konform |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Keine landesweit |— |— |— |✅ (keine Regel) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 Min. (Maricopa) |300–1.500 $ |Y > 75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kalifornien |5 Min. (CARB ATCM) |300–25.000 $ |Y >75°F oder <25°F |Y (verifiziert) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 Min. (Denver/lokal) |100–500 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 Minuten |250–5.000 $ |Y <20°F oder >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 Minuten |50–500 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida |5 Min. (Miami-Dade) |150–500 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Georgien |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaii |3 Minuten |100–1.000 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 Minuten (Chicago) |50–500 $ |Y <32°F oder >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 Minuten |150–1.500 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 Minuten |500–25.000 $ |Y <40°F oder >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 Minuten |100–25.000 $ |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 Min. (Mpls/St Paul) |25–1.000 $ |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 Min. (Clark/Washoe) |100–500 $ |Y > 75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 Minuten |100–1.000 $ |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 Minuten |250–5.000 $ |Y <25°F oder >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Mexico |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 Min. Staat / 3 Min. NYC |350–2.000 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|North Carolina |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|North Dakota |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 Minuten |190–2.000 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvania |5 min (Diesel-Leerlaufgesetz) |150–1.000 $ |Y <40°F oder >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Rhode Island |5 Minuten |100–500 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|South Carolina |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|South Dakota |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texas |5 Min. (TCEQ-Bezirke) |200–2.000 $ |Y <40°F oder >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 Minuten (Salt Lake) |115–300 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 Minuten |100–1.000 $ |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia |10 Min. Zustand / 3 Min. N. VA |250–25.000 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|West Virginia |15 Minuten |150 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Keine landesweit |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 Min. Sommer / 5 Min. Winter |500–5.000 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Beachten Sie das Strukturmuster: **Jeder Staat mit einer aktiven Regel gewährt einen AC-Compliance-Pfad für Batterieparken**.Dies ist kein Zufall – als CARB und EPA die Modellregeln verfassten, enthielten sie ausdrücklich „alternative Technologie, die Kabinenkomfort ohne Hauptmotorbetrieb bietet“, sodass Flotten die Vorschriften einhalten konnten, ohne Diesel-Lkw auf Parkplätzen mit 100 °F und ohne Kühlung abstellen zu müssen.Ausnahmen für Schlafplätze und DEF sind die alten Notluken;Batterieparkplatz AC ist modern."
+    },
+    {
+      "heading": null,
+      "body": "## Bundesebene: EPA SmartWay + FMCSA HOS-Interaktion"
+    },
+    {
+      "heading": null,
+      "body": "Im Jahr 2026 gibt es **kein einheitliches bundesweites Anti-Leerlauf-Gesetz für Lkw**. Was auf Bundesebene aussieht, sind in Wirklichkeit zwei Programme, die sich mit den Landesvorschriften überschneiden:"
+    },
+    {
+      "heading": null,
+      "body": "**EPA SmartWay-verifizierte Liste.** SmartWay führt eine [verifizierte Liste von Technologien zur Leerlaufreduzierung](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies), die bei der Definition von Ausnahmen Referenzen angibt.Wenn Ihre Parkklimaanlage auf dieser Liste steht, haben Sie in jedem Staat, der sie anerkennt, eine Verteidigung vor Gericht – das sind im Jahr 2026 alle 19 Staaten mit aktiven Leerlaufregeln.Batterieparkende AC-Systeme von Webasto, Dometic, Bergstrom NITE und CoolDrivePro VTH1 sind alle auf der Liste oder zur Listung berechtigt."
+    },
+    {
+      "heading": null,
+      "body": "**FMCSA Hours-of-Service (HOS).** Die [bundesstaatliche Bestimmung über Schlafliegeplätze](https://www.fmcsa.dot.gov/regulations/hours-of-service) schreibt vor, dass Fahrer im Rahmen der 10-Stunden-Freistellung mindestens sieben aufeinanderfolgende Stunden im Schlafplatz verbringen müssen.Ein Schlafplatz mit einer Temperatur von 95 °F ist keine legitime Ruheumgebung, und DOT-Inspektoren vermerken seit 2023 in Berichten zur Straßenkontrolle unsichere Kabinentemperaturen. Dies ist der praktische Grund, warum Flottenmanager nicht mehr sagen können: „Sagen Sie den Fahrern einfach, sie sollen ein Fenster öffnen“ – der Sicherheitsregler und der Luftregler weisen jetzt beide auf dasselbe Problem hin."
+    },
+    {
+      "heading": null,
+      "body": "Der **Interaktionseffekt** ist für Compliance-Audits von Bedeutung: Ein Flottenunfall mit wiederholten Verstößen gegen die Leerlaufregeln in Kalifornien oder New Jersey führt ebenfalls zu einer FMCSA-Sicherheitsbewertung, da das zugrunde liegende Verhaltensmuster (Fahrer, die während der HOS-Ruhezeit die Motoren laufen lassen, um sich in der Kabine wohler zu fühlen) sowohl einen Emissionsverstoß als auch ein Ermüdungs-/Inspektionsprotokollproblem verursacht.Die Lösung eines Problems löst beide Probleme."
+    },
+    {
+      "heading": null,
+      "body": "## ROI-Rechner: Leerlaufkosten vs. Parken AC {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Wikipedia und die EPA-Dokumente beschreiben die Gesetze, veröffentlichen jedoch keinen echten ROI.Hier ist die Rechnung, die **2026-Eingabeannahmen** verwendet, die jeder Eigentümer-Betreiber oder Flottenplaner durch seine eigenen Zahlen ersetzen kann."
+    },
+    {
+      "heading": null,
+      "body": "**Eingaben (nationale Durchschnittswerte für 2026):**"
+    },
+    {
+      "heading": null,
+      "body": "- Kraftstoffverbrauch im Leerlauf des Hauptmotors von Schlafwagen der Klasse 8: **0,8 Gallonen/Stunde** ([ATRI-Leerlaufkostendaten](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Dieselpreis auf der Autobahn (Mai 2026): **3,95 $/Gallone**"
+    },
+    {
+      "heading": null,
+      "body": "- Leerlaufzeiten pro Nacht (Kühlsaison, Mai–September): **9 Stunden**"
+    },
+    {
+      "heading": null,
+      "body": "- Ruhenächte pro Jahr (kühlungsrelevant): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Durchschnittliches Bußgeldrisiko pro Jahr der Nichteinhaltung (4 Durchsetzungsstaaten-Route, Durchsetzungsdaten 2026): **420 $**"
+    },
+    {
+      "heading": null,
+      "body": "- Verschleißkosten des Hauptmotors im Leerlauf: **0,30 $/Leerlaufstunde** (Beschleunigung des Ölwechselintervalls + AGR/DPF-Belastung, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Jährliche Kosten für den Leerlauf zur Kabinenkühlung (Nichtstun-Pfad):**"
+    },
+    {
+      "heading": null,
+      "body": "|Kostenkomponente |Mathematik |Jährlich $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Kraftstoff |9 Stunden × 140 Nächte × 0,8 Gallonen × 3,95 $ |**3.981 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|Motorverschleiß |9 Stunden × 140 Nächte × 0,30 $ |**378 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|Bußgeldrisiko (Landesdurchschnitt) |Durchsetzungs-Staats-Mix |**420 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Gesamte jährliche Leerlaufkosten** ||**4.779 $** |"
+    },
+    {
+      "heading": null,
+      "body": "**Jährliche Kosten für Batterieparken, AC-Konformität:**"
+    },
+    {
+      "heading": null,
+      "body": "|Kostenkomponente |Mathematik |Jährlich $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Hardware amortisiert (3 Jahre Lebensdauer einer 12V/24V Batteriepark-Klimaanlage im Wert von 2.800 $ wie dem [CoolDrivePro VTH1](/products/vth1)) |2.800 $ / 3 |**933 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|Landlade-/Lichtmaschinenzeit hinzugefügt |~110 kWh × 0,15 $ |**17 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|Amortisation der Batteriebank (LiFePO4 hinzugefügte Zellen über 5 Jahre) |1.200 $ / 5 |**240 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Gesamtjährliche Parkkosten für Klimaanlage** ||**1.190 $** |"
+    },
+    {
+      "heading": null,
+      "body": "**Jährliche Nettoeinsparungen: 4.779 $ − 1.190 $ = 3.589 $ pro LKW und Jahr.**"
+    },
+    {
+      "heading": null,
+      "body": "**Einfache Amortisationszeit für ein Gerät im Wert von 2.800 $ + Batterie-Upgrade im Wert von 1.200 $ = 13,4 Monate** im Landesdurchschnitt.In Bundesstaaten mit hoher Strafverfolgung (CA, NJ, NY, MD) verkürzt sich die Amortisation auf unter 9 Monate, da die Bußgeldgrenze von 420 $ auf über 1.800 $ pro Jahr steigt."
+    },
+    {
+      "heading": null,
+      "body": "Für eine regionale Flotte mit 50 Lkw, die eine CA + NV + AZ-Fahrspur betreibt, bedeutet das **179.000 US-Dollar eingespart pro Jahr** – weshalb jeder große Spediteur, an den wir seit 2024 verkauft haben, die Park-AC-Werbebuchung direkt in die Spezifikation einbaut, wenn er Lkw aktualisiert."
+    },
+    {
+      "heading": null,
+      "body": "## Compliance-Pfade nach Gesamtkosten geordnet {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Es gibt vier Wege, innerhalb des Regelwerks von 2026 zu bleiben.Über einen Besitzhorizont von 3 Jahren vom günstigsten zum teuersten gelistet:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Batterieparkende Klimaanlage (am günstigsten, ca. 1.190 $/Jahr).** Beispiele: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Vorteile: Geringstes Gewicht (45–80 lb), leise (<48 dB Kabine), keine Wartung über die Filterreinigung hinaus, vollständige SmartWay-Abdeckung.Nachteile: hängt von der Batteriekapazität für die Laufzeit über Nacht ab – eine einzelne Hauptversammlung der Gruppe 31 reicht nicht aus;LiFePO4 oder 200+ Ah ​​AGM-Bank erforderlich.Informationen zur Größenbestimmung finden Sie im [12V vs. 24V Park-AC-Vergleich](/compare/12v-vs-24v-parking-ac/)."
+    },
+    {
+      "heading": null,
+      "body": "**2.Elektrisch APU (Mitte, ~1.800–2.400 $/Jahr).** Beispiele: Bergstrom NITE, Idle Free.Vorteile: Versorgt auch 120-V-Geräte (Mikrowelle, Kühlschrank), längere Laufzeit als nur mit Batterie.Nachteile: schwerer (~250 lb), teurer (6.000–9.500 $), mehr Fehlerquellen.Ideal für Fahrer, die volle elektrische Lasten im Hotelmodus benötigen."
+    },
+    {
+      "heading": null,
+      "body": "**3.Diesel APU (höchster Wert, ~2.600–3.800 $/Jahr).** Beispiele: Thermo King TriPac, Carrier ComfortPro.Vorteile: Unbegrenzte Laufzeit, solange Kraftstoff vorhanden ist, was von Flottentechnikern gut verstanden wird.Nachteile: stößt immer noch aus – von der Regel nur ausgenommen, wenn es selbst SmartWay-verifiziert ist, ein Verbrauch von ca. 0,2 Gallonen pro Stunde liegt, die Installation 9.500 bis 13.000 US-Dollar kostet und eine regelmäßige Wartung erforderlich ist.Die [alternative TriPac-Landschaft](/blog/dometic-vs-webasto-parking-ac/) hat sich im Zeitraum 2024–2026 stark in Richtung Batterie verlagert."
+    },
+    {
+      "heading": null,
+      "body": "**4.Nichts tun (am teuersten, ca. 4.779 $/Jahr + eskalierendes Bußgeldrisiko).** Keine echte Option für Flotten, die Korridorspuren in Kalifornien oder Nordosten betreiben;Für Eigentümer-Betreiber außerhalb der Vollzugsstaaten dauert es immer noch ein bis zwei Jahre bis zur nächsten großen Eskalation der Leerlauf-Kraftstoffpreise.Wir empfehlen es nicht für den Kauf eines Lkw ab 2026."
+    },
+    {
+      "heading": null,
+      "body": "## Checkliste für Fahrer und Disponenten (druckbar)"
+    },
+    {
+      "heading": null,
+      "body": "Behandeln Sie die nachstehenden Aufzählungszeichen als kabinenseitiges Compliance-Protokoll.Tragen Sie eine laminierte gedruckte Kopie bei sich;DOT-Inspektoren, die sehen, dass Fahrer ihre eigenen Dokumente mit sich führen, neigen dazu, schneller vorzugehen:"
+    },
+    {
+      "heading": null,
+      "body": "- **Täglicher Protokolleintrag**, wenn die Parkklimaanlage anstelle des Motorleerlaufs verwendet wird: Einschaltzeit, Ausschaltzeit, Umgebungstemperatur, Standort, System-SKU und Seriennummer."
+    },
+    {
+      "heading": null,
+      "body": "- **Fotonachweis** des SmartWay-Verifizierungsaufklebers auf der Park-Klimaanlage – erspart den Streit mit einem Prüfer, der sich die überprüfte Liste nicht gemerkt hat."
+    },
+    {
+      "heading": null,
+      "body": "- **Anzeigen des Batterieladezustands** zu Beginn und am Ende der Ruhephase, wenn sie angezweifelt werden – beweist, dass die Klimaanlage tatsächlich mit der Batterie lief und keine Tarngeschichte für den Leerlauf des Motors war."
+    },
+    {
+      "heading": null,
+      "body": "- **State-Rule-Spickzettel** für die von Ihnen befahrenen Bahnen – ein laminierter 2-seitiger Ausdruck der obigen 50-State-Tabelle reicht aus;Diese verteilen wir auf Messen."
+    },
+    {
+      "heading": null,
+      "body": "- **Sprache des Befreiungsantrags** gespeichert: „Dieses Fahrzeug verfügt über eine von SmartWay verifizierte Batterie-Klimaanlage im Rahmen der [Ihres Bundesstaates] Ausnahmeregelung für alternative Kabinenkomforttechnologie.“Dieser einzelne Satz beendet 80 % aller Gespräche am Straßenrand."
+    },
+    {
+      "heading": null,
+      "body": "- **Serviceprotokoll** für die Park-Klimaanlage: Filterreinigung vierteljährlich, Überprüfung des Batteriezustands jährlich.Eine Einheit, die mitten im Ruhezustand versagt, erzeugt die Versuchung, untätig zu bleiben, was den Verstoß hervorruft."
+    },
+    {
+      "heading": null,
+      "body": "- **Dispatcher-Eskalation**: Jeder Strafzettel am Straßenrand erhält noch am selben Tag ein Foto der Vorladung, die an den Dispatcher gesendet wird.Bußgeldmultiplikatoren für Wiederholungstäter in New Jersey, Maryland und Kalifornien werden nach 12 bis 36 Monaten zurückgesetzt – Flotten müssen nachverfolgen, welche LKWs im Einsatz sind."
+    },
+    {
+      "heading": null,
+      "body": "## FAQ"
+    },
+    {
+      "heading": null,
+      "body": "**Welche US-Bundesstaaten haben im Jahr 2026 die strengsten Anti-Leerlauf-Gesetze?**"
+    },
+    {
+      "heading": null,
+      "body": "Kalifornien (CARB ATCM, 300–25.000 US-Dollar), New Jersey (3-Minuten-Limit, Verdoppelung bei Wiederholung), New York (NYC Local Law 5 mit Bürgermeldung bei 350–2.000 US-Dollar), Massachusetts und Maryland (beide 5 Minuten mit feinen Obergrenzen nahe 25.000 US-Dollar für Flottenmuster) und Connecticut (3 Minuten mit 250–5.000 US-Dollar).DC steht technisch gesehen an der Spitze der Liste pro Verstoß mit 500–5.000 US-Dollar plus aggressiver Durchsetzung."
+    },
+    {
+      "heading": null,
+      "body": "**Gilt eine Park-Klimaanlage als konform mit den Anti-Leerlauf-Regeln?**"
+    },
+    {
+      "heading": null,
+      "body": "Ja, in jedem Staat mit einer aktiven Regelung, vorausgesetzt, das Gerät ist SmartWay-verifiziert oder im Rahmen der „Alternative Technology“-Ausgliederung des Staates anerkannt.Das rein batteriebetriebene Parken mit Klimaanlage (kein laufender Hauptmotor) ist die sauberste Einhaltungshaltung und wird in Kalifornien, New Jersey, New York, MD und Kalifornien in ihren Regeltexten ausdrücklich genannt.Die Rechtsgrundlage in einfachem Englisch finden Sie in der [No-Idle-Truck-AC-Grundierung](/blog/no-idle-truck-ac/)."
+    },
+    {
+      "heading": null,
+      "body": "**Gibt es ein bundesweites Anti-Leerlauf-Gesetz für Lkw?**"
+    },
+    {
+      "heading": null,
+      "body": "Es gibt kein einziges bundesweites Leerlaufgesetz, aber der Rahmen des EPA Clean Air Act und das SmartWay-Programm zur verifizierten Liste standardisieren effektiv, was als Einhaltung aktiver Regeln in den 19 Bundesstaaten gilt.Die HOS-Regeln der FMCSA verlangen gesondert eine bewohnbare Schlafplatzruhe, die in der Praxis mit den Anti-Leerlauf-Regeln interagiert."
+    },
+    {
+      "heading": null,
+      "body": "**Wie hoch sind die durchschnittlichen Kraftstoffkosten, wenn ein Lkw der Klasse 8 10 Stunden lang im Leerlauf läuft?**"
+    },
+    {
+      "heading": null,
+      "body": "Bei 0,8 Gallonen/Stunde im Leerlauf des Hauptmotors und einem landesweiten Dieseldurchschnitt von 3,95 US-Dollar pro Gallone im Mai 2026 kostet eine 10-stündige Ruhepause **31,60 US-Dollar allein für Kraftstoff** – plus etwa 3 US-Dollar für beschleunigten Motorverschleiß und das Bußgeldrisiko, wenn Sie sich auf einem regulierten Parkplatz befinden.Über 140 Kühlnächte pro Jahr, was den im obigen ROI-Rechner verwendeten Betrag von 4.779 US-Dollar ergibt."
+    },
+    {
+      "heading": null,
+      "body": "**Wie viel kann eine Flotte mit einer Park-Klimaanlage pro Lkw und Jahr einsparen?**"
+    },
+    {
+      "heading": null,
+      "body": "Der landesweite Durchschnitt liegt bei **3.589 $/Lkw/Jahr**, abzüglich der Hardware-Amortisation.In Staaten mit hoher Strafverfolgung steigt die Zahl auf über 4.500 US-Dollar, da die Bußgeldrisikokomponente zunimmt.Eine 50-Lkw-Flotte auf CA-lastigen Strecken spart in der Regel mehr als 200.000 US-Dollar pro Jahr.Ein Modell mit bearbeitbaren Eingaben finden Sie im [Parking AC Fuel Savings Calculator](/blog/parking-ac-fuel- savings-calculator/) und in der [Übersicht über die Anti-Leerlauf-Gesetze](/blog/no-idle-ac-anti-idling-laws/) für den regulatorischen Hintergrund."
+    },
+    {
+      "heading": null,
+      "body": "**Was ist mit dem Einfrieren von DEF bei kaltem Wetter?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (Dieselabgasflüssigkeit) beginnt bei etwa 12 °F zu kristallisieren.Die meisten Leerlaufregeln im kalten Zustand (NJ, NH, VT, Minnesota Twin Cities) enthalten eine Ausnahmeregelung bei Temperaturen unter 25 °F, die ausdrücklich den DEF-Schutz abdeckt, aber die sauberere Antwort im Jahr 2026 ist eine von SmartWay verifizierte Kombination aus dieselbetriebener Etagenheizung und Batterie-Park-AC-Kombination, die sowohl den Leerlauf in der Kühlsaison als auch das DEF-Risiko im Winter ohne Motorbetrieb bewältigt.Diese Kombination ist das, was die meisten Ausschreibungen für Nordflotten jetzt spezifizieren."
+    },
+    {
+      "heading": null,
+      "body": "## Fazit"
+    },
+    {
+      "heading": null,
+      "body": "Die Anti-Leerlaufgesetze der einzelnen Bundesstaaten werden im Jahr 2026 nicht gelockert – die Bußgelder steigen, Bürgermeldetools breiten sich von New York City auf andere Metropolen aus und FMCSA beginnt, Leerlaufverstöße mit Sicherheitsbewertungen zu vergleichen.Die Rechnung ist nun klar auf der Seite der batterieparkenden Klimaanlage: unter 1.200 $ pro Jahr pauschal im Vergleich zu fast 5.000 $ pro Jahr für den Nichtstun-Weg, mit einer Amortisation in weniger als 14 Monaten im Inland und in weniger als 9 Monaten an Westküstenstraßen."
+    },
+    {
+      "heading": null,
+      "body": "Wenn Sie Hilfe bei der Spezifizierung einer Einheit für Ihren LKW oder Ihre Flotte benötigen, ist die [CoolDrivePro VTH1 12V/24V Batterie-Park-AC](/products/vth1) unsere SmartWay-geeignete Empfehlung und die [12V vs. 24V LKW-ACVergleich](/compare/12v-vs-24v-parking-ac/) ist der richtige Ort, um mit der Dimensionierung zu beginnen."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

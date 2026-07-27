@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Посібник покупця для постачальників систем кондиціювання для паркування B2B: 9-вимірна рубрика + 10 найкращих брендів у порівнянні (2026)",
+    "category": "Посібники з купівлі",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Як автопарк, дилер, OEM та оптові покупці повинні оцінювати постачальників кондиціонерів для паркування у 2026 році. 9-вимірна рубрика оцінки, MOQ + час виконання + контрольні показники сертифікації та чесний огляд 10..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Закони штату про заборону холостого ходу 2026: пошук у 50 штатах + калькулятор рентабельності інвестицій у паркування.",
+    "category": "Правила та відповідність",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Усі 50 законів штату США щодо заборони холостого ходу на 2026 рік в одній таблиці — штрафні діапазони, 5-хвилинні проти 15-хвилинних обмежень, винятки для сплячого/DEF і ефективна рентабельність інвестицій, яка показу..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Повний посібник із кондиціонерів для паркування вантажівок у В’єтнамі (2026)",
+    "category": "Посібники з купівлі",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Посібник із паркування кондиціонерів для вантажних автомобілів у В’єтнамі на 2026 рік: 9000 систем BTU для швидкісної автомагістралі Північ-Південь, економія палива (12-18 л/день), витрати на встановлення та особливос..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Паркування кондиціонування повітря для порту Хошиміна та водіїв контейнерів (Cat Lai, Cai Mep)",
+    "category": "Регіональні путівники",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Навіщо водіям контейнерів Cat Lai та Cai Mep у Хошиміні потрібен 9000 BTU паркувальний кондиціонер: довгий час стояння в чергах, тиск на холостому ході та рентабельність інвестицій у охолодження кабіни для логістики п..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Паркування кондиціонерів для сільськогосподарських і холодильних вантажівок у дельті Меконгу",
+    "category": "Регіональні путівники",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Оператори сільськогосподарських і холодильних вантажівок у дельті Меконгу в Кантхо, Тьєн-Гіанг і Лонг-Ан покладаються на систему кондиціонування, щоб водії могли відпочити під час тривалого очікування поромів і нічних..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Паркування кондиціонера на швидкісній автомагістралі Північ-Південь (CT.01): Посібник водія на далекі відстані",
+    "category": "Регіональні путівники",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Як далекомагістральні водії на швидкісній автомагістралі CT.01 Північ-Південь у В’єтнамі використовують паркувальний кондиціонер 9000 BTU, щоб легально відпочити, заощадити 12-18 л дизельного палива за ніч і пережити..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Паркування кондиціонерів для в’єтнамських туристичних автобусів і спальних автобусів (Дананг, Нячанг, Фукуок)",
+    "category": "Регіональні путівники",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Як оператори туристичних автобусів і спальних автобусів у Данангу, Нячангу, Хойані та Фукуоку використовують кондиціонери на парковці, щоб водії відпочивали, а транспортні засоби відповідали правилам готелів і курорті..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Кондиціонер для мобільних студій йоги та Wellness Vans",
+    "category": "спеціальність",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "Відкрийте для себе основні рішення для кондиціонування повітря для мобільних студій йоги та оздоровчих мікроавтобусів.Забезпечте оптимальний контроль температури (68-72°F) за допомогою надійного паркувального кондиціо..."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Кондиціонер для паркування для цифрових кочівників, які живуть у RVs: Комфорт у будь-якому місці",
+    "category": "Спосіб життя",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "Основний посібник із паркування кондиціонерів для RV цифрових кочівників.Залишайтеся холодними та продуктивними, працюючи віддалено на своєму RV з правильним клімат-контролем."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Зберігайте спокій на RV мітингах і фестивалях: поради щодо паркування кондиціонерів для заходів",
+    "category": "Спосіб життя",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "Master RV ралі з паркувальним кондиціонером!Отримайте поради експертів щодо додаткового охолодження, розміру акумулятора та встановлення для комфортного проведення заходу."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Посібник жителя мікроавтобуса щодо паркування кондиціонера: повний робочий день у вашому автомобілі",
+    "category": "Van Life",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "Основний посібник із вибору та встановлення кондиціонера для паркування для мешканців мікроавтобусів.Залишайтеся прохолодними та комфортними у своєму мобільному будинку з порадами експертів."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Холодоагент R32 у паркувальних кондиціонерах наступного покоління: нижчий GWP і краща ефективність",
+    "category": "технології",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Дізнайтеся, чому холодоагент R32 стає кращим вибором для паркувальних кондиціонерів нового покоління, пропонуючи нижчий GWP і підвищену ефективність для комерційних транспортних засобів."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic проти Webasto Parking AC: Порівняння пліч-о-пліч (2026)",
+    "category": "Порівняння",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 проти Webasto Cool Top RTE 16 прямо в очі: потужність охолодження, шум, енергоспоживання, складність встановлення, гарантія та 5-річна вартість володіння.Реальні числа з поля."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Системи кондиціонування повітря для вантажівок без холостого ходу: як дотримуватися державних законів про заборону холостого ходу (2026)",
+    "category": "Відповідність",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Державні закони про заборону холостого ходу та як дотримуватися вимог AC без холостого ходу.CARB (штрафи від 300 до 1000 доларів США), обмеження понад 30 штатів, EPA SmartWay і 5 систем, які відповідають вимога..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Паркувальний кондиціонер BTU Калькулятор розмірів: скільки BTU вам справді потрібно?(2026)",
+    "category": "Посібник із купівлі",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] Скільки BTU потрібно вашій спальній кабіні або RV спальні?Покрокова формула та таблиці для вантажівок класу 8 (5 000–10 000 BTU), мікроавтобусів Sprinter (6 000–8 000 BTU) і 25-футових RV (12 000–14 000)BTU)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Вартість встановлення кондиціонера на парковці 2026: тарифи магазину за державою та економія DIY",
+    "category": "Посібник із купівлі",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Вартість встановлення кондиціонера на парковці залежно від штату: 400–1200 доларів США для професіоналів, 0–150 доларів США для саморобок.Реальні розцінки в магазині в Каліфорнії, Техасі, Флориді, Нью-Йорку, а..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Порівняння шуму змінного струму під час паркування: справжні рівні дБ перевірено на висоті 3 фути (2026)",
+    "category": "Порівняння",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Ми виміряли 12 паркувальних блоків змінного струму за допомогою каліброваного дБ-метра на відстані 3 фути.CoolDrivePro V-TH1 досяг 42 дБА, Dometic RTX2000 48 дБА, RigMaster 67 дБА.Реальні цифри, без маркетингу."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Енергоспоживання змінного струму вантажівкою: пояснення ват, ампер і розрядки акумулятора (2026)",
+    "category": "Живлення та батарея",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Пояснення щодо споживання електроенергії вантажівкою змінного струму: у середньому 480 Вт, 9 А на 24V, 38–55 А·год за ніч.Реальні цифри, формули розміру батареї та способи скорочення інверторних компресорів при..."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Кондиціонер повітря з живленням від батареї RV: Повний посібник для покупців 2026 р.",
+    "category": "Посібники з купівлі",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Повний посібник для кондиціонерів з акумуляторним живленням RV 2026 року.Рідні 12V/24V DC проти інверторних налаштувань, реальні дані LiFePO4 про час роботи (220Ah → 8–11 год), діапазони цін від 1500 до 3800 доларів С..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Як встановити паркувальний кондиціонер: Покрокова інструкція на 2026 рік",
+    "category": "Інструкції зі встановлення",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Покрокова інструкція 2026 року по встановленню паркувального кондиціонера: підготовка даху, виріз 14x14, прокладка, проводка (4 AWG, запобіжник 80 A), введення в експлуатацію.6–9 годин на саморобку, 325 доларів США на..."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Акумуляторна батарея для паркувального кондиціонера: 2026 Посібник з визначення розмірів і проводки",
+    "category": "Інструкції",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 посібник із визначення розмірів для паркувального кондиціонера: варіанти 220Ah (1400$), 280Ah (1750$), 400Ah (2400$) з 8-годинним обчисленням часу роботи, специфікаціями BMS/запобіжників/кабелю."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Паркувальний кондиціонер не охолоджує?2026 Посібник з усунення несправностей (покроковий)",
+    "category": "Усунення несправностей",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "2026 покроковий посібник з ремонту паркувального кондиціонера, який не охолоджується.Падіння напруги, холодоагент, брудний конденсатор, термостат, BMS — діагностика за 30 хвилин, $0–$280 виправлення."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Кондиціонер для паркування та APU: Порівняння вартості та продуктивності для автопарків у 2026 році",
+    "category": "Огляди та порівняння",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Посібник із прийняття рішень щодо автопарку 2026: паркування кондиціонерів проти APU.5-річний TCO з дизельним паливом 4,05 дол. США — DC паркувальний кондиціонер заощаджує 9800–14 200 дол. США/вантажівка порівняно з д..."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V проти 24V Паркування кондиціонерів у 2026 році: вантажівка, RV та фургон. Посібник із прийняття рішень",
+    "category": "Керівництво покупця",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V порівняно з 24V паркувальний кондиціонер у 2026 році: відповідайте рідній напрузі вашого автомобіля.Повна розбивка калібру кабелю, вартості батареї, ефективності, тривалості роботи та коли має сенс конвертер.Матри..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Найкращий паркувальний кондиціонер 2026: 9 найкращих варіантів для порівняння (вантажівки, RVs і фургони)",
+    "category": "Керівництво покупця",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 найкращих паркувальних кондиціонерів, перевірених на 2026 рік: паралельні BTU, шум, тяга, ціна та реальні характеристики для напіввантажівок, RV, мікроавтобусів спринтерів і автопарків.Переможець обирається за випад..."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Посібник із купівлі паркувального кондиціонера 2026: як вибрати правильний блок (не витрачаючи 1500 доларів)",
+    "category": "Керівництво покупця",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "Посібник із купівлі кондиціонерів для паркування на 2026 рік: 7-етапна система прийняття рішень, таблиця розмірів BTU, порогові значення специфікацій, бюджети витрат за рівнями та 5 помилок, які перетворюють кондиціон..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Калькулятор економії палива при паркуванні кондиціонера 2026: вартість простою проти DC Паркування кондиціонера проти APU",
+    "category": "Інструменти та калькулятори",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "Обчисліть точну економію палива з DC паркувального кондиціонера проти холостого ходу чи дизеля APU.Ціни на пальне 2026 р., реальні робочі цикли, рентабельність інвестицій за весь термін служби.Приклади роботи для влас..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Кондиціонер паркувального повітря для вологості узбережжя Александрії: боротьба з проблемами середземноморського клімату Єгипту",
     "category": "Додатки автопарку",
@@ -744,52 +976,12 @@
     "excerpt": "Забезпечте безпеку тварин і обладнання в мобільних ветеринарних клініках за допомогою надійних рішень для паркування кондиціонерів.Вирішальне значення для ліків і благополуччя."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Кондиціонер для мобільних студій йоги та Wellness Vans",
-    "category": "спеціальність",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "Відкрийте для себе основні рішення для кондиціонування повітря для мобільних студій йоги та оздоровчих мікроавтобусів.Забезпечте оптимальний контроль температури (68-72°F) за допомогою надійного паркувального кондиціо..."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Кондиціонер для паркування для цифрових кочівників, які живуть у RVs: Комфорт у будь-якому місці",
-    "category": "Спосіб життя",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "Основний посібник із паркування кондиціонерів для RV цифрових кочівників.Залишайтеся холодними та продуктивними, працюючи віддалено на своєму RV з правильним клімат-контролем."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Зберігайте спокій на RV мітингах і фестивалях: поради щодо паркування кондиціонерів для заходів",
-    "category": "Спосіб життя",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "Master RV ралі з паркувальним кондиціонером!Отримайте поради експертів щодо додаткового охолодження, розміру акумулятора та встановлення для комфортного проведення заходу."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Посібник жителя мікроавтобуса щодо паркування кондиціонера: повний робочий день у вашому автомобілі",
-    "category": "Van Life",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "Основний посібник із вибору та встановлення кондиціонера для паркування для мешканців мікроавтобусів.Залишайтеся прохолодними та комфортними у своєму мобільному будинку з порадами експертів."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Вартість встановлення паркувального кондиціонера: повний розподіл цін 2025",
     "category": "Фінанси",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Розділіть повну вартість встановлення паркувального кондиціонера на 2025 рік. Отримайте уявлення про фактори, що впливають на ціну, від типу пристрою до модернізації електрики."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Холодоагент R32 у паркувальних кондиціонерах наступного покоління: нижчий GWP і краща ефективність",
-    "category": "технології",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Дізнайтеся, чому холодоагент R32 стає кращим вибором для паркувальних кондиціонерів нового покоління, пропонуючи нижчий GWP і підвищену ефективність для комерційних транспортних засобів."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -806,14 +998,6 @@
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "excerpt": "Дізнайтеся, як моделі з підпискою на паркування кондиціонером змінюють роботу автопарку, пропонуючи економію коштів і покращуючи комфорт водія.Дізнайтеся про майбутнє клімат-контролю як послуги."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V проти 24V Паркувальний кондиціонер: що підходить для вашої вантажівки чи RV?",
-    "category": "технології",
-    "date": "8 березня 2025 р",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "Вибираєте між 12V і 24V паркувальний кондиціонер для вашої вантажівки чи RV?Цей вичерпний посібник детально описує переваги, недоліки та ідеальні застосування кожної системи, допомагаючи вам прийняти обґрунтоване ріше..."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -904,14 +1088,6 @@
     "excerpt": "Повний посібник із автономного RV кондиціонування повітря за допомогою сонячної енергії та 12V паркувального кондиціонера.Дізнайтеся про розмір системи, вибір батареї та поради щодо продуктивності в реальному світі."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Посібник із купівлі паркувального кондиціонера 2025: усе, що вам потрібно знати перед покупкою",
-    "category": "Керівництво покупця",
-    "date": "20 листопада 2024 р",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "Повний посібник із купівлі паркувального кондиціонера 2025 року.Порівняйте оцінки BTU, 12V та 24V, верхнє кріплення та міні-спліт, і знайдіть найкращий паркувальний кондиціонер для своєї вантажівки або RV."
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "Як паркувальний кондиціонер зменшує ваш вуглецевий слід порівняно з роботою двигуна на холостому ходу",
     "category": "Навколишнє середовище",
@@ -990,14 +1166,6 @@
     "date": "22 грудня 2024 р",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "excerpt": "Будь здоровим у своїй школі!У нашому посібнику описано найкращі кондиціонери для паркування для переобладнання шкільних автобусів, включаючи варіанти на даху, міні-спліт і 12V.Дізнайтеся про встановлення, живлення тощо."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Скільки пального економить паркувальний кондиціонер?Реальні числа та калькулятор рентабельності інвестицій",
-    "category": "Гід",
-    "date": "15 лютого 2025 р",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "Дізнайтеся, скільки палива може заощадити паркувальний кондиціонер.Наш посібник містить реальні цифри, калькулятор рентабельності інвестицій і поради для вантажівок, RV і мікроавтобусів."
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1118,10 +1286,6 @@
     "date": "8 грудня 2024 р",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "excerpt": "Вичерпний посібник із безпечного 12V/24V паркування електропроводки змінного струму та електромонтажу у вантажівках, RV і мікроавтобусах.Дізнайтеся про компоненти, падіння напруги, керування батареєю та усунення неспр..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

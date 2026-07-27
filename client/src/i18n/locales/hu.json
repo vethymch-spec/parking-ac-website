@@ -3,8 +3,8 @@
     "home": "Kezdőlap",
     "products": "Termékek",
     "topMountedAC": "Tetőklíma",
-    "miniSplitAC": "Mini split klíma",
-    "heatingCoolingAC": "Fűtő/hűtő klíma",
+    "miniSplitAC": "Mini split",
+    "heatingCoolingAC": "Fűtés/hűtés",
     "allProducts": "Összes termék",
     "forum": "Fórum",
     "blog": "Blog",
@@ -18,10 +18,10 @@
     "logout": "Kijelentkezés"
   },
   "hero": {
-    "title": "Parkolóklíma off-grid élethez és mobil kényelemhez",
-    "subtitle": "12V és 24V DC klíma alapjárat nélkül teherautókhoz, lakóautókhoz és furgonokhoz — Hűvös alapjárat nélkül",
-    "ctaPrimary": "Termékek vásárlása",
-    "ctaSecondary": "Tudjon meg többet",
+    "title": "12V/24V parkolólégkondicionálók teherautókhoz, lakóautókhoz, furgonokhoz és flottákhoz",
+    "subtitle": "A CoolDrivePro 12V/24V DC parkolóklímákat és üresjárati hűtőrendszereket gyárt félteherautókhoz, RV-höz, furgonokhoz, lakóautókhoz, flottákhoz, kereskedőkhöz és szerelőkhöz – B2B árazással, USA-beli garanciális támogatással és felszerelési útmutatóval.",
+    "ctaPrimary": "Szerezze meg az illeszkedési ajánlást",
+    "ctaSecondary": "Kérjen árajánlatot a kereskedőtől",
     "badge": "Újdonság",
     "trustedBy": "Több mint 10 000 sofőr bízik meg világszerte"
   },
@@ -36,7 +36,7 @@
     "features": "Jellemzők",
     "reviews": "Vásárlói értékelések",
     "warranty": "Garancia",
-    "freeShipping": "Ingyenes szállítás",
+    "freeShipping": "Számlázási támogatás",
     "support": "Támogatás 24/7",
     "topMounted": {
       "title": "Tetőklíma 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Akár 80 négyzetlábig hűt"
     },
     "miniSplit": {
-      "title": "Mini split klíma 12000 BTU",
-      "subtitle": "12V DC klíma alapjárat nélkül teherautókhoz és lakóautókhoz",
+      "title": "12V/24V mini osztott parkoló AC félhálós fülkékhez és lakóautókhoz",
+      "subtitle": "A CoolDrivePro VX3000SP egy 12 V/24 V DC mini split parkolóklíma, amely 12 000 BTU/h üresjárati hűtést biztosít félhálófülkék, lakóautók, furgonok és lakóautók számára.A beltéri párologtató ≤32 dB-en üzemel egy GMCC ikerforgós inverteres kompresszorral, így a vezetők a motor alapjárata nélkül aludhatják át a parkoló éjszakákat.",
       "btu": "12 000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 óra",
@@ -59,14 +59,19 @@
       "specifications": "Műszaki adatok",
       "reviews": "Vásárlói értékelések",
       "faq": "GYIK",
-      "freeShipping": "Ingyenes szállítás",
-      "warranty": "2 év garancia",
+      "freeShipping": "Számlázási támogatás",
+      "warranty": "1 év garancia",
       "returns": "30 napos visszaküldés",
       "inStock": "Raktáron",
       "outOfStock": "Elfogyott",
       "quantity": "Mennyiség",
       "techSpecs": "Műszaki adatok",
-      "relatedProducts": "Ezeket is szeretheti"
+      "relatedProducts": "Ezeket is szeretheti",
+      "warrantyDesc": "1 év gyártói garancia az anyag- és gyártási hibákra."
+    },
+    "heatingCoolingAC": {
+      "title": "12V/24V fűtés és hűtés parkoló AC teherautók és lakóautók számára",
+      "subtitle": "A CoolDrivePro V-TH1 egy 12V/24V DC hőszivattyús parkolóklíma, amely 2000 W hűtést és fűtést biztosít félteherautók, lakóautók, furgonok és speciális járművek számára.GMCC ikerforgós kompresszort használ R134a hűtőközeggel, és körülbelül 30 perc alatt képes 5 °C-ról 30 °C-ra emelni a fülke hőmérsékletét – nincs szükség alapjáratra a motor és nincs szükség szárazföldi áramra."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Mégse",
     "posting": "Küldés...",
     "model": "Modell"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1 év garancia"
+    }
   }
 }

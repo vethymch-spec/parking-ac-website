@@ -1,5 +1,261 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "imageAlt": "Outdoor unit of a parking air conditioner with compressor service access",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "imageAlt": "Parking air conditioner split-system installation and service access",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "B2B-pysäköinnin AC-toimittajan ostajan opas: 9-ulotteinen otsikko + 10 parasta tuotemerkkiä verrattuna (2026)",
+    "date": "2026-06-08",
+    "category": "Osto-oppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "B2B-pysäköinnin AC-toimittajien vertailu — 9-ulotteinen pisteytystaulukko kalustolle, jälleenmyyjälle ja OEM-ostajille",
+    "excerpt": "Miten kaluston, jälleenmyyjien, OEM- ja tukkuostajien tulisi arvioida pysäköinti-AC-toimittajat vuonna 2026. 9-ulotteinen pisteytys, MOQ + läpimenoaika + sertifioinnin vertailuarvot ja rehellinen arvostelu 10 tuotemer..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Osavaltiokohtaiset joutokäyntiä estävät lait 2026: 50 osavaltion haku + pysäköinti AC ROI -laskin",
+    "date": "2026-06-08",
+    "category": "Säännöt ja noudattaminen",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Yhdysvaltain kartta, jossa näkyvät osavaltiokohtaiset joutokäynnin estolainsäädäntö 2026 ja pysäköinti-AC-vaatimustenmukaisuus",
+    "excerpt": "Kaikki 50 Yhdysvaltain osavaltion joutokäyntiä estävää lakia vuodelle 2026 yhdessä taulukossa – hienot vaihteluvälit, 5–15 minuutin rajat, nukkuja/DEF-vapautukset ja toimiva ROI, joka näyttää kuinka akun pysäköity AC..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Täydellinen opas kuorma-autojen pysäköintiilmastointilaitteisiin Vietnamissa (2026)",
+    "date": "2026-05-20",
+    "category": "Osto-oppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Vuoden 2026 opas kuorma-autojen pysäköintiilmastointiin Vietnamissa: 9000 BTU -järjestelmää pohjois-etelä-moottoritielle, polttoaineen säästöt (12-18 l/vrk), asennuskustannukset ja alueelliset ilmastonäkökohdat Hanois..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Pysäköinti-ilmastointi Ho Chi Minh Cityn satama- ja kontinkuljettajille (Cat Lai, Cai Mep)",
+    "date": "2026-05-20",
+    "category": "Alueelliset oppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Miksi Cat Lai- ja Cai Mep -kontinkuljettajat Ho Chi Minh Cityssä tarvitsevat 9000 BTU pysäköintiilmavirran: pitkät jonotusajat, joutokäynnin estopaine ja ohjaamon jäähdytyksen ROI Etelä-Vietnamin satamalogistiikkaa va..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Pysäköinti-ilmastointi Mekong Delta Agricultural & Cold-Chain Trucksille",
+    "date": "2026-05-20",
+    "category": "Alueelliset oppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Mekong Deltan maatalous- ja kylmäketjukuorma-autojen kuljettajat Can Thossa, Tien Giangissa ja Long Anissa luottavat pysäköinti-AC:hen pitääkseen kuljettajat levänneinä pitkien lautta-jonojen ja kosteiden yöpymisten a..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Pysäköinti AC pohjois-etelä-moottoritielle (CT.01): Long-Haul Driver Guide",
+    "date": "2026-05-20",
+    "category": "Alueelliset oppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Kuinka kaukoliikenteen kuljettajat Vietnamin CT.01 North-South Expresswaylla käyttävät 9000 BTU pysäköintiilmastointilaitetta levätäkseen laillisesti, säästääkseen 12–18 litraa dieseliä yötä kohti ja selviäkseen 38°C..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Pysäköinti-ilmastointi vietnamilaisille turistibusseille ja Sleeper-busseille (Da Nang, Nha Trang, Phu Quoc)",
+    "date": "2026-05-20",
+    "category": "Alueelliset oppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Kuinka turistibussien ja makuulinja-autojen kuljettajat Da Nangissa, Nha Trangissa, Hoi Anissa ja Phu Quocissa käyttävät pysäköintiilmastointia pitääkseen kuljettajat levänneinä ja ajoneuvojen mukaisina hotellien ja l..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Ilmastointi liikkuviin joogastudioihin ja wellness-pakettiautoihin",
+    "date": "2026-04-29",
+    "category": "Erikoisuus",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "imageAlt": "Ilmastointi liikkuviin joogastudioihin ja wellness-pakettiautoihin",
+    "excerpt": "Tutustu tärkeisiin ilmastointiratkaisuihin liikkuviin joogastudioihin ja wellness-pakettiautoihin.Varmista optimaalinen lämpötilan säätö (68-72 °F) luotettavalla pysäköintiilmastolla."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Pysäköinti-ilmastointi digitaalisille nomadeille, jotka asuvat RVs: työskennellä missä tahansa",
+    "date": "2026-04-29",
+    "category": "Elämäntapa",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "imageAlt": "Pysäköinti-ilmastointi digitaalisille nomadeille, jotka asuvat RVs: työskennellä missä tahansa",
+    "excerpt": "Tärkeä opas vaihtovirran pysäköintiin RV digitaalisille nomadeille.Pysy viileänä ja tuottavana työskennellessäsi etänä RV -laitteesta oikean ilmastointilaitteen avulla."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Pysy viileänä RV Ralleissa ja festivaaleissa: Pysäköinti-AC Vinkkejä tapahtumiin",
+    "date": "2026-04-29",
+    "category": "Elämäntapa",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "imageAlt": "Pysy viileänä RV Ralleissa ja festivaaleissa: Pysäköinti-AC Vinkkejä tapahtumiin",
+    "excerpt": "Master RV rallit pysäköinti-AC!Hanki asiantuntijavinkkejä lisäjäähdytyksestä, akun mitoituksesta ja asennuksesta mukavan tapahtumakokemuksen takaamiseksi."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Van Dwellerin opas pysäköintiilmastointiin: kokoaikainen asuminen ajoneuvossasi",
+    "date": "2026-04-29",
+    "category": "Van Elämä",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "imageAlt": "Van Dwellerin opas pysäköintiilmastointiin: kokoaikainen asuminen ajoneuvossasi",
+    "excerpt": "Tärkeä opas pysäköinti-AC:n valintaan ja asennukseen pakettiauton asukkaille.Pysy viileänä ja mukavana asuntoautossasi asiantuntevien vinkkien avulla."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "R32-kylmäaine seuraavan sukupolven pysäköinti-AC:issa: pienempi GWP ja parempi tehokkuus",
+    "date": "2026-04-29",
+    "category": "Tekniikka",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "imageAlt": "R32-kylmäaine seuraavan sukupolven pysäköinti-AC:issa: pienempi GWP ja parempi tehokkuus",
+    "excerpt": "Ota selvää, miksi R32-kylmäaineesta on tulossa ensisijainen valinta seuraavan sukupolven pysäköinti-AC:ille, mikä tarjoaa alhaisemman GWP:n ja paremman hyötysuhteen hyötyajoneuvoissa."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: Side-by-Side Comparison (2026)",
+    "date": "2026-04-25",
+    "category": "Vertailu",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Dometic- ja Webasto-pysäköintiilmalaitteet rinnakkain vertailun vuoksi",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16: jäähdytysteho, melu, virrankulutus, asennuksen monimutkaisuus, takuu ja 5 vuoden omistuskustannukset.Reaalilukuja kentältä."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "No-Idle Truck AC Systems: Kuinka noudattaa valtion joutokäyntiä estäviä lakeja (2026)",
+    "date": "2026-04-25",
+    "category": "Vaatimustenmukaisuus",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "Akku-sähköinen joutokäyntiauton vaihtovirtajärjestelmä asennettu joutokäyntiä estämään",
+    "excerpt": "[2026] Osavaltiokohtaiset joutokäynnin estolainsäädäntö ja miten noudatetaan tyhjäkäyntiä kuorma-auton vaihtovirtaa.CARB (300–1 000 dollarin sakot), yli 30 osavaltion rajaa, EPA SmartWay ja viisi järjestelmää, jotka t..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Pysäköinti AC BTU Mitoituslaskin: Kuinka monta BTUs todella tarvitset?(2026)",
+    "date": "2026-04-25",
+    "category": "Ostoopas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU kokotaulukko vaihtovirtapysäköintiä varten kuorma-auton ohjaamon ja RV-kokoonpanojen välillä",
+    "excerpt": "[2026] Kuinka monta BTUs makuuohjaamosi tai RV makuuhuoneesi tarvitsee?Vaiheittainen kaava plus taulukot luokan 8 kuorma-autoille (5 000–10 000 BTU), Sprinter-pakettiautomille (6 000–8 000 BTU) ja 25 jalan __CDP_TERM_..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Pysäköinti-AC-asennuskustannukset 2026: Kauppahinnat osavaltioittain ja tee-se-itse-säästöt",
+    "date": "2026-04-25",
+    "category": "Ostoopas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "Ammattimainen pysäköinti-AC-asennus, joka näyttää kattoleikkauksen, johdotuksen ja akun integroinnin",
+    "excerpt": "[2026] Pysäköinti-AC:n asennuskustannukset osavaltioittain: 400–1200 dollaria ammattikäyttöön, 0–150 dollaria tee-se-itse.Todelliset kauppahinnat Kaliforniasta, TX:stä, FL:stä ja NY:stä sekä täydellinen erittely yksik..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Pysäköinti-AC-melun vertailu: todelliset dB-tasot testattu 3 jalan korkeudella (2026)",
+    "date": "2026-04-25",
+    "category": "Vertailu",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "Desibelimittari, joka mittaa pysäköinnin vaihtovirran melua 3 jalan etäisyydeltä makuuohjaamossa",
+    "excerpt": "[2026] Mittasimme 12 pysäköinti-AC-yksikköä kalibroidulla dB-mittarilla 3 jalan korkeudelta.CoolDrivePro V-TH1 saavutti 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Oikeita lukuja, ei markkinointia."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Kuorma-auton vaihtovirtavirrankulutus: wattia, ampeeria ja akun tyhjennys selitettynä (2026)",
+    "date": "2026-04-25",
+    "category": "Virta & Akku",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Kuorma-auton pysäköinti AC-virrankulutuksen valvonta shuntilla ja akkumonitorilla",
+    "excerpt": "[2026] Kuorma-auton vaihtovirtavirrankulutus: 480 W keskimäärin, 9 A 24V, 38–55 Ah per yö.Reaalilukuja, kaavoja akun kokoa varten ja kuinka invertterikompressorit leikkaavat vetoa 30 %."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Akkukäyttöinen RV Ilmastointilaite: Täydellinen 2026 ostajan opas",
+    "date": "2026-04-24",
+    "category": "Osto-oppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "Akkukäyttöinen RV-ilmastointilaite 2026 — Luokan B asuntoauton sisätilat yöllä katolla 12V DC Pysäköinti-AC LiFePO4 akkupankki, näyttö näyttää 220Ah:n kapasiteettia ja 95 tunnin käyttöaikaa.",
+    "excerpt": "Täydellinen vuoden 2026 opas akkukäyttöisistä RV-ilmastointilaitteista.Alkuperäinen 12V/24V DC vs. invertteriasetukset, todelliset LiFePO4 ajonaikaiset tiedot (220Ah → 8–11 h), 1500–3800 dollarin alennus hintaluokissa..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Pysäköinti-AC:n asentaminen: vaiheittainen opas vuodelle 2026",
+    "date": "2026-04-24",
+    "category": "Asennusoppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Pysäköintipaikan asentaminen AC 2026 — asentaja leikkaa 14 x 14 tuuman kattoaukon Sprinter-pakettiaukoon palapelillä CoolDrivePro VS02 PRO 12V DC yksiköllä, kaapelilla työnnetään ulos 4 kuorma-auton tiiviste, tiiviste",
+    "excerpt": "Askel askeleelta 2026 opas pysäköintiilmavirran asennukseen: katon esivalmistelu, 14x14 aukko, tiiviste, johdot (4 AWG, 80 A sulake), käyttöönotto.6–9 tuntia tee-se-itse, 325 dollaria laitteen ulkopuolella."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Akku pysäköintiin AC: 2026 Mitoitus- ja johdotusopas",
+    "date": "2026-04-24",
+    "category": "Käyttöoppaat",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "LiFePO4 akku pysäköintiin AC 2026 — Sprinter-pakettiauton avoin akkutila, jossa on kaksi 220 Ah Battle Born LiFePO4 -akkua rinnakkain 2/0 AWG-kaapeleiden, 200A luokan T sulakkeen, virtakiskon ja Victron BMV-72%:n SOC4-näytön lukeman BMV-72.",
+    "excerpt": "2026 LiFePO4 kokoopas pysäköinnin AC: 220Ah ($1400), 280Ah ($1750), 400Ah ($2400) vaihtoehdot 8 tunnin ajonaikaisella matematiikalla, BMS/sulake/kaapelin tekniset tiedot."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Pysäköinti-ilmastointi ei jäähdytä?2026 vianmääritysopas (vaiheittaiset)",
+    "date": "2026-04-24",
+    "category": "Vianetsintä",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "Pysäköinti AC ei jäähdytys vianetsintä 2026 — kuljettaja puolikuorma-auton ratapölkkyssä, jossa yleismittari mittaa 12V DC pysäköinnin AC virtaliitin 11,4 V:lla, lämpömittarin lukema 78 °F tuloilma vs. 79 °F paluu, infrapunakuva, jossa lauhduttimen kuuma piste",
+    "excerpt": "Vuoden 2026 vaiheittainen opas pysäköinti-AC:n korjaamiseen, joka ei jäähdy.Jännitehäviö, kylmäaine, likainen lauhdutin, termostaatti, BMS – diagnoosi 30 minuutissa, 0–280 dollarin korjauksia."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Pysäköinti AC vs APU: 2026 kustannusten ja suoritusten vertailu kalustoille",
+    "date": "2026-04-24",
+    "category": "Arvostelut ja vertailut",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "Pysäköinti AC vs APU 2026 — rinnakkain vertailu Freightliner Cascadiasta akkukäyttöisellä DC pysäköinti-AC:lla verrattuna makuuvaunuun, jossa on RigMaster APU ja diesel-runkoon asennettu APU. ja polttoainepumpun näytössä 0 $/vuosi hinta 5-gal.peittokuva",
+    "excerpt": "Vuoden 2026 laivaston päätösopas: pysäköinti AC vs APU.Viiden vuoden TCO 4,05 dollarin dieselillä – DC pysäköinti-AC säästää 9 800–14 200 dollaria/kuorma-auto verrattuna dieseliin APU, 3 200–5 400 dollaria tyhjäkäynti..."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs. 24V Pysäköintiilmastointi vuonna 2026: kuorma-auto, RV ja pakettiauton päätöksentekoopas",
+    "date": "2026-04-23",
+    "category": "Ostajan opas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "imageAlt": "12V vs 24V pysäköintiilmastointivertailu – vierekkäin sijaitsevat katolla olevat pysäköintiilmastointilaitteet, jotka on kytketty kuorma-auton sähköjärjestelmille 12V ja 24V ja RV",
+    "excerpt": "12V vs 24V pysäköinti AC vuonna 2026: vastaa ajoneuvosi alkuperäistä jännitettä.Kaapelimitta, akun hinta, tehokkuus, käyttöaika ja muunnin järkevä erittely.Päätösmatriisi sisällä."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Paras pysäköintiilmastointilaite 2026: 9 parasta valintaa verrattuna (kuorma-autot, RVs ja pakettiautot)",
+    "date": "2026-04-23",
+    "category": "Ostajan opas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "Paras pysäköintiilmastointilaite 2026 – valikoima katto- ja split-järjestelmäisiä DC pysäköinti-AC-yksiköitä, jotka on asennettu puolikuorma-autoon, RV ja pikajuoksuautoon kirkkaalla taivaalla",
+    "excerpt": "9 parasta vuodelle 2026 testattua pysäköintiilmastointilaitetta: vierekkäin BTU, melu, veto, hinta ja todellinen suorituskyky puolikuorma-autoille, RVs, pikajuoksuautoille ja kalustoille.Voittaja valitsee käyttötarkoi..."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Pysäköinti-ilmastointilaitteen ostoopas 2026: Oikean yksikön valitseminen (hävittämättä 1 500 dollaria)",
+    "date": "2026-04-23",
+    "category": "Ostajan opas",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "imageAlt": "Pysäköinti-ilmastointilaitteen ostoopas 2026 — katto- ja minijaetut DC pysäköinti-AC-yksiköt asennettuna kuorma-autoon, RV ja pakettiautoon rinnakkaiseen vertailuun",
+    "excerpt": "2026 pysäköintiilmavirran ostoopas: 7-vaiheinen päätöksentekokehys, BTU-kokotaulukko, teknisten kynnysten arvot, kustannusbudjetit tasoittain ja 5 virhettä, jotka muuttavat 1 500 dollarin AC:n romuksi.Lue ennen ostami..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Pysäköinti-AC Polttoaineen säästölaskin 2026: Joutokäyntikulut vs. DC Pysäköinti-AC vs APU",
+    "date": "2026-04-23",
+    "category": "Työkalut & Laskimet",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "imageAlt": "Pysäköinti-AC:n polttoaineensäästölaskin 2026 — puolikuorma-auton kojelauta, joka näyttää joutokäyntitunnit, polttoaineen kulutuksen ja vuosittaisen säästön vertailun joutokäynnin, dieselin APU ja DC -ilmastointilaitteen välillä",
+    "excerpt": "Laske tarkat polttoainesäästöt DC pysäköinnistä AC vs joutokäynti vs diesel APU.2026 polttoaineen hinnat, todelliset käyttömäärät, elinikäinen ROI.Toimivia esimerkkejä omistaja-operaattoreille ja 100-kuorma-autoille."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Pysäköinti-ilmastointi Aleksandrian rannikon kosteudelle: Egyptin Välimeren ilmastohaasteiden torjunta",
     "date": "2026-03-31",
@@ -113,6 +369,7 @@
     "date": "2026-01-10",
     "category": "Tekniikka",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp",
+    "imageAlt": "Pysäköinti-AC Smart Home -integraatio: Ohjaa ajoneuvosi ilmastointia mistä tahansa",
     "excerpt": "Tutustu siihen, kuinka pysäköinnin AC älykkään kodin integroinnin avulla voit hallita ajoneuvosi ilmastoa mistä tahansa, mikä lisää mukavuutta ja tehokkuutta RV-laitteissa ja kuorma-autoissa."
   },
   {
@@ -130,6 +387,7 @@
     "date": "2025-12-29",
     "category": "Kuljettajan turvallisuus",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
+    "imageAlt": "Kuinka vähentää kuljettajan lämpöstressiä sähköisillä pysäköintijärjestelmillä",
     "excerpt": "Opi kuinka sähköiset pysäköinti-AC-järjestelmät suojaavat kuljettajia lämpöstressiltä Afrikan ilmastossa.Paranna turvallisuutta, pitoa ja tuottavuutta tehokkaalla ohjaamon jäähdytyksellä."
   },
   {
@@ -138,6 +396,7 @@
     "date": "2025-12-28",
     "category": "Asennusoppaat",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
+    "imageAlt": "Yleisiä kuorma-autojen ilmastointilaitteiden asennusvirheitä Afrikassa",
     "excerpt": "Vältä kalliita vikoja oppimalla yleisimmät kuorma-autojen AC-asennusvirheet Afrikassa.Asiantuntija-opastus oikeanlaiseen asennukseen, johdotukseen ja tiivistykseen."
   },
   {
@@ -146,6 +405,7 @@
     "date": "2025-12-27",
     "category": "Tekniset oppaat",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
+    "imageAlt": "Kuinka pöly, tien tärinä ja lämpö vaikuttavat pysäköinnin AC suorituskykyyn",
     "excerpt": "Ymmärrä, kuinka Afrikan ympäristöhaasteet vaikuttavat kuorma-autojen pysäköintiin, ja opi huoltostrategioita luotettavan jäähdytyksen varmistamiseksi vaikeissa olosuhteissa."
   },
   {
@@ -154,6 +414,7 @@
     "date": "2025-12-26",
     "category": "Tekniset oppaat",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
+    "imageAlt": "Pienjännitesuojaus: mitä afrikkalaisten laivaston ostajien on tiedettävä",
     "excerpt": "Tärkeä opas pienjännitesuojaukseen kuorma-autojen pysäköintijärjestelmissä.Opi kuinka akun suojaus toimii ja miksi sillä on merkitystä Afrikan laivaston toiminnalle."
   },
   {
@@ -162,6 +423,7 @@
     "date": "2025-12-25",
     "category": "Vianetsintä",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
+    "imageAlt": "Miksi kuorma-autosi AC-jäähdytys heikkenee äärimmäisessä kuumuudessa (ja kuinka korjata se)",
     "excerpt": "Ota selvää, miksi kuorma-autojen ilmastointilaitteet menettävät jäähdytystehoa äärimmäisessä kuumuudessa, ja opi todistettuja ratkaisuja suorituskyvyn palauttamiseksi Afrikan autiomaassa."
   },
   {
@@ -170,6 +432,7 @@
     "date": "2025-12-24",
     "category": "Asennusoppaat",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
+    "imageAlt": "Ammattimainen asennusopas kuorma-autojen pysäköintihalliin Afrikassa",
     "excerpt": "Askel askeleelta ammattimainen asennusopas kuorma-autojen pysäköintiilmastointilaitteille Afrikan olosuhteissa.Opi asennus-, johdotus- ja käyttöönottomenettelyt luotettavaa suorituskykyä varten."
   },
   {
@@ -187,6 +450,7 @@
     "date": "2025-12-19",
     "category": "Laivaston ratkaisut",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp",
+    "imageAlt": "Kuorma-autojen ilmastointilaitteiden tukkumyynti Tunisian kuljetuskalustoon",
     "excerpt": "Kuorma-autojen ilmastointilaitteiden tukkumyynti Tunisian kuljetuskalustoon.Bulkkihinnoittelu ja kalustoratkaisut luotettavaa jäähdytysteknologiaa etsiville pohjoisafrikkalaisille logistiikkaoperaattoreille."
   },
   {
@@ -213,6 +477,7 @@
     "date": "2025-12-16",
     "category": "Alueelliset oppaat",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp",
+    "imageAlt": "Kuorma-autojen ilmastointilaitteet Etiopian korkeisiin kuljetuksiin",
     "excerpt": "Erikoistuneet kuorma-autoilmastointilaitteet Etiopian korkeisiin kuljetuksiin.Suunniteltu Afrikan sarven korkeiden logistiikkakäytävien ainutlaatuisiin haasteisiin."
   },
   {
@@ -230,6 +495,7 @@
     "date": "2025-12-14",
     "category": "Alueelliset oppaat",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp",
+    "imageAlt": "Sähköautojen ilmastointilaitteet Ugandan kasvavalle kuljetuskalustolle",
     "excerpt": "Sähköautojen ilmastointilaitteet Ugandan kasvavaan kuljetuskalustoon.Tehokkaat jäähdytysratkaisut Itä-Afrikan nousevaan logistiikkakeskukseen ja rajat ylittävään toimintaan."
   },
   {
@@ -238,6 +504,7 @@
     "date": "2025-12-13",
     "category": "Erikoissovellukset",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp",
+    "imageAlt": "Pysäköinti-ilmastointilaitteet Tansanian Safari-matkailuajoneuvoihin",
     "excerpt": "Tutustu Tansanian safarimatkailuajoneuvojen pysäköintiilmastointiratkaisuihin.Pidä vieraat mukavana säilyttäen samalla villieläinkokemukset Itä-Afrikan tärkeimmässä safarikohteessa."
   },
   {
@@ -327,6 +594,7 @@
     "date": "2025-12-06",
     "category": "Matkailusovellukset",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp",
+    "imageAlt": "Pysäköinti-ilmastointilaitteet Tansanian safarimatkailulle: Serengetistä Zanzibar Comfortiin",
     "excerpt": "Nosta Tansanian safarimatkailua pysäköinti-AC-järjestelmillä.Tärkeä jäähdytys villieläinreittiajoneuvoille, jotka liikennöivät Serengetissä, Ngorongorossa ja Sansibarin rannikkoreiteillä."
   },
   {
@@ -344,6 +612,7 @@
     "date": "2025-12-05",
     "category": "Liiketoimintamahdollisuus",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
+    "imageAlt": "Ryhdy kuorma-autojen ilmastointilaitteiden jakelijaksi Afrikassa",
     "excerpt": "Ryhdy kanssamme kumppaniksi kuorma-autojen ilmastointilaitteiden jakelijaksi Afrikassa.Ainutlaatuiset alueet, markkinointituki ja tekninen koulutus alueellisille kumppaneille."
   },
   {
@@ -352,6 +621,7 @@
     "date": "2025-12-05",
     "category": "Tukipalvelut",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
+    "imageAlt": "Varaosat ja huoltotuki Truck AC:lle Afrikassa",
     "excerpt": "Kattavat varaosat ja huoltotuki kuorma-autojen ilmastointilaitteille Afrikassa.Suodattimet, kompressorit, kylmäaine ja tekninen tuki saatavilla."
   },
   {
@@ -414,6 +684,7 @@
     "date": "2025-12-03",
     "category": "Alueelliset oppaat",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp",
+    "imageAlt": "Rajat ylittävän liikenteen jäähdytys Zimbabwen laivastonhaltijoille",
     "excerpt": "Pysäköinti-ilmastointilaitteet Zimbabwen rajat ylittäville kuljetuskalustoille.Optimoi kuljettajan mukavuus reiteillä, jotka yhdistävät Hararen, Bulawayon ja alueelliset markkinat."
   },
   {
@@ -449,6 +720,7 @@
     "date": "2025-12-02",
     "category": "Alueelliset oppaat",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp",
+    "imageAlt": "Pysäköinti-ilmastointiratkaisut Kenian logistiikkalaivastolle: Nairobi - Mombasa Corridor",
     "excerpt": "Kalustoratkaisut kenialaisille logistiikkayrityksille.Tutustu kuinka pysäköinti-AC-järjestelmät parantavat kuljettajien hyvinvointia vilkkaalla Nairobi-Mombasa-liikennekäytävällä ja sen ulkopuolella."
   },
   {
@@ -511,6 +783,7 @@
     "date": "2025-11-20",
     "category": "Elämäntapa",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp",
+    "imageAlt": "Pysäköinti-ilmastointi yksin RV Matkustajille: turvallisuus, mukavuus ja riippumattomuus",
     "excerpt": "Yksin matkustavat RV, paranna turvallisuuttasi, mukavuuttasi ja riippumattomuuttasi luotettavalla pysäköintiilmastolla.Tärkeä boondockingille ja mielenrauhalle."
   },
   {
@@ -744,6 +1017,7 @@
     "date": "2025-10-26",
     "category": "Opas",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp",
+    "imageAlt": "Pysäköinti-AC:n lämpöpumpun käyttäminen talvella RV Telttailu",
     "excerpt": "Tutustu, kuinka pysäköintiilmastointisi lämpöpumppu voi muuttaa talven RV retkeilyn.Opi tehokkuudesta, akun tarpeista ja lämpimänä pysymisestä kylmässä."
   },
   {
@@ -779,6 +1053,7 @@
     "date": "2025-10-15",
     "category": "Tekniikka",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp",
+    "imageAlt": "Pysäköinti-ilmastointilaitteiden energiatehokkuusluokitukset: EER, COP & SEER ymmärtäminen",
     "excerpt": "Pysäköinnin AC-energiatehokkuusluokitukset selvittävät: EER, COP ja SEER.Opi, mitä nämä luvut tarkoittavat lompakollesi ja mukavuudelle tien päällä."
   },
   {
@@ -818,42 +1093,6 @@
     "excerpt": "Varmista eläinten ja laitteiden turvallisuus liikkuvilla eläinlääkäriasemilla luotettavilla pysäköinti-AC-ratkaisuilla.Kriittinen lääkityksen ja hyvinvoinnin kannalta."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Ilmastointi liikkuviin joogastudioihin ja wellness-pakettiautoihin",
-    "date": "2025-10-15",
-    "category": "Erikoisuus",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "imageAlt": "Ilmastointi liikkuviin joogastudioihin ja wellness-pakettiautoihin",
-    "excerpt": "Tutustu tärkeisiin ilmastointiratkaisuihin liikkuviin joogastudioihin ja wellness-pakettiautoihin.Varmista optimaalinen lämpötilan säätö (68-72 °F) luotettavalla pysäköintiilmastolla."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Pysäköinti-ilmastointi digitaalisille nomadeille, jotka asuvat RVs: työskennellä missä tahansa",
-    "date": "2025-10-15",
-    "category": "Elämäntapa",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "imageAlt": "Pysäköinti-ilmastointi digitaalisille nomadeille, jotka asuvat RVs: työskennellä missä tahansa",
-    "excerpt": "Tärkeä opas vaihtovirran pysäköintiin RV digitaalisille nomadeille.Pysy viileänä ja tuottavana työskennellessäsi etänä RV -laitteesta oikean ilmastointilaitteen avulla."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Pysy viileänä RV Ralleissa ja festivaaleissa: Pysäköinti-AC Vinkkejä tapahtumiin",
-    "date": "2025-10-15",
-    "category": "Elämäntapa",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "imageAlt": "Pysy viileänä RV Ralleissa ja festivaaleissa: Pysäköinti-AC Vinkkejä tapahtumiin",
-    "excerpt": "Master RV rallit pysäköinti-AC!Hanki asiantuntijavinkkejä lisäjäähdytyksestä, akun mitoituksesta ja asennuksesta mukavan tapahtumakokemuksen takaamiseksi."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Van Dwellerin opas pysäköintiilmastointiin: kokoaikainen asuminen ajoneuvossasi",
-    "date": "2025-10-15",
-    "category": "Van Elämä",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "imageAlt": "Van Dwellerin opas pysäköintiilmastointiin: kokoaikainen asuminen ajoneuvossasi",
-    "excerpt": "Tärkeä opas pysäköinti-AC:n valintaan ja asennukseen pakettiauton asukkaille.Pysy viileänä ja mukavana asuntoautossasi asiantuntevien vinkkien avulla."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Pysäköinti-ilmastointilaitteen asennuskustannukset: Täydellinen hintaerittely 2025",
     "date": "2025-10-15",
@@ -861,15 +1100,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "imageAlt": "Pysäköinti-ilmastointilaitteen asennuskustannukset: Täydellinen hintaerittely 2025",
     "excerpt": "Erittele pysäköinti-ilmastointilaitteen asennuskustannukset vuodelle 2025. Hanki näkemyksiä hintaan vaikuttavista tekijöistä yksikkötyypistä sähköpäivityksiin."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "R32-kylmäaine seuraavan sukupolven pysäköinti-AC:issa: pienempi GWP ja parempi tehokkuus",
-    "date": "2025-10-15",
-    "category": "Tekniikka",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "imageAlt": "R32-kylmäaine seuraavan sukupolven pysäköinti-AC:issa: pienempi GWP ja parempi tehokkuus",
-    "excerpt": "Ota selvää, miksi R32-kylmäaineesta on tulossa ensisijainen valinta seuraavan sukupolven pysäköinti-AC:ille, mikä tarjoaa alhaisemman GWP:n ja paremman hyötysuhteen hyötyajoneuvoissa."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -897,15 +1127,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-food-trucks-hero.webp",
     "imageAlt": "Ruoka-autojen ilmastointi: Pidä keittiösi ja ohjaamosi viileinä",
     "excerpt": "Pidä ruoka-autosi viileänä ja oikean pysäköinti-AC:n mukaisena.Oppaamme kattaa BTU tarpeet, asennuksen ja huippumallit, kuten CoolDrivePro VS02 PRO & VX3000SP."
-  },
-  {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Pysäköinti-ilmastointilaitteen ostoopas 2025: Kaikki mitä sinun tulee tietää ennen ostamista",
-    "date": "20. marraskuuta 2024",
-    "category": "Ostajan opas",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "imageAlt": "Pysäköinti-ilmastointilaitteen ostoopas 2025: Kaikki mitä sinun tulee tietää ennen ostamista",
-    "excerpt": "Täydellinen 2025 pysäköintiilmastointilaitteen ostoopas.Vertaa BTU-luokituksia, 12V vs 24V, yläasennettua vs. minijaettua, ja löydä paras pysäköintiilmastointi kuorma-autollesi tai RV."
   },
   {
     "slug": "mppt-solar-controller-rv-ac",
@@ -942,15 +1163,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership-hero.webp",
     "imageAlt": "Pysäköinti-ilmastoinnin tuottoprosentti: kokonaisomistuskustannukset vs. moottorin joutokäynti yli 5 vuoden ajan",
     "excerpt": "Löydä pysäköintiilmastointilaitteiden todellinen ROI verrattuna moottorin joutokäyntiin viiden vuoden aikana.Opi TCO:sta, säästöistä ja CoolDrivePro-ratkaisuista kuorma-autonkuljettajille, RV-autoille ja pakettiautoille."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V vs 24V Pysäköintiilmastointi: kumpi sopii kuorma-autollesi vai RV?",
-    "date": "8. maaliskuuta 2025",
-    "category": "Tekniikka",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "imageAlt": "12V vs 24V Pysäköintiilmastointi: kumpi sopii kuorma-autollesi vai RV?",
-    "excerpt": "Valitsetko 12V ja 24V pysäköinti-AC:n välillä kuorma-autollesi vai RV?Tämä kattava opas kertoo kunkin järjestelmän edut, haitat ja ihanteelliset sovellukset, mikä auttaa sinua tekemään tietoon perustuvia päätöksiä opt..."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -1115,15 +1327,6 @@
     "excerpt": "Pysy viileänä kouluissasi!Oppaamme kattaa parhaan pysäköintiilmastoinnin koulubussien muunnoksille, mukaan lukien katto-, mini-split- ja 12V -vaihtoehdot.Lisätietoja asennuksesta, tehosta ja muusta."
   },
   {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Kuinka paljon polttoainetta pysäköinti-ilmastointi säästää?Oikeat numerot ja ROI-laskin",
-    "date": "15. helmikuuta 2025",
-    "category": "Opas",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "imageAlt": "Kuinka paljon polttoainetta pysäköinti-ilmastointi säästää?Oikeat numerot ja ROI-laskin",
-    "excerpt": "Ota selvää, kuinka paljon polttoainetta pysäköintiilmastointi voi säästää.Oppaamme sisältää todellisia lukuja, ROI-laskimen ja vinkkejä kuorma-autoille, RV- ja pakettiautoille."
-  },
-  {
     "slug": "parking-ac-ghana-tamale-northern-region",
     "title": "Parking AC Ghana Tamale: Northern Region Transport Solutions",
     "date": "29. maaliskuuta 2025",
@@ -1239,10 +1442,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "imageAlt": "Pysäköinti-ilmastointilaitteen johdotusopas: Turvallinen 12V/24V Sähköasennus - pysäköintiilmastoinnin opas",
     "excerpt": "Kattava opas turvalliseen 12V/24V pysäköintiin AC-johdot ja sähköasennukset kuorma-autoihin, RV-autoihin ja pakettiautoihin.Lisätietoja CoolDrivePro-yksiköiden komponenteista, jännitehäviöstä, akun hallinnasta ja vian..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

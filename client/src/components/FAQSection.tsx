@@ -29,8 +29,20 @@ const faqs = [
   {
     question: "Can a parking air conditioner be used in a semi truck?",
     answer:
-      "Yes — parking air conditioners are widely used in semi truck cabs. Our 12V and 24V DC parking AC units are specifically engineered for truck cab dimensions and electrical systems. They help truck drivers comply with anti-idling regulations at truck stops while maintaining a comfortable sleeping environment during mandatory rest periods.",
+      "Yes — parking air conditioners are widely used as semi truck air conditioner and semi truck AC unit upgrades. Our 12V and 24V DC parking AC units are specifically engineered for truck cab dimensions and electrical systems. They help truck drivers reduce idling at truck stops while maintaining a comfortable sleeping environment during mandatory rest periods.",
     keywords: ["parking air conditioner semi truck", "no-idle truck AC"],
+  },
+  {
+    question: "What is the best 12 volt air conditioner for trucks?",
+    answer:
+      "The best 12 volt air conditioner for trucks depends on whether you are cooling a pickup cab, truck camper, truck cap, truck bed workspace, van, or semi truck sleeper. Compact 12V truck AC units fit lighter vehicles with limited roof space, while larger 12V/24V parking AC systems are better for sleeper cabs, RVs, and fleet use.",
+    keywords: ["12 volt air conditioner for trucks", "truck AC unit", "12v air conditioner for truck"],
+  },
+  {
+    question: "Is a portable AC for truck use the same as a parking AC?",
+    answer:
+      "Not exactly. Many portable AC for truck searches refer to hose-style or temporary cooling units. CoolDrivePro focuses on DC parking AC systems that mount to the vehicle and run from 12V or 24V battery power, making them a more durable no-idle option for truck cab air conditioner, truck camper AC, truck cap air conditioner, and truck bed AC unit projects.",
+    keywords: ["portable AC for truck", "truck cab air conditioner", "truck cap air conditioner"],
   },
   {
     question: "Does a parking air conditioner damage the battery?",

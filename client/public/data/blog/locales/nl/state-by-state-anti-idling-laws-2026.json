@@ -1,0 +1,551 @@
+{
+  "title": "Anti-stationairwetten per staat 2026: opzoeken van 50 staten + AC ROI-calculator voor parkeren",
+  "date": "2026-06-08",
+  "category": "Regelgeving en naleving",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Amerikaanse kaart met de anti-stationairwetten van 2026 per staat, met overlay voor naleving van de parkeer-AC-naleving",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Alle 50 anti-stationairwetten van de VS voor 2026 in één tabel: boetebereiken, limieten van 5 versus 15 minuten, vrijstellingen voor sleepers/DEF, en een uitgewerkte ROI die laat zien hoe een AC-parkeerbatterij binnen 9 tot 14 maanden terugbetaalt versus boetes voor stationair draaien plus brandstofkosten.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Als u in 2026 klasse 8 rijdt, is de lappendeken van de staatswet tegen stationair draaien van 2026 niet langer iets dat u kunt negeren.Eenenveertig Amerikaanse staten en de meeste grote metro’s beperken nu de stationaire tijd van de motor tijdens geparkeerde rustplaatsen, boetes variëren van $ 50 tot meer dan $ 25.000 per overtreding, en de handhaving bij vrachtwagenstopplaatsen, weegstations en rustplaatsen is sterk toegenomen sinds de vernieuwing van het EPA SmartWay-programma uit 2024."
+    },
+    {
+      "heading": null,
+      "body": "Deze pagina is de werkreferentie die we naar wagenparkbeheerders en eigenaar-exploitanten sturen die drie vragen stellen: *wat zegt mijn staat eigenlijk in 2026, telt mijn parkeer-AC als naleving, en wat zijn de werkelijke jaarlijkse kosten om niet-conform te blijven versus $ 2.800 uitgeven aan een parkeer-AC*.We beantwoorden ze alle drie hieronder: met een opzoektabel met 50 statussen, een numerieke ROI-uitsplitsing en een eerlijke kolom die laat zien waar accuparkeer-AC past en waar niet."
+    },
+    {
+      "heading": null,
+      "body": "Snelle navigatie: ga naar de [50-state table](#the-50-state-lookup-table), de [ROI calculator](#roi-calculator-idle-cost-vs-parking-ac), of de [compliance ranking](#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR — De tien strengste staten en wat ze in 2026 beboeten"
+    },
+    {
+      "heading": null,
+      "body": "Als je maar één paragraaf leest: Californië, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah en Colorado voeren de strengste handhavingsregels in 2026 uit.Inactieve limieten in deze groep liggen op **5 minuten** (CA, NJ, MA, CT, MD) of **3 minuten** (NYC, NJ commerciële districten) wanneer de omgevingstemperatuur tussen ongeveer 25°F en 75°F ligt.De lossere limieten van 10 minuten en **15 minuten** in Nevada, West Virginia en delen van Illinois zijn nog steeds van toepassing op commerciële vrachtwagens – de scheiding van **5 minuten versus 15 minuten** is het meest verwarrende feit bij het onboarden van wagenparken.Buiten die bandbreedte treden doorgaans vrijstellingen voor slaapplaatsen in werking, maar alleen als de exploitant de vrijstelling kan bewijzen, en dat is waar de meeste overtredingen daadwerkelijk plaatsvinden."
+    },
+    {
+      "heading": null,
+      "body": "De fijne structuur in 2026 is wat het meest veranderd is.Het oude tijdperk van ‘€ 100,- en ga verder’ is voorbij voor recidivisten.**California ATCM** onder [CARB heavy-duty idle rule](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) stapelt boetes op: $300 eerste overtreding, $1.000 tweede binnen 36 maanden, tot $25.000 voor wagenparkbrede patronen.**New Jersey** verdubbelt boetes bij tweede overtreding binnen 12 maanden.**Lokale wet 5 van NYC** staat door burgers gerapporteerde tickets toe voor $350-$2.000."
+    },
+    {
+      "heading": null,
+      "body": "De vier uitzonderingen die overal voorkomen: (1) **slaapplaats** rust bij een omgevingstemperatuur onder de 25°F of boven 75°F (meest gebruikelijk), (2) **DEF-bevriezingsbescherming** wanneer de omgevingstemperatuur onder ~30°F daalt, (3) **verkeer gestopt** stationair draaiend, (4) **EPA SmartWay-geverifieerd** APU of gebruik van AC-parkeerbatterijen - dat is de maas in de wet waar de rest van deze pagina omheen is gebouwd."
+    },
+    {
+      "heading": null,
+      "body": "## Hoe de Amerikaanse anti-stationairwetten tot stand zijn gekomen (geschiedenis van 1 alinea)"
+    },
+    {
+      "heading": null,
+      "body": "De juridische ruggengraat gaat terug naar de amendementen van de **Clean Air Act 1990** (**CAA 1990**), die de EPA autoriteit geven over emissies uit mobiele bronnen.In 2004 lanceerde EPA **SmartWay**, een vrijwillig verificatieprogramma voor technologieën voor het terugdringen van inactiviteit dat de de facto referentielijst werd die staten aanhalen bij het vaststellen van vrijstellingen.Californië **CARB** ging in 2008 het verst met de **Airborne Toxic Control Measure (ATCM)** voor in gebruik zijnde commerciële motorvoertuigen op diesel – een limiet van 5 minuten voor de gehele staat met handhavingsmaatregelen.De federale **FMCSA Hours-of-Service (HOS)**-voorziening voor slaapplaatsen, gemoderniseerd in 2020 en vernieuwd in 2024, vereist dat chauffeurs uitrusten in een slaapplaats die in de praktijk temperatuurgecontroleerd moet zijn om bewoonbaar te zijn – wat precies het conflict is dat anti-stationair-wetten creëren en parkeer-AC oplost."
+    },
+    {
+      "heading": null,
+      "body": "## De opzoektabel met 50 staten {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Bijgewerkt voor **handhaving in 2026** op basis van de [EPA Compilation of State Idling Regulations](https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) en staatsbulletins van het DOT die zijn uitgegeven tot en met het eerste kwartaal van 2026. 'Accuparkeren AC-naleving' betekent dat een door SmartWay geverifieerd of gelijkwaardig koelsysteem dat uitsluitend op batterijen werkt, aan de vrijstelling voldoet zonder stationair draaiende motor."
+    },
+    {
+      "heading": null,
+      "body": "|Staat |Inactieve limiet |Fijn bereik |Slaper vrijgesteld |APU vrijgesteld |Accuparkeren AC-compatibel |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Geen over de hele staat |— |— |— |✅ (geen regel) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 min (Maricopa) |$ 300–$ 1.500 |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Californië |5 min (CARB-ATCM) |$ 300–$ 25.000 |Y >75°F of <25°F |Y (geverifieerd) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 min (Denver/lokaal) |$ 100–$ 500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 minuten |$ 250–$ 5.000 |Y <20°F of >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 minuten |$ 50–$ 500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida |5 min (Miami-Dade) |$ 150–$ 500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Georgië |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaï |3 minuten |$ 100–$ 1.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 minuten (Chicago) |$ 50–$ 500 |Y <32°F of >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 minuten |$ 150–$ 1.500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 minuten |$ 500–$ 25.000 |Y <40°F of >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 minuten |$ 100–$ 25.000 |J <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 min (Mpls/St Paul) |$ 25–$ 1.000 |J <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 min (Clark/Washoe) |$ 100–$ 500 |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Newhampshire |5 minuten |$ 100–$ 1.000 |J <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 minuten |$ 250–$ 5.000 |Y <25°F of >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nieuw-Mexico |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 min staat / 3 min NYC |$ 350–$ 2.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Noord-Carolina |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Noord-Dakota |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 minuten |$ 190–$ 2.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvania |5 min (Wet dieselstationair draaien) |$ 150–$ 1.000 |Y <40°F of >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Rhode Island |5 minuten |$ 100–$ 500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Zuid-Carolina |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Zuid-Dakota |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texel |5 min (TCEQ-provincies) |$ 200–$ 2.000 |Y <40°F of >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 min (Zoutmeer) |$ 115–$ 300 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 minuten |$ 100–$ 1.000 |J <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia |10 min staat / 3 min N. VA |$ 250–$ 25.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|West-Virginia |15 minuten |$ 150 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Geen over de hele staat |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 min zomer / 5 min winter |$ 500–$ 5.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Let op het structurele patroon: **elke staat met een actieve regel kent een AC-nalevingspad voor batterijparkeren toe**.Dit is geen toeval: toen CARB en EPA de modelregels schreven, namen ze expliciet \"alternatieve technologie op die cabinecomfort biedt zonder werking van de hoofdmotor\", zodat wagenparken hieraan konden voldoen zonder dieselvrachtwagens te parkeren op terreinen van 100 ° F zonder koeling.Vrijstellingen voor slaapplaatsen en DEF zijn het oude ontsnappingsluik;accuparkeerstroom AC is de moderne."
+    },
+    {
+      "heading": null,
+      "body": "## Federale laag: EPA SmartWay + FMCSA HOS-interactie"
+    },
+    {
+      "heading": null,
+      "body": "Er is **geen enkele federale anti-stationairwet voor vrachtwagens** in 2026. Wat er federaal uitziet, zijn eigenlijk twee programma's die overlappen met staatsregels:"
+    },
+    {
+      "heading": null,
+      "body": "**EPA SmartWay-geverifieerde lijst.** SmartWay onderhoudt een [geverifieerde lijst van technologieën voor inactieve reductie](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies) waarin referenties worden vermeld bij het definiëren van vrijstellingen.Als uw parkeer-AC op deze lijst staat, heeft u verdediging in de rechtbank in elke staat die deze erkent – ​​wat in 2026 alle 19 staten zijn met actieve inactieve regels.AC-parkeersystemen van Webasto, Dometic, Bergstrom NITE en CoolDrivePro VTH1 staan ​​allemaal op de lijst of komen in aanmerking voor vermelding."
+    },
+    {
+      "heading": null,
+      "body": "**FMCSA Hours-of-Service (HOS).** De [federale voorziening voor slaapplaatsen](https://www.fmcsa.dot.gov/regulations/hours-of-service) vereist dat chauffeurs ten minste 7 aaneengesloten uren in de slaapplaats doorbrengen als onderdeel van de reset van 10 uur buiten dienst.Een slaapplaats bij 35°C is geen legitieme rustomgeving, en DOT-inspecteurs zijn sinds 2023 begonnen met het noteren van bevindingen over onveilige cabinetemperaturen in inspectierapporten langs de weg. Dit is de praktische reden waarom wagenparkbeheerders niet langer kunnen zeggen: “Zeg maar tegen chauffeurs dat ze een raam open moeten zetten” – de veiligheidsregelaar en de luchtregelaar wijzen nu allebei op hetzelfde probleem."
+    },
+    {
+      "heading": null,
+      "body": "Het **interactie-effect** is van belang voor compliance-audits: een wagenpark dat wordt getroffen door herhaaldelijke overtredingen van de stationairregels in CA of NJ, verhoogt ook een FMCSA-veiligheidsbeoordelingsvlag, omdat het onderliggende gedragspatroon (chauffeurs die de motoren laten draaien voor cabinecomfort tijdens HOS-rust) zowel een emissieovertreding als een vermoeidheids-/inspectierecordprobleem creëert.Door er één op te lossen, worden beide opgelost."
+    },
+    {
+      "heading": null,
+      "body": "## ROI-calculator: inactieve kosten versus parkeren AC {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Wikipedia en de EPA-documenten beschrijven de wetten, maar geen van beide publiceert een echte ROI.Hier is de berekening, waarbij gebruik wordt gemaakt van **aannames voor invoer uit 2026** die elke eigenaar-exploitant of wagenparkplanner kan vervangen door zijn eigen nummers."
+    },
+    {
+      "heading": null,
+      "body": "**Inputs (nationale gemiddelden voor 2026):**"
+    },
+    {
+      "heading": null,
+      "body": "- Brandstofverbruik bij stationair draaien van de hoofdmotor van klasse 8: **0,8 gal/uur** ([ATRI kostengegevens bij stationair draaien](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Dieselprijs op de snelweg (mei 2026): **$ 3,95 / gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Inactieve uren per nacht (koelseizoen, mei t/m september): **9 uur**"
+    },
+    {
+      "heading": null,
+      "body": "- Nachten inactief per jaar (relevant voor koeling): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Gemiddeld boeterisico per jaar dat niet aan de regels voldoet (4 handhavingsstatenroute, handhavingsgegevens uit 2026): **$420**"
+    },
+    {
+      "heading": null,
+      "body": "- Slijtagekosten bij stationair draaien van de hoofdmotor: **$ 0,30 / stationair uur** (versnelling van het olieverversingsinterval + EGR/DPF-stress, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Jaarlijkse kosten voor stationair draaien voor cabinekoeling (niets doen):**"
+    },
+    {
+      "heading": null,
+      "body": "|Kostencomponent |Wiskunde |Jaarlijks $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Brandstof |9 uur × 140 nachten × 0,8 gal × $ 3,95 |**$ 3.981** |"
+    },
+    {
+      "heading": null,
+      "body": "|Motorslijtage |9 uur × 140 nachten × $ 0,30 |**$378** |"
+    },
+    {
+      "heading": null,
+      "body": "|Boeterisico (nationaal gemiddelde) |mix van handhaving en staat |**$ 420** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Totale jaarlijkse kosten voor inactiviteit** ||**$ 4.779** |"
+    },
+    {
+      "heading": null,
+      "body": "**Jaarlijkse kosten voor accuparkeren AC-naleving:**"
+    },
+    {
+      "heading": null,
+      "body": "|Kostencomponent |Wiskunde |Jaarlijks $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Hardware afgeschreven (levensduur van 3 jaar op een 12V/24V accu van $ 2800 voor parkeer-AC zoals de [CoolDrivePro VTH1](/products/vth1)) |$ 2.800 / 3 |**$933** |"
+    },
+    {
+      "heading": null,
+      "body": "|Toegevoegd wallading / dynamotijd |~110 kWh × $0,15 |**$ 17** |"
+    },
+    {
+      "heading": null,
+      "body": "|Afschrijving accubank (LiFePO4 toegevoegde cellen gedurende 5 jaar) |$ 1.200 / 5 |**$240** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Totale jaarlijkse parkeerkosten AC** ||**$ 1.190** |"
+    },
+    {
+      "heading": null,
+      "body": "**Netto jaarlijkse besparing: $4.779 − $1.190 = $3.589 per vrachtwagen per jaar.**"
+    },
+    {
+      "heading": null,
+      "body": "**Eenvoudige terugverdientijd voor een apparaat van $ 2800 + batterij-upgrade van $ 1200 = 13,4 maanden** op nationaal gemiddelde.In staten met strenge handhaving (CA, NJ, NY, MD) wordt de terugverdientijd gecomprimeerd tot minder dan negen maanden, omdat de grens voor het fijne risico stijgt van $420 naar $1.800+ per jaar."
+    },
+    {
+      "heading": null,
+      "body": "Voor een regionale vloot van 50 vrachtwagens met een CA + NV + AZ rijstrook, is dat een besparing van $179.000 per jaar**. Daarom bouwt elke grote transporteur aan wie we sinds 2024 hebben verkocht het parkeer-AC-regelitem rechtstreeks in de specificatie wanneer ze vrachtwagens vernieuwen."
+    },
+    {
+      "heading": null,
+      "body": "## Nalevingspaden gerangschikt op totale kosten {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Er zijn vier manieren om binnen de regelset van 2026 te blijven.Vermeld van goedkoopste tot duurste over een eigendomshorizon van drie jaar:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Parkeeraccu AC (goedkoopste, ~$1.190/jr).** Voorbeelden: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Voordelen: lichtste gewicht (45-80 lb), stil (<48 dB cabine), geen onderhoud behalve filterreiniging, volledige SmartWay-dekking.Nadelen: hangt af van de batterijcapaciteit voor de nachtelijke looptijd – een enkele Groep 31 AGM is niet genoeg;LiFePO4 of 200+ Ah ​​AGM-bank vereist.Zie de [12V versus 24V parkeer-AC-vergelijking](/compare/12v-vs-24v-parking-ac/) voor de maatvoering."
+    },
+    {
+      "heading": null,
+      "body": "**2.Elektrisch APU (midden, ~$1.800–$2.400/jr).** Voorbeelden: Bergstrom NITE, Idle Free.Voordelen: voedt ook 120V-apparaten (magnetron, koelkast), langere looptijd dan alleen batterij.Nadelen: zwaarder (~250 lb), duurder ($6.000 – $9.500), meer faalpunten.Het beste voor chauffeurs die volledige elektrische belastingen in hotelmodus nodig hebben."
+    },
+    {
+      "heading": null,
+      "body": "**3.Diesel APU (hoogste, ~$2.600–$3.800/jr).** Voorbeelden: Thermo King TriPac, Carrier ComfortPro.Voordelen: onbeperkte looptijd zolang er brandstof aanwezig is, goed begrepen door wagenparktechnici.Nadelen: stoot nog steeds uit - alleen vrijgesteld onder de regel als het zelf door SmartWay is geverifieerd, ongeveer 0,2 gal/uur verbrandt, $ 9.500 - $ 13.000 geïnstalleerd, regelmatig onderhoud vereist.Het [TriPac alternatieve landschap](/blog/dometic-vs-webasto-parking-ac/) is in 2024-2026 sterk opgeschoven naar de batterij."
+    },
+    {
+      "heading": null,
+      "body": "**4.Niets doen (duurste, ~$4.779/jr + oplopend boeterisico).** Geen reële optie voor wagenparken die over CA- of NE-corridors rijden;voor eigenaren-exploitanten buiten de handhavingsautoriteiten is het nog een tot twee jaar uitgesteld tot de volgende grote escalatie van de prijs van stationaire brandstof.We raden het niet aan voor elke vrachtwagenaankoop uit 2026+."
+    },
+    {
+      "heading": null,
+      "body": "## Controlelijst chauffeur en coördinator (afdrukbaar)"
+    },
+    {
+      "heading": null,
+      "body": "Beschouw de onderstaande punten als het nalevingslogboek aan de cabinezijde.Neem een ​​gedrukt exemplaar mee, gelamineerd;DOT-inspecteurs die zien dat chauffeurs hun eigen documentatie bij zich hebben, zijn geneigd sneller te handelen:"
+    },
+    {
+      "heading": null,
+      "body": "- **Dagelijkse logboekinvoer** wanneer parkeerairco wordt gebruikt in plaats van stationair draaiende motor: tijd aan, tijd uit, omgevingstemperatuur, locatie, systeem-SKU en serienummer."
+    },
+    {
+      "heading": null,
+      "body": "- **Fotobewijs** van de SmartWay-verificatiesticker op de airconditioning in de parkeerplaats — scheelt ruzie met een inspecteur die de geverifieerde lijst niet uit zijn hoofd heeft geleerd."
+    },
+    {
+      "heading": null,
+      "body": "- **Metingen van de accustatus** aan het begin en einde van de rustperiode, indien betwist – bewijst dat de AC daadwerkelijk op de accu werkte en geen dekmantel was voor het stationair draaien van de motor."
+    },
+    {
+      "heading": null,
+      "body": "- **State-rule cheat card** voor de banen die je loopt - een gelamineerde afdruk van 2 pagina's van de bovenstaande tabel met 50 staten is voldoende;Deze delen wij uit op beurzen."
+    },
+    {
+      "heading": null,
+      "body": "- **Taal van vrijstellingsclaim** opgeslagen: \"Dit voertuig gebruikt een door SmartWay geverifieerd airconditioningsysteem op batterijen onder de vrijstelling van [uw staat] voor alternatieve cabinecomforttechnologie.\"Die ene zin maakt een einde aan 80% van de gesprekken langs de weg."
+    },
+    {
+      "heading": null,
+      "body": "- **Servicelogboek** voor de parkeerairco: filterreiniging per kwartaal, jaarlijkse controle van de batterijstatus.Een eenheid die halverwege de rust faalt, creëert de verleiding om stil te staan, wat de overtreding veroorzaakt."
+    },
+    {
+      "heading": null,
+      "body": "- **Escalatie door de expediteur**: bij elk bekeuring langs de weg wordt een foto van dezelfde dag verzonden naar de verzending.De boetevermenigvuldigers voor herhaalde overtredingen in NJ, MD en CA worden na 12 tot 36 maanden gereset – wagenparken moeten bijhouden welke vrachtwagens op de teller staan."
+    },
+    {
+      "heading": null,
+      "body": "## Veelgestelde vragen"
+    },
+    {
+      "heading": null,
+      "body": "**Welke Amerikaanse staten hebben de strengste anti-stationairwetten in 2026?**"
+    },
+    {
+      "heading": null,
+      "body": "Californië (CARB ATCM, $300-$25.000), New Jersey (limiet van 3 minuten, verdubbeling voor herhaling), New York (NYC Local Law 5 met burgerrapportage van $350-$2.000), Massachusetts en Maryland (beide 5 minuten met boetelimieten van bijna $25.000 voor vlootpatronen) en Connecticut (3 minuten met $250-$5.000).DC staat technisch bovenaan de lijst per overtreding met $500-$5.000 plus agressieve handhaving."
+    },
+    {
+      "heading": null,
+      "body": "** Telt een parkeer-airco mee als naleving van de anti-stationairregels?**"
+    },
+    {
+      "heading": null,
+      "body": "Ja, in elke staat met een actieve regel, op voorwaarde dat de eenheid door SmartWay is geverifieerd of wordt erkend onder de 'alternatieve technologie'-uitsluiting van de staat.Parkeren met alleen accu (AC) (geen draaiende hoofdmotor) is de schoonste nalevingshouding en is wat Californië, NJ, NY, MD en CA expliciet noemen in hun regeltekst.Zie de [no-idle-truck AC primer](/blog/no-idle-truck-ac/) voor de wettelijke basis in gewoon Engels."
+    },
+    {
+      "heading": null,
+      "body": "**Bestaat er een federale anti-stationairwet voor vrachtwagens?**"
+    },
+    {
+      "heading": null,
+      "body": "Er bestaat geen enkele federale wet, maar het EPA Clean Air Act-raamwerk en het SmartWay-programma met geverifieerde lijst standaardiseren effectief wat telt als naleving in de 19 staten met actieve regels.De FMCSA HOS-regels vereisen afzonderlijk een bewoonbare slaapplaatsrust, die in de praktijk in wisselwerking staat met anti-stationairregels."
+    },
+    {
+      "heading": null,
+      "body": "**Wat zijn de gemiddelde brandstofkosten als een vrachtwagen van klasse 8 10 uur lang stationair draait?**"
+    },
+    {
+      "heading": null,
+      "body": "Bij een stationaire hoofdmotor van 0,8 gal/uur en het nationale dieselgemiddelde van mei 2026 van $3,95/gal, kost een rusttijd van 10 uur **$31,60 alleen al aan brandstof** – plus ongeveer $3 aan versnelde motorslijtage en het boeterisico als u zich op een gereguleerd terrein bevindt.Meer dan 140 verkoelende nachten per jaar, wat neerkomt op het getal van $ 4.779 dat wordt gebruikt in de bovenstaande ROI-calculator."
+    },
+    {
+      "heading": null,
+      "body": "**Hoeveel kan een wagenpark per vrachtwagen per jaar besparen met een parkeer-AC?**"
+    },
+    {
+      "heading": null,
+      "body": "Het nationale gemiddelde bedraagt **$3.589/vrachtwagen/jaar**, na aftrek van hardware-afschrijvingen.In staten met een hoog handhavingsniveau stijgt het aantal tot $4.500+ omdat de boeterisicocomponent groeit.Een vloot van 50 vrachtwagens op CA-zware rijstroken bespaart doorgaans €200.000+ per jaar.Zie de [parking AC brandstofbesparingscalculator](/blog/parking-ac-fuel- saving-calculator/) voor een model met bewerkbare invoer en het [anti-idling law overzicht](/blog/no-idle-ac-anti-idling-laws/) voor de regelgeving."
+    },
+    {
+      "heading": null,
+      "body": "**Hoe zit het met het bevriezen van DEF in staten met koud weer?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (dieseluitlaatvloeistof) begint te kristalliseren bij een temperatuur van 12 °F.De meeste regels voor stationair draaien in koude toestanden (NJ, NH, VT, Minnesota Twin Cities) omvatten een uitzondering onder de 25°F die expliciet de DEF-bescherming dekt, maar het schonere antwoord in 2026 is een SmartWay-geverifieerde dieselgestookte stapelbedverwarming + AC-parkeerbatterijcombinatie die zowel het stationair draaien tijdens het koelseizoen als het DEF-risico in de winter afhandelt zonder werking van de motor.Deze combinatie is wat de meeste RFP's van de noordelijke vloot nu specificeren."
+    },
+    {
+      "heading": null,
+      "body": "## Kortom"
+    },
+    {
+      "heading": null,
+      "body": "De anti-idling-wetten van staat tot staat worden in 2026 niet versoepeld – de boetes stijgen, instrumenten voor burgerrapportage verspreiden zich van New York naar andere metropolen, en FMCSA begint nutteloze overtredingen te vergelijken met veiligheidsbeoordelingen.De berekeningen liggen nu duidelijk aan de kant van AC-parkeerplaatsen: minder dan $ 1.200 per jaar all-in versus bijna $ 5.000 per jaar voor het nietsdoen-pad, met een terugverdientijd van minder dan 14 maanden op nationaal niveau en minder dan 9 maanden op de West Coast-routes."
+    },
+    {
+      "heading": null,
+      "body": "Als u hulp nodig heeft bij het specificeren van een eenheid voor uw vrachtwagen of wagenpark, is de [CoolDrivePro VTH1 12V/24V accuparkeerstroom AC](/products/vth1) onze aanbeveling die in aanmerking komt voor SmartWay, en de [12V versus 24V vrachtwagen ACvergelijking](/compare/12v-vs-24v-parking-ac/) is de juiste plek om te beginnen met dimensioneren."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

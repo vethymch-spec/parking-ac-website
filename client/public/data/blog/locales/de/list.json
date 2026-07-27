@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Kaufratgeber für B2B-Parkplatz-Klimaanlagenanbieter: 9-dimensionale Rubrik + Top-10-Marken im Vergleich (2026)",
+    "category": "Einkaufsführer",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Wie Flotten-, Händler-, OEM- und Großhandelskäufer im Jahr 2026 Park-AC-Anbieter bewerten sollten. 9-dimensionale Bewertungsrubrik, MOQ + Lieferzeit + Zertifizierungs-Benchmarks und eine ehrliche Bewertung der 10 Mark..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Bundesstaatliche Anti-Leerlauf-Gesetze 2026: 50-Staaten-Suche + Park-AC-ROI-Rechner",
+    "category": "Vorschriften und Compliance",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Alle 50 Anti-Leerlauf-Gesetze der US-Bundesstaaten für 2026 in einer Tabelle – Feinbereiche, 5- oder 15-Minuten-Grenzwerte, Sleeper-/DEF-Ausnahmen und ein berechneter ROI, der zeigt, wie sich eine batteriebetriebene K..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Vollständiger Leitfaden für LKW-Parkklimaanlagen in Vietnam (2026)",
+    "category": "Einkaufsführer",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "2026-Leitfaden zur LKW-Parkplatz-Klimaanlage in Vietnam: 9000 BTU-Systeme für die Nord-Süd-Schnellstraße, Kraftstoffeinsparungen (12–18 l/Tag), Installationskosten und regionale Klimaaspekte von Hanoi bis Ho-Chi-Minh-..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Parken mit Klimaanlage für Hafen- und Containerfahrer von Ho-Chi-Minh-Stadt (Cat Lai, Cai Mep)",
+    "category": "Regionalführer",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Warum Cat-Lai- und Cai-Mep-Containerfahrer in Ho-Chi-Minh-Stadt eine 9000 BTU Parkklimaanlage benötigen: lange Warteschlangenzeiten, Anti-Leerlauf-Druck und der ROI der Kabinenkühlung für die Hafenlogistik im Süden Vi..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Parken mit Klimaanlage für landwirtschaftliche und Kühlkettenfahrzeuge im Mekong-Delta",
+    "category": "Regionalführer",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Landwirtschafts- und Kühlketten-Lkw-Betreiber des Mekong-Deltas in Can Tho, Tien Giang und Long An verlassen sich auf die Parkklimaanlage, um den Fahrern während langer Wartezeiten auf der Fähre und feuchten Übernacht..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Parken mit Klimaanlage für die Nord-Süd-Schnellstraße (CT.01): Leitfaden für Fernfahrer",
+    "category": "Regionalführer",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Wie Langstreckenfahrer auf der Nord-Süd-Schnellstraße CT.01 in Vietnam eine Parkklimaanlage 9000 BTU nutzen, um sich legal auszuruhen, 12–18 l Diesel pro Nacht zu sparen und die tropische Hitze von 38 °C zu überstehen."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Parken mit Klimaanlage für vietnamesische Touristen- und Schlafbusse (Da Nang, Nha Trang, Phu Quoc)",
+    "category": "Regionalführer",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Wie Reise- und Schlafbusbetreiber in Da Nang, Nha Trang, Hoi An und Phu Quoc die Park-Klimaanlage nutzen, um die Fahrer ausgeruht zu halten und die Fahrzeuge den Hotel- und Resort-Richtlinien zur Vermeidung von Leerla..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Klimaanlage für mobile Yoga-Studios und Wellness-Vans",
+    "category": "Spezialität",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "Entdecken Sie unverzichtbare Klimatisierungslösungen für mobile Yoga-Studios und Wellness-Vans.Sorgen Sie mit einer zuverlässigen Park-Klimaanlage für eine optimale Temperaturkontrolle (68–72 °F)."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Parkklimaanlage für digitale Nomaden, die in RVs leben: Komfort, von überall aus zu arbeiten",
+    "category": "Lebensstil",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "Unverzichtbarer Leitfaden zum Parken von Klimaanlagen für RV digitale Nomaden.Bleiben Sie kühl und produktiv, während Sie mit der richtigen Klimatisierung von Ihrem RV aus arbeiten."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Cool bleiben bei RV Kundgebungen und Festivals: Park-AC-Tipps für Veranstaltungen",
+    "category": "Lebensstil",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "Meistern Sie RV Rallyes mit Parkklimaanlage!Erhalten Sie Expertentipps zu zusätzlicher Kühlung, Batteriedimensionierung und Installation für ein komfortables Veranstaltungserlebnis."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Van Dweller's Guide to Parking AC: Vollzeitleben in Ihrem Fahrzeug",
+    "category": "Van Life",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "Wichtiger Leitfaden zur Auswahl und Installation von Parkklimaanlagen für Bewohner von Transportern.Bleiben Sie mit Expertentipps kühl und komfortabel in Ihrem Mobilheim."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "R32-Kältemittel in Park-Klimaanlagen der nächsten Generation: Geringeres Treibhauspotenzial und bessere Effizienz",
+    "category": "Technologie",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Entdecken Sie, warum das Kältemittel R32 zur bevorzugten Wahl für Park-Klimaanlagen der nächsten Generation wird und ein geringeres Treibhauspotenzial und eine verbesserte Effizienz für Nutzfahrzeuge bietet."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs. Webasto Parking AC: Direkter Vergleich (2026)",
+    "category": "Vergleich",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs. Webasto Cool Top RTE 16 im direkten Vergleich: Kühlleistung, Geräuschentwicklung, Stromverbrauch, Komplexität der Installation, Garantie und 5-Jahres-Betriebskosten.Reelle Zahlen aus dem Feld."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "No-Leerlauf-Klimaanlagen für LKWs: So halten Sie staatliche Anti-Leerlauf-Gesetze ein (2026)",
+    "category": "Compliance",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Bundesstaatliche Anti-Leerlauf-Gesetze und wie man die Leerlauf-Klimaanlage für Lkw einhält.CARB (Bußgelder von 300 bis 1.000 US-Dollar), Grenzwerte für über 30 Bundesstaaten, EPA SmartWay und die 5 Systeme, di..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Größenrechner für Parkklimaanlagen BTU: Wie viele BTUs benötigen Sie wirklich?(2026)",
+    "category": "Einkaufsführer",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] Wie viele BTUs benötigt Ihr Schlafkabine oder RV Schlafzimmer?Schritt-für-Schritt-Formel plus Tabellen für Lkw der Klasse 8 (5.000–10.000 BTU), Sprinter-Transporter (6.000–8.000 BTU) und 25 Fuß RVs (12.000–14.0..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Kosten für die Installation einer Park-Klimaanlage im Jahr 2026: Ladentarife nach Bundesstaat und DIY-Einsparungen",
+    "category": "Einkaufsführer",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Kosten für die Installation einer Park-Klimaanlage nach Bundesstaat: 400–1.200 $ für Profis, 0–150 $ für Heimwerker.Echte Shop-Tarife aus CA, TX, FL, NY, plus vollständige Aufschlüsselung der Kosten für Einheit..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Vergleich des Park-AC-Lärms: Echte dB-Werte, getestet in 3 Fuß (2026)",
+    "category": "Vergleich",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Wir haben 12 parkende Klimaanlagen mit einem kalibrierten dB-Messgerät in 3 Fuß Entfernung gemessen.CoolDrivePro V-TH1 erreichte 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Echte Zahlen, kein Marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Wechselstromverbrauch von LKWs: Watt, Ampere und Batterieverbrauch erklärt (2026)",
+    "category": "Strom und Batterie",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Erläuterung des Wechselstromverbrauchs von Lkw: durchschnittlich 480 W, 9 A bei 24V, 38–55 Ah pro Nacht.Echte Zahlen, Formeln zur Dimensionierung Ihrer Batterie und wie Wechselrichterkompressoren den Stromverbr..."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Batteriebetriebene Klimaanlage RV: Vollständiger Kaufratgeber 2026",
+    "category": "Einkaufsführer",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Vollständiger Leitfaden für 2026 zu batteriebetriebenen RV-Klimaanlagen.Native 12V/24V DC vs. Wechselrichter-Setups, echte LiFePO4 Laufzeitdaten (220 Ah → 8–11 Std.), Preisspannen von 1.500–3.800 $, Solar-Offset-Berec..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "So installieren Sie eine Parkklimaanlage: Schritt-für-Schritt-Anleitung für 2026",
+    "category": "Installationsanleitungen",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Schritt-für-Schritt-Anleitung 2026 für die Installation einer Parkklimaanlage: Dachvorbereitung, 14x14-Ausschnitt, Dichtung, Verkabelung (4 AWG, 80-A-Sicherung), Inbetriebnahme.6–9 Stunden Heimwerken, 325 $ für Teile,..."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Batterie für Park-Wechselstrom: 2026 Dimensionierungs- und Verkabelungsleitfaden",
+    "category": "Anleitungen",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 Größenleitfaden für Park-AC: 220 Ah (1.400 $), 280 Ah (1.750 $), 400 Ah (2.400 $) Optionen mit 8-Stunden-Laufzeitberechnung, BMS/Sicherungs-/Kabelspezifikationen."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Parkklimaanlage kühlt nicht?Anleitung zur Fehlerbehebung 2026 (Schritt-für-Schritt)",
+    "category": "Fehlerbehebung",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "2026 Schritt-für-Schritt-Anleitung zur Reparatur einer Park-Klimaanlage, die nicht kühlt.Spannungsabfall, Kältemittel, verschmutzter Kondensator, Thermostat, BMS – Diagnose in 30 Minuten, Reparaturen zwischen 0 und 28..."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parkklimaanlage vs. APU: Kosten- und Leistungsvergleich für Flotten im Jahr 2026",
+    "category": "Bewertungen und Vergleiche",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Leitfaden zur Flottenentscheidung 2026: Parken mit Klimaanlage im Vergleich zu APU.5-Jahres-Gesamtbetriebskosten mit 4,05 $ Diesel – DC Parkklimaanlage spart 9.800–14.200 $/Lkw gegenüber Diesel APU, 3.200–5.400 $ gege..."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs. 24V Parkklimaanlage im Jahr 2026: Entscheidungsleitfaden für LKW, RV und Van",
+    "category": "Einkaufsführer",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V vs. 24V Park-Wechselstrom im Jahr 2026: Passen Sie die native Spannung Ihres Fahrzeugs an.Vollständige Aufschlüsselung von Kabelquerschnitt, Batteriekosten, Effizienz, Laufzeit und wann ein Konverter sinnvoll ist...."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Beste Parkklimaanlage 2026: 9 Top-Picks im Vergleich (Lkw, RVs und Transporter)",
+    "category": "Einkaufsführer",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "Die 9 besten Parkklimaanlagen im Test für 2026: Side-by-Side BTU, Geräusch, Zug, Preis und reale Leistung für Sattelschlepper, RVs, Sprinter-Transporter und Flotten.Gewinnerauswahl nach Anwendungsfall."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Kaufratgeber für Parkklimaanlagen 2026: So wählen Sie das richtige Gerät aus (ohne 1.500 $ zu verschwenden)",
+    "category": "Einkaufsführer",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "Kaufratgeber für Park-AC 2026: 7-stufiger Entscheidungsrahmen, BTU-Größentabelle, Spezifikationsschwellenwerte, Kostenbudgets nach Tarif und die 5 Fehler, die eine 1.500-Dollar-AC in Schrott verwandeln.Lesen Sie vor d..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Rechner für Kraftstoffeinsparungen bei Parkklimaanlagen 2026: Leerlaufkosten vs. DC Parkklima vs. APU",
+    "category": "Werkzeuge und Rechner",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "Berechnen Sie die genauen Kraftstoffeinsparungen bei einer DC Park-Klimaanlage im Vergleich zu Leerlauf vs. Diesel APU.Kraftstoffpreise 2026, reale Arbeitszyklen, lebenslanger ROI.Ausgearbeitete Beispiele für Eigentüm..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Parkklimatisierung für die Küstenfeuchtigkeit Alexandrias: Bekämpfung der mediterranen Klimaherausforderungen Ägyptens",
     "category": "Flottenanwendungen",
@@ -744,52 +976,12 @@
     "excerpt": "Gewährleisten Sie die Sicherheit von Tieren und Geräten in mobilen Tierkliniken mit zuverlässigen Parkklimalösungen.Entscheidend für Medikamente und Wohlbefinden."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Klimaanlage für mobile Yoga-Studios und Wellness-Vans",
-    "category": "Spezialität",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "Entdecken Sie unverzichtbare Klimatisierungslösungen für mobile Yoga-Studios und Wellness-Vans.Sorgen Sie mit einer zuverlässigen Park-Klimaanlage für eine optimale Temperaturkontrolle (68–72 °F)."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Parkklimaanlage für digitale Nomaden, die in RVs leben: Komfort, von überall aus zu arbeiten",
-    "category": "Lebensstil",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "Unverzichtbarer Leitfaden zum Parken von Klimaanlagen für RV digitale Nomaden.Bleiben Sie kühl und produktiv, während Sie mit der richtigen Klimatisierung von Ihrem RV aus arbeiten."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Cool bleiben bei RV Kundgebungen und Festivals: Park-AC-Tipps für Veranstaltungen",
-    "category": "Lebensstil",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "Meistern Sie RV Rallyes mit Parkklimaanlage!Erhalten Sie Expertentipps zu zusätzlicher Kühlung, Batteriedimensionierung und Installation für ein komfortables Veranstaltungserlebnis."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Van Dweller's Guide to Parking AC: Vollzeitleben in Ihrem Fahrzeug",
-    "category": "Van Life",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "Wichtiger Leitfaden zur Auswahl und Installation von Parkklimaanlagen für Bewohner von Transportern.Bleiben Sie mit Expertentipps kühl und komfortabel in Ihrem Mobilheim."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Kosten für die Installation einer Parkklimaanlage: Vollständige Preisaufschlüsselung 2025",
     "category": "Finanzen",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Teilen Sie die gesamten Kosten für die Installation einer Parkklimaanlage im Jahr 2025 auf. Erhalten Sie Einblicke in Faktoren, die sich auf den Preis auswirken, vom Gerätetyp bis hin zu elektrischen Upgrades."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "R32-Kältemittel in Park-Klimaanlagen der nächsten Generation: Geringeres Treibhauspotenzial und bessere Effizienz",
-    "category": "Technologie",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Entdecken Sie, warum das Kältemittel R32 zur bevorzugten Wahl für Park-Klimaanlagen der nächsten Generation wird und ein geringeres Treibhauspotenzial und eine verbesserte Effizienz für Nutzfahrzeuge bietet."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -838,14 +1030,6 @@
     "date": "18. Februar 2025",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
     "excerpt": "Entdecken Sie, warum DC angetriebene Klimaanlagen RV und die LKW-Kühlung verändern.Erfahren Sie mehr über Effizienz, Batteriekompatibilität und die besten 12V DC Park-AC-Optionen."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Wie viel Kraftstoff spart eine Standklimaanlage?Reeller Zahlen- und ROI-Rechner",
-    "category": "Leitfaden",
-    "date": "15. Februar 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "Entdecken Sie, wie viel Kraftstoff Sie mit einer Standklimaanlage sparen können.Unser Leitfaden bietet reelle Zahlen, einen ROI-Rechner und Tipps für LKWs, RVs und Transporter."
   },
   {
     "slug": "cleaning-maintaining-rv-ac",
@@ -920,14 +1104,6 @@
     "excerpt": "Halten Sie Ihren Imbisswagen mit der richtigen Parkklimaanlage kühl und konform.Unser Leitfaden behandelt die Anforderungen, die Installation und Topmodelle von BTU wie CoolDrivePro, VS02 PRO und VX3000SP."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Kaufratgeber für Parkklimaanlagen 2025: So wählen Sie das richtige Gerät für LKW, RV oder Van aus",
-    "category": "Einkaufsführer",
-    "date": "20. November 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "Sind Sie auf der Suche nach einer Parkklimaanlage?Vergleichen Sie Rooftop mit Mini-Split, 12V mit 24V, BTU, Größe, Batterielaufzeit und Installationskompromisse, bevor Sie kaufen."
-  },
-  {
     "slug": "mppt-solar-controller-rv-ac",
     "title": "MPPT-Solarladeregler für RV Klimaanlagen: Best Picks & Setup Guide",
     "category": "Solar",
@@ -958,14 +1134,6 @@
     "date": "3. November 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership-hero.webp",
     "excerpt": "Entdecken Sie den wahren ROI von Standklimaanlagen im Vergleich zum Motor im Leerlauf über einen Zeitraum von 5 Jahren.Erfahren Sie mehr über TCO, Einsparungen und CoolDrivePro-Lösungen für Lkw-Fahrer, RVs und Transpo..."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V vs. 24V Park-AC: Welche Spannung ist am besten für LKW, RV oder Van?",
-    "category": "Technischer Leitfaden",
-    "date": "8. März 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "Vergleichen Sie vor dem Kauf die Park-AC-Systeme 12V und 24V nach Fahrzeugtauglichkeit, Stromaufnahme, Verkabelung, Batterielaufzeit und Installationsaufwand."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -1134,10 +1302,6 @@
     "date": "8. Dezember 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "excerpt": "Umfassender Leitfaden für sicheres 12V/24V Parken, Wechselstromverkabelung und elektrische Installation in LKWs, RVs und Transportern.Erfahren Sie mehr über Komponenten, Spannungsabfall, Batteriemanagement und Fehlerb..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

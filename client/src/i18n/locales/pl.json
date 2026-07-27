@@ -2,9 +2,9 @@
   "nav": {
     "home": "Strona główna",
     "products": "Produkty",
-    "topMountedAC": "Klimatyzacja dachowa",
-    "miniSplitAC": "Klimatyzacja mini split",
-    "heatingCoolingAC": "Klimatyzacja grzewczo-chłodnicza",
+    "topMountedAC": "Klima dachowa",
+    "miniSplitAC": "Mini split",
+    "heatingCoolingAC": "Grzanie/chłodzenie",
     "allProducts": "Wszystkie produkty",
     "forum": "Forum",
     "blog": "Blog",
@@ -18,10 +18,10 @@
     "logout": "Wyloguj się"
   },
   "hero": {
-    "title": "Klimatyzacja postojowa dla życia off-grid i mobilnego komfortu",
-    "subtitle": "Klimatyzacja 12V i 24V DC bez biegu jałowego dla ciężarówek, kamperów i vanów — Chłód bez biegu jałowego",
-    "ctaPrimary": "Kup produkty",
-    "ctaSecondary": "Dowiedz się więcej",
+    "title": "Klimatyzatory postojowe 12 V/24 V do samochodów ciężarowych, kamperów, samochodów dostawczych i flot",
+    "subtitle": "CoolDrivePro produkuje klimatyzatory postojowe 12V/24V DC i systemy chłodzenia bez biegu jałowego do naczep, RV, samochodów dostawczych, kamperów, flot, dealerów i instalatorów – z cenami B2B, wsparciem gwarancyjnym w USA i wskazówkami dotyczącymi montażu.",
+    "ctaPrimary": "Uzyskaj rekomendację dotyczącą montażu",
+    "ctaSecondary": "Poproś o wycenę dealera",
     "badge": "Nowość",
     "trustedBy": "Zaufało nam ponad 10 000 kierowców na całym świecie"
   },
@@ -36,7 +36,7 @@
     "features": "Funkcje",
     "reviews": "Opinie klientów",
     "warranty": "Gwarancja",
-    "freeShipping": "Darmowa dostawa",
+    "freeShipping": "Wsparcie faktury",
     "support": "Wsparcie 24/7",
     "topMounted": {
       "title": "Klimatyzacja dachowa 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Chłodzi do 80 stóp kwadratowych"
     },
     "miniSplit": {
-      "title": "Klimatyzacja mini split 12000 BTU",
-      "subtitle": "Klimatyzacja 12V DC bez biegu jałowego dla ciężarówek i kamperów",
+      "title": "Mini dzielona klimatyzacja postojowa 12 V/24 V do kabin półsypialnych i pojazdów kempingowych",
+      "subtitle": "CoolDrivePro VX3000SP to minidzielony klimatyzator postojowy 12 V/24 V DC, który zapewnia chłodzenie na poziomie 12 000 BTU/h bez biegu jałowego dla kabin półsypialnych, pojazdów kempingowych, samochodów dostawczych i kamperów.Parownik wewnętrzny pracuje z głośnością ≤32 dB przy użyciu dwuobrotowej sprężarki inwerterowej GMCC, dzięki czemu kierowcy mogą przespać całą noc na postoju bez konieczności uruchamiania silnika na biegu jałowym.",
       "btu": "12 000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 godzin",
@@ -59,14 +59,19 @@
       "specifications": "Specyfikacja",
       "reviews": "Opinie klientów",
       "faq": "FAQ",
-      "freeShipping": "Darmowa dostawa",
-      "warranty": "Gwarancja 2 lata",
+      "freeShipping": "Wsparcie faktury",
+      "warranty": "1 rok gwarancji",
       "returns": "Zwrot do 30 dni",
       "inStock": "Dostępny",
       "outOfStock": "Niedostępny",
       "quantity": "Ilość",
       "techSpecs": "Specyfikacja techniczna",
-      "relatedProducts": "Może Ci się spodobać również"
+      "relatedProducts": "Może Ci się spodobać również",
+      "warrantyDesc": "Roczna gwarancja producenta obejmująca wady materiałowe i wykonawcze."
+    },
+    "heatingCoolingAC": {
+      "title": "Ogrzewanie i chłodzenie parkingowe 12 V/24 V dla samochodów ciężarowych i pojazdów kempingowych",
+      "subtitle": "CoolDrivePro V-TH1 to klimatyzator postojowy z pompą ciepła 12 V/24 V DC, który zapewnia chłodzenie i ogrzewanie o mocy 2000 W dla naczep, kamperów, vanów i pojazdów specjalnych.Wykorzystuje podwójną sprężarkę rotacyjną GMCC z czynnikiem chłodniczym R134a i może podnieść temperaturę w kabinie z 5°C do 30°C w około 30 minut — bez pracy silnika na biegu jałowym i nie jest wymagane zasilanie z lądu."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Anuluj",
     "posting": "Wysyłanie...",
     "model": "Model"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1 rok gwarancji"
+    }
   }
 }

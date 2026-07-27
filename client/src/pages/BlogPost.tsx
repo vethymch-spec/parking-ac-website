@@ -11,6 +11,7 @@ import { Link, useParams } from "wouter";
 import { ChevronRight, Calendar, Tag, Loader2, List } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import LeadCaptureCTA from "@/components/LeadCaptureCTA";
 import { useSEO } from "@/hooks/useSEO";
 
 interface BlogContentSection {
@@ -68,7 +69,7 @@ function renderBody(text: string): React.ReactNode[] {
     }
     if (match[1] && match[2]) {
       // Link
-      const isInternal = match[2].startsWith('/');
+      const isInternal = /^\/(?![\\/])/.test(match[2]) && !match[2].includes('\\');
       parts.push(
         <a
           key={key++}
@@ -102,7 +103,7 @@ interface RelatedPostInfo {
 export default function BlogPost() {
   const { t } = useTranslation();
   const params = useParams<{ slug: string }>();
-  const slug = params.slug || "";
+  const slug = (params.slug || "").replace(/\.html$/i, "");
   const [post, setPost] = useState<BlogPostData | null>(null);
   const [relatedPosts, setRelatedPosts] = useState<RelatedPostInfo[]>([]);
   const [loading, setLoading] = useState(true);
@@ -194,7 +195,7 @@ export default function BlogPost() {
   if (loading) {
     return (
       <PageLayout>
-        <div className="max-w-[800px] mx-auto px-4 lg:px-8 py-20 flex justify-center">
+        <div className="max-w-[800px] mx-auto min-h-[400px] px-4 lg:px-8 py-20 flex justify-center">
           <Loader2 className="animate-spin" size={32} style={{ color: "oklch(0.45 0.18 255)" }} />
         </div>
       </PageLayout>
@@ -251,15 +252,14 @@ export default function BlogPost() {
           {post.title}
         </h1>
 
-        {/* Hero image */}
-        <div className="rounded-2xl overflow-hidden mb-10 shadow-md">
+        {/* Hero image — explicit aspect-ratio and min-height prevent CLS during load */}
+        <div className="rounded-2xl overflow-hidden mb-10 shadow-md" style={{ aspectRatio: "16 / 9", minHeight: "200px" }}>
           <img
             src={post.image}
             alt={post.imageAlt}
             width={post.imageWidth || 1280}
             height={post.imageHeight || 720}
-            className="w-full h-auto object-cover"
-            style={{ maxHeight: "420px", objectFit: "cover" }}
+            className="w-full h-full object-cover"
             loading="eager"
             fetchPriority="high"
             decoding="async"
@@ -293,8 +293,21 @@ export default function BlogPost() {
 
         {/* Content */}
         <div className="space-y-8">
-          {normalizeContent(post.content).map((section, i) => (
-            <div key={i}>
+          {(() => {
+            const sections = normalizeContent(post.content);
+            // Pick CTA variant + insert position based on slug
+            const ctaVariant: "fleet-roi" | "quote" | "guide-download" | null =
+              /fuel-savings-calculator|fleet-management/i.test(slug)
+                ? "fleet-roi"
+                : /best-parking-ac|buying-guide|comparison/i.test(slug)
+                ? "quote"
+                : /installation|battery|btu-sizing/i.test(slug)
+                ? "guide-download"
+                : null;
+            // Insert after ~40% through (or after section 4, whichever is smaller)
+            const insertAt = ctaVariant ? Math.min(4, Math.floor(sections.length * 0.4)) : -1;
+            return sections.map((section, i) => (
+              <div key={i}>
               {section.heading && (
                 <h2
                   id={slugify(section.heading)}
@@ -335,8 +348,12 @@ export default function BlogPost() {
                   )}
                 </figure>
               ))}
+              {ctaVariant && i === insertAt && (
+                <LeadCaptureCTA variant={ctaVariant} sourceSlug={slug} />
+              )}
             </div>
-          ))}
+          ));
+          })()}
         </div>
 
         {/* CTA */}
@@ -351,7 +368,7 @@ export default function BlogPost() {
             {t('blog.post.readyToExperience', 'Ready to Experience No-Idle Cooling?')}
           </h3>
           <p className="text-sm text-white/70 mb-4" style={{ fontFamily: "'Inter', sans-serif" }}>
-            {t('blog.post.exploreOur', 'Explore our 12V/24V parking air conditioners — free shipping on all US orders.')}
+            {t('blog.post.exploreOur', 'Explore our 12V/24V parking air conditioners and request a fitment-based invoice.')}
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
@@ -393,8 +410,11 @@ export default function BlogPost() {
                   <img
                     src={rp.image}
                     alt={rp.title}
+                    width={400}
+                    height={250}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-3">

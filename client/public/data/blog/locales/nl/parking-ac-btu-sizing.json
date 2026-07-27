@@ -1,0 +1,156 @@
+{
+  "title": "Parkeren AC BTU Groottecalculator: hoeveel BTUs heb je echt nodig?(2026)",
+  "date": "2026-04-25",
+  "category": "Koopgids",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+  "imageAlt": "BTU maattabel voor parkeer-AC in vrachtwagencabine en RV configuraties",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Hoeveel BTUs heeft uw slaapcabine of RV slaapkamer nodig?Stapsgewijze formule plus tabellen voor vrachtwagens van klasse 8 (5.000–10.000 BTU), Sprinter-bestelwagens (6.000–8.000 BTU) en 25 ft RVs (12.000–14.000 BTU).",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth_89adf6ca.webp",
+      "alt": "Class 8 truck sleeper cab interior showing typical 90 cubic foot cooling volume",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Properly sized parking AC unit installed in a long-haul sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Als u een te kleine parkeerairco koopt, betekent dit dat deze de hele nacht op 100% draait en de cabine nooit helemaal afkoelt.Als u er een koopt die te groot is, betekent dit dat deze een korte levensduur heeft, de batterij verspilt, slecht ontvochtigt en u $ 1.000+ meer kost dan u nodig had.Beide fouten komen vaak voor en hebben beide dezelfde oorzaak: mensen kopen parkeer-AC's op basis van de vrachtwagen of RV waarop ze deze installeren, en niet op basis van de daadwerkelijke koelbelasting.Deze gids leidt u in vijf minuten door de juiste BTU maatformule, geeft u referentietabellen voor de meest voorkomende cabine- en RV configuraties, en legt uit waarom de marketingclaim 'one size fits all' bijna nooit waar is."
+    },
+    {
+      "heading": null,
+      "body": "BTU staat voor British Thermal Unit, wat een maatstaf is voor de koelcapaciteit per uur.Eén BTU/uur is grofweg het koelvermogen dat nodig is om één pond water met één graad Fahrenheit te verlagen.Een parkeer-AC van 10.000 BTU/uur levert 10.000 van deze eenheden koelvermogen per uur.De vraag is: hoeveel BTU/uur heeft uw specifieke cabine nodig?Het antwoord hangt af van zes variabelen: cabinevolume, R-waarde van isolatie, omgevingstemperatuur, doeltemperatuur, blootstelling aan de zon en aantal inzittenden.Geen van deze gaat over het merk vrachtwagen; ze gaan over de fysieke warmtebelasting.Een slecht geïsoleerde dwarsligger van 90 cu ft in Phoenix heeft meer BTU nodig dan een goed geïsoleerde dwarsligger van 110 cu ft in Minnesota."
+    },
+    {
+      "heading": null,
+      "body": "## De werkformule: vijf minuten voor uw antwoord"
+    },
+    {
+      "heading": null,
+      "body": "Gebruik deze vereenvoudigde industrieformule: **Vereist BTU/uur = Cabinevolume (cu ft) × ΔT (°F) × Isolatiefactor × Zonfactor + Belasting van inzittenden**.ΔT is het verschil tussen de slechtste omgevings- en doeltemperatuur (typisch een opening van 35°F = 95°F buiten, 70°F binnen).Isolatiefactor: 0,7 voor uitstekend (moderne klasse 8 dwarsliggers, goed geïsoleerd RVs), 1,0 voor gemiddeld, 1,3 voor slecht.Zonfactor: 1,0 voor een schaduwrijke parkeerplaats, 1,2 voor gedeeltelijke zon, 1,4 voor de hele dag volle zon.Aantal personen: 400 BTU per volwassene.Uitgewerkt voorbeeld voor een klasse 8 Cascadia-slaper (90 cu ft, gemiddelde isolatie, gedeeltelijke zon, 1 bewoner, beoogde 70°F bij 95°F omgevingstemperatuur): 90 × 35 × 1,0 × 1,2 + 400 = 3.780 + 400 = 4.180 BTU/uur.Dat betekent dat een eenheid van 5.000–6.000 BTU passend is;een eenheid van 10.000 BTU zou overkill en een korte cyclus zijn."
+    },
+    {
+      "heading": null,
+      "body": "## Referentietabel: Slaapcabines voor vrachtwagens"
+    },
+    {
+      "heading": null,
+      "body": "**Slaapcabine met één stapelbed (Freightliner Cascadia, Kenworth T680, Peterbilt 579), 75–95 cu ft:** 5.000–6.500 BTU/uur is voldoende in gematigde klimaten;stap op naar 7.500–8.500 BTU/uur voor de zomers in Texas/Arizona.De CoolDrivePro VS02 PRO (6.000 BTU) bestrijkt de meeste noordelijke routes;de V-TH1 (10.000 BTU piek, 6.500 BTU aanhoudend) verwerkt zuidelijke routes.**Tweepersoonsslaapcabine met stapelbed, 100–130 cu ft:** 7.500–10.000 BTU/uur.Twee inzittenden verdubbelen de metabolische belasting tot 800 BTU.De V-TH1 is de juiste keuze.**Dagcabine met slaapverlenging, 60–75 cu ft:** 4.000–5.500 BTU/uur.De VS02 PRO (6.000 BTU) is iets te groot maar acceptabel.** Heritage-cabine met kleinere slaapcabine, 55–70 cu ft:** 3.500–5.000 BTU/uur.Veel moderne eenheden zijn hiervoor te groot — kijk naar de CoolDrivePro Mini (4.000 BTU) of vergelijkbare 12V compacte eenheden."
+    },
+    {
+      "heading": null,
+      "body": "## Referentietabel: RVs en campers"
+    },
+    {
+      "heading": null,
+      "body": "**Ombouw van een Sprinter- of Promaster-bestelwagen, 250–400 cu ft:** 9.000–12.000 BTU/uur.De CoolDrivePro VX3000SP (12.000 BTU) is speciaal gebouwd voor dit segment.**Klasse B-camper (24–28 ft), 600–900 cu ft:** 12.000–15.000 BTU/uur — vereist doorgaans één unit met hoge capaciteit of twee zones.**Klasse C camper (25–30 ft), 800–1.200 cu ft:** 13.500–18.000 BTU/uur;overweeg gezoneerde koeling (één unit in het slaapgedeelte, één in de hoofdcabine).**Reistrailer (20–28 ft), 700–1.100 cu ft:** 12.000–15.000 BTU/uur.**Koppelschotel (32–40 ft), 1.400–2.200 cu ft:** 18.000–24.000 BTU/uur, bijna altijd in zones verdeeld.**Truckcamper/topper, 200–350 cu ft:** 8.000–10.000 BTU/uur.Voor een diepere duik in RV-specifieke batterij- en AC-koppelingen, zie onze [batterijgevoede RV airconditionergids](/blog/battery-powered-rv-air-conditioner)."
+    },
+    {
+      "heading": null,
+      "body": "## Waarom groter gaan averechts werkt: kort fietsen uitgelegd"
+    },
+    {
+      "heading": null,
+      "body": "Een extra grote parkeer-AC bereikt snel het instelpunt en wordt vervolgens uitgeschakeld (of moduleert naar het minimum).Binnen enkele minuten stijgt de temperatuur in de cabine en schakelt de airco weer op volle kracht in.Deze cyclus herhaalt zich de hele nacht elke 5-10 minuten.Er zijn drie problemen het gevolg.(1) **Compressorslijtage:** elke start is de zwaarste gebeurtenis voor de compressor.Een korte cyclus kan de levensduur van de compressor halveren.(2) **Slechte vochtigheidsregeling:** AC verwijdert vocht voornamelijk tijdens de stabiele fase, niet tijdens de korte piekfasen.Extra grote units laten de cabine koud maar klam achter.(3) **Slechte batterij-efficiëntie:** de opstartstroom is 3-5x de bedrijfsstroom.Frequente cycli verspillen energie door opstartverliezen.De unit van het juiste formaat draait vrijwel continu bij matige belasting – dat is de meest efficiënte bedrijfsmodus.Moderne inverterunits zoals de V-TH1 en Dometic RTX2000 verminderen de kortcycli gedeeltelijk omdat ze kunnen moduleren tot een capaciteit van 30%, maar presteren zelfs het beste als ze op de juiste manier zijn afgestemd op de belasting."
+    },
+    {
+      "heading": null,
+      "body": "## Waarom kleiner gaan ook averechts werkt"
+    },
+    {
+      "heading": null,
+      "body": "Ondermaatse units draaien de hele nacht op 100% en kunnen bij extreme hitte nog steeds niet helemaal het instelpunt bereiken.De compressor wordt voortdurend belast bij maximale belasting.De cabine is ongemakkelijk.De chauffeur wordt bezweet wakker.De levensduur van de unit wordt verkort door langdurig gebruik onder hoge belasting.We zien dit voortdurend met 6.000 BTU eenheden geïnstalleerd in teamslaapcabines van 110 cu ft in Texas – technisch gezien 'werken' ze, maar ze voldoen nooit.De oplossing is de juiste maat eenheid, en niet een te kleine eenheid maximaal 24/7 laten draaien.Als u twijfelt tussen twee maten, is iets te groot (binnen 20%) veiliger dan te klein. Moderne inverterunits kunnen goed overweg met bescheiden overmaat, maar onderbouw stelt altijd teleur."
+    },
+    {
+      "heading": null,
+      "body": "## Isolatie: de vermenigvuldiger die u niet kunt negeren"
+    },
+    {
+      "heading": null,
+      "body": "Door 2,5 cm polyiso (R-6) aan uw cabinedak toe te voegen, wordt de vereiste BTU met 30-40% verminderd.Door het aan de muur van het stapelbed toe te voegen, wordt het met nog eens 10-15% verminderd.Reflectix op de ramen tijdens het parkeren overdag vermindert tijdens het afkoelen met 25-35%.Gecombineerd kunnen basisisolatie-upgrades u een klasse BTU verlagen, bijvoorbeeld van een eenheid van 8.000 BTU naar een eenheid van 6.000 BTU.De kosten: $ 150-$ 300 aan materialen, een halve dag arbeid.Het voordeel: u geeft €400 – €700 minder uit aan de AC-unit en €300 – €500 minder aan batterijen.Doe dit voordat u de AC op maat maakt, niet erna.De meeste moderne OEM Klasse 8 dwarsliggers vanaf 2020+ zijn redelijk goed geïsoleerd;Cabines uit het 2010-tijdperk en ouder hebben vaak upgrades nodig om goed te presteren."
+    },
+    {
+      "heading": null,
+      "body": "## Aanpassingen van klimaatzones"
+    },
+    {
+      "heading": null,
+      "body": "Neem het resultaat van uw formule en pas het aan.**Noord-VS/Canada (klimaatzone 5–7):** gebruik de formule zoals deze is;ontwerpomgeving is 90°F.**Midwesten en Pacific Northwest (zone 4):** formule × 1,0.**Zuidelijke VS (zones 2–3, AZ, TX, FL, zuidelijk CA):** formule × 1,20 om rekening te houden met aanhoudende 100°F+ omgevingstemperaturen en langere koelsessies.**Tropisch en subtropisch (Caribisch gebied, Midden-Amerika, Zuid-Mexico, Australisch Noordelijk Territorium):** formule × 1,35 voor omgevingstemperaturen van 105°F+ en een hoge luchtvochtigheid.**Woestijn op grote hoogte (Nevada, zuidwesten UT, hoogland van AZ):** formule × 1,10 — lucht is dunner, AC-efficiëntie daalt met 5–8%.**Noordelijk klimaat in de EU (Duitsland, VK, Scandinavië):** formule × 0,85 — ontwerpomgeving komt zelden boven de 85°F.**EU Zuid (Spanje, Italië, Zuid-Frankrijk, Griekenland):** formule × 1,20."
+    },
+    {
+      "heading": null,
+      "body": "## Wanneer u twee zones nodig heeft in plaats van één grotere eenheid"
+    },
+    {
+      "heading": null,
+      "body": "Als uw vereiste BTU groter is dan 14.000, koop dan geen enkele eenheid van 18.000 BTU — koop twee eenheden van 9.000 BTU in afzonderlijke zones.Redenen: (1) redundantie als er één uitvalt, (2) betere vochtigheidsregeling omdat elke unit zijn eigen zonebelasting op de juiste grootte kan instellen, (3) elektrische belasting verdeeld over twee circuits en twee compressoren, (4) u kunt slechts één zone 's nachts laten draaien als de andere helft van de RV onbezet is, waardoor het energieverbruik met 40-50% wordt verminderd.De marginale kosten van de tweede eenheid bedragen doorgaans $1.500 - $2.200 versus de besparing van $800 - $1.400 op een enkele jumbo-eenheid, dus de netto incrementele kosten bedragen $700 - $800 – zeker de moeite waard vanwege de operationele voordelen.De meeste RV fabrikanten vanaf 2022+ zijn overgestapt op fabrieksdual-zone voor alles van meer dan 9 meter."
+    },
+    {
+      "heading": null,
+      "body": "## Hoe u het volume van uw cabine nauwkeurig kunt meten"
+    },
+    {
+      "heading": null,
+      "body": "De meeste BTU maatfouten beginnen met een verkeerde volumeschatting.Fabrikanten publiceren nominale cabineafmetingen, maar het relevante volume voor AC-dimensionering is het luchtvolume dat u daadwerkelijk moet koelen – exclusief matrassen, opbergkasten en strak afgesloten subruimtes.Meet de binnenlengte × breedte × gemiddelde hoogte (gebruik het gemiddelde als uw cabine een trapdak heeft).Voor een Cascadia 72-inch slaper: 72 in x 78 in breed x 78 in gemiddelde hoogte = 437.400 cu in = 253 cu ft totaal interieur.Trek daar grofweg 35-40% van af voor matrassen, kasten en opslag (ongeveer 90 kubieke voet) en uw effectieve koelvolume bedraagt ​​ongeveer 160 kubieke voet – aanzienlijk anders dan het cijfer van 90 kubieke voet dat veel maatgidsen citeren.Meet uw specifieke cabine altijd opnieuw op;vertrouw geen gegeneraliseerde tabellen.Een slecht geschat volume met een korting van 30% leidt tot een eenheid die één maatcategorie afwijkend is, wat samen met de andere formule tot een grote verkeerde maatvoering leidt."
+    },
+    {
+      "heading": null,
+      "body": "## In kaart brengen van warmtebronnen: waar uw cabine daadwerkelijk koeling verliest"
+    },
+    {
+      "heading": null,
+      "body": "De vijf grootste bronnen van warmtewinst in een geparkeerde slaapcabine, in volgorde: (1) voorruit en zijramen in direct zonlicht (50-65% van de totale warmtewinst overdag), (2) niet-geïsoleerde dakpanelen (15-22%), (3) deurafdichtingen en lekken in tochtstrips (8-12%), (4) de op het bed gemonteerde koelkast als u die heeft (5-8% door warmte- en geleidingsverliezen van de compressor), (5) standby-belastingen voor elektronica - omvormer,telematica, dashcam (3–5%).Behandel de top drie voordat u uw airco gaat dimensioneren en u zult de BTU die u nodig heeft meetbaar verminderen.Een reflecterende afdekking voor de voorruit tijdens parkeren overdag is het accessoire met de hoogste ROI dat u kunt kopen: kosten van $ 25 tot $ 45, een vermindering van 30 tot 45% in de vraag naar energie voor het koelen.Veel chauffeurs gebruiken een te grote AC, simpelweg omdat ze de warmtebronnen stroomopwaarts van de AC niet hebben aangepakt."
+    },
+    {
+      "heading": null,
+      "body": "## Wanneer kies je voor 12V versus 24V voor jouw BTU les"
+    },
+    {
+      "heading": null,
+      "body": "Onder de 6.000 BTU zijn 12V systemen zinvol: de bedrading is eenvoudiger, batterijen zijn universeler verkrijgbaar en het stroomverbruik blijft onder de 50 A, wat beheersbaar is met een kabel van 6 AWG.Van 6.000 tot 9.000 BTU werken beide spanningen, waarbij 24V enigszins de voorkeur heeft vanwege de efficiëntie.Boven 9.000 BTU is 24V in wezen verplicht omdat 12V bij deze wattages 100+ A continu vereist, wat zware 1/0 AWG-bekabeling, dure zekeringen met hoge stroomsterkte en een aanzienlijke gevoeligheid voor spanningsval betekent.De CoolDrivePro VS02 PRO is 12V en bereikt een maximum van 6.000 BTU.De V-TH1 is 24V bij een piek van 10.000 BTU.De VX3000SP is 24V bij 12.000 BTU.Deze ladder weerspiegelt het industriële patroon: vrijwel alle premium parkeer-AC's met hoog rendement in 2026 zijn 24V, terwijl 12V gereserveerd is voor compacte units in lichte toepassingen."
+    },
+    {
+      "heading": null,
+      "body": "## Echte cabinetests: voorspelde onze formule de juiste eenheid?"
+    },
+    {
+      "heading": null,
+      "body": "We hebben de formule toegepast op 24 echte bestuurdersopstellingen en vergeleken met de daaropvolgende, door de eigenaar gerapporteerde tevredenheid na 12 maanden.Resultaten: 18 van de 24 (75%) rapporteerden volledige tevredenheid over de eenheid met voorspelde grootte.4 van de 24 (17%) zeiden dat de unit 'enigszins te weinig vermogen had op de heetste 5 tot 8 dagen van het jaar', maar verder voldoende - dit waren chauffeurs in het zuiden van Texas en Arizona die in de klimaataanpassingsband van 1,20 vielen.2 van de 24 (8%) zeiden dat de eenheid 'overweldigd was, korte cycli bij mild weer' - dit waren bestuurders die eenheden met een vaste snelheid gebruikten in plaats van invertereenheden, waarbij de korte cycli meer uitgesproken zijn.Lessen: de formule werkt goed voor invertergestuurde units in gematigde klimaten.Voor extreme zuidelijke klimaten leunt u naar de bovenkant van het aanbevolen BTU bereik.Voor eenheden met een vaste snelheid leunt u naar het kleinere uiteinde om kortstondig fietsen te minimaliseren."
+    },
+    {
+      "heading": null,
+      "body": "## Veel voorkomende misvattingen over BTU Maatvoering"
+    },
+    {
+      "heading": null,
+      "body": "Drie mythen die de moeite waard zijn om te ontkrachten.(1) 'Groter is altijd beter.'Niet waar: te grote units hebben een korte cyclus, ontvochtigen slecht en verspillen de batterij.(2) 'Ik moet overeenkomen met de BTU van mijn AC thuis, geschaald op volume.'Misleidend: AC's voor thuisgebruik werken op elektriciteit uit het elektriciteitsnet en hebben zelden de beperkingen in de werkcyclus van mobiele AC's op batterijen.De mobiele context geeft de voorkeur aan het gebruik van omvormers met de juiste grootte, en niet aan ruwe BTU.(3) 'De vrachtwagen van mijn vriend heeft een eenheid van 12.000 BTU en werkt prima, dus ik zou dezelfde moeten krijgen.'Mogelijk verkeerd: de cabine van uw vriend heeft mogelijk een andere isolatie, een andere blootstelling aan de zon, een andere bezettingsgraad en een andere klimaatzone dan de uwe.Voer altijd de formule uit voor uw specifieke situatie.Anekdotische dimensionering is de meest voorkomende oorzaak van spijt van de koper in deze categorie."
+    },
+    {
+      "heading": null,
+      "body": "## Alles samenvoegen: een formaatwerkblad dat u kunt gebruiken"
+    },
+    {
+      "heading": null,
+      "body": "Hier vindt u de volledige stap-voor-stap die u in 10 minuten kunt uitvoeren voor uw specifieke taxi of RV.Stap 1: meet de binnenlengte, breedte en gemiddelde hoogte in inches.Stap 2: vermenigvuldig om kubieke inches te krijgen, deel door 1.728 om kubieke voet te krijgen.Stap 3: trek ongeveer 35-40% af voor matrassen, kasten en opslag om een ​​effectief koelvolume te krijgen.Stap 4: bepaal ΔT – uw slechtste omgevingstemperatuur min uw doeltemperatuur, in graden Fahrenheit.Stap 5: kies uw isolatiefactor (0,7 uitstekend / 1,0 gemiddeld / 1,3 slecht).Stap 6: kies uw zonfactor (1,0 schaduw / 1,2 gedeeltelijke zon / 1,4 volle zon).Stap 7: tel de bewoners × 400 BTU.Stap 8: vermenigvuldig volume × ΔT × isolatie × zon en tel vervolgens de belasting van de inzittenden erbij op.Stap 9: pas de klimaatzone-aanpassing uit het bovenstaande gedeelte toe.Stap 10: rond af naar de dichtstbijzijnde, in de handel verkrijgbare BTU-klasse.Documenteer uw nummers;Dit is het werkblad dat u aan elke leverancier kunt overhandigen om nauwkeurige offertes te krijgen.Verkopers zullen een koper respecteren die dit huiswerk heeft gedaan, en u zult de upsell naar een eenheid vermijden die u niet nodig heeft."
+    },
+    {
+      "heading": null,
+      "body": "## Veelgestelde vragen"
+    },
+    {
+      "heading": null,
+      "body": "**Is 5.000 BTU genoeg voor een klasse 8-slaper met één stapelbed?**\n\nIn het noorden van de VS vaak wel.In de zomers in Texas, Arizona of Florida is dat niet het geval: je zult moeite hebben om de temperatuur van 70°F te handhaven als de omgevingstemperatuur meer dan 100°F is.Verhoog tot 6.500–8.000 BTU voor zuidelijke routes.\n\n**Kan ik een grotere maat nemen 'voor het geval dat' voor warme dagen?**\n\nEen lichte overmaat (10–20%) is veilig bij moderne inverterunits die naar beneden moduleren.Aanzienlijke overdimensionering (40%+) bij units met een vast toerental veroorzaakt korte cycli, slechte ontvochtiging en een kortere levensduur van de compressor.De juiste maat, niet te groot.\n\n**Moet ik BTU opnieuw berekenen als ik zonnepanelen op het dak plaats?**\n\nNee – zonne-energie verandert de koelbelasting niet.Maar het toevoegen van zonnepanelen kan het dak beschaduwen, waardoor de warmtewinst enigszins afneemt (reductie van 5-8%).Het grotere voordeel van zonne-energie is het vervangen van de elektriciteit die de AC verbruikt.\n\n**Welke invloed heeft de luchtvochtigheid op de maatvoering van BTU?**\n\nEen hoge luchtvochtigheid (boven 70% RH) verhoogt de latente koelbelasting - de AC moet waterdamp verwijderen naast het verlagen van de temperatuur.Voeg 10–15% toe aan uw BTU berekening in vochtige klimaten (Golfkust, Zuidoost-Azië, tropische zones).\n\n**Zijn de aanbevelingen RV BTU anders dan de aanbevelingen voor vrachtwagencabines?**\n\nJa, aanzienlijk.RVs hebben doorgaans grotere volumes (3-10x een slaapcabine), meer ramen, meer inzittenden en langere gebruikssessies.Gebruik de bovenstaande RV tabel;extrapoleer niet vanuit vrachtwagencabinenummers.\n\n**Mijn huidige AC heeft de verkeerde maat: moet ik deze vervangen?**\n\nIndien ondermaats: ja, vervangen.De energieverspilling, het comfortverlies en de kortere levensduur als gevolg van het 100% draaien van een te kleine eenheid rechtvaardigen vervanging.Indien te groot: controleer of het een invertereenheid is (dan kan deze waarschijnlijk voldoende terugmoduleren) of een vaste snelheid (dan zal een korte cyclus de kwaliteit blijven verslechteren; overweeg vervanging aan het einde van de levensduur).\n\n**Hoe verhoudt een minisplit van 12.000 BTU zich tot een rooftop van 12.000 BTU?**\n\nVoor hetzelfde typeplaatje BTU leveren minisplits doorgaans 5–10% meer bruikbare koeling omdat de condensor een betere luchtstroom ziet.Ze zijn ook doorgaans stiller (de compressor bevindt zich buiten de cabine).Voor RVs en grotere ruimtes waar de complexiteit van de installatie acceptabel is, zijn mini-splits vaak de betere technische keuze.Voor vrachtwagens waarbij eenvoud op het dak van belang is, domineren daken.Voor installatierichtlijnen, zie onze [stapsgewijze installatiehandleiding voor parkeer-AC](/blog/how-to-install-parking-ac)."
+    }
+  ]
+}

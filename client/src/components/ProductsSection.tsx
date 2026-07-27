@@ -139,7 +139,7 @@ function ProductCard({
           </div>
 
           <Link
-            href={`/products/${id}`}
+            href={`/products/${id}/`}
             className="inline-block px-8 py-3 text-sm font-bold text-white rounded transition-all duration-200 hover:opacity-90 hover:scale-105 active:scale-95"
             style={{
               backgroundColor: "oklch(0.45 0.18 255)",
@@ -174,7 +174,7 @@ export default function ProductsSection() {
         { label: t('products.specs.powerSupply'), value: t('products.topMounted.voltage') },
         { label: t('products.specs.noiseLevel'), value: "≤ 45 dB" },
       ],
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-top-mounted-opt_7f111736.webp",
+      image: "/images/products/vs02pro-top-mounted.webp",
       imageAlt: t('products.topMounted.imageAlt'),
       imageRight: true,
       bg: "oklch(0.96 0.02 240)",
@@ -183,7 +183,7 @@ export default function ProductsSection() {
       id: "mini-split-ac",
       model: "VX3000SP",
       badge: t('products.cooling'),
-      badgeSeo: "12V DC Mini Split Parking AC",
+      badgeSeo: "12V/24V Semi Truck Mini Split AC",
       title: t('products.miniSplit.title'),
       titleSeo: t('products.miniSplit.subtitle'),
       description: t('products.miniSplit.description'),
@@ -191,9 +191,9 @@ export default function ProductsSection() {
         { label: t('products.specs.coolingCapacity'), value: t('products.miniSplit.btu') },
         { label: t('products.specs.powerSupply'), value: t('products.miniSplit.voltage') },
         { label: t('products.specs.batteryRuntime'), value: t('products.miniSplit.runtime') },
-        { label: t('products.specs.noiseLevel'), value: "≤ 40 dB" },
+        { label: t('products.specs.noiseLevel'), value: "≤ 32 dB" },
       ],
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-mini-split-opt_81dc95b4.webp",
+      image: "/images/products/vx3000-mini-split.webp",
       imageAlt: t('products.miniSplit.imageAlt'),
       imageRight: false,
       bg: "oklch(0.97 0.015 240)",
@@ -212,7 +212,7 @@ export default function ProductsSection() {
         { label: t('products.specs.fuelType'), value: "Propane (LP)" },
         { label: t('products.specs.installation'), value: "Door-access unit" },
       ],
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/water-heater_e1e95553.webp",
+      image: "/images/products/water-heater.webp",
       imageAlt: t('products.waterHeater.imageAlt'),
       imageRight: true,
       bg: "oklch(0.96 0.02 240)",
@@ -231,7 +231,7 @@ export default function ProductsSection() {
         { label: t('products.specs.powerSupply'), value: "12V / 24V DC" },
         { label: t('products.specs.airOutput'), value: "550 m³/h" },
       ],
-      image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
+      image: "/images/products/vth1-outdoor-top.webp",
       imageAlt: t('products.heatingCoolingAC.imageAlt'),
       imageRight: false,
       bg: "oklch(0.97 0.015 240)",

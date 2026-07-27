@@ -1,5 +1,261 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "imageAlt": "Outdoor unit of a parking air conditioner with compressor service access",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "imageAlt": "Parking air conditioner split-system installation and service access",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Panduan Pembeli Pembekal AC Parking B2B: Rubrik 9 Dimensi + 10 Jenama Teratas Berbanding (2026)",
+    "date": "2026-06-08",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Perbandingan pembekal AC tempat letak kereta B2B — rubrik pemarkahan 9 dimensi untuk armada, peniaga dan pembeli OEM",
+    "excerpt": "Cara pembeli armada, peniaga, OEM dan borong harus menilai pembekal AC tempat letak kereta pada tahun 2026. Rubrik pemarkahan 9 dimensi, MOQ + masa utama + penanda aras pensijilan dan semakan jujur terhadap 10 jenama..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Undang-undang Anti-Melahu Negeri demi Negeri 2026: Carian 50 Negeri + Kalkulator AC ROI Tempat Letak Kereta",
+    "date": "2026-06-08",
+    "category": "Peraturan & Pematuhan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Peta AS menunjukkan undang-undang anti-melahu negeri demi negeri 2026 dengan tindanan pematuhan AC tempat letak kereta",
+    "excerpt": "Kesemua 50 undang-undang anti-melahu negeri AS untuk 2026 dalam satu jadual — julat halus, had 5- lwn 15 minit, pengecualian tidur/DEF dan ROI yang berjaya menunjukkan cara AC letak bateri membayar balik dalam 9–14 bu..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Panduan Lengkap untuk Penghawa Dingin Tempat Letak Kereta Lori di Vietnam (2026)",
+    "date": "2026-05-20",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Panduan 2026 untuk parkir trak AC di Vietnam: 9000 BTU sistem untuk Lebuhraya Utara-Selatan, penjimatan bahan api (12-18L/hari), kos pemasangan dan pertimbangan iklim serantau dari Hanoi ke Ho Chi Minh City."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "AC Tempat Letak Kereta untuk Pemandu Pelabuhan & Kontena Bandar Ho Chi Minh (Cat Lai, Cai Mep)",
+    "date": "2026-05-20",
+    "category": "Pemandu Wilayah",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Mengapa pemandu kontena Cat Lai dan Cai Mep di Ho Chi Minh City memerlukan 9000 BTU AC tempat letak kereta: masa beratur panjang, tekanan anti-melahu dan ROI penyejukan teksi untuk logistik pelabuhan Vietnam selatan."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "AC Tempat Letak Kereta untuk Lori Pertanian & Rantai Sejuk Mekong Delta",
+    "date": "2026-05-20",
+    "category": "Pemandu Wilayah",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Operator trak pertanian dan rangkaian sejuk Mekong Delta di Can Tho, Tien Giang dan Long An bergantung pada AC tempat letak kereta untuk memastikan pemandu berehat semasa menunggu feri yang lama dan perhentian semalam..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "AC Tempat Letak Kereta untuk Lebuhraya Utara-Selatan (CT.01): Panduan Pemandu Jarak Jauh",
+    "date": "2026-05-20",
+    "category": "Pemandu Wilayah",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Berapa lama pemandu jarak jauh di Lebuhraya Utara-Selatan CT.01 Vietnam menggunakan penghawa dingin tempat letak kereta 9000 BTU untuk berehat secara sah, menjimatkan 12-18L diesel setiap malam dan bertahan dengan hab..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "AC Tempat Letak Kereta untuk Jurulatih Pelancong Vietnam & Bas Tidur (Da Nang, Nha Trang, Phu Quoc)",
+    "date": "2026-05-20",
+    "category": "Pemandu Wilayah",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Cara jurulatih pelancong dan pengendali bas tidur di Da Nang, Nha Trang, Hoi An dan Phu Quoc menggunakan AC tempat letak kereta untuk memastikan pemandu berehat dan kenderaan mematuhi polisi anti-terbiar hotel dan res..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Penyaman Udara untuk Studio Yoga Mudah Alih dan Van Kesihatan",
+    "date": "2026-04-29",
+    "category": "keistimewaan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "imageAlt": "Penyaman Udara untuk Studio Yoga Mudah Alih dan Van Kesihatan",
+    "excerpt": "Temui penyelesaian penghawa dingin yang penting untuk studio yoga mudah alih dan van kesihatan.Pastikan kawalan suhu optimum (68-72°F) dengan AC tempat letak kereta yang boleh dipercayai."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "AC Tempat Letak Kereta untuk Perantau Digital yang Tinggal di RVs: Keselesaan Bekerja-Dari-Mana-mana",
+    "date": "2026-04-29",
+    "category": "Gaya hidup",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "imageAlt": "AC Tempat Letak Kereta untuk Perantau Digital yang Tinggal di RVs: Keselesaan Bekerja-Dari-Mana-mana",
+    "excerpt": "Panduan penting untuk meletakkan AC untuk RV nomad digital.Kekal sejuk dan produktif semasa bekerja dari jauh dari RV anda dengan kawalan iklim yang betul."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Kekal Sejuk di RV Perhimpunan dan Perayaan: Petua AC Tempat Letak Kereta untuk Acara",
+    "date": "2026-04-29",
+    "category": "Gaya hidup",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "imageAlt": "Kekal Sejuk di RV Perhimpunan dan Perayaan: Petua AC Tempat Letak Kereta untuk Acara",
+    "excerpt": "Master RV perhimpunan dengan tempat letak kereta AC!Dapatkan petua pakar tentang penyejukan tambahan, saiz bateri dan pemasangan untuk pengalaman acara yang selesa."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Panduan Penghuni Van untuk Parking AC: Hidup Sepenuh Masa dalam Kenderaan Anda",
+    "date": "2026-04-29",
+    "category": "Kehidupan Van",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "imageAlt": "Panduan Penghuni Van untuk Parking AC: Hidup Sepenuh Masa dalam Kenderaan Anda",
+    "excerpt": "Panduan penting untuk memilih dan memasang AC tempat letak kereta untuk penghuni van.Kekal sejuk dan selesa di rumah mudah alih anda dengan petua pakar."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Penyejuk R32 dalam AC Tempat Letak Kereta Generasi Seterusnya: GWP Lebih Rendah dan Kecekapan Lebih Baik",
+    "date": "2026-04-29",
+    "category": "Teknologi",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "imageAlt": "Penyejuk R32 dalam AC Tempat Letak Kereta Generasi Seterusnya: GWP Lebih Rendah dan Kecekapan Lebih Baik",
+    "excerpt": "Temui sebab penyejuk R32 menjadi pilihan pilihan untuk AC tempat letak kenderaan generasi seterusnya, menawarkan GWP yang lebih rendah dan kecekapan yang dipertingkatkan untuk kenderaan komersial."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "AC Tempat Letak Kereta Dometik lwn Webasto: Perbandingan Bersebelahan (2026)",
+    "date": "2026-04-25",
+    "category": "Perbandingan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Unit AC letak kereta Dometik dan Webasto bersebelahan untuk perbandingan",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 head-to-head: output penyejukan, bunyi bising, cabutan kuasa, kerumitan pemasangan, waranti dan kos pemilikan 5 tahun.Nombor nyata dari lapangan."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Sistem AC Lori Tanpa Terbiar: Cara Mematuhi Undang-undang Anti-Melahu Negeri (2026)",
+    "date": "2026-04-25",
+    "category": "Pematuhan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "Sistem AC trak tanpa melahu elektrik bateri dipasang untuk pematuhan anti melahu",
+    "excerpt": "[2026] Undang-undang anti melahu negeri demi negeri dan cara mematuhi AC trak tanpa terbiar.CARB ($300–$1,000 denda), 30+ had negeri, EPA SmartWay dan 5 sistem yang memenuhi keperluan 2026."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Tempat Letak Kereta AC BTU Kalkulator Saiz: Berapa Banyak BTUs Yang Anda Perlukan?(2026)",
+    "date": "2026-04-25",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU carta saiz untuk letak AC merentas teksi trak dan konfigurasi RV",
+    "excerpt": "[2026] Berapa banyak BTU yang diperlukan oleh teksi tidur atau RV bilik tidur anda?Formula langkah demi langkah serta jadual untuk trak Kelas 8 (5,000–10,000 BTU), van Sprinter (6,000–8,000 BTU), dan 25 kaki RVs (12,0..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Kos Pemasangan AC Tempat Letak Kereta 2026: Kadar Kedai mengikut Negeri dan Simpanan DIY",
+    "date": "2026-04-25",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "Pemasangan AC tempat letak kereta profesional yang menunjukkan potongan bumbung, pendawaian dan penyepaduan bateri",
+    "excerpt": "[2026] Kos pemasangan AC tempat letak kereta mengikut negeri: $400–$1,200 profesional, $0–$150 DIY.Kadar kedai sebenar dari CA, TX, FL, NY, serta pecahan penuh unit, bateri, pendawaian dan kos buruh."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Perbandingan Bunyi AC Tempat Letak Kereta: Tahap dB Sebenar Diuji pada 3 Kaki (2026)",
+    "date": "2026-04-25",
+    "category": "Perbandingan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "Meter desibel mengukur bunyi AC tempat letak kereta pada 3 kaki di dalam teksi tidur",
+    "excerpt": "[2026] Kami mengukur 12 unit AC tempat letak kereta dengan meter dB yang ditentukur pada 3 kaki.CoolDrivePro V-TH1 mencapai 42 dBA, Dometik RTX2000 48 dBA, RigMaster 67 dBA.Nombor sebenar, tiada pemasaran."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Penggunaan Kuasa AC Lori: Watt, Amps dan Pembuangan Bateri Diterangkan (2026)",
+    "date": "2026-04-25",
+    "category": "Kuasa & Bateri",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Pemantauan penggunaan kuasa AC tempat letak kereta lori dengan monitor shunt dan bateri",
+    "excerpt": "[2026] Penggunaan kuasa AC trak menjelaskan: Purata 480W, 9A pada 24V, 38–55Ah setiap malam.Nombor sebenar, formula untuk saiz bateri anda dan cara pemotongan pemampat penyongsang menarik 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Dikuasakan Bateri RV Penghawa Dingin: Panduan Pembeli Lengkap 2026",
+    "date": "2026-04-24",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "Dikuasakan bateri RV penghawa dingin 2026 — Bahagian dalam van kemping kelas B pada waktu malam dengan atas bumbung 12V DC tempat letak kereta AC padam LiFePO4 bank bateri, monitor menunjukkan kapasiti 220Ah dan baki masa jalan 9.5 jam",
+    "excerpt": "Panduan lengkap 2026 untuk penghawa dingin RV berkuasa bateri.12V/24V DC lwn persediaan penyongsang, data masa jalan LiFePO4 sebenar (220Ah → 8–11 jam), julat harga $1,500–$3,800, matematik offset suria."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Cara Memasang AC Tempat Letak Kereta: Panduan Langkah demi Langkah untuk 2026",
+    "date": "2026-04-24",
+    "category": "Panduan Pemasangan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Cara memasang tempat letak kereta AC 2026 — pemasang memotong bukaan bumbung 14x14 inci pada van Sprinter menggunakan jigsaw, dengan CoolDrivePro VS02 PRO 12V DC unit, gasket butil dan 4 kabel AWG terletak di sebelah meja kerja.",
+    "excerpt": "Panduan langkah demi langkah 2026 untuk memasang AC tempat letak kereta: penyediaan bumbung, potongan 14x14, gasket, pendawaian (4 AWG, fius 80A), pentauliahan.6–9 jam DIY, $325 dalam bahagian di luar unit."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Bateri untuk Tempat Letak Kereta AC: Panduan Saiz & Pendawaian 2026",
+    "date": "2026-04-24",
+    "category": "Panduan Cara",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "Bateri LiFePO4 untuk meletak kenderaan AC 2026 — petak bateri terbuka bagi van Sprinter yang menunjukkan dua bateri LiFePO4 Battle Born 220Ah selari dengan kabel 2/0 AWG, fius kelas T 200A, bar bas dan bacaan monitor Victron BMV-712 SOC4 pada 87% SOC4",
+    "excerpt": "Panduan saiz LiFePO4 2026 untuk tempat letak kereta AC: 220Ah ($1,400), 280Ah ($1,750), 400Ah ($2,400) dengan pilihan matematik masa jalan 8 jam, spesifikasi BMS/fius/kabel."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "AC Tempat Letak Kereta Tidak Sejuk?Panduan Penyelesaian Masalah 2026 (Langkah demi Langkah)",
+    "date": "2026-04-24",
+    "category": "Menyelesaikan masalah",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "Penyelesaian masalah AC tempat letak kereta tidak menyejukkan 2026 — pemandu di dalam tidur separa trak dengan multimeter menyelidik 12V DC penyambung kuasa AC letak kereta pada 11.4V, bacaan termometer 78°F bekalan udara vs 79°F kembali, imej inframerah menunjukkan titik panas pemeluwap",
+    "excerpt": "2026 panduan langkah demi langkah untuk membaiki AC tempat letak kereta yang tidak sejuk.Penurunan voltan, penyejuk, pemeluwap kotor, termostat, BMS — diagnosis dalam 30 minit, $0–$280 pembetulan."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Tempat Letak Kereta AC lwn APU: Perbandingan Kos & Prestasi 2026 untuk Armada",
+    "date": "2026-04-24",
+    "category": "Ulasan & Perbandingan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "Tempat Letak Kereta AC lwn APU 2026 — perbandingan sebelah menyebelah Freightliner Cascadia dengan DC tempat letak kereta berkuasa bateri berbanding trak tidur dengan RigMaster APU dipasang pada rel rangka, paparan pam bahan api yang menunjukkan kos melebihi $4.05/gal",
+    "excerpt": "Panduan keputusan armada 2026: letak kereta AC vs APU.TCO 5 tahun dengan diesel $4.05 — DC tempat letak kereta AC menjimatkan $9,800–$14,200/trak lwn diesel APU, $3,200–$5,400 lwn melahu."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V lwn 24V AC Tempat Letak Kereta pada 2026: Panduan Keputusan Trak, RV & Van",
+    "date": "2026-04-23",
+    "category": "Panduan Pembeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "imageAlt": "12V lwn 24V perbandingan AC tempat letak kereta — penghawa dingin tempat letak kereta sebelah menyebelah berwayar untuk sistem elektrik 12V dan 24V pada trak dan RV",
+    "excerpt": "12V lwn 24V tempat letak kereta AC pada 2026: padankan voltan asli kenderaan anda.Pecahan penuh tolok kabel, kos bateri, kecekapan, masa jalan dan apabila penukar masuk akal.Matriks keputusan di dalam."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Penghawa Dingin Tempat Letak Kereta Terbaik 2026: 9 Pilihan Teratas Berbanding (Lori, RVs & Van)",
+    "date": "2026-04-23",
+    "category": "Panduan Pembeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "Penghawa dingin tempat letak kereta terbaik 2026 — barisan unit AC letak kereta atas bumbung dan sistem belah DC dipasang pada separa trak, RV dan van pecut di bawah langit cerah",
+    "excerpt": "9 penghawa dingin tempat letak kereta terbaik yang diuji untuk 2026: bersebelahan BTU, bunyi bising, cabutan, harga dan prestasi dunia sebenar untuk trak separuh, RVs, van pecut dan armada.Pemilihan pemenang mengikut..."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Panduan Membeli Penghawa Dingin Tempat Letak Kereta 2026: Cara Memilih Unit yang Tepat (Tanpa Membuang $1,500)",
+    "date": "2026-04-23",
+    "category": "Panduan Pembeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "imageAlt": "Panduan membeli penghawa dingin tempat letak kereta 2026 — atas bumbung dan DC unit AC tempat letak kereta di atas bumbung dan belah kecil yang dipasang pada trak, RV dan van untuk perbandingan sebelah menyebelah",
+    "excerpt": "Panduan membeli AC tempat letak kereta 2026: Rangka kerja keputusan 7 langkah, jadual saiz BTU, ambang spesifikasi, belanjawan kos mengikut peringkat dan 5 kesilapan yang menjadikan $1,500 AC menjadi sekerap.Baca sebe..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Kalkulator Penjimatan Bahan Api AC Tempat Letak Kereta 2026: Kos Terbiar lwn DC AC Letak Kereta lwn APU",
+    "date": "2026-04-23",
+    "category": "Alat & Kalkulator",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "imageAlt": "Kalkulator penjimatan bahan api AC tempat letak kereta 2026 — papan pemuka separa trak menunjukkan waktu terbiar, penggunaan bahan api dan perbandingan penjimatan tahunan antara melahu, diesel APU dan DC penghawa dingin tempat letak kereta",
+    "excerpt": "Kira penjimatan bahan api tepat daripada DC tempat letak kereta AC lwn melahu lwn diesel APU.Harga bahan api 2026, kitaran tugas sebenar, ROI seumur hidup.Contoh bekerja untuk pemilik-pengendali dan armada 100-trak."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Penyaman Udara Tempat Letak Kereta untuk Kelembapan Pantai Alexandria: Melawan Cabaran Iklim Mediterranean Mesir",
     "date": "2026-03-31",
@@ -113,6 +369,7 @@
     "date": "2026-01-10",
     "category": "Teknologi",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp",
+    "imageAlt": "Penyepaduan Rumah Pintar AC Tempat Letak Kereta: Kawal AC Kenderaan Anda dari Mana-mana",
     "excerpt": "Temui cara penyepaduan rumah pintar AC meletak kenderaan membolehkan anda mengawal iklim kenderaan anda dari mana-mana sahaja, meningkatkan keselesaan dan kecekapan untuk RVs dan trak."
   },
   {
@@ -130,6 +387,7 @@
     "date": "2025-12-29",
     "category": "Keselamatan Pemandu",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
+    "imageAlt": "Cara Mengurangkan Tekanan Haba Pemandu dengan Sistem AC Tempat Letak Kereta Elektrik",
     "excerpt": "Ketahui cara sistem AC tempat letak kenderaan elektrik melindungi pemandu daripada tekanan haba di iklim Afrika.Tingkatkan keselamatan, pengekalan dan produktiviti dengan penyejukan kabin yang berkesan."
   },
   {
@@ -138,6 +396,7 @@
     "date": "2025-12-28",
     "category": "Panduan Pemasangan",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
+    "imageAlt": "Kesilapan Pemasangan Biasa untuk Penghawa Dingin Lori di Afrika",
     "excerpt": "Elakkan kegagalan yang mahal dengan mempelajari kesilapan pemasangan AC trak yang paling biasa di Afrika.Panduan pakar tentang prosedur pemasangan, pendawaian dan pengedap yang betul."
   },
   {
@@ -146,6 +405,7 @@
     "date": "2025-12-27",
     "category": "Panduan Teknikal",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
+    "imageAlt": "Bagaimana Debu, Getaran Jalan dan Haba Mempengaruhi Prestasi AC Tempat Letak Kereta",
     "excerpt": "Fahami cara cabaran alam sekitar Afrika memberi kesan kepada prestasi AC tempat letak kereta trak dan pelajari strategi penyelenggaraan untuk memastikan penyejukan yang boleh dipercayai dalam keadaan yang teruk."
   },
   {
@@ -154,6 +414,7 @@
     "date": "2025-12-26",
     "category": "Panduan Teknikal",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
+    "imageAlt": "Perlindungan Voltan Rendah: Perkara yang Pembeli Armada Afrika Perlu Tahu",
     "excerpt": "Panduan penting untuk perlindungan voltan rendah dalam sistem AC tempat letak kereta trak.Ketahui cara perlindungan bateri berfungsi dan sebab ia penting untuk operasi armada Afrika."
   },
   {
@@ -162,6 +423,7 @@
     "date": "2025-12-25",
     "category": "Menyelesaikan masalah",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
+    "imageAlt": "Mengapa Penyejukan AC Trak Anda Menjadi Lemah dalam Kepanasan Melampau (Dan Cara Membaikinya)",
     "excerpt": "Temui sebab penghawa dingin trak kehilangan kuasa penyejukan dalam haba melampau dan pelajari penyelesaian yang terbukti untuk memulihkan prestasi dalam keadaan padang pasir Afrika."
   },
   {
@@ -170,6 +432,7 @@
     "date": "2025-12-24",
     "category": "Panduan Pemasangan",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
+    "imageAlt": "Panduan Pemasangan Profesional untuk AC Tempat Letak Kereta Lori di Afrika",
     "excerpt": "Panduan pemasangan profesional langkah demi langkah untuk penghawa dingin tempat letak kereta trak dalam keadaan Afrika.Pelajari prosedur pemasangan, pendawaian dan pentauliahan untuk prestasi yang boleh dipercayai."
   },
   {
@@ -187,6 +450,7 @@
     "date": "2025-12-19",
     "category": "Penyelesaian Armada",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp",
+    "imageAlt": "Penyaman Udara Trak Borong untuk Armada Pengangkutan Tunisia",
     "excerpt": "Penyaman udara trak borong untuk armada pengangkutan Tunisia.Harga pukal dan penyelesaian armada untuk pengendali logistik Afrika Utara yang mencari teknologi penyejukan yang boleh dipercayai."
   },
   {
@@ -213,6 +477,7 @@
     "date": "2025-12-16",
     "category": "Operasi Ketinggian",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp",
+    "imageAlt": "Panduan Armada Ketinggian Tinggi Ethiopia: Perancangan AC Tempat Letak Kereta untuk Laluan Pengangkutan Bertingkat",
     "excerpt": "Panduan Ethiopia kebangsaan untuk meletakkan prestasi AC pada ketinggian, meliputi tingkah laku bateri, beban UV dan perancangan laluan merentasi koridor pengangkutan tanah tinggi."
   },
   {
@@ -230,6 +495,7 @@
     "date": "2025-12-14",
     "category": "Pemandu Wilayah",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp",
+    "imageAlt": "Penghawa Dingin Lori Elektrik untuk Armada Pengangkutan Uganda yang Berkembang",
     "excerpt": "Penghawa dingin trak elektrik untuk armada pengangkutan Uganda yang sedang berkembang.Penyelesaian penyejukan yang cekap untuk hab logistik dan operasi rentas sempadan Afrika Timur yang baru muncul."
   },
   {
@@ -238,6 +504,7 @@
     "date": "2025-12-13",
     "category": "Aplikasi Khusus",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp",
+    "imageAlt": "Meletakkan Penyaman Udara untuk Kenderaan Pelancongan Safari Tanzania",
     "excerpt": "Temui penyelesaian penghawa dingin tempat letak kereta untuk kenderaan pelancongan safari Tanzania.Pastikan tetamu selesa sambil mengekalkan pengalaman hidupan liar di destinasi safari utama di Afrika Timur."
   },
   {
@@ -327,6 +594,7 @@
     "date": "2025-12-06",
     "category": "Aplikasi Pelancongan",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp",
+    "imageAlt": "Penyaman Udara Tempat Letak Kereta untuk Pelancongan Safari Tanzania: Keselesaan Serengeti ke Zanzibar",
     "excerpt": "Tingkatkan pelancongan safari Tanzania dengan sistem AC tempat letak kereta.Penyejukan penting untuk kenderaan pelancongan hidupan liar yang beroperasi di Serengeti, Ngorongoro dan laluan pantai ke Zanzibar."
   },
   {
@@ -344,6 +612,7 @@
     "date": "2025-12-05",
     "category": "Peluang Perniagaan",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
+    "imageAlt": "Menjadi Pengedar Penghawa Dingin Lori di Afrika",
     "excerpt": "Rakan kongsi dengan kami untuk menjadi pengedar penghawa dingin trak di Afrika.Wilayah eksklusif, sokongan pemasaran dan latihan teknikal untuk rakan kongsi serantau."
   },
   {
@@ -352,6 +621,7 @@
     "date": "2025-12-05",
     "category": "Perkhidmatan Sokongan",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
+    "imageAlt": "Alat Ganti & Sokongan Selepas Jualan untuk Lori AC di Afrika",
     "excerpt": "Alat ganti yang komprehensif dan sokongan selepas jualan untuk penghawa dingin trak di Afrika.Penapis, pemampat, penyejuk dan bantuan teknikal tersedia."
   },
   {
@@ -414,6 +684,7 @@
     "date": "2025-12-03",
     "category": "Pemandu Wilayah",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp",
+    "imageAlt": "Penyejukan Pengangkutan Rentas Sempadan untuk Operator Armada Zimbabwe",
     "excerpt": "Meletakkan penghawa dingin untuk armada pengangkutan rentas sempadan Zimbabwe.Optimumkan keselesaan pemandu untuk laluan yang menghubungkan Harare, Bulawayo dan pasaran serantau."
   },
   {
@@ -449,6 +720,7 @@
     "date": "2025-12-02",
     "category": "Pemandu Wilayah",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp",
+    "imageAlt": "Penyelesaian Penghawa Dingin Tempat Letak Kereta untuk Armada Logistik Kenya: Nairobi ke Koridor Mombasa",
     "excerpt": "Penyelesaian armada untuk syarikat logistik Kenya.Ketahui cara sistem AC tempat letak kereta meningkatkan kebajikan pemandu di koridor pengangkutan Nairobi-Mombasa yang sibuk dan seterusnya."
   },
   {
@@ -511,6 +783,7 @@
     "date": "2025-11-20",
     "category": "Gaya hidup",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp",
+    "imageAlt": "AC Tempat Letak Kereta untuk Solo RV Pengembara: Keselamatan, Keselesaan dan Kemerdekaan",
     "excerpt": "Pengembara solo RV, tingkatkan keselamatan, keselesaan dan kebebasan anda dengan AC tempat letak kereta yang boleh dipercayai.Penting untuk boondocking dan ketenangan fikiran."
   },
   {
@@ -744,6 +1017,7 @@
     "date": "2025-10-26",
     "category": "Panduan",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp",
+    "imageAlt": "Menggunakan Pam Haba AC Tempat Letak Kereta Anda untuk Musim Sejuk RV Berkhemah",
     "excerpt": "Ketahui cara pam haba AC tempat letak kereta anda boleh mengubah musim sejuk RV perkhemahan.Ketahui tentang kecekapan, keperluan bateri dan kekal hangat dalam kesejukan."
   },
   {
@@ -779,6 +1053,7 @@
     "date": "2025-10-15",
     "category": "Teknologi",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp",
+    "imageAlt": "Penilaian Kecekapan Tenaga untuk AC Tempat Letak Kereta: Memahami EER, COP & SEER",
     "excerpt": "Menyahmistikan penarafan kecekapan tenaga AC tempat letak kereta: EER, COP dan SEER.Ketahui maksud nombor ini untuk dompet dan keselesaan anda di jalan raya."
   },
   {
@@ -818,42 +1093,6 @@
     "excerpt": "Memastikan keselamatan haiwan dan peralatan di klinik veterinar bergerak dengan penyelesaian AC tempat letak kereta yang boleh dipercayai.Kritikal untuk ubat dan kebajikan."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Penyaman Udara untuk Studio Yoga Mudah Alih dan Van Kesihatan",
-    "date": "2025-10-15",
-    "category": "keistimewaan",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "imageAlt": "Penyaman Udara untuk Studio Yoga Mudah Alih dan Van Kesihatan",
-    "excerpt": "Temui penyelesaian penghawa dingin yang penting untuk studio yoga mudah alih dan van kesihatan.Pastikan kawalan suhu optimum (68-72°F) dengan AC tempat letak kereta yang boleh dipercayai."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "AC Tempat Letak Kereta untuk Perantau Digital yang Tinggal di RVs: Keselesaan Bekerja-Dari-Mana-mana",
-    "date": "2025-10-15",
-    "category": "Gaya hidup",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "imageAlt": "AC Tempat Letak Kereta untuk Perantau Digital yang Tinggal di RVs: Keselesaan Bekerja-Dari-Mana-mana",
-    "excerpt": "Panduan penting untuk meletakkan AC untuk RV nomad digital.Kekal sejuk dan produktif semasa bekerja dari jauh dari RV anda dengan kawalan iklim yang betul."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Kekal Sejuk di RV Perhimpunan dan Perayaan: Petua AC Tempat Letak Kereta untuk Acara",
-    "date": "2025-10-15",
-    "category": "Gaya hidup",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "imageAlt": "Kekal Sejuk di RV Perhimpunan dan Perayaan: Petua AC Tempat Letak Kereta untuk Acara",
-    "excerpt": "Master RV perhimpunan dengan tempat letak kereta AC!Dapatkan petua pakar tentang penyejukan tambahan, saiz bateri dan pemasangan untuk pengalaman acara yang selesa."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Panduan Penghuni Van untuk Parking AC: Hidup Sepenuh Masa dalam Kenderaan Anda",
-    "date": "2025-10-15",
-    "category": "Kehidupan Van",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "imageAlt": "Panduan Penghuni Van untuk Parking AC: Hidup Sepenuh Masa dalam Kenderaan Anda",
-    "excerpt": "Panduan penting untuk memilih dan memasang AC tempat letak kereta untuk penghuni van.Kekal sejuk dan selesa di rumah mudah alih anda dengan petua pakar."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Kos Pemasangan AC Tempat Letak Kereta pada 2025: Unit, Pendawaian, Bateri dan Buruh",
     "date": "2025-10-15",
@@ -861,15 +1100,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "imageAlt": "Kos Pemasangan AC Tempat Letak Kereta pada 2025: Unit, Pendawaian, Bateri dan Buruh",
     "excerpt": "Lihat kos sebenar untuk memasang AC tempat letak kereta dalam trak, RV, atau van, termasuk harga seunit, peningkatan elektrik, kos bateri dan tenaga kerja."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Penyejuk R32 dalam AC Tempat Letak Kereta Generasi Seterusnya: GWP Lebih Rendah dan Kecekapan Lebih Baik",
-    "date": "2025-10-15",
-    "category": "Teknologi",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "imageAlt": "Penyejuk R32 dalam AC Tempat Letak Kereta Generasi Seterusnya: GWP Lebih Rendah dan Kecekapan Lebih Baik",
-    "excerpt": "Temui sebab penyejuk R32 menjadi pilihan pilihan untuk AC tempat letak kenderaan generasi seterusnya, menawarkan GWP yang lebih rendah dan kecekapan yang dipertingkatkan untuk kenderaan komersial."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -924,15 +1154,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
     "imageAlt": "Mengapa DC Penghawa Dingin Dikuasakan Merupakan Pengubah Permainan untuk RV Pemilik",
     "excerpt": "Temui sebab penghawa dingin berkuasa DC mengubah RV dan penyejukan trak.Ketahui tentang kecekapan, keserasian bateri dan pilihan AC tempat letak kereta 12V DC terbaik."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Berapa Banyak Bahan Api yang Dijimatkan oleh Penyaman Udara Tempat Letak Kereta?Nombor Nyata & Kalkulator ROI",
-    "date": "15 Februari 2025",
-    "category": "Panduan",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "imageAlt": "Berapa Banyak Bahan Api yang Dijimatkan oleh Penyaman Udara Tempat Letak Kereta?Nombor Nyata & Kalkulator ROI",
-    "excerpt": "Temui berapa banyak bahan api yang boleh dijimatkan oleh penghawa dingin tempat letak kereta anda.Panduan kami menyediakan nombor nyata, kalkulator ROI dan petua untuk trak, RVs dan van."
   },
   {
     "slug": "cleaning-maintaining-rv-ac",
@@ -1016,15 +1237,6 @@
     "excerpt": "Pastikan trak makanan anda sejuk dan mematuhi AC tempat letak kereta yang betul.Panduan kami merangkumi BTU keperluan, pemasangan dan model teratas seperti CoolDrivePro VS02 PRO & VX3000SP."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Panduan Membeli AC Tempat Letak Kereta 2025: Cara Memilih Unit yang Tepat untuk Lori, RV atau Van",
-    "date": "20 November 2024",
-    "category": "Panduan Pembeli",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "imageAlt": "Panduan Membeli AC Tempat Letak Kereta 2025: Cara Memilih Unit yang Tepat untuk Lori, RV atau Van",
-    "excerpt": "Membeli-belah untuk AC parking?Bandingkan atas bumbung lwn pisah mini, 12V lwn 24V, BTU saiz, masa jalan bateri dan tukar ganti pemasangan sebelum anda membeli."
-  },
-  {
     "slug": "mppt-solar-controller-rv-ac",
     "title": "Pengawal Caj Solar MPPT untuk RV Penyaman Udara: Panduan Pilihan & Persediaan Terbaik",
     "date": "18 November 2024",
@@ -1059,15 +1271,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-roi-total-cost-ownership-hero.webp",
     "imageAlt": "ROI Penghawa Dingin Tempat Letak Kereta: Jumlah Kos Pemilikan vs Enjin Melahu Selama 5 Tahun",
     "excerpt": "Temui ROI sebenar penghawa dingin tempat letak kereta berbanding melahu enjin selama 5 tahun.Ketahui tentang penyelesaian TCO, penjimatan dan CoolDrivePro untuk pemandu trak, RVs dan penyelamat van."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V lwn 24V AC Tempat Letak Kereta: Voltan Mana Yang Terbaik untuk Lori, RV atau Van?",
-    "date": "8 Mac 2025",
-    "category": "Panduan Teknikal",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "imageAlt": "12V lwn 24V AC Tempat Letak Kereta: Voltan Mana Yang Terbaik untuk Lori, RV atau Van?",
-    "excerpt": "Bandingkan sistem AC tempat letak kereta 12V dan 24V mengikut kesesuaian kenderaan, cabutan semasa, pendawaian, masa jalan bateri dan kerumitan pemasangan sebelum anda membeli."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -1257,10 +1460,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "imageAlt": "Panduan Pendawaian Penghawa Dingin Tempat Letak Kereta: Selamat 12V/24V Pemasangan Elektrik - panduan penyaman udara tempat letak kereta",
     "excerpt": "Panduan komprehensif untuk 12V/24V tempat letak kenderaan pendawaian AC dan pemasangan elektrik dalam trak, RVs dan van.Ketahui tentang komponen, penurunan voltan, pengurusan bateri dan penyelesaian masalah untuk Cool..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

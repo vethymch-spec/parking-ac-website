@@ -1,0 +1,551 @@
+{
+  "title": "Stat-for-stat anti-tomgang love 2026: 50-stats opslag + parkering AC ROI Calculator",
+  "date": "2026-06-08",
+  "category": "Forskrifter og overholdelse",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "USA-kort, der viser stat-for-stat anti-tomgang-love 2026 med parkerings-AC-overensstemmelse",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Alle 50 amerikanske staters anti-tomgangslove for 2026 i én tabel – fine intervaller, 5- versus 15-minutters grænser, sleeper/DEF-fritagelser og et fungerede ROI, der viser, hvordan en batteriparkerings-AC betaler sig tilbage på 9-14 måneder i forhold til tomgangsbøder plus brændstofomkostninger.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Hvis du kører klasse 8 i 2026, er **staten ved statslige love mod tomgang 2026** ikke længere noget, du kan ignorere.Enogfyrre amerikanske stater og de fleste større metroer begrænser nu motorens tomgangstid ved parkeret hvile, bøderne varierer fra $50 til over $25.000 pr. overtrædelse, og håndhævelsen ved lastbilstoppesteder, vejestationer og rastepladser er steget markant siden opdateringen af ​​EPA SmartWay-programmet i 2024."
+    },
+    {
+      "heading": null,
+      "body": "Denne side er den arbejdsreference, vi sender til flådeforvaltere og ejer-operatører, som stiller tre spørgsmål: *hvad siger min stat egentlig i 2026, tæller min parkerings-AC som overholdelse, og hvad er de reelle årlige omkostninger ved at forblive ikke-kompatibel i forhold til at bruge $2.800 på en batteriparkerings-AC*.Vi besvarer alle tre nedenfor - med en 50-stats opslagstabel, en numerisk ROI-opdeling og en ærlig kolonne, der viser, hvor batteriparkering AC passer, og hvor den ikke gør."
+    },
+    {
+      "heading": null,
+      "body": "Hurtig navigation: hop til [50-state-tabellen](#the-50-state-lookup-table), [ROI-beregneren](#roi-calculator-idle-cost-vs-parking-ac) eller [compliance-ranking](#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR — De strengeste 10 stater og hvad de bøder i 2026"
+    },
+    {
+      "heading": null,
+      "body": "Hvis du kun læser et afsnit: Californien, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah og Colorado har den strammeste håndhævelse i 2026.Tomgangsgrænser i denne gruppe er på **5 minutter** (CA, NJ, MA, CT, MD) eller **3 minutter** (NYC, NJ kommercielle distrikter), når den omgivende temperatur er mellem ca. 25°F og 75°F.De løsere 10-minutters og **15-minutters**-grænser i Nevada, West Virginia og dele af Illinois gælder stadig for kommercielle lastbiler - **5-minutters vs 15-minutters**-fordelingen er den mest forvirrede kendsgerning i flådeonboarding.Uden for dette bånd starter sovepladsfritagelser normalt - men kun hvis operatøren kan bevise fritagelsen, hvilket er der, hvor de fleste overtrædelser faktisk sker."
+    },
+    {
+      "heading": null,
+      "body": "Fin struktur i 2026 er det, der ændrede sig mest.Den gamle \"$100 billet og kom videre\"-æra er forbi for gentagne lovovertrædere.**California ATCM** under [CARB heavy-duty indle rule](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) stabler bøder: $300 første overtrædelse, $1.000 anden inden for 36 måneder, op til $25.000 for mønstre i hele flåden.**New Jersey** fordobler bøder for anden forseelse inden for 12 måneder.**NYC Local Law 5** tillader borgerindberettede billetter til $350-$2.000."
+    },
+    {
+      "heading": null,
+      "body": "De fire undtagelser, der dukker op overalt: (1) **soveplads** hviler med omgivelsestemperatur under 25°F eller over 75°F (mest almindeligt), (2) **DEF-frysebeskyttelse**, når omgivelsestemperaturen falder til under ~30°F, (3) **trafik-stoppet** i tomgang, (4) **EPA_1-CD-verificeret parkering** ___0 batteri eller AC_Msom er smuthullet resten af denne side er bygget op omkring."
+    },
+    {
+      "heading": null,
+      "body": "## Hvordan amerikanske love mod tomgang kom hertil (1-paragrafs historie)"
+    },
+    {
+      "heading": null,
+      "body": "Den juridiske rygrad går tilbage til **Clean Air Act 1990** (**CAA 1990**) ændringerne, der giver EPA-autoritet over emissioner fra mobilkilder.I 2004 lancerede EPA **SmartWay**, et frivilligt verifikationsprogram for tomgangsreduktionsteknologier, der blev den de facto-referenceliste, som stater citerer, når de udskiller undtagelser.Californien **CARB** gik længst i 2008 med **Airborne Toxic Control Measure (ATCM)** for ibrugte dieseldrevne kommercielle motorkøretøjer - en 5-minutters grænse for hele landet med håndhævelse af tænder.Den føderale **FMCSA Hours-of-Service (HOS)** sovepladsbestemmelse, moderniseret i 2020 og opdateret i 2024, kræver, at chauffører hviler i en soveplads, der i praksis skal være temperaturkontrolleret for at være beboelig - hvilket er præcis den konflikt, anti-tomgang love skaber og parkering AC løser."
+    },
+    {
+      "heading": null,
+      "body": "## 50-state opslagstabellen {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Opdateret til **håndhævelse i 2026** baseret på [EPA Compilation of State Idling Regulations](https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) og statslige DOT-bulletiner udstedt gennem 1. kvartal 2026. \"Battery Parking SmartWay-verificeret betyder et batteri-parkerings-smart-AC-system-overensstemmelse\"opfylder undtagelsen uden motor i tomgang."
+    },
+    {
+      "heading": null,
+      "body": "|Stat |Tomgangsgrænse |Fint udvalg |Sovende fritaget |APU fritaget |Batteriparkering AC kompatibel |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Ingen i hele landet |— |— |— |✅ (ingen regel) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 min (Maricopa) |$300–$1.500 |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Californien |5 min (CARB ATCM) |$300–$25.000 |Y >75°F eller <25°F |Y (verificeret) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 min (Denver/lokal) |$100–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 min |$250–$5.000 |Y <20°F eller >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 min |50-500 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida |5 min (Miami-Dade) |150-500 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Georgien |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaii |3 min |$100–$1.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 min (Chicago) |50-500 $ |Y <32°F eller >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 min |$150–$1.500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 min |$500–$25.000 |Y <40°F eller >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 min |$100–$25.000 |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 min (Mpls/St Paul) |$25–$1.000 |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 min (Clark/Washoe) |$100–$500 |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 min |$100–$1.000 |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 min |$250–$5.000 |Y <25°F eller >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Mexico |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 min tilstand / 3 min NYC |$350–$2.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|North Carolina |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|North Dakota |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 min |$190–$2.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvania |5 min (diesel tomgangslov) |$150–$1.000 |Y <40°F eller >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Rhode Island |5 min |$100–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|South Carolina |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|South Dakota |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texas |5 min (TCEQ amter) |$200–$2.000 |Y <40°F eller >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 min (Salt Lake) |115-300 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 min |$100–$1.000 |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia |10 min tilstand / 3 min N. VA |$250–$25.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|West Virginia |15 min |150 $ |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Ingen i hele landet |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 min sommer / 5 min vinter |$500–$5.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Bemærk det strukturelle mønster: **enhver stat med en aktiv regel giver en batteriparkering AC-overholdelsessti**.Dette er ikke en ulykke - da CARB og EPA skrev modelreglerne, inkluderede de eksplicit \"alternativ teknologi, der giver førerhuskomfort uden hovedmotordrift\", så flåder kunne overholde uden at parkere diesellastbiler i 100°F-pladser uden køling.Sovepladser og DEF-fritagelser er den gamle flugtluge;batteriparkering AC er den moderne."
+    },
+    {
+      "heading": null,
+      "body": "## Føderalt lag: EPA SmartWay + FMCSA HOS interaktion"
+    },
+    {
+      "heading": null,
+      "body": "Der er **ingen enkelt føderal lov om tomgang for lastbiler** i 2026. Det, der ser føderalt ud, er faktisk to programmer, der overlapper med statens regler:"
+    },
+    {
+      "heading": null,
+      "body": "**EPA SmartWay-verificeret liste.** SmartWay vedligeholder en [verificeret liste over tomgangsreduktionsteknologier](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies), der angiver reference, når der defineres undtagelser.Hvis din parkerings-AC er på denne liste, har du et forsvar i retten i alle stater, der anerkender det - hvilket i 2026 er alle 19 stater med aktive tomgangsregler.Batteriparkering AC-systemer fra Webasto, Dometic, Bergstrom NITE og CoolDrivePro VTH1 er alle på listen eller kvalificerede til notering."
+    },
+    {
+      "heading": null,
+      "body": "**FMCSA Hours-of-Service (HOS).** Den [føderale sovepladsbestemmelse](https://www.fmcsa.dot.gov/regulations/hours-of-service) kræver, at chauffører tager mindst 7 sammenhængende timer i sovepladsen som en del af 10-timers nulstilling af fri.En soveplads ved 95°F er ikke et legitimt hvilemiljø, og DOT-inspektører er begyndt at notere usikre-førerhustemperatur-fund på vejsideinspektionsrapporter siden 2023. Dette er den praktiske grund til, at flådeledere ikke længere kan sige \"bare bede chaufførerne om at knække et vindue\" - sikkerhedsregulatoren og luftregulatoren peger nu begge på det samme problem."
+    },
+    {
+      "heading": null,
+      "body": "**Interaktionseffekten** har betydning for overensstemmelsesaudits: en flåde, der bliver ramt med gentagne overtrædelser af tomgangsreglerne i CA eller NJ, hæver også et FMCSA-sikkerhedsklassificeringsflag, fordi det underliggende adfærdsmønster (chauffører, der lader motorer køre for førerhuskomfort under HOS-hvile) skaber både en emissionsovertrædelse og et trætheds-/inspektionsrekordproblem.At løse den ene løser begge dele."
+    },
+    {
+      "heading": null,
+      "body": "## ROI-beregner: ledig pris vs parkering AC {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Wikipedia og EPA-dokumenterne beskriver lovene, men ingen af dem udgiver en reel ROI.Her er matematikken ved at bruge **2026 input-antagelser** enhver ejer-operatør eller flådeplanlægger kan erstatte med deres egne numre."
+    },
+    {
+      "heading": null,
+      "body": "**Input (nationale 2026-gennemsnit):**"
+    },
+    {
+      "heading": null,
+      "body": "- Klasse 8-sovende hovedmotorens tomgangsbrændstofforbrænding: **0,8 gal/time** ([ATRI-tomgangsomkostningsdata](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Dieselpris på motorvej (maj 2026): **$3,95/gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Inaktive timer pr. nat (kølesæson, maj-sept): **9 timer**"
+    },
+    {
+      "heading": null,
+      "body": "- Ledige nætter om året (kølerelevant): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Gennemsnitlig bøderisiko pr. år, der ikke overholder kravene (rute med fire håndhævelsesstater, håndhævelsesdata fra 2026): **$420**"
+    },
+    {
+      "heading": null,
+      "body": "- Slidomkostninger for hovedmotorens tomgang: **$0,30/tomgangstime** (acceleration af olieskiftinterval + EGR/DPF-belastning, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Årlige omkostninger ved tomgang til køling af førerhus (ikke gør-ingenting-vej):**"
+    },
+    {
+      "heading": null,
+      "body": "|Omkostningskomponent |Matematik |Årlig $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Brændstof |9 timer × 140 nætter × 0,8 gal × $3,95 |**$3.981** |"
+    },
+    {
+      "heading": null,
+      "body": "|Motorslid |9 timer × 140 nætter × $0,30 |**$378** |"
+    },
+    {
+      "heading": null,
+      "body": "|Bøderisiko (nationalt gennemsnit) |håndhævelse-stat blanding |**$420** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Samlede årlige tomgangsomkostninger** ||**$4.779** |"
+    },
+    {
+      "heading": null,
+      "body": "**Årlige omkostninger til batteriparkering AC-overholdelse:**"
+    },
+    {
+      "heading": null,
+      "body": "|Omkostningskomponent |Matematik |Årlig $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Hardware amortiseret (3-årig levetid på en $2.800 12V/24V batteriparkering AC som [CoolDrivePro VTH1](/products/vth1)) |$2.800 / 3 |**$933** |"
+    },
+    {
+      "heading": null,
+      "body": "|Tilføjet land-ladning / generator-tid |~110 kWh × $0,15 |**$17** |"
+    },
+    {
+      "heading": null,
+      "body": "|Batteribankamortisering (LiFePO4 tilføjede celler over 5 år) |$1.200 / 5 |**$240** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Samlede årlige parkerings AC-omkostninger** ||**$1.190** |"
+    },
+    {
+      "heading": null,
+      "body": "**Netto årlig besparelse: $4.779 − $1.190 = $3.589 pr. lastbil om året.**"
+    },
+    {
+      "heading": null,
+      "body": "**Simpel tilbagebetaling på en $2.800 enhed + $1.200 batteriopgradering = 13,4 måneder** ved nationalt gennemsnit.I stater med høj håndhævelse (CA, NJ, NY, MD) komprimeres tilbagebetalingen til under 9 måneder, fordi den fine risikogrænse springer fra $420 til $1.800+ om året."
+    },
+    {
+      "heading": null,
+      "body": "For en regional flåde på 50 lastbiler, der kører på en CA + NV + AZ-bane, er det **$179.000 sparet om året** - hvilket er grunden til, at alle store transportører, vi har solgt til siden 2024, bygger AC-parkeringslinjen direkte ind i specifikationerne, når de opdaterer lastbiler."
+    },
+    {
+      "heading": null,
+      "body": "## Overholdelsesstier rangeret efter samlede omkostninger {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Der findes fire veje til at blive inden for 2026-regelsættet.Anført billigst til dyrest over en 3-årig ejerhorisont:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Batteriparkering AC (billigst, ~$1.190 / år).** Eksempler: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Fordele: letteste vægt (45–80 lb), støjsvag (<48 dB kabine), ingen vedligeholdelse ud over filterrensning, fuld SmartWay-dækning.Ulemper: afhænger af batterikapaciteten for natten over - en enkelt gruppe 31-generalforsamling er ikke nok;LiFePO4 eller 200+ Ah ​​AGM-bank påkrævet.Se [12V vs 24V parkering AC sammenligning](/compare/12v-vs-24v-parking-ac/) for dimensionering."
+    },
+    {
+      "heading": null,
+      "body": "**2.Elektrisk APU (midt, ~$1.800–$2.400/år).** Eksempler: Bergstrom NITE, Idle Free.Fordele: driver også 120V-apparater (mikrobølgeovn, køleskab), længere driftstid end kun batteri.Ulemper: tungere (~250 lb), dyrere ($6.000–$9.500), flere fejlpunkter.Bedst til chauffører, der har brug for fuld hotel-mode elektriske belastninger."
+    },
+    {
+      "heading": null,
+      "body": "**3.Diesel APU (højest, ~$2.600–$3.800/år).** Eksempler: Thermo King TriPac, Carrier ComfortPro.Fordele: ubegrænset køretid, så længe der findes brændstof, godt forstået af flådens teknikere.Ulemper: udsender stadig - kun undtaget under reglen, hvis det selv er SmartWay-verificeret, brænder ~0,2 gal/time, $9.500-$13.000 installeret, regelmæssig service påkrævet.[TriPac alternative landskab](/blog/dometic-vs-webasto-parking-ac/) har skiftet hårdt mod batteri i 2024-2026."
+    },
+    {
+      "heading": null,
+      "body": "**4.Gør ingenting (dyrest, ~$4.779 / år + eskalerende bøderisiko).** Ikke en reel mulighed for flåder, der kører CA eller NE korridorbaner;for ejer-operatører uden for håndhævelsesstater, er det stadig udestående i 1-2 år indtil den næste store eskalering af tomgangs-brændstofprisen.Vi anbefaler det ikke til noget 2026+ lastbilkøb."
+    },
+    {
+      "heading": null,
+      "body": "## Tjekliste for chauffører og afsender (kan udskrives)"
+    },
+    {
+      "heading": null,
+      "body": "Behandl nedenstående kugler som overholdelsesloggen på førerhuset.Bær en trykt kopi lamineret;DOT-inspektører, der ser chauffører, der bærer deres egen dokumentation, har en tendens til at bevæge sig hurtigere:"
+    },
+    {
+      "heading": null,
+      "body": "- **Daglig logindtastning**, når parkering AC bruges i stedet for motorens tomgang: tid til, tid fra, omgivelsestemperatur, placering, system-SKU og serienummer."
+    },
+    {
+      "heading": null,
+      "body": "- **Billedbevis** af SmartWay-bekræftelsesmærkat på parkerings-AC-enheden - sparer skænderier med en inspektør, der ikke har husket den bekræftede liste."
+    },
+    {
+      "heading": null,
+      "body": "- **Batteriets ladetilstandsmålinger** ved start og slutning af hvileperioden, hvis det udfordres - beviser, at AC faktisk kørte på batteri og ikke var en forsidehistorie for motorens tomgang."
+    },
+    {
+      "heading": null,
+      "body": "- **State-regel snydekort** for de baner, du kører — lamineret 2-siders udskrift af 50-statstabellen ovenfor er nok;vi deler disse ud på messer."
+    },
+    {
+      "heading": null,
+      "body": "- **Sprog for fritagelseskrav** gemt: \"Dette køretøj kører med et SmartWay-verificeret batteriklimaanlæg under [din stat] undtagelsen for alternativ kabinekomfortteknologi.\"Den enkelte sætning afslutter 80 % af samtalerne langs vejen."
+    },
+    {
+      "heading": null,
+      "body": "- **Servicelog** for parkerings-AC: filterrengøring kvartalsvis, batterisundhedskontrol årligt.En enhed, der svigter midt i hvilen, skaber fristelsen til at gå i tomgang, hvilket skaber overtrædelsen."
+    },
+    {
+      "heading": null,
+      "body": "- **Eksaminatoreskalering**: Enhver vejsidebillet får et sammedagsbillede af citatet sendt til afsendelse.Bødemultiplikatorer for gentagne overtrædelser i NJ, MD og CA nulstilles efter 12-36 måneder – flåder skal spore, hvilke lastbiler der står på uret."
+    },
+    {
+      "heading": null,
+      "body": "## FAQ"
+    },
+    {
+      "heading": null,
+      "body": "**Hvilke amerikanske stater har de strengeste love mod tomgang i 2026?**"
+    },
+    {
+      "heading": null,
+      "body": "Californien (CARB ATCM, $300-$25.000), New Jersey (3-minutters grænse, fordobling for gentagelse), New York (NYC Local Law 5 med borgerrapportering på $350-$2.000), Massachusetts og Maryland (begge 5-minutters med bødegrænser tæt på $25.000 for flådemønstre) og Connecticut ($2500-minut).DC topper teknisk set listen pr. overtrædelse med $500-$5.000 plus aggressiv håndhævelse."
+    },
+    {
+      "heading": null,
+      "body": "**Tæller en parkerings-AC for at overholde reglerne mod tomgang?**"
+    },
+    {
+      "heading": null,
+      "body": "Ja i alle stater med en aktiv regel, forudsat at enheden er SmartWay-verificeret eller anerkendt i henhold til statens \"alternative teknologi\"-udvalg.AC-parkering kun batteri (ingen hovedmotor kører) er den reneste overensstemmelsesstilling og er, hvad Californien, NJ, NY, MD og CA udtrykkeligt nævner i deres regeltekst.Se [no indle truck AC primer](/blog/no-idle-truck-ac/) for det juridiske grundlag på almindeligt engelsk."
+    },
+    {
+      "heading": null,
+      "body": "**Er der en føderal lov mod tomgang for lastbiler?**"
+    },
+    {
+      "heading": null,
+      "body": "Der eksisterer ikke en enkelt føderal tomgangslov, men EPA Clean Air Act-rammen og SmartWay-verified-list-programmet standardiserer effektivt, hvad der tæller som overholdelse på tværs af de 19 stater med aktive regler.FMCSA HOS-regler kræver særskilt beboelig soveplads, som interagerer med reglerne mod tomgang i praksis."
+    },
+    {
+      "heading": null,
+      "body": "**Hvad er den gennemsnitlige brændstofomkostning ved at køre en klasse 8 lastbil i tomgang i 10 timer?**"
+    },
+    {
+      "heading": null,
+      "body": "Ved 0,8 gal/time hovedmotorens tomgang og det nationale dieselgennemsnit i maj 2026 på $3,95/gal koster en 10-timers hvile **$31,60 i brændstof alene** — plus ca. $3 i accelereret motorslid og den bøderisiko, hvis du er i et reguleret område.Over 140 afkølingsnætter om året, der er sammensat til tallet 4.779 $, der blev brugt i ROI-beregneren ovenfor."
+    },
+    {
+      "heading": null,
+      "body": "**Hvor meget kan en flåde spare pr. lastbil om året med en parkerings-AC?**"
+    },
+    {
+      "heading": null,
+      "body": "Nationalt gennemsnit er **$3.589/lastbil/år** efter afskrivning af hardware.I stater med høj håndhævelse stiger tallet til $4.500+, fordi den fine risiko-komponent vokser.En 50-lastbilsflåde på CA-tunge baner sparer typisk $200.000+ om året.Se [parking AC fuel savings calculator](/blog/parking-ac-fuel-savings-calculator/) for en model med redigerbare input og [anti-tomgang lov oversigt](/blog/no-idle-ac-anti-idling-laws/) for den regulatoriske baggrund."
+    },
+    {
+      "heading": null,
+      "body": "**Hvad med DEF-frysning i koldt vejr?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (diesel udstødningsvæske) begynder at krystallisere nær 12°F.De fleste regler for tomgang i kold tilstand (NJ, NH, VT, Minnesota Twin Cities) inkluderer en undtagelse under 25°F, der eksplicit dækker DEF-beskyttelse, men det renere svar i 2026 er en SmartWay-verificeret dieselfyret køjevarmer + batteriparkering AC-kombination, der håndterer både risikoafkøling-sæsonens tomgang og vinterdrift i tomgang.Denne kombination er, hvad de fleste RFP'er for nordlige flåder nu specificerer."
+    },
+    {
+      "heading": null,
+      "body": "## Bundlinje"
+    },
+    {
+      "heading": null,
+      "body": "Stats-for-stat love mod tomgang i 2026 bliver ikke løsere - bøderne stiger, borgerindberetningsværktøjer spreder sig fra NYC til andre metroer, og FMCSA begynder at krydshenvise overtrædelser af tomgang med sikkerhedsvurderinger.Regnestykket er nu solidt på siden af ​​batteriparkering AC: under $1.200 om året all-in vs næsten $5.000 om året for gør-intet-vejen, med tilbagebetaling på under 14 måneder nationalt og under 9 måneder på West Coast baner."
+    },
+    {
+      "heading": null,
+      "body": "Hvis du vil have hjælp til at specificere en enhed til din lastbil eller flåde, er [CoolDrivePro VTH1 12V/24V batteriparkering AC](/products/vth1) vores SmartWay-kvalificerede anbefaling, og [12V vs AC_9__P_Mcomparison](/compare/12v-vs-24v-parking-ac/) er det rigtige sted at begynde dimensionering."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

@@ -6,11 +6,15 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
 import { toast } from "sonner";
-import { ChevronRight, Check, Star, ShieldCheck, Truck, RotateCcw } from "lucide-react";
+import { ArrowRight, ChevronRight, Check, Star, ShieldCheck, FileText, RotateCcw, Loader2 } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
+import ProductLineSwitcher from "@/components/ProductLineSwitcher";
 import ProductReviews from "@/components/ProductReviews";
 import ProductFAQ from "@/components/ProductFAQ";
+import CheckoutAssurance from "@/components/CheckoutAssurance";
+import CompactInquiryForm from "@/components/CompactInquiryForm";
 import { useSEO } from "@/hooks/useSEO";
+import { startCheckout } from "@/lib/checkout";
 
 const vx3000Faqs = [
   {
@@ -20,7 +24,7 @@ const vx3000Faqs = [
   },
   {
     question: "What is the difference between the VX3000SP mini split and the VS02 PRO top-mounted AC?",
-    answer: "The CoolDrivePro VX3000SP mini split has a split design with separate indoor and outdoor units, delivering 12,000 BTU of cooling power and ultra-quiet indoor operation. The VS02 PRO is a top-mounted all-in-one unit with 10,000 BTU, simpler installation, and a lower profile.",
+    answer: "The CoolDrivePro VX3000SP mini split has a split design with separate indoor and outdoor units, delivering 12,000 BTU of cooling power and ultra-quiet indoor operation. The VS02 PRO is a top-mounted all-in-one unit with 12,000 BTU, simpler installation, and a lower profile.",
     category: "Comparison",
   },
   {
@@ -67,8 +71,8 @@ export default function ProductMiniSplit() {
   const { t } = useTranslation();
 
   useSEO({
-    title: "12000 BTU Mini Split Parking Air Conditioner | 12V DC – CoolDrivePro",
-    description: "VX3000SP 12000 BTU mini split parking AC for semi trucks & RVs. 12V DC ductless design, 40 dB ultra-quiet, 8-10h battery runtime. $1,599 with free US shipping.",
+    title: "12V/24V Mini Split Truck AC for Sleeper Cabs, RVs and Vans | CoolDrivePro",
+    description: "CoolDrivePro VX3000SP is a 12V/24V DC mini split parking air conditioner for semi sleeper cabs, RVs, vans and campers. 12,000 BTU no-idle cooling with quiet \u226432 dB indoor unit, GMCC twin-rotary inverter compressor and dealer fitment support.",
     ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-mini-split-opt_81dc95b4.webp",
     jsonLd: {
       "@context": "https://schema.org",
@@ -82,13 +86,21 @@ export default function ProductMiniSplit() {
   });
 
   const [qty, setQty] = useState(1);
+  const [isCheckingOut, setIsCheckingOut] = useState(false);
 
-  const handleAddToCart = () => {
-    toast(`${qty} × ${t('products.miniSplit.title')} ${t('products.detail.addToCart')} — ${t('common.comingSoon')}`);
+  const handleAddToCart = async () => {
+    setIsCheckingOut(true);
+    try {
+      await startCheckout({ productId: "vx3000sp", quantity: qty });
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : "Order request is unavailable. Please contact support@cooldrivepro.com.");
+      setIsCheckingOut(false);
+    }
   };
 
   return (
     <PageLayout>
+      <ProductLineSwitcher activeSlug="mini-split-ac" />
       {/* Breadcrumb */}
       <nav className="max-w-[1280px] mx-auto px-4 lg:px-8 py-3 flex items-center gap-1.5 text-sm" style={{ color: "oklch(0.55 0.05 250)" }}>
         <Link href="/" className="hover:underline">{t('nav.home')}</Link>
@@ -102,13 +114,21 @@ export default function ProductMiniSplit() {
       <section className="max-w-[1280px] mx-auto px-4 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         {/* Image Gallery */}
         <div className="space-y-4">
-          {/* Main Image */}
-          <div className="rounded-2xl overflow-hidden bg-gray-50 flex items-center justify-center" style={{ minHeight: "400px" }}>
+          {/* Main Image — aspect-ratio and min-height prevent CLS during load */}
+          <div
+            className="rounded-2xl overflow-hidden bg-gray-50 flex items-center justify-center"
+            style={{ aspectRatio: "3 / 2", minHeight: "400px" }}
+          >
             <img
               src="/images/products/vx3000-split-outdoor-unit-01.webp"
               alt={t('products.miniSplit.imageAlt')}
-              className="w-full h-auto object-contain"
-              style={{ maxHeight: "480px" }}
+              width={1200}
+              height={800}
+              className="w-full h-full object-contain"
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
+              sizes="(min-width: 1024px) 50vw, 100vw"
             />
           </div>
           {/* Thumbnail Gallery */}
@@ -180,23 +200,50 @@ export default function ProductMiniSplit() {
             ))}
           </ul>
 
-          {/* Qty + Add to Cart */}
+          {/* Qty + Request invoice */}
           <div className="flex items-center gap-4 mb-6">
             <div className="flex items-center border rounded-lg overflow-hidden" style={{ borderColor: "oklch(0.85 0.04 240)" }}>
               <button className="w-10 h-10 flex items-center justify-center text-lg font-bold hover:bg-gray-50" onClick={() => setQty(q => Math.max(1, q - 1))}>−</button>
               <span className="w-10 text-center font-semibold">{qty}</span>
               <button className="w-10 h-10 flex items-center justify-center text-lg font-bold hover:bg-gray-50" onClick={() => setQty(q => q + 1)}>+</button>
             </div>
-            <button onClick={handleAddToCart} className="flex-1 py-3 rounded-lg font-bold text-white text-sm" style={{ backgroundColor: "oklch(0.45 0.18 255)" }}>
-              {t('products.detail.addToCart')}
+            <button onClick={handleAddToCart} disabled={isCheckingOut} className="flex-1 py-3 rounded-lg font-bold text-white text-sm" style={{ backgroundColor: "oklch(0.45 0.18 255)", opacity: isCheckingOut ? 0.8 : 1 }}>
+              {isCheckingOut ? <Loader2 size={16} className="inline mr-2 animate-spin" /> : null}
+              {t('products.detail.requestInvoice', { defaultValue: 'Request Invoice' })}
             </button>
           </div>
+
+          <CheckoutAssurance />
+          <div className="mb-6 border-y py-4" style={{ borderColor: "oklch(0.90 0.03 240)" }}>
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="text-sm font-bold" style={{ color: "oklch(0.30 0.12 255)" }}>Not sure a mini split fits your vehicle?</p>
+                <p className="mt-1 text-sm leading-relaxed" style={{ color: "oklch(0.45 0.05 250)" }}>Start with a sleeper-cab and quiet-use fitment path, then confirm the real voltage, roof space, and cable route.</p>
+              </div>
+              <Link
+                href="/tools/parking-ac-fitment-planner/?vehicle=semi-truck&voltage=unknown&priority=quiet"
+                className="inline-flex min-h-10 shrink-0 items-center justify-center gap-2 px-4 text-sm font-bold text-white transition-opacity hover:opacity-90"
+                style={{ borderRadius: "8px", backgroundColor: "oklch(0.45 0.18 255)" }}
+              >
+                Check split fitment
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+          </div>
+          <CompactInquiryForm
+            source="product_vx3000sp"
+            productName="VX3000SP Mini Split Parking AC"
+            title="Confirm split-system fit"
+            subtitle="Send vehicle type, voltage, and install target. We will confirm the right path before invoice."
+            className="mb-6"
+            successMessage="Thanks. CoolDrivePro will review your vehicle type, voltage, install target and quantity before sending a fitment-confirmed quote for the VX3000SP mini split."
+          />
 
           {/* Trust badges */}
           <div className="grid grid-cols-3 gap-3 pt-4 border-t" style={{ borderColor: "oklch(0.90 0.03 240)" }}>
             {[
               { icon: ShieldCheck, label: t('products.detail.warranty') },
-              { icon: Truck, label: t('products.detail.freeShipping') },
+              { icon: FileText, label: t('products.detail.requestInvoice') },
               { icon: RotateCcw, label: t('products.detail.returns') },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex flex-col items-center gap-1 text-center">

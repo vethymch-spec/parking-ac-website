@@ -1,0 +1,156 @@
+{
+  "title": "Costo de instalación de aire acondicionado para estacionamiento en 2026: tarifas de compra por estado y ahorros de bricolaje",
+  "date": "2026-04-25",
+  "category": "Guía de compra",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+  "imageAlt": "Instalación profesional de aire acondicionado para estacionamiento que muestra el recorte del techo, el cableado y la integración de la batería.",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Costo de instalación de aire acondicionado en estacionamientos por estado: $400–$1200 profesional, $0–$150 bricolaje.Tarifas reales de tienda de CA, TX, FL, NY, además de un desglose completo de los costos de unidad, batería, cableado y mano de obra.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide-voltage-drop-and-wire-gauge-calculation.webp",
+      "alt": "Wire gauge selection chart for parking AC installation showing 4 AWG and 6 AWG copper recommendations",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-installation-and-maintenance-tips-for-yo.webp",
+      "alt": "Battery box installation under bunk for parking AC system",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "El precio de una unidad de aire acondicionado para estacionamiento es solo la mitad de la historia.Una vez que haya pagado las baterías, el cableado, el cargador DC-DC, la mano de obra de instalación y los inevitables extras sorpresa (soporte de montaje personalizado, líneas de refrigerante más largas, un panel de fusibles adicional), el costo total del proyecto suele ser entre 1,8 y 2,5 veces el costo de la unidad sola.Esta guía desglosa cada elemento de una instalación de aire acondicionado para estacionamiento en 2026, le brinda tarifas reales de compras en los principales estados de EE. UU. y le muestra exactamente dónde el bricolaje puede ahorrar dinero real en comparación con dónde debería pagarle a un profesional.Las cifras provienen de cotizaciones que recopilamos en marzo de 2026 de 27 distribuidores e instaladores en nueve estados."
+    },
+    {
+      "heading": null,
+      "body": "Antes de sumergirse en los precios, establezca expectativas.Se puede realizar una modernización mínima de aire acondicionado de estacionamiento de 12V en una cabina dormitorio con baterías domésticas existentes por entre $1,500 y $2,000 en total.Una construcción eléctrica de batería 24V premium con un nuevo paquete LiFePO4, un cargador DC-DC y una instalación profesional cuesta entre $5,000 y $7,500.La mayoría de los propietarios-operadores aterrizan en el rango de $4,000 a $5,800.El precio de la flota suele ser entre un 12 % y un 20 % más bajo por camión porque los instaladores pueden amortizar el tiempo de instalación en varios vehículos.La variable más importante es si trae sus propias baterías o las compra como parte del proyecto: los precios de las baterías varían en un 35% entre los minoristas en línea y los márgenes de las tiendas físicas."
+    },
+    {
+      "heading": null,
+      "body": "## Desglose de costos componente por componente (2026)"
+    },
+    {
+      "heading": null,
+      "body": "**La unidad de aire acondicionado en sí:** CoolDrivePro VS02 PRO (12V, 6,000 BTU): $1,650 al por menor.CoolDrivePro V-TH1 (24V, 10,000 BTU pico): $2,400.Dometic RTX2000: 4.200 dólares.Webasto Cool Top RTE 16: $4,500.Carrier ComfortPro APU: $7,800 (incluye motor APU).Techo genérico sin nombre 12V: $700–$900 (evitar).**Baterías LiFePO4:** 100Ah 12V (1,28 kWh): $480–$650.200Ah 12V (2,56 kWh): entre 850 y 1200 dólares.100Ah 24V (2,56 kWh): entre 890 y 1250 dólares.300Ah 12V (3,84 kWh): entre 1.400 y 1.800 dólares.**DC-DC cargador:** 30A: $180.50A (recomendado para la mayoría de las instalaciones): $260–$320.70A (para recarga rápida en camionetas del equipo): $420.**Cableado:** Cobre 4 AWG, 30 pies: $85–$120.Cobre 2 AWG, 30 pies: $145–$190.Terminales de engarce y termorretráctiles: $35.**Fusibles en línea:** Clase T 200A (batería principal): $45.Clase T 100A (alimentación de CA): $32.ANL 50A (cargador DC-DC): $18.**Monitor de batería:** Victron BMV-712 con derivación: $215.**Interruptores y disyuntores:** Interruptor de corte de batería: $42.12V panel de interruptores: $85.**Selladores y accesorios de montaje:** Sellador de caucho butílico: $28.Soportes y pernos de montaje: entre $40 y $80 (varía según la unidad y el tipo de cabina).**Costo total de piezas para una construcción típica V-TH1 + 200Ah 24V LiFePO4:** $4,650–$5,400."
+    },
+    {
+      "heading": null,
+      "body": "## Tasas de mano de obra profesional por estado (marzo de 2026)"
+    },
+    {
+      "heading": null,
+      "body": "**California:** $145–$185/hora en instaladores certificados de talleres de camiones;trabajo completo de 6 a 8 horas = $870–$1480.**Texas:** $95–$125/hora;trabajo completo entre $ 570 y $ 1000.**Florida:** $110–$140/hora;trabajo completo entre $ 660 y $ 1,120.**Nueva York/Nueva Jersey:** $135–$170/hora;trabajo completo entre $ 810 y $ 1360.**Illinois:** $105–$135/hora;trabajo completo entre $630 y $1,080.**Georgia:** $90–$120/hora;trabajo completo entre $540 y $960.**Washington/Oregón:** $125–$160/hora;trabajo completo entre $ 750 y $ 1280.**Pensilvania/Ohio:** $95–$125/hora;trabajo completo entre $ 570 y $ 1000.**Arizona/Nevada:** $115–$145/hora;trabajo completo entre $ 690 y $ 1,160.Promedio nacional para una instalación profesional completa (unidad + batería + cargador + cableado): entre $400 y $1200, según la complejidad.Agregue entre un 25% y un 35% si su instalador tiene una marca certificada para trabajos en garantía (distribuidores autorizados de Dometic, Webasto, Carrier)."
+    },
+    {
+      "heading": null,
+      "body": "## Qué impulsa el costo laboral: tres tipos de trabajo"
+    },
+    {
+      "heading": null,
+      "body": "**Tipo de trabajo A: Reemplazo directo de la unidad de techo existente (3 a 4 horas):** Reutilice el recorte de 14×14 existente, el cableado existente y las baterías existentes.Simplemente cambie la unidad.$300–$580.**Tipo de trabajo B: modernización eléctrica de batería completa en un camión sin baterías domésticas existentes (6 a 8 horas):** Nuevo corte en el techo, nueva caja de batería instalada debajo de la litera, nuevo cableado desde la batería al aire acondicionado, nuevo cargador DC-DC cableado al alternador.$700–$1,400.**Tipo de trabajo C: instalación mini-split o de doble zona en un RV (8 a 12 horas):** Múltiples penetraciones en el techo, recorrido de la línea de refrigerante, ubicación del evaporador, carga de refrigerante.$950–$1,800.La mayoría de los propietarios-operadores de durmientes Clase 8 pertenecen al tipo de trabajo B. La mayoría de los propietarios de RV que realizan instalaciones por primera vez pertenecen al tipo de trabajo C."
+    },
+    {
+      "heading": null,
+      "body": "## Ahorros de bricolaje: dónde está realmente el dinero"
+    },
+    {
+      "heading": null,
+      "body": "Si tiene inclinaciones mecánicas y tiene experiencia básica en cableado 12V/24V, el bricolaje puede ahorrar entre $400 y $1400.El trabajo en sí no es difícil: es la curva de aprendizaje inicial lo que intimida a la mayoría de las personas.La inversión de tiempo real es de 8 a 14 horas, incluida la investigación, el pedido de piezas y la doble verificación de su trabajo.Esto es lo que guarda por nivel de habilidad.** Bricolaje básico (solo montaje y cableado, baterías preinstaladas):** Ahorro de $200 a $400.**Bricolaje intermedio (instalación completa del sistema de batería + cableado):** Ahorro de $500 a $900.**Bricolaje avanzado (trabajo con refrigerante mini-split + certificado de la Sección 609 de la EPA):** Ahorro de $900 a $1500 (pero requiere un certificado de $200 y ~$300 en herramientas).Para obtener orientación paso a paso en cada fase de instalación, consulte nuestra [guía paso a paso de instalación de aire acondicionado para estacionamiento](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Dónde el bricolaje sale mal (y le cuesta dinero)"
+    },
+    {
+      "heading": null,
+      "body": "Cinco errores comunes de bricolaje que se convierten en costosas devoluciones de llamadas.(1) **Cableado de tamaño insuficiente:** el uso de 8 AWG cuando se requiere 4 AWG provoca una caída de voltaje, aceleración de CA y ciclos prematuros de la batería.La solución es volver a tender el cable, lo que cuesta más que hacerlo bien la primera vez.(2) **No hay fusible en la alimentación de la batería:** un cable derretido en una cabina dormitorio es un riesgo de incendio y una pesadilla para el seguro.Instale siempre un fusible Clase T a 18 pulgadas del terminal positivo de la batería.(3) **Sellador incorrecto para penetraciones en techos:** la masilla de silicona se degrada en 18 meses con luz ultravioleta.Utilice cinta de caucho butílico o sellador de poliuretano de calidad marina.(4) **No hay cargador DC-DC entre el alternador y la batería de la casa:** la conexión directa causa daños a la batería y anula la garantía.Aísle siempre a través de DC-DC.(5) **Caja de batería mal asegurada:** un LiFePO4 de 200 Ah pesa 50 lb. En una parada de pánico, una caja no asegurada se convierte en un misil.Utilice amarres clasificados para un miembro estructural de la cabina."
+    },
+    {
+      "heading": null,
+      "body": "## Costos ocultos que la mayoría de las cotizaciones no incluyen"
+    },
+    {
+      "heading": null,
+      "body": "**Soportes de montaje personalizados** si su cabina tiene una estructura de techo no estándar (común en Peterbilt y Volvo tradicionales): $80–$220.**Relleno de refrigerante** en unidades que se envían con carga insuficiente o que desarrollan fugas menores durante la instalación (principalmente mini-splits): $60–$140.**Mejora del aislamiento** si su cabina está mal aislada y el aire acondicionado tiene dificultades: entre $150 y $400 en materiales.**Adición de paneles solares** si desea reducir el costo de combustible de recarga del alternador: entre $400 y $900 por un sistema de techo de 200 W, más $200 de instalación.**Integración telemática** para flotas que desean registrar el uso de CA y el estado de la batería a través del bus CAN: entre $300 y $650 por unidad.**Verificación de compatibilidad del calentador de cabina** (algunos calentadores de cabina alimentados con diésel comparten líneas de combustible y necesitan redireccionarse): $100–$250 en mano de obra adicional.Promedio de costo oculto total en todas las instalaciones: $250–$600."
+    },
+    {
+      "heading": null,
+      "body": "## Estrategia de compra: dónde ahorrar sin tomar atajos"
+    },
+    {
+      "heading": null,
+      "body": "**Ahorre en baterías comprando en línea de EG4, SOK o Renogy** en lugar de la marca propia de la tienda de camiones.La misma química, a menudo entre 150 y 300 dólares más barata por paquete de 100 Ah.**No ahorre en la unidad de aire acondicionado en sí**: la diferencia entre una V-TH1 de $1,800 y una unidad sin nombre de $900 es varios años de vida útil del compresor y más de 12 dB de ruido.**Ahorre mano de obra instalando la batería usted mismo** incluso si paga en un taller por el montaje del aire acondicionado y el trabajo del refrigerante.El cableado de la batería es la partida de mano de obra más grande y la más accesible para el bricolaje.**No ahorre en el calibre del cableado**: el cobre es barato en relación con el riesgo de seguridad y el impacto en el rendimiento que supone un tamaño insuficiente.**Ahorre en el cargador DC-DC solo si comprende las curvas de salida del alternador**: los cargadores de tamaño insuficiente ralentizan la recuperación de la batería y pueden dejarlo corto en viajes de varias noches.**Pague siempre por un monitor de batería**: volar a ciegas en el estado de carga provoca el 80 % de los fallos prematuros de la batería."
+    },
+    {
+      "heading": null,
+      "body": "## Tablas de costos totales para los tres tipos de construcción más comunes"
+    },
+    {
+      "heading": null,
+      "body": "**Construcción A: Económico 12V litera simple Clase 8 (CoolDrivePro VS02 PRO):** Unidad $1,650 + 200Ah 12V LiFePO4 $1,000 + 30A DC-DC $180 +cableado/fusibles/sellador $200 + instalación de bricolaje $0 = **$3,030 bricolaje**, o **$3,580–$3,930 profesional**.**Construcción B: Premium 24V litera simple Clase 8 (CoolDrivePro V-TH1):** Unidad $2,400 + 200Ah 24V LiFePO4 $1,800 + 50A DC-DC $300 +cableado/fusibles/sellador $250 + monitor $215 + instalación de bricolaje $0 = **$4,965 bricolaje**, o **$5,665–$6,300 profesional**.**Construcción C: RV 24V de doble zona (Webasto Cool Top RTE 16 + unidad auxiliar):** Unidad + 9000 BTU aux $7,200 + 300Ah 24V LiFePO4 $2,800 + 50ADC-DC $300 + cableado/fusibles/sellador $400 + monitor $215 + instalación profesional $1,400 = **$12,315**.La configuración Build B es la más popular entre los propietarios-operadores de 2026 porque equilibra la capacidad de refrigeración, el ruido y el TCO."
+    },
+    {
+      "heading": null,
+      "body": "## Tendencias de la inflación de costos 2024-2026 y proyecciones para 2027"
+    },
+    {
+      "heading": null,
+      "body": "Los costos del sistema de aire acondicionado de estacionamiento han cambiado significativamente en los últimos 24 meses.LiFePO4 los precios de las baterías han caído un 28 % desde principios de 2024 debido al exceso de oferta en el mercado mundial de células.Los costos del cableado de cobre aumentaron un 18% durante el mismo período.Los precios de las unidades de aire acondicionado son más o menos estables para las marcas establecidas (Dometic, Webasto, Carrier), pero han caído entre un 12% y un 15% para las unidades fabricadas en China como CoolDrivePro a medida que escala la producción.Efecto neto: un proyecto típico de Construcción B (24V de batería eléctrica) que costó $5,800 instalado a principios de 2024 ahora cuesta entre $5,100 y $5,400 en abril de 2026. Para 2027, proyectamos nuevas caídas en el costo de las baterías de entre un 8% y un 12% (compensadas por una inflación laboral de un 3% a un 5%), lo que elevaría la misma construcción a aproximadamente $4,800.Los conductores que estén considerando una instalación importante aún deberían continuar en 2026: los períodos de recuperación a los precios actuales ya son excelentes, y esperar otro año ahorra solo entre $ 300 y $ 400, mientras que se pierden 12 meses de ahorro de combustible por un valor de entre $ 7000 y $ 8500."
+    },
+    {
+      "heading": null,
+      "body": "## Consideraciones sobre seguros y garantías"
+    },
+    {
+      "heading": null,
+      "body": "La mayoría de las pólizas de seguro para camiones comerciales cubren los equipos de aire acondicionado de estacionamiento como parte de la cobertura estándar contra daños físicos, pero con salvedades.(1) Las instalaciones no originales requieren divulgación a su aseguradora;no revelarlo puede anular la cobertura del equipo en caso de incendio o robo.(2) Las instalaciones de bricolaje pueden enfrentar deducibles más altos o requerir recibos detallados.(3) Los sistemas eléctricos de batería con paquetes LiFePO4 generalmente necesitan un complemento de equipo separado para la batería (costo: $35–$80/año por camión).(4) La mayoría de las flotas incluyen aire acondicionado de estacionamiento en el seguro de equipos de su flota para simplificar el manejo de reclamaciones.Las garantías del fabricante de las unidades (CoolDrivePro de 3 años, Dometic de 2 años, Webasto de 2 años) requieren prueba de instalación profesional O instalación de bricolaje documentada que cumpla con las especificaciones del fabricante.Fotografíe siempre el cableado, la ubicación de los fusibles y la fijación de la batería: estas fotografías resuelven más del 90 % de las disputas de garantía cuando surgen."
+    },
+    {
+      "heading": null,
+      "body": "## Disponibilidad regional de piezas y plazos de entrega del proyecto"
+    },
+    {
+      "heading": null,
+      "body": "En abril de 2026, los plazos de entrega de los componentes principales varían según la región.CoolDrivePro V-TH1 en EE. UU.: en stock en la mayoría de los distribuidores autorizados, entrega en 2 días en otros lugares.Dometic RTX2000: disponible a nivel nacional.Webasto Cool Top RTE 16: plazo de entrega de 5 a 10 días en EE. UU., en stock en Alemania e Italia.Baterías LiFePO4 de 200 Ah: en existencia en los principales minoristas en línea de EE. UU. (EG4, SOK, Renogy, Battle Born), envío de 1 a 3 días.Cargadores 50A DC-DC: en stock de Victron, Renogy, REDARC.El cuello de botella para la mayoría de los proyectos es la disponibilidad de citas en el taller, no las piezas.Los principales talleres de reparación de camiones están reservando instalaciones de aire acondicionado de estacionamiento entre 2 y 4 semanas antes de la primavera de 2026. Si necesita la instalación antes de que llegue el calor del verano, reserve a más tardar a mediados de mayo.Los servicios de instalador móvil (donde la tecnología llega a su jardín) tienen un precio superior del 15% al ​​25%, pero eliminan la fricción de programación para los propietarios-operadores con un solo camión."
+    },
+    {
+      "heading": null,
+      "body": "## Mercado de aire acondicionado para estacionamiento usado: cuándo tiene sentido comprar usado"
+    },
+    {
+      "heading": null,
+      "body": "El mercado de aire acondicionado de estacionamiento usado ha madurado significativamente desde 2023. Las unidades Dometic RTX1000 y Webasto Cool Top RTE 10 de tres años se venden por entre el 40% y el 55% del precio original, a menudo quedando entre el 60% y el 70% de la vida útil de la unidad.Para los propietarios-operadores que cuidan su presupuesto, una unidad usada + un nuevo sistema de batería + instalación de bricolaje pueden ofrecer la funcionalidad Build B por un total de $2800 a $3500, aproximadamente la mitad del costo de un sistema nuevo.Riesgos a gestionar: (1) verificar que la unidad sea accionada por inversor (no vale la pena restaurar las unidades más antiguas de velocidad fija), (2) exigir una verificación de la presión del refrigerante antes de la compra ($60 en cualquier tienda HVAC), (3) confirmar con fotografías que la instalación original fue profesional.Las unidades usadas de tres años o más nuevas que pasan la inspección suelen ser tan confiables como nuevas.Las unidades usadas de cinco años o más a menudo necesitan una recarga de refrigerante y pueden tener problemas con el tablero de control; tenga en cuenta entre $200 y $400 en el presupuesto."
+    },
+    {
+      "heading": null,
+      "body": "## Más allá del primer año: expectativas de costos de mantenimiento"
+    },
+    {
+      "heading": null,
+      "body": "Los costos de mantenimiento anual para un sistema de aire acondicionado de estacionamiento instalado correctamente oscilan entre $ 80 y $ 200 en los años 1 a 3 (limpieza del filtro, verificación de la presión del refrigerante, calibración del monitor de la batería), y aumentan a $ 200 a $ 400 en los años 4 a 7 (potencial recarga de refrigerante, escobillas del motor del ventilador, actualización de la batería).Costo total de propiedad durante 7 años de un sistema Build B: $5,400 de instalación + $1,400 de mantenimiento = $6,800.Si lo comparamos con 7 años de ralentí nocturno ($8,500/año × 7 = $59,500 solo en combustible) la propuesta de valor es abrumadora.Incluso las flotas que funcionan sólo 50 noches al año por camión se amortizan en un plazo de 18 a 24 meses.La negligencia en el mantenimiento es la causa número uno de fallas prematuras del aire acondicionado de estacionamiento: mantenga limpios los filtros de polvo, realice la verificación de la presión del refrigerante anualmente y controle el estado de carga de la batería en cada inspección semanal."
+    },
+    {
+      "heading": null,
+      "body": "## Consejo final para ahorrar costes: reserva fuera de temporada"
+    },
+    {
+      "heading": null,
+      "body": "La capacidad laboral de los talleres de camiones sigue patrones estacionales.La primavera y el otoño son temporadas pico de instalación (los conductores se preparan para el verano o el invierno).El invierno (enero-febrero) es el período más lento para las instalaciones de aire acondicionado en estacionamientos en los estados del norte, y muchas tiendas ofrecen descuentos en mano de obra del 10 al 20% para llenar la capacidad.Si puede programar su instalación fuera de temporada, ahorrará dinero real.Bonificación: los proveedores de repuestos también realizan descuentos a fin de año (noviembre-diciembre) para liquidar el inventario antes del lanzamiento de nuevos modelos.El cronograma ideal de optimización de costos: solicite piezas a fines de noviembre durante la liquidación de inventario, programe la instalación a mediados de enero cuando las tiendas estén lentas y obtendrá el costo total mínimo absoluto del proyecto.Esta estrategia de sincronización por sí sola puede ahorrar entre $400 y $700 en comparación con reservar la misma instalación en la temporada alta de mayo a junio."
+    },
+    {
+      "heading": null,
+      "body": "## Preguntas frecuentes"
+    },
+    {
+      "heading": null,
+      "body": "**¿Cuánto tiempo lleva realmente una instalación profesional?**\n\nPara una típica versión B (24V modernización de batería eléctrica), los talleres completan el trabajo en 6 a 8 horas de trabajo.La mayoría lo cita como una cita de un día, con el camión entregado por la mañana y listo al cierre del negocio.Las instalaciones complejas de RV mini-split pueden tardar 2 días.\n\n**¿Mi garantía cubrirá la instalación de bricolaje?**\n\nLas garantías de la unidad (CoolDrivePro 3 años, Dometic 2 años, Webasto 2 años) normalmente cubren la unidad independientemente de quién la instale, siempre y cuando la instalación siga las instrucciones del fabricante.Las garantías de batería (normalmente 5 años en LiFePO4) requieren fusibles adecuados, carga a través de DC-DC y una caja de batería protegida.El trabajo con refrigerantes generalmente requiere la certificación de la Sección 609 de la EPA; si realiza bricolaje sin ella, el fabricante puede negar las afirmaciones relacionadas con el refrigerante.\n\n**¿Qué documentación debo conservar después de la instalación?**\n\nComprobante de la fecha de instalación y registros del instalador (o de autoinstalación), recibos de piezas (especialmente para reclamos de garantía), fotografías del cableado, la ubicación de los fusibles y la batería, y copias de cualquier sellador, refrigerante o documentos de certificación de la batería.Las compañías de seguros y garantías los solicitan habitualmente.\n\n**¿Las tiendas ofrecen descuentos para flotas de varios camiones?**\n\nSí, normalmente entre un 12 % y un 20 % de descuento en mano de obra para flotas que reserven más de 5 instalaciones idénticas.Algunas tiendas también ofrecen descuentos en piezas cuando obtienen la misma unidad en volumen.Negocia siempre.\n\n**¿Cuánto agrega al costo la eliminación de una unidad antigua defectuosa?**\n\nSi la unidad anterior es una simple azotea que utiliza el mismo recorte: entre $80 y $150 de mano de obra adicional.Si es un tipo de montaje diferente o tiene refrigerante que necesita recuperación: $200–$450.Siempre informe sobre el equipo existente cuando solicite cotizaciones.\n\n**¿Debo comprar la unidad de aire acondicionado y hacer que la instale la tienda, o comprarla en la tienda?**\n\nComprar en el taller normalmente agrega entre un 8 % y un 15 % al costo unitario, pero garantiza que el taller garantice la instalación completa.Comprar en línea y traer el suyo puede ahorrar dinero, pero algunas tiendas se niegan a instalar unidades suministradas por el cliente debido a conflictos de garantía.Obtenga la política de la tienda por escrito antes de realizar el pedido en línea.\n\n**¿Qué financiamiento hay disponible para el costo total del proyecto?**\n\nMuchos propietarios-operadores financian a través de su concesionario de camiones o socio de financiamiento de flotas con plazos de 36 a 60 meses y una tasa de interés anual del 7 al 11 %.CoolDrivePro ofrece 0 % durante 12 meses en paquetes de sistemas de más de $4000.Algunos estados ofrecen subvenciones para aire limpio ($500–$2000) por cambiar del diésel APU al eléctrico de batería; consulte el sitio web de la agencia ambiental de su estado.Para conocer los cálculos completos del tamaño de la batería detrás del costo de construcción, consulte nuestra [LiFePO4 guía de tamaño de batería](/blog/lifepo4-battery-for-parking-ac)."
+    }
+  ]
+}

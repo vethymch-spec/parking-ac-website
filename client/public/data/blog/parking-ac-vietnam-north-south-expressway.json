@@ -1,0 +1,42 @@
+{
+  "title": "Parking AC for the North-South Expressway (CT.01): Long-Haul Driver Guide",
+  "date": "2026-05-20",
+  "category": "Regional Guides",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+  "metaDescription": "How long-haul drivers on Vietnam's CT.01 North-South Expressway use a 9000 BTU parking air conditioner to rest legally, save 12-18L of diesel per night, and survive 38°C tropical heat.",
+  "content": [
+    {
+      "heading": null,
+      "body": "The North-South Expressway (Đường cao tốc Bắc-Nam, CT.01) is the spine of Vietnamese long-haul trucking, connecting Hanoi to Ho Chi Minh City via more than 1,700 km of new tolled motorway with progressively opened sections in Ninh Binh-Thanh Hoa, Cam Lo-La Son, Vinh Hao-Phan Thiet, and Phan Thiet-Dau Giay. The expressway has cut transit times dramatically, but it has also concentrated long-haul drivers at a small number of service areas (trạm dừng nghỉ) where overnight rest in 33-38°C heat with high humidity is the norm. A 9000 BTU parking air conditioner is now standard equipment for any tractor running this corridor more than 10 nights per month."
+    },
+    {
+      "heading": null,
+      "body": "Vietnamese law (Decree 10/2020/ND-CP and the 2024 Road Traffic Law) caps continuous driving at 4 hours and total daily driving at 10 hours, with mandatory rest. Drivers who cannot sleep because the cab interior is above 32°C routinely violate hours-of-service rules by pushing through, or arrive at destination fatigued, raising accident risk on the high-speed CT.01 sections. A parking AC such as the CoolDrivePro [VS02 PRO](/products/top-mounted-ac) provides 8-10 hours of 24-26°C cab temperature from a 200-300Ah LiFePO4 battery bank, restoring the legal rest cycle and turning the cab into a real sleeping environment."
+    },
+    {
+      "heading": null,
+      "body": "Climate exposure on the CT.01 is severe. The Vinh-Hue stretch sees Lao wind (gió Lào) summers with afternoon temperatures of 38-41°C; the Phan Rang-Phan Thiet section is the driest, hottest part of Vietnam with persistent 36-39°C heat and intense solar load on parked cabs; and the Mekong end of the corridor adds high humidity to already-hot ambient conditions. Vietnamese long-haul drivers typically schedule rest stops to land in these zones — the [9000 BTU VS02 PRO](/products/top-mounted-ac) with its dual-rotary compressor maintains rated cooling capacity even when outside temperatures hit 40°C, where lower-end 6000-7000 BTU units begin to fail."
+    },
+    {
+      "heading": null,
+      "body": "Fuel economics on CT.01 are compelling. A long-haul tractor idling 8 hours overnight to keep the OEM cab AC running burns 12-18 liters of diesel. At 23,000 VND/liter that is 276,000-414,000 VND every single night, or 8.3-12.4 million VND per month for a driver who is on the road 30 nights. A complete parking AC system with 24V/200Ah LiFePO4 battery and DC-DC charger is typically 38-55 million VND installed in Vietnam, which means payback in 4-7 months for a full-time long-haul driver. After that, every saved liter goes straight to the bottom line."
+    },
+    {
+      "heading": null,
+      "body": "Power architecture for CT.01 long-haul work prioritizes overnight endurance and alternator recharge during driving. A 24V/300Ah LiFePO4 bank stores roughly 7.2 kWh of usable energy, enough for 10-12 hours of [VS02 PRO](/products/top-mounted-ac) cooling at average load. A 60-80A DC-DC charger fully replenishes the bank in 4-5 hours of driving, well within the daily 6-10 hour driving envelope. Adding 200-400W of rooftop solar — feasible because Vietnamese tractor cab roofs typically have 1.5-2 m² of usable space — extends runtime by 1-2 hours per sunny day and reduces alternator load."
+    },
+    {
+      "heading": null,
+      "body": "Service area capacity along CT.01 is limited compared to European or Chinese expressways, with many sections having only one main rest area per 80-120 km. Drivers regularly park overnight at fuel stations along National Highway 1A parallel routes or at unlit lay-bys, where running the engine for AC is both wasteful and a personal safety concern (idling attracts attention and prevents the driver from hearing approaches). Silent electric cooling keeps the driver invisible and rested — a quiet but meaningful safety benefit on less-developed sections of the corridor."
+    },
+    {
+      "heading": null,
+      "body": "Installation should be performed at workshops near the driver's home base — typically Hanoi (Long Bien, Gia Lam), Hai Phong, Da Nang, or Ho Chi Minh City (Thu Duc, Binh Tan) — so warranty service is local. Insist on stainless steel mounting hardware, marine-grade sealant for the monsoon, and full DC system documentation (battery serial numbers, BMS firmware, fuse sizing) so any roadside electrician along CT.01 can troubleshoot without guesswork. The [VS02 PRO](/products/top-mounted-ac) installation manual is available in Vietnamese."
+    },
+    {
+      "heading": null,
+      "body": "Vietnamese fleets running 50+ tractors on the Hanoi-HCM corridor are increasingly standardizing on parking AC across the entire long-haul fleet to simplify driver scheduling (any driver can take any tractor and expect the same rest environment), centralize spare parts inventory, and present a single equipment specification to insurance underwriters. The combined fuel, retention, and safety case has made parking AC effectively a default specification for new tractor purchases in 2026 — and the CT.01 corridor is where the savings are largest."
+    }
+  ],
+  "dateModified": "2026-05-20"
+}

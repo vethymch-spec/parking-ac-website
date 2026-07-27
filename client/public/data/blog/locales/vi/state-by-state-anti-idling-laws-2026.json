@@ -1,0 +1,551 @@
+{
+  "title": "Luật chống chạy không tải theo từng tiểu bang năm 2026: Tra cứu 50 tiểu bang + Công cụ tính ROI AC đỗ xe",
+  "date": "2026-06-08",
+  "category": "Quy định & Tuân thủ",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Bản đồ Hoa Kỳ hiển thị luật chống chạy không tải theo từng tiểu bang năm 2026 với lớp phủ tuân thủ AC đỗ xe",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Tất cả 50 luật chống chạy không tải của tiểu bang Hoa Kỳ cho năm 2026 trong một bảng - phạm vi phạt, giới hạn 5 so với 15 phút, miễn trừ tà vẹt/DEF và ROI đã hoạt động cho thấy mức hoàn vốn của AC đỗ xe bằng pin sau 9–14 tháng so với tiền phạt chạy không tải cộng với chi phí nhiên liệu.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Nếu bạn lái xe Hạng 8 vào năm 2026, việc chắp vá **theo luật chống chạy không tải của tiểu bang 2026** không còn là điều bạn có thể bỏ qua.Bốn mươi mốt tiểu bang của Hoa Kỳ và hầu hết các đô thị lớn hiện giới hạn thời gian không hoạt động của động cơ khi đỗ xe, mức phạt dao động từ 50 USD đến hơn 25.000 USD cho mỗi vi phạm và việc thực thi tại các điểm dừng xe tải, trạm cân và khu vực nghỉ ngơi đã tăng cường mạnh mẽ kể từ khi làm mới chương trình EPA SmartWay năm 2024."
+    },
+    {
+      "heading": null,
+      "body": "Trang này là tài liệu tham khảo hoạt động mà chúng tôi gửi cho những người quản lý đội xe và chủ sở hữu-người điều hành, những người hỏi ba câu hỏi: *tiểu bang của tôi thực sự nói gì vào năm 2026, điều hòa đỗ xe của tôi có được tính là tuân thủ không và chi phí thực tế hàng năm của việc không tuân thủ là bao nhiêu so với việc chi 2.800 USD cho một điều hòa đỗ xe dùng pin*.Chúng tôi trả lời cả ba câu hỏi bên dưới — với bảng tra cứu 50 trạng thái, phân tích ROI bằng số và một cột trung thực hiển thị vị trí phù hợp và vị trí không phù hợp cho việc đỗ pin AC."
+    },
+    {
+      "heading": null,
+      "body": "Điều hướng nhanh: chuyển tới [bảng 50 trạng thái](#bảng tra cứu trạng thái 50), [máy tính ROI](#roi-máy tính-nhàn rỗi-chi phí-vs-parking-ac) hoặc [xếp hạng tuân thủ](#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR — 10 tiểu bang nghiêm ngặt nhất và những gì họ ổn vào năm 2026"
+    },
+    {
+      "heading": null,
+      "body": "Nếu bạn chỉ đọc một đoạn: California, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah và Colorado áp dụng biện pháp thực thi chặt chẽ nhất vào năm 2026.Giới hạn không hoạt động trong nhóm này là **5 phút** (CA, NJ, MA, CT, MD) hoặc **3 phút** (các khu thương mại NYC, NJ) khi nhiệt độ môi trường xung quanh nằm trong khoảng từ 25°F đến 75°F.Giới hạn 10 phút và **15 phút** lỏng lẻo hơn ở Nevada, Tây Virginia và các khu vực của Illinois vẫn áp dụng cho xe tải thương mại - sự phân chia **5 phút so với 15 phút** là thực tế khó hiểu nhất khi đưa đội xe lên tàu.Ngoài phạm vi đó, việc miễn trừ giường ngủ thường có hiệu lực - nhưng chỉ khi người điều hành có thể chứng minh được sự miễn trừ, đó là trường hợp hầu hết các vi phạm thực sự xảy ra."
+    },
+    {
+      "heading": null,
+      "body": "Cấu trúc tinh tế vào năm 2026 là điều thay đổi nhiều nhất.Kỷ nguyên \"vé 100 đô la và đi tiếp\" cũ đã qua đối với những người tái phạm.**California ATCM** theo [quy tắc nhàn rỗi hạng nặng CARB](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) áp dụng các mức phạt: vi phạm lần đầu $300, $1.000 giây thứ hai trong vòng 36 tháng, lên tới $25.000 cho toàn bộ đội xe.**New Jersey** tăng gấp đôi số tiền phạt cho lần vi phạm thứ hai trong vòng 12 tháng.**Luật địa phương NYC 5** cho phép vé do công dân báo cáo ở mức $350–$2.000."
+    },
+    {
+      "heading": null,
+      "body": "Bốn trường hợp miễn trừ xuất hiện ở khắp mọi nơi: (1) **bến ngủ** nghỉ ngơi với nhiệt độ môi trường xung quanh dưới 25°F hoặc trên 75°F (phổ biến nhất), (2) **bảo vệ chống đóng băng DEF** khi môi trường xung quanh giảm xuống dưới ~30°F, (3) **dừng giao thông** chạy không tải, (4) **EPA SmartWay đã được xác minh** APU hoặc sử dụng AC đỗ xe bằng pin — đó là lỗ hổng mà phần còn lại của trang này sẽ xoay quanh."
+    },
+    {
+      "heading": null,
+      "body": "## Luật chống chạy không tải của Hoa Kỳ ra đời như thế nào (lịch sử 1 đoạn)"
+    },
+    {
+      "heading": null,
+      "body": "Cơ sở pháp lý quay trở lại với các sửa đổi **Đạo luật không khí sạch 1990** (**CAA 1990**) trao quyền cho EPA đối với lượng phát thải từ nguồn di động.Năm 2004, EPA đã triển khai **SmartWay**, một chương trình xác minh tự nguyện dành cho các công nghệ giảm thời gian rảnh rỗi đã trở thành danh sách tham chiếu trên thực tế mà các tiểu bang trích dẫn khi đưa ra các miễn trừ.California **CARB** đã tiến xa nhất vào năm 2008 với **Biện pháp kiểm soát chất độc trong không khí (ATCM)** đối với các phương tiện cơ giới thương mại chạy bằng nhiên liệu diesel đang sử dụng - giới hạn 5 phút trên toàn tiểu bang với các biện pháp thực thi.Quy định về bến ngủ **FMCSA theo giờ dịch vụ (HOS)** của liên bang, được hiện đại hóa vào năm 2020 và được làm mới vào năm 2024, yêu cầu người lái xe phải nghỉ ngơi trong bến ngủ mà trên thực tế, phải được kiểm soát nhiệt độ để có thể ở được - đó chính xác là luật chống xung đột tạo ra và điều hòa đỗ xe giải quyết được."
+    },
+    {
+      "heading": null,
+      "body": "## Bảng tra cứu 50 trạng thái {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Đã cập nhật cho **thực thi năm 2026** dựa trên [EPA Tổng hợp các quy định không hoạt động của tiểu bang](https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) và các bản tin DOT của tiểu bang được ban hành trong quý 1 năm 2026. \"Tuân thủ AC đỗ xe bằng pin\" có nghĩa là hệ thống làm mát chỉ dùng pin tương đương đã được SmartWay xác minh hoặc tương đương đáp ứng yêu cầu miễn trừ khi động cơ không hoạt động."
+    },
+    {
+      "heading": null,
+      "body": "|Tiểu bang |Giới hạn nhàn rỗi |Phạm vi tốt |Miễn ngủ |APU miễn trừ |Pin đỗ xe tuân thủ AC |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Không có toàn tiểu bang |— |— |— |✅ (không có quy tắc) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 phút (Maricopa) |$300–$1.500 |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|California |5 phút (CARB ATCM) |$300–$25.000 |Y >75°F hoặc <25°F |Y (đã xác minh) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 phút (Denver/địa phương) |$100–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 phút |$250–$5.000 |Y <20°F hoặc >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 phút |$50–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida |5 phút (Miami-Dade) |$150–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Georgia |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaii |3 phút |$100–$1.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 phút (Chicago) |$50–$500 |Y <32°F hoặc >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 phút |$150–$1.500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 phút |$500–$25.000 |Y <40°F hoặc >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 phút |$100–$25.000 |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 phút (Mpls/St Paul) |$25–$1.000 |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 phút (Clark/Washoe) |$100–$500 |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 phút |$100–$1.000 |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 phút |$250–$5.000 |Y <25°F hoặc >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mexico mới |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 phút tiểu bang / 3 phút NYC |$350–$2.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Bắc Carolina |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Bắc Dakota |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 phút |$190–$2.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvania |5 phút (Đạo luật chạy không tải bằng động cơ diesel) |$150–$1.000 |Y <40°F hoặc >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Đảo Rhode |5 phút |$100–$500 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nam Carolina |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nam Dakota |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texas |5 phút (các quận TCEQ) |$200–$2,000 |Y <40°F hoặc >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 phút (Hồ Muối) |$115–$300 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 phút |$100–$1.000 |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia |10 phút trạng thái / 3 phút N. VA |$250–$25.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tây Virginia |15 phút |$150 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Không có toàn tiểu bang |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 phút mùa hè / 5 phút mùa đông |$500–$5.000 |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Lưu ý mẫu cấu trúc: **mọi trạng thái có quy tắc hoạt động sẽ cấp một đường dẫn tuân thủ AC đỗ xe của ắc quy**.Đây không phải là một tai nạn — khi CARB và EPA viết ra các quy tắc mẫu, họ đã bao gồm rõ ràng \"công nghệ thay thế mang lại sự thoải mái cho cabin mà không cần vận hành động cơ chính\" để các đội xe có thể tuân thủ mà không cần đỗ xe tải diesel ở các khu vực có nhiệt độ 100°F mà không cần làm mát.Bến ngủ và miễn trừ DEF là lối thoát hiểm kế thừa;pin đậu xe AC là loại hiện đại."
+    },
+    {
+      "heading": null,
+      "body": "## Lớp liên bang: Tương tác EPA SmartWay + FMCSA HOS"
+    },
+    {
+      "heading": null,
+      "body": "**Không có luật chống chạy không tải duy nhất của liên bang dành cho xe tải** vào năm 2026. Những gì trông có vẻ liên bang thực ra là hai chương trình trùng lặp với các quy định của tiểu bang:"
+    },
+    {
+      "heading": null,
+      "body": "**Danh sách đã được xác minh của EPA SmartWay.** SmartWay duy trì [danh sách đã được xác minh về các công nghệ giảm thời gian rảnh rỗi](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technology) nêu rõ thông tin tham chiếu khi xác định các trường hợp miễn trừ.Nếu điều hòa đỗ xe của bạn nằm trong danh sách này, bạn sẽ có quyền bào chữa trước tòa ở mọi tiểu bang công nhận nó - vào năm 2026, tất cả 19 tiểu bang đều có quy tắc không hoạt động.Các hệ thống AC đỗ xe dùng pin của Webasto, Dometic, Bergstrom NITE và CoolDrivePro VTH1 đều có trong danh sách hoặc đủ điều kiện để niêm yết."
+    },
+    {
+      "heading": null,
+      "body": "**Giờ phục vụ của FMCSA (HOS).** [Điều khoản về bến giường nằm của liên bang](https://www.fmcsa.dot.gov/regulations/hours-of-service) yêu cầu người lái xe phải dành ít nhất 7 giờ liên tục trên giường nằm trong quá trình thiết lập lại 10 giờ ngoài giờ làm việc.Bến ngủ ở nhiệt độ 95°F không phải là môi trường nghỉ ngơi hợp pháp và các thanh tra viên của DOT đã bắt đầu ghi nhận những phát hiện về nhiệt độ cabin không an toàn trong các báo cáo kiểm tra bên đường kể từ năm 2023. Đây là lý do thực tế khiến các nhà quản lý đội xe không còn có thể nói \"chỉ yêu cầu tài xế mở cửa sổ\" — bộ điều chỉnh an toàn và bộ điều chỉnh không khí hiện đều đang chỉ ra cùng một vấn đề."
+    },
+    {
+      "heading": null,
+      "body": "**Hiệu ứng tương tác** quan trọng đối với hoạt động kiểm tra tuân thủ: một đội xe liên tục vi phạm quy tắc nhàn rỗi ở CA hoặc NJ cũng treo cờ xếp hạng an toàn FMCSA, bởi vì mô hình hành vi cơ bản (tài xế để động cơ chạy để cabin thoải mái trong khi HOS nghỉ ngơi) tạo ra cả vi phạm về khí thải và vấn đề về hồ sơ kiểm tra/mệt mỏi.Giải quyết một giải quyết cả hai."
+    },
+    {
+      "heading": null,
+      "body": "## Công cụ tính ROI: chi phí nhàn rỗi so với AC đỗ xe {#roi-computer-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Các tài liệu Wikipedia và EPA mô tả các luật nhưng không công bố ROI thực.Đây là phép toán, sử dụng **giả định đầu vào năm 2026** bất kỳ chủ sở hữu-người điều hành hoặc người lập kế hoạch đội xe nào cũng có thể thay thế bằng số của riêng họ."
+    },
+    {
+      "heading": null,
+      "body": "**Đầu vào (trung bình toàn quốc năm 2026):**"
+    },
+    {
+      "heading": null,
+      "body": "- Đốt cháy nhiên liệu không tải của động cơ chính ngủ loại 8: **0,8 gal/giờ** ([dữ liệu chi phí chạy không tải của ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Giá dầu diesel trên đường cao tốc (tháng 5 năm 2026): **$3,95 / gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Số giờ nhàn rỗi mỗi đêm (mùa mát, tháng 5 – tháng 9): **9 giờ**"
+    },
+    {
+      "heading": null,
+      "body": "- Số đêm nhàn rỗi mỗi năm (liên quan đến làm mát): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Rủi ro phạt trung bình trên mỗi năm không tuân thủ (lộ trình 4 quốc gia thực thi, dữ liệu thực thi năm 2026): **$420**"
+    },
+    {
+      "heading": null,
+      "body": "- Chi phí hao mòn khi động cơ chính chạy không tải: **$0,30 / giờ không tải** (tăng tốc trong khoảng thời gian thay dầu + ứng suất EGR/DPF, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Chi phí chạy không tải hàng năm để làm mát cabin (đường dẫn không làm gì):**"
+    },
+    {
+      "heading": null,
+      "body": "|Thành phần chi phí |Toán |$ hàng năm |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Nhiên liệu |9 giờ × 140 đêm × 0,8 gal × 3,95 USD |**$3,981** |"
+    },
+    {
+      "heading": null,
+      "body": "|Hao mòn động cơ |9 giờ × 140 đêm × 0,30 USD |**$378** |"
+    },
+    {
+      "heading": null,
+      "body": "|Rủi ro phạt (trung bình toàn quốc) |hỗn hợp nhà nước thực thi |**$420** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Tổng chi phí nhàn rỗi hàng năm** ||**$4,779** |"
+    },
+    {
+      "heading": null,
+      "body": "**Chi phí hàng năm cho việc tuân thủ AC khi đỗ xe bằng pin:**"
+    },
+    {
+      "heading": null,
+      "body": "|Thành phần chi phí |Toán |$ hàng năm |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Phần cứng được khấu hao (tuổi thọ 3 năm đối với pin đậu xe AC trị giá $2.800 12V/24V như [CoolDrivePro VTH1](/products/vth1)) |$2,800 / 3 |**$933** |"
+    },
+    {
+      "heading": null,
+      "body": "|Đã thêm phí bờ / thời gian phát điện |~110 kWh × 0,15 USD |**$17** |"
+    },
+    {
+      "heading": null,
+      "body": "|Khấu hao pin dự phòng (LiFePO4 đã thêm ô trong 5 năm) |1.200 USD / 5 |**$240** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Tổng chi phí điều hòa đỗ xe hàng năm** ||**$1.190** |"
+    },
+    {
+      "heading": null,
+      "body": "**Tiết kiệm ròng hàng năm: $4.779 − $1.190 = $3.589 mỗi xe tải mỗi năm.**"
+    },
+    {
+      "heading": null,
+      "body": "**Hoàn vốn đơn giản khi mua thiết bị trị giá 2.800 USD + nâng cấp pin 1.200 USD = 13,4 tháng** ở mức trung bình toàn quốc.Ở các bang thực thi cao (CA, NJ, NY, MD), thời gian hoàn vốn giảm xuống dưới 9 tháng vì đường rủi ro phạt tăng từ $420 lên $1.800+ mỗi năm."
+    },
+    {
+      "heading": null,
+      "body": "Đối với một đội xe khu vực gồm 50 xe tải chạy làn CA + NV + AZ, số tiền đó tiết kiệm được **$179.000 mỗi năm** — đó là lý do tại sao mọi hãng vận tải lớn mà chúng tôi đã bán kể từ năm 2024 đều xây dựng mục hàng AC đỗ xe trực tiếp vào thông số kỹ thuật khi họ làm mới xe tải."
+    },
+    {
+      "heading": null,
+      "body": "## Lộ trình tuân thủ được xếp hạng theo tổng chi phí {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Có bốn con đường để duy trì bên trong bộ quy tắc 2026.Được liệt kê từ rẻ nhất đến đắt nhất trong khoảng thời gian sở hữu 3 năm:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Pin đỗ xe AC (rẻ nhất, ~$1.190 / năm).** Ví dụ: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Ưu điểm: trọng lượng nhẹ nhất (45–80 lb), yên tĩnh (cabin <48 dB), không cần bảo trì ngoài việc vệ sinh bộ lọc, phạm vi phủ sóng SmartWay đầy đủ.Nhược điểm: phụ thuộc vào dung lượng pin để chạy qua đêm - một ĐHĐCĐ Nhóm 31 là không đủ;LiFePO4 hoặc 200+ Ah ​​cần có ngân hàng AGM.Xem [12V so với 24V so sánh AC đỗ xe](/compare/12v-vs-24v-parking-ac/) để biết kích thước."
+    },
+    {
+      "heading": null,
+      "body": "**2.Điện APU (trung bình, ~$1.800–$2.400 / năm).** Ví dụ: Bergstrom NITE, Idle Free.Ưu điểm: cũng cấp nguồn cho các thiết bị 120V (lò vi sóng, tủ lạnh), thời gian chạy lâu hơn so với chỉ dùng pin.Nhược điểm: nặng hơn (~250 lb), đắt hơn ($6.000–$9.500), nhiều điểm hỏng hóc hơn.Tốt nhất cho những người lái xe cần tải điện đầy đủ ở chế độ khách sạn."
+    },
+    {
+      "heading": null,
+      "body": "**3.Diesel APU (cao nhất, ~$2.600–$3.800 / năm).** Ví dụ: Thermo King TriPac, Carrier ComfortPro.Ưu điểm: thời gian chạy không giới hạn miễn là còn nhiên liệu, được các kỹ thuật viên của đội xe hiểu rõ.Nhược điểm: vẫn phát thải — chỉ được miễn theo quy tắc nếu bản thân nó đã được xác minh SmartWay, đốt cháy ~0,2 gal/giờ, cài đặt $9.500–$13.000, yêu cầu dịch vụ thường xuyên.[Bối cảnh thay thế TriPac](/blog/dometic-vs-webasto-parking-ac/) đã chuyển mạnh sang pin vào năm 2024–2026."
+    },
+    {
+      "heading": null,
+      "body": "**4.Không làm gì cả (đắt nhất, ~$4.779 / năm + rủi ro phạt leo thang).** Không phải là một lựa chọn thực sự cho các đội xe chạy các làn đường hành lang CA hoặc NE;đối với chủ sở hữu-người điều hành bên ngoài cơ quan thực thi, họ vẫn phải chờ 1–2 năm nữa cho đến đợt leo thang giá nhiên liệu nhàn rỗi lớn tiếp theo.Chúng tôi không khuyến nghị sử dụng nó cho bất kỳ giao dịch mua xe tải nào từ năm 2026 trở lên."
+    },
+    {
+      "heading": null,
+      "body": "## Danh sách kiểm tra trình điều khiển và điều phối (có thể in)"
+    },
+    {
+      "heading": null,
+      "body": "Hãy coi các dấu đầu dòng bên dưới là nhật ký tuân thủ phía cabin.Mang theo một bản in được ép lớp;Các thanh tra viên DOT khi thấy người lái xe mang theo giấy tờ riêng có xu hướng di chuyển nhanh hơn:"
+    },
+    {
+      "heading": null,
+      "body": "- **Nhập nhật ký hàng ngày** khi sử dụng điều hòa đỗ xe thay cho động cơ không hoạt động: thời gian bật, thời gian tắt, nhiệt độ môi trường, vị trí, SKU hệ thống và số sê-ri."
+    },
+    {
+      "heading": null,
+      "body": "- **Bằng chứng có ảnh** của nhãn dán xác minh SmartWay trên bộ AC đỗ xe — giúp tránh tranh cãi với thanh tra viên chưa ghi nhớ danh sách đã xác minh."
+    },
+    {
+      "heading": null,
+      "body": "- **Số liệu về trạng thái sạc của pin** khi bắt đầu và kết thúc thời gian nghỉ nếu bị thử thách — chứng tỏ máy điều hòa thực sự chạy bằng pin chứ không phải là câu chuyện che đậy cho việc động cơ chạy không tải."
+    },
+    {
+      "heading": null,
+      "body": "- **Thẻ gian lận theo quy định của bang** cho các làn đường bạn chạy — bản in 2 trang nhiều lớp của bảng 50 trạng thái ở trên là đủ;chúng tôi phân phát chúng tại các triển lãm thương mại."
+    },
+    {
+      "heading": null,
+      "body": "- **Nội dung yêu cầu miễn trừ** được ghi nhớ: \"Phương tiện này đang vận hành hệ thống điều hòa không khí bằng pin đã được SmartWay xác minh theo quyền miễn trừ của [tiểu bang của bạn] đối với công nghệ tiện nghi trong cabin thay thế.\"Câu nói đó kết thúc 80% cuộc trò chuyện bên đường."
+    },
+    {
+      "heading": null,
+      "body": "- **Nhật ký dịch vụ** cho điều hòa đỗ xe: vệ sinh bộ lọc hàng quý, kiểm tra tình trạng ắc quy hàng năm.Một thiết bị không hoạt động khi đang nghỉ giữa chừng sẽ tạo ra cảm giác muốn chạy không tải, điều này tạo ra hành vi vi phạm."
+    },
+    {
+      "heading": null,
+      "body": "- **Thông báo của người điều phối**: bất kỳ vé bên đường nào cũng sẽ nhận được một bức ảnh trích dẫn trong ngày được gửi đến người điều phối.Hệ số tiền phạt tái phạm ở NJ, MD và CA được đặt lại sau 12–36 tháng — các đội xe cần theo dõi xem xe tải nào đang hoạt động đúng giờ."
+    },
+    {
+      "heading": null,
+      "body": "##Câu hỏi thường gặp"
+    },
+    {
+      "heading": null,
+      "body": "**Tiểu bang nào của Hoa Kỳ có luật chống chạy không tải nghiêm ngặt nhất vào năm 2026?**"
+    },
+    {
+      "heading": null,
+      "body": "California (CARB ATCM, $300–$25.000), New Jersey (giới hạn 3 phút, tăng gấp đôi nếu lặp lại), New York (Luật địa phương NYC 5 với báo cáo của công dân ở mức $350–$2.000), Massachusetts và Maryland (cả 5 phút với giới hạn phạt gần 25.000 USD cho các mẫu đội xe) và Connecticut (3 phút với $250–$5.000).DC về mặt kỹ thuật đứng đầu danh sách mỗi vi phạm với số tiền từ $500–$5.000 cộng với biện pháp cưỡng chế mạnh mẽ."
+    },
+    {
+      "heading": null,
+      "body": "**Điều hòa đỗ xe có được tính là tuân thủ các quy tắc chống chạy không tải không?**"
+    },
+    {
+      "heading": null,
+      "body": "Có ở mọi tiểu bang có quy tắc hoạt động, miễn là thiết bị được SmartWay xác minh hoặc công nhận theo quy định \"công nghệ thay thế\" của tiểu bang.Đỗ xe chỉ dùng pin AC (không chạy động cơ chính) là chế độ tuân thủ rõ ràng nhất và được California, NJ, NY, MD và CA nêu tên rõ ràng trong văn bản quy tắc của họ.Xem [sơn lót AC dành cho xe tải không chạy không tải](/blog/no-idle-truck-ac/) để biết cơ sở pháp lý bằng tiếng Anh đơn giản."
+    },
+    {
+      "heading": null,
+      "body": "**Có luật chống chạy không tải của liên bang đối với xe tải không?**"
+    },
+    {
+      "heading": null,
+      "body": "Không có luật nhàn rỗi liên bang nào tồn tại, nhưng khuôn khổ Đạo luật Không khí Sạch EPA và chương trình danh sách được xác minh SmartWay tiêu chuẩn hóa một cách hiệu quả những gì được coi là tuân thủ trên 19 tiểu bang với các quy tắc có hiệu lực.Các quy tắc FMCSA HOS yêu cầu riêng biệt chỗ nghỉ có thể ở được, tương tác với các quy tắc chống chạy không tải trong thực tế."
+    },
+    {
+      "heading": null,
+      "body": "**Chi phí nhiên liệu trung bình khi cho xe tải Loại 8 chạy không tải trong 10 giờ là bao nhiêu?**"
+    },
+    {
+      "heading": null,
+      "body": "Ở mức 0,8 gal/giờ động cơ chính không hoạt động và mức trung bình động cơ diesel quốc gia tháng 5 năm 2026 là 3,95 USD/gal, thời gian nghỉ 10 giờ chỉ tốn **31,60 USD tiền nhiên liệu** — cộng thêm khoảng 3 USD chi phí hao mòn động cơ tăng tốc và rủi ro phạt nếu bạn ở trong lô được quản lý.Hơn 140 đêm làm mát mỗi năm cộng lại thành con số 4.779 USD được sử dụng trong công cụ tính ROI ở trên."
+    },
+    {
+      "heading": null,
+      "body": "**Một đội xe có thể tiết kiệm được bao nhiêu mỗi năm khi sử dụng điều hòa đỗ xe?**"
+    },
+    {
+      "heading": null,
+      "body": "Mức trung bình toàn quốc là **$3,589 / xe tải / năm** chưa bao gồm khấu hao phần cứng.Ở các bang có mức độ thực thi cao, con số này tăng lên hơn 4.500 USD vì thành phần rủi ro phạt tăng lên.Một đội xe gồm 50 xe tải trên các làn đường dành cho CA thường tiết kiệm được hơn 200.000 USD mỗi năm.Xem [máy tính tiết kiệm nhiên liệu điều hòa khi đỗ xe](/blog/parking-ac-fuel- Savings-Calculator/) để biết mô hình có thông tin đầu vào có thể chỉnh sửa và [tổng quan về luật chống chạy không tải](/blog/no-idle-ac-anti-idling-laws/) để biết bối cảnh quy định."
+    },
+    {
+      "heading": null,
+      "body": "**Còn việc đóng băng DEF ở các bang có thời tiết lạnh thì sao?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (chất lỏng thải diesel) bắt đầu kết tinh ở nhiệt độ gần 12°F.Hầu hết các quy tắc không tải ở trạng thái lạnh (NJ, NH, VT, Minnesota Twin Cities) đều bao gồm quyền miễn trừ dưới 25°F bao gồm rõ ràng khả năng bảo vệ DEF, nhưng câu trả lời rõ ràng hơn vào năm 2026 là tổ hợp máy sưởi tầng chạy bằng diesel + pin đỗ xe AC đã được SmartWay xác minh để xử lý cả rủi ro DEF trong mùa làm mát và mùa đông mà không cần vận hành động cơ.Sự kết hợp này là điều mà hầu hết các RFP của hạm đội phương Bắc hiện nay đều thông số kỹ thuật."
+    },
+    {
+      "heading": null,
+      "body": "## Dòng dưới cùng"
+    },
+    {
+      "heading": null,
+      "body": "Luật chống chạy không tải của từng tiểu bang vào năm 2026 vẫn không hề được nới lỏng - tiền phạt ngày càng tăng, các công cụ báo cáo của công dân đang lan rộng từ NYC đến các thành phố lớn khác và FMCSA đang bắt đầu tham chiếu chéo các vi phạm không hoạt động với xếp hạng an toàn.Phép toán giờ đây đã chắc chắn về phía đỗ xe bằng pin AC: tổng cộng dưới 1.200 đô la một năm so với gần 5.000 đô la một năm đối với con đường không làm gì, với thời gian hoàn vốn dưới 14 tháng trên toàn quốc và dưới 9 tháng trên các làn đường Bờ Tây."
+    },
+    {
+      "heading": null,
+      "body": "Nếu bạn muốn được trợ giúp xác định thiết bị cho xe tải hoặc đội xe của mình, thì [CoolDrivePro VTH1 12V/24V ắc quy AC đỗ xe](/products/vth1) là đề xuất đủ điều kiện SmartWay của chúng tôi và [12V so với 24V AC xe tảiso sánh](/compare/12v-vs-24v-parking-ac/) là nơi thích hợp để bắt đầu định cỡ."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

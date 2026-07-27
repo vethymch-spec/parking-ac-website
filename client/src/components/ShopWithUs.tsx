@@ -1,11 +1,11 @@
 /**
  * ShopWithUs Component
  * Design: Deep navy blue background, 4-column card layout
- * Cards: Warranty, Customer Service, Return Policy, Free Shipping
+ * Cards: Warranty, Customer Service, Invoice Review, Fitment Support
  */
-import { Shield, Headphones, RotateCcw, Truck } from "lucide-react";
+import { Shield, Headphones, FileText, ClipboardCheck } from "lucide-react";
 import { useEffect, useRef } from "react";
-import { toast } from "sonner";
+import { Link } from "wouter";
 
 const cards = [
   {
@@ -14,6 +14,7 @@ const cards = [
     description:
       "We stand behind the quality of our products. That's why we offer a 1-year warranty on all our air conditioners. This warranty covers defects in materials and workmanship.",
     link: "Warranty",
+    href: "/warranty",
   },
   {
     icon: Headphones,
@@ -21,20 +22,23 @@ const cards = [
     description:
       "CoolDrivePro's Exceptional Customer Service: Guiding your journey from purchase to installation with prompt, dedicated support for your air conditioning needs.",
     link: "Contact Us",
+    href: "/contact",
   },
   {
-    icon: RotateCcw,
-    title: "30 Days Return",
+    icon: FileText,
+    title: "Invoice & Order Review",
     description:
-      "We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.",
-    link: "Return Policy",
+      "Confirm vehicle fitment, delivery terms, invoice total, and payment method with our team before payment is requested.",
+    link: "Billing Terms",
+    href: "/billing-terms",
   },
   {
-    icon: Truck,
-    title: "Free Shipping in United States",
+    icon: ClipboardCheck,
+    title: "Vehicle Fitment Support",
     description:
-      "We offer free shipping on all orders in the United States. We currently do not offer international shipping services outside of the United States.",
-    link: "Shipping Policy",
+      "Send vehicle type, voltage, roof photos, and target runtime so our team can confirm compatibility before invoice.",
+    link: "Compatibility Guide",
+    href: "/vehicle-compatibility",
   },
 ];
 
@@ -55,10 +59,6 @@ export default function ShopWithUs() {
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
   }, []);
-
-  const handleLinkClick = (label: string) => {
-    toast(`${label} — Feature coming soon!`);
-  };
 
   return (
     <section
@@ -100,14 +100,14 @@ export default function ShopWithUs() {
                 >
                   {card.description}
                 </p>
-                <button
-                  onClick={() => handleLinkClick(card.link)}
+                <Link
+                  href={card.href}
                   className="text-sm font-semibold flex items-center gap-1 transition-colors hover:gap-2"
                   style={{ color: "oklch(0.70 0.15 255)", fontFamily: "'Inter', sans-serif" }}
                 >
                   {card.link}
                   <span>→</span>
-                </button>
+                </Link>
               </div>
             );
           })}

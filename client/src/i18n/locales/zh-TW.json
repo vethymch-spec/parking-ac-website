@@ -34,10 +34,10 @@
     "supportAvailability": "支援時間：太平洋時間上午11點-晚上9點，我們將在1-12小時內回覆您。"
   },
   "hero": {
-    "title": "離網生活與行動舒適的駐車空調",
-    "subtitle": "12V與24V直流無怠速駐車空調，適用於半掛卡車、房車、廂式貨車與露營車——無需怠速即可涼爽",
-    "ctaPrimary": "選購產品",
-    "ctaSecondary": "了解更多",
+    "title": "適用於卡車、房車、貨車和車隊的 12V/24V 停車空調",
+    "subtitle": "CoolDrivePro 為半掛卡車、RV、貨車、露營車、車隊、經銷商和安裝商打造 12V/24V DC 停車空調和無怠速冷卻系統 - 提供 B2B 定價、美國保固支援和安裝指引。",
+    "ctaPrimary": "獲取裝修建議",
+    "ctaSecondary": "請求經銷商報價",
     "badge": "新品上市",
     "trustedBy": "深受全球10,000+車主信賴"
   },
@@ -48,16 +48,6 @@
     "description": "電池供電的駐車空調，適用於半掛卡車、房車、廂式貨車與露營車。無需怠速即可涼爽——節省燃料、減少排放、保持舒適。",
     "viewDetails": "立即選購",
     "addToCart": "加入購物車",
-    "specs": "規格參數",
-    "features": "產品特色",
-    "reviews": "客戶評價",
-    "warranty": "保固",
-    "freeShipping": "免運費",
-    "support": "24/7支援",
-    "learnMore": "了解更多",
-    "cooling": "製冷",
-    "heating": "製熱",
-    "heatingCooling": "冷暖雙效",
     "specs": {
       "coolingCapacity": "製冷能力",
       "heatingCapacity": "製熱能力",
@@ -71,6 +61,15 @@
       "heatingSpeed": "製熱速度",
       "airOutput": "風量"
     },
+    "features": "產品特色",
+    "reviews": "客戶評價",
+    "warranty": "保固",
+    "freeShipping": "發票報價支援",
+    "support": "24/7支援",
+    "learnMore": "了解更多",
+    "cooling": "製冷",
+    "heating": "製熱",
+    "heatingCooling": "冷暖雙效",
     "topMounted": {
       "title": "12000 BTU頂置式駐車空調",
       "subtitle": "12V/24V直流無怠速房車與卡車空調",
@@ -81,8 +80,8 @@
       "imageAlt": "10000 BTU頂置式駐車空調分解圖——12V/24V直流無怠速房車卡車空調"
     },
     "miniSplit": {
-      "title": "12000 BTU迷你分體式駐車空調",
-      "subtitle": "半掛卡車與房車用12V直流無怠速空調",
+      "title": "半臥舖計程車和房車的 12V/24V 迷你分離式停車空調",
+      "subtitle": "CoolDrivePro VX3000SP 是一款 12V/24V 直流迷你分離式停車空調，可為半臥舖駕駛室、房車、貨車和露營車提供 12,000 BTU/h 無怠速冷卻。室內蒸發器使用 GMCC 雙旋轉變頻壓縮機，運行噪音≤32 dB，因此駕駛員可以在停車的夜晚安然入睡，而無需讓引擎空轉。",
       "description": "專為半掛卡車駕駛室、房車和貨運廂式貨車設計的大容量12V直流迷你分體式駐車空調。擁有12000 BTU無怠速製冷能力，這款無管駐車空調直接從車載電池運行——無需發電機，無需岸電。水平屋頂安裝適用於大多數卡車和露營車。",
       "btu": "12,000 BTU",
       "voltage": "12V 直流",
@@ -97,8 +96,8 @@
       "imageAlt": "房車和半掛卡車用65000 BTU即熱式熱水器——離網熱水"
     },
     "heatingCoolingAC": {
-      "title": "V-TH1冷暖駐車空調",
-      "subtitle": "12V/24V直流雙模式轉子空調——全年舒適",
+      "title": "適用於卡車和房車的 12V/24V 加熱和冷卻停車空調",
+      "subtitle": "CoolDrivePro V-TH1 是一款 12V/24V 直流熱泵停車空調，可為半拖車、房車、貨車和特殊車輛提供 2,000 W 的冷卻和加熱。它採用 GMCC 雙轉子壓縮機和 R134a 冷媒，可在約 30 分鐘內將駕駛室溫度從 5°C 提高到 30°C — 無需引擎空轉，也無需岸電。",
       "description": "CoolDrivePro首款雙模式駐車空調。V-TH1夏季提供高達2,000W製冷，冬季可在30分鐘內將駕駛室從5°C加熱到30°C。採用GMCC雙轉子壓縮機和R134A冷媒，這款12V/24V直流转子空調為卡車、房車、廂式貨車和特種車輛提供全年氣候控制——無需發動機怠速。",
       "imageAlt": "V-TH1冷暖駐車空調——12V/24V直流雙模式轉子空調"
     },
@@ -108,15 +107,15 @@
       "specifications": "規格參數",
       "reviews": "客戶評價",
       "faq": "常見問題",
-      "freeShipping": "免運費",
-      "warranty": "2年保固",
+      "freeShipping": "發票報價支援",
+      "warranty": "1 年保固",
       "returns": "30天退換",
       "inStock": "現貨",
       "outOfStock": "缺貨",
       "quantity": "數量",
       "shipping": "配送",
-      "shippingDesc": "美國本土訂單滿500美元免運費。3-5個工作日送達。",
-      "warrantyDesc": "2年製造商保固，涵蓋材料和工藝缺陷。",
+      "shippingDesc": "確認發票後協調運輸，交付時間取決於目的地與訂單細節。",
+      "warrantyDesc": "1 年製造商保修，涵蓋材料和工藝缺陷。",
       "returnsDesc": "30天輕鬆退換政策。不滿意全額退款。",
       "techSpecs": "技術規格",
       "reviewsTitle": "客戶怎麼說",
@@ -205,7 +204,7 @@
   "shopWithUs": {
     "title": "放心購物",
     "warranty": {
-      "title": "2年保固",
+      "title": "1 年保固",
       "description": "所有零部件和人工費用全面覆蓋"
     },
     "returns": {
@@ -213,8 +212,8 @@
       "description": "不滿意可無理由退貨"
     },
     "shipping": {
-      "title": "免運費",
-      "description": "美國本土訂單滿500美元免運費"
+      "title": "車型適配支援",
+      "description": "在發票報價前確認車輛相容性。"
     }
   },
   "blog": {
@@ -242,7 +241,7 @@
       "notFound": "文章未找到",
       "backToBlog": "← 返回部落格",
       "readyToExperience": "準備好體驗無怠速製冷了嗎？",
-      "exploreOur": "探索我們的12V/24V駐車空調——所有美國訂單免運費。",
+      "exploreOur": "探索我們的12V/24V駐車空調，並依車型適配申請發票報價。",
       "shopTopMounted": "購買VS02 PRO頂置式空調",
       "shopMiniSplit": "購買VX3000SP迷你分體式空調"
     }
@@ -357,7 +356,22 @@
     "readyToStop": "準備好停止怠速了嗎？",
     "joinDrivers": "加入全球10,000+車主的行列，已改用CoolDrivePro駐車空調。",
     "shopTop": "選購頂置式空調",
-    "shopMini": "選購迷你分體式空調"
+    "shopMini": "選購迷你分體式空調",
+    "proofTitle": "可以親自核驗的實力",
+    "proofHeading": "工廠、證書、展會,全部公開可查",
+    "proofDesc": "CoolDrivePro 由青島維賽工業有限公司製造與發貨。可查看車間生產、認證資質與全球展會,每一台 12V/24V 駐車空調都有真實證據支撐。",
+    "factoryCard": "走進工廠",
+    "factoryCardDesc": "自有研發、SMT 與組裝產線,每台駐車空調出貨前皆經過 100% 全檢。",
+    "factoryAlt": "CoolDrivePro / 維賽駐車空調生產車間",
+    "tourFactory": "查看工廠",
+    "certCard": "資質與智慧財產權",
+    "certCardDesc": "ISO 9001:2015、CNAS 實驗室、註冊商標與外觀設計專利。",
+    "certAlt": "CoolDrivePro ISO 9001 品質證書與外觀設計專利",
+    "viewCerts": "查看證書",
+    "expoCard": "全球展會",
+    "expoCardDesc": "在北美、歐洲、澳紐與中東進行現場展示與經銷商洽談。",
+    "expoAlt": "CoolDrivePro 駐車空調展會現場",
+    "seeExpos": "查看展會"
   },
   "seo": {
     "homeTitle": "駐車空調 | 12V與24V直流無怠速卡車和房車空調 | CoolDrivePro",

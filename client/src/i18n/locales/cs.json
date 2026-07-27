@@ -2,9 +2,9 @@
   "nav": {
     "home": "Domů",
     "products": "Produkty",
-    "topMountedAC": "Střešní klimatizace",
-    "miniSplitAC": "Mini split klimatizace",
-    "heatingCoolingAC": "Klimatizace s vytápěním",
+    "topMountedAC": "Střešní AC",
+    "miniSplitAC": "Mini split AC",
+    "heatingCoolingAC": "Topení/chlazení",
     "allProducts": "Všechny produkty",
     "forum": "Fórum",
     "blog": "Blog",
@@ -18,10 +18,10 @@
     "logout": "Odhlásit se"
   },
   "hero": {
-    "title": "Parkovací klimatizace pro život off-grid a mobilní pohodlí",
-    "subtitle": "12V a 24V DC klimatizace bez volnoběhu pro nákladní vozy, karavany a dodávky — Chlazení bez volnoběhu",
-    "ctaPrimary": "Nakupovat produkty",
-    "ctaSecondary": "Zjistit více",
+    "title": "12V/24V parkovací klimatizace pro nákladní automobily, RV, dodávky a flotily",
+    "subtitle": "CoolDrivePro vyrábí parkovací klimatizaci 12V/24V DC a chladicí systémy bez nečinnosti pro návěsy, RV, dodávky, obytné vozy, vozové parky, prodejce a montážní firmy – s cenami B2B, záruční podporou v USA a pokyny pro montáž.",
+    "ctaPrimary": "Získejte doporučení ohledně vybavení",
+    "ctaSecondary": "Vyžádejte si nabídku prodejce",
     "badge": "Novinka",
     "trustedBy": "Důvěřuje nám více než 10 000 řidičů po celém světě"
   },
@@ -36,7 +36,7 @@
     "features": "Funkce",
     "reviews": "Hodnocení zákazníků",
     "warranty": "Záruka",
-    "freeShipping": "Doprava zdarma",
+    "freeShipping": "Podpora faktury",
     "support": "Podpora 24/7",
     "topMounted": {
       "title": "Střešní klimatizace 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Chladí až 80 čtverečních stop"
     },
     "miniSplit": {
-      "title": "Mini split klimatizace 12000 BTU",
-      "subtitle": "12V DC klimatizace bez volnoběhu pro nákladní vozy a karavany",
+      "title": "12V/24V Mini dělená parkovací klimatizace pro semi spací kabiny a obytné vozy",
+      "subtitle": "CoolDrivePro VX3000SP je 12V/24V DC mini dělená parkovací klimatizace, která poskytuje 12 000 BTU/h chlazení bez nečinnosti pro pololůžkové kabiny, RV, dodávky a obytné vozy.Vnitřní výparník běží na ≤32 dB pomocí GMCC dvourotačního invertorového kompresoru, takže řidiči mohou spát celou zaparkovanou noc, aniž by motor běžel na volnoběh.",
       "btu": "12 000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 hodin",
@@ -59,14 +59,19 @@
       "specifications": "Specifikace",
       "reviews": "Hodnocení zákazníků",
       "faq": "Časté dotazy",
-      "freeShipping": "Doprava zdarma",
-      "warranty": "Záruka 2 roky",
+      "freeShipping": "Podpora faktury",
+      "warranty": "1-letá záruka",
       "returns": "Vrácení do 30 dnů",
       "inStock": "Skladem",
       "outOfStock": "Vyprodáno",
       "quantity": "Množství",
       "techSpecs": "Technické specifikace",
-      "relatedProducts": "Mohlo by se vám také líbit"
+      "relatedProducts": "Mohlo by se vám také líbit",
+      "warrantyDesc": "1letá záruka výrobce na vady materiálu a zpracování."
+    },
+    "heatingCoolingAC": {
+      "title": "12V/24V topení a chlazení parkovací klimatizace pro nákladní automobily a obytné vozy",
+      "subtitle": "CoolDrivePro V-TH1 je 12V/24V DC parkovací klimatizace s tepelným čerpadlem, která poskytuje 2 000 W chlazení a topení pro návěsy, obytné vozy, dodávky a speciální vozidla.Využívá dvojitý rotační kompresor GMCC s chladivem R134a a dokáže zvýšit teplotu v kabině z 5 °C na 30 °C za přibližně 30 minut – motor neběží naprázdno ani není potřeba břeh."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Zrušit",
     "posting": "Odesílání...",
     "model": "Model"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1-letá záruka"
+    }
   }
 }

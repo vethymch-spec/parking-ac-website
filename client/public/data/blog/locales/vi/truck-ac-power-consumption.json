@@ -1,0 +1,148 @@
+{
+  "title": "Mức tiêu thụ điện xoay chiều của xe tải: Giải thích về Watt, Ampe và mức tiêu hao pin (2026)",
+  "date": "2026-04-25",
+  "category": "Nguồn & Pin",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Giám sát mức tiêu thụ điện AC của bãi đậu xe tải với màn hình shunt và pin",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Giải thích mức tiêu thụ điện xoay chiều của xe tải: trung bình 480W, 9A ở 24V, 38–55Ah mỗi đêm.Các số thực, công thức tính kích thước pin của bạn và cách máy nén biến tần cắt giảm 30%.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Mỗi lần mua AC đỗ xe cuối cùng đều quay trở lại một câu hỏi: thứ này thực sự sử dụng bao nhiêu năng lượng và tôi cần pin lớn như thế nào?Câu trả lời tiếp thị luôn mơ hồ — 'tương thích 12V', 'biến tần tiết kiệm năng lượng', 'khả năng làm mát qua đêm'.Câu trả lời trung thực là một con số thực tính bằng watt, ampe và amp giờ mà bạn có thể đưa vào công thức định cỡ pin.Hướng dẫn này cung cấp cho bạn những con số đó, giải thích chúng đến từ đâu và chỉ cho bạn cách chuyển chúng thành một hệ thống pin thực sự mang lại khả năng làm mát cả đêm mà không khiến bạn mắc kẹt với một đống đồ chết vào lúc 4 giờ sáng."
+    },
+    {
+      "heading": null,
+      "body": "Điện năng tiêu thụ trong điều hòa đỗ xe không phải là một con số.Nó thay đổi theo nhiệt độ môi trường, nhiệt độ cabin mục tiêu, thể tích cabin, chất lượng cách nhiệt, tốc độ quạt và - quan trọng nhất - liệu máy nén có tốc độ cố định hay điều khiển bằng biến tần.Máy điều hòa đỗ xe 12.000 BTU có thể kéo 1.400 W khi máy nén lần đầu khởi động ở mức đầy tải, nhưng chỉ 380 W khi làm mát ở trạng thái ổn định sau khi cabin đạt đến điểm đặt.Thời lượng trung bình trong một đêm kéo dài 8 giờ là yếu tố quan trọng đối với kích thước pin chứ không phải mức cao nhất.Dưới đây, chúng tôi chia nhỏ bốn con số thực sự quan trọng và chỉ cho bạn cách tự đo chúng bằng máy theo dõi pin dựa trên shunt trị giá 35 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Bốn Con Số Bạn Cần Biết"
+    },
+    {
+      "heading": null,
+      "body": "**Hòa cao nhất (W hoặc A):** Sức mạnh duy trì cao nhất trong thời gian hồi chiêu ban đầu, thường là 15–25 phút đầu tiên sau khi khởi động.Đối với thiết bị biến tần 24V hiện đại như CoolDrivePro V-TH1, công suất tối đa là khoảng 1.200–1.400 W (50–58 A tại 24V).Các thiết bị tốc độ cố định cũ hơn có thể tăng vọt lên 1.800–2.200 W (75–92 A tại 24V).Hệ thống dây điện và cầu chì của bạn phải xử lý ở mức cao nhất - cáp có kích thước quá nhỏ ở đây là nguyên nhân phổ biến nhất gây sụt áp và ngắt sớm.**Mức hút ở trạng thái ổn định (W hoặc A):** Mức hút trung bình khi cabin ở điểm đặt và máy nén đang điều chỉnh để duy trì nhiệt độ.Bộ biến tần ổn định ở mức 380–480 W (16–20 A tại 24V).Bật/tắt chu kỳ của các thiết bị tốc độ cố định, hiệu quả trung bình là 600–800 W.**Năng lượng mỗi giờ (Wh):** Rút ở trạng thái ổn định × 1 giờ.Đối với một bộ biến tần thông thường ở mức trung bình 450 W, tức là 450 Wh/giờ.**Tổng năng lượng mỗi đêm (Wh hoặc Ah):** Lượng tiêu thụ trung bình × số giờ sử dụng.Tám giờ ở 450 W = 3.600 Wh = 150 Ah tại 12V hoặc 75 Ah tại 24V (trước khi tính đến tổn thất hiệu suất pin)."
+    },
+    {
+      "heading": null,
+      "body": "## Biến tần so với tốc độ cố định: Tại sao nó lại quan trọng đối với việc hao pin"
+    },
+    {
+      "heading": null,
+      "body": "Máy nén tốc độ cố định chạy ở mức 100% cho đến khi nhiệt độ trong cabin giảm xuống dưới điểm đặt, sau đó tắt hoàn toàn cho đến khi nhiệt độ tăng trở lại trên.Chu kỳ đó lặp lại cứ sau 4–8 phút qua đêm.Trong khi chạy, nó tiêu thụ 1.200–1.500 W. Khi tắt, nó chỉ tiêu thụ quạt (~50 W).Chu kỳ hoạt động trung bình khoảng 55–65% trong một đêm vừa phải, do đó mức trung bình hiệu dụng là 700–950 W. Ngược lại, máy nén biến tần điều chỉnh liên tục từ 30% đến 100% công suất — nó không bao giờ tắt hoàn toàn nhưng cũng hiếm khi chạy hết tải.Kết quả là mức hòa ổn định 380–480 W mà không có xung đột biến theo chu kỳ.Trong một đêm kéo dài 8 giờ, bộ biến tần tiêu thụ 3,0–3,8 kWh;bộ tốc độ cố định tiêu thụ 5,6–7,6 kWh.Tức là giảm khoảng 2 lần nhu cầu sử dụng pin cho cùng một công suất làm mát.Nếu bạn đang định cỡ pin cho thiết bị có tốc độ cố định, hãy tăng gấp đôi bất cứ giá trị nào trong bảng thông số kỹ thuật ngụ ý."
+    },
+    {
+      "heading": null,
+      "body": "## Các phép đo trong thế giới thực: Ba chiếc, cùng một chiếc taxi, cùng một đêm"
+    },
+    {
+      "heading": null,
+      "body": "Chúng tôi đã lắp đặt ba bộ điều hòa không khí đỗ xe trong các cabin có giường nằm 90 cu ft giống hệt nhau ở Phoenix, AZ vào tháng 7 năm 2025 (mục tiêu trong cabin là 38°C, nhiệt độ môi trường xung quanh duy trì 24°C).Được đo bằng shunt 500 A đã hiệu chuẩn và màn hình Victron BMV-712.**CoolDrivePro V-TH1 (24V biến tần, 10.000 BTU đỉnh):** 412 W trung bình trong 8 giờ = 3.296 Wh = 137 Ah tại 12V tương đương hoặc 69 Ah tại 24V.**Dometic RTX2000 (24V biến tần, đỉnh 10.500 BTU):** Trung bình 437 W = 3.496 Wh = 146 Ah tại 12V hoặc 73 Ah tại 24V.**Tầng thượng chung không có tên 12V tốc độ cố định (8.000 BTU):** Trung bình 780 W = 6.240 Wh = 260 Ah tại 12V.Bộ tốc độ cố định tiêu thụ pin gần gấp đôi mặc dù khả năng làm mát ít hơn 20% — chính xác là những gì lý thuyết dự đoán."
+    },
+    {
+      "heading": null,
+      "body": "## Công thức tính cỡ pin: Cách cắm vào"
+    },
+    {
+      "heading": null,
+      "body": "Công thức tính toán là: **Dung lượng pin yêu cầu (Ah) = (AC tiêu thụ trung bình tính bằng W × số giờ sử dụng) ÷ (điện áp pin × độ sâu xả có thể sử dụng)**.Đối với CoolDrivePro V-TH1 ở mức trung bình 412 W trong 10 giờ làm mát trên 24V LiFePO4 với 80% DoD có thể sử dụng: (412 × 10) `(24 × 0,80) = 4.120 ` 19,2 = 215 Ah ở mức tối thiểu 24V.Làm tròn thành gói 200 Ah tiêu chuẩn và bạn vừa đủ;300 Ah mang lại cho bạn lợi nhuận và quyền tự chủ trong 2 đêm.Đối với hệ thống 12V: (412 × 10) ÷ (12 × 0,80) = 429 Ah tại 12V.Lưu ý rằng hóa học LiFePO4 hỗ trợ 80% DoD một cách an toàn;axit chì chỉ 50% (tăng gấp đôi công suất yêu cầu).Để biết thông số kỹ thuật đầy đủ của hệ thống LiFePO4 bao gồm DC-DC kích thước bộ sạc, hãy xem [LiFePO4 hướng dẫn định cỡ pin](/blog/lifepo4-battery-for-parking-ac của chúng tôi)."
+    },
+    {
+      "heading": null,
+      "body": "## Sụt áp: Kẻ giết người thầm lặng của hiệu suất điều hòa khi đỗ xe"
+    },
+    {
+      "heading": null,
+      "body": "Ngay cả với pin có kích thước phù hợp, hệ thống dây điện quá nhỏ có thể cướp đi 10–15% năng lượng của bạn trước khi nó đến được máy điều hòa.Hệ thống 24V kéo cáp khứ hồi 50 A qua 30 feet cần ít nhất 4 đồng AWG để giữ điện áp rơi dưới 3%.Sử dụng 6 AWG để chạy ngắn hơn (chuyến đi khứ hồi dưới 15 ft).Sử dụng 2 AWG nếu bạn vượt quá 60 A liên tục hoặc chạy hơn 40 ft. Sự sụt giảm điện áp quan trọng vì bảng điều khiển bên trong của AC coi điện áp đầu vào thấp là 'pin yếu' và sẽ điều tiết đầu ra của máy nén hoặc tắt hoàn toàn dưới ~22 V trên hệ thống 24V.Chúng tôi đã thấy các hệ thống hoàn toàn mới trị giá 4.500 USD hoạt động rất tệ vì trình cài đặt đã sử dụng cùng loại cáp 8 AWG mà họ sẽ sử dụng cho bộ khuếch đại âm thanh nổi - luôn có kích thước cáp phù hợp với cường độ dòng điện thực tế chứ không phải để thuận tiện."
+    },
+    {
+      "heading": null,
+      "body": "## Ý nghĩa thực sự của 'Tiết kiệm năng lượng': COP và EER"
+    },
+    {
+      "heading": null,
+      "body": "Hai thông số kỹ thuật cắt xuyên qua sương mù tiếp thị.**EER (Tỷ lệ hiệu quả năng lượng)** = BTU đầu ra ÷ watt đầu vào.CoolDrivePro V-TH1 cung cấp khoảng 6.500 BTU ở mức trung bình 412 W = EER 15,8.Dometic RTX2000 = EER 16.0.Tốc độ cố định chung = EER 8.4.EER cao hơn có nghĩa là làm mát nhiều hơn trên mỗi watt lấy từ pin của bạn.**COP (Hệ số hiệu suất)** là phiên bản số liệu: COP = W làm mát ÷ W đầu vào.CoolDrivePro V-TH1 ở mức làm mát 1.905 W / đầu vào 412 W = COP 4.6, đặc biệt đối với thiết bị di động 24V.Yêu cầu EER ≥ 12 từ bất kỳ đơn vị nào năm 2026;dưới 10 có nghĩa là nó có kích thước nhỏ hơn hoặc được chế tạo bằng công nghệ máy nén quay thế hệ cũ.Các thiết bị cũ hơn từ 2018–2020 thường được kiểm tra EER 7–9 — hãy thay thế chúng và hệ thống pin của bạn sẽ có tuổi thọ gấp đôi."
+    },
+    {
+      "heading": null,
+      "body": "## Trình điều khiển thực, số thực: Nhật ký năng lượng trong 30 ngày"
+    },
+    {
+      "heading": null,
+      "body": "Chúng tôi đã thu thập nhật ký công suất trong 30 ngày từ ba trình điều khiển đường dài thực sự chạy hệ thống CoolDrivePro V-TH1 vào tháng 5 năm 2025. **Trình điều khiển A (Làn đường TX–CA, nhiệt độ xung quanh trung bình 32°C):** Công suất trung bình 487 W, 4,3 kWh mỗi đêm 9 giờ, 30 ngày = tổng cộng 129 kWh.Gói: 200 Ah 24V LiFePO4 (có thể sử dụng 5,12 kWh).Chạy thành công hàng đêm mà không cần nguồn điện trên bờ, sạc lại trong khi lái xe qua bộ sạc 50A DC-DC.**Tài xế B (Trung Tây, nhiệt độ xung quanh trung bình 26°C):** Công suất trung bình 351 W, 2,8 kWh mỗi đêm 8 giờ.Cùng một gói 200 Ah với 70% DoD một cách thoải mái mỗi sáng.**Trình điều khiển C (FL, duy trì ở nhiệt độ 30°C+):** Công suất tiêu thụ trung bình 528 W, 4,7 kWh mỗi đêm kéo dài 9 giờ.Gói đạt 88% DoD vào buổi sáng - ranh giới.Chúng tôi khuyên anh ấy nên nâng cấp lên 300 Ah;vấn đề được giải quyết.Bài học rút ra: nhiệt độ môi trường xung quanh là biến số lớn nhất.Lập kế hoạch cho tình trạng mong đợi nóng nhất của bạn chứ không phải mức trung bình của bạn."
+    },
+    {
+      "heading": null,
+      "body": "## Cách cắt giảm điện năng tiêu thụ mà không làm mất khả năng làm mát"
+    },
+    {
+      "heading": null,
+      "body": "Năm đòn bẩy thực tế, được xếp hạng theo tác động.(1) **Cách nhiệt mái cabin** — thêm 1 inch polyiso hoặc Reflectix vào trần xe giúp giảm mức tăng nhiệt từ 25–35% và giảm chu kỳ hoạt động của AC theo tỷ lệ.ROI: $80 tiền vật liệu, $400/năm tiết kiệm pin.(2) **Tấm che kính chắn gió phản chiếu khi đỗ xe ban ngày** — giảm nhiệt độ tản nhiệt trong cabin xuống 8–12°C, cắt giảm 60% năng lượng hồi chiêu ban đầu.(3) **Làm mát trước khi lái xe** — để HVAC chính của xe tải đưa cabin về 22°C trước khi đỗ xe, sau đó điều hòa đỗ xe chỉ cần duy trì chứ không cần làm mát khi va chạm.Cắt giảm 70% năng lượng trong giờ đầu tiên.(4) **Đặt bộ điều nhiệt ở 24°C, không phải 20°C** — cao hơn mỗi độ sẽ giảm thời gian chạy của máy nén từ 8–10%.(5) **Khắc phục mọi rò rỉ không khí trong cabin** — đệm cửa, tấm dán thời tiết ở cửa sổ và đặc biệt là cửa sổ tầng sau có thể rò rỉ nhiều chất làm mát hơn mức mà điều hòa tạo ra.Dùng bút chì khói để tìm chỗ rò rỉ;thay thế con dấu khi cần thiết.Hầu hết các trình điều khiển có thể cắt giảm 40% mức tiêu thụ điện qua đêm chỉ bằng năm bước này — mà không cần thay bộ điều hòa AC."
+    },
+    {
+      "heading": null,
+      "body": "## Tích hợp năng lượng mặt trời: Giảm tải chu kỳ ắc quy và máy phát điện"
+    },
+    {
+      "heading": null,
+      "body": "Việc bổ sung 200–400 W năng lượng mặt trời trên mái nhà vào hệ thống AC đỗ xe giúp giảm gánh nặng cho cả ắc quy và máy phát điện của xe tải trong quá trình lái xe.Một dãy bảng điều khiển 300 W tạo ra 1,2–1,8 kWh mỗi ngày nắng ở các vĩ độ phía nam Hoa Kỳ, 0,8–1,2 kWh ở các vĩ độ phía bắc — khoảng 25–45% mức tiêu thụ điện xoay chiều thông thường qua đêm.Hiệu quả thực tế: hầu hết các ngày, pin của bạn bắt đầu gần đầy, bộ sạc DC-DC của bạn tiêu hao ít điện năng hơn từ máy phát điện và tổng lượng nhiên liệu đốt cháy khi vận hành AC giảm 15–25%.Chi phí thiết bị: 400–700 USD cho bộ bảng điều khiển linh hoạt 300 W với bộ điều khiển MPPT.Hoàn vốn sau 14–22 tháng đối với tài xế OTR.Năng lượng mặt trời sẽ không loại bỏ nhu cầu về pin của bạn, nhưng nó sẽ kéo dài tuổi thọ pin bằng cách giảm độ sâu xả hàng ngày từ 70–80% thông thường xuống còn 50–60%.LiFePO4 tế bào tồn tại lâu hơn khoảng 2 lần ở mức DoD 50% so với DoD 80%, vì vậy lợi ích phụ là rất đáng kể."
+    },
+    {
+      "heading": null,
+      "body": "## Cách cách nhiệt của cabin tăng hiệu quả của pin của bạn như thế nào"
+    },
+    {
+      "heading": null,
+      "body": "Tiêu thụ điện năng là hạ lưu của tải nhiệt.Nâng cấp đòn bẩy cao nhất mà bạn có thể thực hiện để giảm mức tiêu thụ điện AC khi đỗ xe là cải thiện khả năng cách nhiệt của cabin.Chúng tôi đã lắp đặt cùng loại tà vẹt Cascadia trước và sau khi thêm 1 inch polyiso vào mái và tường tầng.Trước: tiêu thụ trung bình qua đêm 487 W ở nhiệt độ môi trường xung quanh 32°C.Sau: trung bình 348 W – giảm 29%.Vật liệu cách nhiệt tốn 180 USD tiền vật liệu và 4 giờ lao động.Chỉ riêng việc tiết kiệm pin (cần gói nhỏ hơn, tuổi thọ dài hơn) đã mang lại lợi ích cho việc nâng cấp trong vòng chưa đầy 6 tháng.Nếu bạn đang định cỡ một hệ thống pin mới, trước tiên hãy thực hiện cách điện và đo lại tải thực tế của bạn trước khi mua pin.Nhiều người lái xe sử dụng pin quá khổ 30–50% vì họ đã lên kế hoạch cho đường cơ sở không được cách nhiệt.Lớp cách nhiệt cũng là nâng cấp duy nhất giúp giảm cả việc tiêu thụ nguồn điện xoay chiều VÀ việc đốt cháy nhiên liệu HVAC của động cơ chính khi lái xe - nhiệm vụ kép."
+    },
+    {
+      "heading": null,
+      "body": "## Lão hóa pin: Tại sao hiệu suất năm 3 khác với năm 1"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 pin mất khoảng 2–4% công suất mỗi năm khi sử dụng OTR thông thường (250 chu kỳ/năm ở mức 70–80% DoD).Vào năm thứ 3, một cục pin mới có dung lượng 200 Ah sẽ cung cấp khoảng 180–188 Ah có thể sử dụng được.Ở năm thứ 5, dự kiến ​​là 165–175 Ah.Điều này quan trọng vì nếu ngay từ đầu bạn đã xác định quy mô hệ thống của mình một cách chặt chẽ, thì hiệu suất của năm thứ 3 có thể khiến bạn thiếu những đêm nóng bức.Cách khắc phục: tăng kích thước quá mức 15–25% khi mua lần đầu.Mua 240 Ah cho nhu cầu 200 Ah và bạn có lợi nhuận cho cả sự kiện nhiệt độ bất thường và lão hóa pin tự nhiên.Ngoài ra, hãy lên kế hoạch làm mới pin vào năm thứ 5–6, coi nó như một vật tư tiêu hao giống như má phanh.Giá LiFePO4 hiện đại đã giảm 35% kể từ năm 2022 và dự kiến ​​sẽ giảm thêm 20% nữa vào năm 2028, khiến chu kỳ làm mới trở nên hợp lý hơn so với vài năm trước."
+    },
+    {
+      "heading": null,
+      "body": "## Cách đọc dữ liệu giám sát pin của bạn một cách chính xác"
+    },
+    {
+      "heading": null,
+      "body": "Các thiết bị theo dõi pin như Victron BMV-712 hiển thị ampe, điện áp, trạng thái sạc và số giờ tiêu thụ theo thời gian thực.Hầu hết người lái xe đều hiểu sai những gì họ nhìn thấy.Đây là ý nghĩa thực sự của từng con số trong thực tế.(1) Bộ khuếch đại thời gian thực: rút tiền ngay lập tức - hữu ích để xác minh AC đang hoạt động trong phạm vi mong đợi chứ không phải để đưa ra quyết định về kích thước.(2) Ampe trung bình: tích hợp cái này suốt cả đêm để có được mức tiêu thụ năng lượng thực sự - đây là con số quan trọng.(3) Trạng thái sạc (SoC): dựa trên việc đếm Coulomb tích lũy, chính xác đến ±2% với shunt được hiệu chỉnh phù hợp.Đặt lại về 100% theo định kỳ bằng cách sạc đầy ngân hàng.(4) Đã tiêu thụ Ah: số liệu hữu ích nhất để định cỡ - theo dõi số liệu này trong 7–10 đêm tiêu biểu và sử dụng giá trị tối đa làm điểm thiết kế của bạn.Những người lái xe kích thước dựa trên 'cảm giác thích' hoặc mức thu hút tức thời cao nhất luôn ở mức thấp hơn.Hãy tin vào dữ liệu chứ không phải trực giác."
+    },
+    {
+      "heading": null,
+      "body": "## Case Case: Cực lạnh và cực nóng"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 pin mất khoảng 20% công suất hiệu dụng ở nhiệt độ dưới 0°C (32°F) và từ chối sạc dưới -10°C (14°F) nếu không có hệ thống sưởi bên trong.Đối với những người lái xe đỗ xe qua đêm vào mùa đông phía bắc, hãy lên kế hoạch mua hộp pin nóng ($150–$300 phụ phí) hoặc dự trữ quá khổ tới 130% công suất khi thời tiết ấm áp.Ở nhiệt độ môi trường xung quanh cực cao trên 45°C (113°F), bộ biến tần AC đỗ xe thường giảm tốc độ để bảo vệ nhiệt độ máy nén, giảm công suất làm mát từ 10–18%.Các tế bào pin cũng xuống cấp nhanh hơn ở nhiệt độ môi trường xung quanh trên 40°C — hãy giữ cho hộp pin của bạn được thông thoáng hoặc có bóng râm.Cả hai trường hợp đặc biệt đều hướng tới việc kích thước pin quá lớn và chọn các thiết bị AC điều khiển bằng biến tần có phạm vi nhiệt độ hoạt động được ghi lại.Kiểm tra bảng thông số kỹ thuật một cách cẩn thận để biết xếp hạng môi trường xung quanh tối đa;các thiết bị giá rẻ thường có thông số 'lên tới 40°C', không đủ để sử dụng vào mùa hè ở vùng Tây Nam Hoa Kỳ."
+    },
+    {
+      "heading": null,
+      "body": "## Câu hỏi thường gặp"
+    },
+    {
+      "heading": null,
+      "body": "**Máy điều hòa đỗ xe 12V có bao nhiêu ampe?**\n\nBộ biến tần hiện đại 12V (loại 8.000–10.000 BTU) tiêu thụ 30–40 A ở trạng thái ổn định và đạt cực đại khoảng 80–90 A khi khởi động.Tương đương 24V tiêu thụ một nửa số ampe đó cho cùng một đầu ra làm mát, đó là lý do tại sao 24V được ưu tiên cho các hệ thống có đầu ra cao hơn.\n\n**Tôi có thể chạy điều hòa đỗ xe bằng ắc quy khởi động của xe tải không?**\n\nKhông, không bao giờ.Pin khởi động được thiết kế cho các xung ngắn, dòng điện cao (quay) và sẽ bị phá hủy do đạp xe sâu trong vòng 20–40 chu kỳ.Bạn cần một bộ pin dự phòng LiFePO4 chuyên dụng được cách ly với pin khởi động thông qua bộ sạc DC-DC.\n\n**Pin lithium 100Ah có chạy được máy điều hòa khi đỗ xe suốt đêm không?**\n\nMột 100Ah 12V LiFePO4 (1,28 kWh có thể sử dụng ở 100% DoD, 1,02 kWh ở 80% DoD) mang lại cho bạn khoảng 2,5–3 giờ làm mát trên bộ biến tần hoặc 1,5 giờ trên bộ có tốc độ cố định.Để qua đêm trọn vẹn, hãy lập kế hoạch cho 200–300 Ah ở mức 12V hoặc 100–200 Ah ở mức tối thiểu 24V.\n\n**Máy phát điện đốt bao nhiêu nhiên liệu để sạc lại ắc quy?**\n\nKhoảng 0,4–0,6 gallon dầu diesel cho mỗi kWh được sạc lại qua bộ sạc 50A DC-DC khi đang lái xe.Để thay thế một ống xả 4 kWh hàng đêm tốn khoảng 1,6–2,4 gallon ($6,30–$10,10) mỗi ngày cho nhiên liệu bổ sung.Cách này vẫn rẻ hơn 75–80% so với khi chạy không tải.\n\n**Chạy bằng nguồn điện trên bờ thay vì pin có tiết kiệm được gì không?**\n\nCó — ở nguồn điện bờ 110V, bạn hoàn toàn bỏ qua tổn thất pin và chỉ phải trả cho 450 W × 8 giờ = 3,6 kWh × 0,13 USD/kWh = 0,47 USD mỗi đêm.Nếu bạn có sẵn nguồn điện trên bờ, hãy sử dụng nó;dự trữ pin cho những đêm không có lưới điện.\n\n**Ký sinh trùng là gì và nó có quan trọng không?**\n\nDòng điện ký sinh là dòng điện dự phòng mà bộ điều khiển AC kéo ra khi 'tắt.'Các đơn vị chất lượng (CoolDrivePro V-TH1, Dometic RTX2000) tiêu thụ dưới 50 mA.Các thiết bị giá rẻ có thể kéo 200–400 mA, tiêu hao 5–10 Ah mỗi tuần nếu xe tải không hoạt động.Hãy tìm những thiết bị có ghi dòng điện ở chế độ chờ dưới 100 mA.\n\n**Pin của tôi hết trước khi trời sáng — có chuyện gì vậy?**\n\nBốn nguyên nhân có thể được xếp hạng theo tần số: (1) pin có kích thước nhỏ hơn so với số giờ sử dụng và môi trường xung quanh thực tế, (2) DC-DC bộ sạc có kích thước nhỏ hơn nên pin không bao giờ sạc lại đầy đủ trong khi truyền động, (3) sụt điện áp trên cáp khiến AC phải tiêu thụ nhiều ampe hơn để duy trì nguồn điện, (4) pin cũ hơn 4–5 năm và dung lượng đã giảm hơn 20%.Sử dụng máy theo dõi pin để chẩn đoán;đừng đoán.[Danh sách kiểm tra khắc phục sự cố máy điều hòa đỗ xe](/blog/parking-ac-not-cooling-troubleshooting) của chúng tôi sẽ trình bày từng bước chẩn đoán theo thứ tự."
+    }
+  ]
+}

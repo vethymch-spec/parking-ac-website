@@ -32,6 +32,22 @@ export default defineConfig({
           if (id.includes("node_modules/@tanstack") || id.includes("node_modules/@trpc") || id.includes("node_modules/superjson")) {
             return "vendor-data";
           }
+          // UI primitives (Radix) — large but shared across many pages, split out so Home doesn't bundle them
+          if (id.includes("node_modules/@radix-ui")) {
+            return "vendor-radix";
+          }
+          // Icon library — pulled by almost every page; isolating lets it cache separately
+          if (id.includes("node_modules/lucide-react")) {
+            return "vendor-icons";
+          }
+          // Form / validation utilities
+          if (id.includes("node_modules/react-hook-form") || id.includes("node_modules/@hookform") || id.includes("node_modules/zod")) {
+            return "vendor-forms";
+          }
+          // wouter routing + small utils
+          if (id.includes("node_modules/wouter") || id.includes("node_modules/clsx") || id.includes("node_modules/tailwind-merge") || id.includes("node_modules/class-variance-authority")) {
+            return "vendor-utils";
+          }
         },
       },
     },

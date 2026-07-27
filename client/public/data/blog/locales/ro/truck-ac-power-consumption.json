@@ -1,0 +1,148 @@
+{
+  "title": "Consumul de curent alternativ al camionului: wați, amperi și descărcarea bateriei explicate (2026)",
+  "date": "2026-04-25",
+  "category": "Putere și baterie",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Parcarea camioanelor Monitorizarea consumului de curent alternativ cu șunt și monitorizare baterie",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Consumul de curent alternativ al camionului explicat: 480W în medie, 9A la 24V, 38–55Ah pe noapte.Numerele reale, formulele pentru dimensionarea bateriei și modul în care compresoarele cu inverter reduc trage 30%.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Fiecare achiziție de AC pentru parcare revine în cele din urmă la o întrebare: câtă putere folosește de fapt acest lucru și cât de mare am nevoie de o baterie?Răspunsul de marketing este întotdeauna vag: „compatibil 12V”, „invertor eficient din punct de vedere energetic”, „capacitate de răcire peste noapte”.Răspunsul sincer este un număr real în wați, amperi și amperi-oră pe care îl puteți conecta la o formulă de dimensionare a bateriei.Acest ghid vă oferă acele numere, explică de unde provin și vă arată cum să le transpuneți într-un sistem de baterii care oferă de fapt o noapte întreagă de răcire, fără a vă lăsa blocat cu un pachet mort la 4 a.m."
+    },
+    {
+      "heading": null,
+      "body": "Consumul de energie într-o parcare AC nu este un singur număr.Acesta variază în funcție de temperatura ambiantă, temperatura țintă a cabinei, volumul cabinei, calitatea izolației, viteza ventilatorului și, cel mai important, dacă compresorul este cu viteză fixă ​​sau acţionat de invertor.Un AC de parcare de 12.000 BTU poate trage 1.400 W atunci când compresorul pornește pentru prima dată la sarcină maximă, dar numai 380 W în timpul răcirii la starea de echilibru odată ce cabina atinge punctul de referință.Media pentru o noapte de 8 ore este ceea ce contează pentru dimensionarea bateriei, nu vârful.Mai jos defalcăm cele patru numere care contează de fapt și vă arătăm cum să le măsurați singur cu un monitor de baterie bazat pe șunt de 35 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Cele patru numere pe care trebuie să le știi"
+    },
+    {
+      "heading": null,
+      "body": "**Asorbție maximă (W sau A):** Cea mai mare putere susținută în timpul răcirii inițiale, de obicei în primele 15-25 de minute după pornire.Pentru o unitate invertor 24V modernă precum CoolDrivePro V-TH1, vârful este de aproximativ 1.200–1.400 W (50–58 A la 24V).Unitățile mai vechi cu viteză fixă ​​pot crește până la 1.800–2.200 W (75–92 A la 24V).Cablurile și siguranțele dvs. trebuie să se ocupe de vârf - cablurile subdimensionate aici sunt cea mai frecventă cauză a căderii de tensiune și a opririi premature.**Aspirația la starea de echilibru (W sau A):** Consumul mediu odată ce cabina este la punctul de referință și compresorul modulează pentru a menține temperatura.Unitățile invertoare se stabilesc la 380–480 W (16–20 A la 24V).Unitățile cu viteză fixă ​​pornesc/opriază, cu o medie efectivă de 600–800 W.**Energie pe oră (Wh):** Consum în stare de echilibru × 1 oră.Pentru o unitate tipică de invertor la 450 W în medie, adică 450 Wh/h.**Energie totală pe noapte (Wh sau Ah):** Consum mediu × ore de utilizare.Opt ore la 450 W = 3.600 Wh = 150 Ah la 12V sau 75 Ah la 24V (înainte de a lua în considerare pierderile de eficiență a bateriei)."
+    },
+    {
+      "heading": null,
+      "body": "## Invertor vs viteză fixă: de ce contează pentru descărcarea bateriei"
+    },
+    {
+      "heading": null,
+      "body": "Un compresor cu turație fixă funcționează la 100% până când temperatura cabină scade sub valoarea de referință, apoi se oprește complet până când urcă înapoi deasupra.Acest ciclu se repetă la fiecare 4-8 minute peste noapte.În timpul rulării, consumă 1.200–1.500 W. În timp ce este oprit, consumă doar ventilatorul (~50 W).Ciclul de funcționare este în medie de 55-65% într-o noapte moderată, deci media efectivă este de 700-950 W. Un compresor inverter, în schimb, modulează între 30% și 100% capacitate în mod continuu - nu se oprește niciodată complet, dar funcționează rar la sarcină maximă.Rezultatul este un consum constant de 380–480 W, fără vârfuri de ciclism.Într-o noapte de 8 ore, unitatea invertor consumă 3,0–3,8 kWh;unitatea cu viteză fixă ​​consumă 5,6–7,6 kWh.Aceasta este o reducere de aproximativ 2x a necesarului de baterie pentru aceeași putere de răcire.Dacă dimensionați o baterie pentru o unitate cu viteză fixă, dublați ceea ce presupune fișa de specificații."
+    },
+    {
+      "heading": null,
+      "body": "## Măsurători din lumea reală: trei unități, aceeași cabină, aceeași noapte"
+    },
+    {
+      "heading": null,
+      "body": "Am instalat trei unități de parcare AC în cabine de dormit identice de 90 ft cu în Phoenix, AZ în iulie 2025 (ambient susținut de 38 °C, țintă de cabină de 24 °C).Măsurat cu șunturi calibrate de 500 A și monitoare Victron BMV-712.**CoolDrivePro V-TH1 (24V invertor, 10.000 BTU vârf):** 412 W în medie în 8 ore = 3.296 Wh = 137 Ah la __8_CDP_TERM_Echivalent sau echivalent24V.**Dometic RTX2000 (24V invertor, 10.500 BTU vârf):** 437 W în medie = 3.496 Wh = 146 Ah la 12V sau 73 Ah la __CDP__TERM.**Generic fără nume 12V pe acoperiș cu viteză fixă ​​(8.000 BTU):** 780 W în medie = 6.240 Wh = 260 Ah la 12V.Unitatea cu viteză fixă ​​a consumat aproape de două ori bateria, în ciuda faptului că a furnizat cu 20% mai puțină răcire - exact ceea ce prezice teoria."
+    },
+    {
+      "heading": null,
+      "body": "## Formula de dimensionare a bateriei: Cum să o conectezi"
+    },
+    {
+      "heading": null,
+      "body": "Formula de lucru este: **Capacitatea necesară a bateriei (Ah) = (consum mediu AC în W × ore de utilizare) ÷ (tensiune baterie × adâncimea de descărcare utilizabilă)**.Pentru un CoolDrivePro V-TH1 la 412 W o medie de peste 10 ore de răcire pe un 24V LiFePO4 cu 80% DoD utilizabil: (412 × 10) ÷ (24 × 2,10) = 0,8,12 = 0,80 %215 Ah la 24V minim.Rotunjiți la un pachet standard de 200 Ah și abia aveți suficient;300 Ah vă oferă marjă și autonomie de 2 nopți.Pentru un sistem 12V: (412 × 10) ÷ (12 × 0,80) = 429 Ah la 12V.Rețineți că chimia LiFePO4 acceptă în siguranță 80% DoD;plumb-acid doar 50% (ceea ce dublează capacitatea necesară).Pentru specificațiile complete ale sistemului LiFePO4, inclusiv DC-DC, consultați [LiFePO4 ghidul nostru de dimensionare a bateriei](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Căderea de tensiune: ucigașul tăcut al performanței AC de parcare"
+    },
+    {
+      "heading": null,
+      "body": "Chiar și cu o baterie de dimensiuni adecvate, cablurile subdimensionate vă pot fura 10-15% din putere înainte de a ajunge la AC.Un sistem 24V care trage 50 A prin 30 de picioare de cablu dus-întors necesită cel puțin 4 AWG de cupru pentru a menține căderea de tensiune sub 3%.Utilizați 6 AWG pentru curse mai scurte (sub 15 ft dus-întors).Utilizați 2 AWG dacă depășiți 60 A continuu sau rulați mai mult de 40 ft. Căderea de tensiune contează deoarece placa de control intern a AC tratează tensiunea scăzută de intrare ca „baterie scăzută” și va accelera ieșirea compresorului sau va opri complet sub ~22 V pe un sistem 24V.Am văzut sisteme noi-nouțe de 4.500 USD performanțe teribil, deoarece instalatorul a folosit același cablu de 8 AWG pe care l-ar folosi pentru un amplificator stereo - întotdeauna dimensionează cablurile pentru amperajul real, nu pentru comoditate."
+    },
+    {
+      "heading": null,
+      "body": "## Ce înseamnă de fapt „Eficient energetic”: COP și EER"
+    },
+    {
+      "heading": null,
+      "body": "Două specificații trec prin ceața de marketing.**EER (Raport de eficiență energetică)** = BTU ieșire ÷ wați de intrare.CoolDrivePro V-TH1 furnizează aproximativ 6.500 BTU la o medie de 412 W = EER 15,8.Dometic RTX2000 = EER 16.0.Generic cu viteză fixă ​​= EER 8.4.EER mai mare înseamnă mai multă răcire per watt consumat din baterie.**COP (Coeficient de performanță)** este versiunea metrică: COP = W răcire ÷ W intrare.CoolDrivePro V-TH1 la 1.905 W de răcire / 412 W de intrare = COP 4,6, ceea ce este excepțional pentru o unitate mobilă 24V.Cerere EER ≥ 12 de la orice unitate din 2026;sub 10 înseamnă că este fie subdimensionat, fie construit cu tehnologie de compresoare rotative de veche generație.Unitățile mai vechi din 2018–2020 au fost testate în mod obișnuit EER 7–9 — înlocuiți-le și sistemul dvs. de baterii va dura de două ori mai mult."
+    },
+    {
+      "heading": null,
+      "body": "## Drivere reali, numere reale: jurnalele de putere de 30 de zile"
+    },
+    {
+      "heading": null,
+      "body": "Am colectat jurnalele de putere de 30 de zile de la trei șoferi reali pe distanțe lungi care rulează sisteme CoolDrivePro V-TH1 în mai 2025. **Driver A (benzi TX–CA, mediu ambiental mediu 32°C):** 487 W consum mediu, 4,3 kWh pe 9 ore, noapte totală, 1230 kWh.Pachet: 200 Ah 24V LiFePO4 (5,12 kWh utilizabil).A alergat cu succes în fiecare noapte fără energie de la mal, reîncărcându-se în timpul conducerii prin încărcătorul DC-DC de 50A.**Driver B (Vestul Mijlociu, mediu mediu 26°C):** Consum mediu de 351 W, 2,8 kWh pe noapte de 8 ore.Același pachet de 200 Ah cu 70% DoD confortabil în fiecare dimineață.**Driver C (FL, susținut 30°C+):** Consum mediu de 528 W, 4,7 kWh pe noapte de 9 ore.Pachetul a atins 88% DoD până dimineața - limită.I-am recomandat să facă upgrade la 300 Ah;problema rezolvata.Rezultatul: temperatura ambiantă este cea mai mare variabilă.Planifică-ți cea mai caldă condiție așteptată, nu media."
+    },
+    {
+      "heading": null,
+      "body": "## Cum să reduceți consumul de energie fără a pierde răcirea"
+    },
+    {
+      "heading": null,
+      "body": "Cinci pârghii practice, clasificate în funcție de impact.(1) **Izolați plafonul cabinei** — adăugarea a 1 inch de poliiso sau Reflectix la căptușeală reduce câștigul de căldură cu 25-35% și reduce proporțional ciclul de funcționare AC.Rentabilitatea investiției: 80 USD în materiale, 400 USD/an în economii de baterie.(2) **Capac reflectorizant al parbrizului în timpul parcării de zi** — scade temperatura de înmuiere a căldurii cabinei cu 8–12°C, reducând energia de răcire inițială cu 60%.(3) **Prerăcire în timpul conducerii** — lăsați HVAC principalul camion să aducă cabina la 22°C înainte de parcare, apoi AC parcare trebuie doar să se mențină, nu să răcească în caz de accident.Reduce energia din prima oră cu 70%.(4) **Setați termostatul la 24°C, nu la 20°C** — cu fiecare grad mai mare se reduce timpul de funcționare a compresorului cu 8–10%.(5) **Remediați eventualele scurgeri de aer din cabină** — garniturile ușilor, garniturile de acoperire a ferestrelor și, în special, geamul supraetajat din spate pot scurge mai multă răcire decât produce AC.Folosiți un creion de fum pentru a găsi scurgeri;înlocuiți garniturile după cum este necesar.Majoritatea șoferilor pot reduce consumul de energie peste noapte cu 40% numai cu acești cinci pași - fără a schimba unitatea de curent alternativ."
+    },
+    {
+      "heading": null,
+      "body": "## Integrare solară: reducerea ciclului bateriei și a încărcării alternatorului"
+    },
+    {
+      "heading": null,
+      "body": "Adăugarea a 200–400 W de energie solară pe acoperiș la un sistem de parcare AC reduce sarcina atât a bateriei, cât și a alternatorului camionului în timpul conducerii.O matrice de panouri de 300 W generează 1,2–1,8 kWh pe zi însorită la latitudinile sudice ale SUA, 0,8–1,2 kWh la latitudinile nordice – aproximativ 25–45% din consumul obișnuit de curent alternativ peste noapte.Efectul practic: bateria dvs. pornește în majoritatea zilelor mai aproape de plin, încărcătorul dvs. DC-DC consumă mai puțin din alternator, iar consumul total de combustibil pentru funcționarea AC scade cu 15–25%.Costul echipamentului: 400 USD–700 USD pentru un kit de panou flexibil de 300 W cu controler MPPT.Rambursare în 14–22 de luni pentru un șofer OTR.Solar nu va elimina necesarul de baterie, dar va prelungi durata de viață a bateriei reducând adâncimea zilnică de descărcare de la 70–80% la 50–60%.LiFePO4 celulele durează de aproximativ 2 ori mai mult la 50% DoD față de 80% DoD, deci beneficiul secundar este semnificativ."
+    },
+    {
+      "heading": null,
+      "body": "## Cum izolarea cabinei multiplică eficiența bateriei dvs"
+    },
+    {
+      "heading": null,
+      "body": "Consumul de energie este în aval de sarcina termică.Singurul upgrade cu cel mai mare efect de pârghie pe care îl puteți face pentru a reduce consumul de energie CA la parcare este îmbunătățirea izolației cabinei.Am echipat același dormitor Cascadia înainte și după adăugarea a 1 inch de poliiso pe acoperiș și perete supraetajat.Înainte: 487 W consum mediu peste noapte la 32°C ambiantă.După: 348 W în medie — o reducere de 29%.Izolația a costat 180 USD în materiale și 4 ore de muncă.Numai economiile de baterie (se cere un pachet mai mic, ciclu de viață mai lung) au compensat upgrade-ul în mai puțin de 6 luni.Dacă dimensionați un nou sistem de baterii, faceți mai întâi izolația și remăsurați încărcarea reală înainte de a cumpăra baterii.Mulți șoferi supradimensionează bateriile cu 30-50%, deoarece au planificat în jurul unei linii de bază neizolate.Izolația este, de asemenea, singura îmbunătățire care reduce atât consumul de curent alternativ, cât și HVAC consumul de combustibil al motorului principal în timpul conducerii — dublă sarcină."
+    },
+    {
+      "heading": null,
+      "body": "## Îmbătrânirea bateriei: de ce performanța din anul 3 diferă de cea din anul 1"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 bateriile pierd aproximativ 2–4% din capacitate pe an în condiții de utilizare tipică OTR (250 de cicluri/an la 70–80% DoD).În anul 3, o baterie de 200 Ah nouă va furniza aproximativ 180–188 Ah utilizabili.În anul 5, așteptați 165–175 Ah.Acest lucru contează deoarece, dacă ați dimensionat bine sistemul pentru început, performanța din anul 3 vă poate lăsa scurt în nopțile fierbinți.Remedierea: supradimensionare cu 15–25% la achiziția inițială.Cumpărați 240 Ah pentru o nevoie de 200 Ah și aveți o marjă atât pentru evenimente de căldură neobișnuite, cât și pentru îmbătrânirea naturală a bateriei.Ca alternativă, planificați o reîmprospătare a bateriei în anul 5-6, tratând-o ca pe un consumabil precum plăcuțele de frână.Prețurile moderne LiFePO4 au scăzut cu 35% din 2022 și se estimează că vor scădea cu încă 20% până în 2028, făcând ciclul de reîmprospătare mai accesibil decât era acum câțiva ani."
+    },
+    {
+      "heading": null,
+      "body": "## Cum să citiți corect datele de la monitorul bateriei"
+    },
+    {
+      "heading": null,
+      "body": "Monitoarele de baterie precum Victron BMV-712 afișează în timp real amperi, tensiune, starea de încărcare și amperi-oră consumați.Majoritatea șoferilor interpretează greșit ceea ce văd.Iată ce înseamnă de fapt fiecare număr în practică.(1) Amperi în timp real: absorbția instantanee — utilă pentru a verifica că AC funcționează în intervalul așteptat, nu pentru decizii de dimensionare.(2) Amperi medii: integrați-l pe o noapte întreagă pentru a obține un consum real de energie - acesta este numărul care contează.(3) Stare de încărcare (SoC): pe baza numărării cumulative de coulomb, cu o precizie de ±2% cu un șunt calibrat corespunzător.Resetați la 100% periodic prin încărcarea completă a băncii.(4) Ah consumat: cea mai utilă măsură pentru dimensionare — urmăriți-o pe parcursul a 7-10 nopți reprezentative și utilizați valoarea maximă ca punct de design.Șoferii care dimensionează în funcție de „simt ca” sau de vârf instantaneu atrag în mod constant subdimensionare.Ai încredere în date, nu în intestin."
+    },
+    {
+      "heading": null,
+      "body": "## Carcase de margine: Frig extrem și căldură extremă"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 bateriile pierd aproximativ 20% din capacitatea efectivă sub 0°C (32°F) și refuză să se încarce sub -10°C (14°F) fără încălzire internă.Pentru șoferii care parcează peste noapte în iernile nordice, planificați fie cutii de baterii încălzite (supliment de 150 USD – 300 USD) sau supradimensionați banca la 130% din capacitatea de vreme caldă.În condiții de căldură extremă peste 45°C (113°F) ambiant, invertoarele AC de parcare deseori scad pentru a proteja temperaturile compresorului, scăzând puterea de răcire cu 10-18%.Celulele bateriei se degradează, de asemenea, mai repede peste 40°C ambiant - păstrați-vă cutia bateriei ventilată sau umbrită.Ambele carcase marginale împing spre supradimensionarea bateriei și alegerea unităților AC cu invertor cu intervale de temperatură de funcționare documentate.Verificați cu atenție fișele de specificații pentru evaluările ambientale maxime;unitățile ieftine specifică adesea „până la 40°C”, ceea ce este inadecvat pentru utilizarea de vară în sud-vestul SUA."
+    },
+    {
+      "heading": null,
+      "body": "## Întrebări frecvente"
+    },
+    {
+      "heading": null,
+      "body": "**Câți amperi consumă un AC de parcare 12V?**\n\nUn invertor modern 12V (clasa 8.000–10.000 BTU) consumă 30–40 A la starea staționară și atinge vârfuri în jurul valorii de 80–90 A la pornire.Un echivalent 24V consumă jumătate din acești amperi pentru aceeași ieșire de răcire, motiv pentru care 24V este preferat pentru sistemele cu putere mai mare.\n\n**Pot să pornesc un AC de parcare de pe bateria de pornire a camionului meu?**\n\nNu, niciodată.O baterie de pornire este proiectată pentru explozii scurte, cu curent ridicat (pornire) și va fi distrusă prin cicluri profunde în 20-40 de cicluri.Aveți nevoie de un LiFePO4 baterie de casă dedicată, izolat de bateria de pornire printr-un încărcător DC-DC.\n\n**O baterie cu litiu de 100 Ah va funcționa un AC de parcare toată noaptea?**\n\nUn singur 100Ah 12V LiFePO4 (1,28 kWh utilizabil la 100% DoD, 1,02 kWh la 80% DoD) vă oferă aproximativ 2,5–3 ore de răcire pe o unitate cu invertor sau 1,5 ore pe o unitate cu viteză fixă.Pentru o noapte completă, planificați 200–300 Ah la 12V sau 100–200 Ah la 24V minim.\n\n**Cat combustibil arde alternatorul pentru a reincarca bateria?**\n\nAproximativ 0,4–0,6 galoane de motorină per kWh reîncărcat cu un încărcător DC-DC de 50A în timpul conducerii.Pentru a înlocui o scurgere de 4 kWh pe noapte costă aproximativ 1,6–2,4 galoane (6,30 USD–10,10 USD) pe zi în combustibil suplimentar.Acesta este încă cu 75–80% mai ieftin decât la ralanti.\n\n** Funcționarea cu energie de la mal în loc de baterie economisește ceva?**\n\nDa — la o putere de 110 V, omiteți complet pierderile bateriei și plătiți numai pentru 450 W × 8 ore = 3,6 kWh × 0,13 USD/kWh = 0,47 USD pe noapte.Dacă aveți putere disponibilă la mal, utilizați-o;rezerva bateria pentru nopțile în afara rețelei.\n\n**Ce este desenul parazitar și contează?**\n\nConsumul parazitar este curentul de așteptare pe care îl trage controlerul de ca atunci când este oprit.Unitățile de calitate (CoolDrivePro V-TH1, Dometic RTX2000) consumă sub 50 mA.Unitățile ieftine pot trage 200–400 mA, ceea ce consumă 5–10 Ah pe săptămână dacă camionul sta inactiv.Căutați unități care documentează consumul de așteptare sub 100 mA.\n\n**Bateria mea se stinge înainte de dimineață – ce este în neregulă?**\n\nPatru cauze probabile clasificate în funcție de frecvență: (1) bateria este subdimensionată pentru mediul real și orele de utilizare, (2) DC-DC încărcătorul este subdimensionat, astfel încât bateria nu se reîncarcă niciodată complet în timpul conducerii, (3) căderea de tensiune pe cablare face ca AC să consume mai mulți amperi pentru a menține puterea, (4) 4-5 ani20%+.Utilizați un monitor de baterie pentru a diagnostica;nu ghici.[Lista de verificare pentru depanarea AC parcare](/blog/parking-ac-not-cooling-troubleshooting) parcurge fiecare pas de diagnosticare în ordine."
+    }
+  ]
+}

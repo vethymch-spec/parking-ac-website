@@ -1,5 +1,261 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "imageAlt": "Outdoor unit of a parking air conditioner with compressor service access",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "imageAlt": "Parking air conditioner split-system installation and service access",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "دليل المشتري لمورد مكيفات مواقف السيارات B2B: معيار 9 أبعاد + مقارنة أفضل 10 علامات تجارية (2026)",
+    "date": "2026-06-08",
+    "category": "أدلة الشراء",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "مقارنة بين موردي مكيفات مواقف السيارات بين الشركات — قاعدة تقييم ذات 9 أبعاد للأسطول والوكلاء ومشتري OEM",
+    "excerpt": "كيف يجب على الأساطيل والتجار ومصنعي المعدات الأصلية ومشتري الجملة تقييم موردي مكيفات مواقف السيارات في عام 2026. نموذج تقييم 9 أبعاد ومعايير الحد الأدنى للطلب + المهلة الزمنية + معايير الاعتماد، ومراجعة صادقة للعلامات..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "قوانين مكافحة التباطؤ في كل ولاية على حدة لعام 2026: البحث في 50 ولاية + حاسبة عائد استثمار مكيف الهواء في مواقف السيارات",
+    "date": "2026-06-08",
+    "category": "اللوائح والامتثال",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "خريطة الولايات المتحدة توضح قوانين مكافحة التباطؤ في كل ولاية على حدة لعام 2026 مع تراكب الامتثال لمكيف الهواء في مواقف السيارات",
+    "excerpt": "جميع قوانين مكافحة التباطؤ في الولايات المتحدة البالغ عددها 50 قانونًا لعام 2026 في جدول واحد - النطاقات الدقيقة، وحدود 5 مقابل 15 دقيقة، وإعفاءات السكون/DEF، وعائد الاستثمار العملي الذي يوضح كيف يتم سداد مكيف الهواء..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "الدليل الكامل لمكيفات الهواء لمواقف الشاحنات في فيتنام (2026)",
+    "date": "2026-05-20",
+    "category": "أدلة الشراء",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "دليل 2026 لمكيف مواقف الشاحنات في فيتنام: 9000 نظام BTU للطريق السريع بين الشمال والجنوب، وتوفير الوقود (12-18 لترًا/اليوم)، وتكاليف التركيب، واعتبارات المناخ الإقليمية من هانوي إلى مدينة هوشي منه."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "مكيف مواقف السيارات لسائقي الموانئ والحاويات في مدينة هوشي منه (Cat Lai، Cai Mep)",
+    "date": "2026-05-20",
+    "category": "المرشدين الإقليميين",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "لماذا يحتاج سائقو الحاويات Cat Lai وCai Mep في مدينة Ho Chi Minh إلى مكيف هواء لوقوف السيارات بقدرة 9000 BTU: أوقات الانتظار الطويلة، والضغط المضاد للتباطؤ، وعائد الاستثمار على تبريد الكابينة للوجستيات في ميناء جنوب ف..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "مكيف مواقف السيارات للشاحنات الزراعية وسلسلة التبريد في دلتا نهر ميكونج",
+    "date": "2026-05-20",
+    "category": "المرشدين الإقليميين",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "يعتمد مشغلو الشاحنات الزراعية وسلسلة التبريد في دلتا ميكونغ في كان ثو وتيان جيانج ولونج آن على مكيفات مواقف السيارات لإبقاء السائقين مرتاحين أثناء انتظار العبارات الطويلة والتوقف طوال الليل في جنوب فيتنام."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "مكيف مواقف السيارات للطريق السريع بين الشمال والجنوب (CT.01): دليل السائق لمسافات طويلة",
+    "date": "2026-05-20",
+    "category": "المرشدين الإقليميين",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "كيف يستخدم سائقو المسافات الطويلة على الطريق السريع CT.01 بين الشمال والجنوب في فيتنام مكيف هواء 9000 BTU للراحة بشكل قانوني، وتوفير 12-18 لترًا من الديزل في الليلة، والبقاء على قيد الحياة في ظل حرارة استوائية تصل إلى..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "تكييف مواقف السيارات للحافلات السياحية الفيتنامية والحافلات النائمة (دا نانغ، نها ترانج، فو كووك)",
+    "date": "2026-05-20",
+    "category": "المرشدين الإقليميين",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "كيف يستخدم مشغلو الحافلات السياحية والحافلات النائمة في دا نانغ ونها ترانج وهوي آن وفو كووك مكيفات مواقف السيارات للحفاظ على راحة السائقين وامتثال المركبات لسياسات مكافحة التباطؤ في الفنادق والمنتجعات."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "تكييف الهواء لاستوديوهات اليوغا المتنقلة وعربات العافية",
+    "date": "2026-04-29",
+    "category": "التخصص",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "imageAlt": "تكييف الهواء لاستوديوهات اليوغا المتنقلة وعربات العافية",
+    "excerpt": "اكتشف حلول تكييف الهواء الأساسية لاستوديوهات اليوغا المتنقلة وعربات العافية.ضمان التحكم الأمثل في درجة الحرارة (68-72 درجة فهرنهايت) مع مكيف موثوق به لوقوف السيارات."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "مكيف مواقف السيارات للبدو الرقميين الذين يعيشون في RVs: راحة العمل من أي مكان",
+    "date": "2026-04-29",
+    "category": "نمط الحياة",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "imageAlt": "مكيف مواقف السيارات للبدو الرقميين الذين يعيشون في RVs: راحة العمل من أي مكان",
+    "excerpt": "الدليل الأساسي لمكيف مواقف السيارات للبدو الرحل الرقميين RV.حافظ على انتعاشك وإنتاجيتك أثناء العمل عن بعد من RV باستخدام التحكم المناسب في المناخ."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "البقاء هادئًا في RV التجمعات والمهرجانات: نصائح لتكييف مواقف السيارات للأحداث",
+    "date": "2026-04-29",
+    "category": "نمط الحياة",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "imageAlt": "البقاء هادئًا في RV التجمعات والمهرجانات: نصائح لتكييف مواقف السيارات للأحداث",
+    "excerpt": "سيد RV يتجمع مع مكيف الهواء لوقوف السيارات!احصل على نصائح الخبراء حول التبريد الإضافي وحجم البطارية والتركيب للاستمتاع بتجربة حدث مريحة."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "دليل فان دويلر لمكيفات مواقف السيارات: العيش بدوام كامل في سيارتك",
+    "date": "2026-04-29",
+    "category": "فان لايف",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "imageAlt": "دليل فان دويلر لمكيفات مواقف السيارات: العيش بدوام كامل في سيارتك",
+    "excerpt": "الدليل الأساسي لاختيار وتركيب مكيفات مواقف السيارات لسكان الشاحنات.استمتع بالانتعاش والراحة في منزلك المتنقل مع نصائح الخبراء."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "مبرد R32 في مكيفات مواقف السيارات من الجيل التالي: قدرة أقل على إحداث الاحترار العالمي وكفاءة أفضل",
+    "date": "2026-04-29",
+    "category": "التكنولوجيا",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "imageAlt": "مبرد R32 في مكيفات مواقف السيارات من الجيل التالي: قدرة أقل على إحداث الاحترار العالمي وكفاءة أفضل",
+    "excerpt": "اكتشف لماذا أصبح المبرد R32 هو الخيار المفضل لمكيفات مواقف السيارات من الجيل التالي، مما يوفر قدرة أقل على إحداث الاحترار العالمي وكفاءة محسنة للمركبات التجارية."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: مقارنة جنبًا إلى جنب (2026)",
+    "date": "2026-04-25",
+    "category": "مقارنة",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "وحدات تكييف وقوف السيارات Dometic وWebasto جنبًا إلى جنب للمقارنة",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 وجهاً لوجه: خرج التبريد، والضوضاء، وسحب الطاقة، وتعقيد التثبيت، والضمان، وتكلفة الملكية لمدة 5 سنوات.أرقام حقيقية من الميدان"
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "أنظمة تكييف الهواء للشاحنات غير الخاملة: كيفية الامتثال لقوانين الدولة لمكافحة التباطؤ (2026)",
+    "date": "2026-04-25",
+    "category": "الامتثال",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "تم تركيب نظام التيار المتردد للشاحنة بدون تباطؤ يعمل بالبطارية الكهربائية من أجل الامتثال لمقاومة التباطؤ",
+    "excerpt": "[2026] قوانين مكافحة التباطؤ في كل ولاية على حدة وكيفية الالتزام بمكيفات الهواء للشاحنات غير الخاملة.CARB (غرامة تتراوح بين 300 دولار و1000 دولار)، وأكثر من 30 حدًا للولاية، ووكالة حماية البيئة SmartWay، والأنظمة الخم..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "مكيف مواقف السيارات BTU حاسبة الحجم: كم عدد BTUs التي تحتاجها حقًا؟(2026)",
+    "date": "2026-04-25",
+    "category": "دليل الشراء",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU مخطط مقاسات مكيف ركن السيارة عبر كابينة الشاحنة وتكوينات RV",
+    "excerpt": "[2026] كم عدد BTUs التي تحتاجها الكابينة النائمة أو غرفة النوم RV؟صيغة خطوة بخطوة بالإضافة إلى الجداول لشاحنات الفئة 8 (5,000-10,000 BTU)، وشاحنات Sprinter (6,000-8,000 BTU)، و25 قدمًا RVs (12,000-14,000 BTU)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "تكلفة تركيب مكيف الهواء لمواقف السيارات لعام 2026: تسوق الأسعار حسب المدخرات الحكومية والمدخرات التي يمكنك تنفيذها بنفسك",
+    "date": "2026-04-25",
+    "category": "دليل الشراء",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "تركيب مكيف هواء احترافي لمواقف السيارات يُظهر انقطاع السقف والأسلاك وتكامل البطارية",
+    "excerpt": "[2026] تكلفة تركيب مكيف الهواء لمواقف السيارات حسب الولاية: 400 دولار - 1200 دولار احترافي، 0 دولار - 150 دولار DIY.أسعار المتجر الحقيقية من كاليفورنيا، تكساس، فلوريدا، نيويورك، بالإضافة إلى التفاصيل الكاملة للوحدة وا..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "مقارنة ضجيج مكيف الهواء في مواقف السيارات: تم اختبار مستويات الديسيبل الحقيقية عند 3 أقدام (2026)",
+    "date": "2026-04-25",
+    "category": "مقارنة",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "مقياس ديسيبل يقيس ضجيج مكيف الهواء في مواقف السيارات على ارتفاع 3 أقدام داخل الكابينة النائمة",
+    "excerpt": "[2026] قمنا بقياس 12 وحدة تكييف هواء لوقوف السيارات بمقياس ديسيبل معاير على ارتفاع 3 أقدام.CoolDrivePro V-TH1 وصل إلى 42 ديسيبل، Dometic RTX2000 48 ديسيبل، RigMaster 67 ديسيبل.أرقام حقيقية، لا تسويق."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "استهلاك طاقة التيار المتردد في الشاحنة: شرح الوات والأمبير واستنزاف البطارية (2026)",
+    "date": "2026-04-25",
+    "category": "الطاقة والبطارية",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "مراقبة استهلاك طاقة التيار المتردد لوقوف الشاحنات باستخدام التحويلة ومراقبة البطارية",
+    "excerpt": "[2026] شرح استهلاك طاقة التيار المتردد للشاحنة: متوسط 480 وات، 9 أمبير عند 24V، 38-55 أمبير في الليلة.أرقام حقيقية، وصيغ لحجم البطارية، وكيفية خفض الضواغط العاكسة لنسبة 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "مكيف الهواء RV الذي يعمل بالبطارية: دليل المشتري الكامل لعام 2026",
+    "date": "2026-04-24",
+    "category": "أدلة الشراء",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "مكيف الهواء RV الذي يعمل بالبطارية 2026 - الجزء الداخلي من شاحنة التخييم من الفئة B في الليل مع السطح 12V DC مكيف الهواء لوقوف السيارات متوقف عن التشغيل LiFePO4 بنك البطارية، تظهر الشاشة سعة 220 أمبير و9.5 ساعة من وقت التشغيل المتبقي",
+    "excerpt": "الدليل الكامل لعام 2026 لمكيفات الهواء RV التي تعمل بالبطارية.12V/24V DC الأصلية مقابل إعدادات العاكس، بيانات وقت التشغيل الحقيقية LiFePO4 (220 أمبير → 8–11 ساعة)، نطاقات أسعار تتراوح بين 1500 دولار و3800 دولار، ورياض..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "كيفية تركيب مكيف مواقف السيارات: دليل خطوة بخطوة لعام 2026",
+    "date": "2026-04-24",
+    "category": "أدلة التثبيت",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "كيفية تركيب مكيف موقف السيارات 2026 — يقوم عامل التركيب بقطع فتحة سقف مقاس 14 × 14 بوصة في شاحنة Sprinter باستخدام منشار أركت، مع وحدة CoolDrivePro VS02 PRO 12V DC وحشية البوتيل وكابل 4 AWG موضوعة على طاولة العمل بجوار الشاحنة",
+    "excerpt": "دليل خطوة بخطوة 2026 لتركيب مكيف الهواء لوقوف السيارات: إعداد السقف، فتحة 14 × 14، الحشية، الأسلاك (4 AWG، مصهر 80 أمبير)، التشغيل.6-9 ساعات DIY، 325 دولارًا للأجزاء خارج الوحدة."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 بطارية لمكيف مواقف السيارات: دليل المقاسات والأسلاك لعام 2026",
+    "date": "2026-04-24",
+    "category": "أدلة إرشادية",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "LiFePO4 بطارية لوقوف السيارات AC 2026 - حجرة بطارية مفتوحة في شاحنة Sprinter تعرض بطاريتين LiFePO4 سعة 220 أمبير في الساعة بالتوازي مع كابلات 2/0 AWG، ومصهر 200 أمبير من الفئة T، وشريط التوصيل، وشاشة Victron BMV-712 تقرأ 87% SOC عند 13.4 فولت",
+    "excerpt": "2026 LiFePO4 دليل الحجم لمكيف مواقف السيارات: خيارات 220 أمبير (1,400 دولار)، 280 أمبير (1,750 دولار)، 400 أمبير (2,400 دولار) مع حسابات وقت التشغيل لمدة 8 ساعات، ومواصفات BMS/المصهر/الكابل."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "تكييف مواقف السيارات لا يبرد؟دليل استكشاف الأخطاء وإصلاحها لعام 2026 (خطوة بخطوة)",
+    "date": "2026-04-24",
+    "category": "استكشاف الأخطاء وإصلاحها",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "استكشاف أخطاء تكييف الهواء في مواقف السيارات وعدم تبريدها وإصلاحها 2026 - سائق داخل نائمة نصف شاحنة مع جهاز قياس متعدد يفحص 12V DC موصل طاقة التيار المتردد لوقوف السيارات عند 11.4 فولت، قراءة مقياس الحرارة 78 درجة فهرنهايت لإمداد الهواء مقابل 79 درجة فهرنهايت للعودة، صورة بالأشعة تحت الحمراء توضح النقطة الساخنة للمكثف",
+    "excerpt": "2026 دليل خطوة بخطوة لإصلاح مكيف مواقف السيارات الذي لا يبرد.انخفاض الجهد، غاز التبريد، المكثف المتسخ، منظم الحرارة، نظام إدارة المباني - التشخيص خلال 30 دقيقة، إصلاحات تتراوح بين 0 و280 دولارًا."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "مكيف مواقف السيارات مقابل APU: مقارنة التكلفة والأداء للأساطيل لعام 2026",
+    "date": "2026-04-24",
+    "category": "التعليقات والمقارنات",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "مكيف مواقف السيارات مقابل APU 2026 - مقارنة جنبًا إلى جنب بين Freightliner Cascadia ومكيف مواقف السيارات DC الذي يعمل بالبطارية مقابل شاحنة نائمة مزودة بـ RigMaster APU مثبتة على حاجز الإطار، وشاشة عرض مضخة الوقود تعرض 4.05 دولارًا أمريكيًا/غالون ديزل وتراكب تكلفة لمدة 5 سنوات",
+    "excerpt": "دليل قرارات الأسطول لعام 2026: مكيف مواقف السيارات مقابل APU.التكلفة الإجمالية للملكية لمدة 5 سنوات مع ديزل بقيمة 4.05 دولار - DC يوفر مكيف مواقف السيارات 9,800 دولار - 14,200 دولار للشاحنة مقابل الديزل APU، 3,200 - 5..."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V مقابل 24V مكيف مواقف السيارات في عام 2026: الشاحنة، RV ودليل قرارات الشاحنة",
+    "date": "2026-04-23",
+    "category": "دليل المشتري",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "imageAlt": "مقارنة بين مكيفات مواقف السيارات 12V و24V — مكيفات هواء مواقف السيارات جنبًا إلى جنب سلكية للأنظمة الكهربائية 12V و24V على الشاحنة وRV",
+    "excerpt": "12V مقابل 24V مكيف مواقف السيارات في عام 2026: قم بمطابقة الجهد الأصلي لسيارتك.تفصيل كامل لقياس الكابل، وتكلفة البطارية، والكفاءة، ووقت التشغيل، ومتى يكون المحول منطقيًا.مصفوفة القرار في الداخل."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "أفضل مكيف هواء لمواقف السيارات لعام 2026: مقارنة بين أفضل 9 اختيارات (الشاحنات، RVs والشاحنات الصغيرة)",
+    "date": "2026-04-23",
+    "category": "دليل المشتري",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "أفضل مكيف هواء لمواقف السيارات لعام 2026 — مجموعة من وحدات تكييف الهواء على الأسطح والأنظمة المنفصلة DC المثبتة على نصف شاحنة، RV، وشاحنة Sprinter تحت سماء صافية",
+    "excerpt": "أفضل 9 مكيفات هواء لوقوف السيارات تم اختبارها لعام 2026: جنبًا إلى جنب BTU، والضوضاء، والسحب، والسعر، والأداء الواقعي لشبه الشاحنات، RVs، والشاحنات الصغيرة، والأساطيل.يختار الفائز حسب حالة الاستخدام."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "دليل شراء مكيفات الهواء لمواقف السيارات 2026: كيفية اختيار الوحدة المناسبة (دون إهدار 1500 دولار)",
+    "date": "2026-04-23",
+    "category": "دليل المشتري",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "imageAlt": "دليل شراء مكيفات الهواء لمواقف السيارات 2026 - وحدات تكييف الهواء المثبتة على الأسطح والمقسمة الصغيرة DC المثبتة على الشاحنة، RV والشاحنة للمقارنة جنبًا إلى جنب",
+    "excerpt": "دليل شراء مكيفات مواقف السيارات لعام 2026: إطار عمل مكون من 7 خطوات، BTU جدول الحجم، وحدود المواصفات، وميزانيات التكلفة حسب المستوى، والأخطاء الخمسة التي تحول مكيف الهواء بقيمة 1500 دولار إلى خردة.اقرأ قبل أن تشتري."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "حاسبة توفير الوقود لمكيفات مواقف السيارات 2026: تكلفة الخمول مقابل DC مكيفات مواقف السيارات مقابل APU",
+    "date": "2026-04-23",
+    "category": "الأدوات والآلات الحاسبة",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "imageAlt": "حاسبة توفير الوقود في مواقف السيارات 2026 - لوحة عدادات نصف الشاحنة تعرض ساعات الخمول، واستهلاك الوقود، ومقارنة التوفير السنوية بين التباطؤ والديزل APU، وDC مكيف هواء مواقف السيارات",
+    "excerpt": "احسب التوفير الدقيق للوقود من DC مكيف مواقف السيارات مقابل التباطؤ مقابل الديزل APU.أسعار الوقود لعام 2026، ودورات العمل الحقيقية، وعائد الاستثمار مدى الحياة.أمثلة عملية للمالكين والمشغلين وأساطيل الشاحنات المكونة من..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "تكييف مواقف السيارات من أجل رطوبة ساحل الإسكندرية: مكافحة تحديات مناخ البحر الأبيض المتوسط في مصر",
     "date": "2026-03-31",
@@ -113,6 +369,7 @@
     "date": "2026-01-10",
     "category": "التكنولوجيا",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp",
+    "imageAlt": "التكامل مع المنزل الذكي لمكيف الهواء في مواقف السيارات: تحكم في مكيف الهواء في سيارتك من أي مكان",
     "excerpt": "اكتشف كيف يتيح لك التكامل مع مكيف الهواء في المنزل الذكي التحكم في مناخ سيارتك من أي مكان، مما يعزز الراحة والكفاءة لـ RVs والشاحنات."
   },
   {
@@ -130,6 +387,7 @@
     "date": "2025-12-29",
     "category": "سلامة السائق",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
+    "imageAlt": "كيفية تقليل الإجهاد الحراري للسائق باستخدام أنظمة تكييف مواقف السيارات الكهربائية",
     "excerpt": "تعرف على كيفية حماية أنظمة تكييف مواقف السيارات الكهربائية للسائقين من الإجهاد الحراري في المناخات الأفريقية.قم بتحسين السلامة والاحتفاظ والإنتاجية من خلال التبريد الفعال للمقصورة."
   },
   {
@@ -138,6 +396,7 @@
     "date": "2025-12-28",
     "category": "أدلة التثبيت",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
+    "imageAlt": "أخطاء التثبيت الشائعة لمكيفات الهواء للشاحنات في أفريقيا",
     "excerpt": "تجنب الأعطال المكلفة من خلال التعرف على أخطاء تركيب مكيف الهواء للشاحنات الأكثر شيوعًا في أفريقيا.إرشادات الخبراء بشأن إجراءات التركيب والأسلاك والختم المناسبة."
   },
   {
@@ -146,6 +405,7 @@
     "date": "2025-12-27",
     "category": "الأدلة الفنية",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
+    "imageAlt": "كيف يؤثر الغبار واهتزازات الطريق والحرارة على أداء مكيف الهواء في مواقف السيارات",
     "excerpt": "افهم كيف تؤثر التحديات البيئية الأفريقية على أداء مكيفات مواقف الشاحنات وتعلم إستراتيجيات الصيانة لضمان التبريد الموثوق به في الظروف القاسية."
   },
   {
@@ -154,6 +414,7 @@
     "date": "2025-12-26",
     "category": "الأدلة الفنية",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
+    "imageAlt": "حماية الجهد المنخفض: ما يحتاج مشترو الأساطيل الأفريقية إلى معرفته",
     "excerpt": "الدليل الأساسي لحماية الجهد المنخفض في أنظمة تكييف مواقف الشاحنات.تعرف على كيفية عمل حماية البطارية وسبب أهميتها لعمليات الأسطول الأفريقي."
   },
   {
@@ -162,6 +423,7 @@
     "date": "2025-12-25",
     "category": "استكشاف الأخطاء وإصلاحها",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
+    "imageAlt": "لماذا يصبح تبريد مكيف الهواء في شاحنتك ضعيفًا في الحرارة الشديدة (وكيفية إصلاحه)",
     "excerpt": "اكتشف سبب فقدان مكيفات هواء الشاحنات لقدرة التبريد في درجات الحرارة الشديدة وتعرف على الحلول التي أثبتت جدواها لاستعادة الأداء في ظروف الصحراء الأفريقية."
   },
   {
@@ -170,6 +432,7 @@
     "date": "2025-12-24",
     "category": "أدلة التثبيت",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
+    "imageAlt": "دليل التثبيت الاحترافي لمكيفات مواقف الشاحنات في أفريقيا",
     "excerpt": "دليل التثبيت الاحترافي خطوة بخطوة لمكيفات الهواء الخاصة بمواقف الشاحنات في الظروف الأفريقية.تعرف على إجراءات التركيب والأسلاك والتشغيل للحصول على أداء موثوق."
   },
   {
@@ -187,6 +450,7 @@
     "date": "2025-12-19",
     "category": "حلول الأسطول",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp",
+    "imageAlt": "مكيفات هواء الشاحنات بالجملة لأسطول النقل التونسي",
     "excerpt": "مكيفات هواء الشاحنات بالجملة لأسطول النقل في تونس.حلول التسعير بالجملة والأسطول لمشغلي الخدمات اللوجستية في شمال إفريقيا الذين يبحثون عن تكنولوجيا تبريد موثوقة."
   },
   {
@@ -213,6 +477,7 @@
     "date": "2025-12-16",
     "category": "عمليات الارتفاع",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp",
+    "imageAlt": "دليل أسطول إثيوبيا على ارتفاعات عالية: تخطيط مواقف السيارات لطرق الشحن المرتفعة",
     "excerpt": "دليل إثيوبيا الوطني لأداء مكيف الهواء في مواقف السيارات على ارتفاع، ويغطي سلوك البطارية، وحمل الأشعة فوق البنفسجية، وتخطيط المسار عبر ممرات الشحن في المرتفعات."
   },
   {
@@ -230,6 +495,7 @@
     "date": "2025-12-14",
     "category": "ممر عبر الحدود",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp",
+    "imageAlt": "تكييف مواقف السيارات لشاحنات الممر الشمالي في أوغندا: تبريد الانتظار على الحدود للتجارة الإقليمية",
     "excerpt": "دليل أوغندي لتكييف مواقف السيارات لأساطيل الممر الشمالي، يركز على وقت تشغيل الانتظار على الحدود، وطرق التجارة الداخلية، واسترداد السائقين لعمليات النقل عبر الحدود في شرق أفريقيا."
   },
   {
@@ -238,6 +504,7 @@
     "date": "2025-12-13",
     "category": "تصميم مركبات السفاري",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp",
+    "imageAlt": "مكيف هواء منخفض الضوضاء لوقوف السيارات لمركبات السفاري في تنزانيا: راحة الضيوف أثناء رحلات السفاري",
     "excerpt": "دليل تصميم مركبات السفاري لمكيفات مواقف السيارات منخفضة الضوضاء في محركات الألعاب في تنزانيا، مع التركيز على راحة الضيوف، ومشاهدة الحياة البرية، وفترات الخمول الطويلة في الميدان."
   },
   {
@@ -327,6 +594,7 @@
     "date": "2025-12-06",
     "category": "تخطيط الأسطول السياحي",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp",
+    "imageAlt": "تخطيط أسطول رحلات السفاري في تنزانيا: مكيفات مواقف السيارات لدوائر سيرينجيتي وعمليات نقل النزل",
     "excerpt": "دليل تخطيط رحلات السفاري الوطني في تنزانيا لوقوف السيارات عبر دوائر سيرينجيتي وطرق نجورونجورو ونقل النزل حيث تشكل راحة الضيوف والنوافذ الخاملة قرارات الأسطول."
   },
   {
@@ -344,6 +612,7 @@
     "date": "2025-12-05",
     "category": "فرصة عمل",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
+    "imageAlt": "كن موزعًا لمكيفات هواء الشاحنات في أفريقيا",
     "excerpt": "كن شريكًا معنا لنصبح موزعًا لمكيفات الهواء للشاحنات في إفريقيا.مناطق حصرية ودعم تسويقي وتدريب فني للشركاء الإقليميين."
   },
   {
@@ -352,6 +621,7 @@
     "date": "2025-12-05",
     "category": "خدمات الدعم",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
+    "imageAlt": "قطع الغيار ودعم ما بعد البيع لمكيفات الشاحنات في أفريقيا",
     "excerpt": "قطع غيار شاملة ودعم ما بعد البيع لمكيفات هواء الشاحنات في أفريقيا.تتوفر المرشحات والضواغط وغازات التبريد والمساعدة الفنية."
   },
   {
@@ -414,6 +684,7 @@
     "date": "2025-12-03",
     "category": "المرشدين الإقليميين",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp",
+    "imageAlt": "تبريد النقل عبر الحدود لمشغلي الأساطيل في زيمبابوي",
     "excerpt": "مكيفات هواء لوقوف السيارات لأساطيل النقل عبر الحدود في زيمبابوي.تحسين راحة السائق للطرق التي تربط هراري وبولاوايو والأسواق الإقليمية."
   },
   {
@@ -449,6 +720,7 @@
     "date": "2025-12-02",
     "category": "الممر اللوجستي",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp",
+    "imageAlt": "تكييف مواقف السيارات لممر نيروبي-مومباسا في كينيا: دليل تخطيط استراحة الأسطول",
     "excerpt": "دليل الممرات للأساطيل اللوجستية الكينية التي تستخدم مكيفات مواقف السيارات بين نيروبي ومومباسا، يركز على استعادة السائقين، والحرارة الساحلية، وموثوقية الجدول الزمني."
   },
   {
@@ -511,6 +783,7 @@
     "date": "2025-11-20",
     "category": "نمط الحياة",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp",
+    "imageAlt": "مكيف مواقف السيارات للمسافرين المنفردين RV: الأمان والراحة والاستقلالية",
     "excerpt": "مسافرون منفردون RV، يعززون سلامتك وراحتك واستقلاليتك من خلال مكيف موثوق به لوقوف السيارات.ضروري لboondocking وراحة البال."
   },
   {
@@ -744,6 +1017,7 @@
     "date": "2025-10-26",
     "category": "دليل",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp",
+    "imageAlt": "استخدام المضخة الحرارية لمكيف مواقف السيارات الخاصة بك للتخييم في فصل الشتاء RV",
     "excerpt": "اكتشف كيف يمكن للمضخة الحرارية لمكيف موقف السيارات الخاص بك أن تحول مخيمات الشتاء RV.تعرف على الكفاءة واحتياجات البطارية والبقاء دافئًا في البرد."
   },
   {
@@ -779,6 +1053,7 @@
     "date": "2025-10-15",
     "category": "التكنولوجيا",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp",
+    "imageAlt": "تقييمات كفاءة الطاقة لمكيفات مواقف السيارات: فهم EER وCOP وSEER",
     "excerpt": "إزالة الغموض عن تصنيفات كفاءة استخدام الطاقة في مواقف السيارات: EER وCOP وSEER.تعرف على ما تعنيه هذه الأرقام لمحفظتك وراحتك على الطريق."
   },
   {
@@ -818,42 +1093,6 @@
     "excerpt": "ضمان سلامة الحيوانات والمعدات في العيادات البيطرية المتنقلة من خلال حلول تكييف مواقف السيارات الموثوقة.أمر بالغ الأهمية للأدوية والرعاية الاجتماعية."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "تكييف الهواء لاستوديوهات اليوغا المتنقلة وعربات العافية",
-    "date": "2025-10-15",
-    "category": "التخصص",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "imageAlt": "تكييف الهواء لاستوديوهات اليوغا المتنقلة وعربات العافية",
-    "excerpt": "اكتشف حلول تكييف الهواء الأساسية لاستوديوهات اليوغا المتنقلة وعربات العافية.ضمان التحكم الأمثل في درجة الحرارة (68-72 درجة فهرنهايت) مع مكيف موثوق به لوقوف السيارات."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "مكيف مواقف السيارات للبدو الرقميين الذين يعيشون في RVs: راحة العمل من أي مكان",
-    "date": "2025-10-15",
-    "category": "نمط الحياة",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "imageAlt": "مكيف مواقف السيارات للبدو الرقميين الذين يعيشون في RVs: راحة العمل من أي مكان",
-    "excerpt": "الدليل الأساسي لمكيف مواقف السيارات للبدو الرحل الرقميين RV.حافظ على انتعاشك وإنتاجيتك أثناء العمل عن بعد من RV باستخدام التحكم المناسب في المناخ."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "البقاء هادئًا في RV التجمعات والمهرجانات: نصائح لتكييف مواقف السيارات للأحداث",
-    "date": "2025-10-15",
-    "category": "نمط الحياة",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "imageAlt": "البقاء هادئًا في RV التجمعات والمهرجانات: نصائح لتكييف مواقف السيارات للأحداث",
-    "excerpt": "سيد RV يتجمع مع مكيف الهواء لوقوف السيارات!احصل على نصائح الخبراء حول التبريد الإضافي وحجم البطارية والتركيب للاستمتاع بتجربة حدث مريحة."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "دليل فان دويلر لمكيفات مواقف السيارات: العيش بدوام كامل في سيارتك",
-    "date": "2025-10-15",
-    "category": "فان لايف",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "imageAlt": "دليل فان دويلر لمكيفات مواقف السيارات: العيش بدوام كامل في سيارتك",
-    "excerpt": "الدليل الأساسي لاختيار وتركيب مكيفات مواقف السيارات لسكان الشاحنات.استمتع بالانتعاش والراحة في منزلك المتنقل مع نصائح الخبراء."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "تكلفة تركيب مكيف الهواء لمواقف السيارات في عام 2025: الوحدة والأسلاك والبطارية والعمالة",
     "date": "2025-10-15",
@@ -861,15 +1100,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "imageAlt": "تكلفة تركيب مكيف الهواء لمواقف السيارات في عام 2025: الوحدة والأسلاك والبطارية والعمالة",
     "excerpt": "تعرف على التكلفة الحقيقية لتركيب مكيف ركن السيارة في شاحنة، RV، أو شاحنة صغيرة، بما في ذلك سعر الوحدة والترقيات الكهربائية وتكاليف البطارية والعمالة."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "مبرد R32 في مكيفات مواقف السيارات من الجيل التالي: قدرة أقل على إحداث الاحترار العالمي وكفاءة أفضل",
-    "date": "2025-10-15",
-    "category": "التكنولوجيا",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "imageAlt": "مبرد R32 في مكيفات مواقف السيارات من الجيل التالي: قدرة أقل على إحداث الاحترار العالمي وكفاءة أفضل",
-    "excerpt": "اكتشف لماذا أصبح المبرد R32 هو الخيار المفضل لمكيفات مواقف السيارات من الجيل التالي، مما يوفر قدرة أقل على إحداث الاحترار العالمي وكفاءة محسنة للمركبات التجارية."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -888,15 +1118,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "imageAlt": "تكييف مواقف السيارات كخدمة: نماذج الاشتراك لمشغلي الأساطيل",
     "excerpt": "اكتشف كيف تعمل نماذج الاشتراك في تكييف مواقف السيارات على إحداث تحول في عمليات الأسطول، مما يوفر وفورات في التكاليف ويعزز راحة السائق.تعرف على مستقبل التحكم في المناخ كخدمة."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V مقابل 24V مكيف مواقف السيارات: ما هو الجهد الأفضل للشاحنة، RV، أو الشاحنة؟",
-    "date": "8 مارس 2025",
-    "category": "الدليل الفني",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "imageAlt": "12V مقابل 24V مكيف مواقف السيارات: ما هو الجهد الأفضل للشاحنة، RV، أو الشاحنة؟",
-    "excerpt": "قارن بين أنظمة تكييف مواقف السيارات 12V و24V حسب ملاءمة السيارة، والسحب الحالي، والأسلاك، ووقت تشغيل البطارية، وتعقيد التثبيت قبل الشراء."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -998,15 +1219,6 @@
     "excerpt": "هل تخطط للتبريد خارج الشبكة RV؟تعرف على كيفية تحديد حجم بطاريات الطاقة الشمسية وبطاريات الليثيوم ووقت تشغيل مكيف الهواء 12V لوقوف السيارات بدون توصيلات أو ضوضاء المولد."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "دليل شراء مكيف مواقف السيارات 2025: كيفية اختيار الوحدة المناسبة للشاحنة، RV، أو الشاحنة",
-    "date": "20 نوفمبر 2024",
-    "category": "دليل المشتري",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "imageAlt": "دليل شراء مكيف مواقف السيارات 2025: كيفية اختيار الوحدة المناسبة للشاحنة، RV، أو الشاحنة",
-    "excerpt": "التسوق لشراء مكيف الهواء لوقوف السيارات؟قارن بين سبليت السطح والميني سبليت، 12V مقابل 24V، BTU الحجم، ووقت تشغيل البطارية، ومقايضات التثبيت قبل الشراء."
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "كيف يقلل مكيف هواء مواقف السيارات من البصمة الكربونية لديك مقابل تباطؤ المحرك",
     "date": "10 ديسمبر 2024",
@@ -1095,15 +1307,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "imageAlt": "مكيف مواقف السيارات لتحويلات الحافلات المدرسية (Skoolies): أفضل الخيارات ودليل التثبيت",
     "excerpt": "ابق هادئًا في skoolie الخاص بك!يغطي دليلنا أفضل مكيفات مواقف السيارات لتحويلات الحافلات المدرسية، بما في ذلك خيارات السطح والميني سبليت و12V.تعرف على التثبيت والطاقة والمزيد."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "ما مقدار الوقود الذي يوفره مكيف هواء مواقف السيارات؟الأرقام الحقيقية وحاسبة العائد على الاستثمار",
-    "date": "15 فبراير 2025",
-    "category": "دليل",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "imageAlt": "ما مقدار الوقود الذي يوفره مكيف هواء مواقف السيارات؟الأرقام الحقيقية وحاسبة العائد على الاستثمار",
-    "excerpt": "اكتشف كمية الوقود التي يمكن أن يوفرها لك مكيف هواء مواقف السيارات.يوفر دليلنا أرقامًا حقيقية وآلة حاسبة لعائد الاستثمار ونصائح للشاحنات وRVs والشاحنات الصغيرة."
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1239,10 +1442,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "imageAlt": "دليل توصيلات مكيف هواء مواقف السيارات: آمن 12V/24V التركيبات الكهربائية - دليل مكيف هواء مواقف السيارات",
     "excerpt": "قم بتوصيل مكيف الهواء بأمان باستخدام دليل 12V و24V الذي يغطي حجم المصهر، ومقياس الكابل، وانخفاض الجهد، وحماية البطارية، وأخطاء التثبيت."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

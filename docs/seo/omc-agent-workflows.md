@@ -1,33 +1,17 @@
 # CoolDrivePro OMC Agent Workflows
 
-This preset defines three default workflows for this repository.
+This preset defines two default workflows for this repository.
 
 ## Quick Start
 
 - Print workflow templates:
-  - npm run omc:workflow:seo-batch
   - npm run omc:workflow:locale-qa
   - npm run omc:workflow:code-review
 - Run advisor prompts directly:
-  - npm run omc:workflow:seo-batch:ask
   - npm run omc:workflow:locale-qa:ask
   - npm run omc:workflow:code-review:ask
 
-## Workflow A: SEO Batch
-
-Use for localized blog expansion and SEO output refresh.
-
-Suggested execution order:
-1. npm run translate:blog-locales -- --langs=fr,de,es,it,pt,ja,ko
-2. npm run sync:blog-index
-3. npm run build
-
-Expected outputs:
-- localized blog JSON files under client/public/data/blog/locales/<lang>/
-- refreshed list.json, manifest.json, locale-availability.json
-- regenerated static SEO pages and sitemap
-
-## Workflow B: Locale QA
+## Workflow A: Locale QA
 
 Use for multilingual data quality validation.
 
@@ -42,7 +26,7 @@ Checks included:
 - non-array list/manifest payloads in each locale
 - unknown slugs in locale-availability.json
 
-## Workflow C: Code Review
+## Workflow B: Code Review
 
 Use before release or after high-impact refactors.
 

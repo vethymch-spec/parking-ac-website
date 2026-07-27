@@ -1,12 +1,12 @@
 /**
- * Generic Policy Page – renders Warranty / Return / Shipping / Privacy
+ * Generic Policy Page – renders Warranty / Return / Shipping / Privacy / Terms / Payment / Billing
  * based on the `type` prop
  */
 import { Link } from "wouter";
 import { ChevronRight } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
 
-type PolicyType = "warranty" | "return" | "shipping" | "privacy";
+type PolicyType = "warranty" | "return" | "shipping" | "privacy" | "terms" | "payment" | "billing";
 
 interface PolicyPageProps {
   type: PolicyType;
@@ -40,28 +40,32 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
     ],
   },
   return: {
-    title: "30-Day Return Policy",
-    breadcrumb: "Return Policy",
+    title: "30-Day Return & Refund Policy",
+    breadcrumb: "Return & Refund Policy",
     sections: [
       {
         heading: "Return Window",
-        body: "We accept returns within 30 days of the delivery date. Items must be in original, unused condition with all original packaging, accessories, and documentation included.",
+        body: "We accept eligible returns within 30 days of the delivery date. Items must be in original, unused condition with all original packaging, accessories, manuals, mounting hardware, and documentation included.",
       },
       {
         heading: "How to Initiate a Return",
-        body: "Email support@cooldrivepro.com with your order number and reason for return. We will provide a Return Merchandise Authorization (RMA) number and return shipping instructions within 2 business days.",
+        body: "Email support@cooldrivepro.com with your order number, delivery date, return reason, and photos or video when the item is damaged or defective. We will provide a Return Merchandise Authorization (RMA) number and return shipping instructions within 2 business days. Do not ship items back before receiving authorization.",
+      },
+      {
+        heading: "Eligible Return Cases",
+        body: "Returns may be approved for defective products, damaged shipments reported on time, incorrect items, unopened unused products, or customer change-of-mind returns that meet the condition requirements. Installed, modified, wired, cut, damaged by installation, or visibly used units are not eligible for a standard return.",
       },
       {
         heading: "Return Shipping",
-        body: "For returns due to defects or shipping damage, CoolDrivePro covers all return shipping costs. For returns due to change of mind or incorrect order, the customer is responsible for return shipping costs.",
+        body: "For returns caused by confirmed defects, wrong items, or shipping damage, CoolDrivePro covers reasonable return shipping costs. For change-of-mind or customer ordering mistakes, the customer is responsible for return shipping and any carrier surcharges.",
       },
       {
         heading: "Refund Processing",
-        body: "Once we receive and inspect the returned item, we will process your refund within 5–7 business days. Refunds are issued to the original payment method. Please allow an additional 3–5 business days for the refund to appear on your statement.",
+        body: "After we receive and inspect the returned item, approved refunds are processed within 5-7 business days to the original payment method. Your bank or card issuer may take an additional 3-5 business days to post the refund. We will email you when the refund is submitted.",
       },
       {
-        heading: "Non-Returnable Items",
-        body: "Items that have been installed, modified, or show signs of use are not eligible for return. Consumable items such as replacement filters are also non-returnable.",
+        heading: "Refund Contact Method",
+        body: "For refund questions, return status, or an item that arrived damaged, contact support@cooldrivepro.com with your order number. This is the official support channel for return and refund handling.",
       },
     ],
   },
@@ -70,20 +74,28 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
     breadcrumb: "Shipping Policy",
     sections: [
       {
-        heading: "Free Shipping",
-        body: "CoolDrivePro offers free standard shipping on all orders within the contiguous United States (lower 48 states). We currently do not offer international shipping or shipping to Alaska, Hawaii, or US territories.",
+        heading: "Free Standard Shipping",
+        body: "CoolDrivePro offers free standard shipping on parking air conditioner orders delivered within the contiguous United States (the lower 48 states). Product pages and invoice request materials show the shipping offer before payment so customers can confirm the delivery cost before submitting an order.",
+      },
+      {
+        heading: "Shipping Markets",
+        body: "Our standard shipping offer currently supports the lower 48 United States. Alaska, Hawaii, US territories, PO boxes, APO/FPO addresses, and international destinations require written support approval and a freight quote before purchase.",
       },
       {
         heading: "Processing Time",
-        body: "Orders are processed within 1–2 business days of payment confirmation. Orders placed on weekends or holidays will be processed on the next business day.",
+        body: "Orders are processed within 1-2 business days after payment confirmation and delivery address review. Orders placed on weekends or US holidays are processed on the next business day.",
       },
       {
-        heading: "Delivery Time",
-        body: "Standard shipping typically takes 5–8 business days after processing. Expedited shipping (3–5 business days) is available for an additional fee at checkout. Delivery times may vary during peak seasons.",
+        heading: "Delivery Time and Options",
+        body: "Standard delivery usually takes 5-8 business days after processing. If expedited or special freight service is available for an order, the price and estimated delivery time are shown before payment. Delivery times may vary during peak seasons, severe weather, or carrier delays.",
       },
       {
         heading: "Freight Shipping",
-        body: "Due to the size and weight of parking air conditioner units, orders are shipped via LTL freight. You will receive a tracking number and the freight carrier will contact you to schedule a delivery appointment.",
+        body: "Because parking air conditioner units are large and heavy, some orders ship by parcel carrier and some by LTL freight. You will receive tracking details after dispatch, and freight carriers may contact you to schedule a delivery appointment. Customers are responsible for providing a reachable phone number and accessible delivery location.",
+      },
+      {
+        heading: "Taxes, Customs, and Special Quotes",
+        body: "Applicable sales tax or delivery surcharges are shown before payment when required. For any support-approved export or special-market shipment, the customer is responsible for import duties, customs clearance, brokerage fees, local taxes, and compliance with local regulations unless a written quote states otherwise.",
       },
       {
         heading: "Damaged Shipments",
@@ -97,15 +109,23 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
     sections: [
       {
         heading: "Information We Collect",
-        body: "We collect information you provide when placing orders (name, email, shipping address, payment information) and information collected automatically (IP address, browser type, pages visited) through cookies and analytics tools.",
+        body: "We collect information you provide when placing orders, contacting support, or submitting forms, including name, email address, phone or messaging details, shipping address, billing address, order details, and support messages. We also collect limited technical information such as IP address, browser type, device data, pages visited, cookies, and analytics events.",
       },
       {
         heading: "How We Use Your Information",
-        body: "We use your information to process orders, send shipping confirmations, provide customer support, send promotional emails (with your consent), and improve our website and products.",
+        body: "We use personal information to process payments and orders, confirm shipping, provide customer support, manage warranty or return requests, prevent fraud, improve our website and products, measure advertising performance, and send promotional emails only when you have consented or where permitted by applicable law.",
       },
       {
         heading: "Information Sharing",
-        body: "We do not sell your personal information. We share information only with service providers necessary to fulfill your order (payment processors, shipping carriers) and as required by law.",
+        body: "We do not sell your personal information or sell customer contact lists. We share information only with service providers needed to operate the business, such as payment processors, shipping carriers, email/form providers, analytics tools, fraud-prevention providers, and professional advisers, or when required by law.",
+      },
+      {
+        heading: "Secure Payment Links and Card Data",
+        body: "CoolDrivePro does not collect full card numbers, CVV codes, or complete payment credentials directly on this website. If a secure payment link is offered after order review, card details are entered only on the listed payment processor's encrypted page.",
+      },
+      {
+        heading: "Advertising and Consent",
+        body: "We may use cookies, analytics, and advertising pixels to understand website performance and measure campaigns. We do not use your contact information for unrelated third-party advertising without your consent.",
       },
       {
         heading: "Cookies",
@@ -113,7 +133,89 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "Your Rights",
-        body: "You have the right to access, correct, or delete your personal information. To exercise these rights, contact us at support@cooldrivepro.com. We will respond within 30 days.",
+        body: "Depending on your location, you may have the right to access, correct, delete, or limit the use of your personal information. To exercise these rights, contact us at support@cooldrivepro.com. We will respond within 30 days or within the timeframe required by applicable law.",
+      },
+    ],
+  },
+  terms: {
+    title: "Terms of Service",
+    breadcrumb: "Terms of Service",
+    sections: [
+      {
+        heading: "Use of the Website",
+        body: "By using the CoolDrivePro website, requesting support, or placing an order, you agree to use our content, tools, product information, and order request flow only for lawful personal or business purposes related to evaluating, purchasing, installing, or servicing parking air conditioner products.",
+      },
+      {
+        heading: "Product Information",
+        body: "We work to keep product specifications, compatibility guidance, pricing, shipping details, and availability accurate. Parking AC performance can vary by vehicle layout, battery capacity, installation quality, climate, and operating conditions, so published specifications should be used together with professional installation judgment.",
+      },
+      {
+        heading: "Orders and Acceptance",
+        body: "An order or invoice request confirmation means we received your request. Final acceptance occurs after CoolDrivePro confirms availability, shipping details, payment instructions, and order readiness. We may contact you to verify vehicle fitment, delivery details, or billing information before fulfillment.",
+      },
+      {
+        heading: "Installation Responsibility",
+        body: "CoolDrivePro parking air conditioners should be installed according to the supplied instructions and applicable electrical, safety, and vehicle requirements. Customers are responsible for proper mounting, sealing, wiring, fuse protection, and battery configuration unless installation is performed by an authorized service provider.",
+      },
+      {
+        heading: "Warranty, Returns, and Support",
+        body: "Warranty, return, and shipping matters are governed by the applicable CoolDrivePro policy pages. If you need help before or after purchase, contact support@cooldrivepro.com with your order number, vehicle details, and photos or videos when relevant.",
+      },
+    ],
+  },
+  payment: {
+    title: "Payment Method",
+    breadcrumb: "Payment Method",
+    sections: [
+      {
+        heading: "Accepted Payment Methods",
+        body: "CoolDrivePro currently accepts approved orders by manual invoice. Depending on customer location, order type, and processor availability, payment instructions may include bank transfer, wire transfer, or an approved secure payment link. The available method, currency, taxes, shipping charges, and final total are confirmed before payment is requested.",
+      },
+      {
+        heading: "Secure Payment Processing",
+        body: "Online card payment is temporarily unavailable on the website. CoolDrivePro does not ask customers to send full card numbers by email, chat, or contact form. Any future hosted payment link will be processed by the listed provider on an encrypted page and reviewed before it is offered on the website.",
+      },
+      {
+        heading: "Order Request Policy Links",
+        body: "Before submitting an invoice request, customers can review the Shipping Policy, Return & Refund Policy, Privacy Policy, Payment Method, and Billing Terms from the website footer and product order area. The final order total, including any applicable taxes or shipping charges, is confirmed before payment is requested.",
+      },
+      {
+        heading: "Authorization and Capture",
+        body: "No payment is authorized or captured when you submit the website request form. Payment is due only after CoolDrivePro confirms the order details and sends valid invoice or payment instructions.",
+      },
+      {
+        heading: "Sales Tax and Fees",
+        body: "Applicable sales tax, shipping upgrades, freight charges, or handling fees are calculated before invoice payment when required by law or selected by the customer. The final order total is confirmed before payment is requested.",
+      },
+      {
+        heading: "Payment Support",
+        body: "For invoice questions, duplicate payment concerns, or refund status, contact support@cooldrivepro.com with your order number or invoice reference. Do not send full card numbers by email, chat, or contact form.",
+      },
+    ],
+  },
+  billing: {
+    title: "Billing Terms",
+    breadcrumb: "Billing Terms",
+    sections: [
+      {
+        heading: "Currency and Pricing",
+        body: "All CoolDrivePro prices are listed in US dollars unless otherwise stated. Product pricing, promotional offers, shipping options, and taxes may change over time, but confirmed orders are billed according to the final invoice or approved payment instruction confirmed before purchase.",
+      },
+      {
+        heading: "Invoices and Receipts",
+        body: "A receipt, order confirmation, or invoice is sent to the email address provided with the order request. Business customers who need a formal invoice can contact support@cooldrivepro.com with the order number, company name, billing address, and any required tax details.",
+      },
+      {
+        heading: "Billing Information",
+        body: "Customers are responsible for providing accurate billing names, addresses, tax information, and contact details. Incorrect billing information may delay payment verification, order processing, or invoice issuance.",
+      },
+      {
+        heading: "Cancellations and Adjustments",
+        body: "If you need to cancel or modify an order, contact us as soon as possible. Orders that have already shipped may need to follow the return process. Approved price adjustments, refunds, or credits are issued to the original payment method whenever possible.",
+      },
+      {
+        heading: "Billing Questions",
+        body: "For billing questions, duplicate charges, invoice requests, or refund status updates, contact support@cooldrivepro.com. Include your order number and billing email so our team can review the account quickly.",
       },
     ],
   },

@@ -1,0 +1,551 @@
+{
+  "title": "2026-os, államonkénti alapjárat-ellenes törvények: 50 állam keresése + parkolási AC ROI-kalkulátor",
+  "date": "2026-06-08",
+  "category": "Szabályok és megfelelés",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Az Egyesült Államok térképe a 2026-os alapjárat-ellenes törvényeket államonként ábrázolja a parkoló AC megfelelőségi fedvényével",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Az Egyesült Államok 2026-ra vonatkozó, mind az 50 alapjárat-ellenes törvénye egy táblázatban – finom tartományok, 5-15 perces korlátok, alvó/DEF-mentességek és egy működő ROI, amely bemutatja, hogyan térül meg az akkumulátorral parkoló AC 9–14 hónap alatt, szemben az alapjárati bírságokkal és az üzemanyagköltséggel.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Ha 2026-ban a 8-as osztályt vezeti, az **állami alapjárat-ellenes törvények 2026-os** foltot többé nem hagyhatja figyelmen kívül.Az Egyesült Államok negyvenegy államában és a legtöbb nagy metróban jelenleg korlátozzák a motorok üresjárati idejét a parkoló pihenéskor, a bírságok 50 dollártól több mint 25 000 dollárig terjednek szabálysértésenként, és a teherautó-megállókban, a mérőállomásokon és a pihenőhelyeken történő végrehajtás jelentősen megnövekedett az EPA SmartWay program 2024-es frissítése óta."
+    },
+    {
+      "heading": null,
+      "body": "Ez az oldal a munkareferencia, amelyet a flottakezelőknek és tulajdonos-üzemeltetőknek küldünk, akik három kérdést tesznek fel: *mit mond valójában az állam 2026-ban, a parkolási AC megfelelésnek számít-e, és mennyi a valós éves költsége annak, hogy nem felel meg az előírásoknak, szemben azzal, hogy 2800 dollárt költek egy akkumulátoros parkoló AC-ra*.Az alábbiakban mindhárom kérdésre választ adunk – egy 50 állapotból álló keresőtáblázattal, egy numerikus ROI-lebontással és egy őszinte oszloppal, amely megmutatja, hogy hol illik az akkumulátorparkoló AC és hol nem."
+    },
+    {
+      "heading": null,
+      "body": "Gyors navigáció: ugorjon az [50-state table](#the-50-state-lookup-table), a [ROI-kalkulátor](#roi-calculator-idle-cost-vs-parking-ac) vagy a [compliance ranking](#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR – A 10 legszigorúbb állam, és mire szabnak ki bírságot 2026-ban"
+    },
+    {
+      "heading": null,
+      "body": "Ha csak egy bekezdést olvas: Kalifornia, New York, New Jersey, Massachusetts, Connecticut, Maryland, Virginia, Hawaii, Utah és Colorado a legszigorúbb 2026-os végrehajtást hajtják végre.Ebben a csoportban az üresjárati határértékek **5 perc** (CA, NJ, MA, CT, MD) vagy **3 perc** (NYC, NJ kereskedelmi negyedek), amikor a környezeti hőmérséklet nagyjából 25°F és 75°F között van.A lazább 10 perces és **15 perces** korlátozások Nevadában (Nyugat-Virginia és Illinois egyes részein) továbbra is vonatkoznak a kereskedelmi teherautókra – az **5 perces és 15 perces** felosztás az egyetlen leginkább zavaró tény a flotta beépítésében.Ezen a sávon kívül a hálóhelyre vonatkozó mentesség általában beindul – de csak akkor, ha az üzemeltető igazolni tudja a mentességet, ahol a legtöbb szabálysértés történik."
+    },
+    {
+      "heading": null,
+      "body": "A finom szerkezet 2026-ban változott meg leginkább.A régi \"100 dolláros jegy és továbblépés\" korszak a visszaesők számára véget ért.**Kalifornia ATCM** a [CARB nagy teherbírású tétlenségi szabály] (https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) szerint büntetéseket von maga után: 300 USD első szabálysértés, 1000 USD második 36 hónapon belül, legfeljebb 25 000 USD flotta-wide minta esetén.**New Jersey** 12 hónapon belül megduplázza a bírságot a második szabálysértés esetén.**NYC Local Law 5** 350–2000 USD áron engedélyezi az állampolgárok által bejelentett jegyeket."
+    },
+    {
+      "heading": null,
+      "body": "A négy kivétel, amely mindenhol megjelenik: (1) **alvóhely** pihenés 25 °F alatti vagy 75 °F feletti hőmérsékleten (leggyakrabban), (2) **DEF fagyvédelem**, ha a környezet ~30 °F alá esik, (3) **forgalom leállt** alapjáratvagy akkumulátorparkoló AC használat – ez a kiskapu köré épül az oldal többi része."
+    },
+    {
+      "heading": null,
+      "body": "## Hogyan kerültek ide az Egyesült Államok alapjárat-ellenes törvényei (1 bekezdésből álló előzmények)"
+    },
+    {
+      "heading": null,
+      "body": "A jogi gerinc a **Clean Air Act 1990** (**CAA 1990**) módosításaihoz nyúlik vissza, amelyek felhatalmazást adnak az EPA-nak a mobil forrásból származó kibocsátások tekintetében.2004-ben az EPA elindította a **SmartWay-t**, az üresjárat-csökkentő technológiák önkéntes ellenőrző programját, amely de facto referencialista lett, amelyet az államok hivatkoznak a mentesség megállapítása során.Kalifornia **CARB** 2008-ban jutott a legmesszebbre a **Airborne Toxic Control Measure-vel (ATCM)** a használatban lévő dízelüzemű haszongépjárművekre vonatkozóan – ez 5 perces, az egész államra érvényes határérték végrehajtási fogakkal.A 2020-ban korszerűsített és 2024-ben felújított szövetségi **FMCSA Hours-of-Service (HOS)** hálófülke-szolgáltatás megköveteli, hogy a sofőrök egy olyan hálófülkeben pihenjenek, amelyet a gyakorlatban hőmérséklet-szabályozottan kell tartani, hogy lakható legyen – pontosan ez az a konfliktus, amelyet az alapjárat-ellenes törvények hoznak létre és oldanak meg az AC-t."
+    },
+    {
+      "heading": null,
+      "body": "## Az 50 állapotot tartalmazó keresőtábla {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Frissítve a **2026-os végrehajtás** érdekében az [EPA Compilation of State Idling Regulations] (https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) és a 2026. I. negyedévig kiadott állami DOT-közlemények alapján.a mentesség a motor alapjárata nélkül."
+    },
+    {
+      "heading": null,
+      "body": "|állam |Üresjárati határ |Finom tartomány |Alvás mentes |APU mentes |Akkumulátorparkoló AC-kompatibilis |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Egyik sem országszerte |— |— |— |✅ (nincs szabály) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaszka |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 perc (Maricopa) |300–1500 USD |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kalifornia |5 perc (CARB ATCM) |300–25 000 USD |Y >75°F vagy <25°F |I (ellenőrzött) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 perc (Denver/helyi) |100–500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 perc |250–5000 USD |Y <20°F vagy >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 perc |50–500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Florida |5 perc (Miami-Dade) |150–500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Georgia |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaii |3 perc |100–1000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 perc (Chicago) |50–500 USD |Y <32°F vagy >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiana |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 perc |150–1500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 perc |500–25 000 USD |Y <40°F vagy >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 perc |100–25 000 USD |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 perc (Mpls/St Paul) |25–1000 USD |I <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 perc (Clark/Washoe) |100–500 USD |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 perc |100–1000 USD |I <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 perc |250–5000 USD |Y <25°F vagy >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Új-Mexikó |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 perc állam / 3 perc NYC |350–2000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Észak-Karolina |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Észak-Dakota |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 perc |190–2000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvania |5 perc (Dízel alapjárati törvény) |150–1000 USD |Y <40°F vagy >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Rhode Island |5 perc |100–500 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dél-Karolina |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dél-Dakota |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texas |5 perc (TCEQ megyék) |200–2000 USD |Y <40°F vagy >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 perc (Sóstó) |115–300 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 perc |100–1000 USD |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginia |10 perc állapot / 3 perc N. VA |250–25 000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nyugat-Virginia |15 perc |150 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Egyik sem országszerte |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 perc nyári / 5 perc téli |500–5000 USD |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Vegye figyelembe a szerkezeti mintát: **minden aktív szabállyal rendelkező állapot biztosít egy akkumulátorparkoló AC megfelelőségi útvonalat**.Ez nem véletlen – amikor a CARB és az EPA megírta a modellszabályokat, kifejezetten tartalmaztak „alternatív technológiát, amely főmotor működése nélkül biztosítja a fülke kényelmét”, így a flották a dízel teherautók 100°F-os parkoltatása nélkül, hűtés nélkül is megfeleltek.A hálófülke és a DEF mentesség az örökölt menekülési nyílás;akkumulátor parkoló AC a modern."
+    },
+    {
+      "heading": null,
+      "body": "## Szövetségi réteg: EPA SmartWay + FMCSA HOS interakció"
+    },
+    {
+      "heading": null,
+      "body": "2026-ban **nincs egyetlen szövetségi alapjárat elleni törvény** a teherautókra vonatkozóan. Ami szövetséginek tűnik, az valójában két program, amelyek átfedik az állami szabályokat:"
+    },
+    {
+      "heading": null,
+      "body": "**Az EPA SmartWay ellenőrzött listája.** A SmartWay [ellenőrzött listát tart fenn az üresjárat-csökkentési technológiákról](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies), amely hivatkozást tartalmaz a mentességek meghatározásakor.Ha az Ön parkoló AC ezen a listán szerepel, akkor minden olyan államban van védelem a bíróságon, amely elismeri azt – amely 2026-ban mind a 19 államban van aktív üresjárati szabályok.A Webasto, a Dometic, a Bergstrom NITE és a CoolDrivePro VTH1 akkumulátoros parkoló AC rendszerei mind szerepelnek a listán, vagy jogosultak a listára."
+    },
+    {
+      "heading": null,
+      "body": "**FMCSA Hours-of-Service (HOS).** A [szövetségi hálóhelyre vonatkozó rendelkezés](https://www.fmcsa.dot.gov/regulations/hours-of-service) előírja, hogy a sofőrök legalább 7 egymást követő órát töltsenek az alvóhelyen a 10 órás szolgálaton kívüli visszaállítás részeként.A 95°F-os hálófülke nem jogos pihenőkörnyezet, és a DOT-felügyelők 2023 óta kezdik feljegyezni a nem biztonságos fülkehőmérsékletre vonatkozó megállapításokat a közúti ellenőrzési jelentésekben. Ez az a gyakorlati oka, hogy a flottavezetők többé nem mondhatják, hogy „csak szóljanak a sofőröknek, hogy törjék ki az ablakot” – a biztonsági szabályozó és a levegőszabályzó most ugyanarra a problémára mutat."
+    },
+    {
+      "heading": null,
+      "body": "Az **interakciós hatás** számít a megfelelőségi ellenőrzéseknél: a CA-ban vagy NJ-ben ismétlődő üresjárati szabálysértésekkel sújtott flotta egy FMCSA biztonsági besorolási jelzőt is felvet, mivel a mögöttes viselkedési minta (a járművezetők a hajtóműveket a fülke kényelme érdekében a HOS pihenés alatt hagyják járni) emissziós megsértést és fáradtsági/ellenőrzési rekord problémát is okoz.Az egyik megoldása mindkettőt megoldja."
+    },
+    {
+      "heading": null,
+      "body": "## ROI-kalkulátor: üresjárati költség vs parkoló AC {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "A Wikipédia és az EPA-dokumentumok leírják a törvényeket, de egyik sem tesz közzé valódi ROI-t.Íme a matematika, a **2026-os beviteli feltevések** felhasználásával bármely tulajdonos-üzemeltető vagy flottatervező lecserélheti a saját számait."
+    },
+    {
+      "heading": null,
+      "body": "**Inputok (országos 2026-os átlagok):**"
+    },
+    {
+      "heading": null,
+      "body": "- 8. osztályú alvó főmotor üresjárati üzemanyag-égetése: **0,8 gall/óra** ([ATRI alapjárati költségadatok](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Autópálya gázolaj ára (2026. május): **3,95 USD/gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Éjszakánkénti üresjárat (hűtési szezon, május-szeptember): **9 óra**"
+    },
+    {
+      "heading": null,
+      "body": "- Évente tétlen éjszakák (hűtés szempontjából): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- A bírság átlagos kockázata nem megfelelő évenként (4 végrehajtási állam útvonala, 2026-os végrehajtási adatok): **420 USD**"
+    },
+    {
+      "heading": null,
+      "body": "- A főmotor alapjáratának kopási költsége: **0,30 USD / alapjárati óra** (olajcsere-intervallum gyorsulása + EGR/DPF stressz, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**A fülke hűtésének alapjárati éves költsége (semmit ne csinálj):**"
+    },
+    {
+      "heading": null,
+      "body": "|Költségkomponens |Matek |Éves $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Üzemanyag |9 óra × 140 éjszaka × 0,8 gal × 3,95 USD |**3981 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|Motor kopás |9 óra × 140 éjszaka × 0,30 USD |**378 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|Bírságkockázat (országos átlag) |végrehajtás-állam keverék |**420 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|**A teljes éves üresjárati költség** ||**4779 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "**Az akkumulátorparkolás éves költsége a váltakozóáramnak való megfelelőségnek:**"
+    },
+    {
+      "heading": null,
+      "body": "|Költségkomponens |Matek |Éves $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Hardver amortizált (3 év élettartam 2800 dolláros 12V/24V akkumulátorral, mint például a [CoolDrivePro VTH1](/products/vth1)) |2800 USD / 3 |**933 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|Hozzáadott parti töltés / generátoridő |~110 kWh × 0,15 USD |**17 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|Akkumulátorbank amortizációja (LiFePO4 hozzáadott cellák 5 év felett) |1200 USD / 5 |**240 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "|**A teljes éves parkolási AC költség** ||**1190 USD** |"
+    },
+    {
+      "heading": null,
+      "body": "** Nettó éves megtakarítás: 4779 USD – 1190 USD = 3589 USD teherautónként évente.**"
+    },
+    {
+      "heading": null,
+      "body": "**Egyszerű megtérülés egy 2800 dolláros egység + 1200 dolláros akkumulátor-bővítés esetén = 13,4 hónap** országos átlagban.A magas szintű végrehajtást igénylő államokban (CA, NJ, NY, MD) a megtérülési idő 9 hónap alá csökken, mivel a finom kockázati sáv évi 420 dollárról 1800 dollár felettire ugrik."
+    },
+    {
+      "heading": null,
+      "body": "Egy CA + NV + AZ sávot futtató, 50 teherautóból álló regionális flottánál ez **179 000 dollár megtakarítást jelent évente** – ezért minden nagy szállító, amelynek 2024 óta eladunk, közvetlenül a teherautók felfrissítésekor építi be a parkoló AC sorelemet a műszaki adatokba."
+    },
+    {
+      "heading": null,
+      "body": "## Megfelelőségi útvonalak a teljes költség szerint rangsorolva {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Négy út létezik a 2026-os szabálykészleten belül maradáshoz.A legolcsóbbtól a legdrágábbig listázva 3 éves tulajdonosi horizonton:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Akkumulátoros parkoló AC (legolcsóbb, ~1190 USD/év).** Példák: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Előnyök: a legkönnyebb súly (45–80 font), csendes (<48 dB kabin), a szűrőtisztításon túl nincs karbantartás, teljes SmartWay-lefedettség.Hátrányok: az akkumulátor kapacitásától függ az éjszakai üzemidő - egyetlen Group 31 AGM nem elegendő;LiFePO4 vagy 200+ Ah ​​AGM bank szükséges.A méretezéshez tekintse meg a [12V vs 24V parkolási AC összehasonlítást](/compare/12v-vs-24v-parking-ac/)."
+    },
+    {
+      "heading": null,
+      "body": "**2.Elektromos APU (közepes, ~1800–2400 USD/év).** Példák: Bergstrom NITE, Idle Free.Előnyök: 120 V-os készülékeket is táplál (mikrohullámú sütő, hűtőszekrény), hosszabb üzemidő, mint csak akkumulátorral.Hátrányok: nehezebb (~250 font), drágább (6000–9500 dollár), több hibapont.A legjobb olyan sofőrök számára, akiknek teljes, szállodai üzemmódú elektromos terhelésre van szükségük."
+    },
+    {
+      "heading": null,
+      "body": "**3.Dízel APU (legmagasabb, ~2600–3800 USD/év).** Példák: Thermo King TriPac, Carrier ComfortPro.Előnyök: korlátlan üzemidő mindaddig, amíg van üzemanyag, amit a flottatechnikusok jól megértenek.Hátrányok: továbbra is kibocsát – csak akkor mentesül a szabály szerint, ha maga SmartWay-ellenőrzéssel rendelkezik, ~0,2 gal/óra ég, 9500–13 000 dollár telepítve, rendszeres szerviz szükséges.A [TriPac alternatív környezete](/blog/dometic-vs-webasto-parking-ac/) 2024–2026-ban nagymértékben elmozdult az akkumulátorok felé."
+    },
+    {
+      "heading": null,
+      "body": "**4.Ne csináljon semmit (a legdrágább, ~4779 USD/év + a növekvő finom kockázat).** Nem valós lehetőség a CA vagy NE folyosó sávjait futtató flották számára;a jogalkalmazó államokon kívüli tulajdonos-üzemeltetők számára még 1-2 évet vár a következő jelentősebb üresjárati üzemanyagár-emelésig.Nem ajánljuk 2026+ kamionvásárláshoz."
+    },
+    {
+      "heading": null,
+      "body": "## Illesztőprogram és diszpécser ellenőrző lista (nyomtatható)"
+    },
+    {
+      "heading": null,
+      "body": "Tekintse az alábbi golyókat a fülke oldali megfelelőségi naplójaként.Hordjon kinyomtatott másolatot laminálva;Azok a DOT-felügyelők, akik látják, hogy a járművezetők magukkal hordják a saját dokumentációjukat, általában gyorsabban haladnak:"
+    },
+    {
+      "heading": null,
+      "body": "- **Napi naplóbejegyzés**, ha parkoló AC-t használnak a motor üresjárata helyett: bekapcsolási idő, kikapcsolási idő, környezeti hőmérséklet, hely, rendszer cikkszáma és sorozatszáma."
+    },
+    {
+      "heading": null,
+      "body": "- **Fényképes bizonyíték** a SmartWay ellenőrző matricáról a parkoló AC egységen – megmenti a vitát egy ellenőrrel, aki nem jegyezte meg az ellenőrzött listát."
+    },
+    {
+      "heading": null,
+      "body": "- **Akkumulátor töltöttségi állapotának mérése** a pihenőidő kezdetén és végén, ha megtámadják – bizonyítja, hogy az AC valóban akkumulátorról működött, és nem a motor alapjáratának fedőtörténete volt."
+    },
+    {
+      "heading": null,
+      "body": "- **Államszabály szerinti csalókártya** az Ön által futó sávokhoz — elegendő a fenti 50 állapotot tartalmazó táblázat laminált 2 oldalas kinyomtatása;ezeket adjuk ki a kiállításokon."
+    },
+    {
+      "heading": null,
+      "body": "- **A mentesség igénylésének nyelve** megjegyzett: \"Ez a jármű SmartWay által ellenőrzött akkumulátoros légkondicionáló rendszert működtet az alternatív fülke-kényelmi technológiára vonatkozó [ön állam] mentesség alapján.\"Ez az egyetlen mondat lezárja az út menti beszélgetések 80%-át."
+    },
+    {
+      "heading": null,
+      "body": "- **Szerviznapló** a parkoló AC: szűrőtisztítás negyedévente, akkumulátor állapotellenőrzés évente.A pihenőidő közepén meghibásodott egység készenléti kísértést hoz létre, ami megsérti."
+    },
+    {
+      "heading": null,
+      "body": "- **Diszpécser eszkaláció**: minden út menti jegynél aznapi fényképet kap a feladásra küldött idézetről.Az ismételt szabálysértési bírság szorzói NJ-ben, MD-ben és CA-ban 12–36 hónap után újraindulnak – a flottáknak nyomon kell követniük, hogy melyik teherautók vannak az órában."
+    },
+    {
+      "heading": null,
+      "body": "## GYIK"
+    },
+    {
+      "heading": null,
+      "body": "**Mely amerikai államokban vannak a legszigorúbb alapjárat-ellenes törvények 2026-ban?**"
+    },
+    {
+      "heading": null,
+      "body": "Kalifornia (CARB ATCM, 300–25 000 USD), New Jersey (3 perces korlát, megduplázva az ismétlést), New York (NYC Local Law 5, állampolgári bejelentések 350–2000 USD), Massachusetts és Maryland (mindkettő 5 perces finom sapkákkal, közel 25 000 USD), és Connecticut mintával (3 perc)250–5000 USD).DC technikailag vezeti a szabálysértési listát 500–5000 dollárral, valamint az agresszív végrehajtással."
+    },
+    {
+      "heading": null,
+      "body": "**A parkoló klíma megfelel az alapjárati szabályoknak?**"
+    },
+    {
+      "heading": null,
+      "body": "Igen minden aktív szabállyal rendelkező állapotban, feltéve, hogy az egység SmartWay által igazolt vagy elismert az állam „alternatív technológiai” kivétele szerint.A csak akkumulátoros parkoló AC (nem jár főmotor) a legtisztább megfelelőségi testhelyzet, amelyet Kalifornia, NJ, NY, MD és CA kifejezetten megnevez szabályszövegében.Tekintse meg a [no idle truck AC primer](/blog/no-idle-truck-ac/) című dokumentumot a jogalapért egyszerű angol nyelven."
+    },
+    {
+      "heading": null,
+      "body": "**Van szövetségi alapjárati törvény a teherautókra?**"
+    },
+    {
+      "heading": null,
+      "body": "Nem létezik egyetlen szövetségi tétlenségi törvény, de az EPA Clean Air Act keretrendszere és a SmartWay ellenőrzött lista programja hatékonyan szabványosítja azt, hogy mi számít megfelelésnek az aktív szabályokkal rendelkező 19 államban.Az FMCSA HOS szabályai külön előírják a lakható alvóhelyi pihenést, ami a gyakorlatban kölcsönhatásba lép az alapjárat-gátló szabályokkal."
+    },
+    {
+      "heading": null,
+      "body": "**Mekkora az átlagos üzemanyagköltség egy 8-as osztályú teherautó 10 órán át tartó üresjáratában?**"
+    },
+    {
+      "heading": null,
+      "body": "A 0,8 gal/óra főmotor alapjárati sebessége és a 2026. májusi országos dízelolaj átlaga 3,95 dollár/gal, a 10 órás pihenőidő **31,60 dollárba kerül csak üzemanyagban** – plusz nagyjából 3 dollárba kerül a gyorsított motorkopás és a nagy kockázat, ha szabályozott helyen tartózkodik.Évente több mint 140 hűsítő éjszaka, ami összeadódik a fenti ROI-kalkulátorban használt 4779 dolláros számmal."
+    },
+    {
+      "heading": null,
+      "body": "**Mennyit takaríthat meg egy flotta évente tehergépkocsinként parkoló klímaberendezéssel?**"
+    },
+    {
+      "heading": null,
+      "body": "Az országos átlag **3589 USD / teherautó / év** nettó hardver amortizáció.A magas szintű végrehajtást igénylő államokban ez a szám 4500+ dollárra emelkedik, mivel a finom kockázati komponens növekszik.Egy 50 teherautóból álló flotta CA-nehéz sávokon általában több mint 200 000 dollárt takarít meg évente.Tekintse meg a [parkolási váltakozó áramú üzemanyag-megtakarítási kalkulátort](/blog/parking-ac-fuel-savings-calculator/) a szerkeszthető bemenetekkel rendelkező modellért, az [alapjárati törvény áttekintése] (/blog/no-idle-ac-anti-idling-laws/) pedig a szabályozási háttérért."
+    },
+    {
+      "heading": null,
+      "body": "**Mi a helyzet a DEF-fagyással hideg időben?**"
+    },
+    {
+      "heading": null,
+      "body": "A DEF (dízel kipufogófolyadék) 12°F közelében kristályosodni kezd.A legtöbb hideg állapotú üresjárati szabály (NJ, NH, VT, Minnesota Twin Cities) tartalmaz egy 25°F alatti mentességet, amely kifejezetten lefedi a DEF-védelmet, de a tisztább megoldás 2026-ban a SmartWay által igazolt dízel tüzelésű emeletes fűtés + akkumulátor parkoló AC kombináció, amely kezeli a motor hűtési kockázatát és a DEF téli alapjárati működését.Ezt a kombinációt jelenleg a legtöbb északi flotta RFP specifikálja."
+    },
+    {
+      "heading": null,
+      "body": "## A lényeg"
+    },
+    {
+      "heading": null,
+      "body": "A 2026-os alapjárat-ellenes törvények államonként nem lazulnak – nőnek a pénzbírságok, az állampolgárok bejelentésére szolgáló eszközök New York-ból más metrókra is terjednek, az FMCSA pedig kezdi az alapjárati szabálysértésekre biztonsági besorolásokkal hivatkozni.A matematika most szilárdan az akkumulátorparkoló AC oldalán áll: évi 1200 dollár alatti all-in, szemben a közel 5000 dollárral a semmittevés útjával, országosan kevesebb mint 14 hónap alatt, a nyugati parti sávokon pedig 9 hónap alatt megtérül."
+    },
+    {
+      "heading": null,
+      "body": "Ha segítségre van szüksége egy egység meghatározásához teherautójához vagy flottájához, a [CoolDrivePro VTH1 12V/24V akkumulátorparkoló AC](/products/vth1) a SmartWay-kompatibilis ajánlásunk, és a [__CDP_DP_s TERM_9_C_M_8összehasonlítás](/compare/12v-vs-24v-parking-ac/) a megfelelő hely a méretezés megkezdéséhez."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

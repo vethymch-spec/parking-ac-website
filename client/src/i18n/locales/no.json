@@ -2,9 +2,9 @@
   "nav": {
     "home": "Hjem",
     "products": "Produkter",
-    "topMountedAC": "Takmontert AC",
-    "miniSplitAC": "Mini split AC",
-    "heatingCoolingAC": "Varming/kjøling AC",
+    "topMountedAC": "Tak-AC",
+    "miniSplitAC": "Mini split",
+    "heatingCoolingAC": "Varme/kjøling",
     "allProducts": "Alle produkter",
     "forum": "Forum",
     "blog": "Blogg",
@@ -18,10 +18,10 @@
     "logout": "Logg ut"
   },
   "hero": {
-    "title": "Parkering klimaanlegg for off-grid liv og mobil komfort",
-    "subtitle": "12V og 24V DC klimaanlegg uten tomgang for semitrailere, bobiler og varebiler — Kjøling uten tomgang",
-    "ctaPrimary": "Kjøp produkter",
-    "ctaSecondary": "Lær mer",
+    "title": "12V/24V parkeringsklimaanlegg for lastebiler, bobiler, varebiler og flåter",
+    "subtitle": "CoolDrivePro bygger 12V/24V DC parkeringsklimaanlegg og kjølesystemer uten tomgang for semi-lastebiler, RVs, varebiler, bobiler, flåter, forhandlere og installatører – med B2B-priser, USA-basert garantistøtte og monteringsveiledning.",
+    "ctaPrimary": "Få tilpasningsanbefaling",
+    "ctaSecondary": "Be om tilbud fra forhandler",
     "badge": "Nyhet",
     "trustedBy": "Stolt av over 10 000 sjåfører verden over"
   },
@@ -36,7 +36,7 @@
     "features": "Funksjoner",
     "reviews": "Kundeanmeldelser",
     "warranty": "Garanti",
-    "freeShipping": "Gratis frakt",
+    "freeShipping": "Fakturastøtte",
     "support": "Støtte 24/7",
     "topMounted": {
       "title": "Takmontert klimaanlegg 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Kjøler opptil 80 kvadratfot"
     },
     "miniSplit": {
-      "title": "Mini split klimaanlegg 12000 BTU",
-      "subtitle": "12V DC klimaanlegg uten tomgang for semitrailere og bobiler",
+      "title": "12V/24V Mini Split Parkering AC for semi-sovende førerhus og bobiler",
+      "subtitle": "CoolDrivePro VX3000SP er et 12V/24V DC mini delt parkeringsklimaanlegg som leverer 12 000 BTU/t uten tomgangskjøling for semi-sovende førerhus, bobiler, varebiler og bobiler.Innendørsfordamperen kjører på ≤32 dB ved hjelp av en GMCC dobbeltroterende inverterkompressor, slik at sjåførene kan sove gjennom en parkert natt uten å gå på tomgang.",
       "btu": "12 000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 timer",
@@ -59,14 +59,19 @@
       "specifications": "Spesifikasjoner",
       "reviews": "Kundeanmeldelser",
       "faq": "FAQ",
-      "freeShipping": "Gratis frakt",
-      "warranty": "Garanti 2 år",
+      "freeShipping": "Fakturastøtte",
+      "warranty": "1 års garanti",
       "returns": "Retur 30 dager",
       "inStock": "På lager",
       "outOfStock": "Utsolgt",
       "quantity": "Antall",
       "techSpecs": "Tekniske spesifikasjoner",
-      "relatedProducts": "Du liker kanskje også"
+      "relatedProducts": "Du liker kanskje også",
+      "warrantyDesc": "1 års produsentgaranti som dekker feil i materialer og utførelse."
+    },
+    "heatingCoolingAC": {
+      "title": "12V/24V oppvarming og kjøling Parkering AC for lastebiler og bobiler",
+      "subtitle": "CoolDrivePro V-TH1 er et 12V/24V DC varmepumpe parkeringsklimaanlegg som leverer 2000 W kjøling og oppvarming for semi-lastebiler, bobiler, varebiler og spesialkjøretøyer.Den bruker en GMCC dobbeltroterende kompressor med R134a kjølemiddel og kan øke førerhusets temperatur fra 5 °C til 30 °C på omtrent 30 minutter – ingen motor går på tomgang og ingen landstrøm kreves."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Avbryt",
     "posting": "Poster...",
     "model": "Modell"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1 års garanti"
+    }
   }
 }

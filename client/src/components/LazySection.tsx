@@ -1,44 +1,31 @@
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { type ReactNode } from "react";
 
 interface LazySectionProps {
   children: ReactNode;
-  /** How far before the viewport to start rendering (px). Default 200. */
+  /** @deprecated Kept for API compatibility; no longer used. */
   rootMargin?: string;
-  /** Minimum height placeholder to prevent CLS. Default "100px". */
+  /** Placeholder min-height reserved while the lazy chunk is still loading. */
   minHeight?: string;
 }
 
 /**
- * Defers rendering of children until the placeholder scrolls near the viewport.
- * Uses IntersectionObserver for zero main-thread cost while off-screen.
+ * Renders children directly and keeps them mounted at their real height.
+ *
+ * Previously this used an IntersectionObserver to mount/unmount children, and a
+ * `content-visibility` variant reserved only an estimated height. Both caused
+ * the total document height to change while scrolling (the app boots with
+ * `createRoot`, which wipes the prerendered HTML, so off-screen sections started
+ * collapsed and then expanded section-by-section as you scrolled). That made the
+ * whole page "jump" and never settle.
+ *
+ * Rendering children inline means each section always occupies its true height,
+ * so the document height is stable and the scroll position stays anchored. The
+ * `minHeight` only reserves space during the brief window before the lazily
+ * imported chunk finishes loading. Code-splitting is still provided by `lazy()`.
  */
 export default function LazySection({
   children,
-  rootMargin = "300px",
   minHeight = "100px",
 }: LazySectionProps) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.disconnect();
-        }
-      },
-      { rootMargin }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [rootMargin]);
-
-  if (visible) return <>{children}</>;
-
-  return <div ref={ref} style={{ minHeight }} />;
+  return <div style={{ minHeight }}>{children}</div>;
 }

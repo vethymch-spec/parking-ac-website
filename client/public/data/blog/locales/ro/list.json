@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Ghidul cumpărătorului pentru furnizorii de AC pentru parcare B2B: rubrică în 9 dimensiuni + compararea celor mai bune 10 mărci (2026)",
+    "category": "Ghiduri de cumpărare",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Cum ar trebui să evalueze flotele, dealerii, OEM și cumpărătorii en-gros furnizorii de AC pentru parcare în 2026. Rubrică de punctare în 9 dimensiuni, MOQ + termen de livrare + criterii de certificare și o revizuire s..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Legile împotriva mersului în gol pentru stat cu stat 2026: Căutare în 50 de state + Calculator ROI AC pentru parcare",
+    "category": "Reglementări și conformitate",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Toate cele 50 de legi de stat americane împotriva mersului în gol pentru 2026 într-un singur tabel — intervale de amendă, limite de 5 față de 15 minute, scutiri de dormitor/DEF și un ROI funcțional care arată modul în..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Ghid complet al aparatelor de aer condiționat pentru parcarea camioanelor în Vietnam (2026)",
+    "category": "Ghiduri de cumpărare",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Ghid 2026 pentru parcarea camioanelor AC în Vietnam: 9000 BTU sisteme pentru Autostrada Nord-Sud, economii de combustibil (12-18L/zi), costuri de instalare și considerații climatice regionale de la Hanoi la Ho Chi Min..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Parcare AC pentru șoferii de porturi și containere din orașul Ho Chi Minh (Cat Lai, Cai Mep)",
+    "category": "Ghiduri regionale",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "De ce șoferii de containere Cat Lai și Cai Mep din Ho Chi Minh City au nevoie de o parcare de 9000 BTU AC: timpi lungi de așteptare, presiune anti-repaus și rentabilitatea investiției pentru răcirea cabinei pentru log..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Parcare AC pentru camioanele agricole și cu lanț de rece din Delta Mekong",
+    "category": "Ghiduri regionale",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Operatorii de camioane agricole și cu lanțul rece din Delta Mekong din Can Tho, Tien Giang și Long An se bazează pe parcare AC pentru a-și menține șoferii odihniți în timpul așteptărilor lungi cu feribotul și opririlo..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Parcare AC pentru Autostrada Nord-Sud (CT.01): Ghid pentru șofer pe distanță lungă",
+    "category": "Ghiduri regionale",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Cum șoferii pe distanțe lungi de pe autostrada CT.01 Nord-Sud din Vietnam folosesc un aparat de aer condiționat de parcare 9000 BTU pentru a se odihni în mod legal, pentru a economisi 12-18 L de motorină pe noapte și..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Parcare AC pentru autocarele turistice vietnameze și autobuzele de dormit (Da Nang, Nha Trang, Phu Quoc)",
+    "category": "Ghiduri regionale",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Modul în care operatorii de autobuze turistice și autobuze de dormit din Da Nang, Nha Trang, Hoi An și Phu Quoc folosesc AC parcare pentru a menține șoferii odihniți și vehiculele să respecte politicile anti-repaus la..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Aer condiționat pentru studiouri mobile de yoga și furgonete de wellness",
+    "category": "Specialitate",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "Descoperiți soluții esențiale de aer condiționat pentru studiourile mobile de yoga și furgonetele de wellness.Asigurați un control optim al temperaturii (68-72°F) cu AC parcare fiabil."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Parcare AC pentru nomazi digitali care locuiesc în RVs: Confort de lucru de oriunde",
+    "category": "Stil de viață",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "Ghid esențial pentru parcarea AC pentru RV nomazi digitali.Rămâneți răcoros și productiv în timp ce lucrați de la distanță de pe RV cu sistemul de climatizare potrivit."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Rămâi calm la RV mitinguri și festivaluri: Sfaturi pentru parcare AC pentru evenimente",
+    "category": "Stil de viață",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "Maestru RV raliuri cu parcare AC!Obțineți sfaturi de experți despre răcirea suplimentară, dimensionarea bateriei și instalare pentru o experiență confortabilă a evenimentului."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Ghidul Van Dweller pentru parcare AC: Locuința cu normă întreagă în vehiculul tău",
+    "category": "Van Life",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "Ghid esențial pentru alegerea și instalarea AC de parcare pentru locuitorii dubițelor.Rămâi răcoros și confortabil în casa ta mobilă cu sfaturi de specialitate."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Refrigerant R32 în AC de parcare de nouă generație: GWP mai scăzut și eficiență mai bună",
+    "category": "Tehnologia",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Descoperiți de ce agentul frigorific R32 devine alegerea preferată pentru AC parcare de ultimă generație, oferind un GWP mai scăzut și o eficiență îmbunătățită pentru vehiculele comerciale."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: comparație alăturată (2026)",
+    "category": "Comparație",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 cap la cap: putere de răcire, zgomot, consum de energie, complexitate de instalare, garanție și cost de proprietate pe 5 ani.Numere reale din teren."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Sisteme AC pentru camion fără ralanti: Cum să respectați legile de stat anti-ralanti (2026)",
+    "category": "Conformitate",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Legile împotriva mersului în gol de la stat și cum să respectați AC pentru camion fără ralanti.CARB (amenzi de 300 USD – 1.000 USD), peste 30 de limite de stat, EPA SmartWay și cele 5 sisteme care îndeplinesc c..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Calculator de dimensionare pentru parcare AC BTU: De câte BTU aveți cu adevărat nevoie?(2026)",
+    "category": "Ghid de cumpărare",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] De câte BTUs are nevoie de cabina de dormit sau de RV dormitor?Formula pas cu pas plus tabele pentru camioanele din clasa 8 (5.000–10.000 BTU), camionete Sprinter (6.000–8.000 BTU) și RV_s (12.000–12.000)BTU)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Costul instalării AC pentru parcare în 2026: tarife de magazin în funcție de stat și economii de bricolaj",
+    "category": "Ghid de cumpărare",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Costul instalării AC pentru parcare în funcție de stat: 400 USD–1.200 USD profesional, 0 USD–150 USD DIY.Tarife reale de magazin din CA, TX, FL, NY, plus defalcarea completă a costurilor unității, bateriei, cab..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Comparație de zgomot CA de parcare: niveluri reale dB testate la 3 picioare (2026)",
+    "category": "Comparație",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Am măsurat 12 unități de parcare AC cu un contor dB calibrat la 3 picioare.CoolDrivePro V-TH1 a atins 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Cifre reale, fără marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Consumul de curent alternativ al camionului: wați, amperi și descărcarea bateriei explicate (2026)",
+    "category": "Putere și baterie",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Consumul de curent alternativ al camionului explicat: 480W în medie, 9A la 24V, 38–55Ah pe noapte.Numerele reale, formulele pentru dimensionarea bateriei și modul în care compresoarele cu inverter reduc trage 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Aer condiționat alimentat cu baterie RV: Ghidul complet al cumpărătorului 2026",
+    "category": "Ghiduri de cumpărare",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Ghid complet pentru 2026 pentru aparatele de aer condiționat alimentate cu baterii RV.Native 12V/24V DC vs setări invertor, date reale de rulare LiFePO4 (220Ah → 8–11 ore), 1.500 USD–3.800 USD intervale de preț compen..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Cum se instalează un AC de parcare: Ghid pas cu pas pentru 2026",
+    "category": "Ghiduri de instalare",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Ghid pas cu pas 2026 pentru instalarea unui AC de parcare: pregătirea acoperișului, decupaj 14x14, garnitură, cablare (4 AWG, siguranță 80A), punere în funcțiune.6–9 ore DIY, 325 USD în părți dincolo de unitate."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Baterie pentru parcare AC: Ghid de dimensionare și cablare 2026",
+    "category": "Ghiduri de utilizare",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 ghid de dimensionare pentru parcare AC: 220Ah (1.400 USD), 280Ah (1.750 USD), 400Ah (2.400 USD) opțiuni cu matematică de 8 ore de funcționare, specificații BMS/siguranțe/cablu."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "AC parcare nu se răcește?Ghid de depanare 2026 (pas cu pas)",
+    "category": "Depanare",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "Ghid pas cu pas 2026 pentru repararea unui AC de parcare care nu se va răci.Căderea tensiunii, agent frigorific, condensator murdar, termostat, BMS — diagnosticați în 30 de minute, reparații de la 0 USD la 280 USD."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC vs APU: comparație costuri și performanțe în 2026 pentru flote",
+    "category": "Recenzii și comparații",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Ghid de decizie privind flota 2026: parcare AC vs APU.TCO de 5 ani cu motorină de 4,05 USD — DC parcare AC economisește 9.800 USD–14.200 USD/camion față de motorină APU, 3.200 USD–5.400 USD față de ralanti."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs 24V Parcare AC în 2026: Ghid de decizie pentru camion, RV și furgonetă",
+    "category": "Ghidul Cumpărătorului",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V vs 24V parcare AC în 2026: potriviți tensiunea nativă a vehiculului dvs.Defalcare completă a ecartamentului cablului, costului bateriei, eficienței, duratei de funcționare și când are sens un convertor.Matrice de..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Cel mai bun aparat de aer condiționat pentru parcare în 2026: 9 alegeri de top comparate (camioane, RV-uri și camionete)",
+    "category": "Ghidul Cumpărătorului",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 cele mai bune aparate de aer condiționat de parcare testate pentru 2026: alăturate BTU, zgomot, remiză, preț și performanță reală pentru semi-camioane, RV-uri, camionete sprinter și flote.Câștigătorul alege în funcț..."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Ghid de cumpărare a aerului condiționat pentru parcare 2026: Cum să alegeți unitatea potrivită (fără a pierde 1.500 USD)",
+    "category": "Ghidul Cumpărătorului",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "Ghid de cumpărare AC pentru parcare pentru 2026: cadru de decizie în 7 pași, tabel de dimensionare BTU, praguri de specificații, bugete de costuri pe nivel și cele 5 greșeli care transformă un AC de 1.500 USD în rebut..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Calculator de economii de combustibil pentru parcare AC 2026: Costul inactiv față de DC Parcare AC față de APU",
+    "category": "Instrumente și calculatoare",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "Calculați economiile exacte de combustibil dintr-un DC parcare AC vs ralanti vs motorină APU.Prețurile combustibilului în 2026, cicluri de funcționare reale, rentabilitatea investiției pe viață.Exemple lucrate pentru..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Aer condiționat de parcare pentru umiditatea de coastă din Alexandria: combaterea provocărilor climatice mediteraneene ale Egiptului",
     "category": "Aplicații pentru flote",
@@ -744,52 +976,12 @@
     "excerpt": "Asigurați siguranța animalelor și a echipamentelor în clinicile veterinare mobile cu soluții de parcare de încredere AC.Critic pentru medicamente și bunăstare."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Aer condiționat pentru studiouri mobile de yoga și furgonete de wellness",
-    "category": "Specialitate",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "Descoperiți soluții esențiale de aer condiționat pentru studiourile mobile de yoga și furgonetele de wellness.Asigurați un control optim al temperaturii (68-72°F) cu AC parcare fiabil."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Parcare AC pentru nomazi digitali care locuiesc în RVs: Confort de lucru de oriunde",
-    "category": "Stil de viață",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "Ghid esențial pentru parcarea AC pentru RV nomazi digitali.Rămâneți răcoros și productiv în timp ce lucrați de la distanță de pe RV cu sistemul de climatizare potrivit."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Rămâi calm la RV mitinguri și festivaluri: Sfaturi pentru parcare AC pentru evenimente",
-    "category": "Stil de viață",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "Maestru RV raliuri cu parcare AC!Obțineți sfaturi de experți despre răcirea suplimentară, dimensionarea bateriei și instalare pentru o experiență confortabilă a evenimentului."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Ghidul Van Dweller pentru parcare AC: Locuința cu normă întreagă în vehiculul tău",
-    "category": "Van Life",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "Ghid esențial pentru alegerea și instalarea AC de parcare pentru locuitorii dubițelor.Rămâi răcoros și confortabil în casa ta mobilă cu sfaturi de specialitate."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Costul instalării aerului condiționat de parcare: Defalcare completă a prețului 2025",
     "category": "Finanțe",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Detaliați costul complet de instalare a aparatului de aer condiționat de parcare pentru 2025. Obțineți informații despre factorii care afectează prețul, de la tipul de unitate până la upgrade-uri electrice."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Refrigerant R32 în AC de parcare de nouă generație: GWP mai scăzut și eficiență mai bună",
-    "category": "Tehnologia",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Descoperiți de ce agentul frigorific R32 devine alegerea preferată pentru AC parcare de ultimă generație, oferind un GWP mai scăzut și o eficiență îmbunătățită pentru vehiculele comerciale."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -896,14 +1088,6 @@
     "excerpt": "Descoperiți cele mai bune aparate de aer condiționat de parcare pentru semi-camioane în 2025. Ghidul nostru pentru cumpărători acoperă alegerile de top, tipurile și factorii esențiali pentru șoferii de camion."
   },
   {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V vs 24V Aer condiționat de parcare: care este potrivit pentru camionul dvs. sau RV?",
-    "category": "Tehnologia",
-    "date": "8 martie 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "Alegeți între 12V și 24V pentru parcare AC pentru camionul dvs. sau RV?Acest ghid cuprinzător detaliază avantajele, contra și aplicațiile ideale ale fiecărui sistem, ajutându-vă să luați o decizie informată pentru con..."
-  },
-  {
     "slug": "no-idle-ac-anti-idling-laws",
     "title": "Aer condiționat fără ralanti: modul în care AC-urile de parcare îi ajută pe șoferii de camion să respecte legile împotriva mersului în gol",
     "category": "Regulamente",
@@ -958,14 +1142,6 @@
     "date": "18 februarie 2025",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
     "excerpt": "Descoperiți de ce aparatele de aer condiționat alimentate cu DC transformă RV și răcirea camioanelor.Aflați despre eficiență, compatibilitatea bateriei și cele mai bune opțiuni de 12V DC pentru parcare."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Cât de mult combustibil economisește un aparat de aer condiționat de parcare?Numere reale și Calculator ROI",
-    "category": "Ghid",
-    "date": "15 februarie 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "Descoperiți cât de mult combustibil vă poate economisi un aparat de aer condiționat de parcare.Ghidul nostru oferă numere reale, un calculator ROI și sfaturi pentru camioane, RV-uri și furgonete."
   },
   {
     "slug": "parking-ac-vs-generator",
@@ -1096,14 +1272,6 @@
     "excerpt": "Descoperiți cum regulatoarele solare MPPT optimizează RV aerul condiționat.Aflați despre cele mai bune alegeri, ghiduri de configurare și depanare pentru o răcire eficientă în afara rețelei cu CoolDrivePro."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Ghid de cumpărare a aerului condiționat pentru parcare 2025: tot ce trebuie să știți înainte de a cumpăra",
-    "category": "Ghidul Cumpărătorului",
-    "date": "20 noiembrie 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "Ghid complet de cumpărare a aparatului de aer condiționat de parcare pentru 2025.Comparați evaluările BTU, 12V vs 24V, montat în partea de sus vs mini split și găsiți cel mai bun AC pentru parcare pentru camionul dvs...."
-  },
-  {
     "slug": "parking-ac-for-camper-van-conversion",
     "title": "Parcare AC pentru conversii de rulotă: tot ce trebuie să știți",
     "category": "Van Life",
@@ -1158,10 +1326,6 @@
     "date": "18 ianuarie 2025",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-warranty-what-to-know_1bfe9913.webp",
     "excerpt": "Investiția într-o garanție de parcare AC pentru camionul, RV sau camioneta dvs. este o decizie crucială care poate oferi liniște sufletească și protecție împotriva costurilor neașteptate de reparații.Acest ghid cuprin..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-air-conditioner-comparison-2025",

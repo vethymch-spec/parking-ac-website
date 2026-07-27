@@ -7,7 +7,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { Link } from "wouter";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { trackGoogleAdsConversion } from "@/lib/googleAds";
+import { buildLeadEmailBody, collectLeadAttribution, submitToWeb3Forms, WEB3FORMS_KEY } from "@/lib/leadForms";
 
 const infoLinks = [
   { label: "About Us", href: "/about" },
@@ -21,62 +22,97 @@ const infoLinks = [
 
 const serviceLinks = [
   { label: "Warranty", href: "/warranty" },
-  { label: "Return Policy", href: "/return-policy" },
+  { label: "Return & Refund Policy", href: "/return-policy" },
   { label: "Shipping Policy", href: "/shipping-policy" },
   { label: "Privacy Policy", href: "/privacy-policy" },
-  { label: "Terms of Service", href: "/privacy-policy", placeholder: false },
+  { label: "Terms of Service", href: "/terms-of-service", placeholder: false },
+  { label: "Payment Method", href: "/payment-method", placeholder: false },
+  { label: "Billing Terms", href: "/billing-terms", placeholder: false },
 ];
 
-const customerLinks = [
-  { label: "Community Forum", href: "/forum", placeholder: false },
-  { label: "Support", href: "/support", placeholder: false },
+const paymentBrands = [
+  { label: "American Express", text: "AMEX", style: { fontWeight: 900, letterSpacing: "0.02em" } },
+  { label: "Mastercard", text: "mastercard", style: { fontWeight: 700, fontStyle: "italic", letterSpacing: "-0.01em" } },
+  { label: "Visa", text: "VISA", style: { fontWeight: 900, letterSpacing: "0.08em" } },
+  { label: "Klarna", text: "Klarna.", style: { fontWeight: 700 } },
+  { label: "Stripe", text: "stripe", style: { fontWeight: 700, letterSpacing: "-0.02em" } },
+  { label: "PayPal", text: "PayPal", style: { fontWeight: 800, fontStyle: "italic", letterSpacing: "-0.01em" } },
 ];
-
-const bottomLinks = [
-  { label: "Return Policy", href: "/return-policy" },
-  { label: "Privacy Policy", href: "/privacy-policy" },
-  { label: "Terms of Service", href: "/privacy-policy" },
-  { label: "Shipping Policy", href: "/shipping-policy" },
-];
-
-const paymentIcons = ["VISA", "MC", "AMEX", "PayPal", "Discover", "Apple Pay"];
 
 export default function Footer() {
   const { t } = useTranslation();
   const [email, setEmail] = useState("");
+  const [vehicle, setVehicle] = useState("");
+  const [submitting, setSubmitting] = useState(false);
 
   // Navigation links with translation
   const infoLinks = [
-    { label: t('nav.about'), href: "/about" },
-    { label: t('nav.contact'), href: "/contact" },
-    { label: t('nav.topMountedAC'), href: "/products/top-mounted-ac" },
-    { label: t('nav.miniSplitAC'), href: "/products/mini-split-ac" },
-    { label: t('nav.heatingCoolingAC'), href: "/products/heating-cooling-ac" },
-    { label: t('nav.contact'), href: "/contact", placeholder: false },
-    { label: t('nav.brandKnowledge'), href: "/brand-knowledge", placeholder: false },
+    { label: t('nav.about'), href: "/about/" },
+    { label: t('nav.contact'), href: "/contact/" },
+    { label: "Buy Wholesale", href: "/contact/", placeholder: false },
+    { label: t('nav.brandKnowledge'), href: "/brand-knowledge/", placeholder: false },
+    { label: "Vehicle Compatibility", href: "/vehicle-compatibility/", placeholder: false },
+    { label: "Dealer Fitment Guide", href: "/dealer-guide/parking-ac-local-market-fitment/", placeholder: false },
+  ];
+
+  const productLinks = [
+    { label: t('nav.topMountedAC'), href: "/products/top-mounted-ac/" },
+    { label: t('nav.miniSplitAC'), href: "/products/mini-split-ac/" },
+    { label: t('nav.heatingCoolingAC'), href: "/products/heating-cooling-ac/" },
+    { label: "Truck Air Conditioner Guide", href: "/solutions/truck-ac/", placeholder: false },
+    { label: "12V Air Conditioner Guide", href: "/solutions/12v-air-conditioner/", placeholder: false },
+    { label: "12V RV Air Conditioner", href: "/solutions/12v-rv-air-conditioner/", placeholder: false },
+    { label: "12V Van Air Conditioner", href: "/solutions/12v-air-conditioner-for-van/", placeholder: false },
+    { label: "Portable AC for Truck", href: "/solutions/portable-ac-for-truck/", placeholder: false },
   ];
 
   const serviceLinks = [
-    { label: t('footer.warranty'), href: "/warranty" },
-    { label: t('footer.returns'), href: "/return-policy" },
-    { label: t('footer.shipping'), href: "/shipping-policy" },
-    { label: t('footer.privacy'), href: "/privacy-policy" },
-    { label: t('footer.terms'), href: "/privacy-policy" },
-    { label: t('nav.paymentMethod'), href: "#", placeholder: true },
-    { label: t('nav.billingTerms'), href: "#", placeholder: true },
+    { label: t('footer.warranty'), href: "/warranty/" },
+    { label: t('footer.returns'), href: "/return-policy/" },
+    { label: t('footer.shipping'), href: "/shipping-policy/" },
+    { label: t('footer.privacy'), href: "/privacy-policy/" },
+    { label: t('footer.terms'), href: "/terms-of-service/" },
+    { label: t('nav.paymentMethod'), href: "/payment-method/" },
+    { label: t('nav.billingTerms'), href: "/billing-terms/" },
   ];
 
-  const customerLinks = [
-    { label: t('nav.forum'), href: "/forum", placeholder: false },
-    { label: t('nav.trackOrder'), href: "#", placeholder: true },
-    { label: t('nav.account'), href: "#", placeholder: true },
-  ];
-
-  const handleSubscribe = (e: React.FormEvent) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
-      toast("Thanks for subscribing!");
+    if (!email || !vehicle) return;
+
+    setSubmitting(true);
+    const payload: Record<string, string> = {
+      from_name: "CoolDrivePro Footer Inquiry Form",
+      subject: "[Footer Inquiry] Quick fitment request",
+      source_page: typeof window !== "undefined" ? window.location.href : "footer",
+      lead_variant: "footer_compact_inquiry",
+      email,
+      vehicle,
+      ...collectLeadAttribution(),
+    };
+
+    try {
+      if (!WEB3FORMS_KEY) {
+        window.location.href = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+        trackGoogleAdsConversion("lead", {
+          lead_variant: "footer_compact_inquiry",
+          submission_method: "mailto_fallback",
+        });
+      } else {
+        await submitToWeb3Forms(payload);
+        trackGoogleAdsConversion("lead", {
+          lead_variant: "footer_compact_inquiry",
+          submission_method: "web3forms",
+        });
+      }
+      toast("Request received. We will reply with fitment guidance.");
       setEmail("");
+      setVehicle("");
+    } catch (error) {
+      window.location.href = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+      toast("Email fallback opened.");
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -158,25 +194,35 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Customer */}
+          {/* Products */}
           <div>
             <h4
               className="text-xs font-bold uppercase tracking-widest mb-4"
               style={{ color: "oklch(0.65 0.06 240)", fontFamily: "'Montserrat', sans-serif" }}
             >
-              {t('footer.support')}
+              {t('nav.products') !== 'nav.products' ? t('nav.products') : 'Products'}
             </h4>
             <ul className="space-y-2">
-              {customerLinks.map((link) => (
+              {productLinks.map((link) => (
                 <li key={link.label}>
-                  <a
-                    href={link.href}
-                    onClick={handlePlaceholder}
-                    className="text-sm transition-colors hover:text-white"
-                    style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
-                  >
-                    {link.label}
-                  </a>
+                  {link.placeholder ? (
+                    <a
+                      href={link.href}
+                      onClick={handlePlaceholder}
+                      className="text-sm transition-colors hover:text-white"
+                      style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
+                    >
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="text-sm transition-colors hover:text-white"
+                      style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
+                    >
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -204,6 +250,21 @@ export default function Footer() {
               support@cooldrivepro.com
             </a>
             <p
+              className="text-sm leading-relaxed mb-3"
+              style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
+            >
+              US Sales &amp; Support Office:<br />
+              3429 Turkey Pen Lane<br />
+              Montgomery, AL 36104<br />
+              United States
+            </p>
+            <p
+              className="text-sm leading-relaxed mb-3"
+              style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
+            >
+              Manufactured by Qingdao Vethy Industrial Co., Ltd. (ISO 9001:2015) — the parent company behind the CoolDrivePro brand.
+            </p>
+            <p
               className="text-sm leading-relaxed"
               style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
             >
@@ -212,24 +273,40 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Email Subscribe */}
+        {/* Compact inquiry */}
         <div className="border-t border-white/10 pt-10 pb-4">
           <p
             className="text-center text-sm font-semibold mb-4"
             style={{ color: "oklch(0.80 0.04 240)", fontFamily: "'Montserrat', sans-serif" }}
           >
-            {t('footer.newsletter.title')}
+            Send vehicle details for a quick fitment reply
           </p>
           <form
             onSubmit={handleSubscribe}
-            className="flex max-w-md mx-auto"
+            className="mx-auto grid max-w-3xl grid-cols-1 gap-2 sm:grid-cols-[1fr_1fr_auto]"
           >
             <input
               type="email"
+              name="email"
+              required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder={t('footer.newsletter.placeholder')}
-              className="flex-1 px-4 py-2.5 text-sm rounded-l-lg outline-none border border-white/20 focus:border-blue-400 transition-colors"
+              placeholder="Email *"
+              className="h-11 rounded-lg border border-white/20 px-4 text-sm outline-none transition-colors focus:border-blue-400"
+              style={{
+                backgroundColor: "oklch(0.30 0.08 248)",
+                color: "white",
+                fontFamily: "'Inter', sans-serif",
+              }}
+            />
+            <input
+              type="text"
+              name="vehicle"
+              required
+              value={vehicle}
+              onChange={(e) => setVehicle(e.target.value)}
+              placeholder="Vehicle / voltage *"
+              className="h-11 rounded-lg border border-white/20 px-4 text-sm outline-none transition-colors focus:border-blue-400"
               style={{
                 backgroundColor: "oklch(0.30 0.08 248)",
                 color: "white",
@@ -238,13 +315,14 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="px-5 py-2.5 text-sm font-bold text-white rounded-r-lg transition-opacity hover:opacity-90"
+              disabled={submitting}
+              className="h-11 rounded-lg px-5 text-sm font-bold text-white transition-opacity hover:opacity-90 disabled:cursor-wait disabled:opacity-70"
               style={{
                 backgroundColor: "oklch(0.45 0.18 255)",
                 fontFamily: "'Montserrat', sans-serif",
               }}
             >
-              {t('footer.newsletter.subscribe')}
+              {submitting ? "Sending..." : "Send"}
             </button>
           </form>
         </div>
@@ -281,9 +359,25 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Language Switcher */}
-        <div className="border-t border-white/10 pt-6 pb-4 flex justify-center">
-          <LanguageSwitcher variant="footer" />
+        {/* Payment Brands */}
+        <div
+          className="border-t border-white/10 pt-6 pb-2 flex flex-wrap items-center justify-center gap-x-8 gap-y-3"
+          aria-label="Accepted payment methods"
+        >
+          {paymentBrands.map(({ label, text, style }) => (
+            <span
+              key={label}
+              title={label}
+              className="text-base sm:text-lg"
+              style={{
+                color: "oklch(0.78 0.04 240)",
+                fontFamily: "'Inter', sans-serif",
+                ...style,
+              }}
+            >
+              {text}
+            </span>
+          ))}
         </div>
       </div>
 
@@ -292,46 +386,13 @@ export default function Footer() {
         className="border-t border-white/10"
         style={{ backgroundColor: "oklch(0.18 0.07 248)" }}
       >
-        <div className="max-w-[1280px] mx-auto px-4 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="max-w-[1280px] mx-auto px-4 lg:px-8 py-5 flex items-center justify-center gap-4">
           <p
             className="text-xs"
             style={{ color: "oklch(0.60 0.04 240)", fontFamily: "'Inter', sans-serif" }}
           >
             © 2025, CoolDrivePro. {t('footer.rights')}
           </p>
-
-          {/* Payment Icons */}
-          <div className="flex items-center gap-2 flex-wrap justify-center">
-            {paymentIcons.map((icon) => (
-              <div
-                key={icon}
-                className="px-2 py-1 rounded text-xs font-bold"
-                style={{
-                  backgroundColor: "oklch(0.30 0.06 248)",
-                  color: "oklch(0.75 0.04 240)",
-                  fontFamily: "'Inter', sans-serif",
-                  fontSize: "0.6rem",
-                  minWidth: "36px",
-                  textAlign: "center",
-                }}
-              >
-                {icon}
-              </div>
-            ))}
-          </div>
-
-          <div className="flex items-center gap-4">
-            {bottomLinks.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="text-xs hover:text-white transition-colors hidden sm:block"
-                style={{ color: "oklch(0.60 0.04 240)", fontFamily: "'Inter', sans-serif" }}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
         </div>
       </div>
     </footer>

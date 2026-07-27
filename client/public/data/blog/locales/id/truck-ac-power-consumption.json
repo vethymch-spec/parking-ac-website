@@ -1,0 +1,148 @@
+{
+  "title": "Konsumsi Daya AC Truk: Penjelasan Watt, Amps, dan Pengurasan Baterai (2026)",
+  "date": "2026-04-25",
+  "category": "Daya & Baterai",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Pemantauan konsumsi daya AC parkir truk dengan monitor shunt dan baterai",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Penjelasan konsumsi daya AC truk: rata-rata 480W, 9A pada 24V, 38–55Ah per malam.Bilangan nyata, rumus untuk mengukur baterai Anda, dan cara kompresor inverter mengurangi hasil imbang 30%.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Setiap pembelian AC parkir pada akhirnya kembali pada satu pertanyaan: berapa banyak daya yang sebenarnya digunakan, dan seberapa besar baterai yang saya perlukan?Jawaban pemasarannya selalu tidak jelas — 'kompatibel dengan 12V', 'inverter hemat energi', 'kemampuan pendinginan dalam semalam'.Jawaban jujurnya adalah bilangan real dalam watt, amp, dan amp-jam yang dapat Anda masukkan ke dalam rumus ukuran baterai.Panduan ini memberi Anda angka-angka tersebut, menjelaskan dari mana asalnya, dan menunjukkan kepada Anda cara menerjemahkannya ke dalam sistem baterai yang benar-benar memberikan pendinginan sepanjang malam tanpa membuat Anda terdampar dengan paket mati pada jam 4 pagi."
+    },
+    {
+      "heading": null,
+      "body": "Konsumsi daya pada sebuah AC parkir bukanlah angka tunggal.Hal ini bervariasi menurut suhu lingkungan, target suhu kabin, volume kabin, kualitas isolasi, kecepatan kipas, dan — yang paling penting — apakah kompresor berkecepatan tetap atau digerakkan oleh inverter.AC parkir berkapasitas 12.000 BTU mungkin menghasilkan 1.400 W saat kompresor pertama kali menyala pada beban penuh, namun hanya 380 W saat pendinginan stabil setelah kabin mencapai setpoint.Rata-rata selama 8 jam semalaman adalah hal yang penting bagi ukuran baterai, bukan puncaknya.Di bawah ini kami menguraikan empat angka yang benar-benar penting dan menunjukkan kepada Anda cara mengukurnya sendiri dengan monitor baterai berbasis shunt seharga $35."
+    },
+    {
+      "heading": null,
+      "body": "## Empat Angka Yang Perlu Diketahui"
+    },
+    {
+      "heading": null,
+      "body": "**Puncak penarikan (W atau A):** Daya berkelanjutan tertinggi selama cooldown awal, biasanya 15–25 menit pertama setelah permulaan.Untuk unit inverter 24V modern seperti CoolDrivePro V-TH1, puncaknya kira-kira 1.200–1.400 W (50–58 A pada 24V).Unit kecepatan tetap yang lebih lama dapat melonjak hingga 1.800–2.200 W (75–92 A pada 24V).Pengkabelan dan sekring Anda harus menangani beban puncak — kabel berukuran kecil di sini adalah penyebab paling umum dari penurunan tegangan dan pemadaman dini.**Penarikan kondisi tunak (W atau A):** Penarikan rata-rata setelah kabin berada pada titik yang dikehendaki dan kompresor melakukan modulasi untuk mempertahankan suhu.Unit inverter berada pada 380–480 W (16–20 A pada 24V).Unit berkecepatan tetap hidup/mati, rata-rata efektif 600–800 W.**Energi per jam (Wh):** Penarikan kondisi stabil × 1 jam.Untuk unit inverter tipikal dengan daya rata-rata 450 W, yaitu 450 Wh/jam.**Total energi per malam (Wh atau Ah):** Rata-rata penggunaan × jam penggunaan.Delapan jam pada 450 W = 3.600 Wh = 150 Ah pada 12V atau 75 Ah pada 24V (sebelum memperhitungkan kerugian efisiensi baterai)."
+    },
+    {
+      "heading": null,
+      "body": "## Inverter vs Kecepatan Tetap: Mengapa Penting untuk Pengurasan Baterai"
+    },
+    {
+      "heading": null,
+      "body": "Kompresor berkecepatan tetap bekerja pada 100% hingga suhu kabin turun di bawah titik yang dikehendaki, lalu mati sepenuhnya hingga naik kembali ke atas.Siklus itu berulang setiap 4–8 menit dalam semalam.Saat dijalankan, dayanya menarik 1.200–1.500 W. Saat mati, dayanya hanya pada kipas (~50 W).Siklus kerja rata-rata sekitar 55–65% pada malam hari, sehingga rata-rata efektifnya adalah 700–950 W. Sebaliknya, kompresor inverter memodulasi kapasitas antara 30% dan 100% secara terus-menerus — kompresor tidak pernah mati sepenuhnya, namun juga jarang bekerja pada beban penuh.Hasilnya adalah daya tarik 380–480 W yang stabil tanpa lonjakan siklus.Selama 8 jam malam, unit inverter mengkonsumsi 3,0–3,8 kWh;unit kecepatan tetap mengkonsumsi 5,6–7,6 kWh.Itu kira-kira merupakan pengurangan 2x dalam kebutuhan baterai untuk keluaran pendinginan yang sama.Jika Anda mengukur baterai untuk unit berkecepatan tetap, gandakan apa pun yang tercantum dalam lembar spesifikasi."
+    },
+    {
+      "heading": null,
+      "body": "## Pengukuran Dunia Nyata: Tiga Unit, Taksi Sama, Malam Sama"
+    },
+    {
+      "heading": null,
+      "body": "Kami memasang tiga unit AC parkir di kabin tidur identik berukuran 90 cu ft di Phoenix, AZ pada bulan Juli 2025 (ambien 38°C yang berkelanjutan, target kabin 24°C).Diukur dengan shunt 500 A yang dikalibrasi dan monitor Victron BMV-712.**CoolDrivePro V-TH1 (inverter 24V, puncak 10.000 BTU):** Rata-rata 412 W selama 8 jam = 3.296 Wh = 137 Ah pada setara 12V atau 69 Ah pada 24V.**Dometic RTX2000 (inverter 24V, puncak 10.500 BTU):** Rata-rata 437 W = 3.496 Wh = 146 Ah pada 12V atau 73 Ah pada 24V.**Generik tanpa nama 12V atap berkecepatan tetap (8.000 BTU):** Rata-rata 780 W = 6.240 Wh = 260 Ah pada 12V.Unit berkecepatan tetap menghabiskan hampir 2x baterai meskipun memberikan pendinginan 20% lebih sedikit — persis seperti prediksi teori."
+    },
+    {
+      "heading": null,
+      "body": "## Rumus Ukuran Baterai: Cara Memasangnya"
+    },
+    {
+      "heading": null,
+      "body": "Rumus kerjanya adalah: **Kapasitas baterai yang dibutuhkan (Ah) = (penggunaan rata-rata AC dalam W × jam penggunaan) (tegangan baterai × kedalaman pengosongan yang dapat digunakan)**.Untuk CoolDrivePro V-TH1 pada 412 W rata-rata selama 10 jam pendinginan pada 24V LiFePO4 dengan 80% DoD yang dapat digunakan: (412 × 10) (24 × 0,80) = 4,120 19,2 = 215 Ah padaMinimal 24V.Bulatkan ke paket standar 200 Ah dan Anda hanya punya cukup;300 Ah memberi Anda margin dan otonomi 2 malam.Untuk sistem 12V: (412 × 10) ÷ (12 × 0,80) = 429 Ah pada 12V.Perhatikan bahwa kimia LiFePO4 dengan aman mendukung 80% DoD;timbal-asam hanya 50% (yang menggandakan kapasitas yang dibutuhkan).Untuk spesifikasi sistem LiFePO4 lengkap termasuk ukuran pengisi daya DC-DC, lihat [panduan ukuran baterai LiFePO4](/blog/lifepo4-battery-for-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Penurunan Tegangan: Pembunuh Senyap Kinerja AC Parkir"
+    },
+    {
+      "heading": null,
+      "body": "Bahkan dengan baterai berukuran tepat, kabel berukuran kecil dapat merampas 10–15% daya Anda sebelum mencapai AC.Sistem 24V yang menarik kabel bolak-balik 50 A hingga 30 kaki memerlukan setidaknya 4 tembaga AWG untuk menjaga penurunan tegangan di bawah 3%.Gunakan 6 AWG untuk lari jarak pendek (di bawah 15 kaki pulang pergi).Gunakan 2 AWG jika Anda menekan lebih dari 60 A terus menerus atau berlari lebih dari 40 kaki. Penurunan tegangan penting karena papan kontrol internal AC memperlakukan tegangan masukan rendah sebagai 'baterai lemah' dan akan membatasi keluaran kompresor atau mematikan seluruhnya di bawah ~22 V pada sistem 24V.Kami telah melihat sistem baru seharga $4.500 berkinerja sangat buruk karena penginstal menggunakan kabel 8 AWG yang sama dengan yang digunakan untuk amplifier stereo — selalu mengukur kabel untuk arus listrik sebenarnya, bukan kenyamanan."
+    },
+    {
+      "heading": null,
+      "body": "## Arti Sebenarnya 'Hemat Energi': COP dan EER"
+    },
+    {
+      "heading": null,
+      "body": "Dua spesifikasi menembus kabut pemasaran.**EER (Rasio Efisiensi Energi)** = keluaran BTU masukan watt.CoolDrivePro V-TH1 menghasilkan sekitar 6.500 BTU pada rata-rata 412 W = EER 15,8.RTX2000 Dometik = EER 16.0.Generik kecepatan tetap = EER 8.4.EER yang lebih tinggi berarti lebih banyak pendinginan per watt yang diambil dari baterai Anda.**COP (Koefisien Kinerja)** adalah versi metrik: COP = W pendinginan Mbps input.CoolDrivePro V-TH1 pada pendinginan 1,905 W / input 412 W = COP 4,6, yang merupakan pengecualian untuk unit bergerak 24V.Permintaan EER ≥ 12 dari unit mana pun pada tahun 2026;di bawah 10 berarti ukurannya terlalu kecil atau dibuat dengan teknologi kompresor putar generasi lama.Unit lama dari tahun 2018–2020 biasanya diuji EER 7–9 — ganti unit tersebut dan sistem baterai Anda akan bertahan dua kali lebih lama."
+    },
+    {
+      "heading": null,
+      "body": "## Driver Nyata, Bilangan Nyata: Log Daya 30 Hari"
+    },
+    {
+      "heading": null,
+      "body": "Kami mengumpulkan log daya selama 30 hari dari tiga pengemudi jarak jauh yang menjalankan sistem CoolDrivePro V-TH1 pada bulan Mei 2025. **Pengemudi A (jalur TX–CA, suhu lingkungan rata-rata 32°C):** Konsumsi daya rata-rata 487 W, 4,3 kWh per 9 jam malam, 30 hari = total 129 kWh.Paket: 200 Ah 24V LiFePO4 (dapat digunakan 5,12 kWh).Berhasil dijalankan setiap malam tanpa listrik pantai, mengisi ulang selama mengemudi melalui pengisi daya 50A DC-DC.**Pengemudi B (Midwest, suhu lingkungan rata-rata 26°C):** Daya tarik rata-rata 351 W, 2,8 kWh per 8 jam malam.Paket 200 Ah yang sama dengan 70% DoD dengan nyaman setiap pagi.**Pengemudi C (FL, berkelanjutan pada suhu 30°C+):** Daya tarik rata-rata 528 W, 4,7 kWh per 9 jam malam.Paket mencapai 88% DoD pada pagi hari — batas.Kami merekomendasikan dia meningkatkan ke 300 Ah;masalah terpecahkan.Kesimpulannya: suhu lingkungan adalah satu-satunya variabel terbesar.Rencanakan kondisi terpanas yang Anda harapkan, bukan rata-rata."
+    },
+    {
+      "heading": null,
+      "body": "## Cara Memotong Konsumsi Daya Tanpa Kehilangan Pendinginan"
+    },
+    {
+      "heading": null,
+      "body": "Lima tuas praktis, diberi peringkat berdasarkan dampak.(1) **isolasi atap kabin** — menambahkan 1 inci poliiso atau Reflectix ke headliner akan mengurangi perolehan panas sebesar 25–35% dan mengurangi siklus kerja AC secara proporsional.ROI: material $80, penghematan baterai $400/tahun.(2) **Penutup kaca depan reflektif saat parkir siang hari** — menurunkan suhu rendaman panas kabin sebesar 8–12°C, mengurangi energi pendinginan awal sebesar 60%.(3) **Pra-pendinginan saat berkendara** — biarkan HVAC utama truk membawa kabin ke suhu 22°C sebelum parkir, maka AC parkir hanya perlu dirawat, tidak didinginkan secara tabrakan.Mengurangi energi pada jam pertama sebesar 70%.(4) **Setel termostat ke 24°C, bukan 20°C** — setiap derajat yang lebih tinggi akan mengurangi waktu kerja kompresor sebesar 8–10%.(5) **Perbaiki kebocoran udara kabin** — segel pintu, penahan cuaca pada jendela, dan khususnya jendela susun belakang dapat menyebabkan kebocoran pendinginan lebih banyak dibandingkan yang dihasilkan AC.Gunakan pensil asap untuk menemukan kebocoran;ganti segel sesuai kebutuhan.Sebagian besar pengemudi dapat mengurangi konsumsi listrik di malam hari sebesar 40% hanya dengan lima langkah ini — tanpa mengganti unit AC."
+    },
+    {
+      "heading": null,
+      "body": "## Integrasi Tenaga Surya: Mengurangi Perputaran Baterai dan Beban Alternator"
+    },
+    {
+      "heading": null,
+      "body": "Menambahkan 200–400 W tenaga surya atap ke sistem AC parkir mengurangi beban pada baterai dan alternator truk Anda selama mengemudi.Rangkaian panel 300 W menghasilkan 1,2–1,8 kWh per hari cerah di garis lintang selatan AS, 0,8–1,2 kWh di garis lintang utara — sekitar 25–45% dari konsumsi AC semalaman pada umumnya.Efek praktisnya: baterai Anda menyala hampir setiap hari menjelang penuh, pengisi daya DC-DC Anda menggunakan lebih sedikit daya dari alternator, dan total pembakaran bahan bakar untuk pengoperasian AC turun sebesar 15–25%.Biaya peralatan: $400–$700 untuk kit panel fleksibel 300 W dengan pengontrol MPPT.Pembayaran kembali dalam 14–22 bulan untuk pengemudi OTR.Tenaga surya tidak akan menghilangkan kebutuhan baterai Anda, namun akan memperpanjang masa pakai baterai dengan mengurangi kedalaman pengosongan harian dari biasanya 70–80% menjadi 50–60%.Sel LiFePO4 bertahan sekitar 2x lebih lama pada 50% DoD vs 80% DoD, sehingga manfaat sekundernya signifikan."
+    },
+    {
+      "heading": null,
+      "body": "## Bagaimana Insulasi Kabin Menggandakan Efektivitas Baterai Anda"
+    },
+    {
+      "heading": null,
+      "body": "Konsumsi daya berada di hilir beban panas.Peningkatan leverage tertinggi yang dapat Anda lakukan untuk mengurangi konsumsi daya AC parkir adalah dengan meningkatkan isolasi kabin.Kami melakukan instrumen tidur Cascadia yang sama sebelum dan sesudah menambahkan 1 inci poliiso ke atap dan dinding tempat tidur.Sebelumnya: Rata-rata penarikan semalaman sebesar 487 W pada suhu sekitar 32°C.Setelah: Rata-rata 348 W — pengurangan 29%.Insulasi ini menghabiskan biaya bahan $180 dan 4 jam tenaga kerja.Penghematan baterai saja (diperlukan paket yang lebih kecil, masa pakai yang lebih lama) membayar kembali peningkatan tersebut dalam waktu kurang dari 6 bulan.Jika Anda mengukur sistem baterai baru, lakukan isolasi terlebih dahulu dan ukur kembali beban aktual Anda sebelum membeli baterai.Banyak pengemudi yang ukurannya terlalu besar sebesar 30–50% karena mereka berencana menggunakan baterai yang tidak berinsulasi.Isolasi juga merupakan satu-satunya peningkatan yang mengurangi konsumsi daya AC DAN pembakaran bahan bakar HVAC mesin utama saat mengemudi — tugas ganda."
+    },
+    {
+      "heading": null,
+      "body": "## Penuaan Baterai: Mengapa Performa Tahun ke-3 Berbeda dengan Tahun ke-1"
+    },
+    {
+      "heading": null,
+      "body": "Baterai LiFePO4 kehilangan kapasitas sekitar 2–4% per tahun pada penggunaan OTR biasa (250 siklus/tahun pada 70–80% DoD).Pada tahun ke-3, baterai baru dengan rating 200 Ah akan menghasilkan sekitar 180–188 Ah yang dapat digunakan.Pada tahun ke 5, diperkirakan 165–175 Ah.Hal ini penting karena jika Anda mengukur sistem Anda dengan ketat sejak awal, kinerja tahun ke-3 mungkin akan membuat Anda kekurangan pada malam yang panas.Cara mengatasinya: kebesaran sebesar 15–25% pada pembelian awal.Beli 240 Ah untuk kebutuhan 200 Ah, dan Anda memiliki margin untuk kejadian panas yang tidak biasa dan penuaan baterai alami.Alternatifnya, rencanakan penyegaran baterai pada tahun ke 5–6, perlakukan baterai sebagai barang habis pakai seperti bantalan rem.Harga LiFePO4 modern telah turun 35% sejak tahun 2022 dan diperkirakan akan turun 20% lagi pada tahun 2028, menjadikan siklus penyegaran lebih terjangkau dibandingkan beberapa tahun yang lalu."
+    },
+    {
+      "heading": null,
+      "body": "## Cara Membaca Data Monitor Baterai Anda dengan Benar"
+    },
+    {
+      "heading": null,
+      "body": "Monitor baterai seperti Victron BMV-712 menampilkan ampli real-time, voltase, status pengisian daya, dan amp-jam yang dikonsumsi.Kebanyakan pengemudi salah mengartikan apa yang mereka lihat.Inilah arti sebenarnya dari setiap angka dalam praktiknya.(1) Amplifier real-time: penarikan instan — berguna untuk memverifikasi bahwa AC beroperasi dalam rentang yang diharapkan, bukan untuk pengambilan keputusan ukuran.(2) Ampli rata-rata: integrasikan ini sepanjang malam untuk mendapatkan konsumsi energi yang sebenarnya — ini adalah angka yang penting.(3) Status pengisian daya (SoC): berdasarkan penghitungan coulomb kumulatif, akurat hingga ±2% dengan shunt yang dikalibrasi dengan benar.Reset ke 100% secara berkala dengan mengisi daya bank hingga penuh.(4) Dikonsumsi Ah: metrik yang paling berguna untuk menentukan ukuran — lacak metrik ini selama 7–10 malam yang representatif dan gunakan nilai maksimum sebagai titik desain Anda.Pengemudi yang mengukur berdasarkan 'rasa seperti' atau puncak undian seketika secara konsisten berukuran terlalu kecil.Percayai datanya, bukan nalurinya."
+    },
+    {
+      "heading": null,
+      "body": "## Kasus Tepi: Dingin Ekstrim dan Panas Ekstrim"
+    },
+    {
+      "heading": null,
+      "body": "Baterai LiFePO4 kehilangan sekitar 20% kapasitas efektifnya di bawah 0°C (32°F) dan menolak mengisi daya di bawah -10°C (14°F) tanpa pemanasan internal.Untuk pengemudi yang parkir semalaman di musim dingin di utara, rencanakan untuk menggunakan kotak baterai berpemanas ($150–$300 tambahan) atau memperbesar kapasitas baterai hingga 130% dari kapasitas cuaca hangat.Dalam suhu lingkungan yang sangat panas di atas 45°C (113°F), inverter AC parkir sering kali menurunkan kecepatannya untuk melindungi suhu kompresor, sehingga menurunkan keluaran pendinginan sebesar 10–18%.Sel baterai juga terdegradasi lebih cepat pada suhu di atas 40°C — jaga agar kotak baterai Anda tetap berventilasi atau teduh.Kedua casing tepi mendorong ukuran baterai Anda yang terlalu besar dan memilih unit AC yang digerakkan oleh inverter dengan rentang suhu pengoperasian yang terdokumentasi.Periksa lembar spesifikasi dengan cermat untuk mengetahui peringkat ambien maksimal;unit murah sering kali memiliki spesifikasi 'hingga 40°C' yang tidak memadai untuk penggunaan musim panas di barat daya AS."
+    },
+    {
+      "heading": null,
+      "body": "## Pertanyaan yang Sering Diajukan"
+    },
+    {
+      "heading": null,
+      "body": "**Berapa ampli yang digunakan oleh AC parkir 12V?**\n\nUnit inverter 12V modern (kelas 8.000–10.000 BTU) menarik 30–40 A pada kondisi stabil dan mencapai puncaknya sekitar 80–90 A saat startup.Setara 24V menggunakan setengah ampli tersebut untuk output pendinginan yang sama, itulah sebabnya 24V lebih disukai untuk sistem output yang lebih tinggi.\n\n**Dapatkah saya menyalakan AC parkir dari baterai starter truk saya?**\n\nTidak, tidak pernah.Baterai starter dirancang untuk semburan arus pendek dan tinggi (engkol) dan akan rusak karena siklus dalam dalam 20–40 siklus.Anda memerlukan bank baterai rumah LiFePO4 khusus yang diisolasi dari baterai starter melalui pengisi daya DC-DC.\n\n**Apakah baterai lithium 100Ah akan menjalankan AC parkir sepanjang malam?**\n\nSatu 12V LiFePO4 100Ah (1,28 kWh dapat digunakan pada 100% DoD, 1,02 kWh pada 80% DoD) memberi Anda sekitar 2,5–3 jam pendinginan pada unit inverter, atau 1,5 jam pada unit kecepatan tetap.Untuk semalaman penuh, rencanakan daya 200–300 Ah pada 12V atau 100–200 Ah pada minimum 24V.\n\n**Berapa banyak bahan bakar yang dibakar alternator untuk mengisi ulang baterai?**\n\nSekitar 0,4–0,6 galon solar per kWh diisi ulang melalui pengisi daya 50A DC-DC saat mengemudi.Untuk mengganti saluran pembuangan malam hari berkapasitas 4 kWh memerlukan biaya bahan bakar tambahan sekitar 1,6–2,4 galon ($6,30–$10,10) per hari.Ini masih 75–80% lebih murah daripada waktu idle.\n\n**Apakah menggunakan listrik di darat dan bukannya baterai akan menghemat sesuatu?**\n\nYa — dengan daya pantai 110V, Anda tidak akan kehilangan baterai sama sekali dan hanya membayar untuk 450 W × 8 jam = 3,6 kWh × $0,13/kWh = $0,47 per malam.Jika Anda memiliki listrik pantai, gunakanlah;cadangan baterai untuk malam di luar jaringan listrik.\n\n**Apa yang dimaksud dengan undian parasit dan apakah itu penting?**\n\nPenarikan parasit adalah arus siaga yang ditarik oleh pengontrol AC ketika 'mati'.Unit kualitas (CoolDrivePro V-TH1, Dometic RTX2000) menggunakan daya di bawah 50 mA.Unit yang murah dapat menarik arus 200–400 mA, yang menghabiskan 5–10 Ah per minggu jika truk tidak digunakan.Carilah unit yang mendokumentasikan penarikan siaga di bawah 100 mA.\n\n**Baterai saya habis sebelum pagi hari — ada apa?**\n\nEmpat kemungkinan penyebab yang diurutkan berdasarkan frekuensi: (1) ukuran baterai terlalu kecil untuk kondisi ruangan dan jam penggunaan sebenarnya, (2) pengisi daya DC-DC berukuran terlalu kecil sehingga baterai tidak pernah terisi penuh selama berkendara, (3) penurunan voltase pada kabel menyebabkan AC menarik lebih banyak ampli untuk mempertahankan daya, (4) usia baterai lebih dari 4–5 tahun dan kapasitasnya telah menurun 20%+.Gunakan monitor baterai untuk mendiagnosis;jangan menebak.[Daftar periksa pemecahan masalah AC parkir](/blog/parking-ac-not-cooling-troubleshooting) kami menjelaskan setiap langkah diagnostik secara berurutan."
+    }
+  ]
+}

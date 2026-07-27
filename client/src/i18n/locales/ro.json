@@ -2,9 +2,9 @@
   "nav": {
     "home": "Acasă",
     "products": "Produse",
-    "topMountedAC": "Aer condiționat pe acoperiș",
-    "miniSplitAC": "Aer condiționat mini split",
-    "heatingCoolingAC": "Aer condiționat încălzire/răcire",
+    "topMountedAC": "AC de acoperiș",
+    "miniSplitAC": "AC mini split",
+    "heatingCoolingAC": "AC încălzire/răcire",
     "allProducts": "Toate produsele",
     "forum": "Forum",
     "blog": "Blog",
@@ -18,10 +18,10 @@
     "logout": "Deconectare"
   },
   "hero": {
-    "title": "Aer condiționat de parcare pentru viață off-grid și confort mobil",
-    "subtitle": "Aer condiționat 12V și 24V DC fără ralanti pentru camioane, rulote și autoutilitare — Răcoare fără ralanti",
-    "ctaPrimary": "Cumpără produse",
-    "ctaSecondary": "Află mai multe",
+    "title": "Aer condiționat de parcare 12V/24V pentru camioane, RV-uri, camionete și flote",
+    "subtitle": "CoolDrivePro construiește aparate de aer condiționat de parcare 12V/24V DC și sisteme de răcire fără ralanti pentru semi-camioane, RV, camionete, rulote, flote, dealeri și instalatori - cu prețuri B2B, asistență în garanție din SUA și îndrumări de montaj.",
+    "ctaPrimary": "Obțineți recomandare de montare",
+    "ctaSecondary": "Solicitați cotație dealerului",
     "badge": "Nou",
     "trustedBy": "Încredere din partea a peste 10.000 de șoferi din întreaga lume"
   },
@@ -36,7 +36,7 @@
     "features": "Caracteristici",
     "reviews": "Recenzii clienți",
     "warranty": "Garanție",
-    "freeShipping": "Livrare gratuită",
+    "freeShipping": "Suport factură",
     "support": "Suport 24/7",
     "topMounted": {
       "title": "Aer condiționat pe acoperiș 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Răcește până la 80 de picioare pătrate"
     },
     "miniSplit": {
-      "title": "Aer condiționat mini split 12000 BTU",
-      "subtitle": "Aer condiționat 12V DC fără ralanti pentru camioane și rulote",
+      "title": "12V/24V Mini Split AC pentru parcare pentru cabine semi-dorme și RV-uri",
+      "subtitle": "CoolDrivePro VX3000SP este un mini aparat de aer condiționat de parcare divizat de 12 V/24 V CC care oferă 12.000 BTU/h de răcire fără ralanti pentru cabinele cu dormitoare, RV-uri, camionete și rulote.Evaporatorul interior funcționează la ≤32 dB folosind un compresor cu invertor dublu rotativ GMCC, astfel încât șoferii să poată dormi o noapte parcata fără a pune motorul la ralanti.",
       "btu": "12.000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 ore",
@@ -59,14 +59,19 @@
       "specifications": "Specificații",
       "reviews": "Recenzii clienți",
       "faq": "Întrebări frecvente",
-      "freeShipping": "Livrare gratuită",
-      "warranty": "Garanție 2 ani",
+      "freeShipping": "Suport factură",
+      "warranty": "1 an garanție",
       "returns": "Returnare 30 zile",
       "inStock": "În stoc",
       "outOfStock": "Stoc epuizat",
       "quantity": "Cantitate",
       "techSpecs": "Specificații tehnice",
-      "relatedProducts": "S-ar putea să-ți placă și"
+      "relatedProducts": "S-ar putea să-ți placă și",
+      "warrantyDesc": "1 an garanție de producător care acoperă defecte de materiale și de manoperă."
+    },
+    "heatingCoolingAC": {
+      "title": "12V/24V Încălzire și răcire Parcare AC pentru camioane și RV-uri",
+      "subtitle": "CoolDrivePro V-TH1 este un aparat de aer condiționat de parcare cu pompă de căldură de 12 V/24 V CC care oferă 2.000 W de răcire și încălzire pentru semi-camioane, RV-uri, camionete și vehicule speciale.Utilizează un compresor dublu rotativ GMCC cu agent frigorific R134a și poate crește temperatura cabinei de la 5°C la 30°C în aproximativ 30 de minute - fără motor în ralanti și nu este necesară puterea de la mal."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Anulează",
     "posting": "Se postează...",
     "model": "Model"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1 an garanție"
+    }
   }
 }

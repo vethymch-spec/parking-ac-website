@@ -11,7 +11,7 @@ interface ProductData {
   metaDescription: string;
   keywords: string;
   image: string;
-  price: string;
+  price?: string;
   description: string;
   features: string[];
   specs: { label: string; value: string }[];
@@ -23,46 +23,43 @@ const PRODUCTS: Record<string, ProductData> = {
   "top-mounted-ac": {
     slug: "top-mounted-ac",
     title: "VS02 PRO Top-Mounted Parking Air Conditioner",
-    metaTitle: "VS02 PRO Top-Mounted Parking AC | 12V 24V No-Idle – CoolDrivePro",
-    metaDescription: "CoolDrivePro VS02 PRO top-mounted parking air conditioner. 12V/24V DC, 9000 BTU, runs all night on batteries. No-idle cooling for semi trucks, RVs, and vans.",
-    keywords: "top mounted parking AC, VS02 PRO, 12V parking air conditioner, no-idle AC semi truck, roof mount parking AC",
+    metaTitle: "12V/24V Parking Air Conditioner | Rooftop DC Battery-Powered Parking AC – VS02 PRO",
+    metaDescription: "CoolDrivePro VS02 PRO is a 12V/24V rooftop parking air conditioner — a battery-powered DC parking AC delivering 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans and campers with fitment confirmation before invoice.",
+    keywords: "parking air conditioner, parking ac, 12v parking air conditioner, 24v parking air conditioner, rooftop parking air conditioner, dc parking air conditioner, battery powered air conditioner, VS02 PRO, no-idle AC semi truck",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663461681008/c5y7gxfLueWgEWeo3GX4pK/top-mounted-ac-hero.webp",
-    price: "1299",
     breadcrumb: "Top-Mounted AC",
-    description: "The CoolDrivePro VS02 PRO is a professional-grade top-mounted parking air conditioner designed for semi trucks, RVs, camper vans, and specialty vehicles. Operating on 12V or 24V DC power, it delivers 9000 BTU of cooling capacity while drawing only 8–12A at cruise — making it ideal for solar-powered and battery-based setups. The VS02 PRO eliminates engine idling, saving fuel costs and reducing emissions while keeping your cab comfortable all night long.",
+    description: "The CoolDrivePro VS02 PRO is a professional-grade top-mounted parking air conditioner designed for semi trucks, RVs, camper vans, and specialty vehicles. Operating on 12V or 24V DC power, it delivers 12,000 BTU/h no-idle cooling with a DC dual rotary compressor, undervoltage battery protection, and fitment confirmation before invoice.",
     features: [
-      "9000 BTU cooling capacity — cools a standard truck cab from 95°F to 68°F in under 20 minutes",
+      "12,000 BTU/h cooling capacity for parked cab and mobile cabin use",
       "12V and 24V DC operation — compatible with all standard truck and RV electrical systems",
-      "Ultra-low power draw of 8–12A at cruise — runs all night on a 200Ah LiFePO4 battery bank",
+      "10-45A current range depending on voltage, load, and operating conditions",
       "Whisper-quiet operation at 45dB — quieter than a normal conversation",
       "Integrated sleep mode — automatically adjusts temperature throughout the night",
-      "IP55 weather resistance — handles rain, dust, and road debris",
-      "Remote control + smartphone app connectivity via Bluetooth",
-      "Rapid installation — mounts in the standard 14×14 inch roof opening in under 3 hours",
-      "Compatible with solar panels — low current draw enables off-grid operation",
-      "2-year manufacturer warranty with US-based technical support",
+      "Undervoltage battery protection with auto cutoff at 11V",
+      "Standard 14 inch / 356 mm roof opening for common rooftop installs",
+      "Compatible with lithium, AGM, or lead-acid battery banks",
+      "Fitment confirmation before invoice for fleets, dealers, and installers",
     ],
     specs: [
-      { label: "Cooling Capacity", value: "9000 BTU/h" },
+      { label: "Cooling Capacity", value: "12,000 BTU/h" },
       { label: "Power Supply", value: "12V / 24V DC" },
-      { label: "Current Draw (Cooling)", value: "8–12A at 12V" },
+      { label: "Current", value: "10-45A" },
       { label: "Noise Level", value: "≤45 dB(A)" },
-      { label: "Operating Temperature", value: "-4°F to 131°F (-20°C to 55°C)" },
-      { label: "Refrigerant", value: "R134a (eco-friendly)" },
-      { label: "Dimensions (Unit)", value: "23.6\" × 23.6\" × 8.3\" (600×600×210mm)" },
-      { label: "Weight", value: "33 lbs (15 kg)" },
-      { label: "Roof Opening Required", value: "14\" × 14\" (356×356mm)" },
-      { label: "Warranty", value: "2 years" },
-      { label: "Certifications", value: "CE, FCC, RoHS" },
+      { label: "Operating Temperature", value: "0°C to +55°C" },
+      { label: "Refrigerant", value: "R410a" },
+      { label: "Dimensions (Unit)", value: "980 × 680 × 190 mm" },
+      { label: "Weight", value: "34 kg" },
+      { label: "Roof Opening Required", value: "Standard 14\" / 356 mm" },
+      { label: "Battery Protection", value: "Undervoltage cutoff at 11V" },
     ],
     faqs: [
       {
         question: "How long will the VS02 PRO run on a 200Ah battery?",
-        answer: "At typical cruise draw (10A at 12V), the VS02 PRO consumes approximately 120Wh per hour. A 200Ah LiFePO4 battery (at 80% usable capacity) provides about 1920Wh, giving you roughly 16 hours of runtime — more than enough for a full night's sleep."
+        answer: "Runtime depends on battery capacity, battery condition, ambient temperature, voltage, set temperature, insulation, and compressor duty cycle. Send your battery type and capacity with the vehicle details, and CoolDrivePro can help estimate a realistic setup before invoice."
       },
       {
         question: "Is the VS02 PRO compatible with solar panels?",
-        answer: "Yes. The VS02 PRO's low power consumption (8–12A at cruise) makes it ideal for solar integration. A 400W solar array can often run the unit continuously during daylight hours while simultaneously charging your battery bank."
+        answer: "Yes. The VS02 PRO can be used in battery systems charged by solar, alternator, shore power, or other charging sources. Actual runtime depends on the solar array, controller, weather, battery bank, and heat load."
       },
       {
         question: "What warranty does the VS02 PRO come with?",
@@ -70,7 +67,7 @@ const PRODUCTS: Record<string, ProductData> = {
       },
       {
         question: "Can I install the VS02 PRO myself?",
-        answer: "Yes. The VS02 PRO is designed for DIY installation and fits the standard 14×14 inch roof opening found on most semi trucks and RVs. Most customers complete installation in 2–3 hours with basic hand tools. A detailed installation guide and video tutorial are included."
+        answer: "The VS02 PRO is designed around a standard 14 inch / 356 mm roof opening. Installation requirements depend on vehicle roof structure, wiring path, and battery setup. CoolDrivePro can review vehicle details before invoice and provide installation guidance for qualified installers."
       },
     ],
   },
@@ -188,33 +185,38 @@ const PRODUCTS_LIST_DATA = {
   metaDescription: "Browse CoolDrivePro's full range of 12V and 24V DC parking air conditioners for semi trucks, RVs, vans, and specialty vehicles. No-idle cooling and heating solutions.",
   keywords: "parking air conditioner, 12V AC truck, 24V parking AC, no-idle air conditioner, RV parking AC",
   products: [
-    { name: "VS02 PRO Top-Mounted AC", slug: "top-mounted-ac", btu: "9000 BTU", price: "$1,299", desc: "Professional top-mount parking AC for semi trucks and RVs. Whisper-quiet, solar-compatible." },
+    { name: "VS02 PRO Top-Mounted AC", slug: "top-mounted-ac", btu: "12,000 BTU/h", desc: "Professional top-mount parking AC for semi trucks and RVs with fitment confirmation before invoice." },
     { name: "VS-M1 Mini Split AC", slug: "mini-split-ac", btu: "8000 BTU", price: "$1,199", desc: "Flexible split-system parking AC for box trucks, vans, and specialty vehicles." },
     { name: "V-TH1 Heating & Cooling AC", slug: "heating-cooling-ac", btu: "9000 BTU / 8500 BTU heat", price: "$1,499", desc: "All-season heat pump unit — cooling in summer, efficient heating in winter down to -4°F." },
   ],
 };
 
 function buildProductJsonLd(p: ProductData): string {
-  return JSON.stringify({
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": p.title,
     "description": p.description,
     "image": p.image,
     "brand": { "@type": "Brand", "name": "CoolDrivePro" },
-    "offers": {
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "2",
+    },
+  };
+
+  if (p.price) {
+    schema.offers = {
       "@type": "Offer",
       "priceCurrency": "USD",
       "price": p.price,
       "availability": "https://schema.org/InStock",
       "url": `${SITE_URL}/products/${p.slug}`,
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "127",
-    },
-  });
+    };
+  }
+
+  return JSON.stringify(schema);
 }
 
 function buildFaqJsonLd(faqs: { question: string; answer: string }[]): string {
@@ -339,7 +341,7 @@ function renderProductsListPage(): string {
       <h2 style="font-size:20px;font-weight:700;color:#111827;margin-bottom:8px">
         <a href="${SITE_URL}/products/${p.slug}" style="color:#111827;text-decoration:none">${p.name}</a>
       </h2>
-      <p style="color:#6b7280;font-size:14px;margin-bottom:8px">${p.btu} &bull; From ${p.price}</p>
+      <p style="color:#6b7280;font-size:14px;margin-bottom:8px">${p.btu}${p.price ? ` &bull; From ${p.price}` : ''}</p>
       <p style="color:#374151;line-height:1.6;margin-bottom:12px">${p.desc}</p>
       <a href="${SITE_URL}/products/${p.slug}" style="color:#3b82f6;font-size:14px;font-weight:600">View Details &rarr;</a>
     </article>`

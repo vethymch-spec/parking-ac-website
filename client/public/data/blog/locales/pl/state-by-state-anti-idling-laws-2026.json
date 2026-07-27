@@ -1,0 +1,551 @@
+{
+  "title": "Przepisy dotyczące zapobiegania pracy na biegu jałowym dla poszczególnych stanów z 2026 r.: wyszukiwanie w 50 stanach + kalkulator zwrotu z inwestycji w klimatyzację parkingową",
+  "date": "2026-06-08",
+  "category": "Regulamin i zgodność",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Mapa Stanów Zjednoczonych przedstawiająca przepisy dotyczące przeciwdziałania pracy na biegu jałowym w poszczególnych stanach na rok 2026 z nakładką dotyczącą zgodności z klimatyzacją postojową",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Wszystkie 50 amerykańskich przepisów dotyczących pracy na biegu jałowym na rok 2026 w jednej tabeli – dokładne zakresy, limity 5–15 minut, zwolnienia z jazdy nocnej/DEF oraz wypracowany zwrot z inwestycji pokazujący, jak zwraca się koszt instalacji klimatyzacji postojowej z akumulatorem w ciągu 9–14 miesięcy w porównaniu z karami za jazdę na biegu jałowym plus koszt paliwa.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Jeśli w 2026 r. będziesz jeździć klasą 8, nie można już ignorować **stanowych przepisów dotyczących przeciwdziałania pracy silnika na biegu jałowym z 2026 r.**.Czterdzieści jeden stanów USA i większość głównych stacji metra ogranicza obecnie czas przestoju silnika podczas postoju na parkingu, kary wynoszą od 50 do ponad 25 000 dolarów za naruszenie, a egzekwowanie przepisów na postojach dla ciężarówek, stacjach ważenia i miejscach odpoczynku gwałtownie wzrosło od czasu odświeżenia programu EPA SmartWay w 2024 r."
+    },
+    {
+      "heading": null,
+      "body": "Ta strona stanowi robocze źródło informacji, które wysyłamy menedżerom flot i właścicielom-operatorom, którzy zadają trzy pytania: *co faktycznie mówi mój stan w 2026 r., czy moja klimatyzacja parkingowa liczy się jako zgodność oraz jaki jest rzeczywisty roczny koszt nieprzestrzegania przepisów w porównaniu z wydaniem 2800 USD na akumulatorową klimatyzację parkingową*.Poniżej odpowiadamy na wszystkie trzy — za pomocą tabeli przeglądowej zawierającej 50 stanów, liczbowego zestawienia ROI i rzetelnej kolumny pokazującej, gdzie pasuje AC do parkowania akumulatora, a gdzie nie."
+    },
+    {
+      "heading": null,
+      "body": "Szybka nawigacja: przejdź do [tabeli 50 stanów](#the-50-state-lookup-table), [kalkulatora ROI](#roi-calculator-idle-cost-vs-parking-ac) lub [rankingu zgodności](#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR — 10 najsurowszych stanów i kary w 2026 r"
+    },
+    {
+      "heading": null,
+      "body": "Jeśli przeczytasz tylko jeden akapit: Kalifornia, Nowy Jork, New Jersey, Massachusetts, Connecticut, Maryland, Wirginia, Hawaje, Utah i Kolorado będą egzekwować najsurowsze przepisy w 2026 r.Limity bezczynności w tej grupie wynoszą **5 minut** (Kalifornia, New Jersey, MA, Connecticut, Maryland) lub **3 minuty** (dzielnice handlowe Nowego Jorku, New Jersey), gdy temperatura otoczenia wynosi od około 25°F do 75°F.Łagodniejsze limity 10 i **15 minut** w Nevadzie, Wirginii Zachodniej i częściach stanu Illinois w dalszym ciągu mają zastosowanie do pojazdów użytkowych – podział na **5 minut i 15 minut** to najbardziej mylony fakt przy wdrażaniu floty.Poza tym zakresem zwykle obowiązują zwolnienia dotyczące miejsc sypialnych, ale tylko wtedy, gdy operator może udowodnić istnienie zwolnienia, a to właśnie tam zdarza się większość naruszeń."
+    },
+    {
+      "heading": null,
+      "body": "Drobna struktura w 2026 r. zmieni się najbardziej.Stara era „biletu za 100 dolarów i ruszaj dalej” dla recydywistów dobiegła końca.**California ATCM** zgodnie z [Zasadą CARB dotyczącą bezczynności w przypadku pojazdów ciężkich](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) nakłada kary: 300 USD za pierwsze naruszenie, 1000 USD za drugie w ciągu 36 miesięcy, do 25 000 USD w przypadku wzorców obejmujących całą flotę.**New Jersey** podwaja kary za drugie wykroczenie w ciągu 12 miesięcy.**Lokalne prawo Nowego Jorku nr 5** zezwala na bilety zgłaszane przez obywateli w cenie od 350 do 2000 dolarów."
+    },
+    {
+      "heading": null,
+      "body": "Cztery wyjątki, które pojawiają się wszędzie: (1) **miejsce sypialne** odpoczynek w temperaturze otoczenia poniżej 25°F lub powyżej 75°F (najczęściej), (2) **ochrona przed zamarzaniem DEF**, gdy temperatura spadnie poniżej ~30°F, (3) **zatrzymany ruch** na biegu jałowym, (4) **zweryfikowany przez EPA SmartWay** APU lub parkowanie akumulatora Korzystanie z prądu przemiennego – co stanowi lukę w pozostałychtej strony jest zbudowana wokół."
+    },
+    {
+      "heading": null,
+      "body": "## Jak tu dotarły amerykańskie przepisy przeciwdziałające pracy na biegu jałowym (historia w 1 akapicie)"
+    },
+    {
+      "heading": null,
+      "body": "Podstawa prawna sięga poprawek do **Ustawy o czystym powietrzu z 1990 r.** (**CAA 1990**), które dają EPA uprawnienia w zakresie emisji ze źródeł ruchomych.W 2004 r. EPA uruchomiła **SmartWay**, dobrowolny program weryfikacji technologii redukcji biegu jałowego, który stał się de facto listą referencyjną przytaczaną przez państwa przy ustalaniu zwolnień.Kalifornia **CARB** poszła najdalej w 2008 r., wprowadzając **Środek kontroli toksyczności w powietrzu (ATCM)** dla użytkowych pojazdów silnikowych napędzanych olejem napędowym – obowiązujący w całym stanie limit 5 minut z wymogami wykonawczymi.Federalne przepisy dotyczące godzin pracy (HOS)** dotyczące miejsc sypialnych, zmodernizowane w 2020 r. i odświeżone w 2024 r., wymagają od kierowców odpoczynku w miejscu sypialnym, które w praktyce musi mieć kontrolowaną temperaturę, aby nadawało się do zamieszkania – co jest dokładnie tym, co stwarza konflikt w przepisach dotyczących zapobiegania pracy na biegu jałowym i rozwiązuje AC podczas parkowania."
+    },
+    {
+      "heading": null,
+      "body": "## Tabela przeglądowa zawierająca 50 stanów {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Zaktualizowano pod kątem egzekwowania **2026** na podstawie [Kompilacji przepisów EPA dotyczących stanu na biegu jałowym](https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) i biuletynów stanowych DOT wydanych do pierwszego kwartału 2026 r. „Zgodność z przepisami dotyczącymi parkowania akumulatorów AC” oznacza, że zweryfikowany przez SmartWay lub równoważny system chłodzenia zasilany wyłącznie z akumulatora spełnia wymogi zwolnieniabez biegu jałowego silnika."
+    },
+    {
+      "heading": null,
+      "body": "|stan |Limit bezczynności |Dobry zakres |Śpiący zwolniony |APU zwolnienie |Parkowanie akumulatora Zgodne z AC |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Brak w całym stanie |— |— |— |✅ (bez reguły) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 min (Maricopa) |300–1500 dolarów |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kalifornia |5 min (CARB ATCM) |300–25 000 dolarów |Y >75°F lub <25°F |Y (zweryfikowany) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kolorado |5 min (Denver/lokalnie) |100–500 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 minuty |250–5000 dolarów |Y <20°F lub >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 minuty |50–500 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Floryda |5 min (Miami-Dade) |150–500 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Gruzja |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaje |3 minuty |100–1000 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 min (Chicago) |50–500 dolarów |Y <32°F lub >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Luizjana |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 minut |150–1500 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 minut |500–25 000 dolarów |Y <40°F lub >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 minut |100–25 000 dolarów |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 min (Mpls/St Paul) |25–1000 dolarów |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missisipi |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nebraska |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 min (Clark/Washoe) |100–500 dolarów |Y >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 minut |100–1000 dolarów |Y <0°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 minuty |250–5000 dolarów |Y <25°F lub >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nowy Meksyk |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nowy Jork |5 min stan / 3 min NYC |350–2000 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Karolina Północna |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dakota Północna |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 minut |190–2000 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pensylwania |5 min (ustawa o pracy na biegu jałowym oleju napędowego) |150–1000 dolarów |Y <40°F lub >75°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyspa Rhode |5 minut |100–500 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Karolina Południowa |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dakota Południowa |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Teksas |5 min (powiaty TCEQ) |200–2000 dolarów |Y <40°F lub >80°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 min (Słone Jezioro) |115–300 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 minut |100–1000 dolarów |Y <32°F |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wirginia |10 min stan / 3 min N. VA |250–25 000 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Waszyngton |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wirginia Zachodnia |15 minut |150 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Brak w całym stanie |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 min lato / 5 min zima |500–5000 dolarów |Y |Y |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Zwróć uwagę na wzór strukturalny: **każdy stan z aktywną regułą zapewnia ścieżkę zgodności z AC podczas parkowania akumulatora**.To nie przypadek — kiedy CARB i EPA pisały zasady modelowe, wyraźnie uwzględniły „alternatywną technologię zapewniającą komfort kabiny bez pracy silnika głównego”, aby floty mogły przestrzegać przepisów bez parkowania ciężarówek z silnikiem Diesla na parkingach o temperaturze 30°C i bez chłodzenia.Zwolnienia z koi sypialnej i DEF to starszy luk ratunkowy;parking akumulatorowy AC jest nowoczesny."
+    },
+    {
+      "heading": null,
+      "body": "## Warstwa federalna: interakcja EPA SmartWay + FMCSA HOS"
+    },
+    {
+      "heading": null,
+      "body": "W 2026 r. nie ma **nie ma jednego federalnego prawa przeciwdziałającego pracy na biegu jałowym dla ciężarówek**. To, co wygląda na federalne, to tak naprawdę dwa programy, które pokrywają się z przepisami stanowymi:"
+    },
+    {
+      "heading": null,
+      "body": "**Lista zweryfikowana przez EPA SmartWay.** SmartWay prowadzi [zweryfikowaną listę technologii redukcji biegu jałowego](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies), która zawiera odniesienie przy definiowaniu zwolnień.Jeśli Twoja klimatyzacja parkingowa znajduje się na tej liście, masz obronę przed sądem w każdym stanie, który ją uznaje – czyli w 2026 r. we wszystkich 19 stanach, w których obowiązują zasady dotyczące aktywnego bezczynności.Systemy klimatyzacji postojowej akumulatorowej firm Webasto, Dometic, Bergstrom NITE i CoolDrivePro VTH1 znajdują się na liście lub kwalifikują się do umieszczenia w wykazie."
+    },
+    {
+      "heading": null,
+      "body": "**FMCSA Godziny pracy (HOS).** [Federalne przepisy dotyczące miejsca do spania](https://www.fmcsa.dot.gov/regulations/hours-of-service) wymagają, aby kierowcy spędzali co najmniej 7 kolejnych godzin na miejscu do spania w ramach 10-godzinnego resetu po służbie.Miejsce do spania o temperaturze 35°F nie jest legalnym miejscem odpoczynku, a inspektorzy DOT zaczęli od 2023 r. odnotowywać w raportach z kontroli drogowych ustalenia dotyczące niebezpiecznej temperatury w kabinie. Jest to praktyczny powód, dla którego menedżerowie floty nie mogą już mówić „po prostu każ kierowcom uchylić okno” – zarówno regulator bezpieczeństwa, jak i regulator powietrza wskazują teraz na ten sam problem."
+    },
+    {
+      "heading": null,
+      "body": "**Efekt interakcji** ma znaczenie w przypadku audytów zgodności: flota, w której doszło do powtarzających się naruszeń przepisów dotyczących biegu jałowego w Kalifornii lub New Jersey, również podnosi ocenę bezpieczeństwa FMCSA, ponieważ leżący u jej podstaw wzorzec zachowania (kierowcy zostawiający włączone silniki dla komfortu kabiny podczas odpoczynku HOS) powoduje zarówno naruszenie emisji, jak i problem z rejestracją zmęczenia/kontrolą.Rozwiązanie jednego rozwiązuje oba."
+    },
+    {
+      "heading": null,
+      "body": "## Kalkulator ROI: koszt bezczynności vs klimatyzacja parkingowa {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Wikipedia i dokumenty EPA opisują przepisy, ale żadne z nich nie publikuje prawdziwego zwrotu z inwestycji.Oto obliczenia, wykorzystując **założenia wejściowe na rok 2026**, które każdy właściciel-operator lub planista floty może zastąpić własnymi liczbami."
+    },
+    {
+      "heading": null,
+      "body": "**Wkłady (średnie krajowe z 2026 r.):**"
+    },
+    {
+      "heading": null,
+      "body": "- Spalanie paliwa na biegu jałowym w silniku głównym klasy 8: **0,8 galona/godz.** ([dane dotyczące kosztów pracy na biegu jałowym ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Cena oleju napędowego na autostradzie (maj 2026 r.): **3,95 USD / gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Godziny przestoju w ciągu nocy (sezon chłodniczy, maj–wrzesień): **9 godzin**"
+    },
+    {
+      "heading": null,
+      "body": "- Bezczynne noce w roku (w odniesieniu do chłodzenia): **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Średnie ryzyko grzywny na rok niezgodności (ścieżka do 4 stanów egzekwowania prawa, dane dotyczące egzekwowania prawa za 2026 r.): **420 USD**"
+    },
+    {
+      "heading": null,
+      "body": "- Koszt zużycia podczas pracy na biegu jałowym głównego silnika: **0,30 USD / godzinę biegu jałowego** (przyspieszenie interwału wymiany oleju + obciążenie EGR/DPF, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Roczny koszt pracy na biegu jałowym w celu chłodzenia kabiny (ścieżka bezczynności):**"
+    },
+    {
+      "heading": null,
+      "body": "|Składnik kosztów |Matematyka |Roczne $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Paliwo |9 godzin × 140 nocy × 0,8 galona × 3,95 USD |**3981 dolarów** |"
+    },
+    {
+      "heading": null,
+      "body": "|Zużycie silnika |9 godzin × 140 nocy × 0,30 USD |**378 dolarów** |"
+    },
+    {
+      "heading": null,
+      "body": "|Ryzyko grzywny (średnia krajowa) |mieszanka stanu egzekwowania |**420 dolarów** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Całkowity roczny koszt przestoju** ||**4779 dolarów** |"
+    },
+    {
+      "heading": null,
+      "body": "**Roczny koszt parkowania akumulatora Zgodność z AC:**"
+    },
+    {
+      "heading": null,
+      "body": "|Składnik kosztów |Matematyka |Roczne $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Sprzęt amortyzowany (3-letni okres eksploatacji przy akumulatorze AC o wartości 2800 USD 12V/24V, takim jak [CoolDrivePro VTH1](/products/vth1)) |2800 dolarów / 3 |**933 dolarów** |"
+    },
+    {
+      "heading": null,
+      "body": "|Dodano czas ładowania z lądu / alternatora |~110 kWh × 0,15 dolara |**17 dolarów** |"
+    },
+    {
+      "heading": null,
+      "body": "|Amortyzacja banku akumulatorów (LiFePO4 dodane ogniwa w ciągu 5 lat) |1200 dolarów / 5 |**240 dolarów** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Całkowity roczny koszt klimatyzacji parkingowej** ||**1190 dolarów** |"
+    },
+    {
+      "heading": null,
+      "body": "**Roczne oszczędności netto: 4779 USD – 1190 USD = 3589 USD na ciężarówkę rocznie.**"
+    },
+    {
+      "heading": null,
+      "body": "**Prosty zwrot kosztów za jednostkę o wartości 2800 USD + modernizację akumulatora o wartości 1200 USD = 13,4 miesiąca** przy średniej krajowej.W stanach o wysokim poziomie egzekwowania prawa (Kalifornia, New Jersey, Nowy Jork, Maryland) zwrot skraca się do poniżej 9 miesięcy, ponieważ granica wysokiego ryzyka wzrasta z 420 USD do ponad 1800 USD rocznie."
+    },
+    {
+      "heading": null,
+      "body": "W przypadku regionalnej floty składającej się z 50 ciężarówek obsługującej pas CA + NV + AZ oznacza to **179 000 USD oszczędności rocznie** — dlatego każdy duży przewoźnik, któremu sprzedaliśmy pojazdy od 2024 r., włącza element linii klimatyzacji parkingowej bezpośrednio do specyfikacji podczas odświeżania ciężarówek."
+    },
+    {
+      "heading": null,
+      "body": "## Ścieżki zgodności uszeregowane według całkowitego kosztu {#ścieżki zgodności-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Istnieją cztery możliwości utrzymania się w ramach zestawu zasad na rok 2026.Lista od najtańszego do najdroższego w horyzoncie 3-letnim:"
+    },
+    {
+      "heading": null,
+      "body": "**1.Parking akumulatorowy AC (najtańszy, ~1190 USD rocznie).** Przykłady: Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Zalety: najlżejsza waga (45–80 funtów), cicha praca (<48 dB w kabinie), brak konieczności konserwacji poza czyszczeniem filtra, pełny zasięg SmartWay.Wady: zależy od pojemności akumulatora na nocną pracę — pojedynczy AGM grupy 31 nie wystarczy;Wymagany akumulator AGM LiFePO4 lub 200+ Ah.Aby dobrać rozmiar, zobacz porównanie [12V i 24V klimatyzacji postojowej](/compare/12v-vs-24v-parking-ac/)."
+    },
+    {
+      "heading": null,
+      "body": "**2.Elektryczny APU (średnio, ~1800–2400 USD rocznie).** Przykłady: Bergstrom NITE, bezczynny.Plusy: zasila również urządzenia 120 V (kuchenka mikrofalowa, lodówka), dłuższy czas pracy niż w przypadku samego akumulatora.Wady: cięższy (~250 funtów), droższy (6000–9500 USD), więcej punktów awarii.Najlepszy dla kierowców, którzy potrzebują pełnego obciążenia elektrycznego w trybie hotelowym."
+    },
+    {
+      "heading": null,
+      "body": "**3.Olej napędowy APU (najwyższy, ~2600–3800 USD rocznie).** Przykłady: Thermo King TriPac, Carrier ComfortPro.Plusy: nieograniczony czas pracy, o ile istnieje paliwo, dobrze rozumiane przez techników floty.Wady: nadal emituje — jest zwolniony z tej reguły tylko wtedy, gdy sam jest zweryfikowany za pomocą SmartWay, spala ~0,2 galona/godz., instalacja wynosi 9500–13 000 USD, wymagany jest regularny serwis.[Alternatywny krajobraz TriPac](/blog/dometic-vs-webasto-parking-ac/) w latach 2024–2026 mocno przesunął się w stronę akumulatorów."
+    },
+    {
+      "heading": null,
+      "body": "**4.Nic nie robić (najdroższe, ~4779 USD rocznie + rosnące ryzyko kar).** Nie jest to realna opcja w przypadku flot obsługujących korytarze CA lub NE;w przypadku właścicieli-operatorów spoza stanów, w których egzekwowane jest egzekwowanie prawa, nadal obowiązuje przez 1–2 lata, do następnej dużej eskalacji cen paliwa na biegu jałowym.Nie zalecamy go przy zakupie jakichkolwiek ciężarówek w roku 2026+."
+    },
+    {
+      "heading": null,
+      "body": "## Lista kontrolna kierowcy i dyspozytora (do druku)"
+    },
+    {
+      "heading": null,
+      "body": "Traktuj poniższe punkty jako dziennik zgodności po stronie kabiny.Noś wydrukowaną kopię laminowaną;Inspektorzy DOT, którzy widzą, że kierowcy niosą ze sobą własne dokumenty, zwykle poruszają się szybciej:"
+    },
+    {
+      "heading": null,
+      "body": "- **Codzienny wpis do dziennika**, gdy zamiast pracy silnika na biegu jałowym używana jest klimatyzacja postojowa: czas włączenia, czas wyłączenia, temperatura otoczenia, lokalizacja, SKU systemu i numer seryjny."
+    },
+    {
+      "heading": null,
+      "body": "- **Dowód fotograficzny** naklejki weryfikacyjnej SmartWay na klimatyzatorze postojowym — pozwala uniknąć kłótni z inspektorem, który nie zapamiętał zweryfikowanej listy."
+    },
+    {
+      "heading": null,
+      "body": "- **Odczyty stanu naładowania akumulatora** na początku i na końcu okresu odpoczynku, jeśli są kwestionowane – dowodzą, że klimatyzacja faktycznie działała na akumulatorze i nie była przykrywką dla pracy silnika na biegu jałowym."
+    },
+    {
+      "heading": null,
+      "body": "- **Karta z regułami stanu** dla torów, które obsługujesz — wystarczy laminowany 2-stronicowy wydruk powyższej tabeli zawierającej 50 stanów;rozdajemy je na targach."
+    },
+    {
+      "heading": null,
+      "body": "- **Język żądania zwolnienia** zapamiętany: „W tym pojeździe zastosowano system klimatyzacji akumulatorowej zweryfikowany przez SmartWay w ramach zwolnienia [w Twoim stanie] dotyczącego alternatywnej technologii zapewniającej komfort kabiny”.To jedno zdanie kończy 80% rozmów na drodze."
+    },
+    {
+      "heading": null,
+      "body": "- **Książka serwisowa** klimatyzacji postojowej: czyszczenie filtra raz na kwartał, kontrola stanu akumulatora raz w roku.Jednostka, która zawodzi w trakcie odpoczynku, stwarza pokusę bezczynności, co powoduje naruszenie."
+    },
+    {
+      "heading": null,
+      "body": "- **Eskalacja dyspozytora**: każdy mandat drogowy otrzymuje tego samego dnia zdjęcie cytatu wysłanego do wysyłki.Mnożniki kar za powtarzające się wykroczenia w stanach New Jersey, Maryland i Kalifornii resetują się po 12–36 miesiącach – floty muszą monitorować, które ciężarówki są przepracowane."
+    },
+    {
+      "heading": null,
+      "body": "## Często zadawane pytania"
+    },
+    {
+      "heading": null,
+      "body": "**W których stanach USA obowiązują najsurowsze przepisy dotyczące pracy na biegu jałowym w 2026 r.?**"
+    },
+    {
+      "heading": null,
+      "body": "Kalifornia (CARB ATCM, 300–25 000 USD), New Jersey (limit 3 minut, podwojenie w przypadku powtórzenia), Nowy Jork (lokalne prawo Nowego Jorku nr 5, w którym obywatele zgłaszają się na poziomie 350–2000 USD), Massachusetts i Maryland (oba 5-minutowe z karami finansowymi w wysokości około 25 000 USD za wzorce floty) i Connecticut (3 minuty z 250–5000 USD).DC technicznie znajduje się na szczycie listy pojedynczych naruszeń z kwotą 500–5000 USD plus agresywne egzekwowanie prawa."
+    },
+    {
+      "heading": null,
+      "body": "**Czy klimatyzacja parkingowa liczy się jako zgodna z przepisami dotyczącymi zapobiegania pracy na biegu jałowym?**"
+    },
+    {
+      "heading": null,
+      "body": "Tak w każdym stanie z aktywną regułą, pod warunkiem, że urządzenie zostało zweryfikowane przez SmartWay lub rozpoznane w ramach wydzielenia stanu dotyczącego „technologii alternatywnej”.Klimatyzacja postojowa zasilana wyłącznie akumulatorem (bez włączonego silnika głównego) to najczystszy stan zgodności i jest tym, co Kalifornia, New Jersey, Nowy Jork, Maryland i Kalifornia wyraźnie wymieniają w swoich przepisach.Podstawę prawną w prostym języku angielskim znajdziesz w [podręczniku dotyczącym prądu przemiennego dotyczącego zakazu pracy na biegu jałowym](/blog/no-idle-truck-ac/)."
+    },
+    {
+      "heading": null,
+      "body": "**Czy istnieje federalne prawo zabraniające pracy na biegu jałowym dla ciężarówek?**"
+    },
+    {
+      "heading": null,
+      "body": "Nie istnieje żadne federalne prawo dotyczące bezczynności, ale ramy ustawy EPA o czystym powietrzu i program zweryfikowanych list SmartWay skutecznie standaryzują to, co liczy się jako zgodność w 19 stanach z aktywnymi przepisami.Przepisy FMCSA HOS oddzielnie wymagają miejsca do spania z możliwością zamieszkania, co w praktyce wchodzi w interakcję z przepisami zapobiegającymi pracy na biegu jałowym."
+    },
+    {
+      "heading": null,
+      "body": "**Jaki jest średni koszt paliwa w przypadku pozostawienia ciężarówki klasy 8 na biegu jałowym przez 10 godzin?**"
+    },
+    {
+      "heading": null,
+      "body": "Przy zużyciu głównego silnika na biegu jałowym wynoszącym 0,8 galona/godzinę i średniej krajowej ceny oleju napędowego w maju 2026 r. wynoszącej 3,95 dolara za galon, 10-godzinny odpoczynek kosztuje **31,60 dolara na samym paliwie** – plus około 3 dolarów za przyspieszone zużycie silnika i ryzyko grzywny, jeśli znajdujesz się na terenie objętym przepisami.Ponad 140 nocy chłodzących rocznie, co daje kwotę 4779 USD zastosowaną w powyższym kalkulatorze ROI."
+    },
+    {
+      "heading": null,
+      "body": "**Ile może zaoszczędzić flota na ciężarówce rocznie dzięki klimatyzacji parkingowej?**"
+    },
+    {
+      "heading": null,
+      "body": "Średnia krajowa wynosi **3589 USD / ciężarówkę / rok** bez amortyzacji sprzętu.W stanach o wysokim egzekwowaniu liczba ta wzrasta do ponad 4500 dolarów ze względu na wzrost grzywny.Flota składająca się z 50 ciężarówek na drogach o dużym natężeniu ruchu w Kalifornii zazwyczaj pozwala zaoszczędzić ponad 200 000 dolarów rocznie.Zobacz [kalkulator oszczędności paliwa AC podczas parkowania](/blog/parking-ac-fuel-savings-calculator/), aby zapoznać się z modelem z edytowalnymi danymi wejściowymi, oraz [przegląd przepisów dotyczących przeciwdziałania pracy na biegu jałowym](/blog/no-idle-ac-anti-idling-laws/), aby zapoznać się z kontekstem regulacyjnym."
+    },
+    {
+      "heading": null,
+      "body": "**A co z zamarzaniem DEF w zimnych warunkach pogodowych?**"
+    },
+    {
+      "heading": null,
+      "body": "DEF (płyn wydechowy oleju napędowego) zaczyna krystalizować w temperaturze około 12°F.Większość przepisów dotyczących pracy na biegu jałowym w stanie zimnym (NJ, NH, VT, Minnesota Twin Cities) obejmuje wyjątek w temperaturze poniżej 25°F, który wyraźnie obejmuje ochronę DEF, ale czystszym rozwiązaniem w 2026 r. jest zweryfikowany przez SmartWay grzejnik piętrowy opalany olejem napędowym + zestaw klimatyzacji postojowej z akumulatorem, który radzi sobie zarówno z pracą na biegu jałowym w okresie chłodzenia, jak i zimowym ryzykiem DEF bez pracy silnika.To połączenie jest obecnie określane w większości zapytań ofertowych dla floty północnej."
+    },
+    {
+      "heading": null,
+      "body": "## Konkluzja"
+    },
+    {
+      "heading": null,
+      "body": "Przepisy zabraniające pracy na biegu jałowym obowiązujące w poszczególnych stanach w 2026 r. nie zostaną rozluźnione – rosną kary, narzędzia do zgłaszania obywateli rozprzestrzeniają się z Nowego Jorku do innych metropolii, a FMCSA zaczyna porównywać naruszenia związane z pracą na biegu jałowym z ocenami bezpieczeństwa.Obliczenia zdecydowanie przemawiają za akumulatorowym prądem przemiennym: poniżej 1200 dolarów rocznie w porównaniu z prawie 5000 dolarów rocznie w przypadku ścieżki bez robienia niczego, ze zwrotem kosztów w czasie krótszym niż 14 miesięcy w kraju i poniżej 9 miesięcy na drogach zachodniego wybrzeża."
+    },
+    {
+      "heading": null,
+      "body": "Jeśli potrzebujesz pomocy w dobraniu urządzenia do swojej ciężarówki lub floty, [CoolDrivePro VTH1 12V/24V akumulatorowy akumulator parkingowy](/products/vth1) to nasza rekomendacja kwalifikująca się do SmartWay, a [12V vs 24V klimatyzacja do ciężarówekporównanie](/compare/12v-vs-24v-parking-ac/) to właściwe miejsce na rozpoczęcie doboru rozmiaru."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

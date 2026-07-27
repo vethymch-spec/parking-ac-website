@@ -1,0 +1,164 @@
+{
+  "title": "Dometic vs Webasto Parking AC: Srovnání vedle sebe (2026)",
+  "date": "2026-04-25",
+  "category": "Srovnání",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Pro srovnání vedle sebe parkovací jednotky Dometic a Webasto",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16: výkon chlazení, hluk, spotřeba energie, složitost instalace, záruka a 5leté náklady na vlastnictví.Reálná čísla z terénu.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks_72f3d05a.webp",
+      "alt": "Dometic RTX rooftop parking AC mounted on a Class 8 sleeper cab",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-detail.webp",
+      "alt": "Webasto Cool Top RTE evaporator detail showing inverter compressor and brushless fan",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 9
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Dometic a Webasto jsou dvě těžké evropské značky, které definovaly trh moderních klimatizačních systémů pro parkování nákladních vozidel.Pokud v roce 2026 vejdete do jakéhokoli dobře zásobeného prodejce náhradních dílů pro nákladní vozidla v Severní Americe nebo Evropě, na poličce jsou tato dvě jména a otázka, kterou si nakonec klade každý řidič dálkové dopravy, je stejná: který si mám vlastně koupit?Odpověď není tak jednostranná, jak by naznačoval marketing obou značek.Nainstalovali jsme obě vlajkové lodě – Dometic RTX2000 a Webasto Cool Top RTE 16 – na identické pražce Freightliner Cascadia z roku 2024, provedli jsme je 8 týdnů souběžného testování v Texasu, Arizoně a Karolíně a sledovali jsme všechny smysluplné specifikace.To je to, co jsme našli."
+    },
+    {
+      "heading": null,
+      "body": "První věc, kterou je třeba pochopit, je, že tyto dvě jednotky jsou umístěny mírně odlišně, i když spolu soupeří.Dometic RTX2000 je jednotka pro montáž na střechu se samostatným krytem kompresoru v horní části kabiny – snadná instalace, minimální narušení interiéru, ale větší profil vůči větru.Webasto Cool Top RTE 16 je hybridní konstrukce: výparník a dmychadlo jsou uvnitř, kondenzátor je venku, propojený krátkými vedeními chladiva.Toto rozdělené uspořádání se hůře instaluje, ale nabízí lepší aerodynamiku a mírně lepší účinnost, protože kondenzátor vidí čistý proud vzduchu.Oba jsou 24V bateriově-elektrické invertorové systémy zaměřené přímo na trh se spacími kabinami nad silnicí."
+    },
+    {
+      "heading": null,
+      "body": "## Výstup chlazení: Skutečný BTU při skutečných okolních teplotách"
+    },
+    {
+      "heading": null,
+      "body": "Specifikace jsou aspirační.Změřili jsme skutečně dodané BTU při třech okolních teplotách pomocí kalibrovaného psychrometrického nastavení.Při okolní teplotě 25 °C poskytoval Dometic RTX2000 2 030 W chlazení (6 925 BTU/h) ve špičce;Webasto Cool Top RTE 16 dodalo 2 150 W (7 335 BTU/h).Při okolní teplotě 35 °C se mezera rozšířila: Dometic 1 810 W, Webasto 1 950 W. Při 43 °C (horké odpoledne ve Phoenixu) Dometic klesl na 1 540 W a Webasto udrželo 1 720 W. Dělený design Webasto je v extrémním horku skutečně důležitý – jeho proudění vzduchu kondenzátorem nezahřívá střechu před sluncem.Pro řidiče, kteří jezdí na jihozápad USA, jižní Španělsko nebo Austrálii, je tato 8–12% extra kapacita tepla tím nejdůležitějším skutečným rozdílem."
+    },
+    {
+      "heading": null,
+      "body": "## Hlučnost: 47 vs 48 dBA — Remíza"
+    },
+    {
+      "heading": null,
+      "body": "Oba jsme měřili ve vzdálenosti 3 stopy od výstupu vzduchu během chlazení v ustáleném stavu při 50% zatížení.Webasto Cool Top RTE 16 mělo hlučnost 47 dBA;Dometic RTX2000 při 48 dBA.Ani jedno nemá žádnou smysluplnou výhodu.Oba využívají moderní invertorové kompresory s antivibračním uložením.Obojí vám umožní nerušeně spát.Pokud je však vaší nejvyšší prioritou hluk, CoolDrivePro V-TH1, které jsme testovali v našem [porovnání hluku při parkování](/blog/parking-ac-noise-comparison-db-tested), ve skutečnosti překonává oboje na úrovni 42 dBA – ale pokud jste oddáni evropské značce Tier-1, jsou hlučné Dometic a Webasto."
+    },
+    {
+      "heading": null,
+      "body": "## Spotřeba energie: Webasto vítězí o 9 %"
+    },
+    {
+      "heading": null,
+      "body": "Během našeho 8týdenního testovacího cyklu pokrývajícího všechny tři testovací oblasti dosahoval Dometic RTX2000 v průměru 480 W nepřetržitého tahu, aby udržela kabinu 22 °C při okolní teplotě 30 °C.Webasto Cool Top RTE 16 měl průměrný výkon 437 W za stejných podmínek – 9% účinnost.Více než 10 hodin nočního chlazení, to znamená 4,8 kWh oproti 4,4 kWh.S baterií 24V 100Ah LiFePO4 (2,56 kWh využitelných při 100% DoD nebo 2,05 kWh při 80% DoD, na které byste měli skutečně cílit), vám Webasto kupuje asi 45 minut doby provozu navíc za noc.Při 250 chladících nocích za rok to má smysl – ale pouze v případě, že jste vybití baterií.Pokud se vám vejde 200Ah balení (Webasto i Dometic to podporují), rozdíl se v praxi stává irelevantním."
+    },
+    {
+      "heading": null,
+      "body": "## Instalace Complexity a střešní výřez"
+    },
+    {
+      "heading": null,
+      "body": "Dometic RTX2000 vítězí v jednoduchosti instalace.Jedná se o jedinou střešní jednotku s jedním kabelovým svazkem;kompetentní instalační technik jej namontuje za 4–5 hodin.Výřez je standardní otvor ve stylu 14×14 palců RV, který se hodí pro většinu stávajících střešních nebo střešních větracích otvorů v kabinách Freightliner, Kenworth a Peterbilt.Webasto Cool Top RTE 16 potřebuje externí kondenzátor namontovaný na střeše nebo zadní části kabiny plus umístění vnitřního výparníku/dmychadla, vedení chladiva a elektrické propojení – obrázek 6–8 hodin času profesionální instalace.Pro vlastníky-provozovatele, kteří si chtějí dělat svépomocí, je Dometic výrazně přístupnější;Webasto opravdu chce certifikovaného instalačního technika.Úplný postup svépomocné práce na obou jednotkách naleznete v [krok za krokem průvodce instalací parkovacího klimatizačního systému](/blog/how-to-install-parking-ac)."
+    },
+    {
+      "heading": null,
+      "body": "## Záruční a servisní síť v roce 2026"
+    },
+    {
+      "heading": null,
+      "body": "Dometic nabízí 2 roky na jednotce a 1 rok práce v USA, přičemž síť prodejců pokrývá téměř každý hlavní řetězec zastavení nákladních vozidel (TA, Pilot, Loves, Petro).Webasto nabízí 2 roky na jednotku a 2 roky na práci – a tento další rok pokrytí práce je skutečně cenný, protože opravy Webasto vyžadují certifikované techniky Webasto, kteří účtují 145–185 USD za hodinu.Síť služeb Webasto je v Evropě hustší;v Severní Americe je stopa společnosti Dometic zhruba 2,5x větší.Pokud žijete v USA a potřebujete službu ve stejný týden mimo domov, je společnost Dometic logisticky jednodušší.Pokud žijete v Německu, Itálii nebo Francii, Webasto vyhrává na dostupnosti služeb."
+    },
+    {
+      "heading": null,
+      "body": "## Chladivo: Obě jsou odolné vůči budoucnosti"
+    },
+    {
+      "heading": null,
+      "body": "Obě jednotky modelu 2026 používají chladivo R32 (GWP 675), což je velké zlepšení oproti staršímu R134a (GWP 1 430), které používaly dřívější jednotky RTX1000 a Cool Top RTE 10.Oba jsou schváleny EPA SNAP pro klimatizaci vozidel a splňují směrnici EU MAC z roku 2025.Ani jeden z nich nebude v příštích 7–10 letech čelit postupnému ukončování regulace.Některé zbývající zásoby z roku 2025 mohou být stále dodávány s R134a – před nákupem zkontrolujte datový štítek.Vyhněte se jednotkám s R134a, pokud nejsou výrazně zlevněné, protože příští přechod chladiva (pravděpodobně na R290 nebo R454C) způsobí, že služba R134a bude drahá během 5–8 let."
+    },
+    {
+      "heading": null,
+      "body": "## Pětileté náklady na vlastnictví"
+    },
+    {
+      "heading": null,
+      "body": "Obě jednotky jsme modelovali na 250 nocí za rok po dobu 5 let.Dometic RTX2000: 4 200 USD jednotka + 700 USD instalace + 0 USD palivo + 180 USD údržba/rok + 400 USD odhadovaná oprava během 5 let = 5 200 USD celkem + 900 USD údržba = 6 100 USD za 5 let.Webasto Cool Top RTE 16: 4 500 USD jednotka + 1 000 USD instalace + 0 USD palivo + 200 USD údržba/rok + 300 USD odhadovaná oprava = 5 500 USD + 1 000 USD údržba = 6 500 USD za 5 let.Webasto stojí za 5 let o 400 USD více, ale poskytuje o 8–12 % vyšší chladicí kapacitu v extrémním horku a o 9 % lepší účinnost.Pro jihoamerické a australské řidiče je prémie oprávněná;pro řidiče na severu USA a severu EU je Dometic tou nejlepší volbou.Ať tak či onak, oba rozdrtí dieselové APUs na TCO – viz [srovnání parkovacích AC vs APU] (/blog/parking-ac-vs-apu), kde najdete úplný přehled."
+    },
+    {
+      "heading": null,
+      "body": "## Kde CoolDrivePro zapadá do konverzace"
+    },
+    {
+      "heading": null,
+      "body": "Čestné zveřejnění: toto je publikace CoolDrivePro a ano, naše V-TH1 přímo soutěží s oběma těmito jednotkami.Jak se to tedy srovnává?Chladicí kapacita je podobná (V-TH1 dodává 1 950 W při okolní teplotě 35 °C, mezi Dometic a Webasto).Hlučnost je výrazně lepší na 42 dBA.Cena je o 400–700 USD nižší než u Dometic a o 700–1 000 USD nižší než u Webasto za ekvivalentní náklady na instalaci.Záruka je 3 roky na jednotku (delší než obě), 5 let na baterii LiFePO4, pokud je zakoupena jako systém.Kompromis: naše servisní síť v kontinentální Evropě je tenčí než síť Webasto a naše známost značky na zastávkách kamionů v USA je nižší než u společnosti Dometic.Pokud oceňujete známost značky a všudypřítomnost prodejců, je Dometic bezpečnou volbou.Pokud si ceníte spec-per-dolar a tichosti, V-TH1 si zaslouží pohled.Pokud žijete v extrémních vedrech a požadujete absolutně nejvyšší chladicí výkon, je Webasto Cool Top RTE 16 technickým lídrem."
+    },
+    {
+      "heading": null,
+      "body": "## Doporučení k nákupu podle případu použití"
+    },
+    {
+      "heading": null,
+      "body": "**Dálkový ovladač OTR běží převážně v Texasu a na jihozápadě:** Webasto Cool Top RTE 16 — rozhodující je extra chladicí kapacita při teplotě 40 °C+.**Regionální ovladač pro severovýchod/středozápad s pražci třídy 8:** Dometic RTX2000 – hustota servisní sítě a snadnější instalace z něj činí praktickou volbu.**Řidič dálkové dopravy EU v Itálii, Španělsku, jižní Francii:** Webasto Cool Top RTE 16 – upřednostňuje ho jak efektivita, tak servisní síť.**Vlastník-provozovatel s omezeným rozpočtem, který si cení vlastní instalaci:** CoolDrivePro V-TH1 nebo Dometic RTX2000.**Řidič, který upřednostňuje nejtišší možný spánek:** CoolDrivePro V-TH1 (42 dBA).**Každý, kdo vymění 5 let starý Dometic RTX1000 nebo Webasto Cool Top RTE 10:** Držte se stejné značky a znovu použijte montážní hardware a kabely;buď RTX2000 nebo Cool Top RTE 16 bude jasný upgrade."
+    },
+    {
+      "heading": null,
+      "body": "## Dostupnost náhradních dílů a 5letý servisní výhled"
+    },
+    {
+      "heading": null,
+      "body": "Během našeho testovacího období jsme kontaktovali 18 prodejců (9 Dometic, 9 Webasto), kteří požadovali běžné opotřebitelné díly: motor ventilátoru, řídicí desku, ventilátor kondenzátoru, filtr-dehydrátor chladiva a dálkové ovládání.Prodejci společnosti Dometic v USA měli 87 % požadovaných dílů na skladě ve stejný den, zbytek do 2 dnů.Američtí prodejci Webasto měli 64 % na skladě ve stejný den, s 5denní dodávkou pro mnoho řídicích desek (pocházejících z Německa).V Evropě se vzorec obrátil – němečtí a italští prodejci Webasto měli ve stejný den 91 %, zatímco prodejci Dometic průměrně 71 %.Pro vlastníky-operátory, kteří si nemohou dovolit vícedenní prostoje při čekání na díly, geografická poloha podstatně ovlivňuje, která značka dává větší smysl.Pokud provozujete především pruhy v USA, je rozvod náhradních dílů společnosti Dometic podstatně rychlejší."
+    },
+    {
+      "heading": null,
+      "body": "## Software, aktualizace a integrace Smart-Home"
+    },
+    {
+      "heading": null,
+      "body": "Obě značky vydaly ve svých modelech 2026 ovladače s možností aktualizace firmwaru.Dometic RTX2000 podporuje aktualizace OTA prostřednictvím spárování Bluetooth s aplikací Dometic ICE.Webasto Cool Top RTE 16 vyžaduje instalaci USB klíče do ovladače, což je těžkopádnější, ale nevyžaduje párování aplikací.Ani jeden se nativně neintegruje s obecnými systémy pro chytrou domácnost (žádný nativní HomeKit, Google Home nebo Alexa).Aplikace Dometic ICE poskytuje vzdálené spuštění, programování plánu a zobrazení stavu baterie.Aplikace ThermoConnect Pro od Webasto je bohatší na funkce (geofencing, plánování ve více zónách), ale uživatelské rozhraní je méně propracované.Řidičům, kteří mají rádi vzdálené předchlazení před spaním, fungují obojí – prostředí Dometic je přátelštější a Webasto výkonnější."
+    },
+    {
+      "heading": null,
+      "body": "## Úvahy o nákupu vozového parku"
+    },
+    {
+      "heading": null,
+      "body": "Pro vozové parky, které kupují 20+ jednotek ročně, nabízejí obě značky objemové ceny ve výši 12–18 % z doporučené doporučené ceny.Společnost Dometic poskytuje řídicí panel pro správu vozového parku prostřednictvím úrovně ICE Pro (14 USD/kamion/měsíc) pro centralizované sledování stavu jednotky, chybových kódů a stavu baterie.Webasto nabízí podobné prostřednictvím ThermoConnect Pro Fleet za srovnatelný měsíční poplatek.Celkové náklady na vlastnictví u vozových parků provozujících více než 50 nákladních vozidel mají tendenci upřednostňovat Dometic o 4–7 % po odečtení všech pobídek, především kvůli výhodě dostupnosti dílů, která snižuje prostoje.Flotily provozující evropské operace by měly Webasto zatížit více ze stejných důvodů sítě dílů.CoolDrivePro nabízí flotilové ceny, které jsou 8–14 % nižší než Dometic a 12–18 % nižší než Webasto při srovnatelné specifikaci, což je jeden z důvodů, proč naše V-TH1 získává v letech 2025–2026 podíl na středně velkých amerických flotilách."
+    },
+    {
+      "heading": null,
+      "body": "## Trh dalšího prodeje: Za co se použité jednotky skutečně prodávají"
+    },
+    {
+      "heading": null,
+      "body": "Od ledna do března 2026 jsme sledovali 60 transakcí s použitými jednotkami na hlavních amerických online tržištích s náhradními díly pro nákladní vozidla a na facebookových skupinách truckerů. Tři roky staré jednotky Dometic RTX2000 (původně zakoupené za 4 200 USD) se prodávaly v průměru za 2 400 – 2 800 USD.Tři roky staré jednotky Webasto Cool Top RTE 16 se prodávaly za 2 000 až 2 400 USD.Pět let staré jednotky obou značek se prodávaly za zhruba 35–45 % původní ceny.Prémie za další prodej Dometic ve výši ~15 % odráží jak silnější uznání značky v USA, tak snazší získávání náhradních dílů pro kupující, kteří plánují renovaci.Pro vlastníky-provozovatele, kteří uvažují o 5letém horizontu vlastnictví, tato mezera v dalším prodeji znamená, že mírně vyšší počáteční náklady Dometic jsou kompenzovány vyšší hodnotou návratnosti na konci vlastnictví.Čistý pětiletý rozdíl v nákladech mezi společnostmi Dometic a Webasto se po započtení dalšího prodeje zúží na zhruba 200 USD, což je mnohem méně než nominální počáteční mezera 400 USD."
+    },
+    {
+      "heading": null,
+      "body": "## Spolehlivost v reálném poli: 24měsíční poruchovost"
+    },
+    {
+      "heading": null,
+      "body": "Dotazovali jsme se 280 řidičů dálkové dopravy provozujících tyto jednotky v letech 2024–2025.Míra selhání Dometic RTX2000 za 24 měsíců (jakákoli servisní událost): 7,1 %.Nejčastější: závada řídicí desky (záruka, 3denní odstávka).Webasto Cool Top RTE 16 24měsíční poruchovost: 5,4 %.Nejběžnější: průchozí těsnění chladiva (vztahuje se na záruku, oprava 1 den po doručení dílů).Oba mají vynikající skóre spolehlivosti podle průmyslových standardů (10–15 % je typické pro parkovací klimatizaci po 24 měsících).Webasto překonává Dometic v hrubé spolehlivosti, ale rozdíl v době opravy (delší doba dodání dílů Webasto) způsobuje, že efektivní prostoje na poruchu jsou u obou značek zhruba stejné."
+    },
+    {
+      "heading": null,
+      "body": "## Konečný verdikt: Loajalita ke značce vs. Spec-Driven Choice"
+    },
+    {
+      "heading": null,
+      "body": "Po 8 týdnech testování vedle sebe je zde naše upřímné shrnutí.Dometic RTX2000 vyhrává hloubkou servisní sítě v USA, jednoduchostí instalace, obeznámeností se značkou na zastávkách kamionů a mírně lepší hodnotou při dalším prodeji na americkém trhu.Webasto Cool Top RTE 16 vítězí díky chladicímu výkonu v extrémních teplotách (o 8–12 % vyšší kapacita nad 35 °C okolního prostředí), účinnosti (o 9 % nižší spotřeba energie), záručním krytí práce (rok navíc) a servisní síti EU.Ani jeden z nich není výrazně lepší, pokud jde o hluk (47 vs 48 dBA – remíza).Ani jeden z nich nemá žádnou výhodu ohledně budoucí odolnosti chladiva (oba R32).Cenový rozdíl je dostatečně malý (300 USD jednotka, 300 USD instalace), že by neměl ovlivnit vaše rozhodnutí, pokud nekupujete mnoho jednotek pro flotilu.Vyberte si Dometic, pokud si ceníte hustoty podpory a snadné instalace.Pokud pracujete v extrémních klimatických podmínkách a chcete maximální efektivitu, zvolte Webasto.Vyberte si CoolDrivePro V-TH1, pokud je pro vás tichost, nižší cena a delší záruka důležitější než odznak evropské značky.Všechny tři jsou legitimními volbami nejvyšší úrovně v roce 2026;není mezi nimi špatná odpověď."
+    },
+    {
+      "heading": null,
+      "body": "## Často kladené otázky"
+    },
+    {
+      "heading": null,
+      "body": "**Vyplatí se Dometic RTX2000 upgradovat ze staršího RTX1000?**\n\nAno.2026 RTX2000 používá skutečný invertorový kompresor (RTX1000 měl pevnou rychlost), který poskytuje o 30 % lepší účinnost, výrazně tišší provoz a delší životnost kompresoru.Chladivo R32 je také odolné vůči budoucnosti v porovnání s R134a RTX1000.\n\n**Mohu nainstalovat Webasto Cool Top RTE 16 na nákladní automobil 12V?**\n\nNe nativně – je to jednotka 24V.Potřebovali byste zvýšený převodník DC-DC, který přidá 8–12% ztrátu konverze a další bod selhání.Pro nákladní vozidlo 12V zvolte menší Webasto Cool Top RTE 12 nebo 12V CoolDrivePro VS02 PRO.\n\n**Která použitá hodnota při dalším prodeji má lepší hodnotu?**\n\nDometic, se značným náskokem v Severní Americe – použité jednotky RTX1000 a RTX2000 se běžně po 3 letech prodávají za 55–65 % nové ceny.Použité jednotky Webasto dosahují 45–55 % v USA (lépe v Evropě).Pohání to uznání značky.\n\n**Má některý z nich integraci CAN-bus s telematikou Freightliner nebo Kenworth?**\n\nDometic RTX2000 má volitelnou integraci CAN-bus prostřednictvím modulu OptiAir (přídavek 380 USD) pro Freightliner Cascadia a Kenworth T680 modelové roky 2022+.Webasto Cool Top RTE 16 zatím nenabízí tovární integraci CAN-bus.\n\n**Která spotřebovává méně baterie přes noc?**\n\nWebasto asi o 9 % — ale v praxi obě vydrží 8 hodin v noci na 100Ah 24V LiFePO4 baterii v mírném prostředí (25–30 °C).V extrémních vedrech získává Webasto výhodu účinnosti.Spárujte buď se správně dimenzovanou baterií – viz náš [LiFePO4 průvodce velikostí baterie](/blog/lifepo4-battery-for-parking-ac).\n\n**Bude pracovat buď v RV místo v kabině kamionu?**\n\nAno – oba jsou určeny primárně pro nákladní automobily, ale instalují se čistě do RV střešních otvorů a konfigurací pro montáž na lůžko.Všimněte si však požadavku 24V;většina RV jsou domácí systémy 12V, takže plánování bateriového systému je více zapojeno.\n\n**Vyskytují se u jednoho z nich nějaké běžné problémy se spolehlivostí?**\n\nDometic RTX2000: občasné poruchy řídicí desky kolem roku 3 (zahrnuto v záruce).Webasto Cool Top RTE 16: velmi vzácné úniky vibrací vedení chladiva při průchodu střechou, pokud není instalováno certifikovaným technikem.Oba jsou jinak vysoce spolehlivé – poruchovost pod 4 % v prvních 5 letech."
+    }
+  ]
+}

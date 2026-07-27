@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "B2B 驻车空调供应商采购指南：9 维评分标准 + 十大品牌比较（2026 年）",
+    "category": "购买指南",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "车队、经销商、OEM 和批发买家应如何评估 2026 年驻车空调供应商。9 维度评分标准、最小起订量 + 交货时间 + 认证基准，以及对 10 个品牌（Webasto、Dometic、Thermo King、Eberspächer、Bergstrom NITE、Indel B、Dirna、Kingclima、Guchen、CoolDrivePro）的诚实审查 - 包括每个品牌的赢家和输家。"
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "2026 年各州反空转法：50 个州查找 + 停车 AC 投资回报率计算器",
+    "category": "法规与合规性",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "2026 年美国所有 50 个州的反空转法律都集中在一张表格中 — 罚款范围、5 分钟与 15 分钟限制、卧铺/DEF 豁免，以及显示电池驻车空调如何在 9 至 14 个月内收回成本与空转罚款加燃油成本相比的投资回报率。"
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "越南卡车驻车空调完整指南 (2026)",
+    "category": "购买指南",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "2026 年越南卡车停车 AC 指南：南北高速公路的 9000 个 BTU 系统、节省燃料（12-18 升/天）、安装成本以及从河内到胡志明市的区域气候考虑因素。"
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "胡志明市港口和集装箱司机驻车空调（Cat Lai、Cai Mep）",
+    "category": "区域指南",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "为什么胡志明市的 Cat Lai 和 Cai Mep 集装箱司机需要 9000 BTU 驻车空调：排队时间长、抗怠速压力以及越南南部港口物流驾驶室冷却的投资回报率。"
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "湄公河三角洲农业和冷链卡车驻车空调",
+    "category": "区域指南",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "芹苴、前江和隆安的湄公河三角洲农业和冷链卡车运营商依靠驻车空调让司机在越南南部漫长的轮渡等待和潮湿的过夜停留期间得到休息。"
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "南北高速公路驻车空调 (CT.01)：长途驾驶员指南",
+    "category": "区域指南",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "越南 CT.01 南北高速公路上的长途司机如何使用 9000 BTU 驻车空调合法休息，每晚节省 12-18 升柴油，并抵御 38°C 的热带高温。"
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "越南旅游巴士和卧铺巴士驻车空调（岘港、芽庄、富国岛）",
+    "category": "区域指南",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "岘港、芽庄、会安和富国岛的旅游巴士和卧铺巴士运营商如何使用驻车空调让司机得到休息，并使车辆遵守酒店和度假村的反怠速政策。"
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "移动瑜伽馆和健身车的空调",
+    "category": "专业",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "探索移动瑜伽工作室和健身车的基本空调解决方案。通过可靠的驻车空调确保最佳温度控制 (68-72°F)。"
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "为生活在 RVs 的数字游民提供驻车空调：随时随地舒适工作",
+    "category": "生活方式",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "RV 数字游牧者驻车空调的基本指南。通过正确的气候控制，通过 RV 进行远程工作，保持凉爽和高效。"
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "在 RV 集会和节日中保持冷静：活动驻车空调提示",
+    "category": "生活方式",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "主人 RV 集会与驻车空调！获取有关补充冷却、电池尺寸和安装的专家提示，以获得舒适的活动体验。"
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Van Dweller 停车指南 AC：全职生活在您的车内",
+    "category": "范生活",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "为货车居民选择和安装驻车空调的基本指南。通过专家提示，让您的移动房屋保持凉爽舒适。"
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "下一代驻车空调中的 R32 制冷剂：更低的 GWP 和更高的效率",
+    "category": "技术",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "了解为什么 R32 制冷剂成为下一代驻车空调的首选，为商用车提供更低的 GWP 和更高的效率。"
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "多美达与 Webasto Parking AC：并排比较（2026 年）",
+    "category": "比较",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] 多美达 RTX2000 与 Webasto Cool Top RTE 16 对比：冷却输出、噪音、功耗、安装复杂性、保修和 5 年拥有成本。来自现场的真实数字。"
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "无怠速卡车空调系统：如何遵守州反怠速法 (2026)",
+    "category": "合规性",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] 各州的反空转法律以及如何遵守无空转卡车 AC。CARB（300-1,000 美元罚款）、30 多个州限制、EPA SmartWay 以及满足 2026 年要求的 5 个系统。"
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "停车 AC BTU 尺寸计算器：您真正需要多少 BTU？(2026)",
+    "category": "购买指南",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] 您的卧铺驾驶室或 RV 卧室需要多少个 BTU？8 级卡车 (5,000–10,000 BTU)、Sprinter 货车 (6,000–8,000 BTU) 和 25 英尺 RV (12,000–14,000 BTU) 的分步公式和表格。"
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "2026 年驻车空调安装成本：按州划分的商店价格和 DIY 节省",
+    "category": "购买指南",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] 各州驻车空调安装成本：专业 400 美元至 1,200 美元，DIY 0 美元至 150 美元。来自加利福尼亚州、德克萨斯州、佛罗里达州、纽约州的真实商店价格，以及设备、电池、布线和劳动力成本的完整细分。"
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "停车交流噪声比较：在 3 英尺处测试的实际 dB 级别 (2026)",
+    "category": "比较",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] 我们使用经过校准的 dB 计在 3 英尺处测量了 12 个驻车空调装置。CoolDrivePro V-TH1 达到 42 dBA，多美达 RTX2000 48 dBA，RigMaster 67 dBA。真实的数字，没有营销。"
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "卡车交流功耗：瓦特、安培和电池消耗说明 (2026)",
+    "category": "电源及电池",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] 卡车交流功耗说明：平均 480W，24V 时 9A，每晚 38–55Ah。实数、电池容量计算公式以及变频压缩机如何减少 30% 的电量。"
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "电池供电 RV 空调：完整 2026 年买家指南",
+    "category": "购买指南",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "2026 年电池供电 RV 空调完整指南。原生 12V/24V DC 与逆变器设置、实际 LiFePO4 运行时间数据（220Ah → 8–11 小时）、1,500–3,800 美元价格范围、太阳能补偿数学。"
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "如何安装驻车空调：2026 年分步指南",
+    "category": "安装指南",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "2026 年驻车空调安装分步指南：屋顶准备、14x14 切口、垫圈、接线（4 AWG、80A 保险丝）、调试。6-9 小时 DIY，装置以外的零件 325 美元。"
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 停车交流电池：2026 尺寸和接线指南",
+    "category": "操作指南",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 驻车空调选型指南：220Ah（1,400 美元）、280Ah（1,750 美元）、400Ah（2,400 美元）选项，具有 8 小时运行时间计算、BMS/保险丝/电缆规格。"
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "驻车空调不制冷？2026 故障排除指南（分步）",
+    "category": "故障排除",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "2026 年修复驻车空调无法冷却的分步指南。电压下降、制冷剂、冷凝器脏污、恒温器、BMS — 30 分钟内诊断，修复费用为 0-280 美元。"
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC 与 APU：2026 年车队成本与性能比较",
+    "category": "评论与比较",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "2026 年车队决策指南：停车 AC 与 APU。柴油 4.05 美元的 5 年 TCO — DC 与柴油 APU 相比，驻车空调可节省 9,800–14,200 美元/卡车，与空转相比可节省 3,200–5,400 美元。"
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "2026 年 12V 与 24V 驻车空调：卡车、RV 和货车决策指南",
+    "category": "买家指南",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "2026 年 12V 与 24V 停车交流电：匹配您车辆的本地电压。电缆规格、电池成本、效率、运行时间以及转换器何时有意义的完整详细信息。里面的决策矩阵。"
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "2026 年最佳驻车空调：9 个最佳选择比较（卡车、RVs 和货车）",
+    "category": "买家指南",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "2026 年测试的 9 款最佳驻车空调：并排 BTU、噪音、抽风、价格以及半挂卡车、RV、短跑货车和车队的实际性能。获胜者根据用例进行选择。"
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "2026 年驻车空调购买指南：如何选择合适的设备（不浪费 1,500 美元）",
+    "category": "买家指南",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "2026 年驻车空调购买指南：7 步决策框架、BTU 尺寸表、规格阈值、按层划分的成本预算，以及导致 1,500 美元空调变成废品的 5 个错误。购买前请先阅读。"
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Parking AC 燃油节省计算器 2026：闲置成本与 DC Parking AC 与 APU",
+    "category": "工具和计算器",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "根据 DC 驻车空调与空转与柴油 APU 计算准确的燃油节省量。2026 年燃油价格、实际工作周期、终身投资回报率。为业主运营商和 100 辆卡车组成的车队提供了工作示例。"
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "针对亚历山大沿海湿度的驻车空调：应对埃及的地中海气候挑战",
     "category": "车队应用",
@@ -744,52 +976,12 @@
     "excerpt": "通过可靠的驻车空调解决方案确保移动兽医诊所的动物和设备安全。对于药物和福利至关重要。"
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "移动瑜伽馆和健身车的空调",
-    "category": "专业",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "探索移动瑜伽工作室和健身车的基本空调解决方案。通过可靠的驻车空调确保最佳温度控制 (68-72°F)。"
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "为生活在 RVs 的数字游民提供驻车空调：随时随地舒适工作",
-    "category": "生活方式",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "RV 数字游牧者驻车空调的基本指南。通过正确的气候控制，通过 RV 进行远程工作，保持凉爽和高效。"
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "在 RV 集会和节日中保持冷静：活动驻车空调提示",
-    "category": "生活方式",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "主人 RV 集会与驻车空调！获取有关补充冷却、电池尺寸和安装的专家提示，以获得舒适的活动体验。"
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Van Dweller 停车指南 AC：全职生活在您的车内",
-    "category": "范生活",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "为货车居民选择和安装驻车空调的基本指南。通过专家提示，让您的移动房屋保持凉爽舒适。"
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "驻车空调安装成本：2025 年完整价格明细",
     "category": "金融",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "详细分析 2025 年驻车空调的完整安装成本。深入了解从设备类型到电气升级等影响价格的因素。"
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "下一代驻车空调中的 R32 制冷剂：更低的 GWP 和更高的效率",
-    "category": "技术",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "了解为什么 R32 制冷剂成为下一代驻车空调的首选，为商用车提供更低的 GWP 和更高的效率。"
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -806,14 +998,6 @@
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "excerpt": "了解驻车空调订阅模式如何改变车队运营、节省成本并提高驾驶员舒适度。了解气候控制即服务的未来。"
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V 与 24V 停车交流电：哪种电压最适合卡车、RV 或货车？",
-    "category": "技术指南",
-    "date": "2025 年 3 月 8 日",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "购买前，请根据车辆安装、电流消耗、接线、电池运行时间和安装复杂性比较 12V 和 24V 驻车空调系统。"
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -904,14 +1088,6 @@
     "excerpt": "使用太阳能和 12V 驻车空调的离网 RV 空调的完整指南。了解系统尺寸、电池选择和实际性能技巧。"
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "2025 年驻车空调购买指南：购买前您需要了解的一切",
-    "category": "买家指南",
-    "date": "2024 年 11 月 20 日",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "完成 2025 年驻车空调购买指南。比较 BTU 评级、12V 与 24V、顶装式与迷你分体式，并找到最适合您的卡车或 RV 的驻车空调。"
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "驻车空调如何减少发动机空转时的碳足迹",
     "category": "环境",
@@ -990,14 +1166,6 @@
     "date": "2024 年 12 月 22 日",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "excerpt": "在你的skooli中保持凉爽！我们的指南涵盖了校车改装的最佳驻车空调，包括屋顶、迷你分体式和 12V 选项。了解安装、电源等信息。"
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "驻车空调可以节省多少燃油？实数和投资回报率计算器",
-    "category": "指南",
-    "date": "2025 年 2 月 15 日",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "了解驻车空调可以为您节省多少燃油。我们的指南提供了真实的数字、投资回报率计算器以及卡车、RVs 和货车的提示。"
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1118,10 +1286,6 @@
     "date": "2024 年 12 月 8 日",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "excerpt": "卡车、RV 和货车中安全 12V/24V 停车交流线路和电气安装的综合指南。了解 CoolDrivePro 装置的组件、压降、电池管理和故障排除。"
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

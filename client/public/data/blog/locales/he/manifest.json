@@ -1,5 +1,261 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "imageAlt": "Outdoor unit of a parking air conditioner with compressor service access",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "imageAlt": "Parking air conditioner split-system installation and service access",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "B2B חניה AC ספק מדריך לקונים: כותרת בת 9 מימדים + 10 המותגים המובילים בהשוואה (2026)",
+    "date": "2026-06-08",
+    "category": "מדריכי קנייה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "השוואת ספקי AC לחנייה B2B - רובריקת ניקוד בת 9 מימדים עבור רוכשי צי, סוחרים ו-OEM",
+    "excerpt": "כיצד ציי, סוחרים, OEM ורוכשים סיטונאים צריכים להעריך ספקי חניה AC בשנת 2026. רובריקת ניקוד 9 מימדים, MOQ + אמות מידה + זמן הסמכה, וסקירה כנה של 10 המותגים (Webasto, Dometic, Thermo King, Eberspächer, Bergstrom NITE, I..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "חוקים נגד סרק ממדינה למדינה 2026: בדיקת 50 מדינות + מחשבון ROI של חניה AC",
+    "date": "2026-06-08",
+    "category": "תקנות וציות",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "מפה של ארה\"ב המציגה חוקים נגד סרק 2026 בין מדינה למדינה עם שכבת-על של תאימות AC לחנייה",
+    "excerpt": "כל 50 חוקי מדינת ארה\"ב נגד סרק לשנת 2026 בטבלה אחת - טווחים קנסים, מגבלות של 5- לעומת 15 דקות, פטורים רדום/DEF, והחזר ROI עובד המראה כיצד סוללה חניית AC מחזירה ב-9-14 חודשים לעומת קנסות סרק בתוספת עלות דלק."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "מדריך מלא למזגני חניה למשאיות בווייטנאם (2026)",
+    "date": "2026-05-20",
+    "category": "מדריכי קנייה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "מדריך 2026 לחניית משאיות AC בוייטנאם: 9000 מערכות BTU עבור הכביש המהיר צפון-דרום, חיסכון בדלק (12-18 ליטר ליום), עלויות התקנה ושיקולי אקלים אזוריים מהאנוי ועד הו צ'י מין סיטי."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "חניה AC עבור נמל הו צ'י מין סיטי ומכולות (Cat Lai, Cai Mep)",
+    "date": "2026-05-20",
+    "category": "מדריכים אזוריים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "מדוע נהגי מכולות Cat Lai ו-Cai Mep בהו צ'י מין סיטי צריכים 9000 BTU חניה AC: זמני תורים ארוכים, לחץ נגד סרק והחזר ה-ROI של קירור המונית עבור הלוגיסטיקה של נמל דרום וייטנאם."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "חניה AC עבור משאיות חקלאיות ושרשרת קרה של מקונג דלתא",
+    "date": "2026-05-20",
+    "category": "מדריכים אזוריים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "מפעילי משאיות חקלאיות ושרשרת קרה של מקונג דלתא בקאן טהו, טיאן ג'יאנג ולונג אן מסתמכים על חניה AC כדי לשמור על מנוחה לנהגים במהלך המתנה ארוכה של מעבורת ותחנות לילה לחות בדרום וייטנאם."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "חניה AC עבור הכביש המהיר צפון-דרום (CT.01): מדריך לנהג ארוך טווח",
+    "date": "2026-05-20",
+    "category": "מדריכים אזוריים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "כיצד נהגים לטווח ארוך בכביש המהיר CT.01 צפון-דרום של וייטנאם משתמשים במזגן חניה 9000 BTU כדי לנוח באופן חוקי, לחסוך 12-18 ליטר סולר ללילה ולשרוד חום טרופי של 38°C."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "חניה AC לאוטובוסי תיירים וייטנאמיים (Da Nang, Nha Trang, Phu Quoc)",
+    "date": "2026-05-20",
+    "category": "מדריכים אזוריים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "כיצד מפעילי אוטובוסי תיירים ואוטובוסי שינה בדא נאנג, נה טראנג, הוי אן ופו קווק משתמשים בחנייה AC כדי לשמור על מנוחה של נהגים וכלי רכב תואמים למדיניות של בתי מלון ואתרי נופש נגד סרק."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "מיזוג אוויר לאולפני יוגה ניידים ולמכוניות בריאות",
+    "date": "2026-04-29",
+    "category": "מומחיות",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "imageAlt": "מיזוג אוויר לאולפני יוגה ניידים ולמכוניות בריאות",
+    "excerpt": "גלה פתרונות מיזוג חיוניים לאולפני יוגה ניידים ולמכוניות בריאות.הבטח בקרת טמפרטורה אופטימלית (68-72 מעלות צלזיוס) עם AC חניה אמין."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "חניה AC עבור נוודים דיגיטליים החיים ב-RVs: נוחות עבודה מכל מקום",
+    "date": "2026-04-29",
+    "category": "אורח חיים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "imageAlt": "חניה AC עבור נוודים דיגיטליים החיים ב-RVs: נוחות עבודה מכל מקום",
+    "excerpt": "מדריך חיוני לחניה AC עבור RV נוודים דיגיטליים.הישאר קריר ופרודוקטיבי תוך כדי עבודה מרחוק מה-RV שלך עם בקרת האקלים הנכונה."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "להישאר קריר בעצרות ופסטיבלים RV: טיפים לחנייה AC לאירועים",
+    "date": "2026-04-29",
+    "category": "אורח חיים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "imageAlt": "להישאר קריר בעצרות ופסטיבלים RV: טיפים לחנייה AC לאירועים",
+    "excerpt": "מאסטר RV עצרות עם חניה AC!קבל טיפים ממומחים על קירור משלים, גודל סוללה והתקנה לחוויית אירוע נוחה."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "המדריך של ואן דוולר לחניה AC: לחיות במשרה מלאה ברכב שלך",
+    "date": "2026-04-29",
+    "category": "ואן לייף",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "imageAlt": "המדריך של ואן דוולר לחניה AC: לחיות במשרה מלאה ברכב שלך",
+    "excerpt": "מדריך חיוני לבחירה והתקנת חניה AC עבור דיירי טנדרים.הישאר קריר ונוח בבית הנייד שלך עם טיפים של מומחים."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "קירור R32 במערכות חניה מהדור הבא: GWP נמוך יותר ויעילות טובה יותר",
+    "date": "2026-04-29",
+    "category": "טכנולוגיה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "imageAlt": "קירור R32 במערכות חניה מהדור הבא: GWP נמוך יותר ויעילות טובה יותר",
+    "excerpt": "גלה מדוע קירור R32 הופך לבחירה המועדפת עבור מערכות חניה מהדור הבא, ומציע GWP נמוך יותר ויעילות משופרת עבור כלי רכב מסחריים."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic נגד Webasto Parking AC: השוואה זו לצד זו (2026)",
+    "date": "2026-04-25",
+    "category": "השוואה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "יחידות AC לחנייה של Dometic ו-Webasto זו לצד זו לשם השוואה",
+    "excerpt": "[2026] Dometic RTX2000 לעומת Webasto Cool Top RTE 16 ראש בראש: תפוקת קירור, רעש, צריכת חשמל, מורכבות התקנה, אחריות ועלות בעלות ל-5 שנים.מספרים אמיתיים מהשטח."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "מערכות AC של משאיות ללא סרק: כיצד לציית לחוקי המדינה נגד סרק (2026)",
+    "date": "2026-04-25",
+    "category": "תאימות",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "מערכת AC של משאית סוללה חשמלית ללא סרק מותקנת לתאימות נגד סרק",
+    "excerpt": "[2026] חוקים נגד סרק ממדינה למדינה וכיצד לציית ל-AC ללא סרק של משאית.CARB ($300-$1,000 קנסות), 30+ מגבלות מדינה, EPA SmartWay ו-5 המערכות שעומדות בדרישות 2026."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "חניה AC BTU מחשבון גודל: כמה BTUs אתה באמת צריך?(2026)",
+    "date": "2026-04-25",
+    "category": "מדריך קנייה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU טבלת מידות לחניה AC על פני תא נוסעים של משאית ותצורות RV",
+    "excerpt": "[2026] כמה BTUs צריך תא השינה שלך או חדר השינה RV?נוסחה שלב אחר שלב פלוס טבלאות עבור משאיות מסוג 8 (5,000–10,000 BTU), טנדרים ספרינטרים (6,000–8,000 BTU), ו-25 רגל RVs (12,000-_7,__TER)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "עלות התקנת AC לחנייה 2026: תעריפי קניות לפי מדינה וחיסכון עשה זאת בעצמך",
+    "date": "2026-04-25",
+    "category": "מדריך קנייה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "התקנת AC חניה מקצועית המציגה ניתוק גג, חיווט ושילוב סוללות",
+    "excerpt": "[2026] עלות התקנת AC לחנייה לפי מדינה: 400-1,200 דולר מקצועי, 0-150 דולר עשה זאת בעצמך.תעריפי חנות אמיתיים מקליפורניה, טקסס, פלורידה, ניו יורק, בתוספת פירוט מלא של עלויות יחידה, סוללה, חיווט ועבודה."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "השוואת רעש AC של חניה: רמות dB אמיתיות נבדקו ב-3 רגל (2026)",
+    "date": "2026-04-25",
+    "category": "השוואה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "מד דציבל מודד רעשי חניה AC בגובה 3 רגל בתוך תא שינה",
+    "excerpt": "[2026] מדדנו 12 יחידות חניה AC עם מד dB מכויל בגובה 3 רגל.CoolDrivePro V-TH1 הגיע ל-42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.מספרים אמיתיים, ללא שיווק."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "צריכת חשמל AC של משאית: ואט, אמפר וניקוז סוללה הסבר (2026)",
+    "date": "2026-04-25",
+    "category": "כוח וסוללה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "חניית משאיות ניטור צריכת חשמל AC עם shunt ומנטר סוללה",
+    "excerpt": "[2026] צריכת חשמל AC של משאית מוסברת: 480W בממוצע, 9A ב-24V, 38-55Ah ללילה.מספרים אמיתיים, נוסחאות לגודל הסוללה שלך, והאופן שבו מדחסי אינוורטר חותכים מושכים 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "מופעל על סוללה RV מזגן: מדריך לרכישה מלא לשנת 2026",
+    "date": "2026-04-24",
+    "category": "מדריכי קנייה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "RV מזגן RV 2026 מופעל על ידי סוללה — פנים קמפיינים מסוג B בלילה עם גג 12V DC חניה AC אוזל LiFePO4 בנק סוללות, צג המציג קיבולת של 220Ah ועוד 9.5 שעות זמן ריצה שנותרו",
+    "excerpt": "מדריך שלם לשנת 2026 למזגנים RV המופעלים על ידי סוללות.מקורי 12V/24V DC לעומת הגדרות מהפך, נתוני זמן ריצה אמיתיים LiFePO4 (220Ah → 8-11 שעות), טווחי מחירים של $1,500-$3,800, מתמטיקה של קיזוז סולארי."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "כיצד להתקין AC חניה: מדריך שלב אחר שלב לשנת 2026",
+    "date": "2026-04-24",
+    "category": "מדריכי התקנה",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "כיצד להתקין חניה AC 2026 - מתקין חותך פתח גג בגודל 14x14 אינץ' בטנדר ספרינטר באמצעות מסור פאזל, כאשר יחידת CoolDrivePro VS02 PRO 12V DC, אטם בוטיל, ו-4 בחוץ מכבל העבודה של AWG",
+    "excerpt": "מדריך שלב אחר שלב לשנת 2026 להתקנת AC חניה: הכנה לגג, חתך 14x14, אטם, חיווט (4 AWG, נתיך 80A), הפעלה.6-9 שעות עשה זאת בעצמך, $325 בחלקים מעבר ליחידה."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 סוללה לחניה AC: 2026 מדריך מידות וחיווט",
+    "date": "2026-04-24",
+    "category": "מדריכי אופן-ביצוע",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "LiFePO4 סוללה לחנייה AC 2026 — תא סוללה פתוח של טנדר ספרינטר המציג שתי סוללות 220Ah Battle Born LiFePO4 במקביל עם כבלי 2/0 AWG, נתיך 200A class T, פס, ומסך Victron BMV-712 בקריאה של 87% SOC.V",
+    "excerpt": "2026 LiFePO4 מדריך מידות לחניה AC: 220Ah ($1,400), 280Ah ($1,750), 400Ah ($2,400) אפשרויות עם מתמטיקה של 8 שעות ריצה, מפרט BMS/נתיכים/כבלים."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "חניה AC לא מקרר?2026 מדריך לפתרון בעיות (שלב אחר שלב)",
+    "date": "2026-04-24",
+    "category": "פתרון בעיות",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "פתרון בעיות חניה AC לא מקרר 2026 - נהג בתוך ארון משאית למחצה עם מודד חיטוט ב-12V DC מחבר מתח AC בחניה ב-11.4V, מדחום קורא 78°F אוויר אספקה לעומת 79°F חזרה, תמונה אינפרא אדום המציגה נקודה חמה של הקבל",
+    "excerpt": "2026 מדריך שלב אחר שלב לתיקון AC חניה שלא יתקרר.נפילת מתח, נוזל קירור, מעבה מלוכלך, תרמוסטט, BMS - אבחון תוך 30 דקות, תיקונים של $0–$280."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "חניה AC לעומת APU: השוואת עלויות וביצועים לשנת 2026 עבור ציים",
+    "date": "2026-04-24",
+    "category": "ביקורות והשוואות",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "חניה AC לעומת APU 2026 - השוואה זו לצד זו של Freightliner Cascadia עם DC חניה AC מופעל על ידי סוללה לעומת משאית שינה עם RigMaster APU המותקנת על מסילת המסגרת, תצוגת עלות משאבת דלק של 5 דולר לשנה מעל 5 דולר לשנה.",
+    "excerpt": "מדריך החלטות צי 2026: חניה AC לעומת APU.TCO ל-5 שנים עם 4.05 דולר דיזל - DC חניה AC חוסך 9,800-14,200 דולר למשאית לעומת דיזל APU, 3,200-5,400 דולר לעומת סרק."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V לעומת 24V חניה AC בשנת 2026: מדריך החלטה למשאית, RV וטנדר",
+    "date": "2026-04-23",
+    "category": "מדריך לקונים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "imageAlt": "12V לעומת 24V חניה השוואת AC - מזגני חניה זה לצד זה על הגג המחוברים למערכות חשמל 12V ו24V במשאית וRV",
+    "excerpt": "12V לעומת 24V חניה AC בשנת 2026: התאימו למתח המקורי של הרכב שלכם.פירוט מלא של מד כבל, עלות סוללה, יעילות, זמן ריצה ומתי הגיוני ממיר.מטריצת החלטות בפנים."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "מזגן החניה הטוב ביותר לשנת 2026: 9 בחירות מובילות בהשוואה (משאיות, RVs וטנדרים)",
+    "date": "2026-04-23",
+    "category": "מדריך לקונים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "מזגן החניה הטוב ביותר לשנת 2026 - סדרה של יחידות DC חניה על הגג והמערכת המפוצלת המותקנות על משאית למחצה, RV וטנדר ספרינטר בשמים בהירים",
+    "excerpt": "9 מזגני החניה הטובים ביותר שנבדקו לשנת 2026: זה לצד זה BTU, רעש, משיכה, מחיר וביצועים בעולם האמיתי למשאיות למחצה, RV, טנדרים ספרינטרים וציי רכב.בחירת הזוכים לפי מקרה שימוש."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "מדריך לרכישת מזגן חניה 2026: כיצד לבחור את היחידה הנכונה (מבלי לבזבז 1,500 דולר)",
+    "date": "2026-04-23",
+    "category": "מדריך לקונים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "imageAlt": "מדריך לרכישת מזגן חניה 2026 - גג ומיני מפוצל DC יחידות AC מותקנות על משאית, RV וטנדר להשוואה זו לצד זו",
+    "excerpt": "מדריך לקניית חניה AC לשנת 2026: מסגרת החלטה בת 7 שלבים, טבלת מידות BTU, ספי מפרט, תקציבי עלויות לפי שכבה ו-5 הטעויות שהופכות AC של $1,500 לגרוטאות.קרא לפני שאתה קונה."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "מחשבון חיסכון בדלק חניה AC 2026: עלות סרק לעומת DC חניה AC לעומת APU",
+    "date": "2026-04-23",
+    "category": "כלים ומחשבונים",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "imageAlt": "מחשבון חיסכון בדלק חניה AC 2026 - לוח מחוונים של משאית למחצה המראה שעות סרק, צריכת דלק וחיסכון שנתי בין מזגן חניה בסרק, דיזל APU וDC",
+    "excerpt": "חשב חיסכון מדויק בדלק מ-DC חניה AC לעומת סרק לעומת דיזל APU.מחירי דלק לשנת 2026, מחזורי עבודה אמיתיים, החזר ROI לכל החיים.דוגמאות לעבודה עבור ציי הבעלים-מפעילים ו-100 משאיות."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "חניה מיזוג אוויר ללחות החוף של אלכסנדריה: מאבק באתגרי האקלים הים תיכוני של מצרים",
     "date": "2026-03-31",
@@ -113,6 +369,7 @@
     "date": "2026-01-10",
     "category": "טכנולוגיה",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp",
+    "imageAlt": "חניית AC שילוב בית חכם: שלוט ברכב שלך מכל מקום",
     "excerpt": "גלה כיצד שילוב בית חכם של חניה AC מאפשר לך לשלוט באקלים של הרכב שלך מכל מקום, להגביר את הנוחות והיעילות עבור RVs ומשאיות."
   },
   {
@@ -130,6 +387,7 @@
     "date": "2025-12-29",
     "category": "בטיחות נהג",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
+    "imageAlt": "כיצד להפחית את מתח החום של הנהג עם מערכות AC חניה חשמליות",
     "excerpt": "למד כיצד מערכות AC לחניה חשמלית מגנות על נהגים מלחץ חום באקלים אפריקאי.שפר את הבטיחות, השמירה והפרודוקטיביות עם קירור יעיל של תא הנוסעים."
   },
   {
@@ -138,6 +396,7 @@
     "date": "2025-12-28",
     "category": "מדריכי התקנה",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
+    "imageAlt": "טעויות התקנה נפוצות עבור מזגני משאיות באפריקה",
     "excerpt": "הימנע מכשלים יקרים על ידי לימוד הטעויות הנפוצות ביותר בהתקנה של משאית AC באפריקה.הנחיות מומחים לגבי הליכי הרכבה, חיווט ואיטום נכונים."
   },
   {
@@ -146,6 +405,7 @@
     "date": "2025-12-27",
     "category": "מדריכים טכניים",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
+    "imageAlt": "כיצד אבק, רעידות כביש וחום משפיעים על ביצועי AC חניה",
     "excerpt": "הבן כיצד אתגרים סביבתיים אפריקאים משפיעים על ביצועי AC של חניה למשאיות ולמד אסטרטגיות תחזוקה כדי להבטיח קירור אמין בתנאים קשים."
   },
   {
@@ -154,6 +414,7 @@
     "date": "2025-12-26",
     "category": "מדריכים טכניים",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
+    "imageAlt": "הגנה על מתח נמוך: מה שקוני צי אפריקאי צריכים לדעת",
     "excerpt": "מדריך חיוני להגנה על מתח נמוך במערכות AC לחניית משאיות.למד כיצד פועלת הגנת הסוללה ומדוע זה חשוב עבור פעולות הצי האפריקאי."
   },
   {
@@ -162,6 +423,7 @@
     "date": "2025-12-25",
     "category": "פתרון בעיות",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
+    "imageAlt": "מדוע קירור AC של המשאית שלך הופך חלש בחום קיצוני (ואיך לתקן את זה)",
     "excerpt": "גלה מדוע מזגני משאיות מאבדים כוח קירור בחום קיצוני ולמד פתרונות מוכחים לשחזור ביצועים בתנאי מדבר אפריקאיים."
   },
   {
@@ -170,6 +432,7 @@
     "date": "2025-12-24",
     "category": "מדריכי התקנה",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
+    "imageAlt": "מדריך התקנה מקצועי לחניית משאיות AC באפריקה",
     "excerpt": "מדריך התקנה מקצועי שלב אחר שלב לחניית מזגנים למשאיות בתנאים אפריקאים.למד נהלי הרכבה, חיווט והפעלה לביצועים אמינים."
   },
   {
@@ -187,6 +450,7 @@
     "date": "2025-12-19",
     "category": "פתרונות צי",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp",
+    "imageAlt": "מזגני משאיות סיטונאי עבור צי התחבורה של תוניסיה",
     "excerpt": "מזגני משאיות סיטונאיים לצי התובלה של תוניסיה.תמחור בכמות גדולה ופתרונות צי עבור מפעילי לוגיסטיקה בצפון אפריקה המחפשים טכנולוגיית קירור אמינה."
   },
   {
@@ -213,6 +477,7 @@
     "date": "2025-12-16",
     "category": "פעולות גובה",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp",
+    "imageAlt": "אתיופיה מדריך צי בגובה רב: חניה AC תכנון נתיבי מטען מוגבהים",
     "excerpt": "מדריך לאומי אתיופיה לביצועי חניה AC בגובה, המכסה את התנהגות הסוללה, עומס UV ותכנון מסלול על פני מסדרונות הובלה של היבשת."
   },
   {
@@ -230,6 +495,7 @@
     "date": "2025-12-14",
     "category": "מדריכים אזוריים",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp",
+    "imageAlt": "מזגני משאיות חשמליות עבור צי התחבורה ההולך וגדל של אוגנדה",
     "excerpt": "מזגני משאיות חשמליות לצי ההובלה המתרחב של אוגנדה.פתרונות קירור יעילים למרכז הלוגיסטי המתפתח של מזרח אפריקה ולפעילות חוצת גבולות."
   },
   {
@@ -238,6 +504,7 @@
     "date": "2025-12-13",
     "category": "יישומים מיוחדים",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp",
+    "imageAlt": "חניה מזגנים לרכבי תיירות ספארי של טנזניה",
     "excerpt": "גלה פתרונות מזגני חניה עבור רכבי התיירות בספארי של טנזניה.שמרו על נוחות האורחים תוך שמירה על חוויות חיות הבר ביעד הספארי המוביל של מזרח אפריקה."
   },
   {
@@ -327,6 +594,7 @@
     "date": "2025-12-06",
     "category": "יישומי תיירות",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp",
+    "imageAlt": "חניה מזגנים לתיירות ספארי בטנזניה: סרנגטי לזנזיבר קומפורט",
     "excerpt": "הרם את תיירות הספארי של טנזניה עם מערכות חניה AC.קירור חיוני לרכבי טיולי חיות בר הפועלים בסרנגטי, נגורונגורו ובנתיבי החוף לזנזיבר."
   },
   {
@@ -344,6 +612,7 @@
     "date": "2025-12-05",
     "category": "הזדמנות עסקית",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
+    "imageAlt": "הפוך למפיץ מזגנים למשאיות באפריקה",
     "excerpt": "שותפו איתנו כדי להפוך למפיץ מזגנים למשאיות באפריקה.טריטוריות בלעדיות, תמיכה שיווקית והדרכה טכנית לשותפים אזוריים."
   },
   {
@@ -352,6 +621,7 @@
     "date": "2025-12-05",
     "category": "שירותי תמיכה",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
+    "imageAlt": "חלקי חילוף ותמיכה לאחר המכירה עבור משאיות AC באפריקה",
     "excerpt": "חלקי חילוף מקיפים ותמיכה לאחר מכירה למזגני משאיות באפריקה.מסננים, מדחסים, קירור וסיוע טכני זמינים."
   },
   {
@@ -414,6 +684,7 @@
     "date": "2025-12-03",
     "category": "מדריכים אזוריים",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp",
+    "imageAlt": "קירור תחבורה חוצה גבולות עבור מפעילי הצי של זימבבואה",
     "excerpt": "מזגני חניה עבור ציי התחבורה חוצי הגבולות של זימבבואה.מטב את נוחות הנהג עבור מסלולים המחברים את הררה, בולוואיו והשווקים האזוריים."
   },
   {
@@ -449,6 +720,7 @@
     "date": "2025-12-02",
     "category": "מדריכים אזוריים",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp",
+    "imageAlt": "פתרונות מזגני חניה עבור צי הלוגיסטיקה של קניה: מסדרון מניירובי למומבסה",
     "excerpt": "פתרונות צי לחברות לוגיסטיקה קניה.גלה כיצד מערכות חניה AC משפרות את רווחת הנהג במסדרון התחבורה העמוס בניירובי-מומבסה ומחוצה לה."
   },
   {
@@ -511,6 +783,7 @@
     "date": "2025-11-20",
     "category": "אורח חיים",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp",
+    "imageAlt": "חניה AC למטיילים סולו RV: בטיחות, נוחות ועצמאות",
     "excerpt": "מטיילים בודדים RV, שפר את הבטיחות, הנוחות והעצמאות שלך עם חניה אמינה AC.חיוני להתחזקות ולשקט נפשי."
   },
   {
@@ -744,6 +1017,7 @@
     "date": "2025-10-26",
     "category": "מדריך",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp",
+    "imageAlt": "שימוש במשאבת החום של AC החניה שלך לחורף RV קמפינג",
     "excerpt": "גלה כיצד משאבת החום של AC החניה שלך יכולה לשנות RV קמפינג בחורף.למד על יעילות, צרכי סוללה והישארות חמה בקור."
   },
   {
@@ -779,6 +1053,7 @@
     "date": "2025-10-15",
     "category": "טכנולוגיה",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp",
+    "imageAlt": "דירוגי יעילות אנרגטית עבור ACs חניה: הבנת EER, COP ו-SEER",
     "excerpt": "דירוגי יעילות אנרגטית של חניה AC: EER, COP ו-SEER.למד מה המשמעות של המספרים הללו עבור הארנק והנוחות שלך בדרכים."
   },
   {
@@ -818,42 +1093,6 @@
     "excerpt": "להבטיח בטיחות בעלי חיים וציוד במרפאות וטרינריות ניידות עם פתרונות חניה אמינים של AC.קריטי לתרופות ולרווחה."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "מיזוג אוויר לאולפני יוגה ניידים ולמכוניות בריאות",
-    "date": "2025-10-15",
-    "category": "מומחיות",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "imageAlt": "מיזוג אוויר לאולפני יוגה ניידים ולמכוניות בריאות",
-    "excerpt": "גלה פתרונות מיזוג חיוניים לאולפני יוגה ניידים ולמכוניות בריאות.הבטח בקרת טמפרטורה אופטימלית (68-72 מעלות צלזיוס) עם AC חניה אמין."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "חניה AC עבור נוודים דיגיטליים החיים ב-RVs: נוחות עבודה מכל מקום",
-    "date": "2025-10-15",
-    "category": "אורח חיים",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "imageAlt": "חניה AC עבור נוודים דיגיטליים החיים ב-RVs: נוחות עבודה מכל מקום",
-    "excerpt": "מדריך חיוני לחניה AC עבור RV נוודים דיגיטליים.הישאר קריר ופרודוקטיבי תוך כדי עבודה מרחוק מה-RV שלך עם בקרת האקלים הנכונה."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "להישאר קריר בעצרות ופסטיבלים RV: טיפים לחנייה AC לאירועים",
-    "date": "2025-10-15",
-    "category": "אורח חיים",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "imageAlt": "להישאר קריר בעצרות ופסטיבלים RV: טיפים לחנייה AC לאירועים",
-    "excerpt": "מאסטר RV עצרות עם חניה AC!קבל טיפים ממומחים על קירור משלים, גודל סוללה והתקנה לחוויית אירוע נוחה."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "המדריך של ואן דוולר לחניה AC: לחיות במשרה מלאה ברכב שלך",
-    "date": "2025-10-15",
-    "category": "ואן לייף",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "imageAlt": "המדריך של ואן דוולר לחניה AC: לחיות במשרה מלאה ברכב שלך",
-    "excerpt": "מדריך חיוני לבחירה והתקנת חניה AC עבור דיירי טנדרים.הישאר קריר ונוח בבית הנייד שלך עם טיפים של מומחים."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "עלות התקנת AC של חניה בשנת 2025: יחידה, חיווט, סוללה ועבודה",
     "date": "2025-10-15",
@@ -861,15 +1100,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "imageAlt": "עלות התקנת AC של חניה בשנת 2025: יחידה, חיווט, סוללה ועבודה",
     "excerpt": "ראה את העלות האמיתית להתקנת AC חניה במשאית, RV, או בטנדר, כולל מחיר יחידה, שדרוגי חשמל, עלויות סוללה ועבודה."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "קירור R32 במערכות חניה מהדור הבא: GWP נמוך יותר ויעילות טובה יותר",
-    "date": "2025-10-15",
-    "category": "טכנולוגיה",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "imageAlt": "קירור R32 במערכות חניה מהדור הבא: GWP נמוך יותר ויעילות טובה יותר",
-    "excerpt": "גלה מדוע קירור R32 הופך לבחירה המועדפת עבור מערכות חניה מהדור הבא, ומציע GWP נמוך יותר ויעילות משופרת עבור כלי רכב מסחריים."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -888,15 +1118,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "imageAlt": "חניה AC כשירות: דגמי מנוי למפעילי צי",
     "excerpt": "גלה כיצד דגמי מנויי חניה AC משנים את פעולות הצי, מציעים חיסכון בעלויות ונוחות נהג משופרת.למד על העתיד של בקרת אקלים כשירות."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V לעומת 24V חניה AC: איזה מתח הכי מתאים למשאית, RV או וואן?",
-    "date": "8 במרץ 2025",
-    "category": "מדריך טכני",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "imageAlt": "12V לעומת 24V חניה AC: איזה מתח הכי מתאים למשאית, RV או וואן?",
-    "excerpt": "השווה מערכות 12V ו24V חניה AC לפי התאמת הרכב, יציאת זרם, חיווט, זמן ריצת סוללה ומורכבות ההתקנה לפני הקנייה."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -998,15 +1219,6 @@
     "excerpt": "מתכנן קירור RV מחוץ לרשת?למד כיצד להתאים גודל סוללות סולריות, ליתיום ו-12V זמן ריצה AC עבור חניה ללא חיבורים או רעשי גנרטור."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "מדריך קניית חניה AC 2025: כיצד לבחור את היחידה המתאימה למשאית, RV, או טנדר",
-    "date": "20 בנובמבר 2024",
-    "category": "מדריך לקונים",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "imageAlt": "מדריך קניית חניה AC 2025: כיצד לבחור את היחידה המתאימה למשאית, RV, או טנדר",
-    "excerpt": "קניות חניה AC?לפני הקנייה, השווה בין חלוקה לגג מול מיני, 12V לעומת 24V, BTU גודל, זמן ריצה של סוללה והתקנה."
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "כיצד מזגן חניה מפחית את טביעת הרגל הפחמנית שלך לעומת סרק מנוע",
     "date": "10 בדצמבר 2024",
@@ -1095,15 +1307,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "imageAlt": "חניה AC עבור הסבת אוטובוס לבית ספר (Skoolies): האפשרויות הטובות ביותר ומדריך התקנה",
     "excerpt": "תישאר מגניב בסקולי שלך!המדריך שלנו מכסה את חניה AC הטובה ביותר להמרת אוטובוס בית ספר, כולל אפשרויות גג, מיני-פיצול ו-12V.למד על התקנה, צריכת חשמל ועוד."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "כמה דלק חוסך מזגן חניה?מחשבון מספרים אמיתיים ו-ROI",
-    "date": "15 בפברואר, 2025",
-    "category": "מדריך",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "imageAlt": "כמה דלק חוסך מזגן חניה?מחשבון מספרים אמיתיים ו-ROI",
-    "excerpt": "גלה כמה דלק מזגן חניה יכול לחסוך לך.המדריך שלנו מספק מספרים אמיתיים, מחשבון החזר ROI וטיפים למשאיות, RVs וטנדרים."
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1239,10 +1442,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "imageAlt": "מדריך חיווט מזגן חניה: בטוח 12V/24V התקנת חשמל - מדריך למזגן חניה",
     "excerpt": "מדריך מקיף לחניה בטוחה 12V/24V חיווט AC והתקנת חשמל במשאיות, RVs וטנדרים.למד על רכיבים, נפילת מתח, ניהול סוללה ופתרון בעיות עבור יחידות CoolDrivePro."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

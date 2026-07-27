@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Guía del comprador de proveedores de aire acondicionado de estacionamiento B2B: rúbrica de 9 dimensiones + 10 marcas principales comparadas (2026)",
+    "category": "Guías de compra",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Cómo deberían evaluar los compradores de flotas, distribuidores, OEM y mayoristas a los proveedores de aire acondicionado para estacionamiento en 2026. Rúbrica de puntuación de 9 dimensiones, MOQ + tiempo de entrega +..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Leyes contra el ralentí estado por estado 2026: búsqueda de 50 estados + calculadora de ROI de aire acondicionado de estacionamiento",
+    "category": "Regulaciones y cumplimiento",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Las 50 leyes estatales contra el ralentí para 2026 en una tabla: rangos de multas, límites de 5 frente a 15 minutos, exenciones de vehículos nocturnos/DEF y un retorno de la inversión (ROI) trabajado que muestra cómo..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Guía completa de aires acondicionados para estacionamiento de camiones en Vietnam (2026)",
+    "category": "Guías de compra",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Guía 2026 sobre aire acondicionado para estacionamiento de camiones en Vietnam: 9000 sistemas BTU para la autopista Norte-Sur, ahorro de combustible (12-18 l/día), costos de instalación y consideraciones climáticas re..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Aire acondicionado de estacionamiento para conductores de contenedores y puertos de la ciudad de Ho Chi Minh (Cat Lai, Cai Mep)",
+    "category": "Guías Regionales",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Por qué los conductores de contenedores de Cat Lai y Cai Mep en la ciudad de Ho Chi Minh necesitan un aire acondicionado de estacionamiento 9000 BTU: largos tiempos de cola, presión anti-ralentí y el retorno de la inv..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Aire acondicionado de estacionamiento para camiones agrícolas y de cadena de frío del delta del Mekong",
+    "category": "Guías Regionales",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Los operadores de camiones agrícolas y de cadena de frío del delta del Mekong en Can Tho, Tien Giang y Long An dependen del aire acondicionado de estacionamiento para mantener a los conductores descansados durante las..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Aire acondicionado de estacionamiento para la Autopista Norte-Sur (CT.01): Guía para conductores de larga distancia",
+    "category": "Guías Regionales",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Cómo los conductores de larga distancia en la autopista CT.01 Norte-Sur de Vietnam utilizan un aire acondicionado de estacionamiento 9000 BTU para descansar legalmente, ahorrar entre 12 y 18 litros de diésel por noche..."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Estacionamiento con aire acondicionado para autocares turísticos y autobuses con cama vietnamitas (Da Nang, Nha Trang, Phu Quoc)",
+    "category": "Guías Regionales",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Cómo los operadores de autocares turísticos y autobuses cama en Da Nang, Nha Trang, Hoi An y Phu Quoc utilizan el aire acondicionado del estacionamiento para mantener a los conductores descansados y a los vehículos cu..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Aire acondicionado para estudios de yoga móviles y furgonetas de bienestar",
+    "category": "Especialidad",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "Descubra soluciones de aire acondicionado esenciales para estudios de yoga móviles y furgonetas de bienestar.Garantice un control de temperatura óptimo (68-72 °F) con aire acondicionado de estacionamiento confiable."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Aire acondicionado de estacionamiento para nómadas digitales que viven en RVs: comodidad para trabajar desde cualquier lugar",
+    "category": "Estilo de vida",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "Guía esencial sobre aire acondicionado de estacionamiento para RV nómadas digitales.Manténgase fresco y productivo mientras trabaja de forma remota desde su RV con el control climático adecuado."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Mantenerse fresco en RV mítines y festivales: consejos sobre aire acondicionado de estacionamiento para eventos",
+    "category": "Estilo de vida",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "¡Domina los mítines RV con aire acondicionado de estacionamiento!Obtenga consejos de expertos sobre refrigeración suplementaria, tamaño de batería e instalación para una experiencia de evento cómoda."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Guía de Van Dweller para estacionar aire acondicionado: vivir a tiempo completo en su vehículo",
+    "category": "vida en furgoneta",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "Guía esencial para elegir e instalar aire acondicionado de estacionamiento para usuarios de furgonetas.Manténgase fresco y cómodo en su casa móvil con los consejos de expertos."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Refrigerante R32 en aires acondicionados de estacionamiento de próxima generación: menor PCA y mejor eficiencia",
+    "category": "Tecnología",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Descubra por qué el refrigerante R32 se está convirtiendo en la opción preferida para los aires acondicionados de estacionamiento de próxima generación, ya que ofrece un menor PCA y una mayor eficiencia para los vehíc..."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: comparación lado a lado (2026)",
+    "category": "Comparación",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 cara a cara: potencia de refrigeración, ruido, consumo de energía, complejidad de instalación, garantía y coste de propiedad de 5 años.Números reales del campo."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Sistemas de aire acondicionado para camiones sin ralentí: cómo cumplir con las leyes estatales contra el ralentí (2026)",
+    "category": "Cumplimiento",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Leyes contra el ralentí estado por estado y cómo cumplir con el aire acondicionado de camión sin ralentí.CARB (multas de $300 a $1,000), más de 30 límites estatales, EPA SmartWay y los 5 sistemas que cumplen co..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Aparcamiento AC BTU Calculadora de tamaño: ¿Cuántos BTUs necesita realmente?(2026)",
+    "category": "Guía de compra",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] ¿Cuántos BTUs necesita su cabina dormitorio o su dormitorio RV?Fórmula paso a paso más tablas para camionetas Clase 8 (5000–10 000 BTU), camionetas Sprinter (6000–8000 BTU) y RV de 25 pies (12 000–14 000 BTU)."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Costo de instalación de aire acondicionado para estacionamiento en 2026: tarifas de compra por estado y ahorros de bricolaje",
+    "category": "Guía de compra",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Costo de instalación de aire acondicionado en estacionamientos por estado: $400–$1200 profesional, $0–$150 bricolaje.Tarifas reales de tienda de CA, TX, FL, NY, además de un desglose completo de los costos de u..."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Comparación de ruido de aire acondicionado en estacionamientos: niveles reales de dB probados a 3 pies (2026)",
+    "category": "Comparación",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Medimos 12 unidades de aire acondicionado de estacionamiento con un medidor de dB calibrado a 3 pies.CoolDrivePro V-TH1 alcanzó 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Números reales, sin marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Consumo de energía de CA del camión: explicación de vatios, amperios y consumo de batería (2026)",
+    "category": "Energía y batería",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Explicación del consumo de energía CA del camión: 480 W promedio, 9 A en 24V, 38–55 Ah por noche.Números reales, fórmulas para dimensionar su batería y cómo los compresores inverter reducen el consumo en un 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Aire acondicionado con batería RV: Guía completa para el comprador de 2026",
+    "category": "Guías de compra",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Guía completa de 2026 sobre acondicionadores de aire RV que funcionan con baterías.12V/24V DC nativo frente a configuraciones de inversor, datos de tiempo de ejecución reales LiFePO4 (220 Ah → 8–11 h), rangos de preci..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Cómo instalar un aire acondicionado de estacionamiento: guía paso a paso para 2026",
+    "category": "Guías de instalación",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Guía paso a paso 2026 para instalar un aire acondicionado de estacionamiento: preparación del techo, corte de 14x14, junta, cableado (4 AWG, fusible de 80 A), puesta en marcha.6 a 9 horas de bricolaje, $325 en piezas..."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Batería para AC de estacionamiento: Guía de cableado y tamaño 2026",
+    "category": "Guías prácticas",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 guía de dimensionamiento para aire acondicionado de estacionamiento: opciones de 220 Ah ($1400), 280 Ah ($1750), 400 Ah ($2400) con matemáticas de tiempo de ejecución de 8 horas, especificaciones de BMS/f..."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "¿El aire acondicionado del estacionamiento no enfría?Guía de solución de problemas 2026 (paso a paso)",
+    "category": "Solución de problemas",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "Guía paso a paso de 2026 para reparar un aire acondicionado de estacionamiento que no enfría.Caída de voltaje, refrigerante, condensador sucio, termostato, BMS: diagnóstico en 30 minutos, reparaciones entre $0 y $280."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC vs APU: Comparación de costos y rendimiento para flotas en 2026",
+    "category": "Reseñas y comparaciones",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Guía de decisión de flotas 2026: estacionamiento AC vs APU.TCO de 5 años con diésel de $4,05: DC aire acondicionado de estacionamiento ahorra entre $9800 y $14200 por camión en comparación con el diésel APU, entre $32..."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs 24V Parking AC en 2026: Guía de decisiones para camiones, RV y furgonetas",
+    "category": "Guía del comprador",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V frente a 24V aire acondicionado de estacionamiento en 2026: coincida con el voltaje nativo de su vehículo.Desglose completo del calibre del cable, costo de la batería, eficiencia, tiempo de ejecución y cuándo tien..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Mejor aire acondicionado para estacionamiento de 2026: 9 mejores opciones comparadas (camiones, RVs y furgonetas)",
+    "category": "Guía del comprador",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "Los nueve mejores aires acondicionados de estacionamiento probados para 2026: lado a lado BTU, ruido, dibujo, precio y rendimiento en el mundo real para semirremolques, RVs, furgonetas sprinter y flotas.Elecciones gan..."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Guía de compra de aire acondicionado para estacionamiento 2026: Cómo elegir la unidad adecuada (sin gastar $1,500)",
+    "category": "Guía del comprador",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "Guía de compra de aire acondicionado para estacionamiento para 2026: marco de decisión de 7 pasos, tabla de dimensionamiento BTU, umbrales de especificaciones, presupuestos de costos por nivel y los 5 errores que conv..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Calculadora de ahorro de combustible de aire acondicionado de estacionamiento 2026: costo de inactividad frente a DC Aire acondicionado de estacionamiento frente a APU",
+    "category": "Herramientas y calculadoras",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "Calcule el ahorro de combustible exacto de un DC aire acondicionado de estacionamiento versus ralentí versus diésel APU.Precios del combustible en 2026, ciclos de trabajo reales, retorno de la inversión de por vida.Ej..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Aire acondicionado de estacionamiento para la humedad costera de Alejandría: combatir los desafíos climáticos del Mediterráneo en Egipto",
     "category": "Aplicaciones de flotas",
@@ -744,52 +976,12 @@
     "excerpt": "Garantice la seguridad de los animales y los equipos en clínicas veterinarias móviles con soluciones confiables de aire acondicionado para estacionamiento.Crítico para la medicación y el bienestar."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Aire acondicionado para estudios de yoga móviles y furgonetas de bienestar",
-    "category": "Especialidad",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "Descubra soluciones de aire acondicionado esenciales para estudios de yoga móviles y furgonetas de bienestar.Garantice un control de temperatura óptimo (68-72 °F) con aire acondicionado de estacionamiento confiable."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Aire acondicionado de estacionamiento para nómadas digitales que viven en RVs: comodidad para trabajar desde cualquier lugar",
-    "category": "Estilo de vida",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "Guía esencial sobre aire acondicionado de estacionamiento para RV nómadas digitales.Manténgase fresco y productivo mientras trabaja de forma remota desde su RV con el control climático adecuado."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Mantenerse fresco en RV mítines y festivales: consejos sobre aire acondicionado de estacionamiento para eventos",
-    "category": "Estilo de vida",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "¡Domina los mítines RV con aire acondicionado de estacionamiento!Obtenga consejos de expertos sobre refrigeración suplementaria, tamaño de batería e instalación para una experiencia de evento cómoda."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Guía de Van Dweller para estacionar aire acondicionado: vivir a tiempo completo en su vehículo",
-    "category": "vida en furgoneta",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "Guía esencial para elegir e instalar aire acondicionado de estacionamiento para usuarios de furgonetas.Manténgase fresco y cómodo en su casa móvil con los consejos de expertos."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Costo de instalación del aire acondicionado de estacionamiento: desglose completo de precios 2025",
     "category": "Finanzas",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Desglose el costo completo de instalación del aire acondicionado para estacionamiento para 2025. Obtenga información sobre los factores que afectan el precio, desde el tipo de unidad hasta las actualizaciones eléctricas."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Refrigerante R32 en aires acondicionados de estacionamiento de próxima generación: menor PCA y mejor eficiencia",
-    "category": "Tecnología",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Descubra por qué el refrigerante R32 se está convirtiendo en la opción preferida para los aires acondicionados de estacionamiento de próxima generación, ya que ofrece un menor PCA y una mayor eficiencia para los vehíc..."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -806,14 +998,6 @@
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "excerpt": "Explore cómo los modelos de suscripción de AC para estacionamiento están transformando las operaciones de flotas, ofreciendo ahorros de costos y mayor comodidad para el conductor.Conozca el futuro del control climátic..."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V vs 24V Aire acondicionado para estacionamiento: ¿Cuál es el adecuado para su camión o RV?",
-    "category": "Tecnología",
-    "date": "8 de marzo de 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "¿Está eligiendo entre 12V y 24V aire acondicionado de estacionamiento para su camión o RV?Esta guía completa detalla los pros, los contras y las aplicaciones ideales de cada sistema, ayudándole a tomar una decisión in..."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -904,14 +1088,6 @@
     "excerpt": "Guía completa de aire acondicionado RV fuera de la red que utiliza energía solar y 12V aire acondicionado de estacionamiento.Conozca el tamaño del sistema, la selección de la batería y consejos de rendimiento en el mu..."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Guía de compra de aire acondicionado para estacionamiento 2025: todo lo que necesita saber antes de comprar",
-    "category": "Guía del comprador",
-    "date": "20 de noviembre de 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "Guía completa de compra de aire acondicionado para estacionamiento 2025.Compare las calificaciones de BTU, 12V frente a 24V, de montaje superior frente a mini split, y encuentre el mejor aire acondicionado de estacion..."
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "Cómo un aire acondicionado de estacionamiento reduce su huella de carbono en comparación con el ralentí del motor",
     "category": "Medio ambiente",
@@ -990,14 +1166,6 @@
     "date": "22 de diciembre de 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "excerpt": "¡Mantente fresco en tu skoolie!Nuestra guía cubre el mejor aire acondicionado de estacionamiento para conversiones de autobuses escolares, incluidas las opciones de techo, mini-split y 12V.Obtenga más información sobr..."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "¿Cuánto combustible ahorra un aire acondicionado de estacionamiento?Calculadora de números reales y retorno de la inversión",
-    "category": "Guía",
-    "date": "15 de febrero de 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "Descubra cuánto combustible puede ahorrarle un aire acondicionado de aparcamiento.Nuestra guía proporciona números reales, una calculadora de retorno de la inversión y consejos para camiones, RV y furgonetas."
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1118,10 +1286,6 @@
     "date": "8 de diciembre de 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "excerpt": "Guía completa para la instalación eléctrica y el cableado de CA de estacionamiento seguro 12V/24V en camiones, RVs y furgonetas.Obtenga información sobre componentes, caída de voltaje, administración de baterías y sol..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

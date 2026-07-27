@@ -1,5 +1,261 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "imageAlt": "Outdoor unit of a parking air conditioner with compressor service access",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "imageAlt": "Parking air conditioner split-system installation and service access",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Panduan Pembeli Pemasok AC Parkir B2B: Rubrik 9 Dimensi + 10 Merek Teratas Dibandingkan (2026)",
+    "date": "2026-06-08",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Perbandingan pemasok AC parkir B2B — rubrik penilaian 9 dimensi untuk armada, dealer, dan pembeli OEM",
+    "excerpt": "Bagaimana armada, dealer, OEM, dan pembeli grosir harus mengevaluasi pemasok AC parkir pada tahun 2026. Rubrik penilaian 9 dimensi, MOQ + waktu tunggu + tolok ukur sertifikasi, dan tinjauan jujur terhadap 10 merek (We..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Undang-undang Anti-Idling Negara Bagian 2026: Pencarian 50 Negara Bagian + Kalkulator ROI AC Parkir",
+    "date": "2026-06-08",
+    "category": "Peraturan & Kepatuhan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Peta AS menunjukkan undang-undang anti-idling negara bagian tahun 2026 dengan hamparan kepatuhan AC parkir",
+    "excerpt": "Semua 50 undang-undang anti-pemalasan di negara bagian AS untuk tahun 2026 dalam satu tabel — rentang denda, batas 5 vs 15 menit, pengecualian tidur/DEF, dan ROI yang berhasil menunjukkan bagaimana AC parkir baterai t..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Panduan Lengkap AC Parkir Truk di Vietnam (2026)",
+    "date": "2026-05-20",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Panduan tahun 2026 untuk AC parkir truk di Vietnam: 9000 sistem BTU untuk Jalan Tol Utara-Selatan, penghematan bahan bakar (12-18L/hari), biaya pemasangan, dan pertimbangan iklim regional dari Hanoi hingga Kota Ho Chi..."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "AC Parkir untuk Pengemudi Pelabuhan & Kontainer Kota Ho Chi Minh (Cat Lai, Cai Mep)",
+    "date": "2026-05-20",
+    "category": "Panduan Regional",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Mengapa pengemudi kontainer Cat Lai dan Cai Mep di Kota Ho Chi Minh memerlukan AC parkir 9000 BTU: waktu antrian yang lama, tekanan anti-idle, dan ROI pendinginan kabin untuk logistik pelabuhan Vietnam selatan."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "AC Parkir untuk Truk Pertanian & Rantai Dingin Mekong Delta",
+    "date": "2026-05-20",
+    "category": "Panduan Regional",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Operator truk pertanian dan rantai dingin Mekong Delta di Can Tho, Tien Giang, dan Long An mengandalkan AC parkir untuk menjaga pengemudi tetap beristirahat selama menunggu feri yang panjang dan pemberhentian semalam..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "AC Parkir untuk Jalan Tol Utara-Selatan (CT.01): Panduan Pengemudi Jarak Jauh",
+    "date": "2026-05-20",
+    "category": "Panduan Regional",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Bagaimana pengemudi jarak jauh di Jalan Tol Utara-Selatan CT.01 Vietnam menggunakan AC parkir 9000 BTU untuk beristirahat secara legal, menghemat 12-18L solar per malam, dan bertahan dalam panas tropis 38°C."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "AC Parkir untuk Pelatih Turis & Bus Tidur Vietnam (Da Nang, Nha Trang, Phu Quoc)",
+    "date": "2026-05-20",
+    "category": "Panduan Regional",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Bagaimana bus wisata dan operator bus tidur di Da Nang, Nha Trang, Hoi An, dan Phu Quoc menggunakan AC parkir untuk menjaga pengemudi tetap istirahat dan kendaraan mematuhi kebijakan anti-idle hotel dan resor."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "AC untuk Mobile Yoga Studios dan Wellness Vans",
+    "date": "2026-04-29",
+    "category": "Khusus",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "imageAlt": "AC untuk Mobile Yoga Studios dan Wellness Vans",
+    "excerpt": "Temukan solusi AC penting untuk studio yoga keliling dan van kesehatan.Pastikan kontrol suhu optimal (68-72°F) dengan AC parkir yang andal."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "AC Parkir untuk Pengembara Digital yang Tinggal di RVs: Kenyamanan Bekerja Dari Mana Saja",
+    "date": "2026-04-29",
+    "category": "Gaya hidup",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "imageAlt": "AC Parkir untuk Pengembara Digital yang Tinggal di RVs: Kenyamanan Bekerja Dari Mana Saja",
+    "excerpt": "Panduan penting untuk memarkir AC untuk RV digital nomad.Tetap sejuk dan produktif saat bekerja jarak jauh dari RV Anda dengan pengatur suhu yang tepat."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Tetap Tenang di RV Reli dan Festival: Tips Parkir AC untuk Acara",
+    "date": "2026-04-29",
+    "category": "Gaya hidup",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "imageAlt": "Tetap Tenang di RV Reli dan Festival: Tips Parkir AC untuk Acara",
+    "excerpt": "Master RV unjuk rasa dengan AC parkir!Dapatkan tips ahli mengenai pendinginan tambahan, ukuran baterai, dan pemasangan untuk pengalaman acara yang nyaman."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Panduan Van Dweller untuk Parkir AC: Hidup Penuh Waktu di Kendaraan Anda",
+    "date": "2026-04-29",
+    "category": "Kehidupan Van",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "imageAlt": "Panduan Van Dweller untuk Parkir AC: Hidup Penuh Waktu di Kendaraan Anda",
+    "excerpt": "Panduan penting dalam memilih dan memasang AC parkir bagi penghuni van.Tetap sejuk dan nyaman di rumah mobil Anda dengan tips ahli."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Refrigeran R32 pada AC Parkir Generasi Berikutnya: GWP Lebih Rendah dan Efisiensi Lebih Baik",
+    "date": "2026-04-29",
+    "category": "Teknologi",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "imageAlt": "Refrigeran R32 pada AC Parkir Generasi Berikutnya: GWP Lebih Rendah dan Efisiensi Lebih Baik",
+    "excerpt": "Temukan mengapa refrigeran R32 menjadi pilihan utama untuk AC parkir generasi berikutnya, menawarkan GWP yang lebih rendah dan peningkatan efisiensi untuk kendaraan komersial."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "AC Parkir Dometic vs Webasto: Perbandingan Berdampingan (2026)",
+    "date": "2026-04-25",
+    "category": "Perbandingan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "Unit AC parkir Dometic dan Webasto berdampingan untuk perbandingan",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16 head-to-head: keluaran pendinginan, kebisingan, penarikan daya, kerumitan pemasangan, garansi, dan biaya kepemilikan 5 tahun.Bilangan real dari lapangan."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "Sistem AC Truk Tanpa Idle: Cara Mematuhi Undang-undang Anti-Idling Negara (2026)",
+    "date": "2026-04-25",
+    "category": "Kepatuhan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "Sistem AC truk tanpa idle baterai-listrik dipasang untuk kepatuhan anti-idling",
+    "excerpt": "[2026] Undang-undang anti-idling negara bagian dan cara mematuhi AC truk tanpa idle.CARB ($300–$1.000 denda), 30+ batasan negara bagian, EPA SmartWay, dan 5 sistem yang memenuhi persyaratan tahun 2026."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Kalkulator Ukuran AC Parkir BTU: Berapa Banyak BTU yang Benar-Benar Anda Butuhkan?(2026)",
+    "date": "2026-04-25",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU tabel ukuran untuk AC parkir di seluruh kabin truk dan konfigurasi RV",
+    "excerpt": "[2026] Berapa banyak BTU yang dibutuhkan kabin tidur atau RV kamar tidur Anda?Rumus langkah demi langkah plus tabel untuk truk Kelas 8 (5.000–10.000 BTU), van Sprinter (6.000–8.000 BTU), dan RVs 25 kaki (12.000–14.000..."
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Biaya Pemasangan AC Parkir 2026: Tarif Belanja Berdasarkan Negara Bagian dan Tabungan DIY",
+    "date": "2026-04-25",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "Instalasi AC parkir profesional menunjukkan potongan atap, kabel, dan integrasi baterai",
+    "excerpt": "[2026] Biaya pemasangan AC parkir menurut negara bagian: $400–$1.200 profesional, $0–$150 DIY.Tarif toko nyata dari CA, TX, FL, NY, ditambah rincian lengkap biaya unit, baterai, kabel, dan tenaga kerja."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Perbandingan Kebisingan AC Parkir: Tingkat dB Nyata Diuji pada 3 Kaki (2026)",
+    "date": "2026-04-25",
+    "category": "Perbandingan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "Pengukur desibel mengukur kebisingan AC parkir pada jarak 3 kaki di dalam kabin tidur",
+    "excerpt": "[2026] Kami mengukur 12 unit AC parkir dengan dB meter yang dikalibrasi pada jarak 3 kaki.CoolDrivePro V-TH1 mencapai 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Bilangan nyata, tanpa pemasaran."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Konsumsi Daya AC Truk: Penjelasan Watt, Amps, dan Pengurasan Baterai (2026)",
+    "date": "2026-04-25",
+    "category": "Daya & Baterai",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Pemantauan konsumsi daya AC parkir truk dengan monitor shunt dan baterai",
+    "excerpt": "[2026] Penjelasan konsumsi daya AC truk: rata-rata 480W, 9A pada 24V, 38–55Ah per malam.Bilangan nyata, rumus untuk mengukur baterai Anda, dan cara kompresor inverter mengurangi hasil imbang 30%."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Pendingin Udara RV Bertenaga Baterai: Panduan Pembeli Lengkap 2026",
+    "date": "2026-04-24",
+    "category": "Panduan Membeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "AC RV bertenaga baterai 2026 — Interior camper van Kelas B di malam hari dengan atap 12V DC AC parkir mati LiFePO4 bank baterai, monitor menunjukkan kapasitas 220Ah dan sisa waktu pengoperasian 9,5 jam",
+    "excerpt": "Panduan lengkap tahun 2026 untuk AC RV bertenaga baterai.12V/24V DC asli vs penyiapan inverter, data runtime LiFePO4 asli (220Ah → 8–11 jam), kisaran harga $1.500–$3.800, matematika offset tenaga surya."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Cara Memasang AC Parkir: Panduan Langkah demi Langkah untuk tahun 2026",
+    "date": "2026-04-24",
+    "category": "Panduan Instalasi",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "Cara Pemasangan AC Parkir 2026 — Pemasang memotong bukaan atap berukuran 14x14 inchi pada mobil van Sprinter menggunakan gergaji ukir, dengan unit CoolDrivePro VS02 PRO 12V DC, paking butil, dan 4 kabel AWG diletakkan di meja kerja samping truk",
+    "excerpt": "Panduan langkah demi langkah 2026 untuk memasang AC parkir: persiapan atap, potongan 14x14, paking, perkabelan (sekring 4 AWG, 80A), commissioning.6–9 jam DIY, $325 untuk suku cadang di luar unit."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Baterai untuk AC Parkir: Panduan Ukuran & Pengkabelan 2026",
+    "date": "2026-04-24",
+    "category": "Panduan Cara",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "Baterai LiFePO4 untuk parkir AC 2026 — kompartemen baterai terbuka di van Sprinter memperlihatkan dua baterai 220Ah Battle Born LiFePO4 secara paralel dengan kabel 2/0 AWG, sekering kelas T 200A, busbar, dan monitor Victron BMV-712 yang membaca 87% SOC pada 13,4V",
+    "excerpt": "Panduan ukuran LiFePO4 2026 untuk AC parkir: opsi 220Ah ($1.400), 280Ah ($1.750), 400Ah ($2.400) dengan perhitungan waktu proses 8 jam, spesifikasi BMS/sekring/kabel."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "AC Parkir Tidak Dingin?Panduan Mengatasi Masalah 2026 (Langkah demi Langkah)",
+    "date": "2026-04-24",
+    "category": "Pemecahan masalah",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "Pemecahan masalah AC parkir tidak dingin 2026 — pengemudi di dalam bantalan semi truk dengan multimeter memeriksa konektor daya AC parkir 12V DC pada 11.4V, pembacaan termometer pasokan udara 78°F vs pengembalian 79°F, gambar inframerah menunjukkan titik panas kondensor",
+    "excerpt": "Panduan langkah demi langkah 2026 memperbaiki AC parkir yang tidak dingin.Penurunan tegangan, zat pendingin, kondensor kotor, termostat, BMS — diagnosis dalam 30 menit, perbaikan $0–$280."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "AC Parkir vs APU: Perbandingan Biaya & Kinerja 2026 untuk Armada",
+    "date": "2026-04-24",
+    "category": "Ulasan & Perbandingan",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "AC Parkir vs APU 2026 — perbandingan Freightliner Cascadia dengan AC parkir DC bertenaga baterai versus truk tidur dengan RigMaster APU yang dipasang pada rel rangka, tampilan pompa bahan bakar menunjukkan solar $4,05/gal dan overlay biaya 5 tahun",
+    "excerpt": "Panduan keputusan armada 2026: AC parkir vs APU.TCO 5 tahun dengan solar $4,05 — DC parkir AC menghemat $9,800–$14,200/truk vs solar APU, $3,200–$5,400 vs idle."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs 24V AC Parkir pada tahun 2026: Panduan Keputusan Truk, RV & Van",
+    "date": "2026-04-23",
+    "category": "Panduan Pembeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "imageAlt": "12V vs 24V perbandingan AC parkir — AC parkir atap berdampingan yang dihubungkan dengan kabel untuk 12V dan 24V sistem kelistrikan pada truk dan RV",
+    "excerpt": "12V vs 24V AC parkir pada tahun 2026: sesuaikan dengan voltase asli kendaraan Anda.Rincian lengkap pengukur kabel, biaya baterai, efisiensi, waktu pengoperasian, dan kapan konverter masuk akal.Matriks keputusan di dal..."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Pendingin Udara Parkir Terbaik 2026: 9 Pilihan Teratas Dibandingkan (Truk, RVs & Van)",
+    "date": "2026-04-23",
+    "category": "Panduan Pembeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "AC parkir terbaik 2026 — jajaran unit AC parkir rooftop dan split-system DC yang dipasang pada semi-truk, RV, dan van sprinter di bawah langit cerah",
+    "excerpt": "9 AC parkir terbaik diuji pada tahun 2026: BTU berdampingan, kebisingan, tarikan, harga, dan performa dunia nyata untuk semi truk, RVs, van sprinter, dan armada.Pilihan pemenang berdasarkan kasus penggunaan."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Panduan Membeli AC Parkir 2026: Cara Memilih Unit yang Tepat (Tanpa Buang $1.500)",
+    "date": "2026-04-23",
+    "category": "Panduan Pembeli",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "imageAlt": "Panduan pembelian AC parkir 2026 — unit AC parkir rooftop dan mini-split DC dipasang di truk, RV, dan van untuk perbandingan berdampingan",
+    "excerpt": "Panduan pembelian AC parkir tahun 2026: kerangka keputusan 7 langkah, tabel ukuran BTU, ambang batas spesifikasi, anggaran biaya berdasarkan tingkatan, dan 5 kesalahan yang mengubah AC seharga $1.500 menjadi barang be..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Kalkulator Penghematan Bahan Bakar AC Parkir 2026: Biaya Menganggur vs DC AC Parkir vs APU",
+    "date": "2026-04-23",
+    "category": "Alat & Kalkulator",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "imageAlt": "Kalkulator penghematan bahan bakar AC parkir 2026 — dasbor semi truk yang menunjukkan jam idle, konsumsi bahan bakar, dan perbandingan penghematan tahunan antara AC parkir idle, diesel APU, dan DC",
+    "excerpt": "Hitung penghematan bahan bakar yang tepat dari AC parkir DC vs idle vs diesel APU.Harga bahan bakar tahun 2026, siklus kerja nyata, ROI seumur hidup.Contoh yang berhasil untuk pemilik-operator dan armada 100 truk."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Parkir AC untuk Kelembaban Pesisir Alexandria: Memerangi Tantangan Iklim Mediterania di Mesir",
     "date": "2026-03-31",
@@ -113,6 +369,7 @@
     "date": "2026-01-10",
     "category": "Teknologi",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp",
+    "imageAlt": "Integrasi AC Parkir Smart Home: Kontrol AC Kendaraan Anda dari Mana Saja",
     "excerpt": "Temukan bagaimana integrasi rumah pintar AC parkir memungkinkan Anda mengontrol iklim kendaraan Anda dari mana saja, meningkatkan kenyamanan dan efisiensi untuk RVs dan truk."
   },
   {
@@ -130,6 +387,7 @@
     "date": "2025-12-29",
     "category": "Keamanan Pengemudi",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
+    "imageAlt": "Cara Mengurangi Stres Panas Pengemudi dengan Sistem AC Parkir Elektrik",
     "excerpt": "Pelajari bagaimana sistem AC parkir listrik melindungi pengemudi dari tekanan panas di iklim Afrika.Tingkatkan keselamatan, retensi, dan produktivitas dengan pendinginan kabin yang efektif."
   },
   {
@@ -138,6 +396,7 @@
     "date": "2025-12-28",
     "category": "Panduan Instalasi",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
+    "imageAlt": "Kesalahan Umum Pemasangan AC Truk di Afrika",
     "excerpt": "Hindari kegagalan yang merugikan dengan mempelajari kesalahan pemasangan AC truk yang paling umum di Afrika.Panduan ahli tentang prosedur pemasangan, pengkabelan, dan penyegelan yang benar."
   },
   {
@@ -146,6 +405,7 @@
     "date": "2025-12-27",
     "category": "Panduan Teknis",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
+    "imageAlt": "Pengaruh Debu, Getaran Jalan, dan Panas Terhadap Kinerja AC Parkir",
     "excerpt": "Pahami bagaimana tantangan lingkungan di Afrika berdampak pada kinerja AC parkir truk dan pelajari strategi pemeliharaan untuk memastikan pendinginan yang andal dalam kondisi sulit."
   },
   {
@@ -154,6 +414,7 @@
     "date": "2025-12-26",
     "category": "Panduan Teknis",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
+    "imageAlt": "Perlindungan Tegangan Rendah: Yang Perlu Diketahui Pembeli Armada Afrika",
     "excerpt": "Panduan penting untuk perlindungan tegangan rendah pada sistem AC parkir truk.Pelajari cara kerja perlindungan baterai dan mengapa hal ini penting bagi operasi armada Afrika."
   },
   {
@@ -162,6 +423,7 @@
     "date": "2025-12-25",
     "category": "Pemecahan masalah",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
+    "imageAlt": "Mengapa Pendinginan AC Truk Anda Menjadi Lemah di Cuaca Panas Ekstrim (Dan Cara Memperbaikinya)",
     "excerpt": "Temukan mengapa AC truk kehilangan daya pendinginan dalam cuaca panas ekstrem dan pelajari solusi yang telah terbukti untuk memulihkan kinerja dalam kondisi gurun Afrika."
   },
   {
@@ -170,6 +432,7 @@
     "date": "2025-12-24",
     "category": "Panduan Instalasi",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
+    "imageAlt": "Panduan Instalasi Profesional untuk AC Parkir Truk di Afrika",
     "excerpt": "Panduan pemasangan profesional langkah demi langkah untuk AC parkir truk di kondisi Afrika.Pelajari prosedur pemasangan, pengkabelan, dan commissioning untuk kinerja yang andal."
   },
   {
@@ -187,6 +450,7 @@
     "date": "2025-12-19",
     "category": "Solusi Armada",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp",
+    "imageAlt": "Grosir Pendingin Udara Truk untuk Armada Transportasi Tunisia",
     "excerpt": "AC truk grosir untuk armada transportasi Tunisia.Penetapan harga massal dan solusi armada untuk operator logistik Afrika Utara yang mencari teknologi pendinginan yang andal."
   },
   {
@@ -213,6 +477,7 @@
     "date": "2025-12-16",
     "category": "Panduan Regional",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp",
+    "imageAlt": "Pendingin Udara Truk untuk Operasi Transportasi Dataran Tinggi Ethiopia",
     "excerpt": "Pendingin udara truk khusus untuk operasi transportasi dataran tinggi di Ethiopia.Direkayasa untuk tantangan unik koridor logistik tinggi di Tanduk Afrika."
   },
   {
@@ -230,6 +495,7 @@
     "date": "2025-12-14",
     "category": "Panduan Regional",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp",
+    "imageAlt": "Pendingin Udara Truk Listrik untuk Armada Transportasi Uganda yang Berkembang",
     "excerpt": "Pendingin udara truk listrik untuk armada transportasi Uganda yang berkembang.Solusi pendinginan yang efisien untuk pusat logistik dan operasi lintas batas yang sedang berkembang di Afrika Timur."
   },
   {
@@ -238,6 +504,7 @@
     "date": "2025-12-13",
     "category": "Aplikasi Khusus",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp",
+    "imageAlt": "Parkir AC untuk Kendaraan Wisata Safari Tanzania",
     "excerpt": "Temukan solusi AC parkir untuk kendaraan wisata safari Tanzania.Jaga kenyamanan para tamu sambil melestarikan pengalaman satwa liar di tujuan safari utama Afrika Timur."
   },
   {
@@ -327,6 +594,7 @@
     "date": "2025-12-06",
     "category": "Aplikasi Pariwisata",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp",
+    "imageAlt": "Parkir AC untuk Wisata Safari Tanzania: Serengeti hingga Zanzibar Comfort",
     "excerpt": "Tingkatkan wisata safari Tanzania dengan sistem AC parkir.Pendinginan penting untuk kendaraan wisata satwa liar yang beroperasi di Serengeti, Ngorongoro, dan jalur pesisir ke Zanzibar."
   },
   {
@@ -344,6 +612,7 @@
     "date": "2025-12-05",
     "category": "Peluang Bisnis",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
+    "imageAlt": "Menjadi Distributor AC Truk di Afrika",
     "excerpt": "Bermitralah dengan kami untuk menjadi distributor AC truk di Afrika.Wilayah eksklusif, dukungan pemasaran, dan pelatihan teknis untuk mitra regional."
   },
   {
@@ -352,6 +621,7 @@
     "date": "2025-12-05",
     "category": "Layanan Pendukung",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
+    "imageAlt": "Suku Cadang & Dukungan Purna Jual untuk AC Truk di Afrika",
     "excerpt": "Suku cadang lengkap dan dukungan purna jual untuk AC truk di Afrika.Filter, kompresor, zat pendingin, dan bantuan teknis tersedia."
   },
   {
@@ -414,6 +684,7 @@
     "date": "2025-12-03",
     "category": "Panduan Regional",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp",
+    "imageAlt": "Pendinginan Transportasi Lintas Batas untuk Operator Armada Zimbabwe",
     "excerpt": "Parkir AC untuk armada transportasi lintas batas Zimbabwe.Optimalkan kenyamanan pengemudi untuk rute yang menghubungkan Harare, Bulawayo, dan pasar regional."
   },
   {
@@ -449,6 +720,7 @@
     "date": "2025-12-02",
     "category": "Panduan Regional",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp",
+    "imageAlt": "Solusi Pendingin Udara Parkir untuk Armada Logistik Kenya: Koridor Nairobi ke Mombasa",
     "excerpt": "Solusi armada untuk perusahaan logistik Kenya.Temukan bagaimana sistem AC parkir meningkatkan kesejahteraan pengemudi di koridor transportasi Nairobi-Mombasa yang sibuk dan sekitarnya."
   },
   {
@@ -511,6 +783,7 @@
     "date": "2025-11-20",
     "category": "Gaya hidup",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp",
+    "imageAlt": "AC Parkir untuk Wisatawan Solo RV : Keamanan, Kenyamanan dan Kemandirian",
     "excerpt": "Wisatawan solo RV, tingkatkan keamanan, kenyamanan, dan kemandirian Anda dengan AC parkir yang andal.Penting untuk boondocking dan ketenangan pikiran."
   },
   {
@@ -744,6 +1017,7 @@
     "date": "2025-10-26",
     "category": "Panduan",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp",
+    "imageAlt": "Menggunakan Pompa Panas AC Parkir Anda untuk Musim Dingin RV Berkemah",
     "excerpt": "Temukan bagaimana pompa panas AC parkir Anda dapat mengubah RV perkemahan musim dingin.Pelajari tentang efisiensi, kebutuhan baterai, dan tetap hangat di cuaca dingin."
   },
   {
@@ -779,6 +1053,7 @@
     "date": "2025-10-15",
     "category": "Teknologi",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp",
+    "imageAlt": "Peringkat Efisiensi Energi untuk AC Parkir: Memahami EER, COP & SEER",
     "excerpt": "Mengungkap peringkat efisiensi energi AC parkir: EER, COP, dan SEER.Pelajari arti angka-angka ini bagi dompet dan kenyamanan Anda di jalan."
   },
   {
@@ -818,42 +1093,6 @@
     "excerpt": "Pastikan keamanan hewan dan peralatan di klinik hewan keliling dengan solusi AC parkir yang andal.Penting untuk pengobatan dan kesejahteraan."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "AC untuk Mobile Yoga Studios dan Wellness Vans",
-    "date": "2025-10-15",
-    "category": "Khusus",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "imageAlt": "AC untuk Mobile Yoga Studios dan Wellness Vans",
-    "excerpt": "Temukan solusi AC penting untuk studio yoga keliling dan van kesehatan.Pastikan kontrol suhu optimal (68-72°F) dengan AC parkir yang andal."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "AC Parkir untuk Pengembara Digital yang Tinggal di RVs: Kenyamanan Bekerja Dari Mana Saja",
-    "date": "2025-10-15",
-    "category": "Gaya hidup",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "imageAlt": "AC Parkir untuk Pengembara Digital yang Tinggal di RVs: Kenyamanan Bekerja Dari Mana Saja",
-    "excerpt": "Panduan penting untuk memarkir AC untuk RV digital nomad.Tetap sejuk dan produktif saat bekerja jarak jauh dari RV Anda dengan pengatur suhu yang tepat."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Tetap Tenang di RV Reli dan Festival: Tips Parkir AC untuk Acara",
-    "date": "2025-10-15",
-    "category": "Gaya hidup",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "imageAlt": "Tetap Tenang di RV Reli dan Festival: Tips Parkir AC untuk Acara",
-    "excerpt": "Master RV unjuk rasa dengan AC parkir!Dapatkan tips ahli mengenai pendinginan tambahan, ukuran baterai, dan pemasangan untuk pengalaman acara yang nyaman."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Panduan Van Dweller untuk Parkir AC: Hidup Penuh Waktu di Kendaraan Anda",
-    "date": "2025-10-15",
-    "category": "Kehidupan Van",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "imageAlt": "Panduan Van Dweller untuk Parkir AC: Hidup Penuh Waktu di Kendaraan Anda",
-    "excerpt": "Panduan penting dalam memilih dan memasang AC parkir bagi penghuni van.Tetap sejuk dan nyaman di rumah mobil Anda dengan tips ahli."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Biaya Pemasangan AC Parkir: Rincian Harga Lengkap 2025",
     "date": "2025-10-15",
@@ -861,15 +1100,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "imageAlt": "Biaya Pemasangan AC Parkir: Rincian Harga Lengkap 2025",
     "excerpt": "Uraikan biaya pemasangan AC parkir secara lengkap untuk tahun 2025. Dapatkan wawasan tentang faktor-faktor yang mempengaruhi harga, mulai dari jenis unit hingga peningkatan kelistrikan."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Refrigeran R32 pada AC Parkir Generasi Berikutnya: GWP Lebih Rendah dan Efisiensi Lebih Baik",
-    "date": "2025-10-15",
-    "category": "Teknologi",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "imageAlt": "Refrigeran R32 pada AC Parkir Generasi Berikutnya: GWP Lebih Rendah dan Efisiensi Lebih Baik",
-    "excerpt": "Temukan mengapa refrigeran R32 menjadi pilihan utama untuk AC parkir generasi berikutnya, menawarkan GWP yang lebih rendah dan peningkatan efisiensi untuk kendaraan komersial."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -989,15 +1219,6 @@
     "excerpt": "Temukan AC parkir terbaik untuk semi truk pada tahun 2025. Panduan pembeli kami mencakup pilihan terbaik, tipe, dan faktor penting bagi pengemudi truk."
   },
   {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V vs 24V Pendingin Udara Parkir: Mana yang Tepat untuk Truk Anda atau RV?",
-    "date": "8 Maret 2025",
-    "category": "Teknologi",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "imageAlt": "12V vs 24V Pendingin Udara Parkir: Mana yang Tepat untuk Truk Anda atau RV?",
-    "excerpt": "Memilih antara 12V dan 24V AC parkir untuk truk Anda atau RV?Panduan komprehensif ini merinci pro, kontra, dan penerapan ideal setiap sistem, membantu Anda membuat keputusan yang tepat untuk kenyamanan dan efisiensi o..."
-  },
-  {
     "slug": "no-idle-ac-anti-idling-laws",
     "title": "Pendingin Udara Tanpa Idle: Bagaimana AC Parkir Membantu Pengemudi Truk Mematuhi Undang-Undang Anti Idling",
     "date": "6 Maret 2025",
@@ -1059,15 +1280,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-hero.webp",
     "imageAlt": "Mengapa Pendingin Udara Bertenaga DC Menjadi Pengubah Permainan bagi Pemilik RV",
     "excerpt": "Temukan mengapa AC bertenaga DC mengubah RV dan pendinginan truk.Pelajari tentang efisiensi, kompatibilitas baterai, dan opsi AC parkir 12V DC terbaik."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Berapa Banyak Bahan Bakar yang Dihemat oleh AC Parkir?Kalkulator Bilangan Nyata & ROI",
-    "date": "15 Februari 2025",
-    "category": "Panduan",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "imageAlt": "Berapa Banyak Bahan Bakar yang Dihemat oleh AC Parkir?Kalkulator Bilangan Nyata & ROI",
-    "excerpt": "Temukan berapa banyak bahan bakar yang dapat dihemat oleh AC parkir.Panduan kami menyediakan bilangan real, kalkulator ROI, dan tip untuk truk, RV, dan van."
   },
   {
     "slug": "cleaning-maintaining-rv-ac",
@@ -1149,15 +1361,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-food-trucks-hero.webp",
     "imageAlt": "AC untuk Truk Makanan: Jaga Dapur dan Kabin Anda Tetap Sejuk",
     "excerpt": "Jaga agar truk makanan Anda tetap sejuk dan sesuai dengan AC parkir yang tepat.Panduan kami mencakup BTU kebutuhan, instalasi, dan model teratas seperti CoolDrivePro VS02 PRO & VX3000SP."
-  },
-  {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Panduan Membeli AC Parkir 2025: Semua yang Perlu Anda Ketahui Sebelum Membeli",
-    "date": "20 November 2024",
-    "category": "Panduan Pembeli",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "imageAlt": "Panduan Membeli AC Parkir 2025: Semua yang Perlu Anda Ketahui Sebelum Membeli",
-    "excerpt": "Panduan Membeli AC Parkir Lengkap 2025.Bandingkan rating BTU, 12V vs 24V, split atas vs mini, dan temukan AC parkir terbaik untuk truk Anda atau RV."
   },
   {
     "slug": "mppt-solar-controller-rv-ac",
@@ -1266,10 +1469,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "imageAlt": "Panduan Pengkabelan AC Parkir: Aman 12V/24V Instalasi Listrik - panduan AC parkir",
     "excerpt": "Panduan komprehensif untuk pemasangan kabel AC parkir 12V/24V yang aman dan instalasi listrik di truk, RV, dan van.Pelajari tentang komponen, penurunan tegangan, manajemen baterai, dan pemecahan masalah untuk unit Coo..."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

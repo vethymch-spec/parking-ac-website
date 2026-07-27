@@ -1,799 +1,383 @@
 /**
- * Products Listing Page with Filter & Sort
- * Features:
- *   - Category filter (All / Cooling / Heating)
- *   - Price range filter (slider or preset ranges)
- *   - Rating filter (minimum stars)
- *   - Sort by: Featured, Price Low→High, Price High→Low, Rating, Newest
- *   - Responsive grid layout with product cards
+ * Products Overview / Catalog Page
+ *
+ * B2B + DTC oriented parking AC catalog:
+ *   - Quick filter by vehicle / use case / install type
+ *   - Product cards focused on BTU, voltage, install type, "best for"
+ *   - Spec comparison table at the bottom
+ *
+ * Live at /products/ — included in sitemap and prerender (see scripts/prerender.mjs).
  */
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Link } from "wouter";
-import { Star, SlidersHorizontal, X, ChevronDown, ChevronRight } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
-import { Button } from "@/components/ui/button";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { Slider } from "@/components/ui/slider";
-import { Badge } from "@/components/ui/badge";
+import ProductLineSwitcher from "@/components/ProductLineSwitcher";
 
-/* ── Product Data ────────────────────────────────────────────── */
+/* ── Product catalog ─────────────────────────────────────────────────── */
 
-interface Product {
-  id: string;
+type VehicleTag = "semi" | "light-truck" | "rv" | "van" | "fleet";
+type FunctionTag = "cooling" | "heating-cooling";
+type InstallTag = "rooftop" | "split" | "compact-rooftop";
+
+interface CatalogItem {
   slug: string;
   model: string;
   name: string;
-  subtitle: string;
-  category: "cooling" | "heating";
-  categoryLabel: string;
-  price: number;
-  originalPrice: number;
-  rating: number;
-  reviewCount: number;
+  tagline: string;
   image: string;
   imageAlt: string;
-  specs: { label: string; value: string }[];
-  tags: string[];
-  isNew: boolean;
-  releaseDate: string;
+  btu: string;
+  voltage: string;
+  install: InstallTag;
+  installLabel: string;
+  function: FunctionTag;
+  noise: string;
+  runtime: string;
+  vehicles: VehicleTag[];
+  bestFor: string;
+  isNew?: boolean;
 }
 
-const allProducts: Product[] = [
+const CATALOG: CatalogItem[] = [
   {
-    id: "nano-max",
-    slug: "nano-max",
-    model: "Nano Max",
-    name: "7500-8500 BTU Light Truck Parking Air Conditioner",
-    subtitle: "12V/24V DC Dual-Rotor AC for US Light Trucks",
-    category: "cooling",
-    categoryLabel: "Light Truck AC",
-    price: 1599,
-    originalPrice: 1899,
-    rating: 5.0,
-    reviewCount: 3,
-    image: "/images/products/nano-max-01.webp",
-    imageAlt: "Nano Max light truck parking air conditioner",
-    specs: [
-      { label: "Cooling", value: "7,500-8,500 BTU" },
-      { label: "Power", value: "12V/24V DC" },
-      { label: "Compressor", value: "Dual-Rotor" },
-    ],
-    tags: ["NEW", "USA Market", "Light Truck"],
-    isNew: true,
-    releaseDate: "2026-04-01",
-  },
-  {
-    id: "vs02-pro",
     slug: "top-mounted-ac",
     model: "VS02 PRO",
-    name: "12000 BTU Top-Mounted Parking Air Conditioner",
-    subtitle: "12V/24V DC No-Idle RV & Truck Parking AC",
-    category: "cooling",
-    categoryLabel: "Parking AC",
-    price: 1299,
-    originalPrice: 1599,
-    rating: 4.8,
-    reviewCount: 65,
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-top-mounted-opt_7f111736.webp",
-    imageAlt: "VS02 PRO top-mounted parking air conditioner for RV and truck",
-    specs: [
-      { label: "Cooling", value: "12,000 BTU" },
-      { label: "Power", value: "12V / 24V DC" },
-      { label: "Noise", value: "≤ 45 dB" },
-    ],
-    tags: ["Best Seller", "Cooling + Heating"],
-    isNew: false,
-    releaseDate: "2025-06-01",
+    name: "12,000 BTU Rooftop Parking AC",
+    tagline: "No-idle cooling for sleeper cabs, RVs and service vans",
+    image: "/images/products/vs02pro-top-mounted.webp",
+    imageAlt: "VS02 PRO rooftop parking air conditioner",
+    btu: "12,000 BTU",
+    voltage: "12V / 24V DC",
+    install: "rooftop",
+    installLabel: "Rooftop",
+    function: "cooling",
+    noise: "≤ 45 dB",
+    runtime: "8–10 h on 200Ah LFP",
+    vehicles: ["semi", "rv", "van", "fleet"],
+    bestFor: "Long-haul sleeper cabs and Class 6–8 fleets that need a clean rooftop install.",
   },
   {
-    id: "vx3000sp",
-    slug: "mini-split-ac",
-    model: "VX3000SP",
-    name: "12000 BTU Mini Split Parking Air Conditioner",
-    subtitle: "12V DC No-Idle AC for Semi Trucks & RVs",
-    category: "cooling",
-    categoryLabel: "Parking AC",
-    price: 1599,
-    originalPrice: 1999,
-    rating: 4.8,
-    reviewCount: 65,
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-mini-split-opt_81dc95b4.webp",
-    imageAlt: "VX3000SP mini split parking air conditioner for semi truck",
-    specs: [
-      { label: "Cooling", value: "12,000 BTU" },
-      { label: "Power", value: "12V DC" },
-      { label: "Runtime", value: "8–10 hrs" },
-    ],
-    tags: ["Best for Trucks"],
-    isNew: false,
-    releaseDate: "2025-08-01",
-  },
-  {
-    id: "water-heater",
-    slug: "water-heater",
-    model: "WH-65K",
-    name: "65000 BTU Tankless Water Heater for RV & Truck",
-    subtitle: "On-Demand Propane Heater for Off-Grid Living",
-    category: "heating",
-    categoryLabel: "Water Heater",
-    price: 399,
-    originalPrice: 499,
-    rating: 4.7,
-    reviewCount: 42,
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/water-heater_e1e95553.webp",
-    imageAlt: "65000 BTU tankless water heater for RV and truck",
-    specs: [
-      { label: "Heating", value: "65,000 BTU" },
-      { label: "Flow", value: "2.9 GPM" },
-      { label: "Fuel", value: "Propane (LP)" },
-    ],
-    tags: ["Off-Grid Comfort"],
-    isNew: false,
-    releaseDate: "2025-10-01",
-  },
-  {
-    id: "air-heater-5kw",
-    slug: "top-mounted-ac",
-    model: "AH-5000",
-    name: "5KW Diesel Air Heater for Truck & RV",
-    subtitle: "12V DC Parking Heater for Cold Weather",
-    category: "heating",
-    categoryLabel: "Air Heater",
-    price: 289,
-    originalPrice: 349,
-    rating: 4.6,
-    reviewCount: 38,
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/water-heater_e1e95553.webp",
-    imageAlt: "5KW diesel air heater for truck and RV parking",
-    specs: [
-      { label: "Power", value: "5 KW" },
-      { label: "Voltage", value: "12V DC" },
-      { label: "Fuel", value: "Diesel" },
-    ],
-    tags: ["Winter Essential"],
+    slug: "nano-max",
+    model: "Nano Max",
+    name: "10,000 BTU Compact Rooftop AC",
+    tagline: "Light truck and pickup-friendly footprint with dual-rotor compressor",
+    image: "/images/products/nano-max-01.webp",
+    imageAlt: "Nano Max compact rooftop parking air conditioner for US light trucks",
+    btu: "10,000 BTU",
+    voltage: "12V / 24V DC",
+    install: "compact-rooftop",
+    installLabel: "Compact rooftop",
+    function: "cooling",
+    noise: "≤ 42 dB",
+    runtime: "6–8 h on 100Ah LFP",
+    vehicles: ["light-truck", "van", "rv"],
+    bestFor: "US Class 3–5 light trucks, work pickups and small RVs where roof space is tight.",
     isNew: true,
-    releaseDate: "2026-01-15",
   },
   {
-    id: "lithium-200ah",
-    slug: "top-mounted-ac",
-    model: "LFP-200",
-    name: "200Ah LiFePO4 Lithium Battery for Parking AC",
-    subtitle: "12V Deep Cycle Battery for Off-Grid Power",
-    category: "cooling",
-    categoryLabel: "Battery",
-    price: 599,
-    originalPrice: 799,
-    rating: 4.9,
-    reviewCount: 53,
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-top-mounted-opt_7f111736.webp",
-    imageAlt: "200Ah LiFePO4 lithium battery for parking air conditioner",
-    specs: [
-      { label: "Capacity", value: "200 Ah" },
-      { label: "Voltage", value: "12V" },
-      { label: "Cycles", value: "4000+" },
-    ],
-    tags: ["Recommended"],
-    isNew: true,
-    releaseDate: "2026-02-01",
-  },
-  {
-    id: "v-th1",
     slug: "heating-cooling-ac",
     model: "V-TH1",
-    name: "V-TH1 Heating & Cooling Parking Air Conditioner",
-    subtitle: "12V/24V DC Dual-Mode Rotor AC — Year-Round Comfort",
-    category: "cooling",
-    categoryLabel: "Heating & Cooling AC",
-    price: 0,
-    originalPrice: 0,
-    rating: 4.9,
-    reviewCount: 12,
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
-    imageAlt: "V-TH1 heating and cooling parking air conditioner rooftop unit",
-    specs: [
-      { label: "Cooling", value: "2,000W" },
-      { label: "Heating", value: "30 min" },
-      { label: "Voltage", value: "12V / 24V" },
-    ],
-    tags: ["NEW", "Heating + Cooling"],
+    name: "Heating + Cooling Rooftop AC",
+    tagline: "Year-round comfort — cools in summer, heats in winter from one rooftop unit",
+    image: "/images/products/vth1-outdoor-top.webp",
+    imageAlt: "V-TH1 heating and cooling rooftop parking air conditioner",
+    btu: "2,000 W cooling",
+    voltage: "12V / 24V DC",
+    install: "rooftop",
+    installLabel: "Rooftop",
+    function: "heating-cooling",
+    noise: "≤ 45 dB",
+    runtime: "Heats cabin in ~30 min",
+    vehicles: ["semi", "rv", "fleet"],
+    bestFor: "Operators who want one rooftop unit to replace both a parking AC and a bunk heater.",
     isNew: true,
-    releaseDate: "2026-03-15",
+  },
+  {
+    slug: "mini-split-ac",
+    model: "VX3000SP",
+    name: "12,000 BTU Mini-Split Parking AC",
+    tagline: "Outdoor condenser + indoor head for fleet sleeper cabs",
+    image: "/images/products/vx3000-mini-split.webp",
+    imageAlt: "VX3000SP 12V/24V mini split parking air conditioner for semi-truck sleeper cab",
+    btu: "12,000 BTU",
+    voltage: "12V / 24V DC",
+    install: "split",
+    installLabel: "Mini split",
+    function: "cooling",
+    noise: "≤ 42 dB indoor",
+    runtime: "8–10 h on 200Ah LFP",
+    vehicles: ["semi", "fleet"],
+    bestFor: "Sleeper cabs that can't sacrifice rooftop space, or fleets standardizing on split installs.",
   },
 ];
 
-/* ── Sort Options ────────────────────────────────────────────── */
+/* ── Filter chips ─────────────────────────────────────────────────────── */
 
-type SortOption = "featured" | "price-asc" | "price-desc" | "rating" | "newest";
+type Filter = "all" | VehicleTag | FunctionTag | InstallTag;
 
-const sortOptions: { value: SortOption; label: string }[] = [
-  { value: "featured", label: "Featured" },
-  { value: "price-asc", label: "Price: Low to High" },
-  { value: "price-desc", label: "Price: High to Low" },
-  { value: "rating", label: "Highest Rated" },
-  { value: "newest", label: "Newest" },
+interface FilterChip {
+  id: Filter;
+  label: string;
+  match: (p: CatalogItem) => boolean;
+}
+
+const FILTERS: FilterChip[] = [
+  { id: "all", label: "All products", match: () => true },
+  { id: "semi", label: "Semi-truck sleeper", match: (p) => p.vehicles.includes("semi") },
+  { id: "light-truck", label: "Light truck / pickup", match: (p) => p.vehicles.includes("light-truck") },
+  { id: "rv", label: "RV & camper", match: (p) => p.vehicles.includes("rv") },
+  { id: "van", label: "Service van", match: (p) => p.vehicles.includes("van") },
+  { id: "fleet", label: "Fleet rollout", match: (p) => p.vehicles.includes("fleet") },
+  { id: "heating-cooling", label: "Heating + cooling", match: (p) => p.function === "heating-cooling" },
+  { id: "rooftop", label: "Rooftop install", match: (p) => p.install === "rooftop" || p.install === "compact-rooftop" },
+  { id: "split", label: "Split install", match: (p) => p.install === "split" },
 ];
 
-/* ── Star Rating Component ───────────────────────────────────── */
-
-function StarRating({ rating, size = 16 }: { rating: number; size?: number }) {
-  return (
-    <div className="flex items-center gap-0.5">
-      {[1, 2, 3, 4, 5].map((star) => (
-        <Star
-          key={star}
-          size={size}
-          className={
-            star <= Math.round(rating)
-              ? "fill-amber-400 text-amber-400"
-              : "fill-gray-200 text-gray-200"
-          }
-        />
-      ))}
-    </div>
-  );
-}
-
-/* ── Product Card ────────────────────────────────────────────── */
-
-function ProductCard({ product }: { product: Product }) {
-  const discount = Math.round(
-    ((product.originalPrice - product.price) / product.originalPrice) * 100
-  );
-
-  return (
-    <Link href={`/products/${product.slug}`}>
-      <div className="group bg-white rounded-xl border border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer h-full flex flex-col">
-        {/* Image */}
-        <div className="relative aspect-[4/3] bg-secondary/30 overflow-hidden">
-          <img
-            src={product.image}
-            alt={product.imageAlt}
-            loading="lazy"
-            width="600"
-            height="450"
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          />
-          {/* Badges */}
-          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
-            {product.isNew && (
-              <span className="px-2.5 py-1 text-xs font-bold uppercase tracking-wider bg-emerald-500 text-white rounded-full">
-                New
-              </span>
-            )}
-            {discount > 0 && (
-              <span className="px-2.5 py-1 text-xs font-bold uppercase tracking-wider bg-red-500 text-white rounded-full">
-                -{discount}%
-              </span>
-            )}
-          </div>
-          {/* Category badge */}
-          <div className="absolute top-3 right-3">
-            <span
-              className="px-2.5 py-1 text-xs font-semibold uppercase tracking-wider rounded-full"
-              style={{
-                backgroundColor:
-                  product.category === "cooling"
-                    ? "oklch(0.90 0.08 240)"
-                    : "oklch(0.92 0.08 30)",
-                color:
-                  product.category === "cooling"
-                    ? "oklch(0.35 0.15 255)"
-                    : "oklch(0.40 0.15 30)",
-              }}
-            >
-              {product.category === "cooling" ? "Cooling" : "Heating"}
-            </span>
-          </div>
-        </div>
-
-        {/* Content */}
-        <div className="p-5 flex flex-col flex-1">
-          {/* Model */}
-          <p
-            className="text-xs font-bold uppercase tracking-widest mb-1"
-            style={{ color: "oklch(0.50 0.12 255)" }}
-          >
-            {product.model}
-          </p>
-
-          {/* Name */}
-          <h3
-            className="text-lg font-bold leading-snug mb-1 line-clamp-2"
-            style={{
-              color: "oklch(0.25 0.10 250)",
-              fontFamily: "'Montserrat', sans-serif",
-            }}
-          >
-            {product.name}
-          </h3>
-
-          {/* Subtitle */}
-          <p className="text-sm text-muted-foreground mb-3 line-clamp-1">
-            {product.subtitle}
-          </p>
-
-          {/* Rating */}
-          <div className="flex items-center gap-2 mb-3">
-            <StarRating rating={product.rating} size={14} />
-            <span className="text-sm font-semibold" style={{ color: "oklch(0.35 0.10 250)" }}>
-              {product.rating}
-            </span>
-            <span className="text-xs text-muted-foreground">
-              ({product.reviewCount} reviews)
-            </span>
-          </div>
-
-          {/* Specs */}
-          <div className="flex flex-wrap gap-2 mb-4">
-            {product.specs.map((spec) => (
-              <span
-                key={spec.label}
-                className="text-xs px-2 py-1 rounded-md bg-secondary text-secondary-foreground"
-              >
-                {spec.label}: <strong>{spec.value}</strong>
-              </span>
-            ))}
-          </div>
-
-          {/* Price + CTA */}
-          <div className="mt-auto flex items-end justify-between">
-            <div>
-              <div className="flex items-baseline gap-2">
-                <span
-                  className="text-2xl font-extrabold"
-                  style={{
-                    color: "oklch(0.35 0.15 255)",
-                    fontFamily: "'Montserrat', sans-serif",
-                  }}
-                >
-                  {product.price > 0 ? `$${product.price.toLocaleString()}` : "Contact for Price"}
-                </span>
-                {product.originalPrice > product.price && product.price > 0 && (
-                  <span className="text-sm text-muted-foreground line-through">
-                    ${product.originalPrice.toLocaleString()}
-                  </span>
-                )}
-              </div>
-            </div>
-            <span
-              className="inline-flex items-center gap-1 text-sm font-semibold transition-colors"
-              style={{ color: "oklch(0.45 0.18 255)" }}
-            >
-              View Details
-              <ChevronRight size={16} />
-            </span>
-          </div>
-        </div>
-      </div>
-    </Link>
-  );
-}
-
-/* ── Filter Sidebar (Desktop) / Sheet (Mobile) ──────────────── */
-
-interface FilterState {
-  category: "all" | "cooling" | "heating";
-  priceRange: [number, number];
-  minRating: number;
-}
-
-const PRICE_MIN = 0;
-const PRICE_MAX = 2000;
-
-function FilterPanel({
-  filters,
-  setFilters,
-  onReset,
-  productCounts,
-}: {
-  filters: FilterState;
-  setFilters: React.Dispatch<React.SetStateAction<FilterState>>;
-  onReset: () => void;
-  productCounts: { all: number; cooling: number; heating: number };
-}) {
-  const categories: { value: FilterState["category"]; label: string; count: number }[] = [
-    { value: "all", label: "All Products", count: productCounts.all },
-    { value: "cooling", label: "Cooling", count: productCounts.cooling },
-    { value: "heating", label: "Heating", count: productCounts.heating },
-  ];
-
-  const ratingOptions = [
-    { value: 0, label: "All Ratings" },
-    { value: 4, label: "4+ Stars" },
-    { value: 4.5, label: "4.5+ Stars" },
-    { value: 4.8, label: "4.8+ Stars" },
-  ];
-
-  const hasActiveFilters =
-    filters.category !== "all" ||
-    filters.priceRange[0] !== PRICE_MIN ||
-    filters.priceRange[1] !== PRICE_MAX ||
-    filters.minRating !== 0;
-
-  return (
-    <div className="space-y-6">
-      {/* Header */}
-      <div className="flex items-center justify-between">
-        <h3
-          className="text-base font-bold uppercase tracking-wider"
-          style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
-        >
-          Filters
-        </h3>
-        {hasActiveFilters && (
-          <button
-            onClick={onReset}
-            className="text-xs font-medium text-primary hover:underline"
-          >
-            Clear All
-          </button>
-        )}
-      </div>
-
-      {/* Category */}
-      <div>
-        <h4 className="text-sm font-semibold mb-3" style={{ color: "oklch(0.35 0.10 250)" }}>
-          Category
-        </h4>
-        <div className="space-y-1.5">
-          {categories.map((cat) => (
-            <button
-              key={cat.value}
-              onClick={() => setFilters((f) => ({ ...f, category: cat.value }))}
-              className={`w-full flex items-center justify-between px-3 py-2 rounded-lg text-sm transition-colors ${
-                filters.category === cat.value
-                  ? "bg-primary/10 text-primary font-semibold"
-                  : "hover:bg-secondary text-foreground"
-              }`}
-            >
-              <span>{cat.label}</span>
-              <span className="text-xs text-muted-foreground">{cat.count}</span>
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Price Range */}
-      <div>
-        <h4 className="text-sm font-semibold mb-3" style={{ color: "oklch(0.35 0.10 250)" }}>
-          Price Range
-        </h4>
-        <div className="px-1">
-          <Slider
-            min={PRICE_MIN}
-            max={PRICE_MAX}
-            step={50}
-            value={filters.priceRange}
-            onValueChange={(val) =>
-              setFilters((f) => ({ ...f, priceRange: val as [number, number] }))
-            }
-            className="mb-3"
-          />
-          <div className="flex items-center justify-between text-sm">
-            <span className="font-medium" style={{ color: "oklch(0.35 0.10 250)" }}>
-              ${filters.priceRange[0]}
-            </span>
-            <span className="text-muted-foreground">—</span>
-            <span className="font-medium" style={{ color: "oklch(0.35 0.10 250)" }}>
-              ${filters.priceRange[1]}
-            </span>
-          </div>
-        </div>
-      </div>
-
-      {/* Rating */}
-      <div>
-        <h4 className="text-sm font-semibold mb-3" style={{ color: "oklch(0.35 0.10 250)" }}>
-          Minimum Rating
-        </h4>
-        <div className="space-y-1.5">
-          {ratingOptions.map((opt) => (
-            <button
-              key={opt.value}
-              onClick={() => setFilters((f) => ({ ...f, minRating: opt.value }))}
-              className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
-                filters.minRating === opt.value
-                  ? "bg-primary/10 text-primary font-semibold"
-                  : "hover:bg-secondary text-foreground"
-              }`}
-            >
-              {opt.value > 0 && <StarRating rating={opt.value} size={12} />}
-              <span>{opt.label}</span>
-            </button>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-/* ── Active Filter Tags ──────────────────────────────────────── */
-
-function ActiveFilters({
-  filters,
-  setFilters,
-  onReset,
-}: {
-  filters: FilterState;
-  setFilters: React.Dispatch<React.SetStateAction<FilterState>>;
-  onReset: () => void;
-}) {
-  const tags: { label: string; onRemove: () => void }[] = [];
-
-  if (filters.category !== "all") {
-    tags.push({
-      label: filters.category === "cooling" ? "Cooling" : "Heating",
-      onRemove: () => setFilters((f) => ({ ...f, category: "all" })),
-    });
-  }
-  if (filters.priceRange[0] !== PRICE_MIN || filters.priceRange[1] !== PRICE_MAX) {
-    tags.push({
-      label: `$${filters.priceRange[0]} – $${filters.priceRange[1]}`,
-      onRemove: () => setFilters((f) => ({ ...f, priceRange: [PRICE_MIN, PRICE_MAX] })),
-    });
-  }
-  if (filters.minRating > 0) {
-    tags.push({
-      label: `${filters.minRating}+ Stars`,
-      onRemove: () => setFilters((f) => ({ ...f, minRating: 0 })),
-    });
-  }
-
-  if (tags.length === 0) return null;
-
-  return (
-    <div className="flex flex-wrap items-center gap-2 mb-4">
-      {tags.map((tag) => (
-        <Badge
-          key={tag.label}
-          variant="secondary"
-          className="flex items-center gap-1 pl-3 pr-1.5 py-1 text-xs"
-        >
-          {tag.label}
-          <button
-            onClick={tag.onRemove}
-            className="ml-0.5 rounded-full p-0.5 hover:bg-foreground/10 transition-colors"
-          >
-            <X size={12} />
-          </button>
-        </Badge>
-      ))}
-      <button
-        onClick={onReset}
-        className="text-xs font-medium text-primary hover:underline ml-1"
-      >
-        Clear All
-      </button>
-    </div>
-  );
-}
-
-/* ── Main Page Component ─────────────────────────────────────── */
+/* ── Page ─────────────────────────────────────────────────────────────── */
 
 export default function Products() {
-  const [filters, setFilters] = useState<FilterState>({
-    category: "all",
-    priceRange: [PRICE_MIN, PRICE_MAX],
-    minRating: 0,
-  });
-  const [sort, setSort] = useState<SortOption>("featured");
-  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [filter, setFilter] = useState<Filter>("all");
 
-  const resetFilters = () =>
-    setFilters({ category: "all", priceRange: [PRICE_MIN, PRICE_MAX], minRating: 0 });
-
-  // Product counts per category (unfiltered)
-  const productCounts = useMemo(
-    () => ({
-      all: allProducts.length,
-      cooling: allProducts.filter((p) => p.category === "cooling").length,
-      heating: allProducts.filter((p) => p.category === "heating").length,
-    }),
-    []
-  );
-
-  // Filter + sort
-  const filteredProducts = useMemo(() => {
-    let result = [...allProducts];
-
-    // Category
-    if (filters.category !== "all") {
-      result = result.filter((p) => p.category === filters.category);
-    }
-
-    // Price range
-    result = result.filter(
-      (p) => p.price >= filters.priceRange[0] && p.price <= filters.priceRange[1]
-    );
-
-    // Rating
-    if (filters.minRating > 0) {
-      result = result.filter((p) => p.rating >= filters.minRating);
-    }
-
-    // Sort
-    switch (sort) {
-      case "price-asc":
-        result.sort((a, b) => a.price - b.price);
-        break;
-      case "price-desc":
-        result.sort((a, b) => b.price - a.price);
-        break;
-      case "rating":
-        result.sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount);
-        break;
-      case "newest":
-        result.sort(
-          (a, b) =>
-            new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime()
-        );
-        break;
-      default:
-        // featured = original order
-        break;
-    }
-
-    return result;
-  }, [filters, sort]);
-
-  const hasActiveFilters =
-    filters.category !== "all" ||
-    filters.priceRange[0] !== PRICE_MIN ||
-    filters.priceRange[1] !== PRICE_MAX ||
-    filters.minRating !== 0;
+  const visible = useMemo(() => {
+    const chip = FILTERS.find((f) => f.id === filter) ?? FILTERS[0];
+    return CATALOG.filter(chip.match);
+  }, [filter]);
 
   return (
     <PageLayout>
-      {/* Hero Banner */}
+      <ProductLineSwitcher />
+
+      {/* Hero */}
       <section
-        className="py-12 sm:py-16"
-        style={{ backgroundColor: "oklch(0.96 0.02 240)" }}
+        className="border-b border-border"
+        style={{
+          background:
+            "linear-gradient(180deg, oklch(0.97 0.02 250) 0%, oklch(1 0 0) 100%)",
+        }}
       >
-        <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
-          <nav className="flex items-center gap-1.5 text-xs text-muted-foreground mb-6">
-            <Link href="/" className="hover:text-primary transition-colors">
-              Home
-            </Link>
-            <ChevronRight size={12} />
-            <span className="font-medium text-foreground">All Products</span>
-          </nav>
-          <h1
-            className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-3"
-            style={{
-              color: "oklch(0.25 0.10 250)",
-              fontFamily: "'Montserrat', sans-serif",
-            }}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+          <p
+            className="text-xs font-bold uppercase tracking-[0.2em] mb-3"
+            style={{ color: "oklch(0.50 0.12 255)" }}
           >
-            Our Products
+            Parking AC catalog
+          </p>
+          <h1
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight max-w-3xl"
+            style={{ color: "oklch(0.20 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
+          >
+            Choose your CoolDrivePro parking AC
           </h1>
-          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl">
-            Browse our complete range of parking air conditioners, heaters, and accessories.
-            Filter by category, price, or rating to find the perfect solution for your vehicle.
+          <p className="mt-4 text-base sm:text-lg text-muted-foreground max-w-2xl">
+            12V / 24V DC parking air conditioners for semi-truck sleepers, light trucks, RVs,
+            service vans and fleets. Filter by vehicle or install type to find the right unit.
           </p>
         </div>
       </section>
 
-      {/* Main Content */}
-      <section className="py-8 sm:py-12">
-        <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
-          <div className="flex gap-8">
-            {/* Desktop Sidebar */}
-            <aside className="hidden lg:block w-64 flex-shrink-0">
-              <div className="sticky top-28 bg-white rounded-xl border border-border p-5">
-                <FilterPanel
-                  filters={filters}
-                  setFilters={setFilters}
-                  onReset={resetFilters}
-                  productCounts={productCounts}
-                />
-              </div>
-            </aside>
-
-            {/* Product Grid Area */}
-            <div className="flex-1 min-w-0">
-              {/* Toolbar */}
-              <div className="flex items-center justify-between mb-6 gap-4">
-                <div className="flex items-center gap-3">
-                  {/* Mobile filter toggle */}
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="lg:hidden flex items-center gap-2"
-                    onClick={() => setMobileFiltersOpen(!mobileFiltersOpen)}
-                  >
-                    <SlidersHorizontal size={16} />
-                    Filters
-                    {hasActiveFilters && (
-                      <span className="w-2 h-2 rounded-full bg-primary" />
-                    )}
-                  </Button>
-
-                  <p className="text-sm text-muted-foreground">
-                    <span className="font-semibold text-foreground">
-                      {filteredProducts.length}
-                    </span>{" "}
-                    {filteredProducts.length === 1 ? "product" : "products"}
-                  </p>
-                </div>
-
-                {/* Sort */}
-                <Select
-                  value={sort}
-                  onValueChange={(val) => setSort(val as SortOption)}
+      {/* Filter chips */}
+      <section className="sticky z-20 bg-white border-b border-border" style={{ top: 64 + 56 }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-2 overflow-x-auto py-3 scrollbar-none">
+            {FILTERS.map((chip) => {
+              const isActive = filter === chip.id;
+              return (
+                <button
+                  key={chip.id}
+                  type="button"
+                  onClick={() => setFilter(chip.id)}
+                  className={[
+                    "shrink-0 rounded-full px-3.5 py-1.5 text-sm font-semibold border transition-colors",
+                    isActive
+                      ? "border-transparent bg-[oklch(0.25_0.10_250)] text-white"
+                      : "border-border bg-white text-[oklch(0.25_0.10_250)] hover:bg-secondary",
+                  ].join(" ")}
                 >
-                  <SelectTrigger className="w-[180px] text-sm">
-                    <SelectValue placeholder="Sort by" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {sortOptions.map((opt) => (
-                      <SelectItem key={opt.value} value={opt.value}>
-                        {opt.label}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Mobile Filters (collapsible) */}
-              {mobileFiltersOpen && (
-                <div className="lg:hidden mb-6 bg-white rounded-xl border border-border p-5">
-                  <FilterPanel
-                    filters={filters}
-                    setFilters={setFilters}
-                    onReset={resetFilters}
-                    productCounts={productCounts}
-                  />
-                </div>
-              )}
-
-              {/* Active filter tags */}
-              <ActiveFilters
-                filters={filters}
-                setFilters={setFilters}
-                onReset={resetFilters}
-              />
-
-              {/* Product Grid */}
-              {filteredProducts.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-                  {filteredProducts.map((product) => (
-                    <ProductCard key={product.id} product={product} />
-                  ))}
-                </div>
-              ) : (
-                <div className="text-center py-16">
-                  <div
-                    className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center"
-                    style={{ backgroundColor: "oklch(0.96 0.02 240)" }}
-                  >
-                    <SlidersHorizontal size={24} className="text-muted-foreground" />
-                  </div>
-                  <h3
-                    className="text-lg font-bold mb-2"
-                    style={{
-                      color: "oklch(0.25 0.10 250)",
-                      fontFamily: "'Montserrat', sans-serif",
-                    }}
-                  >
-                    No products match your filters
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    Try adjusting your filters or clearing them to see all products.
-                  </p>
-                  <Button variant="outline" size="sm" onClick={resetFilters}>
-                    Clear All Filters
-                  </Button>
-                </div>
-              )}
-            </div>
+                  {chip.label}
+                </button>
+              );
+            })}
           </div>
+        </div>
+      </section>
+
+      {/* Product grid */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-14">
+        {visible.length === 0 ? (
+          <div className="text-center text-muted-foreground py-16">
+            No products match this filter yet.
+          </div>
+        ) : (
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {visible.map((p) => (
+              <article
+                key={p.slug}
+                className="group bg-white rounded-2xl border border-border overflow-hidden flex flex-col transition-all hover:shadow-lg hover:-translate-y-0.5"
+              >
+                <Link href={`/products/${p.slug}/`}>
+                  <a className="block relative aspect-[4/3] bg-secondary/30 overflow-hidden">
+                    <img
+                      src={p.image}
+                      alt={p.imageAlt}
+                      loading="lazy"
+                      width="600"
+                      height="450"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
+                      {p.isNew && (
+                        <span className="px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider bg-emerald-500 text-white rounded-full">
+                          New
+                        </span>
+                      )}
+                      <span className="px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider rounded-full bg-white/95 text-[oklch(0.25_0.10_250)] border border-border">
+                        {p.installLabel}
+                      </span>
+                    </div>
+                  </a>
+                </Link>
+
+                <div className="p-5 flex flex-col flex-1">
+                  <p
+                    className="text-xs font-bold uppercase tracking-widest mb-1"
+                    style={{ color: "oklch(0.50 0.12 255)" }}
+                  >
+                    {p.model}
+                  </p>
+                  <h2
+                    className="text-lg font-bold leading-snug mb-1"
+                    style={{ color: "oklch(0.22 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
+                  >
+                    {p.name}
+                  </h2>
+                  <p className="text-sm text-muted-foreground mb-4">{p.tagline}</p>
+
+                  <dl className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs mb-4">
+                    <div>
+                      <dt className="text-muted-foreground">Capacity</dt>
+                      <dd className="font-semibold text-foreground">{p.btu}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-muted-foreground">Voltage</dt>
+                      <dd className="font-semibold text-foreground">{p.voltage}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-muted-foreground">Noise</dt>
+                      <dd className="font-semibold text-foreground">{p.noise}</dd>
+                    </div>
+                    <div>
+                      <dt className="text-muted-foreground">Runtime</dt>
+                      <dd className="font-semibold text-foreground">{p.runtime}</dd>
+                    </div>
+                  </dl>
+
+                  <p className="text-sm text-foreground/80 mb-5">
+                    <span className="font-semibold">Best for: </span>
+                    {p.bestFor}
+                  </p>
+
+                  <div className="mt-auto flex items-center gap-2">
+                    <Link href={`/products/${p.slug}/`}>
+                      <a className="flex-1 inline-flex items-center justify-center rounded-lg bg-[oklch(0.25_0.10_250)] text-white text-sm font-semibold px-4 py-2.5 hover:bg-[oklch(0.20_0.10_250)] transition-colors">
+                        View specs
+                      </a>
+                    </Link>
+                    <Link href="/contact/?intent=fleet-quote">
+                      <a className="flex-1 inline-flex items-center justify-center rounded-lg border border-border text-[oklch(0.25_0.10_250)] text-sm font-semibold px-4 py-2.5 hover:bg-secondary transition-colors">
+                        Fleet quote
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        )}
+      </section>
+
+      {/* Comparison table */}
+      <section
+        className="border-t border-border"
+        style={{ background: "oklch(0.98 0.01 250)" }}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+          <h2
+            className="text-2xl sm:text-3xl font-bold mb-2"
+            style={{ color: "oklch(0.20 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
+          >
+            Compare the parking AC line
+          </h2>
+          <p className="text-muted-foreground mb-6">
+            Side-by-side spec snapshot. Click a model to see full datasheet, install drawings and FAQs.
+          </p>
+
+          <div className="overflow-x-auto rounded-2xl border border-border bg-white">
+            <table className="min-w-full text-sm">
+              <thead>
+                <tr className="bg-secondary/40 text-left">
+                  <th className="px-4 py-3 font-semibold text-foreground">Model</th>
+                  <th className="px-4 py-3 font-semibold text-foreground">Install</th>
+                  <th className="px-4 py-3 font-semibold text-foreground">Capacity</th>
+                  <th className="px-4 py-3 font-semibold text-foreground">Voltage</th>
+                  <th className="px-4 py-3 font-semibold text-foreground">Noise</th>
+                  <th className="px-4 py-3 font-semibold text-foreground">Runtime</th>
+                  <th className="px-4 py-3 font-semibold text-foreground">Heat?</th>
+                  <th className="px-4 py-3 font-semibold text-foreground">Best for</th>
+                </tr>
+              </thead>
+              <tbody>
+                {CATALOG.map((p, i) => (
+                  <tr
+                    key={p.slug}
+                    className={i % 2 === 0 ? "bg-white" : "bg-secondary/20"}
+                  >
+                    <td className="px-4 py-3">
+                      <Link href={`/products/${p.slug}/`}>
+                        <a className="font-semibold text-[oklch(0.25_0.10_250)] hover:underline">
+                          {p.model}
+                        </a>
+                      </Link>
+                    </td>
+                    <td className="px-4 py-3">{p.installLabel}</td>
+                    <td className="px-4 py-3">{p.btu}</td>
+                    <td className="px-4 py-3">{p.voltage}</td>
+                    <td className="px-4 py-3">{p.noise}</td>
+                    <td className="px-4 py-3">{p.runtime}</td>
+                    <td className="px-4 py-3">
+                      {p.function === "heating-cooling" ? "Yes" : "—"}
+                    </td>
+                    <td className="px-4 py-3 text-foreground/80">{p.bestFor}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 text-center">
+        <h2
+          className="text-2xl sm:text-3xl font-bold mb-3"
+          style={{ color: "oklch(0.20 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}
+        >
+          Not sure which model fits your truck?
+        </h2>
+        <p className="text-muted-foreground max-w-2xl mx-auto mb-6">
+          Send us your roof opening dimensions, vehicle and use case. Our engineers will
+          recommend the right unit and confirm fitment before you commit.
+        </p>
+        <div className="flex flex-wrap justify-center gap-3">
+          <Link href="/vehicle-compatibility/">
+            <a className="inline-flex items-center justify-center rounded-lg bg-[oklch(0.25_0.10_250)] text-white font-semibold px-5 py-3 hover:bg-[oklch(0.20_0.10_250)] transition-colors">
+              Check fitment
+            </a>
+          </Link>
+          <Link href="/contact/?intent=fleet-quote">
+            <a className="inline-flex items-center justify-center rounded-lg border border-border text-[oklch(0.25_0.10_250)] font-semibold px-5 py-3 hover:bg-secondary transition-colors">
+              Request fleet quote
+            </a>
+          </Link>
         </div>
       </section>
     </PageLayout>

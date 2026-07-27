@@ -1,0 +1,317 @@
+{
+  "title": "B2B parkoló AC beszállítói útmutató vevőnek: 9 dimenziós rubrika + 10 legjobb márka összehasonlítása (2026)",
+  "date": "2026-06-08",
+  "category": "Vásárlási útmutatók",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "B2B parkolási AC beszállítói összehasonlítás — 9 dimenziós pontozási rubrika flotta, kereskedő és OEM vásárlók számára",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Hogyan értékeljék a flotta, a kereskedő, az OEM és a nagykereskedelmi vásárlók a parkoló AC beszállítókat 2026-ban? 9-dimenziós pontozási rubrika, MOQ + átfutási idő + tanúsítási referenciaértékek és a 10 márka őszinte áttekintése (Webasto, Dometic, Thermo King, Eberspächer, Kingstrom, Dirima NITE, In Bergstrom, Dirima NITE,CoolDrivePro) – beleértve, hol nyer és hol veszít.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Ha flottamenedzserként, kereskedőként, OEM-felszerelőként vagy nagykereskedelmi vásárlóként vásárol parkolóklímákat, akkor nem vásárol egyetlen egységet.Ön több évre szóló szerződést ír alá: MOQ szintek, kontinensekre kiterjedő garancia, pótalkatrészek rögzítése és átfutási idők, amelyek akár elfoglalhatják a telepítési területet, vagy leállíthatják a teljes felszerelési sort.A rossz beszállító több tízezerbe kerül, jóval azelőtt, hogy az AC valaha is meghibásodik."
+    },
+    {
+      "heading": null,
+      "body": "A legtöbb \"legjobb parkoló AC szolgáltató\" cikk szponzorált szösszenetekként olvasható.Felsorolnak tíz kínai gyárat, mindegyiknek öt csillagot adnak, és egy általános \"árajánlatért való kapcsolattartással\" zárják.Ez nem vásárlási tanács.Ez egy könyvtár."
+    },
+    {
+      "heading": null,
+      "body": "Ez az útmutató az a rubrika, amelyet saját mérnöki csapatunk belsőleg használ, amikor a CoolDrivePro-t a piac többi részéhez viszonyítjuk.Kilenc mérhető méret, tíz valódi márka, és mindegyikhez egy őszinte bekezdés – beleértve azt is, hogy hol veszítünk, és hol érdemes valaki mástól vásárolnia."
+    },
+    {
+      "heading": null,
+      "body": "## Mire van valójában szükségük a B2B vásárlóknak (és a barkácskalauzok nem árulják el)"
+    },
+    {
+      "heading": null,
+      "body": "Az egyegységet vásárlókat egy dolog érdekli: ez a klíma lehűti-e a hálófülkémet ma este.A nagykereskedelmi vásárlókat teljesen más köteg érdekli – és a legtöbb termékoldal nem is említi ezt."
+    },
+    {
+      "heading": null,
+      "body": "**A mennyiségi árképzési szintek**: egy valódi B2B beszállító 5 / 50 / 200 / 500 egység árkülönbséget tesz közzé (vagy legalábbis árajánlatot tesz írásban).Ha az Ön kapcsolattartója csak egy \"forgalmazói árat\" ad meg, és kihagyja a szintenkénti számot, akkor Ön egy kereskedelmi céggel beszél, nem egy gyártóval."
+    },
+    {
+      "heading": null,
+      "body": "**Pótalkatrész-rögzítő**: ha egy kompresszor meghibásodik egy 8. osztályú wyomingi talpfán a harmadik évben, akkor nem az a kérdés, hogy \"van-e garancia\", hanem az, hogy \"72 óra múlva a dokkolóra kerülhet-e az alkatrész\".A szerződésben meg kell nevezni azokat a cikkszámokat, amelyeket a szállítója garantál, hogy a regionális készletben tartsa, nem csak a gyárban."
+    },
+    {
+      "heading": null,
+      "body": "**Átfutási idő rétegenként**: 5 darabot 2 héten belül kell kiszállítani a kész készlettől;200 darab egy 6-8 hetes gyártási rés;500 egység negyedéves kötelezettségvállalás.Az a szállító, aki mennyiségtől függetlenül ugyanazt a „4-6 hetet” adja, találgat."
+    },
+    {
+      "heading": null,
+      "body": "**Sajátmárka / OEM-képesség**: jelvény, csomagolás, kézikönyv, még az öntött műanyag burkolat is.Az ODM (a jelvényük) és a teljes OEM (az Ön szerszámai) közötti árkülönbség valós – általában 40–120 USD egységenként a fröccsöntött alkatrészeken, plusz 3–5 ezer szerszámdíj.Szerezd meg írásban."
+    },
+    {
+      "heading": null,
+      "body": "**Dokumentáció mélysége**: CE műszaki dokumentáció, E-Mark jóváhagyási levél, FCC vizsgálati jelentés, RoHS nyilatkozat, MSDS a hűtőközeghez.Ha ezeket kéri, és a válasz \"minden tanúsítványunk megvan, ne aggódjon\", menjen el.Valódi szállítók ugyanazon a napon küldik el a PDF-eket."
+    },
+    {
+      "heading": null,
+      "body": "## Az általunk használt 9 dimenziós pontozási rubrika"
+    },
+    {
+      "heading": null,
+      "body": "Minden parkoló AC beszállítót ugyanazzal a kilenc dimenzióval vetünk össze.Mindegyik 1–5 pont;összesen 30 / 45 év alatti beszállító nem kerül fel az ajánlási listánkra."
+    },
+    {
+      "heading": null,
+      "body": "**1.Gyártási méret.** Gyári alapterület, havi kapacitás, saját kompresszorgyártás vs.Azt szeretnénk, ha legalább 5000 egység névleges kapacitással rendelkezne, hogy megbízható legyen a pontos szállítás 200+ egységszinten."
+    },
+    {
+      "heading": null,
+      "body": "**2.A MOQ rugalmassága.** Azok a beszállítók, akik csak 100+ ajánlatot tesznek, kihagyásra kerülnek az első vásárlóknál;azoknak a beszállítóknak, akik „mintadíjjal” idéznek 1-et, általában nincs tényleges gyáruk."
+    },
+    {
+      "heading": null,
+      "body": "**3.Tanúsítványok.** CE EN 1648 (lakókocsi/RV használat), [E-Mark az UNECE R10 szerint](https://unece.org/transport/vehicle-regulations) közúti járművekhez az EU-ban, FCC 15. rész az Egyesült Államokban, RoHS, REACH.Az E-Mark hiánya súlyos kudarc minden uniós flottatelepítésnél."
+    },
+    {
+      "heading": null,
+      "body": "**4.Az átfutási idő őszintesége.** A megadott átfutási idő és a tényleges szállítási dátum közötti *rést* értékeljük 3 próbarendelés esetén.Az a 4 hetes árajánlat, amelyből 9 hét lesz, rosszabb, mint a 7 hetes árajánlat, amelyet 7-ben szállítanak."
+    },
+    {
+      "heading": null,
+      "body": "**5.Értékesítés utáni fedezet.** Van regionális raktáruk az Egyesült Államokban vagy az EU-ban?Vagy minden jótállási igény Qingdaoból érkezik?A CoolDrivePro és a Webasto egyaránt az Egyesült Államok oldaláról készít alkatrészkészletet;a legtöbben nem."
+    },
+    {
+      "heading": null,
+      "body": "**6.Dokumentáció mélysége.** A fent már leírták – de ez a saját pontozási tengelye, mert átadja a vámkezelést, a biztosítást és a helyszíni műszaki javítást."
+    },
+    {
+      "heading": null,
+      "body": "**7.A gyári átláthatóság.** Videóhívást fognak indítani a gyártósorról?Kelt fotókat küldesz?Engedélyezi a harmadik fél általi ellenőrzést az [SGS](https://www.sgs.com/) vagy az Intertek által a szállítás előtt?Ha igen, 5 pontot. Ha csak marketinges rendereket küldenek, 1 pontot."
+    },
+    {
+      "heading": null,
+      "body": "**8.Logisztikai támogatás.** FOB-ot, CIF-et és DDP-t idéznek?Konszolidálhatók más szállítmányokkal?Segítenek az US Customs HTS kódolásában?A csak FOB-szállítók kényszerítik Önt a szállítmányozás kezelésére, ami megöli a kis volumenű vásárlókat."
+    },
+    {
+      "heading": null,
+      "body": "**9.Saját márkás lehetőség.** A matricán túl: kínálnak egyedi EVA tömítésszíneket, egyedi távoli grafikát, teljes egyedi műanyag szerszámokat?A legtöbb gyár hazudik erről, amíg nem kér mintafotókat.Mindig kérjen olyan korábbi OEM projekt fotókat, amelyeken az előző ügyfél márkája elmosódott."
+    },
+    {
+      "heading": null,
+      "body": "## A 10 legjobb parkoló AC beszállító összehasonlítása (2026)"
+    },
+    {
+      "heading": null,
+      "body": "Az alábbiakban felsoroljuk azt a tíz beszállítót, amelyet leggyakrabban összehasonlítunk, a teljes rubrika pontszáma szerint rangsorolva.Mindegyikből személyesen szereztünk be vagy teszteltünk egységeket.Az alábbi pontszámok a 2026-os ellenőrzéseket tükrözik – negyedévente változnak."
+    },
+    {
+      "heading": null,
+      "body": "**1.Webasto (Németország / globális).** Az eredeti.Az RTE 16 és a Cool Top a többi piaci visszafejtő referenciaegység.Kiváló EU-lefedettség, az amerikai kereskedői hálózat megfelelő, de nem mély.Prémium árképzés – jellemzően 1900–2400 dollár egységenként 50-szintű nagykereskedelemben.MOQ 10. Átfutási idő 5-7 hét.*Rubrik.: 39 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**2.Dometic (Svédország / globális).** Az RTX 2000 uralja az Egyesült Államok 8. osztályú talpfák piacát.A szervizhálózat mélysége a legjobb Észak-Amerikában – minden TA/Petro helyen van egy Dometic által kiképzett technikus.Ára kissé a Webasto alatt.MOQ 10. Átfutási idő 4-6 hét.*Rubrikáció: 38 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**3.Thermo King (USA, Trane Technologies).** A TriPac dízel APU ikonikus, de parkoló AC kínálata szűkebb, mint azt a márka javasolja.Erős az OEM teherautó-építő programok számára (Freightliner, Kenworth).MOQ általában 25+ közvetlen gyári.*Rubrikáció: 35 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**4.Eberspächer (Németország).** Legismertebbek a dízel fűtőtestek, de a váltakozó áramú kínálatuk egyre bővül az EU kisteherautók és RVs.Kiváló műszaki dokumentáció.Kisebb amerikai jelenlét.MOQ 20. *Rovat: 33 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**5.Bergstrom NITE (USA, Illinois).** Electric APU specialista, [EPA SmartWay által igazolt](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies).A prémium akkumulátor-AC választás az amerikai flották számára, akik komolyan veszik a CARB-megfelelőséget.Az árképzés ezt tükrözi.MOQ 5. *Rovat: 36 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**6.Indel B (Olaszország).** Erős a tengeri és RV vertikumban, mediterrán kereskedői hálózat.EU-központú – az Egyesült Államok átfutási ideje hosszú.MOQ 20. *Rovat: 31 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**7.Dirna BYCOOL (Spanyolország).** Népszerű a spanyol és latin-amerikai flották körében.Szilárd középszintű OEM-partner.A spanyol nyelven kívül kevés a dokumentáció.MOQ 25. *Rubrik: 30 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**8.Kingclima (Kína, Zhengzhou).** Az egyik nagyobb kínai OEM-gyár.Tisztességes CE-lefedettség, az FCC néha hiányzik.Agresszív árképzés – jellemzően 35–45%-kal a Webasto alatt ugyanazon a szinten.MOQ 5. Átfutási idő 4-8 hét.*Rubrik.: 31/45.*"
+    },
+    {
+      "heading": null,
+      "body": "**9.Guchen (Kína, Xiamen).** Teherautó-központú OEM.Erős az autóbusz-vonalakon.Számos amerikai saját márkás márkának szállított.MOQ 5. *Rubrik: 30 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**10.CoolDrivePro (Kína, saját gyárunk).** 12V/24V akkumulátoros parkoló AC és tetőtéri egységek.Teljes CE + E-Mark + FCC dokumentáció;saját márkás és teljes OEM-szerszám áll rendelkezésre.MOQ 5 első rendelésnél, 50+ márkás programoknál.Az Egyesült Államokból származó pótalkatrész-rögzítő 2026-ban került piacra. Átfutási idő 3-6 hét.*Rubrikáció: 36 / 45 — a gyenge pontjainkat lentebb, az őszinte bekezdésben soroljuk fel.*"
+    },
+    {
+      "heading": null,
+      "body": "## Hol minden márka nyer – és hol nem"
+    },
+    {
+      "heading": null,
+      "body": "A fenti listán szereplő minden beszállítónak van egy konkrét forgatókönyve, ahol ő a helyes válasz, és legalább egy, ahol nem.A listán szereplő összes márkával kapcsolatos ügyleteket elvesztettük, és a listán szereplő összes márkával szemben nyertünk ügyleteket.Íme, mit tanultunk."
+    },
+    {
+      "heading": null,
+      "body": "**Válassza a Webasto-t, ha** páneurópai szervizhálózati mélységre van szüksége, ügyfélköre márkatudatos, flottája pedig hosszú EU-s tartózkodási idővel rendelkezik.**Ne válassza a Webasto-t, ha** a költségvetése rögzített, és az ügyfelet nem érdekli a jelvény – Ön 30%-os prémiumot fizet önmagában a márkáért.(A [Dometic vs Webasto fej-fej mellett] (/blog/dometic-vs-webasto-parking-ac) lebontja a BTU / zaj / 5 éves költségszámítást a két zászlóshajó egységen.)"
+    },
+    {
+      "heading": null,
+      "body": "**Válassza a Dometic-ot, ha** az Egyesült Államok hosszú távú flottáját szolgálja ki, és ügyfelének ugyanazon a héten helyszíni szervizre van szüksége a nagyobb teherautó-megállókban.**Ne válassza a Dometic-ot, ha** OEM-szerszámtársra van szüksége – nem vállalnak kisebb, egyedi OEM-munkát."
+    },
+    {
+      "heading": null,
+      "body": "**Válassza a Thermo Kinget, ha** Ön OEM teherautó-gyártó, aki az összeszerelősoron dolgozik.**Ne válassza a Thermo Kinget, ha** Ön kiskereskedő;a közvetlen gyári minimumok és a dokumentációs idővonalak az 1. szintű OEM-ek számára készültek."
+    },
+    {
+      "heading": null,
+      "body": "**Válassza a Bergstrom NITE-et, ha** minden teherautójának CARB-kompatibilisnek kell lennie, és ügyfelei értékelik az EPA SmartWay ellenőrzését a specifikációs lapon.**Ne válassza a Bergstromot, ha** működési tartománya az Egyesült Államokon kívül esik – a nemzetközi szolgáltatás szűkös."
+    },
+    {
+      "heading": null,
+      "body": "**Válassza a Kingclimát vagy a Guchent, ha** ügyfele árvezérelt, és hajlandó a saját garanciális ügyintézésére.**Ne válassza ezeket, ha** a szerződés SLA-büntetésekkel rendelkezik a garanciális átfutás miatt."
+    },
+    {
+      "heading": null,
+      "body": "**Válassza a CoolDrivePro (minket) lehetőséget, ha** átlátszó OEM/ODM-re van szüksége dokumentált MOQ-szintekkel, teljes CE+E-Mark+FCC fájlokkal az első héten, és egyetlen kapcsolattartóra, aki háromrétegű e-mail nélkül is tud FOB/CIF/DDP-t idézni.**Ne válasszon minket, ha** ügyfele kifejezetten márkafelismerő egységet igényel a teherautó-megállónál, amely 50 láb magasságtól látható – a Dometic és a Webasto 2026-ban továbbra is birtokolja ezt a mindshare-t."
+    },
+    {
+      "heading": null,
+      "body": "## Hogyan strukturálja a CoolDrivePro a B2B programokat"
+    },
+    {
+      "heading": null,
+      "body": "Kereskedőink és flottaügyfeleink többsége a három pálya valamelyikén mozog.Itt dokumentáljuk őket, hogy tudja, mire számíthat *mielőtt* e-mailt küldene nekünk."
+    },
+    {
+      "heading": null,
+      "body": "**1. pálya – Kereskedők bevonása (5–49 egység/negyed).** Szabványos [CoolDrivePro kereskedői programunk](/nagykereskedelem): forgalmazói árképzés, NET 30 a 3. megrendelés után, az USA-oldali alkatrészrögzítővel.Átfutási idő kész készlettől számítva 3 hét.Alkalmas regionális teherautóalkatrész-forgalmazóknak és RV beszerelőknek, akik egyedi szerszámok nélkül szeretnének parkoló AC katalógusukat hozzáadni.[Tudjon meg többet a CoolDrivePro](/about)-ról, mielőtt elkötelezi magát – a gyári ellenőrzésről készült fényképeket és a mérnöki csapat biosait a névjegy oldalon teszünk közzé."
+    },
+    {
+      "heading": null,
+      "body": "**2. pálya – Saját márkás OEM (50–499 egység/negyed).** Az Ön jelvénye, csomagolása, használati útmutatója, távoli grafikája.5 hét átfutási idő az első PO (egyedi csomagolólemez) esetén, 4 hét az utánrendeléseknél.Az ODM szerszámozási díja elengedve 200 egység éves kötelezettségvállalás felett."
+    },
+    {
+      "heading": null,
+      "body": "**3. pálya – Teljes OEM (500+ egység/negyed).** Egyedi házszerszámok, egyedi elpárologtató alapterület a fülkenyíláshoz igazodva, a szerelési kötések tervezése.8–12 hét átfutási idő az első PO-nál, majd 6 hetes termelési ütem.Mérnöki órák számlázva vannak;a szerszámokat az első 1000 egység alatt amortizálják."
+    },
+    {
+      "heading": null,
+      "body": "Mindhárom pályán: minden egység a CE műszaki dokumentációval, az E-Mark jóváhagyási levéllel, az FCC vizsgálati jelentésével, az RoHS-nyilatkozattal és a nyomtatható pótalkatrészek SKU-jegyzékével együtt kerül szállításra.Ezek közül nem kötelező kérni – ez a normál átadás-átvétel része.[Tekintse meg nagykereskedelmi programoldalunkat](/nagykereskedelmi) az aktuális díjtáblázat és dokumentumellenőrző lista megtekintéséhez, vagy [kérjen árajánlatmintát] (/kapcsolatfelvétel), ha azt szeretné, hogy a specifikáció PDF-et 24 órán belül elküldjük e-mailben."
+    },
+    {
+      "heading": null,
+      "body": "## Őszinte bekezdés: egyáltalán nem javasoljuk az AC parkolását, ha…"
+    },
+    {
+      "heading": null,
+      "body": "Parkoló AC eladó.Továbbra is azt mondjuk az ügyfeleknek, hogy három forgatókönyv esetén menjenek el, mert a matematika nem működik, és a második évre megbánja a vásárlást."
+    },
+    {
+      "heading": null,
+      "body": "**Nem javasoljuk az akkumulátoros váltóáramú parkolást, ha** a teherautó 12 óránál hosszabb ideig üresjáratban jár extrém melegben (35°C feletti környezeti hőmérséklet) parti áram vagy napelem feltöltése nélkül.Egy 200Ah-s LiFePO4 bank reálisan 8-10 órán keresztül működtet egy 24V parkoló AC-t;ezen kívül elektromos vagy dízel APU kell.Ha egy 600 Ah-s bankot egy parkoló AC körül próbálunk meg méretezni, az önmagában rossz gazdaságosság – ezen a ponton a [APU és az akkumulátoros váltóáram összehasonlítása](/blog/apu-vs-battery-parking-ac) a APU felé mutat."
+    },
+    {
+      "heading": null,
+      "body": "**Nem javasoljuk a tetőtéri AC parkolót, ha** a teherautó a CARB-szabványos régiókban működik, ahol nincs APU mentesség ÉS a munkaciklus folyamatos hűtést igényel – vásároljon helyette SmartWay által hitelesített elektromos APU-t.A [CARB ATCM-szabály](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) és az [FMCSA HOS hálóhelyiség biztosítása](https://www.fmcsa.dot.gov/regulations/hours-of-service) olyan módon kölcsönhatásba lépnek egymással, hogy egy specifikus, nem AC-kompenzátort igénylő forgatókönyvet hagyhatnak maguk után."
+    },
+    {
+      "heading": null,
+      "body": "**Nem javasoljuk, hogy az OEM-szerszámok vállalása 200 egység/év alatt legyen.** Az amortizációs matematika nem zárul le – az első 200-ért egységenként 40–60 USD pluszt kell fizetnie, és addigra valószínűleg megváltozott a márkaépítési stratégiája.Kezdje az ODM-mel (csak jelvény), igazolja a keresletet, majd térjen át a teljes OEM-re a 2. évben."
+    },
+    {
+      "heading": null,
+      "body": "## Gyakran Ismételt Kérdések"
+    },
+    {
+      "heading": null,
+      "body": "**Mi a minimális rendelési mennyiség (MOQ) egy B2B parkoló AC szállítónál?**"
+    },
+    {
+      "heading": null,
+      "body": "A valódi gyári MOQ jellemzően 5 egység az első próbarendelésnél, közzétett forgalmazói áron, 20–50 egység a márkás programok árazásánál, és 200+ a teljes OEM-szerszámoknál.Azok a beszállítók, akik MOQ 1-et idéznek, általában kereskedelmi társaságok (másik gyárból felárral szállítják), és azok a beszállítók, akik ragaszkodnak a MOQ 100+-hoz az első vásárlók esetében, a saját árrésüket védik, nem az Önét.CoolDrivePro elsőrendű MOQ-ja 5 egység;a szinttöréseket a [nagykereskedelmi oldalon](/nagykereskedelmi) tesszük közzé."
+    },
+    {
+      "heading": null,
+      "body": "**Milyen tanúsítványokra van szükségem az egyesült államokbeli és EU-s flottatelepítéshez?**"
+    },
+    {
+      "heading": null,
+      "body": "Amerikai Egyesült Államokban: FCC Part 15 (elektromágneses), DOT-kompatibilis vezetékezés FMVSS-nként és SmartWay-ellenőrzés, ha az alapjárati gátló megfelelés az értékajánlat része.EU-hoz: CE-jelölés az EN 1648 (RV/caravan use) és [UNECE R10 E-Mark](https://unece.org/transport/vehicle-regulations) szerint a közúti járművekhez, valamint a RoHS és a REACH az anyagi korlátozásokhoz.Az összes tanúsítvány-PDF-et e-mailben kapja meg az árajánlattárgyalás során, ne a megrendelés után – ez az első módja annak, hogy kiszűrjük azokat a gyárakat, amelyek úgy tesznek, mintha nem rendelkeznek tanúsítványokkal."
+    },
+    {
+      "heading": null,
+      "body": "**Mennyi ideig tart a 100 egység beszerzése?**"
+    },
+    {
+      "heading": null,
+      "body": "Valódi OEM-gyárból kész alkatrészkészlettel: 4-6 hét gyártás + 3-5 hét óceáni fuvar az Egyesült Államok keleti partjára = nagyjából 7-11 hét háztól-házig.A légi fuvarozás a második szakaszt napokra csökkenti, de egységenként 200–400 dollárral jár hozzá.Tervezze meg első megrendelését a hosszabb becslés köré;Az ugyanazon SKU-n lévő további PO-k összesen 5–6 hétre tömöríthetők, mivel az összetevők beszerzése már megtörtént."
+    },
+    {
+      "heading": null,
+      "body": "**Lehet saját márkás / OEM márkajelzés az egységen és a csomagoláson?**"
+    },
+    {
+      "heading": null,
+      "body": "Igen, három növekvő kötelezettségvállalási szinttel: (1) ODM-jelvénycsere – matrica, felhasználói kézikönyv borítója, távoli grafika, szerszámdíj nélkül, általában 50 egység/PO felett ingyenes;(2) egyedi csomagolólemez – öntött színű vagy egyszerű embléma dombornyomással, ~2–4 ezer dolláros szerszámmal, 200+ egység kötéssel;(3) teljesen egyedi ház – egyedi elpárologtató alapterület és burkolat, 8–25 000 dolláros szerszámok, 500+ egység éves kötelezettségvállalás.Javasoljuk, hogy az 1. szintről kezdje, igazolja a piaci illeszkedést, majd fokozza."
+    },
+    {
+      "heading": null,
+      "body": "**Milyen alkatrészfeltételeknek kell szerepelniük egy 3 éves nagykereskedelmi szerződésben?**"
+    },
+    {
+      "heading": null,
+      "body": "Igényeljen egy névre szóló SKU-listát (kompresszor, ventilátormotor, elpárologtató tekercs, PCB, távirányító, tömítéskészlet), amelyet regionális készletben tartanak – nem csak a kínai gyárban.Adja meg a garantált rendelkezésre állás mennyiségét (pl. „5 kompresszor és 20 NYÁK mindenkor az Egyesült Államok raktárában”), valamint 72 órás szállítási kötelezettségvállalást a garanciális cserékre.Ha egy szállító megtagadja ennek írásba foglalását, az Ön garanciája dekoratív."
+    },
+    {
+      "heading": null,
+      "body": "**Az akkumulátoros parkoló váltóáramú egységek valóban készen állnak a B2B-re 2026-ban, vagy még mindig újdonságnak számítanak?**"
+    },
+    {
+      "heading": null,
+      "body": "Az akkumulátorparkoló AC 2026-ban teljesen a B2B-kész területre költözött. A 200Ah LiFePO4 csomagok 0,30 USD/Wh alatti, az inverteres kompresszorok 35-45A-es húzása 24V-nál, valamint a zajszintű gazdaságos munkák kombinációja 50-es tulajdonosokat eredményezett.flották.Ahol még mindig veszít a dízel APUs forgatókönyvénél, ahol a folyamatos hűtési forgatókönyvek ~10 órán túl, és ahol veszít az elektromos APUs-hez képest, az a CARB-szigorú + több vezetős HOS forgatókönyvben van.Tekintse meg [akkumulátorparkoló AC vs APU összehasonlításunkat](/blog/apu-vs-battery-parking-ac) és a [LiFePO4 méretezési útmutatót](/blog/lifepo4-battery-for-parking-ac) a számításokhoz."
+    },
+    {
+      "heading": null,
+      "body": "## Készen áll a CoolDrivePro értékelésére a B2B programhoz?"
+    },
+    {
+      "heading": null,
+      "body": "Ha idáig elolvasta, tudja, mit kérdezzen bármely szállítótól – és tudja, hogy megpróbáltuk az őszinte verziót megírni.A leggyorsabban úgy értékelhet minket, ha bekéri a teljes dokumentumcsomagot: CE műszaki dokumentáció összefoglalója, E-Mark jóváhagyási levél, FCC vizsgálati jelentés, rétegenkénti árlap (5 / 50 / 200 / 500 egység), átfutási idő diagram SKU szerint, valamint az Egyesült Államokban található pótalkatrészek SKU listája.Mindent e-mailben elküldünk a megkeresést követő 24 órán belül, mielőtt bármilyen értékesítési hívást kérnénk.Kezdje a [CoolDrivePro nagykereskedelmi programoldalán](/wholesale), vagy böngésszen a [VTH1 akkumulátorparkoló AC termékoldalán](/products/vth1), ha először meg szeretné tekinteni a teljes műszaki adatlapot.Ha az alapjárati szabályzás és az üzemanyag-megtakarítási matematika befolyásolja ügyfele vásárlási döntését, akkor [flotta üzemanyag-megtakarítási kalkulátorunk] (/blog/parking-ac-fuel-savings-calculator) az a konverziós eszköz, amelyet a legtöbb kereskedőnk beágyaz saját ajánlatkérő e-mailjébe."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "target_kw": "b2b parking ac supplier",
+    "secondary_kws": [
+      "b2b parking ac supplier buyer guide",
+      "wholesale parking ac supplier",
+      "parking ac oem supplier",
+      "fleet parking ac supplier",
+      "private label parking ac"
+    ],
+    "hub": "H9",
+    "template": "pillar",
+    "intent": "commercial",
+    "locale": "en",
+    "author": "CoolDrivePro Engineering Team",
+    "updated": "2026-06-08",
+    "ogImage": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "internal_links": [
+      "/about",
+      "/blog/apu-vs-battery-parking-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/blog/lifepo4-battery-for-parking-ac",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/contact",
+      "/products/vth1",
+      "/wholesale"
+    ],
+    "external_refs": [
+      "https://unece.org/transport/vehicle-regulations",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://www.sgs.com/"
+    ],
+    "brief_id": "briefs/2026-06-08/brief-H9-c64.json"
+  }
+}

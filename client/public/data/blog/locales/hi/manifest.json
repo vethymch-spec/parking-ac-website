@@ -1,5 +1,261 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "imageAlt": "Outdoor unit of a parking air conditioner with compressor service access",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "date": "2026-07-17",
+    "category": "Troubleshooting",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "imageAlt": "Parking air conditioner split-system installation and service access",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "बी2बी पार्किंग एसी आपूर्तिकर्ता क्रेता गाइड: 9-आयाम रूब्रिक + शीर्ष 10 ब्रांड की तुलना (2026)",
+    "date": "2026-06-08",
+    "category": "खरीदारी मार्गदर्शिकाएँ",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "बी2बी पार्किंग एसी आपूर्तिकर्ता तुलना - बेड़े, डीलर और ओईएम खरीदारों के लिए 9-आयाम स्कोरिंग रूब्रिक",
+    "excerpt": "बेड़े, डीलर, ओईएम और थोक खरीदारों को 2026 में पार्किंग एसी आपूर्तिकर्ताओं का मूल्यांकन कैसे करना चाहिए। 9-आयाम स्कोरिंग रूब्रिक, एमओक्यू + लीड-टाइम + प्रमाणन बेंचमार्क, और 10 ब्रांडों (वेबैस्टो, डोमेटिक, थर्मो किंग, ए..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "राज्य-दर-राज्य सुस्ती विरोधी कानून 2026: 50-राज्य लुकअप + पार्किंग एसी आरओआई कैलकुलेटर",
+    "date": "2026-06-08",
+    "category": "विनियम एवं अनुपालन",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "अमेरिकी मानचित्र पार्किंग एसी अनुपालन ओवरले के साथ राज्य-दर-राज्य निष्क्रिय-विरोधी कानून 2026 दिखा रहा है",
+    "excerpt": "एक तालिका में 2026 के लिए सभी 50 अमेरिकी राज्यों के निष्क्रिय-विरोधी कानून - ठीक सीमाएँ, 5- बनाम 15-मिनट की सीमा, स्लीपर/डीईएफ छूट, और एक काम किया गया आरओआई जो दर्शाता है कि बैटरी पार्किंग एसी 9-14 महीनों में कैसे भुग..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "वियतनाम में ट्रक पार्किंग एयर कंडीशनर के लिए पूरी गाइड (2026)",
+    "date": "2026-05-20",
+    "category": "खरीदारी मार्गदर्शिकाएँ",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "वियतनाम में ट्रक पार्किंग एसी के लिए 2026 गाइड: उत्तर-दक्षिण एक्सप्रेसवे के लिए 9000 BTU सिस्टम, ईंधन बचत (12-18L/दिन), स्थापना लागत, और हनोई से हो ची मिन्ह सिटी तक क्षेत्रीय जलवायु संबंधी विचार।"
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "हो ची मिन्ह सिटी पोर्ट और कंटेनर ड्राइवरों के लिए पार्किंग एसी (कैट लाई, कै मेप)",
+    "date": "2026-05-20",
+    "category": "क्षेत्रीय मार्गदर्शक",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "हो ची मिन्ह सिटी में कैट लाई और कै मेप कंटेनर ड्राइवरों को 9000 BTU पार्किंग एसी की आवश्यकता क्यों है: लंबी कतार का समय, निष्क्रिय दबाव, और दक्षिणी वियतनाम बंदरगाह रसद के लिए कैब कूलिंग का आरओआई।"
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "मेकांग डेल्टा कृषि एवं कोल्ड-चेन ट्रकों के लिए पार्किंग एसी",
+    "date": "2026-05-20",
+    "category": "क्षेत्रीय मार्गदर्शक",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "कैन थो, टीएन गियांग और लॉन्ग एन में मेकांग डेल्टा कृषि और कोल्ड-चेन ट्रक ऑपरेटर दक्षिणी वियतनाम में लंबी नौका प्रतीक्षा और उमस भरी रात के दौरान ड्राइवरों को आराम देने के लिए पार्किंग एसी पर निर्भर हैं।"
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "नॉर्थ-साउथ एक्सप्रेसवे (CT.01) के लिए पार्किंग एसी: लंबी दूरी की ड्राइवर गाइड",
+    "date": "2026-05-20",
+    "category": "क्षेत्रीय मार्गदर्शक",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "वियतनाम के CT.01 नॉर्थ-साउथ एक्सप्रेसवे पर लंबी दूरी के ड्राइवर कानूनी रूप से आराम करने, प्रति रात 12-18L डीजल बचाने और 38°C उष्णकटिबंधीय गर्मी से बचने के लिए 9000 BTU पार्किंग एयर कंडीशनर का उपयोग कैसे करते हैं।"
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "वियतनामी पर्यटक कोच और स्लीपर बसों के लिए पार्किंग एसी (दा नांग, न्हा ट्रांग, फु क्वोक)",
+    "date": "2026-05-20",
+    "category": "क्षेत्रीय मार्गदर्शक",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "दा नांग, न्हा ट्रांग, होई एन और फु क्वोक में पर्यटक कोच और स्लीपर बस ऑपरेटर ड्राइवरों को आराम देने और वाहनों को होटल और रिज़ॉर्ट-विरोधी निष्क्रिय नीतियों के अनुरूप रखने के लिए पार्किंग एसी का उपयोग कैसे करते हैं।"
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "मोबाइल योग स्टूडियो और वेलनेस वैन के लिए एयर कंडीशनिंग",
+    "date": "2026-04-29",
+    "category": "विशेषता",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "imageAlt": "मोबाइल योग स्टूडियो और वेलनेस वैन के लिए एयर कंडीशनिंग",
+    "excerpt": "मोबाइल योग स्टूडियो और वेलनेस वैन के लिए आवश्यक एयर कंडीशनिंग समाधान खोजें।विश्वसनीय पार्किंग एसी के साथ इष्टतम तापमान नियंत्रण (68-72°F) सुनिश्चित करें।"
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "RVs में रहने वाले डिजिटल खानाबदोशों के लिए पार्किंग एसी: कहीं से भी काम करने की सुविधा",
+    "date": "2026-04-29",
+    "category": "जीवनशैली",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "imageAlt": "RVs में रहने वाले डिजिटल खानाबदोशों के लिए पार्किंग एसी: कहीं से भी काम करने की सुविधा",
+    "excerpt": "RV डिजिटल खानाबदोशों के लिए एसी पार्किंग के लिए आवश्यक मार्गदर्शिका।सही जलवायु नियंत्रण के साथ अपने RV से दूर से काम करते हुए शांत और उत्पादक बने रहें।"
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "RV रैलियों और उत्सवों में कूल बने रहना: आयोजनों के लिए पार्किंग एसी युक्तियाँ",
+    "date": "2026-04-29",
+    "category": "जीवनशैली",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "imageAlt": "RV रैलियों और उत्सवों में कूल बने रहना: आयोजनों के लिए पार्किंग एसी युक्तियाँ",
+    "excerpt": "मास्टर RV पार्किंग एसी के साथ रैलियां!आरामदायक इवेंट अनुभव के लिए पूरक कूलिंग, बैटरी आकार और इंस्टॉलेशन पर विशेषज्ञ सुझाव प्राप्त करें।"
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "वैन ड्वेलर्स गाइड टू पार्किंग एसी: फुल-टाइम लिविंग इन योर व्हीकल",
+    "date": "2026-04-29",
+    "category": "वैन लाइफ",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "imageAlt": "वैन ड्वेलर्स गाइड टू पार्किंग एसी: फुल-टाइम लिविंग इन योर व्हीकल",
+    "excerpt": "वैन में रहने वालों के लिए पार्किंग एसी चुनने और स्थापित करने के लिए आवश्यक मार्गदर्शिका।विशेषज्ञ युक्तियों के साथ अपने मोबाइल होम में शांत और आरामदायक रहें।"
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "नेक्स्ट-जेन पार्किंग एसी में R32 रेफ्रिजरेंट: कम GWP और बेहतर दक्षता",
+    "date": "2026-04-29",
+    "category": "प्रौद्योगिकी",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "imageAlt": "नेक्स्ट-जेन पार्किंग एसी में R32 रेफ्रिजरेंट: कम GWP और बेहतर दक्षता",
+    "excerpt": "जानें कि R32 रेफ्रिजरेंट अगली पीढ़ी के पार्किंग एसी के लिए पसंदीदा विकल्प क्यों बन रहा है, जो वाणिज्यिक वाहनों के लिए कम GWP और बेहतर दक्षता प्रदान करता है।"
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "डोमेटिक बनाम वेबस्टो पार्किंग एसी: साइड-बाय-साइड तुलना (2026)",
+    "date": "2026-04-25",
+    "category": "तुलना",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "imageAlt": "तुलना के लिए डोमेस्टिक और वेबस्टो पार्किंग एसी इकाइयां साथ-साथ",
+    "excerpt": "[2026] डोमेस्टिक आरटीएक्स2000 बनाम वेबस्टो कूल टॉप आरटीई 16 आमने-सामने: कूलिंग आउटपुट, शोर, पावर ड्रॉ, इंस्टॉल जटिलता, वारंटी और स्वामित्व की 5 साल की लागत।फ़ील्ड से वास्तविक संख्याएँ."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "नो-आइडल ट्रक एसी सिस्टम: राज्य एंटी-आइडलिंग कानूनों का अनुपालन कैसे करें (2026)",
+    "date": "2026-04-25",
+    "category": "अनुपालन",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "imageAlt": "निष्क्रियता रोधी अनुपालन के लिए बैटरी-इलेक्ट्रिक नो-आइडल ट्रक एसी सिस्टम स्थापित किया गया",
+    "excerpt": "[2026] राज्य-दर-राज्य निष्क्रिय-विरोधी कानून और नो-आइडलिंग ट्रक एसी का अनुपालन कैसे करें।CARB ($300-$1,000 जुर्माना), 30+ राज्य सीमाएँ, EPA स्मार्टवे, और 2026 आवश्यकताओं को पूरा करने वाली 5 प्रणालियाँ।"
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "पार्किंग एसी BTU आकार कैलकुलेटर: आपको वास्तव में कितने BTU की आवश्यकता है?(2026)",
+    "date": "2026-04-25",
+    "category": "ख़रीदना गाइड",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "BTU ट्रक कैब और RV कॉन्फ़िगरेशन में पार्किंग एसी के लिए आकार चार्ट",
+    "excerpt": "[2026] आपकी स्लीपर कैब या RV बेडरूम को कितने BTUs की आवश्यकता है?कक्षा 8 ट्रकों (5,000-10,000 BTU), स्प्रिंटर वैन (6,000-8,000 BTU), और 25-फीट RVs (12,000-14,000 BTU) के लिए चरण-दर-चरण सूत्र और तालिकाएँ।"
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "पार्किंग एसी स्थापना लागत 2026: राज्य और DIY बचत के अनुसार दुकान दरें",
+    "date": "2026-04-25",
+    "category": "ख़रीदना गाइड",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "imageAlt": "छत के कटआउट, वायरिंग और बैटरी एकीकरण को दर्शाने वाला व्यावसायिक पार्किंग एसी इंस्टॉलेशन",
+    "excerpt": "[2026] राज्य के अनुसार पार्किंग एसी स्थापना लागत: $400-$1,200 पेशेवर, $0-$150 DIY।सीए, टीएक्स, एफएल, एनवाई से वास्तविक दुकान दरें, साथ ही यूनिट, बैटरी, वायरिंग और श्रम लागत का पूरा विवरण।"
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "पार्किंग एसी शोर तुलना: वास्तविक डीबी स्तर 3 फीट पर परीक्षण किया गया (2026)",
+    "date": "2026-04-25",
+    "category": "तुलना",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "imageAlt": "स्लीपर कैब के अंदर 3 फीट पर पार्किंग एसी के शोर को मापने वाला डेसीबल मीटर",
+    "excerpt": "[2026] हमने 3 फीट पर कैलिब्रेटेड डीबी मीटर के साथ 12 पार्किंग एसी इकाइयों को मापा।CoolDrivePro V-TH1 हिट 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA।वास्तविक संख्याएँ, कोई मार्केटिंग नहीं।"
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "ट्रक एसी बिजली की खपत: वाट, एम्प्स और बैटरी ड्रेन की व्याख्या (2026)",
+    "date": "2026-04-25",
+    "category": "पावर और बैटरी",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "शंट और बैटरी मॉनिटर के साथ ट्रक पार्किंग एसी बिजली की खपत की निगरानी",
+    "excerpt": "[2026] ट्रक एसी बिजली की खपत की व्याख्या: 480W औसत, 9A 24V पर, 38-55Ah प्रति रात।वास्तविक संख्याएँ, आपकी बैटरी को आकार देने के सूत्र, और इन्वर्टर कम्प्रेसर कैसे कट करते हैं, यह 30% आकर्षित करता है।"
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "बैटरी चालित RV एयर कंडीशनर: संपूर्ण 2026 क्रेता मार्गदर्शिका",
+    "date": "2026-04-24",
+    "category": "खरीदारी मार्गदर्शिकाएँ",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "imageAlt": "बैटरी चालित RV एयर कंडीशनर 2026 - छत के साथ रात में क्लास बी कैंपर वैन का इंटीरियर 12V DC पार्किंग AC बंद LiFePO4 बैटरी बैंक, मॉनिटर 220Ah क्षमता और 9.5 घंटे का रनटाइम शेष दिखा रहा है",
+    "excerpt": "बैटरी चालित RV एयर कंडीशनर के लिए संपूर्ण 2026 मार्गदर्शिका।मूल 12V/24V DC बनाम इन्वर्टर सेटअप, वास्तविक LiFePO4 रनटाइम डेटा (220Ah → 8–11 घंटे), $1,500-$3,800 मूल्य श्रेणियां, सौर ऑफसेट गणित।"
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "पार्किंग एसी कैसे स्थापित करें: 2026 के लिए चरण-दर-चरण मार्गदर्शिका",
+    "date": "2026-04-24",
+    "category": "स्थापना मार्गदर्शिकाएँ",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "imageAlt": "पार्किंग एसी 2026 कैसे स्थापित करें - इंस्टॉलर एक जिगसॉ का उपयोग करके स्प्रिंटर वैन पर 14x14 इंच की छत को काटता है, जिसमें CoolDrivePro VS02 PRO 12V DC यूनिट, ब्यूटाइल गैसकेट और ट्रक के बगल में कार्यक्षेत्र पर 4 AWG केबल बिछाई जाती है।",
+    "excerpt": "पार्किंग एसी स्थापित करने के लिए चरण-दर-चरण 2026 मार्गदर्शिका: छत की तैयारी, 14x14 कटआउट, गैसकेट, वायरिंग (4 एडब्ल्यूजी, 80ए फ्यूज), कमीशनिंग।6-9 घंटे DIY, यूनिट से परे भागों में $325।"
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 पार्किंग एसी के लिए बैटरी: 2026 आकार और वायरिंग गाइड",
+    "date": "2026-04-24",
+    "category": "कैसे करें मार्गदर्शिकाएँ",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "imageAlt": "पार्किंग AC 2026 के लिए LiFePO4 बैटरी - एक स्प्रिंटर वैन का खुला बैटरी कंपार्टमेंट जिसमें 2/0 AWG केबल, 200A क्लास T फ्यूज, बसबार और विक्टरन BMV-712 मॉनिटर के समानांतर दो 220Ah बैटल बॉर्न LiFePO4 बैटरी दिखाई दे रही है, जो 13.4V पर 87% SOC पढ़ रहा है।",
+    "excerpt": "2026 LiFePO4 पार्किंग एसी के लिए साइजिंग गाइड: 220Ah ($1,400), 280Ah ($1,750), 400Ah ($2,400) विकल्प 8 घंटे के रनटाइम गणित, BMS/फ्यूज/केबल स्पेक्स के साथ।"
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "पार्किंग एसी ठंडा नहीं कर रहा?2026 समस्या निवारण मार्गदर्शिका (चरण-दर-चरण)",
+    "date": "2026-04-24",
+    "category": "समस्या निवारण",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "imageAlt": "पार्किंग एसी कूलिंग समस्या निवारण 2026 - सेमी ट्रक स्लीपर के अंदर ड्राइवर मल्टीमीटर के साथ 12V DC पार्किंग एसी पावर कनेक्टर 11.4V पर, थर्मामीटर रीडिंग 78°F आपूर्ति हवा बनाम 79°F रिटर्न, इन्फ्रारेड छवि कंडेनसर हॉट स्पॉट दिखा रही है",
+    "excerpt": "2026 पार्किंग एसी को ठीक करने के लिए चरण-दर-चरण मार्गदर्शिका जो ठंडा नहीं होगा।वोल्टेज ड्रॉप, रेफ्रिजरेंट, गंदा कंडेनसर, थर्मोस्टेट, बीएमएस - 30 मिनट में निदान, $0-$280 सुधार।"
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "पार्किंग एसी बनाम APU: 2026 बेड़े के लिए लागत और प्रदर्शन तुलना",
+    "date": "2026-04-24",
+    "category": "समीक्षाएँ एवं तुलनाएँ",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "imageAlt": "पार्किंग एसी बनाम APU 2026 - बैटरी चालित DC पार्किंग एसी के साथ फ्रेटलाइनर कैस्केडिया की साइड-बाय-साइड तुलना, फ्रेम रेल पर रिगमास्टर APU के साथ स्लीपर ट्रक की तुलना, ईंधन पंप डिस्प्ले $ 4.05 / गैलन डीजल और 5-वर्ष की लागत ओवरले दिखाता है।",
+    "excerpt": "2026 फ्लीट निर्णय गाइड: पार्किंग एसी बनाम APU।$4.05 डीजल के साथ 5-वर्षीय TCO - DC पार्किंग AC $9,800-$14,200/ट्रक बनाम डीजल APU, $3,200-$5,400 बनाम निष्क्रिय गति बचाता है।"
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "2026 में 12V बनाम 24V पार्किंग एसी: ट्रक, RV और वैन निर्णय गाइड",
+    "date": "2026-04-23",
+    "category": "क्रेता गाइड",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "imageAlt": "12V बनाम 24V पार्किंग एसी तुलना - एक ट्रक और RV पर 12V और 24V इलेक्ट्रिकल सिस्टम के लिए वायर्ड साइड-बाय-साइड रूफटॉप पार्किंग एयर कंडीशनर",
+    "excerpt": "2026 में 12V बनाम 24V पार्किंग एसी: अपने वाहन के मूल वोल्टेज से मिलान करें।केबल गेज, बैटरी की लागत, दक्षता, रनटाइम और कनवर्टर कब समझ में आता है, इसका पूरा विवरण।निर्णय मैट्रिक्स अंदर."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "सर्वश्रेष्ठ पार्किंग एयर कंडीशनर 2026: 9 शीर्ष चयनों की तुलना (ट्रक, RVएस और वैन)",
+    "date": "2026-04-23",
+    "category": "क्रेता गाइड",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "imageAlt": "सर्वश्रेष्ठ पार्किंग एयर कंडीशनर 2026 - छत और स्प्लिट-सिस्टम की लाइनअप DC सेमी-ट्रक पर स्थापित पार्किंग एसी इकाइयाँ, RV, और साफ़ आसमान के नीचे स्प्रिंटर वैन",
+    "excerpt": "2026 के लिए परीक्षण किए गए 9 सर्वश्रेष्ठ पार्किंग एयर कंडीशनर: साइड-बाय-साइड BTU, शोर, ड्रा, कीमत और सेमी ट्रकों, RVs, स्प्रिंटर वैन और बेड़े के लिए वास्तविक दुनिया का प्रदर्शन।उपयोग के मामले के अनुसार विजेता का चयन।"
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "पार्किंग एयर कंडीशनर ख़रीदना गाइड 2026: सही यूनिट कैसे चुनें ($1,500 बर्बाद किए बिना)",
+    "date": "2026-04-23",
+    "category": "क्रेता गाइड",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "imageAlt": "पार्किंग एयर कंडीशनर ख़रीदने के लिए गाइड 2026 - छत और मिनी-स्प्लिट DC पार्किंग एसी इकाइयाँ ट्रक, RV और वैन पर अगल-बगल तुलना के लिए लगाई गई हैं",
+    "excerpt": "2026 पार्किंग एसी खरीदने की मार्गदर्शिका: 7-चरणीय निर्णय रूपरेखा, BTU आकार तालिका, विशिष्ट सीमाएँ, स्तर के अनुसार लागत बजट, और 5 गलतियाँ जो 1,500 डॉलर के एसी को स्क्रैप में बदल देती हैं।खरीदने से पहले पढ़ें."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "पार्किंग एसी ईंधन बचत कैलकुलेटर 2026: निष्क्रिय लागत बनाम DC पार्किंग एसी बनाम APU",
+    "date": "2026-04-23",
+    "category": "उपकरण एवं कैलकुलेटर",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "imageAlt": "पार्किंग एसी ईंधन बचत कैलकुलेटर 2026 - अर्ध ट्रक डैशबोर्ड निष्क्रिय समय, ईंधन की खपत, और निष्क्रिय, डीजल APU, और DC पार्किंग एयर कंडीशनर के बीच वार्षिक बचत की तुलना दिखाता है",
+    "excerpt": "DC पार्किंग AC बनाम निष्क्रिय बनाम डीजल APU से सटीक ईंधन बचत की गणना करें।2026 ईंधन की कीमतें, वास्तविक शुल्क चक्र, जीवनकाल आरओआई।मालिक-संचालकों और 100-ट्रक बेड़े के लिए कार्यशील उदाहरण।"
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "अलेक्जेंड्रिया की तटीय आर्द्रता के लिए पार्किंग एयर कंडीशनिंग: मिस्र की भूमध्यसागरीय जलवायु चुनौतियों का मुकाबला",
     "date": "2026-03-31",
@@ -113,6 +369,7 @@
     "date": "2026-01-10",
     "category": "प्रौद्योगिकी",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-smart-home-integration_3828b244.webp",
+    "imageAlt": "पार्किंग एसी स्मार्ट होम इंटीग्रेशन: अपने वाहन के एसी को कहीं से भी नियंत्रित करें",
     "excerpt": "जानें कि कैसे पार्किंग एसी स्मार्ट होम इंटीग्रेशन आपको कहीं से भी अपने वाहन की जलवायु को नियंत्रित करने देता है, जिससे RVs और ट्रकों के लिए आराम और दक्षता बढ़ती है।"
   },
   {
@@ -130,6 +387,7 @@
     "date": "2025-12-29",
     "category": "चालक सुरक्षा",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/reduce-driver-heat-stress_x6y7z8a9.webp",
+    "imageAlt": "इलेक्ट्रिक पार्किंग एसी सिस्टम से ड्राइवर के गर्मी के तनाव को कैसे कम करें",
     "excerpt": "जानें कि इलेक्ट्रिक पार्किंग एसी सिस्टम अफ्रीकी जलवायु में ड्राइवरों को गर्मी के तनाव से कैसे बचाते हैं।प्रभावी केबिन कूलिंग के साथ सुरक्षा, प्रतिधारण और उत्पादकता में सुधार करें।"
   },
   {
@@ -138,6 +396,7 @@
     "date": "2025-12-28",
     "category": "स्थापना मार्गदर्शिकाएँ",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-mistakes_x5y6z7a8.webp",
+    "imageAlt": "अफ़्रीका में ट्रक एयर कंडीशनर्स की सामान्य स्थापना गलतियाँ",
     "excerpt": "अफ्रीका में सबसे आम ट्रक एसी स्थापना गलतियों को सीखकर महंगी विफलताओं से बचें।उचित माउंटिंग, वायरिंग और सीलिंग प्रक्रियाओं पर विशेषज्ञ मार्गदर्शन।"
   },
   {
@@ -146,6 +405,7 @@
     "date": "2025-12-27",
     "category": "तकनीकी मार्गदर्शिकाएँ",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-dust-vibration-heat_x4y5z6a7.webp",
+    "imageAlt": "धूल, सड़क का कंपन और गर्मी पार्किंग एसी के प्रदर्शन को कैसे प्रभावित करते हैं",
     "excerpt": "समझें कि अफ़्रीकी पर्यावरणीय चुनौतियाँ ट्रक पार्किंग एसी के प्रदर्शन को कैसे प्रभावित करती हैं और कठोर परिस्थितियों में विश्वसनीय शीतलन सुनिश्चित करने के लिए रखरखाव रणनीतियाँ सीखें।"
   },
   {
@@ -154,6 +414,7 @@
     "date": "2025-12-26",
     "category": "तकनीकी मार्गदर्शिकाएँ",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-low-voltage-guide_x3y4z5a6.webp",
+    "imageAlt": "कम वोल्टेज संरक्षण: अफ़्रीकी बेड़े के ख़रीदारों को क्या जानना आवश्यक है",
     "excerpt": "ट्रक पार्किंग एसी सिस्टम में कम वोल्टेज सुरक्षा के लिए आवश्यक मार्गदर्शिका।जानें कि बैटरी सुरक्षा कैसे काम करती है और यह अफ्रीकी बेड़े के संचालन के लिए क्यों महत्वपूर्ण है।"
   },
   {
@@ -162,6 +423,7 @@
     "date": "2025-12-25",
     "category": "समस्या निवारण",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-weak-cooling-fix_x2y3z4a5.webp",
+    "imageAlt": "अत्यधिक गर्मी में आपके ट्रक के एसी की कूलिंग कमजोर क्यों हो जाती है (और इसे कैसे ठीक करें)",
     "excerpt": "पता लगाएं कि ट्रक एयर कंडीशनर अत्यधिक गर्मी में शीतलन शक्ति क्यों खो देते हैं और अफ्रीकी रेगिस्तानी परिस्थितियों में प्रदर्शन को बहाल करने के लिए सिद्ध समाधान सीखें।"
   },
   {
@@ -170,6 +432,7 @@
     "date": "2025-12-24",
     "category": "स्थापना मार्गदर्शिकाएँ",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-installation-africa_x1y2z3a4.webp",
+    "imageAlt": "अफ़्रीका में ट्रक पार्किंग एसी के लिए व्यावसायिक इंस्टालेशन गाइड",
     "excerpt": "अफ़्रीकी परिस्थितियों में ट्रक पार्किंग एयर कंडीशनर के लिए चरण-दर-चरण व्यावसायिक स्थापना मार्गदर्शिका।विश्वसनीय प्रदर्शन के लिए माउंटिंग, वायरिंग और कमीशनिंग प्रक्रियाएं सीखें।"
   },
   {
@@ -187,6 +450,7 @@
     "date": "2025-12-19",
     "category": "बेड़े समाधान",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tunisia_k7l8m9n0.webp",
+    "imageAlt": "ट्यूनीशिया के परिवहन बेड़े के लिए थोक ट्रक एयर कंडीशनर",
     "excerpt": "ट्यूनीशिया के परिवहन बेड़े के लिए थोक ट्रक एयर कंडीशनर।विश्वसनीय शीतलन तकनीक चाहने वाले उत्तरी अफ़्रीकी लॉजिस्टिक्स ऑपरेटरों के लिए थोक मूल्य निर्धारण और बेड़े समाधान।"
   },
   {
@@ -213,6 +477,7 @@
     "date": "2025-12-16",
     "category": "क्षेत्रीय मार्गदर्शक",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-ethiopia_y5z6a7b8.webp",
+    "imageAlt": "इथियोपिया के उच्च ऊंचाई वाले परिवहन संचालन के लिए ट्रक एयर कंडीशनर",
     "excerpt": "इथियोपिया के उच्च ऊंचाई वाले परिवहन संचालन के लिए विशेष ट्रक एयर कंडीशनर।हॉर्न ऑफ़ अफ़्रीका के ऊंचे लॉजिस्टिक्स कॉरिडोर की अनूठी चुनौतियों के लिए इंजीनियर किया गया।"
   },
   {
@@ -230,6 +495,7 @@
     "date": "2025-12-14",
     "category": "क्षेत्रीय मार्गदर्शक",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-uganda_q7r8s9t0.webp",
+    "imageAlt": "युगांडा के बढ़ते परिवहन बेड़े के लिए इलेक्ट्रिक ट्रक एयर कंडीशनर",
     "excerpt": "युगांडा के विस्तारित परिवहन बेड़े के लिए इलेक्ट्रिक ट्रक एयर कंडीशनर।पूर्वी अफ्रीका के उभरते लॉजिस्टिक्स हब और सीमा पार संचालन के लिए कुशल शीतलन समाधान।"
   },
   {
@@ -238,6 +504,7 @@
     "date": "2025-12-13",
     "category": "विशेष अनुप्रयोग",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari_m3n4o5p6.webp",
+    "imageAlt": "तंजानिया के सफ़ारी पर्यटन वाहनों के लिए पार्किंग एयर कंडीशनर",
     "excerpt": "तंजानिया के सफारी पर्यटन वाहनों के लिए पार्किंग एयर कंडीशनर समाधान खोजें।पूर्वी अफ़्रीका के प्रमुख सफ़ारी गंतव्य में वन्य जीवन के अनुभवों को संरक्षित करते हुए मेहमानों को आरामदायक रखें।"
   },
   {
@@ -327,6 +594,7 @@
     "date": "2025-12-06",
     "category": "पर्यटन अनुप्रयोग",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-tanzania-safari-tourism_f6g7h8i9.webp",
+    "imageAlt": "तंजानिया सफारी पर्यटन के लिए पार्किंग एयर कंडीशनर: सेरेनगेटी से ज़ांज़ीबार आराम",
     "excerpt": "पार्किंग एसी सिस्टम के साथ तंजानिया के सफारी पर्यटन को बढ़ाएं।सेरेन्गेटी, नगोरोंगोरो और ज़ांज़ीबार के तटीय मार्गों में चलने वाले वन्यजीव पर्यटन वाहनों के लिए आवश्यक शीतलन।"
   },
   {
@@ -344,6 +612,7 @@
     "date": "2025-12-05",
     "category": "व्यावसायिक अवसर",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-distributor-africa_l2m3n4o5.webp",
+    "imageAlt": "अफ़्रीका में ट्रक एयर कंडीशनर वितरक बनें",
     "excerpt": "अफ़्रीका में ट्रक एयर कंडीशनर वितरक बनने के लिए हमारे साथ भागीदार बनें।क्षेत्रीय भागीदारों के लिए विशिष्ट क्षेत्र, विपणन सहायता और तकनीकी प्रशिक्षण।"
   },
   {
@@ -352,6 +621,7 @@
     "date": "2025-12-05",
     "category": "सहायता सेवाएँ",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/truck-ac-spare-parts-africa_m3n4o5p6.webp",
+    "imageAlt": "अफ़्रीका में ट्रक एसी के लिए स्पेयर पार्ट्स और बिक्री उपरांत सहायता",
     "excerpt": "अफ़्रीका में ट्रक एयर कंडीशनर के लिए व्यापक स्पेयर पार्ट्स और बिक्री के बाद का समर्थन।फिल्टर, कंप्रेसर, रेफ्रिजरेंट और तकनीकी सहायता उपलब्ध है।"
   },
   {
@@ -414,6 +684,7 @@
     "date": "2025-12-03",
     "category": "क्षेत्रीय मार्गदर्शक",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-zimbabwe_i9j0k1l2.webp",
+    "imageAlt": "जिम्बाब्वे के बेड़े संचालकों के लिए सीमा पार परिवहन कूलिंग",
     "excerpt": "जिम्बाब्वे के सीमा पार परिवहन बेड़े के लिए पार्किंग एयर कंडीशनर।हरारे, बुलावायो और क्षेत्रीय बाजारों को जोड़ने वाले मार्गों के लिए ड्राइवर आराम को अनुकूलित करें।"
   },
   {
@@ -449,6 +720,7 @@
     "date": "2025-12-02",
     "category": "क्षेत्रीय मार्गदर्शक",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-kenya-logistics-fleet_b2c3d4e5.webp",
+    "imageAlt": "केन्या लॉजिस्टिक्स बेड़े के लिए पार्किंग एयर कंडीशनर समाधान: नैरोबी से मोम्बासा कॉरिडोर",
     "excerpt": "केन्याई रसद कंपनियों के लिए बेड़े समाधान।पता लगाएं कि कैसे पार्किंग एसी सिस्टम व्यस्त नैरोबी-मोम्बासा परिवहन गलियारे और उससे आगे ड्राइवर कल्याण में सुधार करते हैं।"
   },
   {
@@ -511,6 +783,7 @@
     "date": "2025-11-20",
     "category": "जीवनशैली",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-solo-travelers_5b90f310.webp",
+    "imageAlt": "सोलो RV यात्रियों के लिए पार्किंग एसी: सुरक्षा, आराम और स्वतंत्रता",
     "excerpt": "एकल RV यात्री, विश्वसनीय पार्किंग एसी के साथ अपनी सुरक्षा, आराम और स्वतंत्रता बढ़ाएँ।वरदान और मन की शांति के लिए आवश्यक।"
   },
   {
@@ -744,6 +1017,7 @@
     "date": "2025-10-26",
     "category": "मार्गदर्शक",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-winter-camping_ae1e54c4.webp",
+    "imageAlt": "शीतकालीन RV कैम्पिंग के लिए अपने पार्किंग एसी के हीट पंप का उपयोग करना",
     "excerpt": "पता लगाएं कि आपके पार्किंग एसी का हीट पंप शीतकालीन RV कैंपिंग को कैसे बदल सकता है।दक्षता, बैटरी की ज़रूरतों और ठंड में गर्म रहने के बारे में जानें।"
   },
   {
@@ -779,6 +1053,7 @@
     "date": "2025-10-15",
     "category": "प्रौद्योगिकी",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-energy-star_7d1e728e.webp",
+    "imageAlt": "पार्किंग एसी के लिए ऊर्जा दक्षता रेटिंग: ईईआर, सीओपी और एसईईआर को समझना",
     "excerpt": "पार्किंग एसी ऊर्जा दक्षता रेटिंग का रहस्योद्घाटन: ईईआर, सीओपी, और एसईईआर।जानें कि ये नंबर आपके बटुए और सड़क पर आराम के लिए क्या मायने रखते हैं।"
   },
   {
@@ -818,42 +1093,6 @@
     "excerpt": "विश्वसनीय पार्किंग एसी समाधानों के साथ मोबाइल पशु चिकित्सालयों में पशु और उपकरण सुरक्षा सुनिश्चित करें।दवा और कल्याण के लिए महत्वपूर्ण."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "मोबाइल योग स्टूडियो और वेलनेस वैन के लिए एयर कंडीशनिंग",
-    "date": "2025-10-15",
-    "category": "विशेषता",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "imageAlt": "मोबाइल योग स्टूडियो और वेलनेस वैन के लिए एयर कंडीशनिंग",
-    "excerpt": "मोबाइल योग स्टूडियो और वेलनेस वैन के लिए आवश्यक एयर कंडीशनिंग समाधान खोजें।विश्वसनीय पार्किंग एसी के साथ इष्टतम तापमान नियंत्रण (68-72°F) सुनिश्चित करें।"
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "RVs में रहने वाले डिजिटल खानाबदोशों के लिए पार्किंग एसी: कहीं से भी काम करने की सुविधा",
-    "date": "2025-10-15",
-    "category": "जीवनशैली",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "imageAlt": "RVs में रहने वाले डिजिटल खानाबदोशों के लिए पार्किंग एसी: कहीं से भी काम करने की सुविधा",
-    "excerpt": "RV डिजिटल खानाबदोशों के लिए एसी पार्किंग के लिए आवश्यक मार्गदर्शिका।सही जलवायु नियंत्रण के साथ अपने RV से दूर से काम करते हुए शांत और उत्पादक बने रहें।"
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "RV रैलियों और उत्सवों में कूल बने रहना: आयोजनों के लिए पार्किंग एसी युक्तियाँ",
-    "date": "2025-10-15",
-    "category": "जीवनशैली",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "imageAlt": "RV रैलियों और उत्सवों में कूल बने रहना: आयोजनों के लिए पार्किंग एसी युक्तियाँ",
-    "excerpt": "मास्टर RV पार्किंग एसी के साथ रैलियां!आरामदायक इवेंट अनुभव के लिए पूरक कूलिंग, बैटरी आकार और इंस्टॉलेशन पर विशेषज्ञ सुझाव प्राप्त करें।"
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "वैन ड्वेलर्स गाइड टू पार्किंग एसी: फुल-टाइम लिविंग इन योर व्हीकल",
-    "date": "2025-10-15",
-    "category": "वैन लाइफ",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "imageAlt": "वैन ड्वेलर्स गाइड टू पार्किंग एसी: फुल-टाइम लिविंग इन योर व्हीकल",
-    "excerpt": "वैन में रहने वालों के लिए पार्किंग एसी चुनने और स्थापित करने के लिए आवश्यक मार्गदर्शिका।विशेषज्ञ युक्तियों के साथ अपने मोबाइल होम में शांत और आरामदायक रहें।"
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "पार्किंग एयर कंडीशनर स्थापना लागत: पूर्ण मूल्य विवरण 2025",
     "date": "2025-10-15",
@@ -861,15 +1100,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "imageAlt": "पार्किंग एयर कंडीशनर स्थापना लागत: पूर्ण मूल्य विवरण 2025",
     "excerpt": "2025 के लिए पार्किंग एयर कंडीशनर स्थापना की पूरी लागत को तोड़ें। यूनिट प्रकार से लेकर विद्युत उन्नयन तक, कीमत को प्रभावित करने वाले कारकों पर जानकारी प्राप्त करें।"
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "नेक्स्ट-जेन पार्किंग एसी में R32 रेफ्रिजरेंट: कम GWP और बेहतर दक्षता",
-    "date": "2025-10-15",
-    "category": "प्रौद्योगिकी",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "imageAlt": "नेक्स्ट-जेन पार्किंग एसी में R32 रेफ्रिजरेंट: कम GWP और बेहतर दक्षता",
-    "excerpt": "जानें कि R32 रेफ्रिजरेंट अगली पीढ़ी के पार्किंग एसी के लिए पसंदीदा विकल्प क्यों बन रहा है, जो वाणिज्यिक वाहनों के लिए कम GWP और बेहतर दक्षता प्रदान करता है।"
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -888,15 +1118,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "imageAlt": "एक सेवा के रूप में पार्किंग एसी: फ्लीट ऑपरेटरों के लिए सदस्यता मॉडल",
     "excerpt": "जानें कि कैसे पार्किंग एसी सब्सक्रिप्शन मॉडल बेड़े के संचालन को बदल रहे हैं, लागत बचत और बेहतर ड्राइवर आराम प्रदान कर रहे हैं।एक सेवा के रूप में जलवायु नियंत्रण के भविष्य के बारे में जानें।"
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V बनाम 24V पार्किंग एयर कंडीशनर: आपके ट्रक या RV के लिए कौन सा सही है?",
-    "date": "8 मार्च 2025",
-    "category": "प्रौद्योगिकी",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "imageAlt": "12V बनाम 24V पार्किंग एयर कंडीशनर: आपके ट्रक या RV के लिए कौन सा सही है?",
-    "excerpt": "अपने ट्रक या RV के लिए 12V और 24V पार्किंग एसी के बीच चयन करना?यह व्यापक मार्गदर्शिका प्रत्येक प्रणाली के पेशेवरों, विपक्षों और आदर्श अनुप्रयोगों का विवरण देती है, जिससे आपको इष्टतम आराम और दक्षता के लिए एक सूचित निर्..."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -998,15 +1219,6 @@
     "excerpt": "सौर ऊर्जा और 12V पार्किंग एसी का उपयोग करके ऑफ-ग्रिड RV एयर कंडीशनिंग के लिए पूरी गाइड।सिस्टम आकार, बैटरी चयन और वास्तविक दुनिया के प्रदर्शन युक्तियाँ सीखें।"
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "पार्किंग एयर कंडीशनर ख़रीदना गाइड 2025: ख़रीदने से पहले वह सब कुछ जो आपको जानना आवश्यक है",
-    "date": "20 नवंबर 2024",
-    "category": "क्रेता गाइड",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "imageAlt": "पार्किंग एयर कंडीशनर ख़रीदना गाइड 2025: ख़रीदने से पहले वह सब कुछ जो आपको जानना आवश्यक है",
-    "excerpt": "संपूर्ण 2025 पार्किंग एयर कंडीशनर खरीदने की मार्गदर्शिका।BTU रेटिंग, 12V बनाम 24V, टॉप-माउंटेड बनाम मिनी स्प्लिट की तुलना करें, और अपने ट्रक या RV के लिए सबसे अच्छा पार्किंग एसी ढूंढें।"
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "कैसे एक पार्किंग एयर कंडीशनर आपके कार्बन फ़ुटप्रिंट बनाम इंजन निष्क्रियता को कम करता है",
     "date": "10 दिसंबर 2024",
@@ -1095,15 +1307,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "imageAlt": "स्कूल बस रूपांतरण (स्कूली) के लिए पार्किंग एसी: सर्वोत्तम विकल्प और इंस्टॉल गाइड",
     "excerpt": "अपनी स्कूली स्थिति में मस्त रहें!हमारा गाइड स्कूल बस रूपांतरण के लिए सर्वोत्तम पार्किंग एसी को कवर करता है, जिसमें छत, मिनी-स्प्लिट और 12V विकल्प शामिल हैं।इंस्टॉलेशन, पावर और बहुत कुछ के बारे में जानें।"
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "एक पार्किंग एयर कंडीशनर कितना ईंधन बचाता है?वास्तविक संख्याएं और आरओआई कैलकुलेटर",
-    "date": "15 फ़रवरी 2025",
-    "category": "मार्गदर्शक",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "imageAlt": "एक पार्किंग एयर कंडीशनर कितना ईंधन बचाता है?वास्तविक संख्याएं और आरओआई कैलकुलेटर",
-    "excerpt": "जानें कि एक पार्किंग एयर कंडीशनर आपका कितना ईंधन बचा सकता है।हमारा गाइड वास्तविक संख्याएं, एक आरओआई कैलकुलेटर और ट्रकों, RVs और वैन के लिए युक्तियां प्रदान करता है।"
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1239,10 +1442,6 @@
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "imageAlt": "पार्किंग एयर कंडीशनर वायरिंग गाइड: सुरक्षित 12V/24V विद्युत स्थापना - पार्किंग एयर कंडीशनर गाइड",
     "excerpt": "ट्रकों, RVs और वैन में सुरक्षित 12V/24V पार्किंग AC वायरिंग और विद्युत स्थापना के लिए व्यापक मार्गदर्शिका।CoolDrivePro इकाइयों के घटकों, वोल्टेज ड्रॉप, बैटरी प्रबंधन और समस्या निवारण के बारे में जानें।"
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

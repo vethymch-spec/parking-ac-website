@@ -15,10 +15,10 @@ const REDIRECTS_PATH = path.join(DIST_DIR, "_redirects");
 
 const BASE_URL = "https://cooldrivepro.com";
 const DEFAULT_OG_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp";
-const DEFAULT_DESCRIPTION = "12V & 24V DC parking AC for trucks, RVs & vans. 10000-12000 BTU, no-idle operation. Free US shipping & 1-year warranty.";
+const DEFAULT_DESCRIPTION = "12V & 24V DC parking AC for trucks, RVs & vans. 10000-12000 BTU, no-idle operation, fitment support, and invoice-based ordering.";
 const DEFAULT_BLOG_LANGUAGE = "en";
 const RTL_LANGUAGES = new Set(["ar", "he"]);
-const EXCLUDED_BLOG_FILES = new Set(["list.json", "manifest.json", "locale-availability.json"]);
+const EXCLUDED_BLOG_FILES = new Set(["list.json", "manifest.json", "locale-availability.json", "related-posts.json"]);
 const OG_LOCALE_MAP = {
   en: "en_US",
   "zh-CN": "zh_CN",
@@ -106,16 +106,13 @@ function toOpenGraphLocale(language) {
 const PRODUCT_PAGES = [
   {
     route: "/products/top-mounted-ac",
-    title: "10000 BTU Top-Mounted Parking AC | 12V 24V No-Idle Cooling - CoolDrivePro",
-    description: "Top-mounted 12V/24V DC parking air conditioner for semi trucks, RVs, and vans. 10,000 BTU cooling, low-noise operation, and battery protection for overnight no-idle comfort.",
+    title: "12000 BTU Top-Mounted Parking AC | 12V 24V No-Idle Cooling - CoolDrivePro",
+    description: "Top-mounted 12V/24V DC parking air conditioner for semi trucks, RVs, and vans. 12,000 BTU/h cooling, low-noise operation, battery protection, and fitment confirmation before invoice.",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-product-right_1b53506e.webp",
     schema: {
-      name: "10000 BTU Top-Mounted Parking Air Conditioner - 12V/24V DC",
+      name: "12000 BTU Top-Mounted Parking Air Conditioner - 12V/24V DC",
       sku: "VS02-PRO",
-      price: "1299.00",
-      ratingValue: "4.8",
-      reviewCount: "127",
-      description: "12V/24V DC powered top-mounted parking air conditioner for RVs, semi trucks, vans and campers. 10000 BTU cooling, 4500 BTU heating, and no-idle operation with battery protection.",
+      description: "12V/24V DC powered top-mounted parking air conditioner for RVs, semi trucks, vans and campers. 12,000 BTU/h cooling and no-idle operation with battery protection and fitment confirmation before invoice.",
     },
   },
   {
@@ -202,8 +199,8 @@ const INDEXABLE_STATIC_PAGES = [
   },
   {
     route: "/return-policy",
-    title: "Return Policy | CoolDrivePro Parking Air Conditioner Orders",
-    description: "Read the CoolDrivePro return policy for parking air conditioner orders, including eligibility, refund conditions, and return process details.",
+    title: "Return & Refund Policy | CoolDrivePro Parking AC Orders",
+    description: "Read the CoolDrivePro return and refund policy for parking air conditioner orders, including eligibility, return steps, refund timing, and support contact details.",
     image: DEFAULT_OG_IMAGE,
   },
   {
@@ -263,6 +260,120 @@ const INDEXABLE_STATIC_PAGES = [
 ];
 
 const COMMERCIAL_HUB_PAGES = [
+  {
+    route: "/solutions/12v-air-conditioner",
+    title: "12V Air Conditioner | Battery-Powered DC AC for Trucks, RVs & Vans - CoolDrivePro",
+    description: "Compare 12V air conditioner options for trucks, RVs, vans, campers, and off-grid vehicles. Find the right 12V/24V DC parking AC by runtime, roof fit, and cooling format.",
+    image: `${BASE_URL}/images/products/vs02pro-top-mounted.webp`,
+    pageType: "collection",
+    breadcrumbName: "12V Air Conditioner",
+    recommendedProducts: ["/products/top-mounted-ac", "/products/nano-max", "/products/mini-split-ac"],
+    faqs: [
+      {
+        question: "Is a 12V air conditioner different from a 12V evaporative cooler?",
+        answer: "Yes. A 12V evaporative cooler uses water evaporation and works best in dry air, while a 12V DC air conditioner uses a compressor and refrigerant to deliver real refrigerated cooling.",
+      },
+      {
+        question: "What is the best 12V air conditioner for a vehicle?",
+        answer: "The best 12V air conditioner depends on the vehicle, roof space, battery bank, and runtime target. CoolDrivePro routes compact, rooftop, and mini split searches to different product branches.",
+      },
+    ],
+  },
+  {
+    route: "/solutions/12v-rv-air-conditioner",
+    title: "12V RV Air Conditioner | Battery-Powered RV AC Guide - CoolDrivePro",
+    description: "Choose a 12V RV air conditioner for campers, camper trailers, motorhomes, caravans, and off-grid RV cooling. Compare rooftop, mini split, and compact DC AC options.",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    pageType: "collection",
+    breadcrumbName: "12V RV Air Conditioner",
+    recommendedProducts: ["/products/top-mounted-ac", "/products/mini-split-ac", "/products/nano-max"],
+    faqs: [
+      {
+        question: "Can a 12V RV air conditioner run without shore power?",
+        answer: "Yes, a DC parking AC can run from an RV house battery bank when the battery reserve and charging plan are sized correctly.",
+      },
+      {
+        question: "Is rooftop or mini split better for a 12V RV AC?",
+        answer: "Rooftop is usually easier for RV retrofits, while mini split is stronger when quieter indoor sleeping comfort is worth the extra installation planning.",
+      },
+    ],
+  },
+  {
+    route: "/solutions/12v-air-conditioner-for-van",
+    title: "12V Air Conditioner for Van | Camper Van & Cargo Van AC Guide - CoolDrivePro",
+    description: "Choose a 12V air conditioner for vans, campervans, cargo vans, and service vehicles. Compare compact rooftop, mini split, and 12V/24V parking AC options.",
+    image: `${BASE_URL}/images/products/nano-max-01.webp`,
+    pageType: "collection",
+    breadcrumbName: "12V Air Conditioner for Van",
+    recommendedProducts: ["/products/nano-max", "/products/top-mounted-ac", "/products/mini-split-ac"],
+    faqs: [
+      {
+        question: "What is the best 12V air conditioner for a van?",
+        answer: "For many vans, a compact rooftop system is the first branch because roof space and battery reserve are limited. Larger or quieter builds may move to rooftop or mini split systems.",
+      },
+      {
+        question: "Can a 12V van AC run overnight?",
+        answer: "Yes, if the house battery bank is sized for the heat load and runtime target. Insulation, ambient heat, battery chemistry, and charging recovery all matter.",
+      },
+    ],
+  },
+  {
+    route: "/solutions/12v-rooftop-air-conditioner",
+    title: "12V Rooftop Air Conditioner | Roof-Mounted DC AC for RVs, Vans & Trucks - CoolDrivePro",
+    description: "Compare 12V rooftop air conditioner options for RVs, vans, trucks, campers, and off-grid vehicles. Plan roof opening, battery runtime, and 12V/24V DC fitment.",
+    image: `${BASE_URL}/images/products/vs02pro-top-mounted.webp`,
+    pageType: "collection",
+    breadcrumbName: "12V Rooftop Air Conditioner",
+    recommendedProducts: ["/products/top-mounted-ac", "/products/heating-cooling-ac", "/products/nano-max"],
+    faqs: [
+      {
+        question: "What vehicles can use a 12V rooftop air conditioner?",
+        answer: "A 12V rooftop air conditioner can fit many RVs, vans, trucks, campers, and specialty vehicles if the roof opening, mounting area, voltage, and battery reserve are suitable.",
+      },
+      {
+        question: "Is rooftop easier than mini split for vehicle AC?",
+        answer: "Often yes. Rooftop systems keep the main components in one roof package, while mini split systems need more component placement planning.",
+      },
+    ],
+  },
+  {
+    route: "/solutions/12v-mini-split-air-conditioner",
+    title: "12V Mini Split Air Conditioner | DC Mini Split for Trucks, RVs & Vans - CoolDrivePro",
+    description: "Compare 12V mini split air conditioner options for semi truck sleepers, RVs, camper vans, and off-grid vehicles. Plan split-system cooling, noise, and battery runtime.",
+    image: `${BASE_URL}/images/products/vx3000-split-system-diagram.webp`,
+    pageType: "collection",
+    breadcrumbName: "12V Mini Split Air Conditioner",
+    recommendedProducts: ["/products/mini-split-ac", "/products/top-mounted-ac", "/products/nano-max"],
+    faqs: [
+      {
+        question: "Is a 12V mini split air conditioner better than rooftop AC?",
+        answer: "It is better when quiet indoor comfort and flexible placement matter most. Rooftop AC is usually better when installation simplicity matters more.",
+      },
+      {
+        question: "Can a 12V mini split work for a semi truck sleeper?",
+        answer: "Yes. A split-system DC parking AC is often a strong fit for sleeper cabs because the indoor unit can stay quieter.",
+      },
+    ],
+  },
+  {
+    route: "/solutions/portable-ac-for-truck",
+    title: "Portable AC for Truck | 12V Truck Cooling Alternatives - CoolDrivePro",
+    description: "Compare portable AC for truck searches with 12V/24V truck parking AC options. Learn when a mounted DC AC is better for semi trucks, pickups, campers, and truck cabs.",
+    image: `${BASE_URL}/images/products/nano-max-01.webp`,
+    pageType: "collection",
+    breadcrumbName: "Portable AC for Truck",
+    recommendedProducts: ["/products/nano-max", "/products/top-mounted-ac", "/products/mini-split-ac"],
+    faqs: [
+      {
+        question: "Is a portable AC for truck use enough for overnight cooling?",
+        answer: "Sometimes, but only for limited spot cooling or mild conditions. Truck buyers who need dependable overnight cooling usually move to a mounted 12V/24V parking AC.",
+      },
+      {
+        question: "What is the best portable AC alternative for a truck camper or cap?",
+        answer: "A compact mounted DC AC is usually the better long-term alternative when the truck camper, cap, or bed workspace needs repeatable cooling.",
+      },
+    ],
+  },
   {
     route: "/solutions/semi-truck-parking-ac",
     title: "Semi Truck Parking AC | 24V Sleeper Cab No-Idle Cooling - CoolDrivePro",
@@ -1277,7 +1388,7 @@ function faqPageSchema(faqs) {
 }
 
 function productSchema(page) {
-  return {
+  const schema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: page.schema.name,
@@ -1286,7 +1397,21 @@ function productSchema(page) {
     sku: page.schema.sku,
     brand: { "@type": "Brand", name: "CoolDrivePro" },
     category: "Parking Air Conditioner",
-    offers: {
+  };
+  if (
+    page.schema.ratingValue &&
+    page.schema.reviewCount &&
+    Number(page.schema.reviewCount) >= 3
+  ) {
+    schema.aggregateRating = {
+      "@type": "AggregateRating",
+      ratingValue: page.schema.ratingValue,
+      reviewCount: page.schema.reviewCount,
+    };
+  }
+
+  if (page.schema.price) {
+    schema.offers = {
       "@type": "Offer",
       priceCurrency: "USD",
       price: page.schema.price,
@@ -1299,13 +1424,10 @@ function productSchema(page) {
         shippingRate: { "@type": "MonetaryAmount", value: "0", currency: "USD" },
         shippingDestination: { "@type": "DefinedRegion", addressCountry: "US" },
       },
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: page.schema.ratingValue,
-      reviewCount: page.schema.reviewCount,
-    },
-  };
+    };
+  }
+
+  return schema;
 }
 
 function blogCollectionSchema(posts, page) {

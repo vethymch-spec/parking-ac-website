@@ -1,0 +1,317 @@
+{
+  "title": "B2B-pysäköinnin AC-toimittajan ostajan opas: 9-ulotteinen otsikko + 10 parasta tuotemerkkiä verrattuna (2026)",
+  "date": "2026-06-08",
+  "category": "Osto-oppaat",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "B2B-pysäköinnin AC-toimittajien vertailu — 9-ulotteinen pisteytystaulukko kalustolle, jälleenmyyjälle ja OEM-ostajille",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Miten kaluston, jälleenmyyjien, OEM- ja tukkuostajien tulisi arvioida pysäköinti-AC-toimittajat vuonna 2026. 9-ulotteinen pisteytys, MOQ + läpimenoaika + sertifioinnin vertailuarvot ja rehellinen arvostelu 10 tuotemerkistä (Webasto, Dometic, Thermo King, Eberspächer, Kingstrom, Dirima NITE, In Bergstrom, Dirima NITE, In Bergstrom, GuchennaCoolDrivePro) – mukaan lukien missä kukin voittaa ja missä häviää.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Jos hankit pysäköintiilmastointilaitteita kaluston johtajana, jälleenmyyjänä, OEM-varustajana tai tukkuostajana, et osta yhtä yksikköä.Allekirjoitat monivuotisen sopimuksen: MOQ-tasot, takuu kattaa maanosat, varaosien pidike ja toimitusajat, jotka voivat joko pitää asennuspaikkasi kiireisenä tai katkaista koko asennussarjan.Väärä toimittaja maksaa sinulle kymmeniä tuhansia kauan ennen kuin mikään AC hajoaa."
+    },
+    {
+      "heading": null,
+      "body": "Useimmat \"paras pysäköinti-AC-toimittaja\" -artikkelit ovat kuin sponsoroituja pöyhkeitä.He listaavat kymmenen kiinalaista tehdasta, antavat jokaiselle viisi tähteä ja päättävät yleiseen \"ota yhteyttä tarjouksen saamiseksi\".Se ei ole ostoneuvontaa.Se on hakemisto."
+    },
+    {
+      "heading": null,
+      "body": "Tämä opas on rubriikki, jota oma suunnittelutiimimme käyttää sisäisesti, kun vertaamme CoolDrivePro muihin markkinoihin.Yhdeksän mitattavaa mittaa, kymmenen todellista merkkiä ja rehellinen kappale jokaiselle – mukaan lukien missä häviämme ja mistä sinun pitäisi ostaa joltain toiselta."
+    },
+    {
+      "heading": null,
+      "body": "## Mitä B2B-ostajat todella tarvitsevat (ja tee-se-itse-oppaat eivät kerro sinulle)"
+    },
+    {
+      "heading": null,
+      "body": "Yhden yksikön ostajat välittävät yhdestä asiasta: jäähdyttääkö tämä AC makuuohjaamani tänä iltana.Tukkuostajat välittävät täysin erilaisesta pinosta – ja useimmat tuotesivut eivät edes mainitse sitä."
+    },
+    {
+      "heading": null,
+      "body": "** Volyymihinnoittelutasot**: todellinen B2B-toimittaja julkaisee (tai ainakin lainaa kirjallisesti) hintaeroja 5 / 50 / 200 / 500 yksiköllä.Jos yhteyshenkilösi ilmoittaa vain \"jakelijahinnan\" ja hylkää tasokohtaisen numeron, puhut kauppayhtiölle, et valmistajalle."
+    },
+    {
+      "heading": null,
+      "body": "**Varaosien pidike**: Kun kompressori epäonnistuu luokan 8 ratapölkyssä Wyomingissa vuonna 3, kysymys ei ole \"onko takuusta\", vaan \"voiko osa olla telakalla 72 tunnissa\".Sopimuksessasi tulee nimetä SKU:t, jotka toimittajasi takaa säilyttää alueellisessa varastossa, ei vain tehtaalla."
+    },
+    {
+      "heading": null,
+      "body": "**Toimitusaika tasoa kohden**: 5 yksikköä toimitetaan 2 viikossa valmiista varastosta;200 yksikköä on 6–8 viikon tuotantoaika;500 yksikköä on neljännesvuosittainen sitoumus.Toimittaja, joka lainaa samaa \"4-6 viikkoa\" volyymista riippumatta, arvaa."
+    },
+    {
+      "heading": null,
+      "body": "**Yksityinen tuotemerkki / OEM-ominaisuus**: merkki, pakkaus, käyttöohje, jopa muovattu muovisuojus.Hintaero ODM:n (heidän merkkinsä) ja täyden OEM:n (sinun työkalusi) välillä on todellinen – yleensä 40–120 dollaria yksikköä kohden muovattujen osien osalta plus 3–5 000 työkalumaksu.Hanki se kirjallisesti."
+    },
+    {
+      "heading": null,
+      "body": "**Dokumentoinnin syvyys**: CE-tekninen tiedosto, E-Mark-hyväksyntäkirje, FCC-testiraportti, RoHS-vakuutus, kylmäaineen käyttöturvallisuustiedote.Jos pyydät näitä ja vastaus on \"meillä on kaikki sertifikaatit, älä huoli\", kävele pois.Todelliset toimittajat lähettävät PDF-tiedostoja sähköpostitse samana päivänä."
+    },
+    {
+      "heading": null,
+      "body": "## Käyttämämme 9-ulotteinen pisteytysrubriikki"
+    },
+    {
+      "heading": null,
+      "body": "Vertailemme jokaista pysäköinti-AC-toimittajaa samoihin yhdeksään ulottuvuuteen.Jokainen saa pisteet 1–5;Alle 30/45-vuotias toimittaja ei sisälly suositusluetteloihimme."
+    },
+    {
+      "heading": null,
+      "body": "**1.Tuotannon mittakaava.** Tehtaan lattiapinta-ala, kuukausikapasiteetti, oma kompressorituotanto vs.Haluamme vähintään 5 000 yksikköä kuukaudessa, jotta voidaan luottaa oikea-aikaiseen toimitukseen yli 200 yksikkötasolla."
+    },
+    {
+      "heading": null,
+      "body": "**2.MOQ:n joustavuus.** Toimittajat, jotka tarjoavat vain 100+ hintaa, ohitetaan ensimmäistä kertaa ostavilta;toimittajilla, jotka lainaavat numeroa 1 \"näytemaksulla\", ei yleensä ole varsinaista tehdasta."
+    },
+    {
+      "heading": null,
+      "body": "**3.Sertifikaatit.** CE EN 1648 (caravan/RV käyttö), [E-Mark per UNECE R10](https://unece.org/transport/vehicle-regulations) tieajoneuvoille EU:ssa, FCC osa 15 USA:lle, RoHS, REACH.Puuttuva E-Mark on kova epäonnistuminen EU:n laivaston käyttöönotolle."
+    },
+    {
+      "heading": null,
+      "body": "**4.Toimitusajan rehellisyys.** Arvioimme *eron* noteeratun toimitusajan ja todellisen toimituspäivämäärän välillä yli kolmen koetilauksen.4 viikon tarjous, josta tulee 9 viikkoa, on huonompi kuin 7 viikon tarjous, joka toimitetaan 7:ssä."
+    },
+    {
+      "heading": null,
+      "body": "**5.Myynnin jälkeinen kattavuus.** Onko heillä alueellinen varasto Yhdysvalloissa tai EU:ssa?Vai lähetetäänkö kaikki takuuvaatimukset Qingdaosta?CoolDrivePro ja Webasto ylläpitävät molemmat osavarastoa Yhdysvaltain puolelta;useimmat muut eivät."
+    },
+    {
+      "heading": null,
+      "body": "**6.Dokumentaation syvyys.** Käsitelty jo yllä – mutta se on oma pisteytysakselinsa, koska se ohjaa tulliselvitykset, vakuutukset ja kenttätekniikan korjaukset."
+    },
+    {
+      "heading": null,
+      "body": "**7.Tehtaan läpinäkyvyys.** Soittavatko he videopuhelut tuotantolinjalta?Lähetetäänkö päivättyjä kuvia?Sallitaanko [SGS](https://www.sgs.com/) tai Intertekin suorittama kolmannen osapuolen tarkastus ennen toimitusta?Jos kyllä, pisteet 5. Jos he lähettävät vain markkinointirenderöityjä, pistemäärä 1."
+    },
+    {
+      "heading": null,
+      "body": "**8.Logistiikkatuki.** Lainaavatko ne FOB-, CIF- ja DDP-tiedot?Voivatko ne yhdistää muihin lähetyksiin?Auttaako he US Customsin HTS-koodauksessa?Vain FOB-toimittajat pakottavat sinut hoitamaan rahtihuolintaa, mikä tappaa pienten volyymien ostajat."
+    },
+    {
+      "heading": null,
+      "body": "**9.Omien merkkien ominaisuus.** Tarran lisäksi: tarjoavatko ne mukautettuja EVA-tiivisteiden värejä, mukautettuja etägrafiikkaa, täysin mukautettuja muovityökaluja?Useimmat tehtaat valehtelevat tästä, kunnes pyydät näytekuvia.Pyydä aina aiempia OEM-projektikuvia, joissa edellisen asiakkaan tuotemerkki on sumentunut."
+    },
+    {
+      "heading": null,
+      "body": "## 10 parasta pysäköinti-AC-toimittajaa vertailussa (2026)"
+    },
+    {
+      "heading": null,
+      "body": "Alla on kymmenen yleisimmin vertailemaamme toimittajaa, jotka on luokiteltu kokonaispistemäärän mukaan.Olemme henkilökohtaisesti hankkineet tai testanneet yksiköitä jokaiselta.Alla olevat pisteet kuvaavat vuoden 2026 auditointeja – ne vaihtuvat neljännesvuosittain."
+    },
+    {
+      "heading": null,
+      "body": "**1.Webasto (Saksa / maailmanlaajuinen).** Alkuperäinen.RTE 16 ja Cool Top ovat muiden markkinoiden käänteisohjaajien referenssiyksiköitä.Erinomainen EU-kattavuus, Yhdysvaltain jälleenmyyjäverkosto on kunnollinen, mutta ei syvä.Premium-hinnoittelu - tyypillisesti 1 900–2 400 dollaria yksikköä kohden 50-tason tukkumyynnissä.MOQ 10. Toimitusaika 5–7 viikkoa.*Rubiikki: 39 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**2.Dometic (Ruotsi / maailmanlaajuinen).** RTX 2000 hallitsee Yhdysvaltain luokan 8 ratapölkyjen markkinoita.Huoltoverkoston syvyys on Pohjois-Amerikan paras – jokaisessa TA/Petron toimipisteessä on Dometicin kouluttama päivystystekniikka.Hinnoittelu hieman Webaston alla.MOQ 10. Toimitusaika 4-6 viikkoa.*Rubiikki: 38 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**3.Thermo King (US, Trane Technologies).** TriPac-diesel APU on ikoninen, mutta sen pysäköinti-AC-valikoima on kapeampi kuin merkki ehdottaa.Vahva OEM-kuorma-autonrakennusohjelmille (Freightliner, Kenworth).MOQ yleensä 25+ suoraan tehtaalta.*Rubiikki: 35 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**4.Eberspächer (Saksa).** Tunnetaan parhaiten diesellämmittimistä, mutta niiden AC-valikoima kasvaa EU:n pakettiautoissa ja RV-autoissa.Erinomainen tekninen dokumentaatio.Pienempi Yhdysvaltain läsnäolo.MOQ 20. *Rubiikki: 33 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**5.Bergstrom NITE (US, Illinois).** Sähköalan APU-asiantuntija, [EPA SmartWay -vahvistettu](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies).Ensiluokkainen akku-AC-valinta yhdysvaltalaisille laivastoille, jotka ovat tosissaan CARB-yhteensopivuuden suhteen.Hinta heijastaa sitä.MOQ 5. *Rubiikki: 36 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**6.Indel B (Italia).** Vahva meri- ja RV -toimialalla, Välimeren jälleenmyyjäverkosto.EU-keskeinen – USA:n läpimenoajat ovat pitkiä.MOQ 20. *Rubiikki: 31 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**7.Dirna BYCOOL (Espanja).** Suosittu Espanjan ja Latinalaisen Amerikan laivastojen keskuudessa.Vankka keskitason OEM-kumppani.Dokumentaatio on niukkaa espanjan kielen ulkopuolella.MOQ 25. *Rubiikki: 30 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**8.Kingclima (Kiina, Zhengzhou).** Yksi suurimmista Kiinan OEM-tehtaista.Kunnollinen CE-kattavuus, FCC joskus puuttuu.Aggressiivinen hinnoittelu – tyypillisesti 35–45 % Webaston alapuolella samalla tasolla.MOQ 5. Toimitusaika 4–8 viikkoa.*Rubiikki: 31 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**9.Guchen (Kiina, Xiamen).** Kuorma-autoihin keskittyvä OEM.Vahva bussi- ja linja-autolinjoissa.On toimitettu useille yhdysvaltalaisille yksityisille tuotemerkeille.MOQ 5. *Rubiikki: 30 / 45.*"
+    },
+    {
+      "heading": null,
+      "body": "**10.CoolDrivePro (Kiina, oma tehtaamme).** 12V/24V akkupysäköinti AC- ja kattoyksiköt.Täydellinen CE + E-merkki + FCC-dokumentaatio;yksityinen merkki ja täydellinen OEM-työkalut saatavilla.MOQ 5 ensitilauksille, 50+ merkkiohjelmille.USA:n puoleinen varaosien pidike lanseerattiin 2026. Toimitusaika 3–6 viikkoa.*Rubriktio: 36 / 45 — luettelemme heikot kohtamme alla rehelliseen kappaleeseen.*"
+    },
+    {
+      "heading": null,
+      "body": "## Missä kukin tuotemerkki voittaa – ja missä ei"
+    },
+    {
+      "heading": null,
+      "body": "Jokaisella yllä olevassa luettelossa olevalla toimittajalla on erityinen skenaario, jossa he ovat oikea vastaus, ja ainakin yksi, jossa se ei ole.Olemme hävinneet tarjoukset jokaiselle tämän luettelon brändille ja olemme voittaneet tarjouksia jokaista tämän luettelon tuotemerkkiä vastaan.Tässä on mitä olemme oppineet."
+    },
+    {
+      "heading": null,
+      "body": "**Valitse Webasto, kun** tarvitset yleiseurooppalaisen palveluverkoston syvyyden, asiakaskuntasi on bränditietoinen ja kalustollasi on pitkä EU-aika.**Älä valitse Webastoa, kun** budjettisi on kiinteä ja asiakas ei välitä tunnuksesta – maksat 30 %:n palkkion pelkästä brändistä.(Meidän [Dometic vs Webasto head-to-head](/blog/dometic-vs-webasto-parking-ac) erittelee kahden lippulaivayksikön BTU / melu / 5 vuoden kustannusmatematiikan.)"
+    },
+    {
+      "heading": null,
+      "body": "**Valitse Dometic, kun** palvelet yhdysvaltalaisia kaukoliikennelaivastoja ja asiakkaasi tarvitsee saman viikon kenttähuoltoa suurimmilla kuorma-autopysäkeillä.**Älä valitse Dometicia, kun** tarvitset OEM-työkalukumppanin – he eivät tee pientä, räätälöityjä OEM-töitä."
+    },
+    {
+      "heading": null,
+      "body": "**Valitse Thermo King, kun** olet OEM-kuorma-autojen valmistaja, joka integroituu kokoonpanolinjalla.**Älä valitse Thermo Kingiä, kun** olet pieni jälleenmyyjä;niiden suorat tehtaan minimit ja dokumentoinnin aikajanat on rakennettu 1. tason OEM-valmistajille."
+    },
+    {
+      "heading": null,
+      "body": "**Valitse Bergstrom NITE, kun** jokaisen kalustosi kuorma-auton on oltava CARB-yhteensopiva ja asiakkaasi arvostaa EPA SmartWay -todennusta teknisissä tiedoissa.**Älä valitse Bergstromia, kun** toiminta-alueesi on Yhdysvaltojen ulkopuolella – kansainvälinen palvelu on heikko."
+    },
+    {
+      "heading": null,
+      "body": "**Valitse Kingclima tai Guchen, kun** asiakkaasi on hintalähtöinen ja valmis tekemään oman takuun.**Älä valitse niitä, kun** sopimuksessa on SLA-sakkoja takuun käsittelystä."
+    },
+    {
+      "heading": null,
+      "body": "**Valitse CoolDrivePro (meistä), kun** tarvitset läpinäkyvän OEM/ODM:n dokumentoiduilla MOQ-tasoilla, täydet CE+E-Mark+FCC-tiedostot ensimmäisellä viikolla ja yhden yhteyshenkilön, joka voi lainata FOB-/CIF-/DDP-tietoja ilman kolmea sähköpostikerrosta.**Älä valitse meitä, kun** asiakkaasi vaatii nimenomaan tuotemerkin tunnistusyksikköä kuorma-auton pysähdyksessä, joka näkyy 50 jalan korkeudelta – Dometic ja Webasto omistavat edelleen tämän mindsharen vuonna 2026."
+    },
+    {
+      "heading": null,
+      "body": "## Miten CoolDrivePro rakentelee B2B-ohjelmia"
+    },
+    {
+      "heading": null,
+      "body": "Suurin osa jälleenmyyjä- ja kalustoasiakkaistamme kulkee yhden kolmesta tiestä.Dokumentoimme ne täällä, jotta tiedät mitä odottaa *ennen* kuin lähetät meille sähköpostin."
+    },
+    {
+      "heading": null,
+      "body": "**Kappale 1 – Jälleenmyyjän käyttöönotto (5–49 yksikköä / vuosineljännes).** Tavallinen [CoolDrivePro -jälleenmyyjäohjelmamme](/tukkumyynti): jakelijahinnoittelu, NET 30 3. tilauksen jälkeen, mukana Yhdysvaltain puolen osien pidike.Toimitusaika 3 viikkoa valmiista varastosta.Soveltuu alueellisille kuorma-auton osien jakelijoille ja RV -asentajille, jotka haluavat lisätä pysäköinti-AC:n luetteloonsa ilman räätälöityjä työkaluja.[Lue lisää kohteesta CoolDrivePro](/about) ennen sitoutumista – julkaisemme tehdastarkastuskuvia ja insinööritiimin bios-tietosivulla."
+    },
+    {
+      "heading": null,
+      "body": "**Raita 2 – Yksityinen merkki OEM (50–499 yksikköä / vuosineljännes).** Tunnus, pakkaus, käyttöopas, etägrafiikka.5 viikon toimitusaika ensimmäiselle PO:lle (mukautettu pakkauslevy), 4 viikkoa uusintatilauksille.ODM-työkalumaksusta luopuminen yli 200 yksikön vuosisitoumuksen."
+    },
+    {
+      "heading": null,
+      "body": "**Track 3 – Täysi OEM (500+ yksikköä/neljännes).** Mukautettu kotelon työkalut, räätälöity höyrystimen jalanjälki tiettyyn ohjaamon aukkoon, liitossuunnittelu asennuksessa.8–12 viikon läpimenoaika ensimmäiselle PO:lle, sitten 6 viikon tuotantotahdin.Suunnittelutunnit laskutetaan;työkalut poistetaan ensimmäisen 1 000 kappaleen aikana."
+    },
+    {
+      "heading": null,
+      "body": "Kaikki kolme kappaletta: jokaisen yksikön mukana toimitetaan CE-tekninen tiedosto, E-Mark-hyväksyntäkirje, FCC-testiraportti, RoHS-ilmoitus ja tulostettava varaosien SKU-luettelo.Emme edellytä, että mitään näistä pyydetään - se on osa normaalia luovutusta.[Katso tukkuohjelmasivultamme](/tukkumyynti) nähdäksesi nykyinen hintakortti ja asiakirjojen tarkistuslista tai [pyydä esimerkkitarjous](/ota yhteyttä), jos haluat, että PDF lähetetään sähköpostitse 24 tunnin kuluessa."
+    },
+    {
+      "heading": null,
+      "body": "## Rehellinen kappale: emme suosittele AC:n pysäköintiä ollenkaan, kun…"
+    },
+    {
+      "heading": null,
+      "body": "Myymme pysäköinti AC.Edelleen käskemme asiakkaita kävelemään pois kolmessa skenaariossa, koska matematiikka ei toimi ja katuu ostosta toiseen vuoteen mennessä."
+    },
+    {
+      "heading": null,
+      "body": "**Emme suosittele akun pysäköimistä AC, kun** kuorma-autoa käytetään yli 12 tuntia yön yli äärimmäisessä kuumuudessa (yli 35 °C / 95 °F ympäristössä) ilman maasähköä tai aurinkoenergian lisäystä.200 Ah LiFePO4 pankki käyttää realistisesti 24V pysäköintiilmavirtaa 8–10 tuntia;Tämän lisäksi tarvitset sähkö- tai dieselmoottorin APU.Pelkästään 600 Ah:n pankin kokoaminen pysäköinti-AC:n ympärille on huonoa taloutta – siinä vaiheessa [APU vs akku AC -vertailu](/blog/apu-vs-battery-parking-ac) vihjaa takaisin kohti APU."
+    },
+    {
+      "heading": null,
+      "body": "**Emme suosittele kattopysäköintiä, kun** kuorma-auto toimii tiukoilla CARB-alueilla ilman APU poikkeusta JA käyttöjakso vaatii jatkuvaa jäähdytystä – osta sen sijaan SmartWay-varmennettu sähköinen APU.[CARB ATCM -sääntö](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) ja [FMCSA HOS:n makuupaikka](https://www.fmcsa.dot.gov/regulations/hours-of-service) toimivat vuorovaikutuksessa tavoilla, jotka voivat jättää tietyn pysäköinnin ja vain vaihtovirtalaitteen."
+    },
+    {
+      "heading": null,
+      "body": "**Emme suosittele OEM-työkalusitoumuksia alle 200 yksikköä vuodessa.** Poiston laskeminen ei lopu – maksat 40–60 $ ylimääräistä yksikköä kohden ensimmäisestä 200:sta, ja siihen mennessä brändäysstrategiasi on todennäköisesti muuttunut.Aloita ODM:llä (vain merkki), todista kysyntä ja siirry sitten täysimääräiseen OEM:ään vuonna 2."
+    },
+    {
+      "heading": null,
+      "body": "## Usein kysyttyjä kysymyksiä"
+    },
+    {
+      "heading": null,
+      "body": "**Mikä on vähimmäistilausmäärä (MOQ) B2B-pysäköinnin AC-toimittajalle?**"
+    },
+    {
+      "heading": null,
+      "body": "Todellinen tehtaan MOQ on tyypillisesti 5 yksikköä ensimmäisestä koetilauksesta julkaistulla jakelijahinnalla, 20–50 yksikköä merkkiohjelman hinnoittelussa ja 200+ täydessä OEM-työkalussa.Toimittajat, jotka lainaavat MOQ 1:tä, ovat yleensä kauppayrityksiä (pudotustoimitus toiselta tehtaalta lisähinnalla), ja toimittajat, jotka vaativat MOQ 100+:aa ensiostajalle, suojaavat katteitaan, eivät sinun.CoolDrivePro:n ensimmäisen asteen MOQ on 5 yksikköä;julkaisemme tasojen tauot [tukkusivulla](/tukkumyynti)."
+    },
+    {
+      "heading": null,
+      "body": "**Mitä sertifikaatteja minun tulee vaatia Yhdysvaltojen ja EU:n laivaston käyttöönottamiseksi?**"
+    },
+    {
+      "heading": null,
+      "body": "USA: FCC Part 15 (sähkömagneettinen), DOT-yhteensopiva johdotus FMVSS:n mukaan ja SmartWay-vahvistus, jos joutokäynnin eston yhteensopivuus on osa arvoehdotustasi.EU: CE-merkintä standardin EN 1648 (RV/caravan use) ja [UNECE R10 E-Mark] (https://unece.org/transport/vehicle-regulations) mukaisesti tieajoneuvoille sekä RoHS- ja REACH materiaalirajoituksille.Saat kaikki sertifikaatin PDF-tiedostot sähköpostitse tarjousneuvottelujen aikana, ei tilauksen jälkeen – tämä on paras tapa karsia tehtaita, jotka teeskentelevät saavansa sertifikaatteja, joita heillä ei ole."
+    },
+    {
+      "heading": null,
+      "body": "**Kuinka kauan 100 yksikön hankinta kestää?**"
+    },
+    {
+      "heading": null,
+      "body": "Oikealta OEM-tehtaalta valmiiden komponenttien varastolla: 4–6 viikkoa tuotantoa + 3–5 viikkoa merirahtia Yhdysvaltain itärannikolle = noin 7–11 viikkoa ovelta ovelle.Lentorahti leikkaa toisen vaiheen päiviin, mutta lisää 200–400 dollaria yksikköä kohden.Suunnittele ensimmäinen ostotilauksesi pidemmän arvion ympärille;Saman SKU:n myöhemmät tilaukset voivat tiivistyä yhteensä 5–6 viikkoon, koska komponenttien hankinta on jo käytössä."
+    },
+    {
+      "heading": null,
+      "body": "**Saanko yksityisen tuotemerkin / OEM-brändin yksikköön ja pakkaukseen?**"
+    },
+    {
+      "heading": null,
+      "body": "Kyllä, kolmella kasvavalla sitoutumistasolla: (1) ODM-tunnuksen vaihto – tarra, omistajan käsikirjan kansi, etägrafiikka, ei työkalumaksua, yleensä ilmainen yli 50 yksikköä/PO;(2) mukautettu pakkauslevy – muotoiltu väri tai yksinkertainen logon kohokuviointi, ~ 2–4 000 dollaria työkalut, 200+ yksikkösitoumus;(3) Täysi räätälöity kotelo – mittatilaustyönä valmistettu höyrystimen jalanjälki ja suojus, 8–25 000 dollarin työkalut, 500+ yksikön vuosisitoumus.Suosittelemme aloittamaan tasolta 1, osoittamaan sopivuuden markkinoille ja jatkamaan sitten."
+    },
+    {
+      "heading": null,
+      "body": "**Mitä varaosien ehtoja tulee olla 3 vuoden tukkusopimuksessa?**"
+    },
+    {
+      "heading": null,
+      "body": "Pyydä nimettyä SKU-luetteloa (kompressori, tuulettimen moottori, höyrystimen käämi, piirilevy, kaukosäädin, tiivistesarja), jota pidetään alueellisessa varastossa – ei vain Kiinan tehtaalla.Määritä taatut saatavuusmäärät (esim. \"5 kompressoria ja 20 PCB:tä USA:n varastossa aina\") ja 72 tunnin toimitussitoumus takuun vaihtoihin.Jos toimittaja kieltäytyy kirjoittamasta tätä kirjallisesti, takuusi on koristeellinen."
+    },
+    {
+      "heading": null,
+      "body": "**Ovatko akkupysäköintiAC-yksiköt todella B2B-valmiita vuonna 2026 vai ovatko ne vielä uutuuksia?**"
+    },
+    {
+      "heading": null,
+      "body": "Akkupysäköinti AC on siirtynyt täysin B2B-valmiudelle vuonna 2026. Yhdistelmä 200Ah LiFePO4 pakkauksista alle $0.30/Wh, invertterikompressorit 35-45A 24V ja melutaloustyöt alle 50-vuotiaille on tehnyt omistajatlaivastoja.Se, missä se edelleen häviää dieselille APUs on jatkuvan jäähdytyksen skenaarioissa yli ~10 tuntia, ja missä se häviää sähkölle APUs, on CARB-tiukka + usean kuljettajan HOS-skenaarioissa.Katso [battery parking AC vs APU -vertailu](/blog/apu-vs-battery-parking-ac) ja [LiFePO4-kokooppaasta](/blog/lifepo4-battery-for-parking-ac) matematiikkaa varten."
+    },
+    {
+      "heading": null,
+      "body": "## Oletko valmis arvioimaan CoolDrivePro B2B-ohjelmallesi?"
+    },
+    {
+      "heading": null,
+      "body": "Jos luet tähän asti, tiedät mitä kysyä kaikilta toimittajalta – ja tiedät, että yritimme kirjoittaa rehellisen version.Nopein tapa arvioida meidät on pyytää koko asiakirjapaketti: CE:n teknisen tiedoston yhteenveto, E-Mark-hyväksyntäkirje, FCC-testiraportti, tasokohtainen hintataulukko (5 / 50 / 200 / 500 yksikköä), toimitusaikakaavio SKU:n mukaan ja Yhdysvaltain puolen varaosien SKU-luettelo.Lähetämme kaiken sähköpostitse 24 tunnin sisällä tiedustelusta ennen myyntipuhelua.Aloita [CoolDrivePro tukkuohjelman sivulta](/wholesale) tai selaa [VTH1-akun pysäköinnin AC-tuotesivua](/products/vth1), jos haluat nähdä ensin täydellisen tekniset tiedot.Jos joutokäynnin eston noudattaminen ja polttoaineensäästön matematiikka vaikuttavat asiakkaasi ostopäätökseen, [laivaston polttoaineensäästölaskin](/blog/parking-ac-fuel-savings-calculator) on muunnostyökalu, jonka useimmat jälleenmyyjät upottavat omiin tarjoussähköposteihinsa."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "target_kw": "b2b parking ac supplier",
+    "secondary_kws": [
+      "b2b parking ac supplier buyer guide",
+      "wholesale parking ac supplier",
+      "parking ac oem supplier",
+      "fleet parking ac supplier",
+      "private label parking ac"
+    ],
+    "hub": "H9",
+    "template": "pillar",
+    "intent": "commercial",
+    "locale": "en",
+    "author": "CoolDrivePro Engineering Team",
+    "updated": "2026-06-08",
+    "ogImage": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "internal_links": [
+      "/about",
+      "/blog/apu-vs-battery-parking-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/blog/lifepo4-battery-for-parking-ac",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/contact",
+      "/products/vth1",
+      "/wholesale"
+    ],
+    "external_refs": [
+      "https://unece.org/transport/vehicle-regulations",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://www.sgs.com/"
+    ],
+    "brief_id": "briefs/2026-06-08/brief-H9-c64.json"
+  }
+}

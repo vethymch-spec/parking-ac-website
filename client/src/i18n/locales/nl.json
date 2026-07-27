@@ -3,8 +3,8 @@
     "home": "Home",
     "products": "Producten",
     "topMountedAC": "Dak-airco",
-    "miniSplitAC": "Mini split airco",
-    "heatingCoolingAC": "Verwarmings-/koelairco",
+    "miniSplitAC": "Mini split",
+    "heatingCoolingAC": "Warm/koel airco",
     "allProducts": "Alle producten",
     "forum": "Forum",
     "blog": "Blog",
@@ -18,10 +18,10 @@
     "logout": "Uitloggen"
   },
   "hero": {
-    "title": "Parkeerairconditioning voor off-grid leven en mobiel comfort",
-    "subtitle": "12V en 24V DC airconditioning zonder stationair draaien voor vrachtwagens, campers en bestelbussen — Koel zonder stationair draaien",
-    "ctaPrimary": "Producten kopen",
-    "ctaSecondary": "Meer informatie",
+    "title": "12V/24V parkeerairconditioners voor vrachtwagens, campers, bestelwagens en wagenparken",
+    "subtitle": "CoolDrivePro bouwt 12V/24V DC parkeerairconditioners en niet-stationair koelsystemen voor semi-vrachtwagens, RV's, bestelwagens, campers, wagenparken, dealers en installateurs - met B2B-prijzen, Amerikaanse garantieondersteuning en montagebegeleiding.",
+    "ctaPrimary": "Ontvang een montageaanbeveling",
+    "ctaSecondary": "Dealerofferte aanvragen",
     "badge": "Nieuw binnen",
     "trustedBy": "Vertrouwd door meer dan 10.000 chauffeurs wereldwijd"
   },
@@ -36,7 +36,7 @@
     "features": "Functies",
     "reviews": "Klantbeoordelingen",
     "warranty": "Garantie",
-    "freeShipping": "Gratis verzending",
+    "freeShipping": "Factuurondersteuning",
     "support": "Ondersteuning 24/7",
     "topMounted": {
       "title": "Dak-airco 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Koelt tot 80 vierkante voet"
     },
     "miniSplit": {
-      "title": "Mini split airco 12000 BTU",
-      "subtitle": "12V DC airconditioning zonder stationair draaien voor vrachtwagens en campers",
+      "title": "12V/24V Mini Split Parking AC voor semi-slaapcabines en campers",
+      "subtitle": "De CoolDrivePro VX3000SP is een 12V/24V DC mini-split parkeerairconditioner die 12.000 BTU/u koeling levert zonder stationair draaien voor semi-slaapcabines, campers, bestelwagens en campers.De binnenverdamper draait op ≤32 dB met behulp van een GMCC twin-rotary inverter-compressor, zodat bestuurders een nacht geparkeerd kunnen slapen zonder de motor stationair te laten draaien.",
       "btu": "12.000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 uur",
@@ -59,14 +59,19 @@
       "specifications": "Specificaties",
       "reviews": "Klantbeoordelingen",
       "faq": "Veelgestelde vragen",
-      "freeShipping": "Gratis verzending",
-      "warranty": "Garantie 2 jaar",
+      "freeShipping": "Factuurondersteuning",
+      "warranty": "1 jaar garantie",
       "returns": "Retourneren 30 dagen",
       "inStock": "Op voorraad",
       "outOfStock": "Niet op voorraad",
       "quantity": "Aantal",
       "techSpecs": "Technische specificaties",
-      "relatedProducts": "Misschien vindt u dit ook leuk"
+      "relatedProducts": "Misschien vindt u dit ook leuk",
+      "warrantyDesc": "1 jaar fabrieksgarantie voor materiaal- en fabricagefouten."
+    },
+    "heatingCoolingAC": {
+      "title": "12V/24V Verwarming en koeling Parkeer-AC voor vrachtwagens en campers",
+      "subtitle": "De CoolDrivePro V-TH1 is een 12V/24V DC warmtepomp-parkeerairconditioner die 2.000 W koeling en verwarming levert voor semi-vrachtwagens, campers, bestelwagens en speciale voertuigen.Het maakt gebruik van een GMCC dubbelroterende compressor met R134a-koelmiddel en kan de cabinetemperatuur in ongeveer 30 minuten verhogen van 5°C naar 30°C – zonder dat de motor stationair draait en er geen walstroom nodig is."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Annuleren",
     "posting": "Plaatsen...",
     "model": "Model"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1 jaar garantie"
+    }
   }
 }

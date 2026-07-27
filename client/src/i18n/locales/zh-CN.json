@@ -21,14 +21,10 @@
     "supportPortal": "我的支持中心",
     "logout": "退出登录",
     "login": "登录",
-    "ticketManagement": "工单管理",
-    "customerManagement": "客户管理",
     "adminLogout": "管理员退出",
     "customerLogout": "客户退出",
     "mySupportPortal": "我的支持中心",
     "adminPanel": "管理后台",
-    "search": "搜索",
-    "account": "账户",
     "menu": "菜单",
     "shoppingCart": "购物车",
     "brandKnowledge": "品牌知识",
@@ -38,10 +34,10 @@
     "supportAvailability": "支持时间：太平洋时间上午11点-晚上9点，我们将在1-12小时内回复您。"
   },
   "hero": {
-    "title": "驻车空调——离网生活与移动舒适的完美选择",
-    "subtitle": "为半挂卡车、房车、露营车设计的12V和24V直流驻车空调——无需怠速即可保持凉爽",
-    "ctaPrimary": "浏览产品",
-    "ctaSecondary": "了解更多",
+    "title": "适用于卡车、房车、货车和车队的 12V/24V 停车空调",
+    "subtitle": "CoolDrivePro 为半挂卡车、RV、货车、露营车、车队、经销商和安装商打造 12V/24V DC 停车空调和无怠速冷却系统 - 提供 B2B 定价、美国保修支持和安装指导。",
+    "ctaPrimary": "获取装修建议",
+    "ctaSecondary": "请求经销商报价",
     "badge": "新品上市",
     "trustedBy": "全球10,000+司机信赖之选"
   },
@@ -52,16 +48,6 @@
     "description": "为半挂卡车、房车、露营车设计的电池供电驻车空调。无需怠速即可保持凉爽——节省燃油、减少排放、享受舒适。",
     "viewDetails": "立即购买",
     "addToCart": "加入购物车",
-    "specs": "规格参数",
-    "features": "产品特点",
-    "reviews": "客户评价",
-    "warranty": "质保",
-    "freeShipping": "免费配送",
-    "support": "全天候支持",
-    "learnMore": "了解更多",
-    "cooling": "制冷",
-    "heating": "制热",
-    "heatingCooling": "冷暖空调",
     "specs": {
       "coolingCapacity": "制冷能力",
       "heatingCapacity": "制热能力",
@@ -75,6 +61,15 @@
       "heatingSpeed": "制热速度",
       "airOutput": "风量"
     },
+    "features": "产品特点",
+    "reviews": "客户评价",
+    "warranty": "质保",
+    "freeShipping": "发票报价支持",
+    "support": "全天候支持",
+    "learnMore": "了解更多",
+    "cooling": "制冷",
+    "heating": "制热",
+    "heatingCooling": "冷暖空调",
     "topMounted": {
       "title": "12000 BTU顶置式驻车空调",
       "subtitle": "12V/24V直流无怠速房车和卡车空调",
@@ -85,8 +80,8 @@
       "imageAlt": "10000 BTU顶置式驻车空调爆炸图——12V/24V直流无怠速房车卡车空调"
     },
     "miniSplit": {
-      "title": "12000 BTU迷你分体驻车空调",
-      "subtitle": "半挂卡车和房车用12V直流无怠速空调",
+      "title": "适用于半卧铺出租车和房车的 12V/24V 迷你分体式停车空调",
+      "subtitle": "CoolDrivePro VX3000SP 是一款 12V/24V 直流迷你分体式停车空调，可为半卧铺驾驶室、房车、货车和露营车提供 12,000 BTU/h 无怠速冷却。室内蒸发器使用 GMCC 双旋转变频压缩机，运行噪音≤32 dB，因此驾驶员可以在停车的夜晚安然入睡，而无需让发动机空转。",
       "description": "专为半挂卡车驾驶室、房车和厢式货车设计的大容量12V直流迷你分体驻车空调。拥有12000 BTU无怠速制冷能力，这款无管空调直接从车载电池运行——无需发电机，无需岸电。水平屋顶安装适用于大多数卡车和露营车。",
       "btu": "12,000 BTU",
       "voltage": "12V 直流",
@@ -101,26 +96,27 @@
       "imageAlt": "房车和半挂卡车用65000 BTU即热式热水器——离网热水"
     },
     "heatingCoolingAC": {
-      "title": "V-TH1冷暖驻车空调",
-      "subtitle": "12V/24V直流双模式转子空调——全年舒适",
+      "title": "适用于卡车和房车的 12V/24V 加热和冷却停车空调",
+      "subtitle": "CoolDrivePro V-TH1 是一款 12V/24V 直流热泵停车空调，可为半挂卡车、房车、货车和特种车辆提供 2,000 W 的冷却和加热。它采用 GMCC 双转子压缩机和 R134a 制冷剂，可在约 30 分钟内将驾驶室温度从 5°C 提高到 30°C — 无需发动机空转，也无需岸电。",
       "description": "CoolDrivePro首款双模式驻车空调。V-TH1夏季提供高达2,000W制冷，冬季可在30分钟内将驾驶室从5°C加热到30°C。采用GMCC双转子压缩机和R134A制冷剂，这款12V/24V直流转子空调为卡车、房车、露营车和特种车辆提供全年气候控制——无需发动机怠速。",
       "imageAlt": "V-TH1冷暖驻车空调——12V/24V直流双模式转子空调"
     },
     "detail": {
       "addToCart": "加入购物车",
       "buyNow": "立即购买",
+      "requestInvoice": "申请发票付款",
       "specifications": "规格参数",
       "reviews": "客户评价",
       "faq": "常见问题",
-      "freeShipping": "免费配送",
-      "warranty": "2年质保",
+      "freeShipping": "发票报价支持",
+      "warranty": "1 年保修",
       "returns": "30天退换",
       "inStock": "有库存",
       "outOfStock": "缺货",
       "quantity": "数量",
       "shipping": "配送",
-      "shippingDesc": "美国本土订单满500美元免运费。3-5个工作日送达。",
-      "warrantyDesc": "2年制造商质保，涵盖材料和工艺缺陷。",
+      "shippingDesc": "确认发票后协调运输，交付时间取决于目的地和订单细节。",
+      "warrantyDesc": "1 年制造商保修，涵盖材料和工艺缺陷。",
       "returnsDesc": "30天轻松退换政策。不满意全额退款。",
       "techSpecs": "技术规格",
       "reviewsTitle": "客户怎么说",
@@ -209,7 +205,7 @@
   "shopWithUs": {
     "title": "放心购物",
     "warranty": {
-      "title": "2年质保",
+      "title": "1 年保修",
       "description": "所有零部件和人工费用全面覆盖"
     },
     "returns": {
@@ -217,8 +213,8 @@
       "description": "不满意可无理由退货"
     },
     "shipping": {
-      "title": "免费配送",
-      "description": "美国本土订单满500美元免运费"
+      "title": "车型适配支持",
+      "description": "在发票报价前确认车辆兼容性。"
     }
   },
   "blog": {
@@ -246,7 +242,7 @@
       "notFound": "文章未找到",
       "backToBlog": "← 返回博客",
       "readyToExperience": "准备好体验无怠速制冷了吗？",
-      "exploreOur": "探索我们的12V/24V驻车空调——所有美国订单免运费。",
+      "exploreOur": "探索我们的12V/24V驻车空调，并根据车型适配申请发票报价。",
       "shopTopMounted": "购买VS02 PRO顶置式空调",
       "shopMiniSplit": "购买VX3000SP迷你分体空调"
     }
@@ -284,7 +280,6 @@
     "backToForum": "返回论坛",
     "helpful": "有帮助",
     "reply": "回复",
-    "replies": "回复",
     "acceptedAnswer": "已采纳答案",
     "replyBtn": "回复",
     "noRepliesYet": "暂无回复。成为第一个回应的人！",
@@ -318,15 +313,24 @@
     },
     "emailSupport": {
       "title": "邮件支持",
-      "lines": ["support@cooldrivepro.com", "我们将在1-12小时内回复"]
+      "lines": [
+        "support@cooldrivepro.com",
+        "我们将在1-12小时内回复"
+      ]
     },
     "supportHours": {
       "title": "支持时间",
-      "lines": ["周一至周五：上午9点-下午6点（太平洋时间）", "周六：上午10点-下午4点（太平洋时间）"]
+      "lines": [
+        "周一至周五：上午9点-下午6点（太平洋时间）",
+        "周六：上午10点-下午4点（太平洋时间）"
+      ]
     },
     "liveChat": {
       "title": "在线客服",
-      "lines": ["可在我们的网站上使用", "周一至周五，上午9点-下午5点（太平洋时间）"]
+      "lines": [
+        "可在我们的网站上使用",
+        "周一至周五，上午9点-下午5点（太平洋时间）"
+      ]
     },
     "breadcrumb": "联系我们",
     "hereToHelp": "我们随时为您提供帮助",
@@ -370,11 +374,26 @@
     "statesServed": "服务地区",
     "avgRating": "平均评分",
     "readyToStop": "准备好停止怠速了吗？",
-    "joinDrivers": "加入已转用CoolDrivePro驻车空调的15,000+司机。所有美国订单免运费。",
+    "joinDrivers": "加入已转用 CoolDrivePro 驻车空调的司机行列，准备好后可申请车型适配发票报价。",
     "shopTop": "购买顶置式空调",
     "partnerNetwork": "我们的合作伙伴网络",
     "partnerDesc": "CoolDrivePro与值得信赖的合作伙伴携手，为全球司机带来最佳的移动舒适解决方案。",
-    "officialPartner": "官方网站合作伙伴"
+    "officialPartner": "官方网站合作伙伴",
+    "proofTitle": "可以亲自核验的实力",
+    "proofHeading": "工厂、证书、展会,全部公开可查",
+    "proofDesc": "CoolDrivePro 由青岛维赛工业有限公司制造与发货。下方可查看车间生产、认证资质与全球展会现场,每一台 12V/24V 驻车空调都背靠真实证据。",
+    "factoryCard": "走进工厂",
+    "factoryCardDesc": "自有研发、SMT 与组装产线,每台驻车空调出货前都经过 100% 全检。",
+    "factoryAlt": "CoolDrivePro / 维赛驻车空调生产车间",
+    "tourFactory": "查看工厂",
+    "certCard": "资质与知识产权",
+    "certCardDesc": "ISO 9001:2015、CNAS 实验室、注册商标与外观设计专利。",
+    "certAlt": "CoolDrivePro ISO 9001 质量证书与外观设计专利",
+    "viewCerts": "查看证书",
+    "expoCard": "全球展会",
+    "expoCardDesc": "在北美、欧洲、澳新与中东进行现场展示与经销商对接。",
+    "expoAlt": "CoolDrivePro 驻车空调展会现场",
+    "seeExpos": "查看展会"
   },
   "support": {
     "title": "售后支持",

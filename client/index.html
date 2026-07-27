@@ -5,24 +5,144 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
 
-    <!-- Preconnect to CDN for faster asset loading -->
-    <link rel="preconnect" href="https://d2xsxph8kpxj0f.cloudfront.net" crossorigin />
-    <link rel="dns-prefetch" href="https://d2xsxph8kpxj0f.cloudfront.net" />
+    <!-- LCP preload: homepage hero image (highest priority, before any JS) -->
+    <link rel="preload" as="image" href="/images/home/hero-bg-1280.webp" imagesrcset="/images/home/hero-bg-640.webp 640w, /images/home/hero-bg-1280.webp 1280w" imagesizes="100vw" fetchpriority="high" />
+
+    <!-- LCP preload: product page hero images (same-origin, for preload-scanner early discovery) -->
+    <!-- These are harmless on non-product pages (small download, cached locally) -->
+    <link rel="preload" as="image" href="/images/products/vx3000-split-outdoor-unit-01.webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="/images/products/vs02-pro-installation-01.webp" fetchpriority="high" />
+
+    <!-- Google tag: queue events immediately, load the vendor script after the critical render. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18126437861');
+      gtag('config', 'G-1ETBFY8C9H');
+
+      (function () {
+        var loaded = false;
+        var fallbackTimer;
+
+        function loadGoogleTag() {
+          if (loaded) return;
+          loaded = true;
+          window.clearTimeout(fallbackTimer);
+
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18126437861';
+          document.head.appendChild(script);
+        }
+
+        function scheduleGoogleTag() {
+          fallbackTimer = window.setTimeout(loadGoogleTag, 4000);
+        }
+
+        if (document.readyState === 'complete') {
+          scheduleGoogleTag();
+        } else {
+          window.addEventListener('load', scheduleGoogleTag, { once: true });
+        }
+
+        ['pointerdown', 'keydown', 'touchstart'].forEach(function (eventName) {
+          window.addEventListener(eventName, loadGoogleTag, { once: true, passive: true });
+        });
+      })();
+    </script>
+
+    <!-- Event snippet for 提交潜在客户表单 conversion page -->
+    <script>
+      (function () {
+        var sendTo = 'AW-18126437861/LTqWCOzCqKQcEOX7rcND';
+        var triggered = false;
+
+        function fireConversion() {
+          if (triggered || typeof gtag !== 'function') return;
+          triggered = true;
+          window.__coolDriveProGoogleAdsConversions = window.__coolDriveProGoogleAdsConversions || {};
+          if (!window.__coolDriveProGoogleAdsConversions[sendTo]) {
+            gtag('event', 'conversion', { 'send_to': sendTo });
+            window.__coolDriveProGoogleAdsConversions[sendTo] = true;
+          }
+        }
+
+        function scanForSuccessMessage() {
+          if (triggered || !document.body) return false;
+          var divs = document.querySelectorAll('div');
+          for (var index = 0; index < divs.length; index += 1) {
+            var div = divs[index];
+            if (div.textContent && div.textContent.includes('Thank you for reaching out.') && div.offsetParent !== null) {
+              fireConversion();
+              return true;
+            }
+          }
+          return false;
+        }
+
+        window.addEventListener('load', function () {
+          if (scanForSuccessMessage() || typeof MutationObserver === 'undefined' || !document.body) return;
+
+          var observer = new MutationObserver(function () {
+            if (scanForSuccessMessage()) {
+              observer.disconnect();
+              clearTimeout(stopTimer);
+            }
+          });
+          var stopTimer = setTimeout(function () {
+            observer.disconnect();
+          }, 120000);
+
+          observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+        });
+      })();
+    </script>
+
+      <!-- Event snippet for UPDE conversion -->
+      <script>
+        window.addEventListener('load', function (event) {
+          document.querySelectorAll('[type="submit"]').forEach(function (i) {
+            i.addEventListener('click', function () {
+          var email = '';
+          document.querySelectorAll('[type="email"]').forEach(function (e) {
+            if (e.value != "") {
+              email = e.value;
+            }
+          });
+              if (email != '') {
+                gtag('set', 'user_data', { "email": email });
+                gtag('event', 'conversion', { 'send_to': 'AW-18126437861' });
+              }
+            });
+          });
+        });
+      </script>
 
     <!-- ===== PRIMARY SEO META TAGS ===== -->
-    <title>Parking Air Conditioner | 12V 24V No-Idle AC – CoolDrivePro</title>
-    <meta name="description" content="12V & 24V DC parking AC for trucks, RVs & vans. 10000–12000 BTU, no-idle operation. Free US shipping & 1-year warranty." />
+    <title>12V/24V Parking Air Conditioners for Trucks, RVs and Fleets | CoolDrivePro</title>
+    <meta name="description" content="CoolDrivePro builds 12V/24V DC parking air conditioners and no-idle cooling systems for semi trucks, RVs, vans, campers, fleets, dealers and installers — with B2B pricing, US-based warranty support and fitment guidance." />
     <meta name="keywords" content="parking air conditioner, 12V parking AC, no-idle AC, truck parking cooler, RV air conditioner, DC air conditioner" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="author" content="CoolDrivePro" />
     <link rel="canonical" href="https://cooldrivepro.com/" />
 
+    <!-- ===== BRAND ICONS ===== -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0b3440" />
+
     <!-- ===== OPEN GRAPH (Facebook / LinkedIn) ===== -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://cooldrivepro.com/" />
-    <meta property="og:title" content="Parking Air Conditioner | 12V 24V No-Idle Truck & RV AC – CoolDrivePro" />
-    <meta property="og:description" content="Best parking air conditioners for semi trucks, RVs, vans & campers. 12V & 24V DC no-idle AC units. 10000–12000 BTU. Free US shipping." />
-    <meta property="og:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp" />
+    <meta property="og:title" content="12V/24V Parking Air Conditioners for Trucks, RVs and Fleets | CoolDrivePro" />
+    <meta property="og:description" content="CoolDrivePro builds 12V/24V DC parking air conditioners and no-idle cooling systems for semi trucks, RVs, vans, campers, fleets, dealers and installers — with B2B pricing, US-based warranty support and fitment guidance." />
+    <meta property="og:image" content="https://cooldrivepro.com/images/home/hero-bg-1280.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:site_name" content="CoolDrivePro" />
@@ -30,9 +150,9 @@
 
     <!-- ===== TWITTER CARD ===== -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Parking Air Conditioner | 12V 24V No-Idle Truck & RV AC – CoolDrivePro" />
-    <meta name="twitter:description" content="Best parking air conditioners for semi trucks, RVs, vans & campers. 12V & 24V DC no-idle AC units. Free US shipping." />
-    <meta name="twitter:image" content="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp" />
+    <meta name="twitter:title" content="12V/24V Parking Air Conditioners for Trucks, RVs and Fleets | CoolDrivePro" />
+    <meta name="twitter:description" content="12V/24V DC parking air conditioners and no-idle cooling systems for semi trucks, RVs, vans, campers and fleets — with B2B pricing and US warranty support." />
+    <meta name="twitter:image" content="https://cooldrivepro.com/images/home/hero-bg-1280.webp" />
 
     <!-- ===== JSON-LD STRUCTURED DATA ===== -->
     <!-- Organization -->
@@ -40,20 +160,38 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://cooldrivepro.com/#organization",
       "name": "CoolDrivePro",
+      "alternateName": ["Cool Drive Pro", "CoolDrive Pro"],
       "url": "https://cooldrivepro.com",
-      "logo": "https://cooldrivepro.com/logo.png",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://cooldrivepro.com/#logo",
+        "url": "https://cooldrivepro.com/logo.png",
+        "width": 512,
+        "height": 512,
+        "caption": "CoolDrivePro logo"
+      },
+      "image": "https://cooldrivepro.com/logo.png",
       "description": "Manufacturer and retailer of 12V 24V parking air conditioners for semi trucks, RVs, vans and campers.",
-      "contactPoint": {
+      "contactPoint": [{
         "@type": "ContactPoint",
         "email": "support@cooldrivepro.com",
         "contactType": "customer service",
+        "availableLanguage": ["English", "Chinese", "Spanish", "German", "French"],
+        "hoursAvailable": "Mo-Su 11:00-21:00",
+        "areaServed": "Worldwide"
+      }, {
+        "@type": "ContactPoint",
+        "email": "support@cooldrivepro.com",
+        "contactType": "sales",
         "availableLanguage": "English",
-        "hoursAvailable": "Mo-Su 11:00-21:00"
-      },
+        "areaServed": ["US", "EU", "AU", "CA"]
+      }],
       "sameAs": [
         "https://www.facebook.com/vethyautomotive/",
-        "https://www.youtube.com/@vethyparkingcooler"
+        "https://www.youtube.com/@vethyparkingcooler",
+        "https://github.com/vethymch-spec/cooldrivepro-cdn"
       ],
       "foundingDate": "2020",
       "numberOfEmployees": { "@type": "QuantitativeValue", "value": 5 },
@@ -66,7 +204,10 @@
         "Van Life Climate Control",
         "BLDC Compressor Technology",
         "Lithium Battery Powered AC",
-        "Solar Powered Air Conditioner"
+        "Solar Powered Air Conditioner",
+        "Anti-Idling Regulations",
+        "EPA SmartWay Idle Reduction",
+        "LiFePO4 Battery Systems"
       ]
     }
     </script>
@@ -86,200 +227,6 @@
     }
     </script>
 
-    <!-- Product 1: Top-Mounted Parking AC -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "12000 BTU Top-Mounted Parking Air Conditioner – 12V/24V DC",
-      "description": "12V/24V DC powered top-mounted parking air conditioner for RVs, semi trucks, vans and campers. 12000 BTU cooling. No-idle operation with undervoltage battery protection and whisper-quiet 45 dB operation.",
-      "image": [
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-01-hero_d84a64e3.webp",
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-02-front-side_ae7ed14d.webp"
-      ],
-      "sku": "VS02-PRO",
-      "mpn": "VS02PRO-12V24V",
-      "url": "https://cooldrivepro.com/products/top-mounted-ac",
-      "brand": { "@type": "Brand", "name": "CoolDrivePro" },
-      "category": "Parking Air Conditioner",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://cooldrivepro.com/products/top-mounted-ac",
-        "price": "1299.00",
-        "priceCurrency": "USD",
-        "priceValidUntil": "2026-12-31",
-        "availability": "https://schema.org/InStock",
-        "itemCondition": "https://schema.org/NewCondition",
-        "seller": { "@type": "Organization", "name": "CoolDrivePro" },
-        "shippingDetails": {
-          "@type": "OfferShippingDetails",
-          "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "USD" },
-          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" },
-          "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 3, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } }
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "127"
-      }
-    }
-    </script>
-
-    <!-- Product 2: Mini Split Parking AC -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "12000 BTU Mini Split Parking Air Conditioner – 12V DC",
-      "description": "12V DC mini split parking air conditioner for semi trucks, RVs, vans. 12000 BTU cooling capacity. Ductless design with horizontal rooftop installation. No-idle battery-powered operation.",
-      "image": [
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-mini-split-opt_81dc95b4.webp"
-      ],
-      "sku": "VX3000SP",
-      "mpn": "VX3000SP-12V",
-      "url": "https://cooldrivepro.com/products/mini-split-ac",
-      "brand": { "@type": "Brand", "name": "CoolDrivePro" },
-      "category": "Parking Air Conditioner",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://cooldrivepro.com/products/mini-split-ac",
-        "price": "1599.00",
-        "priceCurrency": "USD",
-        "priceValidUntil": "2026-12-31",
-        "availability": "https://schema.org/InStock",
-        "itemCondition": "https://schema.org/NewCondition",
-        "seller": { "@type": "Organization", "name": "CoolDrivePro" },
-        "shippingDetails": {
-          "@type": "OfferShippingDetails",
-          "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "USD" },
-          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" },
-          "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 3, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } }
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.7",
-        "reviewCount": "89"
-      }
-    }
-    </script>
-
-    <!-- Product 3: V-TH1 Heating & Cooling Parking AC -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "V-TH1 Heating & Cooling Parking Air Conditioner – 12V/24V DC",
-      "description": "12V/24V DC dual-mode heating and cooling parking air conditioner for trucks, RVs, vans and special vehicles. 2000W cooling capacity, heats cab from 5°C to 30°C in 30 minutes. GMCC twin-rotary compressor with R134A refrigerant. Year-round climate control without engine idling.",
-      "image": [
-        "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp"
-      ],
-      "sku": "V-TH1",
-      "mpn": "VTH1-12V24V",
-      "url": "https://cooldrivepro.com/products/heating-cooling-ac",
-      "brand": { "@type": "Brand", "name": "CoolDrivePro" },
-      "category": "Parking Air Conditioner",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://cooldrivepro.com/products/heating-cooling-ac",
-        "priceCurrency": "USD",
-        "priceValidUntil": "2026-12-31",
-        "availability": "https://schema.org/InStock",
-        "itemCondition": "https://schema.org/NewCondition",
-        "seller": { "@type": "Organization", "name": "CoolDrivePro" }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "12"
-      }
-    }
-    </script>
-
-    <!-- Product 4: Nano Max Light Truck Parking AC -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Nano Max Light Truck Parking Air Conditioner – 12V/24V DC",
-      "description": "7500-8500 BTU compact parking air conditioner for light trucks, pickups, vans, and mobile work vehicles. Dual-rotor BLDC compressor, 12V/24V DC auto-switching, low-profile 165mm design. Built for US light truck market.",
-      "image": [
-        "https://cooldrivepro.com/images/products/nano-max-01.webp",
-        "https://cooldrivepro.com/images/products/nano-max-02.webp"
-      ],
-      "sku": "NANO-MAX",
-      "mpn": "NANOMAX-12V24V",
-      "url": "https://cooldrivepro.com/products/nano-max",
-      "brand": { "@type": "Brand", "name": "CoolDrivePro" },
-      "category": "Parking Air Conditioner",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://cooldrivepro.com/products/nano-max",
-        "price": "1599.00",
-        "priceCurrency": "USD",
-        "priceValidUntil": "2026-12-31",
-        "availability": "https://schema.org/InStock",
-        "itemCondition": "https://schema.org/NewCondition",
-        "seller": { "@type": "Organization", "name": "CoolDrivePro" },
-        "shippingDetails": {
-          "@type": "OfferShippingDetails",
-          "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "USD" },
-          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" },
-          "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 3, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" } }
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": "3"
-      }
-    }
-    </script>
-
-    <!-- ItemList: Product Catalog -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "name": "CoolDrivePro Parking Air Conditioner Product Catalog",
-      "description": "Complete lineup of 12V and 24V DC parking air conditioners by CoolDrivePro for trucks, RVs, vans, and off-grid vehicles.",
-      "url": "https://cooldrivepro.com",
-      "numberOfItems": 4,
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "VS02 PRO – 12,000 BTU Top-Mounted Parking AC",
-          "url": "https://cooldrivepro.com/products/top-mounted-ac",
-          "description": "Best-selling 12V/24V DC top-mounted parking air conditioner for RVs, semi trucks, vans and campers. 12,000 BTU cooling, BLDC compressor, 45 dB quiet operation."
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "VX3000SP – 12,000 BTU Mini Split Parking AC",
-          "url": "https://cooldrivepro.com/products/mini-split-ac",
-          "description": "Premium 12V DC mini split parking air conditioner for semi truck sleeper cabs and large RVs. 12,000 BTU, 40 dB ultra-quiet indoor unit, ductless design."
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "V-TH1 – Heating & Cooling Parking AC",
-          "url": "https://cooldrivepro.com/products/heating-cooling-ac",
-          "description": "Dual-mode 12V/24V DC heating and cooling parking air conditioner. 2000W cooling, heats 5°C to 30°C in 30 minutes. GMCC twin-rotary compressor. Year-round comfort."
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Nano Max – 7,500-8,500 BTU Light Truck Parking AC",
-          "url": "https://cooldrivepro.com/products/nano-max",
-          "description": "Compact 12V/24V DC parking air conditioner for light trucks, pickups, and vans. Dual-rotor BLDC compressor, low-profile 165mm design, built for US light truck market."
-        }
-      ]
-    }
-    </script>
-
-    <!-- DefinedTermSet: Industry Glossary (GEO Signal) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -321,96 +268,20 @@
     }
     </script>
 
-    <!-- FAQ Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is a parking air conditioner?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A parking air conditioner (also called parking AC or no-idle AC) is a battery-powered DC air conditioning unit designed to cool truck cabs, RVs, and vans when the engine is off. It runs on 12V or 24V DC power from the vehicle battery, eliminating the need to idle the engine for cooling."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long can a 12V parking air conditioner run on battery?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A 12V parking air conditioner can run approximately 8 hours on a 480Ah battery bank, or up to 10 hours with a 600Ah battery. Runtime depends on ambient temperature, battery capacity, and cooling load."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between a parking AC and a regular RV air conditioner?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A parking air conditioner runs on 12V or 24V DC battery power without needing shore power or a generator. Regular RV air conditioners typically require 110V AC power. Parking ACs are ideal for off-grid camping, truck stops, and anywhere without electrical hookups."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can a parking air conditioner work for semi trucks?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Our 12V and 24V parking air conditioners are specifically designed for semi truck cabs. They provide no-idle cooling during rest periods, helping truck drivers comply with anti-idling regulations while staying comfortable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does a parking air conditioner damage the battery?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our parking air conditioners feature built-in undervoltage protection (8–11V threshold) that automatically shuts off the unit before the battery is drained to a harmful level, protecting your vehicle battery from damage."
-          }
-        }
-      ]
-    }
-    </script>
-
-    <!-- BreadcrumbList -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://cooldrivepro.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Products",
-          "item": "https://cooldrivepro.com/products"
-        }
-      ]
-    }
-    </script>
-
     <!-- ===== CRITICAL FONT PRELOADS (eliminate CSS→woff2 chain) ===== -->
     <!-- Preload the 2 most critical fonts to flatten the network dependency tree -->
     <!-- Montserrat 700 (hero title, nav) and Inter 400 (body text) -->
     <!-- Note: These paths use hashed filenames from the build; Vite will resolve them -->
 
-    <!-- ===== HERO IMAGE PRELOAD ===== -->
-    <!-- Responsive hero image preload: mobile gets 20KB, desktop gets 88KB -->
-    <link rel="preload" as="image" type="image/webp" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-640_fe5499d6.webp" media="(max-width: 640px)" fetchpriority="high" />
-    <link rel="preload" as="image" type="image/webp" href="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp" media="(min-width: 641px)" fetchpriority="high" />
+    <!-- ===== FEED DISCOVERY ===== -->
+    <link rel="alternate" type="application/rss+xml" title="CoolDrivePro Blog (RSS)" href="https://cooldrivepro.com/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="CoolDrivePro Blog (Atom)" href="https://cooldrivepro.com/atom.xml" />
+
   </head>
 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script
-      defer
-      src="%VITE_ANALYTICS_ENDPOINT%/umami"
-      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6575db15d9774daa8fac892abe1f256a"}'></script><!-- End Cloudflare Web Analytics -->
   </body>
 

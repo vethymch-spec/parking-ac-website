@@ -7,7 +7,7 @@ const BLOG_LOCALES_DIR = path.join(BLOG_DIR, "locales");
 const LIST_PATH = path.join(BLOG_DIR, "list.json");
 const MANIFEST_PATH = path.join(BLOG_DIR, "manifest.json");
 const LOCALE_AVAILABILITY_PATH = path.join(BLOG_DIR, "locale-availability.json");
-const EXCLUDED_BLOG_FILES = new Set(["list.json", "manifest.json", "locale-availability.json"]);
+const EXCLUDED_BLOG_FILES = new Set(["list.json", "manifest.json", "locale-availability.json", "related-posts.json"]);
 
 function isRecord(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -177,7 +177,7 @@ async function main() {
 
       const localeDir = path.join(BLOG_LOCALES_DIR, localeEntry.name);
       const localeFiles = (await fs.readdir(localeDir))
-        .filter((file) => file.endsWith(".json") && file !== "list.json" && file !== "manifest.json")
+        .filter((file) => file.endsWith(".json") && !EXCLUDED_BLOG_FILES.has(file))
         .sort();
 
       if (localeFiles.length > 0) {

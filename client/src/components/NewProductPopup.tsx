@@ -8,7 +8,7 @@ import { Link } from "wouter";
 
 const STORAGE_KEY = "vth1_popup_dismissed";
 
-const IMG_OUTDOOR = "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp";
+const IMG_OUTDOOR = "/images/products/vth1-outdoor-top.webp";
 
 export default function NewProductPopup() {
   const [visible, setVisible] = useState(false);
@@ -16,6 +16,29 @@ export default function NewProductPopup() {
   useEffect(() => {
     // Show popup after a short delay if not already dismissed this session
     if (sessionStorage.getItem(STORAGE_KEY)) return;
+
+    // Suppress popup for paid-ad traffic (Google Ads / paid social) so the
+    // ad-click visitor sees the conversion path instead of an interstitial.
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const isPaidTraffic =
+        params.has("gclid") ||
+        params.has("gbraid") ||
+        params.has("wbraid") ||
+        params.has("fbclid") ||
+        params.has("msclkid") ||
+        params.get("utm_source")?.toLowerCase() === "google" ||
+        params.get("utm_medium")?.toLowerCase() === "cpc" ||
+        params.get("utm_medium")?.toLowerCase() === "paid" ||
+        params.has("nopopup") ||
+        document.referrer.includes("googleadservices.com") ||
+        document.referrer.includes("doubleclick.net");
+      if (isPaidTraffic) {
+        sessionStorage.setItem(STORAGE_KEY, "1");
+        return;
+      }
+    } catch {}
+
     const timer = setTimeout(() => setVisible(true), 3500);
     return () => clearTimeout(timer);
   }, []);
@@ -109,7 +132,7 @@ export default function NewProductPopup() {
           {/* CTA */}
           <div className="flex gap-3">
             <Link
-              href="/products/heating-cooling-ac"
+              href="/products/heating-cooling-ac/"
               onClick={dismiss}
               className="flex-1 py-2.5 rounded-xl font-bold text-white text-sm text-center transition-all hover:scale-[1.02] active:scale-[0.98]"
               style={{

@@ -34,10 +34,10 @@
     "supportAvailability": "지원 시간: 태평양 시간 오전 11시~오후 9시, 1~12시간 이내에 답변드립니다."
   },
   "hero": {
-    "title": "오프그리드 생활과 모바일 쾌적함을 위한 주차 에어컨",
-    "subtitle": "세미 트럭, RV, 밴, 캠핑카용 12V 및 24V DC 무아이들링 주차 에어컨 — 아이들링 없이 시원함",
-    "ctaPrimary": "제품 쇼핑",
-    "ctaSecondary": "더 알아보기",
+    "title": "트럭, RV, 밴 및 차량용 12V/24V 주차 에어컨",
+    "subtitle": "CoolDrivePro은 B2B 가격, 미국 기반 보증 지원 및 부속품 안내를 통해 세미 트럭, RV, 밴, 캠핑카, 차량, 딜러 및 설치업체를 위한 12V/24V DC 주차 에어컨 및 공회전 없는 냉각 시스템을 구축합니다.",
+    "ctaPrimary": "피팅 추천 받기",
+    "ctaSecondary": "딜러 견적 요청",
     "badge": "신제품 출시",
     "trustedBy": "전 세계 10,000명 이상의 운전자가 신뢰"
   },
@@ -48,16 +48,6 @@
     "description": "세미 트럭, RV, 밴, 캠핑카용 배터리 구동 주차 에어컨. 아이들링 없이 시원함 — 연료 절약, 배출 감소, 쾌적함 유지.",
     "viewDetails": "지금 쇼핑",
     "addToCart": "장바구니에 담기",
-    "specs": "사양",
-    "features": "제품 특징",
-    "reviews": "고객 리뷰",
-    "warranty": "보증",
-    "freeShipping": "묶음 배송",
-    "support": "24/7 지원",
-    "learnMore": "더 알아보기",
-    "cooling": "냉방",
-    "heating": "난방",
-    "heatingCooling": "냉난방",
     "specs": {
       "coolingCapacity": "냉방 용량",
       "heatingCapacity": "난방 용량",
@@ -71,6 +61,15 @@
       "heatingSpeed": "난방 속도",
       "airOutput": "풍량"
     },
+    "features": "제품 특징",
+    "reviews": "고객 리뷰",
+    "warranty": "보증",
+    "freeShipping": "인보이스 지원",
+    "support": "24/7 지원",
+    "learnMore": "더 알아보기",
+    "cooling": "냉방",
+    "heating": "난방",
+    "heatingCooling": "냉난방",
     "topMounted": {
       "title": "12000 BTU 루프탑 주차 에어컨",
       "subtitle": "12V/24V DC 무아이들링 RV 및 트럭 에어컨",
@@ -81,8 +80,8 @@
       "imageAlt": "10000 BTU 루프탑 주차 에어컨 분해 도 — 12V/24V DC 무아이들링 RV 트럭 에어컨"
     },
     "miniSplit": {
-      "title": "12000 BTU 미니 분할식 주차 에어컨",
-      "subtitle": "세미 트럭 및 RV용 12V DC 무아이들링 에어컨",
+      "title": "세미 슬리퍼 캡 및 RV용 12V/24V 미니 분할 주차 AC",
+      "subtitle": "CoolDrivePro VX3000SP는 세미 슬리퍼 캡, RV, 밴 및 캠핑카에 12,000BTU/h 무공회전 냉각 기능을 제공하는 12V/24V DC 미니 분할 주차 에어컨입니다.실내 증발기는 GMCC 트윈 로터리 인버터 압축기를 사용하여 32dB 이하로 작동하므로 운전자는 엔진을 공회전시키지 않고도 주차된 밤 동안 잠을 잘 수 있습니다.",
       "description": "세미 트럭 캡, RV, 화물 밴을 위해 설계된 대용량 12V DC 미니 분할식 주차 에어컨. 12000 BTU 무아이들링 냉방 능력으로 이 덕트리스 주차 에어컨은 차량 배터리에서 직접 작동 — 발전기나 상륙 전원이 필요 없습니다. 수평 루프탑 설치로 대부분의 트럭과 캠퍼에 적합합니다.",
       "btu": "12,000 BTU",
       "voltage": "12V DC",
@@ -97,8 +96,8 @@
       "imageAlt": "RV 및 세미 트럭용 65000 BTU 즉석식 온수기 — 오프그리드 온수"
     },
     "heatingCoolingAC": {
-      "title": "V-TH1 냉난방 주차 에어컨",
-      "subtitle": "12V/24V DC 듀얼 모드 로터 에어컨 — 1년 낂쾌적함",
+      "title": "트럭 및 RV용 12V/24V 난방 및 냉방 주차 AC",
+      "subtitle": "CoolDrivePro V-TH1은 세미 트럭, RV, 밴 및 특수 차량에 2,000W의 냉난방 기능을 제공하는 12V/24V DC 히트펌프 주차 에어컨입니다.이 제품은 R134a 냉매와 함께 GMCC 트윈 로터리 압축기를 사용하며 약 30분 만에 운전실 온도를 5°C에서 30°C로 올릴 수 있습니다. 엔진 공회전이나 해안 전력이 필요하지 않습니다.",
       "description": "CoolDrivePro의 최초 듀얼 모드 주차 에어컨. V-TH1은 여름철 최대 2,000W 냉방을 제공하고 겨울철에는 30분 이내에 캡을 5°C에서 30°C까지 가열합니다. GMCC 이중 로터리 컴프레서와 R134A 냉매를 사용하는 이 12V/24V DC 로터 에어컨은 트럭, RV, 밴, 특수 차량에 1년 낂쾌적함을 제공 — 엔진 아이들링이 필요 없습니다.",
       "imageAlt": "V-TH1 냉난방 주차 에어컨 — 12V/24V DC 듀얼 모드 로터 에어컨"
     },
@@ -108,15 +107,15 @@
       "specifications": "사양",
       "reviews": "고객 리뷰",
       "faq": "자주 묻는 질문",
-      "freeShipping": "묶음 배송",
-      "warranty": "2년 보증",
+      "freeShipping": "인보이스 지원",
+      "warranty": "1년 보증",
       "returns": "30일 반품",
       "inStock": "재고 있음",
       "outOfStock": "재고 없음",
       "quantity": "수량",
       "shipping": "배송",
-      "shippingDesc": "미국 본토 $500 이상 주문 시 묶음 배송. 3-5 영업일 배달.",
-      "warrantyDesc": "재료 및 공정 결함을 커버하는 2년 제조업체 보증.",
+      "shippingDesc": "인보이스 확인 후 배송을 조율합니다. 배송 일정은 목적지와 주문 세부 정보에 따라 달라집니다.",
+      "warrantyDesc": "재료 및 기술 결함에 대해 1년 제조업체 보증이 제공됩니다.",
       "returnsDesc": "30일 간편 반품 정책. 만족하지 못하면 전액 환불.",
       "techSpecs": "기술 사양",
       "reviewsTitle": "고객들의 말씀",
@@ -205,7 +204,7 @@
   "shopWithUs": {
     "title": "안심하고 쇼핑",
     "warranty": {
-      "title": "2년 보증",
+      "title": "1년 보증",
       "description": "모든 부품 및 인건 비용 완전 커버"
     },
     "returns": {
@@ -213,8 +212,8 @@
       "description": "만족하지 못하면 이유 없이 반품"
     },
     "shipping": {
-      "title": "묶음 배송",
-      "description": "미국 본토 $500 이상 주문 시"
+      "title": "차량 적합성 지원",
+      "description": "인보이스 발행 전에 차량 호환성을 확인합니다."
     }
   },
   "blog": {
@@ -242,7 +241,7 @@
       "notFound": "기사를 찾을 수 없음",
       "backToBlog": "← 블로그로 돌아가기",
       "readyToExperience": "무아이들링 냉방을 경험할 준비가 되셨나요?",
-      "exploreOur": "우리의 12V/24V 주차 에어컨을 둘러보세요 — 미국 주문 모두 묶음 배송.",
+      "exploreOur": "12V/24V 주차 에어컨을 확인하고 차량 적합성 기반 인보이스 견적을 요청하세요.",
       "shopTopMounted": "VS02 PRO 루프탑 에어컨 쇼핑",
       "shopMiniSplit": "VX3000SP 미니 분할식 에어컨 쇼핑"
     }
@@ -357,7 +356,22 @@
     "readyToStop": "아이들링을 멈출 준비가 되셨나요?",
     "joinDrivers": "CoolDrivePro 주차 에어컨으로 전환한 전 세계 10,000명 이상의 운전자들에 합류하세요.",
     "shopTop": "루프탑 에어컨 쇼핑",
-    "shopMini": "미니 분할식 에어컨 쇼핑"
+    "shopMini": "미니 분할식 에어컨 쇼핑",
+    "proofTitle": "Proof you can verify",
+    "proofHeading": "Inside the factory, on the certificates, on the show floor",
+    "proofDesc": "CoolDrivePro is built and shipped by Qingdao Vethy Industrial Co., Ltd. Browse the workshop, certifications and trade-show presence behind every 12V/24V parking AC.",
+    "factoryCard": "Factory tour",
+    "factoryCardDesc": "In-house R&D, SMT and assembly lines with 100% pre-shipment QC for every parking AC unit.",
+    "factoryAlt": "CoolDrivePro / Vethy parking air conditioner manufacturing workshop",
+    "tourFactory": "Tour the factory",
+    "certCard": "Certifications & IP",
+    "certCardDesc": "ISO 9001:2015, CNAS-accredited lab, registered trademark and granted design patent.",
+    "certAlt": "CoolDrivePro ISO 9001 quality certificate and design patent",
+    "viewCerts": "View certificates",
+    "expoCard": "Trade shows",
+    "expoCardDesc": "Live booth demos and distributor meetings across North America, Europe, ANZ and the Middle East.",
+    "expoAlt": "CoolDrivePro parking AC trade show booth and exhibitions",
+    "seeExpos": "See exhibitions"
   },
   "seo": {
     "homeTitle": "주차 에어컨 | 12V 및 24V DC 무아이들링 트럭 및 RV 에어컨 | CoolDrivePro",

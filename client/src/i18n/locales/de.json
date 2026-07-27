@@ -2,9 +2,9 @@
   "nav": {
     "home": "Startseite",
     "products": "Produkte",
-    "topMountedAC": "Dachklimaanlage",
-    "miniSplitAC": "Mini-Split-Klimaanlage",
-    "heatingCoolingAC": "Heiz- und Kühlanlage",
+    "topMountedAC": "Dach-Klima",
+    "miniSplitAC": "Mini-Split-Klima",
+    "heatingCoolingAC": "Heiz-/Kühlklima",
     "allProducts": "Alle Produkte",
     "forum": "Forum",
     "blog": "Blog",
@@ -34,10 +34,10 @@
     "supportAvailability": "Support-Verfügbarkeit: 11:00 - 21:00 Uhr Pacific Time (PT), wir antworten innerhalb von 1-12 Stunden."
   },
   "hero": {
-    "title": "Parkklimaanlage für Off-Grid-Leben und mobilen Komfort",
-    "subtitle": "12V und 24V DC Leerlauf-freie Parkklimaanlage für Sattelschlepper, Wohnmobile, Vans und Camper — Kühlung ohne Leerlauf",
-    "ctaPrimary": "Produkte kaufen",
-    "ctaSecondary": "Mehr erfahren",
+    "title": "12V/24V-Parkklimaanlagen für LKWs, Wohnmobile, Transporter und Flotten",
+    "subtitle": "CoolDrivePro baut Parkklimaanlagen 12V/24V DC und Leerlaufkühlsysteme für Sattelschlepper, RV, Transporter, Wohnmobile, Flotten, Händler und Installateure – mit B2B-Preisen, Garantieunterstützung in den USA und Einbauberatung.",
+    "ctaPrimary": "Holen Sie sich eine Einbauempfehlung",
+    "ctaSecondary": "Fordern Sie ein Händlerangebot an",
     "badge": "Neu eingetroffen",
     "trustedBy": "Von über 10.000 Fahrern weltweit vertraut"
   },
@@ -48,16 +48,6 @@
     "description": "Batteriebetriebene Parkklimaanlagen für Sattelschlepper, Wohnmobile, Vans und Camper. Kühlung ohne Leerlauf — Kraftstoff sparen, Emissionen reduzieren, Komfort bewahren.",
     "viewDetails": "Jetzt kaufen",
     "addToCart": "In den Warenkorb",
-    "specs": "Spezifikationen",
-    "features": "Produktmerkmale",
-    "reviews": "Kundenbewertungen",
-    "warranty": "Garantie",
-    "freeShipping": "Kostenloser Versand",
-    "support": "24/7 Support",
-    "learnMore": "Mehr erfahren",
-    "cooling": "Kühlung",
-    "heating": "Heizung",
-    "heatingCooling": "Heizung und Kühlung",
     "specs": {
       "coolingCapacity": "Kühlleistung",
       "heatingCapacity": "Heizleistung",
@@ -71,6 +61,15 @@
       "heatingSpeed": "Heizgeschwindigkeit",
       "airOutput": "Luftausstoß"
     },
+    "features": "Produktmerkmale",
+    "reviews": "Kundenbewertungen",
+    "warranty": "Garantie",
+    "freeShipping": "Rechnungsservice",
+    "support": "24/7 Support",
+    "learnMore": "Mehr erfahren",
+    "cooling": "Kühlung",
+    "heating": "Heizung",
+    "heatingCooling": "Heizung und Kühlung",
     "topMounted": {
       "title": "12000 BTU Dach-Parkklimaanlage",
       "subtitle": "12V/24V DC Leerlauf-freie Wohnmobil- und LKW-Klimaanlage",
@@ -81,8 +80,8 @@
       "imageAlt": "10000 BTU Dach-Parkklimaanlage Explosionszeichnung – 12V/24V DC Leerlauf-freie Wohnmobil-LKW-Klimaanlage"
     },
     "miniSplit": {
-      "title": "12000 BTU Mini-Split-Parkklimaanlage",
-      "subtitle": "12V DC Leerlauf-freie Klimaanlage für Sattelschlepper und Wohnmobile",
+      "title": "12V/24V Mini-Split-Parkplatz-Klimaanlage für Halbschlafkabinen und Wohnmobile",
+      "subtitle": "Die CoolDrivePro VX3000SP ist eine Mini-Split-Parkklimaanlage mit 12 V/24 V DC, die eine Leerlaufkühlung von 12.000 BTU/h für Halbschlafkabinen, Wohnmobile, Transporter und Wohnmobile liefert.Der Innenverdampfer läuft mit einem GMCC-Twin-Rotations-Inverter-Kompressor mit ≤32 dB, sodass Fahrer eine geparkte Nacht durchschlafen können, ohne den Motor im Leerlauf laufen zu lassen.",
       "description": "Hochleistungs-12V DC Mini-Split-Parkklimaanlage für Sattelschlepper-Fahrerhäuser, Wohnmobile und Transporter. Mit 12000 BTU Leerlauf-freier Kühlleistung läuft diese kanalfreie Parkklimaanlage direkt von Ihrer Fahrzeugbatterie — kein Generator, keine Landstromversorgung nötig. Horizontale Dachinstallation passt für die meisten LKW und Wohnmobile.",
       "btu": "12.000 BTU",
       "voltage": "12V DC",
@@ -97,8 +96,8 @@
       "imageAlt": "65000 BTU Durchlauferhitzer für Wohnmobile und Sattelschlepper – Off-Grid-Warmwasser"
     },
     "heatingCoolingAC": {
-      "title": "V-TH1 Heiz- und Kühl-Parkklimaanlage",
-      "subtitle": "12V/24V DC Dual-Modus-Rotationsklimaanlage — Ganzjähriger Komfort",
+      "title": "12V/24V-Parkplatz-Klimaanlage zum Heizen und Kühlen für LKWs und Wohnmobile",
+      "subtitle": "Die CoolDrivePro V-TH1 ist eine 12 V/24 V DC-Wärmepumpen-Parkklimaanlage, die 2.000 W Kühlung und Heizung für Sattelschlepper, Wohnmobile, Transporter und Spezialfahrzeuge liefert.Es verwendet einen GMCC-Doppelrotationskompressor mit R134a-Kältemittel und kann die Kabinentemperatur in etwa 30 Minuten von 5 °C auf 30 °C erhöhen – kein Motor im Leerlauf und kein Landstrom erforderlich.",
       "description": "Die erste Dual-Modus-Parkklimaanlage von CoolDrivePro. Die V-TH1 bietet bis zu 2.000W Kühlung im Sommer und heizt Ihr Fahrerhaus im Winter in nur 30 Minuten von 5°C auf 30°C. Mit GMCC-Doppelrotationskompressor und R134A-Kältemittel bietet diese 12V/24V DC Rotationsklimaanlage ganzjährige Klimakontrolle für LKWs, Wohnmobile, Vans und Spezialfahrzeuge — ohne Leerlauf des Motors.",
       "imageAlt": "V-TH1 Heiz- und Kühl-Parkklimaanlage – 12V/24V DC Dual-Modus-Rotationsklimaanlage"
     },
@@ -108,15 +107,15 @@
       "specifications": "Spezifikationen",
       "reviews": "Kundenbewertungen",
       "faq": "Häufig gestellte Fragen",
-      "freeShipping": "Kostenloser Versand",
-      "warranty": "2 Jahre Garantie",
+      "freeShipping": "Rechnungsservice",
+      "warranty": "1 Jahr Garantie",
       "returns": "30 Tage Rückgabe",
       "inStock": "Auf Lager",
       "outOfStock": "Nicht auf Lager",
       "quantity": "Menge",
       "shipping": "Versand",
-      "shippingDesc": "Kostenloser Versand bei Bestellungen über 500 $ innerhalb der USA. Lieferung in 3-5 Werktagen.",
-      "warrantyDesc": "2 Jahre Herstellergarantie für Material- und Verarbeitungsfehler.",
+      "shippingDesc": "Der Versand wird nach Rechnungsbestätigung koordiniert. Lieferzeiten hängen von Zielort und Bestelldetails ab.",
+      "warrantyDesc": "1 Jahr Herstellergarantie auf Material- und Verarbeitungsfehler.",
       "returnsDesc": "30 Tage einfache Rückgaberegelung. Volle Rückerstattung bei Unzufriedenheit.",
       "techSpecs": "Technische Spezifikationen",
       "reviewsTitle": "Was unsere Kunden sagen",
@@ -205,7 +204,7 @@
   "shopWithUs": {
     "title": "Mit Vertrauen kaufen",
     "warranty": {
-      "title": "2 Jahre Garantie",
+      "title": "1 Jahr Garantie",
       "description": "Vollständige Abdeckung aller Teile und Arbeitskosten"
     },
     "returns": {
@@ -213,8 +212,8 @@
       "description": "Einfache Rückgabe bei Unzufriedenheit"
     },
     "shipping": {
-      "title": "Kostenloser Versand",
-      "description": "Kostenlos bei Bestellungen über 500 $ innerhalb der USA"
+      "title": "Fitment-Support",
+      "description": "Fahrzeugkompatibilität vor der Rechnung bestätigen."
     }
   },
   "blog": {
@@ -242,7 +241,7 @@
       "notFound": "Artikel nicht gefunden",
       "backToBlog": "← Zurück zum Blog",
       "readyToExperience": "Bereit für Leerlauf-freie Kühlung?",
-      "exploreOur": "Entdecken Sie unsere 12V/24V Parkklimaanlagen — Kostenloser Versand für alle US-Bestellungen.",
+      "exploreOur": "Entdecken Sie unsere 12V/24V Parkklimaanlagen und fordern Sie eine fahrzeugbezogene Rechnung an.",
       "shopTopMounted": "VS02 PRO Dachklimaanlage kaufen",
       "shopMiniSplit": "VX3000SP Mini-Split-Klimaanlage kaufen"
     }
@@ -357,7 +356,22 @@
     "readyToStop": "Bereit, das Leerlaufen zu stoppen?",
     "joinDrivers": "Schließen Sie sich über 10.000 Fahrern weltweit an, die auf CoolDrivePro Parkklimaanlagen umgestiegen sind.",
     "shopTop": "Dachklimaanlage kaufen",
-    "shopMini": "Mini-Split-Klimaanlage kaufen"
+    "shopMini": "Mini-Split-Klimaanlage kaufen",
+    "proofTitle": "Proof you can verify",
+    "proofHeading": "Inside the factory, on the certificates, on the show floor",
+    "proofDesc": "CoolDrivePro is built and shipped by Qingdao Vethy Industrial Co., Ltd. Browse the workshop, certifications and trade-show presence behind every 12V/24V parking AC.",
+    "factoryCard": "Factory tour",
+    "factoryCardDesc": "In-house R&D, SMT and assembly lines with 100% pre-shipment QC for every parking AC unit.",
+    "factoryAlt": "CoolDrivePro / Vethy parking air conditioner manufacturing workshop",
+    "tourFactory": "Tour the factory",
+    "certCard": "Certifications & IP",
+    "certCardDesc": "ISO 9001:2015, CNAS-accredited lab, registered trademark and granted design patent.",
+    "certAlt": "CoolDrivePro ISO 9001 quality certificate and design patent",
+    "viewCerts": "View certificates",
+    "expoCard": "Trade shows",
+    "expoCardDesc": "Live booth demos and distributor meetings across North America, Europe, ANZ and the Middle East.",
+    "expoAlt": "CoolDrivePro parking AC trade show booth and exhibitions",
+    "seeExpos": "See exhibitions"
   },
   "seo": {
     "homeTitle": "Parkklimaanlage | 12V und 24V DC Leerlauf-freie LKW- und Wohnmobil-Klimaanlage | CoolDrivePro",

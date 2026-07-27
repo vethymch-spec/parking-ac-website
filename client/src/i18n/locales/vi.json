@@ -2,9 +2,9 @@
   "nav": {
     "home": "Trang chủ",
     "products": "Sản phẩm",
-    "topMountedAC": "Điều hòa gắn mái",
-    "miniSplitAC": "Điều hòa mini split",
-    "heatingCoolingAC": "Điều hòa nóng/lạnh",
+    "topMountedAC": "AC gắn mái",
+    "miniSplitAC": "Mini split",
+    "heatingCoolingAC": "AC nóng/lạnh",
     "allProducts": "Tất cả sản phẩm",
     "forum": "Diễn đàn",
     "blog": "Blog",
@@ -18,10 +18,10 @@
     "logout": "Đăng xuất"
   },
   "hero": {
-    "title": "Điều hòa đỗ xe cho cuộc sống off-grid và thoải mái di động",
-    "subtitle": "Điều hòa 12V và 24V DC không nổ máy cho xe tải đầu kéo, RV, xe van và xe cắm trại — Mát mẻ không cần nổ máy",
-    "ctaPrimary": "Mua sản phẩm",
-    "ctaSecondary": "Tìm hiểu thêm",
+    "title": "Máy điều hòa không khí đỗ xe 12V/24V cho xe tải, RV, xe tải và đội xe",
+    "subtitle": "CoolDrivePro chế tạo máy điều hòa không khí đỗ xe 12V/24V DC và hệ thống làm mát không tải cho xe bán tải, RV, xe tải, xe cắm trại, đội xe, đại lý và người lắp đặt — với mức giá B2B, hỗ trợ bảo hành và hướng dẫn lắp đặt tại Hoa Kỳ.",
+    "ctaPrimary": "Nhận đề xuất đồ đạc",
+    "ctaSecondary": "Yêu cầu báo giá đại lý",
     "badge": "Hàng mới về",
     "trustedBy": "Được tin cậy bởi hơn 10.000 tài xế trên toàn thế giới"
   },
@@ -36,7 +36,7 @@
     "features": "Tính năng",
     "reviews": "Đánh giá khách hàng",
     "warranty": "Bảo hành",
-    "freeShipping": "Miễn phí vận chuyển",
+    "freeShipping": "Hỗ trợ hóa đơn",
     "support": "Hỗ trợ 24/7",
     "topMounted": {
       "title": "Điều hòa gắn mái 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "Làm mát tới 80 feet vuông"
     },
     "miniSplit": {
-      "title": "Điều hòa mini split 12000 BTU",
-      "subtitle": "Điều hòa 12V DC không nổ máy cho xe tải đầu kéo và RV",
+      "title": "AC đỗ xe chia nhỏ 12V/24V cho xe taxi và xe RV",
+      "subtitle": "CoolDrivePro VX3000SP là máy điều hòa không khí đỗ xe mini 12V/24V DC cung cấp khả năng làm mát không tải 12.000 BTU/h cho xe taxi nửa giường nằm, xe RV, xe tải và xe cắm trại.Thiết bị bay hơi trong nhà chạy ở mức 32 dB sử dụng máy nén biến tần quay đôi GMCC, do đó người lái xe có thể ngủ qua đêm đỗ xe mà không cần để động cơ chạy không tải.",
       "btu": "12.000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 giờ",
@@ -59,14 +59,19 @@
       "specifications": "Thông số kỹ thuật",
       "reviews": "Đánh giá khách hàng",
       "faq": "Câu hỏi thường gặp",
-      "freeShipping": "Miễn phí vận chuyển",
-      "warranty": "Bảo hành 2 năm",
+      "freeShipping": "Hỗ trợ hóa đơn",
+      "warranty": "Bảo hành 1 năm",
       "returns": "Đổi trả 30 ngày",
       "inStock": "Còn hàng",
       "outOfStock": "Hết hàng",
       "quantity": "Số lượng",
       "techSpecs": "Thông số kỹ thuật",
-      "relatedProducts": "Có thể bạn cũng thích"
+      "relatedProducts": "Có thể bạn cũng thích",
+      "warrantyDesc": "Bảo hành 1 năm của nhà sản xuất bao gồm các lỗi về vật liệu và tay nghề."
+    },
+    "heatingCoolingAC": {
+      "title": "AC đỗ xe sưởi ấm và làm mát 12V/24V cho xe tải và RV",
+      "subtitle": "CoolDrivePro V-TH1 là máy điều hòa không khí đỗ xe bơm nhiệt 12V/24V DC cung cấp khả năng làm mát và sưởi ấm 2.000 W cho xe bán tải, xe RV, xe tải và các loại xe đặc biệt.Nó sử dụng máy nén quay đôi GMCC với chất làm lạnh R134a và có thể tăng nhiệt độ cabin từ 5°C lên 30°C trong khoảng 30 phút - không cần động cơ chạy không tải và không cần nguồn điện trên bờ."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "Hủy",
     "posting": "Đang đăng...",
     "model": "Mẫu"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "Bảo hành 1 năm"
+    }
   }
 }

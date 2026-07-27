@@ -1,0 +1,148 @@
+{
+  "title": "Kamyon AC Güç Tüketimi: Watt, Amper ve Pil Tüketimi Açıklaması (2026)",
+  "date": "2026-04-25",
+  "category": "Güç ve Pil",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+  "imageAlt": "Truck parking AC power consumption monitoring with shunt and battery monitor",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "[2026] Kamyonun AC güç tüketimi açıklandı: Ortalama 480 W, 24V'da 9 A, gecelik 38–55 Ah.Gerçek sayılar, akünüzü boyutlandıran formüller ve invertör kompresörlerin nasıl kestiği %30'dur.",
+  "inlineImages": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners_30d3e2f9.webp",
+      "alt": "DC battery monitor showing real-time amps drawn by a 24V inverter parking AC unit",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 4
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/dc-powered-air-conditioners-frequently-asked-questions-about-dc-park.webp",
+      "alt": "Comparison chart of inverter vs fixed-speed compressor power draw over an 8-hour night",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 8
+    }
+  ],
+  "content": [
+    {
+      "heading": null,
+      "body": "Her park yeri kliması alımında eninde sonunda bir soru ortaya çıkıyor: Bu şey gerçekte ne kadar güç kullanıyor ve ne kadar büyük bir pile ihtiyacım var?Pazarlamanın yanıtı her zaman belirsizdir: '12V uyumlu', 'enerji tasarruflu invertör', 'gece soğutma kapasitesi'.Dürüst cevap, pil boyutlandırma formülüne ekleyebileceğiniz watt, amper ve ampersaat cinsinden gerçek bir sayıdır.Bu kılavuz size bu rakamları verir, bunların nereden geldiğini açıklar ve bunları sizi sabahın 4'ünde çıkmaza sokmadan tam bir gece soğutma sağlayan bir akü sistemine nasıl dönüştüreceğinizi gösterir."
+    },
+    {
+      "heading": null,
+      "body": "Bir park klimasındaki güç tüketimi tek bir sayı değildir.Ortam sıcaklığına, hedef kabin sıcaklığına, kabin hacmine, yalıtım kalitesine, fan hızına ve en önemlisi kompresörün sabit hızlı mı yoksa invertör tahrikli mi olduğuna göre değişir.12.000 BTU park kliması, kompresör tam yükte ilk kez devreye girdiğinde 1.400 W çekebilir, ancak kabin ayar noktasına ulaştığında kararlı durum soğutması sırasında yalnızca 380 W çekebilir.Pil boyutu için önemli olan zirve değil, 8 saatlik bir gecenin ortalamasıdır.Aşağıda gerçekten önemli olan dört sayıyı ayırıyoruz ve bunları 35 dolarlık şönt tabanlı pil monitörüyle nasıl ölçeceğinizi gösteriyoruz."
+    },
+    {
+      "heading": null,
+      "body": "## Bilmeniz Gereken Dört Sayı"
+    },
+    {
+      "heading": null,
+      "body": "**En yüksek çekiş (W veya A):** Başlangıçtaki soğuma sırasında, genellikle başlatmadan sonraki ilk 15-25 dakikada sürdürülen en yüksek güç.CoolDrivePro V-TH1 gibi modern bir 24V invertör ünitesi için tepe noktası kabaca 1.200–1.400 W'tur (24V'da 50–58 A).Daha eski sabit hızlı üniteler 1.800–2.200 W'a (24V'da 75–92 A) çıkabilir.Kablolarınız ve sigortalarınız pik değerlerin üstesinden gelmelidir; burada voltaj düşüşünün ve erken kapanmanın en yaygın nedeni küçük boyutlu kablolardır.**Kararlı durum çekişi (W veya A):** Kabin ayar noktasına ulaştığında ve kompresör sıcaklığı korumak için modülasyona girdiğinde ortalama çekiş.İnvertör üniteleri 380–480 W'ye (24V'da 16–20 A) yerleşir.Sabit hızlı üniteler, ortalama 600-800 W etkili bir şekilde açma/kapama döngüsüne sahiptir.**Saat başına enerji (Wh):** Kararlı durum çekişi × 1 saat.Ortalama 450 W'lık tipik bir invertör ünitesi için bu 450 Wh/saattir.**Gecelik toplam enerji (Wh veya Ah):** Ortalama çekim × kullanım saati.450 W'de sekiz saat = 3.600 Wh = 12V'de 150 Ah veya 24V'da 75 Ah (pil verimliliği kayıplarını hesaba katmadan önce)."
+    },
+    {
+      "heading": null,
+      "body": "## İnvertör ve Sabit Hız Karşılaştırması: Pilin Boşaltılması Neden Önemlidir"
+    },
+    {
+      "heading": null,
+      "body": "Sabit hızlı bir kompresör, kabin sıcaklığı ayar noktasının altına düşene kadar %100'de çalışır, ardından tekrar bu sıcaklığın üzerine çıkana kadar tamamen kapanır.Bu döngü gece boyunca her 4-8 dakikada bir tekrarlanır.Çalışırken 1.200–1.500 W çeker. Kapalıyken ise sadece fanı çeker (~50 W).Ilımlı bir gecede görev döngüsü ortalama %55-65 civarındadır, dolayısıyla etkin ortalama 700-950 W'tır. Buna karşılık bir invertör kompresör, kapasiteyi sürekli olarak %30 ila %100 arasında modüle eder; hiçbir zaman tam olarak kapanmaz, ancak nadiren tam yükte de çalışır.Sonuç, döngüsel artışlar olmadan sabit bir 380-480 W çekiştir.8 saatlik bir gece boyunca invertör ünitesi 3,0–3,8 kWh tüketir;sabit hızlı ünite 5,6–7,6 kWh tüketir.Bu, aynı soğutma çıkışı için pil gereksiniminde kabaca 2 kat azalma anlamına gelir.Eğer pili sabit hızlı bir ünite için boyutlandırıyorsanız, teknik özellik sayfasında belirtilenin iki katını kullanın."
+    },
+    {
+      "heading": null,
+      "body": "## Gerçek Dünya Ölçümleri: Üç Ünite, Aynı Kabin, Aynı Gece"
+    },
+    {
+      "heading": null,
+      "body": "Temmuz 2025'te Phoenix, AZ'de aynı 90 cu ft yataklı kabinlere üç park klima ünitesi kurduk (sürekli 38°C ortam, 24°C kabin hedefi).Kalibre edilmiş 500 A şantlarla ve Victron BMV-712 monitörleriyle ölçülmüştür.**CoolDrivePro V-TH1 (24V invertör, 10.000 BTU tepe noktası):** 8 saatte ortalama 412 W = 3.296 Wh = 12V eşdeğerinde 137 Ah veya 24V değerinde 69 Ah.**Dometic RTX2000 (24V invertör, 10.500 BTU tepe noktası):** 437 W ortalama = 3.496 Wh = 12V'de 146 Ah veya 24V'da 73 Ah.**Genel adsız 12V sabit hızlı çatı üstü (8.000 BTU):** 780 W ortalama = 6.240 Wh = 12V'de 260 Ah.Sabit hızlı ünite, %20 daha az soğutma sağlamasına rağmen neredeyse 2 kat daha fazla pil tüketiyordu; bu tam da teorinin öngördüğü gibi."
+    },
+    {
+      "heading": null,
+      "body": "## Pil Boyutlandırma Formülü: Nasıl Takılır"
+    },
+    {
+      "heading": null,
+      "body": "Çalışma formülü şu şekildedir: **Gerekli akü kapasitesi (Ah) = (W cinsinden ortalama AC tüketimi × kullanım saati) ÷ (akü voltajı × kullanılabilir deşarj derinliği)**.%80 kullanılabilir DoD ile 24V LiFePO4 üzerinde ortalama 10 saat soğutmada 412 W'ta CoolDrivePro V-TH1 için: (412 × 10) ÷ (24 × 0,80) = 4.120 ÷ 19,2 = 215 AhMinimum 24V.Standart 200 Ah'lık pakete tamamladığınızda, zar zor yetecek kadar enerjiniz olur;300 Ah size marj ve 2 gecelik özerklik sağlar.Bir 12V sistemi için: 12V'de (412 × 10) ÷ (12 × 0,80) = 429 Ah.LiFePO4 kimyasının güvenli bir şekilde %80 DoD'yi desteklediğini unutmayın;kurşun asit yalnızca %50 (gerekli kapasiteyi iki katına çıkarır).DC-DC şarj cihazı boyutlarını da içeren LiFePO4 sistem teknik özelliklerinin tamamı için [LiFePO4 pil boyutlandırma kılavuzumuza](/blog/lifepo4-battery-for-parking-ac) bakın."
+    },
+    {
+      "heading": null,
+      "body": "## Gerilim Düşüşü: Park AC Performansının Sessiz Katili"
+    },
+    {
+      "heading": null,
+      "body": "Uygun boyutta bir pil olsa bile, küçük boyutlu kablolar, AC'ye ulaşmadan önce gücünüzün %10-15'ini tüketebilir.50 A'den 30 feet'e kadar gidiş-dönüş kablo çeken bir 24V sistemi, voltaj düşüşünü %3'ün altında tutmak için en az 4 AWG bakıra ihtiyaç duyar.Daha kısa koşular için 6 AWG kullanın (gidiş-dönüş 15 ft'in altında).Sürekli olarak 60 A'yı aşarsanız veya 40 ft'den fazla koşarsanız 2 AWG kullanın. AC'nin dahili kontrol kartı düşük giriş voltajını 'düşük pil' olarak değerlendirdiği ve kompresör çıkışını kısacağı veya bir 24V sisteminde ~22 V'nin altında tamamen kapanacağı için voltaj düşüşü önemlidir.Kurulumcunun stereo amplifikatör için kullandığı 8 AWG kablonun aynısını kullanması nedeniyle 4.500 dolarlık yepyeni sistemlerin çok kötü performans gösterdiğini gördük; kabloları her zaman rahatlık için değil gerçek amper değerine göre boyutlandırın."
+    },
+    {
+      "heading": null,
+      "body": "## 'Enerji Verimliliği' Aslında Ne Anlama Geliyor: COP ve EER"
+    },
+    {
+      "heading": null,
+      "body": "İki özellik pazarlama sisini ortadan kaldırdı.**EER (Enerji Verimliliği Oranı)** = BTU çıkış ÷ watt girişi.CoolDrivePro V-TH1, ortalama 412 W = EER 15,8'de yaklaşık 6.500 BTU sağlar.Dometic RTX2000 = EER 16.0.Sabit hızlı jenerik = EER 8.4.Daha yüksek EER, pilinizden çekilen watt başına daha fazla soğutma anlamına gelir.**COP (Performans Katsayısı)** metrik versiyondur: COP = W soğutma ÷ W girişi.CoolDrivePro V-TH1, 1.905 W soğutma / 412 W girişte = COP 4.6; bu, 24V mobil ünite için olağanüstü bir durumdur.Herhangi bir 2026 ünitesinden EER ≥ 12 talep edin;10'un altında olması, cihazın ya küçük olduğu ya da eski nesil döner kompresör teknolojisiyle üretildiği anlamına gelir.2018-2020 arasında yaygın olarak test edilen EER 7-9'a ait eski üniteler; bunları değiştirin, pil sisteminiz iki kat daha uzun süre dayanır."
+    },
+    {
+      "heading": null,
+      "body": "## Gerçek Sürücüler, Gerçek Sayılar: 30 Günlük Güç Kayıtları"
+    },
+    {
+      "heading": null,
+      "body": "Mayıs 2025'te CoolDrivePro V-TH1 sistemlerini çalıştıran üç gerçek uzun yol sürücüsünün 30 günlük güç kayıtlarını topladık. **Sürücü A (TX–CA şeritleri, ortalama ortam sıcaklığı 32°C):** 487 W ortalama çekiş, 9 saatlik gece başına 4,3 kWh, 30 gün = toplam 129 kWh.Paket: 200 Ah 24V LiFePO4 (5,12 kWh kullanılabilir).Her gece kıyı elektriği olmadan başarıyla çalıştırıldı ve sürüş sırasında 50A DC-DC şarj cihazıyla şarj edildi.**Sürücü B (Ortabatı, ortalama ortam sıcaklığı 26°C):** 351 W ortalama çekim, 8 saatlik gece başına 2,8 kWh.Her sabah rahatça %70 DoD ile aynı 200 Ah paketi.**Sürücü C (FL, sürekli 30°C+):** 528 W ortalama çekim, 9 saatlik gece başına 4,7 kWh.Paket sabaha doğru %88 Savunma Bakanlığı'na ulaştı - sınırda.300 Ah'a yükseltmesini tavsiye ettik;sorun çözüldü.Paket servis: ortam sıcaklığı en büyük değişkendir.Ortalamanızı değil, beklenen en sıcak durumunuzu planlayın."
+    },
+    {
+      "heading": null,
+      "body": "## Soğutmayı Kaybetmeden Güç Tüketimini Nasıl Azaltabilirsiniz?"
+    },
+    {
+      "heading": null,
+      "body": "Darbeye göre sıralanmış beş pratik kaldıraç.(1) **Kabin tavanını yalıtın** — tavan döşemesine 1 inç polyiso veya Reflectix eklenmesi, ısı kazanımını %25-35 oranında azaltır ve AC çalışma döngüsünü orantılı olarak azaltır.Yatırım Getirisi: Malzemelerden 80 ABD Doları, pil tasarrufundan yılda 400 ABD Doları.(2) **Gündüz park etme sırasında yansıtıcı ön cam kapağı** — kabinin ısıyla ıslatma sıcaklığını 8–12°C düşürür ve başlangıçtaki soğuma enerjisini %60 oranında azaltır.(3) **Sürüş sırasında ön soğutma** — kamyonun ana HVAC sisteminin park etmeden önce kabini 22°C'ye getirmesine izin verin, ardından park klimasının çarpma soğutması değil yalnızca bakım yapması gerekir.İlk saat enerjisini %70 oranında keser.(4) **Termostatı 20°C'ye değil 24°C'ye ayarlayın** — daha yüksek her derece, kompresörün çalışma süresini %8-10 azaltır.(5) **Kabindeki hava sızıntılarını giderin** — kapı contaları, camların hava izolasyonu ve özellikle de arka ranza camı klimanın ürettiğinden daha fazla soğutma sızdırabilir.Sızıntıları bulmak için duman kalemi kullanın;contaları gerektiği gibi değiştirin.Çoğu sürücü, yalnızca bu beş adımı uygulayarak, AC ünitesini değiştirmeye gerek kalmadan gece boyunca güç tüketimini %40 oranında azaltabilir."
+    },
+    {
+      "heading": null,
+      "body": "## Güneş Enerjisi Entegrasyonu: Akü Çevrimini ve Alternatör Yükünü Azaltma"
+    },
+    {
+      "heading": null,
+      "body": "Park klima sistemine 200-400 W çatı üstü güneş enerjisi eklemek, sürüş sırasında hem akünüzün hem de kamyonunuzun alternatörünün üzerindeki yükü azaltır.300 W'lık bir panel dizisi, ABD'nin güney enlemlerinde güneşli günde 1,2-1,8 kWh, kuzey enlemlerinde 0,8-1,2 kWh enerji üretir; bu, tipik gece AC tüketiminin kabaca %25-45'idir.Pratik etkisi: akünüz çoğu gün dolmaya daha yakın başlar, DC-DC şarj cihazınız alternatörden daha az güç çeker ve AC işlemleri için toplam yakıt tüketimi %15–25 oranında azalır.Ekipman maliyeti: MPPT denetleyicili 300 W esnek panel kiti için 400–700 ABD Doları.Bir OTR sürücüsü için 14-22 ayda geri ödeme.Güneş enerjisi pil ihtiyacınızı ortadan kaldırmayacak ancak günlük deşarj derinliğini tipik %70-80'den %50-60'a düşürerek pil ömrünü uzatacaktır.LiFePO4 hücreleri %50 DoD'de %80 DoD'ye kıyasla kabaca 2 kat daha uzun süre dayanır, dolayısıyla ikincil fayda önemlidir."
+    },
+    {
+      "heading": null,
+      "body": "## Kabin Yalıtımı Akünüzün Etkinliğini Nasıl Artırır?"
+    },
+    {
+      "heading": null,
+      "body": "Güç tüketimi ısı yükünün aşağısındadır.Park ederken AC güç tüketimini azaltmak için yapabileceğiniz en yüksek etkili yükseltme, kabin yalıtımını iyileştirmektir.We instrumented the same Cascadia sleeper before and after adding 1 inch of polyiso to the roof and bunk wall.Önce: 32°C ortamda ortalama 487 W gece çekimi.Sonra: Ortalama 348 W — %29 azalma.Yalıtımın maliyeti 180 dolar malzeme ve 4 saatlik işçilikti.Yalnızca pil tasarrufu (daha küçük paket gerekli, daha uzun çevrim ömrü) yükseltme işleminin karşılığını 6 aydan kısa bir sürede amorti etti.Yeni bir akü sistemi boyutlandırıyorsanız, önce yalıtımı yapın ve akü satın almadan önce gerçek yükünüzü yeniden ölçün.Çoğu sürücü, yalıtılmamış bir temele göre plan yaptıkları için pilleri %30-50 oranında fazla büyütüyor.Yalıtım aynı zamanda hem AC güç çekişini hem de sürüş sırasında ana motorun HVAC yakıt tüketimini azaltan tek yükseltmedir; çifte görevdir."
+    },
+    {
+      "heading": null,
+      "body": "## Pil Eskimesi: 3. Yıl Performansı 1. Yıl Performansından Neden Farklı?"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 piller, tipik OTR kullanımı altında yılda kabaca %2–4 kapasite kaybeder (%70–80 DoD'de 250 döngü/yıl).3. yılda, 200 Ah yeni olarak derecelendirilen bir akü yaklaşık 180-188 Ah kullanılabilirlik sağlayacaktır.At year 5, expect 165–175 Ah.Bu önemlidir, çünkü başlangıçta sisteminizi sıkı bir şekilde boyutlandırdıysanız, 3. yıl performansı sıcak gecelerde sizi yetersiz bırakabilir.Çözüm: İlk satın alımda %15-25 oranında fazla boyut.200 Ah'ye karşılık 240 Ah satın alın; hem sıra dışı ısı olayları hem de doğal akü yaşlanması için marjınız olur.Alternatif olarak, pili fren balataları gibi bir sarf malzemesi olarak değerlendirerek 5-6 yılda bir pil yenilemeyi planlayın.Modern LiFePO4 prices have fallen 35% since 2022 and are projected to drop another 20% by 2028, making the refresh cycle more affordable than it was a few years ago."
+    },
+    {
+      "heading": null,
+      "body": "## Pil Monitörü Verilerinizi Doğru Şekilde Nasıl Okuyabilirsiniz?"
+    },
+    {
+      "heading": null,
+      "body": "Victron BMV-712 gibi akü monitörleri gerçek zamanlı amperleri, voltajı, şarj durumunu ve tüketilen ampersaati görüntüler.Çoğu sürücü gördüklerini yanlış yorumluyor.İşte her sayının pratikte gerçekte ne anlama geldiği.(1) Gerçek zamanlı amplifikatörler: anlık çekiş — boyutlandırma kararları için değil, AC'nin beklenen aralıkta çalıştığını doğrulamak için kullanışlıdır.(2) Ortalama amper: gerçek enerji tüketimini elde etmek için bunu tüm gece boyunca entegre edin; önemli olan sayı budur.(3) Şarj durumu (SoC): kümülatif coulomb sayımına dayalıdır, uygun şekilde kalibre edilmiş bir şönt ile ±%2'ye kadar doğrudur.Bankayı tamamen şarj ederek periyodik olarak %100'e sıfırlayın.(4) Consumed Ah: the most useful metric for sizing — track this across 7–10 representative nights and use the maximum value as your design point.Drivers who size based on 'feels like' or peak instantaneous draw consistently undersize.İçgüdülere değil verilere güvenin."
+    },
+    {
+      "heading": null,
+      "body": "## Uç Durumlar: Aşırı Soğuk ve Aşırı Sıcak"
+    },
+    {
+      "heading": null,
+      "body": "LiFePO4 piller, 0°C'nin (32°F) altında etkin kapasitenin kabaca %20'sini kaybeder ve dahili ısıtma olmadan -10°C'nin (14°F) altında şarj olmayı reddeder.Kuzey kışlarında gece boyunca park eden sürücüler için, ya ısıtmalı akü kutuları (150-300 $ eklenti) planlayın ya da aküyü sıcak hava kapasitesinin %130'una kadar büyütün.Ortam sıcaklığının 45°C'nin (113°F) üzerinde olduğu aşırı sıcaklıklarda, park halindeki AC invertörleri kompresör sıcaklıklarını korumak için genellikle soğutma çıkışını %10-18 oranında düşürür.Pil hücreleri ayrıca 40°C ortam sıcaklığının üzerinde daha hızlı bozulur; pil kutunuzu havalandırılan veya gölgede tutun.Her iki uç durum da pilinizi büyük boyutlandırmaya ve belgelenmiş çalışma sıcaklığı aralıklarına sahip invertörle çalışan AC ünitelerini seçmeye doğru ilerlemektedir.Maksimum ortam değerleri için teknik özellik sayfalarını dikkatlice kontrol edin;Ucuz üniteler genellikle '40°C'ye kadar' sıcaklık özelliğine sahiptir ve bu da güneybatı ABD'nin yaz aylarında kullanımı için yetersizdir."
+    },
+    {
+      "heading": null,
+      "body": "## Sıkça Sorulan Sorular"
+    },
+    {
+      "heading": null,
+      "body": "**12V park kliması kaç amper çeker?**\n\nModern bir invertör 12V ünitesi (8.000–10.000 BTU sınıfı) kararlı durumda 30–40 A çeker ve başlangıçta 80–90 A civarında tepe noktasına ulaşır.Bir 24V eşdeğeri, aynı soğutma çıkışı için bu amperlerin yarısını çeker, bu nedenle daha yüksek çıkışlı sistemler için 24V tercih edilir.\n\n**Kamyonumun marş aküsünden park klimasını çalıştırabilir miyim?**\n\nHayır, asla.Bir marş aküsü, kısa, yüksek akım patlamaları (marş) için tasarlanmıştır ve 20-40 döngü içinde derin döngüyle imha edilir.Bir DC-DC şarj cihazı aracılığıyla marş aküsünden izole edilmiş özel bir LiFePO4 ev aküsü bankasına ihtiyacınız vardır.\n\n**100Ah lityum pil tüm gece park klimasını çalıştırır mı?**\n\nTek bir 100Ah 12V LiFePO4 (%100 DoD'da 1,28 kWh, %80 DoD'de 1,02 kWh) size bir invertör ünitesinde yaklaşık 2,5–3 saat veya sabit hızlı bir ünitede 1,5 saat soğutma sağlar.Tam gece için, 12V'de 200–300 Ah veya minimum 24V'da 100–200 Ah planlayın.\n\n**Alternatör aküyü şarj etmek için ne kadar yakıt yakar?**\n\nSürüş sırasında 50A DC-DC şarj cihazı aracılığıyla kWh başına yaklaşık 0,4–0,6 galon dizel şarj ediliyor.4 kWh'lik bir gecelik drenajı değiştirmek, günlük yaklaşık 1,6-2,4 galon (6,30-10,10 $) ekstra yakıta mal olur.Bu hala rölantiden %75-80 daha ucuzdur.\n\n**Pil yerine kıyı gücüyle çalışmak herhangi bir tasarruf sağlar mı?**\n\nEvet — 110V kıyı gücünde, pil kayıplarını tamamen atlarsınız ve yalnızca 450 W × 8 saat = 3,6 kWh × 0,13 USD/kWh = gecelik 0,47 USD için ödeme yaparsınız.Kıyı gücünüz varsa kullanın;pili şebekeden bağımsız geceler için ayırın.\n\n**Parazit çizimi nedir ve önemli midir?**\n\nParazitik çekim, AC kontrol cihazının 'kapalı' durumdayken çektiği bekleme akımıdır.Kalite birimleri (CoolDrivePro V-TH1, Dometic RTX2000) 50 mA'nın altındadır.Ucuz üniteler 200–400 mA çekebilir; bu, kamyon boşta kalırsa haftada 5–10 Ah boşalır.Bekleme modunda 100 mA'nın altında güç çektiğini belgeleyen üniteleri arayın.\n\n**Pilim sabaha doğru bitiyor; sorun nedir?**\n\nSıklığa göre sıralanan dört olası neden: (1) pilin gerçek ortam ve kullanım saatine göre küçük boyutlu olması, (2) DC-DC şarj cihazının boyutu küçük olduğundan piller sürücüler sırasında asla tam olarak şarj olmuyor, (3) kablolardaki voltaj düşüşü AC'nin gücü korumak için daha fazla amper çekmesine neden oluyor, (4) pil 4-5 yıldan daha eski ve kapasite %20'den fazla düşmüş.Teşhis için bir pil monitörü kullanın;tahmin etme.[Park kliması sorun giderme kontrol listemiz](/blog/parking-ac-not-cooling-troubleshooting) her teşhis adımını sırayla açıklamaktadır."
+    }
+  ]
+}

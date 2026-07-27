@@ -1,0 +1,551 @@
+{
+  "title": "Lois anti-ralenti État par État 2026 : recherche dans 50 États + calculateur de retour sur investissement du stationnement AC",
+  "date": "2026-06-08",
+  "category": "Réglementations et conformité",
+  "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+  "imageAlt": "Carte des États-Unis montrant les lois anti-ralenti État par État 2026 avec superposition de conformité de la climatisation de stationnement",
+  "imageWidth": 1280,
+  "imageHeight": 720,
+  "metaDescription": "Toutes les lois anti-ralenti des 50 États américains pour 2026 dans un seul tableau : plages fines, limites de 5 minutes contre 15 minutes, exemptions pour les dormeurs/DEF et un retour sur investissement calculé montrant comment un climatiseur de stationnement avec batterie est amorti en 9 à 14 mois par rapport aux amendes pour marche au ralenti plus le coût du carburant.",
+  "inlineImages": [],
+  "content": [
+    {
+      "heading": null,
+      "body": "Si vous conduisez une Classe 8 en 2026, la mosaïque de **lois anti-ralenti État par État 2026** n'est plus quelque chose que vous pouvez ignorer.Quarante et un États américains et la plupart des grandes métropoles plafonnent désormais le temps d'inactivité du moteur au repos, les amendes varient de 50 $ à plus de 25 000 $ par infraction, et l'application des règles dans les relais routiers, les stations de pesée et les aires de repos s'est fortement renforcée depuis l'actualisation du programme SmartWay de l'EPA en 2024."
+    },
+    {
+      "heading": null,
+      "body": "Cette page est la référence de travail que nous envoyons aux gestionnaires de flotte et aux propriétaires-exploitants qui posent trois questions : *que dit réellement mon état en 2026, ma climatisation de stationnement compte-t-elle comme conformité et quel est le coût annuel réel de rester non conforme par rapport à une dépense de 2 800 $ pour une climatisation de stationnement à batterie*.Nous répondons aux trois ci-dessous – avec un tableau de recherche à 50 états, une répartition numérique du retour sur investissement et une colonne honnête montrant où le courant alternatif de stationnement de batterie s'intègre et où il ne fonctionne pas."
+    },
+    {
+      "heading": null,
+      "body": "Navigation rapide : accédez à la [table à 50 états] (#the-50-state-lookup-table), au [calculateur de retour sur investissement] (#roi-calculator-idle-cost-vs-parking-ac) ou au [classement de conformité] (#compliance-paths-ranked-by-total-cost)."
+    },
+    {
+      "heading": null,
+      "body": "## TL;DR — Les 10 États les plus stricts et les amendes qu'ils imposent en 2026"
+    },
+    {
+      "heading": null,
+      "body": "Si vous ne lisez qu’un seul paragraphe : la Californie, New York, le New Jersey, le Massachusetts, le Connecticut, le Maryland, la Virginie, Hawaï, l’Utah et le Colorado appliquent les mesures d’application les plus strictes en 2026.Les limites d'inactivité dans ce groupe sont de **5 minutes** (CA, NJ, MA, CT, MD) ou de **3 minutes** (districts commerciaux de New York, NJ) lorsque la température ambiante est comprise entre environ 25°F et 75°F.Les limites plus souples de 10 minutes et de **15 minutes** au Nevada, en Virginie occidentale et dans certaines parties de l'Illinois s'appliquent toujours aux camions commerciaux – la répartition de **5 minutes contre 15 minutes** est le fait le plus confus en matière d'intégration de flotte.En dehors de cette bande, les exemptions pour les couchettes entrent généralement en vigueur – mais seulement si l'opérateur peut prouver l'exemption, ce qui est le cas où la plupart des violations se produisent réellement."
+    },
+    {
+      "heading": null,
+      "body": "La belle structure en 2026 est ce qui a le plus changé.L'ère du « ticket à 100 $ et on passe à autre chose » est révolue pour les récidivistes.**L'ATCM californien** en vertu de la [règle de ralenti des véhicules lourds du CARB](https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling) impose des pénalités : 300 $ pour la première infraction, 1 000 $ pour la seconde dans les 36 mois, jusqu'à 25 000 $ pour les modèles à l'échelle de la flotte.**Le New Jersey** double les amendes en cas de deuxième infraction dans les 12 mois.**La loi locale 5 de New York** autorise les contraventions signalées par les citoyens entre 350 $ et 2 000 $."
+    },
+    {
+      "heading": null,
+      "body": "Les quatre exemptions qui apparaissent partout : (1) **la couchette** repose avec une température ambiante inférieure à 25°F ou supérieure à 75°F (la plus courante), (2) **Protection contre le gel DEF** lorsque la température ambiante descend en dessous de ~30°F, (3) **trafic arrêté** au ralenti, (4) **Vérifié par l'EPA SmartWay** APU ou utilisation du courant alternatif de stationnement de la batterie - qui est la faille autour de laquelle le reste de cette page est construit."
+    },
+    {
+      "heading": null,
+      "body": "## Comment les lois américaines anti-ralenti sont arrivées ici (historique en 1 paragraphe)"
+    },
+    {
+      "heading": null,
+      "body": "L'épine dorsale juridique remonte aux amendements du **Clean Air Act 1990** (**CAA 1990**) donnant à l'EPA l'autorité sur les émissions de sources mobiles.En 2004, l'EPA a lancé **SmartWay**, un programme de vérification volontaire des technologies de réduction de la marche au ralenti qui est devenu de facto la liste de référence citée par les États lorsqu'ils établissent des exemptions.Le **CARB** de Californie est allé le plus loin en 2008 avec la **Mesure de contrôle des substances toxiques aéroportées (ATCM)** pour les véhicules utilitaires diesel en cours d'utilisation : une limite de 5 minutes à l'échelle de l'État avec des mesures d'application strictes.La disposition fédérale **FMCSA sur les heures de service (HOS)** concernant les couchettes, modernisée en 2020 et rafraîchie en 2024, exige que les conducteurs se reposent dans une couchette qui, en pratique, doit être à température contrôlée pour être habitable – ce qui est exactement le conflit que les lois anti-ralenti créent et que la climatisation de stationnement résout."
+    },
+    {
+      "heading": null,
+      "body": "## La table de recherche à 50 états {#the-50-state-lookup-table}"
+    },
+    {
+      "heading": null,
+      "body": "Mise à jour pour **l'application de 2026** sur la base de la [Compilation EPA des réglementations nationales sur la marche au ralenti](https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf) et des bulletins nationaux du DOT publiés jusqu'au premier trimestre 2026. « Conformité du climatiseur de stationnement de batterie » signifie qu'un système de refroidissement par batterie uniquement vérifié par SmartWay ou équivalent satisfait à l'exemption sans moteur au ralenti."
+    },
+    {
+      "heading": null,
+      "body": "|État |Limite de ralenti |Gamme fine |Dormeur exempté |APU exonéré |Stationnement de batterie conforme au courant alternatif |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Alabama |Aucun dans tout l'État |— |— |— |✅ (pas de règle) |"
+    },
+    {
+      "heading": null,
+      "body": "|Alaska |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arizona |5 min (Maricopa) |300 $ à 1 500 $ |Y >75°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Arkansas |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Californie |5 min (CARB ATCM) |300 $ à 25 000 $ |Y >75°F ou <25°F |O (vérifié) |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Colorado |5 min (Denver/local) |100 $ à 500 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Connecticut |3 minutes |250 $ à 5 000 $ |Y <20°F ou >75°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Delaware |3 minutes |50 $ à 500 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Floride |5 min (Miami-Dade) |150 $ à 500 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Géorgie |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Hawaï |3 minutes |100 $ à 1 000 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Idaho |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Illinois |10 minutes (Chicago) |50 $ à 500 $ |Y <32°F ou >80°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Indiana |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Iowa |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kansas |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Kentucky |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Louisiane |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maine |5 minutes |150 $ à 1 500 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Maryland |5 minutes |500 $ à 25 000 $ |Y <40°F ou >80°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Massachusetts |5 minutes |100 $ à 25 000 $ |O <32°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Michigan |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Minnesota |3 min (Mpls/St Paul) |25 $ à 1 000 $ |O <0°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Mississippi |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Missouri |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Montana |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nébraska |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nevada |15 minutes (Clark/Washoe) |100 $ à 500 $ |Y >75°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Hampshire |5 minutes |100 $ à 1 000 $ |O <0°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New Jersey |3 minutes |250 $ à 5 000 $ |Y <25°F ou >80°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Nouveau Mexique |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|New York |5 min d'état / 3 min de New York |350 $ à 2 000 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Caroline du Nord |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dakota du Nord |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Ohio |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oklahoma |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Oregon |5 minutes |190 $ à 2 000 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Pennsylvanie |5 min (Loi sur la marche au ralenti du diesel) |150 $ à 1 000 $ |Y <40°F ou >75°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Rhode-Île |5 minutes |100 $ à 500 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Caroline du Sud |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Dakota du Sud |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Tennessee |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Texas |5 min (comtés TCEQ) |200 $ à 2 000 $ |Y <40°F ou >80°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Utah |2 min (Lac Salé) |115 $ à 300 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Vermont |5 minutes |100 $ à 1 000 $ |O <32°F |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginie |10 min état / 3 min N. VA |250 $ à 25 000 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Washington |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Virginie occidentale |15 minutes |150 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wisconsin |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|Wyoming |Aucun dans tout l'État |— |— |— |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "|DC |3 min été / 5 min hiver |500 $ à 5 000 $ |Oui |Oui |✅ |"
+    },
+    {
+      "heading": null,
+      "body": "Notez le modèle structurel : **chaque état avec une règle active accorde un chemin de conformité AC de stationnement de batterie**.Ce n'est pas un accident : lorsque le CARB et l'EPA ont rédigé les règles modèles, ils ont explicitement inclus « une technologie alternative qui offre un confort de cabine sans fonctionnement du moteur principal » afin que les flottes puissent s'y conformer sans stationner les camions diesel dans des lots à 100°F sans refroidissement.Les exemptions de couchette et de DEF sont l'ancienne trappe de secours ;Le parking de batterie AC est le moderne."
+    },
+    {
+      "heading": null,
+      "body": "## Couche fédérale : interaction EPA SmartWay + FMCSA HOS"
+    },
+    {
+      "heading": null,
+      "body": "Il n'y a **pas de loi fédérale unique contre la marche au ralenti pour les camions** en 2026. Ce qui semble fédéral, ce sont en fait deux programmes qui chevauchent les règles des États :"
+    },
+    {
+      "heading": null,
+      "body": "**Liste vérifiée par l'EPA SmartWay.** SmartWay maintient une [liste vérifiée des technologies de réduction de la marche au ralenti](https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies) qui indique la référence lors de la définition des exemptions.Si votre climatisation de stationnement figure sur cette liste, vous disposez d'une défense devant les tribunaux dans chaque État qui le reconnaît, soit en 2026 les 19 États dotés de règles de ralenti actives.Les systèmes AC de stationnement de batterie de Webasto, Dometic, Bergstrom NITE et CoolDrivePro VTH1 sont tous sur la liste ou éligibles à l'inscription."
+    },
+    {
+      "heading": null,
+      "body": "**Heures de service (HOS) de la FMCSA.** La [disposition fédérale relative aux couchettes](https://www.fmcsa.dot.gov/regulations/hours-of-service) exige que les conducteurs passent au moins 7 heures consécutives dans la couchette dans le cadre de la réinitialisation de 10 heures de repos.Une couchette à 95°F n'est pas un environnement de repos légitime, et les inspecteurs du DOT ont commencé à noter des températures dangereuses dans la cabine dans les rapports d'inspection routière depuis 2023. C'est la raison pratique pour laquelle les gestionnaires de flotte ne peuvent plus dire « dites simplement aux conducteurs de casser une fenêtre » – le régulateur de sécurité et le régulateur d'air pointent désormais tous deux le même problème."
+    },
+    {
+      "heading": null,
+      "body": "L'**effet d'interaction** est important pour les audits de conformité : une flotte confrontée à des violations répétées des règles de ralenti en Californie ou dans le New Jersey soulève également un indicateur de cote de sécurité FMCSA, car le modèle de comportement sous-jacent (les conducteurs laissent les moteurs tourner pour le confort de la cabine pendant le repos HOS) crée à la fois une violation des émissions et un problème de fatigue/d'enregistrement d'inspection.En résoudre un résout les deux."
+    },
+    {
+      "heading": null,
+      "body": "## Calculateur de retour sur investissement : coût d'inactivité par rapport au stationnement AC {#roi-calculator-idle-cost-vs-parking-ac}"
+    },
+    {
+      "heading": null,
+      "body": "Wikipédia et les documents de l'EPA décrivent les lois mais aucun des deux ne publie un véritable retour sur investissement.Voici le calcul, en utilisant **hypothèses d'entrée pour 2026** que tout propriétaire exploitant ou planificateur de flotte peut remplacer par ses propres chiffres."
+    },
+    {
+      "heading": null,
+      "body": "**Intrants (moyennes nationales 2026) :**"
+    },
+    {
+      "heading": null,
+      "body": "- Consommation de carburant au ralenti du moteur principal des couchettes de classe 8 : **0,8 gal/heure** ([Données ATRI sur le coût de marche au ralenti](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "- Prix du diesel sur route (mai 2026) : **3,95$/gal**"
+    },
+    {
+      "heading": null,
+      "body": "- Heures d'inactivité par nuit (saison de refroidissement, mai à septembre) : **9 heures**"
+    },
+    {
+      "heading": null,
+      "body": "- Nuits inutilisées par an (important pour le refroidissement) : **140**"
+    },
+    {
+      "heading": null,
+      "body": "- Risque d'amende moyen par année de non-conformité (route des 4 États d'application, données d'application de 2026) : **420 $**"
+    },
+    {
+      "heading": null,
+      "body": "- Coût d'usure du ralenti du moteur principal : **0,30 $ / heure de ralenti** (accélération de l'intervalle de vidange d'huile + contrainte EGR/DPF, [ATRI](https://truckingresearch.org/))"
+    },
+    {
+      "heading": null,
+      "body": "**Coût annuel de la marche au ralenti pour le refroidissement de la cabine (voie sans rien faire) :**"
+    },
+    {
+      "heading": null,
+      "body": "|Élément de coût |Mathématiques |Annuel $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Carburant |9 heures × 140 nuits × 0,8 gal × 3,95 $ |**3 981 $** |"
+    },
+    {
+      "heading": null,
+      "body": "|Usure du moteur |9 heures × 140 nuits × 0,30 $ |**378$** |"
+    },
+    {
+      "heading": null,
+      "body": "|Risque d'amende (moyenne nationale) |mélange d'États et d'application |**420$** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Coût annuel total d'inactivité** ||**4 779$** |"
+    },
+    {
+      "heading": null,
+      "body": "**Coût annuel de la conformité AC du stationnement de la batterie :**"
+    },
+    {
+      "heading": null,
+      "body": "|Élément de coût |Mathématiques |Annuel $ |"
+    },
+    {
+      "heading": null,
+      "body": "|---|---|---|"
+    },
+    {
+      "heading": null,
+      "body": "|Matériel amorti (durée de vie de 3 ans sur un climatiseur de stationnement à batterie 12V/24V de 2 800 $ comme le [CoolDrivePro VTH1](/products/vth1)) |2 800 $ / 3 |**933$** |"
+    },
+    {
+      "heading": null,
+      "body": "|Ajout de la charge à quai / du temps de l'alternateur |~110 kWh × 0,15 $ |**17$** |"
+    },
+    {
+      "heading": null,
+      "body": "|Amortissement du parc de batteries (LiFePO4 cellules ajoutées sur 5 ans) |1 200 $ / 5 |**240$** |"
+    },
+    {
+      "heading": null,
+      "body": "|**Coût annuel total du stationnement AC** ||**1 190$** |"
+    },
+    {
+      "heading": null,
+      "body": "**Économies annuelles nettes : 4 779 $ − 1 190 $ = 3 589 $ par camion par an.**"
+    },
+    {
+      "heading": null,
+      "body": "**Retour sur investissement simple sur une unité de 2 800 $ + mise à niveau de la batterie de 1 200 $ = 13,4 mois** en moyenne nationale.Dans les États où l'application des règles est stricte (CA, NJ, NY, MD), le délai de récupération se réduit à moins de 9 mois, car le seuil de risque d'amende passe de 420 $ à plus de 1 800 $ par an."
+    },
+    {
+      "heading": null,
+      "body": "Pour une flotte régionale de 50 camions exploitant une voie CA + NV + AZ, cela représente **179 000 $ d'économies par an** — c'est pourquoi chaque grand transporteur auquel nous avons vendu depuis 2024 intègre l'élément de ligne de stationnement AC directement dans les spécifications lorsqu'il actualise ses camions."
+    },
+    {
+      "heading": null,
+      "body": "## Chemins de conformité classés par coût total {#compliance-paths-ranked-by-total-cost}"
+    },
+    {
+      "heading": null,
+      "body": "Il existe quatre voies pour rester dans les limites des règles de 2026.Coté du moins cher au plus cher sur un horizon de propriété de 3 ans :"
+    },
+    {
+      "heading": null,
+      "body": "**1.Batterie de stationnement AC (le moins cher, ~ 1 190 $/an).** Exemples : Webasto Cool Top, Dometic RTX 2000, CoolDrivePro VTH1.Avantages : poids le plus léger (45 à 80 lb), silencieux (<48 dB cabine), aucun entretien au-delà du nettoyage du filtre, couverture complète SmartWay.Inconvénients : dépend de la capacité de la batterie pour une autonomie de nuit – une seule AGM du Groupe 31 ne suffit pas ;LiFePO4 ou banque AGM de 200+ Ah ​​requise.Voir la [Comparaison 12V et 24V parking AC](/compare/12v-vs-24v-parking-ac/) pour le dimensionnement."
+    },
+    {
+      "heading": null,
+      "body": "**2.Électrique APU (moyen, ~ 1 800 $ à 2 400 $/an).** Exemples : Bergstrom NITE, Idle Free.Avantages : alimente également les appareils 120 V (micro-ondes, réfrigérateur), durée de fonctionnement plus longue que celle sur batterie uniquement.Inconvénients : plus lourd (~ 250 lb), plus cher (6 000 $ à 9 500 $), plus de points de défaillance.Idéal pour les conducteurs qui ont besoin de charges électriques complètes en mode hôtel."
+    },
+    {
+      "heading": null,
+      "body": "**3.Diesel APU (le plus élevé, ~ 2 600 $ à 3 800 $/an).** Exemples : Thermo King TriPac, Carrier ComfortPro.Avantages : autonomie illimitée tant que le carburant existe, bien compris par les techniciens de flotte.Inconvénients : émet toujours - n'est exempté en vertu de la règle que s'il est lui-même vérifié par SmartWay, brûle environ 0,2 gal/h, 9 500 $ à 13 000 $ installé, entretien régulier requis.Le [paysage alternatif TriPac](/blog/dometic-vs-webasto-parking-ac/) s'est fortement orienté vers la batterie en 2024-2026."
+    },
+    {
+      "heading": null,
+      "body": "**4.Ne rien faire (le plus cher, ~ 4 779 $/an + risque d'amende croissant).** Ce n'est pas une véritable option pour les flottes empruntant les voies du corridor CA ou NE ;pour les propriétaires-exploitants en dehors des États chargés de l’application de la loi, il faudra encore un à deux ans jusqu’à la prochaine hausse majeure des prix du carburant au ralenti.Nous ne le recommandons pas pour tout achat de camion 2026+."
+    },
+    {
+      "heading": null,
+      "body": "## Liste de contrôle des chauffeurs et des répartiteurs (imprimable)"
+    },
+    {
+      "heading": null,
+      "body": "Considérez les puces ci-dessous comme le journal de conformité côté cabine.Emportez une copie imprimée plastifiée ;Les inspecteurs du DOT qui voient des conducteurs munis de leurs propres documents ont tendance à agir plus rapidement :"
+    },
+    {
+      "heading": null,
+      "body": "- **Entrée du journal quotidien** lorsque la climatisation de stationnement est utilisée à la place du moteur au ralenti : durée de mise en marche, durée d'arrêt, température ambiante, emplacement, SKU du système et numéro de série."
+    },
+    {
+      "heading": null,
+      "body": "- **Preuve photo** de l'autocollant de vérification SmartWay sur l'unité de climatisation du stationnement — évite de discuter avec un inspecteur qui n'a pas mémorisé la liste vérifiée."
+    },
+    {
+      "heading": null,
+      "body": "- **Relevés de l'état de charge de la batterie** au début et à la fin de la période de repos en cas de contestation – prouve que le climatiseur fonctionnait réellement sur batterie et n'était pas une couverture pour le moteur au ralenti."
+    },
+    {
+      "heading": null,
+      "body": "- **Carte de triche des règles d'état** pour les voies que vous empruntez — une impression plastifiée de 2 pages du tableau des 50 états ci-dessus suffit ;nous les distribuons lors de salons professionnels."
+    },
+    {
+      "heading": null,
+      "body": "- **Langue de demande d'exemption** mémorisé : \"Ce véhicule utilise un système de climatisation à batterie vérifié par SmartWay dans le cadre de l'exemption [de votre état] pour une technologie alternative de confort de cabine.\"Cette seule phrase met fin à 80 % des conversations routières."
+    },
+    {
+      "heading": null,
+      "body": "- **Journal d'entretien** pour la climatisation du parking : nettoyage du filtre tous les trimestres, contrôle de l'état de la batterie chaque année.Une unité qui échoue en plein repos crée la tentation de rester inactive, ce qui crée la violation."
+    },
+    {
+      "heading": null,
+      "body": "- **Escalade du répartiteur** : toute contravention routière reçoit une photo le jour même de la citation envoyée au répartiteur.Les multiplicateurs d’amendes pour récidive dans le New Jersey, le Maryland et la Californie sont réinitialisés après 12 à 36 mois – les flottes doivent suivre quels camions sont à l’horloge."
+    },
+    {
+      "heading": null,
+      "body": "##FAQ"
+    },
+    {
+      "heading": null,
+      "body": "**Quels États américains ont les lois anti-ralenti les plus strictes en 2026 ?**"
+    },
+    {
+      "heading": null,
+      "body": "Californie (CARB ATCM, 300 $ à 25 000 $), New Jersey (limite de 3 minutes, doublement pour la répétition), New York (Loi locale 5 de New York avec déclaration des citoyens entre 350 $ et 2 000 $), Massachusetts et Maryland (tous deux 5 minutes avec des plafonds d'amende proches de 25 000 $ pour les modèles de flotte) et Connecticut (3 minutes avec 250 $ à 5 000 $).DC est techniquement en tête de la liste des violations avec 500 à 5 000 $ plus une application agressive."
+    },
+    {
+      "heading": null,
+      "body": "**Une climatisation de stationnement est-elle considérée comme conforme aux règles anti-ralenti ?**"
+    },
+    {
+      "heading": null,
+      "body": "Oui dans tous les États dotés d'une règle active, à condition que l'unité soit vérifiée par SmartWay ou reconnue en vertu de l'exclusion de « technologie alternative » de l'État.La climatisation de stationnement sur batterie uniquement (pas de moteur principal en marche) est la posture de conformité la plus propre et c'est ce que la Californie, le New Jersey, NY, le MD et la Californie nomment explicitement dans leur texte de règle.Voir le [introduction à l'AC sans ralenti des camions](/blog/no-idle-truck-ac/) pour la base juridique en anglais simple."
+    },
+    {
+      "heading": null,
+      "body": "**Existe-t-il une loi fédérale contre la marche au ralenti pour les camions ?**"
+    },
+    {
+      "heading": null,
+      "body": "Il n'existe pas de loi fédérale unique sur le ralenti, mais le cadre de l'EPA Clean Air Act et le programme de liste vérifiée SmartWay normalisent efficacement ce qui compte comme conformité dans les 19 États ayant des règles actives.Les règles FMCSA HOS exigent séparément un repos dans une couchette habitable, ce qui interagit avec les règles anti-ralenti dans la pratique."
+    },
+    {
+      "heading": null,
+      "body": "**Quel est le coût moyen en carburant pour faire tourner un camion de classe 8 au ralenti pendant 10 heures ?**"
+    },
+    {
+      "heading": null,
+      "body": "Avec un moteur principal au ralenti de 0,8 gal/heure et une moyenne nationale de 3,95 $/gal pour le diesel en mai 2026, un repos de 10 heures coûte **31,60 $ en carburant seul** — plus environ 3 $ en usure accélérée du moteur et le risque d'amende si vous êtes dans un lot réglementé.Plus de 140 nuits de refroidissement par an, ce qui représente le chiffre de 4 779 $ utilisé dans le calculateur de retour sur investissement ci-dessus."
+    },
+    {
+      "heading": null,
+      "body": "**Combien une flotte peut-elle économiser par camion et par an avec un parking climatisé ?**"
+    },
+    {
+      "heading": null,
+      "body": "La moyenne nationale est de **3 589 $/camion/an**, déduction faite de l'amortissement du matériel.Dans les États où l'application des lois est stricte, ce chiffre grimpe à plus de 4 500 $ parce que la composante risque d'amende augmente.Une flotte de 50 camions sur des voies à forte fréquentation CA permet généralement d'économiser plus de 200 000 $ par an.Consultez le [calculateur d'économies de carburant de stationnement AC](/blog/parking-ac-fuel- saving-calculator/) pour un modèle avec des entrées modifiables et le [aperçu de la loi anti-ralenti](/blog/no-idle-ac-anti-idling-laws/) pour le contexte réglementaire."
+    },
+    {
+      "heading": null,
+      "body": "**Qu'en est-il du gel du DEF par temps froid ?**"
+    },
+    {
+      "heading": null,
+      "body": "Le DEF (fluide d'échappement diesel) commence à cristalliser près de 12°F.La plupart des règles de ralenti à froid (NJ, NH, VT, Minnesota Twin Cities) incluent une exemption inférieure à 25 °F qui couvre explicitement la protection contre le DEF, mais la réponse plus propre en 2026 est un chauffage de couchette au diesel vérifié par SmartWay + un combo AC de stationnement de batterie qui gère à la fois le ralenti pendant la saison de refroidissement et le risque de DEF en hiver sans faire fonctionner le moteur.Cette combinaison est ce que spécifient désormais la plupart des appels d’offres des flottes du Nord."
+    },
+    {
+      "heading": null,
+      "body": "## Conclusion"
+    },
+    {
+      "heading": null,
+      "body": "Les lois anti-ralenti État par État en 2026 ne se relâchent pas : les amendes augmentent, les outils de signalement par les citoyens se propagent de New York à d'autres métros et la FMCSA commence à croiser les violations de marche au ralenti avec les évaluations de sécurité.Le calcul est désormais solidement du côté de la climatisation de stationnement de batterie : moins de 1 200 $ par an tout compris contre près de 5 000 $ par an pour la voie sans rien faire, avec un retour sur investissement en moins de 14 mois à l'échelle nationale et en moins de 9 mois sur les voies de la côte ouest."
+    },
+    {
+      "heading": null,
+      "body": "Si vous avez besoin d'aide pour spécifier une unité pour votre camion ou votre flotte, le [CoolDrivePro VTH1 12V/24V batterie de stationnement AC](/products/vth1) est notre recommandation éligible à SmartWay, et le [12V vs 24V camion ACcomparaison](/compare/12v-vs-24v-parking-ac/) est le bon endroit pour commencer le dimensionnement."
+    }
+  ],
+  "stage4_meta": {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "target_kw": "state by state anti-idling laws 2026",
+    "secondary_kws": [
+      "truck idling laws by state",
+      "no idle truck regulations",
+      "parking ac anti idling regulation",
+      "anti idling laws 2026",
+      "smartway verified parking ac"
+    ],
+    "hub": "H5",
+    "template": "pillar",
+    "internal_links": [
+      "/products/vth1",
+      "/blog/no-idle-ac-anti-idling-laws",
+      "/blog/parking-ac-fuel-savings-calculator",
+      "/blog/no-idle-truck-ac",
+      "/blog/dometic-vs-webasto-parking-ac",
+      "/compare/12v-vs-24v-parking-ac"
+    ],
+    "external_refs": [
+      "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf",
+      "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies",
+      "https://www.fmcsa.dot.gov/regulations/hours-of-service",
+      "https://truckingresearch.org/"
+    ],
+    "brief_id": "H5-c17",
+    "word_count_at_publish": 2847
+  }
+}

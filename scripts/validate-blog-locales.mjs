@@ -5,8 +5,8 @@ import process from "node:process";
 const ROOT_DIR = process.cwd();
 const BLOG_DIR = path.join(ROOT_DIR, "client", "public", "data", "blog");
 const BLOG_LOCALES_DIR = path.join(BLOG_DIR, "locales");
-const EXCLUDED_BASE_FILES = new Set(["list.json", "manifest.json", "locale-availability.json"]);
-const EXCLUDED_LOCALE_FILES = new Set(["list.json", "manifest.json"]);
+const EXCLUDED_BASE_FILES = new Set(["list.json", "manifest.json", "locale-availability.json", "related-posts.json"]);
+const EXCLUDED_LOCALE_FILES = new Set(["list.json", "manifest.json", "related-posts.json"]);
 const REQUIRED_TEXT_FIELDS = ["title", "category", "date", "image", "metaDescription"];
 
 function isNonEmptyString(value) {

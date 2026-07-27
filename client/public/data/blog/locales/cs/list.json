@@ -1,5 +1,237 @@
 [
   {
+    "slug": "parking-ac-compressor-diagnostics",
+    "title": "Parking AC Compressor Diagnostics: Current Draw, Airflow, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp",
+    "excerpt": "Use a structured parking AC compressor diagnostic process to separate electrical, airflow, refrigerant, and control faults before approving a costly repair."
+  },
+  {
+    "slug": "parking-ac-refrigerant-leak-diagnosis",
+    "title": "Parking AC Refrigerant Leak Diagnosis: Symptoms, Safe Checks, and Repair Decisions",
+    "category": "Troubleshooting",
+    "date": "2026-07-17",
+    "image": "https://cooldrivepro.com/images/products/vx3000-split-installation.webp",
+    "excerpt": "Learn how to identify a suspected parking AC refrigerant leak, separate it from battery or airflow faults, and decide when qualified repair is necessary."
+  },
+  {
+    "slug": "b2b-parking-ac-supplier-buyer-guide",
+    "title": "Příručka kupujícího dodavatele B2B Parking AC: Rubrika 9 dimenzí + 10 nejlepších porovnávaných značek (2026)",
+    "category": "Průvodce nákupem",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Jak by měli flotiloví, prodejci, OEM a velkoobchodní nákupčí hodnotit dodavatele parkovacích klimatizací v roce 2026. 9-dimenzionální bodovací rubrika, MOQ + dodací lhůta + certifikační kritéria a poctivá recenze 10 z..."
+  },
+  {
+    "slug": "state-by-state-anti-idling-laws-2026",
+    "title": "Zákony proti nečinnosti jednotlivých států pro rok 2026: 50-státní vyhledávání + kalkulačka návratnosti investic do parkování",
+    "category": "Předpisy a dodržování",
+    "date": "2026-06-08",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "Všech 50 amerických státních zákonů proti volnoběhu pro rok 2026 v jedné tabulce – jemné rozsahy, limity 5 vs 15 minut, výjimky pro režim spánku/DEF a propracovaná návratnost investic, která ukazuje, jak se střídavý p..."
+  },
+  {
+    "slug": "parking-ac-vietnam-guide",
+    "title": "Kompletní průvodce klimatizací pro parkování nákladních vozidel ve Vietnamu (2026)",
+    "category": "Průvodce nákupem",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-guide-hero.webp",
+    "excerpt": "Průvodce klimatizací pro parkování kamionů 2026 ve Vietnamu: 9000 BTU systémů pro severojižní dálnici, úspora paliva (12–18 l/den), náklady na instalaci a regionální klimatické aspekty od Hanoje po Ho Či Minovo Město."
+  },
+  {
+    "slug": "parking-ac-vietnam-ho-chi-minh-port",
+    "title": "Parkovací klimatizace pro řidiče přístavu Ho Či Minovo město a řidiče kontejnerů (Cat Lai, Cai Mep)",
+    "category": "Regionální průvodci",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-ho-chi-minh-port-hero.webp",
+    "excerpt": "Proč řidiči kontejnerů Cat Lai a Cai Mep v Ho Či Minově Městě potřebují 9000 BTU parkovací klimatizaci: dlouhé doby ve frontě, tlak proti nečinnosti a návratnost investic do chlazení kabiny pro logistiku přístavů v ji..."
+  },
+  {
+    "slug": "parking-ac-vietnam-mekong-delta",
+    "title": "Parkovací klimatizace pro zemědělská vozidla a nákladní vozy se studeným řetězem v deltě Mekongu",
+    "category": "Regionální průvodci",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-mekong-delta-hero.webp",
+    "excerpt": "Provozovatelé zemědělských a chladírenských nákladních vozidel v deltě Mekong v Can Tho, Tien Giang a Long An spoléhají na parkování AC, aby zajistili řidičům odpočinek během dlouhého čekání na trajekt a přes noc za v..."
+  },
+  {
+    "slug": "parking-ac-vietnam-north-south-expressway",
+    "title": "Parkovací klimatizace pro dálnici Sever-Jih (CT.01): Průvodce pro řidiče na dlouhé vzdálenosti",
+    "category": "Regionální průvodci",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-north-south-expressway-hero.webp",
+    "excerpt": "Jak dálkoví řidiči na vietnamské severojižní dálnici CT.01 používají 9000 BTU parkovací klimatizaci k legálnímu odpočinku, ušetřili 12–18 l nafty za noc a přežili tropická vedra 38 °C."
+  },
+  {
+    "slug": "parking-ac-vietnam-tourist-coach",
+    "title": "Parkovací klimatizace pro vietnamské turistické autobusy a spací autobusy (Da Nang, Nha Trang, Phu Quoc)",
+    "category": "Regionální průvodci",
+    "date": "2026-05-20",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-vietnam-tourist-coach-hero.webp",
+    "excerpt": "Jak provozovatelé turistických autobusů a lůžkových autobusů v Da Nang, Nha Trang, Hoi An a Phu Quoc používají parkovací klimatizaci, aby řidiči odpočívali a vozidla byla v souladu se zásadami hotelů a resortů proti n..."
+  },
+  {
+    "slug": "parking-ac-for-mobile-yoga",
+    "title": "Klimatizace pro mobilní jógová studia a wellness vozy",
+    "category": "Specialita",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
+    "excerpt": "Objevte základní řešení klimatizace pro mobilní jógová studia a wellness dodávky.Zajistěte optimální regulaci teploty (68-72 °F) se spolehlivou parkovací klimatizací."
+  },
+  {
+    "slug": "parking-ac-for-rv-digital-nomads",
+    "title": "Parkovací klimatizace pro digitální nomády žijící v RVs: Pohodlná práce odkudkoli",
+    "category": "životní styl",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
+    "excerpt": "Základní průvodce parkovací klimatizací pro RV digitální nomády.Zůstaňte v pohodě a produktivní při práci na dálku ze svého RV se správnou klimatizací."
+  },
+  {
+    "slug": "parking-ac-for-rv-rallies",
+    "title": "Zůstat v pohodě na RV Rallye a festivaly: Parkování AC tipy pro akce",
+    "category": "životní styl",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
+    "excerpt": "Ovládněte RV rallye s parkováním AC!Získejte odborné tipy na doplňkové chlazení, velikost baterie a instalaci pro pohodlný zážitek z akce."
+  },
+  {
+    "slug": "parking-ac-for-van-dwellers",
+    "title": "Van Dweller's Guide to Parking AC: Bydlení na plný úvazek ve vašem vozidle",
+    "category": "Van Life",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
+    "excerpt": "Základní průvodce výběrem a instalací parkovací klimatizace pro obyvatele dodávek.Zůstaňte v pohodě a pohodlí ve svém mobilním domě s odbornými tipy."
+  },
+  {
+    "slug": "parking-ac-refrigerant-r32",
+    "title": "Chladivo R32 v parkovacích klimatizacích nové generace: Nižší GWP a lepší účinnost",
+    "category": "Technologie",
+    "date": "2026-04-29",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
+    "excerpt": "Zjistěte, proč se chladivo R32 stává preferovanou volbou pro parkovací klimatizační systémy nové generace a nabízí nižší GWP a zlepšenou účinnost pro užitková vozidla."
+  },
+  {
+    "slug": "dometic-vs-webasto-parking-ac",
+    "title": "Dometic vs Webasto Parking AC: Srovnání vedle sebe (2026)",
+    "category": "Srovnání",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-truck-ac-hero.webp",
+    "excerpt": "[2026] Dometic RTX2000 vs Webasto Cool Top RTE 16: výkon chlazení, hluk, spotřeba energie, složitost instalace, záruka a 5leté náklady na vlastnictví.Reálná čísla z terénu."
+  },
+  {
+    "slug": "no-idle-truck-ac",
+    "title": "AC systémy nákladních vozidel bez nečinnosti: Jak dodržovat státní zákony proti volnoběhu (2026)",
+    "category": "Soulad",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-semi-sleeper-berth-hero.webp",
+    "excerpt": "[2026] Zákony proti chodu naprázdno v jednotlivých státech a jak dodržovat střídavý proud nákladního vozidla bez nečinnosti.CARB (pokuty 300–1 000 USD), 30+ státní limity, EPA SmartWay a 5 systémů, které splňují požad..."
+  },
+  {
+    "slug": "parking-ac-btu-sizing",
+    "title": "Parking AC BTU Kalkulačka velikosti: Kolik BTUs opravdu potřebujete?(2026)",
+    "category": "Průvodce nákupem",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "[2026] Kolik BTUs potřebuje vaše spací kabina nebo RV ložnice?Vzorec krok za krokem a tabulky pro nákladní vozidla třídy 8 (5 000–10 000 BTU), dodávky Sprinter (6 000–8 000 BTU) a 25 stop RV_- 14_00_00_CDP_TERM_000"
+  },
+  {
+    "slug": "parking-ac-installation-cost-2026",
+    "title": "Náklady na instalaci klimatizace parkování 2026: Sazby obchodů podle státu a úspory pro kutily",
+    "category": "Průvodce nákupem",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
+    "excerpt": "[2026] Náklady na instalaci klimatizace pro parkování podle státu: 400 $ – 1 200 $ profesionální, 0 $ – 150 $ DIY.Skutečné ceny obchodů z CA, TX, FL, NY, plus úplný rozpis nákladů na jednotku, baterii, kabeláž a práci."
+  },
+  {
+    "slug": "parking-ac-noise-comparison-db-tested",
+    "title": "Porovnání hlučnosti parkovacího střídavého proudu: skutečné hladiny dB testované ve 3 stopách (2026)",
+    "category": "Srovnání",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-noise-reduction-tips-hero.webp",
+    "excerpt": "[2026] Naměřili jsme 12 parkovacích AC jednotek s kalibrovaným dBmetrem ve vzdálenosti 3 stop.CoolDrivePro V-TH1 zásah 42 dBA, Dometic RTX2000 48 dBA, RigMaster 67 dBA.Reálná čísla, žádný marketing."
+  },
+  {
+    "slug": "truck-ac-power-consumption",
+    "title": "Spotřeba střídavého proudu nákladního automobilu: vysvětlení wattů, ampérů a vybíjení baterie (2026)",
+    "category": "Napájení a baterie",
+    "date": "2026-04-25",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "[2026] Vysvětlení spotřeby střídavého proudu nákladního automobilu: průměr 480 W, 9 A při 24V, 38–55 Ah za noc.Skutečná čísla, vzorce pro velikost vaší baterie a jak invertorové kompresory snižují spotřebu o 30 %."
+  },
+  {
+    "slug": "battery-powered-rv-air-conditioner",
+    "title": "Bateriová klimatizace RV: Kompletní průvodce kupujícím pro rok 2026",
+    "category": "Průvodce nákupem",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/off-grid-rv-air-conditioning-hero.webp",
+    "excerpt": "Kompletní průvodce 2026 bateriovými klimatizačními zařízeními RV.Nativní 12V/24V DC vs nastavení invertoru, skutečná data LiFePO4 doby běhu (220Ah → 8–11 h), cenové rozpětí 1 500–3 800 USD, solární offsetové matematic..."
+  },
+  {
+    "slug": "how-to-install-parking-ac",
+    "title": "Jak nainstalovat parkovací klimatizaci: Podrobný průvodce pro rok 2026",
+    "category": "Instalační příručky",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/electric-truck-parking-ac-hero.webp",
+    "excerpt": "Krok za krokem 2026 průvodce instalací parkovací klimatizace: příprava střechy, výřez 14x14, těsnění, kabeláž (4 AWG, 80A pojistka), uvedení do provozu.6–9 hodin DIY, 325 $ v částech mimo jednotku."
+  },
+  {
+    "slug": "lifepo4-battery-for-parking-ac",
+    "title": "LiFePO4 Baterie pro parkování AC: Průvodce dimenzováním a zapojením 2026",
+    "category": "Návody jak na to",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/lifepo4-battery-parking-ac-hero.webp",
+    "excerpt": "2026 LiFePO4 průvodce velikostí pro parkování AC: 220 Ah (1 400 USD), 280 Ah (1 750 USD), 400 Ah (2 400 USD) s 8hodinovou výpočtem, specifikacemi BMS/pojistky/kabelu."
+  },
+  {
+    "slug": "parking-ac-not-cooling-troubleshooting",
+    "title": "Parkovací klimatizace nechladí?2026 Průvodce odstraňováním problémů (krok za krokem)",
+    "category": "Odstraňování problémů",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/cleaning-maintaining-rv-ac-hero.webp",
+    "excerpt": "2026 krok za krokem průvodce opravou parkovací klimatizace, která nechladí.Pokles napětí, chladivo, špinavý kondenzátor, termostat, BMS – diagnostika za 30 minut, opravy 0–280 $."
+  },
+  {
+    "slug": "parking-ac-vs-apu",
+    "title": "Parking AC vs APU: 2026 srovnání nákladů a výkonu pro flotily",
+    "category": "Recenze a srovnání",
+    "date": "2026-04-24",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-for-semi-trucks-hero.webp",
+    "excerpt": "Průvodce rozhodováním o vozovém parku 2026: parkování AC vs APU.5leté celkové náklady na vlastnictví s naftou 4,05 USD — DC parkování AC ušetří 9 800–14 200 USD/nákladní automobil oproti naftě APU, 3 200–5 400 USD opr..."
+  },
+  {
+    "slug": "12v-vs-24v-parking-ac",
+    "title": "12V vs 24V Parking AC v roce 2026: Nákladní automobil, RV & Van Decision Guide",
+    "category": "Průvodce kupujícího",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
+    "excerpt": "12V vs 24V parkovací AC v roce 2026: srovnejte původní napětí vašeho vozidla.Úplný přehled o rozchodu kabelu, ceně baterie, efektivitě, době běhu a tom, kdy má převodník smysl.Rozhodovací matice uvnitř."
+  },
+  {
+    "slug": "best-parking-ac-2026",
+    "title": "Nejlepší parkovací klimatizace roku 2026: 9 srovnání nejlepších výběrů (nákladní auta, RVs a dodávky)",
+    "category": "Průvodce kupujícího",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/best-parking-ac-2026-hero.webp",
+    "excerpt": "9 nejlepších parkovacích klimatizací testovaných pro rok 2026: vedle sebe BTU, hluk, tah, cena a skutečný výkon pro návěsy, RVs, sprinter dodávky a vozové parky.Výběr vítězů podle případu použití."
+  },
+  {
+    "slug": "parking-ac-buying-guide-2025",
+    "title": "Průvodce nákupem parkovací klimatizace 2026: Jak vybrat správnou jednotku (bez plýtvání 1 500 $)",
+    "category": "Průvodce kupujícího",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
+    "excerpt": "Průvodce nákupem parkovacího AC pro rok 2026: 7-krokový rozhodovací rámec, BTU tabulka velikostí, prahové hodnoty specifikací, rozpočty nákladů podle úrovní a 5 chyb, které mění AC za 1 500 USD na šrot.Před nákupem si..."
+  },
+  {
+    "slug": "parking-ac-fuel-savings-calculator",
+    "title": "Kalkulačka úspor paliva pro parkování AC 2026: náklady na nečinnost vs DC Parking AC vs APU",
+    "category": "Nástroje a kalkulačky",
+    "date": "2026-04-23",
+    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
+    "excerpt": "Vypočítejte přesnou úsporu paliva z DC parkování AC vs. volnoběh vs nafta APU.Ceny pohonných hmot v roce 2026, skutečné provozní cykly, doživotní návratnost investic.Zpracované příklady pro majitele-provozovatele a fl..."
+  },
+  {
     "slug": "parking-ac-egypt-alexandria-coastal-humidity",
     "title": "Parkovací klimatizace pro pobřežní vlhkost Alexandrie: Boj s egyptskými středomořskými klimatickými výzvami",
     "category": "Aplikace vozového parku",
@@ -744,52 +976,12 @@
     "excerpt": "Zajistěte bezpečnost zvířat a vybavení na mobilních veterinárních klinikách pomocí spolehlivých parkovacích AC řešení.Rozhodující pro léky a blahobyt."
   },
   {
-    "slug": "parking-ac-for-mobile-yoga",
-    "title": "Klimatizace pro mobilní jógová studia a wellness vozy",
-    "category": "Specialita",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-mobile-yoga-hero.webp",
-    "excerpt": "Objevte základní řešení klimatizace pro mobilní jógová studia a wellness dodávky.Zajistěte optimální regulaci teploty (68-72 °F) se spolehlivou parkovací klimatizací."
-  },
-  {
-    "slug": "parking-ac-for-rv-digital-nomads",
-    "title": "Parkovací klimatizace pro digitální nomády žijící v RVs: Pohodlná práce odkudkoli",
-    "category": "životní styl",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-digital-nomads-hero.webp",
-    "excerpt": "Základní průvodce parkovací klimatizací pro RV digitální nomády.Zůstaňte v pohodě a produktivní při práci na dálku ze svého RV se správnou klimatizací."
-  },
-  {
-    "slug": "parking-ac-for-rv-rallies",
-    "title": "Zůstat v pohodě na RV Rallye a festivaly: Parkování AC tipy pro akce",
-    "category": "životní styl",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-rv-rallies-hero.webp",
-    "excerpt": "Ovládněte RV rallye s parkováním AC!Získejte odborné tipy na doplňkové chlazení, velikost baterie a instalaci pro pohodlný zážitek z akce."
-  },
-  {
-    "slug": "parking-ac-for-van-dwellers",
-    "title": "Van Dweller's Guide to Parking AC: Bydlení na plný úvazek ve vašem vozidle",
-    "category": "Van Life",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-van-dwellers-hero.webp",
-    "excerpt": "Základní průvodce výběrem a instalací parkovací klimatizace pro obyvatele dodávek.Zůstaňte v pohodě a pohodlí ve svém mobilním domě s odbornými tipy."
-  },
-  {
     "slug": "parking-ac-installation-cost",
     "title": "Náklady na instalaci střídavého proudu na parkování v roce 2025: jednotka, kabeláž, baterie a práce",
     "category": "Finance",
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-installation-cost-hero.webp",
     "excerpt": "Podívejte se na skutečné náklady na instalaci parkovací klimatizace do kamionu, RV, nebo dodávky, včetně jednotkové ceny, elektrických upgradů, nákladů na baterie a práce."
-  },
-  {
-    "slug": "parking-ac-refrigerant-r32",
-    "title": "Chladivo R32 v parkovacích klimatizacích nové generace: Nižší GWP a lepší účinnost",
-    "category": "Technologie",
-    "date": "2025-10-15",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-refrigerant-r32-hero.webp",
-    "excerpt": "Zjistěte, proč se chladivo R32 stává preferovanou volbou pro parkovací klimatizační systémy nové generace a nabízí nižší GWP a zlepšenou účinnost pro užitková vozidla."
   },
   {
     "slug": "parking-ac-remote-diagnostics",
@@ -806,14 +998,6 @@
     "date": "2025-10-15",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-subscription-service-hero.webp",
     "excerpt": "Prozkoumejte, jak modely s předplatným parkovištěm AC mění provoz vozového parku, nabízejí úspory nákladů a vyšší pohodlí řidiče.Seznamte se s budoucností klimatizace jako služby."
-  },
-  {
-    "slug": "12v-vs-24v-parking-ac",
-    "title": "12V vs 24V Parkovací AC: Jaké napětí je nejlepší pro nákladní automobil, RV nebo dodávku?",
-    "category": "Technická příručka",
-    "date": "8. března 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/12v-vs-24v-parking-ac-hero.webp",
-    "excerpt": "Před nákupem porovnejte parkovací systémy 12V a 24V podle vhodnosti vozidla, odběru proudu, kabeláže, výdrže baterie a složitosti instalace."
   },
   {
     "slug": "best-parking-ac-for-semi-trucks",
@@ -904,14 +1088,6 @@
     "excerpt": "Plánujete chlazení RV mimo síť?Naučte se, jak dimenzovat solární, lithiové baterie a 12V parkovací střídavý provoz pro boondocking bez připojení nebo hluku generátoru."
   },
   {
-    "slug": "parking-ac-buying-guide-2025",
-    "title": "Parking AC Buying Guide 2025: Jak si vybrat správnou jednotku pro nákladní automobil, RV nebo dodávku",
-    "category": "Průvodce kupujícího",
-    "date": "20. listopadu 2024",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-buying-guide-2025-hero.webp",
-    "excerpt": "Kupujete parkovací klimatizaci?Před nákupem porovnejte střešní vs mini split, 12V vs 24V, BTU velikosti, výdrž baterie a instalační kompromisy."
-  },
-  {
     "slug": "parking-ac-carbon-footprint",
     "title": "Jak parkovací klimatizace snižuje vaši uhlíkovou stopu vs. volnoběh motoru",
     "category": "Životní prostředí",
@@ -990,14 +1166,6 @@
     "date": "22. prosince 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-for-school-bus-conversion-hero.webp",
     "excerpt": "Zůstaňte v pohodě ve školce!Náš průvodce pokrývá nejlepší parkovací klimatizaci pro přestavby školních autobusů, včetně střešních, mini-split a 12V možností.Přečtěte si o instalaci, napájení a dalších."
-  },
-  {
-    "slug": "parking-ac-fuel-savings-calculator",
-    "title": "Kolik paliva ušetří parkovací klimatizace?Skutečná čísla a kalkulačka návratnosti investic",
-    "category": "Průvodce",
-    "date": "15. února 2025",
-    "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-fuel-savings-calculator-hero.webp",
-    "excerpt": "Zjistěte, kolik paliva vám může ušetřit parkovací klimatizace.Náš průvodce poskytuje reálná čísla, kalkulátor návratnosti investic a tipy pro nákladní automobily, RVs a dodávky."
   },
   {
     "slug": "parking-ac-ghana-tamale-northern-region",
@@ -1118,10 +1286,6 @@
     "date": "8. prosince 2024",
     "image": "https://cdn.jsdelivr.net/gh/vethymch-spec/cooldrivepro-cdn@main/parking-ac-wiring-guide_c08cf4f1.webp",
     "excerpt": "Bezpečně zapojte parkovací AC pomocí tohoto průvodce 12V a 24V, který popisuje velikost pojistky, průřez kabelu, pokles napětí, ochranu baterie a chyby při instalaci."
-  },
-  {
-    "slug": "related-posts",
-    "excerpt": ""
   },
   {
     "slug": "rv-ac-vs-portable-ac",

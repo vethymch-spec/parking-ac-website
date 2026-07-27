@@ -9,7 +9,7 @@
 - [x] About Us page with partner network (vethy.com)
 - [x] Contact Us page with EmailJS integration
 - [x] Policy pages (warranty, return, shipping, privacy)
-- [x] WhatsApp floating button (+86 153 1425 2983)
+- [x] WhatsApp floating button (+86 185 6153 4326)
 - [x] Navigation restructured (Forum, Blog in header; policies in footer)
 - [x] Google Search Console verified, sitemap.xml submitted (66 URLs)
 - [x] GEO optimization: FAQ schema, brand knowledge page, structured data

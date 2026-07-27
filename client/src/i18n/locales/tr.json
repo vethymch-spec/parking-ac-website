@@ -2,9 +2,9 @@
   "nav": {
     "home": "Ana Sayfa",
     "products": "Ürünler",
-    "topMountedAC": "Tavan Tipi Klima",
-    "miniSplitAC": "Mini Split Klima",
-    "heatingCoolingAC": "Isıtma/Soğutma Kliması",
+    "topMountedAC": "Tavan Klima",
+    "miniSplitAC": "Mini Split",
+    "heatingCoolingAC": "Isıtma/Soğutma",
     "allProducts": "Tüm Ürünler",
     "forum": "Forum",
     "blog": "Blog",
@@ -18,10 +18,10 @@
     "logout": "Çıkış"
   },
   "hero": {
-    "title": "Off-Grid Yaşam ve Mobil Konfor için Park Kliması",
-    "subtitle": "Semi kamyonlar, RV'ler, vanlar ve kampçılar için 12V ve 24V DC rölantisiz park kliması — Rölantisiz serinlik",
-    "ctaPrimary": "Ürünleri Satın Al",
-    "ctaSecondary": "Daha Fazla Bilgi",
+    "title": "Kamyonlar, Karavanlar, Vanlar ve Filolar için 12V/24V Park Klimaları",
+    "subtitle": "CoolDrivePro, yarı kamyonlar, RV'ler, kamyonetler, karavanlar, filolar, bayiler ve kurulumcular için 12V/24V DC park klimaları ve boşta olmayan soğutma sistemleri üretir — B2B fiyatlandırması, ABD merkezli garanti desteği ve donanım rehberliği ile.",
+    "ctaPrimary": "Fitment Önerisi Alın",
+    "ctaSecondary": "Bayi Teklifi İste",
     "badge": "Yeni Gelen",
     "trustedBy": "Dünya çapında 10.000'den fazla sürücü tarafından güvenilir"
   },
@@ -36,7 +36,7 @@
     "features": "Özellikler",
     "reviews": "Müşteri Yorumları",
     "warranty": "Garanti",
-    "freeShipping": "Ücretsiz Kargo",
+    "freeShipping": "Fatura desteği",
     "support": "7/24 Destek",
     "topMounted": {
       "title": "Tavan Tipi Park Kliması 12000 BTU",
@@ -46,8 +46,8 @@
       "coverage": "80 metrekareye kadar soğutur"
     },
     "miniSplit": {
-      "title": "Mini Split Park Kliması 12000 BTU",
-      "subtitle": "Semi kamyonlar ve RV'ler için 12V DC rölantisiz klima",
+      "title": "Yarı Yataklı Kabinler ve Karavanlar için 12V/24V Mini Bölünmüş Park Kliması",
+      "subtitle": "CoolDrivePro VX3000SP, yarı yataklı kabinler, karavanlar, vanlar ve karavanlar için 12.000 BTU/saat boşta soğutma sağlamayan 12V/24V DC mini split park klimasıdır.İç mekan buharlaştırıcı, GMCC çift döner invertör kompresörü kullanarak ≤32 dB'de çalışır, böylece sürücüler park halindeki gece boyunca motoru rölantide çalıştırmadan uyuyabilirler.",
       "btu": "12.000 BTU",
       "voltage": "12V DC",
       "runtime": "8–10 saat",
@@ -59,14 +59,19 @@
       "specifications": "Özellikler",
       "reviews": "Müşteri Yorumları",
       "faq": "SSS",
-      "freeShipping": "Ücretsiz Kargo",
-      "warranty": "2 Yıl Garanti",
+      "freeShipping": "Fatura desteği",
+      "warranty": "1 Yıllık Garanti",
       "returns": "30 Gün İade",
       "inStock": "Stokta",
       "outOfStock": "Stokta Yok",
       "quantity": "Miktar",
       "techSpecs": "Teknik Özellikler",
-      "relatedProducts": "Bunlar da Hoşunuza Gidebilir"
+      "relatedProducts": "Bunlar da Hoşunuza Gidebilir",
+      "warrantyDesc": "Malzeme ve işçilik kusurlarını kapsayan 1 yıllık üretici garantisi."
+    },
+    "heatingCoolingAC": {
+      "title": "Kamyon ve Karavanlar için 12V/24V Isıtma ve Soğutma Park Kliması",
+      "subtitle": "CoolDrivePro V-TH1, yarı kamyonlar, karavanlar, kamyonetler ve özel araçlar için 2.000 W soğutma ve ısıtma sağlayan 12V/24V DC ısı pompalı park klimasıdır.R134a soğutucu akışkanlı bir GMCC çift döner kompresör kullanır ve kabin sıcaklığını yaklaşık 30 dakikada 5°C'den 30°C'ye yükseltebilir; motor rölantide çalışmaz ve kıyı gücüne gerek kalmaz."
     }
   },
   "features": {
@@ -127,5 +132,10 @@
     "cancel": "İptal",
     "posting": "Gönderiliyor...",
     "model": "Model"
+  },
+  "shopWithUs": {
+    "warranty": {
+      "title": "1 Yıllık Garanti"
+    }
   }
 }
