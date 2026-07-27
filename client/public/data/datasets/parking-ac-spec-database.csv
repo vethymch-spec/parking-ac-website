@@ -1,0 +1,10 @@
+slug,brand,model,btu,voltage,form_factor,compressor_type,refrigerant,cop_eer,noise_db,weight_kg,battery_draw_amps,price_usd_low,price_usd_high,warranty_years,notes
+vs02-pro,CoolDrivePro,VS02 PRO,12000,12V/24V,Top-Mounted Rooftop,BLDC Dual-Rotary,R32,3.05,52,29,28-32,1500,2200,3,Built-in heat dissipation; ideal Class 8 sleeper
+vx3000sp,CoolDrivePro,VX3000SP,12000,12V/24V,Mini Split,BLDC Dual-Rotary,R32,3.10,49,34,30-34,1800,2500,3,Modular; ideal RV and custom installs
+v-th1,CoolDrivePro,V-TH1,9500,12V/24V,Heat Pump Split,BLDC Inverter,R32,2.95,50,28,26-30,1400,2100,3,Cooling and heating in one unit
+nano-max,CoolDrivePro,Nano Max,10000,12V/24V,Compact Rooftop,BLDC Dual-Rotary,R134A,2.85,48,27,18-35,900,1400,1,Light-duty trucks and vans
+dometic-rtx-2000,Dometic,RTX 2000,7050,12V/24V,Rooftop,BLDC,R134a,2.70,55,33,28-33,2500,3200,2,Established brand; higher noise
+webasto-cool-top-trail-20,Webasto,Cool Top Trail 20,2000W,24V,Rooftop,Reciprocating,R134a,2.60,56,40,30-35,2800,3600,2,Heavy commercial focus
+rigmaster-t-series,RigMaster,T Series,13500,12V,Rooftop with Diesel,Diesel APU,R134a,n/a (diesel),65,165,n/a (fuel-based),9000,12000,2,Diesel APU not battery; comparison reference only
+indel-b-sleeping-well-oblo,Indel B,Sleeping Well Oblo,950W,12V/24V,Rooftop Compact,BLDC,R134a,2.65,54,28,25-30,1700,2400,2,EU market focused
+carrier-comfort-pro-apu-ac,Carrier,Comfort Pro APU-AC,8000,12V,Inside Cabin,Reciprocating,R134a,2.50,58,36,32-38,2200,3000,1,Older design; declining market share

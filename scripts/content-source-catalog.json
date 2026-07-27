@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "company-spec-database",
+      "kind": "company",
+      "title": "CoolDrivePro Parking Air Conditioner Spec Database 2026",
+      "localPath": "client/public/data/datasets/parking-ac-spec-database.json",
+      "url": "https://cooldrivepro.com/data/datasets/parking-ac-spec-database.json",
+      "evidenceLevel": "company",
+      "license": "CC-BY-4.0",
+      "usage": "Use only the specifications, price ranges, and model comparisons explicitly present in this dataset."
+    },
+    {
+      "id": "company-state-idling-dataset",
+      "kind": "company",
+      "title": "CoolDrivePro US Anti-Idling Laws by State Dataset",
+      "localPath": "client/public/data/datasets/us-anti-idling-laws-by-state.csv",
+      "url": "https://cooldrivepro.com/data/datasets/us-anti-idling-laws-by-state.csv",
+      "evidenceLevel": "company",
+      "license": "CC-BY-4.0",
+      "usage": "Use as a planning aid. Confirm regulatory claims against the linked primary government source before publication."
+    },
+    {
+      "id": "doe-idle-reduction",
+      "kind": "network",
+      "publisher": "US Department of Energy Alternative Fuels Data Center",
+      "title": "Idle Reduction Basics",
+      "url": "https://afdc.energy.gov/conserve/idle-reduction-basics",
+      "evidenceLevel": "government",
+      "usage": "Use for general heavy-duty idle-reduction context and clearly attribute government claims."
+    },
+    {
+      "id": "doe-idle-regulations",
+      "kind": "network",
+      "publisher": "US Department of Energy Alternative Fuels Data Center",
+      "title": "Idle Reduction Laws and Incentives",
+      "url": "https://afdc.energy.gov/fuels/laws/IR?state=US",
+      "evidenceLevel": "government",
+      "usage": "Use for state-level idling regulation context. Do not replace the relevant state or local primary rule where one is needed."
+    },
+    {
+      "id": "doe-idle-equipment",
+      "kind": "network",
+      "publisher": "US Department of Energy Alternative Fuels Data Center",
+      "title": "Idle Reduction Equipment for Heavy-Duty Trucks",
+      "url": "https://afdc.energy.gov/conserve/idle-reduction-equipment",
+      "evidenceLevel": "government",
+      "usage": "Use for heavy-duty idle-reduction equipment context only."
+    },
+    {
+      "id": "carb-commercial-idling",
+      "kind": "network",
+      "publisher": "California Air Resources Board",
+      "title": "Commercial Vehicle Idling",
+      "url": "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling",
+      "evidenceLevel": "primary",
+      "allowBotBlocked": true,
+      "usage": "Use for California-specific commercial vehicle idling context and link readers to the official rule."
+    },
+    {
+      "id": "nrel-pvwatts",
+      "kind": "network",
+      "publisher": "National Renewable Energy Laboratory",
+      "title": "PVWatts Calculator",
+      "url": "https://pvwatts.nrel.gov/",
+      "evidenceLevel": "government",
+      "remoteCheck": "manual",
+      "usage": "Use for solar-production methodology and calculator context. Do not claim a location-specific output without a documented calculation."
+    },
+    {
+      "id": "epa-mvac-service",
+      "kind": "network",
+      "publisher": "US Environmental Protection Agency",
+      "title": "Motor Vehicle Air Conditioner System Servicing",
+      "url": "https://www.epa.gov/mvac",
+      "evidenceLevel": "government",
+      "usage": "Use for motor-vehicle refrigerant service context. Do not provide certification or legal advice."
+    },
+    {
+      "id": "argonne-truck-idling",
+      "kind": "network",
+      "publisher": "Argonne National Laboratory",
+      "title": "Long-Haul Truck Idling Burns Fuel and Money",
+      "url": "https://www.anl.gov/article/longhaul-truck-idling-burns-fuel-and-money",
+      "evidenceLevel": "government",
+      "usage": "Use for attributed fleet idle-cost context, not as a universal cost guarantee."
+    },
+    {
+      "id": "atri-trucking-costs",
+      "kind": "network",
+      "publisher": "American Transportation Research Institute",
+      "title": "An Analysis of the Operational Costs of Trucking",
+      "url": "https://truckingresearch.org/atri-research/operational-costs/",
+      "evidenceLevel": "industry",
+      "usage": "Use for attributed trucking-cost context and link to the current report."
+    }
+  ]
+}

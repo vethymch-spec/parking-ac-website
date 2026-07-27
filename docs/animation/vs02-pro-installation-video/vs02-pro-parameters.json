@@ -1,0 +1,89 @@
+{
+  "packageVersion": "0.1",
+  "brand": "CoolDrivePro",
+  "model": "VS02 PRO",
+  "videoTitle": "VS02 PRO Top-Mounted Parking AC Installation Guide",
+  "targetDurationSeconds": 30,
+  "fps": 24,
+  "frameEnd": 720,
+  "targetMarket": "United States",
+  "primaryUnits": "inch",
+  "secondaryUnits": "mm",
+  "mountingType": "rooftop",
+  "geometryPolicy": "Use converted VS02 PRO STP/CAD mesh for final product geometry. Procedural geometry is allowed only for animatic previews.",
+  "sourceCad": {
+    "preferredLocalPath": "/Users/mac/Desktop/cooldrivepro-素材/3d-models/VS02-PRO.stp",
+    "duplicateLocalPath": "/Users/mac/Desktop/cooldrivepro-素材/reference/vs02 pro汽车空调20230912(3).stp",
+    "convertedLiteObjPath": "/Users/mac/Desktop/cooldrivepro-素材/3d-models/VS02-PRO-lite.obj",
+    "convertedHeroObjPath": "/Users/mac/Desktop/cooldrivepro-素材/3d-models/VS02-PRO-hero.obj",
+    "sha256": "b2ac025d6728f7b86c748c880033a2b958ef9111cea74c03935f81e2e60a159d",
+    "status": "STP files are identical; converted OBJ files are available in the external素材 directory. Use the lite OBJ for animation previews and the hero OBJ for higher-detail stills."
+  },
+  "truckScene": {
+    "blendPath": "/Users/mac/Desktop/卡车3d模型/volvo-fh-16/source/volvo_fh 16 460hp.blend",
+    "description": "Volvo FH 16 truck cab model found on the Desktop.",
+    "installPoint": {
+      "x": 0,
+      "y": 2.32,
+      "roofZ": 4.32,
+      "note": "Approximate centered roof position from the truck model bounds. Fine-tune after visual review."
+    }
+  },
+  "exteriorDimensions": {
+    "mm": {
+      "frontBackLength": 980,
+      "leftRightWidth": 680,
+      "height": 190,
+      "label": "980 x 680 x 190 mm"
+    },
+    "orientation": "The 980 mm dimension is treated as front-to-back on the vehicle roof. The 680 mm dimension is treated as left-to-right. The 190 mm dimension is product height above roof.",
+    "topDetail": "Dual condenser fan area on the upper shell; cable connection is shown toward the rear."
+  },
+  "roofOpening": {
+    "mm": {
+      "width": 356,
+      "length": 356,
+      "label": "356 x 356 mm"
+    },
+    "inch": {
+      "width": 14,
+      "length": 14,
+      "label": "14 x 14 in"
+    },
+    "message": "Use the standard 14 in / 356 mm square roof opening and verify the roof area is structurally clear before cutting."
+  },
+  "installationSteps": [
+    "Show final installed interior air outlet first",
+    "Show VS02 PRO on the roof with the front-to-back orientation",
+    "Measure and confirm the 14 x 14 in / 356 mm roof opening",
+    "Clean roof surface and avoid reinforcement beams",
+    "Apply foam gasket or butyl seal around the opening",
+    "Lower the exterior unit straight down and centered",
+    "Install interior mounting frame and tighten four bolts in a cross pattern",
+    "Connect 12V/24V DC power with fuse protection near the battery",
+    "Power on and confirm cool airflow"
+  ],
+  "mounting": {
+    "boltCount": 4,
+    "tighteningPattern": "cross pattern",
+    "productPageTorqueNm": 25,
+    "installArticleTorqueFtLb": 18
+  },
+  "electrical": {
+    "voltage": "12V/24V DC",
+    "productPageFuse": "30A inline fuse within 18 in of the battery",
+    "onscreenRule": "Place fuse protection near the battery before testing."
+  },
+  "safetyLabels": [
+    "Disconnect vehicle power before wiring",
+    "Confirm roof structure before cutting",
+    "Keep gasket surface clean and dry",
+    "Tighten bolts evenly in a cross pattern",
+    "Place fuse protection near the battery"
+  ],
+  "shotStyle": {
+    "opening": "Start with the finished installed look, then explain the work.",
+    "pace": "Clean, practical, product-forward, readable at mobile size.",
+    "differentiator": "Make the 14 x 14 in roof opening, four-bolt mounting, and fused DC power path unmistakable."
+  }
+}

@@ -1,0 +1,1325 @@
+{
+  "_comment": "Static page SEO meta — 30 languages × 10 pages. Used by scripts/prerender.mjs.",
+  "/tools/parking-ac-fitment-planner": {
+    "en": {
+      "title": "Parking AC Fitment Planner | Find the Right 12V/24V Product Path - CoolDrivePro",
+      "desc": "Select your vehicle and operating goal for a CoolDrivePro parking AC product path, then record the 12V/24V system for final wiring and battery fitment confirmation.",
+      "langs": ["en"]
+    }
+  },
+  "/": {
+    "en": {
+      "title": "12V/24V Parking Air Conditioners for Trucks, RVs and Fleets | CoolDrivePro",
+      "desc": "CoolDrivePro builds 12V/24V DC parking air conditioners and no-idle cooling systems for semi trucks, RVs, vans, campers, fleets, dealers and installers — with B2B pricing, US-based warranty support and fitment guidance."
+    },
+    "zh-CN": {
+      "title": "适用于卡车、RV 和车队的 12V/24V 停车空调 |CoolDrivePro",
+      "desc": "CoolDrivePro 为半挂卡车、RV、货车、露营车、车队、经销商和安装商打造 12V/24V DC 停车空调和无怠速冷却系统 - 提供 B2B 定价、美国保修支持和安装指导。"
+    },
+    "zh-TW": {
+      "title": "卡車、RV 和車隊的 12V/24V 停車空調 | CoolDrivePro",
+      "desc": "CoolDrivePro 為半掛卡車、RV、貨車、露營車、車隊、經銷商和安裝商打造 12V/24V DC 停車空調和無怠速冷卻系統 - 提供 B2B 定價、美國保固支援和安裝指引。"
+    },
+    "ja": {
+      "title": "12V/24V トラック、RV、車両用パーキングエアコン |CoolDrivePro",
+      "desc": "CoolDrivePro は、セミトラック、RV、バン、キャンピングカー、フリート、ディーラー、設置業者向けの 12V/24V DC パーキング エアコンとノーアイドリング冷却システムを構築します。B2B 価格設定、米国ベースの保証サポート、および取り付けガイダンスが提供されます。"
+    },
+    "ko": {
+      "title": "트럭, RVs 및 차량용 12V/24V 주차 에어컨 |CoolDrivePro",
+      "desc": "CoolDrivePro은 B2B 가격, 미국 기반 보증 지원 및 부속품 안내를 통해 세미 트럭, RV, 밴, 캠핑카, 차량, 딜러 및 설치업체를 위한 12V/24V DC 주차 에어컨 및 공회전 없는 냉각 시스템을 구축합니다."
+    },
+    "de": {
+      "title": "12V/24V Parkklimaanlagen für LKW, RV und Flotten |CoolDrivePro",
+      "desc": "CoolDrivePro baut Parkklimaanlagen 12V/24V DC und Leerlaufkühlsysteme für Sattelschlepper, RV, Transporter, Wohnmobile, Flotten, Händler und Installateure – mit B2B-Preisen, Garantieunterstützung in den USA und Einbauberatung."
+    },
+    "fr": {
+      "title": "Climatiseurs de stationnement 12V/24V pour camions, RV et flottes |CoolDrivePro",
+      "desc": "CoolDrivePro fabrique des climatiseurs de stationnement 12V/24V DC et des systèmes de refroidissement sans ralenti pour les semi-remorques, les RV, les fourgonnettes, les camping-cars, les flottes, les concessionnaires et les installateurs — avec des tarifs B2B, une assistance sous garantie basée aux États-Unis et des conseils d'installation."
+    },
+    "es": {
+      "title": "Aires acondicionados de estacionamiento 12V/24V para camiones, RV y flotas |CoolDrivePro",
+      "desc": "CoolDrivePro fabrica aires acondicionados de estacionamiento 12V/24V DC y sistemas de refrigeración sin ralentí para semirremolques, RV, furgonetas, caravanas, flotas, distribuidores e instaladores, con precios B2B, soporte de garantía con sede en EE. UU. y orientación sobre instalación."
+    },
+    "it": {
+      "title": "12V/24V Climatizzatori da parcheggio per camion, RV e flotte |CoolDrivePro",
+      "desc": "CoolDrivePro costruisce condizionatori da parcheggio 12V/24V DC e sistemi di raffreddamento senza inattività per semirimorchi, RV, furgoni, camper, flotte, rivenditori e installatori, con prezzi B2B, supporto in garanzia con sede negli Stati Uniti e guida al montaggio."
+    },
+    "pt": {
+      "title": "12V/24V Ar condicionado de estacionamento para caminhões, RVs e frotas |CoolDrivePro",
+      "desc": "CoolDrivePro constrói condicionadores de ar de estacionamento 12V/24V DC e sistemas de resfriamento sem inatividade para semi-caminhões, RVs, vans, campistas, frotas, revendedores e instaladores - com preços B2B, suporte de garantia baseado nos EUA e orientação de instalação."
+    },
+    "ru": {
+      "title": "12V/24V Парковочные кондиционеры для грузовых автомобилей, RV и автопарков |CoolDrivePro",
+      "desc": "CoolDrivePro производит парковочные кондиционеры 12V/24V DC и системы охлаждения без холостого хода для полуприцепов, RV, фургонов, кемперов, автопарков, дилеров и монтажников — с ценами B2B, гарантийной поддержкой в ​​США и рекомендациями по установке."
+    },
+    "ar": {
+      "title": "مكيفات هواء مواقف الشاحنات 12V/24V، RVs والأساطيل |CoolDrivePro",
+      "desc": "تقوم CoolDrivePro ببناء مكيفات هواء مواقف السيارات 12V/24V DC وأنظمة التبريد غير الخاملة لشبه الشاحنات وRVs والشاحنات الصغيرة والمعسكرات والأساطيل والتجار والقائمين بالتركيب - مع تسعير B2B ودعم الضمان في الولايات المتحدة وتوجيهات الإعداد."
+    },
+    "hi": {
+      "title": "ट्रकों, RVs और बेड़े के लिए 12V/24V पार्किंग एयर कंडीशनर |CoolDrivePro",
+      "desc": "CoolDrivePro सेमी ट्रकों, RVs, वैन, कैंपर, बेड़े, डीलरों और इंस्टॉलरों के लिए 12V/24V DC पार्किंग एयर कंडीशनर और नो-आइडल कूलिंग सिस्टम बनाता है - B2B मूल्य निर्धारण, यूएस-आधारित वारंटी समर्थन और फिटमेंट मार्गदर्शन के साथ।"
+    },
+    "th": {
+      "title": "12V/24V เครื่องปรับอากาศที่จอดรถสำหรับรถบรรทุก RV และกลุ่มยานพาหนะ |CoolDrivePro",
+      "desc": "CoolDrivePro สร้างเครื่องปรับอากาศในที่จอดรถ 12V/24V DC และระบบทำความเย็นแบบเดินเบาสำหรับรถบรรทุกกึ่ง รถบรรทุก RV รถตู้ รถแคมป์ ยานพาหนะ ตัวแทนจำหน่าย และผู้ติดตั้ง โดยมีราคาแบบ B2B การสนับสนุนการรับประกันตามสหรัฐอเมริกา และคำแนะนำในการติดตั้ง"
+    },
+    "vi": {
+      "title": "Máy điều hòa không khí đỗ xe 12V/24V cho xe tải, RV và đội xe |CoolDrivePro",
+      "desc": "CoolDrivePro chế tạo máy điều hòa không khí đỗ xe 12V/24V DC và hệ thống làm mát không tải cho xe bán tải, RV, xe tải, xe cắm trại, đội xe, đại lý và người lắp đặt — với mức giá B2B, hỗ trợ bảo hành và hướng dẫn lắp đặt tại Hoa Kỳ."
+    },
+    "id": {
+      "title": "AC Parkir 12V/24V untuk Truk, RV dan Armada |CoolDrivePro",
+      "desc": "CoolDrivePro membuat AC parkir 12V/24V DC dan sistem pendingin tanpa idle untuk semi truk, RV, van, camper, armada, dealer, dan pemasang — dengan harga B2B, dukungan garansi yang berbasis di AS, dan panduan pemasangan."
+    },
+    "tr": {
+      "title": "Kamyonlar, RV'ler ve Filolar için 12V/24V Park Klimaları |CoolDrivePro",
+      "desc": "CoolDrivePro, yarı kamyonlar, RV'ler, kamyonetler, karavanlar, filolar, bayiler ve kurulumcular için 12V/24V DC park klimaları ve boşta olmayan soğutma sistemleri üretir — B2B fiyatlandırması, ABD merkezli garanti desteği ve donanım rehberliği ile."
+    },
+    "pl": {
+      "title": "12V/24V Klimatyzatory postojowe dla ciężarówek, RV i flot |CoolDrivePro",
+      "desc": "CoolDrivePro produkuje klimatyzatory postojowe 12V/24V DC i systemy chłodzenia bez biegu jałowego do naczep, RV, samochodów dostawczych, kamperów, flot, dealerów i instalatorów – z cenami B2B, wsparciem gwarancyjnym w USA i wskazówkami dotyczącymi montażu."
+    },
+    "nl": {
+      "title": "12V/24V parkeerairconditioners voor vrachtwagens, RV's en wagenparken |CoolDrivePro",
+      "desc": "CoolDrivePro bouwt 12V/24V DC parkeerairconditioners en niet-stationair koelsystemen voor semi-vrachtwagens, RV's, bestelwagens, campers, wagenparken, dealers en installateurs - met B2B-prijzen, Amerikaanse garantieondersteuning en montagebegeleiding."
+    },
+    "sv": {
+      "title": "12V/24V Parkeringsluftkonditionering för lastbilar, RV och flottor |CoolDrivePro",
+      "desc": "CoolDrivePro bygger 12V/24V DC parkeringsklimatanläggningar och kylsystem utan tomgång för semi-lastbilar, RVs, skåpbilar, husbilar, flottor, återförsäljare och installatörer — med B2B-priser, USA-baserad garantisupport och monteringsvägledning."
+    },
+    "no": {
+      "title": "12V/24V Parkeringsklimaanlegg for lastebiler, RVs og flåter |CoolDrivePro",
+      "desc": "CoolDrivePro bygger 12V/24V DC parkeringsklimaanlegg og kjølesystemer uten tomgang for semi-lastebiler, RVs, varebiler, bobiler, flåter, forhandlere og installatører – med B2B-priser, USA-basert garantistøtte og monteringsveiledning."
+    },
+    "da": {
+      "title": "12V/24V Parkeringsklimaanlæg til lastbiler, RV'ere og flåder |CoolDrivePro",
+      "desc": "CoolDrivePro bygger 12V/24V DC parkeringsklimaanlæg og kølesystemer uden tomgang til semi-lastbiler, RV'er, varevogne, autocampere, flåder, forhandlere og installatører - med B2B-priser, USA-baseret garantisupport og monteringsvejledning."
+    },
+    "fi": {
+      "title": "12V/24V-pysäköinti-ilmastointilaitteet kuorma-autoille, RV-autoille ja kalustoille |CoolDrivePro",
+      "desc": "CoolDrivePro rakentaa 12V/24V DC -pysäköintiilmastointilaitteita ja tyhjäkäynnillä olevia jäähdytysjärjestelmiä puolikuorma-autoille, RV-autoille, pakettiautoille, asuntovaunuille, kalustoille, jälleenmyyjille ja asentajille – B2B-hinnoittelulla, yhdysvaltalaisella takuutuella ja asennusohjeilla."
+    },
+    "el": {
+      "title": "12V/24V Κλιματιστικά στάθμευσης για φορτηγά, RV και στόλους |CoolDrivePro",
+      "desc": "Η CoolDrivePro κατασκευάζει κλιματιστικά στάθμευσης 12V/24V DC και συστήματα ψύξης χωρίς ρελαντί για ημιφορτηγά, RV, φορτηγά, τροχόσπιτα, στόλους, αντιπροσώπους και εγκαταστάτες — με τιμολόγηση B2B, υποστήριξη εγγύησης βάσει των ΗΠΑ και καθοδήγηση τοποθέτησης."
+    },
+    "cs": {
+      "title": "Parkovací klimatizace 12V/24V pro nákladní automobily, RV a vozové parky |CoolDrivePro",
+      "desc": "CoolDrivePro vyrábí parkovací klimatizaci 12V/24V DC a chladicí systémy bez nečinnosti pro návěsy, RV, dodávky, obytné vozy, vozové parky, prodejce a montážní firmy – s cenami B2B, záruční podporou v USA a pokyny pro montáž."
+    },
+    "hu": {
+      "title": "12V/24V parkoló légkondicionálók teherautók, RV és flották számára |CoolDrivePro",
+      "desc": "A CoolDrivePro 12V/24V DC parkolóklímákat és üresjárati hűtőrendszereket gyárt félteherautókhoz, RV-höz, furgonokhoz, lakóautókhoz, flottákhoz, kereskedőkhöz és szerelőkhöz – B2B árazással, USA-beli garanciális támogatással és felszerelési útmutatóval."
+    },
+    "ro": {
+      "title": "12V/24V Aer condiționat de parcare pentru camioane, RV și flote |CoolDrivePro",
+      "desc": "CoolDrivePro construiește aparate de aer condiționat de parcare 12V/24V DC și sisteme de răcire fără ralanti pentru semi-camioane, RV, camionete, rulote, flote, dealeri și instalatori - cu prețuri B2B, asistență în garanție din SUA și îndrumări de montaj."
+    },
+    "uk": {
+      "title": "Паркувальні кондиціонери 12V/24V для вантажівок, RV і автопарків |CoolDrivePro",
+      "desc": "CoolDrivePro створює паркувальні кондиціонери 12V/24V DC і системи охолодження без холостого ходу для напіввантажівок, RV, фургонів, кемперів, автопарків, дилерів і установників — із ціноутворенням B2B, гарантійною підтримкою в США та інструкціями щодо встановлення."
+    },
+    "he": {
+      "title": "מזגני חניה 12V/24V למשאיות, RV וציי רכב |CoolDrivePro",
+      "desc": "CoolDrivePro בונה מזגני חניה 12V/24V DC ומערכות קירור ללא סרק עבור משאיות למחצה, RVs, טנדרים, חניכים, ציי רכב, סוחרים ומתקינים - עם תמחור B2B, תמיכה באחריות מבוססת ארה\"ב והנחיית התאמה."
+    },
+    "ms": {
+      "title": "12V/24V Parking Penyaman Udara untuk Lori, RV dan Armada |CoolDrivePro",
+      "desc": "CoolDrivePro membina penghawa dingin tempat letak kereta 12V/24V DC dan sistem penyejukan tanpa melahu untuk trak separuh, RV, van, perkhemahan, armada, pengedar dan pemasang — dengan penetapan harga B2B, sokongan waranti berasaskan AS dan panduan kesesuaian."
+    }
+  },
+  "/products": {
+    "en": {
+      "title": "12V Air Conditioner & Truck AC Units | Parking AC Products - CoolDrivePro",
+      "desc": "Compare 12V air conditioner, 24V truck AC unit, rooftop parking AC, mini split AC, compact no-idle AC and heating/cooling models for trucks, RVs and vans."
+    },
+    "zh-CN": {
+      "title": "驻车空调产品 | 12V 24V 卡车房车空调 - CoolDrivePro",
+      "desc": "浏览全系列 12V/24V 驻车空调，适用于半挂卡车、房车和面包车。包含顶置式、分体式、冷暖一体和紧凑型机型。"
+    },
+    "zh-TW": {
+      "title": "駐車空調產品 | 12V 24V 卡車房車空調 - CoolDrivePro",
+      "desc": "瀏覽全系列 12V/24V 駐車空調，適用於半掛卡車、房車和廂型車。包含頂置式、分體式、冷暖一體和緊湊型機型。"
+    },
+    "ja": {
+      "title": "駐車エアコン製品 | 12V 24V トラック・RV用 - CoolDrivePro",
+      "desc": "セミトラック、RV、バン向け12V/24V駐車エアコン製品をご覧ください。ルーフ搭載型、分離型、冷暖房一体型、コンパクト型を取り揃え。"
+    },
+    "ko": {
+      "title": "주차 에어컨 제품 | 12V 24V 트럭·RV용 - CoolDrivePro",
+      "desc": "세미 트럭, RV, 밴용 12V/24V 주차 에어컨 전체 카탈로그. 상단 장착형, 미니 스플릿, 냉난방 일체형, 컴팩트 모델 보유."
+    },
+    "de": {
+      "title": "Standklimaanlagen-Produkte | 12V 24V LKW & Wohnmobil - CoolDrivePro",
+      "desc": "Vollständiger Katalog 12V/24V Standklimaanlagen für Sattelschlepper, Wohnmobile und Vans. Dachmontage, Mini-Split, Heiz-/Kühlbetrieb und Kompaktmodelle."
+    },
+    "fr": {
+      "title": "Produits Climatisation Stationnement | 12V 24V Camion & Camping-car - CoolDrivePro",
+      "desc": "Catalogue complet de climatiseurs de stationnement 12V/24V pour semi-remorques, camping-cars et vans. Modèles toit, mini-split, chaud/froid et compacts."
+    },
+    "es": {
+      "title": "Productos AC Estacionamiento | 12V 24V Camión & RV - CoolDrivePro",
+      "desc": "Catálogo completo de aires acondicionados de estacionamiento 12V/24V para camiones, RVs y furgonetas. Techo, mini split, calefacción/refrigeración y compactos."
+    },
+    "it": {
+      "title": "Prodotti Condizionatore per Parcheggio | 12V 24V Camion & Camper - CoolDrivePro",
+      "desc": "Catalogo completo di condizionatori da parcheggio 12V/24V per camion, camper e furgoni. Modelli a tetto, mini split, riscaldamento/raffreddamento e compatti."
+    },
+    "pt": {
+      "title": "Produtos AC Estacionamento | 12V 24V Caminhão & RV - CoolDrivePro",
+      "desc": "Catálogo completo de ar condicionado de estacionamento 12V/24V para caminhões, RVs e vans. Modelos de teto, mini split, aquecimento/refrigeração e compactos."
+    },
+    "ru": {
+      "title": "Продукция Стояночных Кондиционеров | 12V 24V Грузовик & RV - CoolDrivePro",
+      "desc": "Полный каталог стояночных кондиционеров 12V/24V для грузовиков, домов на колесах и фургонов. Крышные, сплит, тепло/холод и компактные модели."
+    },
+    "ar": {
+      "title": "منتجات مكيف وقوف السيارات | 12V 24V للشاحنات والمنازل المتنقلة - CoolDrivePro",
+      "desc": "كتالوج كامل لمكيفات وقوف السيارات 12V/24V للشاحنات والمنازل المتنقلة والفانات. طرازات سقفية، سبليت، تسخين/تبريد ومدمجة."
+    },
+    "hi": {
+      "title": "पार्किंग AC उत्पाद | 12V 24V ट्रक और RV एयर कंडीशनर - CoolDrivePro",
+      "desc": "सेमी ट्रक, RV और वैन के लिए 12V/24V पार्किंग AC का पूरा कैटलॉग। टॉप-माउंटेड, मिनी स्प्लिट, हीटिंग/कूलिंग और कॉम्पैक्ट मॉडल।"
+    },
+    "th": {
+      "title": "ผลิตภัณฑ์แอร์จอดรถ | 12V 24V สำหรับรถบรรทุกและ RV - CoolDrivePro",
+      "desc": "แคตตาล็อกแอร์จอดรถ 12V/24V ครบทุกรุ่น สำหรับรถบรรทุก, RV และรถตู้ มีรุ่นติดหลังคา, มินิสปลิต, เย็นร้อน และคอมแพค"
+    },
+    "vi": {
+      "title": "Sản Phẩm Máy Lạnh Đỗ Xe | 12V 24V Cho Xe Tải & RV - CoolDrivePro",
+      "desc": "Danh mục đầy đủ máy lạnh đỗ xe 12V/24V cho xe tải, RV và van. Mẫu lắp nóc, mini split, sưởi/lạnh và nhỏ gọn."
+    },
+    "id": {
+      "title": "Produk AC Parkir | 12V 24V untuk Truk & RV - CoolDrivePro",
+      "desc": "Katalog lengkap AC parkir 12V/24V untuk truk semi, RV dan van. Model atap, mini split, pemanas/pendingin dan kompak."
+    },
+    "tr": {
+      "title": "Park Kliması Ürünleri | 12V 24V Kamyon & RV - CoolDrivePro",
+      "desc": "Tır, RV ve minibüsler için 12V/24V park kliması ürünleri. Çatı tipi, mini split, ısıtma/soğutma ve kompakt modeller."
+    },
+    "pl": {
+      "title": "Produkty Klimatyzacji Postojowej | 12V 24V Ciężarówka & Kamper - CoolDrivePro",
+      "desc": "Pełny katalog klimatyzacji postojowej 12V/24V do ciężarówek, kamperów i busów. Modele dachowe, mini split, grzewczo-chłodzące i kompaktowe."
+    },
+    "nl": {
+      "title": "Parkeerairco Producten | 12V 24V Vrachtwagen & Camper - CoolDrivePro",
+      "desc": "Volledig assortiment 12V/24V parkeerairco's voor vrachtwagens, campers en busjes. Dak-, mini split-, verwarmings/koel- en compactmodellen."
+    },
+    "sv": {
+      "title": "Parkeringsklimat Produkter | 12V 24V Lastbil & Husbil - CoolDrivePro",
+      "desc": "Komplett sortiment 12V/24V parkeringsklimat för lastbilar, husbilar och skåpbilar. Tak-, mini split-, värme/kyl- och kompaktmodeller."
+    },
+    "no": {
+      "title": "Parkeringsklima Produkter | 12V 24V Lastebil & Bobil - CoolDrivePro",
+      "desc": "Komplett utvalg 12V/24V parkeringsklimaanlegg for lastebiler, bobiler og varebiler. Tak-, mini split-, varme/kjøle- og kompaktmodeller."
+    },
+    "da": {
+      "title": "Parkeringsklima Produkter | 12V 24V Lastbil & Autocamper - CoolDrivePro",
+      "desc": "Komplet sortiment 12V/24V parkeringsklimaanlæg til lastbiler, autocampere og varevogne. Tag-, mini split-, varme/køle- og kompaktmodeller."
+    },
+    "fi": {
+      "title": "Pysäköinti-ilmastointi Tuotteet | 12V 24V Rekka & Asuntoauto - CoolDrivePro",
+      "desc": "Täysi valikoima 12V/24V pysäköinti-ilmastointia rekoille, asuntoautoille ja pakettiautoille. Katto-, mini split-, lämmitys/jäähdytys- ja kompaktimallit."
+    },
+    "el": {
+      "title": "Προϊόντα Κλιματισμού Στάθμευσης | 12V 24V Φορτηγό & Τροχόσπιτο - CoolDrivePro",
+      "desc": "Πλήρης κατάλογος κλιματιστικών στάθμευσης 12V/24V για φορτηγά, τροχόσπιτα και βαν. Οροφής, mini split, θέρμανσης/ψύξης και συμπαγή μοντέλα."
+    },
+    "cs": {
+      "title": "Produkty Parkovací Klimatizace | 12V 24V Kamion & Obytný Vůz - CoolDrivePro",
+      "desc": "Kompletní katalog parkovacích klimatizací 12V/24V pro kamiony, obytné vozy a dodávky. Střešní, mini split, topení/chlazení a kompaktní modely."
+    },
+    "hu": {
+      "title": "Parkoló Klíma Termékek | 12V 24V Kamion & Lakóautó - CoolDrivePro",
+      "desc": "Teljes 12V/24V parkoló klíma katalógus kamionokhoz, lakóautókhoz és furgonokhoz. Tető-, mini split-, fűtés/hűtés- és kompakt modellek."
+    },
+    "ro": {
+      "title": "Produse Aer Condiționat de Parcare | 12V 24V Camion & RV - CoolDrivePro",
+      "desc": "Catalog complet de aer condiționat de parcare 12V/24V pentru camioane, RV-uri și dube. Modele de plafon, mini split, încălzire/răcire și compacte."
+    },
+    "uk": {
+      "title": "Продукція Стоянкових Кондиціонерів | 12V 24V Вантажівка & RV - CoolDrivePro",
+      "desc": "Повний каталог стоянкових кондиціонерів 12V/24V для вантажівок, будинків на колесах і фургонів. Дахові, спліт, тепло/холод і компактні моделі."
+    },
+    "he": {
+      "title": "מוצרי מזגן חניה | 12V 24V למשאיות וקרוואנים - CoolDrivePro",
+      "desc": "קטלוג מלא של מזגני חניה 12V/24V למשאיות, קרוואנים וטנדרים. דגמי גג, מיני ספליט, חימום/קירור ודגמים קומפקטיים."
+    },
+    "ms": {
+      "title": "Produk AC Parkir | 12V 24V untuk Trak & RV - CoolDrivePro",
+      "desc": "Katalog penuh AC parkir 12V/24V untuk trak, RV dan van. Model atas bumbung, mini split, pemanas/penyejuk dan padat."
+    }
+  },
+  "/products/top-mounted-ac": {
+    "en": {
+      "title": "12000 BTU Truck AC Unit | 12V/24V Rooftop Parking AC | CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO is a 12V/24V 12000 BTU rooftop parking AC for semi trucks, RVs, vans and campers. No-idle battery-powered cooling with ≤45 dB quiet operation, DC dual rotary compressor and dealer fitment support."
+    },
+    "zh-CN": {
+      "title": "12000 BTU 卡车空调装置 |12V/24V 屋顶停车场交流 |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO 是一款 12V/24V 12000 BTU 屋顶停车空调，适用于半挂卡车、房车、货车和露营车。无闲置电池供电冷却，运行噪音≤45 dB，直流双旋转压缩机和经销商配件支持。"
+    },
+    "zh-TW": {
+      "title": "12000 BTU 卡車空調裝置 | 12V/24V 屋頂停車場交流 | CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO 是一款 12V/24V 12000 BTU 屋頂停車空調，適用於半拖車、房車、貨車和露營車。無閒置電池供電冷卻，運轉噪音≤45 dB，直流雙旋轉壓縮機和經銷商配件支援。"
+    },
+    "ja": {
+      "title": "12000 BTU トラック AC ユニット |12V/24V 屋上パーキング AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO は、セミトラック、RV、バン、キャンピングカー用の 12V/24V 12000 BTU 屋上パーキング AC です。アイドル状態のないバッテリー駆動の冷却、45 dB 以下の静かな動作、DC デュアル ロータリー コンプレッサー、ディーラー装備のサポート。"
+    },
+    "ko": {
+      "title": "12000 BTU 트럭 AC 장치 |12V/24V 옥상 주차 AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO은 세미 트럭, RV, 밴 및 캠핑카용 12V/24V 12000 BTU 옥상 주차 AC입니다.45dB 이하의 조용한 작동, DC 듀얼 로터리 압축기 및 딜러 장착 지원을 갖춘 유휴 배터리 구동식 냉각입니다."
+    },
+    "de": {
+      "title": "12000 BTU LKW-Klimaanlage |12V/24V Dachparkplatz-Klimaanlage |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO ist eine 12V/24V 12000 BTU-Dachpark-Klimaanlage für Sattelschlepper, Wohnmobile, Transporter und Wohnmobile.Batteriebetriebene Kühlung ohne Leerlauf mit ≤45 dB leisem Betrieb, DC-Doppelrotationskompressor und Unterstützung beim Händlereinbau."
+    },
+    "fr": {
+      "title": "Unité AC pour camion de 12 000 BTU |Parking sur le toit 12 V/24 V AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO est un climatiseur de stationnement sur toit 12 V/24 V 12 000 BTU pour semi-camions, camping-cars, fourgonnettes et camping-cars.Refroidissement alimenté par batterie sans ralenti avec un fonctionnement silencieux ≤ 45 dB, un double compresseur rotatif CC et un support de montage chez le concessionnaire."
+    },
+    "es": {
+      "title": "Unidad de aire acondicionado para camión de 12000 BTU |Aire acondicionado para estacionamiento en la azotea de 12 V/24 V |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO es un aire acondicionado de estacionamiento en la azotea de 12 V/24 V y 12000 BTU para semirremolques, vehículos recreativos, furgonetas y campers.Refrigeración alimentada por batería sin inactividad con funcionamiento silencioso de ≤45 dB, compresor rotativo doble de CC y soporte de instalación del distribuidor."
+    },
+    "it": {
+      "title": "Unità AC per camion da 12000 BTU |Aria condizionata per parcheggio sul tetto 12V/24V |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO è un condizionatore da parcheggio sul tetto da 12 V/24 V 12000 BTU per semirimorchi, camper, furgoni e camper.Raffreddamento alimentato a batteria senza inattività con funzionamento silenzioso ≤45 dB, doppio compressore rotativo CC e supporto per il montaggio da parte del rivenditore."
+    },
+    "pt": {
+      "title": "Unidade CA de caminhão de 12.000 BTU |Estacionamento na cobertura 12V/24V AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO é um AC de estacionamento de cobertura de 12V/24V 12.000 BTU para semi-caminhões, trailers, vans e campistas.Resfriamento alimentado por bateria sem inatividade com operação silenciosa ≤45 dB, compressor rotativo duplo DC e suporte para instalação do revendedor."
+    },
+    "ru": {
+      "title": "Блок переменного тока для грузовых автомобилей мощностью 12000 БТЕ |12 В/24 В переменного тока для парковки на крыше |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO — это парковочный блок переменного тока на крыше с напряжением 12 В/24 В и мощностью 12 000 БТЕ для полуприцепов, внедорожников, фургонов и кемперов.Охлаждение без холостого хода с питанием от аккумулятора, бесшумная работа на уровне <45 дБ, двойной ротационный компрессор постоянного тока и поддержка дилерской установки."
+    },
+    "ar": {
+      "title": "وحدة تكييف شاحنة 12000 وحدة حرارية بريطانية |مكيف مواقف سيارات على السطح 12 فولت/24 فولت |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO عبارة عن مكيف هواء على السطح بقدرة 12 فولت/24 فولت بقدرة 12000 وحدة حرارية بريطانية لشبه الشاحنات والمركبات الترفيهية والشاحنات الصغيرة والمعسكرات.تبريد يعمل بالبطارية بدون خمول مع تشغيل هادئ ≥45 ديسيبل، وضاغط دوار مزدوج يعمل بالتيار المستمر ودعم تركيب الوكيل."
+    },
+    "hi": {
+      "title": "12000 बीटीयू ट्रक एसी यूनिट |12वी/24वी रूफटॉप पार्किंग एसी |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO सेमी ट्रक, आरवी, वैन और कैंपर्स के लिए एक 12V/24V 12000 BTU रूफटॉप पार्किंग एसी है।≤45 डीबी शांत संचालन, डीसी दोहरी रोटरी कंप्रेसर और डीलर फिटमेंट समर्थन के साथ नो-आइडल बैटरी चालित कूलिंग।"
+    },
+    "th": {
+      "title": "เครื่องปรับอากาศรถบรรทุก 12000 BTU |ไฟ AC ที่จอดรถบนดาดฟ้า 12V/24V |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO เป็นเครื่องปรับอากาศที่จอดรถบนดาดฟ้าขนาด 12V/24V 12000 BTU สำหรับรถบรรทุกกึ่งรถบรรทุก รถบ้าน รถตู้ และรถแคมป์การระบายความร้อนที่ใช้พลังงานแบตเตอรี่โดยไม่ต้องไม่ได้ใช้งานพร้อมการทำงานที่เงียบ ≤45 dB, คอมเพรสเซอร์โรตารี่คู่ DC และการสนับสนุนการติดตั้งตัวแทนจำหน่าย"
+    },
+    "vi": {
+      "title": "Bộ điều hòa xe tải 12000 BTU |Máy điều hòa đậu xe trên mái nhà 12V/24V |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO là máy điều hòa đậu xe trên sân thượng 12V/24V 12000 BTU dành cho xe bán tải, RV, xe tải và xe cắm trại.Làm mát không tải bằng pin với khả năng vận hành yên tĩnh 45 dB, máy nén quay kép DC và hỗ trợ phụ kiện của đại lý."
+    },
+    "id": {
+      "title": "Unit AC Truk 12000 BTU |AC Parkir Atap 12V/24V |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO adalah AC parkir rooftop 12V/24V 12000 BTU untuk semi truk, RV, van, dan camper.Pendinginan bertenaga baterai tanpa idle dengan pengoperasian senyap ≤45 dB, kompresor putar ganda DC, dan dukungan perlengkapan dealer."
+    },
+    "tr": {
+      "title": "12000 BTU Kamyon Klima Ünitesi |12V/24V Çatı Üstü Otopark Kliması |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO, yarı kamyonlar, karavanlar, vanlar ve karavanlar için 12V/24V 12000 BTU çatı üstü otopark klimasıdır.≤45 dB sessiz çalışma, DC çift döner kompresör ve bayi donanım desteği ile boşta olmayan pille çalışan soğutma."
+    },
+    "pl": {
+      "title": "Jednostka klimatyzacji do ciężarówek 12000 BTU |12V/24V Parking na dachu AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO to klimatyzator parkingowy na dachu 12V/24V 12000 BTU dla naczep, pojazdów kempingowych, samochodów dostawczych i kamperów.Chłodzenie zasilane akumulatorowo bez biegu jałowego, cicha praca ≤45 dB, podwójna sprężarka rotacyjna na prąd stały i możliwość montażu u dealera."
+    },
+    "nl": {
+      "title": "12000 BTU AC-eenheid voor vrachtwagens |12V/24V Parkeren op het dak AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO is een 12V/24V 12000 BTU AC-dakparkeerplaats voor semi-vrachtwagens, campers, bestelwagens en campers.Batterijgevoede koeling zonder stationair draaien, stille werking van ≤45 dB, DC dubbele roterende compressor en ondersteuning voor montage door dealer."
+    },
+    "sv": {
+      "title": "12000 BTU Truck AC Unit |12V/24V Takparkering AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO är en 12V/24V 12000 BTU takparkerings AC för semi-lastbilar, husbilar, skåpbilar och husbilar.Batteridriven kylning utan tomgång med ≤45 dB tyst drift, DC dubbel roterande kompressor och stöd för återförsäljarmontering."
+    },
+    "no": {
+      "title": "12000 BTU Truck AC Unit |12V/24V Takparkering AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO er en 12V/24V 12000 BTU takparkerings-AC for semi-lastebiler, bobiler, varebiler og bobiler.Batteridrevet kjøling uten tomgang med ≤45 dB stillegående drift, DC dobbel roterende kompressor og støtte for forhandlermontering."
+    },
+    "da": {
+      "title": "12000 BTU Truck AC Unit |12V/24V Tagparkering AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO er en 12V/24V 12000 BTU tagparkerings-AC til semi-lastbiler, autocampere, varevogne og autocampere.Batteridrevet køling uden tomgang med ≤45 dB støjsvag drift, DC dobbelt roterende kompressor og forhandlermonteringsstøtte."
+    },
+    "fi": {
+      "title": "12000 BTU Truck AC Unit |12V/24V Kattopysäköinti AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO on 12V/24V 12000 BTU kattopysäköinti AC puolikuorma-autoille, matkailuautoille, pakettiautoille ja matkailuautoille.Nollakäynnillä toimiva akkujäähdytys, ≤45 dB hiljainen toiminta, DC-kaksoiskiertokompressori ja jälleenmyyjän asennustuki."
+    },
+    "el": {
+      "title": "12000 BTU Truck Μονάδα AC |12V/24V Στάθμευση στον τελευταίο όροφο AC |CoolDrivePro",
+      "desc": "Το CoolDrivePro Το VS02 PRO είναι ένα AC στάθμευσης στον τελευταίο όροφο 12V/24V 12000 BTU για ημιφορτηγά, RV, φορτηγά και τροχόσπιτα.Ψύξη χωρίς μπαταρία ρελαντί με αθόρυβη λειτουργία ≤45 dB, διπλό περιστροφικό συμπιεστή DC και υποστήριξη τοποθέτησης αντιπροσώπου."
+    },
+    "cs": {
+      "title": "AC jednotka nákladního automobilu 12000 BTU |12V/24V Střešní parkování AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO je 12V/24V 12000 BTU střešní parkovací klimatizace pro návěsy, obytné vozy, dodávky a obytné vozy.Chlazení na baterie bez nečinnosti s tichým provozem ≤ 45 dB, DC duální rotační kompresor a podpora montáže prodejce."
+    },
+    "hu": {
+      "title": "12000 BTU teherautó AC egység |12V/24V tetőtéri parkoló AC |CoolDrivePro",
+      "desc": "CoolDrivePro A VS02 PRO egy 12V/24V 12000 BTU tetőtéri parkoló AC kamionokhoz, lakóautókhoz, furgonokhoz és lakóautókhoz.Üresjárati akkumulátoros hűtés ≤45 dB csendes működéssel, egyenáramú kettős forgókompresszorral és a kereskedő felszerelésének támogatásával."
+    },
+    "ro": {
+      "title": "Unitate AC pentru camion de 12000 BTU |12V/24V AC Parcare pe acoperiș |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO este un AC de parcare pe acoperiș de 12V/24V 12000 BTU pentru semi-camioane, RV-uri, camionete și rulote.Răcire alimentată de baterii fără repaus cu funcționare silențioasă ≤45 dB, compresor rotativ dublu de curent continuu și suport pentru montarea distribuitorului."
+    },
+    "uk": {
+      "title": "Блок змінного струму для вантажівок 12000 BTU |12В/24В Парковка на даху AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO — це 12 В/24 В 12000 BTU паркувальний кондиціонер на даху для напіввантажівок, фургонів, фургонів і кемперів.Охолодження без простою від акумулятора з тихою роботою ≤45 дБ, подвійним ротаційним компресором постійного струму та підтримкою встановлення дилера."
+    },
+    "he": {
+      "title": "12000 BTU משאית AC יחידת |12V/24V חניה על הגג AC |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO הוא 12V/24V 12000 BTU חניה AC על הגג עבור משאיות למחצה, קרוואנים, טנדרים וחניונים.קירור מופעל על ידי סוללה ללא סרק עם פעולה שקטה ≤45 dB, מדחס סיבובי DC כפול ותמיכה בהתאמת סוחר."
+    },
+    "ms": {
+      "title": "Unit AC Lori 12000 BTU |AC Tempat Letak Kereta Atas Bumbung 12V/24V |CoolDrivePro",
+      "desc": "CoolDrivePro VS02 PRO ialah AC letak kereta atas bumbung 12V/24V 12000 BTU untuk trak separuh, RV, van dan perkhemahan.Penyejukan berkuasa bateri tanpa terbiar dengan operasi senyap ≤45 dB, pemampat putar dwi DC dan sokongan kesesuaian peniaga."
+    }
+  },
+  "/products/mini-split-ac": {
+    "en": {
+      "title": "12V/24V Mini Split Truck AC for Sleeper Cabs, RVs and Vans | CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP is a 12V/24V DC mini split parking air conditioner for semi sleeper cabs, RVs, vans and campers. 12,000 BTU no-idle cooling with quiet ≤32 dB indoor unit, GMCC twin-rotary inverter compressor and dealer fitment support."
+    },
+    "zh-CN": {
+      "title": "适用于卧铺驾驶室、房车和货车的 12V/24V 迷你分体式卡车空调 |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP 是一款 12V/24V 直流迷你分体式停车空调，适用于半卧铺驾驶室、房车、货车和露营车。12,000 BTU 无怠速冷却，静音 ≤32 dB 室内机、GMCC 双旋转变频压缩机和经销商配件支持。"
+    },
+    "zh-TW": {
+      "title": "適用於臥舖駕駛室、房車和貨車的 12V/24V 迷你分離式卡車空調 | CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP 是一款 12V/24V 直流迷你分離式停車空調，適用於半臥室駕駛室、房車、貨車和露營車。12,000 BTU 無怠速冷卻，靜音 ≤32 dB 室內機、GMCC 雙旋轉變頻壓縮機和經銷商配件支援。"
+    },
+    "ja": {
+      "title": "スリーパーキャブ、RV、バン用 12V/24V ミニスプリットトラック AC |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP は、セミスリーパー キャブ、RV、バン、キャンピングカー用の 12V/24V DC ミニ スプリット パーキング エアコンです。12,000 BTU ノーアイドル冷却、静かな 32 dB 以下の室内ユニット、GMCC ツインロータリー インバーター コンプレッサー、およびディーラー装備サポート。"
+    },
+    "ko": {
+      "title": "슬리퍼 캡, RV 및 밴용 12V/24V 미니 분할 트럭 AC |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP는 세미 슬리퍼 캡, RV, 밴 및 캠핑카용 12V/24V DC 미니 분할 주차 에어컨입니다.12,000BTU 무회전 냉각, 저소음 32dB 실내기, GMCC 트윈 로터리 인버터 압축기 및 딜러 장비 지원."
+    },
+    "de": {
+      "title": "12V/24V Mini Split Truck AC für Schlafkabinen, Wohnmobile und Transporter |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP ist eine Mini-Split-Parkklimaanlage mit 12 V/24 V DC für Halbschlafkabinen, Wohnmobile, Lieferwagen und Wohnmobile.12.000 BTU-Kühlung ohne Leerlauf mit leisem ≤32-dB-Innengerät, GMCC-Twin-Rotations-Inverter-Kompressor und Unterstützung beim Händlereinbau."
+    },
+    "fr": {
+      "title": "Mini camion divisé 12 V/24 V CA pour cabines couchettes, camping-cars et fourgonnettes |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP est un mini climatiseur de stationnement divisé 12 V/24 V CC pour cabines semi-couchettes, camping-cars, fourgonnettes et camping-cars.Refroidissement sans ralenti de 12 000 BTU avec unité intérieure silencieuse ≤ 32 dB, compresseur inverseur double rotatif GMCC et support de montage chez le concessionnaire."
+    },
+    "es": {
+      "title": "Mini aire acondicionado dividido para camión de 12 V/24 V para cabinas dormitorio, vehículos recreativos y furgonetas |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP es un aire acondicionado de estacionamiento mini split de 12 V/24 V CC para cabinas semi-cama, vehículos recreativos, furgonetas y campers.Refrigeración sin inactividad de 12 000 BTU con unidad interior silenciosa de ≤32 dB, compresor inversor rotativo doble GMCC y soporte de instalación del distribuidor."
+    },
+    "it": {
+      "title": "AC per mini camion split 12V/24V per cabine cuccetta, camper e furgoni |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP è un mini condizionatore da parcheggio split da 12 V/24 V CC per cabine semi-dormienti, camper, furgoni e camper.Raffreddamento senza inattività da 12.000 BTU con unità interna silenziosa ≤32 dB, compressore inverter twin-rotary GMCC e supporto per il montaggio del rivenditore."
+    },
+    "pt": {
+      "title": "12V/24V Mini Split Truck AC para cabines leito, RVs e vans |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP é um mini ar condicionado de estacionamento split de 12V/24V DC para táxis semi-cama, trailers, vans e campistas.Resfriamento sem inatividade de 12.000 BTU com unidade interna silenciosa ≤32 dB, compressor inversor rotativo duplo GMCC e suporte para instalação do revendedor."
+    },
+    "ru": {
+      "title": "Мини-сплит-погрузчик переменного тока 12 В/24 В для спальных кабин, автофургонов и фургонов |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP — это мини-сплит-кондиционер постоянного тока 12 В/24 В постоянного тока для полуспальных кабин, автофургонов, фургонов и кемперов.Охлаждение без холостого хода мощностью 12 000 БТЕ, внутренний блок с уровнем шума до 32 дБ, двухроторный инверторный компрессор GMCC и поддержка дилерской установки."
+    },
+    "ar": {
+      "title": "مكيف هواء صغير للشاحنة المنفصلة 12 فولت/24 فولت للكبائن النائمة والمركبات الترفيهية والشاحنات الصغيرة |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP عبارة عن مكيف هواء صغير سبليت بجهد 12 فولت/24 فولت تيار مستمر للكبائن شبه النائمة والمركبات الترفيهية والشاحنات الصغيرة والمعسكرات.12000 وحدة حرارية بريطانية بدون تبريد مع وحدة داخلية هادئة ≥32 ديسيبل وضاغط عاكس مزدوج الدوار GMCC ودعم تركيب الوكيل."
+    },
+    "hi": {
+      "title": "स्लीपर कैब, आरवी और वैन के लिए 12V/24V मिनी स्प्लिट ट्रक एसी |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP सेमी स्लीपर कैब, आरवी, वैन और कैंपर्स के लिए एक 12V/24V DC मिनी स्प्लिट पार्किंग एयर कंडीशनर है।शांत ≤32 डीबी इनडोर यूनिट, GMCC ट्विन-रोटरी इन्वर्टर कंप्रेसर और डीलर फिटमेंट सपोर्ट के साथ 12,000 बीटीयू नो-आइडल कूलिंग।"
+    },
+    "th": {
+      "title": "AC รถบรรทุกแยกขนาดเล็ก 12V/24V สำหรับรถนอนแค็บ รถบ้าน และรถตู้ |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP เป็นเครื่องปรับอากาศแบบแยกส่วนขนาดเล็ก 12V/24V DC สำหรับจอดรถสำหรับรถกึ่งนอนแค็บ รถบ้าน รถตู้ และรถแคมป์การทำความเย็นแบบไม่ได้ใช้งาน 12,000 BTU พร้อมยูนิตภายในอาคารที่เงียบ ≤32 dB, คอมเพรสเซอร์อินเวอร์เตอร์โรตารีคู่ GMCC และการสนับสนุนการติดตั้งของตัวแทนจำหน่าย"
+    },
+    "vi": {
+      "title": "AC Xe tải chia nhỏ 12V/24V dành cho xe giường nằm, RV và xe tải |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP là máy điều hòa không khí đỗ xe chia nhỏ 12V/24V DC dành cho xe taxi nửa giường nằm, RV, xe tải và xe cắm trại.Làm mát không tải 12.000 BTU với dàn lạnh yên tĩnh 32 dB, máy nén biến tần quay kép GMCC và hỗ trợ đồ đạc của đại lý."
+    },
+    "id": {
+      "title": "AC Truk Mini Split 12V/24V untuk Kabin Tidur, RV, dan Van |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP adalah AC parkir mini split 12V/24V DC untuk kabin semi tidur, RV, van, dan berkemah.Pendinginan tanpa idle 12.000 BTU dengan unit dalam ruangan senyap ≤32 dB, kompresor inverter putar ganda GMCC, dan dukungan perlengkapan dealer."
+    },
+    "tr": {
+      "title": "Yataklı Kabinler, Karavanlar ve Vanlar için 12V/24V Mini Bölünmüş Kamyon AC |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP, yarı yataklı kabinler, karavanlar, vanlar ve karavanlar için 12V/24V DC mini split park klimasıdır.Sessiz ≤32 dB iç ünite, GMCC çift döner invertör kompresör ve bayi donanım desteği ile 12.000 BTU boşta soğutma yok."
+    },
+    "pl": {
+      "title": "Mini Split Truck AC 12 V/24 V do kabin sypialnych, pojazdów kempingowych i samochodów dostawczych |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP to mini dzielony klimatyzator postojowy 12 V/24 V DC do kabin półsypialnych, pojazdów kempingowych, samochodów dostawczych i kamperów.Chłodzenie 12 000 BTU bez pracy na biegu jałowym, cicha jednostka wewnętrzna ≤32 dB, podwójna rotacyjna sprężarka inwerterowa GMCC i pomoc techniczna w zakresie montażu."
+    },
+    "nl": {
+      "title": "12V/24V Mini Split Truck AC voor slaapcabines, campers en bestelwagens |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP is een 12V/24V DC mini-split parkeerairconditioner voor semi-slaapcabines, campers, bestelwagens en campers.12.000 BTU koeling zonder stationair draaien met stille ≤32 dB binnenunit, GMCC dubbelroterende invertercompressor en montageondersteuning door dealer."
+    },
+    "sv": {
+      "title": "12V/24V Mini Split Truck AC för sovhytter, husbilar och skåpbilar |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP är en 12V/24V DC mini-delad parkeringsluftkonditionering för semi-sovhytter, husbilar, skåpbilar och husbilar.12 000 BTU utan tomgångskylning med tyst ≤32 dB inomhusenhet, GMCC dubbelroterande växelriktarkompressor och stöd för återförsäljarmontering."
+    },
+    "no": {
+      "title": "12V/24V Mini Split Truck AC for sovekabiner, bobiler og varebiler |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP er et 12V/24V DC mini delt parkeringsklimaanlegg for semi-sovende førerhus, bobiler, varebiler og bobiler.12 000 BTU uten tomgangskjøling med stillegående ≤32 dB innendørsenhet, GMCC dobbeltroterende inverterkompressor og støtte for forhandlermontering."
+    },
+    "da": {
+      "title": "12V/24V Mini Split Truck AC til sovekabiner, autocampere og varevogne |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP er et 12V/24V DC mini split parkeringsklimaanlæg til semi-sovende førerhuse, autocampere, varevogne og autocampere.12.000 BTU frikøling uden tomgang med støjsvag ≤32 dB indendørsenhed, GMCC dobbeltroterende inverterkompressor og forhandlermonteringsstøtte."
+    },
+    "fi": {
+      "title": "12V/24V Mini Split Truck AC makuuohjaamoihin, matkailuautoihin ja pakettiautoihin |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP on 12V/24V DC minijaettu pysäköintiilmastointilaite puolivuodeohjaamoihin, matkailuautoihin, pakettiautoihin ja matkailuautoihin.12 000 BTU:n tyhjäkäyntijäähdytys hiljaisella ≤32 dB:n sisäyksiköllä, GMCC-kaksoispyörivä invertterikompressori ja jälleenmyyjän asennustuki."
+    },
+    "el": {
+      "title": "12V/24V Mini Split Truck AC για Sleeper Cabs, RVs και Vans |CoolDrivePro",
+      "desc": "Το CoolDrivePro Το VX3000SP είναι ένα μίνι κλιματιστικό 12V/24V DC split parking για καμπίνες ημι-κρεβατιού, RV, φορτηγά και τροχόσπιτα.Ψύξη χωρίς ρελαντί 12.000 BTU με αθόρυβη εσωτερική μονάδα ≤32 dB, συμπιεστή διπλού περιστροφικού μετατροπέα GMCC και υποστήριξη τοποθέτησης αντιπροσώπου."
+    },
+    "cs": {
+      "title": "12V/24V Mini Split Truck AC pro spací kabiny, obytné vozy a dodávky |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP je 12V/24V DC mini dělená parkovací klimatizace pro pololůžkové kabiny, RV, dodávky a obytné vozy.Chlazení bez nečinnosti 12 000 BTU s tichou vnitřní jednotkou ≤ 32 dB, dvojitým rotačním invertorovým kompresorem GMCC a podporou montáže prodejce."
+    },
+    "hu": {
+      "title": "12V/24V Mini Split Truck AC hálófülkékhez, lakóautókhoz és furgonokhoz |CoolDrivePro",
+      "desc": "CoolDrivePro A VX3000SP egy 12V/24V DC mini split parkolóklíma félhálófülkékhez, lakóautókhoz, furgonokhoz és lakóautókhoz.12 000 BTU alapjárati hűtés csendes ≤32 dB beltéri egységgel, GMCC ikerforgós inverteres kompresszorral és a kereskedő felszerelésének támogatásával."
+    },
+    "ro": {
+      "title": "12V/24V Mini Camion Split AC pentru cabine dormitoare, RV-uri și furgonete |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP este un mini-aer condiționat de parcare split de 12V/24V DC pentru cabine semi-dorme, RV-uri, camionete și rulote.Răcire fără ralanti de 12.000 BTU cu unitate interioară silențioasă ≤32 dB, compresor cu invertor dublu rotativ GMCC și suport pentru montaj dealer."
+    },
+    "uk": {
+      "title": "12 В/24 В Міні спліт вантажівка змінного струму для спальних кабін, фургонів і мікроавтобусів |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP — міні-спліт-парковий кондиціонер на 12 В/24 В постійного струму для напівспальних кабін, фургонів, фургонів і кемперів.12 000 БТЕ охолодження без холостого ходу з тихим внутрішнім блоком ≤32 дБ, подвійним обертовим інверторним компресором GMCC і підтримкою дилерського обладнання."
+    },
+    "he": {
+      "title": "12V/24V מיני משאית מפוצלת AC עבור מוניות שינה, קרוואנים וטנדרים |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP הוא מזגן חניה מיני מפוצל 12V/24V DC עבור מוניות חצי שינה, קרוואנים, טנדרים וחניונים.קירור 12,000 BTU ללא סרק עם יחידה פנימית שקטה ≤32 dB, מדחס מהפך כפול סיבובי GMCC ותמיכה בהתאמת סוחר."
+    },
+    "ms": {
+      "title": "12V/24V Mini Split Lori AC untuk Teksi Tidur, RV dan Van |CoolDrivePro",
+      "desc": "CoolDrivePro VX3000SP ialah penghawa dingin tempat letak kereta pisah mini 12V/24V DC untuk teksi separuh tidur, RV, van dan perkhemahan.Penyejukan tanpa melahu 12,000 BTU dengan unit dalaman senyap ≤32 dB, pemampat penyongsang berputar berkembar GMCC dan sokongan kesesuaian peniaga."
+    }
+  },
+  "/products/heating-cooling-ac": {
+    "en": {
+      "title": "12V/24V Heating and Cooling Parking AC for Trucks and RVs | CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 is a 12V/24V DC heating and cooling parking air conditioner for trucks, RVs, vans and special vehicles. 2000W heat-pump cooling and heating with GMCC twin-rotary compressor, R134a refrigerant and dealer fitment support."
+    },
+    "zh-CN": {
+      "title": "适用于卡车和房车的 12V/24V 加热和冷却停车空调 |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 是一款 12V/24V 直流加热和冷却停车空调，适用于卡车、房车、货车和特种车辆。2000W 热泵制冷和制热，配备 GMCC 双转子压缩机、R134a 制冷剂和经销商配件支持。"
+    },
+    "zh-TW": {
+      "title": "適用於卡車和房車的 12V/24V 加熱和冷卻停車空調 | CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 是一款 12V/24V 直流加熱和冷卻停車空調，適用於卡車、房車、貨車和特殊車輛。2000W 熱泵製冷和製熱，配備 GMCC 雙轉子壓縮機、R134a 冷媒和經銷商配件支援。"
+    },
+    "ja": {
+      "title": "トラックおよび RV 用 12V/24V 冷暖房パーキング AC |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 は、トラック、RV、バン、特殊車両用の 12V/24V DC 冷暖房パーキング エアコンです。GMCC ツインロータリー コンプレッサー、R134a 冷媒、ディーラー装備サポートによる 2000 W ヒート ポンプ冷暖房。"
+    },
+    "ko": {
+      "title": "트럭 및 RV용 12V/24V 난방 및 냉방 주차 AC |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1은 트럭, RV, 밴 및 특수 차량용 12V/24V DC 냉난방 주차 에어컨입니다.GMCC 트윈 로터리 압축기, R134a 냉매 및 딜러 장착 지원을 갖춘 2000W 열 펌프 냉각 및 난방."
+    },
+    "de": {
+      "title": "12V/24V Heiz- und Kühlparkplatz-Klimaanlage für LKWs und Wohnmobile |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 ist eine 12V/24V DC Heiz- und Kühl-Parkklimaanlage für LKWs, Wohnmobile, Lieferwagen und Spezialfahrzeuge.2000-W-Wärmepumpe zum Kühlen und Heizen mit GMCC-Doppelrotationskompressor, R134a-Kältemittel und Unterstützung beim Händlereinbau."
+    },
+    "fr": {
+      "title": "Chauffage et refroidissement 12 V/24 V pour camions et camping-cars |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 est un climatiseur de stationnement de chauffage et de refroidissement 12 V/24 V CC pour camions, camping-cars, fourgonnettes et véhicules spéciaux.Refroidissement et chauffage par pompe à chaleur de 2 000 W avec compresseur bi-rotatif GMCC, réfrigérant R134a et support de montage chez le concessionnaire."
+    },
+    "es": {
+      "title": "Aire acondicionado de estacionamiento con calefacción y refrigeración de 12 V/24 V para camiones y vehículos recreativos |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 es un aire acondicionado de estacionamiento con calefacción y refrigeración de 12 V/24 V CC para camiones, vehículos recreativos, furgonetas y vehículos especiales.Refrigeración y calefacción con bomba de calor de 2000 W con compresor rotativo doble GMCC, refrigerante R134a y soporte de instalación del distribuidor."
+    },
+    "it": {
+      "title": "Aria condizionata da parcheggio per riscaldamento e raffreddamento 12V/24V per camion e camper |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 è un condizionatore da parcheggio con riscaldamento e raffreddamento a 12V/24V DC per camion, camper, furgoni e veicoli speciali.Raffreddamento e riscaldamento con pompa di calore da 2.000 W con compressore rotativo doppio GMCC, refrigerante R134a e supporto per il montaggio del rivenditore."
+    },
+    "pt": {
+      "title": "AC de estacionamento de aquecimento e resfriamento 12V / 24V para caminhões e trailers |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 é um ar condicionado de estacionamento com aquecimento e resfriamento de 12V/24V DC para caminhões, trailers, vans e veículos especiais.Resfriamento e aquecimento de bomba de calor de 2.000 W com compressor rotativo duplo GMCC, refrigerante R134a e suporte para instalação do revendedor."
+    },
+    "ru": {
+      "title": "12 В/24 В для обогрева и охлаждения стояночного переменного тока для грузовых автомобилей и внедорожников |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 — стояночный кондиционер для обогрева и охлаждения постоянного тока 12 В/24 В для грузовых автомобилей, внедорожников, фургонов и специальных транспортных средств.Охлаждение и обогрев с помощью теплового насоса мощностью 2000 Вт с двухроторным компрессором GMCC, хладагентом R134a и поддержкой дилерской установки."
+    },
+    "ar": {
+      "title": "مكيف هواء للتدفئة والتبريد 12 فولت/24 فولت للشاحنات والمركبات الترفيهية |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 عبارة عن مكيف هواء للتدفئة والتبريد بتيار مستمر 12 فولت/24 فولت للشاحنات والمركبات الترفيهية والشاحنات الصغيرة والمركبات الخاصة.تبريد وتدفئة بمضخة حرارية بقدرة 2000 وات مع ضاغط دوار مزدوج GMCC ومبرد R134a ودعم تركيب الوكيل."
+    },
+    "hi": {
+      "title": "ट्रकों और आरवी के लिए 12V/24V हीटिंग और कूलिंग पार्किंग एसी |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 ट्रकों, आरवी, वैन और विशेष वाहनों के लिए 12V/24V DC हीटिंग और कूलिंग पार्किंग एयर कंडीशनर है।GMCC ट्विन-रोटरी कंप्रेसर, R134a रेफ्रिजरेंट और डीलर फिटमेंट सपोर्ट के साथ 2000W हीट-पंप कूलिंग और हीटिंग।"
+    },
+    "th": {
+      "title": "เครื่องทำความร้อนและความเย็น AC ที่จอดรถ 12V/24V สำหรับรถบรรทุกและรถบ้าน |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 เป็นเครื่องปรับอากาศทำความร้อนและความเย็นในที่จอดรถ DC 12V/24V สำหรับรถบรรทุก รถบ้าน รถตู้ และยานพาหนะพิเศษการทำความเย็นและการทำความร้อนด้วยปั๊มความร้อน 2000W ด้วยคอมเพรสเซอร์แบบหมุนคู่ GMCC, สารทำความเย็น R134a และการสนับสนุนการติดตั้งตัวแทนจำหน่าย"
+    },
+    "vi": {
+      "title": "AC đậu xe sưởi và làm mát 12V/24V cho xe tải và RV |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 là máy điều hòa không khí đỗ xe sưởi và làm mát 12V/24V DC dành cho xe tải, RV, xe tải và các loại xe đặc biệt.Làm mát và sưởi ấm bằng bơm nhiệt 2000W với máy nén quay đôi GMCC, chất làm lạnh R134a và hỗ trợ đồ đạc của đại lý."
+    },
+    "id": {
+      "title": "AC Parkir Pemanas dan Pendingin 12V/24V untuk Truk dan RV |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 adalah AC parkir pemanas dan pendingin 12V/24V DC untuk truk, RV, van, dan kendaraan khusus.Pendinginan dan pemanasan pompa panas 2000W dengan kompresor putar ganda GMCC, zat pendingin R134a, dan dukungan perlengkapan dealer."
+    },
+    "tr": {
+      "title": "Kamyon ve Karavanlar için 12V/24V Isıtma ve Soğutma Otopark Kliması |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1, kamyonlar, karavanlar, kamyonetler ve özel araçlara yönelik 12V/24V DC ısıtma ve soğutma park klimasıdır.GMCC çift döner kompresör, R134a soğutucu akışkan ve bayi donanım desteği ile 2000 W ısı pompalı soğutma ve ısıtma."
+    },
+    "pl": {
+      "title": "12V/24V Ogrzewanie i chłodzenie Parking AC dla ciężarówek i pojazdów kempingowych |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 to klimatyzator postojowy z ogrzewaniem i chłodzeniem na napięcie 12 V/24 V DC, przeznaczony do samochodów ciężarowych, pojazdów kempingowych, dostawczych i pojazdów specjalnych.Chłodzenie i ogrzewanie za pomocą pompy ciepła o mocy 2000 W z podwójną sprężarką rotacyjną GMCC, czynnikiem chłodniczym R134a i wsparciem dealera."
+    },
+    "nl": {
+      "title": "12V/24V Verwarming en koeling Parkeer-AC voor vrachtwagens en campers |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 is een 12V/24V DC verwarming en koeling parkeerairconditioner voor vrachtwagens, campers, bestelwagens en speciale voertuigen.2000 W warmtepompkoeling en -verwarming met GMCC dubbelroterende compressor, R134a koelmiddel en ondersteuning voor montage door dealer."
+    },
+    "sv": {
+      "title": "12V/24V Värme och Kyla Parkerings AC för lastbilar och husbilar |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 är en 12V/24V DC uppvärmnings- och kylparkeringsluftkonditionering för lastbilar, husbilar, skåpbilar och specialfordon.2000W värmepump kyla och värma med GMCC dubbelroterande kompressor, R134a kylmedel och återförsäljare monteringsstöd."
+    },
+    "no": {
+      "title": "12V/24V oppvarming og kjøling Parkering AC for lastebiler og bobiler |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 er et 12V/24V DC oppvarming og kjøling parkeringsklimaanlegg for lastebiler, bobiler, varebiler og spesialkjøretøyer.2000W varmepumpekjøling og oppvarming med GMCC dobbeltroterende kompressor, R134a kjølemiddel og forhandlermonteringsstøtte."
+    },
+    "da": {
+      "title": "12V/24V Opvarmning og Køling Parkering AC til lastbiler og autocampere |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 er et 12V/24V DC opvarmnings- og køleparkeringsklimaanlæg til lastbiler, autocampere, varevogne og specialkøretøjer.2000W varmepumpe køling og opvarmning med GMCC dobbeltroterende kompressor, R134a kølemiddel og forhandlermonteringsstøtte."
+    },
+    "fi": {
+      "title": "12V/24V Lämmitys ja jäähdytys PysäköintiAC kuorma- ja matkailuautoille |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 on 12V/24V DC lämmitys- ja jäähdytysilmastointilaite kuorma-autoihin, matkailuautoihin, pakettiautoihin ja erikoisajoneuvoihin.2000 W lämpöpumppujäähdytys ja lämmitys GMCC kaksoiskiertokompressorilla, R134a kylmäaineella ja jälleenmyyjän asennustuella."
+    },
+    "el": {
+      "title": "12V/24V Θέρμανση και Ψύξη Χώρος στάθμευσης AC για φορτηγά και τροχόσπιτα |CoolDrivePro",
+      "desc": "Το CoolDrivePro Το V-TH1 είναι ένα κλιματιστικό θέρμανσης και ψύξης 12V/24V DC για φορτηγά, RV, φορτηγά και ειδικά οχήματα.Ψύξη και θέρμανση με αντλία θερμότητας 2000W με διπλό περιστροφικό συμπιεστή GMCC, ψυκτικό R134a και υποστήριξη τοποθέτησης αντιπροσώπου."
+    },
+    "cs": {
+      "title": "12V/24V topení a chlazení parkovací klimatizace pro nákladní a obytné vozy |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 je 12V/24V DC topení a chlazení parkovací klimatizace pro nákladní automobily, RV, dodávky a speciální vozidla.Chlazení a topení 2000W tepelným čerpadlem s dvojitým rotačním kompresorem GMCC, chladivem R134a a podporou montáže prodejce."
+    },
+    "hu": {
+      "title": "12V/24V fűtés és hűtés parkoló AC kamionokhoz és lakóautókhoz |CoolDrivePro",
+      "desc": "CoolDrivePro A V-TH1 egy 12V/24V DC fűtő-hűtő parkolóklíma teherautókhoz, lakóautókhoz, furgonokhoz és speciális járművekhez.2000 W-os hőszivattyús hűtés és fűtés GMCC ikerforgós kompresszorral, R134a hűtőközeggel és a kereskedő felszerelésének támogatásával."
+    },
+    "ro": {
+      "title": "12V/24V Încălzire și răcire Parcare AC pentru camioane și RV-uri |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 este un aparat de aer condiționat de parcare pentru încălzire și răcire 12V/24V DC pentru camioane, RV-uri, camionete și vehicule speciale.Răcire și încălzire cu pompă de căldură de 2000 W cu compresor dublu rotativ GMCC, agent frigorific R134a și suport pentru montaj dealer."
+    },
+    "uk": {
+      "title": "12 В/24 В опалення та охолодження Парковка кондиціонера для вантажівок і автофургонів |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 — це паркувальний кондиціонер на 12/24 В постійного струму з підігрівом і охолодженням для вантажівок, фургонів, мікроавтобусів і спеціальних транспортних засобів.Тепловий насос потужністю 2000 Вт для охолодження та обігріву з двороторним компресором GMCC, холодоагентом R134a і підтримкою дилера."
+    },
+    "he": {
+      "title": "12V/24V חימום וקירור חניה AC למשאיות וקרוואנים |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 הוא מזגן חניה 12V/24V DC חימום וקירור למשאיות, קרוואנים, טנדרים ורכבים מיוחדים.קירור וחימום משאבת חום של 2000W עם מדחס כפול סיבובי GMCC, קירור R134a ותמיכה בהתאמת סוחר."
+    },
+    "ms": {
+      "title": "12V/24V Pemanasan dan Penyejukan Parking AC untuk Lori dan RV |CoolDrivePro",
+      "desc": "CoolDrivePro V-TH1 ialah penghawa dingin pemanas dan penyejukan DC 12V/24V DC untuk trak, RV, van dan kenderaan khas.Penyejukan dan pemanasan pam haba 2000W dengan pemampat pusing berkembar GMCC, penyejuk R134a dan sokongan kesesuaian peniaga."
+    }
+  },
+  "/products/nano-max": {
+    "en": {
+      "title": "Nano Max 12V/24V Compact Parking AC for Light Trucks and Vans | CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max is a 12V/24V DC compact parking air conditioner for light trucks, pickups, vans, truck campers, caps and bed workspaces. 10,000 BTU no-idle cooling with dual-rotor BLDC compressor, low-profile 165 mm rooftop design and dealer fitment support."
+    },
+    "zh-CN": {
+      "title": "Nano Max 适用于轻型卡车和货车的 12V/24V 紧凑型停车空调 |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max 是一款 12V/24V 直流紧凑型停车空调，适用于轻型卡车、皮卡、货车、卡车露营车、帽子和床工作区。10,000 BTU 无怠速冷却，采用双转子 BLDC 压缩机、薄型 165 毫米屋顶设计和经销商配件支持。"
+    },
+    "zh-TW": {
+      "title": "Nano Max 適用於輕型卡車和貨車的 12V/24V 緊湊型停車空調 | CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max 是一款 12V/24V 直流緊湊型停車空調，適用於輕型卡車、皮卡、貨車、卡車露營車、帽子和床工作區。10,000 BTU 無怠速冷卻，採用雙轉子 BLDC 壓縮機、薄型 165 毫米屋頂設計和經銷商配件支援。"
+    },
+    "ja": {
+      "title": "Nano Max 12V/24V ライトトラックおよびバン用コンパクトパーキング AC |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max は、ライトトラック、ピックアップ、バン、トラックキャンピングカー、キャップ、ベッド作業スペース用の 12V/24V DC コンパクトパーキングエアコンです。デュアルローター BLDC コンプレッサーによる 10,000 BTU のノーアイドル冷却、薄型 165 mm ルーフトップ設計、およびディーラー装備のサポート。"
+    },
+    "ko": {
+      "title": "Nano Max 소형 트럭 및 밴용 12V/24V 소형 주차 AC |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max는 소형 트럭, 픽업, 밴, 트럭 캠핑카, 모자 및 침대 작업 공간을 위한 12V/24V DC 소형 주차 에어컨입니다.듀얼 로터 BLDC 압축기, 로우 프로파일 165mm 루프탑 디자인 및 딜러 장비 지원을 갖춘 10,000 BTU 무회전 냉각."
+    },
+    "de": {
+      "title": "Nano Max 12V/24V kompakte Parkklimaanlage für leichte LKWs und Transporter |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max ist eine kompakte 12-V-/24-V-DC-Parkklimaanlage für leichte Lkw, Pickups, Transporter, LKW-Wohnmobile, Kabinen und Bettarbeitsplätze.10,000 BTU Leerlaufkühlung mit Dual-Rotor-BLDC-Kompressor, flachem 165-mm-Dachdesign und Unterstützung beim Händlereinbau."
+    },
+    "fr": {
+      "title": "Nano Max Stationnement compact AC 12 V/24 V pour camions légers et fourgonnettes |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max est un climatiseur de stationnement compact 12 V/24 V CC pour camions légers, camionnettes, fourgonnettes, camping-cars, casquettes et espaces de travail de lit.Refroidissement sans ralenti de 10 000 BTU avec compresseur BLDC à double rotor, conception de toit à profil bas de 165 mm et support de montage chez le concessionnaire."
+    },
+    "es": {
+      "title": "Nano Max CA de estacionamiento compacta de 12 V/24 V para camionetas y furgonetas |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max es un aire acondicionado de estacionamiento compacto de 12 V/24 V CC para camionetas livianas, camionetas, furgonetas, camionetas tipo camper, espacios de trabajo con cabinas y cajas.Refrigeración sin ralentí de 10,000 BTU con compresor BLDC de doble rotor, diseño de techo de perfil bajo de 165 mm y soporte de instalación del distribuidor."
+    },
+    "it": {
+      "title": "Nano Max AC da parcheggio compatto 12V/24V per camion leggeri e furgoni |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max è un climatizzatore da parcheggio compatto da 12 V/24 V CC per autocarri leggeri, pickup, furgoni, camper, cappelliere e postazioni di lavoro con letti.Raffreddamento senza inattività da 10,000 BTU con compressore BLDC a doppio rotore, design con tetto a basso profilo da 165 mm e supporto per il montaggio del rivenditore."
+    },
+    "pt": {
+      "title": "Nano Max 12V/24V estacionamento compacto AC para caminhões leves e vans |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max é um ar condicionado de estacionamento compacto de 12V/24V DC para caminhões leves, picapes, vans, caminhões campistas, bonés e espaços de trabalho com cama.Resfriamento sem marcha lenta de 10.000 BTU com compressor BLDC de rotor duplo, design de telhado discreto de 165 mm e suporte para instalação do revendedor."
+    },
+    "ru": {
+      "title": "Nano Max Компактный парковочный блок переменного тока 12 В/24 В для легких грузовиков и фургонов |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max — компактный парковочный кондиционер постоянного тока 12 В/24 В для легких грузовиков, пикапов, фургонов, кемперов, кепок и кроватей.Охлаждение без холостого хода мощностью 10,000 БТЕ с двухроторным компрессором BLDC, низкопрофильная конструкция высотой 165 мм на крыше и поддержка установки дилера."
+    },
+    "ar": {
+      "title": "Nano Max مكيف مواقف السيارات المدمج 12 فولت/24 فولت للشاحنات الخفيفة والشاحنات الصغيرة |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max عبارة عن مكيف هواء مدمج لوقوف السيارات بقدرة 12 فولت/24 فولت تيار مستمر للشاحنات الخفيفة والشاحنات الصغيرة والشاحنات الصغيرة وعربات التخييم والقبعات ومساحات عمل السرير.تبريد بدون تباطؤ بقدرة 10,000 وحدة حرارية بريطانية مع ضاغط BLDC ثنائي الدوار وتصميم منخفض المستوى على السطح مقاس 165 مم ودعم تركيب الوكيل."
+    },
+    "hi": {
+      "title": "हल्के ट्रकों और वैन के लिए Nano Max 12V/24V कॉम्पैक्ट पार्किंग एसी |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max हल्के ट्रकों, पिकअप, वैन, ट्रक कैंपर, कैप और बेड वर्कस्पेस के लिए एक 12V/24V DC कॉम्पैक्ट पार्किंग एयर कंडीशनर है।डुअल-रोटर BLDC कंप्रेसर के साथ 10,000 बीटीयू नो-आइडल कूलिंग, लो-प्रोफाइल 165 मिमी रूफटॉप डिजाइन और डीलर फिटमेंट सपोर्ट।"
+    },
+    "th": {
+      "title": "Nano Max 12V/24V AC ที่จอดรถขนาดกะทัดรัดสำหรับรถบรรทุกและรถตู้ขนาดเล็ก |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max เป็นเครื่องปรับอากาศสำหรับจอดรถขนาดกะทัดรัด 12V/24V DC สำหรับรถบรรทุกขนาดเล็ก รถปิคอัพ รถตู้ รถแคมป์ รถบรรทุก หมวกและพื้นที่ทำงานบนเตียงระบบทำความเย็นขณะเดินเบาขนาด 10,000 BTU พร้อมคอมเพรสเซอร์แบบโรเตอร์คู่ BLDC การออกแบบหลังคาทรงเตี้ย 165 มม. และการสนับสนุนการติดตั้งของตัวแทนจำหน่าย"
+    },
+    "vi": {
+      "title": "Nano Max 12V/24V Máy điều hòa đỗ xe nhỏ gọn dành cho xe tải nhẹ và xe tải |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max là máy điều hòa không khí đậu xe nhỏ gọn 12V/24V DC dành cho xe tải nhẹ, xe bán tải, xe tải, xe tải cắm trại, mũ và không gian làm việc trên giường.Làm mát không tải 10,000 BTU với máy nén BLDC cánh quạt kép, thiết kế trên mái nhà 165 mm cấu hình thấp và hỗ trợ lắp đặt tại đại lý."
+    },
+    "id": {
+      "title": "Nano Max 12V/24V AC Parkir Ringkas untuk Truk Ringan dan Van |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max adalah AC parkir kompak 12V/24V DC untuk truk ringan, pickup, van, truk berkemah, ruang kerja tutup dan tempat tidur.Pendinginan tanpa idle 10,000 BTU dengan kompresor BLDC rotor ganda, desain atap profil rendah 165 mm, dan dukungan perlengkapan dealer."
+    },
+    "tr": {
+      "title": "Nano Max Kamyonetler ve Kamyonetler için 12V/24V Kompakt Park Kliması |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max, hafif kamyonlar, pikaplar, kamyonetler, kamyon karavanları, kaplar ve yataklı çalışma alanları için 12V/24V DC kompakt park klimasıdır.Çift rotorlu BLDC kompresör, düşük profilli 165 mm çatı tasarımı ve bayi donanım desteği ile 10,000 BTU boşta soğutma yok."
+    },
+    "pl": {
+      "title": "Nano Max Kompaktowy prąd przemienny parkingowy 12 V/24 V do lekkich samochodów ciężarowych i dostawczych |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max to kompaktowy klimatyzator postojowy 12 V/24 V DC do lekkich ciężarówek, pickupów, samochodów dostawczych, samochodów kempingowych, czapek i miejsc pracy z łóżkami.Chłodzenie bez biegu jałowego o wydajności 10,000 BTU z dwuwirnikową sprężarką BLDC, niskoprofilową konstrukcją dachową o średnicy 165 mm i wsparciem w zakresie montażu przez dealera."
+    },
+    "nl": {
+      "title": "Nano Max 12V/24V compacte parkeer-AC voor lichte vrachtwagens en bestelwagens |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max is een compacte parkeerairconditioner van 12 V/24 V DC voor lichte vrachtwagens, pick-ups, bestelwagens, vrachtwagencampers, kap- en bedwerkplekken.10,000 BTU koeling zonder stationair draaien met BLDC-compressor met dubbele rotor, onopvallend dakontwerp van 165 mm en ondersteuning voor montage door dealer."
+    },
+    "sv": {
+      "title": "Nano Max 12V/24V kompakt parkerings AC för lätta lastbilar och skåpbilar |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max är en 12V/24V DC kompakt parkeringsluftkonditionering för lätta lastbilar, pickuper, skåpbilar, lastbilscampare, kepsar och sängarbetsytor.10,000 BTU utan tomgångskylning med dubbelrotor BLDC-kompressor, lågprofil 165 mm takdesign och stöd för återförsäljarmontering."
+    },
+    "no": {
+      "title": "Nano Max 12V/24V Kompakt parkerings AC for lette lastebiler og varebiler |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max er et 12V/24V DC kompakt parkeringsklimaanlegg for lette lastebiler, pickuper, varebiler, lastebilcampere, capser og sengeplasser.10,000 BTU uten tomgangskjøling med BLDC-kompressor med to rotorer, lavprofil 165 mm takdesign og støtte for forhandlermontering."
+    },
+    "da": {
+      "title": "Nano Max 12V/24V kompakt parkerings-AC til lette lastbiler og varebiler |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max er et 12V/24V DC kompakt parkeringsklimaanlæg til lette lastbiler, pickupper, varevogne, lastbilcampere, kasketter og sengearbejdspladser.10,000 BTU frikøling uden tomgang med BLDC-kompressor med to rotorer, lavprofilet 165 mm tagdesign og støtte til forhandlermontering."
+    },
+    "fi": {
+      "title": "Nano Max 12V/24V Compact Parking AC kevyille kuorma-autoille ja pakettiautoille |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max on 12V/24V DC kompakti pysäköintiilmastointilaite kevyille kuorma-autoille, lava-autoille, pakettiautoille, kuorma-autoille, lippaille ja sänkytyötiloihin.10,000 BTU tyhjäkäyntijäähdytys kaksiroottorisella BLDC-kompressorilla, matalaprofiilinen 165 mm kattorakenne ja jälleenmyyjän asennustuki."
+    },
+    "el": {
+      "title": "Nano Max Συμπαγής κλιματισμός στάθμευσης 12V/24V για ελαφριά φορτηγά και φορτηγά |CoolDrivePro",
+      "desc": "Το CoolDrivePro Το Nano Max είναι ένα συμπαγές κλιματιστικό στάθμευσης 12V/24V DC για ελαφριά φορτηγά, φορτηγά, φορτηγά, τροχόσπιτα φορτηγών, καπάκια και χώρους εργασίας κρεβατιών.Ψύξη χωρίς ρελαντί 10,000 BTU με συμπιεστή BLDC διπλού ρότορα, σχεδίαση οροφής χαμηλού προφίλ 165 mm και υποστήριξη τοποθέτησης αντιπροσώπου."
+    },
+    "cs": {
+      "title": "Nano Max 12V/24V kompaktní parkovací klimatizace pro lehká nákladní vozidla a dodávky |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max je 12V/24V DC kompaktní parkovací klimatizace pro lehká nákladní vozidla, pickupy, dodávky, obytné vozy, čepice a lůžková pracoviště.Chlazení bez nečinnosti 10,000 BTU s dvourotorovým kompresorem BLDC, nízkoprofilovým 165 mm střešním designem a podporou montáže prodejce."
+    },
+    "hu": {
+      "title": "Nano Max 12V/24V kompakt parkoló AC könnyű teherautók és kisteherautók számára |CoolDrivePro",
+      "desc": "CoolDrivePro A Nano Max egy 12V/24V DC kompakt parkolóklíma könnyű teherautókhoz, pickupokhoz, kisteherautókhoz, kamionos lakókocsikhoz, sapkákhoz és ágyas munkaterületekhez.10,000 BTU üresjárati hűtés kétrotoros BLDC kompresszorral, alacsony profilú, 165 mm-es tetőtéri kialakítással és a kereskedő felszerelésének támogatásával."
+    },
+    "ro": {
+      "title": "Nano Max 12V/24V AC parcare compactă pentru camioane ușoare și furgonete |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max este un aparat de aer condiționat compact de parcare de 12V/24V DC pentru camioane ușoare, pick-up-uri, camionete, camionete, șapci și spații de lucru pentru pat.Răcire fără ralanti de 10,000 BTU cu compresor BLDC cu rotor dublu, design pe acoperiș cu profil redus de 165 mm și suport pentru montarea dealerului."
+    },
+    "uk": {
+      "title": "Nano Max Компактний паркувальний кондиціонер 12 В/24 В для легких вантажівок і мікроавтобусів |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max — це компактний паркувальний кондиціонер на 12 В/24 В постійного струму для легких вантажівок, пікапів, фургонів, кемперів, робочих місць для кепок і ліжок.10,000 BTU без холостого ходу з двороторним компресором BLDC, низькопрофільною конструкцією на даху 165 мм і підтримкою дилерського обладнання."
+    },
+    "he": {
+      "title": "Nano Max 12V/24V חניה AC קומפקטית למשאיות קלות וטנדרים |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max הוא מזגן חניה קומפקטי 12V/24V DC למשאיות קלות, טנדרים, טנדרים, חניוני משאיות, כובעים ומקומות עבודה למיטה.10,000 BTU קירור ללא סרק עם מדחס BLDC כפול רוטור, עיצוב גג בפרופיל נמוך של 165 מ\"מ ותמיכה בהתאמת סוחר."
+    },
+    "ms": {
+      "title": "Nano Max 12V/24V Compact Parking AC untuk Lori Ringan dan Van |CoolDrivePro",
+      "desc": "CoolDrivePro Nano Max ialah penghawa dingin tempat letak kereta padat 12V/24V DC untuk trak ringan, pikap, van, perkhemahan trak, topi dan ruang kerja katil.Penyejukan tanpa melahu 10,000 BTU dengan pemampat dwi-pemutar BLDC, reka bentuk atas bumbung 165 mm berprofil rendah dan sokongan kelengkapan peniaga."
+    }
+  },
+  "/about": {
+    "en": {
+      "title": "About CoolDrivePro | Parking Air Conditioner Experts",
+      "desc": "CoolDrivePro designs and manufactures 12V/24V parking air conditioners for trucks, RVs and vans. Engineering-led, no-idle cooling for drivers worldwide."
+    },
+    "zh-CN": {
+      "title": "关于 CoolDrivePro | 驻车空调专家",
+      "desc": "CoolDrivePro 设计并制造 12V/24V 驻车空调，适用于卡车、房车和面包车。工程驱动的免怠速制冷，服务全球驾驶员。"
+    },
+    "zh-TW": {
+      "title": "關於 CoolDrivePro | 駐車空調專家",
+      "desc": "CoolDrivePro 設計並製造 12V/24V 駐車空調，適用於卡車、房車和廂型車。工程驅動的免怠速製冷，服務全球駕駛員。"
+    },
+    "ja": {
+      "title": "会社概要 | CoolDrivePro 駐車エアコンの専門家",
+      "desc": "CoolDrivePro はトラック、RV、バン向けの12V/24V駐車エアコンを設計・製造。エンジニアリング主導のアイドリングストップ冷房を世界のドライバーへ。"
+    },
+    "ko": {
+      "title": "회사 소개 | CoolDrivePro 주차 에어컨 전문가",
+      "desc": "CoolDrivePro는 트럭, RV, 밴용 12V/24V 주차 에어컨을 설계·제조합니다. 엔지니어링 중심의 무공회전 냉방을 전 세계 운전자에게."
+    },
+    "de": {
+      "title": "Über CoolDrivePro | Standklimaanlagen-Experten",
+      "desc": "CoolDrivePro entwickelt und fertigt 12V/24V Standklimaanlagen für LKWs, Wohnmobile und Vans. Ingenieurgetriebene Leerlauf-freie Kühlung für Fahrer weltweit."
+    },
+    "fr": {
+      "title": "À Propos de CoolDrivePro | Experts en Climatisation de Stationnement",
+      "desc": "CoolDrivePro conçoit et fabrique des climatiseurs de stationnement 12V/24V pour camions, camping-cars et vans. Refroidissement sans ralenti pour conducteurs du monde entier."
+    },
+    "es": {
+      "title": "Acerca de CoolDrivePro | Expertos en AC de Estacionamiento",
+      "desc": "CoolDrivePro diseña y fabrica aires acondicionados de estacionamiento 12V/24V para camiones, RVs y furgonetas. Refrigeración sin ralentí guiada por ingeniería."
+    },
+    "it": {
+      "title": "Chi Siamo - CoolDrivePro | Esperti di Condizionatori da Parcheggio",
+      "desc": "CoolDrivePro progetta e produce condizionatori da parcheggio 12V/24V per camion, camper e furgoni. Raffreddamento senza minimo guidato dall'ingegneria."
+    },
+    "pt": {
+      "title": "Sobre a CoolDrivePro | Especialistas em AC de Estacionamento",
+      "desc": "CoolDrivePro projeta e fabrica ar condicionado de estacionamento 12V/24V para caminhões, RVs e vans. Refrigeração sem marcha lenta liderada pela engenharia."
+    },
+    "ru": {
+      "title": "О Компании CoolDrivePro | Эксперты по Стояночным Кондиционерам",
+      "desc": "CoolDrivePro разрабатывает и производит стояночные кондиционеры 12V/24V для грузовиков, домов на колесах и фургонов. Инженерное решение без холостого хода."
+    },
+    "ar": {
+      "title": "حول CoolDrivePro | خبراء مكيفات وقوف السيارات",
+      "desc": "CoolDrivePro تصمم وتصنع مكيفات وقوف السيارات 12V/24V للشاحنات والمنازل المتنقلة والفانات. تبريد بدون تباطؤ بقيادة هندسية للسائقين حول العالم."
+    },
+    "hi": {
+      "title": "CoolDrivePro के बारे में | पार्किंग एयर कंडीशनर विशेषज्ञ",
+      "desc": "CoolDrivePro ट्रकों, RV और वैन के लिए 12V/24V पार्किंग AC डिज़ाइन और निर्माण करता है। इंजीनियरिंग आधारित बिना आइडलिंग कूलिंग, दुनिया भर के ड्राइवरों के लिए।"
+    },
+    "th": {
+      "title": "เกี่ยวกับ CoolDrivePro | ผู้เชี่ยวชาญแอร์จอดรถ",
+      "desc": "CoolDrivePro ออกแบบและผลิตแอร์จอดรถ 12V/24V สำหรับรถบรรทุก, RV และรถตู้ ทำความเย็นโดยไม่ต้องติดเครื่องสำหรับคนขับทั่วโลก"
+    },
+    "vi": {
+      "title": "Về CoolDrivePro | Chuyên Gia Máy Lạnh Đỗ Xe",
+      "desc": "CoolDrivePro thiết kế và sản xuất máy lạnh đỗ xe 12V/24V cho xe tải, RV và van. Làm mát không cần nổ máy, dẫn dắt bởi kỹ thuật, phục vụ tài xế toàn cầu."
+    },
+    "id": {
+      "title": "Tentang CoolDrivePro | Ahli AC Parkir",
+      "desc": "CoolDrivePro merancang dan memproduksi AC parkir 12V/24V untuk truk, RV dan van. Pendinginan tanpa idle yang dipimpin teknik untuk pengemudi di seluruh dunia."
+    },
+    "tr": {
+      "title": "CoolDrivePro Hakkında | Park Kliması Uzmanları",
+      "desc": "CoolDrivePro, kamyonlar, RV'ler ve minibüsler için 12V/24V park klimaları tasarlar ve üretir. Mühendislik öncülüğünde rölantisiz soğutma, dünya çapındaki sürücüler için."
+    },
+    "pl": {
+      "title": "O CoolDrivePro | Eksperci Klimatyzacji Postojowej",
+      "desc": "CoolDrivePro projektuje i produkuje klimatyzację postojową 12V/24V do ciężarówek, kamperów i busów. Chłodzenie bez biegu jałowego oparte na inżynierii."
+    },
+    "nl": {
+      "title": "Over CoolDrivePro | Experts in Parkeerairconditioning",
+      "desc": "CoolDrivePro ontwerpt en bouwt 12V/24V parkeerairco's voor vrachtwagens, campers en busjes. Engineering-gedreven koeling zonder stationair voor chauffeurs wereldwijd."
+    },
+    "sv": {
+      "title": "Om CoolDrivePro | Experter på Parkeringsklimat",
+      "desc": "CoolDrivePro designar och tillverkar 12V/24V parkeringsklimat för lastbilar, husbilar och skåpbilar. Ingenjörsledd kylning utan tomgång för förare världen över."
+    },
+    "no": {
+      "title": "Om CoolDrivePro | Eksperter på Parkeringsklima",
+      "desc": "CoolDrivePro designer og produserer 12V/24V parkeringsklimaanlegg for lastebiler, bobiler og varebiler. Ingeniørstyrt kjøling uten tomgang for sjåfører verden over."
+    },
+    "da": {
+      "title": "Om CoolDrivePro | Eksperter i Parkeringsklima",
+      "desc": "CoolDrivePro designer og fremstiller 12V/24V parkeringsklimaanlæg til lastbiler, autocampere og varevogne. Ingeniørledet køling uden tomgang for chauffører verden over."
+    },
+    "fi": {
+      "title": "Tietoa CoolDrivePro:sta | Pysäköinti-ilmastoinnin Asiantuntijat",
+      "desc": "CoolDrivePro suunnittelee ja valmistaa 12V/24V pysäköinti-ilmastointia rekoille, asuntoautoille ja pakettiautoille. Insinöörivetoinen tyhjäkäynnitön jäähdytys kuljettajille maailmanlaajuisesti."
+    },
+    "el": {
+      "title": "Σχετικά με την CoolDrivePro | Ειδικοί στον Κλιματισμό Στάθμευσης",
+      "desc": "Η CoolDrivePro σχεδιάζει και κατασκευάζει κλιματιστικά στάθμευσης 12V/24V για φορτηγά, τροχόσπιτα και βαν. Ψύξη χωρίς ρελαντί καθοδηγούμενη από τη μηχανική."
+    },
+    "cs": {
+      "title": "O CoolDrivePro | Odborníci na Parkovací Klimatizaci",
+      "desc": "CoolDrivePro navrhuje a vyrábí 12V/24V parkovací klimatizace pro kamiony, obytné vozy a dodávky. Inženýrsky vedené chlazení bez volnoběhu pro řidiče po celém světě."
+    },
+    "hu": {
+      "title": "Rólunk - CoolDrivePro | Parkoló Klíma Szakértők",
+      "desc": "A CoolDrivePro 12V/24V parkoló klímákat tervez és gyárt kamionokhoz, lakóautókhoz és furgonokhoz. Mérnöki vezérlésű alapjárat-mentes hűtés sofőröknek világszerte."
+    },
+    "ro": {
+      "title": "Despre CoolDrivePro | Experți în Aer Condiționat de Parcare",
+      "desc": "CoolDrivePro proiectează și produce aer condiționat de parcare 12V/24V pentru camioane, RV-uri și dube. Răcire fără ralanti, condusă de inginerie, pentru șoferii din întreaga lume."
+    },
+    "uk": {
+      "title": "Про CoolDrivePro | Експерти зі Стоянкових Кондиціонерів",
+      "desc": "CoolDrivePro розробляє та виготовляє стоянкові кондиціонери 12V/24V для вантажівок, будинків на колесах і фургонів. Інженерне охолодження без холостого ходу для водіїв по всьому світу."
+    },
+    "he": {
+      "title": "אודות CoolDrivePro | מומחי מזגני חניה",
+      "desc": "CoolDrivePro מתכננת ומייצרת מזגני חניה 12V/24V למשאיות, קרוואנים וטנדרים. קירור מונחה הנדסה ללא הילוך סרק עבור נהגים בכל העולם."
+    },
+    "ms": {
+      "title": "Tentang CoolDrivePro | Pakar AC Parkir",
+      "desc": "CoolDrivePro mereka bentuk dan mengeluarkan AC parkir 12V/24V untuk trak, RV dan van. Penyejukan tanpa enjin melahu yang diterajui kejuruteraan untuk pemandu seluruh dunia."
+    }
+  },
+  "/about/factory": {
+    "en": {
+      "title": "Inside Our Factory | CoolDrivePro Parking AC Manufacturing",
+      "desc": "Tour the CoolDrivePro / Qingdao Vethy manufacturing facility: in-house R&D, SMT and assembly lines, 100% pre-shipment QC and global container fulfillment for 12V/24V parking air conditioners."
+    }
+  },
+  "/about/certifications": {
+    "en": {
+      "title": "Certifications & Quality | CoolDrivePro Parking AC",
+      "desc": "ISO 9001:2015, CNAS-accredited testing lab, registered trademark and granted design patent — full quality and IP documentation behind every CoolDrivePro 12V/24V parking air conditioner."
+    }
+  },
+  "/about/exhibitions": {
+    "en": {
+      "title": "Trade Shows & Global Presence | CoolDrivePro Parking AC",
+      "desc": "Meet CoolDrivePro at international trade shows. Real booth photos, live 12V/24V parking AC demos and distributor meetings across North America, Europe, ANZ and the Middle East."
+    }
+  },
+  "/contact": {
+    "en": {
+      "title": "Contact CoolDrivePro | Parking AC Support & Sales",
+      "desc": "Get in touch with CoolDrivePro for parking AC sales, technical support and warranty service. Email, phone and live chat available."
+    },
+    "zh-CN": {
+      "title": "联系 CoolDrivePro | 驻车空调销售与支持",
+      "desc": "联系 CoolDrivePro 进行驻车空调销售、技术支持和保修服务。提供电子邮件、电话和在线客服。"
+    },
+    "zh-TW": {
+      "title": "聯繫 CoolDrivePro | 駐車空調銷售與支持",
+      "desc": "聯繫 CoolDrivePro 進行駐車空調銷售、技術支持和保固服務。提供電郵、電話和線上客服。"
+    },
+    "ja": {
+      "title": "お問い合わせ | CoolDrivePro 駐車エアコン販売・サポート",
+      "desc": "CoolDrivePro へのお問い合わせ。駐車エアコンの販売、技術サポート、保証サービス。メール、電話、ライブチャット対応。"
+    },
+    "ko": {
+      "title": "문의하기 | CoolDrivePro 주차 에어컨 판매·지원",
+      "desc": "CoolDrivePro 주차 에어컨 판매, 기술 지원, 보증 서비스 문의. 이메일, 전화, 실시간 채팅 가능."
+    },
+    "de": {
+      "title": "Kontakt | CoolDrivePro Standklimaanlagen-Verkauf & Support",
+      "desc": "Kontaktieren Sie CoolDrivePro für Verkauf, technischen Support und Garantieservice der Standklimaanlagen. E-Mail, Telefon und Live-Chat verfügbar."
+    },
+    "fr": {
+      "title": "Contact | CoolDrivePro Vente & Support Climatisation",
+      "desc": "Contactez CoolDrivePro pour la vente, le support technique et la garantie de climatiseurs de stationnement. E-mail, téléphone et chat en direct disponibles."
+    },
+    "es": {
+      "title": "Contacto | CoolDrivePro Ventas y Soporte AC",
+      "desc": "Póngase en contacto con CoolDrivePro para ventas, soporte técnico y servicio de garantía de aires acondicionados. Email, teléfono y chat en vivo disponibles."
+    },
+    "it": {
+      "title": "Contatto | CoolDrivePro Vendite e Supporto Condizionatori",
+      "desc": "Contatta CoolDrivePro per vendita, supporto tecnico e garanzia condizionatori da parcheggio. Email, telefono e chat dal vivo disponibili."
+    },
+    "pt": {
+      "title": "Contato | CoolDrivePro Vendas e Suporte AC",
+      "desc": "Entre em contato com a CoolDrivePro para vendas, suporte técnico e garantia de ar condicionado. E-mail, telefone e chat ao vivo disponíveis."
+    },
+    "ru": {
+      "title": "Контакты | CoolDrivePro Продажи и Поддержка Кондиционеров",
+      "desc": "Свяжитесь с CoolDrivePro по вопросам продаж, технической поддержки и гарантии стояночных кондиционеров. Email, телефон и живой чат."
+    },
+    "ar": {
+      "title": "اتصل بنا | CoolDrivePro مبيعات ودعم مكيفات السيارات",
+      "desc": "تواصل مع CoolDrivePro للمبيعات والدعم الفني وخدمة الضمان لمكيفات وقوف السيارات. البريد الإلكتروني والهاتف والدردشة المباشرة متاحة."
+    },
+    "hi": {
+      "title": "संपर्क करें | CoolDrivePro पार्किंग AC बिक्री और सहायता",
+      "desc": "पार्किंग AC बिक्री, तकनीकी सहायता और वारंटी सेवा के लिए CoolDrivePro से संपर्क करें। ईमेल, फोन और लाइव चैट उपलब्ध।"
+    },
+    "th": {
+      "title": "ติดต่อเรา | CoolDrivePro ฝ่ายขายและสนับสนุนแอร์จอดรถ",
+      "desc": "ติดต่อ CoolDrivePro สำหรับการขาย, สนับสนุนทางเทคนิคและบริการรับประกันแอร์จอดรถ พร้อมอีเมล, โทรศัพท์ และแชทสด"
+    },
+    "vi": {
+      "title": "Liên Hệ | CoolDrivePro Bán Hàng & Hỗ Trợ Máy Lạnh",
+      "desc": "Liên hệ CoolDrivePro để mua, hỗ trợ kỹ thuật và bảo hành máy lạnh đỗ xe. Email, điện thoại và chat trực tiếp."
+    },
+    "id": {
+      "title": "Hubungi Kami | CoolDrivePro Penjualan & Dukungan AC",
+      "desc": "Hubungi CoolDrivePro untuk penjualan, dukungan teknis, dan garansi AC parkir. Tersedia email, telepon, dan obrolan langsung."
+    },
+    "tr": {
+      "title": "İletişim | CoolDrivePro Park Kliması Satış & Destek",
+      "desc": "Park kliması satış, teknik destek ve garanti hizmeti için CoolDrivePro ile iletişime geçin. E-posta, telefon ve canlı sohbet mevcut."
+    },
+    "pl": {
+      "title": "Kontakt | CoolDrivePro Sprzedaż i Wsparcie Klimatyzacji",
+      "desc": "Skontaktuj się z CoolDrivePro w sprawie sprzedaży, wsparcia technicznego i gwarancji klimatyzacji postojowej. E-mail, telefon i czat na żywo."
+    },
+    "nl": {
+      "title": "Contact | CoolDrivePro Parkeerairco Verkoop & Ondersteuning",
+      "desc": "Neem contact op met CoolDrivePro voor verkoop, technische ondersteuning en garantieservice van parkeerairco's. E-mail, telefoon en livechat beschikbaar."
+    },
+    "sv": {
+      "title": "Kontakt | CoolDrivePro Parkeringsklimat Försäljning & Support",
+      "desc": "Kontakta CoolDrivePro för försäljning, teknisk support och garantiservice av parkeringsklimat. E-post, telefon och livechatt tillgängliga."
+    },
+    "no": {
+      "title": "Kontakt | CoolDrivePro Parkeringsklima Salg & Support",
+      "desc": "Kontakt CoolDrivePro for salg, teknisk støtte og garantiservice for parkeringsklimaanlegg. E-post, telefon og live-chat tilgjengelig."
+    },
+    "da": {
+      "title": "Kontakt | CoolDrivePro Parkeringsklima Salg & Support",
+      "desc": "Kontakt CoolDrivePro for salg, teknisk support og garantiservice til parkeringsklimaanlæg. E-mail, telefon og live chat tilgængelig."
+    },
+    "fi": {
+      "title": "Yhteystiedot | CoolDrivePro Pysäköinti-ilmastoinnin Myynti & Tuki",
+      "desc": "Ota yhteyttä CoolDrivePro:hon pysäköinti-ilmastoinnin myynnin, teknisen tuen ja takuun osalta. Sähköposti, puhelin ja live-chat käytettävissä."
+    },
+    "el": {
+      "title": "Επικοινωνία | CoolDrivePro Πωλήσεις & Υποστήριξη Κλιματισμού",
+      "desc": "Επικοινωνήστε με την CoolDrivePro για πωλήσεις, τεχνική υποστήριξη και υπηρεσία εγγύησης κλιματιστικών στάθμευσης. Email, τηλέφωνο, live chat."
+    },
+    "cs": {
+      "title": "Kontakt | CoolDrivePro Prodej a Podpora Klimatizací",
+      "desc": "Kontaktujte CoolDrivePro ohledně prodeje, technické podpory a záručního servisu parkovacích klimatizací. E-mail, telefon a živý chat."
+    },
+    "hu": {
+      "title": "Kapcsolat | CoolDrivePro Klíma Értékesítés & Támogatás",
+      "desc": "Vegye fel a kapcsolatot a CoolDrivePro-val parkoló klíma értékesítés, műszaki támogatás és garancia ügyében. E-mail, telefon, élő chat."
+    },
+    "ro": {
+      "title": "Contact | CoolDrivePro Vânzări & Suport AC",
+      "desc": "Contactați CoolDrivePro pentru vânzări, suport tehnic și service în garanție pentru aer condiționat de parcare. Email, telefon și chat live disponibile."
+    },
+    "uk": {
+      "title": "Контакти | CoolDrivePro Продажі та Підтримка Кондиціонерів",
+      "desc": "Зв'яжіться з CoolDrivePro щодо продажу, технічної підтримки та гарантійного обслуговування стоянкових кондиціонерів. Email, телефон та живий чат."
+    },
+    "he": {
+      "title": "צור קשר | CoolDrivePro מכירות ותמיכה במזגן חניה",
+      "desc": "צור קשר עם CoolDrivePro למכירות, תמיכה טכנית ושירות אחריות למזגני חניה. אימייל, טלפון וצ'אט חי זמינים."
+    },
+    "ms": {
+      "title": "Hubungi | CoolDrivePro Jualan & Sokongan AC Parkir",
+      "desc": "Hubungi CoolDrivePro untuk jualan, sokongan teknikal dan perkhidmatan waranti AC parkir. E-mel, telefon dan sembang langsung tersedia."
+    }
+  },
+  "/blog": {
+    "en": {
+      "title": "Blog | Parking AC Guides & Tips – CoolDrivePro",
+      "desc": "Expert guides, buyer tips and how-tos for 12V/24V parking air conditioners. Learn about installation, battery sizing, and choosing the right unit for your truck."
+    },
+    "zh-CN": {
+      "title": "博客 | 驻车空调指南与技巧 - CoolDrivePro",
+      "desc": "12V/24V 驻车空调专家指南、购买建议和操作教程。了解安装、电池配置以及如何为您的卡车选择合适的机型。"
+    },
+    "zh-TW": {
+      "title": "部落格 | 駐車空調指南與技巧 - CoolDrivePro",
+      "desc": "12V/24V 駐車空調專家指南、購買建議和操作教學。了解安裝、電池配置以及如何為您的卡車選擇合適的機型。"
+    },
+    "ja": {
+      "title": "ブログ | 駐車エアコンガイドとヒント - CoolDrivePro",
+      "desc": "12V/24V駐車エアコンの専門家ガイド、購入ヒント、ハウツー。設置、バッテリーサイジング、トラックに最適な機種選びを解説。"
+    },
+    "ko": {
+      "title": "블로그 | 주차 에어컨 가이드 & 팁 - CoolDrivePro",
+      "desc": "12V/24V 주차 에어컨 전문가 가이드, 구매 팁, 설치 방법. 배터리 사이징과 트럭에 맞는 모델 선택을 알아보세요."
+    },
+    "de": {
+      "title": "Blog | Standklimaanlagen Ratgeber & Tipps - CoolDrivePro",
+      "desc": "Experten-Ratgeber, Kauftipps und Anleitungen für 12V/24V Standklimaanlagen. Erfahren Sie mehr über Installation, Batteriedimensionierung und Modellauswahl."
+    },
+    "fr": {
+      "title": "Blog | Guides & Astuces Climatisation Stationnement - CoolDrivePro",
+      "desc": "Guides d'experts, conseils d'achat et tutoriels pour climatiseurs de stationnement 12V/24V. Installation, dimensionnement batterie et choix du modèle."
+    },
+    "es": {
+      "title": "Blog | Guías y Consejos AC Estacionamiento - CoolDrivePro",
+      "desc": "Guías expertas, consejos de compra y tutoriales para aires acondicionados de estacionamiento 12V/24V. Instalación, dimensionamiento de batería y selección."
+    },
+    "it": {
+      "title": "Blog | Guide e Consigli Condizionatori da Parcheggio - CoolDrivePro",
+      "desc": "Guide degli esperti, consigli d'acquisto e tutorial per condizionatori da parcheggio 12V/24V. Installazione, dimensionamento batteria e scelta del modello."
+    },
+    "pt": {
+      "title": "Blog | Guias e Dicas AC Estacionamento - CoolDrivePro",
+      "desc": "Guias especializados, dicas de compra e tutoriais para ar condicionado de estacionamento 12V/24V. Instalação, dimensionamento de bateria e escolha do modelo."
+    },
+    "ru": {
+      "title": "Блог | Руководства и Советы по Стояночным Кондиционерам - CoolDrivePro",
+      "desc": "Экспертные руководства, советы покупателю и инструкции для стояночных кондиционеров 12V/24V. Установка, расчёт батареи и выбор модели."
+    },
+    "ar": {
+      "title": "مدونة | أدلة ونصائح مكيف وقوف السيارات - CoolDrivePro",
+      "desc": "أدلة الخبراء ونصائح الشراء والإرشادات لمكيفات وقوف السيارات 12V/24V. تعرف على التثبيت وحجم البطارية واختيار النموذج المناسب."
+    },
+    "hi": {
+      "title": "ब्लॉग | पार्किंग AC गाइड और टिप्स - CoolDrivePro",
+      "desc": "12V/24V पार्किंग AC के लिए विशेषज्ञ गाइड, खरीदार टिप्स और हाउ-टू। इंस्टॉलेशन, बैटरी साइज़िंग और सही मॉडल चुनने के बारे में जानें।"
+    },
+    "th": {
+      "title": "บล็อก | คู่มือและเคล็ดลับแอร์จอดรถ - CoolDrivePro",
+      "desc": "คู่มือผู้เชี่ยวชาญ, เคล็ดลับการซื้อและวิธีใช้งานแอร์จอดรถ 12V/24V ติดตั้ง, การคำนวณแบตเตอรี่ และเลือกรุ่นที่เหมาะกับรถบรรทุก"
+    },
+    "vi": {
+      "title": "Blog | Hướng Dẫn & Mẹo Máy Lạnh Đỗ Xe - CoolDrivePro",
+      "desc": "Hướng dẫn chuyên gia, mẹo mua hàng và cách sử dụng máy lạnh đỗ xe 12V/24V. Lắp đặt, tính toán pin và chọn mẫu phù hợp."
+    },
+    "id": {
+      "title": "Blog | Panduan & Tips AC Parkir - CoolDrivePro",
+      "desc": "Panduan ahli, tips pembelian dan tutorial AC parkir 12V/24V. Pelajari instalasi, ukuran baterai dan pilih model yang tepat untuk truk Anda."
+    },
+    "tr": {
+      "title": "Blog | Park Kliması Rehberi & İpuçları - CoolDrivePro",
+      "desc": "12V/24V park kliması için uzman rehberleri, satın alma ipuçları ve nasıl yapılır kılavuzları. Kurulum, batarya boyutlandırma ve doğru modeli seçme."
+    },
+    "pl": {
+      "title": "Blog | Poradniki i Wskazówki Klimatyzacji Postojowej - CoolDrivePro",
+      "desc": "Eksperckie poradniki, wskazówki zakupowe i instrukcje dla klimatyzacji postojowej 12V/24V. Instalacja, dobór baterii i wybór modelu."
+    },
+    "nl": {
+      "title": "Blog | Parkeerairco Gidsen & Tips - CoolDrivePro",
+      "desc": "Expertgidsen, koperstips en handleidingen voor 12V/24V parkeerairco's. Installatie, accudimensionering en het juiste model kiezen voor uw vrachtwagen."
+    },
+    "sv": {
+      "title": "Blogg | Guider & Tips för Parkeringsklimat - CoolDrivePro",
+      "desc": "Expertguider, köptips och instruktioner för 12V/24V parkeringsklimatanläggningar. Installation, batteridimensionering och val av rätt modell."
+    },
+    "no": {
+      "title": "Blogg | Guider & Tips for Parkeringsklima - CoolDrivePro",
+      "desc": "Ekspertguider, kjøpetips og veiledninger for 12V/24V parkeringsklimaanlegg. Installasjon, batteridimensjonering og valg av riktig modell."
+    },
+    "da": {
+      "title": "Blog | Guider & Tips til Parkeringsklima - CoolDrivePro",
+      "desc": "Ekspertguider, købstips og vejledninger til 12V/24V parkeringsklimaanlæg. Installation, batteridimensionering og valg af den rigtige model."
+    },
+    "fi": {
+      "title": "Blogi | Pysäköinti-ilmastoinnin Oppaat & Vinkit - CoolDrivePro",
+      "desc": "Asiantuntijaoppaat, ostovinkit ja ohjeet 12V/24V pysäköinti-ilmastointiin. Asennus, akun mitoitus ja oikean mallin valinta."
+    },
+    "el": {
+      "title": "Blog | Οδηγοί & Συμβουλές Κλιματισμού Στάθμευσης - CoolDrivePro",
+      "desc": "Οδηγοί ειδικών, συμβουλές αγοράς και οδηγοί χρήσης για κλιματιστικά στάθμευσης 12V/24V. Εγκατάσταση, διαστασιολόγηση μπαταρίας και επιλογή μοντέλου."
+    },
+    "cs": {
+      "title": "Blog | Průvodce a Tipy Parkovací Klimatizace - CoolDrivePro",
+      "desc": "Odborné průvodce, nákupní tipy a návody pro parkovací klimatizace 12V/24V. Instalace, dimenzování baterie a výběr správného modelu."
+    },
+    "hu": {
+      "title": "Blog | Parkoló Klíma Útmutatók & Tippek - CoolDrivePro",
+      "desc": "Szakértői útmutatók, vásárlási tippek és how-to-k 12V/24V parkoló klímákhoz. Telepítés, akku méretezés és a megfelelő modell kiválasztása."
+    },
+    "ro": {
+      "title": "Blog | Ghiduri & Sfaturi Aer Condiționat de Parcare - CoolDrivePro",
+      "desc": "Ghiduri experte, sfaturi de cumpărare și tutoriale pentru aer condiționat de parcare 12V/24V. Instalare, dimensionare baterie și alegerea modelului."
+    },
+    "uk": {
+      "title": "Блог | Посібники та Поради зі Стоянкових Кондиціонерів - CoolDrivePro",
+      "desc": "Експертні посібники, поради покупцеві та інструкції для стоянкових кондиціонерів 12V/24V. Встановлення, розрахунок батареї та вибір моделі."
+    },
+    "he": {
+      "title": "בלוג | מדריכים וטיפים למזגן חניה - CoolDrivePro",
+      "desc": "מדריכי מומחים, טיפים לקנייה והוראות שימוש למזגני חניה 12V/24V. התקנה, חישוב סוללה ובחירת הדגם המתאים למשאית שלך."
+    },
+    "ms": {
+      "title": "Blog | Panduan & Tip AC Parkir - CoolDrivePro",
+      "desc": "Panduan pakar, tip pembelian dan tutorial untuk AC parkir 12V/24V. Pemasangan, saiz bateri dan memilih model yang sesuai untuk trak anda."
+    }
+  },
+  "/support": {
+    "en": {
+      "title": "Support | Parking AC Help Center – CoolDrivePro",
+      "desc": "Installation guides, troubleshooting, warranty service and FAQs for CoolDrivePro 12V/24V parking air conditioners. Get expert help fast."
+    },
+    "zh-CN": {
+      "title": "支持中心 | 驻车空调帮助 - CoolDrivePro",
+      "desc": "CoolDrivePro 12V/24V 驻车空调安装指南、故障排除、保修服务和常见问题。快速获取专家帮助。"
+    },
+    "zh-TW": {
+      "title": "支援中心 | 駐車空調協助 - CoolDrivePro",
+      "desc": "CoolDrivePro 12V/24V 駐車空調安裝指南、故障排除、保固服務和常見問題。快速獲得專家協助。"
+    },
+    "ja": {
+      "title": "サポート | 駐車エアコン ヘルプセンター - CoolDrivePro",
+      "desc": "CoolDrivePro 12V/24V 駐車エアコンの取り付けガイド、トラブルシューティング、保証サービス、FAQ。迅速な専門家サポート。"
+    },
+    "ko": {
+      "title": "지원 | 주차 에어컨 도움말 센터 - CoolDrivePro",
+      "desc": "CoolDrivePro 12V/24V 주차 에어컨 설치 가이드, 문제 해결, 보증 서비스 및 FAQ. 신속한 전문가 지원."
+    },
+    "de": {
+      "title": "Support | Standklimaanlagen Hilfe-Center - CoolDrivePro",
+      "desc": "Installationsanleitungen, Fehlerbehebung, Garantieservice und FAQs für CoolDrivePro 12V/24V Standklimaanlagen. Schnelle Experten-Hilfe."
+    },
+    "fr": {
+      "title": "Support | Centre d'Aide Climatisation Stationnement - CoolDrivePro",
+      "desc": "Guides d'installation, dépannage, service de garantie et FAQ pour climatiseurs 12V/24V CoolDrivePro. Aide d'experts rapide."
+    },
+    "es": {
+      "title": "Soporte | Centro de Ayuda AC Estacionamiento - CoolDrivePro",
+      "desc": "Guías de instalación, solución de problemas, servicio de garantía y preguntas frecuentes para aires acondicionados 12V/24V CoolDrivePro. Ayuda experta rápida."
+    },
+    "it": {
+      "title": "Supporto | Centro Assistenza Condizionatori Parcheggio - CoolDrivePro",
+      "desc": "Guide di installazione, risoluzione problemi, servizio di garanzia e FAQ per condizionatori 12V/24V CoolDrivePro. Assistenza esperta rapida."
+    },
+    "pt": {
+      "title": "Suporte | Central de Ajuda AC Estacionamento - CoolDrivePro",
+      "desc": "Guias de instalação, solução de problemas, serviço de garantia e FAQs para ar condicionado 12V/24V CoolDrivePro. Ajuda especializada rápida."
+    },
+    "ru": {
+      "title": "Поддержка | Справочный Центр Стояночных Кондиционеров - CoolDrivePro",
+      "desc": "Руководства по установке, устранение неполадок, гарантийное обслуживание и FAQ для кондиционеров 12V/24V CoolDrivePro. Быстрая экспертная помощь."
+    },
+    "ar": {
+      "title": "الدعم | مركز مساعدة مكيف وقوف السيارات - CoolDrivePro",
+      "desc": "أدلة التثبيت واستكشاف الأخطاء وخدمة الضمان والأسئلة الشائعة لمكيفات 12V/24V CoolDrivePro. مساعدة خبراء سريعة."
+    },
+    "hi": {
+      "title": "सहायता | पार्किंग AC हेल्प सेंटर - CoolDrivePro",
+      "desc": "CoolDrivePro 12V/24V पार्किंग AC के लिए इंस्टॉलेशन गाइड, समस्या निवारण, वारंटी सेवा और FAQs। तेज़ी से विशेषज्ञ सहायता पाएं।"
+    },
+    "th": {
+      "title": "ฝ่ายสนับสนุน | ศูนย์ช่วยเหลือแอร์จอดรถ - CoolDrivePro",
+      "desc": "คู่มือติดตั้ง, แก้ไขปัญหา, บริการรับประกัน และคำถามที่พบบ่อยสำหรับแอร์จอดรถ 12V/24V CoolDrivePro รับความช่วยเหลือจากผู้เชี่ยวชาญอย่างรวดเร็ว"
+    },
+    "vi": {
+      "title": "Hỗ Trợ | Trung Tâm Trợ Giúp Máy Lạnh Đỗ Xe - CoolDrivePro",
+      "desc": "Hướng dẫn lắp đặt, khắc phục sự cố, bảo hành và FAQ cho máy lạnh đỗ xe 12V/24V CoolDrivePro. Hỗ trợ chuyên gia nhanh chóng."
+    },
+    "id": {
+      "title": "Dukungan | Pusat Bantuan AC Parkir - CoolDrivePro",
+      "desc": "Panduan instalasi, pemecahan masalah, layanan garansi, dan FAQ untuk AC parkir 12V/24V CoolDrivePro. Dapatkan bantuan ahli dengan cepat."
+    },
+    "tr": {
+      "title": "Destek | Park Kliması Yardım Merkezi - CoolDrivePro",
+      "desc": "CoolDrivePro 12V/24V park klimaları için kurulum kılavuzları, sorun giderme, garanti servisi ve SSS. Hızlı uzman desteği."
+    },
+    "pl": {
+      "title": "Wsparcie | Centrum Pomocy Klimatyzacji Postojowej - CoolDrivePro",
+      "desc": "Instrukcje montażu, rozwiązywanie problemów, serwis gwarancyjny i FAQ dla klimatyzacji 12V/24V CoolDrivePro. Szybka pomoc ekspertów."
+    },
+    "nl": {
+      "title": "Ondersteuning | Parkeerairco Helpcentrum - CoolDrivePro",
+      "desc": "Installatiehandleidingen, probleemoplossing, garantieservice en FAQ's voor CoolDrivePro 12V/24V parkeerairco's. Snelle deskundige hulp."
+    },
+    "sv": {
+      "title": "Support | Hjälpcenter för Parkeringsklimat - CoolDrivePro",
+      "desc": "Installationsguider, felsökning, garantiservice och vanliga frågor för CoolDrivePro 12V/24V parkeringsklimat. Snabb experthjälp."
+    },
+    "no": {
+      "title": "Støtte | Hjelpsenter for Parkeringsklima - CoolDrivePro",
+      "desc": "Installasjonsveiledninger, feilsøking, garantiservice og vanlige spørsmål for CoolDrivePro 12V/24V parkeringsklima. Rask eksperthjelp."
+    },
+    "da": {
+      "title": "Support | Hjælpecenter for Parkeringsklima - CoolDrivePro",
+      "desc": "Installationsvejledninger, fejlfinding, garantiservice og FAQ for CoolDrivePro 12V/24V parkeringsklimaanlæg. Hurtig eksperthjælp."
+    },
+    "fi": {
+      "title": "Tuki | Pysäköinti-ilmastoinnin Ohjekeskus - CoolDrivePro",
+      "desc": "Asennusoppaat, vianmääritys, takuuhuolto ja UKK CoolDrivePro 12V/24V pysäköinti-ilmastointiin. Nopea asiantuntija-apu."
+    },
+    "el": {
+      "title": "Υποστήριξη | Κέντρο Βοήθειας Κλιματισμού Στάθμευσης - CoolDrivePro",
+      "desc": "Οδηγοί εγκατάστασης, επίλυση προβλημάτων, υπηρεσία εγγύησης και συχνές ερωτήσεις για κλιματιστικά 12V/24V CoolDrivePro. Γρήγορη βοήθεια ειδικών."
+    },
+    "cs": {
+      "title": "Podpora | Centrum Pomoci Parkovací Klimatizace - CoolDrivePro",
+      "desc": "Návody k instalaci, řešení problémů, záruční servis a FAQ pro parkovací klimatizace 12V/24V CoolDrivePro. Rychlá odborná pomoc."
+    },
+    "hu": {
+      "title": "Támogatás | Parkoló Klíma Súgóközpont - CoolDrivePro",
+      "desc": "Telepítési útmutatók, hibaelhárítás, garanciaszerviz és GYIK CoolDrivePro 12V/24V parkoló klímákhoz. Gyors szakértői segítség."
+    },
+    "ro": {
+      "title": "Suport | Centru de Asistență Aer Condiționat de Parcare - CoolDrivePro",
+      "desc": "Ghiduri de instalare, depanare, service în garanție și întrebări frecvente pentru aer condiționat 12V/24V CoolDrivePro. Asistență expertă rapidă."
+    },
+    "uk": {
+      "title": "Підтримка | Центр Допомоги Стоянкових Кондиціонерів - CoolDrivePro",
+      "desc": "Посібники зі встановлення, усунення несправностей, гарантійне обслуговування та FAQ для кондиціонерів 12V/24V CoolDrivePro. Швидка експертна допомога."
+    },
+    "he": {
+      "title": "תמיכה | מרכז עזרה למזגן חניה - CoolDrivePro",
+      "desc": "מדריכי התקנה, פתרון תקלות, שירות אחריות ושאלות נפוצות למזגני 12V/24V CoolDrivePro. עזרת מומחים מהירה."
+    },
+    "ms": {
+      "title": "Sokongan | Pusat Bantuan AC Parkir - CoolDrivePro",
+      "desc": "Panduan pemasangan, penyelesaian masalah, perkhidmatan waranti dan Soalan Lazim untuk AC parkir 12V/24V CoolDrivePro. Bantuan pakar pantas."
+    }
+  },
+  "/warranty": {
+    "en": {
+      "title": "Warranty Policy | CoolDrivePro",
+      "desc": "Review CoolDrivePro parking AC warranty coverage, service requirements and support steps for eligible products."
+    }
+  },
+  "/return-policy": {
+    "en": {
+      "title": "Return & Refund Policy | CoolDrivePro",
+      "desc": "Read the CoolDrivePro return and refund policy for parking air conditioners, including eligibility, return steps, refund timing and support contact details."
+    }
+  },
+  "/shipping-policy": {
+    "en": {
+      "title": "Shipping Policy | CoolDrivePro",
+      "desc": "Learn about CoolDrivePro shipping options, delivery timelines and order handling for parking AC products."
+    }
+  },
+  "/privacy-policy": {
+    "en": {
+      "title": "Privacy Policy | CoolDrivePro",
+      "desc": "Read how CoolDrivePro collects, uses and protects personal information for parking AC shoppers, customers and support requests."
+    }
+  },
+  "/terms-of-service": {
+    "en": {
+      "title": "Terms of Service | CoolDrivePro",
+      "desc": "Read CoolDrivePro terms for website use, parking AC product information, orders, installation responsibility, warranty, returns and support."
+    }
+  },
+  "/payment-method": {
+    "en": {
+      "title": "Payment Method | CoolDrivePro",
+      "desc": "See accepted CoolDrivePro payment methods, secure payment processing, authorization timing, sales tax handling and payment support guidance."
+    }
+  },
+  "/billing-terms": {
+    "en": {
+      "title": "Billing Terms | CoolDrivePro",
+      "desc": "Review CoolDrivePro billing terms for USD pricing, invoices, receipts, billing information, order adjustments, refunds and billing support."
+    }
+  },
+  "/vehicle-compatibility": {
+    "en": {
+      "title": "Parking Air Conditioner Vehicle Compatibility Guide | CoolDrivePro",
+      "desc": "Check parking air conditioner compatibility for semi trucks, RVs, vans and pickups by 12V/24V voltage, roof space, battery runtime and dealer fitment.",
+      "langs": ["en"]
+    }
+  },
+  "/vehicle-compatibility/semi-truck-parking-ac": {
+    "en": {
+      "title": "Semi Truck Parking Air Conditioner Compatibility | CoolDrivePro",
+      "desc": "Verify semi truck parking air conditioner fitment for sleeper cabs, 24V power, overnight runtime, rooftop parking AC, mini split systems and fleet installs.",
+      "langs": ["en"]
+    }
+  },
+  "/vehicle-compatibility/rv-parking-ac": {
+    "en": {
+      "title": "RV Parking Air Conditioner Compatibility | CoolDrivePro",
+      "desc": "Plan RV parking air conditioner fitment around roof space, 12V house batteries, quiet campground cooling, off-grid runtime and model selection.",
+      "langs": ["en"]
+    }
+  },
+  "/vehicle-compatibility/12v-vs-24v-parking-ac": {
+    "en": {
+      "title": "12V vs 24V Parking Air Conditioner Compatibility | CoolDrivePro",
+      "desc": "Choose the right 12V or 24V parking air conditioner for RVs, vans, pickups, semi trucks and dealer inventory with a practical voltage checklist.",
+      "langs": ["en"]
+    }
+  },
+  "/dealer-guide/parking-ac-local-market-fitment": {
+    "en": {
+      "title": "Parking AC Dealer Guide for Local Market Fitment | CoolDrivePro",
+      "desc": "Dealer guide for choosing parking air conditioner starter products by local vehicle mix, customer fitment doubts, climate, voltage and installation capacity.",
+      "langs": ["en"]
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "cluster_id": "H2-c01",
+  "target_kw": "parking ac oem",
+  "alt_target_kw_note": null,
+  "secondary_kws": [
+    "parking ac for trucks",
+    "truck sleeper ac",
+    "24v parking ac",
+    "12v parking ac for trucks",
+    "no idle truck ac",
+    "electric truck cab ac",
+    "best truck sleeper ac",
+    "class 8 sleeper ac",
+    "semi truck parking ac",
+    "truck overnight ac",
+    "cab cooling no idle",
+    "battery powered truck ac"
+  ],
+  "market": "en-US",
+  "intent": "commercial",
+  "template": "pillar",
+  "hub": "H2",
+  "word_count_range": [
+    3500,
+    4500
+  ],
+  "sections": [
+    {
+      "h2": "TL;DR — Parking AC OEM in 6 numbers",
+      "must_cover": [
+        "typical MOQ",
+        "lead time range",
+        "kWh/night power draw range",
+        "warranty industry norm",
+        "price band 12V vs 24V",
+        "certification matrix"
+      ]
+    },
+    {
+      "h2": "12V vs 24V parking AC — when each one wins",
+      "must_cover": [
+        "truck/RV/van use-case mapping",
+        "amp draw comparison",
+        "battery sizing per voltage"
+      ]
+    },
+    {
+      "h2": "How an OEM parking AC factory actually works",
+      "must_cover": [
+        "compressor sourcing",
+        "evaporator/condenser fabrication",
+        "PCB control board",
+        "MOQ economics",
+        "private label tooling cost"
+      ]
+    },
+    {
+      "h2": "8 specs every B2B buyer should lock in writing",
+      "must_cover": [
+        "cooling capacity (BTU/W)",
+        "power consumption per hour (continuous and peak)",
+        "noise dB",
+        "certifications (CE, E-Mark, FCC, RoHS, REACH)",
+        "warranty length and territory",
+        "lead time per order tier",
+        "spare parts SKU list",
+        "FOB/CIF Incoterm"
+      ]
+    },
+    {
+      "h2": "Comparison matrix: 10 OEM factories",
+      "must_cover": [
+        "China-based: Kingclima, Guchen, Sino Air, HLSK, TKT, Defu, Hisuper",
+        "Global: Webasto, Dometic, Indel B, Dirna, Bergstrom"
+      ]
+    },
+    {
+      "h2": "Real installation use-cases (with photos)",
+      "must_cover": [
+        "Class 8 sleeper retrofit",
+        "RV class A rooftop",
+        "Sprinter van conversion",
+        "off-grid camper"
+      ]
+    },
+    {
+      "h2": "Red flags when sourcing OEM",
+      "must_cover": [
+        "no factory audit photos",
+        "MOQ <5 units (likely trading company)",
+        "no CE technical file on request",
+        "no spare-parts retainer in contract"
+      ]
+    },
+    {
+      "h2": "How CoolDrivePro structures OEM deals",
+      "must_cover": [
+        "pricing tiers from 5/50/200/500 units",
+        "EXW vs FOB vs CIF",
+        "private-label branding scope"
+      ]
+    },
+    {
+      "h2": "FAQ",
+      "must_cover": [
+        "how long can it run when parked",
+        "12V vs 24V choice",
+        "MOQ",
+        "lead time",
+        "certifications",
+        "warranty"
+      ]
+    }
+  ],
+  "FAQ": [
+    "How long can a parking air conditioner run when parked?",
+    "What's the difference between 12V and 24V parking AC and which do I need?",
+    "What's the minimum order quantity for an OEM parking AC supplier?",
+    "Which certifications do I need for US/EU export?",
+    "What's a normal lead time for 100+ units?",
+    "How many kWh does a parking AC draw per night?"
+  ],
+  "required_schemas": [
+    "Article",
+    "BreadcrumbList",
+    "FAQPage"
+  ],
+  "must_have_entities": [
+    "12V",
+    "24V",
+    "BTU",
+    "MOQ",
+    "compressor",
+    "evaporator",
+    "condenser",
+    "CE",
+    "E-Mark",
+    "FCC",
+    "RoHS",
+    "FOB",
+    "CIF",
+    "EXW",
+    "private label",
+    "OEM",
+    "ODM",
+    "LiFePO4",
+    "lead time"
+  ],
+  "golden_gap": "No Top10 page publishes an 8-spec lock-in checklist + a 10-factory comparison matrix + transparent MOQ/lead-time/warranty bands. Everything is either 1-factory product page or generic content marketing.",
+  "recommended_external_refs": [
+    {
+      "label": "UNECE ECE R10 (E-Mark for parking AC)",
+      "url": "https://unece.org/transport/vehicle-regulations"
+    },
+    {
+      "label": "EPA SmartWay verified list",
+      "url": "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies"
+    }
+  ],
+  "internal_link_targets": [
+    "/products/vth1",
+    "/products/nano-max",
+    "/wholesale",
+    "/blog/lifepo4-battery-for-parking-ac",
+    "/blog/parking-ac-installation-cost-2026",
+    "/blog/parking-ac-fuel-savings-calculator",
+    "/blog/dometic-vs-webasto-parking-ac"
+  ],
+  "ogImage_hint": "Hero showing factory production line + OEM stamp + 12V/24V badges, 1600x900 WebP, CoolDrivePro branded",
+  "serp_brief_meta": {
+    "top10_avg_word_count": 1154,
+    "top10_avg_bigrams_must_mention": [
+      "air conditioner(8)",
+      "parking air(5)",
+      "12v 24v(4)",
+      "air conditioning(4)",
+      "air conditioners(4)",
+      "truck air(3)"
+    ],
+    "cluster_est_volume": 38945,
+    "cluster_median_kd": 32,
+    "cluster_member_count": 67,
+    "ranking_difficulty_note": "67 spokes collapsed into one cluster because SERP overlap is heavy (Amazon + manufacturers). Don't split into 67 articles — one strong pillar + 5-6 differentiated spokes.",
+    "generated_at": "2026-06-08T05:41:53.075Z"
+  },
+  "banned_angles": [
+    "67 thin pages, one per spoke kw",
+    "Generic 'why our factory is the best' copy"
+  ]
+}

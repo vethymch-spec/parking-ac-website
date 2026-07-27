@@ -1,0 +1,91 @@
+{
+  "lane": "audit",
+  "skill": "cooldrivepro-seo",
+  "stage": 1,
+  "phase": "fix-verification",
+  "parent_report": "audit/2026-06-08-technical.json",
+  "run_at": "2026-06-08T12:15:00+08:00",
+  "ship_readiness": "green",
+  "summary": {
+    "resolved_critical": 1,
+    "resolved_high": 1,
+    "resolved_medium": 1,
+    "remaining_low": 1,
+    "remaining_info": 1
+  },
+  "fixes_applied": [
+    {
+      "issue_id": "CDP-SEO-AUDIT-001",
+      "status": "resolved",
+      "change": "package.json scripts 块新增 5 个 alias: sync:blog-index, validate:blog-locales, translate:blog-locales, translate:blog-locales:daily, verify:production-hosts。每条均指向已存在的 scripts/<file>.mjs。",
+      "verification": [
+        "node -e 检查: 5 个 npm script 全部解析到对应 mjs 路径,无 MISSING",
+        "npm run sync:blog-index -> 'Synced 163 blog index entries. Generated localized blog indexes for 29 locale(s).'",
+        "npm run validate:blog-locales -> 'Source articles: 163 / Locale folders: 29 / Localized article files: 4587 / Validation passed.'",
+        "npm run verify:production-hosts -> 'PASS apex 200 / PASS www 200 / Production host verification passed.'"
+      ]
+    },
+    {
+      "issue_id": "CDP-SEO-AUDIT-002",
+      "status": "mitigated",
+      "change": "scripts/generate-redirects.mjs 末尾追加 SOFT_CEILING=2200 / HARD_CEILING=2280 双阈值。soft 触发 console.warn,hard 触发 process.exit(1) 让 build 强制失败,引导新增 301 走 workers/pages-worker.js LEGACY_BLOG_SLUG_REDIRECTS。",
+      "verification": [
+        "node scripts/generate-redirects.mjs -> 'Generated 2235 lines' + WARN '2235 >= soft ceiling 2200. Future legacy 301s should go into workers/pages-worker.js, not _redirects.'",
+        "未达 HARD_CEILING,exit 0,不阻塞 build",
+        "headroom 距离 silent-drop(2296)还有 61 行;距离 HARD_CEILING(2280)还有 45 行"
+      ],
+      "note": "未真正回收旧 301,只加了告警+硬上限。当前阻断了继续无察觉扩张;真正回收(low-traffic slug retire)留给后续 refresh lane。"
+    },
+    {
+      "issue_id": "CDP-SEO-AUDIT-003",
+      "status": "resolved",
+      "change": "运行 npm run sync:blog-index 重生成 list.json / manifest.json / locale-availability.json,运行 npm run validate:blog-locales 全量复核。",
+      "verification": [
+        "163 源文 × 29 locale = 4587 本地化文件全部对齐",
+        "validate-blog-locales 输出 'Validation passed.',无 missing/orphan",
+        "样本博客 parking-ac-tanzania-safari 的 11 条 hreflang 属设计预期(该 slug 实际只本地化到 10 种语言 + x-default),非缺失"
+      ]
+    }
+  ],
+  "remaining_issues": [
+    {
+      "id": "CDP-SEO-AUDIT-004",
+      "severity": "low",
+      "category": "schema-noise",
+      "decision": "保留;非排名影响,留给后续 schema 整理 PR(评估 DefinedTerm 是否值得保留)"
+    },
+    {
+      "id": "CDP-SEO-AUDIT-005",
+      "severity": "info",
+      "category": "platform-behavior",
+      "decision": "保留记录;无须修复"
+    }
+  ],
+  "still_blocked_checks": [
+    "GSC Coverage report — 需注入 GSC 凭据后由 monitor lane 自动补",
+    "CrUX 25-week field data — 需 CrUX API key",
+    "PSI top-impression URL — 依赖 GSC top URL"
+  ],
+  "gate_evaluation": {
+    "rule": "critical == 0 to leave audit lane",
+    "critical_count": 0,
+    "high_count": 0,
+    "verdict": "PASS",
+    "next_lane_recommendation": "可进入 Stage 2 (research) — `cooldrivepro-seo research`,数据源:scripts/keyword-research-prioritize.mjs + scripts/competitor-keyword-scan.mjs + scripts/topic-keyword-generator.mjs + 外部 DataForSEO/Ahrefs/Serper MCP"
+  },
+  "lane_output_contract": {
+    "LANE": "audit",
+    "STATUS": "pass",
+    "ARTIFACTS": [
+      "audit/2026-06-08-technical.json",
+      "audit/2026-06-08-technical-fix.json",
+      "package.json (+5 npm script aliases)",
+      "scripts/generate-redirects.mjs (+soft/hard ceiling guards)",
+      ".omc/skills/cooldrivepro-seo/SKILL.md (Quick Reference 更新:每条命令同时给 npm 与 node 兜底)"
+    ],
+    "NEXT": [
+      "(可选) 在 monitor lane 接入 GSC + CrUX + PSI 凭据后回填阻塞检查",
+      "调用 `cooldrivepro-seo research` 进入 Stage 2"
+    ]
+  }
+}

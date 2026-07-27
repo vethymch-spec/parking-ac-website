@@ -1,0 +1,176 @@
+{
+  "cluster_id": "H9-c64",
+  "target_kw": "b2b parking ac supplier",
+  "alt_target_kw_note": null,
+  "secondary_kws": [
+    "parking ac wholesale supplier",
+    "bulk parking ac supplier",
+    "parking ac dealer wholesale",
+    "parking ac maintenance",
+    "best parking ac supplier",
+    "parking ac dealer partnership"
+  ],
+  "market": "en-US",
+  "intent": "commercial",
+  "template": "pillar",
+  "hub": "H9",
+  "word_count_range": [
+    2200,
+    2800
+  ],
+  "sections": [
+    {
+      "h2": "TL;DR — How to choose a B2B parking AC supplier in 2026",
+      "must_cover": [
+        "MOQ ranges",
+        "lead time",
+        "certifications",
+        "private label support"
+      ]
+    },
+    {
+      "h2": "What B2B buyers actually need (vs DIY single-unit)",
+      "must_cover": [
+        "volume pricing",
+        "spare parts retainer",
+        "warranty terms ≥24 months",
+        "OEM/ODM"
+      ]
+    },
+    {
+      "h2": "9-dimension scoring rubric we use",
+      "must_cover": [
+        "production scale",
+        "MOQ",
+        "certifications (CE, E-Mark, FCC)",
+        "lead time",
+        "after-sales coverage",
+        "documentation depth",
+        "factory transparency",
+        "logistics (FOB/CIF)",
+        "private label capability"
+      ]
+    },
+    {
+      "h2": "Top suppliers compared (10+ brands)",
+      "must_cover": [
+        "Webasto",
+        "Dometic",
+        "Thermo King (TriPac)",
+        "Eberspächer",
+        "Kingclima",
+        "Guchen",
+        "Bergstrom NITE",
+        "Indel B",
+        "Dirna BYCOOL",
+        "Autoclima",
+        "CoolDrivePro"
+      ]
+    },
+    {
+      "h2": "Where each brand wins (and where it doesn't)",
+      "must_cover": [
+        "honest weak-spot per brand",
+        "we don't recommend X when Y"
+      ]
+    },
+    {
+      "h2": "How CoolDrivePro fits into a B2B program",
+      "must_cover": [
+        "wholesale price tiers",
+        "dealer onboarding",
+        "spare-part inventory commitment",
+        "MOQ from 5 units"
+      ]
+    },
+    {
+      "h2": "FAQ for fleet, dealer, and OEM buyers",
+      "must_cover": [
+        "lead time",
+        "private label OEM",
+        "after-sales overseas",
+        "container loading"
+      ]
+    }
+  ],
+  "FAQ": [
+    "What's the minimum order quantity (MOQ) for a B2B parking AC supplier?",
+    "Which certifications should I require for US/EU fleet deployment?",
+    "How long does it take to source 100 units?",
+    "Can I get private-label / OEM on the unit and packaging?",
+    "What spare-part terms should be in a 3-year wholesale contract?"
+  ],
+  "required_schemas": [
+    "Article",
+    "BreadcrumbList",
+    "FAQPage"
+  ],
+  "must_have_entities": [
+    "MOQ",
+    "OEM/ODM",
+    "CE",
+    "E-Mark",
+    "FCC",
+    "Webasto",
+    "Dometic",
+    "TriPac",
+    "Eberspächer",
+    "Kingclima",
+    "Guchen",
+    "Bergstrom NITE",
+    "Indel B",
+    "Dirna BYCOOL",
+    "FOB",
+    "CIF",
+    "private label",
+    "dealer program"
+  ],
+  "golden_gap": "No Top10 page provides a 9-dimension supplier rubric with honest weak-spots per brand, AND none publish actual MOQ/lead-time/spare-part terms — they all redirect to a contact form.",
+  "recommended_external_refs": [
+    {
+      "label": "EPA SmartWay verified parking AC list",
+      "url": "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies"
+    },
+    {
+      "label": "CARB ATCM idle regulation",
+      "url": "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling"
+    },
+    {
+      "label": "DOT FMCSA HOS regulation",
+      "url": "https://www.fmcsa.dot.gov/regulations/hours-of-service"
+    }
+  ],
+  "internal_link_targets": [
+    "/products/vth1",
+    "/wholesale",
+    "/about",
+    "/blog/dometic-vs-webasto-parking-ac",
+    "/blog/parking-ac-fuel-savings-calculator",
+    "/blog/lifepo4-battery-for-parking-ac"
+  ],
+  "ogImage_hint": "B2B dashboard mockup with supplier scoring rubric, 1600x900 WebP, CoolDrivePro branded",
+  "serp_brief_meta": {
+    "top10_avg_word_count": 753,
+    "top10_avg_bigrams_must_mention": [
+      "parking air(6)",
+      "air conditioner(6)",
+      "air conditioners(4)",
+      "qingdao donjelion(3)",
+      "international trade(3)",
+      "donjelion international(3)",
+      "trade ltd(3)",
+      "conditioner manufacturers(3)",
+      "commercial vehicle(3)",
+      "shandong province(3)"
+    ],
+    "cluster_est_volume": 5225,
+    "cluster_median_kd": 32,
+    "cluster_member_count": 7,
+    "ranking_difficulty_note": "Qingdao Donjelion has saturated 6+ US local newspapers with identical PR copy. Must be a stronger independent listicle OR pair with a parallel PR distribution.",
+    "generated_at": "2026-06-08T05:41:53.069Z"
+  },
+  "banned_angles": [
+    "Marketing fluff like 'leading supplier of high quality...'",
+    "Self-praise without comparison data"
+  ]
+}

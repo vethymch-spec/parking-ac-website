@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VTH1 Installation Preview Player</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Inter, Arial, sans-serif;
+        background: #f3f5f7;
+        color: #17202a;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      main {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 22px;
+        line-height: 1.2;
+      }
+
+      p {
+        margin: 6px 0 0;
+        color: #52616f;
+        font-size: 14px;
+      }
+
+      button,
+      label {
+        font: inherit;
+      }
+
+      button {
+        border: 1px solid #9fb1c1;
+        border-radius: 6px;
+        background: #ffffff;
+        color: #17202a;
+        cursor: pointer;
+        padding: 8px 12px;
+      }
+
+      .toolbar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .auto-refresh {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: #34495e;
+        font-size: 14px;
+      }
+
+      video,
+      img {
+        display: block;
+        width: 100%;
+        background: #111820;
+        border: 1px solid #c8d3dc;
+        border-radius: 8px;
+      }
+
+      section + section {
+        margin-top: 20px;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 16px;
+      }
+
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>VTH1 Installation Animation Preview</h1>
+          <p>Refresh after each Blender render to review the latest working MP4.</p>
+        </div>
+        <div class="toolbar">
+          <button type="button" id="refresh">Refresh latest preview</button>
+          <label class="auto-refresh">
+            <input type="checkbox" id="autoRefresh" />
+            Auto refresh every 15s
+          </label>
+        </div>
+      </header>
+
+      <section>
+        <h2>Video</h2>
+        <video id="previewVideo" src="output/vth1-reference-style-preview.mp4" controls muted></video>
+        <p><code>output/vth1-reference-style-preview.mp4</code></p>
+      </section>
+
+      <section>
+        <h2>Key Frames</h2>
+        <img id="contactSheet" src="output/vth1-reference-style-preview-contact-sheet.jpg" alt="Preview video key frame contact sheet" />
+        <p><code>output/vth1-reference-style-preview-contact-sheet.jpg</code></p>
+      </section>
+    </main>
+
+    <script>
+      const video = document.getElementById("previewVideo");
+      const sheet = document.getElementById("contactSheet");
+      const refreshButton = document.getElementById("refresh");
+      const autoRefresh = document.getElementById("autoRefresh");
+      let timer = null;
+
+      function refreshPreview() {
+        const cacheBuster = Date.now();
+        const currentTime = video.currentTime || 0;
+        const wasPaused = video.paused;
+        video.src = `output/vth1-reference-style-preview.mp4?t=${cacheBuster}`;
+        sheet.src = `output/vth1-reference-style-preview-contact-sheet.jpg?t=${cacheBuster}`;
+        video.addEventListener(
+          "loadedmetadata",
+          () => {
+            video.currentTime = Math.min(currentTime, video.duration || currentTime);
+            if (!wasPaused) video.play();
+          },
+          { once: true },
+        );
+      }
+
+      refreshButton.addEventListener("click", refreshPreview);
+      autoRefresh.addEventListener("change", () => {
+        if (timer) clearInterval(timer);
+        timer = autoRefresh.checked ? setInterval(refreshPreview, 15000) : null;
+      });
+    </script>
+  </body>
+</html>

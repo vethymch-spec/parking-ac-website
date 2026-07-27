@@ -1,0 +1,28 @@
+{
+  "name": "CoolDrivePro",
+  "short_name": "CoolDrivePro",
+  "description": "12V and 24V parking air conditioners for trucks, RVs, vans, and off-grid vehicles.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f0eee5",
+  "theme_color": "#0b3440",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

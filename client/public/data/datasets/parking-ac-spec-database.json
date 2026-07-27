@@ -1,0 +1,46 @@
+{
+  "name": "Parking Air Conditioner Spec Database 2026",
+  "description": "Open dataset of 9 parking air conditioner units (DC battery-powered + diesel APU comparison reference) covering manufacturers, BTU/wattage, voltage, compressor type, refrigerant, COP/EER, noise level, weight, battery draw, price range, and warranty. Maintained by CoolDrivePro for industry-wide reference.",
+  "license": "CC-BY-4.0",
+  "version": "2026.04.23",
+  "url": "https://cooldrivepro.com/data/datasets/parking-ac-spec-database.json",
+  "downloadUrl": {
+    "json": "https://cooldrivepro.com/data/datasets/parking-ac-spec-database.json",
+    "csv": "https://cooldrivepro.com/data/datasets/parking-ac-spec-database.csv"
+  },
+  "lastUpdated": "2026-04-23",
+  "publisher": {
+    "name": "CoolDrivePro",
+    "url": "https://cooldrivepro.com"
+  },
+  "citation": "CoolDrivePro (2026). Parking Air Conditioner Spec Database 2026 [Dataset]. Available at https://cooldrivepro.com/data/datasets/parking-ac-spec-database.json",
+  "fields": {
+    "slug": "URL-safe identifier",
+    "brand": "Manufacturer",
+    "model": "Product model name",
+    "btu": "Cooling capacity in BTU/hr (or watts where noted)",
+    "voltage": "Operating voltage (12V, 24V, or both)",
+    "form_factor": "Mounting type (Rooftop, Mini Split, Compact, etc.)",
+    "compressor_type": "Compressor technology",
+    "refrigerant": "Refrigerant gas type",
+    "cop_eer": "Coefficient of Performance / Energy Efficiency Ratio (W/W)",
+    "noise_db": "Noise level in decibels at 1 meter",
+    "weight_kg": "Unit weight in kilograms",
+    "battery_draw_amps": "Operating current draw in amps from battery",
+    "price_usd_low": "Lowest typical retail price USD",
+    "price_usd_high": "Highest typical retail price USD",
+    "warranty_years": "Manufacturer warranty in years",
+    "notes": "Additional context"
+  },
+  "data": [
+    {"slug": "vs02-pro", "brand": "CoolDrivePro", "model": "VS02 PRO", "btu": 12000, "voltage": "12V/24V", "form_factor": "Top-Mounted Rooftop", "compressor_type": "BLDC Dual-Rotary", "refrigerant": "R32", "cop_eer": 3.05, "noise_db": 52, "weight_kg": 29, "battery_draw_amps": "28-32", "price_usd_low": 1500, "price_usd_high": 2200, "warranty_years": 3, "notes": "Built-in heat dissipation; ideal Class 8 sleeper"},
+    {"slug": "vx3000sp", "brand": "CoolDrivePro", "model": "VX3000SP", "btu": 12000, "voltage": "12V/24V", "form_factor": "Mini Split", "compressor_type": "BLDC Dual-Rotary", "refrigerant": "R32", "cop_eer": 3.10, "noise_db": 49, "weight_kg": 34, "battery_draw_amps": "30-34", "price_usd_low": 1800, "price_usd_high": 2500, "warranty_years": 3, "notes": "Modular; ideal RV and custom installs"},
+    {"slug": "v-th1", "brand": "CoolDrivePro", "model": "V-TH1", "btu": 9500, "voltage": "12V/24V", "form_factor": "Heat Pump Split", "compressor_type": "BLDC Inverter", "refrigerant": "R32", "cop_eer": 2.95, "noise_db": 50, "weight_kg": 28, "battery_draw_amps": "26-30", "price_usd_low": 1400, "price_usd_high": 2100, "warranty_years": 3, "notes": "Cooling and heating in one unit"},
+    {"slug": "nano-max", "brand": "CoolDrivePro", "model": "Nano Max", "btu": 10000, "voltage": "12V/24V", "form_factor": "Compact Rooftop", "compressor_type": "BLDC Dual-Rotary", "refrigerant": "R134A", "cop_eer": 2.85, "noise_db": 48, "weight_kg": 27, "battery_draw_amps": "18-35", "price_usd_low": 900, "price_usd_high": 1400, "warranty_years": 1, "notes": "Light-duty trucks and vans"},
+    {"slug": "dometic-rtx-2000", "brand": "Dometic", "model": "RTX 2000", "btu": 7050, "voltage": "12V/24V", "form_factor": "Rooftop", "compressor_type": "BLDC", "refrigerant": "R134a", "cop_eer": 2.70, "noise_db": 55, "weight_kg": 33, "battery_draw_amps": "28-33", "price_usd_low": 2500, "price_usd_high": 3200, "warranty_years": 2, "notes": "Established brand; higher noise"},
+    {"slug": "webasto-cool-top-trail-20", "brand": "Webasto", "model": "Cool Top Trail 20", "btu": "2000W", "voltage": "24V", "form_factor": "Rooftop", "compressor_type": "Reciprocating", "refrigerant": "R134a", "cop_eer": 2.60, "noise_db": 56, "weight_kg": 40, "battery_draw_amps": "30-35", "price_usd_low": 2800, "price_usd_high": 3600, "warranty_years": 2, "notes": "Heavy commercial focus"},
+    {"slug": "rigmaster-t-series", "brand": "RigMaster", "model": "T Series", "btu": 13500, "voltage": "12V", "form_factor": "Rooftop with Diesel", "compressor_type": "Diesel APU", "refrigerant": "R134a", "cop_eer": null, "noise_db": 65, "weight_kg": 165, "battery_draw_amps": null, "price_usd_low": 9000, "price_usd_high": 12000, "warranty_years": 2, "notes": "Diesel APU not battery; comparison reference only"},
+    {"slug": "indel-b-sleeping-well-oblo", "brand": "Indel B", "model": "Sleeping Well Oblo", "btu": "950W", "voltage": "12V/24V", "form_factor": "Rooftop Compact", "compressor_type": "BLDC", "refrigerant": "R134a", "cop_eer": 2.65, "noise_db": 54, "weight_kg": 28, "battery_draw_amps": "25-30", "price_usd_low": 1700, "price_usd_high": 2400, "warranty_years": 2, "notes": "EU market focused"},
+    {"slug": "carrier-comfort-pro-apu-ac", "brand": "Carrier", "model": "Comfort Pro APU-AC", "btu": 8000, "voltage": "12V", "form_factor": "Inside Cabin", "compressor_type": "Reciprocating", "refrigerant": "R134a", "cop_eer": 2.50, "noise_db": 58, "weight_kg": 36, "battery_draw_amps": "32-38", "price_usd_low": 2200, "price_usd_high": 3000, "warranty_years": 1, "notes": "Older design; declining market share"}
+  ]
+}

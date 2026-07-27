@@ -1,0 +1,71 @@
+{
+  "run_at": "2026-06-08T05:41:53.087Z",
+  "date": "2026-06-08",
+  "briefs": [
+    {
+      "cluster_id": "H9-c64",
+      "target_kw": "b2b parking ac supplier",
+      "template": "pillar",
+      "word_range": [
+        2200,
+        2800
+      ],
+      "internal_links": 6,
+      "must_have_entities": 18,
+      "cluster_est_volume": 5225,
+      "cluster_median_kd": 32
+    },
+    {
+      "cluster_id": "H2-c01",
+      "target_kw": "parking ac oem",
+      "template": "pillar",
+      "word_range": [
+        3500,
+        4500
+      ],
+      "internal_links": 7,
+      "must_have_entities": 19,
+      "cluster_est_volume": 38945,
+      "cluster_median_kd": 32
+    },
+    {
+      "cluster_id": "H6-c04",
+      "target_kw": "battery parking ac vs electric apu vs diesel apu",
+      "template": "comparison",
+      "word_range": [
+        2500,
+        3200
+      ],
+      "internal_links": 5,
+      "must_have_entities": 15,
+      "cluster_est_volume": 1380,
+      "cluster_median_kd": 32
+    },
+    {
+      "cluster_id": "H5-c17",
+      "target_kw": "state by state anti-idling laws 2026",
+      "template": "pillar",
+      "word_range": [
+        2800,
+        3600
+      ],
+      "internal_links": 5,
+      "must_have_entities": 10,
+      "cluster_est_volume": 2210,
+      "cluster_median_kd": 32
+    },
+    {
+      "cluster_id": "H6-c27",
+      "target_kw": "tripac alternative",
+      "template": "alternative",
+      "word_range": [
+        2200,
+        2800
+      ],
+      "internal_links": 5,
+      "must_have_entities": 14,
+      "cluster_est_volume": 2270,
+      "cluster_median_kd": 44
+    }
+  ]
+}

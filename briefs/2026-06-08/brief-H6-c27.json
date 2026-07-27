@@ -1,0 +1,177 @@
+{
+  "cluster_id": "H6-c27",
+  "target_kw": "tripac alternative",
+  "alt_target_kw_note": null,
+  "secondary_kws": [
+    "thermo king tripac vs carrier comfort pro"
+  ],
+  "market": "en-US",
+  "intent": "comparison",
+  "template": "alternative",
+  "hub": "H6",
+  "word_count_range": [
+    2200,
+    2800
+  ],
+  "sections": [
+    {
+      "h2": "TL;DR — 5 TriPac alternatives ranked for 2026",
+      "must_cover": [
+        "per-alternative one-liner verdict",
+        "best for owner-op vs fleet vs CARB state"
+      ]
+    },
+    {
+      "h2": "Why drivers look for a TriPac alternative",
+      "must_cover": [
+        "price $10-12k",
+        "DPF reliability complaints",
+        "fuel + DEF OPEX",
+        "noise"
+      ]
+    },
+    {
+      "h2": "What 'good alternative' actually means (5 criteria)",
+      "must_cover": [
+        "lower TCO over 5 years",
+        "CARB / SmartWay compliant",
+        "weight ≤TriPac",
+        "noise ≤TriPac",
+        "warranty ≥2 years"
+      ]
+    },
+    {
+      "h2": "Alternative 1 — Bergstrom NITE (electric APU)",
+      "must_cover": [
+        "price",
+        "battery capacity",
+        "shore-power compatibility",
+        "weak spots"
+      ]
+    },
+    {
+      "h2": "Alternative 2 — Idle Free EPC",
+      "must_cover": [
+        "price",
+        "runtime",
+        "compatibility with day cabs"
+      ]
+    },
+    {
+      "h2": "Alternative 3 — Dynasys diesel APU (TriPac competitor)",
+      "must_cover": [
+        "price",
+        "fuel economy",
+        "DPF approach"
+      ]
+    },
+    {
+      "h2": "Alternative 4 — Battery parking AC (CoolDrivePro VTH1, Kingclima, Guchen)",
+      "must_cover": [
+        "price $3-5k installed",
+        "LiFePO4 200Ah",
+        "12V/24V",
+        "noise <50 dB",
+        "weight savings"
+      ]
+    },
+    {
+      "h2": "Alternative 5 — Shore power + electric heater + portable AC (the budget hack)",
+      "must_cover": [
+        "price ~$1k",
+        "fleet yard scenario",
+        "why it doesn't work over-the-road"
+      ]
+    },
+    {
+      "h2": "5-year TCO comparison table",
+      "must_cover": [
+        "upfront",
+        "fuel/energy",
+        "maintenance",
+        "fines avoided",
+        "resale"
+      ]
+    },
+    {
+      "h2": "Which alternative wins for which driver profile",
+      "must_cover": [
+        "long-haul owner-op",
+        "regional fleet ≥10 trucks",
+        "CARB-state driver"
+      ]
+    },
+    {
+      "h2": "FAQ",
+      "must_cover": [
+        "is battery parking AC really 1/3 the cost of TriPac",
+        "is electric APU SmartWay verified",
+        "warranty comparison"
+      ]
+    }
+  ],
+  "FAQ": [
+    "What's the best alternative to a Thermo King TriPac in 2026?",
+    "Is a battery parking AC really cheaper than a TriPac?",
+    "Are electric APUs CARB compliant like TriPac?",
+    "How much weight does an alternative save vs a TriPac?",
+    "What's the warranty difference between TriPac and battery parking AC?"
+  ],
+  "required_schemas": [
+    "Article",
+    "BreadcrumbList",
+    "FAQPage"
+  ],
+  "must_have_entities": [
+    "Thermo King",
+    "TriPac",
+    "Carrier ComfortPro",
+    "Bergstrom NITE",
+    "Idle Free EPC",
+    "Dynasys",
+    "CoolDrivePro VTH1",
+    "Kingclima",
+    "Guchen",
+    "LiFePO4",
+    "CARB",
+    "SmartWay",
+    "EPA",
+    "shore power"
+  ],
+  "golden_gap": "Top10 are dominated by truck forums and Heatso — none publish a 5-criterion alternative rubric with 5-year TCO and 'which alternative wins for which driver profile' decision tree.",
+  "recommended_external_refs": [
+    {
+      "label": "EPA SmartWay verified APU list",
+      "url": "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies"
+    },
+    {
+      "label": "CARB ATCM idling rule",
+      "url": "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling"
+    },
+    {
+      "label": "Thermo King TriPac product page (reference)",
+      "url": "https://www.thermoking.com/na/en/truck/products/idle-reduction-solutions/tripac-evolution.html"
+    }
+  ],
+  "internal_link_targets": [
+    "/products/vth1",
+    "/blog/dometic-vs-webasto-parking-ac",
+    "/blog/parking-ac-fuel-savings-calculator",
+    "/blog/no-idle-truck-ac",
+    "/blog/lifepo4-battery-for-parking-ac"
+  ],
+  "ogImage_hint": "TriPac side-by-side with 5 alternatives + check/x grid + dollar-sign overlay, 1600x900 WebP",
+  "serp_brief_meta": {
+    "top10_avg_word_count": 0,
+    "top10_avg_bigrams_must_mention": [],
+    "cluster_est_volume": 2270,
+    "cluster_median_kd": 44,
+    "cluster_member_count": 2,
+    "ranking_difficulty_note": "tripac alternative est_vol 2200, KD 44. Doable with strong TCO table and aggressive internal linking from existing /blog/no-idle-truck-ac (already ranking).",
+    "generated_at": "2026-06-08T05:41:53.076Z"
+  },
+  "banned_angles": [
+    "Bashing TriPac without data",
+    "Lukewarm 'depends' framing"
+  ]
+}

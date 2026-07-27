@@ -1,0 +1,73 @@
+{
+  "searchParameters": {
+    "q": "parking ac uk",
+    "gl": "us",
+    "hl": "en",
+    "type": "search",
+    "num": 10,
+    "engine": "google"
+  },
+  "organic": [
+    {
+      "title": "Parking | Estates",
+      "link": "https://estates.lincoln.ac.uk/parking/",
+      "snippet": "A disabled badge and UoL parking permit must be clearly displayed in the vehicle when parked in a disabled parking bay and when parking in any category of ...",
+      "position": 1
+    },
+    {
+      "title": "Student parking at Colchester Campus",
+      "link": "https://www.essex.ac.uk/student/travel-and-transport/student-parking",
+      "snippet": "Find out where you can park and how to register and pay for parking.",
+      "position": 2
+    },
+    {
+      "title": "Car parking | Transport",
+      "link": "https://www.southampton.ac.uk/transport/parking/car-parking.page",
+      "snippet": "To apply for permissions to park at the University, please visit the APCOA parking portal, and log in using your University ID.",
+      "position": 3
+    },
+    {
+      "title": "MyGlasgow - Estates - Parking at the University",
+      "link": "https://www.gla.ac.uk/myglasgow/estates/parking/",
+      "snippet": "All enquiries relating to parking on campus, please contact the Campus Parking Team at carparking@glasgow.ac.uk",
+      "position": 4
+    },
+    {
+      "title": "APCOA United Kingdom - APCOA",
+      "link": "https://www.apcoa.co.uk/",
+      "snippet": "Book your parking online and save time & money. APCOA offers pre-booking at a variety of city centres, rail stations and shopping centre car parks near you.",
+      "position": 5
+    },
+    {
+      "title": "University of Suffolk Car Parks",
+      "link": "https://www.ipserv.co.uk/uos-car-parks/",
+      "snippet": "University of Suffolk Car Parks | We manage high quality car parks, where parking is simple & where customers feel welcome, safe & assured.",
+      "position": 6
+    },
+    {
+      "title": "Parking",
+      "link": "https://www.lancaster.ac.uk/sustainability/action/travel/parking/",
+      "snippet": "Those travelling to Lancaster University by car can park in designated areas on campus. Please be aware of permit requirements and restrictions to avoid fines.",
+      "position": 7
+    },
+    {
+      "title": "Car Parking",
+      "link": "https://warwick.ac.uk/about/campus-journey/mode-of-travel/car-parking/",
+      "snippet": "We have a variety of parking options on campus depending on your need, all situated within easy access to all parts of the campus.",
+      "position": 8
+    },
+    {
+      "title": "Conference car parking permit",
+      "link": "https://indico.cern.ch/event/601969/attachments/1402980/2142295/University_of_Sussex_-_Car_Parking_Space_Permit_Event.pdf",
+      "snippet": "This permit authorises this vehicle to park in any designated car park on the University campus. Where specific parking spaces have been reserved by your ...",
+      "position": 9
+    },
+    {
+      "title": "Cars and parking - Transport, maps and ...",
+      "link": "https://www.york.ac.uk/about/transport-maps-parking/parking/",
+      "snippet": "If you wish to park on campus, you will need to have a valid parking permit (purchased from the online parking permit system) or you will need to buy a pay and ...",
+      "position": 10
+    }
+  ],
+  "credits": 1
+}

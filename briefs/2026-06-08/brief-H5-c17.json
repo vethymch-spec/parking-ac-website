@@ -1,0 +1,152 @@
+{
+  "cluster_id": "H5-c17",
+  "target_kw": "state by state anti-idling laws 2026",
+  "alt_target_kw_note": "Cluster hub 'no idle ordinance' is the strict head term but the 'state by state' modifier matches the cnsprotects/onestl/wikipedia title pattern that ranks.",
+  "secondary_kws": [
+    "truck idling laws by state",
+    "no idle truck regulations",
+    "parking ac anti idling regulation"
+  ],
+  "market": "en-US",
+  "intent": "informational",
+  "template": "pillar",
+  "hub": "H5",
+  "word_count_range": [
+    2800,
+    3600
+  ],
+  "sections": [
+    {
+      "h2": "TL;DR — The strictest 10 states and what they fine",
+      "must_cover": [
+        "fine ranges $50-$25,000",
+        "5-minute vs 15-minute limits",
+        "DEF/sleeper exemptions"
+      ]
+    },
+    {
+      "h2": "How anti-idling laws got here (1 paragraph history)",
+      "must_cover": [
+        "CAA 1990",
+        "EPA SmartWay 2004",
+        "CARB ATCM 2008"
+      ]
+    },
+    {
+      "h2": "The 50-state lookup table",
+      "must_cover": [
+        "state name",
+        "law citation",
+        "idle-time limit",
+        "fine range",
+        "sleeper exemption Y/N",
+        "APU exemption Y/N",
+        "battery parking AC compliance Y/N"
+      ]
+    },
+    {
+      "h2": "Federal layer: EPA SmartWay + FMCSA HOS interaction",
+      "must_cover": [
+        "SmartWay verified list",
+        "FMCSA sleeper berth provision impact on cooling"
+      ]
+    },
+    {
+      "h2": "ROI calculator: idle cost vs parking AC (interactive)",
+      "must_cover": [
+        "inputs: hours idle/night, fuel price, days/year",
+        "output: fuel cost/yr, fine risk, payback months"
+      ]
+    },
+    {
+      "h2": "Compliance paths ranked by total cost",
+      "must_cover": [
+        "do nothing (fines + fuel)",
+        "diesel APU",
+        "electric APU",
+        "battery parking AC"
+      ]
+    },
+    {
+      "h2": "Driver and dispatcher checklist (printable)",
+      "must_cover": [
+        "how to log compliance",
+        "what proof to keep in cab"
+      ]
+    },
+    {
+      "h2": "FAQ",
+      "must_cover": [
+        "which states have 5-min limits",
+        "DEF freezing exemption",
+        "parking AC vs APU compliance"
+      ]
+    }
+  ],
+  "FAQ": [
+    "Which US states have the strictest anti-idling laws in 2026?",
+    "Does a parking AC count as compliant for anti-idling rules?",
+    "Is there a federal anti-idling law for trucks?",
+    "What's the average fuel cost of idling a Class 8 truck for 10 hours?",
+    "How much can a fleet save per truck per year with a parking AC?"
+  ],
+  "required_schemas": [
+    "Article",
+    "BreadcrumbList",
+    "FAQPage"
+  ],
+  "must_have_entities": [
+    "CARB",
+    "EPA SmartWay",
+    "FMCSA",
+    "HOS",
+    "ATCM",
+    "CAA 1990",
+    "DEF exemption",
+    "sleeper berth",
+    "5 minute idle limit",
+    "15 minute idle limit"
+  ],
+  "golden_gap": "Wikipedia, cnsprotects, onestl all describe the laws but NONE publish a working ROI calculator that maps state law to dollar fines/savings. We add the calculator + 50-state table + parking-AC compliance column.",
+  "recommended_external_refs": [
+    {
+      "label": "EPA Compilation of State Idling Regulations (PDF)",
+      "url": "https://www.epa.gov/sites/default/files/documents/CompilationofStateIdlingRegulations.pdf"
+    },
+    {
+      "label": "ATRI idling cost data",
+      "url": "https://truckingresearch.org/"
+    },
+    {
+      "label": "FMCSA HOS rules",
+      "url": "https://www.fmcsa.dot.gov/regulations/hours-of-service"
+    },
+    {
+      "label": "CARB heavy-duty idle rule",
+      "url": "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling"
+    }
+  ],
+  "internal_link_targets": [
+    "/products/vth1",
+    "/blog/no-idle-ac-anti-idling-laws",
+    "/blog/parking-ac-fuel-savings-calculator",
+    "/blog/no-idle-truck-ac",
+    "/blog/dometic-vs-webasto-parking-ac"
+  ],
+  "ogImage_hint": "US map with states color-coded by idle-law strictness + dollar-sign overlay, 1600x900 WebP",
+  "serp_brief_meta": {
+    "top10_avg_word_count": 4328,
+    "top10_avg_bigrams_must_mention": [
+      "anti idling(5)"
+    ],
+    "cluster_est_volume": 2210,
+    "cluster_median_kd": 32,
+    "cluster_member_count": 4,
+    "ranking_difficulty_note": "Wikipedia rank #3 is hard to displace for the head term. Beat them with the calculator UX + 50-state table that's actually maintained for 2026.",
+    "generated_at": "2026-06-08T05:41:53.076Z"
+  },
+  "banned_angles": [
+    "Pure law summary without dollar numbers",
+    "Generic 'idle reduction is good' essay"
+  ]
+}

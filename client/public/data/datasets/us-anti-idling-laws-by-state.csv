@@ -1,0 +1,52 @@
+state,state_code,2026_diesel_avg_usd_gal,anti_idle_law_yn,max_idle_minutes,first_offense_fine_low_usd,first_offense_fine_high_usd,exemption_temp_f_below,exemption_temp_f_above,jurisdiction_notes
+California,CA,5.42,Y,5,300,1000,32,75,CARB enforcement; commercial vehicles only
+New York,NY,4.18,Y,5,375,1500,25,75,NYC strictest; school zones zero tolerance
+Massachusetts,MA,4.31,Y,5,100,500,32,75,Statewide
+Connecticut,CT,4.27,Y,3,100,5000,32,75,Strictest 3-min limit
+New Jersey,NJ,4.12,Y,3,250,1000,25,75,DEP enforcement
+Pennsylvania,PA,3.98,Y,5,150,500,40,75,PA Act 124; commercial vehicles
+Maryland,MD,4.05,Y,5,500,500,32,80,MDE enforcement
+Virginia,VA,3.85,Y,10,250,500,32,75,DEQ enforcement
+Texas,TX,3.71,Y,5,500,2000,40,80,Trans-Texas corridor; non-attainment counties
+Illinois,IL,4.08,Y,10,50,500,32,80,Chicago zero tolerance below 32F
+Colorado,CO,3.92,Y,5,500,1000,20,80,Denver-specific
+Utah,UT,3.79,Y,15,100,300,20,80,Salt Lake County
+Nevada,NV,4.65,Y,15,250,500,20,80,Clark County only
+Washington,WA,4.92,Y,5,250,1000,32,80,Statewide
+Oregon,OR,4.81,Y,5,200,1000,32,80,Statewide
+Arizona,AZ,3.95,Y,5,250,500,32,80,Maricopa County only
+Minnesota,MN,3.96,Y,3,100,1000,0,75,Strictest in nation; -22F exemption
+Wisconsin,WI,3.82,Y,5,100,500,10,75,Milwaukee + Madison
+Michigan,MI,3.85,Y,5,100,500,32,80,Local ordinances vary
+Ohio,OH,3.78,Y,5,150,500,32,80,Cleveland + Cincinnati strictest
+Georgia,GA,3.65,Y,15,150,500,32,80,Atlanta non-attainment
+Florida,FL,3.79,N,n/a,n/a,n/a,n/a,n/a,No statewide law; some county ordinances
+North Carolina,NC,3.82,Y,5,250,500,32,80,Mecklenburg + Wake counties
+South Carolina,SC,3.71,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Tennessee,TN,3.69,N,n/a,n/a,n/a,n/a,n/a,Memphis local only
+Alabama,AL,3.66,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Indiana,IN,3.85,Y,5,150,500,32,80,Indianapolis + Marion County
+Missouri,MO,3.71,Y,5,200,500,32,80,St Louis + Kansas City
+Kansas,KS,3.78,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Iowa,IA,3.68,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Nebraska,NE,3.71,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Oklahoma,OK,3.62,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Arkansas,AR,3.59,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Louisiana,LA,3.71,N,n/a,n/a,n/a,n/a,n/a,Industrial corridor exemptions
+Mississippi,MS,3.61,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Kentucky,KY,3.78,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+West Virginia,WV,3.81,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Vermont,VT,4.42,Y,5,100,500,32,75,Statewide
+New Hampshire,NH,4.18,Y,5,250,500,32,75,Statewide
+Maine,ME,4.25,Y,5,100,500,32,80,Statewide
+Rhode Island,RI,4.12,Y,5,100,500,32,75,Statewide
+Delaware,DE,4.05,Y,3,100,500,32,80,Strict 3-min limit
+DC,DC,4.21,Y,3,100,500,32,80,Strict 3-min limit; capital region
+Hawaii,HI,5.85,N,n/a,n/a,n/a,n/a,n/a,No statewide law; military restrictions
+Alaska,AK,4.32,N,n/a,n/a,n/a,n/a,n/a,Cold-weather exemptions de facto
+Idaho,ID,3.92,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Montana,MT,3.85,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+Wyoming,WY,3.81,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+North Dakota,ND,3.82,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+South Dakota,SD,3.79,N,n/a,n/a,n/a,n/a,n/a,No statewide law
+New Mexico,NM,3.78,Y,5,250,500,32,80,Bernalillo County only

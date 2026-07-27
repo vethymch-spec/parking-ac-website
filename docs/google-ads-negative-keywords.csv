@@ -1,0 +1,26 @@
+level,match_type,negative_keyword,reason
+Shared,Phrase,repair,Avoid repair/service-only traffic
+Shared,Phrase,car ac repair,Avoid automotive repair intent
+Shared,Phrase,home ac,Avoid residential HVAC traffic
+Shared,Phrase,window air conditioner,Avoid home appliance traffic
+Shared,Phrase,portable room air conditioner,Avoid room appliance traffic
+Shared,Phrase,split ac for home,Avoid residential mini-split traffic
+Shared,Phrase,hvac jobs,Avoid hiring traffic
+Shared,Phrase,hvac salary,Avoid hiring traffic
+Shared,Phrase,technician training,Avoid education/job traffic
+Shared,Phrase,free,Avoid low-quality free intent
+Shared,Phrase,used,Avoid used equipment intent
+Shared,Phrase,second hand,Avoid used equipment intent
+Shared,Phrase,parts,Avoid parts-only traffic
+Shared,Phrase,compressor only,Avoid component-only traffic
+Shared,Phrase,freon,Avoid service/repair traffic
+Shared,Phrase,wiring diagram,Avoid DIY support traffic
+Shared,Phrase,pdf,Avoid low-conversion document-only traffic unless guide campaign needs it
+Shared,Phrase,manual,Avoid support/manual traffic unless remarketing
+Shared,Phrase,amazon,Avoid marketplace-only comparison traffic at launch
+Shared,Phrase,alibaba,Avoid low-margin marketplace traffic unless intentionally testing
+Shared,Phrase,temu,Avoid low-quality marketplace traffic
+Shared,Phrase,reddit,Avoid research/forum traffic at launch
+Shared,Phrase,youtube,Avoid video-only research traffic
+Shared,Phrase,definition,Avoid informational searches
+Shared,Phrase,what is,Avoid early research searches

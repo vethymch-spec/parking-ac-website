@@ -1,0 +1,158 @@
+{
+  "lane": "audit",
+  "skill": "cooldrivepro-seo",
+  "stage": 1,
+  "run_at": "2026-06-08T11:30:00+08:00",
+  "audited_target": "https://www.cooldrivepro.com/",
+  "executor_mode": "read-only crawl + local repo inspection (no GSC/CrUX/PSI API tokens in this run)",
+  "ship_readiness": "yellow",
+  "summary": {
+    "passed_checks": 14,
+    "warnings": 3,
+    "high_severity": 1,
+    "critical": 1,
+    "blocked_checks_due_to_missing_api": 3
+  },
+  "facts_captured": {
+    "sitemap_index_http": 200,
+    "locale_sub_sitemaps": 30,
+    "total_urls_all_locales": 1905,
+    "en_urls": 197,
+    "blog_slugs_en_disk": 164,
+    "locale_dirs_on_disk": 29,
+    "locale_availability_languages_declared": 29,
+    "redirects_file_lines": 2234,
+    "redirects_silent_drop_threshold": 2296,
+    "redirects_headroom_lines": 62,
+    "worker_legacy_redirect_map_present": true,
+    "robots_txt_http": 200,
+    "llms_txt_http": 200,
+    "llms_full_txt_http": 200,
+    "trailing_slash_loop_rule_in_redirects": false,
+    "trailing_slash_behavior": "Cloudflare adds slash on directory prerender (308 -> /path/), terminates at 200, no loop",
+    "apex_http": 200,
+    "www_http": 200,
+    "html_index_nested_product_in_organization": false,
+    "source_howto_schema_present": false,
+    "dist_client_built": true,
+    "sample_product_page": {
+      "url": "https://cooldrivepro.com/products/nano-max/",
+      "canonical": "https://cooldrivepro.com/products/nano-max/",
+      "og_image": "https://cooldrivepro.com/images/products/nano-max-01.webp",
+      "hreflang_alternates": 33,
+      "schema_types": ["Product","Offer","AggregateRating","Brand","BreadcrumbList","Organization","ImageObject","MonetaryAmount","DefinedRegion","OfferShippingDetails","ShippingDeliveryTime","PropertyValue","QuantitativeValue","ContactPoint","DefinedTerm","DefinedTermSet","SearchAction","WebSite","ListItem"]
+    },
+    "sample_blog_page": {
+      "url": "https://cooldrivepro.com/blog/parking-ac-tanzania-safari/",
+      "canonical": "https://cooldrivepro.com/blog/parking-ac-tanzania-safari/",
+      "hreflang_alternates": 11,
+      "schema_types": ["BlogPosting","BreadcrumbList","Organization","ImageObject","ListItem","ContactPoint","DefinedTerm","DefinedTermSet","SearchAction","WebSite"]
+    },
+    "sample_home_page": {
+      "url": "https://cooldrivepro.com/",
+      "schema_types": ["FAQPage","Question","Answer","BreadcrumbList","ItemList","ListItem","Organization","ContactPoint","DefinedTerm","DefinedTermSet","ImageObject","QuantitativeValue","SearchAction","WebSite"],
+      "has_product_schema": false,
+      "has_howto_schema": false
+    }
+  },
+  "issues": [
+    {
+      "id": "CDP-SEO-AUDIT-001",
+      "severity": "critical",
+      "category": "skill-tooling-mismatch",
+      "urls": ["repo:/Users/mac/Desktop/cooldrivepro/package.json"],
+      "evidence": "SKILL.md (cooldrivepro-seo) Quick Reference 引用 5 个 npm scripts (sync:blog-index, validate:blog-locales, translate:blog-locales, translate:blog-locales:daily, verify:production-hosts) 但 package.json 当前 scripts 仅含: prerender, sitemap, feed, deploy:production. 底层 mjs 文件全部存在于 scripts/ 目录 (validate-blog-locales.mjs / translate-blog-locales.mjs / translate-blog-locales-daily.mjs / verify-production-hosts.mjs / sync-blog-index.mjs).",
+      "impact": "按 skill 的 publish lane 第一次调用会全部 npm script not found 失败; 自动化与 cron 也会失效 (user memory 记录 cron 已存在,说明历史上 alias 存在过,被回退掉了).",
+      "fix_owner": "cooldrivepro-site-ops",
+      "fix_action": "在 package.json scripts 里补回 5 条 alias: sync:blog-index, validate:blog-locales, translate:blog-locales, translate:blog-locales:daily, verify:production-hosts. 每条 -> node scripts/<file>.mjs",
+      "fix_effort": "low (5 行 JSON)",
+      "fix_priority": 1
+    },
+    {
+      "id": "CDP-SEO-AUDIT-002",
+      "severity": "high",
+      "category": "infra-limit",
+      "urls": ["repo:/Users/mac/Desktop/cooldrivepro/client/public/_redirects"],
+      "evidence": "_redirects 当前 2234 行, 距离 Cloudflare Pages silent-drop 阈值 2296 仅剩 62 行 (project memory 2026-05-27 记录). scripts/generate-redirects.mjs 重建时若再扩展,新增规则会被静默丢弃.",
+      "impact": "新增 legacy blog slug 301 走 _redirects 时极易越限并被静默吞掉; 已通过 worker/pages-worker.js LEGACY_BLOG_SLUG_REDIRECTS 缓解.",
+      "fix_owner": "cooldrivepro-site-ops",
+      "fix_action": "(a) 强制所有新增/未来 legacy 301 一律加入 workers/pages-worker.js LEGACY_BLOG_SLUG_REDIRECTS map. (b) 周期性回收 generate-redirects.mjs 输出的低价值规则 (低 traffic 旧 slug) 以腾空间. (c) 在 generate-redirects.mjs 里加 > 2200 行的硬告警.",
+      "fix_effort": "low",
+      "fix_priority": 2
+    },
+    {
+      "id": "CDP-SEO-AUDIT-003",
+      "severity": "medium",
+      "category": "hreflang-coverage",
+      "urls": ["https://cooldrivepro.com/blog/parking-ac-tanzania-safari/"],
+      "evidence": "样本博客只输出 11 条 hreflang alternate, 而 locale-availability.json 声明 29 个 languages. 这是 SKILL 设计预期 (skill 文档明确: 只对真实存在本地化的 slug 输出 hreflang) — 但需要验证该博客 posts[slug] 中真的只有 10 条本地化 + 1 条 x-default, 否则会少输出 hreflang.",
+      "impact": "若 locale-availability 与实际本地化 JSON 不同步, 会丢失 hreflang -> 同义页之间互相竞争, GSC 报 'Duplicate without user-selected canonical'.",
+      "fix_owner": "cooldrivepro-workflows",
+      "fix_action": "运行 node scripts/sync-blog-index.mjs 重生成 locale-availability.json, 再运行 node scripts/validate-blog-locales.mjs 复核. 抽 5 个低 hreflang 数量的 slug 人工抽查.",
+      "fix_effort": "low",
+      "fix_priority": 3
+    },
+    {
+      "id": "CDP-SEO-AUDIT-004",
+      "severity": "low",
+      "category": "schema-noise",
+      "urls": ["https://cooldrivepro.com/products/nano-max/"],
+      "evidence": "产品页同时挂载 ~19 种 JSON-LD type, 其中 DefinedTerm/DefinedTermSet/PropertyValue 数量较多. 不违反 Google 规则, 但增加渲染体积与解析噪音.",
+      "impact": "可读性下降 + Schema 维护成本; 不影响排名.",
+      "fix_owner": "cooldrivepro-site-ops",
+      "fix_action": "评估 DefinedTerm 集合是否必要; 如非 GEO/AEO 引用核心实体, 可下放到 about/术语页, 把产品页保留 Product+Offer+AggregateRating+Brand+BreadcrumbList+Organization+ImageObject+WebSite.",
+      "fix_effort": "medium",
+      "fix_priority": 5
+    },
+    {
+      "id": "CDP-SEO-AUDIT-005",
+      "severity": "info",
+      "category": "platform-behavior",
+      "urls": ["https://cooldrivepro.com/blog", "https://cooldrivepro.com/about"],
+      "evidence": "Cloudflare Pages 对目录式 prerender (/path/index.html) 自动 308 -> /path/. 一跳即终止 (200), 无循环. 已确认 client/public/_redirects 内无 /*/ /:splat 308 规则.",
+      "impact": "符合预期; 仅记录以备未来回归.",
+      "fix_owner": "n/a",
+      "fix_action": "保留现状; 不要为去掉尾斜杠加规则 (会触发 / <-> // 循环, project memory 2026-04-28).",
+      "fix_effort": "n/a",
+      "fix_priority": 0
+    }
+  ],
+  "blocked_checks": [
+    {
+      "check": "GSC Coverage report (Submitted-not-indexed / Crawled-not-indexed / Soft 404 / Duplicate without user-selected canonical)",
+      "reason": "未在本会话注入 GSC OAuth/service account; skill 设计要求此项纳入 audit.",
+      "next_step": "由 cooldrivepro-site-ops 注入 GSC 凭据后, 调用 node scripts/gsc-keyword-opportunities.mjs (已存在) 或单独写一个 gsc-coverage 拉取脚本; 然后回填到本 audit JSON."
+    },
+    {
+      "check": "CrUX 25-week LCP/INP/CLS by template",
+      "reason": "未注入 CrUX API key.",
+      "next_step": "用 https://chromeuxreport.googleapis.com/v1/records:queryRecord 拉 cooldrivepro.com origin + 5 个模板 URL; 后续 audit 自动化."
+    },
+    {
+      "check": "PageSpeed Insights on top-5 highest-impression templates",
+      "reason": "需要 GSC top-impression URL list (依赖 GSC 拉取) + PSI API key.",
+      "next_step": "Stage 9 monitor lane 接入后自动喂入 audit; 暂以现有产品页 + 博客 + landing 各抽 1 张离线 Lighthouse 报告替代."
+    }
+  ],
+  "gate_evaluation": {
+    "rule": "critical == 0 to leave audit lane",
+    "critical_count": 1,
+    "verdict": "FAIL",
+    "blocking_issue": "CDP-SEO-AUDIT-001 (skill 引用的 5 个 npm script 不存在; publish lane 会失败)",
+    "required_action_before_next_lane": "由 cooldrivepro-site-ops 在 package.json scripts 里补回 5 条 alias, 或者修订 SKILL.md 把命令改成 node scripts/<file>.mjs 直接调用. 建议前者 (符合 user memory 中已记录的工作约定).",
+    "next_lane_recommendation": "fix CDP-SEO-AUDIT-001 -> 再跑 Stage 2 (research) 用 scripts/keyword-research-prioritize.mjs + scripts/competitor-keyword-scan.mjs 当数据源."
+  },
+  "lane_output_contract": {
+    "LANE": "audit",
+    "STATUS": "fail",
+    "ARTIFACTS": [
+      "audit/2026-06-08-technical.json"
+    ],
+    "NEXT": [
+      "fix CDP-SEO-AUDIT-001 via cooldrivepro-site-ops (add npm script aliases)",
+      "fix CDP-SEO-AUDIT-002 by tightening generate-redirects.mjs ceiling + migrating new 301s to worker map",
+      "run cooldrivepro-workflows for CDP-SEO-AUDIT-003 (sync + validate locale availability)",
+      "after gate green, invoke `cooldrivepro-seo research` to start Stage 2"
+    ]
+  }
+}

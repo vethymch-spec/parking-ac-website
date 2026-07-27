@@ -1,0 +1,84 @@
+{
+  "searchParameters": {
+    "q": "parking ac long tail discovery",
+    "gl": "us",
+    "hl": "en",
+    "type": "search",
+    "num": 10,
+    "engine": "google"
+  },
+  "organic": [
+    {
+      "title": "Music Recommendation and Discovery: The Long Tail, Long Fail ...",
+      "link": "https://dl.acm.org/doi/10.5555/1869931",
+      "snippet": "allowing users to discover new music by exploiting the long tail of popularity and promoting novel and relevant material",
+      "position": 1
+    },
+    {
+      "title": "Efficient and Flexible Long-Tail Recommendation Using Cosine ...",
+      "link": "https://pubsonline.informs.org/doi/10.1287/ijoc.2022.0194",
+      "snippet": "In this study, we propose CORE, a cosine pattern–based technique, for effective long-tail recommendation. Comprehensive experimental results compare the ...",
+      "date": "May 10, 2024",
+      "position": 2
+    },
+    {
+      "title": "(PDF) Making the Long Tail Visible: Social Networking Sites and ...",
+      "link": "https://www.researchgate.net/publication/241556701_Making_the_Long_Tail_Visible_Social_Networking_Sites_and_Independent_Music_Discovery",
+      "snippet": "The purpose of this paper is to investigate users' knowledge and use of social networking sites and folksonomies to discover if social tagging and folksonomies,",
+      "position": 3
+    },
+    {
+      "title": "[PDF] MUSIC RECOMMENDATION AND DISCOVERY IN THE LONG TAIL",
+      "link": "http://www.mtg.upf.edu/static/media/PhD_ocelma.pdf",
+      "snippet": "We model the Long Tail curve of artist popularity to predict —potentially— interesting and unknown music, hidden in the tail of the popularity curve.",
+      "position": 4
+    },
+    {
+      "title": "[PDF] Driver Behavior-aware Parking Availability Crowdsensing System ...",
+      "link": "https://engineering.purdue.edu/~lusu/papers/TOSN2021.pdf",
+      "snippet": "In this article, we propose a crowdsensing system called SpotE that can provide spot-level availability in a parking lot using drivers' smartphone sensors.",
+      "position": 5
+    },
+    {
+      "title": "Discovery Parking on Jones | City of Sioux City website",
+      "link": "https://www.sioux-city.org/government/departments-g-p/parking/discovery-parking-on-jones",
+      "snippet": "Discovery Parking is a parking facility which has seven levels of parking and will accommodate 753 vehicles. It is located on 5th Street between Jackson Street ...",
+      "position": 6
+    },
+    {
+      "title": "The Problem With The Long Tail | AdExchanger",
+      "link": "https://www.adexchanger.com/brand-aware/problem-long-tail/",
+      "snippet": "Long tail was a term used to showcase valuable publishers and content that didn't scale as well as those on the comScore Top 100.",
+      "date": "Dec 5, 2017",
+      "position": 7
+    },
+    {
+      "title": "Discovery toolkit: Parking lot - Salesforce Business Analysts - Medium",
+      "link": "https://medium.com/salesforce-business-analysts/discovery-toolkit-parking-lot-fd8068d20587",
+      "snippet": "The “Parking Lot” is a simple tool leveraged during discoveries as a way to track all surfaced ideas without engaging with them in a way that ...",
+      "date": "Oct 6, 2025",
+      "position": 8
+    },
+    {
+      "title": "Innovista Parking Columbia, SC: Event, Prepaid, Semester",
+      "link": "https://www.innovistaparking.com/",
+      "snippet": "Clean, well-lit, and central to Columbia's vibrant downtown, Innovista's garages are ideal for daily, semester, or event-based parking. Explore options now.",
+      "position": 9
+    },
+    {
+      "title": "Innovista Parking Garage | | USC Foundations",
+      "link": "https://www.uscfoundations.com/development-foundation/our-impact/featured-properties/innovista-parking-garage",
+      "snippet": "This safe and user-friendly parking garage provides parking for students, faculty and visitors. The Discovery Garage is adjacent to Colonial Life Arena.",
+      "position": 10
+    }
+  ],
+  "relatedSearches": [
+    {
+      "query": "Parking ac long tail discovery pdf"
+    },
+    {
+      "query": "Parking ac long tail discovery example"
+    }
+  ],
+  "credits": 1
+}

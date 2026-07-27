@@ -1,0 +1,135 @@
+{
+  "searchParameters": {
+    "q": "rv ac power consumption",
+    "gl": "us",
+    "hl": "en",
+    "type": "search",
+    "num": 10,
+    "engine": "google"
+  },
+  "organic": [
+    {
+      "title": "How do RVs power their rooftop ACs? : r/VanLife - Reddit",
+      "link": "https://www.reddit.com/r/VanLife/comments/1c5qb7e/how_do_rvs_power_their_rooftop_acs/",
+      "snippet": "The AC requires 115v(ac) at 15.5 amps. Theoretically, I should be able to run the AC for ~1.5 hours assuming no power coming in from my alternator, solar ...",
+      "date": "Apr 16, 2024",
+      "sitelinks": [
+        {
+          "title": "RV A/C Unit wattage question : r/LearnToRV - Reddit",
+          "link": "https://www.reddit.com/r/LearnToRV/comments/1fx7wm6/rv_ac_unit_wattage_question/"
+        },
+        {
+          "title": "How much does an AC unit cost to run in electricity over the summer?",
+          "link": "https://www.reddit.com/r/CamperVans/comments/njom8w/how_much_does_an_ac_unit_cost_to_run_in/"
+        }
+      ],
+      "position": 1
+    },
+    {
+      "title": "How Many Watts Does An RV AC Use - Jackery",
+      "link": "https://www.jackery.com/blogs/knowledge/how-many-watts-does-an-rv-ac-use?srsltid=AfmBOoqy6rpFOHnFWV7OPF-jGH4UqzF7jAPi0MDXFTULHqFII4zgQ-19",
+      "snippet": "An RV AC typically uses between 300 - 1700 watts per hour of electricity. The BTU rating of the RV AC will affect the wattage consumption of the ...",
+      "date": "Apr 28, 2026",
+      "position": 2
+    },
+    {
+      "title": "How Many Watts Does a RV Air Conditioner Use? | Renogy US",
+      "link": "https://www.renogy.com/blogs/general-solar/how-many-watts-does-an-rv-air-conditioner-use?srsltid=AfmBOorZVf1NMqZjxVHuCh2W3tJ7k4GOj0FjTHSlF1-eRigkaKeJFCU4",
+      "snippet": "A camper AC uses 1,200 to 1,500 running watts. However, their starting wattage is significantly higher, up to 2,000 to 3,000 watts. The exact wattage depends on ...",
+      "position": 3
+    },
+    {
+      "title": "How much solar needed to run 13000 btu AC only occasionally in ...",
+      "link": "https://diysolarforum.com/threads/how-much-solar-needed-to-run-13-000-btu-ac-only-occasionally-in-rv-motorhome.85807/",
+      "snippet": "Typically, RV air conditioners come in 13,500 or 15,000 BTU ratings. Air conditioners in this range usually operate at 1,300 to 1,500 watts, ...",
+      "date": "Jun 19, 2024",
+      "position": 4
+    },
+    {
+      "title": "How Many Watts Does an RV AC Use? RV Power Guide",
+      "link": "https://midlandeastrvpark.com/how-many-watts-does-a-rv-ac-use/",
+      "snippet": "An RV air conditioner typically needs 2,500 to 3,500 RV AC starting watts when the compressor starts. Can a 2000 watt generator run an RV air ...",
+      "date": "Mar 12, 2026",
+      "position": 5
+    },
+    {
+      "title": "How Many Watts Do RV Air Conditioners Use? - EcoFlow",
+      "link": "https://www.ecoflow.com/us/blog/how-many-watts-do-rv-ac-use",
+      "snippet": "An RV air conditioner's watts can vary, ranging from 500W for a 5,000 BTU unit to 2700W for a 27,000 BTU unit—however, most fall within the 700W ...",
+      "date": "Jul 28, 2025",
+      "position": 6
+    },
+    {
+      "title": "How Many Amps Does an RV AC Draw? - Micro-Air",
+      "link": "https://www.microair.net/blogs/news/how-many-amps-does-an-rv-ac-draw?srsltid=AfmBOorpAJ5tVAAhyaeETq-ih3QfTiTCJYwzYYxmIkhtI9GMa3lLpDZB",
+      "snippet": "An RV AC draws 12-16 amps running and up to 50 amps at startup. Learn how to use less power, prevent electrical issues, and run on a smaller ...",
+      "date": "Mar 26, 2025",
+      "position": 7
+    },
+    {
+      "title": "Wattage Chart - Ramsond Corporation",
+      "link": "https://www.ramsond.com/wattage-chart/",
+      "snippet": "Wattage Chart ; 7000 btu RV air conditioner, 1700, 600 ; 10,000 btu RV air conditioner, 2000, 700 ; 13,500 btu RV air conditioner, 2750, 1250 ; 15,000 btu RV air ...",
+      "position": 8
+    },
+    {
+      "title": "How Much Electricity Does A Camper Use? Complete 2025 Guide",
+      "link": "https://solartechonline.com/blog/how-much-electricity-does-camper-use-guide/",
+      "snippet": "The average RV uses 20-30 kWh per day, but this can vary dramatically based on your RV type, size, appliances, and usage patterns. Understanding ...",
+      "date": "Aug 18, 2025",
+      "sitelinks": [
+        {
+          "title": "Power Consumption by...",
+          "link": "https://solartechonline.com/blog/how-much-electricity-does-camper-use-guide/#elementor-toc__heading-anchor-2"
+        },
+        {
+          "title": "Factors That Affect RV Power...",
+          "link": "https://solartechonline.com/blog/how-much-electricity-does-camper-use-guide/#elementor-toc__heading-anchor-3"
+        }
+      ],
+      "position": 9
+    },
+    {
+      "title": "Better RV Cooling with Less Power? My Switch to a 12V AC - YouTube",
+      "link": "https://www.youtube.com/watch?v=tAcsKw-pIDU",
+      "snippet": "The OutEquipPro 12V Air Conditioner features advanced inverter technology for quieter, more efficient cooling and longer battery ...",
+      "date": "May 22, 2025",
+      "position": 10
+    }
+  ],
+  "peopleAlsoAsk": [
+    {
+      "question": "How many watts of power does it take to run an RV air conditioner?",
+      "snippet": "Typically, air conditioners need about 1,500 to 1,800 watts for continuous operation, but the initial startup surge can reach between 2,800 and 3,500 watts. This surge is a vital consideration when choosing a generator, as failing to account for it may lead to generator overload or tripped breakers.",
+      "title": "What Size Generator Do You Need to Run an RV Air Conditioner?",
+      "link": "https://www.microair.net/blogs/news/what-size-generator-do-you-need-to-run-an-rv-air-conditioner"
+    }
+  ],
+  "relatedSearches": [
+    {
+      "query": "Rv ac power consumption chart"
+    },
+    {
+      "query": "Dometic rv ac power consumption"
+    },
+    {
+      "query": "12v rv ac power consumption"
+    },
+    {
+      "query": "13,500 BTU RV air conditioner starting watts"
+    },
+    {
+      "query": "How many watts does a 15,000 BTU RV air conditioner use"
+    },
+    {
+      "query": "Will a 2200 watt generator run an RV air conditioner"
+    },
+    {
+      "query": "What size generator for 30 amp RV air conditioner"
+    },
+    {
+      "query": "Small RV AC unit"
+    }
+  ],
+  "credits": 1
+}

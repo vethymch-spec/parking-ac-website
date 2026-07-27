@@ -1,0 +1,95 @@
+{
+  "packageVersion": "0.1",
+  "brand": "CoolDrivePro",
+  "model": "VTH1",
+  "videoTitle": "VTH1 Rooftop Parking AC Installation Guide",
+  "targetMarket": "United States",
+  "primaryUnits": "inch",
+  "secondaryUnits": "mm",
+  "mountingType": "rooftop",
+  "exteriorDimensions": {
+    "mm": {
+      "frontBackLength": 925,
+      "leftRightWidth": 891,
+      "label": "925 x 891 mm"
+    },
+    "orientation": "The 925 mm length runs front-to-back on the vehicle roof, perpendicular to the front and rear roof edges. The 891 mm dimension runs left-to-right across the vehicle roof.",
+    "fanPosition": "rear section of the rooftop unit"
+  },
+  "coreMessage": "Fits clear roof openings from 20.1 in x 15.0 in to 31.5 in x 19.3 in.",
+  "openingRange": {
+    "min": {
+      "mm": {
+        "width": 510,
+        "length": 380,
+        "label": "510 x 380 mm"
+      },
+      "inch": {
+        "width": 20.1,
+        "length": 15.0,
+        "label": "20.1 in x 15.0 in"
+      }
+    },
+    "max": {
+      "mm": {
+        "width": 800,
+        "length": 490,
+        "label": "800 x 490 mm"
+      },
+      "inch": {
+        "width": 31.5,
+        "length": 19.3,
+        "label": "31.5 in x 19.3 in"
+      }
+    }
+  },
+  "dimensionOrientationNote": "Confirmed from product drawing: product length runs front-to-back on the vehicle roof. The fan grille is placed toward the rear of the vehicle.",
+  "fitStates": [
+    {
+      "id": "too-small",
+      "color": "red",
+      "hex": "#EF4444",
+      "onscreenLabel": "Too small",
+      "detailLabel": "Enlarge opening before installation",
+      "rule": "Measured clear opening is smaller than 20.1 in x 15.0 in / 510 x 380 mm"
+    },
+    {
+      "id": "fits",
+      "color": "green",
+      "hex": "#22C55E",
+      "onscreenLabel": "Fits VTH1",
+      "detailLabel": "Ready to install",
+      "rule": "Measured clear opening is within 20.1 in x 15.0 in to 31.5 in x 19.3 in"
+    },
+    {
+      "id": "too-large",
+      "color": "yellow",
+      "hex": "#F59E0B",
+      "onscreenLabel": "Too large",
+      "detailLabel": "Adapter plate required",
+      "rule": "Measured clear opening is larger than 31.5 in x 19.3 in / 800 x 490 mm"
+    }
+  ],
+  "installationSteps": [
+    "Show finished interior result",
+    "Measure clear roof opening",
+    "Compare opening with VTH1 fit range",
+    "Apply sealing foam around the roof opening",
+    "Lower rooftop unit into position",
+    "Install inner mounting frame and tighten bolts evenly",
+    "Connect protected DC power wiring",
+    "Test cooling and check for airflow and sealing"
+  ],
+  "electricalLabel": "12V / 24V system versions: follow product label and manual",
+  "safetyLabels": [
+    "Disconnect vehicle power before wiring",
+    "Avoid roof reinforcement beams",
+    "Use fuse protection near the battery",
+    "Professional installation recommended for cutting and electrical work"
+  ],
+  "referenceStyle": {
+    "opening": "Start with the finished installed look, then explain the installation.",
+    "pace": "Short, clean, product-forward, clear enough for first-time installers.",
+    "differentiator": "Show the clear roof opening fit range more explicitly than competitor videos."
+  }
+}

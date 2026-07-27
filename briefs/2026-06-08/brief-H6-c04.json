@@ -1,0 +1,163 @@
+{
+  "cluster_id": "H6-c04",
+  "target_kw": "battery parking ac vs electric apu vs diesel apu",
+  "alt_target_kw_note": "Hub kw in cluster is 'apu vs battery ac' but for ranking we target the 3-way comparison form which matches Heatso/TTNews title patterns.",
+  "secondary_kws": [
+    "electric apu for trucks",
+    "electric apu vs diesel apu"
+  ],
+  "market": "en-US",
+  "intent": "commercial",
+  "template": "comparison",
+  "hub": "H6",
+  "word_count_range": [
+    2500,
+    3200
+  ],
+  "sections": [
+    {
+      "h2": "TL;DR — Which one wins for your truck (2-min answer)",
+      "must_cover": [
+        "decision matrix by use-case",
+        "long-haul vs regional",
+        "owner-op vs fleet"
+      ]
+    },
+    {
+      "h2": "How we'll compare them (the 8 metrics)",
+      "must_cover": [
+        "upfront cost",
+        "fuel/energy cost per night",
+        "weight impact on payload",
+        "noise dB at sleeper",
+        "installation time and cost",
+        "maintenance hours/year",
+        "anti-idling compliance",
+        "warranty"
+      ]
+    },
+    {
+      "h2": "Diesel APU — when it still wins",
+      "must_cover": [
+        "TriPac",
+        "Thermo King",
+        "Carrier ComfortPro",
+        "duty cycle realism",
+        "DEF/fuel/oil OPEX",
+        "DPF complaints"
+      ]
+    },
+    {
+      "h2": "Electric APU — the cleaner middle ground",
+      "must_cover": [
+        "Idle Free EPC",
+        "Bergstrom NITE",
+        "Dynasys",
+        "battery pack sizing",
+        "shore power compatibility"
+      ]
+    },
+    {
+      "h2": "Battery Parking AC (the new contender) — when it actually wins",
+      "must_cover": [
+        "weight savings 80–150 lb vs APU",
+        "noise <50 dB",
+        "$3-5k installed vs $10-12k APU",
+        "LiFePO4 200Ah typical",
+        "12V/24V"
+      ]
+    },
+    {
+      "h2": "Cost-of-ownership over 5 years (real numbers)",
+      "must_cover": [
+        "fuel @ $4/gal",
+        "EPA SmartWay anti-idle savings",
+        "payback months by route type",
+        "resale value"
+      ]
+    },
+    {
+      "h2": "We don't recommend X when Y (honest paragraph)",
+      "must_cover": [
+        "don't pick battery AC for >12h cooling without shore power",
+        "don't pick diesel APU for CARB states without verified list"
+      ]
+    },
+    {
+      "h2": "FAQ",
+      "must_cover": [
+        "how many hours can battery parking AC run",
+        "is electric APU SmartWay verified",
+        "DOT compliant"
+      ]
+    }
+  ],
+  "FAQ": [
+    "Is a battery parking AC cheaper than a diesel APU?",
+    "How long can a battery parking AC run on one full charge?",
+    "Is an electric APU SmartWay verified?",
+    "Does a parking AC count for anti-idling compliance?",
+    "What's the payback period for replacing a diesel APU with a battery parking AC?"
+  ],
+  "required_schemas": [
+    "Article",
+    "BreadcrumbList",
+    "FAQPage"
+  ],
+  "must_have_entities": [
+    "TriPac",
+    "Thermo King",
+    "Carrier ComfortPro",
+    "Bergstrom NITE",
+    "Idle Free EPC",
+    "Dynasys",
+    "LiFePO4",
+    "200Ah",
+    "CARB",
+    "SmartWay",
+    "APU",
+    "EPC",
+    "12V",
+    "24V",
+    "EPA"
+  ],
+  "golden_gap": "Top10 forums and Heatso/TTNews articles cover diesel-vs-electric APU well, but none publish a 5-year TCO with battery parking AC as the third option. We own that gap.",
+  "recommended_external_refs": [
+    {
+      "label": "EPA SmartWay verified APU list",
+      "url": "https://www.epa.gov/smartway/smartway-verified-list-idle-reduction-technologies"
+    },
+    {
+      "label": "CARB ATCM commercial-vehicle idling rule",
+      "url": "https://ww2.arb.ca.gov/our-work/programs/commercial-vehicle-idling"
+    },
+    {
+      "label": "FMCSA HOS sleeper berth provision",
+      "url": "https://www.fmcsa.dot.gov/regulations/hours-of-service"
+    }
+  ],
+  "internal_link_targets": [
+    "/products/vth1",
+    "/blog/parking-ac-fuel-savings-calculator",
+    "/blog/lifepo4-battery-for-parking-ac",
+    "/blog/no-idle-truck-ac",
+    "/blog/parking-ac-installation-cost-2026"
+  ],
+  "ogImage_hint": "3-way comparison hero with battery / electric APU / diesel APU icons + payback chart, 1600x900 WebP",
+  "serp_brief_meta": {
+    "top10_avg_word_count": 1782,
+    "top10_avg_bigrams_must_mention": [
+      "electric apu(5)",
+      "lithium battery(3)"
+    ],
+    "cluster_est_volume": 1380,
+    "cluster_median_kd": 32,
+    "cluster_member_count": 3,
+    "ranking_difficulty_note": "Heatso and ElectricAPU.com are direct commercial competitors. Differentiation = 5-year TCO with real CARB/SmartWay data, not generic 'depends on use' fence-sitting.",
+    "generated_at": "2026-06-08T05:41:53.075Z"
+  },
+  "banned_angles": [
+    "'It depends, talk to your dealer' non-answers",
+    "Fence-sitting without numbers"
+  ]
+}
