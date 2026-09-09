@@ -259,12 +259,6 @@ export default function Footer() {
               United States
             </p>
             <p
-              className="text-sm leading-relaxed mb-3"
-              style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
-            >
-              Manufactured by Qingdao Vethy Industrial Co., Ltd. (ISO 9001:2015) — the parent company behind the CoolDrivePro brand.
-            </p>
-            <p
               className="text-sm leading-relaxed"
               style={{ color: "oklch(0.75 0.04 240)", fontFamily: "'Inter', sans-serif" }}
             >
