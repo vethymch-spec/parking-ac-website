@@ -14,7 +14,7 @@ const PUBLIC_SITEMAP_PATH = path.join(ROOT_DIR, "client", "public", "sitemap.xml
 const REDIRECTS_PATH = path.join(DIST_DIR, "_redirects");
 
 const BASE_URL = "https://cooldrivepro.com";
-const DEFAULT_OG_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-bg-1280_6f9410ed.webp";
+const DEFAULT_OG_IMAGE = "/images/home/hero-bg-1280.webp";
 const DEFAULT_DESCRIPTION = "12V & 24V DC parking AC for trucks, RVs & vans. 10000-12000 BTU, no-idle operation, fitment support, and invoice-based ordering.";
 const DEFAULT_BLOG_LANGUAGE = "en";
 const RTL_LANGUAGES = new Set(["ar", "he"]);
@@ -108,7 +108,7 @@ const PRODUCT_PAGES = [
     route: "/products/top-mounted-ac",
     title: "12000 BTU Top-Mounted Parking AC | 12V 24V No-Idle Cooling - CoolDrivePro",
     description: "Top-mounted 12V/24V DC parking air conditioner for semi trucks, RVs, and vans. 12,000 BTU/h cooling, low-noise operation, battery protection, and fitment confirmation before invoice.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-product-right_1b53506e.webp",
+    image: "/images/products/vs02pro/vs02pro-01-hero.webp",
     schema: {
       name: "12000 BTU Top-Mounted Parking Air Conditioner - 12V/24V DC",
       sku: "VS02-PRO",
@@ -133,7 +133,7 @@ const PRODUCT_PAGES = [
     route: "/products/heating-cooling-ac",
     title: "Heating & Cooling Parking AC | 12V 24V Dual-Mode Unit - CoolDrivePro",
     description: "Dual-mode 12V/24V parking air conditioner with cooling and heating for trucks, RVs, vans, and service vehicles. GMCC twin-rotary compressor for year-round no-idle climate control.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
+    image: "/images/products/vth1-outdoor-top.webp",
     schema: {
       name: "V-TH1 Heating & Cooling Parking Air Conditioner - 12V/24V DC",
       sku: "V-TH1",
@@ -283,7 +283,7 @@ const COMMERCIAL_HUB_PAGES = [
     route: "/solutions/12v-rv-air-conditioner",
     title: "12V RV Air Conditioner | Battery-Powered RV AC Guide - CoolDrivePro",
     description: "Choose a 12V RV air conditioner for campers, camper trailers, motorhomes, caravans, and off-grid RV cooling. Compare rooftop, mini split, and compact DC AC options.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    image: "/images/scenes/ac-scene-van-rooftop.jpg",
     pageType: "collection",
     breadcrumbName: "12V RV Air Conditioner",
     recommendedProducts: ["/products/top-mounted-ac", "/products/mini-split-ac", "/products/nano-max"],
@@ -397,7 +397,7 @@ const COMMERCIAL_HUB_PAGES = [
     route: "/solutions/rv-parking-ac",
     title: "RV Parking AC | Off-Grid 12V 24V RV Cooling Guide - CoolDrivePro",
     description: "Find the right RV parking AC for boondocking, campground quiet hours, and off-grid overnight cooling. Compare rooftop, mini split, and compact RV-ready systems.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    image: "/images/scenes/ac-scene-van-rooftop.jpg",
     pageType: "collection",
     breadcrumbName: "RV Parking AC",
     recommendedProducts: ["/products/top-mounted-ac", "/products/mini-split-ac", "/products/nano-max"],
@@ -473,7 +473,7 @@ const COMMERCIAL_HUB_PAGES = [
     route: "/solutions/off-grid-rv-air-conditioner",
     title: "Off-Grid RV Air Conditioner | Battery & Solar Cooling Guide - CoolDrivePro",
     description: "Find the right off-grid RV air conditioner for boondocking, solar-charged batteries, and generator-free overnight comfort. Compare rooftop, mini split, and compact RV-ready systems.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    image: "/images/scenes/ac-scene-van-rooftop.jpg",
     pageType: "collection",
     breadcrumbName: "Off-Grid RV Air Conditioner",
     recommendedProducts: ["/products/top-mounted-ac", "/products/mini-split-ac", "/products/nano-max"],
@@ -529,7 +529,7 @@ const COMMERCIAL_HUB_PAGES = [
     route: "/compare/rooftop-vs-mini-split-parking-ac",
     title: "Rooftop vs Mini Split Parking AC | Compare Install & Runtime - CoolDrivePro",
     description: "Compare rooftop vs mini split parking AC systems for trucks, RVs, and vans. Review installation effort, noise, cooling layout, and which CoolDrivePro model fits best.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-product-right_1b53506e.webp",
+    image: "/images/products/vs02pro/vs02pro-01-hero.webp",
     breadcrumbName: "Rooftop vs Mini Split",
     recommendedProducts: ["/products/top-mounted-ac", "/products/mini-split-ac", "/products/heating-cooling-ac"],
     faqs: [
@@ -565,7 +565,7 @@ const COMMERCIAL_HUB_PAGES = [
     route: "/compare/cooling-only-vs-heating-cooling-parking-ac",
     title: "Cooling-Only vs Heating & Cooling Parking AC | Climate Guide - CoolDrivePro",
     description: "Compare cooling-only vs heating-and-cooling parking AC systems for mixed climates, year-round fleets, RVs, vans, and trucks. Choose the right climate-control branch first.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
+    image: "/images/products/vth1-outdoor-top.webp",
     breadcrumbName: "Cooling-Only vs Heating & Cooling",
     recommendedProducts: ["/products/top-mounted-ac", "/products/mini-split-ac", "/products/heating-cooling-ac"],
     faqs: [
@@ -583,7 +583,7 @@ const COMMERCIAL_HUB_PAGES = [
     route: "/compare/parking-ac-roof-fitment-guide",
     title: "Parking AC Roof Fitment Guide | 14x14 Openings & Roof Layout - CoolDrivePro",
     description: "Check parking AC roof fitment for RVs, vans, pickups, and work vehicles. Compare standard rooftop openings, tight layouts, and the best installation branch before you buy.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-product-right_1b53506e.webp",
+    image: "/images/products/vs02pro/vs02pro-01-hero.webp",
     breadcrumbName: "Parking AC Roof Fitment Guide",
     recommendedProducts: ["/products/top-mounted-ac", "/products/nano-max", "/products/mini-split-ac"],
     faqs: [

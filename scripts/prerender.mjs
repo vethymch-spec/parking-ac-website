@@ -1441,8 +1441,14 @@ function generateBlogPage(slug, lang) {
     noindex: isAClass || isWeakLangBlog,
     langs: indexableArticleLangs.length ? indexableArticleLangs : articleLangs,
   });
+  // Inline the article JSON for synchronous client hydration. The BlogPost
+  // component reads this instead of fetching `/data/blog/{slug}.json`, so the
+  // prerendered article is replaced by the same content on first paint instead
+  // of a loading spinner (the primary source of blog-page CLS). `<` is escaped
+  // as \u003c so user content can never terminate the <script> element.
+  const hydrationScript = `<script type="application/json" id="blog-post-data" data-slug="${escAttr(slug)}">${JSON.stringify(article).replace(/</g, '\\u003c')}</script>`;
   const body = renderBlogBody(article, lang, slug);
-  const html = applyTemplate({ title: fullTitle, desc: article.metaDescription || article.title, lang, headExtra, body, removeHomeHeroPreload: true });
+  const html = applyTemplate({ title: fullTitle, desc: article.metaDescription || article.title, lang, headExtra: headExtra + '\n    ' + hydrationScript, body, removeHomeHeroPreload: true });
   const out = lang === DEFAULT_LANG ? `blog/${slug}` : `${lang}/blog/${slug}`;
   writePage(out, html);
   return true;

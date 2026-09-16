@@ -76,9 +76,9 @@ interface PageConfig {
   secondaryCta: LinkBlock;
 }
 
-const productImage = "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-top-mounted-opt_7f111736.webp";
-const splitImage = "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-mini-split-opt_81dc95b4.webp";
-const rvImage = "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp";
+const productImage = "/images/products/vs02pro-top-mounted.webp";
+const splitImage = "/images/products/vx3000-mini-split.webp";
+const rvImage = "/images/scenes/ac-scene-van-rooftop.jpg";
 
 const PAGES: Record<string, PageConfig> = {
   "/vehicle-compatibility": {

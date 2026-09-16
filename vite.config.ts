@@ -17,6 +17,8 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/client"),
     emptyOutDir: true,
+    target: "es2020",
+    chunkSizeWarningLimit: 800,
     rollupOptions: {
       output: {
         manualChunks(id) {
@@ -32,10 +34,10 @@ export default defineConfig({
           if (id.includes("node_modules/@tanstack") || id.includes("node_modules/@trpc") || id.includes("node_modules/superjson")) {
             return "vendor-data";
           }
-          // UI primitives (Radix) — large but shared across many pages, split out so Home doesn't bundle them
-          if (id.includes("node_modules/@radix-ui")) {
-            return "vendor-radix";
-          }
+          // Radix UI primitives — individually tree-shakeable ESM packages.
+          // NOT grouped into a single chunk: each lazy-loaded route only loads
+          // the specific radix components it imports.  Grouping forces every page
+          // to download all radix code, which Lighthouse reports as unused JS.
           // Icon library — pulled by almost every page; isolating lets it cache separately
           if (id.includes("node_modules/lucide-react")) {
             return "vendor-icons";

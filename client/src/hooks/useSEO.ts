@@ -280,10 +280,14 @@ export function useSEO(overrides?: SEOProps) {
       if (twitterDesc) twitterDesc.content = description;
     }
 
-    // Update OG image if provided
+    // Update OG image if provided (resolve relative paths to absolute URLs)
     if (overrides?.ogImage) {
       const ogImage = document.querySelector<HTMLMetaElement>('meta[property="og:image"]');
-      if (ogImage) ogImage.content = overrides.ogImage;
+      if (ogImage) {
+        ogImage.content = overrides.ogImage.startsWith('/')
+          ? `${BASE_URL}${overrides.ogImage}`
+          : overrides.ogImage;
+      }
     }
     
     // Update HTML lang attribute

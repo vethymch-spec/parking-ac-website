@@ -100,13 +100,31 @@ interface RelatedPostInfo {
   category: string;
 }
 
+/**
+ * Read the prerendered article JSON injected by scripts/prerender.mjs. On first
+ * load this lets the article render on first paint instead of flashing a loading
+ * spinner and re-fetching `/data/blog/{slug}.json` — the primary blog CLS source.
+ * The data-slug guard makes this a no-op on client-side navigation, which keeps
+ * the normal fetch path for moving between posts without a full page reload.
+ */
+function readHydratedPost(slug: string): BlogPostData | null {
+  if (typeof document === "undefined") return null;
+  const el = document.getElementById("blog-post-data");
+  if (!el || el.getAttribute("data-slug") !== slug || !el.textContent) return null;
+  try {
+    return JSON.parse(el.textContent) as BlogPostData;
+  } catch {
+    return null;
+  }
+}
+
 export default function BlogPost() {
   const { t } = useTranslation();
   const params = useParams<{ slug: string }>();
   const slug = (params.slug || "").replace(/\.html$/i, "");
-  const [post, setPost] = useState<BlogPostData | null>(null);
+  const [post, setPost] = useState<BlogPostData | null>(() => readHydratedPost(slug));
   const [relatedPosts, setRelatedPosts] = useState<RelatedPostInfo[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(() => readHydratedPost(slug) === null);
   const [error, setError] = useState(false);
 
   const seoOverrides = useMemo(() => {
@@ -155,6 +173,11 @@ export default function BlogPost() {
       setError(true);
       return;
     }
+    // Already hydrated synchronously from the prerendered data — skip the fetch.
+    if (readHydratedPost(slug)) {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     setError(false);
     fetch(`/data/blog/${slug}.json`)
@@ -195,8 +218,11 @@ export default function BlogPost() {
   if (loading) {
     return (
       <PageLayout>
-        <div className="max-w-[800px] mx-auto min-h-[400px] px-4 lg:px-8 py-20 flex justify-center">
-          <Loader2 className="animate-spin" size={32} style={{ color: "oklch(0.45 0.18 255)" }} />
+        {/* Reserve viewport-scale height during the prerendered→hydrated fetch so the
+            incoming hero image + title + meta replace the placeholder without a large
+            above-the-fold layout shift (CLS). */}
+        <div className="max-w-[800px] mx-auto min-h-[80vh] px-4 lg:px-8 py-20 flex justify-center items-start">
+          <Loader2 className="animate-spin mt-16" size={32} style={{ color: "oklch(0.45 0.18 255)" }} />
         </div>
       </PageLayout>
     );
@@ -327,13 +353,16 @@ export default function BlogPost() {
                 </p>
               ))}
               {/* Inline image rendered after this section if configured */}
-              {post.inlineImages?.filter(img => img.afterSection === i).map((img, ii) => (
-                <figure key={`img-${i}-${ii}`} className="my-6">
+              {post.inlineImages?.filter(img => img.afterSection === i).map((img, ii) => {
+                const iw = img.width || 1280;
+                const ih = img.height || 720;
+                return (
+                <figure key={`img-${i}-${ii}`} className="my-6" style={{ aspectRatio: `${iw} / ${ih}` }}>
                   <img
                     src={img.url}
                     alt={img.alt}
-                    width={img.width}
-                    height={img.height}
+                    width={iw}
+                    height={ih}
                     loading="lazy"
                     decoding="async"
                     className="w-full h-auto rounded-2xl shadow-md"
@@ -347,7 +376,7 @@ export default function BlogPost() {
                     </figcaption>
                   )}
                 </figure>
-              ))}
+              )})}
               {ctaVariant && i === insertAt && (
                 <LeadCaptureCTA variant={ctaVariant} sourceSlug={slug} />
               )}

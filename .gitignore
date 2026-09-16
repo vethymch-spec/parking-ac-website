@@ -114,3 +114,4 @@ temp/
 
 # Agent skills (dev-only)
 .agents/
+.wrangler/

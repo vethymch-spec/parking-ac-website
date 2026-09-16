@@ -448,7 +448,7 @@ const HUB_PAGES: Record<string, HubPageConfig> = {
     description:
       "Start here if your RV setup depends on house-battery runtime, low-noise campground operation, or choosing between rooftop simplicity and a quieter split layout for off-grid camping.",
     icon: Home,
-    heroImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    heroImage: "/images/scenes/ac-scene-van-rooftop.jpg",
     heroImageAlt: "RV parked outdoors with a battery-powered parking air conditioner use case",
     heroStats: [
       { label: "Typical System", value: "12V house battery" },
@@ -1070,7 +1070,7 @@ const HUB_PAGES: Record<string, HubPageConfig> = {
     description:
       "Use this page when the real constraint is off-grid power, not just rooftop fitment. It helps RV owners compare off-grid RV air conditioner options by battery bank size, solar contribution, overnight runtime, and sleep noise.",
     icon: Battery,
-    heroImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    heroImage: "/images/scenes/ac-scene-van-rooftop.jpg",
     heroImageAlt: "Off-grid RV air conditioner setup for battery-powered boondocking",
     heroStats: [
       { label: "Typical System", value: "12V house battery + solar" },
@@ -1358,7 +1358,7 @@ const HUB_PAGES: Record<string, HubPageConfig> = {
     description:
       "This page helps buyers move from a generic voltage question to a practical shortlist. Use it to understand which vehicles typically run 12V or 24V, what that means for current draw and wiring, and which CoolDrivePro systems fit each side best.",
     icon: Battery,
-    heroImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    heroImage: "/images/scenes/ac-scene-van-rooftop.jpg",
     heroImageAlt: "Battery-powered parking air conditioner power planning for 12V and 24V systems",
     heroStats: [
       { label: "12V Common In", value: "RVs, vans, pickups" },
@@ -1502,7 +1502,7 @@ const HUB_PAGES: Record<string, HubPageConfig> = {
     description:
       "This page is for buyers who already know they need a parking AC and now have to choose the right layout. Use it to compare all-in-one rooftop simplicity against the quieter indoor experience of a split system.",
     icon: Compass,
-    heroImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-product-right_1b53506e.webp",
+    heroImage: "/images/products/vs02pro/vs02pro-01-hero.webp",
     heroImageAlt: "Rooftop parking air conditioner format comparison image",
     heroStats: [
       { label: "Rooftop Wins On", value: "Simplicity" },
@@ -1647,7 +1647,7 @@ const HUB_PAGES: Record<string, HubPageConfig> = {
     description:
       "Use this page when the real buying question is not just which parking AC to buy, but how long it will run on your battery system. It helps buyers move from vague runtime claims into realistic battery-bank planning for overnight use.",
     icon: Battery,
-    heroImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    heroImage: "/images/scenes/ac-scene-van-rooftop.jpg",
     heroImageAlt: "Battery-powered parking air conditioner runtime planning for overnight vehicle cooling",
     heroStats: [
       { label: "Typical Goal", value: "6-10 hours overnight" },
@@ -1791,7 +1791,7 @@ const HUB_PAGES: Record<string, HubPageConfig> = {
     description:
       "This page helps buyers decide whether they only need summer cooling or whether a dual-mode system is worth the higher spec. It is most useful for fleets and owner-operators covering mixed climates across the calendar.",
     icon: Shield,
-    heroImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
+    heroImage: "/images/products/vth1-outdoor-top.webp",
     heroImageAlt: "Dual-mode heating and cooling parking air conditioner for year-round vehicle climate control",
     heroStats: [
       { label: "Cooling-Only Fit", value: "Hot weather routes" },
@@ -1935,7 +1935,7 @@ const HUB_PAGES: Record<string, HubPageConfig> = {
     description:
       "This page helps buyers answer the physical fitment question before they get stuck comparing specs. It is most useful for RVs, vans, and compact vehicles where roof space, cutout size, and accessory layout can decide the product faster than price does.",
     icon: Home,
-    heroImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/hero-product-right_1b53506e.webp",
+    heroImage: "/images/products/vs02pro/vs02pro-01-hero.webp",
     heroImageAlt: "Rooftop parking air conditioner fitment guide for vehicle roof openings and layout planning",
     heroStats: [
       { label: "Standard Opening", value: "14x14 inch rooftop" },
@@ -2537,7 +2537,7 @@ HUB_PAGES["/solutions/12v-rv-air-conditioner"] = {
   description:
     "This hub targets 12v rv air conditioner, 12 volt rv air conditioner, 12v rv ac unit, 12v camper air conditioner, 12 volt air conditioner for camper, and caravan aircon searches. It helps RV buyers separate shore-power rooftop units from DC parking AC systems that run from a house battery bank.",
   icon: Home,
-  heroImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+  heroImage: "/images/scenes/ac-scene-van-rooftop.jpg",
   heroImageAlt: "12V RV air conditioner planning for off-grid camper and motorhome cooling",
   heroStats: [
     { label: "Core Search", value: "12V RV AC" },

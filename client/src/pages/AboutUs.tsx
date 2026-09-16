@@ -265,7 +265,7 @@ export default function AboutUs() {
         </div>
         <div className="rounded-2xl overflow-hidden shadow-lg">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/truck-parking_20a5034a.webp"
+            src="/images/scenes/ac-scene-rooftop-unit.jpg"
             alt={t('about.imageAlt', 'CoolDrivePro team – parking air conditioner specialists')}
             className="w-full h-auto object-cover"
             style={{ maxHeight: "400px", objectFit: "cover" }}

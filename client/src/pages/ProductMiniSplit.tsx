@@ -73,7 +73,7 @@ export default function ProductMiniSplit() {
   useSEO({
     title: "12V/24V Mini Split Truck AC for Sleeper Cabs, RVs and Vans | CoolDrivePro",
     description: "CoolDrivePro VX3000SP is a 12V/24V DC mini split parking air conditioner for semi sleeper cabs, RVs, vans and campers. 12,000 BTU no-idle cooling with quiet \u226432 dB indoor unit, GMCC twin-rotary inverter compressor and dealer fitment support.",
-    ogImage: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/product-mini-split-opt_81dc95b4.webp",
+    ogImage: "/images/products/vx3000-mini-split.webp",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -142,7 +142,7 @@ export default function ProductMiniSplit() {
               "/images/products/vx3000-split-features.webp",
             ].map((src, idx) => (
               <div key={idx} className="rounded-lg overflow-hidden bg-gray-100 aspect-square cursor-pointer hover:ring-2 hover:ring-blue-500">
-                <img src={src} alt={`VX3000 view ${idx + 1}`} className="w-full h-full object-cover" />
+                <img src={src} alt={`VX3000 view ${idx + 1}`} width={300} height={300} loading="lazy" decoding="async" className="w-full h-full object-cover" />
               </div>
             ))}
           </div>

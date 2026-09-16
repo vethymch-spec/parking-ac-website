@@ -121,26 +121,55 @@ const heroSpecs = [
 // 主图+说明+缩略图横滑
 const galleryImages = [
   {
-    src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-01-hero_d84a64e3.webp",
+    src: "/images/products/vs02pro/vs02pro-01-hero.webp",
     alt: "28.3 inches x 28.3 inches, compact design saves roof space for solar panels or storage. Weighs 45LB, reducing load and boosting fuel efficiency.",
     caption: "The compact design saves roof space for solar panels or storage. Weighs 45LB, reducing load and boosting fuel efficiency."
   },
   {
-    src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-02-front-side_ae7ed14d.webp",
-    alt: "Inverter Air Conditioner, Stable Every with Low Power Consumption.",
-    caption: "Smart inverter tech enables steady cooling with low power use. Brief ambient load curve: VS02 Pro vs. 230V van inverter."
+    src: "/images/products/vs02pro/vs02pro-02.webp",
+    alt: "CoolDrivePro VS02 PRO rooftop parking air conditioner — exterior product view.",
+    caption: "VS02 PRO rooftop unit exterior view for quick fitment and finish review."
   },
   {
-    src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-03-top-fans_d671776f.webp",
-    alt: "Wiring and battery bank reference for parking air conditioner.",
-    caption: "Shows wiring and battery bank reference for parking air conditioner."
+    src: "/images/products/vs02pro/vs02pro-03-top-fans.webp",
+    alt: "Top-mounted condenser fans with IP54-rated dust and moisture protection.",
+    caption: "Top-mounted condenser fans with IP54-rated protection for dust and moisture."
   },
   {
-    src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-04-front-flat_2b4ac31a.webp",
-    alt: "Slim side profile design.",
-    caption: "The 3.1 inch low-profile design with sleek cover reduces wind resistance and helps more easily park under carports."
+    src: "/images/products/vs02pro/vs02pro-04.webp",
+    alt: "CoolDrivePro VS02 PRO rooftop parking air conditioner — another exterior angle.",
+    caption: "Alternate exterior angle showing the compact rooftop housing."
   },
-  // ...可继续补充更多图片和说明
+  {
+    src: "/images/products/vs02pro/vs02pro-05-rear-cables.webp",
+    alt: "Rear cable entry and connection points for clean rooftop wiring.",
+    caption: "Rear cable entry and connection points for clean rooftop wiring."
+  },
+  {
+    src: "/images/products/vs02pro/vs02pro-06.webp",
+    alt: "CoolDrivePro VS02 PRO rooftop parking air conditioner — product reference photo.",
+    caption: "Product reference photo for shell size and visual finish."
+  },
+  {
+    src: "/images/products/vs02pro/vs02pro-07.webp",
+    alt: "CoolDrivePro VS02 PRO rooftop parking air conditioner — product detail view.",
+    caption: "Product detail view for buyer review of the rooftop unit."
+  },
+  {
+    src: "/images/products/vs02pro/vs02pro-08.webp",
+    alt: "CoolDrivePro VS02 PRO 12V/24V R410a twin-rotor rooftop parking air conditioner.",
+    caption: "VS02 PRO 12V/24V R410a twin-rotor rooftop parking air conditioner."
+  },
+  {
+    src: "/images/products/vs02pro/vs02pro-10-indoor-closeup.webp",
+    alt: "VS02 PRO indoor unit close-up with controls and air outlet.",
+    caption: "Indoor unit close-up with controls and air outlet."
+  },
+  {
+    src: "/images/products/vs02pro/vs02pro-11-bottom-mount.webp",
+    alt: "Bottom mounting plate designed for a standard 14-inch roof opening.",
+    caption: "Bottom mounting plate designed for a standard 14-inch roof opening."
+  },
 ];
 
 const inquirySteps = [
@@ -243,7 +272,7 @@ export default function ProductTopMounted() {
     description:
       "CoolDrivePro VS02 PRO is a 12V/24V rooftop parking air conditioner — a battery-powered DC parking AC delivering 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans and campers with \u226445 dB quiet operation and dealer fitment support.",
     ogImage:
-      "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vs02pro-01-hero_d84a64e3.webp",
+      "/images/products/vs02pro/vs02pro-01-hero.webp",
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "FAQPage",

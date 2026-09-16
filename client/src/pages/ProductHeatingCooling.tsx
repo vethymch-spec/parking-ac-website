@@ -18,24 +18,14 @@ import CompactInquiryForm from "@/components/CompactInquiryForm";
 import { useSEO } from "@/hooks/useSEO";
 import { startCheckout } from "@/lib/checkout";
 
-/* CDN image URLs (CloudFront) */
+/* Product images (self-hosted under /images/products) */
 const VTH1_IMG = {
-  hero:       "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-top_55c3c0af.webp",
-  side:       "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-outdoor-side_9ede2d40.webp",
-  indoor:     "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-indoor-panel_d99a1539.webp",
-  internal:   "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-internal-assembly_ec70192b.webp",
-  compressor: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-compressor_264dd05c.webp",
-  assembly:   "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/vth1-full-assembly_297f404a.webp",
+  hero: "/images/products/vth1-outdoor-top.webp",
 };
 
 /* SEO-rich alt text describing each angle */
 const vth1Gallery = [
-  { src: VTH1_IMG.hero,       alt: "CoolDrivePro V-TH1 heating and cooling parking air conditioner — outdoor unit top angle view" },
-  { src: VTH1_IMG.side,       alt: "V-TH1 12V 24V parking AC outdoor condenser unit — side profile" },
-  { src: VTH1_IMG.indoor,     alt: "V-TH1 indoor ceiling panel with digital LED temperature display and controls" },
-  { src: VTH1_IMG.internal,   alt: "V-TH1 internal assembly showing GMCC twin-rotary compressor and copper refrigerant lines" },
-  { src: VTH1_IMG.compressor, alt: "GMCC dual-rotary compressor inside CoolDrivePro V-TH1 parking air conditioner" },
-  { src: VTH1_IMG.assembly,   alt: "V-TH1 full unit assembly with condenser fan, compressor and refrigerant piping" },
+  { src: VTH1_IMG.hero, alt: "CoolDrivePro V-TH1 heating and cooling parking air conditioner — outdoor unit top angle view" },
 ];
 
 const vth1Faqs = [

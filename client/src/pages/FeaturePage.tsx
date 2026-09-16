@@ -20,7 +20,7 @@ const featureData: Record<string, {
     badge: "Power Source",
     title: "12V DC Battery-Powered Parking AC",
     subtitle: "No Engine. No Generator. Pure DC Cooling.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-rv-outdoor-3S7bLnKiixmod8iB5Fjvih.webp",
+    image: "/images/scenes/ac-scene-van-rooftop.jpg",
     imageAlt: "12V DC battery-powered parking air conditioner on semi truck",
     intro: "CoolDrivePro parking air conditioners run directly from your vehicle's 12V or 24V DC battery system — no engine idling, no generator, no shore power required.",
     sections: [
@@ -55,7 +55,7 @@ const featureData: Record<string, {
     badge: "Energy Efficiency",
     title: "High-Efficiency No-Idle Cooling & Heating",
     subtitle: "COP ≥2.5 DC Inverter Technology",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/mountain-landscape_00525f8e.webp",
+    image: "/images/scenes/ac-scene-van-rooftop.jpg",
     imageAlt: "Energy efficient parking air conditioner for RV camping",
     intro: "Our DC inverter compressor technology delivers industry-leading efficiency, maximizing cooling output per amp-hour of battery consumed.",
     sections: [
@@ -77,7 +77,7 @@ const featureData: Record<string, {
     badge: "Easy Installation",
     title: "Simple Parking AC Installation",
     subtitle: "No HVAC Certification Required",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/feature-installation-3ozyGKpamMMmm4bwD2kaii.webp",
+    image: "/images/scenes/ac-scene-workshop-rooftop.jpg",
     imageAlt: "Installing parking air conditioner on RV roof",
     intro: "Every CoolDrivePro parking AC ships with everything needed for a complete installation. Most customers complete installation in 2–4 hours with basic hand tools.",
     sections: [
@@ -117,7 +117,7 @@ const featureData: Record<string, {
     badge: "Battery Protection",
     title: "Smart Battery Protection for Parking AC",
     subtitle: "Multi-Level Electrical Safety System",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/water-heater_e1e95553.webp",
+    image: "/images/products/water-heater.webp",
     imageAlt: "Smart battery protection system for parking air conditioner",
     intro: "CoolDrivePro parking ACs include a sophisticated multi-level battery protection system that prevents deep discharge and ensures reliable engine starting after a full night of cooling.",
     sections: [
@@ -143,7 +143,7 @@ const featureData: Record<string, {
     badge: "Durability",
     title: "Parking AC Built for Extreme Climates",
     subtitle: "Tested from -28°C to +50°C",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/truck-parking_20a5034a.webp",
+    image: "/images/scenes/ac-scene-rooftop-unit.jpg",
     imageAlt: "Durable parking air conditioner for extreme climate conditions",
     intro: "CoolDrivePro parking air conditioners are engineered for the harshest conditions on the road — from desert truck stops to mountain campgrounds.",
     sections: [
@@ -169,7 +169,7 @@ const featureData: Record<string, {
     badge: "Quiet Operation",
     title: "Whisper-Quiet Parking Air Conditioner",
     subtitle: "≤40 dB — Quieter Than a Library",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/mountain-landscape_00525f8e.webp",
+    image: "/images/scenes/ac-scene-van-rooftop.jpg",
     imageAlt: "Quiet parking air conditioner for peaceful sleep in RV",
     intro: "At ≤40 dB, our Mini Split Parking AC is among the quietest cooling systems available for trucks and RVs — enabling peaceful sleep even in quiet campgrounds.",
     sections: [

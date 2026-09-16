@@ -5,13 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
 
+    <!-- ===== PRECONNECT (eliminate DNS + TLS handshake overhead) ===== -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+
     <!-- LCP preload: homepage hero image (highest priority, before any JS) -->
     <link rel="preload" as="image" href="/images/home/hero-bg-1280.webp" imagesrcset="/images/home/hero-bg-640.webp 640w, /images/home/hero-bg-1280.webp 1280w" imagesizes="100vw" fetchpriority="high" />
 
     <!-- LCP preload: product page hero images (same-origin, for preload-scanner early discovery) -->
     <!-- These are harmless on non-product pages (small download, cached locally) -->
     <link rel="preload" as="image" href="/images/products/vx3000-split-outdoor-unit-01.webp" fetchpriority="high" />
-    <link rel="preload" as="image" href="/images/products/vs02-pro-installation-01.webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="/images/products/vs02pro/vs02pro-01-hero.webp" fetchpriority="high" />
 
     <!-- Google tag: queue events immediately, load the vendor script after the critical render. -->
     <script>

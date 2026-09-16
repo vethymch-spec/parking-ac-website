@@ -230,7 +230,7 @@ export default function AboutHighlightsSection() {
           aria-label={t("home.aboutReadMore", "Read our full story")}
         >
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663423581211/UaaDSNMGrVjrky6icy9Uv4/truck-parking_20a5034a.webp"
+            src="/images/scenes/ac-scene-rooftop-unit.jpg"
             alt={t("about.imageAlt", "CoolDrivePro team – parking air conditioner specialists")}
             loading="lazy"
             className="w-full h-auto object-cover group-hover:scale-[1.02] transition-transform duration-500"
