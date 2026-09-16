@@ -98,7 +98,11 @@ const HUB: ApuPageConfig = {
       eyebrow: "Modular Parking APU System",
       title: "Modular Truck APU System for No-Idle Cooling, Cabin Power and Backup Energy.",
       subtitle: "Your truck engine should not run all night just to keep the cab livable. CoolDrivePro combines parking AC, LiFePO4 battery, inverter, and parking generator into one integrated APU — sized for the way you actually park.",
-      diagram: true,
+      video: {
+        src: "/videos/apu-system-demo.mp4",
+        poster: "/videos/apu-system-demo-poster.jpg",
+        caption: "Live demo — the V-TH1 rooftop AC and LiFePO4 battery pack running the full no-idle cycle on a box truck.",
+      },
       stats: [
         { label: "No-idle runtime", value: "8–10h" },
         { label: "Fuel saved / yr", value: "1,800gal" },

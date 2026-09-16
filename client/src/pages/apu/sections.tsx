@@ -32,10 +32,11 @@ export interface HeroBlock {
   primaryCta?: CTA;
   secondaryCta?: CTA;
   diagram?: boolean;
+  video?: { src: string; poster?: string; caption?: string };
   image?: string;
   imageAlt?: string;
 }
-export function Hero({ eyebrow, title, subtitle, stats, primaryCta, secondaryCta, diagram, image, imageAlt }: HeroBlock) {
+export function Hero({ eyebrow, title, subtitle, stats, primaryCta, secondaryCta, diagram, video, image, imageAlt }: HeroBlock) {
   return (
     <section className="relative overflow-hidden" style={{ backgroundColor: COLOR.brandDeep }}>
       <div className="absolute inset-0 opacity-30" style={{ backgroundImage: "radial-gradient(ellipse at 80% 20%, oklch(0.55 0.20 255) 0%, transparent 60%)" }} />
@@ -72,6 +73,23 @@ export function Hero({ eyebrow, title, subtitle, stats, primaryCta, secondaryCta
         <div className="lg:col-span-6">
           {diagram ? (
             <SystemDiagram />
+          ) : video ? (
+            <figure className="rounded-2xl overflow-hidden shadow-xl bg-black/30">
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                poster={video.poster}
+                className="w-full h-auto"
+                aria-label={video.caption ?? "CoolDrivePro APU system demo video"}
+              >
+                <source src={video.src} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              {video.caption ? <figcaption className="px-4 py-3 text-sm text-white/75" style={{ fontFamily: F.b }}>{video.caption}</figcaption> : null}
+            </figure>
           ) : image ? (
             <img src={image} alt={imageAlt ?? ""} className="w-full h-auto rounded-2xl shadow-xl" loading="eager" />
           ) : null}
