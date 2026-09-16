@@ -8,7 +8,7 @@ import { useSEO } from "@/hooks/useSEO";
 import {
   Hero, PainWall, DiagramSection, HowWorks, ModuleGrid, SolutionMatrix,
   TwoCol, TechCenter, Cases, CompareTable, SpecTable, ResourceHub, FAQ,
-  CtaForm, Placeholder, PageNav, Breadcrumb,
+  CtaForm, Placeholder, PageNav, Breadcrumb, VideoShowcase, Gallery,
 } from "./sections";
 import { APU_PAGES } from "./config";
 import type { Block } from "./config";
@@ -82,6 +82,8 @@ function renderBlock(b: Block, key: number) {
     case "hero": return <Hero key={key} {...b} />;
     case "painWall": return <PainWall key={key} {...b} />;
     case "diagram": return <DiagramSection key={key} {...b} />;
+    case "video": return <VideoShowcase key={key} {...b} />;
+    case "gallery": return <Gallery key={key} {...b} />;
     case "howWorks": return <HowWorks key={key} {...b} />;
     case "moduleGrid": return <ModuleGrid key={key} {...b} />;
     case "solutionMatrix": return <SolutionMatrix key={key} {...b} />;

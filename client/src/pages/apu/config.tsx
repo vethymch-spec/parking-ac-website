@@ -6,12 +6,15 @@ import type {
   HeroBlock, PainBlock, HowWorksBlock, ModuleGridBlock, SolutionMatrixBlock,
   TwoColBlock, TechCenterBlock, CaseBlock, CompareBlock, SpecTableBlock,
   ResourceBlock, FAQBlock, CtaFormBlock, PlaceholderBlock, PageNavBlock, SectionShell,
+  VideoBlock, GalleryBlock,
 } from "./sections";
 
 export type Block =
   | ({ kind: "hero" } & HeroBlock)
   | ({ kind: "painWall" } & PainBlock)
   | ({ kind: "diagram" } & SectionShell & { caption?: string })
+  | ({ kind: "video" } & VideoBlock)
+  | ({ kind: "gallery" } & GalleryBlock)
   | ({ kind: "howWorks" } & HowWorksBlock)
   | ({ kind: "moduleGrid" } & ModuleGridBlock)
   | ({ kind: "solutionMatrix" } & SolutionMatrixBlock)
@@ -61,8 +64,8 @@ const PAGE_NAV: PageNavBlock = {
 // Reusable module list — APU components
 // ─────────────────────────────────────────────────────────────
 const APU_MODULES: ModuleGridBlock["items"] = [
-  { name: "Parking AC", role: "HVAC", spec: "12V/24V DC rooftop or split, 7,500–12,000 BTU, 32 dB indoor.", href: "/products/" },
-  { name: "APU Battery Pack", role: "Storage", spec: "LiFePO4 12V/24V, 200–600 Ah, BMS-protected, deep-cycle." },
+  { name: "Parking AC", role: "HVAC", spec: "12V/24V DC rooftop or split, 7,500–12,000 BTU, 32 dB indoor.", href: "/products/", image: "/images/apu/apu-vth1-rooftop-01.webp", imageAlt: "CoolDrivePro V-TH1 rooftop parking air conditioner unit" },
+  { name: "APU Battery Pack", role: "Storage", spec: "LiFePO4 12V/24V, 200–600 Ah, BMS-protected, deep-cycle.", image: "/images/products/vth1-battery-box-assembly.webp", imageAlt: "CoolDrivePro APU LiFePO4 battery box assembly with BMS" },
   { name: "Parking Generator", role: "Backup", spec: "Diesel/gasoline 2–5 kW silent generator for extended runtime." },
   { name: "Pure Sine Inverter", role: "AC out", spec: "1000–3000 W 110V/220V for cabin appliances." },
   { name: "Smart Charger", role: "Charging", spec: "DC-DC + shore power charger, BMS-aware, multi-stage." },
@@ -137,6 +140,28 @@ const HUB: ApuPageConfig = {
       title: "How the modules connect on a real truck.",
       intro: "Click any hotspot on the side view to see what the part does and where it lives.",
       caption: "Schematic — not drawn to scale. Final layout depends on cab geometry, battery box location, and generator mounting.",
+    },
+    {
+      kind: "video",
+      eyebrow: "See it in action",
+      title: "Watch the APU system, from startup to full operation.",
+      intro: "Real field footage of the CoolDrivePro battery-powered APU on a box truck — the rooftop V-TH1 unit, LiFePO4 battery pack and BMS working as one system.",
+      videos: [
+        { src: "/videos/apu-system-demo.mp4", poster: "/videos/apu-system-demo-poster.jpg", caption: "Full APU system demo — V-TH1 rooftop AC + LiFePO4 battery pack running together on a box truck." },
+        { src: "/videos/apu-startup-diagram.mp4", poster: "/videos/apu-startup-diagram-poster.jpg", caption: "Battery air conditioner startup sequence — how power flows from the LiFePO4 battery through the BMS to the compressor." },
+      ],
+    },
+    {
+      kind: "gallery",
+      eyebrow: "V-TH1 rooftop module",
+      title: "The rooftop HVAC module, up close.",
+      intro: "The V-TH1 is the HVAC module of the CoolDrivePro APU stack — a low-profile rooftop unit with a GMCC twin-rotary compressor and heat-pump heating.",
+      images: [
+        { src: "/images/apu/apu-vth1-rooftop-01.webp", alt: "CoolDrivePro V-TH1 rooftop parking air conditioner unit", caption: "V-TH1 rooftop unit" },
+        { src: "/images/apu/apu-vth1-rooftop-02.webp", alt: "CoolDrivePro V-TH1 rooftop parking air conditioner", caption: "V-TH1 rooftop unit" },
+        { src: "/images/apu/apu-vth1-rooftop-03.webp", alt: "CoolDrivePro V-TH1 rooftop HVAC module", caption: "V-TH1 rooftop unit" },
+        { src: "/images/apu/apu-vth1-rooftop-04.webp", alt: "CoolDrivePro V-TH1 rooftop AC close-up", caption: "V-TH1 rooftop unit" },
+      ],
     },
     {
       kind: "solutionMatrix",

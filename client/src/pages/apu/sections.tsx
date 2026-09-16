@@ -145,6 +145,58 @@ export function DiagramSection(props: SectionShell & { caption?: string }) {
 }
 
 // ─────────────────────────────────────────────────────────────
+// Video showcase — real APU demo + startup diagram animations
+// ─────────────────────────────────────────────────────────────
+export interface VideoBlock extends SectionShell {
+  videos: { src: string; poster?: string; caption: string }[];
+}
+export function VideoShowcase({ videos, ...shell }: VideoBlock) {
+  return (
+    <Shell bg="tint" {...shell}>
+      <div className="grid lg:grid-cols-2 gap-6">
+        {videos.map((v) => (
+          <figure key={v.src} className="rounded-2xl border bg-white overflow-hidden" style={{ borderColor: COLOR.border }}>
+            <video
+              controls
+              preload="none"
+              poster={v.poster}
+              playsInline
+              className="w-full h-auto aspect-video object-cover bg-black"
+              aria-label={v.caption}
+            >
+              <source src={v.src} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <figcaption className="px-4 py-3 text-sm leading-relaxed" style={{ color: COLOR.muted, fontFamily: F.b }}>{v.caption}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </Shell>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────
+// Gallery — product photo grid
+// ─────────────────────────────────────────────────────────────
+export interface GalleryBlock extends SectionShell {
+  images: { src: string; alt: string; caption?: string }[];
+}
+export function Gallery({ images, ...shell }: GalleryBlock) {
+  return (
+    <Shell {...shell}>
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {images.map((im) => (
+          <figure key={im.src} className="rounded-xl border bg-white overflow-hidden" style={{ borderColor: COLOR.border }}>
+            <img src={im.src} alt={im.alt} loading="lazy" decoding="async" className="w-full h-48 object-cover" />
+            {im.caption ? <figcaption className="px-3 py-2 text-xs leading-relaxed" style={{ color: COLOR.muted, fontFamily: F.b }}>{im.caption}</figcaption> : null}
+          </figure>
+        ))}
+      </div>
+    </Shell>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────
 // How it works in 3 steps
 // ─────────────────────────────────────────────────────────────
 export interface HowWorksBlock extends SectionShell { steps: { tag: string; title: string; body: string }[] }
@@ -168,7 +220,7 @@ export function HowWorks({ steps, ...shell }: HowWorksBlock) {
 // ─────────────────────────────────────────────────────────────
 // Module grid (APU components)
 // ─────────────────────────────────────────────────────────────
-export interface ModuleGridBlock extends SectionShell { items: { name: string; role: string; spec?: string; href?: string }[] }
+export interface ModuleGridBlock extends SectionShell { items: { name: string; role: string; spec?: string; href?: string; image?: string; imageAlt?: string }[] }
 export function ModuleGrid({ items, ...shell }: ModuleGridBlock) {
   return (
     <Shell bg="tint" {...shell}>
@@ -176,6 +228,7 @@ export function ModuleGrid({ items, ...shell }: ModuleGridBlock) {
         {items.map((m) => {
           const inner = (
             <div className="h-full rounded-xl border bg-white p-5 hover:shadow-md transition-all" style={{ borderColor: COLOR.border }}>
+              {m.image ? <img src={m.image} alt={m.imageAlt ?? m.name} loading="lazy" decoding="async" className="w-full h-28 object-cover rounded-lg mb-3" /> : null}
               <div className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: COLOR.brand, fontFamily: F.h }}>{m.role}</div>
               <h3 className="text-base font-extrabold mb-1.5" style={{ color: COLOR.ink, fontFamily: F.h }}>{m.name}</h3>
               {m.spec ? <p className="text-xs leading-relaxed" style={{ color: COLOR.muted, fontFamily: F.b }}>{m.spec}</p> : null}
