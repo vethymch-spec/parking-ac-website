@@ -21,11 +21,19 @@ import { startCheckout } from "@/lib/checkout";
 /* Product images (self-hosted under /images/products) */
 const VTH1_IMG = {
   hero: "/images/products/vth1-outdoor-top.webp",
+  batteryBox: "/images/products/vth1-battery-box-assembly.webp",
+  batteryCells4s: "/images/products/vth1-battery-cells-4s.webp",
+  batteryCells8s: "/images/products/vth1-battery-cells-8s.webp",
+  bmsModule: "/images/products/vth1-bms-module.webp",
 };
 
 /* SEO-rich alt text describing each angle */
 const vth1Gallery = [
   { src: VTH1_IMG.hero, alt: "CoolDrivePro V-TH1 heating and cooling parking air conditioner — outdoor unit top angle view" },
+  { src: VTH1_IMG.batteryBox, alt: "CoolDrivePro V-TH1 battery parking AC LiFePO4 battery box assembly with smart BMS and status display" },
+  { src: VTH1_IMG.batteryCells4s, alt: "4S LiFePO4 prismatic cells with smart BMS and display for the 12V V-TH1 parking air conditioner battery system" },
+  { src: VTH1_IMG.batteryCells8s, alt: "8S LiFePO4 battery cells with BMS for the 24V V-TH1 heating and cooling parking air conditioner" },
+  { src: VTH1_IMG.bmsModule, alt: "Smart BMS module with Bluetooth monitoring for the V-TH1 parking air conditioner LiFePO4 battery pack" },
 ];
 
 const vth1Faqs = [
