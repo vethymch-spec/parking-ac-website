@@ -56,6 +56,7 @@ export default function Footer() {
   ];
 
   const productLinks = [
+    { label: "Product Catalog (PDF · 12 MB)", href: "/documents/catalog/vethy-parking-ac-product-catalog-2026.pdf", file: true },
     { label: t('nav.topMountedAC'), href: "/products/top-mounted-ac/" },
     { label: t('nav.miniSplitAC'), href: "/products/mini-split-ac/" },
     { label: t('nav.heatingCoolingAC'), href: "/products/heating-cooling-ac/" },
@@ -205,7 +206,16 @@ export default function Footer() {
             <ul className="space-y-2">
               {productLinks.map((link) => (
                 <li key={link.label}>
-                  {link.placeholder ? (
+                  {"file" in link && link.file ? (
+                    <a
+                      href={link.href}
+                      download
+                      className="text-sm font-semibold transition-colors hover:text-white"
+                      style={{ color: "oklch(0.80 0.10 255)", fontFamily: "'Inter', sans-serif" }}
+                    >
+                      ↓ {link.label}
+                    </a>
+                  ) : link.placeholder ? (
                     <a
                       href={link.href}
                       onClick={handlePlaceholder}

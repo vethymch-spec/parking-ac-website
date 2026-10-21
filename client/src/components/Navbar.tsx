@@ -31,6 +31,11 @@ const IconX = ({ size = 20, style }: { size?: number; style?: React.CSSPropertie
 const IconChevronDown = ({ size = 14, className }: { size?: number; className?: string }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m6 9 6 6 6-6"/></svg>
 );
+const IconDownload = ({ size = 14, style }: { size?: number; style?: React.CSSProperties }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={style}><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+);
+
+export const CATALOG_PDF_PATH = "/documents/catalog/vethy-parking-ac-product-catalog-2026.pdf";
 export default function Navbar({ forceScrolled = false }: NavbarProps) {
   const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
@@ -187,6 +192,16 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
 
           {/* Actions */}
           <div className="ml-auto flex flex-none items-center gap-1 sm:gap-2">
+            <a
+              href={CATALOG_PDF_PATH}
+              download
+              className={`hidden h-9 items-center justify-center gap-1.5 rounded-full px-2.5 text-[12px] font-bold transition-colors md:inline-flex 2xl:px-4 2xl:text-sm ${isScrolled ? "border border-blue-200 bg-blue-50 text-blue-700 hover:bg-blue-100" : "border border-white/70 bg-white/10 text-white hover:bg-white/20"}`}
+              style={{ fontFamily: "'Inter', sans-serif" }}
+              aria-label="Download product catalog PDF"
+            >
+              <IconDownload size={14} />
+              Catalog
+            </a>
             <Link
               href="/contact/"
               className={`hidden h-9 items-center justify-center rounded-full px-2.5 text-[12px] font-bold transition-colors xl:inline-flex 2xl:px-4 2xl:text-sm ${isScrolled ? "bg-blue-600 text-white hover:bg-blue-700" : "border border-white/70 bg-white/10 text-white hover:bg-white/20"}`}
@@ -259,6 +274,16 @@ export default function Navbar({ forceScrolled = false }: NavbarProps) {
                   )}
                 </Link>
             )}
+            <a
+              href={CATALOG_PDF_PATH}
+              download
+              className="mx-3 my-1 flex items-center gap-2 rounded-lg bg-blue-50 px-3 py-2.5 text-sm font-semibold text-blue-700 transition-colors hover:bg-blue-100"
+              style={{ fontFamily: "'Inter', sans-serif" }}
+              onClick={() => setMobileOpen(false)}
+            >
+              <IconDownload size={16} />
+              Download Product Catalog (PDF · 12 MB)
+            </a>
             {shouldFetchSession && (
               <Suspense fallback={null}>
                 <NavbarAccountMenu iconClassName={accountIconClassName} mobile onNavigate={() => setMobileOpen(false)} />

@@ -314,6 +314,28 @@ export default function ContactUs() {
               </div>
             ))}
           </div>
+
+          {/* Product catalog download */}
+          <div
+            className="mt-8 rounded-2xl border px-5 py-4"
+            style={{ backgroundColor: "oklch(0.95 0.03 255)", borderColor: "oklch(0.87 0.05 255)" }}
+          >
+            <h3 className="font-bold mb-0.5" style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}>
+              VETHY Product Catalog 2026
+            </h3>
+            <p className="text-sm mb-3" style={{ color: "oklch(0.45 0.05 250)", fontFamily: "'Inter', sans-serif" }}>
+              Full 36-page PDF — complete product line, specs, factory and certifications.
+            </p>
+            <a
+              href="/documents/catalog/vethy-parking-ac-product-catalog-2026.pdf"
+              download
+              className="inline-flex items-center justify-center gap-2 rounded-lg text-white text-sm font-semibold px-4 py-2 transition-opacity hover:opacity-90"
+              style={{ backgroundColor: "oklch(0.45 0.18 255)", fontFamily: "'Montserrat', sans-serif" }}
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+              Download Catalog (PDF · 12 MB)
+            </a>
+          </div>
         </div>
 
         {/* Right: Form - Submit to Netlify Function */}

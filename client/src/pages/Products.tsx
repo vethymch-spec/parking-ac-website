@@ -175,6 +175,31 @@ export default function Products() {
         </div>
       </section>
 
+      {/* Catalog download banner */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <div
+          className="flex flex-col sm:flex-row sm:items-center gap-4 rounded-2xl border border-border px-5 py-4"
+          style={{ background: "linear-gradient(90deg, oklch(0.95 0.03 255) 0%, oklch(0.97 0.015 250) 100%)" }}
+        >
+          <div className="flex-1">
+            <p className="font-bold text-[oklch(0.22_0.10_250)]" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+              VETHY / CoolDrivePro Product Catalog 2026
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Full 36-page PDF — complete product line, specs, factory and certifications. Free download.
+            </p>
+          </div>
+          <a
+            href="/documents/catalog/vethy-parking-ac-product-catalog-2026.pdf"
+            download
+            className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-[oklch(0.25_0.10_250)] text-white text-sm font-semibold px-5 py-2.5 hover:bg-[oklch(0.20_0.10_250)] transition-colors"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+            Download Catalog (PDF · 12 MB)
+          </a>
+        </div>
+      </section>
+
       {/* Filter chips */}
       <section className="sticky z-20 bg-white border-b border-border" style={{ top: 64 + 56 }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
