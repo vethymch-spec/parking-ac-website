@@ -31,7 +31,7 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "How to Make a Warranty Claim",
-        body: "Contact our support team at support@cooldrivepro.com with your order number, a description of the issue, and photos or video of the problem. Our team will respond within 24 hours with next steps. Do not return the unit without prior authorization.",
+        body: "Contact our support team at info@vethy.com with your order number, a description of the issue, and photos or video of the problem. Our team will respond within 24 hours with next steps. Do not return the unit without prior authorization.",
       },
       {
         heading: "Extended Warranty",
@@ -49,7 +49,7 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "How to Initiate a Return",
-        body: "Email support@cooldrivepro.com with your order number, delivery date, return reason, and photos or video when the item is damaged or defective. We will provide a Return Merchandise Authorization (RMA) number and return shipping instructions within 2 business days. Do not ship items back before receiving authorization.",
+        body: "Email info@vethy.com with your order number, delivery date, return reason, and photos or video when the item is damaged or defective. We will provide a Return Merchandise Authorization (RMA) number and return shipping instructions within 2 business days. Do not ship items back before receiving authorization.",
       },
       {
         heading: "Eligible Return Cases",
@@ -65,7 +65,7 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "Refund Contact Method",
-        body: "For refund questions, return status, or an item that arrived damaged, contact support@cooldrivepro.com with your order number. This is the official support channel for return and refund handling.",
+        body: "For refund questions, return status, or an item that arrived damaged, contact info@vethy.com with your order number. This is the official support channel for return and refund handling.",
       },
     ],
   },
@@ -133,7 +133,7 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "Your Rights",
-        body: "Depending on your location, you may have the right to access, correct, delete, or limit the use of your personal information. To exercise these rights, contact us at support@cooldrivepro.com. We will respond within 30 days or within the timeframe required by applicable law.",
+        body: "Depending on your location, you may have the right to access, correct, delete, or limit the use of your personal information. To exercise these rights, contact us at info@vethy.com. We will respond within 30 days or within the timeframe required by applicable law.",
       },
     ],
   },
@@ -159,7 +159,7 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "Warranty, Returns, and Support",
-        body: "Warranty, return, and shipping matters are governed by the applicable CoolDrivePro policy pages. If you need help before or after purchase, contact support@cooldrivepro.com with your order number, vehicle details, and photos or videos when relevant.",
+        body: "Warranty, return, and shipping matters are governed by the applicable CoolDrivePro policy pages. If you need help before or after purchase, contact info@vethy.com with your order number, vehicle details, and photos or videos when relevant.",
       },
     ],
   },
@@ -189,7 +189,7 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "Payment Support",
-        body: "For invoice questions, duplicate payment concerns, or refund status, contact support@cooldrivepro.com with your order number or invoice reference. Do not send full card numbers by email, chat, or contact form.",
+        body: "For invoice questions, duplicate payment concerns, or refund status, contact info@vethy.com with your order number or invoice reference. Do not send full card numbers by email, chat, or contact form.",
       },
     ],
   },
@@ -203,7 +203,7 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "Invoices and Receipts",
-        body: "A receipt, order confirmation, or invoice is sent to the email address provided with the order request. Business customers who need a formal invoice can contact support@cooldrivepro.com with the order number, company name, billing address, and any required tax details.",
+        body: "A receipt, order confirmation, or invoice is sent to the email address provided with the order request. Business customers who need a formal invoice can contact info@vethy.com with the order number, company name, billing address, and any required tax details.",
       },
       {
         heading: "Billing Information",
@@ -215,7 +215,7 @@ const policies: Record<PolicyType, { title: string; breadcrumb: string; sections
       },
       {
         heading: "Billing Questions",
-        body: "For billing questions, duplicate charges, invoice requests, or refund status updates, contact support@cooldrivepro.com. Include your order number and billing email so our team can review the account quickly.",
+        body: "For billing questions, duplicate charges, invoice requests, or refund status updates, contact info@vethy.com. Include your order number and billing email so our team can review the account quickly.",
       },
     ],
   },
@@ -270,11 +270,11 @@ export default function PolicyPage({ type }: PolicyPageProps) {
           >
             Questions about our policies? Contact us at{" "}
             <a
-              href="mailto:support@cooldrivepro.com"
+              href="mailto:info@vethy.com"
               className="font-semibold hover:underline"
               style={{ color: "oklch(0.45 0.18 255)" }}
             >
-              support@cooldrivepro.com
+              info@vethy.com
             </a>{" "}
             or visit our{" "}
             <Link href="/contact" className="font-semibold hover:underline" style={{ color: "oklch(0.45 0.18 255)" }}>

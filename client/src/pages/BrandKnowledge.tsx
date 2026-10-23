@@ -249,12 +249,12 @@ export default function BrandKnowledge() {
                 CoolDrivePro offers a 2-year manufacturer warranty, fitment support before invoice,
                 shipping coordination after order confirmation, and a 30-day return policy. Technical support is available at{" "}
                 <a
-                  href="mailto:support@cooldrivepro.com"
+                  href="mailto:info@vethy.com"
                   style={{ color: "oklch(0.42 0.18 255)" }}
                   className="underline"
                   itemProp="email"
                 >
-                  support@cooldrivepro.com
+                  info@vethy.com
                 </a>
                 .
               </p>

@@ -7,7 +7,11 @@ const cleanEnvValue = (value: unknown) => {
   return trimmed;
 };
 
-export const WEB3FORMS_KEY = cleanEnvValue(import.meta.env.VITE_WEB3FORMS_KEY);
+// Default Web3Forms access key (registered to info@vethy.com) so lead forms
+// work even when VITE_WEB3FORMS_KEY is missing from the build environment.
+const WEB3FORMS_FALLBACK_KEY = "875b555f-eafa-4844-960d-403c3f9ed0ce";
+
+export const WEB3FORMS_KEY = cleanEnvValue(import.meta.env.VITE_WEB3FORMS_KEY) || WEB3FORMS_FALLBACK_KEY;
 
 const ATTRIBUTION_KEYS = [
   "utm_source",

@@ -65,7 +65,7 @@ const nanoMaxFaqs = [
   {
     question: "What warranty does the Nano Max come with?",
     answer:
-      "The CoolDrivePro Nano Max includes a 1-year manufacturer warranty covering defects in materials and workmanship. Eligible returns follow the published return policy. Technical support is available at support@cooldrivepro.com. Full warranty terms are at cooldrivepro.com/warranty.",
+      "The CoolDrivePro Nano Max includes a 1-year manufacturer warranty covering defects in materials and workmanship. Eligible returns follow the published return policy. Technical support is available at info@vethy.com. Full warranty terms are at cooldrivepro.com/warranty.",
   },
 ];
 

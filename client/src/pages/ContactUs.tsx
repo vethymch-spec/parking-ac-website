@@ -71,7 +71,7 @@ export default function ContactUs() {
       "mainEntity": {
         "@type": "Organization",
         "name": "CoolDrivePro",
-        "email": "support@cooldrivepro.com",
+        "email": "info@vethy.com",
         "telephone": "+86 185 6153 4326",
         "address": {
           "@type": "PostalAddress",
@@ -79,7 +79,7 @@ export default function ContactUs() {
         },
         "contactPoint": {
           "@type": "ContactPoint",
-          "email": "support@cooldrivepro.com",
+          "email": "info@vethy.com",
           "telephone": "+86 185 6153 4326",
           "contactType": "customer service",
           "availableLanguage": "English",
@@ -227,7 +227,7 @@ export default function ContactUs() {
     };
 
     const openMailDraftFallback = () => {
-      window.location.href = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+      window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
       toast.error("We could not send your request online. A pre-filled email draft has opened; send it to complete your request.");
     };
     

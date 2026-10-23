@@ -148,11 +148,11 @@ export default function ProductFAQ({ productName, faqs }: ProductFAQProps) {
             </a>
             . For technical support, contact{" "}
             <a
-              href="mailto:support@cooldrivepro.com"
+              href="mailto:info@vethy.com"
               className="underline hover:opacity-80"
               style={{ color: "oklch(0.42 0.18 255)" }}
             >
-              support@cooldrivepro.com
+              info@vethy.com
             </a>
             .
           </div>

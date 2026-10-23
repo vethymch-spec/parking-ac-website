@@ -64,7 +64,7 @@ const vs02Faqs = [
   },
   {
     question: "What warranty does the VS02 PRO come with?",
-    answer: "The CoolDrivePro VS02 PRO includes a 1-year manufacturer warranty covering defects in materials and workmanship. Eligible returns are handled under the published return policy. Technical support is available at support@cooldrivepro.com. Full warranty terms are available at cooldrivepro.com/warranty.",
+    answer: "The CoolDrivePro VS02 PRO includes a 1-year manufacturer warranty covering defects in materials and workmanship. Eligible returns are handled under the published return policy. Technical support is available at info@vethy.com. Full warranty terms are available at cooldrivepro.com/warranty.",
   },
 ];
 

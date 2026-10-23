@@ -161,7 +161,7 @@ function LandingShell({ children, onQuoteClick, onWhatsAppClick }: { children: R
             <div className="font-extrabold text-white">CoolDrivePro</div>
             <div className="mt-1">12V and 24V no-idle parking air conditioners for trucks, RVs, vans, and fleets.</div>
           </div>
-          <a href="mailto:support@cooldrivepro.com" className="font-semibold text-blue-200 hover:text-white">support@cooldrivepro.com</a>
+          <a href="mailto:info@vethy.com" className="font-semibold text-blue-200 hover:text-white">info@vethy.com</a>
         </div>
       </footer>
     </div>
@@ -457,7 +457,7 @@ function LeadForm({ page, formIdPrefix = "landing", compact = false }: { page: L
       setSubmitted(true);
       trackLead("web3forms");
     } catch {
-      const mailto = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(page.formSubject)}&body=${encodeURIComponent(buildLeadEmailBody(fields))}`;
+      const mailto = `mailto:info@vethy.com?subject=${encodeURIComponent(page.formSubject)}&body=${encodeURIComponent(buildLeadEmailBody(fields))}`;
       trackLead("mailto_fallback");
       window.location.href = mailto;
       setSubmitted(true);

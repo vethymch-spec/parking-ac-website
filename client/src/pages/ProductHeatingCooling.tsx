@@ -176,7 +176,7 @@ export default function ProductHeatingCooling() {
     try {
       await startCheckout({ productId: voltage === "dc" ? "vth1-dc" : "vth1-110v", quantity: qty });
     } catch (error) {
-      toast.error(error instanceof Error ? error.message : "Order request is unavailable. Please contact support@cooldrivepro.com.");
+      toast.error(error instanceof Error ? error.message : "Order request is unavailable. Please contact info@vethy.com.");
       setIsCheckingOut(false);
     }
   };

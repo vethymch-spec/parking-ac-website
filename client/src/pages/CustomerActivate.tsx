@@ -46,7 +46,7 @@ export default function CustomerActivate() {
             <p className="text-red-600 font-medium mb-2">Invalid Activation Link</p>
             <p className="text-gray-500 text-sm">
               Please check your email for the correct activation link, or contact{" "}
-              <a href="mailto:support@cooldrivepro.com" className="text-blue-600 underline">support@cooldrivepro.com</a>.
+              <a href="mailto:info@vethy.com" className="text-blue-600 underline">info@vethy.com</a>.
             </p>
           </div>
         </main>

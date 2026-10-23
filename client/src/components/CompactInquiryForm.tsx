@@ -46,7 +46,7 @@ export default function CompactInquiryForm({
 
     try {
       if (!WEB3FORMS_KEY) {
-        window.location.href = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+        window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
         setSubmitted(true);
         trackGoogleAdsConversion("lead", {
           lead_variant: "compact_inquiry",
@@ -65,7 +65,7 @@ export default function CompactInquiryForm({
       });
     } catch (err) {
       const fallbackBody = buildLeadEmailBody(payload);
-      window.location.href = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(fallbackBody)}`;
+      window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(fallbackBody)}`;
       setSubmitted(true);
       setError(err instanceof Error ? err.message : "Submission failed. Email fallback opened.");
     } finally {

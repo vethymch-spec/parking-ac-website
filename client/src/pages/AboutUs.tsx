@@ -47,7 +47,7 @@ export default function AboutUs() {
           "postalCode": "36104",
           "addressCountry": "US"
         },
-        "email": "support@cooldrivepro.com",
+        "email": "info@vethy.com",
         "telephone": "+86 185 6153 4326",
         "areaServed": ["North America", "European Union", "United Kingdom", "Australia", "New Zealand", "Middle East", "Southeast Asia", "South Africa"],
         "sameAs": [
@@ -260,7 +260,7 @@ export default function AboutUs() {
             <p>{t('about.story2', 'There had to be a better way. After two years of research, testing, and working directly with DC compressor engineers, CoolDrivePro launched its first 12V parking air conditioner in 2021. The response from the trucking community was overwhelming.')}</p>
             <p>{t('about.story3', 'Today, CoolDrivePro parking AC units are used by over 15,000 truck drivers, RV owners, and van lifers across the world. We have saved our customers millions in fuel costs — and counting.')}</p>
             <p>CoolDrivePro operates as a manufacturer and direct-to-consumer online retailer, with wholesale support for fleet buyers, installers, and distributors. Our business scope includes 12V and 24V DC parking air conditioner design, product sourcing, online sales, order fulfillment, warranty support, and technical guidance for trucks, RVs, vans, light trucks, and off-grid vehicles.</p>
-            <p>Company contact information: support@cooldrivepro.com, WhatsApp +86 185 6153 4326, and mailing address 3429 Turkey Pen Lane, Montgomery, AL 36104, United States.</p>
+            <p>Company contact information: info@vethy.com, WhatsApp +86 185 6153 4326, and mailing address 3429 Turkey Pen Lane, Montgomery, AL 36104, United States.</p>
           </div>
         </div>
         <div className="rounded-2xl overflow-hidden shadow-lg">

@@ -64,7 +64,7 @@ export default function LeadCaptureCTA({ variant = "fleet-roi", sourceSlug }: Le
           source_page: sourceSlug,
           submission_method: "mailto_fallback",
         });
-        window.location.href = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(body)}`;
         setSubmitted(true);
         return;
       }
@@ -76,7 +76,7 @@ export default function LeadCaptureCTA({ variant = "fleet-roi", sourceSlug }: Le
         submission_method: "web3forms",
       });
     } catch (err: any) {
-      setError(err?.message || "Submission failed. Please email support@cooldrivepro.com directly.");
+      setError(err?.message || "Submission failed. Please email info@vethy.com directly.");
     } finally {
       setSubmitting(false);
     }

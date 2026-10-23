@@ -94,7 +94,7 @@ export default function Footer() {
 
     try {
       if (!WEB3FORMS_KEY) {
-        window.location.href = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+        window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
         trackGoogleAdsConversion("lead", {
           lead_variant: "footer_compact_inquiry",
           submission_method: "mailto_fallback",
@@ -110,7 +110,7 @@ export default function Footer() {
       setEmail("");
       setVehicle("");
     } catch (error) {
-      window.location.href = `mailto:support@cooldrivepro.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+      window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
       toast("Email fallback opened.");
     } finally {
       setSubmitting(false);
@@ -253,11 +253,11 @@ export default function Footer() {
               {t('contact.emailSupport.title')}:
             </p>
             <a
-              href="mailto:support@cooldrivepro.com"
+              href="mailto:info@vethy.com"
               className="text-sm mb-4 block hover:text-white transition-colors"
               style={{ color: "oklch(0.70 0.12 255)", fontFamily: "'Inter', sans-serif" }}
             >
-              support@cooldrivepro.com
+              info@vethy.com
             </a>
             <p
               className="text-sm leading-relaxed mb-3"

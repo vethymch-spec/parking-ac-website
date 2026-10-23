@@ -45,7 +45,7 @@ export default function CustomerForgotPassword() {
               </p>
               <p className="text-gray-400 text-xs mb-6">
                 Valid for 72 hours. Check spam if not received, or contact{" "}
-                <a href="mailto:support@cooldrivepro.com" className="text-blue-600 underline">support@cooldrivepro.com</a>.
+                <a href="mailto:info@vethy.com" className="text-blue-600 underline">info@vethy.com</a>.
               </p>
               <Link href="/support/login"><Button variant="outline" className="w-full">Back to Login</Button></Link>
             </div>

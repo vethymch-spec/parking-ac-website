@@ -41,7 +41,7 @@ export default function PaymentSuccess() {
               <div className="rounded-lg border border-slate-200 p-4">
                 <Mail className="mb-3 text-blue-700" size={22} />
                 <h2 className="font-bold text-slate-900">Need help?</h2>
-                <p className="mt-2 text-sm leading-6 text-slate-600">Email support@cooldrivepro.com with your request reference for invoice or shipping questions.</p>
+                <p className="mt-2 text-sm leading-6 text-slate-600">Email info@vethy.com with your request reference for invoice or shipping questions.</p>
               </div>
             </div>
 

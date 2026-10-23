@@ -127,7 +127,7 @@ export default function Exhibitions() {
             Booth & live-demo gallery
           </h2>
           <p className="text-base mb-10 max-w-3xl" style={{ color: "oklch(0.50 0.05 250)", fontFamily: "'Inter', sans-serif" }}>
-            Unedited photos taken at our most recent international exhibitions. Need to meet us at an upcoming show? Email <a href="mailto:support@cooldrivepro.com" className="underline" style={{ color: "oklch(0.45 0.18 255)" }}>support@cooldrivepro.com</a>.
+            Unedited photos taken at our most recent international exhibitions. Need to meet us at an upcoming show? Email <a href="mailto:info@vethy.com" className="underline" style={{ color: "oklch(0.45 0.18 255)" }}>info@vethy.com</a>.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {photos.map(p => (

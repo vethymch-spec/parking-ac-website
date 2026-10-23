@@ -93,7 +93,7 @@ export default function ProductMiniSplit() {
     try {
       await startCheckout({ productId: "vx3000sp", quantity: qty });
     } catch (error) {
-      toast.error(error instanceof Error ? error.message : "Order request is unavailable. Please contact support@cooldrivepro.com.");
+      toast.error(error instanceof Error ? error.message : "Order request is unavailable. Please contact info@vethy.com.");
       setIsCheckingOut(false);
     }
   };

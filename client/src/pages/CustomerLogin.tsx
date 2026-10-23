@@ -113,8 +113,8 @@ export default function CustomerLogin() {
               <p className="text-blue-600 text-xs leading-relaxed">
                 Customer accounts are created by our team after purchase verification.
                 Contact us at{" "}
-                <a href="mailto:support@cooldrivepro.com" className="underline">
-                  support@cooldrivepro.com
+                <a href="mailto:info@vethy.com" className="underline">
+                  info@vethy.com
                 </a>{" "}
                 or via WhatsApp to get set up.
               </p>
