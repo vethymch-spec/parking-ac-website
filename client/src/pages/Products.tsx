@@ -8,6 +8,7 @@
  *
  * Live at /products/ — included in sitemap and prerender (see scripts/prerender.mjs).
  */
+import EquipmentLinks from "@/components/EquipmentLinks";
 import { useMemo, useState } from "react";
 import { Link } from "wouter";
 import PageLayout from "@/components/PageLayout";
@@ -174,6 +175,8 @@ export default function Products() {
           </p>
         </div>
       </section>
+
+      <EquipmentLinks />
 
       {/* Catalog download banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">

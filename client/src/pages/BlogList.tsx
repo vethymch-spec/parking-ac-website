@@ -5,6 +5,7 @@
  *
  * Content loaded from /data/blog/list.json to keep JS bundle small
  */
+import EquipmentLinks from "@/components/EquipmentLinks";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "wouter";
@@ -97,6 +98,8 @@ export default function BlogList() {
             {t('blog.pageSubtitle')}
           </p>
         </div>
+
+        <EquipmentLinks guides />
 
         {loading ? (
           <div className="flex justify-center py-20">

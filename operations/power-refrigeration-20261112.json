@@ -1,0 +1,72 @@
+{
+  "domain": "cooldrivepro.com",
+  "date": "2026-11-12",
+  "status": "draft_prepared_not_deployed",
+  "baseline_git": "aa74b636e7212ed11b38699ee5dd496a62c2108d",
+  "scope": {
+    "category_pages": 3,
+    "product_pages": 16,
+    "guide_pages": 6,
+    "guide_index_pages": 1,
+    "language": "en"
+  },
+  "catalog_basis": {
+    "batteries": "Tongda residential storage manual, pages 4–9",
+    "generators": "VETHY Generator 2025, page 1",
+    "portable_station": "Qingdao Vethy public 550 Wh / 500 W configuration",
+    "refrigerators": "VETHY public 13 L, 18 L recessed handle and 18 L glass-panel specifications. Cross-check the separate scanned 2025 brochure for additional SKUs and photographs before production."
+  },
+  "checks": {
+    "static_pages": 26,
+    "internal_catalog_links": "resolved",
+    "one_h1_per_page": true,
+    "self_canonicals": true,
+    "sitemap_entries": 26,
+    "parseable_json_ld_per_page": true,
+    "article_plan_titles": 42,
+    "exact_title_collisions_with_217_existing_index_and_plan_entries": 0
+  },
+  "changed_files": [
+    "client/public/equipment-catalog.css",
+    "client/public/equipment-guides/13l-or-18l-car-fridge/index.html",
+    "client/public/equipment-guides/550wh-power-station-runtime/index.html",
+    "client/public/equipment-guides/ac-or-dc-generator/index.html",
+    "client/public/equipment-guides/battery-capacity-and-output/index.html",
+    "client/public/equipment-guides/car-fridge-overnight-energy/index.html",
+    "client/public/equipment-guides/generator-rated-and-maximum-power/index.html",
+    "client/public/equipment-guides/index.html",
+    "client/public/llms.txt",
+    "client/public/products/energy-storage/index.html",
+    "client/public/products/energy-storage/jtd-10kwh-dd/index.html",
+    "client/public/products/energy-storage/jtd-15kwh-l/index.html",
+    "client/public/products/energy-storage/jtd-25kwh-l/index.html",
+    "client/public/products/energy-storage/jtd-30kwh-l/index.html",
+    "client/public/products/energy-storage/jtd-5kwh-bg/index.html",
+    "client/public/products/energy-storage/jtd-8kwh-bg/index.html",
+    "client/public/products/energy-storage/portable-power-station-550wh/index.html",
+    "client/public/products/generators/hw2000is-b2/index.html",
+    "client/public/products/generators/hw2200cz-b2/index.html",
+    "client/public/products/generators/hw2750cz-kml/index.html",
+    "client/public/products/generators/hw3000is-kml/index.html",
+    "client/public/products/generators/hw4000cz-kml/index.html",
+    "client/public/products/generators/hw4000is-kml/index.html",
+    "client/public/products/generators/index.html",
+    "client/public/products/vehicle-refrigerators/car-fridge-13l/index.html",
+    "client/public/products/vehicle-refrigerators/car-fridge-18l-glass/index.html",
+    "client/public/products/vehicle-refrigerators/car-fridge-18l-handle/index.html",
+    "client/public/products/vehicle-refrigerators/index.html",
+    "client/public/sitemap-equipment.xml",
+    "client/public/sitemap.xml",
+    "client/src/components/EquipmentLinks.tsx",
+    "client/src/pages/BlogList.tsx",
+    "client/src/pages/Home.tsx",
+    "client/src/pages/Products.tsx",
+    "scripts/generate-sitemap.mjs"
+  ],
+  "production": {
+    "deployed": false,
+    "backup": null,
+    "verification": null
+  },
+  "handoff": "Reconcile the narrowly scoped navigation and discovery changes with the active production baseline. Read the latest site operations record. Use the existing guarded Tencent release process and record the backup, file digests and public checks on actual deployment. Draft branch must not be merged into the historical Cloudflare automatic deployment."
+}

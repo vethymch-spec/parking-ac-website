@@ -17,6 +17,7 @@
  *   9. BlogSection (internal linking + content freshness)
  *  10. Footer (site links + email capture)
  */
+import EquipmentLinks from "@/components/EquipmentLinks";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import B2BTrustStrip from "@/components/B2BTrustStrip";
@@ -55,6 +56,8 @@ export default function Home() {
           <LazySection minHeight="400px">
             <ProductsSection />
           </LazySection>
+
+          <EquipmentLinks />
 
           <LazySection minHeight="220px">
             <section className="bg-white py-8">
