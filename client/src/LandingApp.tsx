@@ -1,4 +1,5 @@
 import { Route, Router as WouterRouter, Switch } from "wouter";
+import LeadMeasurementDebug from "./components/LeadMeasurementDebug";
 import AdLandingPage from "./pages/AdLandingPage";
 
 const getLandingBase = () => {
@@ -15,6 +16,7 @@ export default function LandingApp() {
         <Route path="/landing/:slug/" component={AdLandingPage} />
         <Route component={AdLandingPage} />
       </Switch>
+      <LeadMeasurementDebug />
     </WouterRouter>
   );
 }

@@ -25,6 +25,7 @@
     "validate:blog-locales": "node scripts/validate-blog-locales.mjs",
     "verify:compatibility-seo": "node scripts/verify-compatibility-seo.mjs",
     "verify:production-hosts": "node scripts/verify-production-hosts.mjs",
+    "test": "vitest run",
     "preview": "vite preview",
     "deploy:production": "npm run build && npx wrangler pages deploy dist/client --project-name cooldrivepro --branch main"
   },
@@ -102,6 +103,7 @@
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.1",
     "typescript": "5.9.3",
-    "vite": "^7.1.7"
+    "vite": "^7.1.7",
+    "vitest": "^3.2.7"
   }
 }

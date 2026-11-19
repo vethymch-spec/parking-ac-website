@@ -5,6 +5,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { useSEO } from "./hooks/useSEO";
 import { loadLanguageResources } from "./i18n";
+import LeadMeasurementDebug from "./components/LeadMeasurementDebug";
 import { detectLocaleFromPath } from "./lib/locale";
 
 // All pages are lazy-loaded (code-split) — including Home.
@@ -321,6 +322,7 @@ function AppShell() {
           <WhatsAppButton />
         </Suspense>
       )}
+      <LeadMeasurementDebug />
     </>
   );
 

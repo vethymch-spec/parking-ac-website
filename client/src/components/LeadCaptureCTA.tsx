@@ -3,7 +3,7 @@
  * Submits to Web3Forms (free, no backend) — set VITE_WEB3FORMS_KEY env or fall back to mailto.
  * Used inside blog posts (especially calculator pages) to convert reader → lead at peak interest.
  */
-import { trackGoogleAdsConversion } from "@/lib/googleAds";
+import { createSubmissionId, recordInquiryAcknowledgement, recordInquiryFailure, recordMailtoFallback } from "@/lib/leadAnalytics";
 import { buildLeadEmailBody, collectLeadAttribution, submitToWeb3Forms, WEB3FORMS_KEY } from "@/lib/leadForms";
 import { useState, FormEvent } from "react";
 
@@ -56,27 +56,22 @@ export default function LeadCaptureCTA({ variant = "fleet-roi", sourceSlug }: Le
     };
     for (const [k, v] of fd.entries()) payload[k] = String(v);
 
+    const submissionId = createSubmissionId();
+    const formId = variant === "fleet-roi" ? "lead_capture_fleet_roi" : variant === "guide-download" ? "lead_capture_guide_download" : "lead_capture_quote";
+
     try {
       if (!WEB3FORMS_KEY) {
-        const body = buildLeadEmailBody(payload);
-        trackGoogleAdsConversion("lead", {
-          lead_variant: variant,
-          source_page: sourceSlug,
-          submission_method: "mailto_fallback",
-        });
-        window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(body)}`;
-        setSubmitted(true);
+        recordMailtoFallback({ submissionId, formId });
+        window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+        setError("We could not confirm the request online. A pre-filled email draft has opened; send it to complete your request.");
         return;
       }
-      await submitToWeb3Forms(payload);
+      const result = await submitToWeb3Forms(payload);
+      recordInquiryAcknowledgement({ submissionId, formId, acknowledgement: result.acknowledgement });
       setSubmitted(true);
-      trackGoogleAdsConversion("lead", {
-        lead_variant: variant,
-        source_page: sourceSlug,
-        submission_method: "web3forms",
-      });
-    } catch (err: any) {
-      setError(err?.message || "Submission failed. Please email info@vethy.com directly.");
+    } catch (error) {
+      recordInquiryFailure({ submissionId, formId, error });
+      setError("Submission failed. Please email info@vethy.com directly.");
     } finally {
       setSubmitting(false);
     }
@@ -118,7 +113,7 @@ export default function LeadCaptureCTA({ variant = "fleet-roi", sourceSlug }: Le
         {cfg.sub}
       </p>
 
-      <form onSubmit={onSubmit} style={{ display: "grid", gap: "12px" }}>
+      <form onSubmit={onSubmit} data-lead-form="true" data-form-id={variant === "fleet-roi" ? "lead_capture_fleet_roi" : variant === "guide-download" ? "lead_capture_guide_download" : "lead_capture_quote"} style={{ display: "grid", gap: "12px" }}>
         {cfg.fields.includes("fleetSize" as never) && (
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px" }}>
             <select name="fleetSize" aria-label="Fleet size" required style={inputStyle} defaultValue="">

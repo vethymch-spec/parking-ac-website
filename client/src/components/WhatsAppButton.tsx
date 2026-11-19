@@ -4,7 +4,6 @@
  * Links to WhatsApp chat with pre-filled message
  */
 
-import { trackGoogleAdsConversion } from "@/lib/googleAds";
 import { isPaidAdTraffic } from "@/lib/traffic";
 
 export default function WhatsAppButton() {
@@ -14,20 +13,12 @@ export default function WhatsAppButton() {
   const message = encodeURIComponent("Hi, I'm interested in your parking air conditioner. Can you help me?");
   const href = `https://wa.me/${phone}?text=${message}`;
 
-  const handleClick = () => {
-    trackGoogleAdsConversion("whatsapp_click", {
-      contact_channel: "whatsapp",
-      link_target: "wa.me",
-    });
-  };
-
   return (
     <a
       href={href}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"
-      onClick={handleClick}
       style={{
         position: "fixed",
         bottom: "28px",

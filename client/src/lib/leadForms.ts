@@ -1,4 +1,20 @@
+import { classifyInquiryAcknowledgement, type InquiryAcknowledgement, type SubmitErrorClass } from "./leadMeasurement";
+
 type LeadFields = Record<string, string>;
+
+export class InquirySubmitError extends Error {
+  errorClass: SubmitErrorClass;
+
+  constructor(errorClass: SubmitErrorClass, message: string) {
+    super(message);
+    this.name = "InquirySubmitError";
+    this.errorClass = errorClass;
+  }
+}
+
+export type InquirySubmitResult = {
+  acknowledgement: InquiryAcknowledgement;
+};
 
 const cleanEnvValue = (value: unknown) => {
   if (typeof value !== "string") return "";
@@ -7,6 +23,12 @@ const cleanEnvValue = (value: unknown) => {
   return trimmed;
 };
 
+// This GitHub snapshot still posts to Web3Forms. Production's built client
+// (checked 2026-11-19) posts to same-origin /api/inquiry and requires
+// success plus a reference. Do not retarget this function onto that route
+// from here: the queue server is not in this repository, and the local
+// source of truth was not available to merge against.
+//
 // Default Web3Forms access key (registered to info@vethy.com) so lead forms
 // work even when VITE_WEB3FORMS_KEY is missing from the build environment.
 const WEB3FORMS_FALLBACK_KEY = "875b555f-eafa-4844-960d-403c3f9ed0ce";
@@ -54,17 +76,43 @@ export const buildLeadEmailBody = (fields: LeadFields) =>
     .map(([key, value]) => `${key}: ${value}`)
     .join("\n");
 
-export const submitToWeb3Forms = async (fields: LeadFields) => {
-  if (!WEB3FORMS_KEY) throw new Error("Web3Forms key is not configured");
+const SUBMIT_TIMEOUT_MS = 30_000;
 
-  const response = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    headers: { "Content-Type": "application/json", Accept: "application/json" },
-    body: JSON.stringify({ access_key: WEB3FORMS_KEY, ...fields }),
-  });
-  const result = await response.json().catch(() => ({} as { success?: boolean; message?: string }));
+export const submitToWeb3Forms = async (fields: LeadFields): Promise<InquirySubmitResult> => {
+  if (!WEB3FORMS_KEY) {
+    throw new InquirySubmitError("unavailable", "Lead endpoint unavailable");
+  }
 
-  if (!response.ok || !result.success) {
-    throw new Error(result.message || "Submission failed");
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), SUBMIT_TIMEOUT_MS);
+
+  try {
+    let response: Response;
+    try {
+      response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ access_key: WEB3FORMS_KEY, ...fields }),
+        signal: controller.signal,
+      });
+    } catch (error) {
+      const name = typeof error === "object" && error !== null && "name" in error ? String((error as { name?: unknown }).name) : "";
+      if (name === "AbortError") throw new InquirySubmitError("timeout", "Submission timed out");
+      throw new InquirySubmitError("network", "Submission could not be sent");
+    }
+
+    const result = await response.json().catch(() => ({} as Record<string, unknown>));
+    if (!response.ok || !result.success) {
+      throw new InquirySubmitError("rejected", "Submission was rejected");
+    }
+
+    const acknowledgement = classifyInquiryAcknowledgement(result);
+    if (!acknowledgement.acknowledged) {
+      throw new InquirySubmitError("unconfirmed", "Submission could not be confirmed");
+    }
+
+    return { acknowledgement };
+  } finally {
+    clearTimeout(timer);
   }
 };

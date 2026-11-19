@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { Link } from "wouter";
-import { trackGoogleAdsConversion } from "@/lib/googleAds";
+import { createSubmissionId, recordInquiryAcknowledgement, recordInquiryFailure, recordMailtoFallback } from "@/lib/leadAnalytics";
 import { buildLeadEmailBody, collectLeadAttribution, submitToWeb3Forms, WEB3FORMS_KEY } from "@/lib/leadForms";
 
 const infoLinks = [
@@ -92,25 +92,28 @@ export default function Footer() {
       ...collectLeadAttribution(),
     };
 
+    const submissionId = createSubmissionId();
+    const formId = "footer_inquiry";
+    const openMailDraft = () => {
+      window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+    };
+
     try {
       if (!WEB3FORMS_KEY) {
-        window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
-        trackGoogleAdsConversion("lead", {
-          lead_variant: "footer_compact_inquiry",
-          submission_method: "mailto_fallback",
-        });
+        recordMailtoFallback({ submissionId, formId });
+        openMailDraft();
+        toast("Email fallback opened.");
       } else {
-        await submitToWeb3Forms(payload);
-        trackGoogleAdsConversion("lead", {
-          lead_variant: "footer_compact_inquiry",
-          submission_method: "web3forms",
-        });
+        const result = await submitToWeb3Forms(payload);
+        recordInquiryAcknowledgement({ submissionId, formId, acknowledgement: result.acknowledgement });
+        toast("Request received. We will reply with fitment guidance.");
+        setEmail("");
+        setVehicle("");
       }
-      toast("Request received. We will reply with fitment guidance.");
-      setEmail("");
-      setVehicle("");
     } catch (error) {
-      window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+      recordInquiryFailure({ submissionId, formId, error });
+      recordMailtoFallback({ submissionId, formId });
+      openMailDraft();
       toast("Email fallback opened.");
     } finally {
       setSubmitting(false);
@@ -287,6 +290,8 @@ export default function Footer() {
           </p>
           <form
             onSubmit={handleSubscribe}
+            data-lead-form="true"
+            data-form-id="footer_inquiry"
             className="mx-auto grid max-w-3xl grid-cols-1 gap-2 sm:grid-cols-[1fr_1fr_auto]"
           >
             <input
