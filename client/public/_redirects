@@ -47,9 +47,13 @@ https://www.cooldrivepro.com/* https://cooldrivepro.com/:splat 301
 /:outer/he/* /he/:splat/ 301
 /:outer/ms/* /ms/:splat/ 301
 
-# English-only commercial hubs: localized copies redirect to the canonical English hub until translated
-/:lang/solutions/* /solutions/:splat/ 301
-/:lang/compare/* /compare/:splat/ 301
+# English-only /solutions and /compare prefixes are redirected in
+# workers/pages-worker.js. A /:lang/compare/* rule also matches /apu/compare/.
+# APU pages are English-only. These rules stop /es/apu/ falling through to
+# the homepage shell. Known locale codes are checked again in the worker.
+/:prefix/apu /apu/ 301
+/:prefix/apu/ /apu/ 301
+/:prefix/apu/* /apu/:splat 301
 
 # Legacy commerce and feature URLs
 /shop /products/ 301

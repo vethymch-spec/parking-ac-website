@@ -129,6 +129,32 @@ function legacyBlogRedirect(url) {
   return Response.redirect(dest.toString(), 301);
 }
 
+const ENGLISH_ONLY_HUB_PREFIXES = new Set(["compare", "solutions"]);
+
+export function englishHubPrefixRedirect(url) {
+  const parts = url.pathname.split("/").filter(Boolean);
+  if (parts.length < 2) return null;
+  const [locale, hub, ...rest] = parts;
+  if (!NON_ENGLISH_LOCALE_PREFIXES.has(locale) || !ENGLISH_ONLY_HUB_PREFIXES.has(hub)) {
+    return null;
+  }
+  const canonicalUrl = new URL(url);
+  canonicalUrl.pathname = `/${[hub, ...rest].join("/")}/`;
+  return Response.redirect(canonicalUrl.toString(), 301);
+}
+
+// APU HTML exists only in English. /es/apu/ has no Spanish page, and the SPA
+// fallback would otherwise return the English homepage with status 200.
+export function englishOnlyApuRedirect(url) {
+  const parts = url.pathname.split("/").filter(Boolean);
+  if (parts.length < 2) return null;
+  const [locale, section, ...rest] = parts;
+  if (!NON_ENGLISH_LOCALE_PREFIXES.has(locale) || section !== "apu") return null;
+  const canonicalUrl = new URL(url);
+  canonicalUrl.pathname = `/${["apu", ...rest].join("/")}/`;
+  return Response.redirect(canonicalUrl.toString(), 301);
+}
+
 function englishOnlyPageRedirect(url) {
   const [locale, ...pathSegments] = url.pathname.split("/").filter(Boolean);
   if (!NON_ENGLISH_LOCALE_PREFIXES.has(locale) || pathSegments.length === 0) {
@@ -166,6 +192,12 @@ export default {
 
     const englishOnlyPage = englishOnlyPageRedirect(url);
     if (englishOnlyPage) return englishOnlyPage;
+
+    const englishHub = englishHubPrefixRedirect(url);
+    if (englishHub) return englishHub;
+
+    const englishApu = englishOnlyApuRedirect(url);
+    if (englishApu) return englishApu;
 
     if (url.pathname.endsWith(".html") && url.pathname !== "/404.html") {
       const canonicalUrl = new URL(url);

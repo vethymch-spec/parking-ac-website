@@ -71,8 +71,9 @@ export default function ProductMiniSplit() {
   const { t } = useTranslation();
 
   useSEO({
-    title: "12V/24V Mini Split Truck AC for Sleeper Cabs, RVs and Vans | CoolDrivePro",
-    description: "CoolDrivePro VX3000SP is a 12V/24V DC mini split parking air conditioner for semi sleeper cabs, RVs, vans and campers. 12,000 BTU no-idle cooling with quiet \u226432 dB indoor unit, GMCC twin-rotary inverter compressor and dealer fitment support.",
+    title: "VX3000SP 12V/24V Mini Split Parking Air Conditioner | CoolDrivePro",
+    description: "CoolDrivePro VX3000SP is a 12V/24V DC mini split parking air conditioner for sleeper cabs, RVs, vans and campers. Send vehicle and fitment details to request a quote.",
+    canonical: "https://cooldrivepro.com/products/mini-split-ac/",
     ogImage: "/images/products/vx3000-mini-split.webp",
     jsonLd: {
       "@context": "https://schema.org",
@@ -154,8 +155,13 @@ export default function ProductMiniSplit() {
             {t('products.miniSplit.title')}
           </span>
           <h1 className="text-3xl lg:text-4xl font-extrabold mb-3 leading-tight" style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}>
-            {t('products.miniSplit.title')}
+            VX3000SP 12V/24V mini split parking air conditioner
           </h1>
+          <nav aria-label="Related products" className="flex flex-wrap gap-3 mb-4 text-sm">
+            <Link href="/products/top-mounted-ac/" className="underline">VS02 PRO rooftop parking AC</Link>
+            <Link href="/products/" className="underline">Parking AC products</Link>
+            <Link href="/solutions/truck-ac/" className="underline">Truck AC buyer guide</Link>
+          </nav>
           <p className="text-base mb-4" style={{ color: "oklch(0.45 0.05 250)" }}>
             {t('products.miniSplit.subtitle')}
           </p>

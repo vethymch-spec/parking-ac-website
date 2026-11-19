@@ -59,6 +59,7 @@ export default function ApuPage() {
     title: config?.title ?? "APU Solutions | CoolDrivePro",
     description: config?.description ?? "Modular truck APU solutions by CoolDrivePro.",
     canonical: `${BASE}${config?.path ?? "/apu/"}`,
+    alternateLanguages: ["en"],
     ogImage: "/images/products/vs02pro-top-mounted.webp",
     jsonLd: config ? { "@context": "https://schema.org", "@graph": graph } : undefined,
   });

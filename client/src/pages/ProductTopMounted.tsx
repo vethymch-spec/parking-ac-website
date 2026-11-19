@@ -268,9 +268,10 @@ export default function ProductTopMounted() {
   // SSR Product + BreadcrumbList JSON-LD are injected by scripts/prerender.mjs;
   // here we only inject the FAQPage JSON-LD at runtime to avoid duplicates.
   useSEO({
-    title: "12V/24V Parking Air Conditioner | Rooftop DC Battery-Powered Parking AC | CoolDrivePro VS02 PRO",
+    title: "VS02 PRO 12V/24V Rooftop Parking Air Conditioner | CoolDrivePro",
     description:
-      "CoolDrivePro VS02 PRO is a 12V/24V rooftop parking air conditioner — a battery-powered DC parking AC delivering 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans and campers with \u226445 dB quiet operation and dealer fitment support.",
+      "CoolDrivePro VS02 PRO is a 12V/24V rooftop parking air conditioner for semi trucks, RVs, vans and campers. Send vehicle and fitment details to request a quote.",
+    canonical: "https://cooldrivepro.com/products/top-mounted-ac/",
     ogImage:
       "/images/products/vs02pro/vs02pro-01-hero.webp",
     jsonLd: {
@@ -333,6 +334,14 @@ export default function ProductTopMounted() {
 
             {/* Hero with main image, blue bullet, and horizontal thumbnail carousel */}
             <section className="product-hero" id="product" aria-labelledby="page-title">
+              <h1 id="page-title" style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "clamp(28px, 4vw, 40px)", lineHeight: 1.15, margin: "0 0 12px", color: "#0f172a" }}>
+                VS02 PRO 12V/24V rooftop parking air conditioner
+              </h1>
+              <nav aria-label="Related products" style={{ display: "flex", flexWrap: "wrap", gap: 12, marginBottom: 16, fontSize: 14 }}>
+                <Link href="/products/mini-split-ac/">VX3000SP mini split parking AC</Link>
+                <Link href="/products/">Parking AC products</Link>
+                <Link href="/apu/">Modular truck APU</Link>
+              </nav>
               <div className="main-image-area" style={{textAlign:'center',marginBottom:16}}>
                 <button
                   className="gallery-trigger"
