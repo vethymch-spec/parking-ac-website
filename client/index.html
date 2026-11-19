@@ -224,7 +224,18 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6575db15d9774daa8fac892abe1f256a"}'></script><!-- End Cloudflare Web Analytics -->
+    <!-- Cloudflare Web Analytics: production hosts only, same existing token. -->
+    <script>
+      (function () {
+        var host = (window.location && window.location.hostname || "").toLowerCase();
+        if (host !== "cooldrivepro.com" && host !== "www.cooldrivepro.com") return;
+        var script = document.createElement("script");
+        script.defer = true;
+        script.src = "https://static.cloudflareinsights.com/beacon.min.js";
+        script.setAttribute("data-cf-beacon", '{"token": "6575db15d9774daa8fac892abe1f256a"}');
+        document.body.appendChild(script);
+      })();
+    </script>
   </body>
 
 </html>

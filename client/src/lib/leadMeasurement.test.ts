@@ -66,6 +66,17 @@ describe("inquiry acknowledgement classification", () => {
     });
   });
 
+  it("does not treat the word delivered inside a message as confirmed delivery", () => {
+    expect(classifyInquiryAcknowledgement({
+      success: true,
+      message: "Your inquiry was delivered to ada@example.com",
+    })).toEqual({
+      acknowledged: true,
+      acceptanceType: "form_provider",
+      deliveryConfirmed: false,
+    });
+  });
+
   it("rejects unsuccessful responses", () => {
     expect(classifyInquiryAcknowledgement({ success: false, email: "ada@example.com" }).acknowledged).toBe(false);
     expect(classifyInquiryAcknowledgement(null).acknowledged).toBe(false);
@@ -102,7 +113,7 @@ describe("lead event plans", () => {
       lead_stage: "accepted_not_delivered",
       site: "cooldrivepro",
     });
-    expect(first.events[0]?.adsConversion).toBe(true);
+    expect(first.events[0]?.adsConversion).toBe(false);
 
     const second = planSubmission({
       current: first.state,
@@ -135,6 +146,7 @@ describe("lead event plans", () => {
     expect(planned.events[0]?.params.delivery_confirmed).toBe("false");
     expect(names(planned.events)).not.toContain(LEAD_EVENT.generateLead);
     expect(names(planned.events)).not.toContain(LEAD_EVENT.inquiryDelivered);
+    expect(planned.events[0]?.adsConversion).toBe(false);
     expect(JSON.stringify(planned.events)).not.toContain("q_1");
   });
 
@@ -151,6 +163,7 @@ describe("lead event plans", () => {
     expect(names(planned.events)).toEqual([LEAD_EVENT.inquiryDelivered, LEAD_EVENT.generateLead]);
     expect(planned.events[0]?.adsConversion).toBe(true);
     expect(planned.events[1]?.adsConversion).toBe(false);
+    expect(planned.events.filter((item) => item.adsConversion)).toHaveLength(1);
   });
 
   it("records failure then one success on retry, and does not repeat the failure", () => {
@@ -214,11 +227,12 @@ describe("lead event plans", () => {
     expect(clean).toEqual({ form_id: "contact_page", lead_stage: "failed" });
     expect(JSON.stringify(clean)).not.toContain("ada@");
     expect(JSON.stringify(clean)).not.toContain("555");
+    expect(sanitizeAnalyticsParams({ form_id: "contact_page", lead_stage: "+1 555 123 4567" })).toEqual({ form_id: "contact_page" });
   });
 });
 
 describe("analytics transport", () => {
-  it("sends one GA4 event and one ads conversion for an acknowledged submission", () => {
+  it("sends queue acknowledgement without an ads conversion or generate_lead", () => {
     const gtag = vi.fn();
     const target = transport({ gtag });
     const planned = planSubmission({
@@ -226,15 +240,44 @@ describe("analytics transport", () => {
         type: "acknowledged",
         formId: "contact_page",
         pagePath,
-        acknowledgement: classifyInquiryAcknowledgement({ success: true }),
+        acknowledgement: classifyInquiryAcknowledgement({
+          success: true,
+          inquiry_mode: "durable_queue",
+          reference: "inq_1",
+          message: "queued for ada@example.com",
+        }),
       },
     });
 
     deliverLeadEvents(planned.events, target);
 
-    expect(gtag).toHaveBeenCalledTimes(2);
-    expect(gtag).toHaveBeenNthCalledWith(1, "event", LEAD_EVENT.inquiryAccepted, expect.not.objectContaining({ email: expect.anything() }));
+    expect(gtag).toHaveBeenCalledTimes(1);
+    expect(gtag).toHaveBeenCalledWith("event", LEAD_EVENT.inquiryAccepted, expect.objectContaining({
+      acceptance_type: "queue",
+      delivery_confirmed: "false",
+    }));
+    expect(JSON.stringify(gtag.mock.calls)).not.toContain("ada@");
+    expect(JSON.stringify(gtag.mock.calls)).not.toContain("conversion");
+  });
+
+  it("sends generate_lead and one ads conversion only after explicit delivery", () => {
+    const gtag = vi.fn();
+    const target = transport({ gtag });
+    const planned = planSubmission({
+      action: {
+        type: "acknowledged",
+        formId: "contact_page",
+        pagePath,
+        acknowledgement: classifyInquiryAcknowledgement({ success: true, reference: "inq_9", delivery_confirmed: true }),
+      },
+    });
+
+    deliverLeadEvents(planned.events, target);
+
+    expect(gtag).toHaveBeenCalledTimes(3);
+    expect(gtag).toHaveBeenNthCalledWith(1, "event", LEAD_EVENT.inquiryDelivered, expect.any(Object));
     expect(gtag).toHaveBeenNthCalledWith(2, "event", "conversion", { send_to: ADS_LEAD_FORM_SEND_TO });
+    expect(gtag).toHaveBeenNthCalledWith(3, "event", LEAD_EVENT.generateLead, expect.objectContaining({ delivery_confirmed: "true" }));
     expect(target.debug[0]?.sentToGa4).toBe(true);
   });
 
@@ -245,6 +288,8 @@ describe("analytics transport", () => {
       transport({ consent: "denied" }),
       transport({ hostname: "localhost" }),
       transport({ hostname: "preview.cooldrivepro.com" }),
+      transport({ hostname: "deploy-preview-3--cooldrivepro-ebcca963.netlify.app" }),
+      transport({ hostname: "127.0.0.1" }),
       transport({ gtag: vi.fn(() => { throw new Error("blocked"); }) }),
     ];
 

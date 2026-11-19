@@ -98,6 +98,7 @@
     "@types/react-dom": "^19.2.1",
     "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.20",
+    "happy-dom": "^20.14.6",
     "postcss": "^8.4.47",
     "prettier": "^3.6.2",
     "sharp": "^0.34.5",

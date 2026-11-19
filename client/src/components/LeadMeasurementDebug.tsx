@@ -13,8 +13,8 @@ const buttonStyle = {
 };
 
 /**
- * Local preview only. Buttons replay measurement outcomes and do not submit
- * the inquiry form, open mail, or call a provider.
+ * Local Vite preview only. This is not a Netlify preview and not production.
+ * Buttons replay measurement outcomes and do not submit the inquiry form.
  */
 export default function LeadMeasurementDebug() {
   const [entries, setEntries] = useState(() => getLeadDebugLog());
@@ -61,7 +61,7 @@ export default function LeadMeasurementDebug() {
     >
       <p style={{ margin: "0 0 6px", fontSize: 13, fontWeight: 700 }}>Lead measurement preview</p>
       <p style={{ margin: "0 0 10px", fontSize: 12, lineHeight: 1.45, color: "#94a3b8" }}>
-        No inquiry is sent. Production host traffic is unchanged. GA4 is not loaded on this host.
+        Local preview on this machine. Not a hosted deploy and not production. No inquiry is sent. GA4 is not loaded here.
       </p>
       <div style={{ display: "grid", gap: 6 }}>
         <button type="button" style={buttonStyle} onClick={() => simulate({ success: true })}>Simulate provider acceptance</button>

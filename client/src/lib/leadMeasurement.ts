@@ -81,6 +81,7 @@ const ALLOWED_PARAMS = new Set([
 ]);
 
 const EMAIL_VALUE = /[^\s@]+@[^\s@]+\.[^\s@]+/;
+const PHONE_VALUE = /(?:\+?\d[\d\s().-]{6,}\d)/;
 const PII_KEY = /email|e-mail|phone|tel|name|message|address|company|body|subject/i;
 
 const EMPTY_ATTEMPT: AttemptRecord = { failed: false, fallback: false, success: false };
@@ -108,7 +109,7 @@ export const sanitizeAnalyticsParams = (params: Record<string, unknown>): Record
     if (typeof value !== "string" && typeof value !== "number" && typeof value !== "boolean") continue;
 
     const text = String(value).trim();
-    if (!text || text.length > 80 || EMAIL_VALUE.test(text)) continue;
+    if (!text || text.length > 80 || EMAIL_VALUE.test(text) || PHONE_VALUE.test(text)) continue;
     if (key === "page_path" && !isSafePagePath(text)) continue;
     clean[key] = text;
   }
@@ -232,7 +233,6 @@ const acceptanceEvents = (
             delivery_confirmed: "false",
             lead_stage: "accepted_not_delivered",
           },
-          true,
         ),
       ];
     case "delivered":

@@ -27,6 +27,8 @@ declare global {
 const attempts = new Map<string, AttemptRecord>();
 let startedForms = new Set<string>();
 let installed = false;
+let clickHandler: ((event: Event) => void) | null = null;
+let focusHandler: ((event: Event) => void) | null = null;
 const debugLog: DebugLeadRecord[] = [];
 
 const currentPagePath = () => {
@@ -131,7 +133,7 @@ export const installLeadMeasurement = () => {
   if (installed || typeof document === "undefined") return;
   installed = true;
 
-  document.addEventListener("click", (event) => {
+  clickHandler = (event) => {
     const target = event.target;
     if (!(target instanceof Element)) return;
     const anchor = target.closest("a[href]");
@@ -139,20 +141,30 @@ export const installLeadMeasurement = () => {
     const channel = clickChannel(anchor.getAttribute("href") || "");
     if (!channel) return;
     emit(planContactClick(channel, currentPagePath()));
-  }, true);
+  };
 
-  document.addEventListener("focusin", (event) => {
+  focusHandler = (event) => {
     const target = event.target;
     if (!(target instanceof Element)) return;
     const form = target.closest("form[data-lead-form]");
     if (!(form instanceof HTMLFormElement)) return;
     recordFormStart(form.getAttribute("data-form-id") || "inquiry");
-  });
+  };
+
+  document.addEventListener("click", clickHandler, true);
+  document.addEventListener("focusin", focusHandler);
 };
 
 export const resetLeadMeasurementForTests = () => {
+  if (typeof document !== "undefined") {
+    if (clickHandler) document.removeEventListener("click", clickHandler, true);
+    if (focusHandler) document.removeEventListener("focusin", focusHandler);
+  }
+  clickHandler = null;
+  focusHandler = null;
   attempts.clear();
   startedForms = new Set();
   debugLog.splice(0, debugLog.length);
   installed = false;
+  if (typeof window !== "undefined") delete window.__cdpLeadDebug;
 };
