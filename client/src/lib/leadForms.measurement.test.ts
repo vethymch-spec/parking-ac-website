@@ -85,6 +85,40 @@ describe("mocked inquiry endpoint", () => {
     expect(JSON.stringify(gtag.mock.calls)).not.toContain("inq_accept");
   });
 
+  it("accepts the proven queue JSON and does not treat email:false as delivery", async () => {
+    fetchMock.mockImplementation((url: string, init?: RequestInit) => {
+      expect(String(url)).toBe("/api/inquiry");
+      expect(init?.headers).toMatchObject({ Accept: "application/json" });
+      return jsonResponse(202, {
+        ok: true,
+        queued: true,
+        email: false,
+        success: true,
+        reference: "inq_queue_receipt",
+        message: "delivered to ada@example.com",
+      });
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const result = await submitToWeb3Forms({ email: "ada@example.com", message: "Need a quote" });
+    const { gtag } = measure(result.acknowledgement);
+
+    expect(result.acknowledgement).toEqual({
+      acknowledged: true,
+      acceptanceType: "queue",
+      deliveryConfirmed: false,
+    });
+    expect(gtag).toHaveBeenCalledTimes(1);
+    expect(gtag).toHaveBeenCalledWith("event", LEAD_EVENT.inquiryAccepted, expect.objectContaining({
+      acceptance_type: "queue",
+      delivery_confirmed: "false",
+    }));
+    expect(JSON.stringify(gtag.mock.calls)).not.toContain("generate_lead");
+    expect(JSON.stringify(gtag.mock.calls)).not.toContain("conversion");
+    expect(JSON.stringify(gtag.mock.calls)).not.toContain("ada@");
+    expect(JSON.stringify(gtag.mock.calls)).not.toContain("inq_queue_receipt");
+  });
+
   it("classifies a mocked durable-queue acknowledgement without calling it delivered", async () => {
     fetchMock.mockResolvedValue(jsonResponse(200, {
       success: true,

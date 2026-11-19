@@ -130,6 +130,7 @@ const isDeliveryConfirmed = (body: Record<string, unknown>) => {
 };
 
 const isQueueResponse = (body: Record<string, unknown>) =>
+  body.queued === true ||
   body.inquiry_mode === "durable_queue" ||
   body.acceptance === "queue" ||
   body.status === "queued" ||
@@ -137,13 +138,19 @@ const isQueueResponse = (body: Record<string, unknown>) =>
 
 /**
  * Classify a provider response without reading message text.
- * Web3Forms `{ success: true }` is form-provider acceptance.
- * `{ success: true, reference }` or `inquiry_mode: "durable_queue"` plus a
- * reference is queue acknowledgement. Neither one confirms inbox delivery.
+ * The local inquiry server's JSON success body is
+ * `{ success, queued: true, email: false, reference }` with HTTP 202.
+ * `email: false` and `queued: true` are queue acknowledgement, not delivery.
+ * A structured delivery flag is the only delivered status.
  */
 export const classifyInquiryAcknowledgement = (body: unknown): InquiryAcknowledgement => {
   if (!isRecord(body) || body.success !== true) {
     return { acknowledged: false, reason: "rejected" };
+  }
+
+  if (body.email === false || body.queued === true) {
+    if (!hasReference(body)) return { acknowledged: false, reason: "unconfirmed" };
+    return { acknowledged: true, acceptanceType: "queue", deliveryConfirmed: false };
   }
 
   if (isDeliveryConfirmed(body)) {

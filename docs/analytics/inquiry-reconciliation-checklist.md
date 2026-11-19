@@ -1,6 +1,6 @@
 # Inquiry client reconciliation checklist
 
-Status: client submit path now matches the sanitized snapshot. The queue server is still absent from that archive, so full-stack reconciliation is not complete.
+Status: the browser client matches the supplied local inquiry server response that can be proven. The excluded `cooldrivepro-inquiry.mjs` is still required for validation and the HTML receipt. This package is not a live production checkout.
 
 No production rollout is authorized. Do not merge, publish, change DNS, or change Google Analytics or Google Ads admin settings. Do not submit a live inquiry. Do not invent the missing `/api/inquiry` server.
 
@@ -66,6 +66,18 @@ Use a mocked `fetch` for `/api/inquiry`. Do not call the live route.
 - Analytics payload has no email, name, phone, message, or reference.
 
 Then run `npm test` for the measurement files and `npm run build`. Confirm the built contact page still gates `G-1ETBFY8C9H`.
+
+## Proven from the 2026-11-02 inquiry-mail handoff
+
+Checksum `9a9b9c6e25c9d3fcaa94e35380656f11b5036f9dfed13c782ad22e5f86c28cc2`. `server.mjs` and `cooldrivepro-worker.mjs` match between the native copy and the staged copy. They do not match the hashes in `baseline.json`, and the active site selector points at `cooldrivepro-colors-20261113`, not this mail server. No equality with live production is claimed.
+
+`cooldrivepro-worker.mjs` sends `POST /api/inquiry` to `handleCooldriveInquiry`. After that handler returns OK and the submission sink has stored a receipt, `server.mjs` answers JSON clients with HTTP 202 `{ ok: true, queued: true, email: false, success: true, reference }`. `email: false` is explicit non-delivery. A later SMTP pass can mark a stored record `notified`, but that status is not returned on this HTTP response.
+
+The browser bundle `leadForms-B6bQ4-Nb.js` posts JSON to `/api/inquiry` with `Accept: application/json`, a 30 second abort, and requires `success` and `reference`. This branch does the same. The proven 202 body is classified as `inquiry_accepted` with `delivery_confirmed=false`.
+
+## Still required from a sanitized copy
+
+`cooldrivepro-inquiry.mjs` only. It contains `readCooldriveLead`, `handleCooldriveInquiry`, and `cooldriveReceiptHtml`. Without it, validation errors, rejected fields, and the native form's HTML confirmation cannot be proven. A copy with recipient addresses replaced by placeholders is sufficient. `deploy.server.py` and `verify.mjs` are not needed for the client contract.
 
 ## External checks that remain blocked
 
