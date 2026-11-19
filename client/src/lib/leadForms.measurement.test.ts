@@ -2,6 +2,7 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 import { submitToWeb3Forms } from "./leadForms";
 import {
   ADS_LEAD_FORM_SEND_TO,
+  classifySubmitError,
   deliverLeadEvents,
   LEAD_EVENT,
   planSubmission,
@@ -46,11 +47,16 @@ describe("mocked inquiry endpoint", () => {
     vi.unstubAllGlobals();
   });
 
-  it("posts only to Web3Forms and records provider acceptance without lead success", async () => {
+  it("posts JSON to /api/inquiry and records queue acceptance without lead success", async () => {
     fetchMock.mockImplementation((url: string) => {
-      expect(String(url)).toBe("https://api.web3forms.com/submit");
-      expect(String(url)).not.toContain("/api/inquiry");
-      return jsonResponse(200, { success: true, message: "Sent to ada@example.com" });
+      expect(String(url)).toBe("/api/inquiry");
+      expect(String(url)).not.toContain("web3forms");
+      return jsonResponse(200, {
+        success: true,
+        reference: "inq_accept",
+        inquiry_mode: "durable_queue",
+        message: "queued for ada@example.com",
+      });
     });
     vi.stubGlobal("fetch", fetchMock);
 
@@ -62,10 +68,13 @@ describe("mocked inquiry endpoint", () => {
       subject: "Quote",
     });
     const { planned, gtag } = measure(result.acknowledgement);
+    const requestBody = JSON.parse(String(fetchMock.mock.calls[0]?.[1]?.body));
 
+    expect(requestBody).not.toHaveProperty("access_key");
+    expect(requestBody.email).toBe("ada@example.com");
     expect(result.acknowledgement).toEqual({
       acknowledged: true,
-      acceptanceType: "form_provider",
+      acceptanceType: "queue",
       deliveryConfirmed: false,
     });
     expect(planned.events.map((event) => event.name)).toEqual([LEAD_EVENT.inquiryAccepted]);
@@ -73,8 +82,7 @@ describe("mocked inquiry endpoint", () => {
     expect(JSON.stringify(gtag.mock.calls)).not.toContain("ada@");
     expect(JSON.stringify(gtag.mock.calls)).not.toContain("555");
     expect(JSON.stringify(gtag.mock.calls)).not.toContain("Need a quote");
-    const requestBody = JSON.parse(String(fetchMock.mock.calls[0]?.[1]?.body));
-    expect(requestBody.email).toBe("ada@example.com");
+    expect(JSON.stringify(gtag.mock.calls)).not.toContain("inq_accept");
   });
 
   it("classifies a mocked durable-queue acknowledgement without calling it delivered", async () => {
@@ -124,11 +132,15 @@ describe("mocked inquiry endpoint", () => {
     fetchMock.mockResolvedValueOnce(jsonResponse(422, { success: false, message: "bad email ada@example.com" }));
     await expect(submitToWeb3Forms({ email: "ada@example.com" })).rejects.toMatchObject({ errorClass: "rejected" });
 
-    fetchMock.mockRejectedValueOnce(Object.assign(new Error("timed out"), { name: "AbortError" }));
-    await expect(submitToWeb3Forms({ email: "ada@example.com" })).rejects.toMatchObject({ errorClass: "timeout" });
+    const abortError = Object.assign(new Error("The operation was aborted"), { name: "AbortError" });
+    fetchMock.mockRejectedValueOnce(abortError);
+    await expect(submitToWeb3Forms({ email: "ada@example.com" })).rejects.toBe(abortError);
+    expect(classifySubmitError(abortError)).toBe("timeout");
 
-    fetchMock.mockRejectedValueOnce(new TypeError("Failed to fetch"));
-    await expect(submitToWeb3Forms({ email: "ada@example.com" })).rejects.toMatchObject({ errorClass: "network" });
+    const networkError = new TypeError("Failed to fetch");
+    fetchMock.mockRejectedValueOnce(networkError);
+    await expect(submitToWeb3Forms({ email: "ada@example.com" })).rejects.toBe(networkError);
+    expect(classifySubmitError(networkError)).toBe("network");
 
     fetchMock.mockResolvedValueOnce(jsonResponse(200, { success: true, inquiry_mode: "durable_queue" }));
     await expect(submitToWeb3Forms({ email: "ada@example.com" })).rejects.toMatchObject({
@@ -149,7 +161,7 @@ describe("mocked inquiry endpoint", () => {
         action: { type: "failed", formId: "contact_page", pagePath: "/contact", errorClass: "network" },
       });
       state = failed.state;
-      expect(error).toMatchObject({ errorClass: "network" });
+      expect(classifySubmitError(error)).toBe("network");
       expect(failed.events.map((event) => event.name)).toEqual([LEAD_EVENT.inquiryFailed]);
     }
 

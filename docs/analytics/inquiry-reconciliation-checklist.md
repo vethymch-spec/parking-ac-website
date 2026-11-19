@@ -1,10 +1,10 @@
 # Inquiry client reconciliation checklist
 
-Status: waiting for the sanitized snapshot of the authoritative local source.
+Status: client submit path now matches the sanitized snapshot. The queue server is still absent from that archive, so full-stack reconciliation is not complete.
 
-No production rollout is authorized. Do not merge, publish, change DNS, or change Google Analytics or Google Ads admin settings. Do not submit a live inquiry. Do not invent the missing `/api/inquiry` server or replace the current queue client with Web3Forms.
+No production rollout is authorized. Do not merge, publish, change DNS, or change Google Analytics or Google Ads admin settings. Do not submit a live inquiry. Do not invent the missing `/api/inquiry` server.
 
-The GitHub branch still posts to Web3Forms. That routing is the known divergence. It stays only until the snapshot arrives. It must not be written back over the queue client.
+The attached snapshot checksum matched `b6c5ebc166274a22358d36c2b64241e93fa8138f24725d039c898cce6ebe3c78` (250 files). Its `client/src/lib/leadForms.ts` posts JSON to `/api/inquiry`, aborts after 30 seconds, and accepts the attempt only when `success` and `reference` are both present. The supplemental `netlify.toml` checksum matched the file already in this repo. `AGENTS.md` says production publish is `python3 scripts/publish-tencent.py` using `operations/active-tencent-release.json`. That script and the `operations` directory were not in the archive. No server handler for `/api/inquiry` was in `server/`, `workers/`, or `netlify/functions`. `netlify/functions/form-submission.js` is a separate URL-encoded Zoho redirect handler, not this JSON queue. The native APU form action is restored to `/api/inquiry` with no access key. Its browser navigation is not measured as a delivered lead.
 
 ## What is already known, and what is not
 

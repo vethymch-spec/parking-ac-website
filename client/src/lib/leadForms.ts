@@ -23,14 +23,12 @@ const cleanEnvValue = (value: unknown) => {
   return trimmed;
 };
 
-// This GitHub snapshot still posts to Web3Forms. Production's built client
-// (checked 2026-11-19) posts to same-origin /api/inquiry and requires
-// success plus a reference. Do not retarget this function onto that route
-// from here: the queue server is not in this repository, and the local
-// source of truth was not available to merge against.
+// The function name is historical. The authoritative local client posts to
+// the same-origin durable inquiry endpoint and does not call Web3Forms.
+// The queue server itself is not in the supplied source snapshot.
 //
-// Default Web3Forms access key (registered to info@vethy.com) so lead forms
-// work even when VITE_WEB3FORMS_KEY is missing from the build environment.
+// Default Web3Forms access key remains exported because existing forms still
+// read WEB3FORMS_KEY before opening a mail draft. It is not sent to /api/inquiry.
 const WEB3FORMS_FALLBACK_KEY = "875b555f-eafa-4844-960d-403c3f9ed0ce";
 
 export const WEB3FORMS_KEY = cleanEnvValue(import.meta.env.VITE_WEB3FORMS_KEY) || WEB3FORMS_FALLBACK_KEY;
@@ -78,37 +76,29 @@ export const buildLeadEmailBody = (fields: LeadFields) =>
 
 const SUBMIT_TIMEOUT_MS = 30_000;
 
-export const submitToWeb3Forms = async (fields: LeadFields): Promise<InquirySubmitResult> => {
-  if (!WEB3FORMS_KEY) {
-    throw new InquirySubmitError("unavailable", "Lead endpoint unavailable");
-  }
+const responseMessage = (result: Record<string, unknown>) =>
+  typeof result.message === "string" && result.message.trim() ? result.message : "Submission could not be confirmed";
 
+export const submitToWeb3Forms = async (fields: LeadFields): Promise<InquirySubmitResult> => {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), SUBMIT_TIMEOUT_MS);
 
   try {
-    let response: Response;
-    try {
-      response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ access_key: WEB3FORMS_KEY, ...fields }),
-        signal: controller.signal,
-      });
-    } catch (error) {
-      const name = typeof error === "object" && error !== null && "name" in error ? String((error as { name?: unknown }).name) : "";
-      if (name === "AbortError") throw new InquirySubmitError("timeout", "Submission timed out");
-      throw new InquirySubmitError("network", "Submission could not be sent");
-    }
-
+    const response = await fetch("/api/inquiry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(fields),
+      signal: controller.signal,
+    });
     const result = await response.json().catch(() => ({} as Record<string, unknown>));
-    if (!response.ok || !result.success) {
-      throw new InquirySubmitError("rejected", "Submission was rejected");
+    const reference = typeof result.reference === "string" ? result.reference.trim() : "";
+    if (!response.ok || result.success !== true || !reference) {
+      throw new InquirySubmitError(response.ok && result.success === true ? "unconfirmed" : "rejected", responseMessage(result));
     }
 
     const acknowledgement = classifyInquiryAcknowledgement(result);
     if (!acknowledgement.acknowledged) {
-      throw new InquirySubmitError("unconfirmed", "Submission could not be confirmed");
+      throw new InquirySubmitError("unconfirmed", responseMessage(result));
     }
 
     return { acknowledgement };
