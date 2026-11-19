@@ -26,11 +26,10 @@ const transport = (overrides: Partial<AnalyticsTransport> = {}): AnalyticsTransp
 const names = (events: { name: string }[]) => events.map((event) => event.name);
 
 describe("inquiry acknowledgement classification", () => {
-  it("treats a Web3Forms success as provider acceptance, not delivery", () => {
-    expect(classifyInquiryAcknowledgement({ success: true, message: "Email sent to ada@example.com" })).toEqual({
-      acknowledged: true,
-      acceptanceType: "form_provider",
-      deliveryConfirmed: false,
+  it("does not acknowledge success when the server receipt is missing", () => {
+    expect(classifyInquiryAcknowledgement({ success: true, ok: true, message: "Email sent to ada@example.com" })).toEqual({
+      acknowledged: false,
+      reason: "unconfirmed",
     });
   });
 
@@ -69,10 +68,11 @@ describe("inquiry acknowledgement classification", () => {
   it("does not treat the word delivered inside a message as confirmed delivery", () => {
     expect(classifyInquiryAcknowledgement({
       success: true,
+      reference: "inq_words",
       message: "Your inquiry was delivered to ada@example.com",
     })).toEqual({
       acknowledged: true,
-      acceptanceType: "form_provider",
+      acceptanceType: "queue",
       deliveryConfirmed: false,
     });
   });
@@ -102,13 +102,13 @@ describe("lead event plans", () => {
         type: "acknowledged",
         formId: "contact_page",
         pagePath,
-        acknowledgement: classifyInquiryAcknowledgement({ success: true }),
+        acknowledgement: classifyInquiryAcknowledgement({ success: true, reference: "inq_once", queued: true, email: false }),
       },
     });
 
     expect(names(first.events)).toEqual([LEAD_EVENT.inquiryAccepted]);
     expect(first.events[0]?.params).toMatchObject({
-      acceptance_type: "form_provider",
+      acceptance_type: "queue",
       delivery_confirmed: "false",
       lead_stage: "accepted_not_delivered",
       site: "cooldrivepro",
@@ -121,7 +121,7 @@ describe("lead event plans", () => {
         type: "acknowledged",
         formId: "contact_page",
         pagePath,
-        acknowledgement: classifyInquiryAcknowledgement({ success: true }),
+        acknowledgement: classifyInquiryAcknowledgement({ success: true, reference: "inq_once", queued: true, email: false }),
       },
     });
     expect(second.events).toEqual([]);

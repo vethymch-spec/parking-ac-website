@@ -75,9 +75,11 @@ Checksum `9a9b9c6e25c9d3fcaa94e35380656f11b5036f9dfed13c782ad22e5f86c28cc2`. `se
 
 The browser bundle `leadForms-B6bQ4-Nb.js` posts JSON to `/api/inquiry` with `Accept: application/json`, a 30 second abort, and requires `success` and `reference`. This branch does the same. The proven 202 body is classified as `inquiry_accepted` with `delivery_confirmed=false`.
 
-## Still required from a sanitized copy
+## Inquiry module, sanitized copy checked offline
 
-`cooldrivepro-inquiry.mjs` only. It contains `readCooldriveLead`, `handleCooldriveInquiry`, and `cooldriveReceiptHtml`. Without it, validation errors, rejected fields, and the native form's HTML confirmation cannot be proven. A copy with recipient addresses replaced by placeholders is sufficient. `deploy.server.py` and `verify.mjs` are not needed for the client contract.
+SHA256 `b787a46a736cb4b13c2b6fe48b6353312ca5d54a706e0ba2712d626009f00685`, 3987 bytes. The original file was not modified or transferred. The module was not added to this repository, and its placeholder address is not used as configuration.
+
+Checked with stubbed storage and no network: GET returns 405; a foreign origin returns 403; an unsupported body and an invalid email return 400 and do not store; a honeypot rejection does not store; a valid JSON post stores once, strips `access_key`, and the handler's own 200 body has `success: true` but no `reference`. The HTML receipt is status 202, says the enquiry has been received, and escapes the reference. The composed JSON response remains HTTP 202 with `queued: true` and `email: false`. That is queue acceptance, not delivery. Success without `reference` is not acknowledged.
 
 ## External checks that remain blocked
 

@@ -219,6 +219,26 @@ describe("mocked inquiry endpoint", () => {
     expect(repeated.events).toEqual([]);
   });
 
+  it("does not acknowledge handler errors from the inquiry module", async () => {
+    vi.stubGlobal("fetch", fetchMock);
+    const cases = [
+      [405, { success: false, message: "Method not allowed." }],
+      [403, { success: false, message: "Please use the form on cooldrivepro.com." }],
+      [400, { success: false, message: "Please enter a valid email address." }],
+      [400, { success: false, message: "Please check your enquiry details." }],
+      [503, { success: false, message: "unavailable" }],
+      [200, { ok: true, success: true }],
+    ];
+    for (const [status, body] of cases) {
+      fetchMock.mockResolvedValueOnce(jsonResponse(status, body));
+      await expect(submitToWeb3Forms({ email: "buyer@fleet.test", message: "hello" })).rejects.toBeTruthy();
+    }
+    const gtag = vi.fn();
+    deliverLeadEvents([], { hostname: "cooldrivepro.com", consent: "unset", gtag, debug: [] });
+    expect(gtag).not.toHaveBeenCalled();
+    expect(JSON.stringify(cases)).not.toContain("generate_lead");
+  });
+
   it("does not call gtag when consent is denied or the tag is blocked", async () => {
     fetchMock.mockResolvedValue(jsonResponse(200, { success: true, reference: "inq_blocked", inquiry_mode: "durable_queue" }));
     vi.stubGlobal("fetch", fetchMock);

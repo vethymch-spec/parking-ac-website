@@ -38,7 +38,7 @@ export type SubmitErrorClass = "timeout" | "network" | "rejected" | "unconfirmed
 
 export type InquiryAcknowledgement =
   | { acknowledged: false; reason: "rejected" | "unconfirmed" }
-  | { acknowledged: true; acceptanceType: "form_provider" | "queue"; deliveryConfirmed: false }
+  | { acknowledged: true; acceptanceType: "queue"; deliveryConfirmed: false }
   | { acknowledged: true; acceptanceType: "delivered"; deliveryConfirmed: true };
 
 export type PlannedEvent = {
@@ -148,8 +148,9 @@ export const classifyInquiryAcknowledgement = (body: unknown): InquiryAcknowledg
     return { acknowledged: false, reason: "rejected" };
   }
 
-  if (body.email === false || body.queued === true) {
-    if (!hasReference(body)) return { acknowledged: false, reason: "unconfirmed" };
+  if (!hasReference(body)) return { acknowledged: false, reason: "unconfirmed" };
+
+  if (body.email === false || body.queued === true || isQueueResponse(body)) {
     return { acknowledged: true, acceptanceType: "queue", deliveryConfirmed: false };
   }
 
@@ -157,12 +158,7 @@ export const classifyInquiryAcknowledgement = (body: unknown): InquiryAcknowledg
     return { acknowledged: true, acceptanceType: "delivered", deliveryConfirmed: true };
   }
 
-  if (isQueueResponse(body) || hasReference(body)) {
-    if (!hasReference(body)) return { acknowledged: false, reason: "unconfirmed" };
-    return { acknowledged: true, acceptanceType: "queue", deliveryConfirmed: false };
-  }
-
-  return { acknowledged: true, acceptanceType: "form_provider", deliveryConfirmed: false };
+  return { acknowledged: true, acceptanceType: "queue", deliveryConfirmed: false };
 };
 
 export const readAnalyticsConsent = (dataLayer: unknown[] | undefined): AnalyticsConsent => {
@@ -229,7 +225,6 @@ const acceptanceEvents = (
   const formParams = baseParams(pagePath, { form_id: formId });
 
   switch (acknowledgement.acceptanceType) {
-    case "form_provider":
     case "queue":
       return [
         event(
