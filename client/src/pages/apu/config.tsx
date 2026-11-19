@@ -52,7 +52,7 @@ const PAGE_NAV: PageNavBlock = {
     { label: "APU Builder", href: "/apu/builder/" },
     { label: "ROI Calculator", href: "/apu/roi-calculator/" },
     { label: "Compliance Map", href: "/apu/compliance/" },
-    { label: "Compare vs TriPac", href: "/apu/compare/" },
+    { label: "Parking AC products", href: "/products/" },
     { label: "Case Studies", href: "/apu/case-studies/" },
     { label: "R&D", href: "/apu/r-and-d/" },
     { label: "Install", href: "/apu/install/" },
@@ -89,14 +89,14 @@ const CTA_FORM = {
 const HUB: ApuPageConfig = {
   slug: "",
   path: "/apu/",
-  title: "Modular Truck APU System for No-Idle Cooling, Cabin Power and Backup Energy | CoolDrivePro",
-  description: "CoolDrivePro builds a modular truck APU — one integrated stack of parking AC, LiFePO4 battery, inverter and parking generator for no-idle cooling, cabin power and backup energy on semi sleeper cabs and heavy-duty trucks.",
+  title: "Modular Truck APU for No-Idle Cooling and Cabin Power | CoolDrivePro",
+  description: "Modular truck APU with parking AC, LiFePO4 battery, inverter and generator for no-idle sleeper-cab cooling. Compare battery or hybrid options, then configure a system.",
   breadcrumb: "APU Solutions",
   blocks: [
     {
       kind: "hero",
       eyebrow: "Modular Parking APU System",
-      title: "Modular Truck APU System for No-Idle Cooling, Cabin Power and Backup Energy.",
+      title: "Modular truck APU for no-idle cooling and cabin power",
       subtitle: "Your truck engine should not run all night just to keep the cab livable. CoolDrivePro combines parking AC, LiFePO4 battery, inverter, and parking generator into one integrated APU — sized for the way you actually park.",
       video: {
         src: "/videos/apu-system-demo.mp4",
@@ -108,7 +108,7 @@ const HUB: ApuPageConfig = {
         { label: "Fuel saved / yr", value: "1,800gal" },
         { label: "Modules", value: "8" },
       ],
-      primaryCta: { label: "Build my APU", href: "/apu/builder/" },
+      primaryCta: { label: "Configure a truck APU", href: "/apu/builder/" },
       secondaryCta: { label: "See how it works", href: "/apu/how-it-works/" },
     },
     { kind: "pageNav", ...PAGE_NAV },
@@ -220,7 +220,7 @@ const HUB: ApuPageConfig = {
       intro: "SEO-grade explainers that link back to product configurations.",
       items: [
         { title: "What is a truck APU?", href: "/apu/what-is-a-truck-apu/" },
-        { title: "Battery APU vs diesel APU", href: "/apu/compare/" },
+        { title: "Electric and hybrid APU options", href: "/apu/hybrid/" },
         { title: "Parking AC vs APU — what's the real difference?", href: "/apu/what-is-a-truck-apu/" },
         { title: "Parking generator vs battery APU", href: "/apu/hybrid/" },
         { title: "How to size an APU battery", href: "/apu/r-and-d/" },
@@ -414,22 +414,22 @@ const HOW_IT_WORKS: ApuPageConfig = {
 const ELECTRIC: ApuPageConfig = {
   slug: "electric",
   path: "/apu/electric/",
-  title: "Electric APU (Battery APU) for Trucks — Zero-Idle, Zero-Emission | CoolDrivePro",
-  description: "All-electric APU: LiFePO4 battery + DC parking AC + pure-sine inverter. 8–10 h runtime, zero emissions, silent, compliant in all 50 states.",
+  title: "Electric APU for Trucks | Battery-Powered No-Idle HVAC | CoolDrivePro",
+  description: "A battery-electric truck APU option for sleeper-cab cooling and heating without burning diesel. Compare other APU options, then configure a system or request a quote.",
   breadcrumb: "Electric APU",
   blocks: [
     {
       kind: "hero",
       eyebrow: "Battery APU · eAPU",
-      title: "Sleep 8–10 hours, engine off, zero emissions.",
-      subtitle: "Our most popular configuration. LiFePO4 storage, electric-compressor parking AC, pure-sine inverter, smart charger. Compliant in every anti-idling state.",
+      title: "Electric APU for trucks: battery-powered no-idle HVAC",
+      subtitle: "A battery-electric truck APU option for sleeper-cab cooling and heating without burning diesel. The sections below describe the equipment on this page.",
       stats: [
         { label: "Runtime", value: "8–10h" },
         { label: "Emissions", value: "Zero" },
         { label: "Noise", value: "< 35 dB" },
       ],
-      primaryCta: { label: "Build my electric APU", href: "/apu/builder/" },
-      secondaryCta: { label: "See full BOM", href: "/apu/how-it-works/" },
+      primaryCta: { label: "Configure a truck APU", href: "/apu/builder/" },
+      secondaryCta: { label: "Modular truck APU overview", href: "/apu/" },
     },
     { kind: "pageNav", ...PAGE_NAV },
     {
@@ -581,15 +581,17 @@ const HYBRID: ApuPageConfig = {
 const BUILDER: ApuPageConfig = {
   slug: "builder",
   path: "/apu/builder/",
-  title: "Build Your Truck APU — Custom Configuration Tool | CoolDrivePro",
-  description: "Configure your APU step by step: truck type, parking pattern, modules. Get a BOM and runtime estimate.",
+  title: "Truck APU Builder: Configure Your No-Idle System | CoolDrivePro",
+  description: "Walk through APU options by truck type, sleeper layout, climate and runtime needs to specify a battery, diesel or hybrid no-idle system.",
   breadcrumb: "APU Builder",
   blocks: [
     {
       kind: "hero",
       eyebrow: "Build your APU",
-      title: "Tell us how you park. We'll spec the system.",
-      subtitle: "Four steps — truck, pattern, modules, result. We email back a BOM, a wiring diagram, and a runtime estimate.",
+      title: "Configure a truck APU for your no-idle system",
+      subtitle: "Walk through APU options by truck type, sleeper layout, climate and runtime needs. The form on this page sends the request to the same inquiry queue.",
+      primaryCta: { label: "Modular truck APU overview", href: "/apu/" },
+      secondaryCta: { label: "Electric APU for trucks", href: "/apu/electric/" },
     },
     { kind: "pageNav", ...PAGE_NAV },
     {

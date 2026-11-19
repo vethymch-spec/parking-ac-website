@@ -17,16 +17,21 @@
     <link rel="preload" as="image" href="/images/products/vx3000-split-outdoor-unit-01.webp" fetchpriority="high" />
     <link rel="preload" as="image" href="/images/products/vs02pro/vs02pro-01-hero.webp" fetchpriority="high" />
 
-    <!-- Google tag: queue events immediately, load the vendor script after the critical render. -->
+    <!-- Google tag: production hosts only. Preview, localhost, and tests do not load G-1ETBFY8C9H. -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'AW-18126437861');
-      gtag('config', 'G-1ETBFY8C9H');
-
       (function () {
+        var host = (window.location && window.location.hostname || "").toLowerCase();
+        var production = host === "cooldrivepro.com" || host === "www.cooldrivepro.com";
+        window.__cdpMeasurementMode = production ? "production" : "preview";
+        window.dataLayer = window.dataLayer || [];
+        if (!production) return;
+
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'AW-18126437861');
+        gtag('config', 'G-1ETBFY8C9H');
+
         var loaded = false;
         var fallbackTimer;
 
@@ -56,73 +61,6 @@
         });
       })();
     </script>
-
-    <!-- Event snippet for 提交潜在客户表单 conversion page -->
-    <script>
-      (function () {
-        var sendTo = 'AW-18126437861/LTqWCOzCqKQcEOX7rcND';
-        var triggered = false;
-
-        function fireConversion() {
-          if (triggered || typeof gtag !== 'function') return;
-          triggered = true;
-          window.__coolDriveProGoogleAdsConversions = window.__coolDriveProGoogleAdsConversions || {};
-          if (!window.__coolDriveProGoogleAdsConversions[sendTo]) {
-            gtag('event', 'conversion', { 'send_to': sendTo });
-            window.__coolDriveProGoogleAdsConversions[sendTo] = true;
-          }
-        }
-
-        function scanForSuccessMessage() {
-          if (triggered || !document.body) return false;
-          var divs = document.querySelectorAll('div');
-          for (var index = 0; index < divs.length; index += 1) {
-            var div = divs[index];
-            if (div.textContent && div.textContent.includes('Thank you for reaching out.') && div.offsetParent !== null) {
-              fireConversion();
-              return true;
-            }
-          }
-          return false;
-        }
-
-        window.addEventListener('load', function () {
-          if (scanForSuccessMessage() || typeof MutationObserver === 'undefined' || !document.body) return;
-
-          var observer = new MutationObserver(function () {
-            if (scanForSuccessMessage()) {
-              observer.disconnect();
-              clearTimeout(stopTimer);
-            }
-          });
-          var stopTimer = setTimeout(function () {
-            observer.disconnect();
-          }, 120000);
-
-          observer.observe(document.body, { childList: true, subtree: true, characterData: true });
-        });
-      })();
-    </script>
-
-      <!-- Event snippet for UPDE conversion -->
-      <script>
-        window.addEventListener('load', function (event) {
-          document.querySelectorAll('[type="submit"]').forEach(function (i) {
-            i.addEventListener('click', function () {
-          var email = '';
-          document.querySelectorAll('[type="email"]').forEach(function (e) {
-            if (e.value != "") {
-              email = e.value;
-            }
-          });
-              if (email != '') {
-                gtag('set', 'user_data', { "email": email });
-                gtag('event', 'conversion', { 'send_to': 'AW-18126437861' });
-              }
-            });
-          });
-        });
-      </script>
 
     <!-- ===== PRIMARY SEO META TAGS ===== -->
     <title>12V/24V Parking Air Conditioner — Cool 8+ Hours, Engine Off | CoolDrivePro</title>
@@ -286,7 +224,18 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6575db15d9774daa8fac892abe1f256a"}'></script><!-- End Cloudflare Web Analytics -->
+    <!-- Cloudflare Web Analytics: production hosts only, same existing token. -->
+    <script>
+      (function () {
+        var host = (window.location && window.location.hostname || "").toLowerCase();
+        if (host !== "cooldrivepro.com" && host !== "www.cooldrivepro.com") return;
+        var script = document.createElement("script");
+        script.defer = true;
+        script.src = "https://static.cloudflareinsights.com/beacon.min.js";
+        script.setAttribute("data-cf-beacon", '{"token": "6575db15d9774daa8fac892abe1f256a"}');
+        document.body.appendChild(script);
+      })();
+    </script>
   </body>
 
 </html>

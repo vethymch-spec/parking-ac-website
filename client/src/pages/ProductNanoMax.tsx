@@ -889,7 +889,13 @@ const MERGED_CSS = `
 .tmb2b-root .quick-proof { display: grid; gap: 8px; margin-top: 18px; }
 .tmb2b-root .quick-proof li { display: flex; gap: 8px; color: #34465a; font-size: 13px; }
 .tmb2b-root .quick-proof li::before { content: ""; width: 8px; height: 8px; margin-top: 7px; border-radius: 50%; background: var(--green); flex: 0 0 auto; }
-.tmb2b-root .inline-form { margin-top: 18px; }
+.tmb2b-root .inline-form { margin-top: 18px; min-width: 0; max-width: 100%; }
+.tmb2b-root .right-col,
+.tmb2b-root .quote-card { min-width: 0; }
+.tmb2b-root .inline-form form,
+.tmb2b-root .inline-form form > div { min-width: 0; grid-template-columns: minmax(0, 1fr); }
+.tmb2b-root .inline-form input,
+.tmb2b-root .inline-form textarea { min-width: 0; width: 100%; max-width: 100%; }
 .tmb2b-root .microcopy { margin-top: 12px; color: #667587; font-size: 12px; }
 
 .tmb2b-root .product-hero {

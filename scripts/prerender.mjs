@@ -376,8 +376,8 @@ function metaFor(p, lang) {
 const APU_PAGE_META = {
   '/apu': {
     en: {
-      title: 'Modular Truck APU System for No-Idle Cooling, Cabin Power and Backup Energy | CoolDrivePro',
-      desc: 'CoolDrivePro builds a modular truck APU — one integrated stack of parking AC, LiFePO4 battery, inverter and parking generator for no-idle cooling, cabin power and backup energy on semi sleeper cabs and heavy-duty trucks. Compare Cooling, Battery, Comfort Power and Hybrid APU kits.',
+      title: 'Modular Truck APU for No-Idle Cooling and Cabin Power | CoolDrivePro',
+      desc: 'Modular truck APU with parking AC, LiFePO4 battery, inverter and generator for no-idle sleeper-cab cooling. Compare battery or hybrid options, then configure a system.',
       langs: [DEFAULT_LANG],
     },
   },
@@ -397,8 +397,8 @@ const APU_PAGE_META = {
   },
   '/apu/electric': {
     en: {
-      title: 'Electric APU for Trucks: Battery-Powered No-Idle HVAC | CoolDrivePro',
-      desc: 'Battery-electric truck APU runtime, charging, payload impact, retrofit cost and CARB/EPA compliance for sleeper-cab cooling and heating without burning diesel.',
+      title: 'Electric APU for Trucks | Battery-Powered No-Idle HVAC | CoolDrivePro',
+      desc: 'A battery-electric truck APU option for sleeper-cab cooling and heating without burning diesel. Compare other APU options, then configure a system or request a quote.',
       langs: [DEFAULT_LANG],
     },
   },
@@ -419,7 +419,7 @@ const APU_PAGE_META = {
   '/apu/builder': {
     en: {
       title: 'Truck APU Builder: Configure Your No-Idle System | CoolDrivePro',
-      desc: 'Walk through APU options by truck type, sleeper layout, climate and runtime needs to spec a battery, diesel or hybrid no-idle system that actually fits.',
+      desc: 'Walk through APU options by truck type, sleeper layout, climate and runtime needs to specify a battery, diesel or hybrid no-idle system.',
       langs: [DEFAULT_LANG],
     },
   },
@@ -536,7 +536,7 @@ const SHIPPING = {
 
 const PRODUCT_SCHEMA = {
   '/products/top-mounted-ac': {
-    name: 'CoolDrivePro VS02 PRO 12V/24V 12000 BTU Rooftop Parking AC',
+    name: 'VS02 PRO 12V/24V rooftop parking air conditioner',
     description: 'The CoolDrivePro VS02 PRO is a 12V parking air conditioner and 24V parking air conditioner on one rooftop platform — a self-contained DC parking air conditioner and battery powered air conditioner that delivers 12,000 BTU/h no-idle cooling for semi trucks, RVs, vans, campers and fleet vehicles. As a true rooftop parking air conditioner, it runs from the vehicle battery instead of shore power or engine idling, using a DC dual rotary compressor, undervoltage protection and \u226445 dB quiet operation.',
     image: [
       'https://cooldrivepro.com/images/products/vs02pro-top-mounted.webp',
@@ -554,7 +554,7 @@ const PRODUCT_SCHEMA = {
     ],
   },
   '/products/mini-split-ac': {
-    name: 'CoolDrivePro VX3000SP 12V/24V 12000 BTU Mini Split Parking AC',
+    name: 'VX3000SP 12V/24V mini split parking air conditioner',
     description: 'The CoolDrivePro VX3000SP is a 12V/24V DC mini split parking air conditioner for semi sleeper cabs, RVs, vans and campers. 12,000 BTU/h no-idle cooling with a quiet \u226432 dB indoor unit, GMCC twin-rotary inverter compressor and split-system fitment support.',
     image: ['https://cooldrivepro.com/images/products/vx3000-split-outdoor-unit-01.webp'],
     sku: 'VX3000SP', mpn: 'VX3000SP-12V24V',
@@ -907,6 +907,16 @@ function seoLinksFor(pathname) {
     { href: '/products/mini-split-ac/', title: 'VX3000SP Mini Split Parking AC', body: 'A split truck parking AC option for sleeper cabs and buyers prioritizing lower indoor noise.' },
   ];
   const byPath = {
+    '/products/top-mounted-ac': [
+      { href: '/products/mini-split-ac/', title: 'VX3000SP mini split parking AC', body: 'Split-system parking AC for sleeper cabs when a rooftop unit is not the fit.' },
+      { href: '/products/', title: 'Parking AC products', body: 'Rooftop, mini split, heating and cooling, and compact parking AC models.' },
+      { href: '/apu/', title: 'Modular truck APU', body: 'No-idle cooling and cabin power when the question is an auxiliary power unit, not only a parking AC.' },
+    ],
+    '/products/mini-split-ac': [
+      { href: '/products/top-mounted-ac/', title: 'VS02 PRO rooftop parking AC', body: 'Self-contained 12V/24V rooftop parking air conditioner.' },
+      { href: '/products/', title: 'Parking AC products', body: 'Compare the parking AC lineup before requesting fitment.' },
+      { href: '/solutions/truck-ac/', title: 'Truck AC buyer guide', body: 'Route truck, sleeper, and no-idle cooling questions before choosing a model.' },
+    ],
     '/solutions/12v-air-conditioner': [
       { href: '/solutions/12v-rv-air-conditioner/', title: '12V RV Air Conditioner', body: 'Battery-powered RV, camper, motorhome, and caravan cooling guidance.' },
       { href: '/solutions/12v-air-conditioner-for-van/', title: '12V Air Conditioner for Van', body: 'Compact DC cooling for camper vans, cargo vans, and service vans.' },
@@ -961,8 +971,14 @@ function seoLinksFor(pathname) {
   return byPath[pathname] || defaults;
 }
 
+function visibleHeading(meta, pathname) {
+  if (pathname === '/products/top-mounted-ac') return 'VS02 PRO 12V/24V rooftop parking air conditioner';
+  if (pathname === '/products/mini-split-ac') return 'VX3000SP 12V/24V mini split parking air conditioner';
+  return meta.title;
+}
 function renderVisibleSeoBody(meta, lang, pathname, crumbs) {
   const links = seoLinksFor(pathname);
+  const heading = visibleHeading(meta, pathname);
   const isProduct = Boolean(PRODUCT_SCHEMA[pathname]);
   const label = isProduct ? 'Product focus' : 'SEO focus';
   const factoryTrust = pathname === '/products/top-mounted-ac' ? renderProductFactoryTrustSection() : '';
@@ -971,7 +987,7 @@ function renderVisibleSeoBody(meta, lang, pathname, crumbs) {
   const checklist = isProduct
     ? ['Confirm 12V or 24V vehicle power before ordering.', 'Check roof opening, mounting space, and service access.', 'Match cooling capacity to cab, RV, van, or fleet duty cycle.']
     : ['Use the exact vehicle or buyer intent as the page focus.', 'Compare voltage, runtime, installation format, and support path.', 'Move buyers toward the closest product or quote page with internal links.'];
-  return `<main style="min-height:100vh;background:#fff;color:#0f172a;font-family:Inter,Arial,sans-serif"><section style="border-bottom:1px solid #e2e8f0;background:#f8fafc"><div style="max-width:1120px;margin:0 auto;padding:40px 16px 44px">${crumbs}<p style="margin:0 0 12px;color:#1d4ed8;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em">${escText(label)}</p><h1 style="margin:0;max-width:840px;font-family:Montserrat,Arial,sans-serif;font-size:clamp(32px,5vw,50px);line-height:1.08;font-weight:800;color:#020617">${escText(meta.title)}</h1><p style="margin:18px 0 0;max-width:780px;color:#475569;font-size:18px;line-height:1.65">${escText(meta.desc)}</p><div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:24px"><a href="/contact/" style="display:inline-flex;min-height:46px;align-items:center;justify-content:center;border-radius:8px;background:#2563eb;color:#fff;text-decoration:none;padding:12px 18px;font-weight:800;font-size:14px">Get model recommendation</a><a href="/products/" style="display:inline-flex;min-height:46px;align-items:center;justify-content:center;border-radius:8px;border:1px solid #cbd5e1;background:#fff;color:#0f172a;text-decoration:none;padding:12px 18px;font-weight:800;font-size:14px">Compare products</a></div></div></section>${factoryTrust}${keywordClusters}${procurementPath}<section style="max-width:1120px;margin:0 auto;padding:34px 16px"><h2 style="margin:0 0 16px;font-family:Montserrat,Arial,sans-serif;font-size:24px;line-height:1.2;color:#020617">Best next pages for this search</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">${links.map(link => `<a href="${escAttr(link.href)}" style="display:block;border:1px solid #e2e8f0;border-radius:8px;padding:18px;text-decoration:none;color:#0f172a;background:#fff"><strong style="display:block;margin-bottom:8px;font-family:Montserrat,Arial,sans-serif;font-size:16px;color:#020617">${escText(link.title)}</strong><span style="display:block;color:#475569;font-size:14px;line-height:1.55">${escText(link.body)}</span></a>`).join('')}</div></section><section style="background:#f8fafc;border-top:1px solid #e2e8f0"><div style="max-width:1120px;margin:0 auto;padding:32px 16px 44px"><h2 style="margin:0 0 14px;font-family:Montserrat,Arial,sans-serif;font-size:24px;line-height:1.2;color:#020617">Buying checks</h2><ul style="margin:0;padding-left:20px;color:#334155;line-height:1.8;font-size:15px">${checklist.map(item => `<li>${escText(item)}</li>`).join('')}</ul></div></section></main>`;
+  return `<main style="min-height:100vh;background:#fff;color:#0f172a;font-family:Inter,Arial,sans-serif"><section style="border-bottom:1px solid #e2e8f0;background:#f8fafc"><div style="max-width:1120px;margin:0 auto;padding:40px 16px 44px">${crumbs}<p style="margin:0 0 12px;color:#1d4ed8;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em">${escText(label)}</p><h1 style="margin:0;max-width:840px;font-family:Montserrat,Arial,sans-serif;font-size:clamp(32px,5vw,50px);line-height:1.08;font-weight:800;color:#020617">${escText(heading)}</h1><p style="margin:18px 0 0;max-width:780px;color:#475569;font-size:18px;line-height:1.65">${escText(meta.desc)}</p><div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:24px"><a href="/contact/" style="display:inline-flex;min-height:46px;align-items:center;justify-content:center;border-radius:8px;background:#2563eb;color:#fff;text-decoration:none;padding:12px 18px;font-weight:800;font-size:14px">Get model recommendation</a><a href="/products/" style="display:inline-flex;min-height:46px;align-items:center;justify-content:center;border-radius:8px;border:1px solid #cbd5e1;background:#fff;color:#0f172a;text-decoration:none;padding:12px 18px;font-weight:800;font-size:14px">Compare products</a></div></div></section>${factoryTrust}${keywordClusters}${procurementPath}<section style="max-width:1120px;margin:0 auto;padding:34px 16px"><h2 style="margin:0 0 16px;font-family:Montserrat,Arial,sans-serif;font-size:24px;line-height:1.2;color:#020617">Best next pages for this search</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">${links.map(link => `<a href="${escAttr(link.href)}" style="display:block;border:1px solid #e2e8f0;border-radius:8px;padding:18px;text-decoration:none;color:#0f172a;background:#fff"><strong style="display:block;margin-bottom:8px;font-family:Montserrat,Arial,sans-serif;font-size:16px;color:#020617">${escText(link.title)}</strong><span style="display:block;color:#475569;font-size:14px;line-height:1.55">${escText(link.body)}</span></a>`).join('')}</div></section><section style="background:#f8fafc;border-top:1px solid #e2e8f0"><div style="max-width:1120px;margin:0 auto;padding:32px 16px 44px"><h2 style="margin:0 0 14px;font-family:Montserrat,Arial,sans-serif;font-size:24px;line-height:1.2;color:#020617">Buying checks</h2><ul style="margin:0;padding-left:20px;color:#334155;line-height:1.8;font-size:15px">${checklist.map(item => `<li>${escText(item)}</li>`).join('')}</ul></div></section></main>`;
 }
 
 const APU_HUB_RUNTIME_ROWS = [
@@ -997,6 +1013,33 @@ function renderApuHubExtra() {
   const sourcesHTML = APU_HUB_SOURCES.map(({ title, href, note }) => `<li><a href="${escAttr(href)}" rel="nofollow noopener" target="_blank">${escText(title)}</a> — <span>${escText(note)}</span></li>`).join('');
   return `<section aria-labelledby="apu-runtime"><h2 id="apu-runtime">How long a modular truck APU runs on battery</h2><p>Reference runtime for a CoolDrivePro Battery APU Kit (24V / 200Ah LiFePO4 + 12,000 BTU parking AC). Real runtime depends on cab insulation, set-point and fan speed.</p><table><thead><tr><th scope="col">Condition</th><th scope="col">Battery runtime</th></tr></thead><tbody>${runtimeRows}</tbody></table></section><section aria-labelledby="apu-sources"><h2 id="apu-sources">Sources for idle, fuel and regulation claims</h2><p>We anchor cost, idle-hour and state-rule numbers on this page to public government and industry data so fleet buyers can verify them.</p><ul>${sourcesHTML}</ul></section><section aria-labelledby="apu-faq"><h2 id="apu-faq">Truck APU — frequently asked questions</h2>${faqHTML}</section>`;
 }
+const APU_VISIBLE_H1 = {
+  '/apu': 'Modular truck APU for no-idle cooling and cabin power',
+  '/apu/electric': 'Electric APU for trucks: battery-powered no-idle HVAC',
+  '/apu/builder': 'Configure a truck APU for your no-idle system',
+};
+function renderApuCrawlLinks(pathname) {
+  const sets = {
+    '/apu': [
+      ['/apu/electric/', 'Electric APU for trucks'],
+      ['/apu/hybrid/', 'Hybrid APU for trucks'],
+      ['/apu/builder/', 'Configure a truck APU'],
+    ],
+    '/apu/electric': [
+      ['/apu/', 'Modular truck APU'],
+      ['/apu/hybrid/', 'Hybrid APU for trucks'],
+      ['/apu/builder/', 'Configure a truck APU'],
+    ],
+    '/apu/builder': [
+      ['/apu/', 'Modular truck APU'],
+      ['/apu/electric/', 'Electric APU for trucks'],
+      ['/apu/hybrid/', 'Hybrid APU for trucks'],
+    ],
+  };
+  const links = sets[pathname];
+  if (!links) return '';
+  return `<nav aria-label="Related APU pages"><ul>${links.map(([href, label]) => `<li><a href="${href}">${escText(label)}</a></li>`).join('')}</ul></nav>`;
+}
 function renderStaticBody(meta, lang, p) {
   const crumbs = p && p !== '/' ? crumbsHTML([
     { name: 'Home', url: localizedUrl(lang, '/') },
@@ -1008,8 +1051,9 @@ function renderStaticBody(meta, lang, p) {
   if (lang === DEFAULT_LANG && (COMMERCIAL_HUB_META[p] || PRODUCT_SCHEMA[p])) {
     return renderVisibleSeoBody(meta, lang, p, crumbs);
   }
-  if (lang === DEFAULT_LANG && p === '/apu') {
-    return `<main>${crumbs}<h1>${escText(meta.title)}</h1><p>${escText(meta.desc)}</p>${renderApuHubExtra()}</main>`;
+  if (lang === DEFAULT_LANG && (p === '/apu' || p === '/apu/electric' || p === '/apu/builder')) {
+    const extra = p === '/apu' ? renderApuHubExtra() : '';
+    return `<main>${crumbs}<h1>${escText(APU_VISIBLE_H1[p] || meta.title)}</h1><p>${escText(meta.desc)}</p>${renderApuCrawlLinks(p)}${extra}</main>`;
   }
   return `<main>${crumbs}<h1>${escText(meta.title)}</h1><p>${escText(meta.desc)}</p></main>`;
 }

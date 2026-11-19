@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react";
 import { Loader2 } from "lucide-react";
-import { trackGoogleAdsConversion } from "@/lib/googleAds";
+import { createSubmissionId, recordInquiryAcknowledgement, recordInquiryFailure, recordMailtoFallback } from "@/lib/leadAnalytics";
 import { buildLeadEmailBody, collectLeadAttribution, submitToWeb3Forms, WEB3FORMS_KEY } from "@/lib/leadForms";
 
 interface CompactInquiryFormProps {
@@ -44,30 +44,28 @@ export default function CompactInquiryForm({
 
     for (const [key, value] of formData.entries()) payload[key] = String(value);
 
+    const submissionId = createSubmissionId();
+    const formId = "compact_inquiry";
+    const openMailDraft = () => {
+      window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
+    };
+
     try {
       if (!WEB3FORMS_KEY) {
-        window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
-        setSubmitted(true);
-        trackGoogleAdsConversion("lead", {
-          lead_variant: "compact_inquiry",
-          source_page: source,
-          submission_method: "mailto_fallback",
-        });
+        recordMailtoFallback({ submissionId, formId });
+        openMailDraft();
+        setError("We could not confirm the request online. A pre-filled email draft has opened; send it to complete your request.");
         return;
       }
 
-      await submitToWeb3Forms(payload);
+      const result = await submitToWeb3Forms(payload);
+      recordInquiryAcknowledgement({ submissionId, formId, acknowledgement: result.acknowledgement });
       setSubmitted(true);
-      trackGoogleAdsConversion("lead", {
-        lead_variant: "compact_inquiry",
-        source_page: source,
-        submission_method: "web3forms",
-      });
-    } catch (err) {
-      const fallbackBody = buildLeadEmailBody(payload);
-      window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(fallbackBody)}`;
-      setSubmitted(true);
-      setError(err instanceof Error ? err.message : "Submission failed. Email fallback opened.");
+    } catch (error) {
+      recordInquiryFailure({ submissionId, formId, error });
+      recordMailtoFallback({ submissionId, formId });
+      openMailDraft();
+      setError("We could not confirm the request online. A pre-filled email draft has opened; send it to complete your request.");
     } finally {
       setSubmitting(false);
     }
@@ -81,7 +79,6 @@ export default function CompactInquiryForm({
     return (
       <div className={`rounded-lg border border-emerald-200 bg-emerald-50 p-5 ${className}`}>
         <p className="text-sm font-bold text-emerald-800">{successMessage}</p>
-        {error ? <p className="mt-2 text-xs text-emerald-700">Email fallback opened in your mail app.</p> : null}
       </div>
     );
   }
@@ -92,7 +89,7 @@ export default function CompactInquiryForm({
         <h2 className="text-lg font-extrabold tracking-normal text-slate-950">{title}</h2>
         <p className="mt-1 text-sm leading-6 text-slate-600">{subtitle}</p>
       </div>
-      <form onSubmit={onSubmit} className="grid gap-3">
+      <form onSubmit={onSubmit} className="grid gap-3" data-lead-form="true" data-form-id="compact_inquiry">
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           <input
             name="email"
@@ -136,6 +133,7 @@ export default function CompactInquiryForm({
           {submitting ? <Loader2 size={16} className="mr-2 animate-spin" /> : null}
           {submitting ? "Sending..." : "Send request"}
         </button>
+        {error ? <p className="text-xs text-red-700">{error}</p> : null}
       </form>
     </div>
   );

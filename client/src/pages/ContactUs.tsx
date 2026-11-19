@@ -5,7 +5,7 @@ import { ChevronRight, Mail, Clock, MessageCircle, Loader2, MapPin, Phone } from
 import { toast } from "sonner";
 import PageLayout from "@/components/PageLayout";
 import { useSEO } from "@/hooks/useSEO";
-import { trackGoogleAdsConversion } from "@/lib/googleAds";
+import { createSubmissionId, recordInquiryAcknowledgement, recordInquiryFailure, recordMailtoFallback } from "@/lib/leadAnalytics";
 import { buildLeadEmailBody, collectLeadAttribution, submitToWeb3Forms, WEB3FORMS_KEY } from "@/lib/leadForms";
 
 const companyAddress = {
@@ -230,21 +230,23 @@ export default function ContactUs() {
       window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(payload.subject)}&body=${encodeURIComponent(buildLeadEmailBody(payload))}`;
       toast.error("We could not send your request online. A pre-filled email draft has opened; send it to complete your request.");
     };
-    
+
+    const submissionId = createSubmissionId();
+    const formId = "contact_page";
+
     try {
       if (!WEB3FORMS_KEY) {
+        recordMailtoFallback({ submissionId, formId });
         openMailDraftFallback();
         return;
       }
-      await submitToWeb3Forms(payload);
+      const result = await submitToWeb3Forms(payload);
+      recordInquiryAcknowledgement({ submissionId, formId, acknowledgement: result.acknowledgement });
       setSubmitted(true);
-      trackGoogleAdsConversion("contact_form", {
-        form_name: "contact",
-        lead_source: "contact_page",
-        submission_method: "web3forms",
-      });
       toast.success(t('contact.form.success'));
-    } catch {
+    } catch (error) {
+      recordInquiryFailure({ submissionId, formId, error });
+      recordMailtoFallback({ submissionId, formId });
       openMailDraftFallback();
     } finally {
       setSending(false);
@@ -351,9 +353,11 @@ export default function ContactUs() {
               </p>
             </div>
           ) : (
-            <form 
+            <form
               onSubmit={handleSubmit}
               className="space-y-5"
+              data-lead-form="true"
+              data-form-id="contact_page"
             >
               <h2 className="text-xl font-extrabold mb-2" style={{ color: "oklch(0.25 0.10 250)", fontFamily: "'Montserrat', sans-serif" }}>{t('contact.sendMessage')}</h2>
               <p className="text-xs mb-4" style={{ color: "oklch(0.50 0.05 250)", fontFamily: "'Inter', sans-serif" }}>

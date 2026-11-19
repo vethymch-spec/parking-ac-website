@@ -1,4 +1,20 @@
+import { classifyInquiryAcknowledgement, type InquiryAcknowledgement, type SubmitErrorClass } from "./leadMeasurement";
+
 type LeadFields = Record<string, string>;
+
+export class InquirySubmitError extends Error {
+  errorClass: SubmitErrorClass;
+
+  constructor(errorClass: SubmitErrorClass, message: string) {
+    super(message);
+    this.name = "InquirySubmitError";
+    this.errorClass = errorClass;
+  }
+}
+
+export type InquirySubmitResult = {
+  acknowledgement: InquiryAcknowledgement;
+};
 
 const cleanEnvValue = (value: unknown) => {
   if (typeof value !== "string") return "";
@@ -7,8 +23,12 @@ const cleanEnvValue = (value: unknown) => {
   return trimmed;
 };
 
-// Default Web3Forms access key (registered to info@vethy.com) so lead forms
-// work even when VITE_WEB3FORMS_KEY is missing from the build environment.
+// The function name is historical. The authoritative local client posts to
+// the same-origin durable inquiry endpoint and does not call Web3Forms.
+// The queue server itself is not in the supplied source snapshot.
+//
+// Default Web3Forms access key remains exported because existing forms still
+// read WEB3FORMS_KEY before opening a mail draft. It is not sent to /api/inquiry.
 const WEB3FORMS_FALLBACK_KEY = "875b555f-eafa-4844-960d-403c3f9ed0ce";
 
 export const WEB3FORMS_KEY = cleanEnvValue(import.meta.env.VITE_WEB3FORMS_KEY) || WEB3FORMS_FALLBACK_KEY;
@@ -54,17 +74,35 @@ export const buildLeadEmailBody = (fields: LeadFields) =>
     .map(([key, value]) => `${key}: ${value}`)
     .join("\n");
 
-export const submitToWeb3Forms = async (fields: LeadFields) => {
-  if (!WEB3FORMS_KEY) throw new Error("Web3Forms key is not configured");
+const SUBMIT_TIMEOUT_MS = 30_000;
 
-  const response = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    headers: { "Content-Type": "application/json", Accept: "application/json" },
-    body: JSON.stringify({ access_key: WEB3FORMS_KEY, ...fields }),
-  });
-  const result = await response.json().catch(() => ({} as { success?: boolean; message?: string }));
+const responseMessage = (result: Record<string, unknown>) =>
+  typeof result.message === "string" && result.message.trim() ? result.message : "Submission could not be confirmed";
 
-  if (!response.ok || !result.success) {
-    throw new Error(result.message || "Submission failed");
+export const submitToWeb3Forms = async (fields: LeadFields): Promise<InquirySubmitResult> => {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), SUBMIT_TIMEOUT_MS);
+
+  try {
+    const response = await fetch("/api/inquiry", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(fields),
+      signal: controller.signal,
+    });
+    const result = await response.json().catch(() => ({} as Record<string, unknown>));
+    const reference = typeof result.reference === "string" ? result.reference.trim() : "";
+    if (!response.ok || result.success !== true || !reference) {
+      throw new InquirySubmitError(response.ok && result.success === true ? "unconfirmed" : "rejected", responseMessage(result));
+    }
+
+    const acknowledgement = classifyInquiryAcknowledgement(result);
+    if (!acknowledgement.acknowledged) {
+      throw new InquirySubmitError("unconfirmed", responseMessage(result));
+    }
+
+    return { acknowledgement };
+  } finally {
+    clearTimeout(timer);
   }
 };

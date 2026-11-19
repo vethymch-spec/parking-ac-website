@@ -1,6 +1,6 @@
 import { FormEvent, useEffect, useMemo, useState, type ReactNode } from "react";
 import { useParams } from "wouter";
-import { trackGoogleAdsConversion } from "@/lib/googleAds";
+import { createSubmissionId, recordInquiryAcknowledgement, recordInquiryFailure, recordMailtoFallback } from "@/lib/leadAnalytics";
 import { buildLeadEmailBody, collectLeadAttribution, submitToWeb3Forms, WEB3FORMS_KEY } from "@/lib/leadForms";
 
 type LandingKey = "truck-parking-ac" | "fleet-parking-ac-roi" | "rv-van-12v-ac" | "distributor-parking-ac";
@@ -120,7 +120,7 @@ function useLandingSEO({ title, description, canonical, ogImage, jsonLd }: Landi
   }, [canonical, description, jsonLdText, ogImage, title]);
 }
 
-function LandingShell({ children, onQuoteClick, onWhatsAppClick }: { children: ReactNode; onQuoteClick?: () => void; onWhatsAppClick?: () => void }) {
+function LandingShell({ children, onQuoteClick }: { children: ReactNode; onQuoteClick?: () => void }) {
   return (
     <div className="min-h-screen bg-white text-slate-900">
       <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
@@ -145,7 +145,6 @@ function LandingShell({ children, onQuoteClick, onWhatsAppClick }: { children: R
               href={WHATSAPP_HREF}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={onWhatsAppClick}
               className="hidden min-h-10 items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-bold text-slate-900 transition hover:border-blue-300 hover:bg-blue-50 sm:inline-flex"
             >
               <Icon name="message" className="h-4 w-4 text-blue-600" />
@@ -442,25 +441,18 @@ function LeadForm({ page, formIdPrefix = "landing", compact = false }: { page: L
       fields[key] = String(value);
     }
 
-    const trackLead = (submissionMethod: string) => {
-      trackGoogleAdsConversion("lead", {
-        landing_slug: page.slug,
-        lead_audience: page.conversionAudience,
-        submission_method: submissionMethod,
-      });
-    };
+    const submissionId = createSubmissionId();
+    const formId = `landing_${page.slug}`.replace(/[^a-z0-9_-]/g, "_");
 
     try {
       if (!WEB3FORMS_KEY) throw new Error("Lead endpoint unavailable");
-      await submitToWeb3Forms(fields);
-
+      const result = await submitToWeb3Forms(fields);
+      recordInquiryAcknowledgement({ submissionId, formId, acknowledgement: result.acknowledgement });
       setSubmitted(true);
-      trackLead("web3forms");
-    } catch {
-      const mailto = `mailto:info@vethy.com?subject=${encodeURIComponent(page.formSubject)}&body=${encodeURIComponent(buildLeadEmailBody(fields))}`;
-      trackLead("mailto_fallback");
-      window.location.href = mailto;
-      setSubmitted(true);
+    } catch (error) {
+      recordInquiryFailure({ submissionId, formId, error });
+      recordMailtoFallback({ submissionId, formId });
+      window.location.href = `mailto:info@vethy.com?subject=${encodeURIComponent(page.formSubject)}&body=${encodeURIComponent(buildLeadEmailBody(fields))}`;
       setError("Your email app has opened as a backup submission path.");
     } finally {
       setSending(false);
@@ -475,13 +467,12 @@ function LeadForm({ page, formIdPrefix = "landing", compact = false }: { page: L
           Thank you for reaching out.
         </div>
         <p className="text-sm leading-6">We will review your vehicle and cooling needs and reply with price, model fit, and the next step.</p>
-        {error && <p className="mt-3 text-sm leading-6">{error}</p>}
       </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} className="grid gap-3">
+    <form onSubmit={handleSubmit} className="grid gap-3" data-lead-form="true" data-form-id={`landing_${page.slug}`.replace(/[^a-z0-9_-]/g, "_")}>
       <input type="hidden" name="lead_offer" value="12-hour price and model recommendation" />
       <input type="hidden" name="lead_capture_variant" value={compact ? "compact_hero" : "full_quote"} />
       <div className="rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 text-xs font-semibold leading-5 text-blue-900">
@@ -550,16 +541,11 @@ function LeadForm({ page, formIdPrefix = "landing", compact = false }: { page: L
         {sending ? "Sending..." : "Get price + model recommendation"}
         <Icon name="arrow-right" className="h-4 w-4" />
       </button>
+      {error ? <p className="text-sm leading-6 text-red-700">{error}</p> : null}
       <a
         href={WHATSAPP_HREF}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={() => trackGoogleAdsConversion("whatsapp_click", {
-          landing_slug: page.slug,
-          lead_audience: page.conversionAudience,
-          contact_channel: "whatsapp",
-          link_target: "wa.me",
-        })}
         className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-bold text-slate-900 transition hover:border-blue-300 hover:bg-blue-50"
       >
         <Icon name="message" className="h-4 w-4 text-blue-600" />
@@ -666,19 +652,10 @@ export default function AdLandingPage() {
 
   if (!page) return <UnknownLandingPage />;
 
-  const handleWhatsAppClick = () => {
-    trackGoogleAdsConversion("whatsapp_click", {
-      landing_slug: page.slug,
-      lead_audience: page.conversionAudience,
-      contact_channel: "whatsapp",
-      link_target: "wa.me",
-    });
-  };
-
   const openLeadModal = () => setLeadModalOpen(true);
 
   return (
-    <LandingShell onQuoteClick={openLeadModal} onWhatsAppClick={handleWhatsAppClick}>
+    <LandingShell onQuoteClick={openLeadModal}>
       <nav aria-label="Breadcrumb" className="mx-auto flex max-w-[1280px] items-center gap-1.5 px-4 py-3 text-sm text-slate-500 lg:px-8">
         <a href="/" className="hover:text-blue-700 hover:underline">Home</a>
         <Icon name="chevron-right" className="h-4 w-4" />
@@ -696,7 +673,7 @@ export default function AdLandingPage() {
                 {page.primaryCta}
                 <Icon name="arrow-right" className="h-4 w-4" />
               </button>
-              <a href={WHATSAPP_HREF} target="_blank" rel="noopener noreferrer" onClick={handleWhatsAppClick} className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-bold text-slate-900 transition hover:border-blue-300 hover:bg-blue-50">
+              <a href={WHATSAPP_HREF} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-bold text-slate-900 transition hover:border-blue-300 hover:bg-blue-50">
                 <Icon name="message" className="h-4 w-4 text-blue-600" />
                 {page.secondaryCta}
               </a>
@@ -858,7 +835,7 @@ export default function AdLandingPage() {
               <Icon name="mail" className="h-4 w-4" />
               {page.primaryCta}
             </button>
-            <a href={WHATSAPP_HREF} target="_blank" rel="noopener noreferrer" onClick={handleWhatsAppClick} className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg border border-blue-200 bg-white px-5 py-3 text-sm font-bold text-blue-800 transition hover:border-blue-300 hover:bg-blue-50">
+            <a href={WHATSAPP_HREF} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg border border-blue-200 bg-white px-5 py-3 text-sm font-bold text-blue-800 transition hover:border-blue-300 hover:bg-blue-50">
               <Icon name="message" className="h-4 w-4" />
               WhatsApp
             </a>

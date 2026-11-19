@@ -494,7 +494,7 @@ export function FAQ({ items, ...shell }: FAQBlock) {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Final CTA Form (Custom APU recommendation) — draft, no backend
+// Final CTA Form (Custom APU recommendation)
 // ─────────────────────────────────────────────────────────────
 export interface CtaFormBlock extends SectionShell { title: string; note?: string }
 export function CtaForm({ title, note, ...shell }: CtaFormBlock) {
@@ -512,10 +512,11 @@ export function CtaForm({ title, note, ...shell }: CtaFormBlock) {
         </div>
         <form
           className="md:col-span-3 grid sm:grid-cols-2 gap-3 bg-white rounded-2xl p-6"
-          action="https://api.web3forms.com/submit"
+          action="/api/inquiry"
           method="POST"
+          data-lead-form="true"
+          data-form-id="apu_cta"
         >
-          <input type="hidden" name="access_key" value="875b555f-eafa-4844-960d-403c3f9ed0ce" />
           <input type="hidden" name="subject" value="APU System Inquiry — cooldrivepro.com" />
           <input type="hidden" name="from_name" value="CoolDrivePro APU Form" />
           {[

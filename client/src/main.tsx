@@ -4,6 +4,9 @@ import "@fontsource/montserrat/latin-700.css";
 import "@fontsource/montserrat/latin-800.css";
 import "@fontsource/inter/latin-400.css";
 import "./index.css";
+import { installLeadMeasurement } from "./lib/leadAnalytics";
+
+installLeadMeasurement();
 
 const isLandingPath = () => {
   if (typeof window === "undefined") return false;
